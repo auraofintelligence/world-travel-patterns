@@ -48,10 +48,11 @@ why. That is how the tree grows. Don't add places without a reason.
 STEP 4 · CHECK AND COMMIT
     python scripts/validate.py
     python scripts/due.py
+    python scripts/build_site.py
 Write docs/runs/<DATE>-weekly.md: the places done, every status that changed (old to new) at the top,
 sources that moved, gaps left, and any improvement worth surfacing (a new source, a pattern topic
 that keeps coming up, a better word). Then:
-    git add -A data docs queue patterns
+    git add -A data docs queue patterns site/data
     git commit -m "Weekly place passes <DATE>"
     git push
 Commit only when validate passes. Never commit anything under private/.

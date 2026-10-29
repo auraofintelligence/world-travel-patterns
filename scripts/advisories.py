@@ -34,7 +34,8 @@ def parse_changed(value):
 
 
 def main():
-    today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+    # Brisbane date (UTC+10, no daylight saving), matching every other checked date in the repo.
+    today = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=10)).strftime("%Y-%m-%d")
     raw = fetch(sys.argv[1] if len(sys.argv) > 1 else None)
     previous = json.loads(OUT.read_text(encoding="utf-8"))["destinations"] if OUT.exists() else {}
     destinations = {}

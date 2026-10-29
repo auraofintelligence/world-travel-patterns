@@ -74,6 +74,10 @@ One file per place in `data/vetting/`, named by place id with `/` replaced by `_
 - `checked` is `YYYY-MM-DD`, Brisbane date, never in the future.
 - Activities keep a checked date per activity, under `activities.activities.<id>`.
 
+## Website
+
+The site (root `*.html`, `site/`) reads the repo's data directly; `scripts/build_site.py` writes its index. It never reads `private/`. Hero photographs are openly licensed from Wikimedia Commons and credited in `site/heroes/credits.json`; Luke doesn't want SVG art.
+
 ## Feeds
 
 `data/feeds/` holds dated leads from Luke's other projects (GAJRA Earth Ahead today). They are signals: confirm a date at its source before recording it, and never read an event as permission to attend, speak or film.
@@ -83,6 +87,7 @@ One file per place in `data/vetting/`, named by place id with `/` replaced by `_
 ```text
 python scripts/validate.py
 python scripts/due.py
+python scripts/build_site.py
 ```
 
 Commit only when validation passes. End commit messages with the Claude co-author line.

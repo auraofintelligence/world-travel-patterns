@@ -4,6 +4,10 @@
 
 Every place an Australian passport holder might visit, vetted with the same simple, repeatable patterns: so local laws aren't broken by accident, and local culture is met on its own terms.
 
+## The website
+
+Nine pages on GitHub Pages: home, places, a page for every place, patterns, upcoming, advisories, queue, how it works and a site map linking the related projects. Each page leads with a large, openly licensed photograph (credits on the site map). The site reads the same data the scripts and routines write, so it updates with every commit. Preview locally with `python -m http.server` in this folder, then open `index.html`.
+
 ## What's in it
 
 - **A place tree that keeps growing.** 248 countries, territories and separately travelled jurisdictions form the spine. Underneath sit Australia's 2,088 states, councils, wards and electorates (from [P4A](https://auraofintelligence.github.io/p4a-xyz-cinema/)), the 50 US states and DC, plus islands, island groups, nations and permit zones such as Rapa Nui, Bougainville, the Torres Strait Islands and the APY Lands. That's 2,409 places today, with no upper limit. Each country gets its own folder, so a country broken down to council level is just a bigger folder.

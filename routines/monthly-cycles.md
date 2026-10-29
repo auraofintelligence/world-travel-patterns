@@ -44,6 +44,7 @@ has come up in three or more places; otherwise propose it in the run note.
 STEP 4 · CHECK AND COMMIT
     python scripts/validate.py
     python scripts/due.py
+    python scripts/build_site.py
 Write docs/runs/<DATE>-monthly.md, then commit and push as in the weekly routine.
 
 STEP 5 · REPORT
