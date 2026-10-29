@@ -37,6 +37,9 @@ For each place in the window:
 Read each brief's zone scan. For every zone layer with a lead time, check the latest safe start.
 If a latest safe start is within 14 days, or already passed, put it first in the report.
 Where a flagged zone shows not yet checked, vet zone-requirements for it today.
+Read window_events in private/queue.json: feed events and open doors at the window's places.
+An open door closing before or during the trip, and any event during it, go in the report, with
+the activities check it would need (attending, speaking, filming) and whether that check is done.
 
 STEP 4 · CHECK
     python scripts/validate.py
@@ -44,5 +47,5 @@ If the window shares, commit and push the public vetting as in the weekly routin
 nothing: private/ is gitignored.
 
 STEP 5 · REPORT
-Lead with deadlines: any permit whose latest safe start is near or past. Then the phase, the places
+Lead with deadlines: any permit whose latest safe start is near or past, then open doors closing soon. Then the phase, the places
 vetted, the gaps that remain, and any advice level or rule change touching the window.

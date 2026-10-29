@@ -35,6 +35,8 @@ For each place, work through every pattern listed as due:
 - Local law and culture stack: vet the level you were given, and don't copy a parent's laws down.
 - Culture and protocol: record the place's own published guidance and its own names, in its terms.
   Where nothing is published, the status is ask-locally, with who to ask. Describe; don't lecture.
+- year-ahead and works-and-purpose: read data/feeds for events at the place. A feed entry is a lead;
+  confirm the date at its source before writing it as a year-ahead event, and keep the feed name in sources.
 - Watch items: if the effective date has passed and an official source confirms the new rule,
   update the affected claims and set the item to resolved. Otherwise update its checked date and next step.
 

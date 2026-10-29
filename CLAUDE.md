@@ -74,6 +74,10 @@ One file per place in `data/vetting/`, named by place id with `/` replaced by `_
 - `checked` is `YYYY-MM-DD`, Brisbane date, never in the future.
 - Activities keep a checked date per activity, under `activities.activities.<id>`.
 
+## Feeds
+
+`data/feeds/` holds dated leads from Luke's other projects (GAJRA Earth Ahead today). They are signals: confirm a date at its source before recording it, and never read an event as permission to attend, speak or film.
+
 ## Before committing
 
 ```text

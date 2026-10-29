@@ -30,7 +30,8 @@ STEP 2 · MAP THE CYCLES
   cultural authority. Optional GAJRA Earth thread: local words for joyful, responsible and abundance,
   and ideas that don't translate. Record what the place publishes, in its terms.
 - year-ahead: dated elections, major events and scheduled rule changes for the next twelve months.
-  A date must come from a source.
+  A date must come from a source. Start from data/feeds (GAJRA Earth Ahead lists AI governance
+  events and open doors by place), confirm each at its own source, then search for the rest.
 Same evidence rules as the weekly routine: primary sources, today's DATE only on what you rechecked,
 unknown when you can't establish it.
 

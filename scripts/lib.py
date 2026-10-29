@@ -121,6 +121,39 @@ def applies(pattern, place):
     return True
 
 
+def load_feeds():
+    """Every event from data/feeds/*.json, each tagged with its feed id."""
+    events = []
+    for path in sorted((ROOT / "data/feeds").glob("*.json")):
+        feed = read(path)
+        events += [dict(e, feed=feed["feed"], feed_name=feed["name"]) for e in feed["events"]]
+    return events
+
+
+def event_span(event):
+    """(first day, last day) of an event; a month-only date covers the whole month."""
+    def bound(value, last):
+        if not value:
+            return None
+        if len(value) == 7:
+            year, month = map(int, value.split("-"))
+            if not last:
+                return datetime.date(year, month, 1)
+            nxt = datetime.date(year + month // 12, month % 12 + 1, 1)
+            return nxt - datetime.timedelta(days=1)
+        return parse_date(value)
+    first = bound(event.get("starts"), False)
+    last = bound(event.get("closes") or event.get("ends") or event.get("starts"), True)
+    return first, max(filter(None, [last, first]), default=None)
+
+
+def events_for(places, place_id, events):
+    """Events at the place, its ancestors, anything inside it, or a bloc its country belongs to."""
+    chain = {place_id, *ancestors(places, place_id), *descendants(places, place_id)}
+    spine = place_id.split("/")[0]
+    return [e for e in events if e.get("place") in chain or spine in e.get("members", [])]
+
+
 def is_active(place):
     """Sub-places are dormant until tagged, flagged for a zone scan, or named in a travel window."""
     return place["kind"] in ("country", "territory", "associated", "jurisdiction") or bool(

@@ -6,10 +6,11 @@ Every place an Australian passport holder might visit, vetted with the same simp
 
 ## What's in it
 
-- **A place tree that keeps growing.** 248 countries, territories and separately travelled jurisdictions form the spine. Underneath sit Australia's 2,088 states, councils, wards and electorates (from [P4A](https://auraofintelligence.github.io/p4a-xyz-cinema/)), plus islands, island groups, nations and permit zones such as Rapa Nui, Bougainville, the Torres Strait Islands and the APY Lands. That's 2,359 places today, with no upper limit. Each country gets its own folder, so a country broken down to council level is just a bigger folder.
+- **A place tree that keeps growing.** 248 countries, territories and separately travelled jurisdictions form the spine. Underneath sit Australia's 2,088 states, councils, wards and electorates (from [P4A](https://auraofintelligence.github.io/p4a-xyz-cinema/)), the 50 US states and DC, plus islands, island groups, nations and permit zones such as Rapa Nui, Bougainville, the Torres Strait Islands and the APY Lands. That's 2,409 places today, with no upper limit. Each country gets its own folder, so a country broken down to council level is just a bigger folder.
 - **Thirteen patterns.** Each is one question asked the same way everywhere: advice level, entry, activities, special permit zones, health entry, local law, culture and protocol, culture cycles, seasons and visitor flow, the year ahead, consular reach, money, and works and purpose. See [patterns/README.md](patterns/README.md). Adding a pattern is one file.
 - **Laws and protocols that stack.** A visitor is bound by every level at once. A brief for Minjerribah shows Australia, then Queensland, then Redland City, then the island, each with its own laws and protocols, or "not yet checked".
 - **A special permit zone scan.** It walks down into any flagged zone and up to the country, so a national visa is never mistaken for permission to enter a zone. Each permit's lead time is counted back from the travel date to give a latest safe start.
+- **Feedstock from your other work.** [GAJRA Earth Ahead](https://auraofintelligence.github.io/gajra-earth-claude-build/ahead.html)'s upcoming AI governance events and open doors (62 entries, 31 doors on 30 October 2026) are mapped onto the tree daily. Briefs and the window watch show which fall before or during a trip. See [data/feeds/README.md](data/feeds/README.md).
 - **Honest ages.** Records carried from the earlier [Visa and Activity Atlas](https://auraofintelligence.github.io/Australian-visa-activity-atlas/) keep their original dates, so the queue knows exactly what's stale.
 
 ## How it runs
@@ -20,6 +21,7 @@ Two modes. **Baseline** runs all year and maps each place's laws, seasons, cultu
 | --- | --- | --- | --- |
 | Daily advisories | 06:00 every day | GitHub Actions | Smartraveller levels for every destination; opens an issue when one changes |
 | Weekly source watch | Monday 05:00 | GitHub Actions | Checks every cited page is still there and whether its text changed |
+| Daily feeds | 08:45 every day | GitHub Actions | GAJRA Earth Ahead events and open doors, mapped to places |
 | Monthly calendars | 1st of the month | GitHub Actions | Public holidays for this year and next, for the 204 places the dataset covers |
 | Weekly place passes | Weekly | Claude routine | Vets the next seven places from official sources |
 | Monthly cycles | Monthly | Claude routine | Seasons, moving calendars, festivals, protocols and dated events for 25 places |

@@ -12,8 +12,8 @@ import pathlib
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from lib import (ROOT, PRIVATE, ancestors, applies, descendants, is_active, load_patterns,  # noqa: E402
-                 load_places, load_vetting, parse_date, read, today, write)
+from lib import (ROOT, PRIVATE, ancestors, applies, descendants, event_span, events_for, is_active,  # noqa: E402
+                 load_feeds, load_patterns, load_places, load_vetting, parse_date, read, today, write)
 
 SPINE = ("country", "territory", "associated", "jurisdiction")
 
@@ -153,8 +153,24 @@ def main():
         if w["status"] != "resolved" and (not last or (on - last).days >= w.get("check_every_days", 14)):
             watch_checks.append({"id": w["id"], "what": w["what"], "status": w["status"], "last_checked": w.get("checked")})
     summary["watch_checks"] = len(watch_checks)
+    window_events = []
+    if windows:
+        feeds = load_feeds()
+        for window in windows:
+            start, end = parse_date(window["start"]), parse_date(window["end"])
+            for pid in window["places"]:
+                for e in events_for(places, pid, feeds):
+                    first, last = event_span(e)
+                    if first and first <= end and (last or first) >= on:
+                        window_events.append({"window": window["id"], "place": pid, "title": e["title"], "kind": e["kind"],
+                                              "starts": e["starts"], "closes": e.get("closes"), "feed": e["feed"],
+                                              "during": (last or first) >= start, "url": e.get("source_url")})
+        summary["window_events"] = len(window_events)
     target = PRIVATE / "queue.json" if args.private else ROOT / "queue/due.json"
-    write(target, {"summary": summary, "watch_checks": watch_checks, "queue": queue})
+    body = {"summary": summary, "watch_checks": watch_checks, "queue": queue}
+    if args.private:
+        body["window_events"] = window_events
+    write(target, body)
     print(summary)
 
 
