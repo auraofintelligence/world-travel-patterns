@@ -1,0 +1,217 @@
+{
+ "place": "pt",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Visa-free Schengen short stay for Australians; 90 days in any 180-day period.",
+   "pre_arrival": "Check the Portuguese mission/AIMA, Schengen day count and whether the trip is visitor, remote-worker or local work.",
+   "max_stay": "Use the visitor route for short scouting; D8/D2 and other residence routes take a prepared dossier.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "National visas: general information",
+     "authority": "Portuguese Ministry of Foreign Affairs",
+     "url": "https://vistos.mne.gov.pt/en/national-visas/general-information/type-of-visa",
+     "checked": "2026-08-21",
+     "supports": "national visa categories"
+    },
+    {
+     "title": "Working in Portugal",
+     "authority": "AIMA",
+     "url": "https://aima.gov.pt/pt/trabalhar",
+     "checked": "2026-08-21",
+     "supports": "employment, remote work and work-residence links"
+    },
+    {
+     "title": "Remote professional activity residence",
+     "authority": "AIMA",
+     "url": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-para-o-exercicio-de-atividade-profissional-prestada-de-forma-remota-com-visto-de-residencia",
+     "checked": "2026-08-21",
+     "supports": "D8 remote-worker route"
+    },
+    {
+     "title": "Investment residence authorisation",
+     "authority": "AIMA",
+     "url": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-para-investimento-art-90-o-a",
+     "checked": "2026-08-21",
+     "supports": "investment residence framework"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "PRT-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Visa-free Schengen visitor entry",
+     "detail": "Australians are generally visa-exempt for short Schengen stays.",
+     "next": "Check the current Schengen and Portuguese border requirements.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PRT-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Short-stay business visitor",
+     "detail": "Meetings, negotiations, fairs and conferences can fit a visitor trip where no Portuguese service delivery occurs.",
+     "next": "Carry host letter, event ticket and business purpose.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PRT-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Conference attendance/exhibition route",
+     "detail": "Delegate entry is distinct from paid programme delivery, training or local event work.",
+     "next": "Ask the organiser to label your role and payment.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PRT-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "confirm",
+     "route": "Host classification for invited cultural/academic activity",
+     "detail": "A free talk may be cultural or professional activity depending on host, expenses and duties; visitor entry is not a universal speaker permit.",
+     "next": "Have the host ask AIMA/consulate if the exact event is exempt or needs residence/work permission.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PRT-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "Portuguese work/residence permit or independent activity route",
+     "detail": "Paid speaking, consulting and training can be employment or independent activity and should be documented before arrival.",
+     "next": "Separate one-off event delivery from a local contract or recurring activity.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PRT-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Publisher invitation plus cultural/professional classification",
+     "detail": "Rights meetings may fit business travel; launches, readings, signings, workshops and local book sales can add work and tax obligations.",
+     "next": "List fee, royalties, reimbursement and retail separately.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PRT-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "Academic/research host or local work route",
+     "detail": "A university invitation and an independent commercial workshop are different activity shapes.",
+     "next": "Ask the institution or client to choose the correct visa/residence basis.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PRT-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "specialist",
+     "route": "D8 remote-work residence route",
+     "detail": "AIMA publishes residence for remote professional activity performed for entities outside Portugal, subject to income, accommodation and other evidence.",
+     "next": "Check the current D8 checklist and keep Portuguese clients/local delivery separate.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PRT-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "D2 independent activity, startup or investment residence",
+     "detail": "Portugal offers residence routes for independent activity, entrepreneurship and qualifying investment; AIMA evidence and current programme rules matter.",
+     "next": "Choose D2/startup/investment and build the Portuguese project file.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PRT-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Short business visit; Portuguese operation needs local status",
+     "detail": "Sourcing, negotiation and fairs can be visitor activity; local fulfilment or service delivery may not be.",
+     "next": "State where the contract, invoice and delivery occur.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PRT-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Cultural/work or independent activity route",
+     "detail": "Paid performance, literary appearances and production work need host contracts and the appropriate activity status.",
+     "next": "Have the producer specify venue, fee, royalties and local labour.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PRT-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "Schengen entry plus D8/D2 or host activation",
+     "detail": "Portugal can support a quick arrival and a longer base, but each paid/local activity remains separately classified.",
+     "next": "Build one schedule with foreign remote work, Portuguese work and cultural activity separated.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PRT-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "National visas: general information",
+     "authority": "Portuguese Ministry of Foreign Affairs",
+     "url": "https://vistos.mne.gov.pt/en/national-visas/general-information/type-of-visa",
+     "checked": "2026-08-21",
+     "supports": "national visa categories"
+    },
+    {
+     "title": "Working in Portugal",
+     "authority": "AIMA",
+     "url": "https://aima.gov.pt/pt/trabalhar",
+     "checked": "2026-08-21",
+     "supports": "employment, remote work and work-residence links"
+    },
+    {
+     "title": "Remote professional activity residence",
+     "authority": "AIMA",
+     "url": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-para-o-exercicio-de-atividade-profissional-prestada-de-forma-remota-com-visto-de-residencia",
+     "checked": "2026-08-21",
+     "supports": "D8 remote-worker route"
+    },
+    {
+     "title": "Investment residence authorisation",
+     "authority": "AIMA",
+     "url": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-para-investimento-art-90-o-a",
+     "checked": "2026-08-21",
+     "supports": "investment residence framework"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

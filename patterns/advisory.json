@@ -1,0 +1,35 @@
+{
+ "id": "advisory",
+ "name": "Safety advice level",
+ "layer": "safety",
+ "method": "machine",
+ "question": "What level of advice does the Australian Government currently give?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 1,
+ "sources": [
+  "Smartraveller destinations export"
+ ],
+ "fields": [
+  "level",
+  "published_change"
+ ],
+ "statuses": [
+  "normal",
+  "high-caution",
+  "reconsider",
+  "do-not-travel",
+  "no-separate-advice",
+  "unknown"
+ ],
+ "rules": [
+  "Advice is information for the traveller, never an automatic exclusion.",
+  "Children inherit the parent's level unless Smartraveller publishes a regional level."
+ ],
+ "version": 1
+}

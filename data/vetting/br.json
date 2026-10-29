@@ -1,0 +1,231 @@
+{
+ "place": "br",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Australians need the electronic VIVIS visitor visa for tourism/business; visitor stay is generally up to 90 days, subject to the visa and border decision.",
+   "pre_arrival": "Apply through the official eVisa channel, check the consular jurisdiction and keep a printed copy with the itinerary.",
+   "max_stay": "VIVIS is generally up to 90 days and may be extendable once; active paid work needs a VITEM or residence authorisation.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Electronic visitor visa (e-Visa)",
+     "authority": "Brazilian Ministry of Foreign Affairs",
+     "url": "https://www.gov.br/mre/pt-br/consulado-sao-francisco/electronic-visitor-visa-e-visa",
+     "checked": "2026-08-21",
+     "supports": "Australian eVisa requirement and VIVIS business/tourism"
+    },
+    {
+     "title": "Visitor visa (VIVIS)",
+     "authority": "Brazilian Ministry of Foreign Affairs",
+     "url": "https://www.gov.br/mre/pt-br/consulado-zurique/deutsch/visa-english-1/vivis_en",
+     "checked": "2026-08-21",
+     "supports": "90-day visitor purposes and paid-work prohibition"
+    },
+    {
+     "title": "VITEM V: work",
+     "authority": "Brazilian Consulate-General in Sydney",
+     "url": "https://www.gov.br/mre/pt-br/consulado-sydney/servicos-consulares/visas/types-of-visas/vitem/vitem-v-work",
+     "checked": "2026-08-21",
+     "supports": "sponsor-led work visa"
+    },
+    {
+     "title": "VITEM XIV: digital nomad",
+     "authority": "Brazilian Ministry of Foreign Affairs",
+     "url": "https://www.gov.br/mre/pt-br/embaixada-windhoek/english/consular-services/visas-1/vitem-xiv-digital-nomad",
+     "checked": "2026-08-21",
+     "supports": "foreign-employer remote-work route"
+    },
+    {
+     "title": "Digital nomad information folder",
+     "authority": "Brazilian Ministry of Justice and Public Security",
+     "url": "https://portaldeimigracao.mj.gov.br/images/Informativos_Publica%C3%A7%C3%A3o/FOLDER_INGLES.pdf",
+     "checked": "2026-08-21",
+     "supports": "income and residence evidence"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "BRA-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "VIVIS electronic visitor visa",
+     "detail": "The Foreign Ministry says Australian citizens require an electronic visitor visa for tourism and business, with visitor stays generally up to 90 days.",
+     "next": "Use the official eVisa/VFS route and check the exact visa validity and stay at issue.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BRA-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "VIVIS business visit",
+     "detail": "Meetings, negotiations, site visits and commercial events can fit VIVIS when no paid Brazilian work is performed.",
+     "next": "Carry the Brazilian or foreign company letter and schedule.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BRA-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "VIVIS conference attendance",
+     "detail": "Brazil's visitor guidance includes conferences, seminars and congresses, but visitor status prohibits remunerated employment.",
+     "next": "Keep delegate status distinct from paid delivery.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BRA-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "low",
+     "route": "VIVIS for eligible non-remunerated cultural/academic activity",
+     "detail": "Official guidance includes non-remunerated research, conferences, academic activity and some artistic/cultural purposes, with factual boundaries.",
+     "next": "Have the host state that no Brazilian employment or fee is being provided.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BRA-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "VITEM V work visa/residence authorisation",
+     "detail": "Employment, technical assistance and remunerated work require the work route, generally initiated by the Brazilian sponsor through the Ministry of Justice.",
+     "next": "Get the sponsor to start the MigranteWeb/authorisation process before travel.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BRA-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "VIVIS for rights/attendance; cultural or work VITEM for paid launch",
+     "detail": "A launch with no Brazilian remuneration may be visitor/cultural activity; paid speaking, local employment or retail needs the matching VITEM and tax/customs treatment.",
+     "next": "Separate royalties, fee, expenses, books and local sales.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BRA-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "Research/teaching VITEM or work route",
+     "detail": "Brazil lists temporary visas for research, teaching or extension; commercial training and local employment need the proper authorisation.",
+     "next": "Ask the university or company to lead the exact category.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BRA-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "specialist",
+     "route": "VITEM XIV digital-nomad temporary visa/residence",
+     "detail": "Brazil's published digital-nomad route is for remote work for foreign employers/clients, with no Brazilian employment relationship and current income/funds evidence.",
+     "next": "Use it for foreign work only and check the current one-year/renewal conditions.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BRA-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "Investment or economically/culturally relevant activity residence",
+     "detail": "Brazil publishes temporary visas/residence for investment and activities with economic, social, scientific, technological or cultural relevance.",
+     "next": "Choose investment, startup/company and operating role with a Brazilian sponsor.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BRA-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "VIVIS business; local installation/service needs VITEM V",
+     "detail": "Business meetings and contracts can be visitor activity; technical assistance, installation, maintenance and local fulfilment require work permission.",
+     "next": "Ask whether any hands-on service is happening in Brazil.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BRA-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "VIVIS for eligible non-remunerated activity or cultural VITEM",
+     "detail": "Brazil's visitor guidance includes artistic/sports/cultural activity but prohibits remunerated employment; paid performance has a temporary visa layer.",
+     "next": "Have the producer specify fee, prize, expense support, contract and venue.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BRA-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "eVisa front door plus VIVIS/VITEM split",
+     "detail": "Brazil can handle many purposes, but paid work and foreign remote work use different legal keys.",
+     "next": "Break the itinerary into visitor, local work, cultural work and foreign remote work.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BRA-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Electronic visitor visa (e-Visa)",
+     "authority": "Brazilian Ministry of Foreign Affairs",
+     "url": "https://www.gov.br/mre/pt-br/consulado-sao-francisco/electronic-visitor-visa-e-visa",
+     "checked": "2026-08-21",
+     "supports": "Australian eVisa requirement and VIVIS business/tourism"
+    },
+    {
+     "title": "Visitor visa (VIVIS)",
+     "authority": "Brazilian Ministry of Foreign Affairs",
+     "url": "https://www.gov.br/mre/pt-br/consulado-zurique/deutsch/visa-english-1/vivis_en",
+     "checked": "2026-08-21",
+     "supports": "90-day visitor purposes and paid-work prohibition"
+    },
+    {
+     "title": "VITEM V: work",
+     "authority": "Brazilian Consulate-General in Sydney",
+     "url": "https://www.gov.br/mre/pt-br/consulado-sydney/servicos-consulares/visas/types-of-visas/vitem/vitem-v-work",
+     "checked": "2026-08-21",
+     "supports": "sponsor-led work visa"
+    },
+    {
+     "title": "VITEM XIV: digital nomad",
+     "authority": "Brazilian Ministry of Foreign Affairs",
+     "url": "https://www.gov.br/mre/pt-br/embaixada-windhoek/english/consular-services/visas-1/vitem-xiv-digital-nomad",
+     "checked": "2026-08-21",
+     "supports": "foreign-employer remote-work route"
+    },
+    {
+     "title": "Digital nomad information folder",
+     "authority": "Brazilian Ministry of Justice and Public Security",
+     "url": "https://portaldeimigracao.mj.gov.br/images/Informativos_Publica%C3%A7%C3%A3o/FOLDER_INGLES.pdf",
+     "checked": "2026-08-21",
+     "supports": "income and residence evidence"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

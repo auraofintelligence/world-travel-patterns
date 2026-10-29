@@ -1,0 +1,45 @@
+{
+ "id": "culture-cycles",
+ "name": "Culture cycles",
+ "layer": "cycles",
+ "method": "mixed",
+ "question": "Which public holidays, cultural and religious calendars, festivals and community closures shape access and protocol?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation",
+  "zone",
+  "city",
+  "site"
+ ],
+ "inherit": "stack",
+ "baseline_days": 365,
+ "sources": [
+  "Nager.Date public holiday API (machine, signal)",
+  "national or community calendars"
+ ],
+ "fields": [
+  "public_holidays (machine)",
+  "moving_calendars",
+  "festivals",
+  "closures",
+  "protocol_notes"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "unknown"
+ ],
+ "rules": [
+  "Machine holiday data is a signal; community-declared closures come from the community's own channel.",
+  "Moving calendars (lunar, Islamic, Hindu and others) are re-dated each year."
+ ],
+ "version": 1
+}

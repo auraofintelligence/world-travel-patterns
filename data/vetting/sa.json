@@ -1,0 +1,343 @@
+{
+ "place": "sa",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Tourist eVisa is fast for tourism; business and work are host-led",
+   "pre_arrival": "Use a passport valid for at least six months. If the trip includes meetings, forum participation, speaking, training, performance or delivery, have the Saudi host obtain the matching invitation and visa classification before the traveller applies.",
+   "max_stay": "The tourist eVisa is generally valid for one year, multiple entry, with a maximum stay of three months and no extension. A temporary work visa is 90 days with a possible additional 90 days under the updated rules.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Saudi eVisa terms and conditions",
+     "authority": "Saudi Ministry of Tourism",
+     "url": "https://visa.visitsaudi.com/Home/TermsConditions",
+     "checked": "2026-08-21",
+     "supports": "Australian eligibility, six-month passport, one-year multiple entry, three-month maximum stay and tourism-only work restriction"
+    },
+    {
+     "title": "Request for a commercial visit visa",
+     "authority": "Saudi Ministry of Foreign Affairs",
+     "url": "https://visa.mofa.gov.sa/CommercialVisitVisa/Index",
+     "checked": "2026-08-21",
+     "supports": "Saudi-entity commercial invitation process"
+    },
+    {
+     "title": "Saudi visa services platform",
+     "authority": "Saudi Ministry of Foreign Affairs",
+     "url": "https://visa.mofa.gov.sa/Home/Index2?service_type=1",
+     "checked": "2026-08-21",
+     "supports": "event-visit requests for attendance or participation and host-led invitation categories"
+    },
+    {
+     "title": "Updated temporary-work visa regulation",
+     "authority": "Saudi Ministry of Human Resources and Social Development",
+     "url": "https://www.hrsd.gov.sa/media-center/news/011020241",
+     "checked": "2026-08-21",
+     "supports": "contract, medical insurance, updated governance and additional 90-day extension"
+    },
+    {
+     "title": "Entrepreneur Residency",
+     "authority": "Saudi Premium Residency Center",
+     "url": "https://pr.gov.sa/product-details-entrepreneur-residency",
+     "checked": "2026-08-21",
+     "supports": "entrepreneur residence tiers, investment, ownership and Saudi employment criteria"
+    },
+    {
+     "title": "Updated Investment Law",
+     "authority": "Saudi Ministry of Investment",
+     "url": "https://misa.gov.sa/activities/laws-regulations-copy/",
+     "checked": "2026-08-21",
+     "supports": "foreign-investor registration before investment, commercial registration and further licence sequence"
+    },
+    {
+     "title": "Investor Guide 2026",
+     "authority": "Saudi Ministry of Investment",
+     "url": "https://misa.gov.sa/app/uploads/2026/07/Investor-Guide_13-02_compressed_compressed.pdf",
+     "checked": "2026-08-21",
+     "supports": "entrepreneurial-establishment registration and approved incubator or university support"
+    },
+    {
+     "title": "Submit Withholding Tax Return",
+     "authority": "Zakat, Tax and Customs Authority",
+     "url": "https://www.zatca.gov.sa/en/eServices/Pages/eservices-043.aspx",
+     "checked": "2026-08-21",
+     "supports": "resident-payer withholding obligation for payments to non-residents"
+    },
+    {
+     "title": "Temporary admission using ATA Carnet",
+     "authority": "Zakat, Tax and Customs Authority",
+     "url": "https://www.zatca.gov.sa/en/eServices/Pages/eservices-294.aspx",
+     "checked": "2026-08-21",
+     "supports": "pre-approval and temporary entry of eligible professional or exhibition goods"
+    },
+    {
+     "title": "Entertainment activity and support licences",
+     "authority": "Saudi General Entertainment Authority",
+     "url": "https://www.gea.gov.sa/list-of-licenses/",
+     "checked": "2026-08-21",
+     "supports": "event, live-performance and entertainment licensing layer"
+    },
+    {
+     "title": "Implementing Regulation of the Law of Printed Materials and Publication",
+     "authority": "Saudi Ministry of Media",
+     "url": "https://s3.media.gov.sa/new-mom-portal-prod/s3fs-public/2024-08/%D8%A7%D9%84%D9%84%D8%A7%D9%8A%D9%94%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%20%D9%84%D9%86%D8%B8%D8%A7%D9%85%20%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D9%88%D8%B9%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D9%86%D8%B4%D8%B1_0.pdf",
+     "checked": "2026-08-21",
+     "supports": "Arabic primary regulation for written-publication and import controls"
+    },
+    {
+     "title": "Global Forum on the Ethics of AI",
+     "authority": "UNESCO",
+     "url": "https://www.unesco.org/en/forum-ethics-ai",
+     "checked": "2026-08-21",
+     "supports": "Riyadh forum dates, purpose and themes; no speaking access inferred"
+    },
+    {
+     "title": "Global Forum delegate site",
+     "authority": "UNESCO, SDAIA and ICAIRE",
+     "url": "https://gfeai.icaire.org/en",
+     "checked": "2026-08-21",
+     "supports": "delegate registration and program signal; registration is not a speaker call"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "SAU-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Official Saudi tourist eVisa",
+     "detail": "Australia is on the eligible-country list. The eVisa is normally one-year multiple entry with a maximum stay of three months and is not extendable.",
+     "next": "Apply on the official Visit Saudi portal, carry the issued eVisa and respect its tourism-only purpose.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "SAU-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "conditional",
+     "route": "Saudi-hosted commercial visit visa",
+     "detail": "A Saudi entity requests the commercial visit and documents the purpose. Ordinary business-visit activity does not authorise employment or contracted delivery.",
+     "next": "Have the Saudi company issue the invitation and keep the schedule to negotiations, partner meetings and site visits.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "SAU-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "conditional",
+     "route": "Event visit or commercial visit arranged for attendance and participation",
+     "detail": "Saudi Arabia's visa platform includes an event-visit request for attendance or participation. The organiser must still confirm access and visa support; registration is not permission to speak or work.",
+     "next": "Ask the organiser which event or commercial invitation it will issue and whether delegate accreditation is restricted.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "SAU-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "specialist",
+     "route": "Host-selected event or temporary-work route",
+     "detail": "The tourist eVisa is not a work visa. A public appearance can also engage event licensing and content review even without a fee, so the host should not rely on payment as the boundary.",
+     "next": "Obtain the host's written visa and General Entertainment Authority or venue classification before accepting or announcing the talk.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "SAU-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "specialist",
+     "route": "Temporary work visa and host contract",
+     "detail": "The temporary-work framework supports time-limited contracted work, requires a signed contract and medical insurance, and allows 90 days with a possible further 90 days. A resident payer must apply Saudi withholding tax to qualifying payments to a non-resident at the applicable rate.",
+     "next": "Have the Saudi contracting entity arrange the temporary-work visa, confirm the exact tax category and put fees, flights, hotels and other benefits in the contract.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "SAU-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "specialist",
+     "route": "Host-led work or event route plus licensed Saudi publisher, bookseller and publication review",
+     "detail": "Rights and publisher meetings can use the commercial-visit lane. A reading, launch, promotion or sale is active activity; written publications and imports sit under Saudi publishing rules and local distribution controls.",
+     "next": "Use a Saudi publisher or bookseller to clear the title, handle imports and sales, and coordinate the author appearance and venue approval.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "SAU-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "specialist",
+     "route": "Temporary work visa or continuing employment route through the Saudi host",
+     "detail": "A guest workshop, institutional training or paid lecture is contracted delivery, not tourist activity. The host must also identify any education, professional or event approval for the actual venue and audience.",
+     "next": "Have the university, company or public body specify the teaching format, contract, duration and regulator, then sponsor the correct work route.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "SAU-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "not-fit",
+     "route": "No dedicated Saudi digital-nomad route identified",
+     "detail": "The reviewed tourist eVisa expressly says it is not a work visa. No official visitor permission for routine foreign remote work was identified in this review.",
+     "next": "Do not use the tourist eVisa as a remote-work permission. Obtain a Saudi residence or work route, or written official advice for the exact facts.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "SAU-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "MISA investment registration and company licensing, with Entrepreneur Residency where eligible",
+     "detail": "A foreign investor must register with the Ministry of Investment before investment activity, then obtain commercial registration and sector licences. The Premium Residency entrepreneur product has separate investment-round, ownership and approved-entity evidence; its higher tier links permanent status to substantial investment and Saudi job creation.",
+     "next": "Use the first visit for meetings, obtain incubator or investment support, then map MISA registration, commercial registration, activity licences and Entrepreneur Residency as separate gates.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "SAU-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Commercial visit for negotiations; registered and licensed operation for local delivery",
+     "detail": "Supplier meetings, negotiations and market exploration can use a Saudi-hosted commercial visit. Installation, demonstrations, local selling and contracted services can require temporary work and a licensed Saudi counterparty. ATA Carnet pre-approval is available for eligible temporary goods.",
+     "next": "Appoint a Saudi importer, distributor or event contractor and pre-clear professional equipment or exhibition goods through ZATCA.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "SAU-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "specialist",
+     "route": "Temporary work visa plus promoter and entertainment licences",
+     "detail": "Live performance and entertainment events require the Saudi promoter to use the General Entertainment Authority licensing framework. Artist, support staff, venue, program and content details can all matter.",
+     "next": "Contract through a licensed promoter that confirms temporary-work visas, performance and event licences, content approval, withholding tax and merchandise.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "SAU-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "specialist",
+     "route": "Commercial or event visit for passive components plus temporary work and sector approvals for delivery",
+     "detail": "Meetings, a UNESCO forum, private training, a public keynote, book activity and performance can require different permissions on one itinerary. The tourist eVisa cannot be stretched across the active lines.",
+     "next": "Give one Saudi host or local coordinator a line-by-line activity, payer, venue and content matrix and obtain the invitation, visa and licence for each component.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "SAU-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Saudi eVisa terms and conditions",
+     "authority": "Saudi Ministry of Tourism",
+     "url": "https://visa.visitsaudi.com/Home/TermsConditions",
+     "checked": "2026-08-21",
+     "supports": "Australian eligibility, six-month passport, one-year multiple entry, three-month maximum stay and tourism-only work restriction"
+    },
+    {
+     "title": "Request for a commercial visit visa",
+     "authority": "Saudi Ministry of Foreign Affairs",
+     "url": "https://visa.mofa.gov.sa/CommercialVisitVisa/Index",
+     "checked": "2026-08-21",
+     "supports": "Saudi-entity commercial invitation process"
+    },
+    {
+     "title": "Saudi visa services platform",
+     "authority": "Saudi Ministry of Foreign Affairs",
+     "url": "https://visa.mofa.gov.sa/Home/Index2?service_type=1",
+     "checked": "2026-08-21",
+     "supports": "event-visit requests for attendance or participation and host-led invitation categories"
+    },
+    {
+     "title": "Updated temporary-work visa regulation",
+     "authority": "Saudi Ministry of Human Resources and Social Development",
+     "url": "https://www.hrsd.gov.sa/media-center/news/011020241",
+     "checked": "2026-08-21",
+     "supports": "contract, medical insurance, updated governance and additional 90-day extension"
+    },
+    {
+     "title": "Entrepreneur Residency",
+     "authority": "Saudi Premium Residency Center",
+     "url": "https://pr.gov.sa/product-details-entrepreneur-residency",
+     "checked": "2026-08-21",
+     "supports": "entrepreneur residence tiers, investment, ownership and Saudi employment criteria"
+    },
+    {
+     "title": "Updated Investment Law",
+     "authority": "Saudi Ministry of Investment",
+     "url": "https://misa.gov.sa/activities/laws-regulations-copy/",
+     "checked": "2026-08-21",
+     "supports": "foreign-investor registration before investment, commercial registration and further licence sequence"
+    },
+    {
+     "title": "Investor Guide 2026",
+     "authority": "Saudi Ministry of Investment",
+     "url": "https://misa.gov.sa/app/uploads/2026/07/Investor-Guide_13-02_compressed_compressed.pdf",
+     "checked": "2026-08-21",
+     "supports": "entrepreneurial-establishment registration and approved incubator or university support"
+    },
+    {
+     "title": "Submit Withholding Tax Return",
+     "authority": "Zakat, Tax and Customs Authority",
+     "url": "https://www.zatca.gov.sa/en/eServices/Pages/eservices-043.aspx",
+     "checked": "2026-08-21",
+     "supports": "resident-payer withholding obligation for payments to non-residents"
+    },
+    {
+     "title": "Temporary admission using ATA Carnet",
+     "authority": "Zakat, Tax and Customs Authority",
+     "url": "https://www.zatca.gov.sa/en/eServices/Pages/eservices-294.aspx",
+     "checked": "2026-08-21",
+     "supports": "pre-approval and temporary entry of eligible professional or exhibition goods"
+    },
+    {
+     "title": "Entertainment activity and support licences",
+     "authority": "Saudi General Entertainment Authority",
+     "url": "https://www.gea.gov.sa/list-of-licenses/",
+     "checked": "2026-08-21",
+     "supports": "event, live-performance and entertainment licensing layer"
+    },
+    {
+     "title": "Implementing Regulation of the Law of Printed Materials and Publication",
+     "authority": "Saudi Ministry of Media",
+     "url": "https://s3.media.gov.sa/new-mom-portal-prod/s3fs-public/2024-08/%D8%A7%D9%84%D9%84%D8%A7%D9%8A%D9%94%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%20%D9%84%D9%86%D8%B8%D8%A7%D9%85%20%D8%A7%D9%84%D9%85%D8%B7%D8%A8%D9%88%D8%B9%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D9%86%D8%B4%D8%B1_0.pdf",
+     "checked": "2026-08-21",
+     "supports": "Arabic primary regulation for written-publication and import controls"
+    },
+    {
+     "title": "Global Forum on the Ethics of AI",
+     "authority": "UNESCO",
+     "url": "https://www.unesco.org/en/forum-ethics-ai",
+     "checked": "2026-08-21",
+     "supports": "Riyadh forum dates, purpose and themes; no speaking access inferred"
+    },
+    {
+     "title": "Global Forum delegate site",
+     "authority": "UNESCO, SDAIA and ICAIRE",
+     "url": "https://gfeai.icaire.org/en",
+     "checked": "2026-08-21",
+     "supports": "delegate registration and program signal; registration is not a speaker call"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

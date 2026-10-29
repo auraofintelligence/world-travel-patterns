@@ -1,0 +1,217 @@
+{
+ "place": "tr",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Australian ordinary passports are visa-exempt for touristic visits and transit up to 90 days in any 180-day period; business/work purpose must be checked separately.",
+   "pre_arrival": "Check the Turkish MFA exemption, passport validity, e-visa site and whether the trip is tourism or business/work.",
+   "max_stay": "Tourist/transit entry is the quick key; local work or a longer base uses work/residence permits.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa information for foreigners",
+     "authority": "Republic of Türkiye Ministry of Foreign Affairs",
+     "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+     "checked": "2026-08-21",
+     "supports": "Australian tourism/transit exemption"
+    },
+    {
+     "title": "e-Visa portal",
+     "authority": "Republic of Türkiye",
+     "url": "https://www.evisa.gov.tr/en/",
+     "checked": "2026-08-21",
+     "supports": "official visa application gateway"
+    },
+    {
+     "title": "Directorate General of International Labour Force",
+     "authority": "Turkish Ministry of Labour and Social Security",
+     "url": "https://www.csgb.gov.tr/uigm/en/",
+     "checked": "2026-08-21",
+     "supports": "work permit framework"
+    },
+    {
+     "title": "Residence permit types",
+     "authority": "Presidency of Migration Management",
+     "url": "https://en.goc.gov.tr/residence-permit-types",
+     "checked": "2026-08-21",
+     "supports": "residence categories"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "TUR-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Visa-free touristic/transit entry",
+     "detail": "The Turkish MFA lists Australian ordinary passports as visa-exempt for touristic visits and transit up to 90 days in any 180-day period.",
+     "next": "Do not assume the tourism exemption covers local work or paid speaking.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "TUR-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Business purpose to be confirmed with the Turkish mission",
+     "detail": "The published Australian exemption is worded for touristic visits and transit; meetings, negotiations and trade activities need a purpose-specific check.",
+     "next": "Ask the host/mission whether the planned meetings fit visa-free entry or require a visa.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "TUR-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Conference attendance classification",
+     "detail": "An attendee may be a visitor; exhibitor, speaker, trainer or contractor may need a separate route.",
+     "next": "Get an invitation that names the exact programme role.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "TUR-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "confirm",
+     "route": "Host/consular classification",
+     "detail": "Unpaid lectures, panels and cultural exchange are not automatically covered by tourism entry; duties and host matter.",
+     "next": "Send the full invitation and no-fee/expense arrangement to the Turkish mission.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "TUR-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "Turkish work permit and work visa",
+     "detail": "Paid speaking, consulting, teaching and employment generally need a work permit coordinated with a Turkish employer or host.",
+     "next": "Have the employer/promoter begin the work-permit process before travel.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "TUR-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Visitor for rights; work/cultural route for launch delivery",
+     "detail": "Rights meetings may be business-related, while paid readings, signings, workshops, local sales and merchandise need accurate Turkish treatment.",
+     "next": "Separate author appearance, rights, royalties and retail.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "TUR-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "University/research invitation or work permit",
+     "detail": "Academic exchange and commercial AI teaching have different host and work requirements.",
+     "next": "Ask the institution to state appointment, pay and duration.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "TUR-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "confirm",
+     "route": "No broad dedicated Turkish digital-nomad visa located",
+     "detail": "Türkiye provides residence permits but no simple all-purpose remote-worker route in the official sources used here; foreign work, tax and local clients need confirmation.",
+     "next": "Confirm the residence basis and avoid local Turkish work on visitor entry.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "TUR-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "Company/investment residence plus work permit",
+     "detail": "Forming or investing in a Turkish company does not by itself authorise personal work; operating status and permits are separate.",
+     "next": "Choose investor, company and work roles with Invest in Türkiye and the migration authority.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "TUR-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Purpose-specific business/visa check",
+     "detail": "Trade fairs, negotiations and sourcing may fit a business route, but the touristic exemption wording should not be stretched to active trade delivery.",
+     "next": "Ask the Turkish host to confirm business entry and customs/sales obligations.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "TUR-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Cultural work permit or host-led event route",
+     "detail": "Performance, filming, exhibition and music work need promoter and work-permit classification.",
+     "next": "State venue, producer, fee, royalties, crew and dates.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "TUR-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "Touristic entry plus purpose-specific activation",
+     "detail": "Türkiye is a fast exploratory arrival, while speaking, teaching, trade and performance are host-led activation questions.",
+     "next": "Split tourism, meetings, remote work and local delivery before booking.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "TUR-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa information for foreigners",
+     "authority": "Republic of Türkiye Ministry of Foreign Affairs",
+     "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+     "checked": "2026-08-21",
+     "supports": "Australian tourism/transit exemption"
+    },
+    {
+     "title": "e-Visa portal",
+     "authority": "Republic of Türkiye",
+     "url": "https://www.evisa.gov.tr/en/",
+     "checked": "2026-08-21",
+     "supports": "official visa application gateway"
+    },
+    {
+     "title": "Directorate General of International Labour Force",
+     "authority": "Turkish Ministry of Labour and Social Security",
+     "url": "https://www.csgb.gov.tr/uigm/en/",
+     "checked": "2026-08-21",
+     "supports": "work permit framework"
+    },
+    {
+     "title": "Residence permit types",
+     "authority": "Presidency of Migration Management",
+     "url": "https://en.goc.gov.tr/residence-permit-types",
+     "checked": "2026-08-21",
+     "supports": "residence categories"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

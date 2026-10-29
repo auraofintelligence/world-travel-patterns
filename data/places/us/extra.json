@@ -1,0 +1,44 @@
+{
+ "rule": "Hand and agent additions. A why is a reason to vet, never a finding.",
+ "places": [
+  {
+   "id": "us/hawaii",
+   "name": "Hawaiʻi",
+   "aliases": [
+    "Hawaii"
+   ],
+   "kind": "region",
+   "parent": "us",
+   "tags": [
+    "p4a-oceania",
+    "p4a-native-nations"
+   ],
+   "why": "Oceania chapter."
+  },
+  {
+   "id": "us/papahanaumokuakea",
+   "name": "Papahānaumokuākea",
+   "kind": "zone",
+   "parent": "us/hawaii",
+   "tags": [
+    "p4a-oceania"
+   ],
+   "zone_scan": true,
+   "why": "Flagged for a zone scan: check for extra permits, consents, visitor caps, guides, fees and lead times."
+  },
+  {
+   "id": "us/navajo-nation",
+   "name": "Navajo Nation",
+   "aliases": [
+    "Diné Bikéyah"
+   ],
+   "kind": "nation",
+   "parent": "us",
+   "tags": [
+    "p4a-native-nations"
+   ],
+   "zone_scan": true,
+   "why": "Flagged for a zone scan: check for extra permits, consents, visitor caps, guides, fees and lead times. The nation's own visitor, filming and photography processes."
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "entry",
+ "name": "Entry permission",
+ "layer": "permission",
+ "method": "agent",
+ "question": "Can an Australian passport holder enter, under what status, for how long, and what must be done before arrival?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 90,
+ "sources": [
+  "destination immigration authority",
+  "destination embassy in Australia"
+ ],
+ "fields": [
+  "status",
+  "summary",
+  "max_stay",
+  "pre_arrival",
+  "passport_validity",
+  "next_check"
+ ],
+ "statuses": [
+  "visa-free",
+  "eta-required",
+  "visa-on-arrival",
+  "evisa",
+  "visa-required",
+  "confirm-in-writing",
+  "unknown"
+ ],
+ "rules": [
+  "Primary government sources only for the status. Organiser or airline pages are signals.",
+  "Record pre-arrival steps (arrival cards, e-authorisations) separately from the visa status.",
+  "Skipped for the home country (Australia): an Australian passport holder needs no entry permission there."
+ ],
+ "version": 1,
+ "skip_home": true
+}

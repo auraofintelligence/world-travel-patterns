@@ -1,0 +1,343 @@
+{
+ "place": "ph",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "30 days visa-free",
+   "pre_arrival": "Complete the official eTravel registration within 72 hours before arrival and carry onward travel.",
+   "max_stay": "30 days initially, with published visitor-extension pathways for a longer stay.",
+   "checked": "2026-08-20",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa information for Australians",
+     "authority": "Embassy of the Philippines in Canberra",
+     "url": "https://www.philembassy.org.au/consular/visa",
+     "checked": "2026-08-20",
+     "supports": "30-day visa-free entry"
+    },
+    {
+     "title": "eTravel frequently asked questions",
+     "authority": "Philippine One-Stop Electronic Travel Declaration System",
+     "url": "https://etravel.gov.ph/en/frequently-asked-questions",
+     "checked": "2026-08-20",
+     "supports": "arrival registration window"
+    },
+    {
+     "title": "Bureau of Immigration frequently asked questions",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/faqs/",
+     "checked": "2026-08-20",
+     "supports": "temporary business and longer employment"
+    },
+    {
+     "title": "Special Work Permit checklist",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/wp-content/uploads/pdf/07%20Special%20Permits%20Certifiacte%20%26%20Clearance/SWP_Commercial2020.pdf",
+     "checked": "2026-08-20",
+     "supports": "older category list for lecturers, trainers and consultants with or without compensation"
+    },
+    {
+     "title": "Commercial Special Work Permit",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/services/special-work-permit-commercial/",
+     "checked": "2026-08-20",
+     "supports": "current three-to-six-month duration and application route"
+    },
+    {
+     "title": "Artist and athlete Special Work Permit",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/services/special-work-permit-commercial-2/",
+     "checked": "2026-08-20",
+     "supports": "paid artist and performer route"
+    },
+    {
+     "title": "Executive Order No. 86: Digital Nomad Visa",
+     "authority": "Supreme Court E-Library / Office of the President",
+     "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/98965",
+     "checked": "2026-08-20",
+     "supports": "DNV authority and conditions"
+    },
+    {
+     "title": "Special Investor's Resident Visa FAQ",
+     "authority": "Philippine Board of Investments",
+     "url": "https://www.boi.gov.ph/wp-content/uploads/2023/08/SIRV-FAQ-ao-2023-v.pdf",
+     "checked": "2026-08-20",
+     "supports": "investor age, capital and residence"
+    },
+    {
+     "title": "Pre-arranged Employment Visa 9(g)",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/pre-4-arranged-employment-visa-9g/",
+     "checked": "2026-08-20",
+     "supports": "longer compensated employment route"
+    },
+    {
+     "title": "Alien Employment Regulation",
+     "authority": "Philippine Department of Labor and Employment",
+     "url": "https://ble.dole.gov.ph/alien-employment-regulation/",
+     "checked": "2026-08-20",
+     "supports": "AEP and long-term foreign employment layer"
+    },
+    {
+     "title": "Special Visa for Employment Generation",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/visas/special-visa-for-employment-generation/",
+     "checked": "2026-08-20",
+     "supports": "ten-worker SVEG requirement"
+    },
+    {
+     "title": "Manila International Book Fair",
+     "authority": "Event organiser",
+     "url": "https://www.manilabookfair.com/about",
+     "checked": "2026-08-20",
+     "supports": "publishing opportunity signal"
+    },
+    {
+     "title": "AICon Manila",
+     "authority": "Analytics and AI Association of the Philippines",
+     "url": "https://aicon.aap.ph/",
+     "checked": "2026-08-20",
+     "supports": "AI conference opportunity signal"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "PHL-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "30-day visa-free entry",
+     "detail": "Australian passport holders are on the published visa-free list for tourism or business.",
+     "next": "Complete eTravel in the 72-hour window and carry onward travel.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PHL-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Visa-free temporary business visit",
+     "detail": "Official guidance names meetings, contract negotiations and international conference attendance.",
+     "next": "Keep the visit in the meeting and negotiation lane unless a petitioner activates work permission.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PHL-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Visa-free attendance as a delegate",
+     "detail": "International conference attendance fits temporary business.",
+     "next": "If the organiser adds a talk, workshop or fee, ask them to switch to the speaker route.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PHL-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "confirm",
+     "route": "BI classification required for a sub-three-month appearance; Commercial SWP is a candidate, not a confirmed fit",
+     "detail": "The older official checklist includes lecturers, researchers and trainers with or without compensation, while the current service page states three-to-six-month gainful employment.",
+     "next": "Have the Philippine organiser give BI the exact days, duties and compensation and obtain the route in writing.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PHL-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "confirm",
+     "route": "BI classification required for a sub-three-month tour; Commercial SWP is published for three to six months",
+     "detail": "Consultants, specialists and service suppliers appear in the official material, including offshore payment arrangements, but a day or week engagement falls outside the current page's stated duration.",
+     "next": "Use one Philippine petitioner and get BI's written classification for every city, venue, payment source and duty.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PHL-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "confirm",
+     "route": "BI classification for the active appearance; Philippine publisher or bookseller for sales",
+     "detail": "The lecturer and trainer checklist suggests a possible SWP lane, but a short reading or launch still needs BI confirmation because of the current three-month minimum wording.",
+     "next": "Separate the appearance, rights meetings, royalties and physical sales, then have the host ask BI for the exact route.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PHL-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "confirm",
+     "route": "BI classification for short training; AEP plus 9(g) for longer employment",
+     "detail": "The older SWP checklist covers lecturers and trainers; current Commercial SWP duration starts at three months. Longer Philippine employment uses the labour-permit and pre-arranged employment system.",
+     "next": "Ask the host to classify the dates first, then choose SWP or the AEP and 9(g) sequence.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PHL-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "confirm",
+     "route": "Digital Nomad Visa authorised; operational applications and Australian reciprocity both need confirmation",
+     "detail": "Executive Order 86 authorises a one-year renewable DNV and ties nationality eligibility to reciprocal treatment, but current operational application availability for Australians was not established.",
+     "next": "Ask the Philippine mission to confirm both a live application channel and Australian eligibility.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PHL-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "SIRV or SVEG depending capital and employment generation",
+     "detail": "Investor residence starts at US$75,000 under SIRV; SVEG requires at least ten full-time Filipino workers. A separate startup-visa route was not confirmed as operational.",
+     "next": "Choose capital investment or employment generation before modelling the entity and operating role.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PHL-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Visa-free negotiations first; SEC/DTI and work permissions for local operation",
+     "detail": "Trade meetings and contract negotiation are easy; a local branch, selling operation or management role adds commercial and work layers.",
+     "next": "Keep the first trip to partners, markets and setup choices, then map the entity and operating role.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PHL-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Artist and athlete Special Work Permit",
+     "detail": "The Bureau of Immigration publishes a route for temporary artists and performers appearing before an audience for a fee.",
+     "next": "Have the Philippine promoter petition and list any additional agency approvals.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PHL-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "confirm",
+     "route": "One Philippine lead host plus written BI classification of the complete schedule",
+     "detail": "The candidate SWP categories are useful, but current duration wording prevents assuming that a day or week professional tour fits.",
+     "next": "Choose one organiser to submit all venues, dates, payments and duties to BI.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "PHL-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-20",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa information for Australians",
+     "authority": "Embassy of the Philippines in Canberra",
+     "url": "https://www.philembassy.org.au/consular/visa",
+     "checked": "2026-08-20",
+     "supports": "30-day visa-free entry"
+    },
+    {
+     "title": "eTravel frequently asked questions",
+     "authority": "Philippine One-Stop Electronic Travel Declaration System",
+     "url": "https://etravel.gov.ph/en/frequently-asked-questions",
+     "checked": "2026-08-20",
+     "supports": "arrival registration window"
+    },
+    {
+     "title": "Bureau of Immigration frequently asked questions",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/faqs/",
+     "checked": "2026-08-20",
+     "supports": "temporary business and longer employment"
+    },
+    {
+     "title": "Special Work Permit checklist",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/wp-content/uploads/pdf/07%20Special%20Permits%20Certifiacte%20%26%20Clearance/SWP_Commercial2020.pdf",
+     "checked": "2026-08-20",
+     "supports": "older category list for lecturers, trainers and consultants with or without compensation"
+    },
+    {
+     "title": "Commercial Special Work Permit",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/services/special-work-permit-commercial/",
+     "checked": "2026-08-20",
+     "supports": "current three-to-six-month duration and application route"
+    },
+    {
+     "title": "Artist and athlete Special Work Permit",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/services/special-work-permit-commercial-2/",
+     "checked": "2026-08-20",
+     "supports": "paid artist and performer route"
+    },
+    {
+     "title": "Executive Order No. 86: Digital Nomad Visa",
+     "authority": "Supreme Court E-Library / Office of the President",
+     "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/98965",
+     "checked": "2026-08-20",
+     "supports": "DNV authority and conditions"
+    },
+    {
+     "title": "Special Investor's Resident Visa FAQ",
+     "authority": "Philippine Board of Investments",
+     "url": "https://www.boi.gov.ph/wp-content/uploads/2023/08/SIRV-FAQ-ao-2023-v.pdf",
+     "checked": "2026-08-20",
+     "supports": "investor age, capital and residence"
+    },
+    {
+     "title": "Pre-arranged Employment Visa 9(g)",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/pre-4-arranged-employment-visa-9g/",
+     "checked": "2026-08-20",
+     "supports": "longer compensated employment route"
+    },
+    {
+     "title": "Alien Employment Regulation",
+     "authority": "Philippine Department of Labor and Employment",
+     "url": "https://ble.dole.gov.ph/alien-employment-regulation/",
+     "checked": "2026-08-20",
+     "supports": "AEP and long-term foreign employment layer"
+    },
+    {
+     "title": "Special Visa for Employment Generation",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/visas/special-visa-for-employment-generation/",
+     "checked": "2026-08-20",
+     "supports": "ten-worker SVEG requirement"
+    },
+    {
+     "title": "Manila International Book Fair",
+     "authority": "Event organiser",
+     "url": "https://www.manilabookfair.com/about",
+     "checked": "2026-08-20",
+     "supports": "publishing opportunity signal"
+    },
+    {
+     "title": "AICon Manila",
+     "authority": "Analytics and AI Association of the Philippines",
+     "url": "https://aicon.aap.ph/",
+     "checked": "2026-08-20",
+     "supports": "AI conference opportunity signal"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

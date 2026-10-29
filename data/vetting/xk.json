@@ -1,0 +1,34 @@
+{
+ "place": "xk",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Visa-free for Australian passport holders for up to 90 days in a six-month period.",
+   "checked": "2026-08-20",
+   "evidence": "legacy-baseline",
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "WORLD-KOSOVO-ENTRY"
+   },
+   "note": "First-pass triage carried from Australian World Travel; recheck against the official source.",
+   "sources": [
+    {
+     "title": "Kosovo Ministry of Foreign Affairs visa list",
+     "url": "https://arkivi.mfa-ks.net/en/sherbimet_konsullore/503/kush-ka-nevoj-pr-viza-t-kosovs/503.html",
+     "checked": "2026-08-20"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "daily_cost_aud": null,
+   "visa_cost_signal": "Free",
+   "checked": "2026-08-20",
+   "evidence": "legacy-baseline",
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "WORLD-KOSOVO-COST"
+   }
+  }
+ }
+}

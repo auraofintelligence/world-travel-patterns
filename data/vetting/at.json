@@ -1,0 +1,217 @@
+{
+ "place": "at",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Visa-free Schengen short stay for Australians; 90 days in any 180-day period.",
+   "pre_arrival": "Check Austrian entry rules and the host's province, contract and planned activity.",
+   "max_stay": "Short visitor entry works for scouting and attendance; residence/work routes take longer.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Entry and residence in Austria",
+     "authority": "Austrian Embassy Canberra",
+     "url": "https://www.bmeia.gv.at/en/austrian-embassy-canberra/travel-to-austria/entry-and-residence/",
+     "checked": "2026-08-21",
+     "supports": "Australia-specific entry and residence guidance"
+    },
+    {
+     "title": "Permanent immigration",
+     "authority": "Migration.gv.at",
+     "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/",
+     "checked": "2026-08-21",
+     "supports": "Red-White-Red, startup and key-worker routes"
+    },
+    {
+     "title": "Other forms of settlement",
+     "authority": "Migration.gv.at",
+     "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/other-forms-of-settlement/",
+     "checked": "2026-08-21",
+     "supports": "artist settlement permit"
+    },
+    {
+     "title": "Act Governing the Employment of Foreign Nationals",
+     "authority": "Migration.gv.at",
+     "url": "https://www.migration.gv.at/fileadmin/downloads/gesetzestexte/AuslBG_englisch_1_10_2017.pdf",
+     "checked": "2026-08-21",
+     "supports": "employment and work-permission boundary"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "AUT-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Visa-free Schengen visitor entry",
+     "detail": "Australians are generally visa-exempt for short Schengen visits.",
+     "next": "Check the Austrian mission and the full Schengen itinerary before departure.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "AUT-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Short business visitor",
+     "detail": "Meetings, negotiations and trade-fair attendance can fit a visitor trip when no Austrian work is performed.",
+     "next": "Carry the invitation, schedule and business evidence.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "AUT-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Conference delegate or exhibition visit",
+     "detail": "Attending is distinct from delivering a paid or hands-on programme.",
+     "next": "Ask the host to classify any speaking, teaching or production role.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "AUT-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "confirm",
+     "route": "Host classification; invited teaching/lecturing may have narrow rules",
+     "detail": "Unpaid cultural or academic activity still needs an Austrian work-law check; the settlement permit for artists is a longer route, not a same-day exemption.",
+     "next": "Have the institution or promoter obtain written classification.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "AUT-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "Austrian work authorisation, Red-White-Red or employer permit",
+     "detail": "Paid speaking, consulting and training can be employment or self-employment and must be matched to the work category.",
+     "next": "Let the Austrian engager choose the short assignment or residence route.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "AUT-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Business and cultural route split",
+     "detail": "Rights meetings can be business; public readings, paid talks, signings and local retail need a host-led work/cultural classification.",
+     "next": "Separate literary appearance, publisher business, royalties and sales.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "AUT-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "University/research host or work permit",
+     "detail": "A university convention can support an academic visit; commercial AI training remains active work.",
+     "next": "Ask the institution to state the appointment, pay and duration.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "AUT-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "confirm",
+     "route": "No broad Austrian digital-nomad visa",
+     "detail": "Austria offers residence permits and Red-White-Red categories but no universal remote-worker visa; tax and residence remain distinct.",
+     "next": "Confirm the intended base and foreign-employer arrangement before relying on visitor entry.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "AUT-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "Red-White-Red Card startup founder or self-employed key worker",
+     "detail": "Austria lists startup founders and self-employed key workers; economic benefit, investment, jobs, know-how and qualifications matter.",
+     "next": "Prepare the business plan and evidence against the relevant Red-White-Red category.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "AUT-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Short business visit; local operation requires Austrian status",
+     "detail": "Sourcing, meetings and fairs are visitor-friendly; local fulfilment, installation and sales may require work permission.",
+     "next": "Map the Austrian entity and physical delivery.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "AUT-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Settlement Permit – Artists or event-specific work route",
+     "detail": "Austria publishes a settlement permit for artists covering self-employed or dependent artistic activity, with contract/evidence conditions.",
+     "next": "Have the promoter or employer specify the artistic contract and duration.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "AUT-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "Schengen visit plus Austrian host activation",
+     "detail": "The entry key is simple, while the activation key may be a Red-White-Red, artist, university or work route.",
+     "next": "Give the host one activity-by-activity brief.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "AUT-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Entry and residence in Austria",
+     "authority": "Austrian Embassy Canberra",
+     "url": "https://www.bmeia.gv.at/en/austrian-embassy-canberra/travel-to-austria/entry-and-residence/",
+     "checked": "2026-08-21",
+     "supports": "Australia-specific entry and residence guidance"
+    },
+    {
+     "title": "Permanent immigration",
+     "authority": "Migration.gv.at",
+     "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/",
+     "checked": "2026-08-21",
+     "supports": "Red-White-Red, startup and key-worker routes"
+    },
+    {
+     "title": "Other forms of settlement",
+     "authority": "Migration.gv.at",
+     "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/other-forms-of-settlement/",
+     "checked": "2026-08-21",
+     "supports": "artist settlement permit"
+    },
+    {
+     "title": "Act Governing the Employment of Foreign Nationals",
+     "authority": "Migration.gv.at",
+     "url": "https://www.migration.gv.at/fileadmin/downloads/gesetzestexte/AuslBG_englisch_1_10_2017.pdf",
+     "checked": "2026-08-21",
+     "supports": "employment and work-permission boundary"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

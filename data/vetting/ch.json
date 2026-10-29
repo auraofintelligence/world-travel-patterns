@@ -1,0 +1,217 @@
+{
+ "place": "ch",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Visa-free Schengen short stay for Australians; 90 days in any 180-day period.",
+   "pre_arrival": "Check SEM entry rules, Schengen day count, host canton and whether any days of work are planned.",
+   "max_stay": "Visitor entry is useful for scouting and attendance; local work requires cantonal/federal approval.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa application procedure",
+     "authority": "State Secretariat for Migration",
+     "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/visumantragsverfahren.html",
+     "checked": "2026-08-21",
+     "supports": "Swiss entry and visa framework"
+    },
+    {
+     "title": "Working in Switzerland",
+     "authority": "State Secretariat for Migration",
+     "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit.html",
+     "checked": "2026-08-21",
+     "supports": "work, notification and permit framework"
+    },
+    {
+     "title": "Working in Switzerland",
+     "authority": "Swiss Confederation",
+     "url": "https://www.ch.ch/en/foreign-nationals-in-switzerland/working-in-switzerland/",
+     "checked": "2026-08-21",
+     "supports": "plain-language work guidance"
+    },
+    {
+     "title": "Swiss representation in Australia: entry",
+     "authority": "Federal Department of Foreign Affairs",
+     "url": "https://www.eda.admin.ch/countries/australia/en/home/visa/entry-ch.html",
+     "checked": "2026-08-21",
+     "supports": "Australia-specific consular entry guidance"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "CHE-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Visa-free Schengen visitor entry",
+     "detail": "Australians are generally visa-exempt for short visits under Schengen rules.",
+     "next": "Use SEM and the Swiss mission to check the current border position.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHE-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Short business visitor",
+     "detail": "Meetings, negotiations and congress attendance can fit a short visit; Swiss work law is separate from admission.",
+     "next": "Carry the invitation and keep activity to meetings unless the host confirms work formalities.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHE-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Conference delegate/exhibition visit",
+     "detail": "Attendance and exhibition are not automatically permission to speak, train, install or perform.",
+     "next": "Ask the organiser and canton to classify any programme role.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHE-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "confirm",
+     "route": "Cantonal classification for invited speaking",
+     "detail": "Swiss notification and permit rules can distinguish short assignments, foreign employers and local work. Unpaid does not settle the question.",
+     "next": "Have the host check SEM/cantonal rules for the exact role and days.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHE-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "Cantonal notification or work permit",
+     "detail": "Paid speaking, consulting and teaching may need a notification procedure or permit, depending on duration, employer and nationality/sector.",
+     "next": "Let the Swiss engager lead the cantonal check before dates are public.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHE-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Business visit for rights; cultural/work classification for launch",
+     "detail": "A publisher meeting may be a business visit; readings, signings, workshops and local sales need the host to classify delivery and tax.",
+     "next": "List royalties, fees, expenses, tickets and merchandise separately.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHE-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "University/research invitation or work authorisation",
+     "detail": "Academic exchange can use a host convention, but contracted training is local professional activity.",
+     "next": "Ask the university or company to identify the permit/notification path.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHE-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "confirm",
+     "route": "No broad Swiss digital-nomad visa",
+     "detail": "Switzerland has residence and work permits but no general remote-worker category. Tax residence and Swiss client activity remain distinct.",
+     "next": "Confirm canton, duration and employer/client location before relying on visitor entry.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHE-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "Cantonal self-employed or company/investor residence",
+     "detail": "A founder or independent professional needs cantonal economic-interest and residence approval; this is not an instant visitor conversion.",
+     "next": "Choose the canton and prepare the business, funding and economic-interest case.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHE-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Short business visit; Swiss fulfilment needs work permission",
+     "detail": "Negotiation and sourcing can be visitor activity; installation, sales and delivery in Switzerland may not be.",
+     "next": "Map the Swiss customer, invoice and on-site work.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHE-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Event-specific cultural/work route",
+     "detail": "Performing, filming, exhibiting or touring is fact-dependent and can involve employer/organiser and cantonal permissions.",
+     "next": "Have the promoter specify venue, contract, fee, crew and dates.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHE-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "Schengen visit plus cantonal activation",
+     "detail": "Switzerland is an easy first arrival but not a blank cheque for local delivery.",
+     "next": "Send the schedule to the host canton as one precise activity brief.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHE-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa application procedure",
+     "authority": "State Secretariat for Migration",
+     "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/visumantragsverfahren.html",
+     "checked": "2026-08-21",
+     "supports": "Swiss entry and visa framework"
+    },
+    {
+     "title": "Working in Switzerland",
+     "authority": "State Secretariat for Migration",
+     "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit.html",
+     "checked": "2026-08-21",
+     "supports": "work, notification and permit framework"
+    },
+    {
+     "title": "Working in Switzerland",
+     "authority": "Swiss Confederation",
+     "url": "https://www.ch.ch/en/foreign-nationals-in-switzerland/working-in-switzerland/",
+     "checked": "2026-08-21",
+     "supports": "plain-language work guidance"
+    },
+    {
+     "title": "Swiss representation in Australia: entry",
+     "authority": "Federal Department of Foreign Affairs",
+     "url": "https://www.eda.admin.ch/countries/australia/en/home/visa/entry-ch.html",
+     "checked": "2026-08-21",
+     "supports": "Australia-specific consular entry guidance"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

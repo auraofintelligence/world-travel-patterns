@@ -1,0 +1,39 @@
+name: Weekly source watch
+# Monday 05:00 Brisbane. Every cited source: still there, and has its text changed?
+on:
+  schedule:
+    - cron: "0 19 * * 0"
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Watch sources
+        run: python scripts/source_watch.py > "$RUNNER_TEMP/report.md"
+      - name: Rebuild the public queue
+        run: python scripts/due.py
+      - name: Validate
+        run: python scripts/validate.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/source-status.json queue
+          git diff --cached --quiet || (git commit -m "Weekly source watch" && git pull --rebase && git push)
+      - name: Open an issue when sources moved or died
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if grep -qE "^- (not found|changed):" "$RUNNER_TEMP/report.md"; then
+            gh issue create --title "Source watch $(date -u +%F)" --body-file "$RUNNER_TEMP/report.md"
+          fi

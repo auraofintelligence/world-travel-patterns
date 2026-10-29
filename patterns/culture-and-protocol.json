@@ -1,0 +1,55 @@
+{
+ "id": "culture-and-protocol",
+ "name": "Culture and protocol",
+ "layer": "culture",
+ "method": "agent",
+ "inherit": "stack",
+ "question": "How does this place ask visitors to arrive and behave, in its own words: names, greetings, welcome and acknowledgement, sacred and restricted places, photography and story permissions, reciprocity, dress, and who holds cultural authority?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation",
+  "zone",
+  "city",
+  "site"
+ ],
+ "baseline_days": 365,
+ "sources": [
+  "the community, nation or local government's own published visitor guidance",
+  "cultural authority bodies named by that community"
+ ],
+ "fields": [
+  "own_names[]",
+  "greetings_and_words[]",
+  "local_words_for_joyful_responsible_abundance",
+  "untranslatable_ideas[]",
+  "welcome_and_acknowledgement",
+  "sacred_or_restricted_places",
+  "photography_and_story_permissions",
+  "reciprocity_and_gifts",
+  "dress_and_conduct",
+  "cultural_authority",
+  "source"
+ ],
+ "statuses": [
+  "community-published",
+  "partly-mapped",
+  "ask-locally",
+  "unknown"
+ ],
+ "rules": [
+  "Connective, not assimilative: record each place's own guidance in its own terms; never write cultural rules for a community.",
+  "Cultural authority over information stays with the community. Where nothing is published, the status is ask-locally, with who to ask.",
+  "Record the place's own names first, then the outside name.",
+  "Optional GAJRA Earth thread: the local words for joyful, responsible and abundance, and ideas that do not translate.",
+  "Describe, don't lecture. No ranking of cultures and no outsider verdicts."
+ ],
+ "version": 1
+}

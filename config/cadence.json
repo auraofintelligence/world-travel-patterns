@@ -1,0 +1,60 @@
+{
+ "note": "Two modes. Baseline runs all year while not travelling. Window phases tighten the age limit for places in a declared travel window, their parents (laws stack) and any permit zones inside them.",
+ "baseline": {
+  "weekly_place_passes": 7,
+  "monthly_cycle_places": 25,
+  "monthly_patterns": [
+   "seasons-and-flow",
+   "culture-cycles",
+   "culture-and-protocol",
+   "year-ahead"
+  ],
+  "first_pass_order": [
+   "home",
+   "tagged",
+   "partly-vetted",
+   "alphabetical"
+  ]
+ },
+ "phases": [
+  {
+   "id": "approach",
+   "starts_days_before": 90,
+   "age_cap_days": 30,
+   "routine": "weekly"
+  },
+  {
+   "id": "countdown",
+   "starts_days_before": 30,
+   "age_cap_days": 7,
+   "routine": "twice weekly"
+  },
+  {
+   "id": "imminent",
+   "starts_days_before": 7,
+   "age_cap_days": 2,
+   "routine": "daily"
+  },
+  {
+   "id": "in-place",
+   "during": true,
+   "age_cap_days": 1,
+   "routine": "daily",
+   "patterns": [
+    "advisory",
+    "local-law",
+    "zone-requirements",
+    "culture-cycles",
+    "year-ahead"
+   ]
+  },
+  {
+   "id": "debrief",
+   "ends_days_after": 14,
+   "routine": "once",
+   "task": "record what was learned; fold shareable findings into public vetting"
+  }
+ ],
+ "lead_time_buffer_days": 30,
+ "lead_time_rule": "The approach phase starts at whichever is earlier: 90 days out, or the longest permit lead time in the zone scan plus the buffer."
+}

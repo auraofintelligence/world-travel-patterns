@@ -1,0 +1,217 @@
+{
+ "place": "be",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Visa-free Schengen short stay for Australians; 90 days in any 180-day period.",
+   "pre_arrival": "Check the Belgian mission, Schengen day count, invitation and whether the activity is employee or self-employed.",
+   "max_stay": "Visitor entry handles attendance and meetings; local delivery needs the regional or federal work key.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa for Belgium",
+     "authority": "Belgian FPS Foreign Affairs",
+     "url": "https://australia.diplomatie.belgium.be/en/travel-belgium/visa-belgium",
+     "checked": "2026-08-21",
+     "supports": "Australian short-stay and visa application guidance"
+    },
+    {
+     "title": "Single permit and work visa",
+     "authority": "Belgian Embassy in Australia",
+     "url": "https://australie.diplomatie.belgium.be/en/travel-belgium/visa-belgium/single-permit-and-work-visa",
+     "checked": "2026-08-21",
+     "supports": "employer-led work authorisation and visa D"
+    },
+    {
+     "title": "Professional card",
+     "authority": "Belgian FPS Foreign Affairs",
+     "url": "https://verenigdearabischeemiraten.diplomatie.belgium.be/en/travel-belgium/visa-belgium/professional-card",
+     "checked": "2026-08-21",
+     "supports": "regional self-employed and freelancer route"
+    },
+    {
+     "title": "Work as a third-country national",
+     "authority": "Belgian Immigration Office",
+     "url": "https://dofi.ibz.be/en/themes/third-country-nationals/work",
+     "checked": "2026-08-21",
+     "supports": "Belgian work-permission framework"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "BEL-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Visa-free Schengen visitor entry",
+     "detail": "Australian ordinary passports are generally visa-exempt for short Schengen stays, subject to the 90/180 rule.",
+     "next": "Confirm the main-destination rule and current border documents.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BEL-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Short-stay business visitor",
+     "detail": "Meetings, negotiations, fairs and congress attendance can fit a business visit when no Belgian employment or active local service is performed.",
+     "next": "Carry the invitation and state that the trip is attendance/negotiation unless a work route is activated.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BEL-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Conference attendance or exhibition visit",
+     "detail": "Being a delegate or exhibitor is different from delivering paid content, training or production work.",
+     "next": "Ask the organiser for a role letter and check the Belgian region where work occurs.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BEL-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "confirm",
+     "route": "Host and regional classification",
+     "detail": "A free talk can still be professional activity. Belgium's work and self-employed permissions turn on the actual role, contract and region, not just whether cash is handed over.",
+     "next": "Send the host exact duties, expenses, benefits and audience for a written classification.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BEL-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "Single permit for employment or professional card for self-employment",
+     "detail": "A Belgian employer applies for a single permit; a freelancer or independent professional normally needs a professional card from the competent region.",
+     "next": "Choose employee versus independent status before the host books the tour.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BEL-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Business visit for rights; regional work permission for launch delivery",
+     "detail": "Publisher meetings may be business travel, while paid readings, workshops, signings, merchandise or local sales can need a permit and tax treatment.",
+     "next": "Split rights, appearance, retail and royalties in the invitation.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BEL-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "Research/academic host, single permit or professional card",
+     "detail": "A university invitation can support an academic role, while commercial training remains work or self-employed activity.",
+     "next": "Have the institution identify the federal/regional approval and language of documents.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BEL-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "confirm",
+     "route": "No broad Belgian digital-nomad visa",
+     "detail": "Belgium has work and residence permits but no simple dedicated remote-worker route; foreign-work, tax and local-client questions remain.",
+     "next": "Confirm the planned stay and work footprint with the Belgian mission before using visitor entry as a base.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BEL-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "Regional professional card and long-stay visa",
+     "detail": "A self-employed founder normally needs a professional card from Brussels, Flanders, Wallonia or the German-speaking Community, followed by the appropriate visa/residence step.",
+     "next": "Pick the region and build the economic-interest dossier.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BEL-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Short business visit; local fulfilment needs work/business permission",
+     "detail": "Trade meetings, sourcing and fairs can be visitor activity; local selling, installation or service delivery may trigger permits.",
+     "next": "Map the Belgian contracting entity and where the work is physically done.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BEL-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Promoter-led work or cultural permission",
+     "detail": "A performance, exhibition, filming or paid literary appearance should be checked with the promoter and regional authority.",
+     "next": "Name venue, producer, fee, crew and dates in the host file.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BEL-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "Schengen entry plus regional activation",
+     "detail": "Belgium's fastest route is often simple visitor entry followed by a regional professional-card or single-permit decision when delivery is real.",
+     "next": "Do not let a general Brussels invitation hide the region and employment status.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "BEL-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa for Belgium",
+     "authority": "Belgian FPS Foreign Affairs",
+     "url": "https://australia.diplomatie.belgium.be/en/travel-belgium/visa-belgium",
+     "checked": "2026-08-21",
+     "supports": "Australian short-stay and visa application guidance"
+    },
+    {
+     "title": "Single permit and work visa",
+     "authority": "Belgian Embassy in Australia",
+     "url": "https://australie.diplomatie.belgium.be/en/travel-belgium/visa-belgium/single-permit-and-work-visa",
+     "checked": "2026-08-21",
+     "supports": "employer-led work authorisation and visa D"
+    },
+    {
+     "title": "Professional card",
+     "authority": "Belgian FPS Foreign Affairs",
+     "url": "https://verenigdearabischeemiraten.diplomatie.belgium.be/en/travel-belgium/visa-belgium/professional-card",
+     "checked": "2026-08-21",
+     "supports": "regional self-employed and freelancer route"
+    },
+    {
+     "title": "Work as a third-country national",
+     "authority": "Belgian Immigration Office",
+     "url": "https://dofi.ibz.be/en/themes/third-country-nationals/work",
+     "checked": "2026-08-21",
+     "supports": "Belgian work-permission framework"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

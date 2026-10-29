@@ -1,0 +1,37 @@
+{
+ "id": "health-entry",
+ "name": "Health entry requirements",
+ "layer": "permission",
+ "method": "agent",
+ "question": "Are any vaccinations, certificates or health declarations required to enter?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "zone"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 180,
+ "sources": [
+  "destination health or immigration authority",
+  "Smartraveller health section"
+ ],
+ "fields": [
+  "required",
+  "conditional",
+  "notes"
+ ],
+ "statuses": [
+  "none-required",
+  "conditional",
+  "required",
+  "unknown"
+ ],
+ "rules": [
+  "Entry requirements only. Personal health details are never stored.",
+  "Skipped for the home country (Australia): an Australian passport holder needs no entry permission there."
+ ],
+ "version": 1,
+ "skip_home": true
+}

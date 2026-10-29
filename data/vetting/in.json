@@ -1,0 +1,273 @@
+{
+ "place": "in",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "eVisa before travel",
+   "pre_arrival": "Apply through the official Indian eVisa portal and match the selected purpose to the first trip.",
+   "max_stay": "30-day e-Tourist, longer one- and five-year tourist options, or 365-day multiple-entry e-Business with per-visit limits.",
+   "checked": "2026-08-20",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Official Indian eVisa portal",
+     "authority": "Government of India",
+     "url": "https://www.indianvisaonline.gov.in/evisa/tvoa.html",
+     "checked": "2026-08-20",
+     "supports": "eligibility, eVisa purposes, validity and application"
+    },
+    {
+     "title": "Details of visas granted by India",
+     "authority": "Ministry of Home Affairs",
+     "url": "https://www.mha.gov.in/PDF_Other/AnnexIII_01022018.pdf",
+     "checked": "2026-08-20",
+     "supports": "business, cultural event, X-Misc and employment distinctions"
+    },
+    {
+     "title": "Work-related visa FAQs",
+     "authority": "Ministry of Home Affairs",
+     "url": "https://www.mha.gov.in/sites/default/files/2022-07/ForeigD-work_visa_faq.pdf",
+     "checked": "2026-08-20",
+     "supports": "employment and contracted-service rules"
+    },
+    {
+     "title": "Regular visa provision table",
+     "authority": "Bureau of Immigration India",
+     "url": "https://www.indianvisaonline.gov.in/visa/visa-provision.html",
+     "checked": "2026-08-20",
+     "supports": "regular visa categories, indicative validity and application documents"
+    },
+    {
+     "title": "Doing Business in India 2025–2026",
+     "authority": "Invest India",
+     "url": "https://static.investindia.gov.in/s3fs-public/2025-10/doing_business_in_india_investor_s_guide_at_a_glance_2025-26.pdf",
+     "checked": "2026-08-20",
+     "supports": "venture and investment structures"
+    },
+    {
+     "title": "Bengaluru Tech Summit 2026",
+     "authority": "Government of Karnataka and event partners",
+     "url": "https://www.bengalurutechsummit.com/index.php",
+     "checked": "2026-08-20",
+     "supports": "English technology opportunity signal"
+    },
+    {
+     "title": "New Delhi World Book Fair 2026",
+     "authority": "Press Information Bureau, Government of India",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2213262&lang=1&reg=6",
+     "checked": "2026-08-20",
+     "supports": "large international publishing, author and speaker opportunity signal"
+    },
+    {
+     "title": "Jaipur Literature Festival",
+     "authority": "Festival organiser",
+     "url": "https://jlflitfest.org/about-jlf",
+     "checked": "2026-08-20",
+     "supports": "literary and author opportunity signal"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "IND-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "e-Tourist visa",
+     "detail": "Australians are eligible for 30-day, one-year and five-year e-Tourist options with published stay limits.",
+     "next": "Choose the duration on the official portal and keep the visit inside tourist purposes.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "IND-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "e-Business visa",
+     "detail": "The published purposes include meetings, trade fairs, commercial transactions, venture exploration and company director or partner activity, but exclude petty business and petty trade.",
+     "next": "Use the host letter to describe meetings and venture discovery; classify personal stall sales or direct merchandise separately.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "IND-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "conditional",
+     "route": "e-Business e-B5/e-Conference purpose or regular Conference visa with organiser documents",
+     "detail": "Current official material uses inconsistent labels. The conference option is published for 30 days with multiple entry and needs an invitation plus MEA political clearance; MHA event clearance is added where specifically required.",
+     "next": "Have the organiser confirm the current portal label and supply the invitation and clearance packet.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "IND-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "conditional",
+     "route": "Conference route or X-Misc for a short non-remunerated cultural appearance",
+     "detail": "The route follows whether the talk belongs to an approved conference, a cultural event or another exchange.",
+     "next": "Have the organiser and Indian Mission classify the appearance and confirm that no consideration is attached.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "IND-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "Business visa for a remunerated cultural event; Employment visa for qualifying contracted professional service",
+     "detail": "India distinguishes a one-off cultural appearance from consulting or service delivery. Employment also requires highly skilled or qualified work and a remuneration test; official documents conflict between ₹16.25 lakh annually, pro-rated, and US$25,000.",
+     "next": "Put the fee, contract, event type and duties to the host and Mission and get the current Employment threshold confirmed.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "IND-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Business or X-Misc appearance; e-Business for rights and publisher meetings",
+     "detail": "A local publisher or bookseller can handle retail while the author attends for promotion, rights and cultural activity. Petty trade is excluded, so direct author-stall sales are not automatically covered.",
+     "next": "Separate appearance payment, royalties, rights discussions and physical sales; confirm any traveller-handled retail with the Mission.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "IND-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "specialist",
+     "route": "e-Business for a documented GIAN lecture; Employment visa for qualifying paid teaching or technical service",
+     "detail": "The online business route expressly includes GIAN lectures. Other paid teaching must meet the highly-skilled Employment test and a current remuneration threshold that the official documents state inconsistently.",
+     "next": "Ask the institution whether it is using GIAN, cultural-event or Employment sponsorship and have the Mission confirm the threshold.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "IND-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "not-fit",
+     "route": "No dedicated digital-nomad route identified",
+     "detail": "The official lists do not publish a remote-worker visa, and tourist and business purposes do not expressly cover routine remote work.",
+     "next": "Map an employment, business-residence or future dedicated route if India becomes a base.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "IND-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "conditional",
+     "route": "e-Business for exploration and establishment; entity and personal work status mapped separately",
+     "detail": "The business route expressly covers establishing a venture and acting as a director or partner.",
+     "next": "Choose the company form and sector, then separate ownership, directorship and operational employment.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "IND-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "low",
+     "route": "e-Business visa for substantial trade activity",
+     "detail": "Trade fairs, sourcing, negotiations, supplier assessment and commercial-product transactions fit the published purposes, while petty business and petty trade are excluded.",
+     "next": "Keep local project execution and installation for a work route, and confirm direct personal retail before selling.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "IND-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Business for a one-off remunerated cultural event; Employment for qualifying regular contracted performance; X-Misc when short and unpaid",
+     "detail": "The route tracks the contract and remuneration. A regular Employment route also carries the highly-skilled test and disputed current threshold.",
+     "next": "Have the promoter state the event type and ask the Mission to confirm both visa class and any Employment threshold.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "IND-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "confirm",
+     "route": "Combine e-Business, conference, cultural-event or Employment logic around the actual schedule",
+     "detail": "India publishes several useful purpose distinctions, making a mixed mission easier to split cleanly.",
+     "next": "Give the principal host a single schedule showing meetings, public appearances, teaching, sales and payment.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "IND-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-20",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Official Indian eVisa portal",
+     "authority": "Government of India",
+     "url": "https://www.indianvisaonline.gov.in/evisa/tvoa.html",
+     "checked": "2026-08-20",
+     "supports": "eligibility, eVisa purposes, validity and application"
+    },
+    {
+     "title": "Details of visas granted by India",
+     "authority": "Ministry of Home Affairs",
+     "url": "https://www.mha.gov.in/PDF_Other/AnnexIII_01022018.pdf",
+     "checked": "2026-08-20",
+     "supports": "business, cultural event, X-Misc and employment distinctions"
+    },
+    {
+     "title": "Work-related visa FAQs",
+     "authority": "Ministry of Home Affairs",
+     "url": "https://www.mha.gov.in/sites/default/files/2022-07/ForeigD-work_visa_faq.pdf",
+     "checked": "2026-08-20",
+     "supports": "employment and contracted-service rules"
+    },
+    {
+     "title": "Regular visa provision table",
+     "authority": "Bureau of Immigration India",
+     "url": "https://www.indianvisaonline.gov.in/visa/visa-provision.html",
+     "checked": "2026-08-20",
+     "supports": "regular visa categories, indicative validity and application documents"
+    },
+    {
+     "title": "Doing Business in India 2025–2026",
+     "authority": "Invest India",
+     "url": "https://static.investindia.gov.in/s3fs-public/2025-10/doing_business_in_india_investor_s_guide_at_a_glance_2025-26.pdf",
+     "checked": "2026-08-20",
+     "supports": "venture and investment structures"
+    },
+    {
+     "title": "Bengaluru Tech Summit 2026",
+     "authority": "Government of Karnataka and event partners",
+     "url": "https://www.bengalurutechsummit.com/index.php",
+     "checked": "2026-08-20",
+     "supports": "English technology opportunity signal"
+    },
+    {
+     "title": "New Delhi World Book Fair 2026",
+     "authority": "Press Information Bureau, Government of India",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2213262&lang=1&reg=6",
+     "checked": "2026-08-20",
+     "supports": "large international publishing, author and speaker opportunity signal"
+    },
+    {
+     "title": "Jaipur Literature Festival",
+     "authority": "Festival organiser",
+     "url": "https://jlflitfest.org/about-jlf",
+     "checked": "2026-08-20",
+     "supports": "literary and author opportunity signal"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

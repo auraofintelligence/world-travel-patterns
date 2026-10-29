@@ -1,0 +1,329 @@
+{
+ "place": "us",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "ESTA for permitted tourism or B-1 activity, up to 90 days",
+   "pre_arrival": "Check ESTA eligibility before making reservations and apply at least 72 hours before travel. If prior travel has ended Visa Waiver Program eligibility, allow time for a B or other visa interview.",
+   "max_stay": "Up to 90 days under the Visa Waiver Program, with no routine extension or change of status; a short trip to Canada or Mexico generally does not reset the original 90 days.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa Waiver Program",
+     "authority": "US Department of State",
+     "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html",
+     "checked": "2026-08-21",
+     "supports": "Australian eligibility, 90-day limit, permitted activities, prohibited employment and travel-history exclusions"
+    },
+    {
+     "title": "US Business Visas B-1 and Allowable Uses",
+     "authority": "US Department of State",
+     "url": "https://travel.state.gov/content/travel/en/us-visas/business/b-1-fact-sheet.html",
+     "checked": "2026-08-21",
+     "supports": "ESTA activity equivalence, meetings, conferences, commercial transactions, expenses and specialised-trainer boundary"
+    },
+    {
+     "title": "9 FAM 402.2 Tourists and Business Visitors",
+     "authority": "US Department of State Foreign Affairs Manual",
+     "url": "https://fam.state.gov/fam/09FAM/09FAM040202.html",
+     "checked": "2026-08-21",
+     "supports": "B-1 activity boundaries, academic honorarium rule and professional entertainer exclusions"
+    },
+    {
+     "title": "Visitor activities within foreign-media visa guidance",
+     "authority": "US Department of State",
+     "url": "https://travel.state.gov/content/travel/en/us-visas/employment/visas-members-foreign-media-press-radio.html",
+     "checked": "2026-08-21",
+     "supports": "nine-day academic honorarium and five-institution limits"
+    },
+    {
+     "title": "Temporary Worker Visas",
+     "authority": "US Department of State",
+     "url": "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+     "checked": "2026-08-21",
+     "supports": "O, P and petition-led temporary work categories"
+    },
+    {
+     "title": "Treaty Trader, Treaty Investor and Australians in Specialty Occupations",
+     "authority": "US Department of State",
+     "url": "https://travel.state.gov/content/travel/en/us-visas/employment/treaty-trader-investor-visa-e.html",
+     "checked": "2026-08-21",
+     "supports": "E-1, E-2 and E-3 criteria and host actions"
+    },
+    {
+     "title": "Form I-941 Instructions",
+     "authority": "US Citizenship and Immigration Services",
+     "url": "https://www.uscis.gov/sites/default/files/document/forms/i-941instr.pdf",
+     "checked": "2026-08-21",
+     "supports": "International Entrepreneur Rule ownership, startup-age, investment, grant and alternative-evidence thresholds"
+    },
+    {
+     "title": "Ai4 2026",
+     "authority": "Event organiser",
+     "url": "https://ai4.io/",
+     "checked": "2026-08-21",
+     "supports": "recurring English-language AI conference opportunity signal"
+    },
+    {
+     "title": "SXSW conference speaking applications",
+     "authority": "Event organiser",
+     "url": "https://support.sxsw.com/hc/en-us/articles/360014262311-How-do-I-or-my-company-or-group-apply-to-speak-at-the-SXSW-Conference",
+     "checked": "2026-08-21",
+     "supports": "recurring cross-sector conference opportunity; 2027 PanelPicker closed before this check"
+    },
+    {
+     "title": "CES 2027 call for speakers",
+     "authority": "CES",
+     "url": "https://platforms.ces.tech/forms/cfs_2027",
+     "checked": "2026-08-21",
+     "supports": "open call opportunity and deadline"
+    },
+    {
+     "title": "2027 SelectUSA Investment Summit call for speakers",
+     "authority": "US Department of Commerce event organiser",
+     "url": "https://www.selectusasummit.us/Applications/Call-for-Speakers",
+     "checked": "2026-08-21",
+     "supports": "international trade, data-centre investment and emerging-market speaker opportunity"
+    },
+    {
+     "title": "Keyfactor Tech Days 2027 call for speakers",
+     "authority": "Keyfactor",
+     "url": "https://www.keyfactor.com/tech-days/speakers/",
+     "checked": "2026-08-21",
+     "supports": "AI security, governance and post-quantum speaker opportunity"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "USA-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "ESTA under the Visa Waiver Program",
+     "detail": "Australians may seek tourism admission for up to 90 days with an approved ESTA and eligible e-passport. ESTA permits travel to request admission; it does not guarantee entry.",
+     "next": "Check ESTA status before reservations and carry onward plans, accommodation and evidence of a temporary visit.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "USA-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "ESTA/WB or B-1",
+     "detail": "Permitted business activities include consulting business associates, negotiating contracts and commercial transactions that do not involve gainful US employment.",
+     "next": "Carry the invitation, meeting agenda and evidence that the underlying business, income and continuing work remain outside the United States.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "USA-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "ESTA/WB or B-1 for attendance and participation",
+     "detail": "Scientific, educational, professional and business conventions, conferences and seminars are within the published visitor-business activity set. Delivering services or performing is a separate question.",
+     "next": "Keep an attendance-only trip documented as such; reclassify the trip if the organiser adds a talk, workshop, training session or fee.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "USA-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "conditional",
+     "route": "ESTA/WB or B-1 only when the appearance is genuinely non-employed and carries no US salary",
+     "detail": "A US source may reimburse actual reasonable travel and basic living expenses. Waiving a fee does not by itself make recurring teaching, productive services or an entertainment performance permissible visitor activity.",
+     "next": "Have the host record the subject, duration, audience, absence of salary, exact expense policy and why the appearance fits B-1 activity rather than employment.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "USA-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "specialist",
+     "route": "Narrow academic honorarium exception; otherwise an appropriate petition-based or E work route",
+     "detail": "The academic exception covers a usual academic activity lasting no more than nine days at one qualifying higher-education, affiliated nonprofit, nonprofit research or government research organisation, for that organisation's benefit, provided payment or expenses have not been accepted from more than five such organisations in the previous six months. Outside every one of those limits, paid delivery should not be placed on ESTA merely because the trip also includes a conference.",
+     "next": "Ask the host to document its qualifying institutional status, activity dates, payment source and rolling six-month institution count; otherwise have a US employer or agent assess O-1, E-3 or another proper work route.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "USA-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "confirm",
+     "route": "ESTA/WB or B-1 for publisher, rights, press and distribution meetings; classify appearances, payment and retail separately",
+     "detail": "No dedicated author book-launch visitor category was found in the reviewed official guidance. A rights or publisher meeting can fit business-visitor activity, while a paid reading, workshop, repeated promotional appearance or direct selling should not be assumed to fit.",
+     "next": "Split the launch into rights meetings, media, speech or reading, signing, honorarium, imported stock and retail; have the US publisher or bookseller handle local sales.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "USA-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "specialist",
+     "route": "Narrow academic honorarium rule, annotated B-1 specialised-trainer route, or a host-selected E-3, O, J, H or other work category",
+     "detail": "The specialised-trainer B-1 route is not a general workshop permission. It requires unique knowledge tied to specified foreign-sourced equipment, machinery, processes or a qualifying project, no US remuneration and an annotated B-1 visa. Ordinary guest teaching or productive training needs its own classification.",
+     "next": "Have the university, conference or company define whether this is a speech, usual academic activity, proprietary trainer assignment, formal teaching or productive consulting before travel is booked.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "USA-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "not-fit",
+     "route": "No general US digital-nomad or visitor remote-work route identified",
+     "detail": "Visa Waiver Program guidance lists employment as not permitted, and B-1 excludes skilled or unskilled labour. The reviewed official guidance does not create a Canada-style permission to base routine foreign-client work in the United States.",
+     "next": "Do not plan a US remote-work base on ESTA. If ongoing work is essential to the stay, obtain case-specific immigration advice and a route matched to the actual work.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "USA-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "Scout under ESTA/B-1; operate through E-2 treaty investor status or International Entrepreneur Rule parole",
+     "detail": "A visitor may investigate an investment but should not remain to manage the business. E-2 requires a substantial committed investment in a real operating enterprise that the investor will develop and direct. International Entrepreneur Rule parole is discretionary, not a visa: the current baseline includes a US startup formed within the previous five years, a central active role, at least 10% ownership, and either at least US$311,071 in qualifying US investment or US$124,429 in qualifying US government awards or grants within 18 months, or partial thresholds plus compelling evidence.",
+     "next": "Choose between an investment enterprise and a high-growth startup-parole case, then begin the company, evidence and filing work months rather than days before intended operation.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "USA-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "ESTA/WB or B-1 for orders, negotiations and contracts; E-1 for ongoing substantial Australia-US trade",
+     "detail": "B-1 can cover taking orders for goods produced abroad and negotiating contracts without gainful US employment. E-1 requires sizeable, continuing trade in goods, services or technology, with more than 50% of the enterprise's international trade between the United States and treaty country.",
+     "next": "Document where the product or service is produced, who invoices, where delivery occurs and whether the traveller only negotiates or also performs local fulfilment.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "USA-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "specialist",
+     "route": "O-1 or P-1, P-2 or P-3 for professional performance; only very narrow B-1 exceptions",
+     "detail": "US guidance says B status is normally inappropriate for a professional entertainer regardless of the amount or source of compensation, public appearance, charity status or ethnic-society sponsorship. A narrow B-1 cultural exception requires sending-country sponsorship, a nonpaying audience and all expenses paid by that government. P-3 can cover culturally unique performance, teaching or coaching; O covers extraordinary ability or achievement.",
+     "next": "Have a US promoter or agent classify the production, performer, support crew, repertoire, cultural basis, dates and compensation and file any required petition early.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "USA-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "specialist",
+     "route": "Map each activity separately; the most restrictive active-delivery component controls its own route",
+     "detail": "An ESTA meeting or conference-attendance lane does not absorb a paid workshop, academic appointment, performance or local operating role on the same trip. Visa Waiver Program entrants normally cannot extend or change status in the United States.",
+     "next": "Give one lead US host a schedule listing every meeting, public appearance, teaching block, fee, expense, sale, performance and remote-work period before selecting entry documents.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "USA-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa Waiver Program",
+     "authority": "US Department of State",
+     "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html",
+     "checked": "2026-08-21",
+     "supports": "Australian eligibility, 90-day limit, permitted activities, prohibited employment and travel-history exclusions"
+    },
+    {
+     "title": "US Business Visas B-1 and Allowable Uses",
+     "authority": "US Department of State",
+     "url": "https://travel.state.gov/content/travel/en/us-visas/business/b-1-fact-sheet.html",
+     "checked": "2026-08-21",
+     "supports": "ESTA activity equivalence, meetings, conferences, commercial transactions, expenses and specialised-trainer boundary"
+    },
+    {
+     "title": "9 FAM 402.2 Tourists and Business Visitors",
+     "authority": "US Department of State Foreign Affairs Manual",
+     "url": "https://fam.state.gov/fam/09FAM/09FAM040202.html",
+     "checked": "2026-08-21",
+     "supports": "B-1 activity boundaries, academic honorarium rule and professional entertainer exclusions"
+    },
+    {
+     "title": "Visitor activities within foreign-media visa guidance",
+     "authority": "US Department of State",
+     "url": "https://travel.state.gov/content/travel/en/us-visas/employment/visas-members-foreign-media-press-radio.html",
+     "checked": "2026-08-21",
+     "supports": "nine-day academic honorarium and five-institution limits"
+    },
+    {
+     "title": "Temporary Worker Visas",
+     "authority": "US Department of State",
+     "url": "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+     "checked": "2026-08-21",
+     "supports": "O, P and petition-led temporary work categories"
+    },
+    {
+     "title": "Treaty Trader, Treaty Investor and Australians in Specialty Occupations",
+     "authority": "US Department of State",
+     "url": "https://travel.state.gov/content/travel/en/us-visas/employment/treaty-trader-investor-visa-e.html",
+     "checked": "2026-08-21",
+     "supports": "E-1, E-2 and E-3 criteria and host actions"
+    },
+    {
+     "title": "Form I-941 Instructions",
+     "authority": "US Citizenship and Immigration Services",
+     "url": "https://www.uscis.gov/sites/default/files/document/forms/i-941instr.pdf",
+     "checked": "2026-08-21",
+     "supports": "International Entrepreneur Rule ownership, startup-age, investment, grant and alternative-evidence thresholds"
+    },
+    {
+     "title": "Ai4 2026",
+     "authority": "Event organiser",
+     "url": "https://ai4.io/",
+     "checked": "2026-08-21",
+     "supports": "recurring English-language AI conference opportunity signal"
+    },
+    {
+     "title": "SXSW conference speaking applications",
+     "authority": "Event organiser",
+     "url": "https://support.sxsw.com/hc/en-us/articles/360014262311-How-do-I-or-my-company-or-group-apply-to-speak-at-the-SXSW-Conference",
+     "checked": "2026-08-21",
+     "supports": "recurring cross-sector conference opportunity; 2027 PanelPicker closed before this check"
+    },
+    {
+     "title": "CES 2027 call for speakers",
+     "authority": "CES",
+     "url": "https://platforms.ces.tech/forms/cfs_2027",
+     "checked": "2026-08-21",
+     "supports": "open call opportunity and deadline"
+    },
+    {
+     "title": "2027 SelectUSA Investment Summit call for speakers",
+     "authority": "US Department of Commerce event organiser",
+     "url": "https://www.selectusasummit.us/Applications/Call-for-Speakers",
+     "checked": "2026-08-21",
+     "supports": "international trade, data-centre investment and emerging-market speaker opportunity"
+    },
+    {
+     "title": "Keyfactor Tech Days 2027 call for speakers",
+     "authority": "Keyfactor",
+     "url": "https://www.keyfactor.com/tech-days/speakers/",
+     "checked": "2026-08-21",
+     "supports": "AI security, governance and post-quantum speaker opportunity"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

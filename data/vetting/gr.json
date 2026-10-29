@@ -1,0 +1,217 @@
+{
+ "place": "gr",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Visa-free Schengen short stay for Australians; 90 days in any 180-day period.",
+   "pre_arrival": "Check the Greek mission, Schengen day count, invitation and any local work days.",
+   "max_stay": "Short stay is the fast key; residence and work routes need preparation.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visas: Greece in Australia",
+     "authority": "Hellenic Ministry of Foreign Affairs",
+     "url": "https://www.mfa.gr/australia/en/services/visas/",
+     "checked": "2026-08-21",
+     "supports": "Australian visa and Schengen application guidance"
+    },
+    {
+     "title": "Migration policy",
+     "authority": "Greek Ministry of Migration and Asylum",
+     "url": "https://migration.gov.gr/en/migration-policy/",
+     "checked": "2026-08-21",
+     "supports": "residence and migration framework"
+    },
+    {
+     "title": "Investment in Greece",
+     "authority": "Enterprise Greece",
+     "url": "https://enterprisegreece.gov.gr/en/invest-in-greece/",
+     "checked": "2026-08-21",
+     "supports": "investment and business opportunity context"
+    },
+    {
+     "title": "Greek tax authority",
+     "authority": "Independent Authority for Public Revenue",
+     "url": "https://www.aade.gr/",
+     "checked": "2026-08-21",
+     "supports": "tax and local economic activity check"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "GRC-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Visa-free Schengen visitor entry",
+     "detail": "Australians are generally visa-exempt for short Schengen visits.",
+     "next": "Check Greece's current visa and border page before travel.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "GRC-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Short-stay business visitor",
+     "detail": "Meetings, negotiations, fairs and business conferences can fit a visitor stay when no Greek work is performed.",
+     "next": "Carry invitation and proof of business purpose.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "GRC-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Conference attendance route",
+     "detail": "Attending a congress or seminar is not the same as being paid to deliver the programme.",
+     "next": "Confirm speaker, trainer, panellist and exhibitor duties separately.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "GRC-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "confirm",
+     "route": "Host/consular classification",
+     "detail": "Free speaking or cultural exchange can still be work-like; the exact invitation, expense support and host institution matter.",
+     "next": "Ask the Greek host to confirm the required category in writing.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "GRC-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "Greek work authorisation/residence or host contract",
+     "detail": "Paid speaking, consulting and training for a Greek entity need the matching work basis; visitor entry is not a general work permit.",
+     "next": "Have the host identify the permit and payroll/tax treatment.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "GRC-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Business and cultural activity split",
+     "detail": "Rights meetings can be business travel; launch talks, readings, signings, workshops and local retail need host-led classification.",
+     "next": "Separate fee, royalties, expenses and sales.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "GRC-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "University/research or work route",
+     "detail": "Academic exchange and commercial AI workshops can fall into different Greek categories.",
+     "next": "Ask the institution/client to state appointment, pay and duration.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "GRC-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "specialist",
+     "route": "Greek digital-nomad residence route",
+     "detail": "Greece publishes a digital-nomad residence pathway for remote work for employers/clients outside Greece, subject to current income and documentation conditions.",
+     "next": "Check the current ministry checklist and avoid Greek client work under the remote route.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "GRC-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "Investor, startup or other residence route",
+     "detail": "Longer founder activity is a residence and company question, not a tourist extension; current investment and startup programmes must be checked.",
+     "next": "Choose the project and confirm the current residence category with Migration/Enterprise Greece.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "GRC-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Short business visit; local Greek trading needs status",
+     "detail": "Negotiation, sourcing and fairs can be visitor activity; local sales, installation or service delivery may trigger permission.",
+     "next": "Map the Greek contracting party and on-site work.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "GRC-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Event-specific cultural/work permission",
+     "detail": "Performance, filming, exhibition and literary work need promoter and authority classification.",
+     "next": "State venue, producer, fee, royalties and dates.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "GRC-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "Schengen visit plus host or digital-nomad activation",
+     "detail": "Greece can be a sudden arrival or a longer foreign-remote base, but local delivery remains a separate key.",
+     "next": "Split the itinerary into visitor, foreign remote work and Greek activity.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "GRC-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visas: Greece in Australia",
+     "authority": "Hellenic Ministry of Foreign Affairs",
+     "url": "https://www.mfa.gr/australia/en/services/visas/",
+     "checked": "2026-08-21",
+     "supports": "Australian visa and Schengen application guidance"
+    },
+    {
+     "title": "Migration policy",
+     "authority": "Greek Ministry of Migration and Asylum",
+     "url": "https://migration.gov.gr/en/migration-policy/",
+     "checked": "2026-08-21",
+     "supports": "residence and migration framework"
+    },
+    {
+     "title": "Investment in Greece",
+     "authority": "Enterprise Greece",
+     "url": "https://enterprisegreece.gov.gr/en/invest-in-greece/",
+     "checked": "2026-08-21",
+     "supports": "investment and business opportunity context"
+    },
+    {
+     "title": "Greek tax authority",
+     "authority": "Independent Authority for Public Revenue",
+     "url": "https://www.aade.gr/",
+     "checked": "2026-08-21",
+     "supports": "tax and local economic activity check"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

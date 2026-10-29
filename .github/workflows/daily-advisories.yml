@@ -1,0 +1,42 @@
+name: Daily advisories and queue
+# 06:00 Brisbane. Smartraveller levels for every destination, then the public queue.
+on:
+  schedule:
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+jobs:
+  advisories:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch the Smartraveller export
+        run: curl -sSf -m 120 -A "Mozilla/5.0 (compatible; world-travel-patterns/1.0)" https://www.smartraveller.gov.au/destinations-export -o "$RUNNER_TEMP/export.json"
+      - name: Update advice levels
+        run: python scripts/advisories.py "$RUNNER_TEMP/export.json" > "$RUNNER_TEMP/changes.md"
+      - name: Rebuild the public queue
+        run: python scripts/due.py
+      - name: Validate
+        run: python scripts/validate.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/advisories.json data/logs queue
+          git diff --cached --quiet || (git commit -m "Daily advisories and queue" && git pull --rebase && git push)
+      - name: Open an issue for level changes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -s "$RUNNER_TEMP/changes.md" ]; then
+            gh issue create --title "Advice level changes $(date -u +%F)" --label advisory --body-file "$RUNNER_TEMP/changes.md" || \
+            gh issue create --title "Advice level changes $(date -u +%F)" --body-file "$RUNNER_TEMP/changes.md"
+          fi

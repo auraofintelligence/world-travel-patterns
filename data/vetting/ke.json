@@ -1,0 +1,301 @@
+{
+ "place": "ke",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Approved eTA before travel; Special Pass for temporary professional delivery",
+   "pre_arrival": "Apply only through the official eTA service, normally at least three working days ahead. Carry a passport valid six months, itinerary, accommodation and any conference or business invitation and company registration documents.",
+   "max_stay": "The eTA must be used for travel within 90 days of issue; the authorised stay is decided at the border. A Special Pass can cover up to six months. Class N is issued for one or two years and is renewable.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "How to apply for a Kenya eTA",
+     "authority": "Kenya Directorate of Immigration Services",
+     "url": "https://etakenya.go.ke/form/apply/how-to-apply?type=tourist",
+     "checked": "2026-08-21",
+     "supports": "pre-travel approval, 90-day use window, border-set stay, documents, conference and business invitations and three-day processing"
+    },
+    {
+     "title": "Kenya eTA frequently asked questions",
+     "authority": "Kenya Directorate of Immigration Services",
+     "url": "https://etakenya.go.ke/faqs",
+     "checked": "2026-08-21",
+     "supports": "official application channel, approval-before-travel rule, processing and fees"
+    },
+    {
+     "title": "Special Pass",
+     "authority": "Kenya Directorate of Immigration Services",
+     "url": "https://immigration.go.ke/kenya-special-pass/",
+     "checked": "2026-08-21",
+     "supports": "up-to-six-month temporary business, trade or professional activity, host documents and USD 200 monthly fee"
+    },
+    {
+     "title": "Special Pass information pack",
+     "authority": "Kenya Foreign Nationals Services",
+     "url": "https://fns.immigration.go.ke/infopack/passes/specialpass/",
+     "checked": "2026-08-21",
+     "supports": "online process, permit-before-work warning and approval-notification boundary"
+    },
+    {
+     "title": "Class N Digital Nomad Permit",
+     "authority": "Kenya Foreign Nationals Services",
+     "url": "https://fns.immigration.go.ke/infopack/permits/classN/",
+     "checked": "2026-08-21",
+     "supports": "foreign remote-work scope, one- or two-year duration, evidence and current fees"
+    },
+    {
+     "title": "Class G trade, business or consultancy permit",
+     "authority": "Kenya Foreign Nationals Services",
+     "url": "https://fns.immigration.go.ke/infopack/permits/classG/",
+     "checked": "2026-08-21",
+     "supports": "business scope, benefit test, licences, company and tax documents and USD 100,000 capital"
+    },
+    {
+     "title": "Everything about Withholding Tax",
+     "authority": "Kenya Revenue Authority",
+     "url": "https://www.kra.go.ke/helping-tax-payers/faqs/everything-about-withholding-tax",
+     "checked": "2026-08-21",
+     "supports": "20% non-resident professional, training and appearance or performance rates, final-tax treatment and five-working-day remittance"
+    },
+    {
+     "title": "Constitution of Kenya, Article 7",
+     "authority": "Kenya Law",
+     "url": "https://new.kenyalaw.org/akn/ke/act/2010/constitution/eng%402010-09-03",
+     "checked": "2026-08-21",
+     "supports": "Kiswahili national language, Kiswahili and English official languages and protection of language diversity"
+    },
+    {
+     "title": "IGF 2026",
+     "authority": "United Nations Internet Governance Forum",
+     "url": "https://intgovforum.org/en/dashboard/igf-2026",
+     "checked": "2026-08-21",
+     "supports": "Nairobi dates, themes and participation signal; no open speaker opportunity inferred"
+    },
+    {
+     "title": "Africa Tech Summit Nairobi",
+     "authority": "Africa Tech Summit",
+     "url": "https://www.africatechsummit.com/",
+     "checked": "2026-08-21",
+     "supports": "recurring Nairobi technology, investment and startup event signal; no speaking access inferred"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "KEN-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Kenya eTA before travel",
+     "detail": "The official eTA is required for an Australian visitor. Standard fees begin at USD 30, processing is generally three business days and the border officer decides the stay.",
+     "next": "Apply through etakenya.go.ke, download the approval PDF and carry the itinerary, accommodation and return travel.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KEN-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Business-purpose eTA for meetings and exploration",
+     "detail": "The eTA process accepts a Kenyan company invitation and its registration certificate. Use this lane for discussion, networking, due diligence and site visits without delivering a profession or service.",
+     "next": "Describe the trip accurately as business meetings and move any added consulting, workshop or demonstration to a Special Pass.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KEN-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Conference-purpose eTA for attendance",
+     "detail": "The eTA service can request a conference invitation or participation letter. Delegate or participant entry does not replace a Special Pass for professional delivery.",
+     "next": "Obtain the organiser letter and state whether the traveller is only attending or is also presenting, facilitating, exhibiting or working.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KEN-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "conditional",
+     "route": "Special Pass where the talk is temporary professional activity",
+     "detail": "The Special Pass expressly covers temporarily conducting a profession. Kenya's eFNS service warns that business or employment without the required permit or pass is an offence; absence of a fee does not settle classification.",
+     "next": "Have the Kenyan host seek immigration classification and obtain the Special Pass before the talk where required.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KEN-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "Special Pass plus non-resident withholding",
+     "detail": "The host-backed Special Pass can cover temporary professional delivery for up to six months and costs a non-East African USD 200 per month after approval. KRA lists non-resident professional, training and appearance or performance fees at 20% final withholding.",
+     "next": "Have the host obtain and pay for the pass before work begins and remit withholding within five working days of payment.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KEN-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Business eTA for rights meetings; Special Pass and local publisher for active launch",
+     "detail": "Rights and publisher meetings can stay in the business-visitor lane. A programmed reading, promotional service, fee, imported stock or local sale should be handled separately through the host, publisher, customs and tax channels.",
+     "next": "Use a Kenyan publisher or bookseller for import, stock and receipts and have it sponsor any Special Pass needed for the author appearance.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KEN-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "Special Pass for short professional training; employment permit for continuing work",
+     "detail": "A short AI workshop, guest lecture or staff training can be temporary professional activity under a Special Pass, with qualifications and any regulator clearance. A continuing job needs the relevant work permit rather than repeated visitor entries.",
+     "next": "Have the institution state whether the session is a guest event, contracted training, research or employment and sponsor the matching pass or permit.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KEN-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "low",
+     "route": "Class N Digital Nomad Permit",
+     "detail": "Class N covers a foreign employer, work for a foreign company or self-employed services to clients outside Kenya. It is issued for one or two years and is renewable. The current page requires three months of bank statements or payslips, accommodation, an employer or company letter and a no-objection letter from the Australian mission; it does not publish a fixed income threshold. Fees are USD 200 processing and USD 1,000 issuance per year.",
+     "next": "Build the Class N pack and keep Kenyan employers and clients outside the remote-work lane unless another permit authorises them.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KEN-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "Class G permit for specific trade, business or consultancy",
+     "detail": "Class G requires licences or registrations, proof the activity benefits Kenya, company and tax documents, and at least USD 100,000 capital available for investment. Immigration and business registration remain distinct.",
+     "next": "Use the first eTA visit for exploration, then incorporate, secure sector licences, evidence capital and apply for Class G before operating.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KEN-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Business eTA for negotiations; Special Pass or Class G for active trade",
+     "detail": "Supplier and distributor meetings can fit the business eTA. Temporary professional trade activity can use the Special Pass; a continuing local trade or consultancy belongs under Class G. Imports, samples and sales also need Kenya Revenue Authority and customs planning.",
+     "next": "Appoint a Kenyan importer or distributor and classify meetings, demonstration, installation, local sale and continuing operation separately.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KEN-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Special Pass plus promoter, venue and tax arrangements",
+     "detail": "A temporary artistic or performance engagement can be professional activity requiring the pass. KRA lists non-resident appearance and performance fees at 20% final withholding; venue, filming, content and merchandise permissions remain separate.",
+     "next": "Use a Kenyan promoter to sponsor the pass and document venue approval, tax, equipment and merchandise before public announcement.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KEN-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "specialist",
+     "route": "eTA for passive visitor activity plus Special Pass, Class N or Class G for active components",
+     "detail": "A trip may combine IGF attendance, local meetings, community AI training, remote work, a book event and a performance. Each line has a different trigger, even when one host coordinates the itinerary.",
+     "next": "Make one activity ledger by date, county, host, payer, audience and customer location, then attach eTA, Special Pass, Class N or Class G to each line.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KEN-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "How to apply for a Kenya eTA",
+     "authority": "Kenya Directorate of Immigration Services",
+     "url": "https://etakenya.go.ke/form/apply/how-to-apply?type=tourist",
+     "checked": "2026-08-21",
+     "supports": "pre-travel approval, 90-day use window, border-set stay, documents, conference and business invitations and three-day processing"
+    },
+    {
+     "title": "Kenya eTA frequently asked questions",
+     "authority": "Kenya Directorate of Immigration Services",
+     "url": "https://etakenya.go.ke/faqs",
+     "checked": "2026-08-21",
+     "supports": "official application channel, approval-before-travel rule, processing and fees"
+    },
+    {
+     "title": "Special Pass",
+     "authority": "Kenya Directorate of Immigration Services",
+     "url": "https://immigration.go.ke/kenya-special-pass/",
+     "checked": "2026-08-21",
+     "supports": "up-to-six-month temporary business, trade or professional activity, host documents and USD 200 monthly fee"
+    },
+    {
+     "title": "Special Pass information pack",
+     "authority": "Kenya Foreign Nationals Services",
+     "url": "https://fns.immigration.go.ke/infopack/passes/specialpass/",
+     "checked": "2026-08-21",
+     "supports": "online process, permit-before-work warning and approval-notification boundary"
+    },
+    {
+     "title": "Class N Digital Nomad Permit",
+     "authority": "Kenya Foreign Nationals Services",
+     "url": "https://fns.immigration.go.ke/infopack/permits/classN/",
+     "checked": "2026-08-21",
+     "supports": "foreign remote-work scope, one- or two-year duration, evidence and current fees"
+    },
+    {
+     "title": "Class G trade, business or consultancy permit",
+     "authority": "Kenya Foreign Nationals Services",
+     "url": "https://fns.immigration.go.ke/infopack/permits/classG/",
+     "checked": "2026-08-21",
+     "supports": "business scope, benefit test, licences, company and tax documents and USD 100,000 capital"
+    },
+    {
+     "title": "Everything about Withholding Tax",
+     "authority": "Kenya Revenue Authority",
+     "url": "https://www.kra.go.ke/helping-tax-payers/faqs/everything-about-withholding-tax",
+     "checked": "2026-08-21",
+     "supports": "20% non-resident professional, training and appearance or performance rates, final-tax treatment and five-working-day remittance"
+    },
+    {
+     "title": "Constitution of Kenya, Article 7",
+     "authority": "Kenya Law",
+     "url": "https://new.kenyalaw.org/akn/ke/act/2010/constitution/eng%402010-09-03",
+     "checked": "2026-08-21",
+     "supports": "Kiswahili national language, Kiswahili and English official languages and protection of language diversity"
+    },
+    {
+     "title": "IGF 2026",
+     "authority": "United Nations Internet Governance Forum",
+     "url": "https://intgovforum.org/en/dashboard/igf-2026",
+     "checked": "2026-08-21",
+     "supports": "Nairobi dates, themes and participation signal; no open speaker opportunity inferred"
+    },
+    {
+     "title": "Africa Tech Summit Nairobi",
+     "authority": "Africa Tech Summit",
+     "url": "https://www.africatechsummit.com/",
+     "checked": "2026-08-21",
+     "supports": "recurring Nairobi technology, investment and startup event signal; no speaking access inferred"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

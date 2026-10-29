@@ -1,0 +1,34 @@
+{
+ "place": "hk",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Visa-free visit for Australian passport holders for up to 90 days.",
+   "checked": "2026-08-20",
+   "evidence": "legacy-baseline",
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "WORLD-HONG-KONG-SAR-ENTRY"
+   },
+   "note": "First-pass triage carried from Australian World Travel; recheck against the official source.",
+   "sources": [
+    {
+     "title": "Hong Kong Immigration Department visit requirements",
+     "url": "https://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html",
+     "checked": "2026-08-20"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "daily_cost_aud": null,
+   "visa_cost_signal": "Free",
+   "checked": "2026-08-20",
+   "evidence": "legacy-baseline",
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "WORLD-HONG-KONG-SAR-COST"
+   }
+  }
+ }
+}

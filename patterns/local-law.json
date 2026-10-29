@@ -1,0 +1,60 @@
+{
+ "id": "local-law",
+ "name": "Local law for visitors",
+ "layer": "law",
+ "method": "agent",
+ "inherit": "stack",
+ "question": "Which laws at this level could a visitor break without knowing: conduct, alcohol, drugs and medicines, photography, filming and drones, dress and public behaviour, speech and religion, relationships, wildlife and biosecurity, camping and fires, driving, currency and goods?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation",
+  "zone",
+  "city",
+  "site"
+ ],
+ "baseline_days": 180,
+ "sources": [
+  "the level's own legislation or by-law register",
+  "official visitor guidance from that government"
+ ],
+ "topics": [
+  "conduct-and-public-order",
+  "alcohol",
+  "drugs-and-prescription-medicines",
+  "e-cigarettes-and-tobacco",
+  "photography",
+  "filming-and-drones",
+  "dress-and-public-behaviour",
+  "speech-religion-and-respect",
+  "relationships-and-cohabitation",
+  "wildlife-biosecurity-and-souvenirs",
+  "camping-fires-and-access",
+  "driving-and-licences",
+  "currency-and-goods",
+  "work-and-payment"
+ ],
+ "fields": [
+  "laws[]: topic, rule, penalty_signal, level, source, checked"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "none-found",
+  "unknown"
+ ],
+ "rules": [
+  "Laws stack: a visitor is bound by every level at once, so a brief shows national, state and local rules together.",
+  "Unvetted is not permitted. A level with no record is shown as not yet checked, never as no rules.",
+  "State the rule from the law or the government's own guidance, in plain words, with the source. No moral commentary.",
+  "Topics can be added to this list; every place then shows the new topic as not yet checked."
+ ],
+ "version": 1
+}

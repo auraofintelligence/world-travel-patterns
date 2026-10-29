@@ -1,0 +1,231 @@
+{
+ "place": "nl",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Visa-free Schengen short stay for Australians; 90 days in any 180-day period.",
+   "pre_arrival": "Check NetherlandsWorldwide entry guidance, Schengen day count, host letter and accommodation.",
+   "max_stay": "Short stay is the agile option; local work or residence needs an IND route.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa for the Netherlands",
+     "authority": "NetherlandsWorldwide",
+     "url": "https://www.netherlandsworldwide.nl/visa-the-netherlands",
+     "checked": "2026-08-21",
+     "supports": "short-stay and visa-exemption entry guidance"
+    },
+    {
+     "title": "Business or official visit checklist",
+     "authority": "NetherlandsWorldwide",
+     "url": "https://www.netherlandsworldwide.nl/visa-the-netherlands/checklist-schengen-visa-business-official-visit",
+     "checked": "2026-08-21",
+     "supports": "business invitations, congresses and evidence"
+    },
+    {
+     "title": "Working in the Netherlands",
+     "authority": "Immigration and Naturalisation Service (IND)",
+     "url": "https://ind.nl/en/work/working_in_the_Netherlands",
+     "checked": "2026-08-21",
+     "supports": "work and sponsorship framework"
+    },
+    {
+     "title": "Residence permit for a start-up",
+     "authority": "Immigration and Naturalisation Service (IND)",
+     "url": "https://ind.nl/en/residence-permits/work/start-up",
+     "checked": "2026-08-21",
+     "supports": "startup founder route"
+    },
+    {
+     "title": "Residence permit self-employed person",
+     "authority": "Immigration and Naturalisation Service (IND)",
+     "url": "https://ind.nl/en/residence-permits/work/self-employed-person",
+     "checked": "2026-08-21",
+     "supports": "self-employed route"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "NLD-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Visa-free Schengen visitor entry",
+     "detail": "Australians are generally visa-exempt for short stays in the Netherlands under Schengen rules.",
+     "next": "Use NetherlandsWorldwide for the current border and document list.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "NLD-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Short-stay business visitor",
+     "detail": "Meetings, negotiations, congresses and trade fairs can fit business travel; the official checklist expects an invitation or business evidence.",
+     "next": "Carry the invitation, event ticket and business relationship evidence.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "NLD-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Conference delegate/exhibitor visit",
+     "detail": "Attending a congress is distinct from being hired to deliver the event programme or provide Dutch services.",
+     "next": "Confirm attendee versus speaker/trainer status with the organiser.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "NLD-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "confirm",
+     "route": "Host classification; no automatic unpaid-work exemption",
+     "detail": "A free keynote or panel can still be treated as professional activity depending on duties, reimbursement and organiser. The short-stay checklist is not a work permit.",
+     "next": "Ask the Dutch host or IND whether the exact unpaid role fits a visitor exception or needs work permission.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "NLD-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "Dutch work permit, TWV/single permit or recognised-sponsor route",
+     "detail": "Paid speaking, consulting and training for a Dutch organiser are active work; the employer or host normally leads the permission process.",
+     "next": "Have the Dutch engager identify the work authorisation and whether a short assignment exemption applies.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "NLD-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Business visit for rights; host-led work or cultural permission for active launch",
+     "detail": "A rights meeting can be business travel, while paid talks, signings, workshops, merchandise or local sales need activity-by-activity treatment.",
+     "next": "Separate publisher meetings from public delivery and retail.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "NLD-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "Research/guest-teaching or work-permit route",
+     "detail": "University teaching and commercial training follow different host and employment classifications.",
+     "next": "Ask the university or training client to sponsor the exact teaching arrangement.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "NLD-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "confirm",
+     "route": "No broad Dutch digital-nomad visa",
+     "detail": "The Netherlands publishes work and residence permits but no simple remote-worker category for an Australian visitor; tax and local-client issues remain separate.",
+     "next": "Confirm residence, payroll and client location before treating a longer stay as remote work.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "NLD-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "IND startup or self-employed residence permit",
+     "detail": "The startup permit uses a facilitator and viable innovative plan; self-employed residence is assessed against Dutch economic interest and business evidence.",
+     "next": "Choose startup versus self-employed and assemble the IND dossier with a Dutch facilitator or adviser.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "NLD-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Short business visit; Dutch operation needs work/business status",
+     "detail": "Negotiations, sourcing, contracts and fairs can be business travel; fulfilment, installation and local sales may not be.",
+     "next": "State where goods, services, invoices and delivery occur.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "NLD-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Host-led work or cultural permit",
+     "detail": "A performance, exhibition, filming or paid cultural appearance is not automatically covered by visitor entry.",
+     "next": "Have the promoter confirm performer, crew, fee, venue and labour formalities.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "NLD-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "Schengen visit plus IND/host activation for delivery",
+     "detail": "The Netherlands makes the first arrival easy, but the invitation must separate meetings from paid or active work.",
+     "next": "Send the whole schedule to the host and ask for one written classification.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "NLD-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa for the Netherlands",
+     "authority": "NetherlandsWorldwide",
+     "url": "https://www.netherlandsworldwide.nl/visa-the-netherlands",
+     "checked": "2026-08-21",
+     "supports": "short-stay and visa-exemption entry guidance"
+    },
+    {
+     "title": "Business or official visit checklist",
+     "authority": "NetherlandsWorldwide",
+     "url": "https://www.netherlandsworldwide.nl/visa-the-netherlands/checklist-schengen-visa-business-official-visit",
+     "checked": "2026-08-21",
+     "supports": "business invitations, congresses and evidence"
+    },
+    {
+     "title": "Working in the Netherlands",
+     "authority": "Immigration and Naturalisation Service (IND)",
+     "url": "https://ind.nl/en/work/working_in_the_Netherlands",
+     "checked": "2026-08-21",
+     "supports": "work and sponsorship framework"
+    },
+    {
+     "title": "Residence permit for a start-up",
+     "authority": "Immigration and Naturalisation Service (IND)",
+     "url": "https://ind.nl/en/residence-permits/work/start-up",
+     "checked": "2026-08-21",
+     "supports": "startup founder route"
+    },
+    {
+     "title": "Residence permit self-employed person",
+     "authority": "Immigration and Naturalisation Service (IND)",
+     "url": "https://ind.nl/en/residence-permits/work/self-employed-person",
+     "checked": "2026-08-21",
+     "supports": "self-employed route"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

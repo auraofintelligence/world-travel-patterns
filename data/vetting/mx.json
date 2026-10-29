@@ -1,0 +1,217 @@
+{
+ "place": "mx",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Australians are generally visa-exempt visitors; the immigration officer sets the authorised stay, commonly up to 180 days for tourism/business without local remuneration.",
+   "pre_arrival": "Check current SRE/INM entry guidance, passport validity, return/onward evidence and the stated purpose.",
+   "max_stay": "Visitor permission can be generous but is not a work permit; temporary residence is the longer base.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visas for foreigners",
+     "authority": "Secretariat of Foreign Affairs (SRE), Mexico",
+     "url": "https://www.gob.mx/sre/acciones-y-programas/visas-para-extranjeros",
+     "checked": "2026-08-21",
+     "supports": "visa and visitor categories"
+    },
+    {
+     "title": "Autonomous immigration filters and eligible nationalities",
+     "authority": "National Institute of Migration (INM), Mexico",
+     "url": "https://www.gob.mx/inm/es/articulos/filtros-migratorios-autonomos-del-inm-requisitos-y-nacionalidades-que-pueden-utilizarlos?idiom=es",
+     "checked": "2026-08-21",
+     "supports": "Australian visitor entry signal"
+    },
+    {
+     "title": "FAQ: visa by job offer",
+     "authority": "National Institute of Migration (INM), Mexico",
+     "url": "https://www.gob.mx/inm/documentos/preguntas-frecuentes-para-solicitar-visa-por-oferta-de-empleo",
+     "checked": "2026-08-21",
+     "supports": "employer-led paid work route"
+    },
+    {
+     "title": "Mexican Embassy in Australia: business visa requirements",
+     "authority": "Embassy of Mexico in Australia",
+     "url": "https://embamex.sre.gob.mx/australia/images/stories/businessvisarequirements",
+     "checked": "2026-08-21",
+     "supports": "business documentation and consular evidence"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "MEX-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Visa-exempt visitor entry",
+     "detail": "Australians are listed among nationalities able to use Mexico's visitor entry, with the authorised stay determined by immigration at entry.",
+     "next": "Check SRE/INM and keep the purpose consistent with tourism, meetings or unpaid activity.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "MEX-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Visitor for meetings and business exploration",
+     "detail": "Meetings, market research and negotiations can fit visitor activity when there is no Mexican remuneration or employment.",
+     "next": "Carry invitations and state who pays and where services occur.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "MEX-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Visitor for conference attendance",
+     "detail": "Delegate attendance can be a visitor purpose; paid programme delivery is separate.",
+     "next": "Ask the organiser to state attendee versus speaker/trainer/performer.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "MEX-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "confirm",
+     "route": "Institutional invitation and INM classification",
+     "detail": "Unpaid research, teaching or cultural participation can be supported by an institution, but the Mexican host should confirm whether a permit is required.",
+     "next": "Get the Spanish invitation to explain role, dates and expenses.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "MEX-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "INM-authorised employment or visitor with paid-activity permission",
+     "detail": "A Mexican employer normally obtains INM authorisation before the consular visa process; local remuneration is not covered by ordinary visitor entry.",
+     "next": "Have the employer begin the INM offer-of-employment route before advertising the tour.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "MEX-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Visitor for rights; host/work route for paid launch",
+     "detail": "Publisher meetings can fit business; paid talks, readings, workshops, signings, merchandise and local sales need accurate Mexican classification.",
+     "next": "Separate author appearance, rights and retail.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "MEX-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "Institution invitation or employment authorisation",
+     "detail": "University exchange and commercial training can use different routes; Spanish documentation may be required.",
+     "next": "Ask the institution to classify academic, unpaid and paid teaching.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "MEX-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "specialist",
+     "route": "Temporary resident by economic solvency or other residence basis; no simple dedicated Mexican digital-nomad visa",
+     "detail": "Mexico is commonly used as a remote base, but visitor entry, tax residence and local work are separate. Temporary residence is a consular/residence process, not a guaranteed nomad permit.",
+     "next": "Confirm duration, foreign income, Mexican clients and tax position before basing remotely.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "MEX-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "Temporary/permanent residence with business or investment evidence",
+     "detail": "Founder activity can use residence and company pathways, subject to consular and INM requirements; owning a company does not automatically authorise local work.",
+     "next": "Choose the residence basis and operating role with a Mexican adviser.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "MEX-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Visitor business route; local sales/import/service needs Mexican status",
+     "detail": "Meetings, sourcing and negotiation can be visitor activity; Mexican fulfilment, sales or installation may require work and customs approvals.",
+     "next": "Map importer, invoice, tax and on-site roles.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "MEX-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Visitor only for non-remunerated activity or host-led work route",
+     "detail": "Paid performance, filming, exhibition and cultural work should be checked with the promoter and INM; visitor status does not cover local remuneration.",
+     "next": "Have the producer provide Spanish contracts, venue and payment details.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "MEX-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "Visitor first, INM/consular activation for local delivery",
+     "detail": "Mexico can absorb many purposes, but the local remuneration line must be explicit.",
+     "next": "Split tourism, meetings, foreign remote work and Mexican delivery before arrival.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "MEX-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visas for foreigners",
+     "authority": "Secretariat of Foreign Affairs (SRE), Mexico",
+     "url": "https://www.gob.mx/sre/acciones-y-programas/visas-para-extranjeros",
+     "checked": "2026-08-21",
+     "supports": "visa and visitor categories"
+    },
+    {
+     "title": "Autonomous immigration filters and eligible nationalities",
+     "authority": "National Institute of Migration (INM), Mexico",
+     "url": "https://www.gob.mx/inm/es/articulos/filtros-migratorios-autonomos-del-inm-requisitos-y-nacionalidades-que-pueden-utilizarlos?idiom=es",
+     "checked": "2026-08-21",
+     "supports": "Australian visitor entry signal"
+    },
+    {
+     "title": "FAQ: visa by job offer",
+     "authority": "National Institute of Migration (INM), Mexico",
+     "url": "https://www.gob.mx/inm/documentos/preguntas-frecuentes-para-solicitar-visa-por-oferta-de-empleo",
+     "checked": "2026-08-21",
+     "supports": "employer-led paid work route"
+    },
+    {
+     "title": "Mexican Embassy in Australia: business visa requirements",
+     "authority": "Embassy of Mexico in Australia",
+     "url": "https://embamex.sre.gob.mx/australia/images/stories/businessvisarequirements",
+     "checked": "2026-08-21",
+     "supports": "business documentation and consular evidence"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

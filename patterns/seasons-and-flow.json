@@ -1,0 +1,41 @@
+{
+ "id": "seasons-and-flow",
+ "name": "Seasons and visitor flow",
+ "layer": "cycles",
+ "method": "agent",
+ "question": "How does the year move here: weather seasons, cyclone or monsoon windows, peak, shoulder and quiet visitor months?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation",
+  "zone",
+  "city",
+  "site"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 365,
+ "sources": [
+  "national meteorological service",
+  "tourism authority statistics"
+ ],
+ "fields": [
+  "months[12]: season, hazard, visitor_flow",
+  "notes"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "unknown"
+ ],
+ "rules": [
+  "Twelve months, each with season, hazard window and visitor flow, so places can be compared month by month."
+ ],
+ "version": 1
+}

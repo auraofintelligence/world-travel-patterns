@@ -1,0 +1,315 @@
+{
+ "place": "th",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "60-day exemption shown; change pending",
+   "pre_arrival": "Submit the Thailand Digital Arrival Card within three days before arrival and live-check whether the approved 30-day policy has commenced.",
+   "max_stay": "Current pages show up to 60 days with a possible 30-day extension; the announced replacement would be 30 days and tourism-only.",
+   "checked": "2026-08-20",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Thailand Digital Arrival Card",
+     "authority": "Royal Thai Embassy Sydney",
+     "url": "https://sydney.thaiembassy.org/en/content/thailand-digital-arrival-card-tdac",
+     "checked": "2026-08-20",
+     "supports": "pre-arrival registration"
+    },
+    {
+     "title": "Thailand's latest visa exemption and visa on arrival",
+     "authority": "Royal Thai Embassy Canberra",
+     "url": "https://canberra.thaiembassy.org/en/content/thailand-s-latest-visa-exemption-and-visa-on-arriv",
+     "checked": "2026-08-20",
+     "supports": "currently published Australian exemption"
+    },
+    {
+     "title": "Visa policy press briefing, 19 May 2026",
+     "authority": "Ministry of Foreign Affairs Thailand",
+     "url": "https://www.mfa.go.th/en/content/summary-press-briefing-190526",
+     "checked": "2026-08-20",
+     "supports": "approved 30-day policy transition"
+    },
+    {
+     "title": "Getting visa and work permit",
+     "authority": "Thailand Board of Investment One Start One Stop",
+     "url": "https://osos.boi.go.th/EN/how-to/218/Getting-Visa--Work-Permit/",
+     "checked": "2026-08-20",
+     "supports": "attendance activities not classified as work"
+    },
+    {
+     "title": "Non-Immigrant B for business and work",
+     "authority": "Ministry of Foreign Affairs Thailand",
+     "url": "https://www.mfa.go.th/en/publicservice/non-immigrant-visa-b-for-business-and-work?form=MG0AV3",
+     "checked": "2026-08-20",
+     "supports": "planned business and work route"
+    },
+    {
+     "title": "Destination Thailand Visa",
+     "authority": "Royal Thai Embassy Canberra",
+     "url": "https://canberra.thaiembassy.org/en/content/destination-thailand-visa-dtv",
+     "checked": "2026-08-20",
+     "supports": "eligible applicant categories"
+    },
+    {
+     "title": "Destination Thailand Visa factsheet",
+     "authority": "Ministry of Foreign Affairs Thailand",
+     "url": "https://image.mfa.go.th/mfa/0/RzaiZWKBzF/consular/Visa/18.Destination_Thailand_Visa_%28DTV%29.pdf",
+     "checked": "2026-08-20",
+     "supports": "five-year validity, 180-day stays and THB500,000 evidence"
+    },
+    {
+     "title": "A Business Guide to Thailand",
+     "authority": "Thailand Board of Investment",
+     "url": "https://www.boi.go.th/upload/content/A_Business_Guide_to_Thailand.pdf",
+     "checked": "2026-08-20",
+     "supports": "WP.34 duration, extension and special-lecture examples"
+    },
+    {
+     "title": "Smart S startup visa",
+     "authority": "Thailand Board of Investment",
+     "url": "https://smart-visa.boi.go.th/smart/pages/smart_s.html",
+     "checked": "2026-08-20",
+     "supports": "startup eligibility and work benefit"
+    },
+    {
+     "title": "Foreign Business Licence or Certificate",
+     "authority": "Thailand Board of Investment One Start One Stop",
+     "url": "https://osos.boi.go.th/EN/how-to/147/Obtaining-Foreign-Business-LicenseCertificate/",
+     "checked": "2026-08-20",
+     "supports": "foreign business operation layer"
+    },
+    {
+     "title": "Techsauce Global Summit 2026",
+     "authority": "Event organiser",
+     "url": "https://summit.techsauce.co/",
+     "checked": "2026-08-20",
+     "supports": "English/international conference opportunity"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "THA-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Current visa exemption; live-check the transition",
+     "detail": "Official pages still show Australians eligible for up to 60 days, but a future 30-day tourism-only replacement has been approved.",
+     "next": "Check the Royal Gazette/Thai mission immediately before travel, then complete TDAC.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "THA-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Current exemption for attendance-only business; Non-B remains the durable business route",
+     "detail": "BOI guidance treats meetings, seminars, trade fairs, negotiations and attending lectures or training as activities not classified as work.",
+     "next": "Carry the invitation and keep the role to attendance and negotiation unless the host activates work permission.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "THA-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Current exemption for conference attendance",
+     "detail": "Attending a seminar, lecture, exhibition or trade fair is treated differently from delivering the program.",
+     "next": "If the invitation changes from attendee to speaker, move it into the host-unlock lane.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "THA-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "conditional",
+     "route": "Host-arranged WP.34 for accepted urgent/ad-hoc work, or Non-B plus work permit",
+     "detail": "A one-off special academic lecture or seminar may fit the short notification route for up to 15 days, with a possible notified extension.",
+     "next": "Have the Thai host obtain Department of Employment acceptance; use the normal work route for a planned tour.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "THA-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "Non-Immigrant B plus work permit",
+     "detail": "The planned paid route is host-led and initially supports a stay of up to 90 days under the visa before longer extensions.",
+     "next": "Put the fee, duties, venues and dates into the host's work-permit brief.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "THA-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Host-led speaking route; Thai publisher or bookshop handles retail",
+     "detail": "A signing, talk or workshop follows the active-delivery route. Rights and publisher meetings can stay in the business lane.",
+     "next": "Separate the appearance, fee, rights discussion, imports and local book sales.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "THA-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "WP.34 for a genuinely ad-hoc special lecture; Non-B plus work permit for planned or recurring teaching",
+     "detail": "Attending technical training is not work, while delivering it is. Education-sector approval may also apply to formal teaching.",
+     "next": "Have the university, company or event host choose between urgent notification and the full work route.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "THA-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "specialist",
+     "route": "Destination Thailand Visa",
+     "detail": "The DTV is a five-year multiple-entry visa for digital nomads, remote workers and freelancers, with up to 180 days per entry and THB500,000 financial evidence.",
+     "next": "Use it for overseas work; map Thai clients, Thai employment and local paid appearances separately.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "THA-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "Smart S for an established certified Thai startup",
+     "detail": "Smart S uses a target-industry startup, director or 25% ownership role and THB600,000 deposit, with no separate work permit for the certified startup.",
+     "next": "Test the startup against target-industry certification and company-ownership rules.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "THA-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Meet and negotiate under the visitor/business lane; operate through Non-B, work permission and company approvals",
+     "detail": "Foreign ownership, company registration and any Foreign Business Licence are separate from personal immigration status.",
+     "next": "Use the first trip to choose partners and structure, then map the operating role.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "THA-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Non-B plus work permit for planned performance",
+     "detail": "Thai work guidance expressly addresses foreign singers, artists and influencers. Festival attendance under DTV is not the same as performer permission.",
+     "next": "Have the promoter sponsor the performance dates, venues, fee and duties.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "THA-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "Enter for the accurate immediate purpose, then let the principal Thai host activate any delivery",
+     "detail": "Thailand offers several useful keys: visitor/business attendance, WP.34, Non-B/work permit, DTV and Smart S.",
+     "next": "Split the schedule into attendance, delivery, local income, remote work and company operation.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "THA-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-20",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Thailand Digital Arrival Card",
+     "authority": "Royal Thai Embassy Sydney",
+     "url": "https://sydney.thaiembassy.org/en/content/thailand-digital-arrival-card-tdac",
+     "checked": "2026-08-20",
+     "supports": "pre-arrival registration"
+    },
+    {
+     "title": "Thailand's latest visa exemption and visa on arrival",
+     "authority": "Royal Thai Embassy Canberra",
+     "url": "https://canberra.thaiembassy.org/en/content/thailand-s-latest-visa-exemption-and-visa-on-arriv",
+     "checked": "2026-08-20",
+     "supports": "currently published Australian exemption"
+    },
+    {
+     "title": "Visa policy press briefing, 19 May 2026",
+     "authority": "Ministry of Foreign Affairs Thailand",
+     "url": "https://www.mfa.go.th/en/content/summary-press-briefing-190526",
+     "checked": "2026-08-20",
+     "supports": "approved 30-day policy transition"
+    },
+    {
+     "title": "Getting visa and work permit",
+     "authority": "Thailand Board of Investment One Start One Stop",
+     "url": "https://osos.boi.go.th/EN/how-to/218/Getting-Visa--Work-Permit/",
+     "checked": "2026-08-20",
+     "supports": "attendance activities not classified as work"
+    },
+    {
+     "title": "Non-Immigrant B for business and work",
+     "authority": "Ministry of Foreign Affairs Thailand",
+     "url": "https://www.mfa.go.th/en/publicservice/non-immigrant-visa-b-for-business-and-work?form=MG0AV3",
+     "checked": "2026-08-20",
+     "supports": "planned business and work route"
+    },
+    {
+     "title": "Destination Thailand Visa",
+     "authority": "Royal Thai Embassy Canberra",
+     "url": "https://canberra.thaiembassy.org/en/content/destination-thailand-visa-dtv",
+     "checked": "2026-08-20",
+     "supports": "eligible applicant categories"
+    },
+    {
+     "title": "Destination Thailand Visa factsheet",
+     "authority": "Ministry of Foreign Affairs Thailand",
+     "url": "https://image.mfa.go.th/mfa/0/RzaiZWKBzF/consular/Visa/18.Destination_Thailand_Visa_%28DTV%29.pdf",
+     "checked": "2026-08-20",
+     "supports": "five-year validity, 180-day stays and THB500,000 evidence"
+    },
+    {
+     "title": "A Business Guide to Thailand",
+     "authority": "Thailand Board of Investment",
+     "url": "https://www.boi.go.th/upload/content/A_Business_Guide_to_Thailand.pdf",
+     "checked": "2026-08-20",
+     "supports": "WP.34 duration, extension and special-lecture examples"
+    },
+    {
+     "title": "Smart S startup visa",
+     "authority": "Thailand Board of Investment",
+     "url": "https://smart-visa.boi.go.th/smart/pages/smart_s.html",
+     "checked": "2026-08-20",
+     "supports": "startup eligibility and work benefit"
+    },
+    {
+     "title": "Foreign Business Licence or Certificate",
+     "authority": "Thailand Board of Investment One Start One Stop",
+     "url": "https://osos.boi.go.th/EN/how-to/147/Obtaining-Foreign-Business-LicenseCertificate/",
+     "checked": "2026-08-20",
+     "supports": "foreign business operation layer"
+    },
+    {
+     "title": "Techsauce Global Summit 2026",
+     "authority": "Event organiser",
+     "url": "https://summit.techsauce.co/",
+     "checked": "2026-08-20",
+     "supports": "English/international conference opportunity"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

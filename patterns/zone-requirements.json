@@ -1,0 +1,59 @@
+{
+ "id": "zone-requirements",
+ "name": "Special permit zones",
+ "layer": "permission",
+ "method": "agent",
+ "question": "Beyond national entry, what extra permits, consents, caps, guides, fees or lead times apply to this place or anything inside it?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation",
+  "zone",
+  "city",
+  "site"
+ ],
+ "inherit": "stack",
+ "baseline_days": 120,
+ "sources": [
+  "zone authority (land council, park, regional or island government)",
+  "the community's own published process"
+ ],
+ "requirement_types": [
+  "entry-permit",
+  "community-consent",
+  "activity-permit",
+  "visitor-cap",
+  "guide-required",
+  "fee",
+  "compliance-insurance",
+  "health",
+  "seasonal-closure",
+  "transport-control"
+ ],
+ "fields": [
+  "layers[]: type, authority, process, lead_time_days, activities, url, checked"
+ ],
+ "statuses": [
+  "none-found",
+  "requirements-found",
+  "partly-vetted",
+  "confirm-in-writing",
+  "to-vet",
+  "unknown"
+ ],
+ "rules": [
+  "Scan every ancestor and descendant: a national visa never covers a zone permit by itself.",
+  "Community consent belongs to the community. Record its published process; never presume an outcome.",
+  "Insurance is recorded only where it is a legal, entry, permit or venue requirement.",
+  "Each layer's lead time is subtracted from the travel window to give a latest safe start date.",
+  "Filming, drone, research and commercial work often need their own permit inside a zone; check each planned activity."
+ ],
+ "version": 1
+}

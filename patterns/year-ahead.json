@@ -1,0 +1,37 @@
+{
+ "id": "year-ahead",
+ "name": "Year ahead",
+ "layer": "cycles",
+ "method": "agent",
+ "question": "What dated events in the next twelve months change access, prices or atmosphere: elections, major events, scheduled rule changes?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "electorate",
+  "region",
+  "island",
+  "island-group",
+  "city"
+ ],
+ "inherit": "none",
+ "baseline_days": 90,
+ "sources": [
+  "electoral commissions",
+  "official event and government announcements"
+ ],
+ "fields": [
+  "events[]: date, what, effect, url"
+ ],
+ "statuses": [
+  "mapped",
+  "unknown"
+ ],
+ "rules": [
+  "A date must come from a source. 'Later this year' is not a date."
+ ],
+ "version": 1
+}

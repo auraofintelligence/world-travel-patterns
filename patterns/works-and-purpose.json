@@ -1,0 +1,44 @@
+{
+ "id": "works-and-purpose",
+ "name": "Works and purpose fit",
+ "layer": "purpose",
+ "method": "agent",
+ "question": "How do this place and Luke's works meet: P4A chapters, books, music, Aura, screen, founder opportunities?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation",
+  "zone",
+  "city",
+  "site",
+  "electorate"
+ ],
+ "inherit": "none",
+ "baseline_days": 365,
+ "only_tagged": true,
+ "sources": [
+  "Luke's own repos",
+  "venue, festival and partner pages (signals)"
+ ],
+ "fields": [
+  "works[]",
+  "venues_and_partners",
+  "audiences",
+  "links"
+ ],
+ "statuses": [
+  "mapped",
+  "unknown"
+ ],
+ "rules": [
+  "Runs on places carrying a works tag. Signals, not endorsements."
+ ],
+ "version": 1
+}

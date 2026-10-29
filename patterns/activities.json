@@ -1,0 +1,54 @@
+{
+ "id": "activities",
+ "name": "Activity permission",
+ "layer": "permission",
+ "method": "agent",
+ "question": "Does the entry status permit the planned activity, or is another route needed?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 120,
+ "sources": [
+  "destination immigration and labour authorities"
+ ],
+ "activities": [
+  "tourism",
+  "meetings",
+  "conference",
+  "unpaid-speaking",
+  "paid-speaking",
+  "book-launch",
+  "ai-teaching",
+  "remote-work",
+  "entrepreneur",
+  "trade",
+  "artist",
+  "mixed-mission",
+  "filming",
+  "drone",
+  "research",
+  "volunteering"
+ ],
+ "fields": [
+  "per activity: status, route, detail, next, checked"
+ ],
+ "statuses": [
+  "low",
+  "conditional",
+  "specialist",
+  "confirm-in-writing",
+  "unknown"
+ ],
+ "rules": [
+  "Easy entry is not permission to work.",
+  "Each activity carries its own checked date. Never redate all activities after checking one.",
+  "New activities are added to this list; every place then shows them as unknown until vetted.",
+  "Skipped for the home country (Australia): an Australian passport holder needs no entry permission there."
+ ],
+ "version": 1,
+ "skip_home": true
+}

@@ -1,0 +1,29 @@
+{
+ "rule": "Hand and agent additions. A why is a reason to vet, never a finding.",
+ "places": [
+  {
+   "id": "in/sikkim",
+   "name": "Sikkim",
+   "kind": "region",
+   "parent": "in",
+   "zone_scan": true,
+   "why": "Flagged for a zone scan: check for extra permits, consents, visitor caps, guides, fees and lead times."
+  },
+  {
+   "id": "in/arunachal-pradesh",
+   "name": "Arunachal Pradesh",
+   "kind": "region",
+   "parent": "in",
+   "zone_scan": true,
+   "why": "Flagged for a zone scan: check for extra permits, consents, visitor caps, guides, fees and lead times."
+  },
+  {
+   "id": "in/andaman-nicobar",
+   "name": "Andaman and Nicobar Islands",
+   "kind": "island-group",
+   "parent": "in",
+   "zone_scan": true,
+   "why": "Flagged for a zone scan: check for extra permits, consents, visitor caps, guides, fees and lead times."
+  }
+ ]
+}

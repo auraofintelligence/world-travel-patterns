@@ -1,0 +1,217 @@
+{
+ "place": "fr",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Visa-free Schengen short stay for Australians; 90 days in any 180-day period for tourism and ordinary business visits.",
+   "pre_arrival": "Check the France-Visas assistant, Schengen day count, passport validity and any event invitation before booking.",
+   "max_stay": "Short-stay entry is the quick key; long stays or active local work move to a French long-stay visa or residence permit.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "France-Visas: Australia",
+     "authority": "French Ministry for Europe and Foreign Affairs",
+     "url": "https://france-visas.gouv.fr/en/web/france-visas/australie",
+     "checked": "2026-08-21",
+     "supports": "Australian application route and processing context"
+    },
+    {
+     "title": "France-Visas: professional purpose",
+     "authority": "French Ministry for Europe and Foreign Affairs",
+     "url": "https://france-visas.gouv.fr/en/web/france-visas/motif-professionnel",
+     "checked": "2026-08-21",
+     "supports": "business, self-employed and professional categories"
+    },
+    {
+     "title": "France-Visas: salaried activity",
+     "authority": "French Ministry for Europe and Foreign Affairs",
+     "url": "https://www.france-visas.gouv.fr/web/france-visas/activite-salariee",
+     "checked": "2026-08-21",
+     "supports": "short missions, events and occasional invited teaching"
+    },
+    {
+     "title": "France-Visas: international talents",
+     "authority": "French Ministry for Europe and Foreign Affairs",
+     "url": "https://france-visas.gouv.fr/en/web/france-visas/talents-internationaux-et-attractivite-economique",
+     "checked": "2026-08-21",
+     "supports": "talent, researcher, creator, investor and artist routes"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "FRA-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Visa-free Schengen visitor entry",
+     "detail": "Australian ordinary passports are normally visa-exempt for short Schengen stays, subject to the 90/180 rule and border conditions.",
+     "next": "Run the official France-Visas and Schengen checks immediately before departure.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "FRA-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Short-stay business visitor or conference delegate",
+     "detail": "Meetings, negotiations, trade fairs and conference attendance can fit a short professional visit when no French employment or service delivery is performed.",
+     "next": "Carry the host letter, schedule, business purpose and proof of funds; do not call a speaking engagement mere attendance.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "FRA-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Short-stay attendance route",
+     "detail": "A delegate, exhibitor or visitor route is distinct from delivering paid programme content or hands-on training.",
+     "next": "Ask the organiser whether you are attendee, panellist, speaker, trainer or performer and reclassify the route if it changes.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "FRA-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "confirm",
+     "route": "Host and consular classification; occasional invited teaching may be exempt",
+     "detail": "France-Visas identifies occasional teaching by invited professors and short cultural/scientific events as fact-dependent exceptions; a free talk is not automatically outside work rules.",
+     "next": "Send the exact no-fee arrangement, reimbursements, host status and dates to the host and French mission.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "FRA-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "French work authorisation with short-stay or talent route",
+     "detail": "Paid speaking, consulting and training are active professional services. Short assignments may use event or temporary-work formalities; longer or high-profile work can use talent passport categories.",
+     "next": "Have the French host determine whether an authorisation, exemption, convention or talent passport applies before advertising dates.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "FRA-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Publisher/venue invitation plus the accurate professional or cultural route",
+     "detail": "Rights meetings can be business travel; a paid reading, signing, workshop, ticketed appearance or local book sales can add work, artist or tax questions.",
+     "next": "Separate author appearance, royalties, fee, merchandise and retail in the invitation.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "FRA-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "Invited-researcher/teacher or short professional work route",
+     "detail": "A university convention may support research or higher-education teaching; commercial training normally needs the work pathway instead.",
+     "next": "Ask the institution to issue the correct convention or work-authorisation documents.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "FRA-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "confirm",
+     "route": "No broad French digital-nomad visa; visitor or residence classification must be confirmed",
+     "detail": "France has talent and self-employed residence routes but no simple all-purpose remote-worker visa. Foreign remote work while visiting can raise tax, residence and activity questions.",
+     "next": "Confirm the intended duration, employer/client location and French customer activity with a French mission or adviser.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "FRA-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "Talent passport creator/investor, entrepreneur or self-employed route",
+     "detail": "France-Visas publishes creator, investor, researcher and internationally recognised talent categories with project, qualification or investment evidence.",
+     "next": "Choose the exact talent or entrepreneur category and build the French project dossier before relocating.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "FRA-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Short professional business visit; local operation needs French business/work status",
+     "detail": "Sourcing, negotiation, trade fairs and contract discussions can be visitor activity; installing, selling directly or fulfilling locally can become work.",
+     "next": "Map who invoices, who delivers and where the service occurs.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "FRA-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Short cultural event classification or talent passport artist route",
+     "detail": "Paid or contracted performance, literary work and artistic production have specific French categories; the talent passport cultural profession route is designed for longer engagements.",
+     "next": "Have the producer specify contracts, dates, royalties, venue licence and whether the engagement is salaried or independent.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "FRA-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "Split the France itinerary into Schengen visit, professional delivery and any talent/residence layer",
+     "detail": "The quickest route may be visa-free entry while the activation key is a host contract, work authorisation, convention or talent passport.",
+     "next": "Give the host one schedule showing every activity, payment, audience and venue.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "FRA-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "France-Visas: Australia",
+     "authority": "French Ministry for Europe and Foreign Affairs",
+     "url": "https://france-visas.gouv.fr/en/web/france-visas/australie",
+     "checked": "2026-08-21",
+     "supports": "Australian application route and processing context"
+    },
+    {
+     "title": "France-Visas: professional purpose",
+     "authority": "French Ministry for Europe and Foreign Affairs",
+     "url": "https://france-visas.gouv.fr/en/web/france-visas/motif-professionnel",
+     "checked": "2026-08-21",
+     "supports": "business, self-employed and professional categories"
+    },
+    {
+     "title": "France-Visas: salaried activity",
+     "authority": "French Ministry for Europe and Foreign Affairs",
+     "url": "https://www.france-visas.gouv.fr/web/france-visas/activite-salariee",
+     "checked": "2026-08-21",
+     "supports": "short missions, events and occasional invited teaching"
+    },
+    {
+     "title": "France-Visas: international talents",
+     "authority": "French Ministry for Europe and Foreign Affairs",
+     "url": "https://france-visas.gouv.fr/en/web/france-visas/talents-internationaux-et-attractivite-economique",
+     "checked": "2026-08-21",
+     "supports": "talent, researcher, creator, investor and artist routes"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

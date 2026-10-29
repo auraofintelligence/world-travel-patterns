@@ -1,0 +1,315 @@
+{
+ "place": "cn",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "30 days visa-free to 31 Dec 2026",
+   "pre_arrival": "Confirm the visa-free policy is still in force for the travel date and carry the invitation or activity purpose.",
+   "max_stay": "Up to 30 calendar days under the current policy, through 31 December 2026.",
+   "checked": "2026-08-20",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "FAQs on visa-free entry into China",
+     "authority": "Ministry of Foreign Affairs of China",
+     "url": "https://cs.mfa.gov.cn/lh/lhqz_149493/cjwd/",
+     "checked": "2026-08-20",
+     "supports": "eligible purposes, 30-day stay and work exclusion"
+    },
+    {
+     "title": "Extension of visa-free policy for Australians",
+     "authority": "Embassy of China in Australia",
+     "url": "https://au.china-embassy.gov.cn/eng/tzgg/202511/t20251105_11747334.htm",
+     "checked": "2026-08-20",
+     "supports": "policy end date"
+    },
+    {
+     "title": "China visa categories F, M, Z and R",
+     "authority": "Chinese Visa Application Service Centre",
+     "url": "https://pdf.visaforchina.cn/MES3_EN/qianzhengyewu/jichuzhishi/changjianwenti/206736865926189056.html",
+     "checked": "2026-08-20",
+     "supports": "exchange, business and work visa purposes"
+    },
+    {
+     "title": "Work permit for 90 days or less",
+     "authority": "Shanghai Municipal Government",
+     "url": "https://english.shanghai.gov.cn/en-Latest-TalentsinShanghai/20260202/6846c3872de54772a4635b227d2f15de.html",
+     "checked": "2026-08-20",
+     "supports": "short-term host-led work process"
+    },
+    {
+     "title": "Short-term working tasks for foreigners",
+     "authority": "Beijing Municipal Government",
+     "url": "https://english.beijing.gov.cn/mostrequested/residencepermit/employment/202005/t20200521_1904763.html",
+     "checked": "2026-08-20",
+     "supports": "Z-visa sequence and commercial-performance approvals"
+    },
+    {
+     "title": "Foreign professional work-permit criteria",
+     "authority": "Shanghai Municipal Government",
+     "url": "https://english.shanghai.gov.cn/en-WorkPermit-Hongqiao/20231213/a88687f2d8094fbebe38b1a667530ed1.html",
+     "checked": "2026-08-20",
+     "supports": "Category B age, degree, experience and points criteria"
+    },
+    {
+     "title": "Entrepreneurship residence pathways",
+     "authority": "Shanghai Municipal Government",
+     "url": "https://english.shanghai.gov.cn/en-FAQs-TalentInShanghai/20240607/432231df2d514907bb49dbe3ee9a8338.html",
+     "checked": "2026-08-20",
+     "supports": "city-specific founder route"
+    },
+    {
+     "title": "Foreign Investment Law",
+     "authority": "State Council of China",
+     "url": "https://english.www.gov.cn/services/mvestment/202102/24/content_WS6035aa38c6d0719374af9609.html",
+     "checked": "2026-08-20",
+     "supports": "foreign investment framework"
+    },
+    {
+     "title": "World Artificial Intelligence Conference 2026",
+     "authority": "Shanghai Municipal Government",
+     "url": "https://english.shanghai.gov.cn/en-Events/20260624/9cc202d708504b56ba32f70fbd61ef79.html",
+     "checked": "2026-08-20",
+     "supports": "AI opportunity signal"
+    },
+    {
+     "title": "China International Fair for Trade in Services",
+     "authority": "Beijing Municipal Government",
+     "url": "https://english.beijing.gov.cn/investinginbeijing/hotspot/CIFTIS/index.html",
+     "checked": "2026-08-20",
+     "supports": "trade and conference opportunity signal"
+    },
+    {
+     "title": "Beijing International Book Fair 2026",
+     "authority": "Beijing Municipal Government",
+     "url": "https://english.beijing.gov.cn/whatson/events/exhibition/202606/t20260611_4695970.html",
+     "checked": "2026-08-20",
+     "supports": "publishing opportunity signal"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "CHN-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Current 30-day visa-free entry",
+     "detail": "The policy covers tourism for Australian ordinary-passport holders and currently permits multiple entries.",
+     "next": "Recheck the policy end date and passport conditions shortly before departure.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHN-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "30-day visa-free business visit; M visa for a longer or visa-required trip",
+     "detail": "Meetings, negotiations and commercial visits fit the published business purpose.",
+     "next": "Carry a host invitation and keep service delivery outside the meeting-only brief.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHN-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "30-day visa-free conference or exhibition entry",
+     "detail": "Conferences and exhibitions are expressly named in the current visa-free policy.",
+     "next": "Keep registration, invitation, accommodation and onward travel together.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHN-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "confirm",
+     "route": "Visa-free exchange or F visa only when the host and authorities classify it as non-commercial exchange",
+     "detail": "F covers exchanges and visits; it is not an automatic performance exemption. A programmed appearance may still need cultural approval even without a fee.",
+     "next": "Ask the host to confirm the classification and any cultural approval in writing before using the exchange lane.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHN-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "specialist",
+     "route": "Host-sponsored short-term work approval plus Z visa",
+     "detail": "A paid lecture, advisory session or professional service generally fits short-term work rather than business attendance.",
+     "next": "Have the contracting host start the work-approval process before the Z application.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHN-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "confirm",
+     "route": "Split rights meetings, cultural appearance, speaking fee and retail sales",
+     "detail": "Publisher and rights meetings can fit business entry; a non-commercial appearance may fit exchange; paid delivery or personal sales change the route.",
+     "next": "Use a Chinese publisher or bookseller for local sales and classify the appearance separately.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHN-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "specialist",
+     "route": "Short-term work approval and Z visa for up to 90 days",
+     "detail": "Paid technical, management or advisory teaching is treated as work; longer roles use the normal work-permit and residence process.",
+     "next": "Ask the university, company or event host to sponsor the exact teaching dates and duties.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHN-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "not-fit",
+     "route": "No dedicated national digital-nomad route identified",
+     "detail": "The current visa-free policy excludes people coming to work, and the official visa list has no remote-worker class.",
+     "next": "Map a city-specific residence or work route if China becomes a longer base.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHN-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "Business scouting first; city-specific entrepreneurship residence for a longer build",
+     "detail": "Foreigners can invest and establish enterprises subject to sector rules; Shanghai also publishes entrepreneurship residence pathways.",
+     "next": "Choose the city and entity role, then map investment approval separately from personal work status.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHN-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "low",
+     "route": "30-day visa-free business visit or M visa",
+     "detail": "Trade fairs, sourcing, negotiations and setup meetings fit the business lane.",
+     "next": "Separate negotiations from any local installation, operation or service delivery.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHN-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "specialist",
+     "route": "Written exchange classification for non-commercial activity; cultural approval plus short-term employment approval plus Z visa for commercial performance",
+     "detail": "For a commercial performance of 90 days or less, the official short-work process requires both cultural-authority documents and short-term employment approval before the Z route.",
+     "next": "Have the promoter classify the engagement and coordinate all cultural, employment and visa documents.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHN-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "confirm",
+     "route": "Build a host-backed activity schedule, then choose visa-free exchange, M, F or Z",
+     "detail": "China has several workable keys; the correct one follows the real actions and remuneration.",
+     "next": "Send one precise schedule to the principal Chinese host for route classification.",
+     "checked": "2026-08-20",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "CHN-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-20",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "FAQs on visa-free entry into China",
+     "authority": "Ministry of Foreign Affairs of China",
+     "url": "https://cs.mfa.gov.cn/lh/lhqz_149493/cjwd/",
+     "checked": "2026-08-20",
+     "supports": "eligible purposes, 30-day stay and work exclusion"
+    },
+    {
+     "title": "Extension of visa-free policy for Australians",
+     "authority": "Embassy of China in Australia",
+     "url": "https://au.china-embassy.gov.cn/eng/tzgg/202511/t20251105_11747334.htm",
+     "checked": "2026-08-20",
+     "supports": "policy end date"
+    },
+    {
+     "title": "China visa categories F, M, Z and R",
+     "authority": "Chinese Visa Application Service Centre",
+     "url": "https://pdf.visaforchina.cn/MES3_EN/qianzhengyewu/jichuzhishi/changjianwenti/206736865926189056.html",
+     "checked": "2026-08-20",
+     "supports": "exchange, business and work visa purposes"
+    },
+    {
+     "title": "Work permit for 90 days or less",
+     "authority": "Shanghai Municipal Government",
+     "url": "https://english.shanghai.gov.cn/en-Latest-TalentsinShanghai/20260202/6846c3872de54772a4635b227d2f15de.html",
+     "checked": "2026-08-20",
+     "supports": "short-term host-led work process"
+    },
+    {
+     "title": "Short-term working tasks for foreigners",
+     "authority": "Beijing Municipal Government",
+     "url": "https://english.beijing.gov.cn/mostrequested/residencepermit/employment/202005/t20200521_1904763.html",
+     "checked": "2026-08-20",
+     "supports": "Z-visa sequence and commercial-performance approvals"
+    },
+    {
+     "title": "Foreign professional work-permit criteria",
+     "authority": "Shanghai Municipal Government",
+     "url": "https://english.shanghai.gov.cn/en-WorkPermit-Hongqiao/20231213/a88687f2d8094fbebe38b1a667530ed1.html",
+     "checked": "2026-08-20",
+     "supports": "Category B age, degree, experience and points criteria"
+    },
+    {
+     "title": "Entrepreneurship residence pathways",
+     "authority": "Shanghai Municipal Government",
+     "url": "https://english.shanghai.gov.cn/en-FAQs-TalentInShanghai/20240607/432231df2d514907bb49dbe3ee9a8338.html",
+     "checked": "2026-08-20",
+     "supports": "city-specific founder route"
+    },
+    {
+     "title": "Foreign Investment Law",
+     "authority": "State Council of China",
+     "url": "https://english.www.gov.cn/services/mvestment/202102/24/content_WS6035aa38c6d0719374af9609.html",
+     "checked": "2026-08-20",
+     "supports": "foreign investment framework"
+    },
+    {
+     "title": "World Artificial Intelligence Conference 2026",
+     "authority": "Shanghai Municipal Government",
+     "url": "https://english.shanghai.gov.cn/en-Events/20260624/9cc202d708504b56ba32f70fbd61ef79.html",
+     "checked": "2026-08-20",
+     "supports": "AI opportunity signal"
+    },
+    {
+     "title": "China International Fair for Trade in Services",
+     "authority": "Beijing Municipal Government",
+     "url": "https://english.beijing.gov.cn/investinginbeijing/hotspot/CIFTIS/index.html",
+     "checked": "2026-08-20",
+     "supports": "trade and conference opportunity signal"
+    },
+    {
+     "title": "Beijing International Book Fair 2026",
+     "authority": "Beijing Municipal Government",
+     "url": "https://english.beijing.gov.cn/whatson/events/exhibition/202606/t20260611_4695970.html",
+     "checked": "2026-08-20",
+     "supports": "publishing opportunity signal"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

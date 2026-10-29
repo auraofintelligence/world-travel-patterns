@@ -1,0 +1,217 @@
+{
+ "place": "ar",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Australians are generally admitted visa-free for tourism and business subject to the current reciprocity/entry-fee position; ordinary tourist permission is up to 90 days and may be extended.",
+   "pre_arrival": "Check Migraciones and the Argentine consular/entry-fee position, then prepare a Spanish purpose letter.",
+   "max_stay": "Tourist permission is generally up to 90 days and may be extended; TIE/residence categories can be more accurate for work.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Tourists",
+     "authority": "Argentine National Migration Directorate",
+     "url": "https://www.argentina.gob.ar/migraciones/turistas",
+     "checked": "2026-08-21",
+     "supports": "tourist duration and extension"
+    },
+    {
+     "title": "Electronic entry processing (TIE 24H)",
+     "authority": "Argentine National Migration Directorate",
+     "url": "https://www.argentina.gob.ar/migraciones/tramitacion-de-ingreso-electronica-tie-24h",
+     "checked": "2026-08-21",
+     "supports": "business, professional/artistic and digital-nomad menu"
+    },
+    {
+     "title": "Electronic entry processing: business",
+     "authority": "Argentine National Migration Directorate",
+     "url": "https://www.argentina.gob.ar/servicio/tramitacion-de-ingreso-electronica-negocios",
+     "checked": "2026-08-21",
+     "supports": "registered requester and business category"
+    },
+    {
+     "title": "Visiting Argentina",
+     "authority": "Argentina.gob.ar",
+     "url": "https://www.argentina.gob.ar/tema/extranjeros/turistas",
+     "checked": "2026-08-21",
+     "supports": "Australian entry and reciprocity prompt"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "ARG-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Tourist/business entry or TIE 24H",
+     "detail": "Argentina's migration pages describe tourist stays up to three months and the TIE system lists business and other short categories; Australians should confirm current fee/waiver treatment.",
+     "next": "Check the current Migraciones entry regime and any reciprocity charge.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ARG-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "TIE 24H business or short business entry",
+     "detail": "Argentina has an explicit electronic business category for habitual business/representative activity supported by a registered Argentine requester.",
+     "next": "Ask the host whether Re.N.U.R.E. registration and TIE 24H are needed.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ARG-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Tourist/business entry for conference attendance",
+     "detail": "Attendance can fit visitor/business purpose; professional delivery and paid tasks are separately named in TIE categories.",
+     "next": "Label attendee, speaker, trainer and exhibitor roles.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ARG-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "conditional",
+     "route": "TIE 24H scientific/professional/technical/artistic category",
+     "detail": "The electronic-entry menu expressly lists remunerated or non-remunerated scientific, professional, technical, religious or artistic tasks.",
+     "next": "Use the exact host, dates and unpaid/expense arrangement in the application.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ARG-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "TIE 24H or temporary residence for local professional work",
+     "detail": "Argentina's migration categories can cover paid professional/technical/artistic tasks, but a proper permission is not the same as tourist entry.",
+     "next": "Have the registered requester choose the short TIE or temporary-residence category.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ARG-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Business/cultural TIE split",
+     "detail": "Rights meetings can be business; paid readings, workshops, signings, royalties and local sales should use the professional/artistic and tax framework.",
+     "next": "Separate author activity from merchandise and retail.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ARG-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "Scientific/professional TIE or academic host route",
+     "detail": "Short teaching can be tied to a university or professional invitation; recurring local employment needs residence/work status.",
+     "next": "Ask the institution to state whether the role is academic exchange, paid teaching or service delivery.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ARG-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "specialist",
+     "route": "Digital-nomad category listed in TIE 24H system",
+     "detail": "Argentina's electronic-entry menu includes digital nomads; current duration, evidence and whether a visa is needed must be confirmed for the passport and stay.",
+     "next": "Check the current DNM digital-nomad instructions and keep Argentine clients separate.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ARG-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "Temporary residence/business and investment routes",
+     "detail": "Founder and investor activity is a residence/company question; the visitor/business route only supports exploration and meetings.",
+     "next": "Choose the Argentine entity, investment and operating role before setting up locally.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ARG-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Business/TIE route; local import and fulfilment separate",
+     "detail": "Fairs, market studies and negotiations can use business categories; local selling, customs and service delivery add other permissions.",
+     "next": "Map importer, invoice, customs and on-site work.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ARG-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "TIE artistic category or cultural host route",
+     "detail": "Argentina expressly lists artistic tasks, including non-remunerated work, in its electronic-entry menu; paid performance still needs exact classification.",
+     "next": "Have the producer state fee, venue, dates and union/rights issues.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ARG-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "Tourist/business entry plus TIE category",
+     "detail": "Argentina's strength is a menu that names several non-linear purposes, but each trip still needs one accurate principal category.",
+     "next": "Build the Spanish schedule and ask the host to choose the TIE/residence path.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ARG-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Tourists",
+     "authority": "Argentine National Migration Directorate",
+     "url": "https://www.argentina.gob.ar/migraciones/turistas",
+     "checked": "2026-08-21",
+     "supports": "tourist duration and extension"
+    },
+    {
+     "title": "Electronic entry processing (TIE 24H)",
+     "authority": "Argentine National Migration Directorate",
+     "url": "https://www.argentina.gob.ar/migraciones/tramitacion-de-ingreso-electronica-tie-24h",
+     "checked": "2026-08-21",
+     "supports": "business, professional/artistic and digital-nomad menu"
+    },
+    {
+     "title": "Electronic entry processing: business",
+     "authority": "Argentine National Migration Directorate",
+     "url": "https://www.argentina.gob.ar/servicio/tramitacion-de-ingreso-electronica-negocios",
+     "checked": "2026-08-21",
+     "supports": "registered requester and business category"
+    },
+    {
+     "title": "Visiting Argentina",
+     "authority": "Argentina.gob.ar",
+     "url": "https://www.argentina.gob.ar/tema/extranjeros/turistas",
+     "checked": "2026-08-21",
+     "supports": "Australian entry and reciprocity prompt"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

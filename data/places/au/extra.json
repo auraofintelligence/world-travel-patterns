@@ -1,0 +1,107 @@
+{
+ "rule": "Hand and agent additions. A why is a reason to vet, never a finding.",
+ "places": [
+  {
+   "id": "au/minjerribah",
+   "name": "Minjerribah",
+   "kind": "island",
+   "parent": "au/qld-council-6250",
+   "aliases": [
+    "North Stradbroke Island",
+    "Straddie"
+   ],
+   "tags": [
+    "home",
+    "p4a-xyz",
+    "aura",
+    "music"
+   ],
+   "zone_scan": true,
+   "why": "Home island. Quandamooka Country: vet camping, vehicle access, cultural and filming permissions."
+  },
+  {
+   "id": "au/lord-howe-island",
+   "name": "Lord Howe Island",
+   "kind": "island",
+   "parent": "au/nsw",
+   "tags": [
+    "p4a-oceania"
+   ],
+   "zone_scan": true,
+   "why": "Flagged for a zone scan: check for extra permits, consents, visitor caps, guides, fees and lead times."
+  },
+  {
+   "id": "au/torres-strait-islands",
+   "name": "Torres Strait Islands",
+   "aliases": [
+    "Zenadth Kes"
+   ],
+   "kind": "island-group",
+   "parent": "au/qld",
+   "tags": [
+    "p4a-oceania",
+    "p4a-native-nations"
+   ],
+   "zone_scan": true,
+   "why": "Flagged for a zone scan: check for extra permits, consents, visitor caps, guides, fees and lead times."
+  },
+  {
+   "id": "au/nt-aboriginal-land",
+   "name": "Aboriginal land, Northern Territory",
+   "kind": "zone",
+   "parent": "au/nt",
+   "tags": [
+    "p4a-native-nations"
+   ],
+   "zone_scan": true,
+   "why": "Flagged for a zone scan: check for extra permits, consents, visitor caps, guides, fees and lead times. Land council permit processes to vet."
+  },
+  {
+   "id": "au/apy-lands",
+   "name": "Anangu Pitjantjatjara Yankunytjatjara Lands",
+   "aliases": [
+    "APY Lands"
+   ],
+   "kind": "zone",
+   "parent": "au/sa",
+   "tags": [
+    "p4a-native-nations"
+   ],
+   "zone_scan": true,
+   "why": "Flagged for a zone scan: check for extra permits, consents, visitor caps, guides, fees and lead times."
+  },
+  {
+   "id": "au/wa-aboriginal-lands",
+   "name": "Aboriginal lands, Western Australia",
+   "kind": "zone",
+   "parent": "au/wa",
+   "tags": [
+    "p4a-native-nations"
+   ],
+   "zone_scan": true,
+   "why": "Flagged for a zone scan: check for extra permits, consents, visitor caps, guides, fees and lead times."
+  },
+  {
+   "id": "au/kakadu",
+   "name": "Kakadu National Park",
+   "kind": "site",
+   "parent": "au/nt",
+   "tags": [
+    "p4a-native-nations"
+   ],
+   "zone_scan": true,
+   "why": "Flagged for a zone scan: filming, drone and commercial activity permits to vet."
+  },
+  {
+   "id": "au/uluru-kata-tjuta",
+   "name": "Uluru-Kata Tjuta National Park",
+   "kind": "site",
+   "parent": "au/nt",
+   "tags": [
+    "p4a-native-nations"
+   ],
+   "zone_scan": true,
+   "why": "Flagged for a zone scan: filming, drone and commercial activity permits to vet."
+  }
+ ]
+}

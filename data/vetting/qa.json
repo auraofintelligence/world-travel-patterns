@@ -1,0 +1,301 @@
+{
+ "place": "qa",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Visa-free visitor entry; short contractual work needs a host-arranged business visa",
+   "pre_arrival": "Run Australia through the live Visit Qatar checker, meet its passport, onward-travel, accommodation and insurance conditions, and obtain a Qatari host letter. For any contracted delivery, have the approved company or institution arrange the business visa in advance.",
+   "max_stay": "Use the period recorded at entry rather than a copied online number. The separate short-term contractual-work business visa can be valid for up to three months; a 72-hour business visa can be extended once for another 72 hours.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa-free entry or Hayya e-visa checker",
+     "authority": "Qatar Tourism",
+     "url": "https://visitqatar.com/intl-en/plan-your-trip/visas",
+     "checked": "2026-08-21",
+     "supports": "current Australian visa-free result and live passport, accommodation, onward and insurance conditions"
+    },
+    {
+     "title": "Visas",
+     "authority": "Qatar e-Government Portal Hukoomi",
+     "url": "https://portal.www.gov.qa/wps/wcm/connect/Hukoomi%2BWeb%2BContent/Hukoomi/Topics/Visas%2Band%2BOfficial%2BDocuments/visas",
+     "checked": "2026-08-21",
+     "supports": "Australian arrival arrangement, 72-hour business visa and up-to-three-month short-contract business visa"
+    },
+    {
+     "title": "Residence and Work Permits",
+     "authority": "Qatar e-Government Portal Hukoomi",
+     "url": "https://portal.www.gov.qa/wps/wcm/connect/hukoomi%2Bweb%2Bcontent/hukoomi/topics/visas%2Band%2Bofficial%2Bdocuments/residenceandworkpermits",
+     "checked": "2026-08-21",
+     "supports": "Qatari-employer sponsorship, temporary entry conversion and Work Residence Permit"
+    },
+    {
+     "title": "Residency Program for Entrepreneurs and Executives",
+     "authority": "Invest Qatar",
+     "url": "https://www.invest.qa/en/residency-program",
+     "checked": "2026-08-21",
+     "supports": "entrepreneur endorsement, age, funds, documents, overseas application journey and special work permit"
+    },
+    {
+     "title": "Entrepreneur and Executive Residency FAQs",
+     "authority": "Invest Qatar",
+     "url": "https://www.invest.qa/docs/FAQs-Residency-Programs.pdf",
+     "checked": "2026-08-21",
+     "supports": "self-sponsored five-year Entrepreneur Residency and renewal framework"
+    },
+    {
+     "title": "Qatar launches entrepreneur and executive residency visas",
+     "authority": "Invest Qatar",
+     "url": "https://www.invest.qa/en/media-centre/news-and-articles/qatar-launches-two-new-residency-visas-to-empower-global-executives-and-entrepreneurs",
+     "checked": "2026-08-21",
+     "supports": "2026 launch, five-year self-sponsored residence and structured work-permit pathway"
+    },
+    {
+     "title": "Taxes in Qatar",
+     "authority": "Qatar General Tax Authority",
+     "url": "https://gta.gov.qa/en/taxes-info",
+     "checked": "2026-08-21",
+     "supports": "5% final withholding on qualifying services to a non-resident without a permanent establishment"
+    },
+    {
+     "title": "Pending customs duties and temporary admission",
+     "authority": "General Authority of Customs Qatar",
+     "url": "https://www.customs.gov.qa/English/Procedures/UnifiedGuide/Pages/PendingCustomsDuties.aspx",
+     "checked": "2026-08-21",
+     "supports": "temporary admission, guarantees and ATA Carnet customs layer"
+    },
+    {
+     "title": "ITU Plenipotentiary Conference 2026",
+     "authority": "International Telecommunication Union",
+     "url": "https://pp.itu.int/2026/en/",
+     "checked": "2026-08-21",
+     "supports": "Doha dates, digital-governance purpose and controlled participation; no speaking access inferred"
+    },
+    {
+     "title": "Qatar to host ITU PP-26",
+     "authority": "International Telecommunication Union",
+     "url": "https://www.itu.int/en/mediacentre/Pages/PR-2025-11-13-PP26-announcement.aspx",
+     "checked": "2026-08-21",
+     "supports": "official host and member-delegation event signal"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "QAT-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "The current Visit Qatar checker returns visa-free entry for Australia. Passport, accommodation, onward-travel and any health-insurance conditions still apply, and the authorised stay is controlled at entry.",
+     "next": "Use the live checker immediately before booking and retain the arrival record showing the last authorised day.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "QAT-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Visa-free visitor entry or 72-hour business visa",
+     "detail": "Partner, investor, publisher, supplier and site meetings can remain short business visits. Qatar also publishes a 72-hour business visa, extendable once for 72 hours, for properly documented short trips.",
+     "next": "Carry the invitation and keep discussion separate from performing the contract.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "QAT-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Visitor or short business entry for attendance",
+     "detail": "Delegate attendance and networking are distinct from speaking, exhibiting work or contracted delivery. Restricted intergovernmental events such as ITU PP-26 require credentials in addition to immigration permission.",
+     "next": "Have the organiser confirm delegate eligibility, invitation and credential path; reclassify any stage, workshop or booth role.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "QAT-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "conditional",
+     "route": "Host-arranged business visa where the appearance is active short-term work",
+     "detail": "Qatar's published short-contract route is broad enough to be the safer lane for an active talk or workshop. Absence of a fee does not establish that a visitor entry is sufficient.",
+     "next": "Ask the Qatari organiser to obtain Ministry of Interior or labour classification and arrange the business visa before travel where required.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "QAT-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "Business visa for short-term contractual work",
+     "detail": "An approved Qatari company or institution arranges the visa in advance for up to three months. The payer generally withholds 5% of gross services wholly or partly performed in Qatar when the non-resident has no permanent establishment.",
+     "next": "Contract through the approved host and put the visa, fee, benefits, invoice and 5% withholding responsibility in writing.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "QAT-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "specialist",
+     "route": "Visitor lane for rights meetings; short-contract business visa and local publisher for active launch",
+     "detail": "Publisher and rights discussions can stay meeting-only. A paid or programmed author appearance, local promotion and sales should be separated and handled with a Qatari publisher or bookseller, including import and content checks.",
+     "next": "Split the rights meeting, reading, signing, imported stock and retail receipts, then have the local publisher clear each part.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "QAT-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "Short-contract business visa or Work Residence Permit",
+     "detail": "A short guest workshop or contracted training can use the up-to-three-month business visa arranged by an approved institution. Continuing employment belongs under the employer-led residence and work system.",
+     "next": "Have the university, company or research centre state the curriculum, audience, dates, payment and whether the role is a short contract or employment.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "QAT-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "not-fit",
+     "route": "No dedicated Qatar digital-nomad route identified",
+     "detail": "The reviewed official visitor and residence pages do not publish a general route for living in Qatar while routinely working online for foreign employers or clients.",
+     "next": "Do not infer remote-work permission from visa-free entry. Obtain a residence and work route, or written Ministry of Interior and labour advice for the exact arrangement.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "QAT-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "conditional",
+     "route": "Self-sponsored Entrepreneur Residency plus special work permit and business licensing",
+     "detail": "The official program targets early-stage and scaling entrepreneurs endorsed by a recognised Qatar incubator. An overseas applicant needs to be 18+, hold a passport valid six months, show an attested three-month bank statement with at least USD 10,000, provide an attested police clearance and obtain incubator endorsement. The published residence is five years, self-sponsored and renewable; operating still proceeds through QID, licensing and a special work permit.",
+     "next": "Win incubator endorsement first, prepare attested funds and police documents, then complete the residence, QID, company and special-work-permit sequence.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "QAT-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Visitor or 72-hour business entry for negotiations; short-contract or licensed entity for delivery",
+     "detail": "Sourcing, negotiation and investment exploration can be short business activity. Installation, demonstrations, paid services and local sales need the appropriate contractual-work or operating route. Qatar Customs permits temporary admission with suspension of duties and accepts ATA Carnet processes for eligible goods.",
+     "next": "Appoint a Qatari importer, distributor or customs agent and classify every sample, professional device and item for sale before arrival.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "QAT-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "specialist",
+     "route": "Host-arranged short-contract or work route plus venue and cultural approvals",
+     "detail": "A performer, filmmaker, author or artist should not rely on visa-free entry for active delivery. The Qatari promoter must coordinate immigration, venue, content, equipment, tax and merchandise permissions.",
+     "next": "Use a local promoter that provides the approved contract, visa classification and written venue and authority clearances.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "QAT-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "specialist",
+     "route": "Visa-free attendance plus business visa, residence or sector approval for active lines",
+     "detail": "A Doha trip can combine ITU-related meetings, AI workshops, founder work, book activity and performance, but the passive and active pieces do not share one automatic permission.",
+     "next": "Create a daily matrix of attendance, meetings, delivery, payer, venue, stock and online work, and have the Qatari host clear every active line.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "QAT-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa-free entry or Hayya e-visa checker",
+     "authority": "Qatar Tourism",
+     "url": "https://visitqatar.com/intl-en/plan-your-trip/visas",
+     "checked": "2026-08-21",
+     "supports": "current Australian visa-free result and live passport, accommodation, onward and insurance conditions"
+    },
+    {
+     "title": "Visas",
+     "authority": "Qatar e-Government Portal Hukoomi",
+     "url": "https://portal.www.gov.qa/wps/wcm/connect/Hukoomi%2BWeb%2BContent/Hukoomi/Topics/Visas%2Band%2BOfficial%2BDocuments/visas",
+     "checked": "2026-08-21",
+     "supports": "Australian arrival arrangement, 72-hour business visa and up-to-three-month short-contract business visa"
+    },
+    {
+     "title": "Residence and Work Permits",
+     "authority": "Qatar e-Government Portal Hukoomi",
+     "url": "https://portal.www.gov.qa/wps/wcm/connect/hukoomi%2Bweb%2Bcontent/hukoomi/topics/visas%2Band%2Bofficial%2Bdocuments/residenceandworkpermits",
+     "checked": "2026-08-21",
+     "supports": "Qatari-employer sponsorship, temporary entry conversion and Work Residence Permit"
+    },
+    {
+     "title": "Residency Program for Entrepreneurs and Executives",
+     "authority": "Invest Qatar",
+     "url": "https://www.invest.qa/en/residency-program",
+     "checked": "2026-08-21",
+     "supports": "entrepreneur endorsement, age, funds, documents, overseas application journey and special work permit"
+    },
+    {
+     "title": "Entrepreneur and Executive Residency FAQs",
+     "authority": "Invest Qatar",
+     "url": "https://www.invest.qa/docs/FAQs-Residency-Programs.pdf",
+     "checked": "2026-08-21",
+     "supports": "self-sponsored five-year Entrepreneur Residency and renewal framework"
+    },
+    {
+     "title": "Qatar launches entrepreneur and executive residency visas",
+     "authority": "Invest Qatar",
+     "url": "https://www.invest.qa/en/media-centre/news-and-articles/qatar-launches-two-new-residency-visas-to-empower-global-executives-and-entrepreneurs",
+     "checked": "2026-08-21",
+     "supports": "2026 launch, five-year self-sponsored residence and structured work-permit pathway"
+    },
+    {
+     "title": "Taxes in Qatar",
+     "authority": "Qatar General Tax Authority",
+     "url": "https://gta.gov.qa/en/taxes-info",
+     "checked": "2026-08-21",
+     "supports": "5% final withholding on qualifying services to a non-resident without a permanent establishment"
+    },
+    {
+     "title": "Pending customs duties and temporary admission",
+     "authority": "General Authority of Customs Qatar",
+     "url": "https://www.customs.gov.qa/English/Procedures/UnifiedGuide/Pages/PendingCustomsDuties.aspx",
+     "checked": "2026-08-21",
+     "supports": "temporary admission, guarantees and ATA Carnet customs layer"
+    },
+    {
+     "title": "ITU Plenipotentiary Conference 2026",
+     "authority": "International Telecommunication Union",
+     "url": "https://pp.itu.int/2026/en/",
+     "checked": "2026-08-21",
+     "supports": "Doha dates, digital-governance purpose and controlled participation; no speaking access inferred"
+    },
+    {
+     "title": "Qatar to host ITU PP-26",
+     "authority": "International Telecommunication Union",
+     "url": "https://www.itu.int/en/mediacentre/Pages/PR-2025-11-13-PP26-announcement.aspx",
+     "checked": "2026-08-21",
+     "supports": "official host and member-delegation event signal"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

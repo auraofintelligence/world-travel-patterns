@@ -1,0 +1,315 @@
+{
+ "place": "uy",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "No visa for an Australian ordinary passport; ordinary short stay 90 days with an extension route",
+   "pre_arrival": "Carry a Spanish or bilingual invitation stating whether the purpose is tourism, business, conference attendance, an invited professional appearance, teaching or an artistic or cultural performance. Ask the host to confirm the admission category with the National Directorate of Migration.",
+   "max_stay": "The ordinary short stay is 90 days and has a 90-day extension process. A Provisional Identity Card can support activity for up to 180 days and may be renewed once for another 180 days.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Admission visa regime",
+     "authority": "Uruguayan Ministry of the Interior",
+     "url": "https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/regimen-visas-admision",
+     "checked": "2026-08-21",
+     "supports": "Australian ordinary-passport visa exemption"
+    },
+    {
+     "title": "Migration Law No. 18,250",
+     "authority": "Uruguay Official Gazette / IMPO",
+     "url": "https://www.impo.com.uy/bases/leyes/18250-2008",
+     "checked": "2026-08-21",
+     "supports": "resident work rights and non-resident tourist, business, invited-professional and artistic categories"
+    },
+    {
+     "title": "Decree No. 394/009, Article 13",
+     "authority": "Uruguay Official Gazette / IMPO",
+     "url": "https://www.impo.com.uy/bases/decretos/394-2009/13",
+     "checked": "2026-08-21",
+     "supports": "90-day non-resident stay and one 90-day renewal for tourist, invited-professional, business and artistic categories"
+    },
+    {
+     "title": "Hiring foreign workers in dependent employment",
+     "authority": "Uruguayan Ministry of Labour and Social Security",
+     "url": "https://www.gub.uy/ministerio-trabajo-seguridad-social/politicas-y-gestion/contratacion-trabajadores-extranjeros-bajo-regimen-dependencia-laboral",
+     "checked": "2026-08-21",
+     "supports": "residence as work authority, absence of a separately named work permit and hiring while residence is in progress"
+    },
+    {
+     "title": "Types of residence",
+     "authority": "Uruguayan Ministry of Foreign Affairs",
+     "url": "https://www.gub.uy/ministerio-relaciones-exteriores/comunicacion/publicaciones/tipos-de-residencia",
+     "checked": "2026-08-21",
+     "supports": "teacher, academic, specialist, entrepreneur, manager and artist temporary-residence categories"
+    },
+    {
+     "title": "Provisional Identity Card",
+     "authority": "Uruguayan Ministry of the Interior / National Directorate of Migration",
+     "url": "https://www.gub.uy/tramites/hoja-identidad-provisoria",
+     "checked": "2026-08-21",
+     "supports": "under-180-day activity and digital-nomad application and renewal requirements"
+    },
+    {
+     "title": "Decree No. 238/022",
+     "authority": "Uruguay Official Gazette / IMPO",
+     "url": "https://www.impo.com.uy/bases/decretos-originales/238-2022/1",
+     "checked": "2026-08-21",
+     "supports": "foreign-entity remote-work permission, 180-day duration, one renewal and statutory social-security wording"
+    },
+    {
+     "title": "Entry and hiring people",
+     "authority": "Uruguay Investment Single Window",
+     "url": "https://vui.gub.uy/procesos/ingreso-y-contratacion-de-personas/",
+     "checked": "2026-08-21",
+     "supports": "digital-nomad foreign-company boundary, duration and current social-security guidance"
+    },
+    {
+     "title": "Working Holiday for foreign citizens",
+     "authority": "Uruguayan Ministry of Foreign Affairs",
+     "url": "https://www.gub.uy/tramites/vacaciones-trabajo-working-holiday-vacaciones-trabajo-working-holiday-ciudadanos-extranjeros",
+     "checked": "2026-08-21",
+     "supports": "youth age band and Working Holiday distinction"
+    },
+    {
+     "title": "ConnectIA 2026",
+     "authority": "Data Science UY / event organiser",
+     "url": "https://connectia.uy/",
+     "checked": "2026-08-21",
+     "supports": "Spanish-language AI and data-science event signal, location and free public access"
+    },
+    {
+     "title": "ConnectIA 2026 call for speakers",
+     "authority": "ConnectIA organiser",
+     "url": "https://sessionize.com/connectia2026/",
+     "checked": "2026-08-21",
+     "supports": "open call, deadline, event date, talk format and topic scope"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "URY-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Visa-free non-resident tourist admission",
+     "detail": "An Australian ordinary passport does not need a visa. The ordinary visitor period is 90 days and an extension process is available.",
+     "next": "Carry evidence of purpose and apply for any extension before the authorised stay expires.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "URY-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Visa-free non-resident business category",
+     "detail": "Uruguay's migration law includes business people among non-residents, and official business-visa material defines business, investment and commercial exchange as recognised purposes for nationalities that do require a visa.",
+     "next": "Carry the Uruguayan invitation and keep the visit to meetings, investment exploration and negotiation unless Migration confirms a delivery category.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "URY-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Visa-free conference or seminar attendance with invitation",
+     "detail": "Uruguay publishes a congress, convention and seminar purpose for visa-required nationals; an Australian does not need the visa but should carry the organiser invitation and remain an attendee unless a speaking role is classified.",
+     "next": "Carry registration and reclassify the visit if the organiser adds a talk, workshop or fee.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "URY-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "conditional",
+     "route": "Non-resident invited-professional or art category where Migration confirms the fit",
+     "detail": "The migration law expressly includes people invited by a public or private entity because of their profession or art. The rule is category-bound, and a zero fee alone does not establish the correct admission status.",
+     "next": "Have the host send Migration the invitation, duties, expenses and dates and obtain written confirmation before delivery.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "URY-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "Confirmed non-resident invited-professional category or Provisional Identity Card",
+     "detail": "A short invited professional appearance may fit the specific non-resident category, but non-residents may not work outside the activity granted. Where Migration does not accept that classification, a Provisional Identity Card can formalise activity below 180 days.",
+     "next": "Give the host the contract, fee, venues and dates and have Migration choose the category or provisional-identity process before the talk.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "URY-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Business and invited-professional categories, with a local publisher or bookseller for retail",
+     "detail": "Rights and publisher meetings fit business logic, while a reading or public appearance should be confirmed as an invited professional or artistic activity. Direct stock import and sales are separate commercial matters.",
+     "next": "Use a Uruguayan publisher or bookseller for local receipts and have Migration classify the public appearance.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "URY-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "Invited-professional category for a confirmed short appearance; Provisional Identity Card or temporary residence for contracted teaching",
+     "detail": "Temporary-residence categories expressly include scientists, researchers, teachers, professionals, academics, technicians and specialists contracted for their expertise. A single invited lecture may fit the non-resident category if Migration confirms it.",
+     "next": "Have the university or organisation state whether this is an invited lecture, a short service or a teaching appointment and sponsor the corresponding status.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "URY-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "specialist",
+     "route": "Digital-nomad Provisional Identity Card",
+     "detail": "The permit supports remote activity from Uruguay for entities established abroad, lasts up to 180 days and may be renewed once. It does not permit work for a company incorporated or permanently established in Uruguay. Current official pages conflict on whether BPS social-security registration is required, so that point needs direct confirmation.",
+     "next": "Apply in-country with the passport and sworn declaration, confirm the foreign-entity boundary and ask Migration or BPS for written social-security treatment.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "URY-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "Business reconnaissance followed by temporary or permanent residence and ordinary company setup",
+     "detail": "Business visitors can explore and negotiate. Residence authorises dependent or independent work, and temporary-residence categories include entrepreneurs, directors and managers; company, BPS and tax registration remain separate.",
+     "next": "Use the first trip for partners and structure, then choose residence and company form before operating locally.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "URY-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Visa-free business category for investment and commercial exchange; residence and company layers for local operation",
+     "detail": "Negotiation, sourcing and investment exploration can use the business purpose. Local service delivery, retail, employment, importing and an ongoing commercial presence need their ordinary work, company, tax and customs treatment.",
+     "next": "Identify the importer, seller, invoice issuer and service provider before moving from negotiation to execution.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "URY-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Non-resident public artistic or cultural performance category, or Provisional Identity Card or temporary residence",
+     "detail": "Migration law expressly includes members of public artistic or cultural performances among non-residents and separately recognises contracted artists for temporary residence. The host should confirm which category covers the production and payment.",
+     "next": "Have the promoter list every performance, rehearsal, fee and venue and obtain Migration's classification before travel.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "URY-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "Visa-free front door with the exact non-resident category or provisional status for each active item",
+     "detail": "Tourism, business, attendance, invited professional activity and artistic performance are distinct recognised categories. Remote work, contracted teaching, local operation and direct sales may require the Provisional Identity Card or residence.",
+     "next": "Give one Spanish or bilingual schedule to the principal host and Migration and label each item by purpose before departure.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "URY-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Admission visa regime",
+     "authority": "Uruguayan Ministry of the Interior",
+     "url": "https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/regimen-visas-admision",
+     "checked": "2026-08-21",
+     "supports": "Australian ordinary-passport visa exemption"
+    },
+    {
+     "title": "Migration Law No. 18,250",
+     "authority": "Uruguay Official Gazette / IMPO",
+     "url": "https://www.impo.com.uy/bases/leyes/18250-2008",
+     "checked": "2026-08-21",
+     "supports": "resident work rights and non-resident tourist, business, invited-professional and artistic categories"
+    },
+    {
+     "title": "Decree No. 394/009, Article 13",
+     "authority": "Uruguay Official Gazette / IMPO",
+     "url": "https://www.impo.com.uy/bases/decretos/394-2009/13",
+     "checked": "2026-08-21",
+     "supports": "90-day non-resident stay and one 90-day renewal for tourist, invited-professional, business and artistic categories"
+    },
+    {
+     "title": "Hiring foreign workers in dependent employment",
+     "authority": "Uruguayan Ministry of Labour and Social Security",
+     "url": "https://www.gub.uy/ministerio-trabajo-seguridad-social/politicas-y-gestion/contratacion-trabajadores-extranjeros-bajo-regimen-dependencia-laboral",
+     "checked": "2026-08-21",
+     "supports": "residence as work authority, absence of a separately named work permit and hiring while residence is in progress"
+    },
+    {
+     "title": "Types of residence",
+     "authority": "Uruguayan Ministry of Foreign Affairs",
+     "url": "https://www.gub.uy/ministerio-relaciones-exteriores/comunicacion/publicaciones/tipos-de-residencia",
+     "checked": "2026-08-21",
+     "supports": "teacher, academic, specialist, entrepreneur, manager and artist temporary-residence categories"
+    },
+    {
+     "title": "Provisional Identity Card",
+     "authority": "Uruguayan Ministry of the Interior / National Directorate of Migration",
+     "url": "https://www.gub.uy/tramites/hoja-identidad-provisoria",
+     "checked": "2026-08-21",
+     "supports": "under-180-day activity and digital-nomad application and renewal requirements"
+    },
+    {
+     "title": "Decree No. 238/022",
+     "authority": "Uruguay Official Gazette / IMPO",
+     "url": "https://www.impo.com.uy/bases/decretos-originales/238-2022/1",
+     "checked": "2026-08-21",
+     "supports": "foreign-entity remote-work permission, 180-day duration, one renewal and statutory social-security wording"
+    },
+    {
+     "title": "Entry and hiring people",
+     "authority": "Uruguay Investment Single Window",
+     "url": "https://vui.gub.uy/procesos/ingreso-y-contratacion-de-personas/",
+     "checked": "2026-08-21",
+     "supports": "digital-nomad foreign-company boundary, duration and current social-security guidance"
+    },
+    {
+     "title": "Working Holiday for foreign citizens",
+     "authority": "Uruguayan Ministry of Foreign Affairs",
+     "url": "https://www.gub.uy/tramites/vacaciones-trabajo-working-holiday-vacaciones-trabajo-working-holiday-ciudadanos-extranjeros",
+     "checked": "2026-08-21",
+     "supports": "youth age band and Working Holiday distinction"
+    },
+    {
+     "title": "ConnectIA 2026",
+     "authority": "Data Science UY / event organiser",
+     "url": "https://connectia.uy/",
+     "checked": "2026-08-21",
+     "supports": "Spanish-language AI and data-science event signal, location and free public access"
+    },
+    {
+     "title": "ConnectIA 2026 call for speakers",
+     "authority": "ConnectIA organiser",
+     "url": "https://sessionize.com/connectia2026/",
+     "checked": "2026-08-21",
+     "supports": "open call, deadline, event date, talk format and topic scope"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

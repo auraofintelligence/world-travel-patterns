@@ -1,0 +1,343 @@
+{
+ "place": "kr",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Visa-free short visit; temporary K-ETA exemption through 31 December 2026",
+   "pre_arrival": "Until 31 December 2026, use the temporary K-ETA exemption or obtain a voluntary K-ETA; without one, complete the required arrival declaration and live-check the rule for travel after that date.",
+   "max_stay": "Normally up to 90 days for a visa-free visit; C-4 supports eligible paid short-term work up to 90 days.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Temporary K-ETA exemption extended through 2026",
+     "authority": "Embassy of the Republic of Korea in Australia",
+     "url": "https://overseas.mofa.go.kr/au-en/brd/m_3306/view.do?page=1&seq=760576",
+     "checked": "2026-08-21",
+     "supports": "Australian K-ETA exemption end date"
+    },
+    {
+     "title": "K-ETA temporary exemption notice",
+     "authority": "Korea Electronic Travel Authorization",
+     "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
+     "checked": "2026-08-21",
+     "supports": "voluntary K-ETA and arrival-declaration distinction"
+    },
+    {
+     "title": "Customized stay guide for foreign residents",
+     "authority": "Korea Immigration Service",
+     "url": "https://www.immigration.go.kr/bbs/immigration_eng/230/454085/download.do",
+     "checked": "2026-08-21",
+     "supports": "B-1/B-2 short visits, C-4 and long-stay activity categories"
+    },
+    {
+     "title": "C-4 Short-Term Employee visa",
+     "authority": "Embassy of the Republic of Korea in Australia",
+     "url": "https://overseas.mofa.go.kr/au-en/brd/m_3306/view.do?page=1&seq=760562",
+     "checked": "2026-08-21",
+     "supports": "paid lecture, training, services, media and entertainment route"
+    },
+    {
+     "title": "Short-term visit visa guidance",
+     "authority": "Embassy of the Republic of Korea in Belgium",
+     "url": "https://overseas.mofa.go.kr/be-en/wpge/m_7442/contents.do",
+     "checked": "2026-08-21",
+     "supports": "official unpaid C-3 versus paid C-4 speaking distinction"
+    },
+    {
+     "title": "Digital Nomad visa reform notice",
+     "authority": "Korea Immigration Service",
+     "url": "https://www.immigration.go.kr/bbs/immigration/214/608294/artclView.do",
+     "checked": "2026-08-21",
+     "supports": "2026 maximum stay and age-and-region income framework"
+    },
+    {
+     "title": "Digital Nomad Workcation visa guide",
+     "authority": "Korea Immigration Service",
+     "url": "https://www.immigration.go.kr/bbs/immigration_eng/229/464290/download.do",
+     "checked": "2026-08-21",
+     "supports": "overseas work, experience, insurance and local-work boundary; duration superseded by 2026 reform"
+    },
+    {
+     "title": "Investor and startup visa categories",
+     "authority": "Invest KOREA",
+     "url": "https://www.investkorea.org/ik-en/cntnts/i-358/web.do",
+     "checked": "2026-08-21",
+     "supports": "D-8 corporate investor and startup pathways"
+    },
+    {
+     "title": "Taxation of non-resident personal services",
+     "authority": "National Tax Service Korea",
+     "url": "https://www.nts.go.kr/english/na/ntt/selectNttInfo.do?mi=11742&nttSn=1629",
+     "checked": "2026-08-21",
+     "supports": "withholding and treaty review for paid delivery"
+    },
+    {
+     "title": "ATA Carnet definition",
+     "authority": "Korea Customs Service",
+     "url": "https://customs.go.kr/kcs/ad/tr/trTermView.do?mi=2902&termId=286",
+     "checked": "2026-08-21",
+     "supports": "temporary admission of qualifying goods"
+    },
+    {
+     "title": "AI EXPO KOREA visitor information",
+     "authority": "Event organiser",
+     "url": "https://aiexpo.co.kr/en/visitor-info/",
+     "checked": "2026-08-21",
+     "supports": "recurring AI event and English-interface signal"
+    },
+    {
+     "title": "Seoul Meta Week",
+     "authority": "Event organiser",
+     "url": "https://seoulmetaweek.com/en",
+     "checked": "2026-08-21",
+     "supports": "international technology event and mixed-language signal"
+    },
+    {
+     "title": "OCP Korea Tech Day",
+     "authority": "Open Compute Project Foundation",
+     "url": "https://www.opencompute.org/index.php/summit/2026-ocp-korea-tech-day",
+     "checked": "2026-08-21",
+     "supports": "open-compute and data-centre event signal"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "KOR-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Visa-free short visit",
+     "detail": "Australian passport holders can normally visit for up to 90 days without a visa, subject to the current entry-authorisation and arrival-declaration rules.",
+     "next": "Live-check K-ETA treatment for the travel date, especially after 31 December 2026.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KOR-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Visa-free B-1/B-2 short visit for attendance and business contact",
+     "detail": "Meetings, negotiation and business contact can fit a short visit when no service is delivered and no profit-making work is performed in Korea.",
+     "next": "Carry the invitation and move any consulting, training or contracted delivery into C-4.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KOR-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Visa-free short visit for delegate attendance",
+     "detail": "Passive conference attendance can use the short-visit lane; joining the program as a speaker or trainer needs separate classification.",
+     "next": "Ask the organiser to state attendee, moderator, panellist, speaker and workshop duties separately.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KOR-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "confirm",
+     "route": "C-3 short-term visit or written confirmation that the Australian visa waiver covers the exact unpaid appearance",
+     "detail": "Official Korean mission guidance places an unpaid invited lecture or speech in C-3 and a paid one in C-4. It does not conclusively show when an Australian B-1 visa waiver substitutes for C-3 for an active appearance.",
+     "next": "Send the Korean mission the invitation, agenda, expenses and no-fee statement and obtain the route in writing.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KOR-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "C-4 Short-Term Employee",
+     "detail": "Paid lectures, training and professional services under 90 days use C-4, including work performed for a Korean organisation when the traveller remains employed or paid in Australia.",
+     "next": "Allow the mission's published processing window and have the Korean host prepare its invitation, registration and contract documents.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KOR-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Short-visit lane for rights meetings; C-3 confirmation for an unpaid reading or C-4 for a paid appearance",
+     "detail": "Publisher meetings can remain business contact. An author talk, workshop or fee follows the speaking rule, while a Korean publisher, importer or bookseller should handle local stock and retail receipts.",
+     "next": "Split rights, royalties, appearance payment, imported copies and sales before asking the host to classify the launch.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KOR-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "specialist",
+     "route": "C-4 for short paid lecture or training; E-1, E-2 or another appropriate long-stay status for continuing teaching",
+     "detail": "C-4 expressly covers paid lectures and training. An ongoing university, language or institutional teaching role uses the relevant long-stay work status rather than repeated visitor trips.",
+     "next": "Have the Korean institution classify subject, audience, contract, hours and duration.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KOR-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "specialist",
+     "route": "Digital Nomad/Workcation status",
+     "detail": "The route is for qualifying overseas business owners or employees with prior experience, sufficient income and at least KRW100 million medical cover. The framework was expanded in 2026 to a maximum three-year stay and now varies the income threshold by age and Korean region; Korean local employment and profit-making activity remain outside it.",
+     "next": "Use the live 2026 table to confirm Luke's age-43 threshold for the intended region and keep Korean speaking or client work on its own route.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KOR-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "D-8 corporate investor, D-8-4 technology startup or D-8-4(S) Startup Korea Special Visa",
+     "detail": "A visitor can explore the market, but managing or working in the Korean venture requires the relevant investment or startup status. The route depends on investment structure, innovation evidence and any government recommendation or points pathway.",
+     "next": "Use Invest KOREA or a Korean startup-support body to test the company, investment and founder credentials before incorporation.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KOR-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Short visit for negotiation, purchasing and exhibition attendance; C-4 or operating status for service delivery",
+     "detail": "Meetings and purchasing can stay in the visitor lane. Installation, training, consulting or other contracted service in Korea can trigger C-4 even when payment remains offshore; an ATA Carnet can cover qualifying temporary equipment and exhibition goods.",
+     "next": "Separate the commercial transaction from any person-days of technical or professional delivery.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KOR-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "specialist",
+     "route": "C-4 for paid short performance or media work; E-6 or another appropriate status for longer entertainment activity",
+     "detail": "The Australian Korean mission expressly includes paid music, media, sport and contracted entertainment in C-4. An unpaid cultural appearance still needs C-3/visa-waiver confirmation.",
+     "next": "Have the promoter list rehearsals, performances, recording, merchandise, payment and all venues.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KOR-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "Short visit for attendance-only segments plus C-3/C-4 or long-stay status for active delivery",
+     "detail": "Korea looks at the actual activity, not only the trip label or where payment lands. A mixed speaking, teaching, trade and performance schedule may need C-4 even if tourism and meetings are also included.",
+     "next": "Give one lead Korean host a single dated schedule and have the mission classify the principal purpose.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "KOR-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Temporary K-ETA exemption extended through 2026",
+     "authority": "Embassy of the Republic of Korea in Australia",
+     "url": "https://overseas.mofa.go.kr/au-en/brd/m_3306/view.do?page=1&seq=760576",
+     "checked": "2026-08-21",
+     "supports": "Australian K-ETA exemption end date"
+    },
+    {
+     "title": "K-ETA temporary exemption notice",
+     "authority": "Korea Electronic Travel Authorization",
+     "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
+     "checked": "2026-08-21",
+     "supports": "voluntary K-ETA and arrival-declaration distinction"
+    },
+    {
+     "title": "Customized stay guide for foreign residents",
+     "authority": "Korea Immigration Service",
+     "url": "https://www.immigration.go.kr/bbs/immigration_eng/230/454085/download.do",
+     "checked": "2026-08-21",
+     "supports": "B-1/B-2 short visits, C-4 and long-stay activity categories"
+    },
+    {
+     "title": "C-4 Short-Term Employee visa",
+     "authority": "Embassy of the Republic of Korea in Australia",
+     "url": "https://overseas.mofa.go.kr/au-en/brd/m_3306/view.do?page=1&seq=760562",
+     "checked": "2026-08-21",
+     "supports": "paid lecture, training, services, media and entertainment route"
+    },
+    {
+     "title": "Short-term visit visa guidance",
+     "authority": "Embassy of the Republic of Korea in Belgium",
+     "url": "https://overseas.mofa.go.kr/be-en/wpge/m_7442/contents.do",
+     "checked": "2026-08-21",
+     "supports": "official unpaid C-3 versus paid C-4 speaking distinction"
+    },
+    {
+     "title": "Digital Nomad visa reform notice",
+     "authority": "Korea Immigration Service",
+     "url": "https://www.immigration.go.kr/bbs/immigration/214/608294/artclView.do",
+     "checked": "2026-08-21",
+     "supports": "2026 maximum stay and age-and-region income framework"
+    },
+    {
+     "title": "Digital Nomad Workcation visa guide",
+     "authority": "Korea Immigration Service",
+     "url": "https://www.immigration.go.kr/bbs/immigration_eng/229/464290/download.do",
+     "checked": "2026-08-21",
+     "supports": "overseas work, experience, insurance and local-work boundary; duration superseded by 2026 reform"
+    },
+    {
+     "title": "Investor and startup visa categories",
+     "authority": "Invest KOREA",
+     "url": "https://www.investkorea.org/ik-en/cntnts/i-358/web.do",
+     "checked": "2026-08-21",
+     "supports": "D-8 corporate investor and startup pathways"
+    },
+    {
+     "title": "Taxation of non-resident personal services",
+     "authority": "National Tax Service Korea",
+     "url": "https://www.nts.go.kr/english/na/ntt/selectNttInfo.do?mi=11742&nttSn=1629",
+     "checked": "2026-08-21",
+     "supports": "withholding and treaty review for paid delivery"
+    },
+    {
+     "title": "ATA Carnet definition",
+     "authority": "Korea Customs Service",
+     "url": "https://customs.go.kr/kcs/ad/tr/trTermView.do?mi=2902&termId=286",
+     "checked": "2026-08-21",
+     "supports": "temporary admission of qualifying goods"
+    },
+    {
+     "title": "AI EXPO KOREA visitor information",
+     "authority": "Event organiser",
+     "url": "https://aiexpo.co.kr/en/visitor-info/",
+     "checked": "2026-08-21",
+     "supports": "recurring AI event and English-interface signal"
+    },
+    {
+     "title": "Seoul Meta Week",
+     "authority": "Event organiser",
+     "url": "https://seoulmetaweek.com/en",
+     "checked": "2026-08-21",
+     "supports": "international technology event and mixed-language signal"
+    },
+    {
+     "title": "OCP Korea Tech Day",
+     "authority": "Open Compute Project Foundation",
+     "url": "https://www.opencompute.org/index.php/summit/2026-ocp-korea-tech-day",
+     "checked": "2026-08-21",
+     "supports": "open-compute and data-centre event signal"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

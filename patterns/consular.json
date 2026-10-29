@@ -1,0 +1,37 @@
+{
+ "id": "consular",
+ "name": "Consular reach",
+ "layer": "safety",
+ "method": "agent",
+ "question": "Where is the nearest Australian mission or partner able to help, and does it cover this place?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 365,
+ "sources": [
+  "DFAT mission list",
+  "Smartraveller destination page"
+ ],
+ "fields": [
+  "mission",
+  "city",
+  "covers_from",
+  "notes"
+ ],
+ "statuses": [
+  "in-place",
+  "neighbour",
+  "partner-arrangement",
+  "unknown"
+ ],
+ "rules": [
+  "Institutional offices only. No staff names, phone numbers or private contacts.",
+  "Skipped for the home country (Australia): an Australian passport holder needs no entry permission there."
+ ],
+ "version": 1,
+ "skip_home": true
+}

@@ -1,0 +1,37 @@
+{
+ "id": "money-and-cost",
+ "name": "Money and cost signal",
+ "layer": "logistics",
+ "method": "agent",
+ "question": "What currency, cash and card realities and rough daily cost should be expected?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "island",
+  "island-group",
+  "region"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 180,
+ "sources": [
+  "central bank or government",
+  "operational signals, labelled as such"
+ ],
+ "fields": [
+  "currency",
+  "cash_card_notes",
+  "daily_cost_aud",
+  "rate_and_date"
+ ],
+ "statuses": [
+  "noted",
+  "unknown"
+ ],
+ "rules": [
+  "Costs in AUD with the conversion rate and date. A cost signal is never a quote."
+ ],
+ "version": 1
+}

@@ -1,0 +1,20 @@
+{
+ "rule": "Hand and agent additions. A why is a reason to vet, never a finding.",
+ "places": [
+  {
+   "id": "pg/bougainville",
+   "name": "Bougainville",
+   "aliases": [
+    "Autonomous Region of Bougainville",
+    "AROB"
+   ],
+   "kind": "region",
+   "parent": "pg",
+   "tags": [
+    "p4a-oceania"
+   ],
+   "zone_scan": true,
+   "why": "Flagged for a zone scan: check for extra permits, consents, visitor caps, guides, fees and lead times."
+  }
+ ]
+}

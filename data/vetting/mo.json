@@ -1,0 +1,34 @@
+{
+ "place": "mo",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Visa and entry-permit exemption for Australian passport holders; normally up to 30 days.",
+   "checked": "2026-08-20",
+   "evidence": "legacy-baseline",
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "WORLD-MACAO-SAR-ENTRY"
+   },
+   "note": "First-pass triage carried from Australian World Travel; recheck against the official source.",
+   "sources": [
+    {
+     "title": "Macao SAR immigration clearance",
+     "url": "https://www.gov.mo/en/services/ps-1474/ps-1474b/",
+     "checked": "2026-08-20"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "daily_cost_aud": null,
+   "visa_cost_signal": "Free",
+   "checked": "2026-08-20",
+   "evidence": "legacy-baseline",
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "WORLD-MACAO-SAR-COST"
+   }
+  }
+ }
+}

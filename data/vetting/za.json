@@ -1,0 +1,217 @@
+{
+ "place": "za",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Australians generally receive visa-free visitor entry for short tourism/business visits; confirm the current permitted stay and entry conditions.",
+   "pre_arrival": "Check DHA nationality/stay guidance, passport validity, return ticket, yellow-fever and any prescribed-activity paperwork.",
+   "max_stay": "Visitor entry is useful for scouting and attendance; local work and longer remote stays need a permit/category check.",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Types of visas",
+     "authority": "South African Department of Home Affairs",
+     "url": "https://www.dha.gov.za/index.php/types-of-visas",
+     "checked": "2026-08-21",
+     "supports": "visitor and work visa framework"
+    },
+    {
+     "title": "Remote-work visitor visa requirements",
+     "authority": "South African Department of Home Affairs",
+     "url": "https://www.dha.gov.za/images/notices/8october24/Remote_Work_Visa_-_requirements_-_9_Oct_2024.pdf",
+     "checked": "2026-08-21",
+     "supports": "remote-work conditions and no local employment"
+    },
+    {
+     "title": "Work visas",
+     "authority": "South African Department of Home Affairs",
+     "url": "https://www.dha.gov.za/index.php/immigration-services/work-visas",
+     "checked": "2026-08-21",
+     "supports": "work authorisation categories"
+    },
+    {
+     "title": "Critical skills and immigration review",
+     "authority": "South African Department of Home Affairs",
+     "url": "https://www.dha.gov.za/images/PDFs/Report-of-the-Work-Visa-Review-2023.pdf",
+     "checked": "2026-08-21",
+     "supports": "critical-skills and work-policy context"
+    }
+   ],
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "ZAF-ENTRY-SNAPSHOT"
+   }
+  },
+  "activities": {
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Visitor visa/visa exemption as currently published",
+     "detail": "Australian visitors should use the current DHA entry and stay instructions; the exact admission period is set under the immigration rules and border decision.",
+     "next": "Check DHA immediately before travel and carry evidence of purpose and departure.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ZAF-PATH-TOURISM-STATUS"
+     }
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Visitor for meetings and business",
+     "detail": "Meetings and conference/business attendance can fit a visitor purpose when no South African employment or remuneration is undertaken.",
+     "next": "Keep negotiation separate from local delivery and employment.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ZAF-PATH-MEETINGS-STATUS"
+     }
+    },
+    "conference": {
+     "status": "low",
+     "route": "Visitor for conference attendance",
+     "detail": "A delegate or visitor is different from paid programme delivery, training or performance.",
+     "next": "Ask the organiser whether a prescribed-activity or work route is needed.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ZAF-PATH-CONFERENCE-STATUS"
+     }
+    },
+    "unpaid-speaking": {
+     "status": "confirm",
+     "route": "Prescribed-activity or host classification",
+     "detail": "Unpaid speaking can still be work-like. South African immigration categories turn on the activity, host and duration rather than the fee alone.",
+     "next": "Have the host check DHA's prescribed-activity visitor/work requirements.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ZAF-PATH-UNPAID-SPEAKING-STATUS"
+     }
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "General work, critical-skills or prescribed-activity visa",
+     "detail": "Paid speaking, consulting, teaching and employment need a South African work authorisation or an applicable prescribed-activity exemption/category.",
+     "next": "Ask the engager to identify the exact DHA visa and supporting employer documents.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ZAF-PATH-PAID-SPEAKING-STATUS"
+     }
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Visitor for rights; work/cultural route for paid launch",
+     "detail": "Publisher meetings may be business travel; paid launch delivery, workshops, local retail and performance need the activity route.",
+     "next": "Separate author fee, royalties, expenses and sales.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ZAF-PATH-BOOK-LAUNCH-STATUS"
+     }
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "Academic host or work visa",
+     "detail": "University exchange and paid professional training need different host evidence and possibly work permission.",
+     "next": "Have the university/company state the appointment, payment and duration.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ZAF-PATH-AI-TEACHING-STATUS"
+     }
+    },
+    "remote-work": {
+     "status": "specialist",
+     "route": "Remote-work visitor visa/prescribed activity route",
+     "detail": "DHA publishes requirements for a remote-work visitor visa and states that its holder is not entitled to take employment in South Africa.",
+     "next": "Check income, tax-registration and stay conditions and keep South African clients/employment outside the route.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ZAF-PATH-REMOTE-WORK-STATUS"
+     }
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "Business/investor or critical-skills residence/work route",
+     "detail": "Founder operation and investment are not covered by ordinary visitor entry; business and critical-skills categories require a prepared case.",
+     "next": "Choose investor, business, critical-skills or employer route with DHA/DTIC guidance.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ZAF-PATH-ENTREPRENEUR-STATUS"
+     }
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Visitor business route; local fulfilment needs work/customs status",
+     "detail": "Meetings, sourcing and trade fairs can be visitor activity; installation, sales and service delivery may require permission.",
+     "next": "Map South African importer, customer and on-site work.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ZAF-PATH-TRADE-STATUS"
+     }
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Cultural/event work or prescribed-activity route",
+     "detail": "Paid performance, filming, exhibition and music work should be checked with the promoter and DHA.",
+     "next": "Have the producer state venue, contract, fee, crew and dates.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ZAF-PATH-ARTIST-STATUS"
+     }
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "Visitor front door plus DHA activation",
+     "detail": "South Africa can support English-first conferences and a remote base, but local delivery remains a separate immigration key.",
+     "next": "Break the itinerary into visitor, remote, paid local and cultural activity.",
+     "checked": "2026-08-21",
+     "provenance": {
+      "repo": "Australian-visa-activity-atlas",
+      "claim_id": "ZAF-PATH-MIXED-MISSION-STATUS"
+     }
+    }
+   },
+   "status": "imported",
+   "checked": "2026-08-21",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Types of visas",
+     "authority": "South African Department of Home Affairs",
+     "url": "https://www.dha.gov.za/index.php/types-of-visas",
+     "checked": "2026-08-21",
+     "supports": "visitor and work visa framework"
+    },
+    {
+     "title": "Remote-work visitor visa requirements",
+     "authority": "South African Department of Home Affairs",
+     "url": "https://www.dha.gov.za/images/notices/8october24/Remote_Work_Visa_-_requirements_-_9_Oct_2024.pdf",
+     "checked": "2026-08-21",
+     "supports": "remote-work conditions and no local employment"
+    },
+    {
+     "title": "Work visas",
+     "authority": "South African Department of Home Affairs",
+     "url": "https://www.dha.gov.za/index.php/immigration-services/work-visas",
+     "checked": "2026-08-21",
+     "supports": "work authorisation categories"
+    },
+    {
+     "title": "Critical skills and immigration review",
+     "authority": "South African Department of Home Affairs",
+     "url": "https://www.dha.gov.za/images/PDFs/Report-of-the-Work-Visa-Review-2023.pdf",
+     "checked": "2026-08-21",
+     "supports": "critical-skills and work-policy context"
+    }
+   ],
+   "note": "checked is the oldest activity date; each activity keeps its own."
+  }
+ }
+}

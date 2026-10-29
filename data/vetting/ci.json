@@ -1,0 +1,34 @@
+{
+ "place": "ci",
+ "patterns": {
+  "entry": {
+   "status": "imported",
+   "summary": "Visa required. Apply through the Ivorian Embassy or the official eVisa route before arrival.",
+   "checked": "2026-08-20",
+   "evidence": "legacy-baseline",
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "WORLD-COTE-DIVOIRE-ENTRY"
+   },
+   "note": "First-pass triage carried from Australian World Travel; recheck against the official source.",
+   "sources": [
+    {
+     "title": "Embassy of Côte d’Ivoire in Australia visa guidance",
+     "url": "https://www.australie.diplomatie.gouv.ci/visa.php?lang=en&num=1",
+     "checked": "2026-08-20"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "daily_cost_aud": null,
+   "visa_cost_signal": "Official fee applies",
+   "checked": "2026-08-20",
+   "evidence": "legacy-baseline",
+   "provenance": {
+    "repo": "Australian-visa-activity-atlas",
+    "claim_id": "WORLD-COTE-DIVOIRE-COST"
+   }
+  }
+ }
+}
