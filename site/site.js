@@ -102,11 +102,13 @@
     document.body.append(footer);
   }
 
-  function hero(credits, key, { kicker, title, lede, actions = "", extra = "" }) {
-    const c = credits[key] || {};
+  function hero(credits, key, { kicker, title, lede, actions = "", extra = "", photo = undefined, caption = "" }) {
+    const c = photo === undefined ? credits[key] || {} : photo || {};
+    const src = c.src || (c.file ? `site/heroes/${c.file}` : "");
     const by = c.artist ? `Photo: ${esc(c.artist)}, <a href="${esc(c.licence_url || c.source)}">${esc(c.licence)}</a>, via <a href="${esc(c.source)}">Wikimedia Commons</a>` : "";
-    return `<header class="hero">
-      ${c.file ? `<img class="hero-img" src="site/heroes/${esc(c.file)}" alt="${esc(c.alt)}" style="object-position:${esc(c.position || "50% 50%")}">` : ""}
+    const shape = !src ? " no-photo" : c.shape === "banner" ? " banner" : "";
+    return `<header class="hero${shape}">
+      ${src ? `<img class="hero-img" src="${esc(src)}" alt="${esc(c.alt)}" style="object-position:${esc(c.position || "50% 50%")}">` : ""}
       <div class="hero-inner">
         ${kicker ? `<div class="kicker">${kicker}</div>` : ""}
         <h1>${title}</h1>
@@ -114,7 +116,7 @@
         ${actions ? `<div class="actions">${actions}</div>` : ""}
         ${extra}
       </div>
-      ${by ? `<p class="credit">${esc(c.alt)}. ${by}</p>` : ""}
+      ${by ? `<p class="credit">${esc(c.alt)}.${caption ? ` ${caption}` : ""} ${by}</p>` : caption ? `<p class="credit">${caption}</p>` : ""}
     </header>`;
   }
 
@@ -283,9 +285,22 @@
     while (stack.length) { const c = stack.pop(); descendants.push(c); stack.push(...index.places.filter((p) => p.parent === c.id)); }
     const ids = [...new Set([...chain, ...descendants.filter((d) => d.zone)].map((p) => p.id))];
     const vets = Object.fromEntries(await Promise.all(ids.map(async (pid) => [pid, index.byId[pid].vetted ? (await json(vetPath(pid), { patterns: {} })).patterns : {}])));
-    const [adv, feed, watch] = await Promise.all([
+    const [adv, feed, watch, photoFile] = await Promise.all([
       json("data/advisories.json", { destinations: {} }), json("data/feeds/gajra-ahead.json", { events: [] }), json("data/watch.json", { items: [] }),
+      json("site/data/place-photos.json", { photos: {} }),
     ]);
+    // A photo OF this place, or of somewhere inside it (labelled), or none. Never a stand-in from elsewhere.
+    let photo = photoFile.photos[id] || null;
+    let caption = "";
+    if (!photo) {
+      const inside = descendants.filter((d) => photoFile.photos[d.id]).sort((a, b) => (b.tags || []).length - (a.tags || []).length)[0];
+      if (inside) {
+        photo = photoFile.photos[inside.id];
+        caption = `A photo from <a href="place.html?id=${encodeURIComponent(inside.id)}">${esc(inside.name)}</a>, inside ${esc(place.name)}.`;
+      } else {
+        caption = `No photograph of ${esc(place.name)} has been chosen yet.`;
+      }
+    }
     const spine = chain[chain.length - 1];
     const advice = spine.smartraveller && adv.destinations[spine.smartraveller];
     const patterns = Object.fromEntries(index.patterns.map((p) => [p.id, p]));
@@ -360,6 +375,8 @@
         : (place.aliases || []).length ? `Also known as ${esc(place.aliases.join(", "))}.` : "",
       actions: links,
       extra: strata,
+      photo,
+      caption,
     });
     const body = `<main>
       <section class="section tight"><div class="stats">
@@ -527,11 +544,11 @@
   </main>`;
 
   render["site-map"] = async ({ index, credits }) => {
-    const related = await json("site/data/related.json", { groups: [] });
+    const [related, placePhotos] = await Promise.all([json("site/data/related.json", { groups: [] }), json("site/data/place-photos.json", { photos: {} })]);
     const desc = {
       "index.html": "What this is, how fresh the world is, and what's next.",
       "places.html": "Search and browse every place, from countries to permit zones.",
-      "place.html?id=au/minjerribah": "A place page: every level's rules, stacked, with the gaps shown. Example: Minjerribah.",
+      "place.html?id=au/minjerribah": "A place page: every level's rules, stacked, with the gaps shown, under a photo of that place. Example: Minjerribah.",
       "patterns.html": "The thirteen vetting questions and how much of the world each covers.",
       "upcoming.html": "GAJRA Earth Ahead events and open doors, by month and place.",
       "advisories.html": "Today's Smartraveller advice levels and every change since tracking began.",
@@ -551,6 +568,10 @@
           .map(([p, d]) => `<tr><td><a href="${REPO}/tree/main/${p}"><code>${p}</code></a></td><td>${d}</td></tr>`).join("")}</tbody></table></div></section>
       <section class="section tight"><h2>Photographs</h2><p class="meta">Openly licensed photographs from Wikimedia Commons, resized and converted to WebP.</p><div class="table-wrap"><table><thead><tr><th>Page</th><th>Photograph</th><th>By</th><th>Licence</th></tr></thead><tbody>
         ${Object.values(credits).map((c) => `<tr><td>${esc(c.page)}</td><td><a href="${esc(c.source)}">${esc(c.alt)}</a></td><td>${esc(c.artist)}</td><td>${c.licence_url ? `<a href="${esc(c.licence_url)}">${esc(c.licence)}</a>` : esc(c.licence)}</td></tr>`).join("")}</tbody></table></div></section>
+      <section class="section tight"><h2>Place photographs</h2>
+        <p class="meta">${Object.keys(placePhotos.photos).length} places show a photograph of themselves: each is a photo of that place, never a stand-in. Most come from Wikidata's main image or the place's Wikivoyage banner; a few were chosen by hand. A place with no photo shows none.</p>
+        <details><summary class="meta">The full list, with credits and review status</summary><div class="table-wrap" style="margin-top:12px"><table><thead><tr><th>Place</th><th>Photograph</th><th>By</th><th>Licence</th><th>Source</th><th>Review</th></tr></thead><tbody>
+        ${Object.entries(placePhotos.photos).sort((a, b) => (index.byId[a[0]]?.name || a[0]).localeCompare(index.byId[b[0]]?.name || b[0])).map(([pid, p]) => `<tr><td><a href="place.html?id=${encodeURIComponent(pid)}">${esc(index.byId[pid]?.name || pid)}</a></td><td><a href="${esc(p.source)}">${esc(p.title)}</a></td><td>${esc(p.artist)}</td><td>${esc(p.licence)}</td><td class="meta">${esc(p.via)}</td><td>${esc(p.review)}</td></tr>`).join("")}</tbody></table></div></details></section>
     </main>`;
   };
 

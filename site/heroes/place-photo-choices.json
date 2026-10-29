@@ -1,0 +1,53 @@
+{
+ "rule": "Hand decisions over the automatic picker, each with its reason. banner = use the Wikivoyage banner; main = use the Wikidata main image; none = show no photo.",
+ "choices": {
+  "kp": {
+   "use": "none",
+   "why": "Banner shows soldiers marching at a martyrs' cemetery; peace-first guardrail."
+  },
+  "mm": {
+   "use": "banner",
+   "why": "Main image is a close portrait of identifiable monks."
+  },
+  "ps": {
+   "use": "banner",
+   "why": "Main image is the separation wall at a checkpoint; a neutral landscape suits a planning page."
+  },
+  "ro": {
+   "use": "banner",
+   "why": "Main image is a pile of postage stamps, not the place."
+  },
+  "sa": {
+   "use": "main",
+   "why": "Banner is the Kaaba in Mecca, which non-Muslim visitors cannot enter."
+  },
+  "pg": {
+   "use": "main",
+   "why": "Banner shows identifiable people in ceremonial dress; avoid costume imagery as a national symbol."
+  },
+  "st": {
+   "use": "main",
+   "why": "Banner is a photo of bird eggs."
+  },
+  "us/north-carolina": {
+   "use": "main",
+   "why": "Banner is a plate of barbecue."
+  },
+  "us/new-jersey": {
+   "use": "main",
+   "why": "Banner is a neon slogan sign."
+  },
+  "us/minnesota": {
+   "use": "banner",
+   "why": "Main image is a roadside welcome sign."
+  },
+  "cn/tibet": {
+   "use": "banner",
+   "why": "Main image is a space-station view captioned as China, not specifically Tibet."
+  },
+  "au/nt": {
+   "use": "none",
+   "why": "Banner shows rock art at Uluru; Anangu ask that sacred sites and rock art not be photographed or used. Main image is a bushfire satellite view."
+  }
+ }
+}

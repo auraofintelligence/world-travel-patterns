@@ -18,6 +18,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/holidays.py
+      - name: Place photos (new picks are marked pending review)
+        run: python scripts/place_photos.py
       - run: python scripts/due.py
       - name: Rebuild the website index
         run: python scripts/build_site.py

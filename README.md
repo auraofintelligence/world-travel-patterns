@@ -6,7 +6,7 @@ Every place an Australian passport holder might visit, vetted with the same simp
 
 ## The website
 
-Nine pages on GitHub Pages: home, places, a page for every place, patterns, upcoming, advisories, queue, how it works and a site map linking the related projects. Each page leads with a large, openly licensed photograph (credits on the site map). The site reads the same data the scripts and routines write, so it updates with every commit. Preview locally with `python -m http.server` in this folder, then open `index.html`.
+Nine pages on GitHub Pages: home, places, a page for every place, patterns, upcoming, advisories, queue, how it works and a site map linking the related projects. Each page leads with a large, openly licensed photograph (credits on the site map). A place page shows a photograph of that place, or of somewhere inside it with a label saying so, or none: 316 places have one so far, all awaiting review. Places whose imagery belongs to a community's own cultural authority get no automatic photo. The site reads the same data the scripts and routines write, so it updates with every commit. Preview locally with `python -m http.server` in this folder, then open `index.html`.
 
 ## What's in it
 

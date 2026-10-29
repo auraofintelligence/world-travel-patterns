@@ -78,6 +78,8 @@ One file per place in `data/vetting/`, named by place id with `/` replaced by `_
 
 The site (root `*.html`, `site/`) reads the repo's data directly; `scripts/build_site.py` writes its index. It never reads `private/`. Hero photographs are openly licensed from Wikimedia Commons and credited in `site/heroes/credits.json`; Luke doesn't want SVG art.
 
+Place pages show a photo of that place, or of somewhere inside it (labelled), or none: never a stand-in from elsewhere. `scripts/place_photos.py` picks from Wikidata and Wikivoyage; hand decisions and their reasons live in `site/heroes/place-photo-choices.json`, and chosen photos in `site/heroes/place-photos-curated.json`. Places belonging to a nation or community with its own cultural authority get no automatic photo. Every automatic pick stays `review: pending` until Luke has looked.
+
 ## Feeds
 
 `data/feeds/` holds dated leads from Luke's other projects (GAJRA Earth Ahead today). They are signals: confirm a date at its source before recording it, and never read an event as permission to attend, speak or film.
