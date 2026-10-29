@@ -111,7 +111,7 @@ def main():
                 "url": (ii.get("thumburl") or ii["url"]).split("?")[0], "width": ii["width"], "height": ii["height"], "mime": ii.get("mime"),
                 "licence": clean(meta.get("LicenseShortName", {}).get("value")), "licence_url": clean(meta.get("LicenseUrl", {}).get("value")),
                 "artist": clean(meta.get("Artist", {}).get("value"))[:120], "source": ii["descriptionurl"],
-                "description": clean(meta.get("ImageDescription", {}).get("value"))[:160],
+                "description": clean(meta.get("ImageDescription", {}).get("value")).replace(chr(0x2014), ", ").replace(chr(0x2013), "-")[:160],
             }
         time.sleep(1)
 
