@@ -6,7 +6,7 @@ or no photo. Never a stand-in from somewhere else.
 Covers ISO countries and territories (P297), Australian and US states (P300), and any place in the
 tree that carries a "wikidata" id.
 
-Places that belong to a nation or community with its own cultural authority (tagged p4a-native-nations
+Places that belong to a nation or community with its own cultural authority (tagged first-nations
 and of kind nation, zone, site or island-group) get no automatic photo: how they are pictured is chosen
 with their community. Keeps only
 openly licensed, landscape-shaped photographs, with full credit from Wikimedia Commons.
@@ -121,7 +121,7 @@ def main():
         pick = None
         use = choices.get(pid, {}).get("use")
         place = places[pid]
-        if "p4a-native-nations" in place.get("tags", []) and place["kind"] in ("nation", "zone", "site", "island-group"):
+        if "first-nations" in place.get("tags", []) and place["kind"] in ("nation", "zone", "site", "island-group"):
             skipped.append(pid)
             continue
         if use == "none":

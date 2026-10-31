@@ -29,7 +29,7 @@ def main():
             "id": pid, "name": p["name"], "kind": p["kind"], "parent": p.get("parent"),
             "tags": p.get("tags", []), "zone": bool(p.get("zone_scan")), "overlay": bool(p.get("overlay")),
             "region": p.get("region"), "aliases": p.get("aliases", [])[:4], "children": len(p["children"]),
-            "active": is_active(p), "smartraveller": p.get("smartraveller"), "p4a": (p.get("p4a_url") or "").replace("https://auraofintelligence.github.io/p4a-xyz-cinema/", "") or None,
+            "active": is_active(p), "smartraveller": p.get("smartraveller"),
             "applicable": len(applicable), "records": len([x for x in applicable if x in own]),
             "fresh": len(fresh), "due": due_here, "vetted": pid in vetted, "sk": p.get("source_kind"),
         }

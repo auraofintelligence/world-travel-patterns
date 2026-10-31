@@ -13,7 +13,6 @@
     ["site-map.html", "Site map", "site-map"],
   ];
   const REPO = "https://github.com/auraofintelligence/world-travel-patterns";
-  const P4A = "https://auraofintelligence.github.io/p4a-xyz-cinema/";
   const KIND_LABEL = {
     country: "Country", territory: "Territory", associated: "Associated state", jurisdiction: "Separately travelled jurisdiction",
     state: "State", district: "Council or ward", electorate: "Electorate", region: "Region", island: "Island",
@@ -26,7 +25,7 @@
   };
   const kindOf = (p) => SOURCE_KIND[p.sk] || KIND_LABEL[p.kind] || p.kind;
   const TAG_LABEL = {
-    home: "Home", "p4a-oceania": "P4A Oceania", "p4a-native-nations": "P4A Native Nations", "p4a-xyz": "P4A",
+    home: "Home", "oceania": "Oceania", "first-nations": "First Nations",
     aura: "Aura", music: "Music", books: "Books", founder: "Founder",
   };
   const LAYERS = [
@@ -219,7 +218,7 @@
       <div class="toolbar"><input class="search" id="q" type="search" placeholder="Search any place: Rapa Nui, Redland City, Bougainville…" aria-label="Search places">
       </div>
       <div class="toolbar" id="filters">
-        ${[["spine", "Countries and territories"], ["oceania", "Oceania"], ["native", "Native Nations"], ["home", "Home"], ["zones", "Permit zones"], ["records", "Has records"], ["all", "Everything"]]
+        ${[["spine", "Countries and territories"], ["oceania", "Oceania"], ["native", "First Nations"], ["home", "Home"], ["zones", "Permit zones"], ["records", "Has records"], ["all", "Everything"]]
           .map(([k, l], i) => `<button class="filter" data-f="${k}" aria-pressed="${i === 0}">${l}</button>`).join("")}
       </div>
       <p class="meta" id="count"></p>
@@ -234,8 +233,8 @@
     let filter = "spine";
     const tests = {
       spine: (p) => !p.id.includes("/"),
-      oceania: (p) => (p.tags || []).includes("p4a-oceania"),
-      native: (p) => (p.tags || []).includes("p4a-native-nations"),
+      oceania: (p) => (p.tags || []).includes("oceania"),
+      native: (p) => (p.tags || []).includes("first-nations"),
       home: (p) => (p.tags || []).includes("home"),
       zones: (p) => p.zone,
       records: (p) => p.records > 0,
@@ -252,7 +251,7 @@
       count.textContent = `${num(list.length)} places${list.length > shown.length ? `, showing the first ${shown.length}: search to narrow` : ""}`;
       if (grouped) {
         const groups = {};
-        shown.forEach((p) => { (groups[p.region || ((p.tags || []).includes("p4a-oceania") ? "Pacific" : "More places")] ||= []).push(p); });
+        shown.forEach((p) => { (groups[p.region || ((p.tags || []).includes("oceania") ? "Pacific" : "More places")] ||= []).push(p); });
         const order = ["Pacific", "Asia", "Middle East", "Africa", "Europe", "Americas", "More places"];
         results.innerHTML = order.filter((g) => groups[g]).map((g) => `<h2 class="month-head">${g} <span class="meta">${groups[g].length}</span></h2><div class="grid">${groups[g].map(placeCard).join("")}</div>`).join("");
       } else {
@@ -382,7 +381,6 @@
     const strata = `<div class="strata">${chain.map((p) => `<a class="stratum ${p.id === id ? "here" : ""}" href="place.html?id=${encodeURIComponent(p.id)}"><small>${esc(kindOf(p))}</small>${esc(p.name)}</a>`).join("")}</div>`;
     const links = [
       advice ? `<a class="btn ghost" href="${esc(advice.url)}" rel="noopener">Smartraveller advice</a>` : "",
-      place.p4a ? `<a class="btn ghost" href="${P4A}${esc(place.p4a)}" rel="noopener">This place on P4A</a>` : "",
     ].join("");
     const html = hero(credits, "place", {
       kicker: esc(chain.slice().reverse().map((p) => p.name).join(" › ")),
