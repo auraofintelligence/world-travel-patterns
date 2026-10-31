@@ -2,26 +2,39 @@
  "place": "no",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free (Schengen Area).",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-NORWAY-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "Visa-free short stays as part of the Schengen area.",
+   "max_stay": "90 days in any 180-day period across the Schengen area",
+   "pre_arrival": "None today. ETIAS is on the watch list.",
+   "other": "Schengen Entry/Exit System: fingerprints and photo at the border on first entry (free, nothing to do beforehand). Get an entry stamp where one is still given, and carry your passport across internal borders.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Norway travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/norway",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "Norway's official currency is the Norwegian Kroner (NOK). Norway won't accept the Euro in most situations. You can bring up to the equivalent of 25,000 NOK in cash into Norway. You need to pay a customs toll and a fine if you arrive with more than 25,000 NOK. - Directorate of Norwegian Customs",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-NORWAY-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Norway travel advice (updated 09 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/norway",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "partner-arrangement",
@@ -38,6 +51,62 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/norway",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences, even for possession of small amounts of recreational drugs or some prescription medications, include: heavy fines imprisonment being removed and banned from the Schengen area.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/norway",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "filming-and-drones",
+     "rule": "To fly any drone in Norway, you need to be registered as an operator in either Norway or an EU/EFTA country and have liability insurance. Other conditions apply and certain areas are no fly zones. Civil Aviation Authority Norway provides guidance on registering and operating drones. Drones are strictly controlled in the polar regions, including air, ground and water drones. Penalties for operating a drone without appropriate approvals or in restricted locations can include: heavy fines confiscation of the drone you may face jail or deportation you may be banned from the Schengen area",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/norway",
+     "checked": "2026-10-31",
+     "heading": "Drones"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Always carry an ID, such as your driver's licence or a copy of your passport. If you assault someone in any way, you may be jailed, deported and banned from the Schengen area. Alcohol laws are very strict, and penalties for driving under the influence are severe. The legal limit is 0.02% blood alcohol and applies to the driver of any motorised vehicle. There are frequent roadside drink driving checks. If you speed or drive under the influence: penalties are severe you may face jail or deportation you may be banned from the Schengen area.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/norway",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "For advice on restrictions on imports, visit the Norwegian Customs website.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/norway",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Australian driving licences are valid for up to 3 months. To drive a vehicle, you'll need a current Australian driver's licence (digital driver's licences may not be accepted). However, some car rental companies may require customers to present an International Driving Permit (IDP) regardless. You can check if your licence will be accepted, as well as the minimum driving age, here: Driving licence holders | Statens vegvesen. If you need an IDP, get this before you leave Australia. An IDP does no",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/norway",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Norway travel advice (updated 09 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/norway",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

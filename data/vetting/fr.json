@@ -2,46 +2,22 @@
  "place": "fr",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free Schengen short stay for Australians; 90 days in any 180-day period for tourism and ordinary business visits.",
-   "pre_arrival": "Check the France-Visas assistant, Schengen day count, passport validity and any event invitation before booking.",
-   "max_stay": "Short-stay entry is the quick key; long stays or active local work move to a French long-stay visa or residence permit.",
-   "checked": "2026-08-21",
+   "status": "visa-free",
+   "summary": "Visa-free short stays as part of the Schengen area.",
+   "max_stay": "90 days in any 180-day period across the Schengen area",
+   "pre_arrival": "None today. ETIAS is on the watch list.",
+   "other": "Apply for any visa in Australia before you go. France Diplomacy has an online visa checker. Schengen Entry/Exit System: fingerprints and photo at the border on first entry (free, nothing to do beforehand). Get an entry stamp where one is still given, and carry your passport across internal borders.",
    "evidence": "official",
+   "checked": "2026-10-31",
    "sources": [
     {
-     "title": "France-Visas: Australia",
-     "authority": "French Ministry for Europe and Foreign Affairs",
-     "url": "https://france-visas.gouv.fr/en/web/france-visas/australie",
-     "checked": "2026-08-21",
-     "supports": "Australian application route and processing context"
-    },
-    {
-     "title": "France-Visas: professional purpose",
-     "authority": "French Ministry for Europe and Foreign Affairs",
-     "url": "https://france-visas.gouv.fr/en/web/france-visas/motif-professionnel",
-     "checked": "2026-08-21",
-     "supports": "business, self-employed and professional categories"
-    },
-    {
-     "title": "France-Visas: salaried activity",
-     "authority": "French Ministry for Europe and Foreign Affairs",
-     "url": "https://www.france-visas.gouv.fr/web/france-visas/activite-salariee",
-     "checked": "2026-08-21",
-     "supports": "short missions, events and occasional invited teaching"
-    },
-    {
-     "title": "France-Visas: international talents",
-     "authority": "French Ministry for Europe and Foreign Affairs",
-     "url": "https://france-visas.gouv.fr/en/web/france-visas/talents-internationaux-et-attractivite-economique",
-     "checked": "2026-08-21",
-     "supports": "talent, researcher, creator, investor and artist routes"
+     "title": "France travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/france",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
-   ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "FRA-ENTRY-SNAPSHOT"
-   }
+   ]
   },
   "activities": {
    "activities": {
@@ -228,6 +204,71 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/france",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. If you're convicted, you can get a long jail sentence.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/france",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "photography",
+     "rule": "You must always carry a photo ID, such as your passport or driver's licence. Police conduct random checks, particularly at borders. It's illegal not to offer help to a person in danger. Authorities may charge you if you: don't stop after you witness a motor accident don't report an accident to emergency services ignore pleas for help or urgent assistance. Any assistance shouldn't put you or anyone else in danger. For example, if there's a fire, you're not expected to leap into the flames to save someone. Notifying authorities (dial 112) would be sufficient. Penalties for not assisting can carry a fine of up to 100,000 euros and up to 7 years imprisonment. Tourists aren't exempt. Forcing some",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/france",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "For specific information on bringing medication into France, read the Consulate-General of France in Sydney website.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/france",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You'll need a valid Australian driver's licence to drive. Car rental companies may also need an International Driving Permit (IDP) in addition to your driver's license (the IDP alone is insufficient). You should get your IDP before you leave Australia. Otherwise, you can apply for an IDP online and have it shipped internationally for a fee. If you live in France, you can swap your Australian driver's licence for a French licence. You must do this within your first 12 months.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/france",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "France travel advice (updated 30 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/france",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The currency in France is the Euro. France is a member of the European Union (EU). If you travel between France and any non-EU country, you must declare over 10,000 euros (or equivalent) cash. This covers all forms of currency, not only cash. If you don't declare or give the wrong information on entry or exit, you'll need to pay a fine. You don't need to declare cash if you're travelling to or from another EU country.",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "France travel advice (updated 30 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/france",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

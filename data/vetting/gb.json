@@ -2,144 +2,21 @@
  "place": "gb",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "£20 ETA before travel; visitor activities normally up to six months",
-   "pre_arrival": "Match every public appearance to visitor, permitted-paid-engagement or sponsored-work rules. Obtain a written UK invitation stating organiser, purpose, expertise, dates, venues, payment and expenses.",
-   "max_stay": "Visitor permission is normally up to six months, but a permitted paid engagement must occur during the first month. The Creative Worker concession supports qualifying sponsored creative work for up to three months.",
-   "checked": "2026-08-21",
+   "status": "eta-required",
+   "summary": "An Electronic Travel Authorisation (ETA) for tourism or transit visits under 6 months.",
+   "max_stay": "Under 6 months",
+   "other": "Paid or unpaid work, volunteering or getting married needs a visa arranged before travel. Dual Australian-British or Australian-Irish citizens can't get an ETA and must travel on the right passport. Apply only through the UK visas and immigration site.",
    "evidence": "official",
+   "checked": "2026-10-31",
    "sources": [
     {
-     "title": "Check when you can get an Electronic Travel Authorisation",
-     "authority": "UK Visas and Immigration",
-     "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
-     "checked": "2026-08-21",
-     "supports": "Australian ETA eligibility and visitor window"
-    },
-    {
-     "title": "Apply for an Electronic Travel Authorisation",
-     "authority": "UK Visas and Immigration",
-     "url": "https://www.gov.uk/eta/apply",
-     "checked": "2026-08-21",
-     "supports": "£20 fee, passport linkage, timing and validity"
-    },
-    {
-     "title": "What you can and cannot do with an ETA",
-     "authority": "UK Visas and Immigration",
-     "url": "https://www.gov.uk/eta/what-you-can-cannot-do",
-     "checked": "2026-08-21",
-     "supports": "visitor, permitted-paid-engagement and Creative Worker entry boundaries"
-    },
-    {
-     "title": "Immigration Rules Appendix V: Visitor",
-     "authority": "UK Home Office",
-     "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-v-visitor",
-     "checked": "2026-08-21",
-     "supports": "visitor entry conditions, prohibited work and paid engagements"
-    },
-    {
-     "title": "Immigration Rules Appendix Visitor: Permitted Activities",
-     "authority": "UK Home Office",
-     "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-visitor-permitted-activities",
-     "checked": "2026-08-21",
-     "supports": "meetings, talks, trade, remote work, training and creative activity"
-    },
-    {
-     "title": "Visit the UK for a paid engagement or event",
-     "authority": "UK Visas and Immigration",
-     "url": "https://www.gov.uk/standard-visitor/paid-engagement-event",
-     "checked": "2026-08-21",
-     "supports": "speaker, lecturer and creative paid engagements, invitation and first-month limit"
-    },
-    {
-     "title": "Visiting the UK as a creative professional from a non-visa national country",
-     "authority": "UK Home Office",
-     "url": "https://www.gov.uk/guidance/visiting-the-uk-as-a-creative-professional-from-a-non-visa-national-country",
-     "checked": "2026-08-21",
-     "supports": "visitor, paid-engagement and Creative Worker routes"
-    },
-    {
-     "title": "Innovator Founder visa: Eligibility",
-     "authority": "UK Visas and Immigration",
-     "url": "https://www.gov.uk/innovator-founder-visa/eligibility",
-     "checked": "2026-08-21",
-     "supports": "endorsed innovative founder route"
-    },
-    {
-     "title": "Global Talent visa: Digital technology",
-     "authority": "UK Visas and Immigration",
-     "url": "https://www.gov.uk/global-talent-digital-technology",
-     "checked": "2026-08-21",
-     "supports": "digital-technology talent route"
-    },
-    {
-     "title": "UK Expansion Worker visa",
-     "authority": "UK Visas and Immigration",
-     "url": "https://www.gov.uk/uk-expansion-worker-visa",
-     "checked": "2026-08-21",
-     "supports": "overseas-business UK expansion route"
-    },
-    {
-     "title": "Service Supplier visa: Eligibility",
-     "authority": "UK Visas and Immigration",
-     "url": "https://www.gov.uk/service-supplier-visa/eligibility",
-     "checked": "2026-08-21",
-     "supports": "sponsorship, contract and work-experience tests"
-    },
-    {
-     "title": "Service Supplier visa: eligible trade agreements and sectors",
-     "authority": "UK Home Office",
-     "url": "https://www.gov.uk/government/publications/service-supplier-visa-eligible-trade-agreements-and-sectors/service-supplier-visa-eligible-trade-agreements-and-sectors-accessible-version",
-     "checked": "2026-08-21",
-     "supports": "UK–Australia agreement sectors and independent-professional experience requirements"
-    },
-    {
-     "title": "Skilled Worker visa: Your job",
-     "authority": "UK Visas and Immigration",
-     "url": "https://www.gov.uk/skilled-worker-visa/your-job",
-     "checked": "2026-08-21",
-     "supports": "sponsored employment boundary"
-    },
-    {
-     "title": "Youth Mobility Scheme visa: Eligibility",
-     "authority": "UK Visas and Immigration",
-     "url": "https://www.gov.uk/youth-mobility/eligibility",
-     "checked": "2026-08-21",
-     "supports": "Australian age limit of 18 to 35"
-    },
-    {
-     "title": "London Tech Week",
-     "authority": "Event organiser",
-     "url": "https://londontechweek.com/",
-     "checked": "2026-08-21",
-     "supports": "recurring English-language technology and founder conference signal"
-    },
-    {
-     "title": "The AI Summit London",
-     "authority": "Event organiser",
-     "url": "https://london.theaisummit.com/",
-     "checked": "2026-08-21",
-     "supports": "large recurring English-language AI speaker circuit"
-    },
-    {
-     "title": "Data Centre Transformation",
-     "authority": "Data Centre Alliance",
-     "url": "https://dctransformation.co.uk/",
-     "checked": "2026-08-21",
-     "supports": "data-centre and infrastructure conference signal"
-    },
-    {
-     "title": "The Peak of Data & AI 2027",
-     "authority": "Safe Software and event organiser",
-     "url": "https://peakofdataandai.com/",
-     "checked": "2026-08-21",
-     "supports": "open presentation call, 29 September 2026 deadline, event dates and published speaker terms"
+     "title": "United Kingdom travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/united-kingdom",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
-   ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "GBR-ENTRY-SNAPSHOT"
-   }
+   ]
   },
   "activities": {
    "activities": {
@@ -424,6 +301,55 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/united-kingdom",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "For specific information on bringing medication into the UK, read the UK Home Office website.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/united-kingdom",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can drive a car or motorbike for up to 12 months using your full Australian licence. An International Driving Permit isn't required. After 12 months, you'll need to get a UK driver's licence. If riding a motorcycle, always wear a helmet.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/united-kingdom",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "United Kingdom travel advice (updated 11 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/united-kingdom",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The official currency is the Pound Sterling (GBP). ATMs are available, and credit cards are widely used. Contactless payment is widely accepted. There are rules about how much cash you must declare upon arrival or departure from the UK. These may differ between Great Britain (England, Scotland and Wales) and Northern Ireland. This covers all forms of currency (i.e., bearer bonds, prepaid cards, gold coins, bullion or nuggets, cheques, and travellers’ cheques), not just cash. You may have to pay a penalty if you don't declare this cash.",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "United Kingdom travel advice (updated 11 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/united-kingdom",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

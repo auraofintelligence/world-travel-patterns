@@ -2,46 +2,22 @@
  "place": "pt",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free Schengen short stay for Australians; 90 days in any 180-day period.",
-   "pre_arrival": "Check the Portuguese mission/AIMA, Schengen day count and whether the trip is visitor, remote-worker or local work.",
-   "max_stay": "Use the visitor route for short scouting; D8/D2 and other residence routes take a prepared dossier.",
-   "checked": "2026-08-21",
+   "status": "visa-free",
+   "summary": "Visa-free short stays as part of the Schengen area.",
+   "max_stay": "90 days in any 180-day period across the Schengen area",
+   "pre_arrival": "None today. ETIAS is on the watch list.",
+   "other": "Get a clear entry stamp on first Schengen entry; airlines may refuse boarding without proof of entry. AIMA, Portugal's immigration agency, has a large backlog. Schengen Entry/Exit System: fingerprints and photo at the border on first entry (free, nothing to do beforehand). Get an entry stamp where one is still given, and carry your passport across internal borders.",
    "evidence": "official",
+   "checked": "2026-10-31",
    "sources": [
     {
-     "title": "National visas: general information",
-     "authority": "Portuguese Ministry of Foreign Affairs",
-     "url": "https://vistos.mne.gov.pt/en/national-visas/general-information/type-of-visa",
-     "checked": "2026-08-21",
-     "supports": "national visa categories"
-    },
-    {
-     "title": "Working in Portugal",
-     "authority": "AIMA",
-     "url": "https://aima.gov.pt/pt/trabalhar",
-     "checked": "2026-08-21",
-     "supports": "employment, remote work and work-residence links"
-    },
-    {
-     "title": "Remote professional activity residence",
-     "authority": "AIMA",
-     "url": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-para-o-exercicio-de-atividade-profissional-prestada-de-forma-remota-com-visto-de-residencia",
-     "checked": "2026-08-21",
-     "supports": "D8 remote-worker route"
-    },
-    {
-     "title": "Investment residence authorisation",
-     "authority": "AIMA",
-     "url": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-para-investimento-art-90-o-a",
-     "checked": "2026-08-21",
-     "supports": "investment residence framework"
+     "title": "Portugal travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/portugal",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
-   ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "PRT-ENTRY-SNAPSHOT"
-   }
+   ]
   },
   "activities": {
    "activities": {
@@ -228,6 +204,87 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/portugal",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Possession and use of illegal drugs are administrative offences and can attract large fines. Selling or trafficking illegal drugs is a criminal offence. Penalties are severe and can include jail sentences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/portugal",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Gambling is legal in venues licensed by the government, such as official casinos. Gambling is illegal in unlicensed venues. Organisers, players and anyone on the premises may be charged, fined or jailed. Check you're entering a licensed gambling venue.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/portugal",
+     "checked": "2026-10-31",
+     "heading": "Gambling"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "A Code of Conduct has been introduced in the municipality of Albufeira, in the Algarve, banning inappropriate behaviour in public places. Be aware of the rules and avoid on the spot fines ranging between €150 and €1,800.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/portugal",
+     "checked": "2026-10-31",
+     "heading": "Inappropriate behaviour in public places"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "You must carry photo ID. You may be required to pay IVA (VAT/GST) and/or customs fees to receive international parcels via mail, including online shopping and gifts. Fees may seem high relative to the value of goods, and you may be asked to attend a customs facility or pay an agent to release goods.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/portugal",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "You can carry prescription medicines for personal use into Portugal. If you are unsure about medication and quantities, contact the Portuguese National Drug Authority, Infarmed. To receive medications by post, you may require an import permit.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/portugal",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can drive using a valid Australian driver's licence. Local authorities and car rental companies require the presentation of an original driver licence. Australian digital driver licences are not accepted. If you hold a residence permit for Portugal, you can continue to use your valid Australian driver's license as long as you meet certain conditions.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/portugal",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Portugal travel advice (updated 16 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/portugal",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": "euro (EUR)",
+   "cash_card_notes": "The local currency is the euro (EUR). Declare amounts over 10,000 euros or the same amount in another foreign currency. This covers all forms of currency, not only cash. This applies if you're travelling between Portugal and any non-European Union country. You don't need to declare currency if you're travelling to or from another European Union country. You'll be fined if you don't declare or give incorrect information. Foreign bank cards may not be accepted in smaller shops, restaurants, towns or rural areas. You can use Australian credit cards at larger hotels and shopping centres.",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Portugal travel advice (updated 16 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/portugal",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }
