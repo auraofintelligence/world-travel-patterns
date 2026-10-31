@@ -203,17 +203,17 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
+     "status": "low",
+     "route": "Visa-exempt entry (no remunerative activity)",
+     "detail": "Business and sales meetings and client visits are permitted, as long as nothing is paid in Taiwan.",
+     "next": "None.",
      "checked": "2026-11-01"
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
+     "status": "low",
+     "route": "Visa-exempt entry (no remunerative activity)",
+     "detail": "Attending conferences and workshops is permitted.",
+     "next": "None.",
      "checked": "2026-11-01"
     },
     "unpaid-speaking": {
@@ -259,10 +259,10 @@
      "checked": "2026-11-01"
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
+     "status": "low",
+     "route": "Visa-exempt entry (no remunerative activity)",
+     "detail": "Visiting clients and sales meetings are permitted.",
+     "next": "None.",
      "checked": "2026-11-01"
     },
     "artist": {
@@ -281,10 +281,10 @@
      "checked": "2026-11-01"
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
+     "status": "specialist",
+     "route": "Visas for the crew plus the city's filming application",
+     "detail": "Foreign crews follow each city's filming application (for example New Taipei City) and need visas under Taiwan's immigration rules; the national Film in Taiwan program helps with permits.",
+     "next": "Contact the city film office for the location.",
      "checked": "2026-11-01"
     },
     "research": {
@@ -295,10 +295,10 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
+     "status": "specialist",
+     "route": "A work permit",
+     "detail": "The Ministry of Labor treats volunteers, speakers and performers as workers who need work permits, paid or not.",
+     "next": "Ask the host to apply for a permit.",
      "checked": "2026-11-01"
     }
    },
@@ -316,6 +316,27 @@
      "url": "https://bal.com/?p=543",
      "checked": "2026-11-01",
      "supports": "short-term work exemptions and the 30-day cultural performance rule"
+    },
+    {
+     "title": "Business visitors FAQ: Taiwan",
+     "authority": "Signal: Crown Relocations",
+     "url": "https://www.crownrelo.com/intl/wp-content/uploads/sites/2/2024/11/crown-relocations-business-visitos-faq-taiwan.pdf",
+     "checked": "2026-11-01",
+     "supports": "business meetings, conferences and client visits; no remunerative activity"
+    },
+    {
+     "title": "Visa information for foreign film crews",
+     "authority": "New Taipei City Film Assistance Center",
+     "url": "https://www.filmassist.ntpc.gov.tw/en/visa",
+     "checked": "2026-11-01",
+     "supports": "city filming application plus visas under Taiwan's immigration rules"
+    },
+    {
+     "title": "Volunteering and work permits (students)",
+     "authority": "National Chengchi University",
+     "url": "https://cd.nccu.edu.tw/uploads/media/96a571f5715632ef47785c84b86129d2.pdf",
+     "checked": "2026-11-01",
+     "supports": "volunteers, speakers and performers count as workers needing permits"
     }
    ]
   }
