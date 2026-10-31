@@ -123,6 +123,35 @@
      "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "public_holidays": "8 next year in data/calendar (machine data; the brief lists those in a trip window)",
+   "moving_calendars": [
+    "Ramadan: about 11 days earlier each year. Expect daytime fasting, shorter business hours and care with eating, drinking and smoking in public."
+   ],
+   "festivals": [],
+   "closures": [],
+   "protocol_notes": [],
+   "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
+   "sources": [
+    {
+     "title": "Tunisia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/tunisia",
+     "checked": "2026-11-01",
+     "supports": "hazard seasons and closures as read on 2026-11-01"
+    },
+    {
+     "title": "Public holidays (Nager.Date)",
+     "authority": "Signal: machine holiday data",
+     "url": "https://date.nager.at/",
+     "checked": "2026-11-01",
+     "supports": "8 public holidays next year"
+    }
+   ]
   }
  }
 }
