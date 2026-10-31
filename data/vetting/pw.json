@@ -32,18 +32,20 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the 30-day visitor visa on arrival was confirmed.",
-     "next": "Ask the Palau Bureau of Immigration or the Palau Consulate-General in New South Wales.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visitor entry",
+     "detail": "Meetings, conferences, contract negotiations and exploring business are covered without local employment.",
+     "next": "Ask the Bureau of Immigration.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the 30-day visitor visa on arrival was confirmed.",
-     "next": "Ask the Palau Bureau of Immigration or the Palau Consulate-General in New South Wales.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visitor entry",
+     "detail": "Conferences are covered.",
+     "next": "Ask the Bureau of Immigration.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "unpaid-speaking": {
      "status": "confirm-in-writing",
@@ -53,11 +55,12 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the 30-day visitor visa on arrival was confirmed.",
-     "next": "Ask the Palau Bureau of Immigration or the Palau Consulate-General in New South Wales.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work permit (Division of Labor)",
+     "detail": "The business visitor route doesn't allow employment.",
+     "next": "Ask the Bureau of Immigration.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "book-launch": {
      "status": "confirm-in-writing",
@@ -88,11 +91,12 @@
      "checked": "2026-11-01"
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the 30-day visitor visa on arrival was confirmed.",
-     "next": "Ask the Palau Bureau of Immigration or the Palau Consulate-General in New South Wales.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visitor entry",
+     "detail": "Negotiations are covered.",
+     "next": "None.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "artist": {
      "status": "confirm-in-writing",
@@ -137,6 +141,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/pacific/palau",
      "checked": "2026-11-01",
      "supports": "30-day visitor visa on arrival"
+    },
+    {
+     "title": "Palau business visitor visa on arrival",
+     "authority": "Signal: guide",
+     "url": "https://wheretoemigrate.io/pathways/palau-business-visitor-visa-on-arrival",
+     "checked": "2026-11-01",
+     "supports": "meetings, conferences, negotiations without local employment"
     }
    ]
   },

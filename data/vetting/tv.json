@@ -152,17 +152,17 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Tuvalu's Immigration Department.",
+     "status": "conditional",
+     "route": "Visitor permit with a special business endorsement",
+     "detail": "Business needs the visitor permit's special endorsement, on terms set by the Principal Immigration Officer.",
+     "next": "Ask the Immigration Department in Funafuti.",
      "checked": "2026-11-01"
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Tuvalu's Immigration Department.",
+     "status": "conditional",
+     "route": "Visitor permit with a special business endorsement",
+     "detail": "As for meetings.",
+     "next": "Ask the Immigration Department.",
      "checked": "2026-11-01"
     },
     "unpaid-speaking": {
@@ -173,10 +173,10 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Tuvalu's Immigration Department.",
+     "status": "specialist",
+     "route": "Permit to enter and reside for employment",
+     "detail": "Employment needs a permit to enter and reside, with extra requirements.",
+     "next": "Ask the Immigration Department.",
      "checked": "2026-11-01"
     },
     "book-launch": {
@@ -208,17 +208,17 @@
      "checked": "2026-11-01"
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Tuvalu's Immigration Department.",
+     "status": "conditional",
+     "route": "Visitor permit with a special business endorsement",
+     "detail": "As for meetings.",
+     "next": "Ask the Immigration Department.",
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Tuvalu's Immigration Department.",
+     "status": "specialist",
+     "route": "Permit to enter and reside for employment",
+     "detail": "Paid performance is employment.",
+     "next": "Ask the Immigration Department.",
      "checked": "2026-11-01"
     },
     "mixed-mission": {
@@ -250,7 +250,15 @@
      "checked": "2026-11-01"
     }
    },
-   "sources": []
+   "sources": [
+    {
+     "title": "Immigration (Amendment) Regulations 2014",
+     "authority": "Government of Tuvalu (via PacLII)",
+     "url": "https://paclii.org/tv/legis/sub_leg/iair2014385",
+     "checked": "2026-11-01",
+     "supports": "visitor permit with a business endorsement; permit to enter and reside for business or employment"
+    }
+   ]
   }
  }
 }

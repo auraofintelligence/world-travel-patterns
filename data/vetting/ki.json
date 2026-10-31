@@ -153,18 +153,20 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask the Kiribati Ministry of Foreign Affairs and Immigration.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visitor visa (up to one month)",
+     "detail": "Meetings, market research and contract discussions fit a business visit; productive work doesn't.",
+     "next": "Ask the Ministry of Foreign Affairs and Immigration.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask the Kiribati Ministry of Foreign Affairs and Immigration.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visitor visa",
+     "detail": "Conference attendance fits a business visit.",
+     "next": "Ask the Ministry.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "unpaid-speaking": {
      "status": "confirm-in-writing",
@@ -174,11 +176,12 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask the Kiribati Ministry of Foreign Affairs and Immigration.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work visa",
+     "detail": "Longer or other business work needs a work visa.",
+     "next": "Ask the Ministry.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "book-launch": {
      "status": "confirm-in-writing",
@@ -251,7 +254,15 @@
      "checked": "2026-11-01"
     }
    },
-   "sources": []
+   "sources": [
+    {
+     "title": "Kiribati business visitor visa",
+     "authority": "Signal: guide citing Kiribati's 2020 Immigration Procedures",
+     "url": "https://wheretoemigrate.io/pathways/kiribati-business-visitor-visa",
+     "checked": "2026-11-01",
+     "supports": "business visitor up to one month; other work needs a work visa"
+    }
+   ]
   }
  }
 }

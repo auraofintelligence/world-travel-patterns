@@ -319,10 +319,10 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Work permit",
-     "detail": "Working on a visitor permit isn't allowed; a work permit needs a confirmed place of work or a business being set up.",
-     "next": "Ask the Ministry of Foreign Affairs and Immigration before travel.",
+     "status": "specialist",
+     "route": "Worker permit (visitors can't work)",
+     "detail": "A bona fide visitor can't work or study; paid work needs a worker permit or another status that allows it.",
+     "next": "Ask the Ministry of Foreign Affairs and Immigration through the host.",
      "checked": "2026-11-01"
     },
     "book-launch": {
@@ -333,10 +333,10 @@
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Work permit",
-     "detail": "Working on a visitor permit isn't allowed; a work permit needs a confirmed place of work or a business being set up.",
-     "next": "Ask the Ministry of Foreign Affairs and Immigration before travel.",
+     "status": "specialist",
+     "route": "Worker permit (visitors can't work)",
+     "detail": "Teaching is work.",
+     "next": "Ask the Ministry through the host.",
      "checked": "2026-11-01"
     },
     "remote-work": {
@@ -361,10 +361,10 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Work permit",
-     "detail": "Working on a visitor permit isn't allowed; a work permit needs a confirmed place of work or a business being set up.",
-     "next": "Ask the Ministry of Foreign Affairs and Immigration before travel.",
+     "status": "specialist",
+     "route": "Worker permit (visitors can't work)",
+     "detail": "Paid performance is work.",
+     "next": "Ask the Ministry through the host.",
      "checked": "2026-11-01"
     },
     "mixed-mission": {
@@ -382,10 +382,10 @@
      "checked": "2026-11-01"
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Not published",
-     "detail": "Not named among visitor purposes.",
-     "next": "Ask the Ministry of Foreign Affairs and Immigration.",
+     "status": "specialist",
+     "route": "International Research Visa and Permit",
+     "detail": "Research approved and funded by a university or research organisation uses its own permit (up to three years, not extendable), not visitor entry; it doesn't allow working for gain.",
+     "next": "Apply through the Ministry with the research body's approval.",
      "checked": "2026-11-01"
     },
     "volunteering": {
@@ -403,6 +403,20 @@
      "url": "https://mfai.gov.ck/sites/default/files/2023-06/Visas%20and%20Permits%20%281%29.pdf",
      "checked": "2026-11-01",
      "supports": "tourism, family visits and short business visits without a visa in advance; work permits"
+    },
+    {
+     "title": "Visa and permit criteria",
+     "authority": "Cook Islands Ministry of Foreign Affairs and Immigration",
+     "url": "https://mfai.gov.ck/visa-and-permit-criteria",
+     "checked": "2026-11-01",
+     "supports": "visitors can't work; worker permits; International Research Visa and Permit"
+    },
+    {
+     "title": "Cook Islands research permit (summary)",
+     "authority": "Signal: visa directory",
+     "url": "https://visaatlas.org/visas/cook-islands/research-permit",
+     "checked": "2026-11-01",
+     "supports": "research permit approved and supported by a university or research organisation"
     }
    ]
   }
