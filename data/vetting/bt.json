@@ -2,26 +2,37 @@
  "place": "bt",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa must be arranged through a licensed tour operator.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BHUTAN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa is needed, arranged through the Tourism Council of Bhutan, with the Sustainable Development Fee.",
+   "other": "Some areas need extra permits, arranged through your guide. Bhutan doesn't recognise de facto or same-sex relationships for dependent visas.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Bhutan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The official currency is the Bhutanese Ngultrum (BTN). The Indian Rupee (INR) is also legal tender, but larger banknotes may not be accepted. ATMs are common in towns. EFTPOS is available nationwide, including at most hotels. Credit cards aren't widely accepted, but you can use them at major hotels.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "High (daily fee applies)",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BHUTAN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Bhutan travel advice (updated 28 January 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,106 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include long jail terms and heavy fines. Penalties apply for using marijuana.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "The amendment of the Tobacco Control Act of Bhutan 2010 legalizes the import, sale and buying of tobacco and tobacco products in the country.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex activity has been decriminalised. There's no legal recognition of same-sex relationships. Consider limiting public displays of affection.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "You may need to have medical documents authenticated by DFAT before you leave.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Travellers rarely drive in Bhutan. Most use organised tours and local drivers.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bhutan travel advice (updated 28 January 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Bhutan has conservative standards of dress and behaviour. Take care not to offend. If you visit temples or other religious institutions, dress modestly and respectfully. Long pants are most appropriate for men. Long skirts are most appropriate for women.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Bhutan travel advice (updated 28 January 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "area-permit",
+     "authority": "Bhutan's immigration, through your licensed guide",
+     "process": "Permits for some areas beyond Thimphu and Paro are arranged by your guide.",
+     "lead_time_days": 30,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
+     "checked": "2026-10-31"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bhutan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
    ]
   }

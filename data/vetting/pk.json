@@ -2,26 +2,37 @@
  "place": "pk",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance. Online visa portal available.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-PAKISTAN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "evisa",
+   "summary": "A visa in advance through the Pakistan Online Visa System.",
+   "other": "To leave you need a valid visa, NICOP, Pakistani passport or exit permit. Smartraveller advises reconsidering travel.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Pakistan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Pakistan Rupee (PKR)",
+   "cash_card_notes": "The local currency is the Pakistan Rupee (PKR). US dollars and euros are the most accessible currencies to change. ATMs are widely available in urban areas, though fraud occurs. International hotels and some shops in major centres accept credit cards. Pakistan is primarily a cash-based society, but this is changing with the broader acceptance of credit and debit cards in major centres. Arrange to have enough local currency to meet your needs.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $90+",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-PAKISTAN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Pakistan travel advice (updated 14 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +49,95 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include the death penalty. Penalties for small amounts of drugs include: long jail sentences large fines deportation",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Domestic violence against women, from partners or male relatives, is common. Standards of support services, including legal and police protection for those affected by domestic violence, are far lower than similar services available in Australia. You should consider these risks if you're planning to travel to Pakistan. Australian parents of Pakistani heritage, especially women, sometimes have trouble leaving Pakistan with their children. This happens when one parent refuses to let the children return to Australia. If that parent withholds the children's passports, the other parent can't bring the children back to Australia. Plan carefully if you think this could happen to you. If you're invo",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
+     "checked": "2026-10-31",
+     "heading": "Family laws"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The death penalty can apply to crimes including terrorism, murder, rape, blasphemy and unlawful assembly. Those charged with blasphemy can spend years in prison, undergo lengthy trial processes and are in constant danger from members of the public or prisoners. Australians who have made public comments, including on social media that may be construed as blasphemous should not travel to Pakistan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
+     "checked": "2026-10-31",
+     "heading": "Serious crime"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Activities that are illegal in Pakistan include: same-sex relationships unmarried heterosexual couples living together importing alcohol or pork products taking photos of airports, military or government buildings or installations flying unregistered drones Be particularly careful to avoid raising religious sensitivities. It's illegal to: try to convert a Muslim encourage a Muslim to abandon their religion insult or show disrespect to Islam or religious figures (blasphemy) Capital punishment, while rare, is a penalty available to courts under the penal code.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "If you intend to take kites with you or fly kites in Pakistan, check local laws. Some provinces have banned kite-flying or kite equipment due to fortified kite strings that injure or kill people.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
+     "checked": "2026-10-31",
+     "heading": "Kite flying"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holy month of Ramadan is observed in Pakistan. Respect religious and cultural customs and laws, particularly at this time. During Ramadan, eating, drinking and smoking may be illegal in public during the day. If you're not fasting, avoid these activities around people who are. Seek local advice to avoid offence. Explore our Ramadan page to learn more, including dates for Ramadan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
+     "checked": "2026-10-31",
+     "heading": "Ramadan (Ramazan in Urdu)"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Pakistan, you need both: an Australian driver's licence (digital driver's licences may not be accepted) an International Driving Permit (IDP) You must get your IDP before you leave Australia. You can apply for a local driver's licence if you're a long-term resident and meet local requirements.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Pakistan travel advice (updated 14 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "There are strong Islamic codes of dress and behaviour in Pakistan. Take care not to offend. If in doubt, seek local advice. Also: avoid wearing shorts or sleeveless clothes avoid physical contact between men and women in public",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Pakistan travel advice (updated 14 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

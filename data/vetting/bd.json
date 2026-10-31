@@ -2,26 +2,37 @@
  "place": "bd",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa on arrival available for business travelers.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BANGLADESH-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa arranged before travel; the online application can be printed for arrival. Visa on arrival exists for some categories but can stop with little notice.",
+   "pre_arrival": "Arrival and departure cards (online system available; carry a printout).",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Bangladesh travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/bangladesh",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Bangladesh Taka (BDT)",
+   "cash_card_notes": "The local currency is the Bangladesh Taka (BDT). You must declare amounts of more than $US5000 when you enter or exit the country. This covers all forms of currency, not only cash. You can use credit cards and ATM facilities in major centres. Credit card fraud happens. Take care not to expose your PIN. Monitor your bank statements for possible fraud.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $75",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BANGLADESH-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Bangladesh travel advice (updated 17 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/bangladesh",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +49,78 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/bangladesh",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They include mandatory jail sentences and the death penalty. Jail sentences are mandatory even in cases that involve just a small amount of illegal drugs. Law enforcement agencies looking for illegal drugs raid places where teenagers and young people spend time. Hookah pipes or smoking pipes are common in some bars and cafes. Criminals may spike them with illegal drugs. Avoid using these pipes.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/bangladesh",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "The death penalty can apply for crimes including: murder rape trafficking of children abduction espionage hijacking an aircraft narcotics trafficking Authorities use corporal punishment such as whipping as an alternative to jail.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/bangladesh",
+     "checked": "2026-10-31",
+     "heading": "Serious crime"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Local authorities can demand to see identification. Always carry a copy of your passport with you, even if you're a dual national.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/bangladesh",
+     "checked": "2026-10-31",
+     "heading": "Proof of identity"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are illegal. Penalties include jail sentences. Bangladeshi civil law differs from Australian law. This includes family matters such as: divorce child custody child support If you plan to do anything that involves local laws, including business and family matters: seek professional advice make sure you know your rights and responsibilities under Bangladeshi law",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/bangladesh",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "dress-and-public-behaviour",
+     "rule": "Dress and behaviour standards are conservative. Public displays of affection aren't socially acceptable. They may attract unwanted public attention, including from law enforcement officials. Take care not to offend. If in doubt, ask a local.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/bangladesh",
+     "checked": "2026-10-31",
+     "heading": "Dress and behaviour standards"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holy month of Ramadan is observed in Bangladesh. Respect religious and cultural customs and laws at this time. During Ramadan, Muslims must not eat, drink and smoke between sunrise and sunset. If you're not fasting, authorities can detain you if you eat, drink or smoke in public during this time. You may be deported. Seek local advice to avoid offence or detention. Explore our Ramadan page to learn more, including dates for Ramadan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/bangladesh",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You need an International Driving Permit (IDP) to drive in Bangladesh. Get an IDP before you leave Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/bangladesh",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bangladesh travel advice (updated 17 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/bangladesh",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

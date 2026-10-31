@@ -2,26 +2,38 @@
  "place": "mn",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa available for business travel up to 30 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MONGOLIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "Australian tourists can stay up to 30 days without a visa.",
+   "max_stay": "30 days",
+   "other": "Business or official visits up to 90 days need a visa. Some border areas need permission from local authorities. Arriving without a prescription for your medicine can bring refusal or prosecution.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Mongolia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/mongolia",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Mongolian Tugrik (MNT)",
+   "cash_card_notes": "The local currency is Mongolian Tugrik (MNT). Some banks in Ulaanbaatar buy Australian dollars. Check the banks' websites before you travel. You can generally exchange: However, these currencies may not be accepted everywhere. Bank notes of different amounts are exchanged at different rates. Lower value notes receive a lower rate. Outside Ulaanbaatar, carry cash. There are few ATMs outside Ulaanbaatar. Some smaller shops, supermarkets and restaurants don't accept credit cards.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $80",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MONGOLIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Mongolia travel advice (updated 12 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/mongolia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +50,98 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/mongolia",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include long prison terms in local jails. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/mongolia",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "By law, you must always carry your passport when travelling in Mongolia. If you live in Mongolia, you must also carry your residency card. If you're involved in legal action, authorities might not let you leave. You may have to wait until the issue is resolved. This includes when criminal investigations have started after commercial disputes.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/mongolia",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "The range of medicine available in Mongolia is limited. Authorities could refuse you entry or prosecute you if you arrive without a prescription for your medication.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/mongolia",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can't drive a vehicle or ride a motorbike with an Australian driver's licence or an International Driving Permit (IDP) issued under the 1949 United Nations Convention on International Road Traffic in Mongolia. Mongolia only accepts IDPs issued under the 1968 Vienna Convention on Road Traffic. For short visits, use taxis or hire a car with a driver. If you plan to stay more than 12 months, apply for a Mongolian licence. - National Police Agency",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/mongolia",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mongolia travel advice (updated 12 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/mongolia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Same-sex relationships are legal. However, the Mongolian National Human Rights Commission has reported LGBTQIA+ travellers can face violence and discrimination. Members of the LGBTQIA+ community have also reported harassment. Avoid public displays of affection. - LGBTQIA+ travellers",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Mongolia travel advice (updated 12 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/mongolia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "area-permit",
+     "authority": "Local authorities in border areas",
+     "process": "Get permission from local authorities before travelling in restricted border areas.",
+     "lead_time_days": 14,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.smartraveller.gov.au/destinations/asia/mongolia",
+     "checked": "2026-10-31"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mongolia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/mongolia",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
    ]
   }

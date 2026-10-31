@@ -2,26 +2,38 @@
  "place": "tw",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TAIWAN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "Visa-exempt entry for Australians.",
+   "pre_arrival": "Taiwan Arrival Card (TWAC) online within 3 days before arrival, free (or by QR code on arrival).",
+   "next_check": "Read the exemption length from Taiwan's Bureau of Consular Affairs.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Taiwan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/taiwan",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "New Taiwan Dollar (NTD)",
+   "cash_card_notes": "The local currency is the New Taiwan Dollar (NTD). Declare amounts over USD10,000 or equivalent. ATMs are widely available in cities and provincial centres. International credit cards are usually accepted in hotels, restaurants and higher-end shops, especially in cities and larger towns.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TAIWAN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Taiwan travel advice (updated 27 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/taiwan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +50,54 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/taiwan",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include the death penalty, life imprisonment and heavy fines. Don't use or carry any illegal drugs, including illegal prescription medication. Carrying certain prescription drugs can result in heavy fines and long jail sentences (see 'Health').",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/taiwan",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "If you're involved in a legal dispute, you won't be allowed to leave Taiwan until the dispute is settled. This includes minor offences. You may be detained on arrival if you have an outstanding arrest warrant in Taiwan. Legal processes can be long. Local authorities won't accept bonds or deposits to guarantee court appearances.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/taiwan",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Some prescription medications are illegal in Taiwan. Authorities may jail or fine you for carrying these medications. If you plan to take medication, check if it's legal in Taiwan. Taiwan Customs gives advice on limits and documents you'll need.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/taiwan",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "If you plan to drive in Taiwan, you must get an International Driving Permit (IDP) before you arrive. You can drive for up to 30 days with an IDP and a current Australian licence (digital driver's licences may not be accepted). If you plan to stay longer, apply for an extension at the nearest motor vehicle office in Taiwan. Check Taiwan’s Highway Bureau for information on how to apply for a Taiwanese Driver's Licence.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/taiwan",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Taiwan travel advice (updated 27 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/taiwan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

@@ -2,26 +2,37 @@
  "place": "la",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa or visa on arrival available.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-LAOS-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-on-arrival",
+   "summary": "Visas on arrival and e-visas are available, for a fee.",
+   "next_check": "Read the length of stay and fee from Laos's Department of Immigration.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Laos travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/laos",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Lao Kip (LAK)",
+   "cash_card_notes": "The local currency is the Lao Kip (LAK). You can't buy or exchange Lao Kip outside Laos. Only exchange money at official outlets. ATMs are available in major cities, including: High-end hotels and restaurants accept credit cards. Contact your bank to ensure your cards will work in Laos.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $75",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-LAOS-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Laos travel advice (updated 18 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/laos",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +49,70 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/laos",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include the death penalty. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/laos",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Surrogacy is illegal in Laos. There have been reports of arrests and charges for human trafficking related to surrogacy. If you're visiting Laos for paid surrogacy or adoption, get legal advice first.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/laos",
+     "checked": "2026-10-31",
+     "heading": "Surrogacy and adoption"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Intimate relationships between Lao citizens and foreigners who are not married are illegal. This includes sexual relationships and living together. Marriages between Lao citizens and foreigners must be pre-approved by Lao authorities. This is the case if you are in Laos or another country. Marriage certificates issued outside of Laos need to be checked by a Lao embassy. This needs to happen in the country where the marriage took place. If you don't register a relationship, authorities could fine you or send you to prison.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/laos",
+     "checked": "2026-10-31",
+     "heading": "Intimate relationships"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "The death penalty can result from serious crimes such as: rape murder drug possession, sale of trafficking treason Activities that are illegal include: taking photos of or visiting military sites making false statements to police wildlife trafficking damaging public property nudity in public or religious places preaching religion, including passing out religious material, without permission visiting temples, other religious or cultural sites after they have closed speaking or publishing material against Laos using, purchasing, possessing, or selling e-cigarettes (vapes), heated tobacco products and shisha, or taking any of these items in or out of Laos, even in transit gambling and playing c",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/laos",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "In some areas night-time curfews apply after certain hours. Pay close attention to your personal security at all times and follow the instructions from security forces. Curfews may be enforced with short notice or without notice and can include roadblocks, spot roadside checks and occasional raids on premises.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/laos",
+     "checked": "2026-10-31",
+     "heading": "Curfews"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive, you'll need a valid International Driving Permit (IDP). Australian driver's licences aren't valid. Arrange your IDP before travelling from Australia. - Australian Embassy, Vientiane",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/laos",
+     "checked": "2026-10-31",
+     "heading": "Driving permits"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Laos travel advice (updated 18 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/laos",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

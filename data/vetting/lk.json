@@ -2,26 +2,37 @@
  "place": "lk",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "ETA required for short business visits. Apply online.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SRI-LANKA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "eta-required",
+   "summary": "An Electronic Travel Authorisation before travel, free for Australian tourists; no longer issued on arrival at Colombo.",
+   "max_stay": "30 days; extensions for a fee",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Sri Lanka travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/sri-lanka",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Sri Lankan Rupee (LKR)",
+   "cash_card_notes": "The local currency is the Sri Lankan Rupee (LKR). You can change Australian dollars for LKR at: the airport commercial banks in major centres Most major towns and cities have ATMs. Some ATMs don't accept international cards. You can withdraw cash from Visa and MasterCard cards at most major banks. Hotels and major shops will accept credit cards. Before you travel, ask your bank if your cards will work in Sri Lanka. Check your statements, as credit card fraud and card skimming occur. If you're carrying more than USD 10,000 or equivalent in cash in foreign currency, you may be required to declar",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $75",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SRI-LANKA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Sri Lanka travel advice (updated 14 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/sri-lanka",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +49,63 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/sri-lanka",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for carrying or using illegal drugs are severe and include the death penalty.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/sri-lanka",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Authorities may apply the death penalty for murder or rape. The legal drinking age is 21 years. Always carry official photo ID. If you don't, you could be detained. It's illegal to: cover your face in a way that prevents your identification smoke or drink in most public places engage in same-sex relationships You must not take photos, record video or operate a drone in High-Security Zones (HSZ), including: military establishments some government buildings official residences Some HSZs may not be signposted. It's illegal to mistreat Buddhist images, including: having your back to Buddha posing for a photograph next to a statue of Buddha wearing tattoos, jewellery or clothing associated with B",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/sri-lanka",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Sri Lanka, you need either: a valid International Driving Permit (IDP) endorsed by the Automobile Association of Sri Lanka (AA) a temporary Sri Lankan driver’s licence from the Department of Motor Traffic To apply for a local licence, you must pay the fee and provide: your Australian driver’s licence (digital driver's licences may not be accepted) a copy of your passport and Sri Lankan visa passport photos If you drive without an IDP or Sri Lankan driver's licence, you may not be cov",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/sri-lanka",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sri Lanka travel advice (updated 14 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/sri-lanka",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Standards of dress and behaviour are conservative. Respect religious traditions and objects. Respect local restrictions and observances around religious holidays. Full moon (Poya) days are celebrated once a month. Authorities ban the sale and purchase of alcohol and fresh meat on these days. Get local advice before you take photos of places of worship and nearby areas. You may cause offence.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Sri Lanka travel advice (updated 14 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/sri-lanka",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

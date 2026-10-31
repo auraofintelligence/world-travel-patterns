@@ -2,33 +2,37 @@
  "place": "hk",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free visit for Australian passport holders for up to 90 days.",
-   "checked": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-HONG-KONG-SAR-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source.",
+   "status": "visa-free",
+   "summary": "No visa for visits under 90 days; Hong Kong has its own immigration, separate from mainland China.",
+   "max_stay": "Under 90 days",
+   "checked": "2026-10-31",
+   "evidence": "official",
    "sources": [
     {
-     "title": "Hong Kong Immigration Department visit requirements",
-     "url": "https://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html",
-     "checked": "2026-08-20"
+     "title": "Hong Kong travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/hong-kong",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
    ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The currency in Hong Kong is the Hong Kong Dollar (HKD). Under Hong Kong law, travellers in and out of Hong Kong may need to declare cash. Make a written declaration if you're carrying more than HKD120,000 or equivalent in cash. You can change Australian dollars for HKD at local currency exchanges and banks. Credit cards are widely accepted. Take care when using ATMs, as petty crime occurs (See 'Safety'). - Hong Kong Customs - Currency",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-HONG-KONG-SAR-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Hong Kong travel advice (updated 30 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/hong-kong",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -45,6 +49,78 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/hong-kong",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Possessing illegal drugs of any kind, including marijuana, can result in penalties that include heavy fines and jail time. Officials have arrested many foreigners for trafficking drugs. Cannabidiol (CBD) has been listed as a dangerous drug under the control of the Dangerous Drugs Ordinance. Possession and consumption carries a maximum penalty of seven years imprisonment. Trafficking and illicit manufacturing of CBD carries a maximum penalty of life imprisonment. From 30 April, Alternative Smoking Products (ASPs) like e-cigarettes are strictly prohibited in Hong Kong, even in transit inside the airport. Possession or use of vapes in Hong Kong can result in severe penalties including fines and",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/hong-kong",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Strict rules control the import or possession of: any type of weapon any item that looks like a weapon, including replicas, antiques, toys and fashion accessories Hong Kong has prosecuted foreigners, including Australians, for possessing: stunning devices such as taser guns dart and spear guns knuckledusters slingshots extendable batons tear gas and pepper spray You may be able to import, possess or purchase such items legally, including from local Hong Kong markets. To do this, you must get a permit from local authorities in advance. These laws apply to people in Hong Kong and those transiting Hong Kong airport.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/hong-kong",
+     "checked": "2026-10-31",
+     "heading": "Importing weapons"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Hong Kong has strict import rules. If you don't follow these rules, you could be fined and/or imprisoned.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/hong-kong",
+     "checked": "2026-10-31",
+     "heading": "Importing Products"
+    },
+    {
+     "topic": "photography",
+     "rule": "It's illegal to: take part in public demonstrations without Hong Kong government approval take photos of military installations",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/hong-kong",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Most people in Hong Kong accept or are indifferent to LGBTQIA+ travellers. However, community attitudes towards LGBTQIA+ people are generally more conservative than in Australia. - LGBTQIA+ travellers",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/hong-kong",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "For information on import restrictions for medicines and other products, see the Hong Kong Customs and Excise Department's Controlled Imports website.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/hong-kong",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You may be able to drive in Hong Kong for up to 12 months with your current Australian driver's licence (digital driver’s licences may not be accepted) or International Driving Permit (IDP). If you're residing in Hong Kong, only drive using a Hong Kong driver's licence. If you're in a car, motorcycle or bike accident, call the police to attend the site of the accident. A police report reference number will be required for insurance claims. - Hong Kong Transport Department",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/hong-kong",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hong Kong travel advice (updated 30 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/hong-kong",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

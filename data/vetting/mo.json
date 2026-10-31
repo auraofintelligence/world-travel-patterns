@@ -2,33 +2,38 @@
  "place": "mo",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa and entry-permit exemption for Australian passport holders; normally up to 30 days.",
-   "checked": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MACAO-SAR-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source.",
+   "status": "visa-free",
+   "summary": "No visa for visits under 30 days; Macau has its own entry administration.",
+   "max_stay": "Under 30 days",
+   "other": "Keep the entry slip: hotels and authorities ask for it.",
+   "checked": "2026-10-31",
+   "evidence": "official",
    "sources": [
     {
-     "title": "Macao SAR immigration clearance",
-     "url": "https://www.gov.mo/en/services/ps-1474/ps-1474b/",
-     "checked": "2026-08-20"
+     "title": "Macau travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/macau",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
    ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The currency in Macau is the Macanese Pataca (MOP). Some shops also accept Hong Kong dollars and Chinese yuan. Travellers in and out of Macau may need to declare Cash and Bearer Negotiable Instruments. Make a written declaration if you're carrying more than the equivalent of MOP120,000. Credit cards are widely accepted in Macau. - Macau Customs Service",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MACAO-SAR-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Macau travel advice (updated 30 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/macau",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -45,6 +50,38 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/macau",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Serviços de Alfândega de Macau (Only available in Portuguese or Chinese; for further enquiries, please contact the nearest Chinese Embassy or consulate)",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/macau",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Macau, you need both: - a valid international driving permit (IDP) - your current Australian driver's licence (digital driver's licences may not be accepted) If you stay in Macau longer than 14 days, you must register your driving licence with the Macau Public Security Police Force (CPSP). Get your IDP in Australia before you leave. You may not be covered by your travel and vehicle insurances if you drive without an IDP.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/macau",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Macau travel advice (updated 30 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/macau",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

@@ -2,26 +2,39 @@
  "place": "bn",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa on arrival for business visits up to 30 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BRUNEI-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "Smartraveller says a visa is needed to travel to Brunei.",
+   "pre_arrival": "e-Arrival Card before arriving and before leaving; BruHealth health declaration; for tourism stays over two weeks, medical insurance covering at least BND10,000.",
+   "other": "Overstaying can bring imprisonment and caning. A renewed passport needs the Bruneian visa transferred at Immigration headquarters.",
+   "next_check": "Confirm with the Brunei High Commission whether Australians get a visa on arrival or need one in advance.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Brunei Darussalam travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/brunei-darussalam",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Brunei Dollar (BND)",
+   "cash_card_notes": "The local currency is the Brunei Dollar (BND). You can also use Singapore dollars (SGD). They have the same value as the BND. You can use credit cards in some places. Australian dollars can be changed at banks, hotels and authorised exchange bureaus.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $30",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BRUNEI-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Brunei Darussalam travel advice (updated 14 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/brunei-darussalam",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +51,87 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/brunei-darussalam",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "It's illegal to smoke in: government buildings hospitals recreational and educational centres public transport restaurants other specified public places",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/brunei-darussalam",
+     "checked": "2026-10-31",
+     "heading": "Smoking"
+    },
+    {
+     "topic": "photography",
+     "rule": "It's illegal to photograph: government or military infrastructure or equipment places used by security forces communications infrastructure civil infrastructure any other prohibited places or areas in the vicinity of such places",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/brunei-darussalam",
+     "checked": "2026-10-31",
+     "heading": "Photography"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Brunei’s Sharia (Syariah) Penal Code came fully into effect in April 2019. Sharia law applies to: non-Muslims whether resident Bruneians or foreigners. It applies even when transiting on Brunei-registered aircraft and vessels. Non-Muslims may be arrested for being in close proximity with a Muslim of the opposite sex under the Sharia Penal Code - an offence known as khalwat. Common law and courts operate in parallel with the Sharia Penal Code and courts. Serious crimes can attract: the death penalty physical punishment imprisonment Crimes that attract the death penalty include: drugs (consumption, possession, selling/trafficking) blasphemy sodomy adultery rape murder",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/brunei-darussalam",
+     "checked": "2026-10-31",
+     "heading": "Sharia law"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Some drug offences carry a mandatory death penalty. Other penalties include long prison sentences and physical punishment.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/brunei-darussalam",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holy month of Ramadan is observed. Respect religious and cultural customs and laws at this time. During Ramadan, eating, drinking and smoking in public, between sunrise and sunset may be illegal. Even if you're not observing Ramadan, avoid these activities around people who are. Seek local advice to avoid offence. Explore our Ramadan page to learn more, including dates for Ramadan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/brunei-darussalam",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Brunei for up to 1 year, you need both: an Australian driver's licence (a digital driver's licence may not be accepted) a valid international driving permit (IDP) Driving without an IDP could void your travel and vehicle insurance.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/brunei-darussalam",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Brunei Darussalam travel advice (updated 14 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/brunei-darussalam",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Dress and behaviour standards are conservative. Take care not to offend. If in doubt, seek local advice. Be cautious when making comments about local issues, particularly those relating to the royal family. You could cause offence or even attract legal consequences. On Fridays, businesses, including shops and restaurants, close from 12pm to 2pm for prayers. Government offices and local schools do not operate on Friday. They open on Saturday instead.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Brunei Darussalam travel advice (updated 14 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/brunei-darussalam",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

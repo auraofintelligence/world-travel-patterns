@@ -2,26 +2,38 @@
  "place": "mv",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa on arrival for 30 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MALDIVES-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-on-arrival",
+   "summary": "A free tourist visa on arrival if all entry requirements are met.",
+   "pre_arrival": "Traveller Declaration within 96 hours before arrival. A confirmed booking at a registered hotel, resort or tourist facility.",
+   "other": "Beware of fake sites charging for visas. Cannabis products, including CBD, are illegal even with a prescription.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Maldives travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/maldives",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Maldivian Rufiyaa (MVR)",
+   "cash_card_notes": "The local currency is the Maldivian Rufiyaa (MVR). You can change money at resorts, though many will accept $US. You can also change money and use ATMs at banks in Malé and many larger islands. Carry cash if you're travelling to other areas. Most hotels and major tourist facilities accept credit cards. Before you travel, ask your bank if your cards will work in Maldives.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MALDIVES-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Maldives travel advice (updated 11 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/maldives",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +50,38 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/maldives",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Cannabis-based products such as cannabis oil and cream, hemp, CBD, THC, hash and edibles, including for medicinal purposes, are illegal. A medical prescription does not make it legal. If you take such products to Maldives, buy or use them in Maldives, you can be arrested and face imprisonment, fines, deportation, life imprisonment without parole, or the death penalty.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/maldives",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Maldives, you'll need both: a valid International Driving Permit (IDP) a current Australian driver's licence (digital driver's licences may not be accepted) If you drive without an IDP, you may not be covered by your travel or vehicle insurance.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/maldives",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Maldives travel advice (updated 11 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/maldives",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

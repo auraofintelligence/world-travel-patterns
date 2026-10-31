@@ -2,26 +2,37 @@
  "place": "mm",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Business visa required in advance. Process can be difficult.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MYANMAR-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa is needed before entry; entering without one can mean prison. e-Visas can't be used at seaports.",
+   "other": "Smartraveller advises against travel. Use only the Ministry of Immigration and Population site; unauthorised sites exist. Land crossings open and close without notice.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Myanmar travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/myanmar",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Myanmar Kyat (MMK)",
+   "cash_card_notes": "The local currency is the Myanmar Kyat (MMK). Cash is widely used but may be difficult to access. Ensure you have enough cash on hand should shortages and banking disruptions occur. A limited number of shops and businesses accept US Dollars as payment. Notes with pen marks, folds or tears, and old notes are often refused. Foreign currency is sometimes refused because of people using fake notes. Other foreign currencies and travellers' cheques are rarely accepted. It's illegal to exchange foreign currency except through authorised money changers. Find official money changers at Myanmar's intern",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $100",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MYANMAR-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Myanmar travel advice (updated 07 April 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/myanmar",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +49,87 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/myanmar",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include the death penalty.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/myanmar",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "It's illegal to leave the scene of an accident. Drivers involved in an accident with another vehicle are usually detained if there are injuries. A driver involved in an accident with a pedestrian is always at fault, regardless of what happened. Authorities are likely to detain the driver. Legal cases to resolve traffic disputes can be long. They can affect your visa status. Drivers often expect a cash payment to settle the matter at the time of the accident. You could be charged costs for injuries or damaged vehicles. The embassy can't help you negotiate. However, they can give you a list of lawyers who may be able to assist.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/myanmar",
+     "checked": "2026-10-31",
+     "heading": "Traffic accidents"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Myanmar has the death penalty for serious offences, including murder, treason, and drug-related crimes. These activities are illegal in Myanmar: engaging in same-sex sexual acts or adultery taking photos of military personnel or sites entering or leaving Myanmar with religious materials without Customs approval preaching or handing out religious materials without written approval 'insulting religion', including mistreating images of Buddha - if you have a tattoo of Buddha, keep it covered defaming or threatening someone using a telecommunications network operating drones around sensitive areas such as, government or religious buildings It's also illegal to: rent a private home if you're on a",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/myanmar",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "dress-and-public-behaviour",
+     "rule": "Avoid wearing sleeveless tops and shorts in Myanmar, especially when visiting religious sites. It may cause offence. Always take off your shoes and socks before entering religious sites.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/myanmar",
+     "checked": "2026-10-31",
+     "heading": "Dress"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Get advice from a Myanmar embassy or consulate on quantity restrictions that may apply. Be aware that medications for sale in Myanmar are often fake.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/myanmar",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "It's illegal to drive cars or motorbikes using an Australian or international driving licence. You must have a valid Myanmar driver's licence. You can apply for this through the Road Transport Administration Department Myanmar.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/myanmar",
+     "checked": "2026-10-31",
+     "heading": "Driving permits"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Myanmar travel advice (updated 07 April 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/myanmar",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "People in Myanmar are deeply respectful of their religious and cultural traditions. Standards of dress and behaviour are modest. It's considered offensive to touch or pat anyone on the top of the head. Respect local customs and take care not to offend. If in doubt, seek local advice.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Myanmar travel advice (updated 07 April 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/myanmar",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }
