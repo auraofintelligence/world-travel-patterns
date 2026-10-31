@@ -255,6 +255,28 @@
      "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "signal",
+   "public_holidays": "33 next year in data/calendar (machine data; the brief lists those in a trip window)",
+   "moving_calendars": [
+    "Easter moves each year (next year: 2027-03-26, 2027-03-29, 2027-03-29)."
+   ],
+   "festivals": [],
+   "closures": [],
+   "protocol_notes": [],
+   "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
+   "sources": [
+    {
+     "title": "Public holidays (Nager.Date)",
+     "authority": "Signal: machine holiday data",
+     "url": "https://date.nager.at/",
+     "checked": "2026-10-31",
+     "supports": "33 public holidays next year"
+    }
+   ]
   }
  },
  "retired_sources": [

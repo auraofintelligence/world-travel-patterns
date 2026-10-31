@@ -45,6 +45,8 @@ def windows(secs):
                 near = sent[max(0, m.start() - 90):m.end()]
                 # The hazard word closest before the months wins ("...cyclones. The monsoon season is from June...").
                 hits = [(max(x.start() for x in re.finditer(pat, near, re.I)), lab) for pat, lab in LABEL if re.search(pat, near, re.I)]
+                if re.search(r"flood", near, re.I) and not re.search(r"monsoon|wet season|rainy season|cyclone|typhoon|hurricane", near, re.I):
+                    hits = [(0, "flood risk")]  # "flooding from the spring snow thaw" is a flood window
                 label = max(hits)[1] if hits else next((lab for pat, lab in LABEL if re.search(pat, title, re.I)), None)
                 if label:
                     found.append({"months": span(m.group(1), m.group(2)), "label": label, "sentence": sent[:240], "section": title})
