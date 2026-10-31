@@ -2,26 +2,39 @@
  "place": "si",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free (Schengen Area).",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SLOVENIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "Visa-free short stays as part of the Schengen area.",
+   "max_stay": "90 days in any 180-day period across the Schengen area",
+   "pre_arrival": "None today. ETIAS is on the watch list.",
+   "other": "Schengen Entry/Exit System: fingerprints and photo at the border on first entry (free, nothing to do beforehand). Get an entry stamp where one is still given, and carry your passport across internal borders.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Slovenia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/slovenia",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The currency in Slovenia is the Euro (EUR). Declare more than 10,000 euros or equivalent funds if you're travelling between Slovenia and a non-EU country. This covers all forms of currency, not just cash. Failure to do so will result in fines. You don't need to declare cash if you're travelling to or from another EU country. ATMs may be rare in mountain areas or small villages.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SLOVENIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Slovenia travel advice (updated 14 April 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/slovenia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +51,38 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/slovenia",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "For specific information on bringing medication into Slovenia, read the Import of Medications website.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/slovenia",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can drive on your Australian driver's licence for up to 12 months after arrival. Some car hire agencies may need you to have an International Driving Permit (IDP). Get your IDP before you leave Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/slovenia",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Slovenia travel advice (updated 14 April 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/slovenia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

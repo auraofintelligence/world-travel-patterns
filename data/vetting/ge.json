@@ -2,26 +2,37 @@
  "place": "ge",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 1 year.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-GEORGIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "Up to 12 months without a visa on an Australian passport.",
+   "max_stay": "12 months",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Georgia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/georgia",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Lari (GEL)",
+   "cash_card_notes": "The local currency is the Lari (GEL). When entering or leaving, you must declare any foreign currency worth GEL30,000 or more. By law, all goods and services must be paid for in GEL. Credit cards are widely used in Tbilisi, but less so in regional areas. ATMs are available in major towns. Traveller's cheques aren't widely accepted.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-GEORGIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Georgia travel advice (updated 05 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/georgia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,79 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/georgia",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Surrogacy services for married heterosexual couples are permitted. Laws and regulations related to surrogacy may change at short notice. Before you commit to a surrogacy arrangement, seek independent legal advice from a Georgian solicitor with knowledge of this area of law. See our advice on going overseas for international surrogacy. Babies born through illegal arrangements may be prevented from leaving Georgia. Be aware that you may not be able to get your money back if you enter into a contract for surrogacy services. To bring children born through surrogacy to Australia, you must apply for an Australian passport. Check the website of the Australian Embassy in Türkiye for details on how t",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/georgia",
+     "checked": "2026-10-31",
+     "heading": "Surrogacy"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They can include heavy fines and long prison sentences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/georgia",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Always carry your passport with you. Also carry your visa (if you have been issued one) which is required if you are staying more than 12 months. If authorities or service providers such as hotels or banks ask for identification, you are expected to show your passport. It's illegal to take photos: near military sites or prisons of sensitive infrastructure sites, such as airports You need a licence from the Ministry of Culture and Sport's Department of Expertise and Evaluation to export items of national heritage.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/georgia",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Georgia has a strict anti-drug policy. If you need to travel with medication keep the medication in the original packaging and declare all medication to customs officials on arrival. For information on the legal status of a specific medication contact the Revenue Service of Georgia and/or the Embassy of Georgia in Australia",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/georgia",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You need an Australian driver's licence to drive in Georgia (digital driver's licences may not be accepted). Some care hire providers and car insurers may require an International Driving Permit (IDP) for insurance. Check requirements with your insurance and car hire providers before driving in Georgia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/georgia",
+     "checked": "2026-10-31",
+     "heading": "Driver's licence"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Georgia travel advice (updated 05 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/georgia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Same-sex relationships are legal in Georgia but aren't widely accepted. Consider avoiding public displays of affection. - Advice for LGBTQIA+ Travellers",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Georgia travel advice (updated 05 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/georgia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

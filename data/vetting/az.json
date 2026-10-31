@@ -2,26 +2,38 @@
  "place": "az",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa required in advance. Apply online.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-AZERBAIJAN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "evisa",
+   "summary": "A visa is needed: an e-visa valid for 90 days allows a stay of up to 30 days.",
+   "max_stay": "30 days",
+   "pre_arrival": "Apply on Azerbaijan's official e-visa portal: about 3 business days, or 3 hours urgent for a higher fee.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Azerbaijan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/azerbaijan",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "Azerbaijan's currency is the Azerbaijani Manat (AZN). Declare any amount of foreign currency on arrival. This covers all forms of currency, not only cash. You can export up to $US10,000 without documentation. Contact the embassy or consulate of Azerbaijan for details. US dollars and euros are also common. You can change notes in good condition for local currency. Credit cards are becoming more common in major cities. They may not be accepted in smaller restaurants and stores. Traveller's cheques aren't often accepted, except in major hotels, some restaurants and banks. ATMs are available in ma",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $40",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-AZERBAIJAN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Azerbaijan travel advice (updated 17 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/azerbaijan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +50,87 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/azerbaijan",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They can include long prison sentences and heavy fines.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/azerbaijan",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Always carry your passport and visa. Routine police checks in public and tourist spots are common. You could be fined or jailed if you don't show a valid travel document when asked. In Azerbaijan, it's illegal to: visit or take photos of military equipment and sites take photos of military personnel import drones or use drones in sensitive locations buy antique or cultural artefacts without a permit export antiques or cultural artefacts without an official certificate and receipt of purchase convert a person to another faith Export rules apply to religious objects, carpets, artworks and caviar. Check with local authorities before you export any items. Azerbaijan has some gambling restriction",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/azerbaijan",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "dress-and-public-behaviour",
+     "rule": "Dress standards can be conservative outside of Baku. Public displays of affection may not be welcome. Dress conservatively, particularly at mosques and religious shrines. Take care not to offend. If in doubt, seek local advice.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/azerbaijan",
+     "checked": "2026-10-31",
+     "heading": "Dress and behaviour"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships were decriminalised in 2000, but are not widely accepted. Intolerance, discrimination and violence towards LGBTQIA+ people happens in Azerbaijan. Avoid public displays of affection.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/azerbaijan",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "For specific information, contact the nearest embassy or consulate of Azerbaijan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/azerbaijan",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can drive in Azerbaijan with a current Australian driver's licence. Foreigners staying for more than one month may need to get a local driver's licence through Azerbaijan Service and Assessment Network (ASAN) Service Offices. You may also need an International Driving Permit (IDP) for travel and car insurance. Check with your insurer and car provider before you drive.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/azerbaijan",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Azerbaijan travel advice (updated 17 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/azerbaijan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "The Islamic holiday month of Ramadan is observed in Azerbaijan. Respect religious and cultural customs and laws at this time. During Ramadan, if you're not fasting, don’t eat, drink or smoke around people who are. Seek local advice so you don’t offend. Explore our Ramadan page to learn more, including dates for Ramadan.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Azerbaijan travel advice (updated 17 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/azerbaijan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

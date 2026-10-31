@@ -2,15 +2,21 @@
  "place": "cy",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-CYPRUS-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No tourist visa for stays up to 90 days in a 6-month period.",
+   "max_stay": "90 days in any 6-month period",
+   "other": "Overstaying can bring a stop-list entry and a re-entry ban of up to five years.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Cyprus travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
@@ -38,6 +44,126 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and can lead to life in jail. Cyprus has a strictly enforced zero-tolerance policy towards illegal drugs, including laughing gas and cannabis. Carrying even small amounts of an illegal drug can result in jail time. You should expect severe penalties such as a lengthy jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through the airport.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Buying property in north Cyprus can be risky and should be avoided, as legal titles to land can be uncertain. Since the 1974 conflict, many displaced people in the north have maintained property ownership claims. It's a crime to buy, sell or rent property without the owner's consent. Get legal advice before signing a property contract. It's also a crime to intend to purchase disputed property. Officials may consider your possession of property pamphlets from the north as evidence of intent to purchase. Equally, land registry documents from the south should not be carried into the north, as this has led to arrests by authorities in the north. You could face criminal proceedings if you cross t",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+     "checked": "2026-10-31",
+     "heading": "Buying property"
+    },
+    {
+     "topic": "filming-and-drones",
+     "rule": "There are laws relating to the use of drones in Cyprus relating to what type of drone can be flown without a licence and where and when they can be flown.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+     "checked": "2026-10-31",
+     "heading": "Drones"
+    },
+    {
+     "topic": "photography",
+     "rule": "It's illegal in both parts of Cyprus to: take photos of military camps, facilities, personnel or equipment, even by accident take photos in the UN Buffer Zone take photos in any military-designated area enter a restricted military zone export cultural or archaeological artefacts without official authorisation",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "If you plan to get married, check the legal requirements with the local municipality where your wedding will take place before you travel. Cypriot authorities will not accept Certificates of No Impediment to Marry (CNI) issued outside Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+     "checked": "2026-10-31",
+     "heading": "Marriage laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "The Australian High Commission can't assist with surrogacy arrangements, provide legal advice, or recommend hospitals or clinics. Due to possible legal complications, Australians considering surrogacy should confirm the exact location of the clinic, hospital, or treatment facility on the island before proceeding.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+     "checked": "2026-10-31",
+     "heading": "Surrogacy"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Surrogacy in the Republic of Cyprus is highly regulated and subject to strict conditions. Be aware that non-compliance with Cypriot laws on surrogacy could lead to criminal penalties. Before proceeding, seek independent legal advice on both Australian and Cypriot laws.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+     "checked": "2026-10-31",
+     "heading": "Surrogacy in the Republic of Cyprus"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "You should avoid pursuing surrogacy arrangements in northern Cyprus. Intending parents should be aware that there is a high level of risk involved and that there are public concerns about human rights abuses, sexual exploitation, criminal networks, and a lack of adequate legal protections for all parties involved. Additionally, the Australian High Commission's ability to assist Australian citizens in northern Cyprus is limited.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+     "checked": "2026-10-31",
+     "heading": "Surrogacy in the north (the area not controlled by the Government of the Republic of Cyprus)"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are legal in the Republic of Cyprus, and Civil Unions are recognised. However, they may not be as widely accepted as in Australia. Same-sex relationships’ are also legal in the north of Cyprus but not widely accepted.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Dual Australian-Cypriot nationals may have to do national military service. This may apply if you're: male aged 15 to 50 years staying longer than 3 months Female dual nationals may have civil defence obligations. This may apply if you're: female aged 18 to 50 years a permanent resident of Cyprus If you're a male dual national aged 16 to 26 years, you need an exit permit to leave Cyprus. You can get a permit from either the: Check with the Ministry of Defence before you travel.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+     "checked": "2026-10-31",
+     "heading": "National military service in the Republic of Cyprus"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "If you're in north Cyprus, you might have to do military service if you: have a Turkish-Cypriot background are male are older than 18 years stay longer than 3 months in north Cyprus Check with the relevant authorities (Turkish Cypriot) before you travel.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+     "checked": "2026-10-31",
+     "heading": "National military service in the north"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Officials may reduce the length of your national service if you show evidence of long-term residency in Australia. Get a copy of your movements in and out of Australia as evidence of residency. Make a 'Request for International Movement Records' to the Department of Home Affairs. You'll need this documentation if you: are or could be a dual national haven't completed national service intend to stay longer than 3 months - Advice for dual nationals",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+     "checked": "2026-10-31",
+     "heading": "Length of national military service"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can only use your Australian driver's licence for 6 months from your date of arrival. You'll need to obtain a local driving licence to continue to drive after 6 months. To get a local licence, refer to the Road Transport Department. The minimum age for driving is 18 years.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cyprus travel advice (updated 23 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

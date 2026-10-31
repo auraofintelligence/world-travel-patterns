@@ -2,46 +2,20 @@
  "place": "tr",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Australian ordinary passports are visa-exempt for touristic visits and transit up to 90 days in any 180-day period; business/work purpose must be checked separately.",
-   "pre_arrival": "Check the Turkish MFA exemption, passport validity, e-visa site and whether the trip is tourism or business/work.",
-   "max_stay": "Tourist/transit entry is the quick key; local work or a longer base uses work/residence permits.",
-   "checked": "2026-08-21",
+   "status": "visa-free",
+   "summary": "No visa for tourism, business or transit up to 90 days in 180 days.",
+   "max_stay": "90 days in 180",
    "evidence": "official",
+   "checked": "2026-10-31",
    "sources": [
     {
-     "title": "Visa information for foreigners",
-     "authority": "Republic of Türkiye Ministry of Foreign Affairs",
-     "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
-     "checked": "2026-08-21",
-     "supports": "Australian tourism/transit exemption"
-    },
-    {
-     "title": "e-Visa portal",
-     "authority": "Republic of Türkiye",
-     "url": "https://www.evisa.gov.tr/en/",
-     "checked": "2026-08-21",
-     "supports": "official visa application gateway"
-    },
-    {
-     "title": "Directorate General of International Labour Force",
-     "authority": "Turkish Ministry of Labour and Social Security",
-     "url": "https://www.csgb.gov.tr/uigm/en/",
-     "checked": "2026-08-21",
-     "supports": "work permit framework"
-    },
-    {
-     "title": "Residence permit types",
-     "authority": "Presidency of Migration Management",
-     "url": "https://en.goc.gov.tr/residence-permit-types",
-     "checked": "2026-08-21",
-     "supports": "residence categories"
+     "title": "Türkiye travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
-   ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "TUR-ENTRY-SNAPSHOT"
-   }
+   ]
   },
   "activities": {
    "activities": {
@@ -228,6 +202,112 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for using or possessing drugs are severe. They include long jail sentences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Mount Ararat (Ağrı Dağı), between the eastern provinces of Ağrı and Iğdır, is designated a 'special military zone'. You must hire the services of a locally licensed guide if you intend to hike in the area. A licensed company will obtain the necessary permits and assign you to a registered Mountaineer to accompany you throughout your hike. Visiting Mount Ararat (Ağrı Dağı), without the Turkish government's permission is an offence that could incur severe penalties.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
+     "checked": "2026-10-31",
+     "heading": "Hiking Mount Ararat (Ağrı Dağı)"
+    },
+    {
+     "topic": "photography",
+     "rule": "By law, you must always carry a photo ID. Police conduct random checks regularly. Turkish authorities do not accept Australian driver's licences as ID. Carry your passport with you at all times. Illegal activities could result in severe penalties, including: taking photos of military installations or prisons searching for historical artefacts without authorisation defacing or destroying Turkish currency failing to comply with Turkish visa conditions or immigration regulations supporting terrorist organisations, including expressions of support on social media It's illegal to 'insult': the Turkish flag the Turkish President or Government the founder of Türkiye, Mustafa Kemal Atatürk This incl",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holiday month of Ramadan is observed. Respect religious and cultural customs and laws at this time. During Ramadan, eating, drinking and smoking in public during the day may not be culturally appropriate in some areas. If you're not fasting, don’t eat, drink or smoke around people who are. Some areas are more tolerant of travellers and locals who don't fast. Seek local advice so you don’t offend. Explore our Ramadan page to learn more, including dates for Ramadan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex consensual sexual activity between adults in private isn't a crime under Turkish law. But same-sex relationships aren't widely accepted in Turkish society especially outside of the large cities, and Türkiye doesn't legally recognise same-sex marriages, civil unions, or domestic partnerships. Avoid public displays of affection. This applies to everyone, regardless of your relationship status or sexual orientation. LGBTQIA+ events and gatherings have been subject to regular local government bans, including Pride Week. Turkish authorities have arrested LGBTQIA+ activists and protestors and members of the LGBTQIA+ community. Legal protections are limited.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "For further local details you can: check the Turkish Ministry of Trade's Customs Guide call their customs call centre on [see source] or contact the Turkish Embassy in Australia for the latest advice: [see source]",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can drive for up to 6 months if you have a valid Australian driver's licence (digital driver's licences may not be accepted). You must get a Turkish driver's licence, an International Driving Permit (IDP) or a notarised Turkish translation of your Australian licence if you plan to drive for longer than 6 months after your arrival. Authorities conduct random checks regularly.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Türkiye travel advice (updated 30 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Standards of dress and behaviour are conservative in many parts of Türkiye. Some regions are more conservative than others. Avoid offending locals by respecting religious and social traditions. Dress modestly, particularly at mosques and religious shrines. Avoid public displays of affection. This applies to everyone, regardless of your relationship status or sexual orientation. If in doubt, seek local advice.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Türkiye travel advice (updated 30 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The local currency in Türkiye is the Lira (TRY). Most services accept credit cards, but some taxis may not accept foreign credit cards. Carry a small amount of cash just in case. EFTPOS and ATMs are widely available.",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Türkiye travel advice (updated 30 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

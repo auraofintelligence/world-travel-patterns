@@ -2,26 +2,39 @@
  "place": "lv",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free (Schengen Area).",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-LATVIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "Visa-free short stays as part of the Schengen area.",
+   "max_stay": "90 days in any 180-day period across the Schengen area",
+   "pre_arrival": "None today. ETIAS is on the watch list.",
+   "other": "Some land borders with Russia and Belarus stay open to cars and buses; vehicles registered outside the EU must be declared with the Road Traffic Safety Directorate first. Schengen Entry/Exit System: fingerprints and photo at the border on first entry (free, nothing to do beforehand). Get an entry stamp where one is still given, and carry your passport across internal borders.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Latvia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/latvia",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Euro",
+   "cash_card_notes": "The local currency is the Euro. Latvia is a member of the European Union (EU). If you're travelling between Latvia and any non-EU country, you must declare amounts over 10,000 euros or equivalent. This covers all forms of currency, not only cash. You'll have to pay a fine when you enter or leave Latvia if you: don't declare this money give incorrect information You don't need to declare currency if you're travelling between EU countries.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-LATVIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Latvia travel advice (updated 02 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/latvia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +51,38 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/latvia",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Travelling overseas can be stressful and uncertain. You may experience unfamiliar environments, travel disruptions, changes in normal routines and limited access to health care. Not taking your prescribed medications is a common cause of mental ill-health for Australians overseas. If you are concerned about your welfare, or someone else's, contact your nearest Australian embassy, high commission, or consulate. You can also call the 24-hour Consular Emergency Centre on [see source]. Mental health resources:",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/latvia",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "If you plan to drive in Latvia, you're required to obtain an International Driving Permit (IDP). Get your IDP before you leave Australia. You should also carry your Australian driver's licence (digital licences may not be accepted).",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/latvia",
+     "checked": "2026-10-31",
+     "heading": "International Driving Permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Latvia travel advice (updated 02 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/latvia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

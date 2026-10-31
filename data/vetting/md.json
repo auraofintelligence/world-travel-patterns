@@ -2,26 +2,38 @@
  "place": "md",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MOLDOVA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa for visits up to 90 days in a 6-month period.",
+   "max_stay": "90 days in any 6-month period",
+   "other": "Entry is registered automatically at border control, except through Transnistria, where you must register yourself.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Moldova travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/moldova",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Moldova Leu (MDL)",
+   "cash_card_notes": "The local currency is the Moldova Leu (MDL). You can easily change euros and US dollars for MDL at banks and licensed money changers. You can rarely exchange Australian dollars. Although parts of Moldova have a largely cash-based economy, major hotels - especially in Chișinău - widely accept traveller's cheques and credit cards. Some major hotels accept traveller's cheques and credit cards. Always keep your credit card in sight. Fraud is a risk. You'll find very few ATMs outside the capital. Take care at ATMs. People have reported unauthorised withdrawals after using electronic banking. Use AT",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MOLDOVA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Moldova travel advice (updated 31 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/moldova",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +50,71 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/moldova",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Moldova has severe penalties for possessing, using or trafficking illegal drugs. These include long sentences in local jails and heavy fines.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/moldova",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Strict regulations cover the export of antiques, artworks and items of historical significance, including modern art and posters, if they're rare or valuable. If you want to export these items, seek approval from the Moldovan Department of Monuments. You'll need to provide evidence of approval to export when you leave. You may also need receipts of purchase. Moldovan customs authorities must process all goods for entry into Ukraine. Businesses based in Transnistria could face difficulties importing or exporting goods if the business isn't registered in Moldova.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/moldova",
+     "checked": "2026-10-31",
+     "heading": "Exporting goods"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "You must always carry identity documents. This could be a copy of your passport. If you can't produce identity documents for police when asked, they can detain and fine you. It's illegal to: drive with a blood alcohol level greater than 0.0%, meaning driving after consuming any alcohol is prohibited take photos of military sites, government buildings and other infrastructure Businesses need to register with the State Registration Chamber of the Ministry of Informational Development. It's illegal to operate a business without first registering it. This also applies to businesses in Transnistria.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/moldova",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You'll need an International Driving Permit (IDP) to drive in Moldova. Get your IDP before you leave Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/moldova",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Moldova travel advice (updated 31 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/moldova",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Same-sex relationships are legal but aren't widely accepted. Avoid public displays of affection. - Advice for LGBTQIA+ travellers",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Moldova travel advice (updated 31 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/moldova",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

@@ -2,26 +2,39 @@
  "place": "bg",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free (Schengen Area).",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BULGARIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "Visa-free short stays as part of the Schengen area.",
+   "max_stay": "90 days in any 180-day period across the Schengen area",
+   "pre_arrival": "None today. ETIAS is on the watch list.",
+   "other": "Schengen Entry/Exit System: fingerprints and photo at the border on first entry (free, nothing to do beforehand). Get an entry stamp where one is still given, and carry your passport across internal borders.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Bulgaria travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/bulgaria",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "As of 1 January 2026, Bulgaria’s official currency is the Euro. The Bulgarian Leva (BGN) is no longer accepted. If you're travelling between Bulgaria and any non-EU country, you must declare amounts over 10,000 Euros or equivalent on both arrival and departure. This applies to all forms of currency, not only cash. You'll need to pay a fine if you don't declare or give incorrect information. You don't need to declare cash if travelling to or from another EU country.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BULGARIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Bulgaria travel advice (updated 07 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/bulgaria",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +51,55 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/bulgaria",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for possessing or trafficking drugs can be severe. They can include heavy fines and prison sentences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/bulgaria",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Bulgaria, you'll need: an International Driving Permit (IDP) and, your current Australian driver's licence (digital driver's licences may not be accepted) Your travel and vehicle insurance might be void if you don't have an IDP. Get your IDP before you leave Australia. When hiring a car, keep a copy of the original contract from the car hire company with you. If you're travelling across a land border into Bulgaria with a hire car, the contract should make clear that the vehicle can t",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/bulgaria",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bulgaria travel advice (updated 07 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/bulgaria",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Same-sex relationships are legal but aren't widely accepted. Outside the capital Sofia, attitudes are generally more conservative. There have been incidents of discrimination, verbal abuse and vandalism targeting LGBTIQA+ people.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Bulgaria travel advice (updated 07 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/bulgaria",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

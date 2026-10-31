@@ -2,26 +2,37 @@
  "place": "ru",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Business visa required in advance. Complex process with invitation letter.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-RUSSIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa is needed (except on some commercial cruises); no visa on arrival.",
+   "other": "Arriving without a valid visa means a fine, detention and deportation. Smartraveller advises against all travel to Russia.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Russia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/russia",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Ruble (RUB)",
+   "cash_card_notes": "The currency of Russia is the Ruble (RUB). Due to the Russian invasion of Ukraine, Mastercard, Visa, and American Express have suspended operations. Cards issued outside Russia won't work at Russian merchants or ATMs. Cards issued inside Russia may continue to work, but they won't work outside Russia. You won't be able to access your funds through Russian banks or make payments to Russian businesses with non-Russian credit/debit cards. Be prepared with alternate means of payment should your cards be declined. Ensure you have enough money to cover your stay. You may not be able to exchange Aust",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $200+",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-RUSSIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Russia travel advice (updated 30 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/russia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +49,86 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/russia",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "There are laws criminalizing what Russia calls ‘LGBTQIA+ propaganda'. The 'international LGBTQIA+ movement' has been classified as an extremist organisation under Russian law. It is a serious criminal offence to share information or display material promoting 'non-traditional relationships', such as the rainbow flag (including on social media).",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/russia",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Possessing, selling, consuming, or carrying any illegal drugs is illegal. Penalties are severe and include long prison terms.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/russia",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Foreigners are required to provide ID in person and confirm their registration on the government services Goslugi Portal (in Russian) or the Unified Biometric System to the mobile network operators to purchase a Russian SIM card. Foreigners and are required to register their International Mobile Equipment Identity (IMEI) against the SIM card with the operator. Foreigners can only use their SIM card with registered mobile equipment. If they change their phone or equipment, they must notify the operator. New regulatory requirements on foreign SIMs may mean you will not be able to access mobile internet, SMS or other services for 24 hours after your arrival. Even after that period, your mobile ",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/russia",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Some Australian documents, such as birth or marriage certificates, need to be legalised before Russian authorities will accept them. If you have an Australian document that you need to use while in Russia, contact the Embassy or Consulate of Russia for information. Apostilles and some legal certificates can be issued by:",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/russia",
+     "checked": "2026-10-31",
+     "heading": "Official documents"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Russia bans surrogacy for all foreigners except those married to Russian citizens. Recent court cases have resulted in long custodial sentences for some providers of surrogacy services. All children born through surrogacy in Russia are granted Russian citizenship, regardless of their parent's citizenship. Children in these situations will be treated as Russian citizens. Get independent legal advice before making surrogacy arrangements, including with residents of Russia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/russia",
+     "checked": "2026-10-31",
+     "heading": "Surrogacy laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Russia has temporarily restricted exporting certain categories of goods, including foreign-made medical products. Russia has strict laws about the import and use of medications, including medications that are available over the counter in Australia, such as cold and flu tablets. When you arrive you must present a doctor's letter to authorities confirming your need for each medication. Especially if your medications contain the following: barbiturate codeine sibutramine anabolic steroids androgens and other sex hormones analgesic, such as tramadol psychostimulants other restricted substances The letter must: contain a description of the medication, including the chemical composition describe ",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/russia",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Russian Customs provides a list of goods that must be declared when entering or leaving Russia, regardless of whether they come in carry-on or unaccompanied/checked-in luggage. You must declare cash amounts exceeding the equivalent of USD10,000 as well as certain types of goods, including jewellery and antiques. You must carry proof that your funds were imported and declared or legally obtained in Russia. Declarations must be stamped by a customs official to be valid. Items imported by air for p",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/russia",
+     "checked": "2026-10-31",
+     "heading": "Customs Rules"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You should carry an International Driving Permit (IDP). You may drive with an Australian driver's license if you carry it with a notarised Russian translation.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/russia",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Russia travel advice (updated 30 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/russia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }
