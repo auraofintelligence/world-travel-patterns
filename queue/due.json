@@ -3,9 +3,9 @@
   "generated_on": "2026-10-31",
   "mode": "public",
   "place_passes": 280,
-  "pattern_items": 1992,
+  "pattern_items": 1984,
   "by_reason": {
-   "never-checked": 1963,
+   "never-checked": 1955,
    "over-budget": 29
   },
   "watch_checks": 0
@@ -2610,110 +2610,6 @@
    ]
   },
   {
-   "place": "au/nt-aboriginal-land",
-   "name": "Aboriginal land, Northern Territory",
-   "kind": "zone",
-   "tags": [
-    "p4a-native-nations"
-   ],
-   "due": [
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "au/wa-aboriginal-lands",
-   "name": "Aboriginal lands, Western Australia",
-   "kind": "zone",
-   "tags": [
-    "p4a-native-nations"
-   ],
-   "due": [
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
    "place": "us/navajo-nation",
    "name": "Navajo Nation",
    "kind": "nation",
@@ -2760,11 +2656,11 @@
    ]
   },
   {
-   "place": "us/papahanaumokuakea",
-   "name": "Papahānaumokuākea",
+   "place": "au/nt-aboriginal-land",
+   "name": "Aboriginal land, Northern Territory",
    "kind": "zone",
    "tags": [
-    "p4a-oceania"
+    "p4a-native-nations"
    ],
    "due": [
     {
@@ -2802,12 +2698,52 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    },
+    }
+   ]
+  },
+  {
+   "place": "au/wa-aboriginal-lands",
+   "name": "Aboriginal lands, Western Australia",
+   "kind": "zone",
+   "tags": [
+    "p4a-native-nations"
+   ],
+   "due": [
     {
-     "pattern": "zone-requirements",
+     "pattern": "culture-and-protocol",
      "reason": "never-checked",
      "age_days": null,
-     "budget_days": 120
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
     }
    ]
   },
@@ -2876,6 +2812,52 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    }
+   ]
+  },
+  {
+   "place": "us/papahanaumokuakea",
+   "name": "Papahānaumokuākea",
+   "kind": "zone",
+   "tags": [
+    "p4a-oceania"
+   ],
+   "due": [
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
     },
     {
      "pattern": "local-law",
@@ -14024,12 +14006,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
     }
    ]
   },
@@ -14074,12 +14050,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
     }
    ]
   },
@@ -14168,12 +14138,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
     }
    ]
   },
@@ -14218,12 +14182,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
     }
    ]
   },
@@ -14306,12 +14264,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
     }
    ]
   }

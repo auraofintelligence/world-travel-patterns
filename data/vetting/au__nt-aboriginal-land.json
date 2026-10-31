@@ -1,0 +1,51 @@
+{
+ "place": "au/nt-aboriginal-land",
+ "patterns": {
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "entry-permit",
+     "authority": "Northern Land Council (Top End), for Traditional Owners",
+     "process": "A written permit is needed to enter Aboriginal land or waters in the NLC's area for any purpose, including using private roads. Traditional Owners can ask to see it.",
+     "lead_time_days": 21,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.nlc.org.au/permits",
+     "checked": "2026-10-31"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "Central Land Council, for Traditional Owners",
+     "process": "Traditional Owners' permission is needed to enter or remain on Aboriginal land in Central Australia; the CLC issues permits. Routes into WA land need a separate Ngaanyatjarra Council permit.",
+     "lead_time_days": 21,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.nlc.org.au/permits",
+     "checked": "2026-10-31"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Access permits",
+     "authority": "Northern Land Council",
+     "url": "https://www.nlc.org.au/permits",
+     "checked": "2026-10-31",
+     "supports": "permit required"
+    },
+    {
+     "title": "Permits",
+     "authority": "Central Land Council",
+     "url": "https://clc.org.au/permits/",
+     "checked": "2026-10-31",
+     "supports": "Traditional Owners' permission; CLC issues permits"
+    }
+   ],
+   "note": "Lead times are planning buffers (an older source says two to three weeks); ask each council."
+  }
+ }
+}
