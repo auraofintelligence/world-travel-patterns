@@ -213,7 +213,12 @@
    "moving_calendars": [
     "Easter moves each year (2027: Good Friday and Easter Monday 2027-03-26, 2027-03-29)"
    ],
-   "festivals": [],
+   "festivals": [
+    {
+     "what": "Te Maeva Nui 2027, Rarotonga, 23 July to 4 August 2027: 62 years of Cook Islands self-government; the Ministry of Cultural Development's theme puts young people at the centre.",
+     "url": "https://cookislands.travel/it/node/3386"
+    }
+   ],
    "closures": [
     "Sunday: church services welcome visitors in modest dress (shirts and long trousers for men, longer skirts or dresses with covered shoulders for women)."
    ],
@@ -233,8 +238,38 @@
      "url": "https://www.smartraveller.gov.au/destinations/pacific/cook-islands",
      "checked": "2026-10-31",
      "supports": "closures and Sunday rules as read on 2026-10-31"
+    },
+    {
+     "title": "Te Maeva Nui 2027",
+     "authority": "Cook Islands Tourism",
+     "url": "https://cookislands.travel/it/node/3386",
+     "checked": "2026-10-31",
+     "supports": "festival dates"
     }
    ]
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "events": [
+    {
+     "date": "2027-07-23",
+     "end": "2027-08-04",
+     "what": "Te Maeva Nui, Rarotonga (Constitution celebrations). Expect busy flights and beds.",
+     "effect": "Peak demand",
+     "url": "https://cookislands.travel/it/node/3386"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Te Maeva Nui 2027",
+     "authority": "Cook Islands Tourism",
+     "url": "https://cookislands.travel/it/node/3386",
+     "checked": "2026-10-31",
+     "supports": "festival dates"
+    }
+   ],
+   "checked": "2026-10-31",
+   "evidence": "official"
   }
  }
 }

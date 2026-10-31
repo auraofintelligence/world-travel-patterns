@@ -3,9 +3,9 @@
   "generated_on": "2026-10-31",
   "mode": "public",
   "place_passes": 280,
-  "pattern_items": 1938,
+  "pattern_items": 1933,
   "by_reason": {
-   "never-checked": 1909,
+   "never-checked": 1904,
    "over-budget": 29
   },
   "watch_checks": 0
@@ -385,52 +385,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "ck",
-   "name": "Cook Islands",
-   "kind": "associated",
-   "tags": [
-    "p4a-oceania"
-   ],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
     },
     {
      "pattern": "health-entry",
@@ -1282,12 +1236,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
      "pattern": "works-and-purpose",
      "reason": "never-checked",
      "age_days": null,
@@ -1408,6 +1356,40 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "ck",
+   "name": "Cook Islands",
+   "kind": "associated",
+   "tags": [
+    "p4a-oceania"
+   ],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
     },
     {
      "pattern": "zone-requirements",
@@ -2009,58 +1991,6 @@
    ]
   },
   {
-   "place": "cl/rapa-nui",
-   "name": "Rapa Nui",
-   "kind": "island",
-   "tags": [
-    "p4a-oceania"
-   ],
-   "due": [
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "au/sa",
    "name": "South Australia",
    "kind": "state",
@@ -2591,6 +2521,46 @@
     },
     {
      "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    }
+   ]
+  },
+  {
+   "place": "cl/rapa-nui",
+   "name": "Rapa Nui",
+   "kind": "island",
+   "tags": [
+    "p4a-oceania"
+   ],
+   "due": [
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
