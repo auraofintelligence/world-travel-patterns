@@ -151,6 +151,20 @@
       "repo": "Australian-visa-activity-atlas",
       "claim_id": "MYS-PATH-MIXED-MISSION-STATUS"
      }
+    },
+    "research": {
+     "status": "specialist",
+     "route": "A visa arranged before travel",
+     "detail": "Smartraveller: arrange a visa before travel if visiting for research.",
+     "next": "Ask the Malaysian High Commission.",
+     "checked": "2026-11-01"
+    },
+    "volunteering": {
+     "status": "specialist",
+     "route": "A visa arranged before travel",
+     "detail": "Smartraveller: arrange a visa before travel if visiting for volunteer work.",
+     "next": "Ask the Malaysian High Commission.",
+     "checked": "2026-11-01"
     }
    },
    "status": "imported",
@@ -247,6 +261,13 @@
      "url": "https://apaie.net/conferences/apaie-2027/",
      "checked": "2026-08-21",
      "supports": "international education, AI and English-language event signal"
+    },
+    {
+     "title": "Malaysia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/malaysia",
+     "checked": "2026-10-31",
+     "supports": "filming, research or volunteering as read on 2026-11-01"
     }
    ],
    "note": "checked is the oldest activity date; each activity keeps its own."

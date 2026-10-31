@@ -152,6 +152,20 @@
       "repo": "Australian-visa-activity-atlas",
       "claim_id": "IND-PATH-MIXED-MISSION-STATUS"
      }
+    },
+    "volunteering": {
+     "status": "confirm-in-writing",
+     "route": "Visa to confirm",
+     "detail": "Smartraveller: contact the nearest Indian embassy or consulate about visa requirements before volunteering.",
+     "next": "Ask the Indian High Commission.",
+     "checked": "2026-11-01"
+    },
+    "research": {
+     "status": "specialist",
+     "route": "Research visa (registration on arrival for long stays)",
+     "detail": "Smartraveller lists research among visa types that must register with the authorities; a tourist e-Visa doesn't cover it.",
+     "next": "Apply for a research visa.",
+     "checked": "2026-11-01"
     }
    },
    "status": "imported",
@@ -213,6 +227,13 @@
      "url": "https://jlflitfest.org/about-jlf",
      "checked": "2026-08-20",
      "supports": "literary and author opportunity signal"
+    },
+    {
+     "title": "India travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/india",
+     "checked": "2026-10-31",
+     "supports": "filming, research or volunteering as read on 2026-11-01"
     }
    ],
    "note": "checked is the oldest activity date; each activity keeps its own."

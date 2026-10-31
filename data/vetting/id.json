@@ -160,6 +160,27 @@
       "repo": "Australian-visa-activity-atlas",
       "claim_id": "IDN-PATH-MIXED-MISSION-STATUS"
      }
+    },
+    "research": {
+     "status": "specialist",
+     "route": "A research visa, not a tourist visa",
+     "detail": "Smartraveller: it's illegal to conduct research on a tourist visa.",
+     "next": "Apply for the right visa through Indonesian Immigration.",
+     "checked": "2026-11-01"
+    },
+    "volunteering": {
+     "status": "specialist",
+     "route": "The right visa, not a tourist visa",
+     "detail": "Smartraveller: it's illegal to volunteer on a tourist visa.",
+     "next": "Ask Indonesian Immigration which visa fits.",
+     "checked": "2026-11-01"
+    },
+    "filming": {
+     "status": "specialist",
+     "route": "The right visa, not a tourist visa",
+     "detail": "Smartraveller: posting online content for revenue, payment, sponsorship or other commercial purposes on a tourist visa is illegal, even if published after you leave.",
+     "next": "Ask Indonesian Immigration which visa fits the filming you plan.",
+     "checked": "2026-11-01"
     }
    },
    "status": "imported",
@@ -256,6 +277,13 @@
      "url": "https://www.ubudwritersfestival.com/programs/ubud-writers-and-readers-festival-2026",
      "checked": "2026-08-21",
      "supports": "bilingual literary, author and book-launch event signal"
+    },
+    {
+     "title": "Indonesia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-10-31",
+     "supports": "filming, research or volunteering as read on 2026-11-01"
     }
    ],
    "note": "checked is the oldest activity date; each activity keeps its own."

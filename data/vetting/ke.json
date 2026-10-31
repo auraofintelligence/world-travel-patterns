@@ -149,6 +149,20 @@
       "repo": "Australian-visa-activity-atlas",
       "claim_id": "KEN-PATH-MIXED-MISSION-STATUS"
      }
+    },
+    "volunteering": {
+     "status": "specialist",
+     "route": "A work permit",
+     "detail": "Smartraveller: it's illegal to work or volunteer in Kenya without a valid work permit.",
+     "next": "Apply through the host organisation.",
+     "checked": "2026-11-01"
+    },
+    "filming": {
+     "status": "confirm-in-writing",
+     "route": "Visa or ETA plus accreditation for journalism",
+     "detail": "Foreign journalists must apply for accreditation through the Media Council of Kenya; other filming isn't covered on the page.",
+     "next": "Ask the Media Council of Kenya and Kenyan Immigration.",
+     "checked": "2026-11-01"
     }
    },
    "status": "imported",
@@ -224,6 +238,13 @@
      "url": "https://www.africatechsummit.com/",
      "checked": "2026-08-21",
      "supports": "recurring Nairobi technology, investment and startup event signal; no speaking access inferred"
+    },
+    {
+     "title": "Kenya travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/kenya",
+     "checked": "2026-10-31",
+     "supports": "filming, research or volunteering as read on 2026-11-01"
     }
    ],
    "note": "checked is the oldest activity date; each activity keeps its own."

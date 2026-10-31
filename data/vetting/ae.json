@@ -157,6 +157,20 @@
       "repo": "Australian-visa-activity-atlas",
       "claim_id": "UAE-PATH-MIXED-MISSION-STATUS"
      }
+    },
+    "filming": {
+     "status": "specialist",
+     "route": "Advance permission from the UAE Media Regulatory Office",
+     "detail": "Smartraveller: media activity (producing, transmitting or distributing printed, digital, audio, video or visual information) needs permission in advance; without it you can be arrested and deported.",
+     "next": "Register with the Media Regulatory Office before travel.",
+     "checked": "2026-11-01"
+    },
+    "volunteering": {
+     "status": "conditional",
+     "route": "Only with a UAE-registered organisation",
+     "detail": "Smartraveller: make sure charity or volunteer organisations are registered with the UAE Government before you take part.",
+     "next": "Check the organisation's registration.",
+     "checked": "2026-11-01"
     }
    },
    "status": "imported",
@@ -225,6 +239,13 @@
      "url": "https://sibf.com/ar/visit",
      "checked": "2026-08-21",
      "supports": "current publishing and literary event signal; no speaking access inferred"
+    },
+    {
+     "title": "United Arab Emirates travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/united-arab-emirates",
+     "checked": "2026-10-31",
+     "supports": "filming, research or volunteering as read on 2026-11-01"
     }
    ],
    "note": "checked is the oldest activity date; each activity keeps its own."
