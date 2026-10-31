@@ -101,7 +101,7 @@
    ]
   },
   "activities": {
-   "status": "low",
+   "status": "conditional",
    "checked": "2026-11-01",
    "evidence": "official",
    "activities": {
@@ -111,9 +111,106 @@
      "detail": "Visa-free short stays as part of the Schengen area.",
      "next": "See the entry record.",
      "checked": "2026-11-01"
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Visa-free Schengen short stay",
+     "detail": "Business meetings are covered, without being employed in the country.",
+     "next": "Carry the invitation.",
+     "checked": "2026-11-01"
+    },
+    "conference": {
+     "status": "low",
+     "route": "Visa-free Schengen short stay",
+     "detail": "Business travel, including conferences, is covered.",
+     "next": "Carry the registration.",
+     "checked": "2026-11-01"
+    },
+    "unpaid-speaking": {
+     "status": "conditional",
+     "route": "Visa-free Schengen short stay",
+     "detail": "Unpaid speaking during a business visit is generally covered; the paid-activity exclusion is read narrowly.",
+     "next": "If unsure, ask Embassy of the Republic of Lithuania, Barton.",
+     "checked": "2026-11-01"
+    },
+    "paid-speaking": {
+     "status": "confirm-in-writing",
+     "route": "National rules",
+     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Lithuania, Barton.",
+     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Lithuania, Barton.",
+     "checked": "2026-11-01"
+    },
+    "book-launch": {
+     "status": "confirm-in-writing",
+     "route": "National rules",
+     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Lithuania, Barton.",
+     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Lithuania, Barton.",
+     "checked": "2026-11-01"
+    },
+    "ai-teaching": {
+     "status": "confirm-in-writing",
+     "route": "National rules",
+     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Lithuania, Barton.",
+     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Lithuania, Barton.",
+     "checked": "2026-11-01"
+    },
+    "remote-work": {
+     "status": "confirm-in-writing",
+     "route": "National rules",
+     "detail": "Remote work for an employer outside the EU isn't addressed in the EU guidance read.",
+     "next": "Ask the Embassy of the Republic of Lithuania, Barton.",
+     "checked": "2026-11-01"
+    },
+    "entrepreneur": {
+     "status": "conditional",
+     "route": "Visa-free Schengen short stay",
+     "detail": "Exploring and meeting fit a business visit; running a business needs national permission.",
+     "next": "Ask the Embassy of the Republic of Lithuania, Barton.",
+     "checked": "2026-11-01"
+    },
+    "trade": {
+     "status": "low",
+     "route": "Visa-free Schengen short stay",
+     "detail": "Business visits are covered; selling or delivering services may be paid activity.",
+     "next": "Keep the trip to meetings and negotiation.",
+     "checked": "2026-11-01"
+    },
+    "artist": {
+     "status": "confirm-in-writing",
+     "route": "National rules",
+     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Lithuania, Barton.",
+     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Lithuania, Barton.",
+     "checked": "2026-11-01"
+    },
+    "mixed-mission": {
+     "status": "confirm-in-writing",
+     "route": "Depends on the mix",
+     "detail": "The visa-free stay covers the business and tourism parts; any paid part needs national permission.",
+     "next": "Ask the Embassy of the Republic of Lithuania, Barton.",
+     "checked": "2026-11-01"
+    },
+    "filming": {
+     "status": "conditional",
+     "route": "Visa-free Schengen short stay (journalistic or media purposes)",
+     "detail": "Journalistic or media purposes are listed among visa-free purposes; paid production work and location permits are national matters.",
+     "next": "Ask the Embassy of the Republic of Lithuania, Barton about filming, and the local authority about locations.",
+     "checked": "2026-11-01"
+    },
+    "research": {
+     "status": "conditional",
+     "route": "Visa-free Schengen short stay (short-term study or training)",
+     "detail": "Short-term study and training are covered; paid research at an institution is paid activity.",
+     "next": "Ask the Embassy of the Republic of Lithuania, Barton if the host pays you.",
+     "checked": "2026-11-01"
+    },
+    "volunteering": {
+     "status": "confirm-in-writing",
+     "route": "National rules",
+     "detail": "Volunteering isn't addressed in the EU guidance read.",
+     "next": "Ask the Embassy of the Republic of Lithuania, Barton.",
+     "checked": "2026-11-01"
     }
    },
-   "note": "Only tourism and the activities named here are checked; the rest are not yet checked.",
    "sources": [
     {
      "title": "Lithuania travel advice",
@@ -121,6 +218,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/lithuania",
      "checked": "2026-10-31",
      "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
+    },
+    {
+     "title": "Frequently asked questions on the Schengen visa-free regime",
+     "authority": "European External Action Service (EU)",
+     "url": "https://www.eeas.europa.eu/sites/default/files/visa_waiver_faqs_en.pdf",
+     "checked": "2026-11-01",
+     "supports": "visa-free stays cover business meetings, journalistic or media purposes, short-term study or training; paid activity is excluded and needs national permission"
     }
    ]
   }

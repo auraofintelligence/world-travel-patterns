@@ -153,9 +153,30 @@
       "repo": "Australian-visa-activity-atlas",
       "claim_id": "AUT-PATH-MIXED-MISSION-STATUS"
      }
+    },
+    "filming": {
+     "status": "conditional",
+     "route": "Visa-free Schengen short stay (journalistic or media purposes)",
+     "detail": "Journalistic or media purposes are listed among visa-free purposes; paid production work and location permits are national matters.",
+     "next": "Ask the Embassy of Austria, Forrest about filming, and the local authority about locations.",
+     "checked": "2026-11-01"
+    },
+    "research": {
+     "status": "conditional",
+     "route": "Visa-free Schengen short stay (short-term study or training)",
+     "detail": "Short-term study and training are covered; paid research at an institution is paid activity.",
+     "next": "Ask the Embassy of Austria, Forrest if the host pays you.",
+     "checked": "2026-11-01"
+    },
+    "volunteering": {
+     "status": "confirm-in-writing",
+     "route": "National rules",
+     "detail": "Volunteering isn't addressed in the EU guidance read.",
+     "next": "Ask the Embassy of Austria, Forrest.",
+     "checked": "2026-11-01"
     }
    },
-   "status": "imported",
+   "status": "conditional",
    "checked": "2026-08-21",
    "evidence": "official",
    "sources": [
@@ -179,9 +200,15 @@
      "url": "https://www.migration.gv.at/fileadmin/downloads/gesetzestexte/AuslBG_englisch_1_10_2017.pdf",
      "checked": "2026-08-21",
      "supports": "employment and work-permission boundary"
+    },
+    {
+     "title": "Frequently asked questions on the Schengen visa-free regime",
+     "authority": "European External Action Service (EU)",
+     "url": "https://www.eeas.europa.eu/sites/default/files/visa_waiver_faqs_en.pdf",
+     "checked": "2026-11-01",
+     "supports": "visa-free stays cover business meetings, journalistic or media purposes, short-term study or training; paid activity is excluded and needs national permission"
     }
-   ],
-   "note": "checked is the oldest activity date; each activity keeps its own."
+   ]
   },
   "consular": {
    "status": "in-place",

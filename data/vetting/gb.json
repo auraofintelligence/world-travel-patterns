@@ -30,80 +30,52 @@
    "activities": {
     "tourism": {
      "status": "low",
-     "route": "ETA plus Standard Visitor permission",
-     "detail": "Australian passport holders are eligible for an ETA and may normally visit for tourism for up to six months, subject to visitor eligibility and a border decision.",
-     "next": "Apply before travel, allow up to three working days and wait for approval.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "GBR-PATH-TOURISM-STATUS"
-     }
+     "route": "UK ETA as a visitor",
+     "detail": "Tourism under 6 months.",
+     "next": "None.",
+     "checked": "2026-11-01"
     },
     "meetings": {
      "status": "low",
-     "route": "Standard Visitor business activities",
-     "detail": "Meetings, conferences, interviews, negotiations, contract signing, site visits and information gathering are permitted, but delivering work to a UK organisation is not.",
-     "next": "Carry the host invitation and keep the first trip to discussion, investigation and negotiation.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "GBR-PATH-MEETINGS-STATUS"
-     }
+     "route": "UK ETA as a visitor (PA 4)",
+     "detail": "Attending meetings, conferences, seminars, interviews and workshops is a permitted activity.",
+     "next": "Carry the invitation.",
+     "checked": "2026-11-01"
     },
     "conference": {
      "status": "low",
-     "route": "ETA plus Standard Visitor attendance",
-     "detail": "Conference attendance is permitted. Exhibiting to promote an overseas business is allowed, but direct selling is not; stepping on stage requires separate speaking classification.",
-     "next": "Register as an attendee and reclassify any panel, talk, facilitation or workshop before accepting it.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "GBR-PATH-CONFERENCE-STATUS"
-     }
+     "route": "UK ETA as a visitor (PA 4)",
+     "detail": "Conferences are a permitted activity.",
+     "next": "Carry the registration.",
+     "checked": "2026-11-01"
     },
     "unpaid-speaking": {
-     "status": "conditional",
-     "route": "Standard Visitor for a one-off or short series of non-commercial talks",
-     "detail": "A talk may fit when it is not organised as a commercial event and will not make a profit for the organiser. A zero fee does not by itself make a commercial conference permissible.",
-     "next": "Have the host confirm the event's commercial status, expenses, dates and duties in writing; use paid-engagement or sponsored logic if the boundary fails.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "GBR-PATH-UNPAID-SPEAKING-STATUS"
-     }
+     "status": "low",
+     "route": "UK ETA as a visitor (PA 4)",
+     "detail": "One-off talks are permitted, if the event isn't a commercial event making a profit for the organiser.",
+     "next": "Check the event isn't run for profit.",
+     "checked": "2026-11-01"
     },
     "paid-speaking": {
      "status": "conditional",
-     "route": "Permitted paid engagement within Standard Visitor permission",
-     "detail": "A formally invited expert may speak at a conference or give expert lectures when the engagement relates to the profession and expertise held overseas. The engagement must occur during the first month of the visit.",
-     "next": "Obtain the UK organiser's formal invitation and carry evidence of the Australian occupation, expertise, fee and first-month dates.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "GBR-PATH-PAID-SPEAKING-STATUS"
-     }
+     "route": "Permitted paid engagement (PA 19)",
+     "detail": "Paid speaking is allowed as a permitted paid engagement when invited by a UK organisation, with the invitation as evidence.",
+     "next": "Get a formal invitation from the UK organisation before travel.",
+     "checked": "2026-11-01"
     },
     "book-launch": {
      "status": "conditional",
-     "route": "Visitor business meetings plus permitted paid engagement for qualifying professional creative activity",
-     "detail": "Rights and publisher meetings fit ordinary business activity. A professional creative may be paid to present, launch or debut their own work, but direct public selling remains outside visitor business permissions.",
-     "next": "Separate rights discussions, appearance fee, royalties and retail; use a UK publisher or bookseller for local sales.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "GBR-PATH-BOOK-LAUNCH-STATUS"
-     }
+     "route": "Visitor (PA 4) or permitted paid engagement (PA 19)",
+     "detail": "A talk fits the visitor rules; a paid appearance needs the permitted paid engagement route.",
+     "next": "Get the publisher's or venue's invitation.",
+     "checked": "2026-11-01"
     },
     "ai-teaching": {
      "status": "conditional",
-     "route": "Expert lecture, conference route or sponsored work",
-     "detail": "An overseas expert may give lectures at a higher-education, research or arts institution through visitor or permitted-paid-engagement rules, but must not fill a teaching post. Corporate delivery and continuing instruction are narrower and may require Service Supplier or Skilled Worker sponsorship.",
-     "next": "Have the institution describe the audience, dates, curriculum, fee and whether this is a guest lecture or an ongoing teaching role.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "GBR-PATH-AI-TEACHING-STATUS"
-     }
+     "route": "Permitted paid engagement (PA 19) for lectures",
+     "detail": "One-off lectures can fit a permitted paid engagement; regular teaching is work.",
+     "next": "Check the engagement fits PA 19.",
+     "checked": "2026-11-01"
     },
     "remote-work": {
      "status": "conditional",
@@ -117,37 +89,25 @@
      }
     },
     "entrepreneur": {
-     "status": "specialist",
-     "route": "Visitor reconnaissance followed by Innovator Founder, Global Talent or UK Expansion Worker where eligible",
-     "detail": "A visitor may meet partners and investigate opportunities but may not establish and run a UK business as self-employed work. Innovator Founder requires endorsement; Global Talent may fit recognised digital-technology leaders; Expansion Worker requires sponsorship by an overseas business establishing a UK branch.",
-     "next": "Use the visit for discovery, then choose the endorsed-founder, talent or overseas-business expansion route before operating locally.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "GBR-PATH-ENTREPRENEUR-STATUS"
-     }
+     "status": "conditional",
+     "route": "UK ETA as a visitor",
+     "detail": "Exploring and meeting fit a visit; running a UK business needs a work route.",
+     "next": "See the UK innovator founder route.",
+     "checked": "2026-11-01"
     },
     "trade": {
-     "status": "conditional",
-     "route": "Visitor negotiation and promotion or sponsored Service Supplier delivery",
-     "detail": "Trade meetings, contract negotiation and overseas-business promotion fit visitor rules, without direct selling. Qualifying contractual service delivery may use a sponsored Service Supplier route; the UK–Australia trade-agreement schedule includes computer-related, consulting, research-and-development and telecommunications sectors subject to its occupation and experience tests.",
-     "next": "Have the UK customer and immigration adviser test the contract, sector, occupation, experience and Certificate of Sponsorship requirements before any delivery.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "GBR-PATH-TRADE-STATUS"
-     }
+     "status": "low",
+     "route": "UK ETA as a visitor",
+     "detail": "Negotiating and signing deals is a permitted business activity.",
+     "next": "None.",
+     "checked": "2026-11-01"
     },
     "artist": {
      "status": "conditional",
-     "route": "Standard Visitor, permitted paid engagement or Creative Worker concession or visa",
-     "detail": "Qualifying unpaid creative activity may use visitor rules, a professional artist may use a paid engagement, and a sponsored Creative Worker who does not normally need a visitor visa may use the concession for up to three months.",
-     "next": "Have the promoter classify payment, funding, performance dates and sponsor status; concession users must see a border officer rather than use an ePassport gate.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "GBR-PATH-ARTIST-STATUS"
-     }
+     "route": "Visitor (PA 14.1) or permitted paid engagement",
+     "detail": "Artists, entertainers and musicians can perform or rehearse as visitors; paid engagements follow PA 19 or the permit-free festival list.",
+     "next": "Check whether the fee fits PA 19.",
+     "checked": "2026-11-01"
     },
     "mixed-mission": {
      "status": "conditional",
@@ -166,9 +126,23 @@
      "detail": "Smartraveller: you'll need a visa to volunteer (or do paid or unpaid work); the ETA doesn't cover it.",
      "next": "Check the UK visa routes on gov.uk.",
      "checked": "2026-11-01"
+    },
+    "research": {
+     "status": "low",
+     "route": "UK ETA as a visitor (PA 11.1)",
+     "detail": "Academics, scientists and researchers can collaborate, gather information or conduct research, independently or for an overseas employer.",
+     "next": "None.",
+     "checked": "2026-11-01"
+    },
+    "filming": {
+     "status": "conditional",
+     "route": "Visitor (PA 14.3)",
+     "detail": "Crew employed by an overseas company can take part in a location shoot for a film or programme produced and financed overseas, including online content.",
+     "next": "Keep the production financed outside the UK; ask about location permits locally.",
+     "checked": "2026-11-01"
     }
    },
-   "status": "imported",
+   "status": "conditional",
    "checked": "2026-08-21",
    "evidence": "official",
    "sources": [
@@ -305,8 +279,7 @@
      "checked": "2026-10-31",
      "supports": "filming, research or volunteering as read on 2026-11-01"
     }
-   ],
-   "note": "checked is the oldest activity date; each activity keeps its own."
+   ]
   },
   "consular": {
    "status": "in-place",

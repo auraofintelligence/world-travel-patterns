@@ -165,9 +165,16 @@
      "detail": "Smartraveller: arrange a visa before travel if visiting for volunteer work.",
      "next": "Ask the Malaysian High Commission.",
      "checked": "2026-11-01"
+    },
+    "filming": {
+     "status": "confirm-in-writing",
+     "route": "Ask the High Commission of Malaysia, Yarralumla",
+     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
+     "next": "Ask the High Commission of Malaysia, Yarralumla which visa covers it, in writing.",
+     "checked": "2026-11-01"
     }
    },
-   "status": "imported",
+   "status": "conditional",
    "checked": "2026-08-21",
    "evidence": "official",
    "sources": [
@@ -269,8 +276,7 @@
      "checked": "2026-10-31",
      "supports": "filming, research or volunteering as read on 2026-11-01"
     }
-   ],
-   "note": "checked is the oldest activity date; each activity keeps its own."
+   ]
   },
   "consular": {
    "status": "in-place",

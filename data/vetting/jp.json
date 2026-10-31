@@ -152,9 +152,30 @@
       "repo": "Australian-visa-activity-atlas",
       "claim_id": "JPN-PATH-MIXED-MISSION-STATUS"
      }
+    },
+    "filming": {
+     "status": "confirm-in-writing",
+     "route": "Ask the Embassy of Japan, Yarralumla",
+     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
+     "next": "Ask the Embassy of Japan, Yarralumla which visa covers it, in writing.",
+     "checked": "2026-11-01"
+    },
+    "research": {
+     "status": "confirm-in-writing",
+     "route": "Ask the Embassy of Japan, Yarralumla",
+     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
+     "next": "Ask the Embassy of Japan, Yarralumla which visa covers it, in writing.",
+     "checked": "2026-11-01"
+    },
+    "volunteering": {
+     "status": "confirm-in-writing",
+     "route": "Ask the Embassy of Japan, Yarralumla",
+     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
+     "next": "Ask the Embassy of Japan, Yarralumla which visa covers it, in writing.",
+     "checked": "2026-11-01"
     }
    },
-   "status": "imported",
+   "status": "conditional",
    "checked": "2026-08-21",
    "evidence": "official",
    "sources": [
@@ -249,8 +270,7 @@
      "checked": "2026-08-21",
      "supports": "international startup and innovation event signal"
     }
-   ],
-   "note": "checked is the oldest activity date; each activity keeps its own."
+   ]
   },
   "consular": {
    "status": "in-place",
