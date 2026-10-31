@@ -140,18 +140,20 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of the Democratic Socialist Republic of Sri Lanka, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of the Democratic Socialist Republic of Sri Lanka, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business ETA (30 days, double entry)",
+     "detail": "Business meetings, promotion, conferences and short training fit the business ETA; employment doesn't. The stated purpose can't be changed after arrival.",
+     "next": "Apply for the business ETA on eta.gov.lk.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of the Democratic Socialist Republic of Sri Lanka, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of the Democratic Socialist Republic of Sri Lanka, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business ETA",
+     "detail": "Conferences are covered.",
+     "next": "Apply on eta.gov.lk.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "unpaid-speaking": {
      "status": "confirm-in-writing",
@@ -189,11 +191,12 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of the Democratic Socialist Republic of Sri Lanka, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of the Democratic Socialist Republic of Sri Lanka, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business ETA",
+     "detail": "Exploring investment opportunities is covered; other activities are assessed by the Department of Immigration before travel.",
+     "next": "Ask the Department of Immigration and Emigration.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "trade": {
      "status": "confirm-in-writing",
@@ -245,6 +248,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/sri-lanka",
      "checked": "2026-10-31",
      "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
+    },
+    {
+     "title": "Sri Lanka business ETA",
+     "authority": "Signal: visa agency and law firm summaries",
+     "url": "https://btwvisas.com/visa-guide/sri-lanka-business-visa",
+     "checked": "2026-11-01",
+     "supports": "business ETA scope"
     }
    ]
   }

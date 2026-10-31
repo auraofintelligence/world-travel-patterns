@@ -241,11 +241,12 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Nepal, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Nepal, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Working visa",
+     "detail": "Salaried or paid work isn't covered by a tourist or business visa.",
+     "next": "Ask the Embassy of Nepal.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "book-launch": {
      "status": "confirm-in-writing",
@@ -269,11 +270,12 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Nepal, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Nepal, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Business visa with a government recommendation",
+     "detail": "Business visas need a recommendation from the relevant authority (for investors, the Department of Industry); a salaried job needs a working visa.",
+     "next": "Ask Nepal's Department of Immigration.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "trade": {
      "status": "confirm-in-writing",
@@ -325,6 +327,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/nepal",
      "checked": "2026-10-31",
      "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
+    },
+    {
+     "title": "A step-by-step guide to obtaining a working business visa in Nepal",
+     "authority": "Signal: Onlinekhabar",
+     "url": "https://english.onlinekhabar.com/a-step-by-step-guide-to-obtaining-a-working-business-visa-in-nepal.html",
+     "checked": "2026-11-01",
+     "supports": "business visa recommendations; working visa for salaried jobs"
     }
    ]
   }

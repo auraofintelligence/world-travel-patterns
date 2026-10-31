@@ -227,18 +227,20 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission for the Republic of Maldives",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission for the Republic of Maldives which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Meeting Visa on arrival (14 days, not extendable)",
+     "detail": "Covers attending meetings, conferences and conventions; can't be converted to a business visa after arrival.",
+     "next": "Carry the meeting invitation.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission for the Republic of Maldives",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission for the Republic of Maldives which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Meeting Visa on arrival (14 days)",
+     "detail": "Conferences and conventions are covered.",
+     "next": "Carry the invitation.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "unpaid-speaking": {
      "status": "confirm-in-writing",
@@ -283,11 +285,12 @@
      "checked": "2026-11-01"
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission for the Republic of Maldives",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission for the Republic of Maldives which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visa through the Ministry of Economic Development's Business Portal",
+     "detail": "Negotiating, exhibitions and networking use the business visa, approved before arrival.",
+     "next": "Apply on the Business Portal.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "artist": {
      "status": "confirm-in-writing",
@@ -332,6 +335,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/maldives",
      "checked": "2026-10-31",
      "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
+    },
+    {
+     "title": "Maldives meeting visa",
+     "authority": "Signal: visa directory",
+     "url": "https://visaatlas.org/visas/maldives/meeting-visa",
+     "checked": "2026-11-01",
+     "supports": "14-day meeting visa on arrival; business visa via the Business Portal"
     }
    ]
   }

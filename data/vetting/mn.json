@@ -267,18 +267,20 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Mongolia, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Mongolia, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visa with a Mongolian organisation's invitation",
+     "detail": "Business meetings, conferences, seminars and negotiations use a business visa (30 to 90 days); visa-free entry is for tourism.",
+     "next": "Get the host's invitation and apply through the Embassy of Mongolia.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Mongolia, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Mongolia, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visa",
+     "detail": "Conferences and seminars are business-visa purposes.",
+     "next": "Get the host's invitation.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "unpaid-speaking": {
      "status": "confirm-in-writing",
@@ -372,6 +374,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/mongolia",
      "checked": "2026-10-31",
      "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
+    },
+    {
+     "title": "Mongolia business visa",
+     "authority": "Signal: visa agency",
+     "url": "https://www.buch-dein-visum.de/en/mongolei/visum/businessvisum",
+     "checked": "2026-11-01",
+     "supports": "business visa purposes and invitation"
     }
    ]
   }
