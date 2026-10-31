@@ -279,8 +279,8 @@
     },
     "meetings": {
      "status": "confirm-in-writing",
-     "route": "Not confirmed from an official source",
-     "detail": "Third-party guides describe a business visa (up to 3 months) and a short-term work permit (up to 6 months); no Tonga Government page was found.",
+     "route": "Visitor visa (business not allowed)",
+     "detail": "A visitor visa doesn't allow employment, business or study. Whether attending a meeting counts as business isn't stated.",
      "next": "Ask the High Commission of the Kingdom of Tonga.",
      "checked": "2026-11-01"
     },
@@ -299,10 +299,10 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Not confirmed from an official source",
-     "detail": "Third-party guides describe a business visa (up to 3 months) and a short-term work permit (up to 6 months); no Tonga Government page was found.",
-     "next": "Ask the High Commission of the Kingdom of Tonga.",
+     "status": "specialist",
+     "route": "Employment visa, with an offer from a Tonga-registered business",
+     "detail": "A visitor visa doesn't allow employment, business or study.",
+     "next": "Ask the host to sponsor the employment visa.",
      "checked": "2026-11-01"
     },
     "book-launch": {
@@ -313,10 +313,10 @@
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Not confirmed from an official source",
-     "detail": "Third-party guides describe a business visa (up to 3 months) and a short-term work permit (up to 6 months); no Tonga Government page was found.",
-     "next": "Ask the High Commission of the Kingdom of Tonga.",
+     "status": "specialist",
+     "route": "Employment visa, with an offer from a Tonga-registered business",
+     "detail": "A visitor visa doesn't allow employment, business or study.",
+     "next": "Ask the host to sponsor the employment visa.",
      "checked": "2026-11-01"
     },
     "remote-work": {
@@ -327,10 +327,10 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Not confirmed from an official source",
-     "detail": "Third-party guides describe a business visa (up to 3 months) and a short-term work permit (up to 6 months); no Tonga Government page was found.",
-     "next": "Ask the High Commission of the Kingdom of Tonga.",
+     "status": "specialist",
+     "route": "Business visa (investors), about one month to process",
+     "detail": "Investors may enter on a visitor visa but must write to Tonga Immigration about their business intention; residing to run a business needs the business visa.",
+     "next": "Write to Tonga Immigration before travel.",
      "checked": "2026-11-01"
     },
     "trade": {
@@ -341,10 +341,10 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Not confirmed from an official source",
-     "detail": "Third-party guides describe a business visa (up to 3 months) and a short-term work permit (up to 6 months); no Tonga Government page was found.",
-     "next": "Ask the High Commission of the Kingdom of Tonga.",
+     "status": "specialist",
+     "route": "Employment visa, with an offer from a Tonga-registered business",
+     "detail": "A visitor visa doesn't allow employment, business or study.",
+     "next": "Ask the promoter to sponsor the employment visa.",
      "checked": "2026-11-01"
     },
     "mixed-mission": {
@@ -383,6 +383,20 @@
      "url": "https://rivermate.com/guides/tonga/work-permits-and-visas",
      "checked": "2026-11-01",
      "supports": "business visa up to 3 months; short-term work permit up to 6 months"
+    },
+    {
+     "title": "Visitors visa",
+     "authority": "Embassy of the Kingdom of Tonga",
+     "url": "https://tongaembassycn.gov.to/en/going-to-tonga-en/visas-en/visitors-visa-en",
+     "checked": "2026-11-01",
+     "supports": "visitors can't take up employment, business or study"
+    },
+    {
+     "title": "Business visa",
+     "authority": "Embassy of the Kingdom of Tonga",
+     "url": "https://tongaembassycn.gov.to/en/going-to-tonga-en/visas-en/business-visa-en",
+     "checked": "2026-11-01",
+     "supports": "business visa for investors; about one month to process"
     }
    ]
   }

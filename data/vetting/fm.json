@@ -242,10 +242,10 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Entry permit before arrival (to confirm)",
-     "detail": "Non-visitors need an entry permit before arrival; work needs a state work permit first.",
-     "next": "Ask the FSM Division of Immigration in Pohnpei, and the state's labour office for any work.",
+     "status": "low",
+     "route": "No permit for visits of 30 days or less",
+     "detail": "Visits of 30 days or less need no entry permit; work needs a state work permit.",
+     "next": "Keep it to meetings and under 30 days.",
      "checked": "2026-11-01"
     },
     "conference": {
@@ -291,17 +291,17 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Entry permit before arrival (to confirm)",
-     "detail": "Non-visitors need an entry permit before arrival; work needs a state work permit first.",
-     "next": "Ask the FSM Division of Immigration in Pohnpei, and the state's labour office for any work.",
+     "status": "specialist",
+     "route": "Foreign investor's entry permit",
+     "detail": "Investors need an entry permit tied to their foreign investment business permit.",
+     "next": "Get the business permit first.",
      "checked": "2026-11-01"
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Entry permit before arrival (to confirm)",
-     "detail": "Non-visitors need an entry permit before arrival; work needs a state work permit first.",
-     "next": "Ask the FSM Division of Immigration in Pohnpei, and the state's labour office for any work.",
+     "status": "conditional",
+     "route": "Salesperson's entry permit",
+     "detail": "Taking orders or selling goods or services without setting up a business uses a salesperson's permit.",
+     "next": "Apply to the Division of Immigration.",
      "checked": "2026-11-01"
     },
     "artist": {
@@ -326,10 +326,10 @@
      "checked": "2026-11-01"
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Entry permit before arrival (to confirm)",
-     "detail": "Non-visitors need an entry permit before arrival; work needs a state work permit first.",
-     "next": "Ask the FSM Division of Immigration in Pohnpei, and the state's labour office for any work.",
+     "status": "specialist",
+     "route": "Researcher's entry permit",
+     "detail": "Research needs a researcher's entry permit, issued when the President deems it in the citizens' interest and after permission from the community where the researcher will stay.",
+     "next": "Get the host community's permission first, then apply to the Division of Immigration.",
      "checked": "2026-11-01"
     },
     "volunteering": {
@@ -347,6 +347,13 @@
      "url": "https://visit-micronesia.fm/?p=1617",
      "checked": "2026-11-01",
      "supports": "30-day entry; entry permits for longer and for non-visitors before arrival"
+    },
+    {
+     "title": "FSM Code Title 50: Immigration, section 103",
+     "authority": "Federated States of Micronesia (FSM Legal Information System)",
+     "url": "https://fsmlaw.org/fsm/code/title50/T50_Ch01.htm",
+     "checked": "2026-11-01",
+     "supports": "no permit for visits of 30 days or less; researcher, salesperson and foreign investor entry permits"
     }
    ]
   }
