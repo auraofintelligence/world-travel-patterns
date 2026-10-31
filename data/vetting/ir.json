@@ -2,26 +2,37 @@
  "place": "ir",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance. Complex process.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-IRAN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa before travel.",
+   "other": "Smartraveller advises against all travel here; advice is information, never an exclusion.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Iran travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/iran",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Iranian Rial (IRR)",
+   "cash_card_notes": "The local currency is the Iranian Rial (IRR). Declare any foreign currency you have when you arrive in Iran. If you don't, authorities may confiscate it. You can't use international credit or bank cards. You can't transfer funds into Iran using: the commercial banking system a money transfer company",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $150+",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-IRAN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Iran travel advice (updated 29 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/iran",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,87 @@
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/iran",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for importing and possessing drugs are severe and include the death penalty. Authorities have executed foreigners for drug-related offences in recent years.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iran",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Get professional advice if you're involved in local legal proceedings. In particular, seek legal advice on matters of family law, such as: divorce child custody child support Local authorities consider domestic violence to be a private family matter. Iranian law does not prohibit domestic violence. Authorities have stopped Australians and Australian-Iranian dual nationals, including mothers with children, from leaving Iran. Husbands can legally place border alerts ('stop orders') on their spouse and children where there are pending custodial disputes. Overturning stop orders can be a time consuming and complicated process. The Australian Government cannot prevent or overturn a stop order on ",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iran",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Do not enter into surrogacy arrangements. The security situation is extremely volatile in Iran. Seek independent legal advice before considering any surrogacy arrangement. If you travel for surrogacy and the situation deteriorates, you may be unable to leave. Seek independent legal advice before considering any surrogacy arrangement. If, despite our advice, you take part in commercial surrogacy arrangements, you'll need to travel to an Australian Embassy or Consulate outside Iran, at your own expense, to obtain a travel document for your child. You may need to apply for and obtain citizenship by descent through Australia's Department of Home Affairs. Your child must stay in Iran with appropr",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iran",
+     "checked": "2026-10-31",
+     "heading": "Surrogacy"
+    },
+    {
+     "topic": "dress-and-public-behaviour",
+     "rule": "Iran has strict Islamic codes of dress and behaviour. It's illegal to behave in a way considered to offend Islam. If you convert or try to convert someone from Islam to another religion, you could face harsh punishment. In public women are required by law to wear: loose-fitting clothing to cover arms and legs a long coat a headscarf If you fail to follow these dress requirements, you may be detained, fined or denied access to government and other services. Men should not wear shorts or sleeveless T-shirts in public.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iran",
+     "checked": "2026-10-31",
+     "heading": "Dress and behaviour"
+    },
+    {
+     "topic": "photography",
+     "rule": "It's illegal to photograph sensitive sites or events and you're at high risk of arrest or detention. Sensitive sites may not always be clearly marked. Do not photograph: military and nuclear sites government buildings and installations critical civil infrastructure public demonstrations",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iran",
+     "checked": "2026-10-31",
+     "heading": "Photography"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Drones and electronic equipment are illegal without permission. If you carry or use these you may be arrested or detained: drones satellite phones walkie-talkies tracking software or tracking apps on mobile phones, tablets or other computer equipment. Under Iranian law, dual nationals must enter and exit on their Iranian passport. Iranian immigration officials routinely confiscate the foreign and Iranian passports of dual nationals. Australians have been detained and had passports confiscated.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iran",
+     "checked": "2026-10-31",
+     "heading": "Electronic equipment"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Iran travel advice (updated 29 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/iran",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "The Islamic holy month of Ramadan is observed in Iran. Respect religious and cultural customs and laws during this time. During Ramadan, eating, drinking and smoking may be illegal in public during the day. If you're not fasting, avoid these activities around people who are. Seek local advice to avoid offence. Explore our Ramadan page to learn more, including dates for Ramadan.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Iran travel advice (updated 29 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/iran",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

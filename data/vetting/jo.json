@@ -2,26 +2,37 @@
  "place": "jo",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa on arrival available.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-JORDAN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-on-arrival",
+   "summary": "A visa is needed: single-entry visas valid 90 days at Queen Alia airport or any border crossing, or options on the Ministry of Interior e-services site.",
+   "other": "Stays over 90 days, work or study need a visa in advance. Long-term and multiple-entry visa holders register at the airport immigration desk.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Jordan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/jordan",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Jordanian Dinar (JOD)",
+   "cash_card_notes": "The local currency is the Jordanian Dinar (JOD). Declare all amounts over JOD10,000 or equivalent on arrival. This covers all forms of currency, not only cash. ATMs are available throughout Amman and in other major cities. It's harder to find ATMs in rural areas. Most petrol stations on major roads offer ATMs.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $80",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-JORDAN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Jordan travel advice (updated 02 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/jordan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +49,87 @@
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/jordan",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include life in jail. Penalties for possessing even a small amount of drugs include mandatory jail terms. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/jordan",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Jordan's family laws are different from Australia's. These include laws about divorce, child custody and child support. If you're involved in family and/or business issues, get professional legal advice. Know your rights and responsibilities under local laws. Before travelling to Jordan, and in the case of a family dispute involving children, both parents should ensure they’re fully aware of the implications of local laws on children’s mobility, access and custody. If you want to get married in Jordan, check the legal requirements before you travel. Contact the Jordanian Embassy in Canberra for advice. The Hague Convention on the Civil Aspects of International Child Abduction is an internati",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/jordan",
+     "checked": "2026-10-31",
+     "heading": "Family and business law"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "If you commit a crime, punishments can be harsh by Australian standards. For certain crimes, authorities can sentence you to death though there is currently a moratorium on the death penalty in place. These include terrorism, murder, treason and rape of a minor. You may face hard labour for some offences, such as causing personal injury or property damage. Authorities may detain you if you do any of the following: have consensual sex outside of marriage, particularly with Jordanian nationals, even if in a de-facto relationship or civil union recognised in Australia take photos of embassies, military or security sites injure a pedestrian while driving a car take part in missionary work, preac",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/jordan",
+     "checked": "2026-10-31",
+     "heading": "Criminal law"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Local customs are conservative. These activities are not socially acceptable and may offend: public affection between couples unmarried couples living together or sharing accommodation same-sex relationships taking photos of people without their consent Other cultural and social rules can vary between regions of Jordan. Take care not to offend. If in doubt, seek local advice. - Advice for LGBTQIA+ travellers",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/jordan",
+     "checked": "2026-10-31",
+     "heading": "Other local customs"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "If you plan to bring medication, check if it's legal in Jordan by contacting the Jordan Food and Drug Administration. Take enough legal medicine for your trip.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/jordan",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive you need both: a valid Australian driver's licence (digital driver’s licences may not be accepted) an International Driving Permit (IDP) Get your IDP before you leave Australia. - Driving or riding",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/jordan",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Jordan travel advice (updated 02 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/jordan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "The Islamic fasting month of Ramadan is observed. Respect religious and cultural customs and laws at this time. It's illegal to eat, drink and smoke in public during daylight hours in Ramadan. If you're not fasting, avoid eating, drinking or smoking in front of people who are. Explore our Ramadan page to learn more, including dates for Ramadan.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Jordan travel advice (updated 02 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/jordan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

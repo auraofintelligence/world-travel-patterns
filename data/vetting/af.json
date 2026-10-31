@@ -2,26 +2,37 @@
  "place": "af",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required. Extremely difficult to obtain.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-AFGHANISTAN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "confirm-in-writing",
+   "summary": "Smartraveller gives no visa route; the Australian Embassy in Kabul is closed.",
+   "other": "Smartraveller advises against all travel here; advice is information, never an exclusion.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Afghanistan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/afghanistan",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Afghani (AFN)",
+   "cash_card_notes": "The local currency is the Afghani (AFN).",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Variable",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-AFGHANISTAN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Afghanistan travel advice (updated 29 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/afghanistan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,54 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/afghanistan",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "It's illegal for unmarried men and women to live together or have any contact. Same-sex relationships are illegal. Severe penalties can apply for breaking these laws including corporal punishment, imprisonment and the death penalty.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/afghanistan",
+     "checked": "2026-10-31",
+     "heading": "Relationships"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "Religious proselytism is illegal. This includes preaching, possessing, or distributing religious literature or material. If you convert or try to convert someone from Islam to another religion, you could face a severe punishment, including the death penalty. Individuals practicing a religion other than Islam have been arbitrarily arrested, detained, and physically attacked or abused. You could be accused of blasphemy if you engage in religious activities that contradict or challenge the Taliban’s extreme interpretation of Islamic teachings and values. Such acts are punishable by lengthy jail sentences and even the death penalty.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/afghanistan",
+     "checked": "2026-10-31",
+     "heading": "Religious Proselytism"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "The Taliban prohibit women from: travelling and going to public places without a male guardian (such as parks and restaurants) looking at unrelated men's body or face accessing higher education most employment including working outside their home, working for NGOs and the United Nations having their voices heard in public. There are strict codes of dress for women, including foreign women. They must be fully covered from head to toe. If you don’t adhere to these laws, you could be arrested. Get local advice. Men are prohibited from wearing ‘western-style clothing’ such as jeans and are not allowed to shave their beard if it's less than the width of a fist. Men are forbidden from looking at a",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/afghanistan",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holy month of Ramadan is observed. Always respect religious and cultural customs and laws. During Ramadan, eating, drinking, and smoking may be illegal during the day. If you're not fasting, avoid these activities in front of people who are. Get local advice to avoid offence.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/afghanistan",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Afghanistan travel advice (updated 29 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/afghanistan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

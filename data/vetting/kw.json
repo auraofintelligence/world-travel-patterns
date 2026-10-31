@@ -2,26 +2,38 @@
  "place": "kw",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa or visa on arrival available.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-KUWAIT-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-on-arrival",
+   "summary": "A visa is needed: visa on arrival or e-visa.",
+   "pre_arrival": "For a visa on arrival: pay the fee at Kuwait International Airport, a return ticket, your accommodation address.",
+   "passport_validity": "At least 6 months.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Kuwait travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/kuwait",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Kuwaiti Dinar (KWD)",
+   "cash_card_notes": "The local currency is the Kuwaiti Dinar (KWD). Declare all local and foreign currency equivalent to or over KWD3000 when you arrive. This covers all forms of currency, not only cash. ATMs are widely available. Credit cards are widely accepted. Some banks and shops won't accept foreign cards. Ask your bank if your cards will work in Kuwait. Change currency only at commercial banks and official exchange bureaus.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $15",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-KUWAIT-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Kuwait travel advice (updated 30 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/kuwait",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +50,103 @@
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/kuwait",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Possession of illicit drugs and alcohol is illegal. Penalties are severe. Convictions for possession and trafficking of drugs may result in heavy fines, lengthy jail sentences, deportation or the death penalty. It's illegal to bring alcohol into Kuwait and possess or consume it in the country. Public intoxication or driving under the influence of alcohol or drugs is punishable by fines, imprisonment, deportation and confiscation of your driving licence. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/kuwait",
+     "checked": "2026-10-31",
+     "heading": "Drugs and alcohol"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Australian and Kuwaiti laws are very different. This includes laws about: commercial arrangements civil matters family matters employment Seemingly minor incidents can result in lengthy legal proceedings. If you have an open case, you may be prevented from leaving the country until it’s resolved. Some offences that aren't serious in Australia are extremely serious in Kuwait. This includes: writing a cheque without enough funds in your account not paying your bills We can't interfere in commercial and family disputes. If you're involved in local legal matters: seek professional advice understand your rights and what you must do under Kuwaiti law This is particularly the case for family law ma",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/kuwait",
+     "checked": "2026-10-31",
+     "heading": "Commercial, civil, family and employment law"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Always carry ID, such as your passport or a Kuwaiti civil identity card. Authorities conduct regular checks for illegal workers. It's illegal to: challenge or criticise regional political matters and figures, the Kuwait leadership including the Amir, Crown Prince and Prime Minister in any way, including in speech, writing or drawing, or using social media platforms import alcohol (also see Drugs and alcohol section above), pork products or pornography drive without a valid licence drink and drive take photos or videos of Government buildings or military sites, oil fields, and people (particularly local women) without permission - this includes taking photos of incoming projectiles or infrast",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/kuwait",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "If you receive a traffic violation or are involved in an accident, you cannot leave Kuwait until the matter is resolved and relevant fines are paid.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/kuwait",
+     "checked": "2026-10-31",
+     "heading": "Traffic incidents"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "De-facto relationships are not recognised. It's illegal to: have sex outside of marriage cohabitate with someone of the opposite sex, including staying in a hotel room if unmarried - hotel staff may ask you for a marriage certificate engage in intimate public displays of affection",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/kuwait",
+     "checked": "2026-10-31",
+     "heading": "Sex and intimacy laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships and impersonating the opposite sex are illegal. Same-sex marriages and rights are not recognised or allowed. Punishments can include fines, imprisonment and deportation. Rainbow and LGBTQIA+ products are banned. Increased scrutiny and searches of personal belongings have been reported at ports of entry, including confiscation of items bearing these colours. - Advice for LGBTQIA+ travellers",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/kuwait",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Some medications require approval from Kuwait's Ministry of Health. This requirement applies to many commonly prescribed medications. If you plan to bring medication, check if it's legal by contacting the Kuwaiti Embassy in Australia. Ensure you take sufficient legal medications for your trip.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/kuwait",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "If you drive without a valid licence, you could be jailed or deported. If you're a resident in Kuwait, you'll need to obtain a Kuwaiti driver's licence. If you're a visitor, you can use a valid International Driving Permit (IDP). Get your IDP before leaving Australia. If you plan to drive, get advice from a Kuwaiti embassy or consulate before you arrive.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/kuwait",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kuwait travel advice (updated 30 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/kuwait",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Kuwait is a Muslim country. Respect local traditions, customs and religious beliefs. Cover your shoulders and knees, avoid wearing shorts or tight clothing and behave modestly in public, government buildings and places of worship. The Islamic holy month of Ramadan is strictly observed. Take care not to offend others. During Ramadan, it is illegal to eat, drink or smoke in public during the day. If you're not fasting, avoid these activities around people who are.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Kuwait travel advice (updated 30 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/kuwait",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

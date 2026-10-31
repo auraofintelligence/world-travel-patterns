@@ -2,26 +2,37 @@
  "place": "sy",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance. Consular services suspended.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SYRIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "evisa",
+   "summary": "A visa is needed without Syrian identity documents; Syrian e-visa online.",
+   "other": "Groups controlling parts of Syria may issue their own travel permits. Smartraveller advises against all travel here; advice is information, never an exclusion.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Syria travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/syria",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Syrian Pound (SYP)",
+   "cash_card_notes": "The local currency is the Syrian Pound (SYP). You can change money in government banks or at recognised exchange bureaus. Credit cards may not be accepted. You may not be able to access your money via ATMs.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "N/A",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SYRIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Syria travel advice (updated 02 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/syria",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,71 @@
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/syria",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include the death penalty.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/syria",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "If you're involved in local legal matters, get professional advice. Know your rights and responsibilities, especially in family law matters like: divorce child custody child support Serious crime such as murder carry the death penalty. These activities are illegal: same-sex relationships taking photos of military or government buildings or other sensitive infrastructure not carrying ID failing to have the right entry visa If you wish to preach a religion other than Islam, get local advice. Restrictions can apply.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/syria",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holiday month of Ramadan is observed. Respect religious and cultural customs and laws at this time. During Ramadan, eating, drinking and smoking may be illegal in public during the day. If you're not fasting, avoid these activities around people who are. Seek local advice to avoid offence. Explore our Ramadan page to learn more, including dates for Ramadan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/syria",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "There is a shortage of medicine due to conflict and degradation of the Syrian healthcare system.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/syria",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Syria travel advice (updated 02 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/syria",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Standards of dress and behaviour are conservative, particularly around religious sites. If you're female, wear loose clothing that covers your arms and legs. Wear a headscarf. Take care not to offend. If in doubt, seek local advice.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Syria travel advice (updated 02 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/syria",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

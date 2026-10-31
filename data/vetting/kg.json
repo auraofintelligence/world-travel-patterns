@@ -2,26 +2,38 @@
  "place": "kg",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 60 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-KYRGYZSTAN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No tourist visa for up to 30 days in each 60-day period.",
+   "max_stay": "30 days in 60",
+   "other": "Sapar e-visa for tourism, private or business visits up to 90 days.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Kyrgyz Republic travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/kyrgyz-republic",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The official currency is the Kyrgyzstani Som (KGS), but US dollars are widely used. Currency controls are in place. The economy is mostly cash-based. Only a few of the major hotels accept traveller's cheques and credit cards. Carry sufficient cash to cover your needs. Contact your bank to ensure your Australian cards will work overseas.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-KYRGYZSTAN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Kyrgyz Republic travel advice (updated 03 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/kyrgyz-republic",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +50,38 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/kyrgyz-republic",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "If you plan to bring medication, check if it's legal in the Kyrgyz Republic. Make sure your prescription and the letter from your doctor are translated into Russian. Declare all medicine on arrival. Even with a prescription, you could face charges if you either: don't declare restricted medicines, or carry amounts over the legal limit",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/kyrgyz-republic",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in the Kyrgyz Republic, you need both: an Australian driver's licence (digital driver's licences may not be accepted) an International Driving Permit (IDP) Driving without an IDP could void your travel and vehicle insurance. Get your IDP in Australia before you leave.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/kyrgyz-republic",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kyrgyz Republic travel advice (updated 03 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/kyrgyz-republic",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

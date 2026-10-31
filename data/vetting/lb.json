@@ -2,26 +2,37 @@
  "place": "lb",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa on arrival for business purposes (conditions apply).",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-LEBANON-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-on-arrival",
+   "summary": "A tourist visa on arrival.",
+   "other": "General Security checks every name against border alerts (stop orders) for court cases, warrants or family-court matters.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Lebanon travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "Both the USD and the Lebanese Pound (also known as the Lebanese Lira) are accepted. Currency exchange facilities and ATMs are widely available in Beirut and other large cities. Daily withdrawal limits and high withdrawal fees may apply. Make sure you have access to enough hard currency cash during your stay. Contact your bank and monitor media reports before you travel to Lebanon. - Scams that affect travellers",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-LEBANON-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Lebanon travel advice (updated 24 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +49,87 @@
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "All family law matters are based on local religious laws. This includes child custody and divorce decisions. If you're involved in custody or other family disputes, speak to a lawyer before you leave Australia. Ask for advice on how religious law may affect your family circumstances. Lebanon has not signed the Hague Convention on the Civil Aspects of International Child Abduction. There are significant limits on our ability to assist in returning a child to Australia if they have been abducted by a parent. We can't intervene in local legal matters, including custody disputes. Australian citizens can be prevented from leaving Lebanon if there are pending family court matters. Authorities have",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-10-31",
+     "heading": "Family law"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include mandatory jail terms. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Serious crimes like murder and treason may result in life imprisonment with aggravated hard labour. Access to some areas of Lebanon is restricted. Authorities may detain you and take your camera if you photograph or film: military personnel or facilities government buildings major civilian infrastructure (such as power stations)",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relations are illegal in Lebanon. Penalties include jail terms of up to one year. There's been an increase in anti-LGBTQIA+ rhetoric in the community. Some incidents of targeted harassment have occurred. - Advice for LGBTQIA+ travellers",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holiday month of Ramadan is observed in Lebanon. Respect religious and cultural customs and laws during this time. Avoid eating, drinking or smoking in public, or in front of people who are fasting.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Shortages of pharmaceuticals and medical supplies can occur without notice.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Lebanon travel advice (updated 24 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Standards of dress and behaviour are modest in parts of Lebanon, particularly at religious sites. Take care not to offend. If in doubt, seek local advice. Public displays of affection may cause offence in conservative and religious areas. Some hotels ask for proof of marriage before renting rooms to couples. Hotels may refuse you accommodation if you can't provide proof.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Lebanon travel advice (updated 24 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

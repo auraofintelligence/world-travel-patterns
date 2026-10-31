@@ -2,26 +2,36 @@
  "place": "bh",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa or visa on arrival available.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BAHRAIN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-on-arrival",
+   "summary": "Visas on arrival have resumed for Australian passport holders; e-visas are also available online.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Bahrain travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Bahraini Dinar (BHD)",
+   "cash_card_notes": "Bahrain has rules about the amount of currency you can bring in and take out. Currency limits can change. Check details with your nearest Bahraini Embassy or Bahrain Customs before your departure to Bahrain. The local currency is the Bahraini Dinar (BHD). Credit card facilities and ATMs are widely available. Ask your bank if your cards will work in Bahrain.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $45",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BAHRAIN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Bahrain travel advice (updated 23 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +48,127 @@
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences, including buying, selling, and possession, even when transiting through Bahrain, are severe and may include a life sentence or the death penalty. Some cosmetic products and e-cigarette refills may contain ingredients that are illegal in Bahrain, such as Cannabidiol (CBD) oil. For more information, check with your medical provider and the nearest Bahraini Embassy or consulate prior to your departure to Bahrain. You can be charged with possession if trace amounts of drugs are found on your body, clothing, or luggage. Police may detain you if you're accompanied by someone who is involved in drug cases, including trafficking, possessing, or using drugs. You may remai",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Bahrain's laws differ from Australia's in several areas, including: commercial and employment matters family law and divorce child custody child support If you have family, employment or commercial interests in Bahrain, get professional legal advice from a lawyer in Bahrain on your legal rights and responsibilities. Authorities might stop you from leaving Bahrain if you have a commercial or labour dispute, legal proceedings, or unpaid debts. Check with your local lawyer for full details and advice (see 'Travel'). It's illegal to give birth out of wedlock. Bahrain doesn't recognise children born outside marriage and doesn't issue birth certificates for children born outside marriage.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-10-31",
+     "heading": "Commercial and family law"
+    },
+    {
+     "topic": "filming-and-drones",
+     "rule": "You must obtain permission in advance from the Bahraini authorities to undertake media activity relating to the production, transmission or distribution of printed, digital, audio, video or visual information. If you don't do this, you could be arrested, fined, and deported. Local authorities may also ban you from re-entering Bahrain in the future. Contact your nearest Bahraini Embassy/Consulate and the Bahraini Ministry of Information for more information on obtaining the necessary permits to carry out media activity in Bahrain and bringing media equipment into Bahrain.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-10-31",
+     "heading": "Media activity"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "If you're in danger, or you or your children have been a victim of domestic violence, call: local Bahraini police on 999 the Protection Centre & Helpline on 998 Ministry of Social Development - (Family Counselling Center) on [see source] Children and minors who may be victims of cybercrimes, cyberbullying, grooming, potential sexual or physical assault, and other forms of harm can contact the General Directorate of Anti-Corruption and Economic & Electronic Security on 992 from a local Bahraini mobile or landline number. When reporting domestic violence: get a case reference number document any injuries and get a copy of any medical reports. If you file a police report or use any Bahraini vic",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-10-31",
+     "heading": "Domestic and child violence services"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Sharia (Islamic) courts have jurisdiction over custody cases involving Muslim parents. We can't intervene in court proceedings, private and/or legal matters including family and custody disputes. Seek advice from a competent local lawyer. Custody orders and judgments issued by foreign courts may not be enforceable in Bahrain. Bahraini Civil courts also adjudicate cases related to divorce and child custody for non-Muslims. When a custody case arises between parents and one of the parents is Muslim, custody decisions may be based on Islamic law. When custody disputes arise and a custody case is before the local court, the local court may impose a travel ban on the child/children and the parent",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-10-31",
+     "heading": "Custody disputes"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "You may face severe penalties, including the death penalty for serious crimes, including murder. Other offences, including theft, can result in imprisonment, deportation, fines, and future bans on re-entering the country. Always carry a valid photo ID with you, failing to do so may result in fines from authorities. You must obtain a valid work permit from the relevant Bahraini authority for any type of employment. It's illegal to work on a tourist or non-work visa. Engaging in any form of work (paid or unpaid) without the necessary work permit can lead to detention, fines, and deportation. You may be arrested or jailed for criticising or mocking government policies or officials. This include",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "Respect religious and cultural customs and laws during the Islamic holiday month of Ramadan. Avoid dressing inappropriately, eating, drinking or smoking in public or around people who are fasting.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "dress-and-public-behaviour",
+     "rule": "Standards of dress and behaviour are generally more conservative than in Australia. Dress modestly. Make sure you cover your shoulders and knees. Women travelling alone may be subject to some forms of harassment and verbal abuse. If you disrespect Islam, you'll cause great offence, and locals may report you to the local police. Take care not to offend. If in doubt, seek local advice.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-10-31",
+     "heading": "Dress and behaviour standards"
+    },
+    {
+     "topic": "dress-and-public-behaviour",
+     "rule": "Hotels may refuse couples who can't prove they're married. Avoid public displays of affection which may cause offence and dress appropriately.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-10-31",
+     "heading": "Travelling as a couple"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships between consenting adults aged over 21 years aren't criminalised. However, LGBTQIA+ activity isn't socially accepted. It's likely to attract the attention of authorities under broader morality and public order laws. Some LGBTQIA+ travellers have reported difficulties entering Bahrain on a passport bearing a name and photo that don't correspond to their gender identity. For more information, please contact your nearest Bahraini Embassy or Consulate prior to your departure to Bahrain.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Some skincare products and e-cigarette refills may contain ingredients that are illegal in Bahrain such as Cannabidiol (CBD) oil. CBD oil or products are illegal in Bahrain even if they're for medical or recreational purposes. It's considered a serious crime to carry illegal drugs or CBD oil or products in Bahrain, even if you're transiting Bahrain from another country. Punishment can result in imprisonment and deportation. For more information, including if you plan to take medication, check if it's legal by contacting the nearest Bahraini Embassy or Consulate or Bahraini Customs prior to your departure to Bahrain. Carry your medicine in its original packaging and a copy of your prescriptio",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bahrain travel advice (updated 23 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "The weekend is on Friday and Saturday. Respect religious and cultural sensitivities, rules and customs. Be aware of sensitivity around Ramadan and other religious festivals.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Bahrain travel advice (updated 23 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

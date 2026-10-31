@@ -2,26 +2,39 @@
  "place": "om",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa required in advance for business travel.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-OMAN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "Tourism visits up to 14 days may be visa-free (free entry visa).",
+   "max_stay": "14 days; longer needs a visit visa (available on arrival, advance recommended)",
+   "pre_arrival": "Confirmed accommodation, health insurance for the stay and a return ticket.",
+   "passport_validity": "More than 6 months.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Oman travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/oman",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Omani Rial (OMR)",
+   "cash_card_notes": "The local currency is the Omani Rial (OMR). Declare all precious metals, local and foreign currency valued OMR6000 or more when you arrive and depart. This covers all forms of currency, not only cash. More information is available here: Traveller Services You can easily exchange US dollars and euros at commercial banks and currency bureaus. Credit card facilities and ATMs are widely available. Ask your bank if your cards will work in Oman.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $80",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-OMAN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Oman travel advice (updated 23 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/oman",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +51,79 @@
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/oman",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include the death penalty. Possessing even a small amount of drugs can result in lengthy jail terms and heavy fines. These laws also apply if you're transiting through Oman. Police may detain you if you are accompanied by a person who is involved in drug cases, including trafficking, possessing or using drugs. You may remain in detention until investigations are concluded for all parties. If you come to the attention of the local authorities, they may require you to take a blood test, particularly if they suspect you have used drugs or alcohol. If you refuse, you could be arrested for your failure to comply.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/oman",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "If you're involved in legal matters, get professional legal advice. This especially includes family law regarding divorce, child custody and child support. Know your rights and responsibilities. Authorities may not let you leave Oman if you: are involved in business or labour disputes have unpaid debts, and bills. Unpaid bills include: giving somebody a cheque which bounces (including post-dated and ‘security’ cheques) non-payment of bills (for example property rent, hotel bills or car hire). have unpaid traffic fines. You can check if you have outstanding traffic fines via the ROP app or online service: Royal Oman Police Website - Online Services - Traffic Offense Payment. have legal procee",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/oman",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are illegal and may lead to severe punishment, including prison and fines. Cross-dressing is also illegal. If you're transgender or intersex, or your gender on your passport doesn't match your appearance, you may: be questioned at immigration be denied entry into Oman",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/oman",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holy month of Ramadan is observed in Oman. Respect religious and cultural customs and laws at this time. During Ramadan, eating, drinking (including water) and smoking may be illegal in public during the day. If you're not fasting, avoid these activities around people who are. Seek local advice to avoid offence.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/oman",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "If you hold an Omani residence permit you'll need to obtain an Omani driver's licence to be able to drive in Oman. If you're in Oman on a visit visa, you should hold an International Driving Permit (IDP). Your IDP should be endorsed by the Oman road authorities. This is usually done at the rental car company at the airport.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/oman",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Oman travel advice (updated 23 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/oman",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Oman has strict Islamic dress and behaviour codes. Hotels may refuse accommodation to couples who can't prove they're married. You should contact your accommodation provider to seek clarification on the requirements. It is important to respect local customs and act in a culturally appropriate manner. Take extra care during Ramadan and Shia religious festivals. The Omani weekend is Friday and Saturday. To ensure you don't offend: avoid disrespecting Islam or any other religion avoid bad language, rude gestures and public displays of affection respect restrictions on alcohol and pork products. If in doubt, seek local advice. To observe dress codes: dress modestly in public when not at tourist ",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Oman travel advice (updated 23 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/oman",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

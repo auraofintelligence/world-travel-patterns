@@ -2,33 +2,38 @@
  "place": "ps",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "No single Palestinian tourist visa. West Bank access normally runs through Israeli-controlled entry and ETA-IL or a route-specific permit; Gaza is a separate access system.",
-   "checked": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-STATE-OF-PALESTINE-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source.",
+   "status": "confirm-in-writing",
+   "summary": "Entry to the West Bank is through Israeli-controlled crossings, so Israel's ETA-IL or visa rules apply; crossings can close at short notice.",
+   "next_check": "Read the Israel Government Portal and the Palestinian side's own guidance before travel.",
+   "other": "Smartraveller advises against all travel here; advice is information, never an exclusion.",
+   "evidence": "official",
+   "checked": "2026-10-31",
    "sources": [
     {
-     "title": "Israel ETA-IL and official entry procedures",
-     "url": "https://israel-entry.piba.gov.il/",
-     "checked": "2026-08-20"
+     "title": "Palestine travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/palestine",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
    ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The Israeli Shekel (ILS) is used in Palestine. You can change Australian dollars to shekels in major centres. ATMs are available in the West Bank but functionality can at times be limited.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "25 NIS ETA-IL; route-dependent permits",
-   "checked": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-STATE-OF-PALESTINE-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Palestine travel advice (updated 14 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/palestine",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -45,6 +50,71 @@
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/palestine",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences include jail terms of up to 20 years and large fines.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/palestine",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "You must always carry your passport, visa or entry permit as proof of identity. It's illegal to photograph police, the military, buildings or places considered 'security sensitive'. This includes military installations and some government offices. If in doubt, get local advice. The import and use of religious material is strictly controlled. If authorities find this material, they may confiscate it. Under Palestinian law, which is enforced in the West Bank (excluding Jerusalem), authorities may enforce the death penalty for treason, helping an enemy and deliberate killing. Islamic (Sharia) law applies in Gaza. The application of laws and legal processes can't be guaranteed. Drinking alcohol ",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/palestine",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "dress-and-public-behaviour",
+     "rule": "Conservative standards of dress and behaviour apply at holy sites in Jerusalem, and throughout much of the West Bank and Gaza. Ask permission before taking photos of people.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/palestine",
+     "checked": "2026-10-31",
+     "heading": "Dress standards"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "Respect religious and cultural customs and laws during Ramadan. Avoid eating, drinking or smoking in public or in front of people who are fasting.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/palestine",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Palestine travel advice (updated 14 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/palestine",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Get to know local and religious customs. Take care not to offend. Public displays of affection between men and women or people of the same sex will likely cause offence.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Palestine travel advice (updated 14 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/palestine",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

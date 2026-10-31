@@ -2,26 +2,37 @@
  "place": "ye",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance. Very difficult to obtain.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-YEMEN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa before travelling to Yemen.",
+   "other": "Private companies outside Yemen sell Socotra visas and flight packages. Smartraveller advises against all travel here; advice is information, never an exclusion.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Yemen travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Yemeni Rial (YER)",
+   "cash_card_notes": "The local currency is the Yemeni Rial (YER). Banking facilities are limited. ATMs are rare outside Sana'a. It's difficult to exchange Australian dollars in Yemen. The US dollar in cash, is the most easily convertible currency. Exchange currency at official exchange stores only. You may need to use cash for most transactions in Yemen. Most places, including hotels and hospitals, do not accept payment via bank or credit cards. Yemen has rules about the amount of currency you can bring in and take out. Currency limits can change. Check details with your nearest Embassy or Consulate of Yemen prior",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Variable",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-YEMEN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Yemen travel advice (updated 23 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,86 @@
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "If you wish to marry a Yemeni national, your partner will first need approval from the Government of Yemen. Check current requirements and timeframes directly with the relevant local authorities or contact your nearest Embassy or Consulate of Yemen.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-10-31",
+     "heading": "Marriage"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Punishment for possessing, using or trafficking illegal drugs is severe. Penalties include fines, jail or the death penalty. Never attempt to export ‘Qat’. Bringing it to neighbouring or other countries can lead to drug trafficking charges.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Authorities can detain you without charge if you're suspected of committing an offence. You may have to wait months for legal help or for a court appearance while authorities investigate. Trials are held under Islamic law and procedures. People convicted of serious offences can face: long jail sentences heavy fines deportation Penalties for some offences are severe and can carry the death penalty. These offences include: murder robbery arson/explosion endangering transport and communications adultery prostitution same-sex relationships abandoning the Islamic religion promoting religions other than Islam Some crimes are punishable by lashing and imprisonment. These include drinking alcohol in",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-10-31",
+     "heading": "Serious offences"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Yemen doesn't recognise or allow same-sex marriages and rights. Same-sex relationships are illegal, and sentences can include imprisonment or the death penalty. Same-sex public displays of affection and pride flags are strictly prohibited by law, carry a significant risk of immediate arrest.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ laws"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holy month of Ramadan is observed in Yemen. Respect religious and cultural customs and laws at this time. During Ramadan, eating, drinking, and smoking may be illegal in public during the day. Avoid dressing inappropriately, eating, drinking or smoking in public or around people who are fasting. Seek local advice to avoid offence. Explore our Ramadan page to learn more, including dates for Ramadan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "dress-and-public-behaviour",
+     "rule": "There are strict Islamic codes of dress and behaviour. Any disrespect for Islam will cause offence. Be modest in your dress and behaviour. Take care not to offend. If in doubt, get local advice. Women should wear a headscarf and cover their arms and legs. Men should not wear shorts or unbuttoned shirts.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-10-31",
+     "heading": "Dress and behaviour standards"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Non-Muslims may not enter mosques. Public displays of affection may cause offence. It's generally unacceptable for unmarried couples to live together. Hotels may not allow couples to stay unless they can prove they are officially married.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-10-31",
+     "heading": "Other local customs"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Some medicines may not be available in Yemen, and there may be shortages of other medicines. Some skincare products and e-cigarette refills may contain ingredients that are illegal in Yemen, such as Cannabidiol (CBD) oil. CBD oil or products are illegal in Yemen, even if they're for medical or recreational purposes. It's a serious crime to carry illegal drugs or CBD oil or products in Yemen. Punishment can result in imprisonment and deportation. For more information or to check if your medication is legal in Yemen, contact and check with your nearest Embassy or Consulate of Yemen prior to your departure. Local authorities may detain or deport travellers for: carrying medication to treat HIV/",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Yemen travel advice (updated 23 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

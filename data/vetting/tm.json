@@ -2,26 +2,37 @@
  "place": "tm",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance. Invitation letter needed.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TURKMENISTAN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa before arrival, even in transit, applied for with a letter of invitation from the State Migration Service.",
+   "other": "Transit visa holders register at entry and exit points and report route changes. A passport and visa may not be enough; fees may be charged on arrival.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Turkmenistan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "extremely difficult",
+   "cash_card_notes": "The official currency is the Turkmen Manat (TMM). Declare any foreign currency when you arrive and depart. Turkmenistan is largely a cash-based economy. Traveller's cheques are only accepted in some major hotels. There are very few ATMs in Ashgabat, and none outside the capital city. US dollars can be readily exchanged. Make sure banknotes are in good condition and aren't counterfeit. Only use authorised foreign exchange providers. Converting local currency is extremely difficult. Local exchanges and hotels offer widely varying exchange rates, so exercise caution and exchange only as much as y",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $120",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TURKMENISTAN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Turkmenistan travel advice (updated 17 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,94 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Always carry ID. Security officials often ask for ID. Internal security may target foreigners with extra security checks and increased scrutiny. Internal security may question you, search your home or car.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan",
+     "checked": "2026-10-31",
+     "heading": "Proof of identity"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They can include long prison sentences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan",
+     "checked": "2026-10-31",
+     "heading": "Drug laws"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "Turkmenistan has blocked many social media platforms, messaging apps and websites, including WhatsApp, Telegram, Facebook, Instagram, LinkedIn, X, Signal and YouTube. Access to Yahoo, Gmail and Hotmail can also be difficult. Virtual Private Networks (VPNs) are illegal and actively blocked. Agency for Transport and Communications under the Cabinet of Ministers of Turkmenistan",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan",
+     "checked": "2026-10-31",
+     "heading": "Cyber security laws"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Several informal restrictions have been introduced for women's appearance and behaviour. There have been some reports of women not being allowed to sit in the front seat of cars and ride with male drivers who are not their family members. It's illegal to: drive with a blood alcohol reading over zero percent (0%) smoke in restaurants, hotels and public spaces gift tobacco It's also illegal to take photos of sensitive sites, such as: military zones, assets and personnel transportation facilities government buildings Penalties can be severe and can include: imprisonment your equipment being confiscated",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "It's illegal to have same sex relationships. Obvious displays of affection, even between married couples, may offend. Police may harass or detain you.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan",
+     "checked": "2026-10-31",
+     "heading": "Relationships"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Obvious displays of affection, even between married couples, may offend. Police may harass or detain you. Avoid public displays of affection.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan",
+     "checked": "2026-10-31",
+     "heading": "Behaviour"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holy month of Ramadan is observed. Respect religious and cultural customs and laws at this time. During Ramadan, eating, drinking and smoking may be illegal in public during the day. If you're not fasting, avoid these activities around people who are. Get local advice to avoid offence. Explore our Ramadan page to learn more, including dates for Ramadan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Some sleeping tablets and medications containing codeine are controlled. If you plan to bring medication, check if it's legal in Turkmenistan. Declare all prescription medication and other restricted items on arrival. Ask DFAT to authenticate medical documents if needed before you travel. You could be refused entry, prosecuted or charged if you: carry amounts over the legal limit don't have a prescription for medication you're carrying don't declare medication and other restricted items, even if you have a prescription",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You will need both a valid Australian and International Driving Permit (IDP) to drive (digital driver's licences may not be accepted).",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan",
+     "checked": "2026-10-31",
+     "heading": "Driving Permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Turkmenistan travel advice (updated 17 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

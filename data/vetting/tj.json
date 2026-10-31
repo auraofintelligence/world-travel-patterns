@@ -2,26 +2,37 @@
  "place": "tj",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa required in advance.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TAJIKISTAN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "Visa-free stays up to 30 days.",
+   "max_stay": "30 days",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Tajikistan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/tajikistan",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The official currency is the Tajik Somoni (TJS). US dollars and euros are readily accepted. You can't exchange US banknotes issued before 1996. When entering Tajikistan, you are required to declare any amount of foreign currency exceeding the equivalent of USD5,000. You'll need to declare cash amounts exceeding the equivalent USD3,000 upon exiting Tajikistan. For amounts exceeding the equivalent USD10,000 you must provide documents confirming the origin of the money in addition to a customs declaration. It is prohibited to export local currency. Tajik legislation about importing and exporting ",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $75",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TAJIKISTAN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Tajikistan travel advice (updated 30 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/tajikistan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,79 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/tajikistan",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences include long prison terms in local jails.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/tajikistan",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "You must always carry a copy of your current passport and visa. In Tajikistan, it's illegal to: drive with a blood alcohol limit of over 0% take artefacts or cultural items out of Tajikistan without a permit import, produce or distribute religious literature without permission from state authorities wear clothing 'alien to Tajik culture', including the hijab smoke in public places, including on the street, and smoke in private cars with children or pregnant women not wear seatbelts It's also illegal to photograph sensitive sites, including: military zones, assets, or personnel transport facilities government buildings",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/tajikistan",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holiday month of Ramadan is observed in Tajikistan. Respect religious and cultural customs and laws at this time. During Ramadan, eating, drinking, or smoking may be illegal in public during the day. If you're not fasting, avoid these activities around people who are. Seek local advice to avoid offence. Explore our Ramadan page to learn more, including dates for Ramadan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/tajikistan",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Some sleeping tablets and medications containing codeine are controlled in Tajikistan. For specific information on bringing medication into Tajikistan, read the Embassy or consulate of Tajikistan and Ministry of Foreign Affairs of Tajikistan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/tajikistan",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive a vehicle in Tajikistan, you'll need: a current Australian driver's licence (a digital drivers licence's must be printed out and translated into Tajik or Russian) a valid International Driving Permit (IDP) to register the vehicle you are driving in your name Get your IDP before you leave Australia. Driving without it could void your insurance. Ministry of Internal Affairs of Tajikistan (Department of traffic police contacts)",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/tajikistan",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tajikistan travel advice (updated 30 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/tajikistan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Tajikistan has conservative and traditional standards of dress and behaviour. Public displays of affection may offend locals. If in doubt, dress conservatively and seek local advice. Same-sex relationships are legal in Tajikistan, but they're not widely accepted. Avoid public displays of affection.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Tajikistan travel advice (updated 30 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/tajikistan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

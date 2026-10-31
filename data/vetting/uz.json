@@ -2,26 +2,37 @@
  "place": "uz",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 30 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-UZBEKISTAN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa for stays up to 30 days.",
+   "max_stay": "30 days; longer needs a visa before arrival",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Uzbekistan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/uzbekistan",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Uzbekistan Som (UZS)",
+   "cash_card_notes": "The currency of Uzbekistan is the Uzbekistan Som (UZS). Rules apply to the import and export of foreign currency. Complete 2 customs declaration forms on arrival. Customs authorities will keep one form. Keep the other form because you'll need to show it when you leave.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-UZBEKISTAN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Uzbekistan travel advice (updated 23 January 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/uzbekistan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,79 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/uzbekistan",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They include lengthy prison sentences served in local jails. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/uzbekistan",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Police often ask to check your identity. Always carry your passport and visa. Things that are illegal in Uzbekistan include: same-sex relationships between males (LGBTQIA+ persons are generally discriminated against and have been subject to harassment, verbal and physical abuse, across the country) not declaring medications you're carrying on entry (see 'Travel'). It's also illegal to take photos of: government or military buildings public transport infrastructure, including metro stations - LGBTQIA+ travellers",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/uzbekistan",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Uzbekistan has national service obligations. If you keep your Uzbekistan citizenship and visit Uzbekistan, you may need to do national service. There are penalties for citizens of Uzbekistan who serve in the military or security forces of another country. - Dual nationals",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/uzbekistan",
+     "checked": "2026-10-31",
+     "heading": "National service"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Sleeping tablets or medicines containing codeine are controlled in Uzbekistan. If you plan to take medication, check if it's legal in Uzbekistan. Carry copies of your prescription and a letter from your doctor, translated into Russian or Uzbek. The letter must also state: your diagnosis the name of the prescription the required dosage the length of time you need to take it that it's for personnel use Declare all medications on arrival. You could face fines or criminal charges if either: you don't declare a medication, or the quantity exceeds legal limits Officials may charge you for undeclared or excessive medicine quantities even if you have a doctor's prescription and letter. Contact the n",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/uzbekistan",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can drive in Uzbekistan if you have both: an Australian driver's licence (digital driver's licences may not be accepted) an International Driving Permit (IDP) You must get your IDP before departing Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/uzbekistan",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Uzbekistan travel advice (updated 23 January 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/uzbekistan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Standards of dress and behaviour are conservative. Take care not to offend. If in doubt, dress conservatively and seek local advice. The Islamic holy month of Ramadan is observed in Uzbekistan. Respect religious and cultural customs and laws. During Ramadan, eating, drinking and smoking may be illegal in public during the day. If you're not fasting, avoid these activities around people who are. Seek local advice to avoid offence. Explore our Ramadan page to learn more, including dates for Ramadan.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Uzbekistan travel advice (updated 23 January 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/uzbekistan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

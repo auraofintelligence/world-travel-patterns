@@ -2,26 +2,37 @@
  "place": "kz",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 30 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-KAZAKHSTAN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "Visa-free up to 30 days each entry, no more than 90 days in 180.",
+   "max_stay": "30 days an entry; 90 in 180",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Kazakhstan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/kazakhstan",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Kazakh Tenge (KZT)",
+   "cash_card_notes": "The local currency is the Kazakh Tenge (KZT). Declare amounts over USD 10,000 or equivalent on arrival and departure. This covers all forms of currency, not only cash. Only change your money at authorised commercial banks and exchange bureaus. Credit cards are widely accepted in Astana and Almaty. Outside of Astana and Almaty, ATMs are limited. Contact your bank to make sure your cards will work. - Kazakhstan Government advice for importing cash and goods",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-KAZAKHSTAN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Kazakhstan travel advice (updated 11 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/kazakhstan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,38 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/kazakhstan",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "If you plan to bring medication, check if it's legal in Kazakhstan. Declare all medicine on arrival. You could face charges if you either: don't declare restricted medicines carry amounts over the legal limit Officials may charge you for undeclared medicines even if you have a doctor's prescription and letter. Contact the nearest embassy or consulate of Kazakhstan for advice.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/kazakhstan",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive, you need both: a valid driver's licence (digital driver's licences may not be accepted) an International Driving Permit (IDP) Get your IDP before you leave Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/kazakhstan",
+     "checked": "2026-10-31",
+     "heading": "Driving permits"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kazakhstan travel advice (updated 11 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/kazakhstan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }
