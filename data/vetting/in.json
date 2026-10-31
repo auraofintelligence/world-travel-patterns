@@ -143,15 +143,12 @@
      }
     },
     "mixed-mission": {
-     "status": "confirm",
-     "route": "Combine e-Business, conference, cultural-event or Employment logic around the actual schedule",
-     "detail": "India publishes several useful purpose distinctions, making a mixed mission easier to split cleanly.",
-     "next": "Give the principal host a single schedule showing meetings, public appearances, teaching, sales and payment.",
-     "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "IND-PATH-MIXED-MISSION-STATUS"
-     }
+     "status": "conditional",
+     "route": "e-Business visa for the business parts",
+     "detail": "The e-Business visa covers business activities; employment, journalism or filmmaking need other visas.",
+     "next": "Ask the High Commission of India.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "volunteering": {
      "status": "confirm-in-writing",
@@ -168,11 +165,12 @@
      "checked": "2026-11-01"
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of India, Kingston",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of India, Kingston which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "A film or journalist visa, not an e-Business or tourist e-Visa",
+     "detail": "The e-Business visa isn't valid for journalism or filmmaking.",
+     "next": "Ask the High Commission of India which film visa fits.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     }
    },
    "status": "conditional",
@@ -241,6 +239,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/india",
      "checked": "2026-10-31",
      "supports": "filming, research or volunteering as read on 2026-11-01"
+    },
+    {
+     "title": "India expands permissible activities for business e-visa holders",
+     "authority": "Signal: BAL",
+     "url": "https://www.bal.com/immigration-news/india-expands-permissible-activities-for-business-e-visa-holders",
+     "checked": "2026-11-01",
+     "supports": "e-Business visa covers business activities, not employment, journalism or filmmaking"
     }
    ]
   },

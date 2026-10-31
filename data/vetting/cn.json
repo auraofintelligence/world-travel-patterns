@@ -56,15 +56,11 @@
      }
     },
     "unpaid-speaking": {
-     "status": "confirm",
-     "route": "Visa-free exchange or F visa only when the host and authorities classify it as non-commercial exchange",
-     "detail": "F covers exchanges and visits; it is not an automatic performance exemption. A programmed appearance may still need cultural approval even without a fee.",
-     "next": "Ask the host to confirm the classification and any cultural approval in writing before using the exchange lane.",
-     "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CHN-PATH-UNPAID-SPEAKING-STATUS"
-     }
+     "status": "conditional",
+     "route": "Visa-free entry (30 days, until 31 December 2026) for exchange visits",
+     "detail": "Exchange visits and business are visa-free purposes; work isn't. An unpaid talk as part of an exchange fits; anything paid doesn't.",
+     "next": "Ask the Chinese Embassy if the host pays you.",
+     "checked": "2026-11-01"
     },
     "paid-speaking": {
      "status": "specialist",
@@ -144,28 +140,24 @@
      }
     },
     "mixed-mission": {
-     "status": "confirm",
-     "route": "Build a host-backed activity schedule, then choose visa-free exchange, M, F or Z",
-     "detail": "China has several workable keys; the correct one follows the real actions and remuneration.",
-     "next": "Send one precise schedule to the principal Chinese host for route classification.",
-     "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CHN-PATH-MIXED-MISSION-STATUS"
-     }
+     "status": "conditional",
+     "route": "Visa-free entry (30 days, until 31 December 2026)",
+     "detail": "Business, tourism and exchange parts fit; work, study or reporting parts need a visa.",
+     "next": "Separate those parts out.",
+     "checked": "2026-11-01"
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the People's Republic of China, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the People's Republic of China, Yarralumla which visa covers it, in writing.",
+     "status": "specialist",
+     "route": "Journalist (J) visa or the right visa, not visa-free entry",
+     "detail": "Visa-free entry doesn't cover news coverage; reporting needs a journalist visa.",
+     "next": "Apply through the Chinese Embassy with the host's paperwork.",
      "checked": "2026-11-01"
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the People's Republic of China, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the People's Republic of China, Yarralumla which visa covers it, in writing.",
+     "status": "conditional",
+     "route": "Visa-free entry (30 days, until 31 December 2026) for exchange visits",
+     "detail": "Academic exchange visits are covered; paid research or study needs a visa.",
+     "next": "Ask the Chinese Embassy if it's paid or long.",
      "checked": "2026-11-01"
     },
     "volunteering": {
@@ -256,6 +248,13 @@
      "url": "https://english.beijing.gov.cn/whatson/events/exhibition/202606/t20260611_4695970.html",
      "checked": "2026-08-20",
      "supports": "publishing opportunity signal"
+    },
+    {
+     "title": "What you should know about China's unilateral visa-free policies",
+     "authority": "Beijing Municipal Government",
+     "url": "https://english.beijing.gov.cn/latest/news/202505/t20250523_4096086.html",
+     "checked": "2026-11-01",
+     "supports": "visa-free purposes: business, tourism, visiting relatives and friends, exchange visits, transit; not work, study or news coverage"
     }
    ]
   },
