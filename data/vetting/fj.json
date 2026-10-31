@@ -283,17 +283,17 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Authority to Work or Study while on a Visitors Permit (up to 12 weeks) or a Short Term Work Permit",
-     "detail": "Paid work beyond the business visit needs the authority or a work permit.",
-     "next": "Get the Ministry of Immigration's answer in writing through the host.",
+     "status": "specialist",
+     "route": "Short Term Work Permit (or the Authority to Work for consultancy)",
+     "detail": "Paid work beyond a business visit needs a Short Term Work Permit; the business visitor permit is 21 days and not for paid work.",
+     "next": "Ask the host to apply before travel.",
      "checked": "2026-11-01"
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Authority to Work or Study while on a Visitors Permit (up to 12 weeks)",
-     "detail": "Sales and paid appearances count as work.",
-     "next": "Ask the Ministry through the publisher or venue.",
+     "status": "conditional",
+     "route": "Business visitor permit if unpaid; Short Term Work Permit (or the Authority to Work for consultancy) if paid",
+     "detail": "An unpaid talk fits a business visit; paid appearances need a permit.",
+     "next": "Keep it unpaid, or ask the host to apply.",
      "checked": "2026-11-01"
     },
     "ai-teaching": {
@@ -325,17 +325,17 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Authority to Work or Study while on a Visitors Permit (up to 12 weeks) or a Short Term Work Permit",
-     "detail": "Performances and exhibitions for payment are work.",
-     "next": "Ask the Ministry through the venue or festival.",
+     "status": "specialist",
+     "route": "Short Term Work Permit (or the Authority to Work for consultancy)",
+     "detail": "Paid performance isn't allowed on a visitor permit.",
+     "next": "Ask the promoter to apply before travel.",
      "checked": "2026-11-01"
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Depends on the mix",
-     "detail": "Visitor, business visitor and authority-to-work routes each cover different parts.",
-     "next": "Write the plan out and ask the Ministry.",
+     "status": "conditional",
+     "route": "Visitor or business visitor permit, plus a work permit for any paid part",
+     "detail": "Visitor routes don't cover paid work.",
+     "next": "Separate paid parts out.",
      "checked": "2026-11-01"
     },
     "filming": {
@@ -388,6 +388,13 @@
      "url": "https://emergefilmsolutions.com/country/fiji/",
      "checked": "2026-11-01",
      "supports": "film permit lead times"
+    },
+    {
+     "title": "Short Term Work Permit",
+     "authority": "Ministry of Immigration, Fiji",
+     "url": "https://immigration.gov.fj/short-term-work-permit/",
+     "checked": "2026-11-01",
+     "supports": "for expertise needed for one year or less; not renewable"
     }
    ]
   }

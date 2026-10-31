@@ -325,24 +325,24 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "French territory rules (to confirm)",
-     "detail": "Short tourist stays are visa-free; work needs a French visa and the territory's own work authorisation.",
-     "next": "Ask the Consulate-General of France in Sydney or the territory's government.",
+     "status": "specialist",
+     "route": "Work permit from SEFI, unless an exempt mission under three months",
+     "detail": "Paid work needs a work permit from SEFI; certain staff sent by an employer outside French Polynesia for missions under three months are exempt.",
+     "next": "Ask SEFI whether your mission is exempt.",
      "checked": "2026-11-01"
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "French territory rules (to confirm)",
-     "detail": "Short tourist stays are visa-free; work needs a French visa and the territory's own work authorisation.",
-     "next": "Ask the Consulate-General of France in Sydney or the territory's government.",
+     "status": "specialist",
+     "route": "Work permit from SEFI, unless an exempt mission under three months",
+     "detail": "Paid work needs a work permit from SEFI; certain staff sent by an employer outside French Polynesia for missions under three months are exempt.",
+     "next": "Ask SEFI whether your mission is exempt.",
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "French territory rules (to confirm)",
-     "detail": "Short tourist stays are visa-free; work needs a French visa and the territory's own work authorisation.",
-     "next": "Ask the Consulate-General of France in Sydney or the territory's government.",
+     "status": "specialist",
+     "route": "Work permit from SEFI, unless an exempt mission under three months",
+     "detail": "Paid work needs a work permit from SEFI; certain staff sent by an employer outside French Polynesia for missions under three months are exempt.",
+     "next": "Ask SEFI whether your mission is exempt.",
      "checked": "2026-11-01"
     },
     "remote-work": {
@@ -367,17 +367,17 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "French territory rules (to confirm)",
-     "detail": "Short tourist stays are visa-free; work needs a French visa and the territory's own work authorisation.",
-     "next": "Ask the Consulate-General of France in Sydney or the territory's government.",
+     "status": "specialist",
+     "route": "Work permit from SEFI, unless an exempt mission under three months",
+     "detail": "Paid work needs a work permit from SEFI; certain staff sent by an employer outside French Polynesia for missions under three months are exempt.",
+     "next": "Ask SEFI whether your mission is exempt.",
      "checked": "2026-11-01"
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "French territory rules (to confirm)",
-     "detail": "Short tourist stays are visa-free; work needs a French visa and the territory's own work authorisation.",
-     "next": "Ask the Consulate-General of France in Sydney or the territory's government.",
+     "status": "conditional",
+     "route": "Visa-free stay plus SEFI permission for any paid part",
+     "detail": "Paid work needs a work permit from SEFI; certain staff sent by an employer outside French Polynesia for missions under three months are exempt.",
+     "next": "Separate paid parts out.",
      "checked": "2026-11-01"
     },
     "filming": {
@@ -409,6 +409,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/pacific/french-polynesia",
      "checked": "2026-10-31",
      "supports": "entry conditions as read on 2026-10-31"
+    },
+    {
+     "title": "Permis de travail (travailleurs étrangers)",
+     "authority": "Service de l'emploi (SEFI), Polynésie française",
+     "url": "https://www.service-public.pf/sefi/service-emploi/les-travailleurs-etrangers/",
+     "checked": "2026-11-01",
+     "supports": "work permits; some missions under three months by staff of an overseas employer are exempt"
     }
    ]
   }
