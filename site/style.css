@@ -191,6 +191,13 @@ select.filter { appearance: auto; }
 .levels li::before { content: ""; position: absolute; left: -7px; top: 13px; width: 12px; height: 12px; border-radius: 50%; background: var(--c, var(--never)); box-shadow: 0 0 0 3px var(--surface); }
 .levels .lvl { font-weight: 600; margin-right: 8px; }
 .levels .gap { color: var(--muted); font-style: italic; }
+.months { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 3px; margin: 8px 0 4px; }
+.months .mo { border: 1px solid var(--line); border-radius: 6px; padding: 4px 3px; font-size: 11px; line-height: 1.25; min-width: 0; overflow: hidden; }
+.months .mo b { display: block; }
+.months .mo span { display: block; color: var(--muted); overflow-wrap: anywhere; }
+.months .mo i { display: block; font-style: normal; color: var(--due); overflow-wrap: anywhere; }
+.months .mo.hz { border-color: var(--due); }
+@media (max-width: 640px) { .months { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
 .levels .detail { color: var(--ink-2); font-size: 0.95rem; margin-top: 4px; }
 .acts { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); margin-top: 8px; }
 .act { padding: 10px 12px; border-radius: 12px; background: var(--surface-2); border: 1px solid var(--line); font-size: 0.86rem; }

@@ -26,6 +26,38 @@ def age(record, on):
     return f"checked {record['checked']} ({(on - checked).days} days ago)" if checked else "date missing"
 
 
+MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+
+
+def window_months(start, end):
+    if not start:
+        return set()
+    end = end or start
+    months, d = set(), start.replace(day=1)
+    while d <= end:
+        months.add(d.month)
+        d = (d + datetime.timedelta(days=32)).replace(day=1)
+    return months
+
+
+def public_holidays(spine, places, start, end, on):
+    """Machine public holidays (Nager.Date, a signal) for the trip window, or the next 90 days."""
+    first, last = (start, end or start) if start else (on, on + datetime.timedelta(days=90))
+    found = []
+    for year in sorted({first.year, last.year}):
+        cal = read(ROOT / f"data/calendar/holidays-{year}.json", {"places": {}})
+        for h in cal["places"].get(spine, []):
+            d = parse_date(h["date"])
+            if first <= d <= last:
+                found.append(h)
+    label = "during the window" if start else "in the next 90 days"
+    out = [f"### Public holidays {label} ({places[spine]['name']})", "",
+           "_Machine data from Nager.Date, a signal: confirm closures locally._", ""]
+    out += [f"- {h['date']}: {h['name']}" + (f" ({h['local_name']})" if h.get("local_name") and h["local_name"] != h["name"] else "")
+            + (f", regions {', '.join(h['regions'])}" if h.get("regions") else "") for h in found] or ["- None found in the holiday data."]
+    return out + [""]
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("place")
@@ -87,7 +119,20 @@ def main():
                     gaps += 0 if a else 1
             for law in rec.get("laws", []):
                 lines.append(f"  - {law['topic']}: {law['rule']} ({law.get('source', 'no source')})")
+            if pid == "seasons-and-flow" and rec.get("months"):
+                # Only the trip's months when a window is given, else the whole year.
+                wanted = window_months(start, parse_date(args.end) if args.end else None)
+                for m in rec["months"]:
+                    if wanted and m["month"] not in wanted:
+                        continue
+                    bits = [b for b in (m.get("season"), m.get("hazard") and f"hazard: {m['hazard']}", m.get("visitor_flow") and f"visitors: {m['visitor_flow']}") if b]
+                    lines.append(f"  - {MONTHS[m['month'] - 1]}: {'; '.join(bits) or 'not yet mapped'}")
+            for key in ("festivals", "closures", "moving_calendars", "protocol_notes"):
+                for item in rec.get(key) or []:
+                    lines.append(f"  - {key.replace('_', ' ')}: {item if isinstance(item, str) else item.get('what')}")
         lines.append("")
+        if pid == "culture-cycles":
+            lines += public_holidays(args.place.split("/")[0], places, start, parse_date(args.end) if args.end else None, on)
 
     zones = [args.place] + [z for z in descendants(places, args.place) if places[z].get("zone_scan")]
     lines += ["## Special permit zone scan", ""]

@@ -76,6 +76,124 @@
      "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
+  },
+  "seasons-and-flow": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "months": [
+    {
+     "month": 1,
+     "season": "dry season",
+     "hazard": null,
+     "visitor_flow": null
+    },
+    {
+     "month": 2,
+     "season": "dry season",
+     "hazard": null,
+     "visitor_flow": null
+    },
+    {
+     "month": 3,
+     "season": "dry season",
+     "hazard": null,
+     "visitor_flow": null
+    },
+    {
+     "month": 4,
+     "season": "dry season",
+     "hazard": null,
+     "visitor_flow": null
+    },
+    {
+     "month": 5,
+     "season": "wet season",
+     "hazard": null,
+     "visitor_flow": null
+    },
+    {
+     "month": 6,
+     "season": "wet season",
+     "hazard": null,
+     "visitor_flow": null
+    },
+    {
+     "month": 7,
+     "season": "wet season",
+     "hazard": "typhoon season (peak August and September)",
+     "visitor_flow": null
+    },
+    {
+     "month": 8,
+     "season": "wet season",
+     "hazard": "typhoon season (peak August and September)",
+     "visitor_flow": null
+    },
+    {
+     "month": 9,
+     "season": "wet season",
+     "hazard": "typhoon season (peak August and September)",
+     "visitor_flow": null
+    },
+    {
+     "month": 10,
+     "season": "wet season",
+     "hazard": "typhoon season (peak August and September)",
+     "visitor_flow": null
+    },
+    {
+     "month": 11,
+     "season": "wet season",
+     "hazard": "typhoon season (peak August and September)",
+     "visitor_flow": null
+    },
+    {
+     "month": 12,
+     "season": "dry season",
+     "hazard": null,
+     "visitor_flow": null
+    }
+   ],
+   "notes": "Wet May to November, dry December to April; rainfall varies greatly north to south. Visitor flow (peak and quiet months) is still to be read from the tourism authority's statistics.",
+   "sources": [
+    {
+     "title": "Climate change in the Pacific, Volume 2, Ch7-Marshall-Islands",
+     "authority": "Pacific Climate Change Science Program (Australian Bureau of Meteorology and CSIRO), 2011",
+     "url": "https://www.pacificclimatechange.net/sites/default/files/documents/PCCSP_CCIP_Volume-2_Ch7-Marshall-Islands.pdf",
+     "checked": "2026-10-31",
+     "supports": "wet and dry seasons"
+    },
+    {
+     "title": "Marshall Islands travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/marshall-islands",
+     "checked": "2026-10-31",
+     "supports": "cyclone or typhoon window as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "signal",
+   "public_holidays": "11 in 2027 in data/calendar (machine data; the brief lists those in a trip window)",
+   "moving_calendars": [
+    "Easter moves each year (2027: Good Friday and Easter Monday 2027-03-26)"
+   ],
+   "festivals": [],
+   "closures": [],
+   "protocol_notes": [],
+   "note": "Festivals and community closures are still to be read from each place's own tourism office and communities.",
+   "sources": [
+    {
+     "title": "Public holidays (Nager.Date)",
+     "authority": "Signal: machine holiday data",
+     "url": "https://date.nager.at/",
+     "checked": "2026-10-31",
+     "supports": "11 public holidays in 2027"
+    }
+   ]
   }
  }
 }
