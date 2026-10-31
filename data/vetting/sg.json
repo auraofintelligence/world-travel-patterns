@@ -155,10 +155,10 @@
      }
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of the Republic of Singapore, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of the Republic of Singapore, Yarralumla which visa covers it, in writing.",
+     "status": "specialist",
+     "route": "Miscellaneous Work Pass (journalists and crew, up to 60 days)",
+     "detail": "Foreign journalists, reporters and accompanying crew not sponsored by a Singapore Government agency apply for a Miscellaneous Work Pass.",
+     "next": "Apply through MOM before the assignment.",
      "checked": "2026-11-01"
     },
     "research": {
@@ -169,10 +169,10 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of the Republic of Singapore, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of the Republic of Singapore, Yarralumla which visa covers it, in writing.",
+     "status": "low",
+     "route": "No work pass for unpaid charitable volunteering",
+     "detail": "MOM: you don't need a work pass to take part in volunteer activities if no payment is involved and the activity is for a charitable purpose.",
+     "next": "Keep it unpaid and charitable.",
      "checked": "2026-11-01"
     }
    },
@@ -319,6 +319,27 @@
      "url": "https://www.superai.com/",
      "checked": "2026-08-21",
      "supports": "large international AI event and current 2027 speaker application opportunity signal"
+    },
+    {
+     "title": "Work Pass Exempt Activities",
+     "authority": "Ministry of Manpower, Singapore",
+     "url": "https://www.mom.gov.sg/passes-and-permits/work-pass-exempt-activities",
+     "checked": "2026-11-01",
+     "supports": "seminars and short-term exempt activities"
+    },
+    {
+     "title": "Miscellaneous Work Pass",
+     "authority": "Ministry of Manpower, Singapore",
+     "url": "https://www.mom.gov.sg/passes-and-permits/miscellaneous-work-pass",
+     "checked": "2026-11-01",
+     "supports": "journalists and crew up to 60 days"
+    },
+    {
+     "title": "Working in Singapore (volunteering)",
+     "authority": "Ministry of Manpower, Singapore",
+     "url": "https://www.mom.gov.sg/passes-and-permits/dependants-pass/working-in-singapore",
+     "checked": "2026-11-01",
+     "supports": "unpaid charitable volunteering needs no work pass"
     }
    ]
   },

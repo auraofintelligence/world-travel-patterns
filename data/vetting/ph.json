@@ -67,15 +67,12 @@
      }
     },
     "paid-speaking": {
-     "status": "confirm",
-     "route": "BI classification required for a sub-three-month tour; Commercial SWP is published for three to six months",
-     "detail": "Consultants, specialists and service suppliers appear in the official material, including offshore payment arrangements, but a day or week engagement falls outside the current page's stated duration.",
-     "next": "Use one Philippine petitioner and get BI's written classification for every city, venue, payment source and duty.",
-     "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "PHL-PATH-PAID-SPEAKING-STATUS"
-     }
+     "status": "confirm-in-writing",
+     "route": "Special Work Permit (to confirm)",
+     "detail": "Paid short-term work needs a Special Work Permit; speakers aren't named on the pages read.",
+     "next": "Ask the Bureau of Immigration through the host.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "book-launch": {
      "status": "confirm",
@@ -133,15 +130,12 @@
      }
     },
     "artist": {
-     "status": "conditional",
-     "route": "Artist and athlete Special Work Permit",
-     "detail": "The Bureau of Immigration publishes a route for temporary artists and performers appearing before an audience for a fee.",
-     "next": "Have the Philippine promoter petition and list any additional agency approvals.",
-     "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "PHL-PATH-ARTIST-STATUS"
-     }
+     "status": "specialist",
+     "route": "Special Work Permit, filed by the Philippine promoter or organiser",
+     "detail": "Artists and performers who perform before an audience for a fee need a Special Work Permit (initially 3 months, extendable by 3).",
+     "next": "Ask the organiser to file the Special Work Permit with the Bureau of Immigration.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "mixed-mission": {
      "status": "confirm",
@@ -270,6 +264,13 @@
      "url": "https://aicon.aap.ph/",
      "checked": "2026-08-20",
      "supports": "AI conference opportunity signal"
+    },
+    {
+     "title": "BI restricts special work permits to foreigners in 14 occupations",
+     "authority": "BusinessWorld, reporting the 2019 DOLE-DOJ-BI joint guidelines",
+     "url": "https://www.bworldonline.com/?p=239907",
+     "checked": "2026-11-01",
+     "supports": "Special Work Permit categories"
     }
    ]
   },

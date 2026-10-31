@@ -286,17 +286,19 @@
     },
     "book-launch": {
      "status": "confirm-in-writing",
-     "route": "Ask the Royal Embassy of Cambodia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Embassy of Cambodia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "route": "Business (EB) visa plus a Ministry of Labour work permit if paid",
+     "detail": "Paid appearances are work; a free talk isn't addressed.",
+     "next": "Ask the Royal Embassy of Cambodia.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Embassy of Cambodia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Embassy of Cambodia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Business (EB) visa plus a Ministry of Labour work permit",
+     "detail": "Teaching is work and needs the permit.",
+     "next": "Ask the host to arrange the permit.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "remote-work": {
      "status": "confirm-in-writing",
@@ -320,11 +322,12 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Embassy of Cambodia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Embassy of Cambodia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Business (EB) visa plus a Ministry of Labour work permit",
+     "detail": "Foreigners can't work without a work permit and employment card from the labour ministry.",
+     "next": "Ask the host to arrange the permit.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "mixed-mission": {
      "status": "confirm-in-writing",
@@ -334,11 +337,12 @@
      "checked": "2026-11-01"
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Embassy of Cambodia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Embassy of Cambodia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Ministry of Culture and Fine Arts filming permit (Apsara Authority for Angkor)",
+     "detail": "All film-making needs the culture ministry's approval; filming at the Angkor temples also needs the Apsara Authority's approval.",
+     "next": "Apply to the Ministry of Culture and Fine Arts (Cinema and Cultural Diffusion Department).",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "research": {
      "status": "confirm-in-writing",
@@ -362,6 +366,20 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/cambodia",
      "checked": "2026-10-31",
      "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
+    },
+    {
+     "title": "Culture ministry's approval required for all film-making (Phnom Penh Post, 9 March 2022)",
+     "authority": "Signal: news report",
+     "url": "https://www.pressreader.com/cambodia/the-phnom-penh-post/20220309/281659668507546",
+     "checked": "2026-11-01",
+     "supports": "Ministry of Culture and Fine Arts film permits"
+    },
+    {
+     "title": "A guide to employment permits for foreign workers in Cambodia",
+     "authority": "Signal: ASEAN Briefing",
+     "url": "https://www.aseanbriefing.com/news/guide-employment-permits-foreign-workers-cambodia/",
+     "checked": "2026-11-01",
+     "supports": "EB visa plus a Ministry of Labour work permit"
     }
    ]
   }

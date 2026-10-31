@@ -218,18 +218,20 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Lao People's Democratic Republic, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Lao People's Democratic Republic, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visa (on arrival at some ports, e-visa or embassy)",
+     "detail": "Business visits for meetings and conferences use a business visa, about 30 days, extendable.",
+     "next": "Confirm the category with the Lao Embassy.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Lao People's Democratic Republic, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Lao People's Democratic Republic, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visa",
+     "detail": "Conference attendance fits the business visa.",
+     "next": "Confirm with the Lao Embassy.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "unpaid-speaking": {
      "status": "confirm-in-writing",
@@ -239,11 +241,12 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Lao People's Democratic Republic, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Lao People's Democratic Republic, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Labour visa and work permit",
+     "detail": "The business visa doesn't allow paid work.",
+     "next": "Ask the Lao Embassy.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "book-launch": {
      "status": "confirm-in-writing",
@@ -281,11 +284,12 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Lao People's Democratic Republic, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Lao People's Democratic Republic, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Labour visa and work permit",
+     "detail": "Paid performance is work.",
+     "next": "Ask the Lao Embassy.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "mixed-mission": {
      "status": "confirm-in-writing",
@@ -323,6 +327,20 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/laos",
      "checked": "2026-10-31",
      "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
+    },
+    {
+     "title": "Laos business visa guide",
+     "authority": "Signal: visa agency",
+     "url": "https://corporate.btwvisas.com/visa-guide/laos-visa",
+     "checked": "2026-11-01",
+     "supports": "business visa for meetings; no paid work"
+    },
+    {
+     "title": "Visa",
+     "authority": "Lao Department of Immigration",
+     "url": "https://immigration.gov.la/visa",
+     "checked": "2026-11-01",
+     "supports": "visa categories"
     }
    ]
   }
