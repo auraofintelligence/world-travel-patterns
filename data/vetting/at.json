@@ -2,46 +2,23 @@
  "place": "at",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free Schengen short stay for Australians; 90 days in any 180-day period.",
-   "pre_arrival": "Check Austrian entry rules and the host's province, contract and planned activity.",
-   "max_stay": "Short visitor entry works for scouting and attendance; residence/work routes take longer.",
-   "checked": "2026-08-21",
-   "evidence": "official",
+   "status": "visa-free",
+   "summary": "Visa-free short stays as part of the Schengen area.",
+   "max_stay": "90 days in any 180-day period across the Schengen area. Austria also has a bilateral visa-free agreement with Australia: confirm how it applies with the Austrian Embassy Canberra.",
+   "pre_arrival": "None today. ETIAS is on the watch list.",
+   "other": "Schengen Entry/Exit System: fingerprints and photo are taken at the border on first entry (free, nothing to do before arrival). Carry your passport when crossing borders inside Schengen.",
+   "next_check": "Read the Austrian Embassy Canberra's page on the bilateral agreement (its old address now returns 404).",
    "sources": [
     {
-     "title": "Entry and residence in Austria",
-     "authority": "Austrian Embassy Canberra",
-     "url": "https://www.bmeia.gv.at/en/austrian-embassy-canberra/travel-to-austria/entry-and-residence/",
-     "checked": "2026-08-21",
-     "supports": "Australia-specific entry and residence guidance"
-    },
-    {
-     "title": "Permanent immigration",
-     "authority": "Migration.gv.at",
-     "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/",
-     "checked": "2026-08-21",
-     "supports": "Red-White-Red, startup and key-worker routes"
-    },
-    {
-     "title": "Other forms of settlement",
-     "authority": "Migration.gv.at",
-     "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/other-forms-of-settlement/",
-     "checked": "2026-08-21",
-     "supports": "artist settlement permit"
-    },
-    {
-     "title": "Act Governing the Employment of Foreign Nationals",
-     "authority": "Migration.gv.at",
-     "url": "https://www.migration.gv.at/fileadmin/downloads/gesetzestexte/AuslBG_englisch_1_10_2017.pdf",
-     "checked": "2026-08-21",
-     "supports": "employment and work-permission boundary"
+     "title": "Austria travel advice (updated 2 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/austria",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
    ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "AUT-ENTRY-SNAPSHOT"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official"
   },
   "activities": {
    "activities": {
@@ -183,13 +160,6 @@
    "evidence": "official",
    "sources": [
     {
-     "title": "Entry and residence in Austria",
-     "authority": "Austrian Embassy Canberra",
-     "url": "https://www.bmeia.gv.at/en/austrian-embassy-canberra/travel-to-austria/entry-and-residence/",
-     "checked": "2026-08-21",
-     "supports": "Australia-specific entry and residence guidance"
-    },
-    {
      "title": "Permanent immigration",
      "authority": "Migration.gv.at",
      "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/",
@@ -230,6 +200,102 @@
      "supports": "the Australian offices that give consular help"
     }
    ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Don't use or carry illegal drugs. Penalties for drug offences are severe. Possessing even small amounts of illegal drugs can lead to prison sentences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/austria",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "You must always carry ID, such as your passport. You may be asked to produce it by local police. Visitors are required to register with the police for stays longer than 3 days. If you're in public places or buildings, it's illegal to cover your face with clothing or objects so you can't be recognised. You may be fined or have to attend a police station if: you refuse to uncover your face when asked it's not possible to confirm your identity",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/austria",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "For specific information on Bringing Medication into Austria (Austrian Federal Ministry for Social Affairs, Health, Care and Consumer Protection).",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/austria",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can drive for up to 6 months with your valid Australian driver’s licence (digital driver's licences may not be accepted). You must also have either: an International Driving Permit (IDP), or a German translation of your licence",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/austria",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Austria travel advice (updated 02 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/austria",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Same-sex relationships are legal in Austria, and laws prohibit sexual discrimination. However, harassment and violence against LGBTQIA+ people have occurred.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Austria travel advice (updated 02 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/austria",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": null,
+   "cash_card_notes": "Austria's currency is the Euro (EUR). Only change money at banks or other authorised dealers or withdraw cash from ATMs. Credit and debit cards are widely accepted, but some businesses may only accept cash. Declare funds of more than 10,000 euros or equivalent if you're travelling between Austria and a non-EU country. This covers all forms of currency, not just cash. Failure to do so will result in fines. You don't need to declare cash if you're travelling to or from another EU country.",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Austria travel advice (updated 02 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/austria",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   }
- }
+ },
+ "retired_sources": [
+  {
+   "url": "https://www.bmeia.gv.at/en/austrian-embassy-canberra/travel-to-austria/entry-and-residence/",
+   "title": "Entry and residence in Austria",
+   "retired": "2026-10-31",
+   "why": "returns 404 (rechecked with a browser)"
+  },
+  {
+   "url": "https://www.bmeia.gv.at/en/austrian-embassy-canberra/travel-to-austria/entry-and-residence/",
+   "title": "Entry and residence in Austria",
+   "retired": "2026-10-31",
+   "why": "returns 404 (rechecked with a browser)"
+  }
+ ]
 }

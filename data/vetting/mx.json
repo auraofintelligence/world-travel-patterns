@@ -2,46 +2,29 @@
  "place": "mx",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Australians are generally visa-exempt visitors; the immigration officer sets the authorised stay, commonly up to 180 days for tourism/business without local remuneration.",
-   "pre_arrival": "Check current SRE/INM entry guidance, passport validity, return/onward evidence and the stated purpose.",
-   "max_stay": "Visitor permission can be generous but is not a work permit; temporary residence is the longer base.",
-   "checked": "2026-08-21",
-   "evidence": "official",
+   "status": "visa-free",
+   "summary": "No visa for tourism. With a chipped passport, e-gates at major airports authorise up to 180 days for tourism only.",
+   "max_stay": "Up to 180 days, but the officer sets the date: check the stamp or e-gate QR record.",
+   "pre_arrival": "Without e-gates: the online Multiple Immigration Form (FMM) and a QR code, shown on departure too. By land, get the passport stamped at the nearest immigration office and pay the fee.",
+   "other": "E-gates are for tourism only, adults only, and not when travelling with minors.",
    "sources": [
     {
-     "title": "Visas for foreigners",
-     "authority": "Secretariat of Foreign Affairs (SRE), Mexico",
+     "title": "Mexico travel advice (updated 15 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/mexico",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    },
+    {
+     "title": "Visas para extranjeros",
+     "authority": "Secretaría de Relaciones Exteriores",
      "url": "https://www.gob.mx/sre/acciones-y-programas/visas-para-extranjeros",
-     "checked": "2026-08-21",
-     "supports": "visa and visitor categories"
-    },
-    {
-     "title": "Autonomous immigration filters and eligible nationalities",
-     "authority": "National Institute of Migration (INM), Mexico",
-     "url": "https://www.gob.mx/inm/es/articulos/filtros-migratorios-autonomos-del-inm-requisitos-y-nacionalidades-que-pueden-utilizarlos?idiom=es",
-     "checked": "2026-08-21",
-     "supports": "Australian visitor entry signal"
-    },
-    {
-     "title": "FAQ: visa by job offer",
-     "authority": "National Institute of Migration (INM), Mexico",
-     "url": "https://www.gob.mx/inm/documentos/preguntas-frecuentes-para-solicitar-visa-por-oferta-de-empleo",
-     "checked": "2026-08-21",
-     "supports": "employer-led paid work route"
-    },
-    {
-     "title": "Mexican Embassy in Australia: business visa requirements",
-     "authority": "Embassy of Mexico in Australia",
-     "url": "https://embamex.sre.gob.mx/australia/images/stories/businessvisarequirements",
-     "checked": "2026-08-21",
-     "supports": "business documentation and consular evidence"
+     "checked": "2026-10-31",
+     "supports": "visa list"
     }
    ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "MEX-ENTRY-SNAPSHOT"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official"
   },
   "activities": {
    "activities": {
@@ -190,13 +173,6 @@
      "supports": "visa and visitor categories"
     },
     {
-     "title": "Autonomous immigration filters and eligible nationalities",
-     "authority": "National Institute of Migration (INM), Mexico",
-     "url": "https://www.gob.mx/inm/es/articulos/filtros-migratorios-autonomos-del-inm-requisitos-y-nacionalidades-que-pueden-utilizarlos?idiom=es",
-     "checked": "2026-08-21",
-     "supports": "Australian visitor entry signal"
-    },
-    {
      "title": "FAQ: visa by job offer",
      "authority": "National Institute of Migration (INM), Mexico",
      "url": "https://www.gob.mx/inm/documentos/preguntas-frecuentes-para-solicitar-visa-por-oferta-de-empleo",
@@ -230,6 +206,126 @@
      "supports": "the Australian offices that give consular help"
     }
    ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences, such as possession, use or trafficking are severe and include long prison sentences in local jails.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/mexico",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Smoking, including vaping, has been banned in all public places, including beaches, parks, hotels and restaurants. You may be fined or arrested.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/mexico",
+     "checked": "2026-10-31",
+     "heading": "Smoking"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "If you're considering entering into a surrogacy agreement, be aware that laws and regulations vary by state. While surrogacy is legal in some parts of Mexico, other areas have restrictions or outright bans, especially for foreign nationals. There is no legal framework to protect parents who pursue surrogacy in Mexico. Before proceeding: consult a legal expert familiar with Mexican surrogacy laws. research prospective agencies and clinics to ensure that you're dealing with a reputable organisation. ensure you understand the legal requirements and the potential challenges for citizenship and parental rights. be prepared for possible delays in obtaining necessary documentation for your child, s",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/mexico",
+     "checked": "2026-10-31",
+     "heading": "Surrogacy"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Property laws and time-share agreements can be complex. Before you buy or invest in property, do your research and get legal advice.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/mexico",
+     "checked": "2026-10-31",
+     "heading": "Property laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Public displays of affection may attract negative attention. Same-sex relationships are legal, but the country is conservative. Same-sex marriages are recognised.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/mexico",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "In Mexico, it's illegal to: conduct political activity, including demonstrations possess ancient Mexican artefacts or export them carry firearms or ammunition without a permit, including in Mexican waters drive a car without insurance fail to report a road accident. take photos and videos in restricted areas of Mexico City International Airport (AICM) urinate in public streets If you need a firearm permit, apply at a Mexican Embassy or Consulate before you arrive. You're responsible for any illegal items found in rented or borrowed vehicles. This applies even if you don't know they're there. If you're the victim of a crime and want to report the incident, do so immediately to the nearest bra",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/mexico",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive a vehicle, you'll need a current Australian driver's licence. Foreign digital driver’s licences are not accepted.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/mexico",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mexico travel advice (updated 15 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/mexico",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Ask permission before taking photos or video of handicraft and art markets, as well as people, especially children.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Mexico travel advice (updated 15 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/mexico",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": null,
+   "cash_card_notes": "Mexico's official currency is the Mexican Peso (MXN). Declare amounts over USD$10,000 or foreign currency equivalent. Do this on arrival and departure. This covers all forms of currency, not only cash. US dollars are widely accepted in holiday resort areas. You can't generally exchange Australian currency and traveller's cheques in Mexico. ATMs are widely available in cities and towns. Take care as credit card fraud occurs. Carry cash if you're travelling to rural areas. Most international hotels and tourist facilities accept credit and debit cards. Ask your bank whether your ATM card will wor",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Mexico travel advice (updated 15 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/mexico",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   }
- }
+ },
+ "retired_sources": [
+  {
+   "url": "https://www.gob.mx/inm/es/articulos/filtros-migratorios-autonomos-del-inm-requisitos-y-nacionalidades-que-pueden-utilizarlos?idiom=es",
+   "title": "Autonomous immigration filters and eligible nationalities",
+   "retired": "2026-10-31",
+   "why": "returns 404 (rechecked with a browser)"
+  },
+  {
+   "url": "https://www.gob.mx/inm/es/articulos/filtros-migratorios-autonomos-del-inm-requisitos-y-nacionalidades-que-pueden-utilizarlos?idiom=es",
+   "title": "Autonomous immigration filters and eligible nationalities",
+   "retired": "2026-10-31",
+   "why": "returns 404 (rechecked with a browser)"
+  }
+ ]
 }

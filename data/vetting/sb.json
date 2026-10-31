@@ -2,26 +2,47 @@
  "place": "sb",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa on arrival for 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SOLOMON-ISLANDS-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A tourist visa must now be applied for before entry: US$100 (about A$142 at RBA, 30 October 2026: A$1 = US$0.7040 = IDR 12,780), valid up to 90 days.",
+   "max_stay": "90 days, extendable for a fee",
+   "pre_arrival": "Submit a passport copy, itinerary, hotel booking and proof of funds. Proof of measles vaccination is recommended (a yellow card or doctor's letter); without it you may be examined on arrival.",
+   "other": "A temporary grace period still allows visa on arrival in some cases, length not announced.",
+   "next_check": "Watch for the end of the visa-on-arrival grace period.",
+   "sources": [
+    {
+     "title": "Solomon Islands travel advice (updated 28 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/solomon-islands",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    },
+    {
+     "title": "Visas",
+     "authority": "Solomon Islands Immigration Division",
+     "url": "https://immigration.gov.sb/visas/",
+     "checked": "2026-10-31",
+     "supports": "tourist visa application"
+    }
+   ],
+   "checked": "2026-10-31",
+   "evidence": "official"
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Solomon Islands Dollar (SBD)",
+   "cash_card_notes": "The local currency is the Solomon Islands Dollar (SBD). You must declare all amounts over SBD50,000 or foreign currency equivalent on arrival or departure. This covers all forms of currency, not only cash. International credit cards are accepted at hotels, resorts and major shops in Honiara. Credit card facilities are rarely available elsewhere. You can change currency and access ATMs at the airport and commercial banks in Honiara and other major centres.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SOLOMON-ISLANDS-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Solomon Islands travel advice (updated 28 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/solomon-islands",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +59,47 @@
      "url": "https://www.smartraveller.gov.au/destinations/pacific/solomon-islands",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Solomon Islands, you'll need both: a valid international driving permit (IDP) your current Australian driver's licence After 3 months, you'll need to get a local driver's licence.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/solomon-islands",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Solomon Islands travel advice (updated 28 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/solomon-islands",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Standards of dress and behaviour are conservative in Solomon Islands. Avoid public displays of affection and swearing, as these may offend locals.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Solomon Islands travel advice (updated 28 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/solomon-islands",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

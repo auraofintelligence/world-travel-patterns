@@ -2,46 +2,21 @@
  "place": "za",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Australians generally receive visa-free visitor entry for short tourism/business visits; confirm the current permitted stay and entry conditions.",
-   "pre_arrival": "Check DHA nationality/stay guidance, passport validity, return ticket, yellow-fever and any prescribed-activity paperwork.",
-   "max_stay": "Visitor entry is useful for scouting and attendance; local work and longer remote stays need a permit/category check.",
-   "checked": "2026-08-21",
-   "evidence": "official",
+   "status": "visa-free",
+   "summary": "No visa for tourism up to 90 days. Other purposes need a visa.",
+   "max_stay": "90 days; leaving and re-entering doesn't reset it automatically",
+   "passport_validity": "Check with the South African High Commission. Coming from other southern African countries, have at least two blank pages.",
    "sources": [
     {
-     "title": "Types of visas",
-     "authority": "South African Department of Home Affairs",
-     "url": "https://www.dha.gov.za/index.php/types-of-visas",
-     "checked": "2026-08-21",
-     "supports": "visitor and work visa framework"
-    },
-    {
-     "title": "Remote-work visitor visa requirements",
-     "authority": "South African Department of Home Affairs",
-     "url": "https://www.dha.gov.za/images/notices/8october24/Remote_Work_Visa_-_requirements_-_9_Oct_2024.pdf",
-     "checked": "2026-08-21",
-     "supports": "remote-work conditions and no local employment"
-    },
-    {
-     "title": "Work visas",
-     "authority": "South African Department of Home Affairs",
-     "url": "https://www.dha.gov.za/index.php/immigration-services/work-visas",
-     "checked": "2026-08-21",
-     "supports": "work authorisation categories"
-    },
-    {
-     "title": "Critical skills and immigration review",
-     "authority": "South African Department of Home Affairs",
-     "url": "https://www.dha.gov.za/images/PDFs/Report-of-the-Work-Visa-Review-2023.pdf",
-     "checked": "2026-08-21",
-     "supports": "critical-skills and work-policy context"
+     "title": "South Africa travel advice (updated 8 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/south-africa",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
    ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "ZAF-ENTRY-SNAPSHOT"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official"
   },
   "activities": {
    "activities": {
@@ -183,25 +158,11 @@
    "evidence": "official",
    "sources": [
     {
-     "title": "Types of visas",
-     "authority": "South African Department of Home Affairs",
-     "url": "https://www.dha.gov.za/index.php/types-of-visas",
-     "checked": "2026-08-21",
-     "supports": "visitor and work visa framework"
-    },
-    {
      "title": "Remote-work visitor visa requirements",
      "authority": "South African Department of Home Affairs",
      "url": "https://www.dha.gov.za/images/notices/8october24/Remote_Work_Visa_-_requirements_-_9_Oct_2024.pdf",
      "checked": "2026-08-21",
      "supports": "remote-work conditions and no local employment"
-    },
-    {
-     "title": "Work visas",
-     "authority": "South African Department of Home Affairs",
-     "url": "https://www.dha.gov.za/index.php/immigration-services/work-visas",
-     "checked": "2026-08-21",
-     "supports": "work authorisation categories"
     },
     {
      "title": "Critical skills and immigration review",
@@ -230,6 +191,89 @@
      "supports": "the Australian offices that give consular help"
     }
    ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include long prison sentences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/south-africa",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "If you plan to take part in surrogacy arrangements in South Africa, be aware of all legal and other risks involved. Get comprehensive and independent legal advice from a lawyer with specialisation in this area of South African law.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/south-africa",
+     "checked": "2026-10-31",
+     "heading": "Commercial surrogacy"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in South Africa, you must: have a valid Australian driver's licence, and be at least 18 years of age Driving without the correct licence can affect your insurance. If you move to South Africa, you can swap your Australian driver's licence for a South African licence. You must do so within the first 12 months of your residency. Contact the issuing road authority if you're requested to obtain a verification of your driver's licence to convert your licence. If you're going to ride a motorc",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/south-africa",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "South Africa travel advice (updated 08 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/south-africa",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": null,
+   "cash_card_notes": "There are limits to how much money you can bring into South Africa. Foreign nationals can enter with a maximum of either: 25,000 Rand (ZAR) $US10,000 foreign currency equivalent to $US10,000 You may have to declare the amount of money you're carrying when you arrive or leave. Information on declaration processes and requirements are available on the South African Revenue Service website.",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "South Africa travel advice (updated 08 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/south-africa",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   }
- }
+ },
+ "retired_sources": [
+  {
+   "url": "https://www.dha.gov.za/index.php/types-of-visas",
+   "title": "Types of visas",
+   "retired": "2026-10-31",
+   "why": "returns 404 (rechecked with a browser)"
+  },
+  {
+   "url": "https://www.dha.gov.za/index.php/immigration-services/work-visas",
+   "title": "Work visas",
+   "retired": "2026-10-31",
+   "why": "returns 404 (rechecked with a browser)"
+  },
+  {
+   "url": "https://www.dha.gov.za/index.php/types-of-visas",
+   "title": "Types of visas",
+   "retired": "2026-10-31",
+   "why": "returns 404 (rechecked with a browser)"
+  },
+  {
+   "url": "https://www.dha.gov.za/index.php/immigration-services/work-visas",
+   "title": "Work visas",
+   "retired": "2026-10-31",
+   "why": "returns 404 (rechecked with a browser)"
+  }
+ ]
 }

@@ -2,123 +2,30 @@
  "place": "id",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "B1 e-VOA/VOA for 30 days, normally extendable once",
-   "pre_arrival": "Use the official eVisa portal if applying online, check passport and onward-ticket requirements, and match the visa index to the real activity rather than relying on a tourism label.",
-   "max_stay": "B1 is initially 30 days and is normally extendable once for a further 30 days; C10 and C11 start at 60 days and can be extended within their published maximum.",
-   "checked": "2026-08-21",
-   "evidence": "official",
+   "status": "visa-on-arrival",
+   "summary": "e-Visa on arrival (apply online at least 48 hours ahead) or visa on arrival at listed ports, for tourism, government duties or business meetings.",
+   "max_stay": "30 days, extendable once by 30 days at an immigration office within the first 30 days.",
+   "pre_arrival": "All Indonesia Arrival Card online within 72 hours before travel; e-VOA after it. Fee IDR 500,000 (about A$39 at RBA, 30 October 2026: A$1 = US$0.7040 = IDR 12,780), cash may be needed at some checkpoints. Beware of fake sites.",
+   "passport_validity": "At least 6 months from entry, and 6 months from departure is advised. 12 months on an emergency passport.",
+   "other": "Working, research, volunteering or paid or sponsored online content on a tourist visa is illegal. A criminal record of any age can bring refusal.",
    "sources": [
     {
-     "title": "Official Indonesian eVisa portal",
-     "authority": "Directorate General of Immigration Indonesia",
+     "title": "Indonesia travel advice (updated 21 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    },
+    {
+     "title": "e-Visa",
+     "authority": "Directorate General of Immigration, Indonesia",
      "url": "https://evisa.imigrasi.go.id/",
-     "checked": "2026-08-21",
-     "supports": "official application channel and visa-index access"
-    },
-    {
-     "title": "Indonesian visa catalogue",
-     "authority": "Directorate General of Immigration Indonesia",
-     "url": "https://kanwilsultra.imigrasi.go.id/wna/daftar-visa-indonesia",
-     "checked": "2026-08-21",
-     "supports": "current B1, C7, C10, C11, C12, E28 and E33G categories; page updated 18 August 2026"
-    },
-    {
-     "title": "B1 Visa on Arrival",
-     "authority": "Directorate General of Immigration Indonesia",
-     "url": "https://kanwilpapuabarat.imigrasi.go.id/service-proxy/8?url=https%3A%2F%2Fwww.imigrasi.go.id%2Fwna%2Fdaftar-visa-indonesia%2FB1",
-     "checked": "2026-08-21",
-     "supports": "tourism, business meeting, purchasing, stay and prohibited-work boundary"
-    },
-    {
-     "title": "C10 Business Events Speaker Visitor Visa",
-     "authority": "Directorate General of Immigration Indonesia",
-     "url": "https://kanwilpapuabarat.imigrasi.go.id/service-proxy/8?url=https%3A%2F%2Fwww.imigrasi.go.id%2Fwna%2Fdaftar-visa-indonesia%2FC10",
-     "checked": "2026-08-21",
-     "supports": "speaker activity, sponsorship, compensation and no-employment boundary"
-    },
-    {
-     "title": "C11 Exhibitor Visitor Visa",
-     "authority": "Directorate General of Immigration Indonesia",
-     "url": "https://kanwilpapuabarat.imigrasi.go.id/service-proxy/8?url=https%3A%2F%2Fwww.imigrasi.go.id%2Fwna%2Fdaftar-visa-indonesia%2FC11",
-     "checked": "2026-08-21",
-     "supports": "exhibitor promotion, stay and sales boundary"
-    },
-    {
-     "title": "C7A Music Performance Visa",
-     "authority": "Directorate General of Immigration Indonesia",
-     "url": "https://kanwilpapuabarat.imigrasi.go.id/service-proxy/8?url=https%3A%2F%2Fwww.imigrasi.go.id%2Fwna%2Fdaftar-visa-indonesia%2FC7A",
-     "checked": "2026-08-21",
-     "supports": "music performance, sponsor and contract route"
-    },
-    {
-     "title": "E33G Remote Worker visa",
-     "authority": "Directorate General of Immigration Indonesia",
-     "url": "https://www.imigrasi.go.id/wna/daftar-visa-indonesia/E33G",
-     "checked": "2026-08-21",
-     "supports": "overseas-company duties and current remote-worker evidence"
-    },
-    {
-     "title": "Indonesian visa information by index",
-     "authority": "Bontang Immigration Office",
-     "url": "https://bontang.imigrasi.go.id/public/layanan-publik/kategori/wna/sub/informasi-visa-republik-indonesia",
-     "checked": "2026-08-21",
-     "supports": "C10 compensation, E28B investment and E33G activity descriptions"
-    },
-    {
-     "title": "Investment procedures",
-     "authority": "Indonesia Investment Promotion Centre Sydney / Ministry of Investment",
-     "url": "https://sydney.bkpm.go.id/invesment-procedures",
-     "checked": "2026-08-21",
-     "supports": "foreign investment company, ownership and capital layer"
-    },
-    {
-     "title": "Income Tax Article 26 for foreign taxpayers",
-     "authority": "Directorate General of Taxes Indonesia",
-     "url": "https://pajak.go.id/en/income-tax-article-26-income-tax-foreign-taxpayers",
-     "checked": "2026-08-21",
-     "supports": "Indonesian-source service and activity withholding and treaty relief"
-    },
-    {
-     "title": "Income Tax Article 21 withholding",
-     "authority": "Directorate General of Taxes Indonesia",
-     "url": "https://www.pajak.go.id/en/withholding-article-21-tax",
-     "checked": "2026-08-21",
-     "supports": "speaker, trainer, author, artist and musician activity categories"
-    },
-    {
-     "title": "ATA Carnet facility",
-     "authority": "Directorate General of Customs and Excise Indonesia",
-     "url": "https://www.beacukai.go.id/faq-fasilitas-ata-carnet",
-     "checked": "2026-08-21",
-     "supports": "temporary professional equipment, exhibitions, meetings and cultural goods"
-    },
-    {
-     "title": "Indonesia Digital Leap and DTI Series",
-     "authority": "Coordinating Ministry for Economic Affairs Indonesia",
-     "url": "https://ekon.go.id/publikasi/detail/6942/kemenko-perekonomian-gelar-forum-nasional-indonesia-digital-leap-akselerasi-ekosistem-data-center-ai-keamanan-siber-untuk-pertumbuhan-ekonomi-8",
-     "checked": "2026-08-21",
-     "supports": "government-backed AI, data-centre and cyber event signal"
-    },
-    {
-     "title": "Indonesia International Data Center and Cloud",
-     "authority": "Event organiser",
-     "url": "https://iidcc-summit.com/",
-     "checked": "2026-08-21",
-     "supports": "recurring data-centre event signal"
-    },
-    {
-     "title": "Ubud Writers and Readers Festival 2026",
-     "authority": "Festival organiser",
-     "url": "https://www.ubudwritersfestival.com/programs/ubud-writers-and-readers-festival-2026",
-     "checked": "2026-08-21",
-     "supports": "bilingual literary, author and book-launch event signal"
+     "checked": "2026-10-31",
+     "supports": "official e-VOA application"
     }
    ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "IDN-ENTRY-SNAPSHOT"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official"
   },
   "activities": {
    "activities": {
@@ -309,20 +216,6 @@
      "supports": "overseas-company duties and current remote-worker evidence"
     },
     {
-     "title": "Indonesian visa information by index",
-     "authority": "Bontang Immigration Office",
-     "url": "https://bontang.imigrasi.go.id/public/layanan-publik/kategori/wna/sub/informasi-visa-republik-indonesia",
-     "checked": "2026-08-21",
-     "supports": "C10 compensation, E28B investment and E33G activity descriptions"
-    },
-    {
-     "title": "Investment procedures",
-     "authority": "Indonesia Investment Promotion Centre Sydney / Ministry of Investment",
-     "url": "https://sydney.bkpm.go.id/invesment-procedures",
-     "checked": "2026-08-21",
-     "supports": "foreign investment company, ownership and capital layer"
-    },
-    {
      "title": "Income Tax Article 26 for foreign taxpayers",
      "authority": "Directorate General of Taxes Indonesia",
      "url": "https://pajak.go.id/en/income-tax-article-26-income-tax-foreign-taxpayers",
@@ -384,6 +277,129 @@
      "supports": "the Australian offices that give consular help"
     }
    ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They include the death penalty. Police target illegal drug use and possession across Indonesia. Don't possess or use illegal drugs. Police often target popular places, recreation events and venues, including in Bali, Lombok and Jakarta. You may face heavy fines or jail for using or possessing even small amounts of drugs, including marijuana. Cannabis-based products such as cannabis oil and cream, hemp, CBD, THC, hash and edibles, including for medicinal purposes, are illegal. A medical prescription doesn't make it legal. If you use, purchase or take these products to Indonesia, you can be arrested and face imprisonment, fines, deportation or the death ",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "The death penalty exists for some crimes. Local labour laws can change at short notice. This can affect expat workers.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "dress-and-public-behaviour",
+     "rule": "Standards of dress and behaviour are conservative in many parts of Indonesia. Take care not to offend. Find out what customs apply at your destination. If in doubt, seek local advice.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-10-31",
+     "heading": "Dress"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships aren't legally recognised. Visible displays of same sex relations could draw unwanted attention. Same-sex relationships are also illegal in the province of Aceh and may attract corporal punishment. Some laws and regulations may be applied in a way that discriminates against the LGBTQIA+ community, including for pornography and prostitution.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "The Islamic holy month of Ramadan is observed. Respect religious and cultural customs and laws at this time. During Ramadan, eating, drinking and smoking may be illegal in public. If you're not fasting, avoid these activities around people who are. Seek local advice to avoid offence and follow the advice of local authorities.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Aceh is governed as a special territory, not a province, and has a degree of special autonomy. Sharia police enforce Sharia law. This includes regulations and punishments that don't apply in other parts of Indonesia. Punishments may include caning, fines, and imprisonment. Sharia law is intended for Muslims only. It may be applied to non-Muslims, including foreigners, in some circumstances. Sharia law doesn't allow: gambling drinking alcohol prostitution same-sex relationships extra-marital sex co-habitation before marriage It also requires a conservative standard of dress. Take care to be respectful of local customs and social norms. Learn about the laws in Aceh. If in doubt, seek local adv",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-10-31",
+     "heading": "Aceh"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Some drugs used to treat attention deficit hyperactivity disorder (ADHD) are illegal in Indonesia. Australians have been arrested and charged for importing illegal medication. If you plan to bring over-the-counter or prescription medication, check if it's legal by visiting the Indonesian Embassy in Canberra advice on bringing prescription medication to Indonesia and contacting the Indonesian Embassy in Canberra well in advance of your planned travel. Take just enough legal medicine for your stay and carry it in its original packaging with a receipt from your pharmacy. On arrival, you may be asked to complete an Indonesian Food and Drug Authority form outlining your prescription medication. A",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You need an Indonesian licence or an International Driving Permit (IDP) in addition to your Australian driver's license. Check that your licence or permit is appropriate for the type of vehicle you're driving, including motorbikes and mopeds. Your travel insurer will deny any claims you make if: you're unlicensed you don't hold the correct type of licence",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Indonesia travel advice (updated 21 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": "Indonesian Rupiah (IDR)",
+   "cash_card_notes": "The local currency is the Indonesian Rupiah (IDR). Only exchange money at authorised money changers. Unauthorised money changers have been known to scam foreign tourists in Bali and elsewhere. Declare money in excess of IDR 100,000,000 or equivalent when you arrive and leave. This covers all forms of currency, not only cash.",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Indonesia travel advice (updated 21 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   }
- }
+ },
+ "retired_sources": [
+  {
+   "url": "https://bontang.imigrasi.go.id/public/layanan-publik/kategori/wna/sub/informasi-visa-republik-indonesia",
+   "title": "Indonesian visa information by index",
+   "retired": "2026-10-31",
+   "why": "returns 404 (rechecked with a browser)"
+  },
+  {
+   "url": "https://sydney.bkpm.go.id/invesment-procedures",
+   "title": "Investment procedures",
+   "retired": "2026-10-31",
+   "why": "returns 404 (rechecked with a browser)"
+  },
+  {
+   "url": "https://bontang.imigrasi.go.id/public/layanan-publik/kategori/wna/sub/informasi-visa-republik-indonesia",
+   "title": "Indonesian visa information by index",
+   "retired": "2026-10-31",
+   "why": "returns 404 (rechecked with a browser)"
+  },
+  {
+   "url": "https://sydney.bkpm.go.id/invesment-procedures",
+   "title": "Investment procedures",
+   "retired": "2026-10-31",
+   "why": "returns 404 (rechecked with a browser)"
+  }
+ ]
 }

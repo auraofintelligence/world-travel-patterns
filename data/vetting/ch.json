@@ -2,46 +2,29 @@
  "place": "ch",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free Schengen short stay for Australians; 90 days in any 180-day period.",
-   "pre_arrival": "Check SEM entry rules, Schengen day count, host canton and whether any days of work are planned.",
-   "max_stay": "Visitor entry is useful for scouting and attendance; local work requires cantonal/federal approval.",
-   "checked": "2026-08-21",
-   "evidence": "official",
+   "status": "visa-free",
+   "summary": "Visa-free short stays as part of the Schengen area.",
+   "max_stay": "90 days in any 180-day period across the Schengen area",
+   "pre_arrival": "None today. ETIAS is on the watch list.",
+   "other": "Schengen Entry/Exit System: fingerprints and photo are taken at the border on first entry (free, nothing to do before arrival). Carry your passport when crossing borders inside Schengen.",
    "sources": [
     {
-     "title": "Visa application procedure",
-     "authority": "State Secretariat for Migration",
-     "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/visumantragsverfahren.html",
-     "checked": "2026-08-21",
-     "supports": "Swiss entry and visa framework"
+     "title": "Switzerland travel advice (updated 7 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/switzerland",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     },
     {
-     "title": "Working in Switzerland",
-     "authority": "State Secretariat for Migration",
-     "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit.html",
-     "checked": "2026-08-21",
-     "supports": "work, notification and permit framework"
-    },
-    {
-     "title": "Working in Switzerland",
-     "authority": "Swiss Confederation",
-     "url": "https://www.ch.ch/en/foreign-nationals-in-switzerland/working-in-switzerland/",
-     "checked": "2026-08-21",
-     "supports": "plain-language work guidance"
-    },
-    {
-     "title": "Swiss representation in Australia: entry",
-     "authority": "Federal Department of Foreign Affairs",
+     "title": "Entry to Switzerland",
+     "authority": "Embassy of Switzerland in Australia",
      "url": "https://www.eda.admin.ch/countries/australia/en/home/visa/entry-ch.html",
-     "checked": "2026-08-21",
-     "supports": "Australia-specific consular entry guidance"
+     "checked": "2026-10-31",
+     "supports": "entry for Australian citizens"
     }
    ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "CHE-ENTRY-SNAPSHOT"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official"
   },
   "activities": {
    "activities": {
@@ -183,13 +166,6 @@
    "evidence": "official",
    "sources": [
     {
-     "title": "Visa application procedure",
-     "authority": "State Secretariat for Migration",
-     "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/visumantragsverfahren.html",
-     "checked": "2026-08-21",
-     "supports": "Swiss entry and visa framework"
-    },
-    {
      "title": "Working in Switzerland",
      "authority": "State Secretariat for Migration",
      "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit.html",
@@ -230,6 +206,77 @@
      "supports": "the Australian offices that give consular help"
     }
    ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for possessing, using or trafficking illegal drugs are severe.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/switzerland",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Switzerland allows multiple citizenship without any restrictions.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/switzerland",
+     "checked": "2026-10-31",
+     "heading": "Dual citizenship"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drivers must: be at least 18 years old hold a valid Australian driver's licence (digital driver’s licences may not be accepted) Some car hire agencies may need you to have an International Driving Permit (IDP). Get your IDP before you leave Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/switzerland",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Switzerland travel advice (updated 07 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/switzerland",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": null,
+   "cash_card_notes": "Switzerland's currency is the Swiss Franc (CHF). ATMs are widely accessible, and most major credit and debit cards are widely accepted.",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Switzerland travel advice (updated 07 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/switzerland",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   }
- }
+ },
+ "retired_sources": [
+  {
+   "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/visumantragsverfahren.html",
+   "title": "Visa application procedure",
+   "retired": "2026-10-31",
+   "why": "returns 404 (rechecked with a browser)"
+  },
+  {
+   "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/visumantragsverfahren.html",
+   "title": "Visa application procedure",
+   "retired": "2026-10-31",
+   "why": "returns 404 (rechecked with a browser)"
+  }
+ ]
 }

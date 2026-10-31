@@ -2,26 +2,38 @@
  "place": "pg",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance. e-Visa available.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-PAPUA-NEW-GUINEA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa is needed before travel; no visa on arrival for Australians. Some visas, including tourist, are available as eVisas.",
+   "pre_arrival": "Apply only through the PNG Immigration and Citizenship Service Authority's portal (fake sites exist). PNG Digital Arrival Card online up to 72 hours before arrival, free, or at kiosks.",
+   "other": "Working on a tourist visa is illegal: fines, jail, deportation or a re-entry ban.",
+   "sources": [
+    {
+     "title": "Papua New Guinea travel advice (updated 7 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/papua-new-guinea",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ],
+   "checked": "2026-10-31",
+   "evidence": "official"
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "PNG Kina (PGK)",
+   "cash_card_notes": "The local currency is the PNG Kina (PGK). Declare all amounts over PGK20,000 when you arrive or leave. Most hotels accept international credit cards. ATMs are in Port Moresby and major urban centres but aren't always working. Only use ATMs in hotels and other secure locations due to the high risk of crime. Ask your bank if your Australian cards will work in PNG.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $70 (e-Visa)",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-PAPUA-NEW-GUINEA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Papua New Guinea travel advice (updated 07 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/papua-new-guinea",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +50,79 @@
      "url": "https://www.smartraveller.gov.au/destinations/pacific/papua-new-guinea",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "You may get a fine or jail sentence if you: possess or sell pornography or sex items commit adultery",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/papua-new-guinea",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "It's illegal to remove surplus war material from PNG. This includes: guns bullets aircraft or vehicle parts other items used during WWII",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/papua-new-guinea",
+     "checked": "2026-10-31",
+     "heading": "War materials"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Sexual acts between people of the same sex are illegal. Prison sentences apply.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/papua-new-guinea",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "PNG only recognises dual nationality of PNG nationals for a limited number of countries, including Australia. If you're a dual citizen travelling on a non-Australian passport, this limits the consular services we can provide if you're arrested or detained.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/papua-new-guinea",
+     "checked": "2026-10-31",
+     "heading": "Dual citizenship"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can drive in PNG for up to 6 months using a valid Australian driver's licence. After 6 months, you'll need a local licence.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/papua-new-guinea",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Papua New Guinea travel advice (updated 07 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/papua-new-guinea",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "The traditional custom of 'payback' occurs. You could face 'payback' if you: offend local customs engage in illegal or inappropriate sexual or financial relations damage someone's property (including livestock) 'Payback' can include violence or demands for money. Dress and behaviour standards are conservative. Take care not to offend. Ask permission before taking photos of: people cultural sites spirit houses",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Papua New Guinea travel advice (updated 07 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/papua-new-guinea",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }
