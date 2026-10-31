@@ -2,26 +2,38 @@
  "place": "sv",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-EL-SALVADOR-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-on-arrival",
+   "summary": "Buy a tourist card at the airport for up to 90 days.",
+   "max_stay": "90 days",
+   "other": "Central American Border Control Agreement (CA-4): one 90-day period covers land travel between Guatemala, El Salvador, Honduras and Nicaragua.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "El Salvador travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/el-salvador",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The official currency is the US Dollar ($US). Exchange for other currencies isn't available. Bitcoin became legal tender in El Salvador in September 2021. However, not all vendors accept Bitcoin and it is in the early stages of adoption. Credit cards aren't widely accepted outside major centres. ATMs aren't reliable. Only change money and use ATMs in banks, hotels or shopping malls (see 'Safety').",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-EL-SALVADOR-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "El Salvador travel advice (updated 12 January 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/el-salvador",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +50,54 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/el-salvador",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include long prison sentences in local jails. Authorities will arrest you for illegal drugs if you're either: carrying even a very small amount of drugs, or with someone who's using them If you're found driving under the influence of alcohol or other drugs, authorities will arrest you. Border officials may screen you for drugs, including on departure. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/el-salvador",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Public displays of affection may attract negative attention. Same-sex relationships are legal in El Salvador, but the country is conservative. Same-sex marriages are recognised in El Salvador.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/el-salvador",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "photography",
+     "rule": "If you injure or kill someone in a road accident, authorities may arrest or detain you for a local trial. It's illegal to take photographs of official buildings. Check with local authorities before taking photos.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/el-salvador",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive a vehicle, you'll need a current Australian driver's licence (digital driver’s licences may not be accepted).",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/el-salvador",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "El Salvador travel advice (updated 12 January 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/el-salvador",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

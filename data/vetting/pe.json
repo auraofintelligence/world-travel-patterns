@@ -2,26 +2,38 @@
  "place": "pe",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 180 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-PERU-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa for tourists; a permit of up to 90 days on arrival.",
+   "max_stay": "90 days a permit; 183 days in a year",
+   "other": "Check days granted on the Peruvian immigration site.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Peru travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/peru",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Peruvian Nuevo Sol (PEN)",
+   "cash_card_notes": "The local currency is the Peruvian Nuevo Sol (PEN). Declare all amounts more than of $US10,000 in any currency on arrival. This covers all forms of currency, not only cash. The maximum amount permitted is $US 30,000 or equivalent. ATM facilities are widely available. Credit cards are usually accepted. Beware of counterfeit currency scams from unofficial money changers.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-PERU-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Peru travel advice (updated 02 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/peru",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +50,62 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/peru",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Children under 18 years old travelling on an Australian passport must obtain written permission (Autorización de Viaje Notarial) from the non-travelling parent(s) to leave the country. This applies if they have resident status or have stayed in Peru for over 183 days in one year. For more information, see the Peruvian government's website.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/peru",
+     "checked": "2026-10-31",
+     "heading": "Travelling with children"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They include lengthy prison sentences. Prison conditions in Peru are challenging. Don't carry or use illegal drugs. Trained staff use technology to detect illegal drugs at Lima's International Airport and throughout Peru. Australians have been jailed for long periods for drug offences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/peru",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "You must carry photo identification at all times. The Peruvian Police may ask to see it. Failure to show identification may result in detention.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/peru",
+     "checked": "2026-10-31",
+     "heading": "Proof of identity"
+    },
+    {
+     "topic": "photography",
+     "rule": "It's illegal to photograph military or police sites and personnel. Indecent behaviour, such as not showing respect at cultural, historical or sacred sites, is against the law. Australians have been detained for this. It's illegal to export handicrafts or goods of cultural or historical significance. If you want to buy or export copies of these, you'll need permission from the Ministry of Culture. It's also illegal to export antiques and artefacts from pre-colonial Peru. If you want to buy and export a reproduction, use a reputable dealer with the right documents. Do not leave Peru with coca leaves, coca tea bags or similar products. It is illegal to remove certain fauna and flora items from ",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/peru",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can use your Australian driver's license to drive in Peru for the duration of a tourist visa (maximum 183 days in one year). If you're staying in Peru longer, you'll need an International Driving Permit (IDP).",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/peru",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Peru travel advice (updated 02 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/peru",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

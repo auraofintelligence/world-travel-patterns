@@ -2,26 +2,38 @@
  "place": "ec",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-ECUADOR-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "Up to 90 days without a visa.",
+   "max_stay": "90 days, with one paid extension of up to 90 more",
+   "other": "Overstaying can bring fines and a ban.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Ecuador travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/ecuador",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The US Dollar is the legal currency of Ecuador. It's useful to have $US1 notes. Many smaller shops and taxi drivers don't change large notes. ATMs are available around the country. Credit cards are accepted in hotels, restaurants and tourist facilities in major centres. Contact your bank to check that your card will work.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-ECUADOR-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Ecuador travel advice (updated 23 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/ecuador",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "partner-arrangement",
@@ -38,6 +50,54 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/ecuador",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include long prison terms in local jails. Minimum sentence for trafficking or consuming 'soft drugs', such as marijuana (cannabis), can be 1 to 2 years in jail. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/ecuador",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "You must always carry photo identification in Ecuador. Authorities may detain you if you don't.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/ecuador",
+     "checked": "2026-10-31",
+     "heading": "Proof of identity"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "Political activity by foreigners is illegal. This includes joining protests or demonstrations. If you participate, authorities may detain or deport you.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/ecuador",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "For the first six months after you arrive in Ecuador you can drive with both: a valid Australian driver's licence an International Driving Permit (IDP) You must get your IDP before departing Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/ecuador",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ecuador travel advice (updated 23 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/ecuador",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

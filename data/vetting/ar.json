@@ -2,46 +2,21 @@
  "place": "ar",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Australians are generally admitted visa-free for tourism and business subject to the current reciprocity/entry-fee position; ordinary tourist permission is up to 90 days and may be extended.",
-   "pre_arrival": "Check Migraciones and the Argentine consular/entry-fee position, then prepare a Spanish purpose letter.",
-   "max_stay": "Tourist permission is generally up to 90 days and may be extended; TIE/residence categories can be more accurate for work.",
-   "checked": "2026-08-21",
+   "status": "visa-free",
+   "summary": "Tourists can stay up to 90 days without a visa.",
+   "max_stay": "90 days",
+   "pre_arrival": "Evidence of departure within 90 days (return or onward ticket); officials may ask for accommodation and funds.",
    "evidence": "official",
+   "checked": "2026-10-31",
    "sources": [
     {
-     "title": "Tourists",
-     "authority": "Argentine National Migration Directorate",
-     "url": "https://www.argentina.gob.ar/migraciones/turistas",
-     "checked": "2026-08-21",
-     "supports": "tourist duration and extension"
-    },
-    {
-     "title": "Electronic entry processing (TIE 24H)",
-     "authority": "Argentine National Migration Directorate",
-     "url": "https://www.argentina.gob.ar/migraciones/tramitacion-de-ingreso-electronica-tie-24h",
-     "checked": "2026-08-21",
-     "supports": "business, professional/artistic and digital-nomad menu"
-    },
-    {
-     "title": "Electronic entry processing: business",
-     "authority": "Argentine National Migration Directorate",
-     "url": "https://www.argentina.gob.ar/servicio/tramitacion-de-ingreso-electronica-negocios",
-     "checked": "2026-08-21",
-     "supports": "registered requester and business category"
-    },
-    {
-     "title": "Visiting Argentina",
-     "authority": "Argentina.gob.ar",
-     "url": "https://www.argentina.gob.ar/tema/extranjeros/turistas",
-     "checked": "2026-08-21",
-     "supports": "Australian entry and reciprocity prompt"
+     "title": "Argentina travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/argentina",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
-   ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "ARG-ENTRY-SNAPSHOT"
-   }
+   ]
   },
   "activities": {
    "activities": {
@@ -228,6 +203,63 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/argentina",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and can include long prison terms, even for small amounts.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/argentina",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "If you plan to take part in commercial or altruistic surrogacy arrangements in Argentina, be aware of all legal and other risks involved. Research prospective agencies and clinics to ensure that you're dealing with a reputable organisation. Get comprehensive and independent legal advice from an Argentine lawyer with specialisation in this area of law. There's no specific legislation that regulates surrogacy and all surrogacy arrangements are subject to ongoing developments in Argentine law. This applies to both the surrogacy arrangements as well as administrative procedures such as issuing of birth certificates and travel arrangements for babies born through surrogacy. Argentine authorities ",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/argentina",
+     "checked": "2026-10-31",
+     "heading": "Surrogacy"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive a vehicle, you'll need a current Australian driver's licence (digital driver’s licences may not be accepted). You should check with the rental car company whether you also need to have an international driver permit. You may need to present further identification. Residents must get an Argentine driver's licence.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/argentina",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Argentina travel advice (updated 21 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/argentina",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The Peso (ARS) is the official currency of Argentina. Most major hotels in Buenos Aires will exchange US dollars. Check local sources for advice on buying foreign currency. Don't exchange money on the street, or with someone offering exchange services on the street. You may receive counterfeit pesos or become the victim of a crime. Credit/debit cards are widely accepted. You should carry a photocopy of the identity page of your passport or a photo ID in case you are required to prove you are the owner of the card. Ask your bank in Australia if your ATM card will work and if it has an affiliate",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Argentina travel advice (updated 21 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/argentina",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

@@ -2,26 +2,37 @@
  "place": "do",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 30 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-DOMINICAN-REPUBLIC-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-on-arrival",
+   "summary": "Buy a tourist card on arrival, valid 30 days.",
+   "max_stay": "30 days; longer stays pay an extra fee at the airport on departure",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Dominican Republic travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/dominican-republic",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Dominican Peso (DOP)",
+   "cash_card_notes": "The local currency is the Dominican Peso (DOP). You can't exchange Australian dollars in the Dominican Republic. However, you can exchange US dollars at banks or official exchange offices. Take US dollars with you.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-DOMINICAN-REPUBLIC-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Dominican Republic travel advice (updated 25 February 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/dominican-republic",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "partner-arrangement",
@@ -38,6 +49,46 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/dominican-republic",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. This includes long prison sentences in local jails. Authorities may arrest you for illegal drugs if you're either: carrying even a very small amount of drugs, or with someone who's using them If you're found driving under the influence of alcohol or other drugs, authorities will arrest and possibly detain you. Border officials may screen you for drugs, including on departure. - Carrying and using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/dominican-republic",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Avoid public displays of affection. Same-sex relationships are legal in Dominican Republic , but the country is conservative. Same-sex marriages aren't recognised in Dominican Republic. It's not illegal to discriminate based on sexual orientation or gender identity.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/dominican-republic",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "For trips of less than 3 months, you can drive with: an International Driving Permit (IDP) an Australian driver's licence You must get your IDP before you leave Australia. - Driving or riding",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/dominican-republic",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Dominican Republic travel advice (updated 25 February 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/dominican-republic",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

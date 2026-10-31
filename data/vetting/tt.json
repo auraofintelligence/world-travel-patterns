@@ -2,26 +2,37 @@
  "place": "tt",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TRINIDAD-AND-TOBAGO-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "evisa",
+   "summary": "An e-visa is needed to enter.",
+   "pre_arrival": "Digital immigration and customs form for arrival and departure.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Trinidad and Tobago travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/trinidad-and-tobago",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The official currency is the Trinidad and Tobago Dollar (TTD). You can exchange some foreign currencies but not AUD for TTD at commercial banks and official exchange bureaus. Most international hotels and tourist facilities accept credit and debit cards. ATMs are widely available across the country. Criminals target ATMs, so take care when using one. Ask your bank whether your ATM card will work in Trinidad and Tobago.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TRINIDAD-AND-TOBAGO-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Trinidad and Tobago travel advice (updated 21 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/trinidad-and-tobago",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +49,54 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/trinidad-and-tobago",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They can include lengthy prison sentences in local jails, even for a small quantity of illegal drugs. Research the local laws before you travel.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/trinidad-and-tobago",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Sodomy is a criminal offence punishable with a prison term of up to 5 years. There are laws prohibiting LGBTQIA+ individuals from entering the country, but in practice these laws are rarely enforced. Serious crimes, including murder and treason, can attract the death penalty. Other illegal activities include: public nudity in non-designated areas indecent language, such as swearing wearing army or police camouflage clothing as a civilian Carrying ammunition when arriving, leaving or travelling through Trinidad and Tobago is also illegal. This includes bullets, bullet casings and spent ammunition. You can sometimes find ammunition in decorative items, including jewellery and key rings. If you",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/trinidad-and-tobago",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "If you plan to bring medication, check if it's legal with the Trinidad and Tobago Ministry of Health - Chemistry Food and Drug Division.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/trinidad-and-tobago",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Trinidad and Tobago, you need both: a valid Australian driver's licence (digital drivers licences may not be accepted) a valid International Driving Permit (IDP) You must get your IDP before leaving Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/trinidad-and-tobago",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Trinidad and Tobago travel advice (updated 21 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/trinidad-and-tobago",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

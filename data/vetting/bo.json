@@ -2,26 +2,37 @@
  "place": "bo",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance. Must apply at consulate.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BOLIVIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa for tourism; 30 days granted on entry.",
+   "max_stay": "30 days on entry; 90 days in a calendar year",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Bolivia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/bolivia",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The currency is the Boliviano (BOB). Declare all amounts more than $US10,000 on arrival. This covers all forms of currency, not only cash. US dollars are the most easily exchangeable foreign currency. ATMs are available in cities throughout Bolivia. Many businesses accept international credit cards.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $150",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BOLIVIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Bolivia travel advice (updated 18 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/bolivia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,87 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/bolivia",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They include long prison sentences in local jails. Prison conditions are poor.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/bolivia",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "You must always carry photo identification in Bolivia. This should be a photocopy of your passport bio page and the Bolivian entry stamp pages.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/bolivia",
+     "checked": "2026-10-31",
+     "heading": "Proof of identity"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "It's illegal to remove national treasures, including: pre-Columbian artefacts certain historical paintings items of Spanish colonial architecture and history some native textiles certain flora, fauna and fossils It's illegal to excavate or collect fossils without written approval.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/bolivia",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are legal, but they aren't widely accepted.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/bolivia",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Not all medication available over the counter or by prescription in Australia is available in other countries. Some may even be considered illegal or a controlled substance, even if prescribed by an Australian doctor. If you plan to bring medication, check if it's legal in Bolivia. Take enough legal medicine for your trip. what the medication is that it's for personal use",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/bolivia",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Bolivia, you need both: a valid Australian driver's licence (digital driver’s licences may not be accepted) an International Driving Permit (IDP) Get your IDP before you leave.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/bolivia",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bolivia travel advice (updated 18 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/bolivia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Ask permission before taking photos of people, particularly children and in remote areas.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Bolivia travel advice (updated 18 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/bolivia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

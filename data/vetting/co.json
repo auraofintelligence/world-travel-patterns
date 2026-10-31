@@ -2,26 +2,37 @@
  "place": "co",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 90 days, extendable.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-COLOMBIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa for tourism up to 90 days; officers can still refuse entry.",
+   "max_stay": "90 days",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Colombia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/colombia",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Colombian Peso (COP)",
+   "cash_card_notes": "The local currency is the Colombian Peso (COP). You can enter or exit Colombia with up to US$10,000 in cash, or its equivalent in any currency. Anything in excess of this amount must be declared on arrival and may be confiscated. You can change US dollars and euros in exchange bureaus and commercial banks. Major hotels and tourist places accept international credit cards. ATM and credit card facilities are more limited in rural areas. Contact your bank to make sure your cards will work in Colombia. Credit card fraud and robbery at ATMs is common.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-COLOMBIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Colombia travel advice (updated 06 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/colombia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +49,62 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/colombia",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Colombia has severe penalties for possession, use or trafficking of illegal drugs. This includes long sentences in local jails. Colombian drug trafficking detection methods are sophisticated and anyone attempting to traffic drugs should expect to be arrested. Convicted offenders can expect long pre-trial detention and lengthy prison sentences under harsh conditions. Colombian law may require that released offenders serve a long parole period in Colombia. Don’t get involved with illegal drugs. Pack your own luggage, lock it and always keep it with you. Don’t carry items for other people.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/colombia",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "photography",
+     "rule": "It's illegal to take photos of military bases and strategic sites.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/colombia",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "If you plan to engage in surrogacy arrangements in Colombia, be aware of the significant legal and practical risks involved. While surrogacy is not illegal, it’s not regulated under Colombian law. You should obtain independent legal advice before entering into any arrangement. Carefully research prospective clinics, agencies and other parties to ensure you are dealing with reputable organisations. Under Colombian law, the birth mother is considered the legal mother. Birth certificates can usually only be amended through a court process. Seek independent legal advice if you wish to change the parents listed on birth certificate. The Australian Embassy can't provide legal advice about surrogac",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/colombia",
+     "checked": "2026-10-31",
+     "heading": "Surrogacy"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "You may find most medication in pharmacies in large cities, but medicine for complex treatments may be unavailable in rural areas and small towns. Pharmacies (called droguerías) require a prescription from a local doctor to acquire some medications. In larger cities most pharmacies have delivery services.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/colombia",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Colombia, you need both: a valid Australian driver's licence an International Driving Permit (IDP) You must get your IDP before leaving Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/colombia",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Colombia travel advice (updated 06 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/colombia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

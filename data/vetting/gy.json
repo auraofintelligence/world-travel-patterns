@@ -2,26 +2,37 @@
  "place": "gy",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-GUYANA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa needed; usually 30 days granted.",
+   "max_stay": "30 days; extensions from the Ministry of Foreign Affairs in Georgetown",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Guyana travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/guyana",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The Guyanese dollar is the official currency of Guyana. Cash is mostly used in Guyana. Not all ATM machines accept international cards. Do not exchange money in the street with informal money changers. Declare money you're carrying if it's more than US$10,000, or equivalent. Do this on arrival and departure. This covers all forms of currency, not only cash.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-GUYANA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Guyana travel advice (updated 29 April 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/guyana",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,46 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/guyana",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include long prison sentences in local jails. Prison conditions are harsh. Pre-trial detention can last for years. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/guyana",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Guyana doesn't recognise same-sex marriage. You'll have no legal protection from discrimination based on: sexual orientation gender identity Same-sex relationships are illegal. If convicted, you'll face up to 10 years in prison. - Advice for LGBTQIA+ people",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/guyana",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Serious crime, such as murder, may attract the death penalty.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/guyana",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Guyana travel advice (updated 29 April 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/guyana",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

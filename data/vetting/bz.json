@@ -2,26 +2,37 @@
  "place": "bz",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 30 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BELIZE-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa for visits under 30 days.",
+   "max_stay": "Under 30 days; longer needs a re-stamp and fee at an immigration office",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Belize travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/belize",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Belize Dollar (BZD)",
+   "cash_card_notes": "The local currency is the Belize Dollar (BZD). US dollars are also accepted. You can travel with up to $BZ10,000. You must declare higher amounts. You can only use credit cards and traveller's cheques in large tourist facilities. Before you travel, check with your bank whether your cards will work in Belize.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BELIZE-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Belize travel advice (updated 15 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/belize",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,62 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/belize",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include long prison sentences in local jails. In 2017, Belize decriminalised the use of marijuana on private property for adults in possession of up to 10g. However, it remains a federal offence to sell, grow or smoke it on public property. It’s best not to buy or sell marijuana in Belize.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/belize",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Serious crimes, such as treason and murder, can attract the death penalty.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/belize",
+     "checked": "2026-10-31",
+     "heading": "Death penalty"
+    },
+    {
+     "topic": "photography",
+     "rule": "It's illegal to carry pre-Columbian artefacts without a permit. Check with local authorities before taking photos of official buildings. There are strict penalties for possessing unlicensed firearms or unlicensed ammunition, including large fines and mandatory jail sentences for repeat offenders.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/belize",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "In Belize, LGBTQIA+ travellers have experienced harassment and verbal or physical abuse. Same-sex relationships were decriminalised in 2016. LGBTQIA+ travellers should carefully consider the risks of travelling to Belize. Consider avoiding public displays of affection.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/belize",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Belize, you need an International Driving Permit (IDP). This permit is valid for 3 months. You must get the IDP before arriving in Belize. For longer stays, apply for a local driver's licence from the Belize Department of Transport.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/belize",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Belize travel advice (updated 15 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/belize",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

@@ -2,26 +2,38 @@
  "place": "jm",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 30 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-JAMAICA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa for tourism under 6 months or business under 30 days.",
+   "max_stay": "Tourism under 6 months; business under 30 days",
+   "pre_arrival": "Immigration and Customs C5 form.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Jamaica travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/jamaica",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Jamaican Dollar (JMD)",
+   "cash_card_notes": "The local currency is the Jamaican Dollar (JMD). Declare all currency when you arrive. This covers all forms of currency, not only cash. Only change money at commercial banks and exchange bureaus. Tourist spots in major towns accept international credit cards. Before you travel, ask your bank if your cards will work in Jamaica. ATMs aren't widely available outside Kingston and Montego Bay. Only use ATMs in safe places, such as hotels. Criminals target people using ATMs on the street.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-JAMAICA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Jamaica travel advice (updated 15 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/jamaica",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +50,30 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/jamaica",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Jamaica, you need both: a valid Australian driver's licence an International Driving Permit (IDP) You must get your IDP before leaving Australia. - Road safety and driving",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/jamaica",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Jamaica travel advice (updated 15 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/jamaica",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

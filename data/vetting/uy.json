@@ -2,95 +2,20 @@
  "place": "uy",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "No visa for an Australian ordinary passport; ordinary short stay 90 days with an extension route",
-   "pre_arrival": "Carry a Spanish or bilingual invitation stating whether the purpose is tourism, business, conference attendance, an invited professional appearance, teaching or an artistic or cultural performance. Ask the host to confirm the admission category with the National Directorate of Migration.",
-   "max_stay": "The ordinary short stay is 90 days and has a 90-day extension process. A Provisional Identity Card can support activity for up to 180 days and may be renewed once for another 180 days.",
-   "checked": "2026-08-21",
+   "status": "visa-free",
+   "summary": "Tourists can enter without a visa for up to 90 days.",
+   "max_stay": "90 days",
    "evidence": "official",
+   "checked": "2026-10-31",
    "sources": [
     {
-     "title": "Admission visa regime",
-     "authority": "Uruguayan Ministry of the Interior",
-     "url": "https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/regimen-visas-admision",
-     "checked": "2026-08-21",
-     "supports": "Australian ordinary-passport visa exemption"
-    },
-    {
-     "title": "Migration Law No. 18,250",
-     "authority": "Uruguay Official Gazette / IMPO",
-     "url": "https://www.impo.com.uy/bases/leyes/18250-2008",
-     "checked": "2026-08-21",
-     "supports": "resident work rights and non-resident tourist, business, invited-professional and artistic categories"
-    },
-    {
-     "title": "Decree No. 394/009, Article 13",
-     "authority": "Uruguay Official Gazette / IMPO",
-     "url": "https://www.impo.com.uy/bases/decretos/394-2009/13",
-     "checked": "2026-08-21",
-     "supports": "90-day non-resident stay and one 90-day renewal for tourist, invited-professional, business and artistic categories"
-    },
-    {
-     "title": "Hiring foreign workers in dependent employment",
-     "authority": "Uruguayan Ministry of Labour and Social Security",
-     "url": "https://www.gub.uy/ministerio-trabajo-seguridad-social/politicas-y-gestion/contratacion-trabajadores-extranjeros-bajo-regimen-dependencia-laboral",
-     "checked": "2026-08-21",
-     "supports": "residence as work authority, absence of a separately named work permit and hiring while residence is in progress"
-    },
-    {
-     "title": "Types of residence",
-     "authority": "Uruguayan Ministry of Foreign Affairs",
-     "url": "https://www.gub.uy/ministerio-relaciones-exteriores/comunicacion/publicaciones/tipos-de-residencia",
-     "checked": "2026-08-21",
-     "supports": "teacher, academic, specialist, entrepreneur, manager and artist temporary-residence categories"
-    },
-    {
-     "title": "Provisional Identity Card",
-     "authority": "Uruguayan Ministry of the Interior / National Directorate of Migration",
-     "url": "https://www.gub.uy/tramites/hoja-identidad-provisoria",
-     "checked": "2026-08-21",
-     "supports": "under-180-day activity and digital-nomad application and renewal requirements"
-    },
-    {
-     "title": "Decree No. 238/022",
-     "authority": "Uruguay Official Gazette / IMPO",
-     "url": "https://www.impo.com.uy/bases/decretos-originales/238-2022/1",
-     "checked": "2026-08-21",
-     "supports": "foreign-entity remote-work permission, 180-day duration, one renewal and statutory social-security wording"
-    },
-    {
-     "title": "Entry and hiring people",
-     "authority": "Uruguay Investment Single Window",
-     "url": "https://vui.gub.uy/procesos/ingreso-y-contratacion-de-personas/",
-     "checked": "2026-08-21",
-     "supports": "digital-nomad foreign-company boundary, duration and current social-security guidance"
-    },
-    {
-     "title": "Working Holiday for foreign citizens",
-     "authority": "Uruguayan Ministry of Foreign Affairs",
-     "url": "https://www.gub.uy/tramites/vacaciones-trabajo-working-holiday-vacaciones-trabajo-working-holiday-ciudadanos-extranjeros",
-     "checked": "2026-08-21",
-     "supports": "youth age band and Working Holiday distinction"
-    },
-    {
-     "title": "ConnectIA 2026",
-     "authority": "Data Science UY / event organiser",
-     "url": "https://connectia.uy/",
-     "checked": "2026-08-21",
-     "supports": "Spanish-language AI and data-science event signal, location and free public access"
-    },
-    {
-     "title": "ConnectIA 2026 call for speakers",
-     "authority": "ConnectIA organiser",
-     "url": "https://sessionize.com/connectia2026/",
-     "checked": "2026-08-21",
-     "supports": "open call, deadline, event date, talk format and topic scope"
+     "title": "Uruguay travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/uruguay",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
-   ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "URY-ENTRY-SNAPSHOT"
-   }
+   ]
   },
   "activities": {
    "activities": {
@@ -326,6 +251,63 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/uruguay",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Uruguay has severe penalties for possessing or trafficking illegal drugs. These include jail sentences and heavy fines. While Uruguayan citizens and permanent residents can legally purchase or cultivate cannabis (marijuana) for personal use, this remains illegal for tourists and other visitors. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/uruguay",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are legal in Uruguay. Laws have banned discrimination based on sexual orientation. Uruguay legalised same-sex marriage in 2013. - Advice for LGBTQIA+ travellers",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/uruguay",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can drive with an Australian driver's licence in Uruguay. You should carry a Spanish translation of your Australian licence if you're not carrying an international driving permit. You must be aged 21 years or over to hire a car. Car rental companies will also need either: an Australian driver's licence, or an International Driving Permit (IDP) Residents need to get a Uruguayan licence.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/uruguay",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Uruguay travel advice (updated 18 May 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/uruguay",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": "Peso (UYU)",
+   "cash_card_notes": "The official currency of Uruguay is the Peso (UYU). Declare amounts over USD 10,000 (or foreign currency equivalent) when you arrive and depart. This includes all forms of currency, not just cash. US dollars are the easiest to exchange. Some locations also accept payment in US Dollars (USD). Several ATMs dispense USD. Electronic payment methods are used widely in Uruguay. Ask your bank in Australia if your ATM card will work and if it has an affiliate bank in Uruguay, as many local machines will not accept foreign cards.",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Uruguay travel advice (updated 18 May 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/uruguay",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

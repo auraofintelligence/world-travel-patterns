@@ -2,26 +2,38 @@
  "place": "ht",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-HAITI-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "Pay an arrival fee at Toussaint Louverture airport.",
+   "next_check": "Confirm visa-free status and stay length with Haiti's embassy.",
+   "other": "Travellers from the DRC or Uganda must spend 21 days in an unaffected third country first.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Haiti travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/haiti",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The basic currency is the Gourde (HTG). US dollars are also widely accepted. Exchange US dollars or traveller's cheques at established banks. Some banks accept other foreign currencies. Don't change money on the street.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-HAITI-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Haiti travel advice (updated 06 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/haiti",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "partner-arrangement",
@@ -38,6 +50,46 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/haiti",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They include fines and long prison sentences in local jails. Prison conditions in Haiti are very poor. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/haiti",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are legal. No laws restrict the rights of LGBTQIA+ people or groups, but anti-LGBTQIA+ attitudes exist. LGBTQIA+ travellers may face: discrimination harassment physical attacks - Advice for LGBTQIA+ travellers",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/haiti",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can drive in Haiti with your: valid Australian driver's licence car registration liability insurance documents travel documents You must get your IDP before leaving Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/haiti",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Haiti travel advice (updated 06 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/haiti",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

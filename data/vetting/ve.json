@@ -2,26 +2,38 @@
  "place": "ve",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance. Complex process.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-VENEZUELA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "In most cases no visa for tourist visits under 90 days.",
+   "max_stay": "Under 90 days",
+   "other": "Smartraveller advises against all travel to Venezuela.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Venezuela travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/venezuela",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Venezuelan Bolivar Fuerte (VEF)",
+   "cash_card_notes": "The local currency is the Venezuelan Bolivar Fuerte (VEF). US dollars are widely accepted. Some vendors only accept US dollars for basic transactions. You are required to declare to authorities if you are entering or leaving Venezuela with more than US$10,000. If you’re bringing goods into the country worth more than US$1,000, you must declare them to customs. You may be required to pay tax.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $90",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-VENEZUELA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Venezuela travel advice (updated 02 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/venezuela",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +50,46 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/venezuela",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They include long sentences in dangerous local jails that are among the worst in the world. If you're found with even a small quantity of marijuana, you may face a prison term. Drug trafficking in Venezuela is a serious problem. Advanced detection methods have been introduced to help identify drug traffickers. You'll be screened for drugs when you arrive and depart. You may also be screened while waiting in the airport. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/venezuela",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "photography",
+     "rule": "It's illegal to photograph: military buildings and surrounds sites of strategic importance, including the Presidential Palace and airports You’re at a high risk of arrest or detention.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/venezuela",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Basic medicine and supplies are in short supply in Venezuela. If you plan to bring medication, check if it's legal in Venezuela with the nearest Venezuelan Embassy. Take enough legal medicine for your trip.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/venezuela",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Venezuela travel advice (updated 02 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/venezuela",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

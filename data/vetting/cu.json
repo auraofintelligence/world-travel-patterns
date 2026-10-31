@@ -2,26 +2,36 @@
  "place": "cu",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Tourist card (visa) required in advance.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-CUBA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa is needed; for tourism, a tourist card (which includes the tourist visa) through a travel agent, airline or Cuban embassy.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Cuba travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/cuba",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "Cuba's official currency is: the National Peso (moneda nacional or CUP) Canadian dollars, Mexican pesos and Euros can be exchanged at currency exchange stores. There's a large commission fee to exchange US currency. Australian currency can't be exchanged in Cuba. Other currencies may be difficult to exchange. From 6 June, Visa and Mastercard credit and debit cards will no longer be accepted in Cuba. The following payment methods will remain available: 100% domestic prepaid cards: Clásica and Tropical Bring sufficient cash for the duration of your trip. International money transfer agencies are",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $100+",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-CUBA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Cuba travel advice (updated 05 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/cuba",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "partner-arrangement",
@@ -38,6 +48,62 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/cuba",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They include lengthy prison sentences in local jails. Authorities will arrest you for illegal drugs if you're either: carrying even a very small amount of drugs, or with someone who's using them If you're found driving under the influence of alcohol or other drugs, authorities will arrest you. Border officials may screen you for drugs, including on departure.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/cuba",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are legal. Same-sex marriages are recognised.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/cuba",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "photography",
+     "rule": "You must always carry photo ID. Authorities can detain you if you're found without it. Contact the Embassy of Canada in Havana if you lose your Australian passport or other identification documents. Serious crimes, such as espionage and mass murder, can attract the death penalty. Under Cuban law, charges aren't laid until the investigation is complete. If you're accused, you can be jailed during the investigation. In Cuba, it's illegal to: drink-drive engage in black-market activities take photos of military or police sites, harbours, rail or airport facilities Get local legal advice before preaching religion or importing religious material. Doing so may be illegal.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/cuba",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Many medications are in short supply or unavailable. Ensure you bring enough for your entire trip.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/cuba",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Cuba, you'll need both: your valid Australian driver's licence a valid International Driving Permit (IDP) You must get your IDP before leaving Australia. To hire a motor vehicle, you must be at least 21 years old.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/cuba",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cuba travel advice (updated 05 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/cuba",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

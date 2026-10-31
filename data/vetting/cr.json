@@ -2,26 +2,37 @@
  "place": "cr",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-COSTA-RICA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa for a tourist visit under 90 days.",
+   "max_stay": "Under 90 days",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Costa Rica travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/costa-rica",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Costa Rican Colon (CRC)",
+   "cash_card_notes": "The local currency is the Costa Rican Colon (CRC). You can't exchange Australian money in Costa Rica but you can exchange US dollars. Credit cards are widely accepted. Carry cash if you're travelling to rural areas. Most international hotels and tourist facilities accept credit and debit cards. Ask your bank whether your ATM card will work in Costa Rica.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-COSTA-RICA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Costa Rica travel advice (updated 12 March 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/costa-rica",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,71 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/costa-rica",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and can include lengthy prison sentences in local jails.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/costa-rica",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Public displays of affection may attract negative attention. Same-sex relationships are legal, but the country is conservative. Same-sex marriages are recognised.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/costa-rica",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Strict laws protect native animals and plants.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/costa-rica",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can drive for up to 3 months with your Australian driver's licence. If your Australian licence allows, you can drive a car and motorcycle.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/costa-rica",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Costa Rica travel advice (updated 12 March 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/costa-rica",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Get permission before photographing anyone, especially women, children, and Indigenous people.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Costa Rica travel advice (updated 12 March 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/costa-rica",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

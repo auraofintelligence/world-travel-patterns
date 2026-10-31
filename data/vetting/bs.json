@@ -2,26 +2,37 @@
  "place": "bs",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 3 months.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BAHAMAS-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa for visits of 90 days or less with a return or onward ticket.",
+   "max_stay": "90 days",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "The Bahamas travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/bahamas",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Bahamian Dollar (BSD)",
+   "cash_card_notes": "The local currency is the Bahamian Dollar (BSD). US dollars are also accepted. You can exchange US dollars for BSD at commercial banks or currency exchange offices. You are required to declare, if you are leaving The Bahamas with BSD10,000 or more. Further information can be found at The Bahamas Customs Department website. You can find ATMs on the larger islands. They can be found in: airport terminals banks casinos some hotels Only use ATMs in these and other controlled areas. See Safety Credit cards are widely accepted. Check your credit card statements often for unauthorised charges. Before",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BAHAMAS-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "The Bahamas travel advice (updated 02 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/bahamas",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,46 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/bahamas",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They include fines and long prison sentences in local jails. Pack your luggage yourself. Don't carry anything through customs for anyone else. US authorities may do thorough drug searches in The Bahamas.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/bahamas",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Serious crimes can attract the death penalty, including: aggravated murder terrorism treason war crimes The legal age for same-sex relations is 18.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/bahamas",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in The Bahamas, you'll need both: a valid Australian driver's licence (digital driver's licences may not be accepted) an International Driving Permit (IDP) You must get your IDP before leaving Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/bahamas",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Bahamas travel advice (updated 02 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/bahamas",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

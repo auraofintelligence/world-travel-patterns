@@ -2,26 +2,39 @@
  "place": "ni",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-NICARAGUA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-on-arrival",
+   "summary": "Buy a tourist card at the airport for up to 90 days.",
+   "max_stay": "90 days",
+   "pre_arrival": "A return or onward ticket and enough money; an airport tax on arrival.",
+   "other": "Central American Border Control Agreement (CA-4): one 90-day period covers land travel between Guatemala, El Salvador, Honduras and Nicaragua.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Nicaragua travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/nicaragua",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Nicaraguan Córdoba (NIO)",
+   "cash_card_notes": "The local currency is the Nicaraguan Córdoba (NIO). You can only exchange US dollars in Nicaragua. ATMs aren't always reliable. Credit cards are accepted. Contact your bank to make sure your cards will work. Using ATMs on the street puts you at high risk of robbery or express kidnapping.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-NICARAGUA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Nicaragua travel advice (updated 22 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/nicaragua",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "partner-arrangement",
@@ -38,6 +51,54 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/nicaragua",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include long prison sentences in local jails.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/nicaragua",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Avoid public displays of affection. Same-sex relationships are legal in Nicaragua, but the country is conservative. Same-sex marriages aren't recognised in Nicaragua.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/nicaragua",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "Nicaraguan law prohibits political activity by foreigners. Participating in demonstrations or promoting dissent, including on social media may result in you being detained or deported. It's illegal to take photos of official buildings. Check with local authorities before taking photos. There are strict restrictions on the use of drones. Do not use drones for photography or any other reason unless you have written permission from Nicaraguan authorities. If you drive a car and injure or kill someone in an accident, authorities may arrest or detain you. The local courts will need to determine who was responsible. This can take weeks or months.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/nicaragua",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Nicaragua, you'll need either: an International Driving Permit (IDP) an Australian driver's licence You must get the IDP before arriving in Nicaragua. You also need to carry your current passport and tourist card.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/nicaragua",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Nicaragua travel advice (updated 22 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/nicaragua",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

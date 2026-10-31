@@ -2,26 +2,38 @@
  "place": "hn",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-HONDURAS-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa with more than 6 months' passport validity.",
+   "pre_arrival": "Online pre-check form on the National Institute of Migration site, on arrival and departure.",
+   "other": "Central American Border Control Agreement (CA-4): one 90-day period covers land travel between Guatemala, El Salvador, Honduras and Nicaragua.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Honduras travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/honduras",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Lempira (HNL)",
+   "cash_card_notes": "The local currency is the Lempira (HNL). You can't exchange Australian dollars in Honduras. Bring US dollars or Euros. You'll need to show your passport or a certified copy of your passport to exchange money. Credit cards are widely accepted. Contact your bank to make sure your cards will work. ATMs are available in major centres. Check your bank statements for ATM fraud.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-HONDURAS-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Honduras travel advice (updated 01 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/honduras",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +50,71 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/honduras",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences, such as possession, use, or trafficking are severe and include long prison sentences in local jails. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/honduras",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Avoid public displays of affection. Same-sex relationships are legal in Honduras, but the country is conservative. Same-sex marriages aren't recognised in Honduras. It's not illegal to discriminate based on sexual orientation or gender identity.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/honduras",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "In Honduras it's illegal to: join political activities or demonstrations if you're a foreigner import religious materials export firearms export pre-colonial antiques or artefacts export some birds, feathers, plants and animals take photos of public buildings or facilities To avoid breaking the law: understand the rules on importing and exporting ask local authorities before taking photos of buildings",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/honduras",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Honduras, you need both: an International Driving Permit (IDP) an Australian driver's licence You must get the IDP before arriving in Honduras.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/honduras",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Honduras travel advice (updated 01 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/honduras",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "It's illegal to photograph public buildings in Honduras. If you are unsure about a site, ask an official before you take photos. Ask for permission before photographing anyone, especially women and children.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Honduras travel advice (updated 01 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/honduras",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

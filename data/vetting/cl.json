@@ -2,26 +2,38 @@
  "place": "cl",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-CHILE-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "Since 17 September 2026 Australians don't need a visa for stays up to 90 days.",
+   "max_stay": "90 days; Rapa Nui at most 30 consecutive days",
+   "other": "Scientific, technical or mountaineering activity in frontier areas needs Chilean Government approval 90 days before travel.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Chile travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/chile",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Chilean Peso (CLP)",
+   "cash_card_notes": "The local currency is the Chilean Peso (CLP). Amounts higher than USD10,000 must be declared on arrival and departure. This covers all forms of currency, not only cash. Australian and US dollars can be readily exchanged throughout Chile. Check your change as vendors, including taxi drivers, sometimes swap denominations to short-change travellers. ATMs are widely available. Contact your bank to find out whether your cards will work in Chile. Credit cards are widely accepted.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-CHILE-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Chile travel advice (updated 22 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/chile",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +50,67 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/chile",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "area-permit",
+     "authority": "Government of Chile (frontier areas)",
+     "process": "Scientific, technical or mountaineering activity in areas classed as frontier areas needs government approval.",
+     "lead_time_days": 90,
+     "activities": [
+      "research",
+      "filming",
+      "tourism"
+     ],
+     "url": "https://www.smartraveller.gov.au/destinations/americas/chile",
+     "checked": "2026-10-31"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Chile travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/chile",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include long prison sentences in local jails.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/chile",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Chile as a tourist, you need either: a valid Australian driver's licence (which can function as a Chilean' class B license', for non-commercial, small vehicle driving during the length of your tourist visa), or an International Driving Permit (IDP) If you do not have a valid Australian licence, you need to get your IDP before leaving Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/chile",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Chile travel advice (updated 22 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/chile",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }
