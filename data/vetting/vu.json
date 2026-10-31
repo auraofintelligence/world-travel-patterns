@@ -126,14 +126,14 @@
   },
   "seasons-and-flow": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "evidence": "official",
    "months": [
     {
      "month": 1,
      "season": "wet season (heaviest January to March)",
      "hazard": "cyclone season",
-     "visitor_flow": null
+     "visitor_flow": "6,725 air visitors in January 2025"
     },
     {
      "month": 2,
@@ -199,10 +199,10 @@
      "month": 12,
      "season": "wet season (heaviest January to March)",
      "hazard": "cyclone season",
-     "visitor_flow": null
+     "visitor_flow": "8,298 air visitors plus 23,254 cruise day visitors (8 ships) in December 2025"
     }
    ],
-   "notes": "Both stations have a marked wet season, highest January to March. Visitor flow (peak and quiet months) is still to be read from the tourism authority's statistics.",
+   "notes": "Both stations have a marked wet season, highest January to March. Visitor flow: 69,366 air visitors January to September 2025 (Vanuatu Tourism Office); cruise day visitors can outnumber air visitors in some months.",
    "sources": [
     {
      "title": "Climate change in the Pacific, Volume 2, Ch16-Vanuatu",
@@ -217,6 +217,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/pacific/vanuatu",
      "checked": "2026-10-31",
      "supports": "cyclone or typhoon window as read on 2026-10-31"
+    },
+    {
+     "title": "International visitors and resident arrivals",
+     "authority": "Vanuatu Bureau of Statistics",
+     "url": "https://vbos.gov.vu/index.php/en/statistics/economic-statistics/international-visitor-resident-arrivals",
+     "checked": "2026-11-01",
+     "supports": "monthly air and cruise arrivals (provisional)"
     }
    ]
   },
