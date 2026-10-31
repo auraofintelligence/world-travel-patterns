@@ -56,15 +56,12 @@
      }
     },
     "unpaid-speaking": {
-     "status": "confirm",
-     "route": "C-3 short-term visit or written confirmation that the Australian visa waiver covers the exact unpaid appearance",
-     "detail": "Official Korean mission guidance places an unpaid invited lecture or speech in C-3 and a paid one in C-4. It does not conclusively show when an Australian B-1 visa waiver substitutes for C-3 for an active appearance.",
-     "next": "Send the Korean mission the invitation, agenda, expenses and no-fee statement and obtain the route in writing.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "KOR-PATH-UNPAID-SPEAKING-STATUS"
-     }
+     "status": "conditional",
+     "route": "Visa-free entry",
+     "detail": "Lecturers invited by a government or nonprofit body for seminars, lectures or advisory work in the public interest don't need a short-term employment (C-4) visa.",
+     "next": "Check the host is a government or nonprofit body.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "paid-speaking": {
      "status": "conditional",
@@ -270,6 +267,13 @@
      "url": "https://www.opencompute.org/index.php/summit/2026-ocp-korea-tech-day",
      "checked": "2026-08-21",
      "supports": "open-compute and data-centre event signal"
+    },
+    {
+     "title": "Visa requirements relaxed for scholars and lecturers",
+     "authority": "Signal: BAL immigration news",
+     "url": "https://www.bal.com/immigration-news/visa-requirements-relaxed-for-scholars-lecturers",
+     "checked": "2026-11-01",
+     "supports": "lecturers invited by government or nonprofit bodies exempt from the C-4 visa"
     }
    ]
   },

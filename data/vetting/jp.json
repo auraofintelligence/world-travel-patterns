@@ -55,15 +55,11 @@
      }
     },
     "unpaid-speaking": {
-     "status": "confirm",
-     "route": "Mission confirmation under Temporary Visitor, or host-selected working status",
-     "detail": "Conference participation can fit Temporary Visitor status, but the published material does not create a blanket permission for every active lecture merely because no fee is paid. Reimbursements, promotion, repeated dates and service-like delivery can change the analysis.",
-     "next": "Give the Japanese mission the invitation, agenda, expenses and exact duties and obtain a written classification.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "JPN-PATH-UNPAID-SPEAKING-STATUS"
-     }
+     "status": "conditional",
+     "route": "Visa exemption (temporary visitor)",
+     "detail": "Taking part in lectures and meetings is a temporary-visitor activity; sources disagree on whether any payment from Japan is allowed, so keep it unpaid.",
+     "next": "If anything is paid in Japan, ask the Embassy of Japan first.",
+     "checked": "2026-11-01"
     },
     "paid-speaking": {
      "status": "specialist",
@@ -161,10 +157,10 @@
      "checked": "2026-11-01"
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Japan, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Japan, Yarralumla which visa covers it, in writing.",
+     "status": "conditional",
+     "route": "Visa exemption (temporary visitor)",
+     "detail": "Academic surveys are a listed temporary-visitor activity; paid research needs a work status.",
+     "next": "Ask the Embassy if a Japanese institution pays you.",
      "checked": "2026-11-01"
     },
     "volunteering": {
@@ -269,6 +265,20 @@
      "url": "https://www.sushitech-startup.metro.tokyo.lg.jp/en/official-report/",
      "checked": "2026-08-21",
      "supports": "international startup and innovation event signal"
+    },
+    {
+     "title": "Temporary visitor's visa (activities)",
+     "authority": "Embassy of Japan in Norway",
+     "url": "https://www.no.emb-japan.go.jp/itpr_nb/temporary.html",
+     "checked": "2026-11-01",
+     "supports": "temporary-visitor activities: business meetings and contacts, lectures, academic surveys"
+    },
+    {
+     "title": "Visiting Japan",
+     "authority": "Consulate-General of Japan in Perth",
+     "url": "https://www.perth.au.emb-japan.go.jp/itpr_ja/11_000001_00501.html",
+     "checked": "2026-11-01",
+     "supports": "visa exemption for Australians"
     }
    ]
   },
