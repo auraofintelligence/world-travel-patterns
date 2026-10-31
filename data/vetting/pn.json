@@ -1,0 +1,56 @@
+{
+ "place": "pn",
+ "patterns": {
+  "entry": {
+   "status": "visa-free",
+   "summary": "No prior clearance for a visit of 14 days or less arriving and leaving on the same vessel, if you can support yourself. Longer stays need entry clearance in advance.",
+   "max_stay": "14 days without clearance; up to 6 months with long-term entry clearance (NZ$150, about A$120 at RBA, 30 October 2026: A$1 = NZ$1.2480; apply at least 3 months ahead)",
+   "other": "Business visits follow the entry clearance procedure. Landing depends on sea conditions and the supply ship or yacht; there is no guarantee of landing.",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa and legal information",
+     "authority": "Government of the Pitcairn Islands",
+     "url": "https://www.visitpitcairn.pn/visa-legal",
+     "checked": "2026-10-31",
+     "supports": "14-day rule, entry clearance and fee"
+    },
+    {
+     "title": "Immigration Control Ordinance",
+     "authority": "Pitcairn Islands (via PacLII)",
+     "url": "https://pacliirms.paclii.org/pn/legis/consol_act/ico281",
+     "checked": "2026-10-31",
+     "supports": "short-term visitor rules"
+    }
+   ],
+   "checked": "2026-10-31"
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "entry-clearance",
+     "authority": "Pitcairn Islands Immigration Officer",
+     "process": "For stays over 14 days, or business visits, send the entry clearance form to the Pitcairn Islands Office before booking passage.",
+     "lead_time_days": 90,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.visitpitcairn.pn/visa-legal",
+     "checked": "2026-10-31"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Visa and legal information",
+     "authority": "Government of the Pitcairn Islands",
+     "url": "https://www.visitpitcairn.pn/visa-legal",
+     "checked": "2026-10-31",
+     "supports": "lead time"
+    }
+   ],
+   "checked": "2026-10-31"
+  }
+ }
+}

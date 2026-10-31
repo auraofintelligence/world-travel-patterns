@@ -1,0 +1,36 @@
+{
+ "place": "mp",
+ "patterns": {
+  "entry": {
+   "status": "eta-required",
+   "summary": "Under the Guam-CNMI Visa Waiver Program, Australians can stay up to 45 days in Guam and the Northern Mariana Islands only. Airlines report that a Guam-CNMI electronic travel authorisation must be obtained in advance since 30 November 2024.",
+   "max_stay": "45 days (Guam and CNMI only). For longer or onward US travel, use ESTA under the US Visa Waiver Program (90 days).",
+   "next_check": "Confirm the Guam-CNMI ETA on a current CBP page.",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Guam-CNMI Visa Waiver Program",
+     "authority": "US Department of Homeland Security",
+     "url": "https://www.dhs.gov/files/programs/gc_1233262026612.shtm",
+     "checked": "2026-10-31",
+     "supports": "Australia is an eligible country; 45 days in Guam or the CNMI only"
+    },
+    {
+     "title": "Privacy impact assessment: Guam-CNMI Visa Waiver Program (January 2024)",
+     "authority": "US Department of Homeland Security",
+     "url": "https://www.dhs.gov/sites/default/files/2024-01/24_0118_priv_pia-cbp-079-guam-cnmi-vwp.pdf",
+     "checked": "2026-10-31",
+     "supports": "45-day limit"
+    },
+    {
+     "title": "ESTA / Guam-CNMI ETA application required",
+     "authority": "Japan Airlines (operator notice)",
+     "url": "https://www.jal.co.jp/en/other/info2008_0807.html",
+     "checked": "2026-10-31",
+     "supports": "Guam-CNMI ETA in advance from 30 November 2024"
+    }
+   ],
+   "checked": "2026-10-31"
+  }
+ }
+}
