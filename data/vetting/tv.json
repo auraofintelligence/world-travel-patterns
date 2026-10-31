@@ -2,15 +2,20 @@
  "place": "tv",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa on arrival for 1 month.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TUVALU-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "confirm-in-writing",
+   "summary": "No Smartraveller page and no current Tuvalu government page found. Secondary sites agree on a visitor permit on arrival for about one month with an onward ticket; they disagree on the fee (free or A$100 cash) and on extensions.",
+   "next_check": "Ask the Tuvalu High Commission or the Immigration Department in Funafuti about the fee and extensions.",
+   "evidence": "signal",
+   "sources": [
+    {
+     "title": "Tuvalu passport and visa (aggregator)",
+     "authority": "Signal: secondary site",
+     "url": "https://www.worldtravelguide.net/guides/oceania/tuvalu/passport-visa",
+     "checked": "2026-10-31",
+     "supports": "one-month visitor permit on arrival"
+    }
+   ],
+   "checked": "2026-10-31"
   },
   "money-and-cost": {
    "status": "noted",

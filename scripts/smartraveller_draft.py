@@ -31,6 +31,7 @@ GENERIC = re.compile(r"^(When you travel to another country|The Australian Gover
 CONTACTS = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+|\+?\(?\d[\d ()-]{6,}\d")
 SKIP_HEADS = {"Local law", "Local laws", "Australian laws", "Dual nationality", "Dual nationals"}
 TOPICS = [
+    (r"identity|identification", "conduct-and-public-order"),
     (r"drug|cannabis|narcotic|medic", "drugs-and-prescription-medicines"),
     (r"alcohol|drink|drunk|liquor", "alcohol"),
     (r"relig|ramadan|blasphem|preach|speech|insult|monarch|royal|lese|flag|politic|criticis|social media|online", "speech-religion-and-respect"),
@@ -67,7 +68,7 @@ def clean(body):
         if GENERIC.match(line) or re.match(r"^- [A-Z][^.]{0,60}$", line) and not line.endswith(":"):
             continue  # boilerplate, or a bare "- Link title" bullet
         keep.append(line[2:] if line.startswith("- ") else line)
-    text = " ".join(keep)
+    text = " ".join(keep).replace(" " + chr(0x2014) + " ", ", ").replace(chr(0x2014), ", ").replace(chr(0x2013), "-")
     text = CONTACTS.sub("[see source]", re.sub(r":\s+", ": ", text))
     return re.sub(r"\s+", " ", text).strip()
 
@@ -98,6 +99,7 @@ def main():
     ap.add_argument("places", nargs="+")
     ap.add_argument("--dir")
     ap.add_argument("--print", action="store_true", dest="show")
+    ap.add_argument("--force", action="store_true", help="redraft patterns already checked today")
     args = ap.parse_args()
     D = today().isoformat()
     places = load_places()
@@ -154,21 +156,21 @@ def main():
             if re.search(r"^customs|biosecurity", title, re.I) and text:
                 laws.append({"topic": "currency-and-goods", "rule": text[:500], "level": "country", "source": dest["url"], "checked": D, "heading": title})
         money = next((clean(b) for t, b in travel if t == "Money"), "")
-        currency = re.search(r"(?:local currency|currency of [^.]*?) is (?:the )?([^.]+?)(?:\.|,| and )", money)
+        currency = re.search(r"(?:local currency|currency of [^.]*?) is (?:the )?([^.,]+?\)?)(?:\.|,| and )", money)
 
         path = vetting_path(pid)
         rec = read(path, {"place": pid, "patterns": {}})
         pats = rec["patterns"]
         wrote = []
-        if laws and pats.get("local-law", {}).get("checked") != D:
+        if laws and (args.force or pats.get("local-law", {}).get("checked") != D):
             pats["local-law"] = {"status": "partly-mapped", "checked": D, "evidence": "official", "laws": laws, "sources": [src]}
             wrote.append(f"local-law ({len(laws)})")
-        if customs and pats.get("culture-and-protocol", {}).get("checked") != D:
+        if customs and (args.force or pats.get("culture-and-protocol", {}).get("checked") != D):
             pats["culture-and-protocol"] = {"status": "ask-locally", "checked": D, "evidence": "official", "dress_and_conduct": customs[:700],
                                             "cultural_authority": "Ask locally, through your host.",
                                             "note": "Read from the Australian Government's description of local customs.", "sources": [src]}
             wrote.append("culture")
-        if money and pats.get("money-and-cost", {}).get("checked") != D:
+        if money and (args.force or pats.get("money-and-cost", {}).get("checked") != D):
             pats["money-and-cost"] = {"status": "noted", "currency": currency.group(1).strip() if currency else None,
                                       "cash_card_notes": money[:600], "daily_cost_aud": None, "checked": D, "evidence": "official", "sources": [src]}
             wrote.append("money")

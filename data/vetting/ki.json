@@ -2,15 +2,21 @@
  "place": "ki",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 30 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-KIRIBATI-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "confirm-in-writing",
+   "summary": "No Smartraveller page and no current Kiribati government page found. Secondary sites say Australians enter visa-free, some for 30 days and some for 90 days under a 2023 Visa Exemption Order.",
+   "next_check": "Ask the Kiribati Ministry of Foreign Affairs and Immigration, or the Kiribati High Commission, which stay applies.",
+   "evidence": "signal",
+   "note": "The Kiribati tourism office's visa page now redirects to an unrelated site and wasn't used.",
+   "sources": [
+    {
+     "title": "Kiribati entry requirements (aggregator)",
+     "authority": "Signal: secondary site",
+     "url": "https://www.worldtravelguide.net/guides/oceania/kiribati/passport-visa",
+     "checked": "2026-10-31",
+     "supports": "visa-free short stays, length unclear"
+    }
+   ],
+   "checked": "2026-10-31"
   },
   "money-and-cost": {
    "status": "noted",

@@ -3,11 +3,11 @@
   "generated_on": "2026-10-31",
   "mode": "public",
   "place_passes": 280,
-  "pattern_items": 2674,
+  "pattern_items": 2648,
   "by_reason": {
-   "never-checked": 2372,
-   "imported": 151,
-   "over-budget": 151
+   "never-checked": 2353,
+   "over-budget": 149,
+   "imported": 146
   },
   "watch_checks": 0
  },
@@ -136,82 +136,6 @@
    ]
   },
   {
-   "place": "fm",
-   "name": "Federated States of Micronesia",
-   "kind": "country",
-   "tags": [
-    "p4a-oceania"
-   ],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 441,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
    "place": "ki",
    "name": "Kiribati",
    "kind": "country",
@@ -242,88 +166,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 441,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "mh",
-   "name": "Marshall Islands",
-   "kind": "country",
-   "tags": [
-    "p4a-oceania"
-   ],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
     },
     {
      "pattern": "health-entry",
@@ -402,12 +244,6 @@
      "budget_days": 365
     },
     {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
      "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
@@ -482,12 +318,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
     },
     {
      "pattern": "health-entry",
@@ -642,13 +472,53 @@
      "budget_days": 180
     },
     {
-     "pattern": "local-law",
+     "pattern": "seasons-and-flow",
      "reason": "never-checked",
      "age_days": null,
-     "budget_days": 180
+     "budget_days": 365
     },
     {
-     "pattern": "money-and-cost",
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "ck",
+   "name": "Cook Islands",
+   "kind": "associated",
+   "tags": [
+    "p4a-oceania"
+   ],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -680,9 +550,9 @@
    ]
   },
   {
-   "place": "ck",
-   "name": "Cook Islands",
-   "kind": "associated",
+   "place": "fm",
+   "name": "Federated States of Micronesia",
+   "kind": "country",
    "tags": [
     "p4a-oceania"
    ],
@@ -798,37 +668,13 @@
      "budget_days": 120
     },
     {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
      "pattern": "culture-cycles",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
     },
     {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -936,9 +782,9 @@
    ]
   },
   {
-   "place": "nc",
-   "name": "New Caledonia",
-   "kind": "territory",
+   "place": "mh",
+   "name": "Marshall Islands",
+   "kind": "country",
    "tags": [
     "p4a-oceania"
    ],
@@ -962,25 +808,59 @@
      "budget_days": 365
     },
     {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
     },
     {
-     "pattern": "local-law",
+     "pattern": "seasons-and-flow",
      "reason": "never-checked",
      "age_days": null,
-     "budget_days": 180
+     "budget_days": 365
     },
     {
-     "pattern": "money-and-cost",
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "nc",
+   "name": "New Caledonia",
+   "kind": "territory",
+   "tags": [
+    "p4a-oceania"
+   ],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -1039,18 +919,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "seasons-and-flow",
      "reason": "never-checked",
      "age_days": null,
@@ -1091,12 +959,6 @@
      "budget_days": 120
     },
     {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
      "pattern": "culture-cycles",
      "reason": "never-checked",
      "age_days": null,
@@ -1104,12 +966,6 @@
     },
     {
      "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -1326,18 +1182,6 @@
     },
     {
      "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180

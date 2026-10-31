@@ -2,15 +2,30 @@
  "place": "nr",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-NAURU-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visitor visa is needed before travel. Applicants from Australia need a sponsorship letter signed by a Nauruan citizen living in Nauru.",
+   "max_stay": "Visitor visas of 1, 2 or 3 months",
+   "pre_arrival": "Apply to the Principal Immigration Officer (Department of Justice and Border Control) or a Nauruan mission.",
+   "other": "Fees under the Immigration Regulations 2014 were A$50, A$150 and A$250 for one, two and three months; confirm current fees.",
+   "next_check": "Confirm the current form, fee and whether a visa on arrival exists with the Nauru Consulate-General in Brisbane.",
+   "sources": [
+    {
+     "title": "Immigration Regulations 2014",
+     "authority": "Republic of Nauru (via PacLII)",
+     "url": "https://pacliirms.austlii.edu.au/nr/legis/sub_leg/ia2014ir2014385",
+     "checked": "2026-10-31",
+     "supports": "where visitor visas are applied for"
+    },
+    {
+     "title": "Republic of Nauru Government Gazette 2016 No. 28",
+     "authority": "Republic of Nauru (via PacLII)",
+     "url": "https://pacliirms.austlii.edu.au/nr/other/NRGovGaz/2016/28.pdf",
+     "checked": "2026-10-31",
+     "supports": "visitor visa form and sponsorship letter"
+    }
+   ],
+   "evidence": "official",
+   "checked": "2026-10-31"
   },
   "money-and-cost": {
    "status": "noted",

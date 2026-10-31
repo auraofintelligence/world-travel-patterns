@@ -2,33 +2,38 @@
  "place": "nu",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Australian passport holders can receive a 30-day visitor permit on arrival; longer stays need advance permission.",
-   "checked": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-NIUE-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source.",
+   "status": "visa-free",
+   "summary": "No visa for a tourist visit of up to 30 days.",
+   "max_stay": "30 days",
+   "pre_arrival": "Accommodation booked for the whole stay. Flights run only through New Zealand, so New Zealand's entry rules apply too.",
    "sources": [
     {
-     "title": "Niue entry and visa requirements",
-     "url": "https://www.niueisland.com/discover-niue/travelling-to-niue",
-     "checked": "2026-08-20"
+     "title": "Niue travel advice (updated 22 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/niue",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
-   ]
+   ],
+   "evidence": "official",
+   "checked": "2026-10-31"
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "Niue has one official currency, the New Zealand Dollar (NZD). The bank cannot change currency. Most shops and hotels accept credit cards however there is typically a surcharge applied. There are no ATMs in Niue. You can withdraw cash from the bank and some shops. Before you leave, ask your bank if your cards will work overseas.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free on arrival",
-   "checked": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-NIUE-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Niue travel advice (updated 22 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/niue",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -45,6 +50,63 @@
      "url": "https://www.smartraveller.gov.au/destinations/pacific/niue",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for carrying or using even small amounts of illegal drugs are severe. They may include fines and prison sentences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/niue",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships between men were decriminalised in Niue in May 2024. Niuean society is conservative. Avoid public displays of affection.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/niue",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You’ll need a local driver’s licence to drive in Niue. Your overseas driver’s license can be used to apply for a local license at the Niue Police Station. You can only drive vehicles covered by the class on your licence. For example, with an Australian car licence you can drive a car but not a motor scooter.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/niue",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Niue travel advice (updated 22 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/niue",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Standards of dress and behaviour are modest. Be careful not to offend. Sunday is a day of religious observation in Niue. This means very few businesses operate on a Sunday. By law, water-based tour operators are not permitted to operate on Sundays. Whilst there are no laws that prohibit swimming or sightseeing on Sundays, people are expected to be discreet in their choice of activities.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Niue travel advice (updated 22 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/niue",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

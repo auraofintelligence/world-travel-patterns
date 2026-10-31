@@ -2,95 +2,21 @@
  "place": "nz",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Resident visa at border; unrestricted work rights",
-   "pre_arrival": "Travel on the Australian passport. Complete the free New Zealand Traveller Declaration from 24 hours before the journey begins. If character eligibility is uncertain, resolve it with Immigration New Zealand before flying.",
-   "max_stay": "The resident visa permits an indefinite stay. It expires on departure unless travel conditions have been varied; this usually does not prevent a qualifying Australian citizen receiving a fresh resident visa on a later arrival.",
-   "checked": "2026-08-21",
-   "evidence": "official",
+   "status": "visa-free",
+   "summary": "Australian citizens don't need a visa or an NZeTA, unless they have a criminal record or have been deported from any country.",
+   "pre_arrival": "New Zealand Traveller Declaration (NZTD) before passport control, online or by app, free.",
+   "other": "With any conviction or past deportation, ask a New Zealand Visa Application Centre well before travel. Australian permanent residents need an NZeTA.",
    "sources": [
     {
-     "title": "Australian Resident Visa",
-     "authority": "Immigration New Zealand",
-     "url": "https://www.immigration.govt.nz/visas/australian-resident-visa/",
-     "checked": "2026-08-21",
-     "supports": "border grant, indefinite stay, unrestricted work, NZeTA distinction and expiry on departure"
-    },
-    {
-     "title": "Australian citizens and permanent residents travelling to New Zealand",
-     "authority": "Immigration New Zealand",
-     "url": "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand/australian-citizens-and-permanent-residents-travelling-to-new-zealand/",
-     "checked": "2026-08-21",
-     "supports": "Australian-citizen arrival procedure and continuous-residence travel warning"
-    },
-    {
-     "title": "New Zealand Traveller Declaration",
-     "authority": "New Zealand Customs Service",
-     "url": "https://www.travellerdeclaration.govt.nz/",
-     "checked": "2026-08-21",
-     "supports": "mandatory free declaration and 24-hour submission window"
-    },
-    {
-     "title": "Working remotely from New Zealand",
-     "authority": "Immigration New Zealand",
-     "url": "https://www.immigration.govt.nz/about-us/news-centre/working-remotely-from-new-zealand/",
-     "checked": "2026-08-21",
-     "supports": "visitor remote-work conditions used only to distinguish visitor status from Australian residence"
-    },
-    {
-     "title": "Non-resident entertainers and sportspeople",
-     "authority": "Inland Revenue New Zealand",
-     "url": "https://www.ird.govt.nz/roles/non-residents/payments-and-exemptions-for-non-resident-entertainers-and-sportspeople",
-     "checked": "2026-08-21",
-     "supports": "speaker and artist classification, likely 20% withholding and GST boundary"
-    },
-    {
-     "title": "Non-resident contractors",
-     "authority": "Inland Revenue New Zealand",
-     "url": "https://www.ird.govt.nz/roles/non-residents/non-resident-contractors-exempt-from-tax",
-     "checked": "2026-08-21",
-     "supports": "contractor withholding, exemptions and GST boundary"
-    },
-    {
-     "title": "How overseas companies set up as a New Zealand business",
-     "authority": "New Zealand Companies Office",
-     "url": "https://companies-register.companiesoffice.govt.nz/help-centre/managing-an-overseas-company-in-nz/how-overseas-companies-set-up-as-a-nz-business/",
-     "checked": "2026-08-21",
-     "supports": "Australian-company registration and 10-working-day requirement"
-    },
-    {
-     "title": "Register to teach as an overseas teacher",
-     "authority": "Teaching Council of Aotearoa New Zealand",
-     "url": "https://teachingcouncil.nz/content.our-code-our-standards/become-a-teacher/overseas-trained-teacher-coming-to-Aotearoa/register-to-teach-as-an-overseas-teacher",
-     "checked": "2026-08-21",
-     "supports": "formal school-teaching registration and practising-certificate boundary"
-    },
-    {
-     "title": "Artificial Intelligence Researchers Association Annual Conference",
-     "authority": "Conference organiser",
-     "url": "https://www.ainz.ai/",
-     "checked": "2026-08-21",
-     "supports": "recurring AI research conference and forthcoming abstract call opportunity"
-    },
-    {
-     "title": "NZ Tech Rally 2027 call for speakers",
-     "authority": "NZ Tech Rally",
-     "url": "https://nztechrally.nz/call-for-speakers",
-     "checked": "2026-08-21",
-     "supports": "open call opportunity, tracks, formats, selection process and NZD 500 speaker fee"
-    },
-    {
-     "title": "CDAIO New Zealand 2026",
-     "authority": "Corinium Global Intelligence",
-     "url": "https://cdaio-nz.coriniumintelligence.com/",
-     "checked": "2026-08-21",
-     "supports": "recurring English-language data, AI, governance and sovereignty conference opportunity"
+     "title": "New Zealand travel advice (updated 22 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/new-zealand",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
    ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "NZL-ENTRY-SNAPSHOT"
-   }
+   "evidence": "official",
+   "checked": "2026-10-31"
   },
   "activities": {
    "activities": {
@@ -326,6 +252,87 @@
      "url": "https://www.smartraveller.gov.au/destinations/pacific/new-zealand",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for possessing and using drugs may include fines and prison sentences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/new-zealand",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "You'll need photo ID to buy alcohol or enter licensed premises. You can't use your Australian driver's licence. Approved IDs include: current passport current New Zealand driver's licence",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/new-zealand",
+     "checked": "2026-10-31",
+     "heading": "Alcohol laws"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "New Zealand has strict biosecurity rules. If you don't declare items for quarantine, you'll get an instant fine. If you make a false statement, you'll face heavy fines and prison sentences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/new-zealand",
+     "checked": "2026-10-31",
+     "heading": "Quarantine regulations"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "When you arrive, customs officers may check electronic devices they suspect are being used in criminal activity. Devices may include: mobile phones portable tablets hard drives laptops digital cameras",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/new-zealand",
+     "checked": "2026-10-31",
+     "heading": "Customs requirements"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "For specific information on bringing medication into New Zealand, read the New Zealand Customs Service.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/new-zealand",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can drive for up to 12 months with your Australian driver's licence. After that, you'll need to get a local licence.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/new-zealand",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "New Zealand travel advice (updated 22 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/new-zealand",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": "New Zealand Dollar ($NZ)",
+   "cash_card_notes": "The local currency is the New Zealand Dollar ($NZ). Declare all amounts over $NZ10,000 or equivalent on arrival and departure. This covers all forms of currency, not only cash.",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "New Zealand travel advice (updated 22 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/new-zealand",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }
