@@ -220,6 +220,134 @@
      "supports": "9 public holidays in 2027"
     }
    ]
+  },
+  "activities": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "activities": {
+    "tourism": {
+     "status": "conditional",
+     "route": "Tourist visa before travel (US$100)",
+     "detail": "A tourist visa is now applied for before entry; a grace period for visa on arrival may still apply.",
+     "next": "Apply before travel.",
+     "checked": "2026-11-01"
+    },
+    "meetings": {
+     "status": "conditional",
+     "route": "Business visa (up to six weeks a visit, 90 days a year; US$500, about A$710 at RBA, 30 October 2026: A$1 = US$0.7040)",
+     "detail": "Business meetings and visits use the business visa.",
+     "next": "Apply online before travel.",
+     "checked": "2026-11-01"
+    },
+    "conference": {
+     "status": "conditional",
+     "route": "Business visa (up to six weeks a visit, 90 days a year; US$500, about A$710 at RBA, 30 October 2026: A$1 = US$0.7040)",
+     "detail": "Attending fits a business visit.",
+     "next": "Apply online before travel.",
+     "checked": "2026-11-01"
+    },
+    "unpaid-speaking": {
+     "status": "confirm-in-writing",
+     "route": "Business visa (up to six weeks a visit, 90 days a year; US$500, about A$710 at RBA, 30 October 2026: A$1 = US$0.7040)",
+     "detail": "Short business activity may fit the business visa; check whether speaking counts.",
+     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "checked": "2026-11-01"
+    },
+    "paid-speaking": {
+     "status": "confirm-in-writing",
+     "route": "Business visa (up to six weeks a visit, 90 days a year; US$500, about A$710 at RBA, 30 October 2026: A$1 = US$0.7040) or Work permit from the Commissioner of Labour",
+     "detail": "Paid work beyond 30 days needs a work permit; shorter paid work is unclear from current pages.",
+     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "checked": "2026-11-01"
+    },
+    "book-launch": {
+     "status": "confirm-in-writing",
+     "route": "Business visa (up to six weeks a visit, 90 days a year; US$500, about A$710 at RBA, 30 October 2026: A$1 = US$0.7040) or Work permit from the Commissioner of Labour",
+     "detail": "Sales and paid appearances may count as work.",
+     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "checked": "2026-11-01"
+    },
+    "ai-teaching": {
+     "status": "confirm-in-writing",
+     "route": "Work permit from the Commissioner of Labour",
+     "detail": "Teaching is likely work.",
+     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "checked": "2026-11-01"
+    },
+    "remote-work": {
+     "status": "confirm-in-writing",
+     "route": "Not published",
+     "detail": "No remote-work rule found.",
+     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "checked": "2026-11-01"
+    },
+    "entrepreneur": {
+     "status": "conditional",
+     "route": "Business visa (up to six weeks a visit, 90 days a year; US$500, about A$710 at RBA, 30 October 2026: A$1 = US$0.7040)",
+     "detail": "Exploring business fits the business visa; operating one needs a work permit and business registration.",
+     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "checked": "2026-11-01"
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Business visa (up to six weeks a visit, 90 days a year; US$500, about A$710 at RBA, 30 October 2026: A$1 = US$0.7040)",
+     "detail": "Meetings and negotiation fit; delivery is work.",
+     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "checked": "2026-11-01"
+    },
+    "artist": {
+     "status": "confirm-in-writing",
+     "route": "Work permit from the Commissioner of Labour",
+     "detail": "Performing for payment is likely work.",
+     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "checked": "2026-11-01"
+    },
+    "mixed-mission": {
+     "status": "confirm-in-writing",
+     "route": "Depends on the mix",
+     "detail": "Business visa and work permit cover different parts.",
+     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "checked": "2026-11-01"
+    },
+    "filming": {
+     "status": "confirm-in-writing",
+     "route": "Not published",
+     "detail": "No filming permit process was found; filming in villages needs the community's permission.",
+     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration). Ask the Ministry of Culture and Tourism about filming.",
+     "checked": "2026-11-01"
+    },
+    "research": {
+     "status": "confirm-in-writing",
+     "route": "Research permit (to confirm)",
+     "detail": "Not covered on the pages read.",
+     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "checked": "2026-11-01"
+    },
+    "volunteering": {
+     "status": "confirm-in-writing",
+     "route": "Not published",
+     "detail": "Not covered on the pages read.",
+     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "checked": "2026-11-01"
+    }
+   },
+   "sources": [
+    {
+     "title": "Short term visa",
+     "authority": "Solomon Islands Ministry of Commerce, Industry, Labour and Immigration",
+     "url": "https://commerce.gov.sb/short-term-visa/",
+     "checked": "2026-11-01",
+     "supports": "business visa: up to six weeks a visit, 90 days in total; US$50 online plus US$450 visa fee"
+    },
+    {
+     "title": "Visa information",
+     "authority": "Permanent Mission of Solomon Islands to the UN",
+     "url": "https://www.un.int/solomonislands/solomonislands/visa-information",
+     "checked": "2026-11-01",
+     "supports": "business or work over 30 days needs a Commissioner of Labour work permit"
+    }
+   ]
   }
  }
 }
