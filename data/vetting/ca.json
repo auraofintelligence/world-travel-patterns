@@ -19,251 +19,132 @@
    "checked": "2026-10-31"
   },
   "activities": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
    "activities": {
     "tourism": {
      "status": "low",
-     "route": "eTA when travelling by air; valid passport for most land or sea arrivals",
-     "detail": "Australian passport holders do not need a visitor visa. Visits are normally allowed for up to six months, but an eTA only permits travel to request entry.",
-     "next": "Apply through the official CAD $7 site before booking a flight and verify that the approval contains the correct passport number.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CAN-PATH-TOURISM-STATUS"
-     }
+     "route": "eTA by air",
+     "detail": "Tourist visit.",
+     "next": "None.",
+     "checked": "2026-11-01"
     },
     "meetings": {
      "status": "low",
-     "route": "Business visitor under IRPR 186(a) and 187",
-     "detail": "The visitor must stay under six months, avoid directly entering the Canadian labour market, and keep the main business, remuneration and profits predominantly outside Canada. Meetings, negotiations and qualifying training are published examples.",
-     "next": "Carry the foreign-company support letter, Canadian invitation, relevant contracts, funds and a host contact available within 24 hours.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CAN-PATH-MEETINGS-STATUS"
-     }
+     "route": "eTA (by air) as a business visitor",
+     "detail": "Meetings are a listed business visitor activity, if your income and main business stay outside Canada.",
+     "next": "Carry the invitation.",
+     "checked": "2026-11-01"
     },
     "conference": {
      "status": "low",
-     "route": "Business visitor for attendance",
-     "detail": "Meetings, conferences, conventions and trade fairs are published business-visitor activities. An eTA remains the separate air-entry requirement.",
-     "next": "Carry registration and agenda documents; if the role changes from attendee to presenter, classify it under the speaker exemption.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CAN-PATH-CONFERENCE-STATUS"
-     }
+     "route": "eTA (by air) as a business visitor",
+     "detail": "Conferences, conventions and trade fairs are listed.",
+     "next": "Carry the registration.",
+     "checked": "2026-11-01"
     },
     "unpaid-speaking": {
      "status": "conditional",
-     "route": "IRPR 186(j) guest-speaker exemption",
-     "detail": "A guest speaker may work without a permit for the sole purpose of making a speech or delivering a paper at a dinner, graduation, convention or similar function. The regulation does not make the exemption depend on the absence of payment.",
-     "next": "Have the organiser state the exact function, speech or paper, date, audience and whether any other teaching, consulting or seminar work is included.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CAN-PATH-UNPAID-SPEAKING-STATUS"
-     }
+     "route": "eTA plus the work-permit exemption (public speakers)",
+     "detail": "Public speakers are listed among people who can work without a permit, with conditions.",
+     "next": "Check the exemption's conditions on IRCC's page for that occupation before travel.",
+     "checked": "2026-11-01"
     },
     "paid-speaking": {
      "status": "conditional",
-     "route": "IRPR 186(j) guest-speaker exemption or commercial speaker/seminar exemption lasting no more than five days",
-     "detail": "The regulation separates a guest speech or paper at a specified function from a commercial speaker or seminar leader delivering a seminar of no more than five days. It does not publish a no-pay condition, but work outside those words requires another exemption or permit.",
-     "next": "Have the host distinguish a single guest speech from the full duration of a commercial seminar, document all payments and classify any extra consulting or teaching separately.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CAN-PATH-PAID-SPEAKING-STATUS"
-     }
+     "route": "eTA plus the work-permit exemption (public speakers)",
+     "detail": "Public speakers are exempt with conditions; check them for paid engagements.",
+     "next": "Check the exemption's conditions on IRCC's page for that occupation before travel.",
+     "checked": "2026-11-01"
     },
     "book-launch": {
      "status": "conditional",
-     "route": "Business visitor for publisher and rights meetings; IRPR 186(j) for a qualifying author speech; local publisher or bookseller for retail",
-     "detail": "A launch should be divided into meetings, public talk, signing and sales. Business visitors representing a foreign business may sell to a Canadian business but may not make sales to the Canadian general public under the published business-visitor rule.",
-     "next": "Ask the publisher to classify the author talk, handle Canadian retail and record whether a signing or workshop adds work beyond the exempt speech.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CAN-PATH-BOOK-LAUNCH-STATUS"
-     }
+     "route": "eTA plus the work-permit exemption (public speakers) or business visitor",
+     "detail": "A reading or talk may fit the public-speaker exemption; selling directly is a separate question.",
+     "next": "Check the exemption's conditions on IRCC's page for that occupation before travel.",
+     "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "conditional",
-     "route": "IRPR 186(j) for an exact speech or seminar, or the short-term high-skilled work public policy; otherwise a work permit",
-     "detail": "A qualifying commercial seminar may last no more than five days. Separately, TEER 0 or 1 work can be exempt for up to 15 consecutive days if the exemption was not used in the prior six months, or up to 30 consecutive days if not used in the prior 12 months. A publicly funded university researcher may have a separate 120-day lane. Formal or recurring teaching is not automatically covered.",
-     "next": "Have the university or event host confirm the NOC/TEER occupation, exact duties, total consecutive days and previous use of the short-work exemption.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CAN-PATH-AI-TEACHING-STATUS"
-     }
+     "status": "confirm-in-writing",
+     "route": "Work permit, unless an exemption fits",
+     "detail": "Production or hands-on work in Canada needs a work permit.",
+     "next": "Ask IRCC or an authorised representative.",
+     "checked": "2026-11-01"
     },
     "remote-work": {
-     "status": "low",
-     "route": "Digital nomad on visitor status for self-employment or an employer outside Canada",
-     "detail": "Canada expressly states that digital nomads may work online for themselves or an employer outside Canada while visiting for up to six months because they are not entering the Canadian labour market.",
-     "next": "Keep contracts, clients, employer, invoicing and principal business outside Canada; obtain a work permit before accepting Canadian employment or moving into the local labour market.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CAN-PATH-REMOTE-WORK-STATUS"
-     }
+     "status": "confirm-in-writing",
+     "route": "Not stated on the pages read",
+     "detail": "Business visitors keep their main income outside Canada; remote work for an overseas employer isn't addressed directly.",
+     "next": "Ask IRCC.",
+     "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "specialist",
-     "route": "LMIA-exempt significant-benefit entrepreneur work permit or a qualifying CPTPP investor route",
-     "detail": "Canada allows an entrepreneur to seek an LMIA-exempt work permit where the proposed Canadian business would create or maintain significant social, cultural or economic benefits or Canadian jobs. The federal Start-up Visa Program stopped accepting new applications on 30 June 2026. CPTPP can facilitate qualifying Australian investors with substantial committed capital, but it still requires the immigration criteria and a pre-arranged position or arrangement.",
-     "next": "Do not build a new plan around the paused Start-up Visa. Prepare a significant-benefit and jobs case or test the investment and role against CPTPP before operating.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CAN-PATH-ENTREPRENEUR-STATUS"
-     }
+     "status": "conditional",
+     "route": "eTA (by air) as a business visitor",
+     "detail": "Exploring and meeting fit a business visit; running a business in Canada needs a work permit or another program.",
+     "next": "Ask IRCC about business routes.",
+     "checked": "2026-11-01"
     },
     "trade": {
-     "status": "conditional",
-     "route": "Business visitor for sourcing, orders, meetings and trade fairs; CPTPP for qualifying investor, professional, technician or intra-company work",
-     "detail": "Business visitors may buy Canadian goods or services and take orders while keeping remuneration and profits abroad, but may not sell to the Canadian general public. CPTPP removes the labour-market test for specified categories but requires wage, education, experience and pre-arranged-contract safeguards where applicable.",
-     "next": "Separate negotiation and order-taking from installation, fulfilment, direct retail and local employment; have the Canadian partner identify the business-visitor or CPTPP category.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CAN-PATH-TRADE-STATUS"
-     }
+     "status": "low",
+     "route": "eTA (by air) as a business visitor",
+     "detail": "Trade fairs and buying or selling for a foreign company are business visits.",
+     "next": "Carry company documents.",
+     "checked": "2026-11-01"
     },
     "artist": {
      "status": "conditional",
-     "route": "IRPR 186(g) short-term performing-artist exemption when every condition fits",
-     "detail": "The exemption can cover a solo or group artistic performance and integral staff where the person is part of a foreign production or group, or a guest in a Canadian production, has a time-limited engagement and is not in an employment relationship with the Canadian contracting organisation. Performances primarily for film, television or radio are excluded.",
-     "next": "Have the promoter document the production, guest status, limited dates, contractual relationship, payment and whether film, broadcast or continuing employment is involved.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CAN-PATH-ARTIST-STATUS"
-     }
+     "route": "eTA plus the work-permit exemption (performing artists)",
+     "detail": "Performing artists are listed among those exempt from a work permit, with conditions.",
+     "next": "Check the exemption's conditions on IRCC's page for that occupation before travel.",
+     "checked": "2026-11-01"
     },
     "mixed-mission": {
+     "status": "confirm-in-writing",
+     "route": "Depends on the mix",
+     "detail": "Business visitor and exemptions cover different parts.",
+     "next": "Ask IRCC.",
+     "checked": "2026-11-01"
+    },
+    "filming": {
+     "status": "confirm-in-writing",
+     "route": "Not on the pages read",
+     "detail": "Filming isn't listed among the exemptions read; location permits are separate.",
+     "next": "Ask IRCC, and the province's film office.",
+     "checked": "2026-11-01"
+    },
+    "research": {
      "status": "conditional",
-     "route": "Use the eTA for entry and map every active act to business visitor, IRPR 186, short-work, CPTPP or work-permit authority",
-     "detail": "Canada offers several flexible exemptions, but an eTA alone does not confer a right to work. A conference-attendance lane does not automatically cover teaching, Canadian clients, retail sales or a performance on the same trip.",
-     "next": "Give one lead Canadian host a complete activity and payment schedule and carry written evidence for each exemption or permit at the border.",
-     "checked": "2026-08-21",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CAN-PATH-MIXED-MISSION-STATUS"
-     }
+     "route": "eTA plus the work-permit exemption (short-term researchers)",
+     "detail": "Short-term researchers are listed among those exempt, with conditions.",
+     "next": "Check the exemption's conditions on IRCC's page for that occupation before travel.",
+     "checked": "2026-11-01"
+    },
+    "volunteering": {
+     "status": "confirm-in-writing",
+     "route": "Not on the pages read",
+     "detail": "Volunteering isn't addressed on the pages read.",
+     "next": "Ask IRCC.",
+     "checked": "2026-11-01"
     }
    },
-   "status": "imported",
-   "checked": "2026-08-21",
-   "evidence": "official",
    "sources": [
-    {
-     "title": "What you need to enter Canada",
-     "authority": "Immigration, Refugees and Citizenship Canada",
-     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html",
-     "checked": "2026-08-21",
-     "supports": "Australian eTA requirement, land and sea distinction and current public-health sequencing restriction"
-    },
-    {
-     "title": "Electronic travel authorization facts",
-     "authority": "Immigration, Refugees and Citizenship Canada",
-     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/facts.html",
-     "checked": "2026-08-21",
-     "supports": "CAD $7 fee, application timing, validity and normally six-month visits"
-    },
     {
      "title": "Business visitors attending meetings, events and conferences",
      "authority": "Immigration, Refugees and Citizenship Canada",
      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/business/visitors-events-conferences.html",
-     "checked": "2026-08-21",
-     "supports": "business-visitor tests, activities, host actions and border packet"
+     "checked": "2026-11-01",
+     "supports": "business visitor activities, up to 6 months, income from outside Canada"
     },
     {
-     "title": "Immigration and Refugee Protection Regulations section 186",
-     "authority": "Department of Justice Canada",
-     "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-227/section-186.html",
-     "checked": "2026-08-21",
-     "supports": "business visitor, guest speaker, five-day seminar and performing-artist work-permit exemptions"
-    },
-    {
-     "title": "Immigration and Refugee Protection Regulations section 187",
-     "authority": "Department of Justice Canada",
-     "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-227/section-187.html",
-     "checked": "2026-08-21",
-     "supports": "international-business, foreign-remuneration and no-public-sales boundaries"
-    },
-    {
-     "title": "Public policy facilitating entry for short-term work",
+     "title": "Who can work in Canada without a work permit",
      "authority": "Immigration, Refugees and Citizenship Canada",
-     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/short-term-work-2022.html",
-     "checked": "2026-08-21",
-     "supports": "15-day, 30-day and 120-day exemptions and recurrence limits"
-    },
-    {
-     "title": "Tech Talent Strategy: digital nomads",
-     "authority": "Immigration, Refugees and Citizenship Canada",
-     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/cimm-nov-07-2023/tech-talent-strategy-digital-nomads.html",
-     "checked": "2026-08-21",
-     "supports": "self-employed and foreign-employer remote work on visitor status"
-    },
-    {
-     "title": "Start-up Visa: about the process",
-     "authority": "Immigration, Refugees and Citizenship Canada",
-     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/start-visa/about.html",
-     "checked": "2026-08-21",
-     "supports": "30 June 2026 pause on new applications"
-    },
-    {
-     "title": "Entrepreneur LMIA question",
-     "authority": "Immigration, Refugees and Citizenship Canada",
-     "url": "https://ircc.canada.ca/English/helpcentre/answer.asp?qnum=1199&top=17",
-     "checked": "2026-08-21",
-     "supports": "significant-benefit or Canadian-jobs entrepreneur work permit"
-    },
-    {
-     "title": "Canada's CPTPP temporary-entry schedule",
-     "authority": "Global Affairs Canada",
-     "url": "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/tpp-ptp/text-texte/12-a3.aspx?lang=eng",
-     "checked": "2026-08-21",
-     "supports": "Australian reciprocal investor, business visitor, professional, technician and intra-company categories"
-    },
-    {
-     "title": "International Experience Canada",
-     "authority": "Immigration, Refugees and Citizenship Canada",
-     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/iec.html",
-     "checked": "2026-08-21",
-     "supports": "Australian participation and 18-to-35 age boundary"
-    },
-    {
-     "title": "Web Summit Vancouver 2027",
-     "authority": "Event organiser",
-     "url": "https://vancouver.websummit.com/",
-     "checked": "2026-08-21",
-     "supports": "recurring English-language technology conference opportunity signal"
-    },
-    {
-     "title": "Elevate Festival 2026",
-     "authority": "Event organiser",
-     "url": "https://elevate.ca/blog/elevate-festival-returns-2026/",
-     "checked": "2026-08-21",
-     "supports": "Toronto AI, sovereignty, technology and international-speaker opportunity signal"
-    },
-    {
-     "title": "Upper Bound 2027",
-     "authority": "Event organiser",
-     "url": "https://www.upperbound.ai/",
-     "checked": "2026-08-21",
-     "supports": "Edmonton AI conference opportunity and 2026 scale of 8,000 attendees and 250 speakers"
-    },
-    {
-     "title": "ITechLaw 2027 World Technology Law Conference call for proposals",
-     "authority": "International Technology Law Association",
-     "url": "https://www.itechlaw.org/2026/07/22/call-for-proposals-vancouver/",
-     "checked": "2026-08-21",
-     "supports": "open Vancouver call, 28 August deadline, AI topics, speaker-fee policy and registration coverage"
+     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/work-without-permit.html",
+     "checked": "2026-11-01",
+     "supports": "public speakers, short-term researchers, performing artists and business visitors are exempt, with conditions"
     }
-   ],
-   "note": "checked is the oldest activity date; each activity keeps its own."
+   ]
   },
   "consular": {
    "status": "in-place",

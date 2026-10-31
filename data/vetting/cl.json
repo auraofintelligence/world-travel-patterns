@@ -135,6 +135,134 @@
      "supports": "17 public holidays next year"
     }
    ]
+  },
+  "activities": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Transitory stay (permanencia transitoria), 90 days",
+     "detail": "Rapa Nui allows at most 30 consecutive days.",
+     "next": "None.",
+     "checked": "2026-11-01"
+    },
+    "meetings": {
+     "status": "low",
+     "route": "Transitory stay (permanencia transitoria), 90 days",
+     "detail": "Business purposes are part of the transitory stay.",
+     "next": "None.",
+     "checked": "2026-11-01"
+    },
+    "conference": {
+     "status": "low",
+     "route": "Transitory stay (permanencia transitoria), 90 days",
+     "detail": "Business purposes are part of the transitory stay.",
+     "next": "None.",
+     "checked": "2026-11-01"
+    },
+    "unpaid-speaking": {
+     "status": "low",
+     "route": "Transitory stay (permanencia transitoria), 90 days",
+     "detail": "Unpaid speaking is part of a business visit.",
+     "next": "Carry the invitation.",
+     "checked": "2026-11-01"
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "Transitory stay plus SERMIG authorisation for occasional paid activity",
+     "detail": "Paid activity needs SERMIG's authorisation, applied for online; it costs 150% of the temporary residence fee and lasts no longer than the stay. It covers specific, occasional work such as show personnel, lecturers or expert technical advisers.",
+     "next": "Apply through SERMIG's digital portal before the engagement.",
+     "checked": "2026-11-01"
+    },
+    "book-launch": {
+     "status": "conditional",
+     "route": "Transitory stay plus SERMIG authorisation for occasional paid activity",
+     "detail": "Paid activity needs SERMIG's authorisation, applied for online; it costs 150% of the temporary residence fee and lasts no longer than the stay. It covers specific, occasional work such as show personnel, lecturers or expert technical advisers.",
+     "next": "Apply through SERMIG if the launch is paid.",
+     "checked": "2026-11-01"
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "Transitory stay plus SERMIG authorisation for occasional paid activity",
+     "detail": "Paid activity needs SERMIG's authorisation, applied for online; it costs 150% of the temporary residence fee and lasts no longer than the stay. It covers specific, occasional work such as show personnel, lecturers or expert technical advisers.",
+     "next": "Apply through SERMIG.",
+     "checked": "2026-11-01"
+    },
+    "remote-work": {
+     "status": "confirm-in-writing",
+     "route": "Not on the pages read",
+     "detail": "Not addressed.",
+     "next": "Ask SERMIG.",
+     "checked": "2026-11-01"
+    },
+    "entrepreneur": {
+     "status": "conditional",
+     "route": "Transitory stay (permanencia transitoria), 90 days",
+     "detail": "Exploring business fits; residence for a business is applied for from abroad.",
+     "next": "Ask SERMIG about residence routes.",
+     "checked": "2026-11-01"
+    },
+    "trade": {
+     "status": "low",
+     "route": "Transitory stay (permanencia transitoria), 90 days",
+     "detail": "Business visits are covered.",
+     "next": "None.",
+     "checked": "2026-11-01"
+    },
+    "artist": {
+     "status": "conditional",
+     "route": "Transitory stay plus SERMIG authorisation for occasional paid activity",
+     "detail": "Paid activity needs SERMIG's authorisation, applied for online; it costs 150% of the temporary residence fee and lasts no longer than the stay. It covers specific, occasional work such as show personnel, lecturers or expert technical advisers.",
+     "next": "Apply through SERMIG for paid performances.",
+     "checked": "2026-11-01"
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "Transitory stay (permanencia transitoria), 90 days plus authorisation for any paid part",
+     "detail": "Paid activity needs SERMIG's authorisation, applied for online; it costs 150% of the temporary residence fee and lasts no longer than the stay. It covers specific, occasional work such as show personnel, lecturers or expert technical advisers.",
+     "next": "Apply for the paid part.",
+     "checked": "2026-11-01"
+    },
+    "filming": {
+     "status": "confirm-in-writing",
+     "route": "Transitory stay (permanencia transitoria), 90 days (paid filming may need authorisation)",
+     "detail": "Paid filming may need the same authorisation; frontier areas need 90 days' approval for scientific or technical work, and Rapa Nui has its own rules.",
+     "next": "Ask SERMIG, and the Rapa Nui authorities for filming on the island.",
+     "checked": "2026-11-01"
+    },
+    "research": {
+     "status": "conditional",
+     "route": "Transitory stay (permanencia transitoria), 90 days (frontier-area approval where needed)",
+     "detail": "Scientific work in frontier areas needs government approval 90 days ahead.",
+     "next": "Apply 90 days ahead if the area is a frontier area.",
+     "checked": "2026-11-01"
+    },
+    "volunteering": {
+     "status": "confirm-in-writing",
+     "route": "Not on the pages read",
+     "detail": "Not addressed.",
+     "next": "Ask SERMIG.",
+     "checked": "2026-11-01"
+    }
+   },
+   "sources": [
+    {
+     "title": "People entering for tourist, sporting, business or other similar purposes",
+     "authority": "Servicio Nacional de Migraciones, Chile",
+     "url": "https://serviciomigraciones.cl/en/permanencia-transitoria-permit/subcategories/tourists",
+     "checked": "2026-11-01",
+     "supports": "transitory stay covers tourism and business"
+    },
+    {
+     "title": "Permanencia transitoria",
+     "authority": "Servicio Nacional de Migraciones, Chile",
+     "url": "https://serviciomigraciones.cl/permanencia-transitoria/",
+     "checked": "2026-11-01",
+     "supports": "authorisation for specific, occasional paid activities; US$100 extension"
+    }
+   ]
   }
  }
 }
