@@ -2,26 +2,38 @@
  "place": "tl",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa on arrival available.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TIMOR-LESTE-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-on-arrival",
+   "summary": "A 30-day tourist visa on arrival at Dili airport or Dili seaport only, paid in US dollars cash (no exchange or cards at the airport).",
+   "max_stay": "30 days; extensions at the Immigration Department, Vila Verde, Dili, with a valid reason",
+   "other": "Entering by land from West Timor, or booked for more than 30 days, needs a visa before arrival.",
+   "sources": [
+    {
+     "title": "Timor-Leste travel advice (updated 23 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/timor-leste",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ],
+   "checked": "2026-10-31",
+   "evidence": "official"
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The official currency is the US Dollar (USD). You should enter Timor-Leste with enough cash in USD for your entire stay. You might not be able to change Australian dollars and cards are not widely accepted for transactions. Most places won't accept credit/debit cards, including visas on arrival, hotels, shops and restaurants - you must pay in cash in USD. Visa cards and Union Pay are the only two card types accepted in Timor-Leste, including for ATM withdrawals. ATMs are only available in built-up areas and may not always be restocked. Ask your bank if your Australian credit or debit cards wil",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $45",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TIMOR-LESTE-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Timor-Leste travel advice (updated 23 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/timor-leste",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +50,71 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/timor-leste",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "There are serious penalties for drug offences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/timor-leste",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "Don't interfere in local political processes or take part in political activity. If you do, you'll face fines, arrest, detention, or deportation.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/timor-leste",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Timor-Leste doesn't recognise de facto or same-sex relationships. Social and cultural attitudes towards same-sex relationships are conservative. Avoid public displays of affection. They aren't socially acceptable.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/timor-leste",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Timor-Leste, you need both: a valid International Driving Permit (IDP) your current Australian driver's licence (digital driver's licences may not be accepted) Get your IDP before you leave Australia. Your travel and vehicle insurance might not be valid if you don't have an IDP. After three months, you'll need to get a local licence.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/timor-leste",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Timor-Leste travel advice (updated 23 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/timor-leste",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Timor-Leste has conservative standards of behaviour and dress. Dress modestly in public places, churches or markets. Take care not to offend. If in doubt, seek local advice. Religious days are closely observed. Show respect to local customs.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Timor-Leste travel advice (updated 23 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/timor-leste",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

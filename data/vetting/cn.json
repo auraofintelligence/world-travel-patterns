@@ -2,95 +2,23 @@
  "place": "cn",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "30 days visa-free to 31 Dec 2026",
-   "pre_arrival": "Confirm the visa-free policy is still in force for the travel date and carry the invitation or activity purpose.",
-   "max_stay": "Up to 30 calendar days under the current policy, through 31 December 2026.",
-   "checked": "2026-08-20",
-   "evidence": "official",
+   "status": "visa-free",
+   "summary": "Visa waiver for ordinary Australian passports, up to 30 days for business, tourism, visiting family and friends, or transit, until 31 December 2026.",
+   "max_stay": "30 days",
+   "pre_arrival": "Electronic arrival card on the National Immigration Administration site or by QR code at entry.",
+   "other": "Australians have been refused entry; medical screening on arrival can include a blood sample. A full visa must be obtained before travel.",
+   "next_check": "Watch item cn-visa-waiver-2026: the waiver ends 31 December 2026 unless extended.",
    "sources": [
     {
-     "title": "FAQs on visa-free entry into China",
-     "authority": "Ministry of Foreign Affairs of China",
-     "url": "https://cs.mfa.gov.cn/lh/lhqz_149493/cjwd/",
-     "checked": "2026-08-20",
-     "supports": "eligible purposes, 30-day stay and work exclusion"
-    },
-    {
-     "title": "Extension of visa-free policy for Australians",
-     "authority": "Embassy of China in Australia",
-     "url": "https://au.china-embassy.gov.cn/eng/tzgg/202511/t20251105_11747334.htm",
-     "checked": "2026-08-20",
-     "supports": "policy end date"
-    },
-    {
-     "title": "China visa categories F, M, Z and R",
-     "authority": "Chinese Visa Application Service Centre",
-     "url": "https://pdf.visaforchina.cn/MES3_EN/qianzhengyewu/jichuzhishi/changjianwenti/206736865926189056.html",
-     "checked": "2026-08-20",
-     "supports": "exchange, business and work visa purposes"
-    },
-    {
-     "title": "Work permit for 90 days or less",
-     "authority": "Shanghai Municipal Government",
-     "url": "https://english.shanghai.gov.cn/en-Latest-TalentsinShanghai/20260202/6846c3872de54772a4635b227d2f15de.html",
-     "checked": "2026-08-20",
-     "supports": "short-term host-led work process"
-    },
-    {
-     "title": "Short-term working tasks for foreigners",
-     "authority": "Beijing Municipal Government",
-     "url": "https://english.beijing.gov.cn/mostrequested/residencepermit/employment/202005/t20200521_1904763.html",
-     "checked": "2026-08-20",
-     "supports": "Z-visa sequence and commercial-performance approvals"
-    },
-    {
-     "title": "Foreign professional work-permit criteria",
-     "authority": "Shanghai Municipal Government",
-     "url": "https://english.shanghai.gov.cn/en-WorkPermit-Hongqiao/20231213/a88687f2d8094fbebe38b1a667530ed1.html",
-     "checked": "2026-08-20",
-     "supports": "Category B age, degree, experience and points criteria"
-    },
-    {
-     "title": "Entrepreneurship residence pathways",
-     "authority": "Shanghai Municipal Government",
-     "url": "https://english.shanghai.gov.cn/en-FAQs-TalentInShanghai/20240607/432231df2d514907bb49dbe3ee9a8338.html",
-     "checked": "2026-08-20",
-     "supports": "city-specific founder route"
-    },
-    {
-     "title": "Foreign Investment Law",
-     "authority": "State Council of China",
-     "url": "https://english.www.gov.cn/services/mvestment/202102/24/content_WS6035aa38c6d0719374af9609.html",
-     "checked": "2026-08-20",
-     "supports": "foreign investment framework"
-    },
-    {
-     "title": "World Artificial Intelligence Conference 2026",
-     "authority": "Shanghai Municipal Government",
-     "url": "https://english.shanghai.gov.cn/en-Events/20260624/9cc202d708504b56ba32f70fbd61ef79.html",
-     "checked": "2026-08-20",
-     "supports": "AI opportunity signal"
-    },
-    {
-     "title": "China International Fair for Trade in Services",
-     "authority": "Beijing Municipal Government",
-     "url": "https://english.beijing.gov.cn/investinginbeijing/hotspot/CIFTIS/index.html",
-     "checked": "2026-08-20",
-     "supports": "trade and conference opportunity signal"
-    },
-    {
-     "title": "Beijing International Book Fair 2026",
-     "authority": "Beijing Municipal Government",
-     "url": "https://english.beijing.gov.cn/whatson/events/exhibition/202606/t20260611_4695970.html",
-     "checked": "2026-08-20",
-     "supports": "publishing opportunity signal"
+     "title": "China travel advice (updated 28 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
    ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "CHN-ENTRY-SNAPSHOT"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official"
   },
   "activities": {
    "activities": {
@@ -326,6 +254,151 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/china",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "China has the death penalty for drug offences and other serious crimes. Under Chinese criminal law, it's possible for espionage and other national security offences to attract serious penalties, from lengthy custodial sentences to the death penalty. If you're sentenced to death, it's unlikely that Chinese authorities will grant you leniency.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "heading": "Death penalty"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for all types of drug offences including use, possession, manufacturing, selling or trafficking are severe and include life in prison or the death penalty. Authorities strictly enforce these laws, even for small quantities of 'soft' drugs, such as marijuana. These laws and severe penalties also apply to minors. Authorities conduct random drug tests, including at airports and on arrival to China. Police raids on nightclubs and bars frequented by foreigners can occur, with patrons subjected to urine and / or hair tests. A positive drug test can result in fines, detention and deportation, regardless of when or where the drugs were used. Authorities have executed foreigners for drug of",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Authorities may not allow you to leave China if you're involved in a: criminal matter or investigation civil or commercial dispute",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "heading": "Legal proceedings and investigations"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Chinese authorities may place an exit ban upon an individual to prevent them from leaving the country. Sometimes, people only become aware of an exit ban when they try to leave China. Exit bans can be applied for a number of reasons, including if you're involved in legal proceedings in China. Exit bans can affect you even if you're not directly involved in the legal proceedings. Authorities have stopped some Australians from leaving China because of a dispute involving family members. Sometimes it's years before authorities allow people to leave China. Our ability to assist you if you're subject to an exit ban is limited. If you're involved in local legal matters: get professional advice you",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "heading": "Exit bans"
+    },
+    {
+     "topic": "filming-and-drones",
+     "rule": "There are strict laws on ownership and use of drones. Taking drones on trains or planes is restricted. There's a ban on the use of drones in Beijing in particular. The process to register to use a drone is complex and there are ongoing monitoring and reporting requirements. If you're considering taking a drone to China you should check the requirements on the Civil Aviation Administration of China (CAAC) website.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "heading": "Drones"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "China has strict laws on national security, which it updates from time to time. This includes laws that may punish individuals or organisations it considers to have engaged in activities that undermine ethnic unity and progress, create division, or incite separatism. These laws can be interpreted broadly and applied expansively and harshly. They may apply to online activity, public comments, publications, associations or other conduct. Penalties may be severe. Chinese authorities may define certain behaviours and activities as endangering national security that would not be considered as such in Australia. This could include activities that occurred outside of China. Authorities have detaine",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "China limits access to many foreign websites and social media services. You may be unable to access your banking, use popular phone apps, or make calls or send messages using internet-based services. The use of services to bypass local internet restrictions may be illegal and can attract penalties, including imprisonment. Mobile and internet service providers can be requested to provide data to Chinese authorities.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "heading": "Internet access"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Under Chinese law, you must register your place of residence with the local Public Security Bureau. You must do this within 24 hours of arriving and each time you change your residential location. An online registration system is available for the provinces of Hebei, Liaoning, Zhejiang, Hubei, Guangxi, Chongqing, and Sichuan. If you stay at a hotel, the staff do this as part of the standard check-in process. If you're staying elsewhere, such as with family or friends, visit the nearest police station. Present your passport and a valid Chinese visa. You must always carry identification and show it to the police if they ask for it. Authorities will accept your passport or a Chinese residence c",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "heading": "Registration and identification"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Homosexuality is not illegal in China but be aware of local sensitivities, including with regards to public displays of affection. Chinese law doesn't guarantee freedom from discrimination for LGBTQIA+ travellers. Travellers whose gender expression or appearance may not align with the gender recorded in their passport may experience additional or intrusive questions from immigration authorities.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ laws"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "You can only participate in religious activities at registered or approved locations. There are restrictions on foreigners organising or hosting religious services and associating with unapproved religious groups. Foreign nationals may invite Chinese religious professionals to perform ceremonies such as baptisms, weddings and funerals. Only foreigners may participate in religious events which are organised or hosted by foreigners. Permission should be obtained from the relevant religious affairs administration office that covers the event location.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "heading": "Religious activities"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "China has experienced higher numbers of commercial disputes involving Australians in recent years. Before starting business relationships: investigate the market get professional advice conduct appropriate due diligence Get professional legal advice before entering into any contract in China. This includes residential leases and business contracts.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "heading": "Doing business in China"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Many business issues that Australians consider to be civil or commercial are classified as criminal matters in China. This is especially the case if state enterprises or state assets are involved. Penalties for commercial and economic crimes are often severe. Foreigners have been held against their will at their workplace. These incidents involved other companies or employees trying to resolve business and employment disputes.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "heading": "Business versus criminal matters"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Disputes over working and living conditions for Australians working in China are common. This is particularly the case for those teaching English. If you’re considering travel to China for work: verify the true nature of the work on offer make sure you have the correct visa before you arrive Authorities can fine or detain you if you don't maintain a valid visa. Get professional legal advice before signing any contract in Australia or China. Carefully check local laws about business or other activities you wish to undertake in China. Employment contracts may contain conditions that disadvantage you. For example, if your contract is terminated early, conditions may state that: you give up your",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "heading": "Employment in China"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You must hold a valid Chinese driver's licence or a temporary driving permit to drive. Foreign driver's licences and International Driving Permits (IDP) aren't valid in mainland China. You can apply for a Chinese driver's licence or a temporary driving permit at a local Vehicle Management Office or service centre. Call 12123 from within China for more information (Chinese language only). If you're hiring a car, check driving licence requirements with your car hire company. Age and health restric",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "China travel advice (updated 28 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The currency in China is the Renminbi (RMB). Chinese law limits the amount of foreign currency you can carry in and out of China. If you’re entering China with more than RMB 20,000 (USD 5,000) or the same amount in any other currency, you must declare it to customs on arrival. Keep the declaration. You need to show it to customs officials when you leave. If you plan to leave China carrying more than RMB 20,000 (USD 5,000) or the same amount in another currency, you need permission from a Chinese bank. You can't leave China with more than USD 10,000 or the same amount in foreign currency, witho",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "China travel advice (updated 28 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

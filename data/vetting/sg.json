@@ -2,158 +2,23 @@
  "place": "sg",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free entry; activity permission is separate",
-   "pre_arrival": "Use a passport valid for at least six months, submit the free SG Arrival Card within three days including the arrival day, carry onward travel and funds, and have the organiser classify every active role before departure.",
-   "max_stay": "Do not promise a fixed duration: ICA decides the authorised stay at entry and records it on the e-Pass. Work Pass Exempt delivery must fit inside that stay and the 90-day annual ceiling.",
-   "checked": "2026-08-21",
-   "evidence": "official",
+   "status": "visa-free",
+   "summary": "No visa for tourism, business meetings or conferences up to 90 days.",
+   "max_stay": "Up to 90 days",
+   "pre_arrival": "Singapore Arrival Card (SGAC), free, within three days before arrival on the official ICA site. A yellow fever certificate if arriving from an affected country.",
+   "passport_validity": "At least 6 months.",
+   "other": "Some ADHD and prescription pain medicines need Health Sciences Authority approval at least 10 working days before arrival. No chewing gum, even in transit. Cannabis products are banned even in transit.",
    "sources": [
     {
-     "title": "Visa information for Australian passport holders",
-     "authority": "High Commission of Singapore in Canberra",
-     "url": "https://canberra.mfa.gov.sg/consular-services/visa-information/",
-     "checked": "2026-08-21",
-     "supports": "Australian visa-free entry, border grant and Visit Pass activity warning"
-    },
-    {
-     "title": "Entering Singapore",
-     "authority": "Immigration and Checkpoints Authority",
-     "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore",
-     "checked": "2026-08-21",
-     "supports": "passport validity, SG Arrival Card, onward travel, electronic pass and Short-Term Visit Pass restrictions"
-    },
-    {
-     "title": "Eligible activities for a Work Pass Exemption",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/work-pass-exempt-activities/eligible-activities",
-     "checked": "2026-08-21",
-     "supports": "meetings, attendance, speaking, training, exhibitions, performance boundaries and 90-day annual limit"
-    },
-    {
-     "title": "Notify MOM for Work Pass Exempt Activities",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/work-pass-exempt-activities/notify-mom-for-an-exemption",
-     "checked": "2026-08-21",
-     "supports": "post-arrival and pre-work notification timing and required details"
-    },
-    {
-     "title": "Eligibility for Miscellaneous Work Pass",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/miscellaneous-work-pass/eligibility",
-     "checked": "2026-08-21",
-     "supports": "cause, political, religion, race and community event route and 60-day duration"
-    },
-    {
-     "title": "Apply for a Miscellaneous Work Pass",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/miscellaneous-work-pass/apply-for-a-pass",
-     "checked": "2026-08-21",
-     "supports": "Singapore sponsor, two-month lead recommendation and six-week processing"
-    },
-    {
-     "title": "Eligibility for Employment Pass",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
-     "checked": "2026-08-21",
-     "supports": "age-43 salary floors, 2027 increases and COMPASS"
-    },
-    {
-     "title": "Eligibility for EntrePass",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/entrepass/eligibility",
-     "checked": "2026-08-21",
-     "supports": "venture-backed or innovative-company and ownership criteria"
-    },
-    {
-     "title": "Apply for an EntrePass",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/entrepass/apply-for-a-pass",
-     "checked": "2026-08-21",
-     "supports": "six-week processing, separate business registration and visitor-extension warning"
-    },
-    {
-     "title": "Key facts on Overseas Networks and Expertise Pass",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass/key-facts",
-     "checked": "2026-08-21",
-     "supports": "five-year top-talent route and ability to operate multiple companies"
-    },
-    {
-     "title": "Foreign workforce policy announcements at COS 2026",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/-/media/mom/documents/press-releases/2026/factsheet-on-foreign-workforce-policies-03032026.pdf",
-     "checked": "2026-08-21",
-     "supports": "announced January 2027 ONE Pass AI and Tech track and pending-detail boundary"
-    },
-    {
-     "title": "Treatment of income for non-resident professionals",
-     "authority": "Inland Revenue Authority of Singapore",
-     "url": "https://www.iras.gov.sg/taxes/withholding-tax/payments-to-non-resident-professional-%28consultant-trainer-coach-etc-%29/treatment-of-income-for-non-resident-professional",
-     "checked": "2026-08-21",
-     "supports": "15% gross withholding and inclusion of fees, honoraria, accommodation, airfare and benefits"
-    },
-    {
-     "title": "Tax obligations of non-resident public entertainers",
-     "authority": "Inland Revenue Authority of Singapore",
-     "url": "https://www.iras.gov.sg/taxes/withholding-tax/payments-to-non-resident-public-entertainer-%28artiste-musician-sportsman-etc-%29/tax-obligations-of-non-resident-public-entertainer",
-     "checked": "2026-08-21",
-     "supports": "15% performance-income withholding and local payer obligations"
-    },
-    {
-     "title": "Performing Artiste Work Permit scheme",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-performing-artiste/eligibility-and-requirements",
-     "checked": "2026-08-21",
-     "supports": "scheme closure and remaining exemption or regular-pass alternatives"
-    },
-    {
-     "title": "Public Entertainment Licence",
-     "authority": "Singapore Police Force",
-     "url": "https://www.police.gov.sg/Business-E-Services/Apply-for-Public-Entertainment-Licence",
-     "checked": "2026-08-21",
-     "supports": "venue and event licensing layer"
-    },
-    {
-     "title": "ATA Carnet",
-     "authority": "Singapore Customs",
-     "url": "https://www.customs.gov.sg/permits-and-licences/import-export-facilitation-schemes/temporary-import-export/ata-carnet/",
-     "checked": "2026-08-21",
-     "supports": "temporary import of exhibition and professional goods"
-    },
-    {
-     "title": "Asia Tech x Singapore",
-     "authority": "IMDA and Informa",
-     "url": "https://asiatechxsg.com/",
-     "checked": "2026-08-21",
-     "supports": "recurring global AI, infrastructure, policy and enterprise conference opportunity"
-    },
-    {
-     "title": "Singapore FinTech Festival 2026 agenda",
-     "authority": "Singapore FinTech Festival",
-     "url": "https://www.fintechfestival.sg/agenda",
-     "checked": "2026-08-21",
-     "supports": "2026 English programme and current Apply to Speak opportunity signal"
-    },
-    {
-     "title": "Singapore Week of Innovation and Technology",
-     "authority": "SWITCH",
-     "url": "https://www.switchsg.org/",
-     "checked": "2026-08-21",
-     "supports": "recurring deep-tech, AI, startup, innovation and trade conference opportunity"
-    },
-    {
-     "title": "SuperAI",
-     "authority": "SuperAI",
-     "url": "https://www.superai.com/",
-     "checked": "2026-08-21",
-     "supports": "large international AI event and current 2027 speaker application opportunity signal"
+     "title": "Singapore travel advice (updated 16 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
    ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "SGP-ENTRY-SNAPSHOT"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official"
   },
   "activities": {
    "activities": {
@@ -452,6 +317,144 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/singapore",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Drugs are illegal. The penalties for use, possession or trafficking are severe, including the death penalty. It's illegal to have drugs in your system. This includes traces being found in blood, urine and hair tests. Penalties are severe for drug offences and include the death penalty and caning. You can be charged for consuming drugs even if you took them outside Singapore and, regardless of if you took them in a country where it was legal to do so. There have been reports of drug-laced vapes circulating in Singapore. Penalties for possession or trafficking of drug-laced vapes may include imprisonment and caning. Do not bring medicinal cannabis to Singapore, even during transit. If you take",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Serious crimes, such as drug trafficking, murder, abduction, firearm and weapons offences, can attract the death penalty. Corporal punishment involving caning is regularly practised. This is a penalty for crimes such as: outrage of modesty (molestation) rape rioting extortion visa offences vandalism robbery unlawful possession of weapons possession or trafficking of drug-laced vapes scamming offences Singapore has strict laws regarding 'outrage of modesty' (also known as molestation) and 'insult of modesty.' It is important to avoid any actions that could be interpreted as such. Outrage of modesty involves physical actions such as groping, rubbing, pinching, or grabbing. Insult of modesty pe",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-10-31",
+     "heading": "Serious crimes"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Singapore has strict laws and penalties for things that are legal or are minor offences in Australia. These include: smoking in public places or indoor restaurants spitting importing or chewing gum chewing tobacco littering jaywalking You are not allowed to bring in any chewing gum (including nicotine gum) even if you remain within the airport transit zone while travelling through Singapore.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-10-31",
+     "heading": "Minor crimes"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "Penalties are severe for crimes that affect social, racial or ethnic harmony. These include racial insults and promoting ill-will and hostility between different races or classes. If you want to speak publicly on racial, communal, religious or political topics, you must apply for a Miscellaneous Work Pass from the Ministry of Manpower.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-10-31",
+     "heading": "Racial crimes"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Serious penalties, including detention or jail, apply for these illegal activities: being drunk, behaving badly or using offensive language using, possessing, importing and selling of vapes, e-cigarettes or associated paraphernalia is illegal. Even if they are for personal use. Do not bring any vaping products into Singapore (even during transit) or attempt to purchase them locally. driving under the influence of alcohol drinking alcohol in public places between 10.30pm and 7am drinking alcohol in a Liquor Control Zone Liquor control zones include specified areas in Geylang and Little India. Additional restrictions apply on weekends and public holidays.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-10-31",
+     "heading": "Alcohol and vaporiser (vape) laws"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Material that is legal in Australia may be illegal. Serious penalties apply, including detention or jail, for bringing: pirated copyright material printed and recorded material considered obscene or prohibited",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-10-31",
+     "heading": "Copyrighted and prohibited material"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "If you are or have been a Singaporean permanent resident or a dual Australian-Singaporean national under the age of 21, or either of your parents are or have been Singaporean permanent residents or Singaporean nationals when you were a child, know your obligations regarding national service requirements before deciding to travel to, transit through or live in Singapore. There have been instances of people visiting Singapore years after living overseas, being arrested on arrival for not completing national service requirements. Renouncing your citizenship or permanent residency may not result in national service requirements being waived. If you fall into any of the categories above, are alre",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-10-31",
+     "heading": "National Service"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships have been decriminalised, however the law does not recognise same sex partners or marriage. This extends to how same-sex partners are treated under Singapore's visa and immigration policies. You should be aware of local sensitivities. Behaviour standards are conservative, and public displays of affection may offend.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Serious penalties, including detention or imprisonment, apply for these illegal activities: illegal immigration overstaying your visa being caught with weapons, military souvenirs, replica weapons or ammunition, including empty cartridges working without a valid work pass, (see 'Travel') taking photos of official buildings where there are signs banning photos If you're working in Singapore, your work pass may be cancelled if you break the law.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Strict rules control the ingredients/composition of medication. Some medications, including ones for ADHD and prescription pain medication, need prior approval before being brought into Singapore. Medicinal marijuana is not permitted. Check the Singapore Health Sciences Authority for a list of controlled substances, including how to apply for approval at least 10 working days before you arrive. You don't need pre-approval if you don't leave the airport transit zone (without clearing Singapore immigration). You are not allowed to bring in any chewing gum (including nicotine gum), as well as personal medication that contains prohibited substances, even if you remain within the airport transit ",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive, you must be at least 18 years old and have an Australian driver's licence (digital driver's licences may not be accepted) and an International Driving Permit (IDP). If you stay longer than 12 months, you'll need a Singaporean licence. If you're a permanent resident, get a Singaporean licence within 3 months of getting residency.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Singapore travel advice (updated 16 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Behaviour standards are conservative. Public displays of affection may offend. When eating at food stalls, locals will \"chope\" a table by placing an item such as a tissue packet or an umbrella to reserve the table while they are collecting their food. After eating, be sure to tidy your table and return your food tray to a return station. It is against the law not to do so. Take care not to offend. If in doubt, seek local advice.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Singapore travel advice (updated 16 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The official currency is the Singapore Dollar (SGD). You can easily exchange Australian dollars for SGD in Singapore. You must declare amounts over SGD20,000 or the same amount in foreign currency on arrival. This covers all forms of currency, not only cash. ATMs are available across the country. Hotels, restaurants and shops accept international credit cards. Food stalls known as 'hawker centres' and small retailers may not accept credit cards. Cash may be required.",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Singapore travel advice (updated 16 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

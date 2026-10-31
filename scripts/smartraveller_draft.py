@@ -31,7 +31,8 @@ GENERIC = re.compile(r"^(When you travel to another country|The Australian Gover
 CONTACTS = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+|\+?\(?\d[\d ()-]{6,}\d")
 SKIP_HEADS = {"Local law", "Local laws", "Australian laws", "Dual nationality", "Dual nationals"}
 TOPICS = [
-    (r"identity|identification", "conduct-and-public-order"),
+    (r"identity|identification|internet|vpn|exit ban|registration", "conduct-and-public-order"),
+    (r"satellite|radio|telecom", "currency-and-goods"),
     (r"drug|cannabis|narcotic|medic", "drugs-and-prescription-medicines"),
     (r"alcohol|drink|drunk|liquor", "alcohol"),
     (r"relig|ramadan|blasphem|preach|speech|insult|monarch|royal|lese|flag|politic|criticis|social media|online", "speech-religion-and-respect"),
@@ -39,9 +40,9 @@ TOPICS = [
     (r"drone|film|media", "filming-and-drones"),
     (r"photo", "photography"),
     (r"dress|cloth|modest|nudity|swimwear", "dress-and-public-behaviour"),
-    (r"lgbt|same-sex|relationship|marriage|cohabit|sexual|affection|surrogacy", "relationships-and-cohabitation"),
+    (r"lgbt|same-sex|relationship|marriage|cohabit|sexual|affection|surrogacy|abortion|reproductive|dowr", "relationships-and-cohabitation"),
     (r"wildlife|biosecurity|souvenir|antiqu|coral|heritage|artefact|protected|export|war material", "wildlife-biosecurity-and-souvenirs"),
-    (r"camp|fire|trespass|hiking|access", "camping-fires-and-access"),
+    (r"camp|bushfire|campfire|trespass|hiking|trekking|restricted area", "camping-fires-and-access"),
     (r"driv|road|licen", "driving-and-licences"),
     (r"currency|customs|import|goods", "currency-and-goods"),
     (r"work|employ|business|volunteer|overstay|visa", "work-and-payment"),

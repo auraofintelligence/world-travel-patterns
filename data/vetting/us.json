@@ -2,102 +2,22 @@
  "place": "us",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "ESTA for permitted tourism or B-1 activity, up to 90 days",
-   "pre_arrival": "Check ESTA eligibility before making reservations and apply at least 72 hours before travel. If prior travel has ended Visa Waiver Program eligibility, allow time for a B or other visa interview.",
-   "max_stay": "Up to 90 days under the Visa Waiver Program, with no routine extension or change of status; a short trip to Canada or Mexico generally does not reset the original 90 days.",
-   "checked": "2026-08-21",
-   "evidence": "official",
+   "status": "eta-required",
+   "summary": "ESTA under the Visa Waiver Program for tourism or business visits under 90 days. No paid or unpaid work, including volunteering, house-sitting or pet-sitting.",
+   "max_stay": "Under 90 days; the date on your I-94 record is the one that counts",
+   "pre_arrival": "Apply for ESTA. Be ready to answer questions about purpose, length, where you'll stay and your ties to Australia; officers may inspect devices and social media.",
+   "other": "A refused ESTA, a past refusal of entry or a stay over 90 days needs a visa interview at a US Embassy or Consulate in Australia. Some visa types require public social media settings. An onward ticket can't end in Canada, Mexico or the Caribbean unless you live there.",
    "sources": [
     {
-     "title": "Visa Waiver Program",
-     "authority": "US Department of State",
-     "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html",
-     "checked": "2026-08-21",
-     "supports": "Australian eligibility, 90-day limit, permitted activities, prohibited employment and travel-history exclusions"
-    },
-    {
-     "title": "US Business Visas B-1 and Allowable Uses",
-     "authority": "US Department of State",
-     "url": "https://travel.state.gov/content/travel/en/us-visas/business/b-1-fact-sheet.html",
-     "checked": "2026-08-21",
-     "supports": "ESTA activity equivalence, meetings, conferences, commercial transactions, expenses and specialised-trainer boundary"
-    },
-    {
-     "title": "9 FAM 402.2 Tourists and Business Visitors",
-     "authority": "US Department of State Foreign Affairs Manual",
-     "url": "https://fam.state.gov/fam/09FAM/09FAM040202.html",
-     "checked": "2026-08-21",
-     "supports": "B-1 activity boundaries, academic honorarium rule and professional entertainer exclusions"
-    },
-    {
-     "title": "Visitor activities within foreign-media visa guidance",
-     "authority": "US Department of State",
-     "url": "https://travel.state.gov/content/travel/en/us-visas/employment/visas-members-foreign-media-press-radio.html",
-     "checked": "2026-08-21",
-     "supports": "nine-day academic honorarium and five-institution limits"
-    },
-    {
-     "title": "Temporary Worker Visas",
-     "authority": "US Department of State",
-     "url": "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
-     "checked": "2026-08-21",
-     "supports": "O, P and petition-led temporary work categories"
-    },
-    {
-     "title": "Treaty Trader, Treaty Investor and Australians in Specialty Occupations",
-     "authority": "US Department of State",
-     "url": "https://travel.state.gov/content/travel/en/us-visas/employment/treaty-trader-investor-visa-e.html",
-     "checked": "2026-08-21",
-     "supports": "E-1, E-2 and E-3 criteria and host actions"
-    },
-    {
-     "title": "Form I-941 Instructions",
-     "authority": "US Citizenship and Immigration Services",
-     "url": "https://www.uscis.gov/sites/default/files/document/forms/i-941instr.pdf",
-     "checked": "2026-08-21",
-     "supports": "International Entrepreneur Rule ownership, startup-age, investment, grant and alternative-evidence thresholds"
-    },
-    {
-     "title": "Ai4 2026",
-     "authority": "Event organiser",
-     "url": "https://ai4.io/",
-     "checked": "2026-08-21",
-     "supports": "recurring English-language AI conference opportunity signal"
-    },
-    {
-     "title": "SXSW conference speaking applications",
-     "authority": "Event organiser",
-     "url": "https://support.sxsw.com/hc/en-us/articles/360014262311-How-do-I-or-my-company-or-group-apply-to-speak-at-the-SXSW-Conference",
-     "checked": "2026-08-21",
-     "supports": "recurring cross-sector conference opportunity; 2027 PanelPicker closed before this check"
-    },
-    {
-     "title": "CES 2027 call for speakers",
-     "authority": "CES",
-     "url": "https://platforms.ces.tech/forms/cfs_2027",
-     "checked": "2026-08-21",
-     "supports": "open call opportunity and deadline"
-    },
-    {
-     "title": "2027 SelectUSA Investment Summit call for speakers",
-     "authority": "US Department of Commerce event organiser",
-     "url": "https://www.selectusasummit.us/Applications/Call-for-Speakers",
-     "checked": "2026-08-21",
-     "supports": "international trade, data-centre investment and emerging-market speaker opportunity"
-    },
-    {
-     "title": "Keyfactor Tech Days 2027 call for speakers",
-     "authority": "Keyfactor",
-     "url": "https://www.keyfactor.com/tech-days/speakers/",
-     "checked": "2026-08-21",
-     "supports": "AI security, governance and post-quantum speaker opportunity"
+     "title": "United States of America travel advice (updated 26 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
    ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "USA-ENTRY-SNAPSHOT"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official"
   },
   "activities": {
    "activities": {
@@ -340,6 +260,103 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Federal and state laws for drug-related offences vary, including laws related to the possession and recreational and/or medical use of marijuana (cannabis). Penalties for drug-related offences can be severe and often include minimum mandatory sentences. Some medications readily available in Australia are illegal or considered controlled substances in the US, even if prescribed by an Australian doctor. It's also illegal to possess any prescription medication without a prescription. See Health. US Customs and Border Protection (CBP) - Travelling with Medication",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "The federal legal age for buying and drinking alcohol is 21 years old. State laws regarding the possession and consumption of alcohol can vary. Check the relevant state laws.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
+     "checked": "2026-10-31",
+     "heading": "Alcohol"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "No federal law explicitly protects LGBTQIA+ people from discrimination, and not all state and local non-discrimination laws include protections based on sexual orientation or gender identity. Some states and localities have laws that may discriminate against or otherwise affect LGBTQIA+ travellers. Check relevant state and local laws. Although Australian passports comply with international standards for sex and gender, we can't guarantee that a passport showing 'X' in the sex field will be accepted for entry or transit by another country. Contact the nearest United States Embassy or Consulate before you travel for further information.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Some US states have laws restricting access to abortion and other reproductive health care services. Research local laws and always consult your doctor before making any decisions about your medical care.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
+     "checked": "2026-10-31",
+     "heading": "Abortion and reproductive health"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Surrogacy laws can be complex. Get official legal advice from a US attorney before you agree to an arrangement.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
+     "checked": "2026-10-31",
+     "heading": "International surrogacy"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Some US states apply the death penalty for serious crimes. The death penalty can also apply to some serious federal offences, even if committed in states without capital punishment.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "For specific information on bringing medication into in the United States, read the US Customs and Border Protection (CBP) - Travelling with Medication and US Food and Drug Administration (FDA).",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "While some US states will allow you to drive on your Australian driver's licence for a limited time, others require you to also have an International Driver's Permit (IDP). Some rental car companies also require you to have an IDP. You should get an IDP before you leave Australia. Digital driving licences are not yet widely accepted by rental car companies so travellers should carry a physical driving licence. Contact your rental car company and the motor vehicle department in each US state you ",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
+     "checked": "2026-10-31",
+     "heading": "Driver's licences and International Driving permits"
+    }
+   ],
+   "sources": [
+    {
+     "title": "United States of America travel advice (updated 26 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": "United States Dollar (USD)",
+   "cash_card_notes": "The local currency is the United States Dollar (USD). Declare all amounts over USD 10,000 (or its foreign equivalent) on arrival and departure. This covers all forms of currency, not only US dollars and not only cash. Failing to do so is a serious violation which can result in the seizure and forfeiture of your money. Criminal penalties can also apply. Banks and ATMs are widespread, and currency exchange services are available in most major cities and airports. Major credit cards are almost universally accepted. Contactless and mobile payment options are also readily available, particularly in",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "United States of America travel advice (updated 26 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

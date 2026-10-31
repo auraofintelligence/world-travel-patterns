@@ -2,109 +2,23 @@
  "place": "kr",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free short visit; temporary K-ETA exemption through 31 December 2026",
-   "pre_arrival": "Until 31 December 2026, use the temporary K-ETA exemption or obtain a voluntary K-ETA; without one, complete the required arrival declaration and live-check the rule for travel after that date.",
-   "max_stay": "Normally up to 90 days for a visa-free visit; C-4 supports eligible paid short-term work up to 90 days.",
-   "checked": "2026-08-21",
-   "evidence": "official",
+   "status": "visa-free",
+   "summary": "Visa-free tourist stays up to 90 days, and no K-ETA needed until 31 December 2026.",
+   "max_stay": "90 days",
+   "pre_arrival": "Optional e-Arrival card online within 3 days before arrival (paper form still available).",
+   "other": "Some medicines need a 'bring in' permit from the Ministry of Food and Drug Safety; allow more than 2 weeks.",
+   "next_check": "Watch item kr-keta-2026: the K-ETA exemption ends 31 December 2026 unless extended.",
    "sources": [
     {
-     "title": "Temporary K-ETA exemption extended through 2026",
-     "authority": "Embassy of the Republic of Korea in Australia",
-     "url": "https://overseas.mofa.go.kr/au-en/brd/m_3306/view.do?page=1&seq=760576",
-     "checked": "2026-08-21",
-     "supports": "Australian K-ETA exemption end date"
-    },
-    {
-     "title": "K-ETA temporary exemption notice",
-     "authority": "Korea Electronic Travel Authorization",
-     "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
-     "checked": "2026-08-21",
-     "supports": "voluntary K-ETA and arrival-declaration distinction"
-    },
-    {
-     "title": "Customized stay guide for foreign residents",
-     "authority": "Korea Immigration Service",
-     "url": "https://www.immigration.go.kr/bbs/immigration_eng/230/454085/download.do",
-     "checked": "2026-08-21",
-     "supports": "B-1/B-2 short visits, C-4 and long-stay activity categories"
-    },
-    {
-     "title": "C-4 Short-Term Employee visa",
-     "authority": "Embassy of the Republic of Korea in Australia",
-     "url": "https://overseas.mofa.go.kr/au-en/brd/m_3306/view.do?page=1&seq=760562",
-     "checked": "2026-08-21",
-     "supports": "paid lecture, training, services, media and entertainment route"
-    },
-    {
-     "title": "Short-term visit visa guidance",
-     "authority": "Embassy of the Republic of Korea in Belgium",
-     "url": "https://overseas.mofa.go.kr/be-en/wpge/m_7442/contents.do",
-     "checked": "2026-08-21",
-     "supports": "official unpaid C-3 versus paid C-4 speaking distinction"
-    },
-    {
-     "title": "Digital Nomad visa reform notice",
-     "authority": "Korea Immigration Service",
-     "url": "https://www.immigration.go.kr/bbs/immigration/214/608294/artclView.do",
-     "checked": "2026-08-21",
-     "supports": "2026 maximum stay and age-and-region income framework"
-    },
-    {
-     "title": "Digital Nomad Workcation visa guide",
-     "authority": "Korea Immigration Service",
-     "url": "https://www.immigration.go.kr/bbs/immigration_eng/229/464290/download.do",
-     "checked": "2026-08-21",
-     "supports": "overseas work, experience, insurance and local-work boundary; duration superseded by 2026 reform"
-    },
-    {
-     "title": "Investor and startup visa categories",
-     "authority": "Invest KOREA",
-     "url": "https://www.investkorea.org/ik-en/cntnts/i-358/web.do",
-     "checked": "2026-08-21",
-     "supports": "D-8 corporate investor and startup pathways"
-    },
-    {
-     "title": "Taxation of non-resident personal services",
-     "authority": "National Tax Service Korea",
-     "url": "https://www.nts.go.kr/english/na/ntt/selectNttInfo.do?mi=11742&nttSn=1629",
-     "checked": "2026-08-21",
-     "supports": "withholding and treaty review for paid delivery"
-    },
-    {
-     "title": "ATA Carnet definition",
-     "authority": "Korea Customs Service",
-     "url": "https://customs.go.kr/kcs/ad/tr/trTermView.do?mi=2902&termId=286",
-     "checked": "2026-08-21",
-     "supports": "temporary admission of qualifying goods"
-    },
-    {
-     "title": "AI EXPO KOREA visitor information",
-     "authority": "Event organiser",
-     "url": "https://aiexpo.co.kr/en/visitor-info/",
-     "checked": "2026-08-21",
-     "supports": "recurring AI event and English-interface signal"
-    },
-    {
-     "title": "Seoul Meta Week",
-     "authority": "Event organiser",
-     "url": "https://seoulmetaweek.com/en",
-     "checked": "2026-08-21",
-     "supports": "international technology event and mixed-language signal"
-    },
-    {
-     "title": "OCP Korea Tech Day",
-     "authority": "Open Compute Project Foundation",
-     "url": "https://www.opencompute.org/index.php/summit/2026-ocp-korea-tech-day",
-     "checked": "2026-08-21",
-     "supports": "open-compute and data-centre event signal"
+     "title": "South Korea travel advice (updated 12 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
    ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "KOR-ENTRY-SNAPSHOT"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official"
   },
   "activities": {
    "activities": {
@@ -354,6 +268,79 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Don't carry or consume illegal drugs. Penalties for possession, use or trafficking of illegal drugs include: long jail sentences heavy fines deportation",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Working is illegal if it's not specified in your visa, whether paid or unpaid. Authorities have fined, detained and deported Australians for breaching their visa conditions. It's difficult to change your visa type once you're in South Korea. If you plan to work, arrange a work visa through a South Korean embassy or consulate before you travel. Disputes over expected working and living conditions for Australians teaching English are common. Some Australians planning to teach English have faced penalties after they or their employment agent provided false documents to Korean immigration authorities. If you're employed without the right visa, your options will be limited under Korean law. If yo",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
+     "checked": "2026-10-31",
+     "heading": "Employment"
+    },
+    {
+     "topic": "photography",
+     "rule": "Serious crimes, such as murder, could attract the death penalty. It's illegal to take photos of and around: military zones, assets or personnel official buildings It's illegal to buy counterfeit and pirated goods. South Korea has strict anti-corruption laws for public officials. Public officials and their spouses can't accept meals, gifts or other benefits above set limits. 'Public officials' include: public servants teachers journalists employees of government-owned or funded companies Get legal advice to make sure you don't breach these laws. If you're involved in a commercial or legal dispute, authorities can stop you from leaving until the dispute is resolved. Same-sex relationships and ",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Before you travel: contact the South Korean Ministry of Food and Drug Safety or email [see source] to check whether your medication is a controlled or illegal substance in South Korea check with the Korea Customs Service for information on restricted or prohibited items that may not be brought into the country ask your doctor about alternative medicines. You may need to apply for a 'bring in' permit. When applying, provide the generic name of the medication, as the brand name in South Korea may be different in Australia. It may take authorities more than 2 weeks to process your application.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive, you'll need either: a valid local licence, or an International Driver's Permit (IDP) and a valid Australian driver's licence (digital driver's licences may not be accepted) Get your IDP before you leave Australia. You need a South Korean driver's licence to drive if you intend to stay in South Korea for 90 days or more. You will need a certified copy of your Australian licence to apply for a South Korean driver's licence. When issuing you with a South Korean driver's licence, the local",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "South Korea (Republic of Korea) travel advice (updated 12 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": "Korean Won (KRW)",
+   "cash_card_notes": "The local currency is the Korean Won (KRW). You can change Australian dollars for KRW at local banks and money changers. Credit cards are widely accepted in hotels, restaurants, shops and taxis, particularly in cities and larger towns. On arrival, declare all means of international payment, including KRW notes, cashier's checks, or foreign currency over $US10,000 or equivalent. ATMs are available in cities and larger towns, but these might not accept some foreign debit cards. Be aware of card skimming. See Safety.",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "South Korea (Republic of Korea) travel advice (updated 12 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

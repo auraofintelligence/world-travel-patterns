@@ -2,81 +2,22 @@
  "place": "vn",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "eVisa up to 90 days",
-   "pre_arrival": "Apply through the official eVisa system, choose the accurate purpose and wait for issuance before flying.",
-   "max_stay": "Up to 90 days; official fee USD25 single-entry or USD50 multiple-entry.",
-   "checked": "2026-08-20",
-   "evidence": "official",
+   "status": "evisa",
+   "summary": "An eVisa (tourism or business) before travel; no visa on arrival for Australians.",
+   "max_stay": "Up to 90 days, single or multiple entry",
+   "pre_arrival": "Apply only on the Government of Vietnam's official site; details must match the passport exactly. Print the approval. Digital pre-arrival form within 72 hours at Hanoi, Ho Chi Minh City and Phu Quoc airports. A health declaration may be required.",
+   "other": "Visa status can't be changed in Vietnam; extensions only before expiry, with 6 months' passport validity.",
    "sources": [
     {
-     "title": "Vietnam National Electronic Visa system",
-     "authority": "Vietnam Immigration Department",
-     "url": "https://evisa.gov.vn/?option=MO",
-     "checked": "2026-08-20",
-     "supports": "Australian eligibility, application and eVisa options"
-    },
-    {
-     "title": "Consolidated Law on Entry, Exit, Transit and Residence of Foreigners",
-     "authority": "Government of Vietnam",
-     "url": "https://vanban.chinhphu.vn/?classid=2629&docid=217302&pageid=27160",
-     "checked": "2026-08-20",
-     "supports": "visa codes and stay framework"
-    },
-    {
-     "title": "Decree 219/2025 on foreign workers",
-     "authority": "Government of Vietnam",
-     "url": "https://vanban.chinhphu.vn/?classid=1&docid=214840&orggroupid=2&pageid=27160",
-     "checked": "2026-08-20",
-     "supports": "short expert and work-permit framework"
-    },
-    {
-     "title": "Procedure for short-term foreign workers",
-     "authority": "Government News Vietnam",
-     "url": "https://baochinhphu.vn/thu-tuc-doi-voi-lao-dong-nuoc-ngoai-lam-viec-ngan-han-102260401093539635.htm",
-     "checked": "2026-08-20",
-     "supports": "under-90-day host notice process"
-    },
-    {
-     "title": "Fresh regulations on work permits",
-     "authority": "Government News Vietnam",
-     "url": "https://en.baochinhphu.vn/fresh-regulations-on-work-permit-issuance-to-foreign-workers-111250808104813884.htm",
-     "checked": "2026-08-20",
-     "supports": "work-permit timing and process"
-    },
-    {
-     "title": "Law on Digital Technology Industry approved",
-     "authority": "Government News Vietnam",
-     "url": "https://en.baochinhphu.vn/law-on-digital-technology-industry-approved-111250614143640329.htm",
-     "checked": "2026-08-20",
-     "supports": "high-quality digital professional route"
-    },
-    {
-     "title": "Vietnam's Law on Investment 2025",
-     "authority": "Government News Vietnam",
-     "url": "https://en.baochinhphu.vn/viet-nams-law-on-investment-2025-111260731145214387.htm",
-     "checked": "2026-08-20",
-     "supports": "investment and commercial presence"
-    },
-    {
-     "title": "Approval procedure for foreign artists",
-     "authority": "Government News Vietnam",
-     "url": "https://baochinhphu.vn/thu-tuc-cap-phep-to-chuc-bieu-dien-cho-nghe-si-nuoc-ngoai-102250923140746162.htm",
-     "checked": "2026-08-20",
-     "supports": "cultural performance approval"
-    },
-    {
-     "title": "Vietnam Innovation Challenge",
-     "authority": "National Innovation Center Vietnam",
-     "url": "https://vic.nic.gov.vn/en",
-     "checked": "2026-08-20",
-     "supports": "AI and innovation opportunity signal"
+     "title": "Vietnam travel advice (updated 24 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
    ],
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "VNM-ENTRY-SNAPSHOT"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official"
   },
   "activities": {
    "activities": {
@@ -298,6 +239,120 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "There are strict security and investigative measures to stop drug trafficking. Penalties for all types of drug offences, including those with small amounts of drugs, are severe. Drug offences can attract the death penalty or life in jail. Don't use or carry illegal drugs, including marijuana. Marijuana in any form is illegal. It's a crime to have drugs in your system, and you can also be charged for using drugs, even if it was outside of Vietnam. Never carry parcels or luggage for others. For information about carrying prescription medications into Vietnam, see 'Health'. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Foreigners who want to marry a Vietnamese citizen in Vietnam must get formal approval from the Government of Vietnam's Department of Justice. This must be done in the province where the Vietnamese citizen is registered. You also need a Certificate of No Impediment to Marriage (CNI) if you plan to marry in Vietnam. Apply for a CNI through the: You can also apply for the CNI from DFAT in Australia. Fees apply. The embassy or consulate of Vietnam in Australia needs to authenticate it. Only then will the Department of Justice in Vietnam recognise it. - Getting married",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+     "checked": "2026-10-31",
+     "heading": "Marriage laws"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Increased Australian business activity has resulted in a higher number of commercial disputes in recent years. Get professional legal advice before you enter a contract. If you're involved in a business or civil dispute, authorities could stop you from leaving Vietnam until you resolve the matter.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+     "checked": "2026-10-31",
+     "heading": "Business laws"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Vietnamese authorities may place an exit ban on certain individuals to prevent them from leaving the country. An exit ban can relate to investigations into: an individual, their family or an employer criminal and civil matters, such as business disputes or motor vehicle accidents working without a valid work permit unpaid financial debts People involved in any of these circumstances can request an exit ban for you. You may not be aware that authorities have placed an exit ban on you until you try to leave Vietnam. Your passport may be taken from you until the case is fully investigated and settled. If you're subject to an exit ban because of an ongoing investigation, legal matter, business o",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+     "checked": "2026-10-31",
+     "heading": "Exit bans"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Disputes over alleged misrepresentation of working and living conditions for Australians working in Vietnam often happen. This is especially the case for people teaching English. Before signing an employment contract or travelling to Vietnam for work, verify the true nature of the work you're offered. Check for unacceptable employment conditions. For example, conditions for early termination may state that you surrender your right to a return air ticket. Your potential employer may also withhold your pay. To safeguard your stay, also: check the living arrangements your potential employer has offered make sure you have the correct visa before arriving, ask an embassy or consulate of Vietnam g",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+     "checked": "2026-10-31",
+     "heading": "Employment"
+    },
+    {
+     "topic": "photography",
+     "rule": "Penalties for serious crime, such as rape, espionage and hijacking, may include the death penalty. It's illegal to: take photos at border crossings or military installations go too close to the border with China, Cambodia or Laos without prior written permission from local authorities gamble, except in government-licensed casinos where foreign passport holders can gamble possess pornography possess non-state sanctioned political or religious material bring, sell, use or distribute electronic cigarettes, vaping devices and vaping liquids These activities may result in arrest and imprisonment. Taking part in unsanctioned religious activities, including online, is against the law. Any involveme",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Some addictive and psychotropic medications are controlled in Vietnam. If you plan to bring medication with you, check if it's legal in Vietnam. Always carry medication in its original packaging. If you're travelling with prescription medication, check the value and quantity restrictions on the import and export of prescription medication with the nearest embassy or consulate of Vietnam.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You're not allowed to drive or ride on an Australian licence or International Driving Permit (IDP) issued in Australia. Drivers and motorcyclists must have a valid Vietnamese driver licence to drive or ride in Vietnam, including for motorcycles of 50cc or more. Australian citizens can only drive or ride a motorcycle in Vietnam if they hold a temporary Vietnamese driver licence. To convert an Australian licence to a Vietnamese temporary licence, the applicant must hold a valid Vietnamese residenc",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Vietnam travel advice (updated 24 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Same-sex relationships are legal. However, social and cultural attitudes towards same-sex relationships can be conservative, especially in rural areas. Avoid public displays of affection. Same-sex partners aren't legally protected or recognised. - Advice for LGBTQIA+ travellers",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Vietnam travel advice (updated 24 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "currency": "Vietnamese Dong (VND)",
+   "cash_card_notes": "The currency of Vietnam is the Vietnamese Dong (VND). When you arrive or exit Vietnam, declare: foreign currency in excess of $US5,000, including cash and traveller's cheques more than 15 million Vietnamese dong If you carry more currency or gold than you declared, authorities could confiscate it. They could arrest or fine you. These requirements may be subject to change. Contact the nearest embassy or consulate of Vietnam for details. Credit cards are widely accepted throughout major cities in Vietnam. ATMs are widespread in Hanoi, Ho Chi Minh City and Da Nang. Check with your bank to confirm",
+   "daily_cost_aud": null,
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Vietnam travel advice (updated 24 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }
