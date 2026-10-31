@@ -2,26 +2,134 @@
  "place": "to",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa on arrival for 31 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TONGA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "confirm-in-writing",
+   "summary": "Smartraveller gives no visa detail for Tonga and refers travellers to the High Commission of the Kingdom of Tonga.",
+   "pre_arrival": "Most airlines require proof of a return or onward ticket.",
+   "next_check": "Read the entry rule from Tonga's own immigration or High Commission page.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Tonga travel advice (updated 11 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/tonga",
+     "checked": "2026-10-31",
+     "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Tongan paʻanga (TOP)",
+   "cash_card_notes": "Change AUD at local banks. Tongatapu ATMs don't take all Australian cards; outer island groups have limited banking. Card skimming occurs.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TONGA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Tonga travel advice (updated 11 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/tonga",
+     "checked": "2026-10-31",
+     "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Jail for possession of any quantity of illegal drugs.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/tonga",
+     "checked": "2026-10-31",
+     "penalty_signal": "Jail"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Sabbath laws strictly limit Sunday activity, including work unless exempt, sport, loud music and fishing. Public exercise and swimming on Sunday are frowned on and can draw police.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/tonga",
+     "checked": "2026-10-31"
+    },
+    {
+     "topic": "dress-and-public-behaviour",
+     "rule": "It is illegal for anyone over 6 to bare the top half of the body in public. Outside hotels, people swim in rash vests or t-shirts. Topless bathing is not accepted.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/tonga",
+     "checked": "2026-10-31"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Sodomy is a criminal offence.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/tonga",
+     "checked": "2026-10-31",
+     "penalty_signal": "Up to 10 years' jail"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Legal drinking age 18. Drink-driving limit about 0.05 BAC with roadside testing; drinking in a vehicle can be penalised.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/tonga",
+     "checked": "2026-10-31",
+     "penalty_signal": "Fines, court, jail"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drive on an Australian licence for up to 12 months, then a local licence through the Ministry of Infrastructure. Don't leave the scene of an accident until police say so.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/tonga",
+     "checked": "2026-10-31"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tonga travel advice (updated 11 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/tonga",
+     "checked": "2026-10-31",
+     "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "A highly religious, mostly Christian, conservative country. Show respect for the Royal Family. Dress modestly and avoid public affection; modest swimwear at public beaches.",
+   "cultural_authority": "Ask locally: your host, church or village.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Tonga travel advice (updated 11 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/tonga",
+     "checked": "2026-10-31",
+     "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
+    }
+   ]
+  },
+  "consular": {
+   "status": "in-place",
+   "mission": "Australian High Commission, Nuku'alofa",
+   "city": "Nuku'alofa",
+   "covers_from": "to",
+   "notes": "For consular help, contact the Australian High Commission in Nuku'alofa.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Tonga travel advice: consular contacts",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/tonga",
+     "checked": "2026-10-31",
+     "supports": "the Australian offices that give consular help"
+    }
+   ]
   }
  }
 }

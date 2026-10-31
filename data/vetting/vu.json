@@ -2,26 +2,127 @@
  "place": "vu",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 30 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-VANUATU-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-on-arrival",
+   "summary": "A tourist visa on arrival for tourism and leisure, up to 120 days, single entry.",
+   "max_stay": "120 days; no on-shore extension and no change of visa status in Vanuatu",
+   "pre_arrival": "A booking with an accredited tourism facility, or a letter of support from family or friends if staying privately, and a return ticket.",
+   "passport_validity": "At least 6 months from the date of entry.",
+   "other": "Employment, commercial or business activity is not permitted on a tourist visa.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Vanuatu travel advice (updated 26 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/vanuatu",
+     "checked": "2026-10-31",
+     "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Vanuatu vatu (VUV)",
+   "cash_card_notes": "Small shops and market stalls take vatu only. Some Port Vila shops, restaurants and hotels take AUD. Cards in Port Vila, less so elsewhere.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-VANUATU-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Vanuatu travel advice (updated 26 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/vanuatu",
+     "checked": "2026-10-31",
+     "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Fines and imprisonment for drug offences, even small amounts.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/vanuatu",
+     "checked": "2026-10-31",
+     "penalty_signal": "Fines and prison"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Supermarkets and similar outlets can't sell alcohol from midday Saturday to 7 am Monday; clubs, bars and hotels can still serve.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/vanuatu",
+     "checked": "2026-10-31"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Strict customs and biosecurity rules on food, weapons and obscene material (Customs and Inland Revenue, Biosecurity Vanuatu).",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/vanuatu",
+     "checked": "2026-10-31"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drive on an Australian licence for up to 3 months, then a local licence. Digital licences may not be accepted.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/vanuatu",
+     "checked": "2026-10-31"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Employment, commercial or business activity is not permitted on a tourist visa.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/vanuatu",
+     "checked": "2026-10-31"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Vanuatu travel advice (updated 26 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/vanuatu",
+     "checked": "2026-10-31",
+     "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Modest dress and behaviour. Same-sex relationships are legal but not widely accepted; avoid public affection.",
+   "cultural_authority": "Custom land and places are under the authority of their custom owners: ask locally, through your host or the village chief, before visiting.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Vanuatu travel advice (updated 26 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/vanuatu",
+     "checked": "2026-10-31",
+     "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
+    }
+   ]
+  },
+  "consular": {
+   "status": "in-place",
+   "mission": "Australian High Commission, Port Vila",
+   "city": "Port Vila",
+   "covers_from": "vu",
+   "notes": "For consular help, contact the Australian High Commission in Port Vila.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Vanuatu travel advice: consular contacts",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/vanuatu",
+     "checked": "2026-10-31",
+     "supports": "the Australian offices that give consular help"
+    }
+   ]
   }
  }
 }

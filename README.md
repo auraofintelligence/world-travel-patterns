@@ -15,6 +15,7 @@ Nine pages on GitHub Pages: home, places, a page for every place, patterns, upco
 - **Laws and protocols that stack.** A visitor is bound by every level at once. A brief for Minjerribah shows Australia, then Queensland, then Redland City, then the island, each with its own laws and protocols, or "not yet checked".
 - **A special permit zone scan.** It walks down into any flagged zone and up to the country, so a national visa is never mistaken for permission to enter a zone. Each permit's lead time is counted back from the travel date to give a latest safe start.
 - **Feedstock from your other work.** [GAJRA Earth Ahead](https://auraofintelligence.github.io/gajra-earth-claude-build/ahead.html)'s upcoming AI governance events and open doors (62 entries, 31 doors on 30 October 2026) are mapped onto the tree daily. Briefs and the window watch show which fall before or during a trip. See [data/feeds/README.md](data/feeds/README.md).
+- **Embassies both ways.** Consular reach for all 179 Smartraveller destinations is read from each page's consular contacts: 87 with an Australian post in place, 74 served from a neighbour (sometimes with an honorary consul in place), and 18 through Canada's partner arrangement. Each country's own embassies and consulates in Australia (520 offices for 168 places, from the reviewed DFAT Protocol directory in [aura-horn-torus](https://github.com/auraofintelligence/aura-horn-torus)) show on its page as where to apply for a visa or ask for a rule in writing. See `data/missions/`.
 - **Honest ages.** Records carried from the earlier [Visa and Activity Atlas](https://auraofintelligence.github.io/Australian-visa-activity-atlas/) keep their original dates, so the queue knows exactly what's stale.
 
 ## How it runs
@@ -26,7 +27,7 @@ Two modes. **Baseline** runs all year and maps each place's laws, seasons, cultu
 | Daily advisories | 06:00 every day | GitHub Actions | Smartraveller levels for every destination; opens an issue when one changes |
 | Weekly source watch | Monday 05:00 | GitHub Actions | Checks every cited page is still there and whether its text changed |
 | Daily feeds | 08:45 every day | GitHub Actions | GAJRA Earth Ahead events and open doors, mapped to places |
-| Monthly calendars | 1st of the month | GitHub Actions | Public holidays for this year and next, for the 204 places the dataset covers |
+| Monthly calendars | 1st of the month | GitHub Actions | Public holidays for this year and next, for the 204 places the dataset covers; place photos; consular reach for every destination |
 | Weekly place passes | Weekly | Claude routine | Vets the next seven places from official sources |
 | Monthly cycles | Monthly | Claude routine | Seasons, moving calendars, festivals, protocols and dated events for 25 places |
 | Window watch | Daily, exits fast when no trip is near | Claude routine, this machine | Tightens vetting and refreshes the private visitor brief as a trip approaches |
@@ -47,7 +48,7 @@ The Actions treat every place the same, so the public history never shows where 
 
 ## Where it stands
 
-As at 30 October 2026, 201 places carry records from the earlier atlas: 36 with deep activity guides, the rest with first-pass entry notes from August 2025. The queue holds 279 place passes and 2,913 pattern checks, with dead sources and the Thailand rule change first. At seven places a week, the first full pass takes about 40 weeks. Window mode jumps any trip's places to the front.
+As at 31 October 2026, 204 places carry records. Thailand, Fiji, the Cook Islands, Samoa, Tonga and Vanuatu had their first full passes that day (entry, local law, culture and protocol, consular, money), and Thailand's 30-day tourism-only exemption is confirmed. The rest carry first-pass entry notes from the earlier atlas, 36 with deep activity guides. The queue holds 279 place passes and 2,707 pattern checks, with dead sources first. At seven places a week, the first full pass takes about 40 weeks. Window mode jumps any trip's places to the front.
 
 ## Use it
 

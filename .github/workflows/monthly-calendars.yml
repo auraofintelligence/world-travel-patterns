@@ -1,5 +1,6 @@
 name: Monthly calendars
-# 1st of the month, 05:00 Brisbane. Public holidays for this year and next (signal layer of culture cycles).
+# 1st of the month, 05:00 Brisbane. Public holidays for this year and next (signal layer of culture cycles),
+# place photos, and consular reach for every Smartraveller destination.
 on:
   schedule:
     - cron: "0 19 1 * *"
@@ -20,6 +21,8 @@ jobs:
       - run: python scripts/holidays.py
       - name: Place photos (new picks are marked pending review)
         run: python scripts/place_photos.py
+      - name: Consular reach (Smartraveller consular contacts for every destination)
+        run: python scripts/consular.py
       - run: python scripts/due.py
       - name: Rebuild the website index
         run: python scripts/build_site.py
@@ -28,5 +31,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/calendar queue site/data
+          git add data/calendar data/missions data/vetting queue site/data
           git diff --cached --quiet || (git commit -m "Monthly calendars" && git pull --rebase && git push)

@@ -1,0 +1,507 @@
+{
+ "what": "The city of each Australian post abroad and the place it sits in.",
+ "via": "auraofintelligence/aura-horn-torus data/layers/australian-missions-abroad.js (from Australian-world-travel abroad.html)",
+ "rule": "Used only to place a post. Smartraveller pages remain the source for which post helps where.",
+ "cities": {
+  "Abu Dhabi": {
+   "place": "ae",
+   "type": "Embassy"
+  },
+  "Abuja": {
+   "place": "ng",
+   "type": "High Commission"
+  },
+  "Accra": {
+   "place": "gh",
+   "type": "High Commission"
+  },
+  "Addis Ababa": {
+   "place": "et",
+   "type": "Embassy"
+  },
+  "Alofi": {
+   "place": "nu",
+   "type": "High Commission"
+  },
+  "Amman": {
+   "place": "jo",
+   "type": "Embassy"
+  },
+  "Ankara": {
+   "place": "tr",
+   "type": "Embassy"
+  },
+  "Apia": {
+   "place": "ws",
+   "type": "High Commission"
+  },
+  "Athens": {
+   "place": "gr",
+   "type": "Embassy"
+  },
+  "Auckland": {
+   "place": "nz",
+   "type": "Consulate-General"
+  },
+  "Baghdad": {
+   "place": "iq",
+   "type": "Embassy"
+  },
+  "Bali (Denpasar)": {
+   "place": "id",
+   "type": "Consulate-General"
+  },
+  "Bandar Seri Begawan": {
+   "place": "bn",
+   "type": "High Commission"
+  },
+  "Bangkok": {
+   "place": "th",
+   "type": "Embassy"
+  },
+  "Beijing": {
+   "place": "cn",
+   "type": "Embassy"
+  },
+  "Beirut": {
+   "place": "lb",
+   "type": "Embassy"
+  },
+  "Belgrade": {
+   "place": "rs",
+   "type": "Embassy"
+  },
+  "Bengaluru": {
+   "place": "in",
+   "type": "Consulate-General"
+  },
+  "Berlin": {
+   "place": "de",
+   "type": "Embassy"
+  },
+  "Bern": {
+   "place": "ch",
+   "type": "Embassy"
+  },
+  "Bogota": {
+   "place": "co",
+   "type": "Embassy"
+  },
+  "Brasilia": {
+   "place": "br",
+   "type": "Embassy"
+  },
+  "Brussels": {
+   "place": "be",
+   "type": "Embassy"
+  },
+  "Buenos Aires": {
+   "place": "ar",
+   "type": "Embassy"
+  },
+  "Cairo": {
+   "place": "eg",
+   "type": "Embassy"
+  },
+  "Canakkale": {
+   "place": "tr",
+   "type": "Consulate"
+  },
+  "Chengdu": {
+   "place": "cn",
+   "type": "Consulate-General"
+  },
+  "Chennai": {
+   "place": "in",
+   "type": "Consulate-General"
+  },
+  "Chicago": {
+   "place": "us",
+   "type": "Consulate-General"
+  },
+  "Colombo": {
+   "place": "lk",
+   "type": "High Commission"
+  },
+  "Copenhagen": {
+   "place": "dk",
+   "type": "Embassy"
+  },
+  "Denver": {
+   "place": "us",
+   "type": "Consulate"
+  },
+  "Dhaka": {
+   "place": "bd",
+   "type": "High Commission"
+  },
+  "Dili": {
+   "place": "tl",
+   "type": "Embassy"
+  },
+  "Doha": {
+   "place": "qa",
+   "type": "Embassy"
+  },
+  "Dubai": {
+   "place": "ae",
+   "type": "Consulate-General"
+  },
+  "Dublin": {
+   "place": "ie",
+   "type": "Embassy"
+  },
+  "Frankfurt": {
+   "place": "de",
+   "type": "Consulate-General"
+  },
+  "Funafuti": {
+   "place": "tv",
+   "type": "High Commission"
+  },
+  "Geneva": {
+   "place": "ch",
+   "type": "Consulate-General and Permanent Mission"
+  },
+  "Guangzhou": {
+   "place": "cn",
+   "type": "Consulate-General"
+  },
+  "Hanoi": {
+   "place": "vn",
+   "type": "Embassy"
+  },
+  "Harare": {
+   "place": "zw",
+   "type": "Embassy"
+  },
+  "Ho Chi Minh City": {
+   "place": "vn",
+   "type": "Consulate-General"
+  },
+  "Hong Kong": {
+   "place": "hk",
+   "type": "Consulate-General"
+  },
+  "Honiara": {
+   "place": "sb",
+   "type": "High Commission"
+  },
+  "Honolulu": {
+   "place": "us",
+   "type": "Consulate-General"
+  },
+  "Houston": {
+   "place": "us",
+   "type": "Consulate-General"
+  },
+  "Islamabad": {
+   "place": "pk",
+   "type": "High Commission"
+  },
+  "Istanbul": {
+   "place": "tr",
+   "type": "Consulate-General"
+  },
+  "Jakarta": {
+   "place": "id",
+   "type": "Embassy"
+  },
+  "Kathmandu": {
+   "place": "np",
+   "type": "Embassy"
+  },
+  "Kolkata": {
+   "place": "in",
+   "type": "Consulate-General"
+  },
+  "Kuala Lumpur": {
+   "place": "my",
+   "type": "High Commission"
+  },
+  "Kuwait City": {
+   "place": "kw",
+   "type": "Embassy"
+  },
+  "Kyiv": {
+   "place": "ua",
+   "type": "Embassy"
+  },
+  "Lae": {
+   "place": "pg",
+   "type": "Consulate-General"
+  },
+  "Lima": {
+   "place": "pe",
+   "type": "Embassy"
+  },
+  "Lisbon": {
+   "place": "pt",
+   "type": "Embassy"
+  },
+  "London": {
+   "place": "gb",
+   "type": "High Commission"
+  },
+  "Los Angeles": {
+   "place": "us",
+   "type": "Consulate-General"
+  },
+  "Madrid": {
+   "place": "es",
+   "type": "Embassy"
+  },
+  "Majuro": {
+   "place": "mh",
+   "type": "Embassy"
+  },
+  "Makassar": {
+   "place": "id",
+   "type": "Consulate-General"
+  },
+  "Malta": {
+   "place": "mt",
+   "type": "High Commission"
+  },
+  "Malé": {
+   "place": "mv",
+   "type": "High Commission"
+  },
+  "Manila": {
+   "place": "ph",
+   "type": "Embassy"
+  },
+  "Mexico City": {
+   "place": "mx",
+   "type": "Embassy"
+  },
+  "Miami": {
+   "place": "us",
+   "type": "Consulate"
+  },
+  "Milan": {
+   "place": "it",
+   "type": "Consulate-General"
+  },
+  "Moscow": {
+   "place": "ru",
+   "type": "Embassy"
+  },
+  "Mumbai": {
+   "place": "in",
+   "type": "Consulate-General"
+  },
+  "Nairobi": {
+   "place": "ke",
+   "type": "High Commission"
+  },
+  "Nauru": {
+   "place": "nr",
+   "type": "High Commission"
+  },
+  "New Delhi": {
+   "place": "in",
+   "type": "High Commission"
+  },
+  "New York": {
+   "place": "us",
+   "type": "Consulate-General"
+  },
+  "New York (UN)": {
+   "place": "us",
+   "type": "Permanent Mission"
+  },
+  "Nicosia": {
+   "place": "cy",
+   "type": "High Commission"
+  },
+  "Noumea": {
+   "place": "nc",
+   "type": "Consulate-General"
+  },
+  "Nuku'Alofa": {
+   "place": "to",
+   "type": "High Commission"
+  },
+  "Osaka": {
+   "place": "jp",
+   "type": "Consulate-General"
+  },
+  "Ottawa": {
+   "place": "ca",
+   "type": "High Commission"
+  },
+  "Palau": {
+   "place": "pw",
+   "type": "Embassy"
+  },
+  "Papeete": {
+   "place": "pf",
+   "type": "Consulate-General"
+  },
+  "Paris": {
+   "place": "fr",
+   "type": "Embassy"
+  },
+  "Phnom Penh": {
+   "place": "kh",
+   "type": "Embassy"
+  },
+  "Phoenix": {
+   "place": "us",
+   "type": "Consulate · reference only"
+  },
+  "Phuket": {
+   "place": "th",
+   "type": "Consulate-General"
+  },
+  "Pohnpei": {
+   "place": "fm",
+   "type": "Embassy"
+  },
+  "Port Louis": {
+   "place": "mu",
+   "type": "High Commission"
+  },
+  "Port Moresby": {
+   "place": "pg",
+   "type": "High Commission"
+  },
+  "Port Vila": {
+   "place": "vu",
+   "type": "High Commission"
+  },
+  "Port of Spain": {
+   "place": "tt",
+   "type": "High Commission"
+  },
+  "Pretoria": {
+   "place": "za",
+   "type": "High Commission"
+  },
+  "Ramallah": {
+   "place": "ps",
+   "type": "Representative Office"
+  },
+  "Rarotonga": {
+   "place": "ck",
+   "type": "High Commission"
+  },
+  "Riyadh": {
+   "place": "sa",
+   "type": "Embassy"
+  },
+  "Rome": {
+   "place": "it",
+   "type": "Embassy"
+  },
+  "San Francisco": {
+   "place": "us",
+   "type": "Consulate-General"
+  },
+  "Santiago": {
+   "place": "cl",
+   "type": "Embassy"
+  },
+  "Sao Paulo": {
+   "place": "br",
+   "type": "Consulate-General"
+  },
+  "Seoul": {
+   "place": "kr",
+   "type": "Embassy"
+  },
+  "Shanghai": {
+   "place": "cn",
+   "type": "Consulate-General"
+  },
+  "Singapore": {
+   "place": "sg",
+   "type": "High Commission"
+  },
+  "Stockholm": {
+   "place": "se",
+   "type": "Embassy"
+  },
+  "Surabaya": {
+   "place": "id",
+   "type": "Consulate-General"
+  },
+  "Suva": {
+   "place": "fj",
+   "type": "High Commission"
+  },
+  "Taipei": {
+   "place": "tw",
+   "type": "Australian Office"
+  },
+  "Tallinn": {
+   "place": "ee",
+   "type": "Embassy"
+  },
+  "Tarawa": {
+   "place": "ki",
+   "type": "High Commission"
+  },
+  "Tehran": {
+   "place": "ir",
+   "type": "Embassy"
+  },
+  "Tel Aviv": {
+   "place": "il",
+   "type": "Embassy"
+  },
+  "The Hague": {
+   "place": "nl",
+   "type": "Embassy"
+  },
+  "Tokyo": {
+   "place": "jp",
+   "type": "Embassy"
+  },
+  "Toronto": {
+   "place": "ca",
+   "type": "Consulate-General"
+  },
+  "Ulaanbaatar": {
+   "place": "mn",
+   "type": "Embassy"
+  },
+  "Vancouver": {
+   "place": "ca",
+   "type": "Consulate"
+  },
+  "Vatican City": {
+   "place": "va",
+   "type": "Embassy"
+  },
+  "Vienna": {
+   "place": "at",
+   "type": "Embassy"
+  },
+  "Vientiane": {
+   "place": "la",
+   "type": "Embassy"
+  },
+  "Warsaw": {
+   "place": "pl",
+   "type": "Embassy"
+  },
+  "Washington DC": {
+   "place": "us",
+   "type": "Embassy"
+  },
+  "Wellington": {
+   "place": "nz",
+   "type": "High Commission"
+  },
+  "Yangon": {
+   "place": "mm",
+   "type": "Embassy"
+  },
+  "Zagreb": {
+   "place": "hr",
+   "type": "Embassy"
+  }
+ }
+}

@@ -285,9 +285,9 @@
     while (stack.length) { const c = stack.pop(); descendants.push(c); stack.push(...index.places.filter((p) => p.parent === c.id)); }
     const ids = [...new Set([...chain, ...descendants.filter((d) => d.zone)].map((p) => p.id))];
     const vets = Object.fromEntries(await Promise.all(ids.map(async (pid) => [pid, index.byId[pid].vetted ? (await json(vetPath(pid), { patterns: {} })).patterns : {}])));
-    const [adv, feed, watch, photoFile] = await Promise.all([
+    const [adv, feed, watch, photoFile, inAus] = await Promise.all([
       json("data/advisories.json", { destinations: {} }), json("data/feeds/gajra-ahead.json", { events: [] }), json("data/watch.json", { items: [] }),
-      json("site/data/place-photos.json", { photos: {} }),
+      json("site/data/place-photos.json", { photos: {} }), json("data/missions/in-australia.json", { places: {} }),
     ]);
     // A photo OF this place, or of somewhere inside it (labelled), or none. Never a stand-in from elsewhere.
     let photo = photoFile.photos[id] || null;
@@ -302,6 +302,7 @@
       }
     }
     const spine = chain[chain.length - 1];
+    const offices = inAus.places[spine.id] || [];
     const advice = spine.smartraveller && adv.destinations[spine.smartraveller];
     const patterns = Object.fromEntries(index.patterns.map((p) => [p.id, p]));
     const applies = (pat, p) => pat.applies_to.includes(p.kind) && !(pat.only_tagged && !(p.tags || []).length) && !(pat.skip_home && p.id === "au");
@@ -341,6 +342,9 @@
       (rec.laws || []).forEach((l) => { body += `<div class="detail"><b>${esc(l.topic)}:</b> ${esc(l.rule)}</div>`; });
       (rec.layers || []).forEach((l) => { body += `<div class="detail"><b>${esc(l.type)}:</b> ${esc(l.process)} (${esc(l.authority)})${l.lead_time_days ? `, lead time ${l.lead_time_days} days` : ""}</div>`; });
       if (rec.pre_arrival) body += `<div class="detail"><b>Before arrival:</b> ${esc(rec.pre_arrival)}</div>`;
+      [["max_stay", "Stay"], ["passport_validity", "Passport"], ["other", "Also"], ["mission", "Office"], ["notes", "Note"], ["currency", "Currency"],
+       ["cash_card_notes", "Cash and cards"], ["dress_and_conduct", "Dress and conduct"], ["cultural_authority", "Who to ask"], ["note", "Note"]]
+        .forEach(([k, label]) => { if (rec[k]) body += `<div class="detail"><b>${label}:</b> ${esc(rec[k])}</div>`; });
       if (rec.sources?.length) body += `<div class="detail meta">Sources: ${rec.sources.slice(0, 4).map((s) => `<a href="${esc(s.url)}" rel="noopener">${esc(s.authority || s.title || "source")}</a>`).join(" · ")}${rec.sources.length > 4 ? ` and ${rec.sources.length - 4} more` : ""}</div>`;
       return body + "</li>";
     }
@@ -390,6 +394,10 @@
       <section class="section tight">${sections}</section>
       ${events.length ? `<section class="section tight"><div class="layer-group"><h2>Upcoming here</h2><span class="rule"></span></div>
         <p class="meta">Dated leads from the feeds. An event is not a permission: taking part still runs through entry, activities and zone checks.</p>${events.map(eventCard(index)).join("")}</section>` : ""}
+      ${offices.length ? `<section class="section tight"><div class="layer-group"><h2>${esc(spine.name)}'s offices in Australia</h2><span class="rule"></span></div>
+        <p class="meta">Where to apply for a visa or ask for a rule in writing before you go. From the DFAT Protocol directory, read ${fmt(inAus.checked)}. Honorary consuls offer limited services.</p>
+        <div class="grid">${offices.map((o) => `<div class="card"><h3>${esc(o.name)}</h3><p class="meta">${esc(o.type)}${o.honorary ? " · honorary" : ""}${o.city ? ` · ${esc(o.city)}${o.state ? ` ${esc(o.state)}` : ""}` : ""}</p>
+          ${o.notice ? `<p><span class="chip gold">${esc(o.notice)}</span></p>` : ""}<p>${o.website ? `<a href="${esc(o.website)}">Website</a> · ` : ""}<a href="${esc(o.source)}">DFAT listing</a></p></div>`).join("")}</div></section>` : ""}
       ${children.length ? `<section class="section tight"><div class="layer-group"><h2>Inside ${esc(place.name)}</h2><span class="rule"></span></div>
         ${Object.entries(byKind).map(([k, list]) => `<h3 class="month-head">${esc(k)} <span class="meta">${list.length}</span></h3><div class="grid">${list.sort((a, b) => a.name.localeCompare(b.name)).slice(0, 120).map(placeCard).join("")}</div>${list.length > 120 ? `<p class="meta">${list.length - 120} more: use <a href="places.html">search</a>.</p>` : ""}`).join("")}</section>` : ""}
       <section class="section tight"><div class="card"><h3>A dated brief for a trip</h3>

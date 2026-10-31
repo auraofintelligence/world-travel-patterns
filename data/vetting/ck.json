@@ -2,33 +2,112 @@
  "place": "ck",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "31-day visitor permit on arrival for Australian passport holders; extensions are available.",
-   "checked": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-COOK-ISLANDS-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source.",
+   "status": "visa-on-arrival",
+   "summary": "A visitor visa on arrival, generally 31 days. Up to 8 months in total on application.",
+   "max_stay": "31 days on arrival; up to 8 months in total on application",
+   "pre_arrival": "Proof of an onward or return ticket, enough funds and arranged accommodation.",
+   "other": "With a criminal conviction, contact the Ministry of Foreign Affairs and Immigration before travel. Failure to declare can affect future travel.",
+   "checked": "2026-10-31",
+   "evidence": "official",
    "sources": [
     {
-     "title": "Cook Islands immigration policy",
-     "url": "https://mfai.gov.ck/sites/default/files/2024-02/Immigration%20policy%20changes%2024%20January%202024.pdf",
-     "checked": "2026-08-20"
+     "title": "Cook Islands travel advice (updated 22 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/cook-islands",
+     "checked": "2026-10-31",
+     "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
     }
    ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Cook Islands dollar (CKD) and New Zealand dollar (NZD)",
+   "cash_card_notes": "Cook Islands dollars can only be exchanged in the Cook Islands. Most shops and hotels take cards; ATMs are limited outside Rarotonga and Aitutaki.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free on arrival",
-   "checked": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-COOK-ISLANDS-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Cook Islands travel advice (updated 22 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/cook-islands",
+     "checked": "2026-10-31",
+     "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Severe penalties for even small amounts of illegal drugs. A personal supply of a controlled drug (for example methylphenidate for ADHD, codeine or morphine) has specific legal requirements: check with the Ministry of Health before travel.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/cook-islands",
+     "checked": "2026-10-31",
+     "penalty_signal": "Fines and prison"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Sale and import of vapes and e-cigarettes are banned. Visitors over 21 may bring one device and up to 30 ml of e-liquid, and must take it with them or surrender it to the Ministry of Health on departure.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/cook-islands",
+     "checked": "2026-10-31"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drive on an Australian licence for up to 6 months, only vehicles your licence covers. A scooter needs a temporary motorbike licence: a practical test at police headquarters in Avarua.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/pacific/cook-islands",
+     "checked": "2026-10-31"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cook Islands travel advice (updated 22 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/cook-islands",
+     "checked": "2026-10-31",
+     "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Modest dress and behaviour, especially outside resorts, in villages and on the outer islands. Visitors are welcome at Sunday services: shirts and long trousers for men, longer skirts or dresses for women, shoulders covered.",
+   "cultural_authority": "Ask locally: your host, or the island's own people, on each island.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Cook Islands travel advice (updated 22 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/cook-islands",
+     "checked": "2026-10-31",
+     "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
+    }
+   ]
+  },
+  "consular": {
+   "status": "in-place",
+   "mission": "Australian High Commission, Rarotonga",
+   "city": "Rarotonga",
+   "covers_from": "ck",
+   "notes": "For consular assistance, contact the Australian High Commission in Rarotonga.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Cook Islands travel advice: consular contacts",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/cook-islands",
+     "checked": "2026-10-31",
+     "supports": "the Australian offices that give consular help"
+    }
+   ]
   }
  }
 }
