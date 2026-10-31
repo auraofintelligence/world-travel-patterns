@@ -241,6 +241,148 @@
    "checked": "2026-10-31",
    "evidence": "signal",
    "public_holidays": "Fiji isn't in the machine holiday data. The Government's first 2027 list (11 holidays) was reported to contain date errors, with a revised list expected: confirm on the Ministry of Employment's gazetted list."
+  },
+  "activities": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Visitor visa on arrival",
+     "detail": "Stays under 4 months with booked accommodation and a return ticket.",
+     "next": "None.",
+     "checked": "2026-11-01"
+    },
+    "meetings": {
+     "status": "conditional",
+     "route": "Business visitor permit (21 days, not extendable)",
+     "detail": "Business visits by visa-exempt nationals use a business visitor permit; longer work needs a work permit.",
+     "next": "Carry an invitation and proof of funds; confirm the permit at the border or with the Ministry.",
+     "checked": "2026-11-01"
+    },
+    "conference": {
+     "status": "conditional",
+     "route": "Business visitor permit (21 days, not extendable)",
+     "detail": "Attending as a delegate fits a business visit.",
+     "next": "Carry the conference invitation.",
+     "checked": "2026-11-01"
+    },
+    "unpaid-speaking": {
+     "status": "conditional",
+     "route": "Authority to Work or Study while on a Visitors Permit (up to 12 weeks)",
+     "detail": "Covers business, research, religious activities or consultancy on a visitor permit, with a letter of request and undertaking from the host organisation.",
+     "next": "Ask the host to apply to the Ministry before you travel.",
+     "checked": "2026-11-01"
+    },
+    "paid-speaking": {
+     "status": "confirm-in-writing",
+     "route": "Authority to Work or Study while on a Visitors Permit (up to 12 weeks) or a Short Term Work Permit",
+     "detail": "Paid work beyond the business visit needs the authority or a work permit.",
+     "next": "Get the Ministry of Immigration's answer in writing through the host.",
+     "checked": "2026-11-01"
+    },
+    "book-launch": {
+     "status": "confirm-in-writing",
+     "route": "Authority to Work or Study while on a Visitors Permit (up to 12 weeks)",
+     "detail": "Sales and paid appearances count as work.",
+     "next": "Ask the Ministry through the publisher or venue.",
+     "checked": "2026-11-01"
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "Authority to Work or Study while on a Visitors Permit (up to 12 weeks)",
+     "detail": "Consultancy and research are named activities under the authority.",
+     "next": "Host organisation's letter and application before travel.",
+     "checked": "2026-11-01"
+    },
+    "remote-work": {
+     "status": "confirm-in-writing",
+     "route": "Not published",
+     "detail": "No remote-work rule was found on the Ministry's pages.",
+     "next": "Ask the Ministry of Immigration.",
+     "checked": "2026-11-01"
+    },
+    "entrepreneur": {
+     "status": "conditional",
+     "route": "Authority to Work or Study while on a Visitors Permit (up to 12 weeks)",
+     "detail": "Business or investment activity is a named purpose; operating a business needs Investment Fiji registration.",
+     "next": "Talk to Investment Fiji.",
+     "checked": "2026-11-01"
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Business visitor permit (21 days, not extendable) or Authority to Work or Study while on a Visitors Permit (up to 12 weeks)",
+     "detail": "Meetings and negotiation are business visits; delivery is work.",
+     "next": "Separate the meeting trip from any delivery work.",
+     "checked": "2026-11-01"
+    },
+    "artist": {
+     "status": "confirm-in-writing",
+     "route": "Authority to Work or Study while on a Visitors Permit (up to 12 weeks) or a Short Term Work Permit",
+     "detail": "Performances and exhibitions for payment are work.",
+     "next": "Ask the Ministry through the venue or festival.",
+     "checked": "2026-11-01"
+    },
+    "mixed-mission": {
+     "status": "confirm-in-writing",
+     "route": "Depends on the mix",
+     "detail": "Visitor, business visitor and authority-to-work routes each cover different parts.",
+     "next": "Write the plan out and ask the Ministry.",
+     "checked": "2026-11-01"
+    },
+    "filming": {
+     "status": "specialist",
+     "route": "Fiji Film Permit from Film Fiji, plus the right immigration authority for crew",
+     "detail": "Visiting productions need a single Fiji Film Permit for the whole shoot, with cast and crew passports, flights and an equipment list. Public spaces need about 7 days' notice, national parks about 14.",
+     "next": "Apply to Film Fiji well ahead; ask whether crew enter on the business visitor permit or a work permit.",
+     "checked": "2026-11-01"
+    },
+    "research": {
+     "status": "conditional",
+     "route": "Authority to Work or Study while on a Visitors Permit (up to 12 weeks)",
+     "detail": "Research is a named purpose under the authority.",
+     "next": "Host institution's letter; some research needs its own permits.",
+     "checked": "2026-11-01"
+    },
+    "volunteering": {
+     "status": "confirm-in-writing",
+     "route": "Authority to Work or Study while on a Visitors Permit (up to 12 weeks) (religious activities) or confirm",
+     "detail": "Volunteering isn't named; religious activities are.",
+     "next": "Ask the Ministry through the host organisation.",
+     "checked": "2026-11-01"
+    }
+   },
+   "sources": [
+    {
+     "title": "Authority to Work or Study while on a Visitors Permit",
+     "authority": "Ministry of Immigration, Fiji",
+     "url": "https://www.immigration.gov.fj/authority-to-work-or-study-while-on-a-visitors-permit/",
+     "checked": "2026-11-01",
+     "supports": "business, investment, study, research, religious activities or consultancy for up to 12 weeks (Immigration Act 2003, s 9(3)(a))"
+    },
+    {
+     "title": "Information on immigration services",
+     "authority": "Ministry of Immigration, Fiji",
+     "url": "https://www.immigration.gov.fj/information-immigration-services/",
+     "checked": "2026-11-01",
+     "supports": "business visitor permit, 21 days, not extendable"
+    },
+    {
+     "title": "Audio visual",
+     "authority": "Investment Fiji",
+     "url": "https://investmentfiji.org.fj/sector-opportunities/audio-visual",
+     "checked": "2026-11-01",
+     "supports": "Film Fiji and the Fiji Film Permit"
+    },
+    {
+     "title": "Fiji country guide",
+     "authority": "Signal: production services guide",
+     "url": "https://emergefilmsolutions.com/country/fiji/",
+     "checked": "2026-11-01",
+     "supports": "film permit lead times"
+    }
+   ]
   }
  }
 }
