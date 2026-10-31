@@ -48,7 +48,19 @@ The Actions treat every place the same, so the public history never shows where 
 
 ## Where it stands
 
-As at 31 October 2026, 204 places carry records. Thailand, Fiji, the Cook Islands, Samoa, Tonga and Vanuatu had their first full passes that day (entry, local law, culture and protocol, consular, money), and Thailand's 30-day tourism-only exemption is confirmed. The rest carry first-pass entry notes from the earlier atlas, 36 with deep activity guides. The queue holds 279 place passes and 2,707 pattern checks, with dead sources first. At seven places a week, the first full pass takes about 40 weeks. Window mode jumps any trip's places to the front.
+On 31 October 2026, 267 places had records checked that day:
+
+| Pattern | Places checked 31 October 2026 |
+| --- | --- |
+| Entry | 247 (every spine place but home): 99 visa-free, 28 visa on arrival, 21 e-visa, 14 travel authorisation, 29 visa required, 56 confirm in writing |
+| Local law | 179 |
+| Consular reach | 179 |
+| Money | 173 |
+| Culture and protocol | 93 |
+| Health entry | 74 (yellow fever) |
+| Special permit zones | 25, including Minjerribah, the Torres Strait, the APY Lands, NT and WA Aboriginal land, Gwaii Haanas, Tokelau and Pitcairn |
+
+"Confirm in writing" means no official page could be read that day; each record names who to ask. The queue holds 280 place passes and 1,980 pattern checks, none of them for dead sources. Activities, seasons, culture cycles and the year ahead are the next layers. Run notes are in [docs/runs/](docs/runs/). At seven places a week, the first full pass takes about 40 weeks. Window mode jumps any trip's places to the front.
 
 ## Use it
 
