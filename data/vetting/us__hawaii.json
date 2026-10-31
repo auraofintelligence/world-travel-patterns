@@ -1,0 +1,39 @@
+{
+ "place": "us/hawaii",
+ "patterns": {
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "biosecurity-declaration",
+     "authority": "Hawaiʻi Department of Agriculture",
+     "process": "Everyone arriving from the US mainland declares plants, animals and agricultural items on the Plants and Animals Declaration Form (digital on participating flights). International arrivals clear US customs and agriculture checks.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://dab.hawaii.gov/pi/?p=17",
+     "checked": "2026-10-31"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Plant Quarantine Branch",
+     "authority": "Hawaiʻi Department of Agriculture",
+     "url": "https://dab.hawaii.gov/pi/?p=17",
+     "checked": "2026-10-31",
+     "supports": "declaration for arrivals from the mainland"
+    },
+    {
+     "title": "Akamai Arrival",
+     "authority": "State of Hawaiʻi",
+     "url": "https://akamaiarrival.hawaii.gov/?p=73",
+     "checked": "2026-10-31",
+     "supports": "digital declaration form"
+    }
+   ]
+  }
+ }
+}

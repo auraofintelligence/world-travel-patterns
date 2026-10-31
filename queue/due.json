@@ -3,9 +3,9 @@
   "generated_on": "2026-10-31",
   "mode": "public",
   "place_passes": 280,
-  "pattern_items": 1984,
+  "pattern_items": 1980,
   "by_reason": {
-   "never-checked": 1955,
+   "never-checked": 1951,
    "over-budget": 29
   },
   "watch_checks": 0
@@ -1967,12 +1967,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
     }
    ]
   },
@@ -2025,12 +2019,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
     }
    ]
   },
@@ -2484,12 +2472,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
     }
    ]
   },
@@ -2600,52 +2582,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "us/navajo-nation",
-   "name": "Navajo Nation",
-   "kind": "nation",
-   "tags": [
-    "p4a-native-nations"
-   ],
-   "due": [
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
     },
     {
      "pattern": "zone-requirements",
@@ -2797,6 +2733,46 @@
    "place": "au/kakadu",
    "name": "Kakadu National Park",
    "kind": "site",
+   "tags": [
+    "p4a-native-nations"
+   ],
+   "due": [
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    }
+   ]
+  },
+  {
+   "place": "us/navajo-nation",
+   "name": "Navajo Nation",
+   "kind": "nation",
    "tags": [
     "p4a-native-nations"
    ],
