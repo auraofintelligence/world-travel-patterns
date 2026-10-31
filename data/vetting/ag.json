@@ -2,15 +2,20 @@
  "place": "ag",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 1 month.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-ANTIGUA-AND-BARBUDA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "confirm-in-writing",
+   "summary": "Secondary sites say Australians enter visa-free, up to 180 days an entry.",
+   "next_check": "Confirm with Antigua and Barbuda's Immigration Department.",
+   "evidence": "signal",
+   "sources": [
+    {
+     "title": "Antigua and Barbuda visa requirements",
+     "authority": "Signal: secondary site",
+     "url": "https://globalcostdata.com/visa/australia-to-antigua-and-barbuda/",
+     "checked": "2026-10-31",
+     "supports": "visa-free, 180 days"
+    }
+   ],
+   "checked": "2026-10-31"
   },
   "money-and-cost": {
    "status": "noted",

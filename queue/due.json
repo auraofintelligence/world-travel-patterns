@@ -3,11 +3,10 @@
   "generated_on": "2026-10-31",
   "mode": "public",
   "place_passes": 280,
-  "pattern_items": 2032,
+  "pattern_items": 2000,
   "by_reason": {
-   "never-checked": 1988,
-   "over-budget": 29,
-   "imported": 15
+   "never-checked": 1971,
+   "over-budget": 29
   },
   "watch_checks": 0
  },
@@ -2981,8 +2980,8 @@
    ]
   },
   {
-   "place": "ag",
-   "name": "Antigua and Barbuda",
+   "place": "ad",
+   "name": "Andorra",
    "kind": "country",
    "tags": [],
    "due": [
@@ -3011,10 +3010,72 @@
      "budget_days": 365
     },
     {
-     "pattern": "entry",
-     "reason": "imported",
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "over-budget",
      "age_days": 441,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
      "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "ag",
+   "name": "Antigua and Barbuda",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    },
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
     },
     {
      "pattern": "health-entry",
@@ -3085,12 +3146,6 @@
      "budget_days": 365
     },
     {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
      "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
@@ -3159,12 +3214,6 @@
      "budget_days": 365
     },
     {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
      "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
@@ -3205,894 +3254,6 @@
   {
    "place": "km",
    "name": "Comoros",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    },
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 441,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "dm",
-   "name": "Dominica",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    },
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 441,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "gq",
-   "name": "Equatorial Guinea",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    },
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 441,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "gd",
-   "name": "Grenada",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    },
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 441,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "gw",
-   "name": "Guinea-Bissau",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    },
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 441,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "cg",
-   "name": "Republic of the Congo",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    },
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 441,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "kn",
-   "name": "Saint Kitts and Nevis",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    },
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 441,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "lc",
-   "name": "Saint Lucia",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    },
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 441,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "vc",
-   "name": "Saint Vincent and the Grenadines",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    },
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 441,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "sr",
-   "name": "Suriname",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    },
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 441,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "st",
-   "name": "São Tomé and Príncipe",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    },
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 441,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "tg",
-   "name": "Togo",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    },
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "imported",
-     "age_days": 441,
-     "budget_days": 90
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 441,
-     "budget_days": 180
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "ad",
-   "name": "Andorra",
    "kind": "country",
    "tags": [],
    "due": [
@@ -4184,6 +3345,142 @@
     },
     {
      "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "over-budget",
+     "age_days": 441,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "dm",
+   "name": "Dominica",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    },
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "over-budget",
+     "age_days": 441,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "gq",
+   "name": "Equatorial Guinea",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    },
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -4331,6 +3628,142 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "over-budget",
+     "age_days": 441,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "gd",
+   "name": "Grenada",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    },
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "over-budget",
+     "age_days": 441,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "gw",
+   "name": "Guinea-Bissau",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    },
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
     },
     {
      "pattern": "money-and-cost",
@@ -4563,6 +3996,74 @@
    ]
   },
   {
+   "place": "cg",
+   "name": "Republic of the Congo",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    },
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "over-budget",
+     "age_days": 441,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
    "place": "rw",
    "name": "Rwanda",
    "kind": "country",
@@ -4613,8 +4114,416 @@
    ]
   },
   {
+   "place": "kn",
+   "name": "Saint Kitts and Nevis",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    },
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "over-budget",
+     "age_days": 441,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "lc",
+   "name": "Saint Lucia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    },
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "over-budget",
+     "age_days": 441,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "vc",
+   "name": "Saint Vincent and the Grenadines",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    },
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "over-budget",
+     "age_days": 441,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
    "place": "sm",
    "name": "San Marino",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    },
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "over-budget",
+     "age_days": 441,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "sr",
+   "name": "Suriname",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    },
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "over-budget",
+     "age_days": 441,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "st",
+   "name": "São Tomé and Príncipe",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    },
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "over-budget",
+     "age_days": 441,
+     "budget_days": 180
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "tg",
+   "name": "Togo",
    "kind": "country",
    "tags": [],
    "due": [
@@ -4961,12 +4870,6 @@
      "budget_days": 365
     },
     {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
@@ -5177,12 +5080,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
     },
     {
      "pattern": "health-entry",
@@ -5643,12 +5540,6 @@
      "budget_days": 365
     },
     {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
@@ -5913,12 +5804,6 @@
      "budget_days": 365
     },
     {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
@@ -5985,12 +5870,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
     },
     {
      "pattern": "health-entry",
@@ -6313,12 +6192,6 @@
      "budget_days": 365
     },
     {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
@@ -6385,12 +6258,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
     },
     {
      "pattern": "health-entry",
@@ -6941,12 +6808,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
     },
     {
      "pattern": "health-entry",
@@ -7545,12 +7406,6 @@
      "budget_days": 365
     },
     {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
@@ -8041,12 +7896,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
     },
     {
      "pattern": "health-entry",
@@ -10499,12 +10348,6 @@
      "budget_days": 365
     },
     {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
@@ -11473,12 +11316,6 @@
      "budget_days": 365
     },
     {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
@@ -11813,12 +11650,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
     },
     {
      "pattern": "health-entry",
@@ -12315,12 +12146,6 @@
      "budget_days": 365
     },
     {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
@@ -12563,12 +12388,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
     },
     {
      "pattern": "health-entry",
@@ -13405,12 +13224,6 @@
      "budget_days": 365
     },
     {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
@@ -13691,12 +13504,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    },
-    {
-     "pattern": "entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
     },
     {
      "pattern": "health-entry",
