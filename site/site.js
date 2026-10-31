@@ -285,9 +285,9 @@
     while (stack.length) { const c = stack.pop(); descendants.push(c); stack.push(...index.places.filter((p) => p.parent === c.id)); }
     const ids = [...new Set([...chain, ...descendants.filter((d) => d.zone)].map((p) => p.id))];
     const vets = Object.fromEntries(await Promise.all(ids.map(async (pid) => [pid, index.byId[pid].vetted ? (await json(vetPath(pid), { patterns: {} })).patterns : {}])));
-    const [adv, feed, watch, photoFile, inAus] = await Promise.all([
+    const [adv, feed, watch, photoFile, inAus, lawRepos] = await Promise.all([
       json("data/advisories.json", { destinations: {} }), json("data/feeds/gajra-ahead.json", { events: [] }), json("data/watch.json", { items: [] }),
-      json("site/data/place-photos.json", { photos: {} }), json("data/missions/in-australia.json", { places: {} }),
+      json("site/data/place-photos.json", { photos: {} }), json("data/missions/in-australia.json", { places: {} }), json("data/law-repositories.json", { places: {} }),
     ]);
     // A photo OF this place, or of somewhere inside it (labelled), or none. Never a stand-in from elsewhere.
     let photo = photoFile.photos[id] || null;
@@ -303,6 +303,9 @@
     }
     const spine = chain[chain.length - 1];
     const offices = inAus.places[spine.id] || [];
+    // Where each level's law is officially published, from the place up to the country, plus shared repositories (EU, PacLII).
+    const lawLevels = [...chain].reverse().map((p) => [p, lawRepos.places[p.id] || []]).filter(([, l]) => l.length);
+    (lawRepos.groups || []).forEach((g) => { if (g.members.includes(spine.id)) lawLevels.push([{ name: g.name }, g.repositories]); });
     const advice = spine.smartraveller && adv.destinations[spine.smartraveller];
     const patterns = Object.fromEntries(index.patterns.map((p) => [p.id, p]));
     const applies = (pat, p) => pat.applies_to.includes(p.kind) && !(pat.only_tagged && !(p.tags || []).length) && !(pat.skip_home && p.id === "au");
@@ -403,6 +406,9 @@
       <section class="section tight">${sections}</section>
       ${events.length ? `<section class="section tight"><div class="layer-group"><h2>Upcoming here</h2><span class="rule"></span></div>
         <p class="meta">Dated leads from the feeds. An event is not a permission: taking part still runs through entry, activities and zone checks.</p>${events.map(eventCard(index)).join("")}</section>` : ""}
+      ${lawLevels.length ? `<section class="section tight"><div class="layer-group"><h2>Where the law is published</h2><span class="rule"></span></div>
+        <p class="meta">The official places to read the laws that apply here. Not knowing a law is no defence.</p>
+        <div class="grid">${lawLevels.map(([p, list]) => `<div class="card"><h3>${esc(p.name)}</h3>${list.map((r) => `<p><a href="${esc(r.url)}" rel="noopener">${esc(r.name)}</a><br><span class="meta">${esc(r.publisher)}${r.check && r.check !== "loaded" ? ` · ${esc(r.check)}` : ""}</span></p>`).join("")}</div>`).join("")}</div></section>` : ""}
       ${offices.length ? `<section class="section tight"><div class="layer-group"><h2>${esc(spine.name)}'s offices in Australia</h2><span class="rule"></span></div>
         <p class="meta">Where to apply for a visa or ask for a rule in writing before you go. From the DFAT Protocol directory, read ${fmt(inAus.checked)}. Honorary consuls offer limited services.</p>
         <div class="grid">${offices.map((o) => `<div class="card"><h3>${esc(o.name)}</h3><p class="meta">${esc(o.type)}${o.honorary ? " · honorary" : ""}${o.city ? ` · ${esc(o.city)}${o.state ? ` ${esc(o.state)}` : ""}` : ""}</p>
