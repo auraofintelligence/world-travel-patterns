@@ -240,6 +240,30 @@
      "supports": "12 public holidays next year"
     }
    ]
+  },
+  "activities": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "activities": {
+    "tourism": {
+     "status": "conditional",
+     "route": "evisa",
+     "detail": "A visa is needed. The East African Tourist Visa covers Kenya, Rwanda and Uganda for 90 days, multiple entries.",
+     "next": "See the entry record.",
+     "checked": "2026-11-01"
+    }
+   },
+   "note": "Only tourism and the activities named here are checked; the rest are not yet checked.",
+   "sources": [
+    {
+     "title": "Uganda travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/uganda",
+     "checked": "2026-10-31",
+     "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
+    }
+   ]
   }
  }
 }

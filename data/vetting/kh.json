@@ -243,6 +243,44 @@
      "supports": "21 public holidays next year"
     }
    ]
+  },
+  "activities": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "activities": {
+    "tourism": {
+     "status": "conditional",
+     "route": "evisa",
+     "detail": "A visa is needed: an e-visa online, or a tourist visa on arrival, both for 30 days.",
+     "next": "See the entry record.",
+     "checked": "2026-11-01"
+    },
+    "meetings": {
+     "status": "low",
+     "route": "e-visa or visa on arrival (business travellers)",
+     "detail": "Tourists and business travellers can use the e-visa or visa on arrival.",
+     "next": "None.",
+     "checked": "2026-11-01"
+    },
+    "paid-speaking": {
+     "status": "specialist",
+     "route": "The correct visa and a work permit",
+     "detail": "Working in Cambodia needs the correct visa and a work permit.",
+     "next": "Ask the Cambodian Embassy.",
+     "checked": "2026-11-01"
+    }
+   },
+   "note": "Only tourism and the activities named here are checked; the rest are not yet checked.",
+   "sources": [
+    {
+     "title": "Cambodia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/cambodia",
+     "checked": "2026-10-31",
+     "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
+    }
+   ]
   }
  }
 }

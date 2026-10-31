@@ -124,6 +124,44 @@
      "supports": "hazard seasons and closures as read on 2026-10-31"
     }
    ]
+  },
+  "activities": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "visa free",
+     "detail": "No tourist visa for up to 30 days in each 60-day period.",
+     "next": "See the entry record.",
+     "checked": "2026-11-01"
+    },
+    "meetings": {
+     "status": "conditional",
+     "route": "Sapar e-visa (business, up to 90 days)",
+     "detail": "The e-visa covers tourism, private and business purposes.",
+     "next": "Apply online.",
+     "checked": "2026-11-01"
+    },
+    "conference": {
+     "status": "conditional",
+     "route": "Sapar e-visa (business, up to 90 days)",
+     "detail": "The e-visa covers business purposes.",
+     "next": "Apply online.",
+     "checked": "2026-11-01"
+    }
+   },
+   "note": "Only tourism and the activities named here are checked; the rest are not yet checked.",
+   "sources": [
+    {
+     "title": "Kyrgyz Republic travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/kyrgyz-republic",
+     "checked": "2026-10-31",
+     "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
+    }
+   ]
   }
  }
 }

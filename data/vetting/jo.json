@@ -239,6 +239,65 @@
      "supports": "hazard seasons and closures as read on 2026-10-31"
     }
    ]
+  },
+  "activities": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "visa on arrival",
+     "detail": "A visa is needed: single-entry visas valid 90 days at Queen Alia airport or any border crossing, or options on the Ministry of Interior e-services site.",
+     "next": "See the entry record.",
+     "checked": "2026-11-01"
+    },
+    "paid-speaking": {
+     "status": "specialist",
+     "route": "A visa arranged in advance",
+     "detail": "Any purpose other than tourism, such as work or study, needs a visa arranged before travel.",
+     "next": "Ask the Jordanian Embassy.",
+     "checked": "2026-11-01"
+    },
+    "ai-teaching": {
+     "status": "specialist",
+     "route": "A visa arranged in advance",
+     "detail": "Any purpose other than tourism, such as work or study, needs a visa arranged before travel.",
+     "next": "Ask the Jordanian Embassy.",
+     "checked": "2026-11-01"
+    },
+    "artist": {
+     "status": "specialist",
+     "route": "A visa arranged in advance",
+     "detail": "Any purpose other than tourism, such as work or study, needs a visa arranged before travel.",
+     "next": "Ask the Jordanian Embassy.",
+     "checked": "2026-11-01"
+    },
+    "research": {
+     "status": "specialist",
+     "route": "A visa arranged in advance",
+     "detail": "Any purpose other than tourism, such as work or study, needs a visa arranged before travel.",
+     "next": "Ask the Jordanian Embassy.",
+     "checked": "2026-11-01"
+    },
+    "volunteering": {
+     "status": "specialist",
+     "route": "A visa arranged in advance",
+     "detail": "Any purpose other than tourism, such as work or study, needs a visa arranged before travel.",
+     "next": "Ask the Jordanian Embassy.",
+     "checked": "2026-11-01"
+    }
+   },
+   "note": "Only tourism and the activities named here are checked; the rest are not yet checked.",
+   "sources": [
+    {
+     "title": "Jordan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/jordan",
+     "checked": "2026-10-31",
+     "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
+    }
+   ]
   }
  }
 }
