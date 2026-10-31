@@ -141,6 +141,9 @@ def main():
             if not meta or meta["mime"] not in ("image/jpeg", "image/png", "image/webp") or NOT_A_PLACE_PHOTO.search(name):
                 continue
             ratio = meta["width"] / meta["height"]
+            # No drone imagery on this site (Luke, 1 November 2026).
+            if re.search(r"drone|\bUAV\b|quadcopter", " ".join((name, meta["description"], meta["artist"])), re.I):
+                continue
             if not OPEN.match(meta["licence"]) or meta["width"] < 1600:
                 continue
             if (kind == "photo" and ratio < 1.25) or (kind == "banner" and ratio < 3):

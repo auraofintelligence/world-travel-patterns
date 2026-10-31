@@ -37,7 +37,7 @@ TOPICS = [
     (r"alcohol|drink|drunk|liquor", "alcohol"),
     (r"relig|ramadan|blasphem|preach|speech|insult|monarch|royal|lese|flag|politic|criticis|social media|online", "speech-religion-and-respect"),
     (r"vap|cigar|tobacco|smok", "e-cigarettes-and-tobacco"),
-    (r"drone|film|media", "filming-and-drones"),
+    (r"film|media", "filming"),
     (r"photo", "photography"),
     (r"dress|cloth|modest|nudity|swimwear", "dress-and-public-behaviour"),
     (r"lgbt|same-sex|relationship|marriage|cohabit|sexual|affection|surrogacy|abortion|reproductive|dowr", "relationships-and-cohabitation"),

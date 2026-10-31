@@ -63,7 +63,7 @@ One file per place in `data/vetting/`, named by place id with `/` replaced by `_
   },
   "local-law": {
    "status": "partly-mapped", "checked": "2026-11-02", "evidence": "official",
-   "laws": [{"topic": "filming-and-drones", "rule": "plain statement of the rule", "penalty_signal": "fine range if published",
+   "laws": [{"topic": "filming", "rule": "plain statement of the rule", "penalty_signal": "fine range if published",
              "source": "https://...", "checked": "2026-11-02"}]
   }
  }
