@@ -2,15 +2,20 @@
  "place": "va",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Entry via Italy (Schengen Area rules apply).",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-VATICAN-CITY-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "Vatican City is entered from Rome; visitors are on Schengen Italy's rule. Areas beyond the museums and St Peter's need permission.",
+   "max_stay": "90 days in any 180-day period across the Schengen area",
+   "evidence": "signal",
+   "sources": [
+    {
+     "title": "Schengen area",
+     "authority": "European Commission, Migration and Home Affairs",
+     "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en",
+     "checked": "2026-10-31",
+     "supports": "Schengen membership"
+    }
+   ],
+   "checked": "2026-10-31"
   },
   "money-and-cost": {
    "status": "noted",
