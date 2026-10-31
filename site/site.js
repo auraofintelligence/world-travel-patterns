@@ -551,7 +551,7 @@
       <p class="note" style="margin-top:22px">Unvetted is not permitted. A level marked "not yet checked" has unknown rules, not no rules.</p></section>
     <section class="section"><div class="two">
       <div><h2>Culture, on its own terms</h2><p>In the GAJRA Earth spirit: connective, not assimilative. Each place's own published guidance and its own names come first. Where nothing is published, the record says to ask locally, and who to ask. No outsider verdicts and no ranking of cultures.</p></div>
-      <div><h2>Special permit zones</h2><p>The zone scan walks up to the country and down into any flagged zone inside a place: land council permits, community consent, filming and drone permits, visitor caps, guides, fees and seasonal closures. Each permit's lead time counts back from the travel date to give a latest safe start.</p></div>
+      <div><h2>Special permit zones</h2><p>The zone scan walks up to the country and down into any flagged zone inside a place: land council permits, community consent, filming permits, visitor caps, guides, fees and seasonal closures. Each permit's lead time counts back from the travel date to give a latest safe start.</p></div>
     </div></section>
     <section class="section band"><h2>Growing it</h2><div class="grid wide">
       <div class="card"><h3>Add a place</h3><p>One entry in <code>data/places/&lt;country&gt;/extra.json</code> with its parent, kind and reason. Tag it and it joins the queue.</p></div>

@@ -6,7 +6,7 @@ A pattern is one repeatable question asked of every place it applies to. Every p
 | --- | --- | --- | --- | --- |
 | advisory | Australian Government advice level | machine, daily | nearest | 1 day |
 | entry | Can an Australian passport holder enter, and how? | agent | nearest | 90 days |
-| activities | Does that status allow the planned activity? (16 activities) | agent | nearest | 120 days |
+| activities | Does that status allow the planned activity? (15 activities) | agent | nearest | 120 days |
 | zone-requirements | Extra permits, consents, caps, guides, fees, lead times | agent | stack | 120 days |
 | health-entry | Vaccination or health certificates required to enter | agent | nearest | 180 days |
 | local-law | Laws a visitor could break without knowing (14 topics) | agent | stack | 180 days |
