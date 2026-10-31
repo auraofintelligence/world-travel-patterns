@@ -270,6 +270,134 @@
      "supports": "2026 dates and the replacement plan"
     }
    ]
+  },
+  "activities": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "90-day visitor permit on arrival",
+     "detail": "Tourism with a return ticket and funds.",
+     "next": "None.",
+     "checked": "2026-11-01"
+    },
+    "meetings": {
+     "status": "conditional",
+     "route": "Business visitor permit",
+     "detail": "A business visitor permit covers people paid offshore on a short trip: visiting a branch, negotiating, or attending a business conference.",
+     "next": "Carry the invitation.",
+     "checked": "2026-11-01"
+    },
+    "conference": {
+     "status": "conditional",
+     "route": "Business visitor permit",
+     "detail": "A business visitor permit covers people paid offshore on a short trip: visiting a branch, negotiating, or attending a business conference.",
+     "next": "Carry the conference invitation.",
+     "checked": "2026-11-01"
+    },
+    "unpaid-speaking": {
+     "status": "confirm-in-writing",
+     "route": "Business visitor permit or Temporary resident permit",
+     "detail": "Speaking at a business conference fits a business visit; other speaking may count as work.",
+     "next": "Ask the Consulate General of Samoa in Sydney or Samoa Immigration (Ministry of the Prime Minister and Cabinet).",
+     "checked": "2026-11-01"
+    },
+    "paid-speaking": {
+     "status": "confirm-in-writing",
+     "route": "Temporary resident permit",
+     "detail": "Work isn't allowed on a visitor permit; other business activity needs a temporary resident permit.",
+     "next": "Ask the Consulate General of Samoa in Sydney or Samoa Immigration (Ministry of the Prime Minister and Cabinet).",
+     "checked": "2026-11-01"
+    },
+    "book-launch": {
+     "status": "confirm-in-writing",
+     "route": "Temporary resident permit",
+     "detail": "Work isn't allowed on a visitor permit; other business activity needs a temporary resident permit.",
+     "next": "Ask the Consulate General of Samoa in Sydney or Samoa Immigration (Ministry of the Prime Minister and Cabinet).",
+     "checked": "2026-11-01"
+    },
+    "ai-teaching": {
+     "status": "confirm-in-writing",
+     "route": "Temporary resident permit",
+     "detail": "Work isn't allowed on a visitor permit; other business activity needs a temporary resident permit.",
+     "next": "Ask the Consulate General of Samoa in Sydney or Samoa Immigration (Ministry of the Prime Minister and Cabinet).",
+     "checked": "2026-11-01"
+    },
+    "remote-work": {
+     "status": "confirm-in-writing",
+     "route": "Not published",
+     "detail": "No remote-work rule was found on the official pages.",
+     "next": "Ask the Consulate General of Samoa in Sydney or Samoa Immigration (Ministry of the Prime Minister and Cabinet).",
+     "checked": "2026-11-01"
+    },
+    "entrepreneur": {
+     "status": "confirm-in-writing",
+     "route": "Temporary resident permit",
+     "detail": "Exploring opportunities fits a business visit; running a business needs the business or work route.",
+     "next": "Ask the Consulate General of Samoa in Sydney or Samoa Immigration (Ministry of the Prime Minister and Cabinet).",
+     "checked": "2026-11-01"
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Business visitor permit",
+     "detail": "Meetings and negotiation are business visits; delivering work is not.",
+     "next": "Ask the Consulate General of Samoa in Sydney or Samoa Immigration (Ministry of the Prime Minister and Cabinet).",
+     "checked": "2026-11-01"
+    },
+    "artist": {
+     "status": "confirm-in-writing",
+     "route": "Temporary resident permit",
+     "detail": "Work isn't allowed on a visitor permit; other business activity needs a temporary resident permit.",
+     "next": "Ask the Consulate General of Samoa in Sydney or Samoa Immigration (Ministry of the Prime Minister and Cabinet).",
+     "checked": "2026-11-01"
+    },
+    "mixed-mission": {
+     "status": "confirm-in-writing",
+     "route": "Depends on the mix",
+     "detail": "Visitor, business and work routes each cover different parts.",
+     "next": "Ask the Consulate General of Samoa in Sydney or Samoa Immigration (Ministry of the Prime Minister and Cabinet).",
+     "checked": "2026-11-01"
+    },
+    "filming": {
+     "status": "confirm-in-writing",
+     "route": "Not published",
+     "detail": "No filming permit process was found; the Film Production (Tax Incentives) Act 2017 covers foreign productions' tax.",
+     "next": "Ask Samoa Immigration and the Samoa Tourism Authority.",
+     "checked": "2026-11-01"
+    },
+    "research": {
+     "status": "confirm-in-writing",
+     "route": "Not published",
+     "detail": "Not covered by the business visitor permit.",
+     "next": "Ask Samoa Immigration through the host.",
+     "checked": "2026-11-01"
+    },
+    "volunteering": {
+     "status": "confirm-in-writing",
+     "route": "Not published",
+     "detail": "Not covered by the business visitor permit.",
+     "next": "Ask Samoa Immigration through the host.",
+     "checked": "2026-11-01"
+    }
+   },
+   "sources": [
+    {
+     "title": "Visa information for non-Samoan citizens",
+     "authority": "Embassy of Samoa, Japan",
+     "url": "https://www.samoaembassyjapan.jp/?page_id=57",
+     "checked": "2026-11-01",
+     "supports": "business visitor permit purposes; no work on a visitor permit; temporary resident permit for other business"
+    },
+    {
+     "title": "Consular services",
+     "authority": "Consulate General of Samoa, Sydney",
+     "url": "https://www.samoacgs.com.au/services",
+     "checked": "2026-11-01",
+     "supports": "where Australians apply"
+    }
+   ]
   }
  }
 }

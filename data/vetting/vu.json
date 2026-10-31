@@ -264,6 +264,134 @@
      "supports": "Naghol season and visiting"
     }
    ]
+  },
+  "activities": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "Tourist visa on arrival (up to 120 days)",
+     "detail": "Tourism only: no employment, commercial or business activity on a tourist visa.",
+     "next": "None.",
+     "checked": "2026-11-01"
+    },
+    "meetings": {
+     "status": "conditional",
+     "route": "Business visa (single entry 3 months, or multiple entry 10 months)",
+     "detail": "Business needs the business visa; the tourist visa doesn't allow business activity.",
+     "next": "Carry the invitation.",
+     "checked": "2026-11-01"
+    },
+    "conference": {
+     "status": "conditional",
+     "route": "Business visa (single entry 3 months, or multiple entry 10 months)",
+     "detail": "Business needs the business visa; the tourist visa doesn't allow business activity.",
+     "next": "Carry the conference invitation.",
+     "checked": "2026-11-01"
+    },
+    "unpaid-speaking": {
+     "status": "confirm-in-writing",
+     "route": "Business visa (single entry 3 months, or multiple entry 10 months) or Business visa for short-term employment, with a temporary work permit from the Labour Department and the employer's letter",
+     "detail": "Speaking at a business conference fits a business visit; other speaking may count as work.",
+     "next": "Ask the Vanuatu Department of Immigration and Passport Services.",
+     "checked": "2026-11-01"
+    },
+    "paid-speaking": {
+     "status": "confirm-in-writing",
+     "route": "Business visa for short-term employment, with a temporary work permit from the Labour Department and the employer's letter",
+     "detail": "Paid work needs a temporary work permit from the Labour Department plus the business visa.",
+     "next": "Ask the Vanuatu Department of Immigration and Passport Services.",
+     "checked": "2026-11-01"
+    },
+    "book-launch": {
+     "status": "confirm-in-writing",
+     "route": "Business visa for short-term employment, with a temporary work permit from the Labour Department and the employer's letter",
+     "detail": "Paid work needs a temporary work permit from the Labour Department plus the business visa.",
+     "next": "Ask the Vanuatu Department of Immigration and Passport Services.",
+     "checked": "2026-11-01"
+    },
+    "ai-teaching": {
+     "status": "confirm-in-writing",
+     "route": "Business visa for short-term employment, with a temporary work permit from the Labour Department and the employer's letter",
+     "detail": "Paid work needs a temporary work permit from the Labour Department plus the business visa.",
+     "next": "Ask the Vanuatu Department of Immigration and Passport Services.",
+     "checked": "2026-11-01"
+    },
+    "remote-work": {
+     "status": "confirm-in-writing",
+     "route": "Not published",
+     "detail": "No remote-work rule was found on the official pages.",
+     "next": "Ask the Vanuatu Department of Immigration and Passport Services.",
+     "checked": "2026-11-01"
+    },
+    "entrepreneur": {
+     "status": "confirm-in-writing",
+     "route": "Business visa for short-term employment, with a temporary work permit from the Labour Department and the employer's letter",
+     "detail": "Exploring opportunities fits a business visit; running a business needs the business or work route.",
+     "next": "Ask the Vanuatu Department of Immigration and Passport Services.",
+     "checked": "2026-11-01"
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Business visa (single entry 3 months, or multiple entry 10 months)",
+     "detail": "Meetings and negotiation are business visits; delivering work is not.",
+     "next": "Ask the Vanuatu Department of Immigration and Passport Services.",
+     "checked": "2026-11-01"
+    },
+    "artist": {
+     "status": "confirm-in-writing",
+     "route": "Business visa for short-term employment, with a temporary work permit from the Labour Department and the employer's letter",
+     "detail": "Paid work needs a temporary work permit from the Labour Department plus the business visa.",
+     "next": "Ask the Vanuatu Department of Immigration and Passport Services.",
+     "checked": "2026-11-01"
+    },
+    "mixed-mission": {
+     "status": "confirm-in-writing",
+     "route": "Depends on the mix",
+     "detail": "Visitor, business and work routes each cover different parts.",
+     "next": "Ask the Vanuatu Department of Immigration and Passport Services.",
+     "checked": "2026-11-01"
+    },
+    "filming": {
+     "status": "specialist",
+     "route": "Business visa (single entry 3 months, or multiple entry 10 months) plus a Vanuatu Cultural Centre (Vanuatu Kaljoral Senta) film permit",
+     "detail": "Filming is a named business-visa purpose and needs the Cultural Centre's film permit. Custom land and kastom stories need the custom owners' permission too.",
+     "next": "Apply to the Vanuatu Cultural Centre first, then the business visa.",
+     "checked": "2026-11-01"
+    },
+    "research": {
+     "status": "confirm-in-writing",
+     "route": "Research permit through the Vanuatu Cultural Centre (to confirm)",
+     "detail": "Not a named business-visa purpose on the page read.",
+     "next": "Ask the Vanuatu Cultural Centre and Immigration.",
+     "checked": "2026-11-01"
+    },
+    "volunteering": {
+     "status": "confirm-in-writing",
+     "route": "Not published",
+     "detail": "Not a named purpose.",
+     "next": "Ask Immigration through the host.",
+     "checked": "2026-11-01"
+    }
+   },
+   "sources": [
+    {
+     "title": "Business visa",
+     "authority": "Vanuatu Department of Immigration and Passport Services",
+     "url": "https://immigration.gov.vu/business-visa/",
+     "checked": "2026-11-01",
+     "supports": "single entry 3 months or multiple entry 10 months; purposes include filming with a Vanuatu Cultural Centre permit and short-term employment with a Labour Department work permit"
+    },
+    {
+     "title": "Conduct business",
+     "authority": "Vanuatu Department of Immigration and Passport Services",
+     "url": "https://immigration.gov.vu/conduct-business/",
+     "checked": "2026-11-01",
+     "supports": "business activity routes"
+    }
+   ]
   }
  }
 }
