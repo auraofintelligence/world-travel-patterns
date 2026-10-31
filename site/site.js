@@ -343,8 +343,9 @@
       (rec.layers || []).forEach((l) => { body += `<div class="detail"><b>${esc(l.type)}:</b> ${esc(l.process)} (${esc(l.authority)})${l.lead_time_days ? `, lead time ${l.lead_time_days} days` : ""}</div>`; });
       if (rec.pre_arrival) body += `<div class="detail"><b>Before arrival:</b> ${esc(rec.pre_arrival)}</div>`;
       [["max_stay", "Stay"], ["passport_validity", "Passport"], ["other", "Also"], ["mission", "Office"], ["notes", "Note"], ["currency", "Currency"],
-       ["cash_card_notes", "Cash and cards"], ["dress_and_conduct", "Dress and conduct"], ["cultural_authority", "Who to ask"], ["note", "Note"]]
-        .forEach(([k, label]) => { if (rec[k]) body += `<div class="detail"><b>${label}:</b> ${esc(rec[k])}</div>`; });
+       ["cash_card_notes", "Cash and cards"], ["own_names", "Own names"], ["sacred_or_restricted_places", "Sacred and restricted places"],
+       ["dress_and_conduct", "Dress and conduct"], ["cultural_authority", "Who to ask"], ["required", "Required"], ["conditional", "Depends on route"], ["note", "Note"]]
+        .forEach(([k, label]) => { if (rec[k] && (!Array.isArray(rec[k]) || rec[k].length)) body += `<div class="detail"><b>${label}:</b> ${esc(Array.isArray(rec[k]) ? rec[k].join("; ") : rec[k])}</div>`; });
       if (rec.sources?.length) body += `<div class="detail meta">Sources: ${rec.sources.slice(0, 4).map((s) => `<a href="${esc(s.url)}" rel="noopener">${esc(s.authority || s.title || "source")}</a>`).join(" · ")}${rec.sources.length > 4 ? ` and ${rec.sources.length - 4} more` : ""}</div>`;
       return body + "</li>";
     }
