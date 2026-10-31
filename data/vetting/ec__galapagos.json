@@ -1,0 +1,44 @@
+{
+ "place": "ec/galapagos",
+ "patterns": {
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-10-31",
+   "evidence": "signal",
+   "layers": [
+    {
+     "type": "entry-fee",
+     "authority": "Galápagos National Park Directorate",
+     "process": "A park entry fee for foreign adults, reported as US$200 (about A$284 at RBA, 30 October 2026: A$1 = US$0.7040) since August 2024, half for children under 12. Sources disagree on cash at the airport versus an online portal.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://galapagosisland.net/galapagos-entry-requirements-2026",
+     "checked": "2026-10-31"
+    },
+    {
+     "type": "transit-control-card",
+     "authority": "Galápagos Governing Council",
+     "process": "A Transit Control Card, reported as US$20 (about A$28), bought at Quito or Guayaquil airport before the flight to the islands.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://galapagosisland.net/galapagos-entry-requirements-2026",
+     "checked": "2026-10-31"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Galápagos entry requirements 2026",
+     "authority": "Signal: travel site",
+     "url": "https://galapagosisland.net/galapagos-entry-requirements-2026",
+     "checked": "2026-10-31",
+     "supports": "fee and transit card"
+    }
+   ],
+   "note": "Confirm the fee and payment method on the Galápagos Governing Council or National Park Directorate site."
+  }
+ }
+}

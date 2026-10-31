@@ -1,0 +1,40 @@
+{
+ "place": "ca/haida-gwaii",
+ "patterns": {
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "reservation-and-orientation",
+     "authority": "Gwaii Haanas Archipelago Management Board (Council of the Haida Nation and Parks Canada)",
+     "process": "Every visitor to Gwaii Haanas needs a reservation, the fee and an orientation before entering. Self-guided visitors book and do the orientation online; guided visitors go through their operator. Book with extra weather days.",
+     "lead_time_days": 7,
+     "activities": [
+      "all"
+     ],
+     "url": "https://parks.canada.ca/pn-np/bc/gwaiihaanas/visit/orientations-orientations",
+     "checked": "2026-10-31"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gwaii Haanas visitor orientation",
+     "authority": "Parks Canada with the Haida Nation",
+     "url": "https://parks.canada.ca/pn-np/bc/gwaiihaanas/visit/orientations-orientations",
+     "checked": "2026-10-31",
+     "supports": "orientation required for every visitor"
+    },
+    {
+     "title": "Gwaii Haanas reservations and fees",
+     "authority": "Parks Canada",
+     "url": "https://www.parks.canada.ca/pn-np/bc/gwaiihaanas/visit/tarifs-fees",
+     "checked": "2026-10-31",
+     "supports": "reservation and fee"
+    }
+   ],
+   "note": "The lead time is a planning buffer; Parks Canada doesn't publish one. Haida Gwaii's own visitor guidance outside Gwaii Haanas is still to be read."
+  }
+ }
+}
