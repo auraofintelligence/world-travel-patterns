@@ -2,26 +2,36 @@
  "place": "mr",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa on arrival available.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MAURITANIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "evisa",
+   "summary": "An electronic visa before travel from the Ministry of the Interior; no visa on arrival.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Mauritania travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/mauritania",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Mauritanian Ouguiya (MRU)",
+   "cash_card_notes": "The local currency is the Mauritanian Ouguiya (MRU). It's illegal to import or export ouguiyas. You must declare any foreign currency on arrival, but there are no limits on how much you can import. When you leave Mauritania, you can't have more foreign currency with you than the amount you declared on arrival. Credit cards aren't widely used. Traveller's cheques aren't accepted. Most places only accept cash. Some banks in Nouakchott have ATMs which accept foreign credit cards. Check ATM locations with your bank before you travel. Only exchange currency at official centres and banks. Avoid exch",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $85",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MAURITANIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Mauritania travel advice (updated 14 May 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/mauritania",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +48,24 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/mauritania",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "required",
+   "required": [
+    "Yellow fever vaccination certificate for entry"
+   ],
+   "notes": "Some airlines also ask for it on departure. Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Mauritania travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/mauritania",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
     }
    ]
   }

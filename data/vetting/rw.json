@@ -2,15 +2,20 @@
  "place": "rw",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa on arrival available.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-RWANDA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-on-arrival",
+   "summary": "Commonwealth citizens get a free 30-day tourist visa on arrival.",
+   "max_stay": "30 days",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Rwanda travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/rwanda",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
@@ -38,6 +43,72 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/rwanda",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "conditional": [
+    "Yellow fever vaccination certificate if arriving from (or transiting) a country with yellow fever risk"
+   ],
+   "notes": "Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Rwanda travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/rwanda",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Follow local laws in parks and tourism sites. To visit parks: you must purchase a park permit from Rwanda’s Office of Tourism and National Parks you must be accompanied by an official guide. Rwanda Tour and Travel Association (RTTA) tour companies are available through Member List | RTTA only use established trails",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/rwanda",
+     "checked": "2026-10-31",
+     "heading": "Parks and tourism"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug-related crimes are severe. They include long prison sentences and heavy fines. Airports in Rwanda use technology and security systems to detect illegal items, including drugs, in the baggage of transiting passengers.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/rwanda",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Vapes and e-cigarettes are banned. It's illegal to bring them into the country, including for personal use. If you're found in possession of vapes or e-cigarettes you will have them confiscated and could be fined.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/rwanda",
+     "checked": "2026-10-31",
+     "heading": "Vaporisers, e-cigarette bans"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "The public or police may harass LGBTQIA+ travellers for same-sex relationships or public displays of affection. Plastic bags are banned. Authorities may confiscate them when you arrive at the airport and in public places. They may also fine you. It's illegal to take photos of government buildings. A permit issued by the Rwanda Civil Aviation Authority is required to fly a drone recreationally or commercially.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/rwanda",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rwanda travel advice (updated 02 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/rwanda",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

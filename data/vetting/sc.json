@@ -2,26 +2,37 @@
  "place": "sc",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 3 months.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SEYCHELLES-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa for tourists; the travel authorisation application can be lodged up to 30 days before travel.",
+   "next_check": "Read the Seychelles travel authorisation rules on the official site.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Seychelles travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/seychelles",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Seychellois Rupee (SCR)",
+   "cash_card_notes": "The currency of Seychelles is the Seychellois Rupee (SCR). ATMs are available at the international airport and in major tourist areas but may be hard to find in remote locations. ATMs only dispense local currency (SCR). Most hotels, restaurants and tourist services accept major debit and credit cards, but some smaller hotels and guesthouses may prefer cash, Euros or US dollars. Always check with your accommodation in advance to confirm payment options. You can exchange money at: banks the international airport licensed operators some hotels and resorts. Before you travel, tell your bank about ",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SEYCHELLES-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Seychelles travel advice (updated 28 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/seychelles",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,89 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/seychelles",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "conditional": [
+    "Yellow fever vaccination certificate if arriving from (or transiting) a country with yellow fever risk"
+   ],
+   "notes": "Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Seychelles travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/seychelles",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Using, having, or selling illegal drugs in Seychelles is a very serious crime. If you break these laws, punishments can be severe and may include fines and sentences of life imprisonment.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/seychelles",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Smoking, including e-cigarettes, is not allowed in indoor public places, at work, or on public transport.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/seychelles",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "There are strict rules about what you can take into or out of Seychelles. You must declare anything that may be prohibited or subject to tax or duty. If you're carrying cash valued at more than 50,000 Seychellois rupees, you must declare this when applying for your travel authorisation. Seychelles Immigration & Civil Status Office (Phone: [see source], email: [see source]) Seychelles Revenue Commission, Customs Division - Passenger guide",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/seychelles",
+     "checked": "2026-10-31",
+     "heading": "Customs"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "The minimum driving age in Seychelles is 18 years for private cars and 16 years for motorcycles. You can drive using either a valid Australian driver's licence or an International Driving Permit (IDP). You must get your IDP before leaving Australia (digital driver’s licences may not be accepted).",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/seychelles",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Seychelles travel advice (updated 28 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/seychelles",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "People in Seychelles are usually very traditional. You should not sunbathe topless or be naked on public beaches because it causes offence. Same-sex relationships are legal. Some LGBTQIA+ visitors have faced discrimination, especially away from tourist spots. No matter who you are, avoid public displays of affection, especially in rural or traditional places.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Seychelles travel advice (updated 28 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/seychelles",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

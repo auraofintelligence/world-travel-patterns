@@ -2,26 +2,36 @@
  "place": "dz",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance. Requires invitation letter.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-ALGERIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa obtained in advance.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Algeria travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/algeria",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The currency is the Algerian Dinar (DZD). It's illegal to import or export DZD. To avoid risks, only change money at: an exchange bureau at international airports or large hotels commercial banks in major cities Hotels and some businesses in larger cities accept credit cards. ATMs are available in major cities and large international hotels. Most accept international credit cards.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $125",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-ALGERIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Algeria travel advice (updated 04 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/algeria",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "partner-arrangement",
@@ -38,6 +48,104 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/algeria",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "conditional": [
+    "Yellow fever vaccination certificate if arriving from (or transiting) a country with yellow fever risk"
+   ],
+   "notes": "Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Algeria travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/algeria",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Drug use, possession, and trafficking are illegal in Algeria, with severe penalties. Foreigners caught with drugs face long prison sentences and heavy fines. Trafficking may also attract the death penalty.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/algeria",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Alcohol consumption is legal in Algeria but only allowed in licensed hotels, restaurants, and bars. It's illegal to be under the influence of alcohol in a public place.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/algeria",
+     "checked": "2026-10-31",
+     "heading": "Alcohol"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are illegal and same-sex marriage is not recognised.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/algeria",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ laws"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Although capital punishment has not been applied for many years in Algeria, the death penalty may be imposed for a range of crimes, such as murder, terrorism and drug trafficking.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/algeria",
+     "checked": "2026-10-31",
+     "heading": "Death penalty"
+    },
+    {
+     "topic": "photography",
+     "rule": "In Algeria, it's illegal to: take photos of sensitive sites or military or security personnel attempt to convert Muslims to another faith give out material that authorities perceive as trying to convert Muslims to another faith import or export Algerian currency.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/algeria",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "dress-and-public-behaviour",
+     "rule": "Standards of dress and behaviour are conservative in Algeria. This is particularly the case: in rural and traditional areas near mosques, shrines, religious schools and colleges Take care not to offend. Avoid physical contact between men and women in public. If you're female, it is recommended to wear loose-fitting clothes that cover your arms and legs.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/algeria",
+     "checked": "2026-10-31",
+     "heading": "Dress and behaviour standards"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holy month of Ramadan is observed in Algeria. Respect religious and cultural customs and laws at this time. During Ramadan, eating, drinking, and smoking may be illegal in public during the day. If you're not fasting, avoid these activities around people who are. Seek local advice to avoid offence. Explore our Ramadan page to learn more, including dates for Ramadan. The normal work week in Algeria is Sunday to Thursday.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/algeria",
+     "checked": "2026-10-31",
+     "heading": "Religious festivals"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Algeria, you must have both: a valid Australian driver's licence (digital driver's licences may not be accepted) an International Driving Permit (IDP)",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/algeria",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Algeria travel advice (updated 04 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/algeria",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

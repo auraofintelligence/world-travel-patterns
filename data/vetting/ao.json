@@ -2,26 +2,37 @@
  "place": "ao",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 30 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-ANGOLA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa for tourism: 30 days an entry, 90 days a year.",
+   "max_stay": "30 days; 90 a year",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Angola travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/angola",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Angolan Kwanza",
+   "cash_card_notes": "The currency of Angola is the Angolan Kwanza. ATMs can be hard to find in Angola. If you have amounts over USD10,000, declare it on entry. This covers all forms of currency, not only cash. Travellers can take up to USD10,000 out of Angola. Different rules apply to residents.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-ANGOLA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Angola travel advice (updated 02 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/angola",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,64 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/angola",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "required",
+   "required": [
+    "Yellow fever vaccination certificate for entry"
+   ],
+   "notes": "Some airlines also ask for it on departure. Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Angola travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/angola",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences include mandatory jail terms.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/angola",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "filming-and-drones",
+     "rule": "Using cameras, binoculars or GPS devices, or maps near government buildings or infrastructure is illegal. Don't take photos or film people without their permission, particularly around government buildings or key infrastructure. Your equipment may be confiscated, and you may be the subject of prosecution or police questioning. If you do this, local police may detain or question you. Same-sex relationships were decriminalised in January 2019. However, there are local sensitivities. Avoid public displays of affection.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/angola",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Angola, you need: a valid Australian driver's licence (digital driver's licences may not be accepted) an International Driving Permit (IDP) registration papers insurance papers You must get your IDP before leaving Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/angola",
+     "checked": "2026-10-31",
+     "heading": "Driver's licence"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Angola travel advice (updated 02 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/angola",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

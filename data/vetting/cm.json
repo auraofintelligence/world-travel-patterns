@@ -2,26 +2,36 @@
  "place": "cm",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-CAMEROON-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "evisa",
+   "summary": "A visa through Cameroon's e-visa system before departure.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Cameroon travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/cameroon",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Central African CFA Franc (XAF)",
+   "cash_card_notes": "Cameroon is largely a cash economy. The local currency is the Central African CFA Franc (XAF). Large hotels usually accept US dollars and Euros. You can exchange US dollars and euros for local currency. Australian dollars are not accepted. Credit card facilities are not widespread, but major hotels may accept them. Traveller’s cheques are not widely accepted. ATMs that accept international cards are limited and may attract heavy fees. Check ATM locations with your bank before you travel. Fraud and skimming are high risks when using debit and credit cards with ATMs or EFTPOS machines. Pay caref",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $200",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-CAMEROON-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Cameroon travel advice (updated 18 March 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/cameroon",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +48,97 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/cameroon",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "required",
+   "required": [
+    "Yellow fever vaccination certificate for entry"
+   ],
+   "notes": "Some airlines also ask for it on departure. Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Cameroon travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/cameroon",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They may include long jail terms and large fines.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/cameroon",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Always carry proof of your identification (ID), such as a residence permit or a certified copy of your passport showing a valid visa. Police might detain you if you can't show a valid ID.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/cameroon",
+     "checked": "2026-10-31",
+     "heading": "Proof of identity"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Penalties for serious crimes, such as murder, include the death penalty. There are strict rules around what you can import and export from Cameroon. You must declare anything that is prohibited or subject to taxes and duties, check with the Cameroonian Customs service prior to travel. It's illegal to buy, sell, kill or capture any protected wildlife without a licence. Persons found to be trafficking these goods face long jail terms and large fines. It's illegal to wear camouflage clothing in Cameroon unless you are a member of the armed forces. Penalties can include fines and detention.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/cameroon",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are illegal in Cameroon. Penalties for same-sex activity include both: 6 months to 5 years jail a fine of 20,000 to 200,000 CFCA francs. The media has reported extra-judicial attacks and arrests targeting LGBTQIA+ people in Cameroon.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/cameroon",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    },
+    {
+     "topic": "photography",
+     "rule": "It's illegal to take photos of: military zones, assets or personnel government buildings airports ports In other areas communities may be sensitive to people taking photos without permission. This may result in locals or officials asking for money for a ‘permit’ to photograph certain places.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/cameroon",
+     "checked": "2026-10-31",
+     "heading": "Photography"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cameroon travel advice (updated 18 March 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/cameroon",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Standards of dress and behaviour are conservative in Cameroon. Take care not to offend. If in doubt, seek local advice.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Cameroon travel advice (updated 18 March 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/cameroon",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

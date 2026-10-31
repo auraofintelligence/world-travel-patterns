@@ -2,26 +2,36 @@
  "place": "mz",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa or visa on arrival available.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MOZAMBIQUE-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "evisa",
+   "summary": "A tourist visa is needed; an eVisa may be available depending on the length of stay.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Mozambique travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/mozambique",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Mozambique Metical (MZN)",
+   "cash_card_notes": "The local currency is Mozambique Metical (MZN). It's illegal to export or import MZN. You can get MZN by exchanging: traveller's cheques, in US dollars or Euros, at major banks in Maputo You can only change traveller's cheques for MZN. It's difficult to change traveller's cheques outside of Maputo. You may be charged a high rate of commission. In Maputo, ATMs will often accept international credit cards. You can use credit cards in most places. Mastercard is not accepted by all vendors and cannot be used to withdraw cash from ATMs. Before you travel, ask your bank if your cards will work in Mo",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $100",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MOZAMBIQUE-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Mozambique travel advice (updated 24 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/mozambique",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +48,80 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/mozambique",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "conditional": [
+    "Yellow fever vaccination certificate if arriving from (or transiting) a country with yellow fever risk"
+   ],
+   "notes": "Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Mozambique travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/mozambique",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include prison sentences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/mozambique",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "By law, you must carry personal identity documents at all times and present them on request to the authorities. Personal ID includes: a passport (must be original, copies are not accepted) other photo ID Keep a digital copy of your ID and all travel documents.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/mozambique",
+     "checked": "2026-10-31",
+     "heading": "Personal identification"
+    },
+    {
+     "topic": "photography",
+     "rule": "You must have permission to photograph: government buildings other infrastructure officials It's illegal to export or import the local currency, Meticais. You must have a licence to purchase or trade endangered wildlife products, such as ivory and rhino horn.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/mozambique",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are legal, but there are local sensitivities. Avoid public displays of affection.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/mozambique",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive, you must have both: a valid Australian driver licence an International Driving Permit (IDP) Get your IDP before leaving Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/mozambique",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mozambique travel advice (updated 24 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/mozambique",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

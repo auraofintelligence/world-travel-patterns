@@ -2,26 +2,36 @@
  "place": "dj",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa required in advance.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-DJIBOUTI-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "evisa",
+   "summary": "A visa is needed; see the official e-visa portal.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Djibouti travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/djibouti",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Djibouti Franc (DJF)",
+   "cash_card_notes": "The local currency is the Djibouti Franc (DJF). Travellers cheques can be exchanged at major banks. Djibouti has a cash-based economy. Credit cards aren't widely accepted. USD can be changed at major hotels and some banks. There are a limited number of ATMs, but they often don't work. Ask your bank if your card will work in Djibouti.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $90",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-DJIBOUTI-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Djibouti travel advice (updated 06 February 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/djibouti",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +48,97 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/djibouti",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "conditional": [
+    "Yellow fever vaccination certificate if arriving from (or transiting) a country with yellow fever risk"
+   ],
+   "notes": "Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Djibouti travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/djibouti",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include long jail sentences and heavy fines. The narcotic khat is legal in Djibouti, but illegal in many other countries.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/djibouti",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Illegal activities in Djibouti include: hunting being drunk in public photographing military personnel It's illegal to photograph military facilities and public infrastructure, such as government buildings, ports, airports and bridges If you take photos near prohibited places, you may: have your equipment confiscated be arrested If in doubt, ask for advice from local authorities.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/djibouti",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are not illegal in Djibouti but authorities may prosecute same-sex couples displaying affection in public. - Advice for LGBTQIA+ travellers",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/djibouti",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "The Islamic holy month of Ramadan is observed in Djibouti. Respect religious and cultural customs and laws at this time. During Ramadan, avoid eating, drinking and smoking in public during the day. If you're not fasting, avoid these activities around people who are. Seek local advice to avoid offence. Airline schedules can be affected during the month of Ramadan. Check flight schedules with your travel provider. Explore our Ramadan page to learn more, including dates for Ramadan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/djibouti",
+     "checked": "2026-10-31",
+     "heading": "Cultural dates"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Djibouti, you need both: a valid Australian driver’s licence (digital driver's licences may not be accepted) a valid International Driving Permit (IDP) You must get your IDP before leaving Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/djibouti",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Djibouti travel advice (updated 06 February 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/djibouti",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Standards for dress and behaviour are conservative. Be respectful toward religious and social traditions. The working week is Sunday to Thursday. Many shops, clinics, and other amenities are closed on Fridays.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Djibouti travel advice (updated 06 February 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/djibouti",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

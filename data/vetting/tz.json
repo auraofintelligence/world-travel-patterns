@@ -2,26 +2,36 @@
  "place": "tz",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa or visa on arrival for business.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TANZANIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "evisa",
+   "summary": "A visa is needed; eVisa online before travel.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Tanzania travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The Tanzanian currency is the Tanzanian Shiling (TZS). Credit card fraud can occur in Tanzania. Always keep your credit card in sight during transactions. Avoid using ATMs on the street. Use ATMs in banks, shops, hotels and shopping centres.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $150",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TANZANIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Tanzania travel advice (updated 23 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +48,89 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "conditional": [
+    "Yellow fever vaccination certificate if arriving from (or transiting) a country with yellow fever risk"
+   ],
+   "notes": "Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Tanzania travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They can include long jail terms. Airports in Tanzania have technology and security for detecting illegal items, including drugs. This can be used to scan the baggage of transiting passengers.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "It's illegal to possess or access pornographic material.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
+     "checked": "2026-10-31",
+     "heading": "Pornography"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex activity is illegal in Tanzania. Authorities can jail you for up to 30 years. Authorities might subject you to an invasive examination. Security forces sometimes carry out arbitrary arrests and searches based on sexual orientation or gender identity. Interventions include: detentions interrogations alleged physical abuse Members of the LGBTQIA+ community and advocates can be targets for harassment. There are regular cases of harassment and arrests by authorities and intimidation by members of the public. LGBTQIA+ travellers should take precautions.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ laws"
+    },
+    {
+     "topic": "photography",
+     "rule": "It's illegal to photograph military zones, weapons or personnel. Single-use plastic bags are banned, including in your luggage. You can face heavy fines and imprisonment for up to 7 days. Serious crimes, such as treason and murder, carry the death penalty. There's corporal punishment for some crimes. This includes rape or robbery with violence. Be aware of how you use social media, and what you post online. You need to comply with cybercrime laws.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tanzania travel advice (updated 23 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Dress and behaviour standards are conservative in Tanzania, especially in Zanzibar. Take care to be respectful and not offend. Avoid public displays of affection. If you're a woman, don't wear shorts or sleeveless tops outside tourist resorts.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Tanzania travel advice (updated 23 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

@@ -2,26 +2,37 @@
  "place": "tn",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TUNISIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa for visits of 90 days or less.",
+   "max_stay": "90 days",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Tunisia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/tunisia",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Tunisian Dinar (TND)",
+   "cash_card_notes": "The local currency is the Tunisian Dinar (TND). It’s illegal to import and export Tunisian dinars (TND). ATMs are widely available in tourist areas and can be found in large cities. Many establishments in urban and tourist areas accept credit cards.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TUNISIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Tunisia travel advice (updated 30 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/tunisia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "partner-arrangement",
@@ -38,6 +49,78 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/tunisia",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for possession, use or trafficking of illegal drugs are severe and subject to heavy fines and prison sentences, including up to life in prison.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/tunisia",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "Penalties for some offences, such as murder and rape, include the death penalty. It's illegal to: live or stay as an unmarried couple engage in religious proselytism, including preaching, possessing or distributing religious literature or material and religious activities that contradict or challenge Islamic teachings and values take photos of or near government buildings, military sites, other infrastructure import or export Tunisian dinars",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/tunisia",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Sexual relationships between individuals of the same sex is illegal. LGBTQIA+ persons could be arrested because of their sexual orientation, gender identity, gender expression or sexual characteristics. They could also face other charges such as: public indecency offence to public morality If convicted, the offender can face fines and prison sentences from six months to three years. Avoid public displays of affection.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/tunisia",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "There are conservative standards of dress and behaviour. Take care not to offend. If you're visiting religious sites or remote areas, avoid wearing short-sleeved garments or shorts. Women may be harassed, particularly if they're unaccompanied.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/tunisia",
+     "checked": "2026-10-31",
+     "heading": "Cultural sensitivities"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holy month of Ramadan is observed. This may affect government and private business opening hours. Respect religious and cultural customs and laws at this time. During Ramadan, eating, drinking and smoking may be illegal in public during the day. If you're not fasting, avoid these activities around people who are. Seek local advice to avoid offence. Explore our Ramadan page to learn more, including dates for Ramadan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/tunisia",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "A child born to a Tunisian mother or father can be considered by the Tunisian authorities as a Tunisian citizen, no matter where he or she was born and what other citizenship he or she has acquired or is entitled to. In cases where one or more family members hold Tunisian citizenship, parents should consider the risks before their children travel to Tunisia, including: at the request of family members, Tunisian authorities can prevent children from leaving Tunisia (a procedure known as a “stop order”) children who are identified as Tunisian citizens will be treated as Tunisian nationals",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/tunisia",
+     "checked": "2026-10-31",
+     "heading": "Child custody"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive you need an International Driving Permit (IDP). You must obtain your IDP before leaving Australia. For longer stays, contact the Ministry of Transport (French) about local licences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/tunisia",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tunisia travel advice (updated 30 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/tunisia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

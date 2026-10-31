@@ -2,26 +2,36 @@
  "place": "gn",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa required in advance.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-GUINEA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "confirm-in-writing",
+   "summary": "Smartraveller's page gives no visa detail; it refers travellers to the country's embassy.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Guinea travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/guinea",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Guinean franc (GNF)",
+   "cash_card_notes": "The local currency is the Guinean franc (GNF). Banks accept international credit cards and can exchange money. Traveller's cheques and credit cards are only accepted at some major hotels in Conakry. ATMs are unreliable, only dispense small amounts of cash and often don’t accept foreign cards. They should be used only at reputable hotels, stores, and banks. Exchanging currency on the street is illegal. Foreign nationals have been arrested and held in military custody for using unofficial money changers even for small amounts, including at the airport. Outside of the capital, banks are limited a",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $120",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-GUINEA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Guinea travel advice (updated 15 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/guinea",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "partner-arrangement",
@@ -38,6 +48,113 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/guinea",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "required",
+   "required": [
+    "Yellow fever vaccination certificate for entry"
+   ],
+   "notes": "Some airlines also ask for it on departure. Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Guinea travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/guinea",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Serious crimes, such as murder and armed robbery, can attract the death penalty. If you're arrested or detained due process may not be followed and delays should be expected. Pre-trial detention is common and can last for many months. Local prison conditions are harsh, often without regular food and water. The main prison in Conakry suffers from serious overcrowding and security incidents.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/guinea",
+     "checked": "2026-10-31",
+     "heading": "Serious crime"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include prison sentences in local jails. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/guinea",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "You must always carry original ID documents. Police and law enforcement can request to see them. Carry duplicate copies of your documents that can be handed over to authorities, if requested, in place of your actual passports or identification cards.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/guinea",
+     "checked": "2026-10-31",
+     "heading": "Proof of identity"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "You can't export precious stones from Guinea without a licence. If you can't show a licence, authorities may imprison you. Strict regulations may also apply to the movement of items such as firearms, antiquities, medications, business equipment, and ivory. Ensure you have the required permits. It's illegal to take photos or videos of strategic assets including military, police or government buildings, the President’s residences and offices, or airports and bridges. You may get arrested. Photographing without permission in any public area may result in arrest or a dangerous confrontation with people who find being photographed offensive.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/guinea",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are illegal. Fines or jail sentences may apply.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/guinea",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holy month of Ramadan is observed in Guinea. Respect religious and cultural customs and laws at this time. If you're visiting during Ramadan, seek advice about additional considerations from your tour guide, hotel or trusted contacts. During Ramadan, eating, drinking and smoking may be illegal in public during the day. If you're not fasting, avoid these activities around people who are. Seek local advice to avoid offence. Explore our Ramadan page to learn more, including dates for Ramadan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/guinea",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Medicines are in short supply and can be of questionable quality in Guinea. Be wary of counterfeit medication.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/guinea",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Guinea travel advice (updated 15 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/guinea",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Dress and behaviour standards are conservative, particularly during Ramadan. Ask locals for advice. Take care not to offend.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Guinea travel advice (updated 15 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/guinea",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

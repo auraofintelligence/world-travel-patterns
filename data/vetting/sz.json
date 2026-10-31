@@ -2,26 +2,37 @@
  "place": "sz",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 30 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-ESWATINI-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "Tourists can enter for up to 30 days without a visa.",
+   "max_stay": "30 days",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Eswatini travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/eswatini",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The Lilangeni (SZL) is the currency of Eswatini. Declare all amounts over SZL15,000 on arrival. This covers all forms of currency, not only cash. Consult the Eswatini Revenue Service for up-to-date information. You can't convert SZL into another currency. South African Rand notes are widely accepted. Larger cities and tourist facilities accept international credit cards. ATMs are widely available. Contact your bank to ensure that your cards will work.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-ESWATINI-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Eswatini travel advice (updated 13 February 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/eswatini",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,72 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/eswatini",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "conditional": [
+    "Yellow fever vaccination certificate if arriving from (or transiting) a country with yellow fever risk"
+   ],
+   "notes": "Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Eswatini travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/eswatini",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Serious offences, including murder and treason, carry the death penalty. Corporal punishment exists, including for children.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/eswatini",
+     "checked": "2026-10-31",
+     "heading": "Death penalty"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They include mandatory prison sentences. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/eswatini",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "It's illegal to: possess pornography take photos of government buildings, military installations, armed forces, royal residences or official ceremonies actions or words that are considered offensive or insulting to the king or royal family engage in same-sex relationships - Advice for LGBTQIA+ travellers",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/eswatini",
+     "checked": "2026-10-31",
+     "heading": "Other crimes"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive, you need both: a valid Australian driver's licence (digital driver's licences may not be accepted) and an International Driving Permit (IDP) You must get your IDP before leaving Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/eswatini",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Eswatini travel advice (updated 13 February 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/eswatini",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

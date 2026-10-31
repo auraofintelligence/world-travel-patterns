@@ -2,26 +2,37 @@
  "place": "cf",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-CENTRAL-AFRICAN-REPUBLIC-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "Contact a CAR embassy; the Consulate-General of France in Sydney may help with visas.",
+   "other": "Smartraveller advises against all travel here; advice is information, never an exclusion.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Central African Republic travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/central-african-republic",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The currency is the Central African CFA Franc (XAF). Cameroon, Chad, Republic of the Congo, Gabon and Equatorial Guinea also use the XAF. Very few ATMs are available in Bangui. Bangui has several Western Union offices, but only a few banks. Most hotels, supermarkets and restaurants catering to foreigners only accept cash. Bangui is the only city where you can change money. You can usually convert euros or US dollars into local currency. Keep alert when changing money through official or unofficial change agents.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $220",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-CENTRAL-AFRICAN-REPUBLIC-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Central African Republic travel advice (updated 03 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/central-african-republic",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,72 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/central-african-republic",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "required",
+   "required": [
+    "Yellow fever vaccination certificate for entry"
+   ],
+   "notes": "Some airlines also ask for it on departure. Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Central African Republic travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/central-african-republic",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Local law requires you to always carry your passport. Always carry proof of identity. Police might detain or fine you if you can't show them identity documents.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/central-african-republic",
+     "checked": "2026-10-31",
+     "heading": "Proof of identity"
+    },
+    {
+     "topic": "photography",
+     "rule": "Unauthorised photography is illegal. Don't take photos of: military zones military assets military or police personnel government buildings mining leases If you do, police may confiscate your camera, fine you and detain you. You need a government permit to take photos. The government will not grant permits for strategic sites such as: the airport military buildings the Presidential Palace It's not permitted to take photographs the authorities think damage the country’s image (for example, of street children and people with disabilities).",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/central-african-republic",
+     "checked": "2026-10-31",
+     "heading": "Photography"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "A licence is necessary to buy or sell gems. There are heavy penalties for illegally exporting precious gems. It's only legal to purchase diamonds or precious stones through government-authorised agents.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/central-african-republic",
+     "checked": "2026-10-31",
+     "heading": "Gem licences"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "While same-sex relationships are not illegal, they are not widely accepted in Central African society. LGBTQIA+ travellers may face arrest for public displays of affection.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/central-african-republic",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Central African Republic travel advice (updated 03 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/central-african-republic",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

@@ -2,26 +2,36 @@
  "place": "sl",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa on arrival available.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SIERRA-LEONE-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa is needed to enter Sierra Leone.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Sierra Leone travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/sierra-leone",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Leone (SLL)",
+   "cash_card_notes": "The local currency is the Leone (SLL). Euros and US dollars are the easiest foreign currencies to exchange. Only exchange money at banks and official exchange bureaus. The economy is cash-based. There are strict rules limiting the amount of foreign cash that can be brought into the country. Consult with the nearest embassy or consulate of Sierra Leone for the latest details. Credit cards and traveller's cheques aren't widely accepted. There aren't many ATMs in Freetown. Contact your bank to check if your cards will work in Sierra Leone.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $120",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SIERRA-LEONE-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Sierra Leone travel advice (updated 14 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/sierra-leone",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +48,81 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/sierra-leone",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "required",
+   "required": [
+    "Yellow fever vaccination certificate for entry"
+   ],
+   "notes": "Some airlines also ask for it on departure. Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Sierra Leone travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/sierra-leone",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Engaging in same-sex activity is illegal and could lead to prison sentences, including life imprisonment. LGBTQIA+ relationships and identities are widely regarded as unacceptable. There are reports of discrimination and violence against LGBTQIA+ people in Sierra Leone. There is no recognition of same-sex relationships.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/sierra-leone",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Don't use, carry or traffic illegal drugs. Penalties for drug offences are severe and include mandatory terms. Prison conditions in Sierra Leone are hard.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/sierra-leone",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can drive for one month with a valid Australian driver's licence (digital driver’s licences may not be accepted) an International Driving Permit (IDP) After that, you'll need a local licence. You must get your IDP before you leave Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/sierra-leone",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sierra Leone travel advice (updated 14 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/sierra-leone",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Standards of dress and behaviour are conservative, particularly for women. Avoid revealing clothing. Women travelling alone may be subject to some forms of harassment or verbal abuse. Seek permission from locals before photographing them. Take care not to offend. The Islamic holy month of Ramadan is observed in Sierra Leone. Respect religious and cultural customs and laws at this time. Avoid eating, drinking and smoking in public or in front of people who are fasting.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Sierra Leone travel advice (updated 14 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/sierra-leone",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

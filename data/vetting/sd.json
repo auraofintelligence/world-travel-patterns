@@ -2,26 +2,37 @@
  "place": "sd",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SUDAN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa, which can take several months.",
+   "other": "Israeli visas or stamps in the passport mean refusal. Smartraveller advises against all travel here; advice is information, never an exclusion.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Sudan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/sudan",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Sudanese Pound (SDG)",
+   "cash_card_notes": "The local currency is the Sudanese Pound (SDG). You can’t convert outside the country and it’s illegal to export it. Non-Sudanese credit and debit cards are not widely accepted, even at large hotels. Make sure you have enough cash with you. Take unmarked US dollars dated from 2006. ATMs only accept local bank cards and there are limits to cash withdrawals. Western Union and other money transfer systems are currently unreliable. Change money through banks or official exchange bureaus. It’s illegal to exchange currency outside of official banking channels. You could be fined or go to prison.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $200",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SUDAN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Sudan travel advice (updated 01 May 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/sudan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,105 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/sudan",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "conditional": [
+    "Yellow fever vaccination certificate if arriving from (or transiting) a country with yellow fever risk"
+   ],
+   "notes": "Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Sudan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/sudan",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/sudan",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Sudan follows Islamic sharia law. Seek legal advice about family law matters, including divorce, custody and child support. Be aware of your rights and responsibilities.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/sudan",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Serious crime, such as murder, can attract the death penalty. Some offences attract physical punishment such as lashes. In Sudan it's illegal to: have same-sex relationships have extra-marital relations try to convert a Muslim to Christianity Non-Muslims can drink alcohol, but not in the company of Muslims.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/sudan",
+     "checked": "2026-10-31",
+     "heading": "Serious crime"
+    },
+    {
+     "topic": "photography",
+     "rule": "You need a permit for photography of any kind. Even with a permit, you can't photograph: military areas bridges broadcast stations public utilities slum areas beggars",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/sudan",
+     "checked": "2026-10-31",
+     "heading": "Photography"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holy month of Ramadan is observed. Respect religious and cultural customs and laws at this time. During Ramadan, eating, drinking and smoking may be illegal in public during the day. If you're not fasting, avoid these activities around people who are. Seek local advice to avoid offence. Explore our Ramadan page to learn more, including dates for Ramadan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/sudan",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You’ll need a valid international driving permit (IDP). Get your IDP before you leave Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/sudan",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sudan travel advice (updated 01 May 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/sudan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "There are strong Islamic codes of dress and behaviour. If you're a woman, wear a headscarf and loose clothing to cover the arms and legs. Take care not to offend. If in doubt, seek local advice.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Sudan travel advice (updated 01 May 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/sudan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

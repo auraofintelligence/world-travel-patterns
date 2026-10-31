@@ -2,26 +2,36 @@
  "place": "ga",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa or visa on arrival available.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-GABON-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "Get a visa: travellers under visa-free arrangements have had immigration problems during their stay.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Gabon travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/gabon",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Central African CFA Franc (XAF)",
+   "cash_card_notes": "The local currency is the Central African CFA Franc (XAF). Declare all amounts of local or foreign currency more than XAF200,000 on arrival and departure. This covers all forms of currency, not only cash. You can only cash traveller's cheques at larger banks in major cities. The cheques must be in either euros or US dollars. Gabon is largely a cash-based economy. Credit cards aren't widely accepted, except at major hotels and restaurants. Ask your bank if your cards will work in Gabon. You'll find ATMs in major centres. Take care when using ATMs because thieves may target you. See the Safety s",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $120",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-GABON-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Gabon travel advice (updated 09 January 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/gabon",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "partner-arrangement",
@@ -38,6 +48,80 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/gabon",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "required",
+   "required": [
+    "Yellow fever vaccination certificate for entry"
+   ],
+   "notes": "Some airlines also ask for it on departure. Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Gabon travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/gabon",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and can include long prison sentences in local jails. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/gabon",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Ensure you carry your identification and evidence of the purpose of your visit at all times. Local security forces may interpret laws broadly and inconsistently. You could break the law without intending to. The Australian Government can’t intervene in local judicial processes. It's illegal to photograph: airports the Presidential Palace government buildings military sites border posts It's illegal to buy or sell endangered wildlife products without a licence. This includes ivory and rhino horn. Local laws may change without notice.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/gabon",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships aren't legally recognised. Local communities can be intolerant towards same-sex relationships, so avoid public displays of affection. There have been attempts to charge people in same-sex marriages under public order and obscenity laws. - Advice for LGBTQIA+ travellers",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/gabon",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Many pharmaceutical products are in short supply in Gabon. If you plan to bring medication, check if it's legal in Gabon. Take enough legal medication for your trip.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/gabon",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Gabon, you need both: a valid Australian driver's licence (digital driver's licences may not be accepted) an International Driving Permit (IDP) You must obtain your IDP before leaving Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/gabon",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gabon travel advice (updated 09 January 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/gabon",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

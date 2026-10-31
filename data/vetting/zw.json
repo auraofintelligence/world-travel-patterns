@@ -2,26 +2,38 @@
  "place": "zw",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa or visa on arrival available.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-ZIMBABWE-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-on-arrival",
+   "summary": "A 30-day tourist visa on arrival, single or multiple entry, paid in US dollars cash or by international card.",
+   "max_stay": "30 days",
+   "other": "Business activity needs a business visa.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Zimbabwe travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/zimbabwe",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "Zimbabwe’s economic situation is unpredictable. In April 2024, Zimbabwe announced the introduction of a new currency, Zimbabwe Gold ($ZWG), to replace the Zimbabwe dollar ($ZWL). The US dollar is widely accepted, but this could change without notice. Prices can be listed in either currency. Check before making a transaction, as the $ symbol can be used for both currencies. The exchange rate between the local currency and USD can change quickly. Most stores and businesses will not accept US banknotes issued before 2006. Zimbabwe is experiencing a cash crisis. Authorities have introduced restric",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $70",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-ZIMBABWE-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Zimbabwe travel advice (updated 05 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/zimbabwe",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "in-place",
@@ -38,6 +50,64 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/zimbabwe",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "conditional": [
+    "Yellow fever vaccination certificate if arriving from (or transiting) a country with yellow fever risk"
+   ],
+   "notes": "Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Zimbabwe travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/zimbabwe",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties are severe for carrying, making or dealing in illegal drugs, including marijuana. You may face lengthy prison sentences and heavy fines. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/zimbabwe",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "By law, you must always carry ID, such as a copy of your passport. You may have to show these documents if you're stopped by police or immigration officials. Juvenile offenders may get corporal punishment. In Zimbabwe, it's illegal to: kill, capture or trade a protected animal, or its parts, without a licence wear clothing with camouflage designs if you're a civilian have or trade counterfeit or pirated goods, or pornographic material have precious or semi-precious stones without paperwork Same-sex relationships are illegal. It's illegal to take photos of sensitive locations. You need permission from the Ministry of Information to photograph: airports military establishments government offic",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/zimbabwe",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive you need both: a valid Australian driver's licence an International Driving Permit (IDP) Get your IDP before leaving Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/zimbabwe",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Zimbabwe travel advice (updated 05 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/zimbabwe",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

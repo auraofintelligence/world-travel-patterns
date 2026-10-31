@@ -2,26 +2,37 @@
  "place": "so",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance. Extremely difficult.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SOMALIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "confirm-in-writing",
+   "summary": "Somalia's e-visa system had a data breach in November 2025 exposing applicants' personal details.",
+   "other": "Smartraveller advises against all travel here; advice is information, never an exclusion.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Somalia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/somalia",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Somali Shilling (SOS)",
+   "cash_card_notes": "The local currency is the Somali Shilling (SOS), except in Somaliland, which uses the Somaliland Shilling. US dollars are widely accepted. The government regulates currency transfer and exchange. Australian currency, credit cards and traveller's cheques aren't accepted. ATMs aren't usually available.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Variable",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SOMALIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Somalia travel advice (updated 18 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/somalia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,80 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/somalia",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "required",
+   "required": [
+    "Yellow fever vaccination certificate for entry"
+   ],
+   "notes": "Some airlines also ask for it on departure. Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Somalia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/somalia",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "If you're arrested or detained, you may not be able to contact the Australian Government or access consular services.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/somalia",
+     "checked": "2026-10-31",
+     "heading": "Consular help"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They may include prison and heavy fines.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/somalia",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Courts operate under both Somali and Sharia law. Strict sharia law is in force in areas under al-Shabaab control. Sentences include physical punishments such as flogging and the death penalty. Get professional advice on local legal matters, particularly about: divorce child custody child support sexual assault and rape Be aware of your rights and responsibilities. Criminal laws are inconsistently enforced in Somalia. Due process isn't always followed. Same-sex relationships are illegal in Somalia. Punishments under strict Sharia law include flogging or death. There are no laws against spousal violence, including rape. If you experience sexual assault, consider contacting the Consular Emergen",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/somalia",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "dress-and-public-behaviour",
+     "rule": "Somalia has strict conservative standards of dress and behaviour. If in doubt, ask for local advice.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/somalia",
+     "checked": "2026-10-31",
+     "heading": "Cultural sensitivities"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holiday month of Ramadan is observed in Somalia. Respect religious and cultural customs and laws at this time. During Ramadan, eating, drinking, and smoking may be illegal in public during the day. If you're not fasting, avoid these activities around people who are. Seek local advice to avoid offence. Explore our Ramadan page to learn more, including dates for Ramadan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/somalia",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Somalia travel advice (updated 18 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/somalia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

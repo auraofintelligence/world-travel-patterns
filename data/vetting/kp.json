@@ -2,26 +2,37 @@
  "place": "kp",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required. Extremely difficult. Only via approved tours.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-NORTH-KOREA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa for all travel; there is no North Korean embassy in Australia now.",
+   "other": "Register with authorities within 24 hours of arrival. Journalists can't enter on a tourist visa. Transit via China usually needs a double or multiple-entry Chinese visa. Smartraveller advises against all travel here; advice is information, never an exclusion.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "North Korea (Democratic People's Republic of Korea) travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/north-korea-democratic-peoples-republic-korea",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "North Korean Won (KPW)",
+   "cash_card_notes": "The local currency is the North Korean Won (KPW). Foreigners are not allowed to use the North Korean Won. Foreigners are required to use foreign currency. The Euro is the most widely accepted foreign currency. US dollars and Chinese yuan are also widely accepted. Changing currencies in North Korea is difficult. ATMs aren't available. Banking facilities are limited, and traveller's cheques aren't accepted. You can't use a debit or credit card to withdraw cash from a bank. Some shops and restaurants catering to travellers might convert foreign currency so you can pay. Use cash. Take small denomi",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Variable",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-NORTH-KOREA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "North Korea (Democratic People's Republic of Korea) travel advice (updated 31 March 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/north-korea-democratic-peoples-republic-korea",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,63 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/north-korea-democratic-peoples-republic-korea",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "Authorities have arrested and detained foreigners, including Australians. Culture and politics influence authorities when making arrests, not just the law. You may be arrested, detained or expelled for activities that aren't crimes in Australia. Authorities closely watch travellers. They may search belongings in your hotel room or monitor your email, internet, phone and fax usage.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/north-korea-democratic-peoples-republic-korea",
+     "checked": "2026-10-31",
+     "heading": "Arbitrary arrest and detention"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. Trafficking can result in an indefinite jail sentence. Parole is rare in drug-related cases. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/north-korea-democratic-peoples-republic-korea",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Authorities arrest and detain people for many activities. Penalties can be very harsh. Many seemingly innocent activities may be perceived as spying. It's illegal to take photos of anything other than designated public tourist sites, including: roads and bridges airports rail stations ports government buildings scenes of poverty anything that may give a negative impression of North Korea Always ask your North Korean guide for permission before taking photos. It's illegal to: bring items that may be seen as religious, pornographic or political bring or view South Korean products or content not declare published material or electronic devices when you enter knowingly or unknowingly possess ite",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/asia/north-korea-democratic-peoples-republic-korea",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    }
+   ],
+   "sources": [
+    {
+     "title": "North Korea (Democratic People's Republic of Korea) travel advice (updated 31 March 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/north-korea-democratic-peoples-republic-korea",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Same-sex relationships and homosexuality aren't explicitly criminalised, but same-sex relationships aren't legally recognised. There are reports of executions due to homosexuality. - LGBTQIA+ travellers",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "North Korea (Democratic People's Republic of Korea) travel advice (updated 31 March 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/north-korea-democratic-peoples-republic-korea",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

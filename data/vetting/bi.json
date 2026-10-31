@@ -2,26 +2,36 @@
  "place": "bi",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BURUNDI-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa is needed to enter Burundi.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Burundi travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/burundi",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Burundian Franc (BIF)",
+   "cash_card_notes": "The local currency is the Burundian Franc (BIF). You’ll need approval to take more than BIF 200,000 out of the country. Some businesses may accept US dollars or euros. Exchange money only at authorised banks or reputable exchange bureaus to avoid counterfeit issues. Most bureaus may refuse to exchange older notes printed before 2013. ATMs are limited and unreliable. Most hotels and businesses don't accept credit cards. Bank transfers in and out of the country may not be available. Plan ahead. Have enough cash to meet your needs.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $130",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BURUNDI-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Burundi travel advice (updated 28 May 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/burundi",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +48,56 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/burundi",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "required",
+   "required": [
+    "Yellow fever vaccination certificate for entry"
+   ],
+   "notes": "Some airlines also ask for it on departure. Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Burundi travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/burundi",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe, including long prison terms and large fines.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/burundi",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "photography",
+     "rule": "It's illegal to take photos of sensitive buildings in Burundi. Don't photograph: airports military installations government buildings Same-sex relationships are illegal, and penalties include jail terms. Public displays of affection are frowned upon. It may lead to LGBTQIA+ travellers being harassed by the public or police.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/burundi",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Burundi travel advice (updated 28 May 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/burundi",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

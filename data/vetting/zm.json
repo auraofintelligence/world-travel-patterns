@@ -2,26 +2,37 @@
  "place": "zm",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa available for business travel.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-ZAMBIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa: 90 days in any 12 months from first entry.",
+   "max_stay": "90 days in 12 months",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Zambia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/zambia",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Zambia Kwacha (ZMW)",
+   "cash_card_notes": "The local currency is the Zambia Kwacha (ZMW). Declare any ZMW and foreign currency over USD5000 when you arrive and depart. This covers all forms of currency, not only cash. You must use ZMW to pay in Zambia. It's against the law to quote or pay in foreign currency for local goods or services. If you do, you could be fined or jailed for 10 years. Use well-known reputable banks or currency exchange companies to change or withdraw money. Fake USD100 and ZMW notes are common. Zambian banks and foreign exchange agents won't accept US banknotes issued before 2000. ATMs are available in main cities",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $75",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-ZAMBIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Zambia travel advice (updated 21 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/zambia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,72 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/zambia",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "conditional": [
+    "Yellow fever vaccination certificate if arriving from (or transiting) a country with yellow fever risk"
+   ],
+   "notes": "Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Zambia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/zambia",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Possession of small quantities of an illegal substance can constitute drug trafficking. Penalties for drug-related crimes are severe. They include long prison sentences and heavy fines.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/zambia",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Police and border officials can ask to see your passport and immigration stamp or visa at any time. They could detain or arrest you if you don't have them. Always carry your passport and visa or immigration permit. You can get certified copies from the issuing office. It's illegal to: have pornographic material take photos of government buildings, military areas and buildings or personnel buy or trade in endangered wildlife products, such as tortoise shells, ivory and rhino horn, or any products made of these materials without a licence Same sex relationships are illegal. If convicted, you could face long terms of imprisonment.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/zambia",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Medications containing diphenhydramine, such as Benadryl, are regulated in Zambia. If your medication is illegal in Zambia, ask your doctor in Australia about alternatives. You could be arrested and jailed if you don't carry your prescription.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/zambia",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive you need both: a valid Australian driver's licence (digital driver’s licences may not be accepted) an International Driving Permit (IDP) You must get your IDP before leaving Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/zambia",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Zambia travel advice (updated 21 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/zambia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

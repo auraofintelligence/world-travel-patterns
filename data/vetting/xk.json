@@ -2,33 +2,37 @@
  "place": "xk",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for Australian passport holders for up to 90 days in a six-month period.",
-   "checked": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-KOSOVO-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source.",
+   "status": "visa-free",
+   "summary": "No visa for tourist stays under 90 days in 180; a 90-day entry stamp on arrival.",
+   "max_stay": "90 days in 180",
+   "evidence": "official",
+   "checked": "2026-10-31",
    "sources": [
     {
-     "title": "Kosovo Ministry of Foreign Affairs visa list",
-     "url": "https://arkivi.mfa-ks.net/en/sherbimet_konsullore/503/kush-ka-nevoj-pr-viza-t-kosovs/503.html",
-     "checked": "2026-08-20"
+     "title": "Kosovo travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/kosovo",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
     }
    ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "euro",
+   "cash_card_notes": "The official currency of Kosovo is the euro. You need to declare amounts over 10,000 euro or equivalent when you arrive. This covers all forms of currency, not only cash. If you don't, you may be fined. Although credit card use is increasing, Kosovo is a cash economy based on the euro. ATMs are readily available throughout Kosovo, and users should take normal precautions to safeguard their PIN when using them. It's a good idea to carry some cash, including for minor purchases.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-KOSOVO-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Kosovo travel advice (updated 26 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/kosovo",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -45,6 +49,30 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/kosovo",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive, you need to carry your valid Australian licence. Digital driver's licences may not be accepted. Getting an International Driver's Permit (IDP) is recommended. Get your IDP before leaving Australia. If you break traffic laws, authorities may take your driver's licence.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/kosovo",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kosovo travel advice (updated 26 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/kosovo",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

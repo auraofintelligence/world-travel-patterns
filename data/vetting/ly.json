@@ -2,26 +2,37 @@
  "place": "ly",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance. Extremely difficult.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-LIBYA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa is needed.",
+   "other": "Officials may detain you if you can't prove entry at an official crossing. Smartraveller advises against all travel here; advice is information, never an exclusion.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Libya travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/libya",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Libyan Dinar (LYD)",
+   "cash_card_notes": "The local currency is the Libyan Dinar (LYD). Libya law prohibits importing or exporting the Libyan Dinar. Libya is a cash-based economy. Debit cards, credit cards and traveller’s cheques are not often accepted, and ATMs are rare. Official exchange offices will not accept Australian dollars. Withdrawing money from banks may be difficult due to severe shortages of cash. The security situation sometimes disrupts banking services.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Variable",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-LIBYA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Libya travel advice (updated 13 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/libya",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,105 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/libya",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "conditional": [
+    "Yellow fever vaccination certificate if arriving from (or transiting) a country with yellow fever risk"
+   ],
+   "notes": "Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Libya travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/libya",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Women can be subject to unwanted attention and harassment in Libya. Women may also face movement restrictions when travelling without a mahram (male guardian). While male guardianship is not mandatory under Libyan law, Libyan authorities frequently enforce it. Sexual assaults on women and gender-based violence are common in Libya. Survivors of sexual assault and domestic violence have little recourse in Libya, and women who report sexual crimes may be accused of adultery. Women and girls in Libya, both dual nationals and foreigners, are at increased risk of forced marriage, abduction, and kidnapping in Libya.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/libya",
+     "checked": "2026-10-31",
+     "heading": "Women travellers"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Libyan law prohibits same-sex relationships. Same-sex marriage is also illegal. Convicted offenders face prison sentences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/libya",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. They include the death penalty or life in jail. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/libya",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "If you're involved in a business dispute, officials may: confiscate your passport not let you leave Libya until the dispute is settled.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/libya",
+     "checked": "2026-10-31",
+     "heading": "Business disputes"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "Libya is an Islamic country. It's illegal to attempt to convert Muslims to another religion. This includes: evangelism and preaching a non-Islamic religion possessing or distributing religious material other than Islam engaging in other activities that promote a religion other than Islam engaging in blasphemy against Islam. Penalties can be severe and may include the death penalty.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/libya",
+     "checked": "2026-10-31",
+     "heading": "Religious conversion"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Serious crimes may attract the death penalty. Other penalties may appear harsh by Australian standards. In Libya, it's illegal to: have sex outside of marriage drink alcohol import or export alcohol, antiquities, pork and pork products and pornographic content take photos of military installations, personnel, and government buildings.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/libya",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Libya travel advice (updated 13 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/libya",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Libya is an Islamic country. Respect local traditions, laws and religious customs, especially during the holy month of Ramadan. During Ramadan, eating, drinking and smoking may be illegal in public during the day. If you're not fasting, avoid these activities around people who are. Seek local advice to avoid offence.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Libya travel advice (updated 13 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/libya",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

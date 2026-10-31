@@ -2,26 +2,38 @@
  "place": "bw",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BOTSWANA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-free",
+   "summary": "No visa for tourists up to 90 days.",
+   "max_stay": "90 days",
+   "other": "Entering on an emergency passport needs a visa first.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Botswana travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/botswana",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Pula (BWP)",
+   "cash_card_notes": "The official currency of Botswana is the Pula (BWP). You must declare any foreign currency that's over the equivalent value of Pula 10,000 when you enter and leave Botswana.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BOTSWANA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Botswana travel advice (updated 09 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/botswana",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +50,72 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/botswana",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "conditional": [
+    "Yellow fever vaccination certificate if arriving from (or transiting) a country with yellow fever risk"
+   ],
+   "notes": "Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Botswana travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/botswana",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include mandatory jail sentences. This includes offences involving marijuana (cannabis).",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/botswana",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Serious offences, including murder and treason, carry the death penalty.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/botswana",
+     "checked": "2026-10-31",
+     "heading": "Death penalty"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Exporting elephant hair, ivory, and rhinoceros horn products is illegal. If you want to export animal souvenirs or 'trophies', you need either: a government permit a receipt from a licensed store You must not observe wildlife closer than the minimum legal distance.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/botswana",
+     "checked": "2026-10-31",
+     "heading": "Wildlife laws"
+    },
+    {
+     "topic": "photography",
+     "rule": "Some crimes, such as serious assaults, attract physical punishment. It's illegal to: possess pornography take photos of military or government installations",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/botswana",
+     "checked": "2026-10-31",
+     "heading": "Other crimes"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Botswana travel advice (updated 09 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/botswana",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

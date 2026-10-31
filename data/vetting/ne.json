@@ -2,26 +2,37 @@
  "place": "ne",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-NIGER-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa in advance.",
+   "other": "Authorities may hold passports for several days after arrival. Smartraveller advises against all travel here; advice is information, never an exclusion.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Niger travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/niger",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "West African CFA Franc (XOF)",
+   "cash_card_notes": "The local currency is the West African CFA Franc (XOF). Only change money at a reputable exchange bureau. Australian dollars aren't accepted. You can convert US dollars and euros to XOF. Cash traveller's cheques at commercial banks. You'll need to show the original receipt and your passport. Be aware that: credit cards are rarely accepted, even in major hotels and restaurants Bring enough cash to cover your needs.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $200",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-NIGER-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Niger travel advice (updated 24 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/niger",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,113 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/niger",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "required",
+   "required": [
+    "Yellow fever vaccination certificate for entry"
+   ],
+   "notes": "Some airlines also ask for it on departure. Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Niger travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/niger",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for possessing, using or trafficking illegal drugs can include heavy fines and/or long jail sentences in Niger.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/niger",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "The death penalty applies to serious crimes, such as murder. Always carry your passport with a valid visa or residence permit. NGOs must register with the Government of Niger before they start their mission. If you work without permission, you could be detained and deported. It's illegal to take photos of: military personnel, zones and assets radio and television stations airports the Presidency Building diplomatic buildings the Kennedy Bridge in Niamey political demonstrations",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/niger",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are illegal in Niger. Penalties include prison sentences of 5 to 10 years and fines. This applies to individuals who are found guilty of what is described as ‘LGBTQIA+ acts’. The laws also extend to people who officiate, witness, organise or consent to same-sex marriages. LGBTQIA+ travellers should consider travel plans and personal security carefully.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/niger",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    },
+    {
+     "topic": "dress-and-public-behaviour",
+     "rule": "Standards of dress and behaviour are generally conservative. Take care not to offend. If you're a woman, consider wearing a headscarf and loose clothes that cover your arms and legs, especially where locals are doing so. If you're not sure, get local advice.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/niger",
+     "checked": "2026-10-31",
+     "heading": "Dress standards"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holy month of Ramadan is observed in Niger. It's illegal to eat, drink and smoke in public during daylight hours in Ramadan. If you're not fasting, avoid eating, drinking or smoking in front of people who are. Explore our Ramadan page to learn more, including dates for Ramadan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/niger",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Carry copies of these documents translated into French while in Niger.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/niger",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can drive in Niger with a valid Australian driver's licence (digital driver's licences may not be accepted) and an International Driving Permit (IDP). You must get your IDP before you leave Australia. You must get a local licence if you're staying longer than 3 months.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/niger",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Niger travel advice (updated 24 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/niger",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Respect religious and cultural customs and laws. Ask for permission before taking photos of locals.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Niger travel advice (updated 24 June 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/niger",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

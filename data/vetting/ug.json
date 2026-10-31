@@ -2,26 +2,36 @@
  "place": "ug",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa required in advance.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-UGANDA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "evisa",
+   "summary": "A visa is needed. The East African Tourist Visa covers Kenya, Rwanda and Uganda for 90 days, multiple entries.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Uganda travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/uganda",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Ugandan Shilling (UGX)",
+   "cash_card_notes": "The local currency is the Ugandan Shilling (UGX). You must declare all foreign currency on arrival. This covers all forms of currency, not only cash. If you don't, you may have trouble taking it when you leave. Only exchange money at commercial banks and exchange bureaus. US dollars are widely accepted. You may not be able to change US banknotes printed before 2006. You will probably need cash in Uganda. However, some larger stores, restaurants and hotels, especially in tourist areas, may accept card payments.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $75",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-UGANDA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Uganda travel advice (updated 07 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/uganda",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +48,85 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/uganda",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "none-required",
+   "notes": "No yellow fever certificate needed to enter Uganda, but some airlines ask on departure. Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Uganda travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/uganda",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Uganda's law prohibits same-sex relationships, and convictions under these laws may result in severe sentences, up to the death penalty for certain cases. Same-sex public displays of affection, like kissing in public places, could lead to arrest and imprisonment. Groups, individuals, or legal entities advocating for LGBTQIA+ rights or promoting homosexuality could lead to arrest and long-term imprisonment. Members of the LGBTQIA+ community may face discrimination, potential violence and abuse. LGBTQIA+ travellers should carefully consider the risks of travelling to Uganda.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/uganda",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ travellers"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "There are heavy penalties for possession, use or trafficking of illegal drugs. If you're convicted of a drug offence, you'll face a long jail sentence and heavy fines.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/uganda",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "If you plan to take part in commercial or altruistic surrogacy arrangements in Uganda, be aware of all legal and other risks involved. Although it is not illegal, surrogacy is not regulated by law in Uganda. Get comprehensive and independent legal advice from a Ugandan lawyer with specialisation in this area of law. Research prospective agencies and clinics to ensure you’re dealing with a reputable organisation. Same-sex couples may encounter issues when engaging in surrogacy arrangements in Uganda. The Australian High Commission can't provide: legal advice about surrogacy information on clinics or agencies translation/interpretation services You may need to spend several months in Uganda be",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/uganda",
+     "checked": "2026-10-31",
+     "heading": "Surrogacy"
+    },
+    {
+     "topic": "photography",
+     "rule": "Treason and murder carry the death penalty. Rape and robbery attract corporal punishment. It's illegal to: take photos of military, government and diplomatic buildings and areas wear military-style or camouflage civilian clothing",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/uganda",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Many pharmaceutical products are in short supply or not available in Uganda.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/uganda",
+     "checked": "2026-10-31",
+     "heading": "Medications"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Uganda, you need both: a valid Australian driver's licence (digital driver’s licences may not be accepted) an International Driving Permit (IDP) You must get your IDP before leaving Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/uganda",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Uganda travel advice (updated 07 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/uganda",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

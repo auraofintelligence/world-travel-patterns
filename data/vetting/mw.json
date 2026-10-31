@@ -2,26 +2,36 @@
  "place": "mw",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa required in advance.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MALAWI-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "evisa",
+   "summary": "A visa is needed; eVisa through Malawi's Department of Immigration.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Malawi travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/malawi",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Malawi Kwacha (MWK)",
+   "cash_card_notes": "The local currency is the Malawi Kwacha (MWK) and the economy is largely cash based. Declare any foreign currency when you arrive and depart. This covers all forms of currency, not only cash. When you leave, authorities may take any foreign currency you didn't declare on entry. Ask Malawian authorities for advice if you want to export currency. The US dollar is the most easily exchanged foreign currency. Some hotels and restaurants will accept payments in US dollars. Credit cards are increasingly accepted but it is advised to still carry cash. Before you arrive, ask your host, hotel or tour op",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $110",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MALAWI-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Malawi travel advice (updated 10 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/malawi",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +48,105 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/malawi",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "conditional": [
+    "Yellow fever vaccination certificate if arriving from (or transiting) a country with yellow fever risk"
+   ],
+   "notes": "Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Malawi travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/malawi",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "You face severe penalties for using or carrying illegal drugs, including cannabis. Penalties include long prison sentences in local jails. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/malawi",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "You must always carry your passport or a copy of your passport with you. You are legally required to: show your passport or immigration permit when a police officer or immigration official asks for it meet your visa conditions or other immigration rules",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/malawi",
+     "checked": "2026-10-31",
+     "heading": "Proof of identity"
+    },
+    {
+     "topic": "photography",
+     "rule": "In Malawi it's illegal to: buy or export uncut precious stones import ivory import pornography It's illegal to photograph: government buildings airports churches synagogues bridges military installations",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/malawi",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are illegal in Malawi and carries harsh penalties, including up to 14 years imprisonment. Malawian society can be hostile to the LGBTQIA+ community. Avoid public attention. - Advice for LGBTQIA+ travellers",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/malawi",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ information"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "If you plan to bring medication, check if it's legal in Malawi. Take enough legal medication for your trip.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/malawi",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Malawi, you need both: a valid Australian driver licence (digital driver's licences may not be accepted) an International Driving Permit (IDP) Get your IDP before leaving Australia. If you'll be in Malawi for an extended period, you'll need to apply for a local driver's licence.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/malawi",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Malawi travel advice (updated 10 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/malawi",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Some areas have modest standards of dress and behaviour. Take care not to offend. Dress modestly. If you're a woman, wear loose clothing that covers your legs and shoulders. Avoid public displays of affection.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Malawi travel advice (updated 10 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/malawi",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

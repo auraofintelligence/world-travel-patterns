@@ -2,26 +2,37 @@
  "place": "bf",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BURKINA-FASO-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "confirm-in-writing",
+   "summary": "Smartraveller's page gives no visa detail; it refers travellers to the country's embassy.",
+   "other": "Smartraveller advises against all travel here; advice is information, never an exclusion.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Burkina Faso travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/burkina-faso",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "West African Franc (CFA Franc",
+   "cash_card_notes": "The local currency is the West African Franc (CFA Franc, or XOF). Declare all foreign currency and CFA on arrival.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $150",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-BURKINA-FASO-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Burkina Faso travel advice (updated 28 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/burkina-faso",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "partner-arrangement",
@@ -38,6 +49,81 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/burkina-faso",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "required",
+   "required": [
+    "Yellow fever vaccination certificate for entry"
+   ],
+   "notes": "Some airlines also ask for it on departure. Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Burkina Faso travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/burkina-faso",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for possessing, using or trafficking illegal drugs are severe. You could receive a heavy fine or a long jail sentence. The importation of expired or prohibited products that cause death can attract the death penalty.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/burkina-faso",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "photography",
+     "rule": "It's illegal to take photos of military zones, assets or personnel, airports, government buildings (including foreign diplomatic missions) and places of worship and religious monuments. It's also illegal to export art or cultural objects without approval from the Ministry of Culture. Burkina Faso requires travellers to register all satellite phones.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/burkina-faso",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Engaging in same-sex relationships or any behaviours 'promoting' same-sex relations, is illegal and could lead to prison sentences and fines or deportation for foreign nationals. LGBTQIA+ people are at risk of harassment or violence. Avoid public displays of affection. Consider your travel plans and personal security carefully.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/burkina-faso",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ laws"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Burkina Faso travel advice (updated 28 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/burkina-faso",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Burkina Faso has conservative standards of dress and behaviour. Take care not to offend. If in doubt, ask for local advice. Engaging in same-sex relations is illegal and could lead to prison sentences and fines or deportation for foreign nationals.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Burkina Faso travel advice (updated 28 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/burkina-faso",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

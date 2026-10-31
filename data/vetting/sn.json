@@ -2,26 +2,36 @@
  "place": "sn",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance for business purposes.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SENEGAL-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "confirm-in-writing",
+   "summary": "Smartraveller's page gives no visa detail; it refers travellers to the country's embassy.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Senegal travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/senegal",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "West African CFA Franc (XOF)",
+   "cash_card_notes": "The local currency is the West African CFA Franc (XOF). You can't easily change Australian dollars. You can change US dollars and euros at commercial banks and exchange bureaus. Only use reputable ATMs or exchange bureaus, as there is a risk you will be scammed with fake money. Major hotels in Dakar accept credit cards. You'll find ATMs in Dakar, but they may not always be reliable, and banking facilities are hard to find outside the capital. Plan ahead. Have enough cash to meet your needs. Withdrawal limits can be low, and ATMs regularly run out of money, including in Dakar. Ask your bank if ",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $120",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SENEGAL-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Senegal travel advice (updated 06 May 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/senegal",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "partner-arrangement",
@@ -38,6 +48,105 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/senegal",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "required",
+   "required": [
+    "Yellow fever vaccination certificate for entry"
+   ],
+   "notes": "Some airlines also ask for it on departure. Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Senegal travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/senegal",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe. This can include long jail terms, and lengthy periods on remand before trial.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/senegal",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "You must carry photo ID at all times, and a certified copy of a passport may not be accepted by Senegalese authorities. If authorities request ID and you can't provide it, they can put you in jail. Be careful when taking photos. It's illegal to photograph: government buildings airports other official facilities It's also illegal to: drink and drive possess or import pornographic material engage in same-sex relationships cross the Senegal River by private pirogue or canoe You must have approval to import: auto parts computers and computer parts stereo equipment tape players tools video cameras and video players Get customs clearance if you take any of these items.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/senegal",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are illegal and may lead to severe punishment, including prison and fines. The law is enforced and has led to arrests. Avoid displays of affection in public. Members of the LGBTIQA+ community may face discrimination or abuse.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/senegal",
+     "checked": "2026-10-31",
+     "heading": "LGBTIQA+"
+    },
+    {
+     "topic": "speech-religion-and-respect",
+     "rule": "The Islamic holy month of Ramadan is observed in Senegal. Respect religious and cultural customs and laws at this time. If you're visiting during Ramadan, seek advice about additional considerations from your tour guide, hotel or trusted contacts. During Ramadan, eating, drinking and smoking may be illegal in public during the day. If you're not fasting, avoid these activities around people who are. Seek local advice to avoid offence and check opening hours of shops and restaurants. Explore our Ramadan page to learn more, including dates for Ramadan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/senegal",
+     "checked": "2026-10-31",
+     "heading": "Ramadan"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Senegal doesn't allow the importation of controlled substances, including but not limited to: narcotics anabolic steroids psychotropic drugs hallucinogenic drugs. Senegal’s Ministry of Health and Public Hygiene can advise on which medications are legal in Senegal. Counterfeit medicine is common, and may have dangerous or ineffective ingredients.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/senegal",
+     "checked": "2026-10-31",
+     "heading": "Medication"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Senegal, you need both: an International Driving Permit (IDP) an Australian driver's licence (digital driver's licences may not be accepted) Get an IDP before you leave Australia. As well as the above, you must also carry the following documents in your vehicle: valid insurance papers vehicle registration/matriculation card (\"carte grise\") \"vignette\" tax disc for the current year These documents should be obtained from the government department, Senegal Services, when registering you",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/senegal",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Senegal travel advice (updated 06 May 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/senegal",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Senegal has conservative standard of behaviour and dress, particularly during Ramadan. Avoid revealing clothing and displays of public affection. Take care not to offend. Bars and restaurants usually serve alcoholic drinks, but drunkenness is considered offensive. Government offices, schools and most businesses close for the Islamic holiday feast of sacrifice ('Eid al-Adha' or 'Tabaski').",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Senegal travel advice (updated 06 May 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/senegal",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

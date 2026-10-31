@@ -2,26 +2,37 @@
  "place": "cd",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-CONGO-DEM-REP-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-required",
+   "summary": "A visa before entry; none on arrival.",
+   "other": "Declare satellite phones and GPS equipment on arrival.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Democratic Republic of the Congo travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Congolese Franc (CDF)",
+   "cash_card_notes": "The local currency is the Congolese Franc (CDF). Declare local and foreign currency in excess of USD10,000 on arrival and departure. This covers all forms of currency, not only cash. US dollars are widely accepted. Counterfeit currency is common. Check USD banknotes before accepting them. Change currency at licensed commercial banks and exchange bureaus. Money transfer agencies operate in major towns. Traveller's cheques aren't accepted. Some major hotels accept credit cards. ATMs are available in Kinshasa and major centres. It may be difficult to withdraw cash from international accounts, eve",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $200",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-CONGO-DEM-REP-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Democratic Republic of the Congo travel advice (updated 06 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "partner-arrangement",
@@ -38,6 +49,72 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "required",
+   "required": [
+    "Yellow fever vaccination certificate for entry"
+   ],
+   "notes": "Some airlines also ask for it on departure. Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Democratic Republic of the Congo travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for possessing illegal drugs include harsh prison sentences and fines. - Carrying or using drugs",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are legal in DRC, with no specific laws criminalising it. However, it remains a cultural taboo and same-sex couples who engage in public displays of affection may be subject to violence and harassment. LGBTQIA+ people face discrimination and legal challenges based on decency laws.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ laws"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "A number of offences carry the death penalty, including terrorism and treason. Always carry a copy of your passport and visa or immigration permit. Police and immigration officials can ask to see your travel documents at any time. You must also stop when passing a government installation during the raising and lowering of the national flag. This happens at about 7:30am and 6pm every day. In the DRC it's illegal to: take photos of or near government buildings or other infrastructure, including airports take photos of a presidential or other official motorcade fail to produce your passport and visa or immigration permit on request",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in the DRC, you'll need both: a valid international driving permit (IDP) your current Australian driver's licence (digital driver's licences may not be accepted) You must get your IDP before you leave Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Democratic Republic of the Congo travel advice (updated 06 July 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

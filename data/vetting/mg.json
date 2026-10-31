@@ -2,26 +2,37 @@
  "place": "mg",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "e-Visa or visa on arrival available.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MADAGASCAR-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-on-arrival",
+   "summary": "A tourist visa for up to 60 days on arrival at the airport.",
+   "max_stay": "60 days",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Madagascar travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/madagascar",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "Malagasy Ariary (MGA) but euros are widely accepted",
+   "cash_card_notes": "The local currency is the Malagasy Ariary (MGA) but euros are widely accepted. Madagascar has a cash-based economy. Credit cards aren't widely used, although some credit cards are accepted at major hotels, some restaurants and shops. You can make cash withdrawals from a limited number of ATMs in Antananarivo. Ask your bank if your cards will work in Madagascar. There is a shortage of foreign currency in Madagascar so banks will not easily reconvert local currency to foreign currency.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $55",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MADAGASCAR-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Madagascar travel advice (updated 25 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/madagascar",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,97 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/madagascar",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "conditional": [
+    "Yellow fever vaccination certificate if arriving from (or transiting) a country with yellow fever risk"
+   ],
+   "notes": "Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Madagascar travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/madagascar",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Drug offences are serious. Punishments can be severe and prison conditions are harsh.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/madagascar",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "photography",
+     "rule": "Always carry photo ID, such as a passport or driver's licence. Police may ask you for it, especially if you're out late at night. In Madagascar, it's illegal to: take photos of military installations or airports wear military-style clothing export protected plants or animals without approval export gemstones or vanilla for a commercial purpose without a permit. Paying for sex is illegal. Fines range between 1500 and 7000 euros or prison sentences up to 10 years. Strict laws have been implemented against sexual abuse of children 17 years old and under, especially if foreigners are involved. Some underage sex workers may carry fake IDs, putting you at risk of prosecution or blackmail.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/madagascar",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are legal for people over 21 but same-sex marriage isn't recognised. Same sex relationships are not widely accepted in Madagascar. Avoid public displays of affection. There are no anti-discrimination protections for LGBTQIA+ travellers.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/madagascar",
+     "checked": "2026-10-31",
+     "heading": "LGBTQIA+ Travellers"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "There are strict rules about goods you can take into or out of Madagascar. This includes food, precious woods, stones, metals, jewellery and cash. You must declare anything that may be prohibited or subject to tax or duty on arrival.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/madagascar",
+     "checked": "2026-10-31",
+     "heading": "Customs regulations"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "You can drive in Madagascar with a valid Australian driver's licence (digital driver's licences may not be accepted) for stays shorter than 90 days. For longer stays you’ll need to apply for an International Driver’s Permit from Australia. The minimum driving age in Madagascar is 18 years old. If you plan on driving in Madagascar: check your insurance covers driving check local traffic laws and practices be aware of potential dangers on the roads avoid remote roads, particularly at night drive c",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/madagascar",
+     "checked": "2026-10-31",
+     "heading": "Driver’s licence"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Madagascar travel advice (updated 25 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/madagascar",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "In Madagascar, 'fady' are strict traditional taboos. They dictate what is forbidden in daily life and can include food and clothing. Breaking them can lead to serious consequences. The fady are especially observed in rural areas of the country. Before travelling to rural or remote areas, seek advice from your tour operator or local guide about what the local practices, such as standards of dress and behaviour, especially on traditional sites. If you plan to stay longer in a village you may need to inform the local authority or village head.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Madagascar travel advice (updated 25 August 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/madagascar",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

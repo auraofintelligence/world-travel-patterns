@@ -2,26 +2,37 @@
  "place": "ss",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa required in advance.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SOUTH-SUDAN-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "evisa",
+   "summary": "A visa in advance through the Department of e-Visa and Immigration Services.",
+   "other": "Smartraveller advises against all travel here; advice is information, never an exclusion.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "South Sudan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/south-sudan",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": "South Sudanese Pound (SSP)",
+   "cash_card_notes": "The local currency is the South Sudanese Pound (SSP). South Sudan is a cash-based society. You'll need to pay cash in local currency or US dollars dated 2017 onwards for all purchases, including hotel bills. Shops and restaurants may refuse US dollar notes that are worn, damaged or marked. Exchange rates for SSP can vary significantly. It is recommended you carry sufficient funds in US dollars to cover expenses for the duration of your stay. Credit and debit cards, traveller's cheques and cash cards are generally not accepted. ATMs are scarce and often unreliable.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $150+",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SOUTH-SUDAN-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "South Sudan travel advice (updated 22 May 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/south-sudan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +49,81 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/south-sudan",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "required",
+   "required": [
+    "Yellow fever vaccination certificate for entry"
+   ],
+   "notes": "Some airlines also ask for it on departure. Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "South Sudan travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/south-sudan",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and may include the death penalty.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/south-sudan",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Legal proceedings can be lengthy and ineffective. Be aware of your rights and responsibilities. Seek professional advice if you do anything that involves local legal matters. This is especially the case for family law matters, including: divorce child custody child support child abduction Penalties for criminal offences can include: death corporal punishment long jail term It is illegal to take any photos without a permit from the Ministry of Information. This includes photos taken with a mobile phone. don’t take pictures of government buildings, airports, vehicles, or persons in uniform keep your camera concealed and do not take random photos in public",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/south-sudan",
+     "checked": "2026-10-31",
+     "heading": "Other laws"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Same-sex relationships are illegal in South Sudan and may lead to severe punishment, including lengthy jail terms. Discrimination based on sexual orientation is widespread and may lead to harassment by the public and police. LGBTQIA+ travellers should carefully consider the risks of travelling to South Sudan.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/south-sudan",
+     "checked": "2026-10-31",
+     "heading": "LGBTQI+ laws"
+    }
+   ],
+   "sources": [
+    {
+     "title": "South Sudan travel advice (updated 22 May 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/south-sudan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Conservative standards of dress and behaviour are expected in South Sudan, especially in rural areas. Same-sex relationships are illegal and may lead to harassment by the public and police. LGBTQIA+ travellers should carefully consider the risks of travelling to South Sudan. Avoid public displays of affection. Take care not to offend. If in doubt, seek local advice.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "South Sudan travel advice (updated 22 May 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/south-sudan",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }

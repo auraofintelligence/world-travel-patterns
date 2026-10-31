@@ -2,26 +2,36 @@
  "place": "na",
  "patterns": {
   "entry": {
-   "status": "imported",
-   "summary": "Visa-free for business visits up to 90 days.",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-NAMIBIA-ENTRY"
-   },
-   "note": "First-pass triage carried from Australian World Travel; recheck against the official source."
+   "status": "visa-on-arrival",
+   "summary": "A visa on arrival or an online application before travel; visas are valid 3 months from issue.",
+   "evidence": "official",
+   "checked": "2026-10-31",
+   "sources": [
+    {
+     "title": "Namibia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/namibia",
+     "checked": "2026-10-31",
+     "supports": "entry conditions as read on 2026-10-31"
+    }
+   ]
   },
   "money-and-cost": {
    "status": "noted",
+   "currency": null,
+   "cash_card_notes": "The official currency is the Namibian Dollar (NAD). You can also use South African rand (ZAR). Declare amounts more than NAD50,000 when you arrive and leave Namibia. This covers all forms of currency, not only cash. In major centres, credit and debit cards are accepted and ATMs are available. This may not be the case in remote areas. Ask your bank if your ATM card will work in Namibia.",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-NAMIBIA-COST"
-   }
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Namibia travel advice (updated 11 March 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/namibia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
   },
   "consular": {
    "status": "neighbour",
@@ -38,6 +48,89 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/namibia",
      "checked": "2026-10-31",
      "supports": "the Australian offices that give consular help"
+    }
+   ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "conditional": [
+    "Yellow fever vaccination certificate if arriving from (or transiting) a country with yellow fever risk"
+   ],
+   "notes": "Australia asks for a yellow fever certificate when you return from a country with yellow fever risk.",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Namibia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/namibia",
+     "checked": "2026-10-31",
+     "supports": "yellow fever entry requirement as read on 2026-10-31"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "If you're detained or arrested, Namibian authorities may not contact the Australian Government straight away. Ask officials to call the Australian High Commission in South Africa, or the Australian Consulate in Windhoek. Police resources are varied throughout Namibia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/namibia",
+     "checked": "2026-10-31",
+     "heading": "Laws"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for drug offences are severe and include long jail sentences.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/namibia",
+     "checked": "2026-10-31",
+     "heading": "Drugs"
+    },
+    {
+     "topic": "photography",
+     "rule": "In Namibia, it's illegal to: take photos of government and military infrastructure. Ask local officials if in doubt trade in endangered wildlife products such as ivory and rhino horn Penalties are severe for illegal trading in diamonds and precious stones. Only buy diamonds and precious stones from licensed shops.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/namibia",
+     "checked": "2026-10-31",
+     "heading": "Other crimes"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "To drive in Namibia, you need a valid Australian driver's licence (digital driver's licences may not be accepted). Though not mandatory you may be requested to show a valid International Driving Permit (IDP) You must obtain your IDP before leaving Australia.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/destinations/africa/namibia",
+     "checked": "2026-10-31",
+     "heading": "Driving permit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Namibia travel advice (updated 11 March 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/namibia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "ask-locally",
+   "checked": "2026-10-31",
+   "evidence": "official",
+   "dress_and_conduct": "Same-sex relationships are legal in Namibia, but not widely accepted. Public displays of affection may cause offence. Some sexual relations between individuals are prohibited, but generally not prosecuted.",
+   "cultural_authority": "Ask locally, through your host.",
+   "note": "Read from the Australian Government's description of local customs.",
+   "sources": [
+    {
+     "title": "Namibia travel advice (updated 11 March 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/namibia",
+     "checked": "2026-10-31",
+     "supports": "local laws, customs and money as read on 2026-10-31"
     }
    ]
   }
