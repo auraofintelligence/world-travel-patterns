@@ -110,8 +110,8 @@ def main():
                 if not activities:
                     lines.append("  - pass --activities to list the ones you plan")
             else:
-                text = rec.get("summary") or rec.get("status")
-                lines.append(f"- {names(lp)}: {text} [{rec.get('status')}, {age(rec, on)}]")
+                text = f"{rec['summary']} " if rec.get("summary") else ""
+                lines.append(f"- {names(lp)}: {text}[{rec.get('status')}, {age(rec, on)}]")
             if pid == "activities":
                 for act in activities:
                     a = rec.get("activities", {}).get(act)

@@ -1,0 +1,38 @@
+{
+ "place": "au",
+ "patterns": {
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "checked": "2026-10-31",
+   "evidence": "signal",
+   "public_holidays": "27 national and state holidays in 2027 in data/calendar (machine data; regional ones are marked by state)",
+   "festivals": [
+    {
+     "what": "NAIDOC Week: usually from the first Sunday in July to the following Sunday (5 to 12 July in 2026). Confirm 2027 dates with the National NAIDOC Committee.",
+     "url": "https://www.timeanddate.com/holidays/australia/naidoc-week"
+    }
+   ],
+   "moving_calendars": [
+    "Easter moves each year."
+   ],
+   "closures": [],
+   "protocol_notes": [],
+   "sources": [
+    {
+     "title": "NAIDOC Week",
+     "authority": "Signal: calendar site",
+     "url": "https://www.timeanddate.com/holidays/australia/naidoc-week",
+     "checked": "2026-10-31",
+     "supports": "first Sunday in July to the following Sunday"
+    },
+    {
+     "title": "Public holidays (Nager.Date)",
+     "authority": "Signal: machine holiday data",
+     "url": "https://date.nager.at/",
+     "checked": "2026-10-31",
+     "supports": "national and state holidays"
+    }
+   ]
+  }
+ }
+}
