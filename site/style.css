@@ -197,6 +197,7 @@ select.filter { appearance: auto; }
 .months .mo span { display: block; color: var(--muted); overflow-wrap: anywhere; }
 .months .mo i { display: block; font-style: normal; color: var(--due); overflow-wrap: anywhere; }
 .months .mo.hz { border-color: var(--due); }
+.months .mo em { display: block; font-style: normal; color: var(--fresh); overflow-wrap: anywhere; }
 @media (max-width: 640px) { .months { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
 .levels .detail { color: var(--ink-2); font-size: 0.95rem; margin-top: 4px; }
 .acts { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); margin-top: 8px; }
