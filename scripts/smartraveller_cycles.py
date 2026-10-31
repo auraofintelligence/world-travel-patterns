@@ -25,8 +25,8 @@ HAZARD_HEAD = re.compile(r"weather|cyclone|monsoon|hurricane|typhoon|fire|flood|
 RANGE = re.compile(r"\b(" + "|".join(MONTHS) + r")\b\s*(?:to|and|until|through|-|–)\s*(?:the end of\s+|early\s+|late\s+|mid-?\s*)?\b(" + "|".join(MONTHS) + r")\b", re.I)
 LABEL = [(r"typhoon", "typhoon season"), (r"hurricane", "hurricane season"), (r"cyclone", "cyclone season"), (r"monsoon", "monsoon season"),
          (r"wet season|rainy season|rains", "wet season"), (r"bushfire|forest fire|wildfire|fire", "fire season"), (r"flood", "flood risk"),
-         (r"avalanche", "avalanche risk"), (r"snow|winter", "winter conditions"), (r"heat", "extreme heat"), (r"dust|sand", "dust storms"),
-         (r"tornado", "tornadoes"), (r"(?<!dust )storms?b", "storm season")]
+         (r"avalanche", "avalanche risk"), (r"snow|blizzard|\bice\b", "winter conditions"), (r"heat", "extreme heat"), (r"dust|sand", "dust storms"),
+         (r"tornado", "tornadoes"), (r"(?<!dust )storms?\b", "storm season")]
 
 
 def span(a, b):
@@ -83,7 +83,9 @@ def main():
         wins = windows(secs)
         ramadan = any(re.search(r"ramadan", t, re.I) for t, _ in secs)
         closures = []
-        for t, b in secs:
+        full = next((i for i, (t, _) in enumerate(secs) if t == "Full advice"), 0)
+        stop = next((i for i in range(full, len(secs)) if secs[i][0] in ("Local contacts", "Consular contacts")), len(secs))
+        for t, b in secs[full:stop]:
             txt = clean(b)
             for sent in re.split(r"(?<=\.)\s", txt):
                 if re.search(r"(religious holidays?|public holidays?|election days?|voting days?|Friday prayers?|weekend is|working week)", sent, re.I) and re.search(r"(closed?|closes|illegal|ban|can't|not be sold|working week)", sent, re.I):
