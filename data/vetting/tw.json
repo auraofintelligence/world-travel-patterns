@@ -613,10 +613,10 @@
    }
   },
   "culture-and-protocol": {
-   "status": "ask-locally",
+   "status": "partly-mapped",
    "checked": "2026-11-01",
    "evidence": "official",
-   "dress_and_conduct": "FCDO's laws and cultural differences section for Taiwan has no customs or etiquette guidance. A national etiquette page has not been searched for yet. Ask locally.",
+   "dress_and_conduct": "FCDO's laws and cultural differences section for Taiwan has no customs or etiquette guidance. A national etiquette page has not been searched for yet. Ask locally. Taoyuan Tourism's temple etiquette: enter through the dragon gate, leave through the tiger gate, and avoid the central gate. Offer flowers or fruit, and put your palms together if you aren't holding incense. Taipei's guide lists 10 rules for temples. These are regional sources.",
    "cultural_authority": "Government of Taiwan and its tourism office; local community leaders.",
    "note": "FCDO page checked (written for British travellers); it has no customs guidance. National tourism or government etiquette pages not yet searched.",
    "sources": [
@@ -626,8 +626,27 @@
      "url": "https://www.gov.uk/foreign-travel-advice/taiwan/safety-and-security",
      "checked": "2026-11-01",
      "supports": "laws and cultural differences section as read on 2026-11-01"
+    },
+    {
+     "title": "Temple blessing tour",
+     "authority": "Taoyuan Tourism (Taoyuan City Government)",
+     "url": "https://travel.tycg.gov.tw/en/travel/temple-blessing-tour",
+     "checked": "2026-11-01",
+     "supports": "temple etiquette (read via a search-index snapshot)"
+    },
+    {
+     "title": "10 things to pay attention to when visiting a Taiwanese temple",
+     "authority": "Taipei Travel (Department of Information and Tourism)",
+     "url": "https://www.travel.taipei/en/pictorial/article/19559",
+     "checked": "2026-11-01",
+     "supports": "temple etiquette (read via a search-index snapshot)"
     }
-   ]
+   ],
+   "national_search": {
+    "checked": "2026-11-01",
+    "result": "found",
+    "note": "National tourism or government etiquette guidance found and cited."
+   }
   },
   "year-ahead": {
    "status": "mapped",

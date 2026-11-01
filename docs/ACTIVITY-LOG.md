@@ -648,3 +648,7 @@ Upgraded sg (gum import ban, litter fines), sh, si, sk and sv to partly-mapped. 
 ## 2026-11-01 17:34 AEST, Grok: Culture: sx, sz, tc, tf, tg, tj, tk, tl, tm, tn (10 records)
 
 Upgraded tn, tc (protected-area fines), sz (Incwala), tk (Taupulega permit), tl (Pledge, Jaco day only), tf (landing authorisation) and sx to partly-mapped. tj, tm and tg: searched, none found. Read via search-index snapshots.
+
+## 2026-11-01 17:34 AEST, Grok: Culture: to, tr, tv, tw, tz, ua, ug, uy, uz, vc (10 records)
+
+Upgraded to (Sunday law), tr (Diyanet mosque rules), tw (regional temple etiquette), tz, ug (UWA gorilla rules), uz and uy to partly-mapped. tv, ua and vc: searched, none found. Read via search-index snapshots.

@@ -717,10 +717,10 @@
    }
   },
   "culture-and-protocol": {
-   "status": "ask-locally",
+   "status": "partly-mapped",
    "checked": "2026-11-01",
    "evidence": "official",
-   "dress_and_conduct": "LGBTQIA+ information: Same-sex relationships are legal in Uruguay. Laws have banned discrimination based on sexual orientation. Uruguay legalised same-sex marriage in 2013. - Advice for LGBTQIA+ travellers Dual nationality: Uruguay recognises dual nationality. Contact the nearest Embassy of Uruguay for further details before you travel.",
+   "dress_and_conduct": "LGBTQIA+ information: Same-sex relationships are legal in Uruguay. Laws have banned discrimination based on sexual orientation. Uruguay legalised same-sex marriage in 2013. - Advice for LGBTQIA+ travellers Dual nationality: Uruguay recognises dual nationality. Contact the nearest Embassy of Uruguay for further details before you travel. Uruguay's Ministry of Tourism describes mate as a shared ritual: being offered one is a sign of welcome. Asado is a ritual of friendship.",
    "cultural_authority": "Ask locally, through your host.",
    "note": "Read from the Australian Government's description of local customs.",
    "sources": [
@@ -730,8 +730,27 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/uruguay",
      "checked": "2026-11-01",
      "supports": "local laws, customs and money as read on 2026-11-01"
+    },
+    {
+     "title": "Mate",
+     "authority": "Uruguay Natural (Ministerio de Turismo)",
+     "url": "https://uruguaynatural.com/en/farmoretanacountry/el-mate/",
+     "checked": "2026-11-01",
+     "supports": "mate (read via a search-index snapshot)"
+    },
+    {
+     "title": "Customary",
+     "authority": "Uruguay Natural",
+     "url": "https://uruguaynatural.com/en/farmoretanacountry/mas-que-un-pais-costumbres/",
+     "checked": "2026-11-01",
+     "supports": "customs (read via a search-index snapshot)"
     }
-   ]
+   ],
+   "national_search": {
+    "checked": "2026-11-01",
+    "result": "found",
+    "note": "National tourism or government etiquette guidance found and cited."
+   }
   }
  }
 }
