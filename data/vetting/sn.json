@@ -503,11 +503,20 @@
      "checked": "2026-11-01"
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Senegal",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Senegal which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Filming authorisation from the Directorate of Cinematography",
+     "detail": "Foreign productions need a professional filming authorisation: 300,000 FCFA for feature-length, 150,000 FCFA for short films.",
+     "next": "Apply via senegalservices.sn.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Request a professional filming authorisation",
+       "authority": "Senegal Services (Government of Senegal)",
+       "url": "https://www.senegalservices.sn/demarche/demander-lautorisation-de-tournage-professionnel-de-films",
+       "checked": "2026-11-01",
+       "supports": "foreign feature 300,000 FCFA, short 150,000 FCFA (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
      "status": "confirm-in-writing",

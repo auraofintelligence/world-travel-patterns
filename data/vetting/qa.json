@@ -152,11 +152,20 @@
      }
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the State of Qatar, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the State of Qatar, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Foreign media filming permit from Qatar News Agency",
+     "detail": "Foreign filming permits go through the QNA foreign media office at least 20 days ahead, with passports, assignment letter, equipment list and location approvals.",
+     "next": "Email the request early.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Department of Foreign Media Affairs",
+       "authority": "Qatar News Agency",
+       "url": "https://www.qna.org.qa/en/department-of-foreign-media-affairs/media-organizations",
+       "checked": "2026-11-01",
+       "supports": "filming permit requests 20 days ahead (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
      "status": "confirm-in-writing",

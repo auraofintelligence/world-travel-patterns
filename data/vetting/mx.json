@@ -161,11 +161,20 @@
      }
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Mexico, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Mexico, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor status for crew paid from abroad, with a COMEFILM support letter",
+     "detail": "COMEFILM issues letters to immigration for foreign crew who receive no Mexican income, backed by production documents, insurance and local filming permits. Crew paid by a Mexican entity need work authorisation.",
+     "next": "Request a COMEFILM letter before travel.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Support letters (cartas de apoyo)",
+       "authority": "Comisión Mexicana de Filmaciones (COMEFILM), IMCINE",
+       "url": "https://www.imcine.gob.mx/comefilm/?seccion=cartas-apoyo",
+       "checked": "2026-11-01",
+       "supports": "support letters for foreign crew without Mexican income (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
      "status": "conditional",

@@ -279,11 +279,20 @@
      ]
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Tunisia",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Tunisia which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Ministry of Cultural Affairs filming authorisation",
+     "detail": "Foreign shoots need a filming authorisation, normally decided within a week (15 days if weapons, explosives or aerial filming are involved).",
+     "next": "Apply at the single window in Tunis.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Filming authorisations for Tunisian, foreign and co-produced films",
+       "authority": "Ministry of Cultural Affairs, Tunisia (SICAD)",
+       "url": "http://www.sicad.gov.tn/Fr/imprimer.php?code=3&id=1537",
+       "checked": "2026-11-01",
+       "supports": "decision within one week, 15 days for weapons or aerial work (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
      "status": "confirm-in-writing",

@@ -852,3 +852,7 @@ Docs only: handoff and STATUS.md item 1 updated (731 confirm-in-writing; 411 out
 ## 2026-11-01 23:16 AEST, Grok: Entrepreneur rules: rs, kg, uz, tj, la, bt, mo, pf, tn (9 records)
 
 Entrepreneur checks from official sources (search-index snapshots): Serbia self-employment or startup permit; Kyrgyz investment visa 10 million som; Uzbekistan investment visa 8,500 base units; Tajikistan C visa USD 500,000; Laos NI-B2 via one-stop; Bhutan investor card over Nu. 15 million; Macao company set-up open to foreigners; French Polynesia SEFI trader card; Tunisia investor residence card.
+
+## 2026-11-01 23:17 AEST, Grok: Filming rules: pk, uy, tn, sn, mx, qa; Kyrgyz Digital Nomad status (7 records)
+
+Filming checks from official sources (search-index snapshots): Pakistan media visa; Uruguay ICAU and local permits; Tunisia authorisation within a week; Senegal 300,000 FCFA feature fee; Mexico COMEFILM support letter for crew paid from abroad; Qatar QNA permit 20 days ahead. Remote work: Kyrgyzstan Digital Nomad status, 60 days then yearly up to 10 years (mlsp.gov.kg read directly).

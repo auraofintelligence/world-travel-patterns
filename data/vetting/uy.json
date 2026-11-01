@@ -152,11 +152,20 @@
      }
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Uruguay, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Uruguay, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor entry for most nationalities; location permits via local film offices",
+     "detail": "Productions coordinate with the Uruguay Film Commission and ICAU; Montevideo issues public-location permits. Equipment can enter temporarily for 90 days. Work stays may need a visa depending on nationality.",
+     "next": "Contact ICAU before travel.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Filming in Uruguay",
+       "authority": "Instituto del Cine y el Audiovisual del Uruguay (ICAU)",
+       "url": "https://icau.mec.gub.uy/innovaportal/file/106431/1/filmar-en-uruguay_filming-in-uruguay.pdf",
+       "checked": "2026-11-01",
+       "supports": "film commission contact; location permits; temporary equipment admission (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
      "status": "confirm-in-writing",
