@@ -41,11 +41,20 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "No visa required for Australians (Grenada visa requirements list).",
+     "next": "Carry the documents the cited page lists; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa requirements for travelling to Grenada",
+       "authority": "Embassy of Grenada (Ministry of Foreign Affairs)",
+       "url": "https://gndembassyprc.mofa.gov.gd/wp-content/uploads/2023/08/Visa-Requirements-for-Grenada-final-UPDATED-February-2021-Approved1.pdf",
+       "supports": "tourism entry, carried from the entry record (Australia: no visa required)",
+       "checked": "2026-11-01"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

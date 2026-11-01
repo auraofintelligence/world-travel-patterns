@@ -196,11 +196,20 @@
    "evidence": "signal",
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask the Kiribati Ministry of Foreign Affairs and Immigration.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "No visa: Australian citizens are exempt for up to 90 days in any 12 months (Visa Exemption Order 2023); entry permission is granted on arrival.",
+     "next": "Carry the documents the cited page lists; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa Exemption Order 2023",
+       "authority": "Ministry of Foreign Affairs and Immigration, Kiribati",
+       "url": "https://www.mfa.gov.ki/wp-content/uploads/2023/09/VISA-EXEMPTION-ORDER-2023-1.pdf",
+       "supports": "tourism entry, carried from the entry record (Australian citizens exempt; up to 90 days in 12 months; passport valid 6 months after departure (read via a search-index snapshot; the page blocked direct fetches from the checking network))",
+       "checked": "2026-11-01"
+      }
+     ]
     },
     "meetings": {
      "status": "conditional",

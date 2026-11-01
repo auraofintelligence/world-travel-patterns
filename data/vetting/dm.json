@@ -41,11 +41,20 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "No visa: Commonwealth citizens, including Australians, can enter for up to 6 months.",
+     "next": "Carry the documents the cited page lists; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Do I need a visa to enter into Dominica?",
+       "authority": "Government of Dominica",
+       "url": "https://www.dominica.gov.dm/services/passports-and-travel-documents-non-nationals/do-i-need-a-visa-to-enter-into-dominica",
+       "supports": "tourism entry, carried from the entry record (Commonwealth citizens visa-free up to 6 months)",
+       "checked": "2026-11-01"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

@@ -20,11 +20,20 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Danish Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Danish Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "The Faroe Islands are outside Schengen and the EU, with their own visa-free entry for visa-free nationalities.",
+     "next": "Carry the documents the cited page lists; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Denmark travel advice",
+       "authority": "Smartraveller, Australian Government",
+       "url": "https://www.smartraveller.gov.au/destinations/europe/denmark",
+       "checked": "2026-10-31",
+       "supports": "tourism entry, carried from the entry record (Greenland and the Faroe Islands are outside Schengen and the EU)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

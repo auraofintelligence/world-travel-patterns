@@ -508,3 +508,7 @@ Added 11 official-events entries across 10 records. Technology: IFA (de), CES (u
 ## 2026-11-01 17:01 AEST, Grok: Culture national-source search cq-eg (11 records)
 
 Searched national tourism boards and government pages for 11 ask-locally culture records. Upgraded 7: cq, cv, cy, ee and eg are partly mapped; cw and do are community-published. Searched with none found for cr, cu, dj and dz.
+
+## 2026-11-01 17:03 AEST, Grok: Activities: tourism confirm-in-writing upgraded from official entry sources (15 records)
+
+15 tourism activity checks marked confirm-in-writing already had official entry records, so I upgraded them using those citations. Low: ag, bb, cq, dm, fo, gd, gg, gl, im, je, ki, kn, vc. Conditional (visa or e-Visa before travel): lc, tg. Other activities (work, speaking and so on) are unchanged because they need labour or immigration pages for each activity. 49 tourism checks remain confirm-in-writing, mostly places whose entry record also lacks an official source.

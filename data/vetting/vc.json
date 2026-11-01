@@ -41,11 +41,20 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "No visa before travel: Australia isn't on the visa-required list; immigration sets the stay on arrival.",
+     "next": "Carry the documents the cited page lists; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry requirements",
+       "authority": "Tourism Authority, Saint Vincent and the Grenadines",
+       "url": "https://tourism.gov.vc/tourism/index.php/svg-facts/459-entry-requirements",
+       "supports": "tourism entry, carried from the entry record (visa-required nationalities list (Australia not on it) (read via a search-index snapshot; the page blocked direct fetches from the checking network))",
+       "checked": "2026-11-01"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

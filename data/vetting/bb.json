@@ -41,11 +41,20 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of Barbados",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of Barbados which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "No visa: Australians can stay up to 6 months (Barbados Ministry of Foreign Affairs list, revised 9 May 2025).",
+     "next": "Carry the documents the cited page lists; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visitors to Barbados",
+       "authority": "Barbados Immigration Department",
+       "url": "https://immigration.gov.bb/pages/visitor.aspx",
+       "supports": "tourism entry, carried from the entry record (visitor documents and the online Immigration and Customs form)",
+       "checked": "2026-11-01"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

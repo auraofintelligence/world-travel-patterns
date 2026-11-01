@@ -41,11 +41,20 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visa before travel",
+     "detail": "e-Visa before travel on voyage.gouv.tg, at least 5 days ahead (visas on arrival suspended); XOF 25,000 to 65,000 by length.",
+     "next": "Apply for the visa or e-Visa before travel, as the cited page says.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "A propos du e-Visa",
+       "authority": "Voyage Togo, Government of Togo",
+       "url": "https://voyage.gouv.tg/about",
+       "supports": "tourism entry, carried from the entry record (tourist e-visa durations, prices and documents)",
+       "checked": "2026-11-01"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

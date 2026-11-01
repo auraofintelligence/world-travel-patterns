@@ -41,11 +41,20 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visa before travel",
+     "detail": "Visa needed before travel: Australia is on Saint Lucia's visa-required list (Immigration Act Schedule 1, revised 2023). Single entry EC$125, multiple entry EC$190.",
+     "next": "Apply for the visa or e-Visa before travel, as the cited page says.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Act, Schedule 1 (Revised Laws of Saint Lucia 2023)",
+       "authority": "Attorney General's Chambers, Saint Lucia",
+       "url": "http://attorneygeneralchambers.com/laws-of-saint-lucia/immigration-act/schedule-1-01",
+       "supports": "tourism entry, carried from the entry record (Australia listed among countries whose citizens need a visa)",
+       "checked": "2026-11-01"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",
