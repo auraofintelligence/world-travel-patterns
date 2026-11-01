@@ -381,3 +381,7 @@ For photos rejected in review, I approved openly licensed Wikimedia Commons repl
 ## 2026-11-01 16:38 AEST, Grok: replacement photos, batch 2 (9 places)
 
 For photos rejected in review, I approved openly licensed Wikimedia Commons replacements (curated file plus a choices entry that keeps the rejected title). Each one was viewed, has a CC or public-domain licence and is at least 1600 px wide, with no drone camera in EXIF. Places: ke, km, md, mo, ms, pf, tl, tm, tn.
+
+## 2026-11-01 16:38 AEST, Grok: replacement photos, batch 3 (15 places)
+
+For photos rejected in review, I approved openly licensed Wikimedia Commons replacements (curated file plus a choices entry that keeps the rejected title). Each one was viewed, has a CC or public-domain licence and is at least 1600 px wide, with no drone camera in EXIF. Places: us/delaware, us/florida, us/indiana, us/maryland, us/michigan, us/montana, us/new-mexico, us/ohio, us/tennessee, us/texas, us/virginia, us/west-virginia, us/wisconsin, vc, yt.

@@ -2,7 +2,7 @@
 
 Vision review by Grok Bot, 1 November 2026. Luke authorised applying verdicts: confirmed photos are approved, denied photos are rejected, unsure stays pending. Camera EXIF on Wikimedia Commons was checked to enforce the no-drone rule. Rejected photos get an approved replacement from Commons where a suitable open, non-drone photo clearly shows the place.
 
-Counts: confirm 280, deny 36; replacements approved: 18
+Counts: confirm 280, deny 36; replacements approved: 33
 
 ## Denied (rejected)
 
@@ -47,37 +47,37 @@ Counts: confirm 280, deny 36; replacements approved: 18
 - **tn**: Close-up of a Roman mosaic; an artefact, not a view of Tunisia ([Tunisia banner Roman mosaic at Carthage.jpg](https://commons.wikimedia.org/wiki/File:Tunisia_banner_Roman_mosaic_at_Carthage.jpg))
   - Replaced with: Rooftops of the Medina of Tunis ([View over the Medina of Tunis 01.jpg](https://commons.wikimedia.org/wiki/File:View_over_the_Medina_of_Tunis_01.jpg), CC BY-SA 4.0, camera Panasonic DMC-FZ1000)
 - **us/delaware**: Flock of shorebirds on sand; nothing identifies Delaware ([Bannerdelaware.jpg](https://commons.wikimedia.org/wiki/File:Bannerdelaware.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Legislative Hall, Dover, Delaware ([Delaware Legislative Hall West Side DSC 3441 ad.JPG](https://commons.wikimedia.org/wiki/File:Delaware_Legislative_Hall_West_Side_DSC_3441_ad.JPG), CC BY-SA 3.0, camera NIKON CORPORATION NIKON D80)
 - **us/florida**: Heavily processed sunset over a boardwalk; generic, nothing identifies Florida ([Sunset on coast of Florida.jpg](https://commons.wikimedia.org/wiki/File:Sunset_on_coast_of_Florida.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: South Beach and Miami Beach towers, Florida ([MiamiSouthBeachPanoramaEdit.jpg](https://commons.wikimedia.org/wiki/File:MiamiSouthBeachPanoramaEdit.jpg), CC BY-SA 3.0, camera no EXIF)
 - **us/indiana**: Generic autumn residential street; nothing identifies Indiana ([Bannerindiana.jpg](https://commons.wikimedia.org/wiki/File:Bannerindiana.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Indiana Statehouse, Indianapolis ([StateCapitolIndiana.jpg](https://commons.wikimedia.org/wiki/File:StateCapitolIndiana.jpg), CC BY-SA 3.0, camera no EXIF)
 - **us/maryland**: Plate of steamed crabs; food, not a place ([Maryland-banner1.jpg](https://commons.wikimedia.org/wiki/File:Maryland-banner1.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Baltimore Inner Harbor, Maryland ([Inner Harbor from the Baltimore Aquarium.jpg](https://commons.wikimedia.org/wiki/File:Inner_Harbor_from_the_Baltimore_Aquarium.jpg), CC BY 3.0, camera no EXIF)
 - **us/michigan**: Oblique orbit view of the Great Lakes; not identifiable to a traveller ([ISS015-E-6196 - View of Michigan.jpg](https://commons.wikimedia.org/wiki/File:ISS015-E-6196_-_View_of_Michigan.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Mackinac Bridge between Michigan's peninsulas ([Mackinac Bridge from the air3.jpg](https://commons.wikimedia.org/wiki/File:Mackinac_Bridge_from_the_air3.jpg), CC BY 2.0, camera Canon Canon EOS DIGITAL REBEL XSi)
 - **us/montana**: Orbit view dominated by Earth's curve and station hardware; Montana not identifiable ([ISS028-E-12597 - View of Montana.jpg](https://commons.wikimedia.org/wiki/File:ISS028-E-12597_-_View_of_Montana.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Grinnell Glacier overlook, Glacier National Park, Montana ([Grinnell Glacier Overlook at Glacier National Park, MT (DSC 0597).jpg](https://commons.wikimedia.org/wiki/File:Grinnell_Glacier_Overlook_at_Glacier_National_Park,_MT_(DSC_0597).jpg), CC BY 4.0, camera NIKON CORPORATION NIKON D3300)
 - **us/new-mexico**: Orbit view under heavy cloud; New Mexico not identifiable ([ISS006-E-25187 - View of New Mexico.jpg](https://commons.wikimedia.org/wiki/File:ISS006-E-25187_-_View_of_New_Mexico.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: White Sands dunes below the San Andres Mountains, New Mexico ([White Sands National Park - 51875868804.jpg](https://commons.wikimedia.org/wiki/File:White_Sands_National_Park_-_51875868804.jpg), CC BY 2.0, camera Canon Canon EOS 60D)
 - **us/ohio**: Orbit view of cloud and Earth's curve with station hardware; Ohio not identifiable ([ISS007-E-16092 - View of Ohio.jpg](https://commons.wikimedia.org/wiki/File:ISS007-E-16092_-_View_of_Ohio.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Ohio Statehouse, Columbus ([Ohio State House 9-11 Memorial 2018 4.jpg](https://commons.wikimedia.org/wiki/File:Ohio_State_House_9-11_Memorial_2018_4.jpg), CC BY-SA 4.0, camera NIKON CORPORATION NIKON D750)
 - **us/papahanaumokuakea**: Open-ocean sunset; generic, nothing identifies Papahānaumokuākea ([Sanc1404 - Flickr - NOAA Photo Library.jpg](https://commons.wikimedia.org/wiki/File:Sanc1404_-_Flickr_-_NOAA_Photo_Library.jpg))
   - No suitable replacement yet; page shows no photo.
 - **us/tennessee**: Generic forested lake reflection; nothing identifies Tennessee ([Lake Lindsey in David Crockett State Park (June 2005).jpg](https://commons.wikimedia.org/wiki/File:Lake_Lindsey_in_David_Crockett_State_Park_(June_2005).jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Wildflower meadow in the Great Smoky Mountains, Tennessee ([Meadow in the Smoky Mountains (41923p).jpg](https://commons.wikimedia.org/wiki/File:Meadow_in_the_Smoky_Mountains_(41923p).jpg), CC BY-SA 4.0, camera OM Digital Solutions OM-1)
 - **us/texas**: Orbit view of coastline and cloud; Texas not identifiable to a traveller ([ISS036-E-9064 - View of Texas.jpg](https://commons.wikimedia.org/wiki/File:ISS036-E-9064_-_View_of_Texas.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: The Alamo, San Antonio, Texas ([Alamo pano.jpg](https://commons.wikimedia.org/wiki/File:Alamo_pano.jpg), CC BY-SA 4.0, camera no EXIF)
 - **us/virginia**: Orbit view of land and water; Virginia not identifiable ([ISS006-E-35934 - View of Virginia.jpg](https://commons.wikimedia.org/wiki/File:ISS006-E-35934_-_View_of_Virginia.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Virginia State Capitol, Richmond ([State Capitol of the Commonwealth of Virginia (7358972234).jpg](https://commons.wikimedia.org/wiki/File:State_Capitol_of_the_Commonwealth_of_Virginia_(7358972234).jpg), CC BY 2.0, camera NIKON CORPORATION NIKON D80)
 - **us/west-virginia**: Autumn stream and trees; generic, nothing identifies West Virginia ([West Virginia-banner1.jpg](https://commons.wikimedia.org/wiki/File:West_Virginia-banner1.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: New River Gorge Bridge, West Virginia ([New River Gorge Bridge West Virginia 244750516.jpg](https://commons.wikimedia.org/wiki/File:New_River_Gorge_Bridge_West_Virginia_244750516.jpg), CC BY 2.0, camera Canon Canon PowerShot SD450)
 - **us/wisconsin**: Snowy wooded path; generic, nothing identifies Wisconsin ([Bannerwisconsin.jpg](https://commons.wikimedia.org/wiki/File:Bannerwisconsin.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Devil's Lake State Park, Wisconsin ([Devils Lake State Park.jpg](https://commons.wikimedia.org/wiki/File:Devils_Lake_State_Park.jpg), CC BY 3.0, camera PENTAX *ist DL)
 - **vc**: Orbit view of cloud-covered specks; Saint Vincent and the Grenadines not identifiable ([ISS006-E-38029 - View of the Lesser Antilles.jpg](https://commons.wikimedia.org/wiki/File:ISS006-E-38029_-_View_of_the_Lesser_Antilles.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Kingstown and its hills, Saint Vincent ([St. Vincent, Karibik - Kingstown City - panoramio.jpg](https://commons.wikimedia.org/wiki/File:St._Vincent,_Karibik_-_Kingstown_City_-_panoramio.jpg), CC BY 3.0, camera Panasonic DMC-TZ10)
 - **yt**: Close-up of a brown lemur; wildlife portrait, no Mayotte landscape ([Mayotte banner.jpg](https://commons.wikimedia.org/wiki/File:Mayotte_banner.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Îlot Bambo and lagoon beach, Mayotte ([Ilot Bambo.jpg](https://commons.wikimedia.org/wiki/File:Ilot_Bambo.jpg), CC BY-SA 4.0, camera Canon Canon PowerShot D30)
 
 ## Unsure (still pending)
 
