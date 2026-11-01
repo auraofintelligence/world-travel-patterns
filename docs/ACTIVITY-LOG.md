@@ -712,3 +712,7 @@ Finishes the Do-not-travel culture category. Fresh, separate searches for af, bf
 ## 2026-11-01 17:49 AEST, Grok: Work rules for business visitors and speakers: lc, mu, na, uz, rs, sr, gy, jm, kz, kg, tj (11 records)
 
 Work rules filled from official sources: Saint Lucia business-visitor regulations; Mauritius business visitor terms (90 days a trip, 120 a year); Namibia business, MICE e-visa, and short-term work visa for speakers; Uzbekistan visa-free or business e-visa; Serbia Article 3 (90 days in 180 for lecturers and artists at events); Suriname business e-visa; Guyana business visa on arrival with sponsor; Jamaica arts and education exemption application; Kazakhstan B1 covers lectures; Kyrgyzstan B visa 60 days; Tajikistan visa-free 30 days. Read via search-index snapshots.
+
+## 2026-11-01 17:50 AEST, Grok: Work rules: event and business visas for la, pk, rw, sc, sz, sn, co, mo, to, cu (10 records)
+
+Work rules from official sources: Colombia (visa-exempt speakers and artists at events, under 180 days, no Colombian salary); Macao (Regulation 17/2004, invited academic or cultural activity 45 days in 6 months); Pakistan Other Visa for conferences (apply 6 weeks ahead); Rwanda V5 Conference Visa USD 50; Seychelles Visitor's Permit and 1-month GOP; Laos 30-day business stays; Eswatini 1-month business visit; Senegal business visa details; Tonga written notice; Cuba business and event visas. Read via search-index snapshots.

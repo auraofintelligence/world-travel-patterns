@@ -328,11 +328,20 @@
      ]
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Senegal",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Senegal which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visa (if your nationality needs one)",
+     "detail": "Business and conference visa applications must state the organiser, place, dates and duration. Some nationalities enter visa-free.",
+     "next": "Check your nationality's category.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Demande de visa",
+       "authority": "Consulat général du Sénégal à Paris",
+       "url": "https://consulsen-paris.gouv.sn/demande-de-visa/",
+       "checked": "2026-11-01",
+       "supports": "visa application must state conference organiser, place, dates (read via a search-index snapshot)"
+      }
+     ]
     },
     "conference": {
      "status": "low",
@@ -448,11 +457,20 @@
      "checked": "2026-11-01"
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Senegal",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Senegal which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visa (if your nationality needs one)",
+     "detail": "Business and conference visa applications must state the organiser, place, dates and duration. Some nationalities enter visa-free.",
+     "next": "Check your nationality's category.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Demande de visa",
+       "authority": "Consulat général du Sénégal à Paris",
+       "url": "https://consulsen-paris.gouv.sn/demande-de-visa/",
+       "checked": "2026-11-01",
+       "supports": "visa application must state conference organiser, place, dates (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
      "status": "conditional",

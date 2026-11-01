@@ -266,11 +266,27 @@
      "evidence": "signal"
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Lao People's Democratic Republic, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Lao People's Democratic Republic, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visa",
+     "detail": "Business visitors may stay up to 30 days, renewable twice by 30 days, without taking up employment. Longer or paid work needs a stay permit and work permit.",
+     "next": "Get a host invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Lao PDR schedule of movement of natural persons commitments",
+       "authority": "ASEAN Secretariat (Lao PDR government commitment)",
+       "url": "https://asean.org/wp-content/uploads/2021/08/ASEAN-MNP-Schedule-Lao-PDR.pdf",
+       "checked": "2026-11-01",
+       "supports": "business visitors up to 30 days, renewable twice (read via a search-index snapshot)"
+      },
+      {
+       "title": "Visa and Stay Permit Card",
+       "authority": "Investment Promotion and Management Committee, Lao PDR",
+       "url": "https://investlaos.gov.la/starting-a-business/one-stop-service/visa-stay-permit-card/",
+       "checked": "2026-11-01",
+       "supports": "longer stays need a visa, stay permit and work permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "specialist",
@@ -325,11 +341,27 @@
      "checked": "2026-11-01"
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Lao People's Democratic Republic, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Lao People's Democratic Republic, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visa",
+     "detail": "Business visitors may stay up to 30 days, renewable twice by 30 days, without taking up employment. Longer or paid work needs a stay permit and work permit.",
+     "next": "Get a host invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Lao PDR schedule of movement of natural persons commitments",
+       "authority": "ASEAN Secretariat (Lao PDR government commitment)",
+       "url": "https://asean.org/wp-content/uploads/2021/08/ASEAN-MNP-Schedule-Lao-PDR.pdf",
+       "checked": "2026-11-01",
+       "supports": "business visitors up to 30 days, renewable twice (read via a search-index snapshot)"
+      },
+      {
+       "title": "Visa and Stay Permit Card",
+       "authority": "Investment Promotion and Management Committee, Lao PDR",
+       "url": "https://investlaos.gov.la/starting-a-business/one-stop-service/visa-stay-permit-card/",
+       "checked": "2026-11-01",
+       "supports": "longer stays need a visa, stay permit and work permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
      "status": "specialist",
