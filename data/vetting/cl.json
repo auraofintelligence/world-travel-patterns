@@ -226,11 +226,20 @@
      "checked": "2026-11-01"
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Transitory stay (permanencia transitoria), 90 days (paid filming may need authorisation)",
-     "detail": "Paid filming may need the same authorisation; frontier areas need 90 days' approval for scientific or technical work, and Rapa Nui has its own rules.",
-     "next": "Ask SERMIG, and the Rapa Nui authorities for filming on the island.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Immigration work authorisation plus location approvals",
+     "detail": "Foreign crews need immigration or work authorisation and separate location approvals.",
+     "next": "Contact Film Commission Chile.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visas and work permits",
+       "authority": "Film Commission Chile",
+       "url": "https://filmcommissionchile.org/en/visas-and-work-permits/",
+       "checked": "2026-11-01",
+       "supports": "work authorisation plus location approvals (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
      "status": "conditional",

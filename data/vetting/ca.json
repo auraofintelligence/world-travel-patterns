@@ -117,11 +117,20 @@
      "checked": "2026-11-01"
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Not on the pages read",
-     "detail": "Filming isn't listed among the exemptions read; location permits are separate.",
-     "next": "Ask IRCC, and the province's film office.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visitor for producers of foreign-funded films; work permit for most crew",
+     "detail": "Producers employed by foreign companies making a film or documentary entirely funded from abroad are business visitors (no work permit). Most other people making a motion picture or documentary need a work permit, unless they are news or media crews under R186(i).",
+     "next": "Check whether your role is producer or crew.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Artistic and performing arts occupations: authorisation to work without a work permit",
+       "authority": "Immigration, Refugees and Citizenship Canada",
+       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals/temporary-residents/foreign-workers/work-without-permit/arts/occupations.html",
+       "checked": "2026-11-01",
+       "supports": "foreign-funded producers exempt; others need permits (read directly)"
+      }
+     ]
     },
     "research": {
      "status": "conditional",

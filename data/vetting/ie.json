@@ -161,11 +161,20 @@
      }
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Ireland, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Ireland, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor up to 14 days; Atypical Working Scheme for 15 to 90 days",
+     "detail": "Crews filming up to 14 days enter with production details, flights and accommodation. 15 to 90 days needs Atypical Working Scheme permission.",
+     "next": "Plan shoots under 14 days or apply early.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visas and working permits",
+       "authority": "Screen Ireland",
+       "url": "https://www.screenireland.ie/filming/visas-working-permits",
+       "checked": "2026-11-01",
+       "supports": "up to 14 days with production details; 15 to 90 days Atypical Working Scheme (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
      "status": "conditional",

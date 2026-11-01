@@ -150,11 +150,27 @@
      }
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Japan, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Japan, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Entertainer status for actual filming; Temporary Visitor only for scouting",
+     "detail": "Actual film production uses Entertainer status. Temporary Visitor covers only scouting or research. There is no national filming permit: each location owner, municipality or police approves.",
+     "next": "Work with the Japan Film Commission.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Status of residence: Entertainer",
+       "authority": "Immigration Services Agency of Japan",
+       "url": "https://www.moj.go.jp/isa/applications/status/entertainer",
+       "checked": "2026-11-01",
+       "supports": "film production and commercial recording (read via a search-index snapshot)"
+      },
+      {
+       "title": "Location Filming Handbook",
+       "authority": "Cabinet Secretariat, Government of Japan",
+       "url": "https://www.cas.go.jp/jp/seisakukaigi/titeki2/pdf/handbook_en.pdf",
+       "checked": "2026-11-01",
+       "supports": "temporary visitor only for scouting; local permissions (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
      "status": "conditional",

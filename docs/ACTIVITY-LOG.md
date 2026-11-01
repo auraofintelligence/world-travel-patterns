@@ -822,3 +822,7 @@ Remote work: Armenia allows remote work for a foreign employer without a permit 
 ## 2026-11-01 20:35 AEST, Grok: Book launch rules: mt, az, am, kz, ax, rs, lt (7 records)
 
 Book-launch checks: Armenia exempts invited lecturers and touring performers; Serbia Article 3 cultural events 90 days in 180; Kazakhstan B1 covers lectures; Åland follows Finland (90 days); Malta, Azerbaijan and Lithuania do not address short unpaid launches (confirm with detail). Read via search-index snapshots.
+
+## 2026-11-01 20:36 AEST, Grok: Filming rules: ca, jp, za, ie, br, co, cl, hk, uz (9 records)
+
+Filming checks from official sources: Ireland crews up to 14 days on visitor entry; Canada exempts producers of foreign-funded films, most crew need permits (canada.ca read directly); Japan needs Entertainer status (visitor only for scouting); Brazil ANCINE notification; Colombia V courtesy visa; Chile, South Africa (STAGES), Hong Kong and Uzbekistan (UzbekKino, 2 months) need permits. Read via search-index snapshots unless noted.
