@@ -74,6 +74,15 @@ def clean(body):
     return re.sub(r"\s+", " ", text).strip()
 
 
+def trim(text, n):
+    """Cut at the last full sentence within n characters."""
+    if len(text) <= n:
+        return text
+    cut = text[:n]
+    end = max(cut.rfind(". "), cut.rfind(".\u201d"))
+    return cut[:end + 1] if end > n // 2 else cut
+
+
 def topic_for(title, text):
     for pattern, topic in TOPICS:
         if re.search(pattern, title, re.I):
@@ -88,10 +97,10 @@ def block(secs, start, stop):
     """Sections between the full-advice heading `start` and the next heading named in `stop`."""
     full = [i for i, (t, _) in enumerate(secs) if t == "Full advice"]
     i0 = full[0] if full else 0
-    begin = next((i for i in range(i0, len(secs)) if secs[i][0] == start), None)
+    begin = next((i for i in range(i0, len(secs)) if secs[i][0].lower() == start.lower()), None)
     if begin is None:
         return []
-    end = next((i for i in range(begin + 1, len(secs)) if secs[i][0] in stop), len(secs))
+    end = next((i for i in range(begin + 1, len(secs)) if secs[i][0].lower() in {x.lower() for x in stop}), len(secs))
     return secs[begin + 1:end]
 
 
@@ -178,7 +187,7 @@ def main():
             pats["local-law"] = {"status": "partly-mapped", "checked": D, "evidence": "official", "laws": laws, "sources": [src]}
             wrote.append(f"local-law ({len(laws)})")
         if customs and (args.force or pats.get("culture-and-protocol", {}).get("checked") != D):
-            pats["culture-and-protocol"] = {"status": "ask-locally", "checked": D, "evidence": "official", "dress_and_conduct": customs[:900],
+            pats["culture-and-protocol"] = {"status": "ask-locally", "checked": D, "evidence": "official", "dress_and_conduct": trim(customs, 900),
                                             "cultural_authority": "Ask locally, through your host.",
                                             "note": "Read from the Australian Government's description of local customs.", "sources": [src]}
             wrote.append("culture")

@@ -229,3 +229,14 @@ All four were read via search snapshots.
 Of the 87 places with no culture record and a Smartraveller page, only 23 have a "Local customs" section. The rest (France, Japan, the US and others) have none, so there's nothing official to record yet. For those, own-community sources are the next step.
 
 **Written from Smartraveller's local customs (status ask-locally, evidence official):** ae, bd, dz, eh, gm, id, ke, kg, kz, mh, mo, mr, mv.
+
+## 2026-11-01 17:00 AEST, Grok: culture-and-protocol batch 2 (13 new), and a correction to batch 1
+
+**Correction:** the batch 1 commit (f57bbb0) actually wrote only ae, bd, dz, gm and id. Some Smartraveller pages title the section "Local Laws" (capital L), and `block()` matched headings case-sensitively, so ke, kg, kz, mh, mo, mr and mv were silently skipped. eh has no Smartraveller key of its own (it reads Morocco's page). Heading matching is now case-insensitive. The same bug may have left other pages' local-law drafts empty; that's worth a re-run with `--only local-law` on pages titled "Local Laws".
+
+**This batch:**
+- New: ke, kg, kz, mh, mo, mr, mv, mz, pw, tm, tn, uy, xk.
+- Refreshed: ma (now includes its Religious festivals subsection).
+- ae, bd, dz, gm and id were re-cut at sentence ends with the new `trim()`.
+
+That's 18 new culture records in all. "Do not travel" places with customs sections (af, ml, so, ye) are left until last.
