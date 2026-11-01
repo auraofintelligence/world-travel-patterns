@@ -180,11 +180,20 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of Iceland.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of Iceland.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work permit exemption, 90 days a year, notify the Directorate of Labour",
+     "detail": "Lecturers (with a university degree) and artists are exempt for up to 90 days a calendar year, but each work period must be notified to the Directorate of Labour by the day work starts, or the exemption is void.",
+     "next": "Notify the Directorate of Labour before day 1.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Foreign Nationals' Right to Work Act No. 97/2002 (as amended 2024)",
+       "authority": "Government of Iceland",
+       "url": "https://www.government.is/library/04-Legislation/Foreign_Nationals_Right_to_Work_Act_as_amended_2024.pdf",
+       "checked": "2026-11-01",
+       "supports": "lecturers and artists exempt 90 days a year with notice to the Directorate of Labour (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "low",
@@ -270,11 +279,20 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Depends on the mix",
-     "detail": "The visa-free stay covers the business and tourism parts; any paid part needs national permission.",
-     "next": "Ask the Embassy of Iceland.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work permit exemption, 90 days a year, notify the Directorate of Labour",
+     "detail": "Lecturers (with a university degree) and artists are exempt for up to 90 days a calendar year, but each work period must be notified to the Directorate of Labour by the day work starts, or the exemption is void.",
+     "next": "Notify the Directorate of Labour before day 1.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Foreign Nationals' Right to Work Act No. 97/2002 (as amended 2024)",
+       "authority": "Government of Iceland",
+       "url": "https://www.government.is/library/04-Legislation/Foreign_Nationals_Right_to_Work_Act_as_amended_2024.pdf",
+       "checked": "2026-11-01",
+       "supports": "lecturers and artists exempt 90 days a year with notice to the Directorate of Labour (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "conditional",

@@ -760,3 +760,7 @@ Remote-work checks: Czech Digital Nomad Program (Australia eligible, IT and mark
 ## 2026-11-01 17:55 AEST, Grok: Book launch and lecture exemptions: no, se, dk, fi, pl, cz, ee, lv (8 records)
 
 Book-launch checks from official exemption lists: Poland (since 1 December 2025, occasional lectures and artistic work 30 days a year without permit); Czech s 98(d) 7 consecutive or 30 days; Finland 90 days for invited lecturers and artists; Estonia 5 days in 30 without registration; Latvia 14 days for guest performances; Norway, Sweden and Denmark have no author exemption, only narrow lecturer and artist rules (left confirm-in-writing with detail). Read via search-index snapshots.
+
+## 2026-11-01 17:56 AEST, Grok: Book launch and lecture exemptions: hu, hr, sk, ro, lu, is, us, si, li, plus pl source title fix (10 records)
+
+Book-launch checks: Slovenia (cultural creators incl. literature exempt; authors up to 3 months); Iceland (90 days, notify Directorate of Labour by day 1); Luxembourg (speakers and lecturers under 3 months); Hungary (10 working days a year); Croatia (no permit at organised meetings or cultural events); Slovakia (30 days a year); Romania (via cultural or teaching institution, confirm); US (book promotion not named, no US appearance fee, honorarium rule); Liechtenstein (no exempt activities). Poland source title corrected to Dz.U. 2025 item 1620. Read via search-index snapshots.

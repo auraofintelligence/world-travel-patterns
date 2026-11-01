@@ -210,11 +210,20 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of Hungary, Deakin.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of Hungary, Deakin.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Decree 445/2013 exemption, 10 working days a year",
+     "detail": "Educational, scientific or artistic activity needs no work permit for up to 10 working days a calendar year.",
+     "next": "Keep a log of days.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Government Decree 445/2013, s 15(1)(16)",
+       "authority": "Hungarian Government (Nemzeti Jogszabálytár)",
+       "url": "https://net.jogtar.hu/jogszabaly?docid=a1300445.kor",
+       "checked": "2026-11-01",
+       "supports": "educational, scientific or artistic activity up to 10 working days a year without permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "low",
@@ -279,11 +288,20 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Depends on the mix",
-     "detail": "The visa-free stay covers the business and tourism parts; any paid part needs national permission.",
-     "next": "Ask the Embassy of Hungary, Deakin.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Decree 445/2013 exemption, 10 working days a year",
+     "detail": "Educational, scientific or artistic activity needs no work permit for up to 10 working days a calendar year.",
+     "next": "Keep a log of days.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Government Decree 445/2013, s 15(1)(16)",
+       "authority": "Hungarian Government (Nemzeti Jogszabálytár)",
+       "url": "https://net.jogtar.hu/jogszabaly?docid=a1300445.kor",
+       "checked": "2026-11-01",
+       "supports": "educational, scientific or artistic activity up to 10 working days a year without permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "conditional",

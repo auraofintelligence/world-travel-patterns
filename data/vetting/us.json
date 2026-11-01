@@ -61,10 +61,26 @@
     },
     "book-launch": {
      "status": "confirm-in-writing",
-     "route": "ESTA under the Visa Waiver Program or a work visa",
-     "detail": "Promotion and readings may be business activity; paid appearances fall under the honorarium limits.",
-     "next": "Ask a US Embassy or an immigration lawyer.",
-     "checked": "2026-11-01"
+     "route": "B-1/ESTA business visit; book promotion not named",
+     "detail": "Speaking and attending events without US pay (expenses only) is allowed. Honoraria only for usual academic activities of 9 days or less at an eligible institution, no more than 5 institutions in 6 months. Book promotion itself is not listed.",
+     "next": "Take no US appearance fee; ask the US embassy if unsure.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Fact sheet: U.S. Business Visas (B-1) and allowable uses",
+       "authority": "U.S. Department of State",
+       "url": "https://travel.state.gov/content/travel/en/us-visas/business/b-1-fact-sheet.html",
+       "checked": "2026-11-01",
+       "supports": "conferences and unpaid speaking (read via a search-index snapshot)"
+      },
+      {
+       "title": "9 FAM 402.2",
+       "authority": "U.S. Department of State, Foreign Affairs Manual",
+       "url": "https://fam.state.gov/FAM/09FAM/09FAM040202.html",
+       "checked": "2026-11-01",
+       "supports": "honorarium rule: 9 days, 5 institutions in 6 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",
@@ -102,11 +118,27 @@
      "checked": "2026-11-01"
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Depends on the mix",
-     "detail": "The waiver covers business visits only; any work needs a visa.",
-     "next": "Ask a US Embassy.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "B-1/ESTA business visitor",
+     "detail": "Conferences, meetings and unpaid lecturing are allowed; paid work is not, apart from the academic honorarium rule.",
+     "next": "Keep fees within the honorarium rule.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Fact sheet: U.S. Business Visas (B-1) and allowable uses",
+       "authority": "U.S. Department of State",
+       "url": "https://travel.state.gov/content/travel/en/us-visas/business/b-1-fact-sheet.html",
+       "checked": "2026-11-01",
+       "supports": "conferences and unpaid speaking (read via a search-index snapshot)"
+      },
+      {
+       "title": "9 FAM 402.2",
+       "authority": "U.S. Department of State, Foreign Affairs Manual",
+       "url": "https://fam.state.gov/FAM/09FAM/09FAM040202.html",
+       "checked": "2026-11-01",
+       "supports": "honorarium rule: 9 days, 5 institutions in 6 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "specialist",
