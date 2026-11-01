@@ -799,6 +799,30 @@
     "documents": [],
     "steps": []
    }
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2027-12-16",
+     "what": "National Day (public holiday, 16 to 17 December)",
+     "effect": "Two-day holiday; celebrations.",
+     "url": "https://www.cbb.gov.bh/official-bank-holidays/",
+     "by": "official-events",
+     "category": "national-day"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Official bank holidays",
+     "authority": "Central Bank of Bahrain",
+     "url": "https://www.cbb.gov.bh/official-bank-holidays/",
+     "checked": "2026-11-01",
+     "supports": "event dates (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   }
  }
 }

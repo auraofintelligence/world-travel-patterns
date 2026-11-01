@@ -600,3 +600,7 @@ bm is visa-free (180 days). eh is visa-free under Moroccan rules, but tourism is
 ## 2026-11-01 17:24 AEST, Grok: Culture: national etiquette upgrades (mh to mv), plus a vc text fix (11 records)
 
 Upgraded mh, mk, mm (Shwedagon dress rules), mn (ger etiquette), mo, mp, mq (All Saints cemetery conduct), mt (St John's Co-Cathedral rules), mu and mv (local island rules) to partly-mapped. Also fixed a stray backslash in vc's work-permit fee text from the previous batch. Read via search-index snapshots.
+
+## 2026-11-01 17:24 AEST, Grok: Year-ahead: 2027 national days (bh to pl) (10 records)
+
+Added fixed-date national days from official holiday laws, calendars or circulars for bh, bn, bo, cy, es (the 2027 BOE calendar is already published), fi, gr, lv, mt and pl.
