@@ -872,3 +872,7 @@ Entrepreneur checks from official sources (search-index snapshots): Colombia Vis
 ## 2026-11-01 23:19 AEST, Grok: Filming rules: rs, rw, pg, sb, ar (5 records)
 
 Filming checks from official sources (search-index snapshots): Serbia exempts actors and creative team (crew need permits); Rwanda Irembo permit in 4 days; PNG film-maker visa; Solomon Islands commercial film-maker visa; Argentina RENURE invitation and INCAA residence.
+
+## 2026-11-01 23:20 AEST, Grok: Volunteering rules: kr, tr (2 records)
+
+Official sources (search-index snapshots): Korea working holiday guide lists volunteer activities for H-1 holders; Türkiye exemption list does not name volunteering (stays confirm-in-writing with detail).
