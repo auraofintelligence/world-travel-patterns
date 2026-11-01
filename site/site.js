@@ -91,13 +91,13 @@
     nav.className = "nav";
     nav.setAttribute("aria-label", "Site");
     nav.innerHTML = `<a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>World Travel Patterns</a>
-      <div class="nav-links">${PAGES.slice(1).map(([href, label, key]) =>
+      <div class="nav-links">${PAGES.slice(1).filter(([, , key]) => !["queue", "site-map"].includes(key)).map(([href, label, key]) =>
         `<a href="${href}"${key === page || (page === "place" && key === "places") ? ' aria-current="page"' : ""}>${label}</a>`).join("")}</div>`;
     document.body.prepend(nav);
     const footer = document.createElement("footer");
     footer.innerHTML = `<div class="section"><span>🤝🔷 A Luke × Claude build · Strange But True Public Source Licence</span>
       <span>A planning aid, not legal advice. A level marked "not yet checked" has unknown rules, not no rules.</span>
-      <span><a href="site-map.html">Site map</a> · <a href="${REPO}">Source on GitHub</a></span></div>`;
+      <span><a href="site-map.html">Site map</a> · <a href="how.html">How it works</a> · <a href="queue.html">Queue</a> · <a href="${REPO}">Source on GitHub</a></span></div>`;
     document.body.append(footer);
   }
 
@@ -143,55 +143,72 @@
   /* Pages */
   const render = {};
 
+  const norm = (s) => String(s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const findPlaces = (index, term) => {
+    const t = norm(term.trim());
+    if (!t) return [];
+    return index.places.filter((p) => norm(p.name).includes(t) || (p.aliases || []).some((a) => norm(a).includes(t)))
+      .sort((a, b) => (norm(b.name).startsWith(t) - norm(a.name).startsWith(t)) || (a.id.includes("/") - b.id.includes("/")) || a.name.localeCompare(b.name));
+  };
+  const placeLine = (index, p) => {
+    const parent = p.id.includes("/") ? index.byId[p.id.split("/")[0]] : null;
+    return `<a href="place.html?id=${encodeURIComponent(p.id)}"><b>${esc(p.name)}</b><span>${esc(kindOf(p))}${parent ? `, ${esc(parent.name)}` : ""}</span></a>`;
+  };
+  const LOOKUP = [
+    ["Getting in", "Visa or visa-free stay, health entry rules, and what each kind of trip needs: holiday, meetings, speaking, teaching, filming, research or volunteering."],
+    ["Local law", "Rules a visitor can break without knowing: drugs and medicines, alcohol, dress, photography, wildlife, driving and money limits, at every level from country to council."],
+    ["Culture and protocol", "Each place's own published guidance and names, sacred or restricted places, and who to ask where nothing is published."],
+    ["Permit zones", "Land council permits, community consent, visitor caps, guides, fees and seasonal closures inside a place, with lead times."],
+    ["The year here", "Wet and dry seasons, cyclone and storm months, busy and quiet months, festivals, fasting months and public holidays."],
+    ["Help and money", "The nearest Australian embassy or consulate, the place's own offices in Australia, currency and cash limits."],
+  ];
+  const PICKS = ["nz", "fj", "vu", "ws", "to", "id", "jp", "th", "sg", "us", "gb", "fr", "au/minjerribah"];
+
   render.home = async (ctx) => {
     const { index, credits } = ctx;
-    const [feed, adv, changes] = await Promise.all([
-      json("data/feeds/gajra-ahead.json", { events: [] }), json("data/advisories.json", { destinations: {} }), index.has_change_log ? jsonl("data/logs/advisory-changes.jsonl") : [],
+    const [adv, changes] = await Promise.all([
+      json("data/advisories.json", { destinations: {} }), index.has_change_log ? jsonl("data/logs/advisory-changes.jsonl") : [],
     ]);
-    const now = today();
-    const spineActive = index.places.filter((p) => p.active);
-    let fresh = 0, due = 0, total = 0;
-    spineActive.forEach((p) => { total += p.applicable || 0; fresh += p.fresh || 0; due += (p.records || 0) - (p.fresh || 0); });
-    const upcoming = feed.events.filter((e) => (e.closes || e.ends || e.starts || "") >= now).sort((a, b) => (a.closes || a.starts).localeCompare(b.closes || b.starts)).slice(0, 5);
-    const tiles = [
-      ["places", "Places", `${num(index.counts.places)} places, from countries down to councils, islands and permit zones.`],
-      ["patterns", "Patterns", `${index.counts.patterns} questions asked the same way everywhere.`],
-      ["upcoming", "Upcoming", `${feed.events.filter((e) => (e.closes || e.ends || e.starts || "") >= now).length} upcoming AI governance events and open doors from GAJRA Earth.`],
-      ["advisories", "Advisories", `Today's advice levels for ${num(Object.keys(adv.destinations).length)} destinations.`],
-      ["queue", "Queue", `${num(index.queue_summary.place_passes)} places waiting their turn.`],
-      ["how", "How it works", "Machine checks, Claude routines and the trip watch, braided together."],
-    ];
+    setTimeout(() => wireHomeSearch(index), 0);
+    const levels = {};
+    Object.values(adv.destinations).forEach((d) => { const l = d.level || "No level"; levels[l] = (levels[l] || 0) + 1; });
+    const picks = PICKS.map((id) => index.byId[id]).filter(Boolean);
     return hero(credits, "home", {
-      kicker: "A Luke × Claude build",
-      title: "World Travel Patterns",
-      lede: "Every place, vetted the same way: so local laws aren't broken by accident, and local culture is met on its own terms.",
-      actions: `<a class="btn" href="places.html">Explore the places</a><a class="btn ghost" href="how.html">How it works</a>`,
+      title: "Where are you going?",
+      lede: "Entry rules, local law, culture, the seasons and festivals, and who to call: for every place an Australian passport holder might visit.",
+      extra: `<div class="home-search"><input class="search" id="hq" type="search" autocomplete="off" placeholder="A country, island, city or region: Fiji, Rapa Nui, Bali…" aria-label="Search places" aria-controls="hres"><div class="home-results" id="hres" role="listbox"></div></div>`,
     }) + `<main>
-      <section class="section">
-        <div class="stats">
-          <div class="stat"><b>${num(index.counts.places)}</b><span>places in the tree, and growing</span></div>
-          <div class="stat"><b>${num(index.counts.spine)}</b><span>countries, territories and separately travelled places</span></div>
-          <div class="stat"><b>${index.counts.patterns}</b><span>vetting patterns</span></div>
-          <div class="stat"><b>${num(index.counts.with_records)}</b><span>places with records so far</span></div>
-        </div>
-      </section>
-      <section class="section tight">
-        <div class="section-head"><div><h2>How fresh is the world?</h2>
-          <p>Every pattern at every active place: current, due for a recheck, or not yet checked. The routines work through it week by week.</p></div></div>
-        ${freshBar(fresh, due, total)}
-        <div class="legend"><span style="--c:var(--fresh)">${num(fresh)} current</span><span style="--c:var(--due)">${num(due)} due for a recheck</span><span style="--c:var(--never)">${num(total - fresh - due)} not yet checked</span></div>
-      </section>
-      <section class="section tight"><div class="tiles">${tiles.map(([k, t, d]) => `<a class="tile" href="${k}.html"><img src="site/heroes/${k}.webp" alt="" loading="lazy"><div><h3>${t}</h3><p>${d}</p></div></a>`).join("")}</div></section>
-      <section class="section"><div class="two">
-        <div><h2>Next up</h2><p class="meta">The next places the weekly routine will vet, in queue order.</p>
-          <div class="grid">${index.next.slice(0, 6).map((n) => placeCard(index.byId[n.place])).join("")}</div></div>
-        <div><h2>Coming up</h2><p class="meta">From <a href="upcoming.html">GAJRA Earth Ahead</a>.</p>
-          ${upcoming.map(eventCard(index)).join("") || '<p class="empty">Nothing dated ahead in the feed.</p>'}
-          <h3 style="margin-top:26px">Advice level changes</h3>
-          ${changes.slice(-5).reverse().map((c) => `<p><span class="adv ${levelClass(c.to)}">${esc(c.destination)}</span> ${esc(c.from)} → ${esc(c.to)} <span class="meta">(${fmt(c.date)})</span></p>`).join("") || `<p class="empty">No level changes since tracking began on ${fmt(adv.checked_on)}.</p>`}
+      <section class="section"><h2>What each place page tells you</h2>
+        <div class="grid wide">${LOOKUP.map(([t, d]) => `<div class="card"><h3>${t}</h3><p class="meta">${d}</p></div>`).join("")}</div>
+        <p class="note" style="margin-top:22px">Rules stack: a visitor on Minjerribah is bound by Australian, Queensland and Redland City law together, and the place page shows each level. A level marked "not yet checked" has unknown rules, not no rules.</p></section>
+      <section class="section tight"><h2>Start with</h2><div class="grid">${picks.map((p) => `<a class="card" href="place.html?id=${encodeURIComponent(p.id)}"><h3>${esc(p.name)}</h3><div class="meta">${esc(kindOf(p))}${p.id.includes("/") ? `, ${esc(index.byId[p.id.split("/")[0]]?.name || "")}` : p.region ? `, ${esc(p.region)}` : ""}</div></a>`).join("")}</div>
+        <p style="margin-top:16px"><a class="btn ghost" href="places.html">Every place, by region</a></p></section>
+      <section class="section band"><div class="two">
+        <div><h2>Travel advice today</h2><p class="meta">Smartraveller's advice levels, checked daily${adv.checked_on ? `, last on ${fmt(adv.checked_on)}` : ""}.</p>
+          ${Object.entries(levels).sort((a, b) => b[1] - a[1]).map(([l, n]) => `<p><span class="adv ${levelClass(l)}">${esc(l)}</span> ${num(n)} destination${n === 1 ? "" : "s"}</p>`).join("")}
+          <p><a href="advisories.html">Every destination's level</a></p></div>
+        <div><h2>Recent changes</h2>
+          ${changes.slice(-6).reverse().map((c) => `<p><span class="adv ${levelClass(c.to)}">${esc(c.destination)}</span> ${esc(c.from)} → ${esc(c.to)} <span class="meta">(${fmt(c.date)})</span></p>`).join("") || `<p class="empty">No level changes since tracking began${adv.checked_on ? ` on ${fmt(adv.checked_on)}` : ""}.</p>`}
         </div></div></section>
     </main>`;
   };
+
+  function wireHomeSearch(index) {
+    const q = document.getElementById("hq");
+    const box = document.getElementById("hres");
+    if (!q) return;
+    const draw = () => {
+      const hits = findPlaces(index, q.value).slice(0, 8);
+      box.innerHTML = hits.map((p) => placeLine(index, p)).join("") + (q.value.trim() ? `<a class="all" href="places.html?q=${encodeURIComponent(q.value.trim())}">${hits.length ? "All matches" : "No match yet: search every place"}</a>` : "");
+      box.classList.toggle("open", !!q.value.trim());
+    };
+    q.addEventListener("input", draw);
+    q.addEventListener("keydown", (e) => {
+      if (e.key !== "Enter") return;
+      const first = box.querySelector("a");
+      if (first) location.href = first.href;
+    });
+  }
 
   function eventCard(index) {
     return (e) => {
@@ -240,7 +257,7 @@
       records: (p) => p.records > 0,
       all: () => true,
     };
-    const norm = (s) => s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
+    q.value = new URLSearchParams(location.search).get("q") || "";
     function draw() {
       const term = norm(q.value.trim());
       let list = index.places.filter((p) => !p.overlay || term);
@@ -564,37 +581,34 @@
       <div class="card"><h3>Add a pattern</h3><p>One file in <code>patterns/</code>. Every place it applies to shows it as not yet checked.</p></div>
       <div class="card"><h3>Add a feed</h3><p>A script that writes the shared event shape to <code>data/feeds/</code>. Briefs and the trip watch pick it up.</p></div>
     </div><p style="margin-top:22px"><a href="${REPO}">Source, data and routines on GitHub</a></p></section>
+    <section class="section"><h2>Data, for people and agents</h2><div class="table-wrap"><table><tbody>
+      ${[["patterns/", "The thirteen pattern files"], ["data/places/", "The place tree: spine plus one folder per country"], ["data/vetting/", "One record file per vetted place"], ["data/advisories.json", "Smartraveller levels, daily"], ["data/feeds/gajra-ahead.json", "GAJRA Earth Ahead events, daily"], ["data/calendar/", "Public holidays, monthly"], ["data/source-status.json", "Source watch, weekly"], ["queue/due.json", "The public queue"], ["CLAUDE.md", "Working rules for every agent and routine"]]
+        .map(([p, d]) => `<tr><td><a href="${REPO}/tree/main/${p}"><code>${p}</code></a></td><td>${d}</td></tr>`).join("")}</tbody></table></div></section>
   </main>`;
 
   render["site-map"] = async ({ index, credits }) => {
     const [related, placePhotos] = await Promise.all([json("site/data/related.json", { groups: [] }), json("site/data/place-photos.json", { photos: {} })]);
-    const desc = {
-      "index.html": "What this is, how fresh the world is, and what's next.",
-      "places.html": "Search and browse every place, from countries to permit zones.",
-      "place.html?id=au/minjerribah": "A place page: every level's rules, stacked, with the gaps shown, under a photo of that place. Example: Minjerribah.",
-      "patterns.html": "The thirteen vetting questions and how much of the world each covers.",
-      "upcoming.html": "GAJRA Earth Ahead events and open doors, by month and place.",
-      "advisories.html": "Today's Smartraveller advice levels and every change since tracking began.",
-      "queue.html": "What gets vetted next, rule changes watched, dead sources and run notes.",
-      "how.html": "The automations, inheritance, culture and permit zones in plain words.",
-      "site-map.html": "This page.",
-    };
+    const groups = {};
+    index.places.filter((p) => !p.id.includes("/")).forEach((p) => { (groups[p.region || ((p.tags || []).includes("oceania") ? "Pacific" : "More places")] ||= []).push(p); });
+    const order = ["Pacific", "Asia", "Middle East", "Africa", "Europe", "Americas", "More places"];
+    const pages = [
+      ["Find a place", [["places.html", "Places", "Search and browse every place, from countries to islands, councils and permit zones."], ["place.html?id=au/minjerribah", "A place page", "Every level's rules for one place, stacked. Example: Minjerribah."]]],
+      ["Before you go", [["advisories.html", "Advisories", "Today's Smartraveller advice levels and every change since tracking began."], ["upcoming.html", "Upcoming", "Dated events and open calls from GAJRA Earth Ahead, by month and place."]]],
+      ["About this site", [["patterns.html", "Patterns", "The thirteen questions every place is checked against."], ["how.html", "How it works", "The checks, how rules reach down from country to council, culture and permit zones."], ["queue.html", "Queue", "What gets checked next."]]],
+    ];
     return hero(credits, "site-map", {
-      kicker: "Site map",
-      title: "Everything, and everything connected",
-      lede: "Every page of this site, and the other public projects it draws on and links to.",
+      title: "Site map",
+      lede: "Every page, and every country and territory by region.",
     }) + `<main>
-      <section class="section"><h2>This site</h2><div class="grid">${Object.entries(desc).map(([h, d]) => `<a class="card" href="${h}"><h3>${esc((PAGES.find(([p]) => p === h) || [h, "A place"])[1])}</h3><p class="meta">${esc(d)}</p></a>`).join("")}</div></section>
-      ${related.groups.map((g) => `<section class="section tight"><h2>${esc(g.name)}</h2>${g.note ? `<p class="meta">${esc(g.note)}</p>` : ""}<div class="grid wide">${g.repos.map((r) => `<div class="card"><h3><a href="${esc(r.site)}">${esc(r.title)}</a></h3><p class="meta">${esc(r.about)}</p>${r.link ? `<p class="meta"><b>Here:</b> ${esc(r.link)}</p>` : ""}<p class="meta"><a href="${esc(r.site)}">Website</a> · <a href="https://github.com/auraofintelligence/${esc(r.repo)}">Repository</a></p></div>`).join("")}</div></section>`).join("")}
-      <section class="section"><h2>Data, for people and agents</h2><div class="table-wrap"><table><tbody>
-        ${[["patterns/", "The thirteen pattern files"], ["data/places/", "The place tree: spine plus one folder per country"], ["data/vetting/", "One record file per vetted place"], ["data/advisories.json", "Smartraveller levels, daily"], ["data/feeds/gajra-ahead.json", "GAJRA Earth Ahead events, daily"], ["data/calendar/", "Public holidays, monthly"], ["data/source-status.json", "Source watch, weekly"], ["queue/due.json", "The public queue"], ["CLAUDE.md", "Working rules for every agent and routine"]]
-          .map(([p, d]) => `<tr><td><a href="${REPO}/tree/main/${p}"><code>${p}</code></a></td><td>${d}</td></tr>`).join("")}</tbody></table></div></section>
-      <section class="section tight"><h2>Photographs</h2><p class="meta">Openly licensed photographs from Wikimedia Commons, resized and converted to WebP.</p><div class="table-wrap"><table><thead><tr><th>Page</th><th>Photograph</th><th>By</th><th>Licence</th></tr></thead><tbody>
-        ${Object.values(credits).map((c) => `<tr><td>${esc(c.page)}</td><td><a href="${esc(c.source)}">${esc(c.alt)}</a></td><td>${esc(c.artist)}</td><td>${c.licence_url ? `<a href="${esc(c.licence_url)}">${esc(c.licence)}</a>` : esc(c.licence)}</td></tr>`).join("")}</tbody></table></div></section>
-      <section class="section tight"><h2>Place photographs</h2>
-        <p class="meta">${Object.keys(placePhotos.photos).length} places show a photograph of themselves: each is a photo of that place, never a stand-in. Most come from Wikidata's main image or the place's Wikivoyage banner; a few were chosen by hand. A place with no photo shows none.</p>
-        <details><summary class="meta">The full list, with credits and review status</summary><div class="table-wrap" style="margin-top:12px"><table><thead><tr><th>Place</th><th>Photograph</th><th>By</th><th>Licence</th><th>Source</th><th>Review</th></tr></thead><tbody>
-        ${Object.entries(placePhotos.photos).sort((a, b) => (index.byId[a[0]]?.name || a[0]).localeCompare(index.byId[b[0]]?.name || b[0])).map(([pid, p]) => `<tr><td><a href="place.html?id=${encodeURIComponent(pid)}">${esc(index.byId[pid]?.name || pid)}</a></td><td><a href="${esc(p.source)}">${esc(p.title)}</a></td><td>${esc(p.artist)}</td><td>${esc(p.licence)}</td><td class="meta">${esc(p.via)}</td><td>${esc(p.review)}</td></tr>`).join("")}</tbody></table></div></details></section>
+      <section class="section"><div class="grid wide">${pages.map(([g, list]) => `<div><h2>${g}</h2>${list.map(([h, t, d]) => `<p><a href="${h}"><b>${t}</b></a><br><span class="meta">${d}</span></p>`).join("")}</div>`).join("")}</div></section>
+      <section class="section band"><h2>Countries and territories</h2>
+        ${order.filter((g) => groups[g]).map((g) => `<h3 class="month-head">${g} <span class="meta">${groups[g].length}</span></h3><p class="az">${groups[g].sort((a, b) => a.name.localeCompare(b.name)).map((p) => `<a href="place.html?id=${encodeURIComponent(p.id)}">${esc(p.name)}</a>`).join("")}</p>`).join("")}</section>
+      <section class="section tight">
+        <details><summary><b>Related projects</b></summary>${related.groups.map((g) => `<h3 style="margin-top:18px">${esc(g.name)}</h3>${g.repos.map((r) => `<p><a href="${esc(r.site)}">${esc(r.title)}</a> <span class="meta">${esc(r.about)}</span></p>`).join("")}`).join("")}</details>
+        <details style="margin-top:14px"><summary><b>Photo credits</b></summary><div class="table-wrap" style="margin-top:12px"><table><thead><tr><th>Page</th><th>Photograph</th><th>By</th><th>Licence</th></tr></thead><tbody>
+        ${Object.values(credits).map((c) => `<tr><td>${esc(c.page)}</td><td><a href="${esc(c.source)}">${esc(c.alt)}</a></td><td>${esc(c.artist)}</td><td>${c.licence_url ? `<a href="${esc(c.licence_url)}">${esc(c.licence)}</a>` : esc(c.licence)}</td></tr>`).join("")}
+        ${Object.entries(placePhotos.photos).sort((a, b) => (index.byId[a[0]]?.name || a[0]).localeCompare(index.byId[b[0]]?.name || b[0])).map(([pid, p]) => `<tr><td><a href="place.html?id=${encodeURIComponent(pid)}">${esc(index.byId[pid]?.name || pid)}</a></td><td><a href="${esc(p.source)}">${esc(p.title)}</a></td><td>${esc(p.artist)}</td><td>${esc(p.licence)}</td></tr>`).join("")}</tbody></table></div></details>
+      </section>
     </main>`;
   };
 

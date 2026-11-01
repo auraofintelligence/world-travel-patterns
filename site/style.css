@@ -248,3 +248,14 @@ footer a { color: var(--ink-2); }
 .note { border-left: 3px solid var(--gold); padding: 10px 16px; background: var(--surface); border-radius: 0 12px 12px 0; color: var(--ink-2); }
 .two { display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.home-search { position: relative; max-width: 640px; margin-top: 26px; }
+.home-search .search { width: 100%; padding: 18px 24px; font-size: 1.15rem; box-shadow: var(--shadow); }
+.home-results { display: none; margin-top: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; box-shadow: var(--shadow); z-index: 5; }
+.home-results.open { display: block; }
+.home-results a { display: flex; justify-content: space-between; gap: 12px; padding: 12px 20px; color: var(--ink); text-decoration: none; border-top: 1px solid var(--line); }
+.home-results a:first-child { border-top: 0; }
+.home-results a span { color: var(--muted); font-size: 0.9rem; text-align: right; }
+.home-results a:hover, .home-results a:focus { background: var(--surface-2); }
+.home-results a.all { color: var(--gold); font-weight: 600; }
+.az { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0 0 18px; }
+.az a { white-space: nowrap; }
