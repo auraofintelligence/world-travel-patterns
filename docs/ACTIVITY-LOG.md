@@ -536,3 +536,7 @@ Added 10 official-events entries across 10 records. National days: bw, bz (Beliz
 ## 2026-11-01 17:08 AEST, Grok: Activities: paid-speaking from official labour and immigration law (10 records)
 
 Upgraded the paid-speaking check from confirm-in-writing to conditional for 10 places, with citations. gf, gp, mq, re, pm, bl, mf and yt: the French entry arrêtés exclude paid activity that needs an autorisation de travail. vg: BVI Immigration Department FAQ (work permit for gainful employment). ky: Cayman Immigration Regulations guest-speaker exemption (single or occasional event, up to 10 days) and WORC Business Visitor's Permit. Other activities stay confirm-in-writing.
+
+## 2026-11-01 17:08 AEST, Grok: user note on separate datasets
+
+User note: world-travel-patterns, aura-affinity, outreach-cms, global-founder-atlas and right-time-right-place are separate, standalone datasets. The user's oracle pulls from each one in batches on request. Do not link them, import between them or integrate them. No cross-repo wiring.
