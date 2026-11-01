@@ -8,7 +8,9 @@ Replaces earlier items written by this script (marked "by": "languages_seed"); l
 """
 import argparse
 import pathlib
+import re
 import sys
+import unicodedata
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from lib import ROOT, load_places, read, today, vetting_path, write  # noqa: E402
@@ -78,7 +80,28 @@ def main():
             write_items(rid, [{"area": "official", "kind": "law", "evidence": "signal", "text": f"Official or co-official languages here: {', '.join(r['languages'])}.",
                                "source": src_reg["url"]}], [src_reg], D)
             written += 1
-    print(f"languages: {written} places")
+    regional = 0
+    for cc, pl in efp.items():
+        national = ef["countries"].get(cc)
+        if not national or cc not in places:
+            continue
+        kids = {norm(places[k]["name"]): k for k in places[cc]["children"] if places[k].get("kind") in ("region", "state")}
+        for name, score in pl.get("regions", []):
+            rid = kids.get(norm(name))
+            if rid:
+                write_items(rid, [{"area": "english", "kind": "figure", "evidence": "signal",
+                                   "text": f"English proficiency score {score} ({band(score)}) here, against the national {national['score']} "
+                                           "(EF English Proficiency Index 2025).", "source": pl["page"]}], [dict(src_ef, url=pl["page"])], D)
+                regional += 1
+    print(f"languages: {written} places, {regional} regions with an English score")
+
+
+STRIP = re.compile(r"\b(region|province|prefecture|oblast|state|district|governorate|department|county|voivodeship|autonomous community|community of)\b", re.I)
+
+
+def norm(s):
+    s = unicodedata.normalize("NFKD", STRIP.sub("", s)).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z]", "", s)
 
 
 def write_items(pid, items, sources, D):
@@ -89,7 +112,10 @@ def write_items(pid, items, sources, D):
         rec = read(path, {"place": pid, "patterns": {}})
         body = rec["patterns"].setdefault("languages", {"status": "partly-mapped", "evidence": "signal", "items": [], "sources": [],
                                                         "notes": "Signals until the place's own language law and census are read."})
-        body["items"] = items + [i for i in body.get("items", []) if i.get("by") != "languages_seed"]
+        areas = {i["area"] for i in items}
+        body["items"] = [i for i in body.get("items", []) if i.get("by") != "languages_seed" or i["area"] not in areas] + items
+        order = ["official", "english", "hotspots"]
+        body["items"].sort(key=lambda i: order.index(i["area"]) if i["area"] in order else 9)
         urls = {s["url"] for s in body["sources"]}
         body["sources"] += [s for s in sources if s["url"] not in urls]
         body["checked"] = D
