@@ -289,25 +289,73 @@
      "checked": "2026-11-01"
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Colombia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Colombia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free entry for unpaid event participation (no payment in Colombia)",
+     "detail": "The guide says the visa is triggered by payment; unpaid participants from exempt countries enter on their normal status.",
+     "next": "Keep it unpaid.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Resolución 5477 de 2022",
+       "authority": "Ministerio de Relaciones Exteriores (Cancillería), Colombia",
+       "url": "https://cancilleria.gov.co/sites/default/files/Normograma/docs/resolucion_minrelaciones_5477_2022.htm",
+       "checked": "2026-11-01",
+       "supports": "Visa V Eventos (read via a search-index snapshot)"
+      },
+      {
+       "title": "Guía de visado para eventos internacionales en Colombia",
+       "authority": "Cancillería, Colombia",
+       "url": "https://www.cancilleria.gov.co/sites/default/files/FOTOS2025/Gu%C3%ADa%20eventos%20visas-%20GIT%20de%20Visas%20e%20Inmigraci%C3%B3n.pdf",
+       "checked": "2026-11-01",
+       "supports": "paid participants need a visa even if visa-exempt (read via a search-index snapshot)"
+      }
+     ]
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Colombia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Colombia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free entry for unpaid event participation (no payment in Colombia)",
+     "detail": "The guide says the visa is triggered by payment; unpaid participants from exempt countries enter on their normal status.",
+     "next": "Keep it unpaid.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Resolución 5477 de 2022",
+       "authority": "Ministerio de Relaciones Exteriores (Cancillería), Colombia",
+       "url": "https://cancilleria.gov.co/sites/default/files/Normograma/docs/resolucion_minrelaciones_5477_2022.htm",
+       "checked": "2026-11-01",
+       "supports": "Visa V Eventos (read via a search-index snapshot)"
+      },
+      {
+       "title": "Guía de visado para eventos internacionales en Colombia",
+       "authority": "Cancillería, Colombia",
+       "url": "https://www.cancilleria.gov.co/sites/default/files/FOTOS2025/Gu%C3%ADa%20eventos%20visas-%20GIT%20de%20Visas%20e%20Inmigraci%C3%B3n.pdf",
+       "checked": "2026-11-01",
+       "supports": "paid participants need a visa even if visa-exempt (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Colombia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Colombia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor visa V (events), even for visa-exempt nationalities, if paid",
+     "detail": "The V Eventos visa covers speakers, artists, exhibitors and organisers. Anyone receiving fees or other payment in Colombia must get it even if their nationality is normally visa-exempt. It allows up to 180 days in 365, for the event activity only.",
+     "next": "Apply online with the organiser's letter before travel.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Resolución 5477 de 2022",
+       "authority": "Ministerio de Relaciones Exteriores (Cancillería), Colombia",
+       "url": "https://cancilleria.gov.co/sites/default/files/Normograma/docs/resolucion_minrelaciones_5477_2022.htm",
+       "checked": "2026-11-01",
+       "supports": "Visa V Eventos (read via a search-index snapshot)"
+      },
+      {
+       "title": "Guía de visado para eventos internacionales en Colombia",
+       "authority": "Cancillería, Colombia",
+       "url": "https://www.cancilleria.gov.co/sites/default/files/FOTOS2025/Gu%C3%ADa%20eventos%20visas-%20GIT%20de%20Visas%20e%20Inmigraci%C3%B3n.pdf",
+       "checked": "2026-11-01",
+       "supports": "paid participants need a visa even if visa-exempt (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
      "status": "confirm-in-writing",
@@ -345,11 +393,27 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Colombia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Colombia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor visa V (events), even for visa-exempt nationalities, if paid",
+     "detail": "The V Eventos visa covers speakers, artists, exhibitors and organisers. Anyone receiving fees or other payment in Colombia must get it even if their nationality is normally visa-exempt. It allows up to 180 days in 365, for the event activity only.",
+     "next": "Apply online with the organiser's letter before travel.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Resolución 5477 de 2022",
+       "authority": "Ministerio de Relaciones Exteriores (Cancillería), Colombia",
+       "url": "https://cancilleria.gov.co/sites/default/files/Normograma/docs/resolucion_minrelaciones_5477_2022.htm",
+       "checked": "2026-11-01",
+       "supports": "Visa V Eventos (read via a search-index snapshot)"
+      },
+      {
+       "title": "Guía de visado para eventos internacionales en Colombia",
+       "authority": "Cancillería, Colombia",
+       "url": "https://www.cancilleria.gov.co/sites/default/files/FOTOS2025/Gu%C3%ADa%20eventos%20visas-%20GIT%20de%20Visas%20e%20Inmigraci%C3%B3n.pdf",
+       "checked": "2026-11-01",
+       "supports": "paid participants need a visa even if visa-exempt (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
      "status": "confirm-in-writing",

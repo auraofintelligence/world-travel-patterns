@@ -580,3 +580,7 @@ Applied official rules: lu (conference speakers and lecturers exempt under 3 mon
 ## 2026-11-01 17:18 AEST, Grok: Culture: national etiquette upgrades (jo to lk) (10 records)
 
 Upgraded jo, ke, kg, kh (APSARA Angkor dress code), kn (camouflage clothing illegal), kw, ky (public nudity offence), kz, li and lk (Buddha imagery) to partly-mapped from national tourism or government sources. Read via search-index snapshots.
+
+## 2026-11-01 17:19 AEST, Grok: Activities: Americas, Africa and Asia speaker and artist routes (bt, bw, by, bz, co, cr, cu, cv, do, ec) (10 records)
+
+Notable: co (Resolution 5477/2022: paid speakers and artists need the V Eventos visa even when visa-exempt), bz (entertainer TEP from BZ$600 for a week or less), by (invited university lecturers exempt for 90 days), bw (Emergency Work Permit up to 3 months), plus cr, cu, cv, do, ec and bt visa routes. Read via search-index snapshots.

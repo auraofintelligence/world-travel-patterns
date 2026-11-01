@@ -291,11 +291,20 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Belarus",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Belarus which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Special work permit, unless invited by a state cultural institution",
+     "detail": "Culture and art specialists are exempt only when invited by state cultural institutions.",
+     "next": "Ask the host which route applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Law of the Republic of Belarus on External Labour Migration",
+       "authority": "Ministry of Internal Affairs, Belarus",
+       "url": "https://www.mvd.gov.by/uploads/pages/399/fa6237caabbf60762affc909aed7c72efd611647.pdf",
+       "checked": "2026-11-01",
+       "supports": "exemptions (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
      "status": "confirm-in-writing",
@@ -305,11 +314,20 @@
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Belarus",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Belarus which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Exempt: invited to lecture at a higher-education institution for up to 90 days",
+     "detail": "Lecturers invited by Belarusian higher-education institutions for up to 90 days are outside the law and need no special permit.",
+     "next": "Get the institution's invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Law of the Republic of Belarus on External Labour Migration",
+       "authority": "Ministry of Internal Affairs, Belarus",
+       "url": "https://www.mvd.gov.by/uploads/pages/399/fa6237caabbf60762affc909aed7c72efd611647.pdf",
+       "checked": "2026-11-01",
+       "supports": "exemptions (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
      "status": "confirm-in-writing",
@@ -333,11 +351,20 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Belarus",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Belarus which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Special work permit, unless invited by a state cultural institution",
+     "detail": "Culture and art specialists are exempt only when invited by state cultural institutions.",
+     "next": "Ask the host which route applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Law of the Republic of Belarus on External Labour Migration",
+       "authority": "Ministry of Internal Affairs, Belarus",
+       "url": "https://www.mvd.gov.by/uploads/pages/399/fa6237caabbf60762affc909aed7c72efd611647.pdf",
+       "checked": "2026-11-01",
+       "supports": "exemptions (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
      "status": "confirm-in-writing",

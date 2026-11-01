@@ -319,18 +319,36 @@
      "checked": "2026-11-01"
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Bhutanese Embassy, Deakin",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Bhutanese Embassy, Deakin which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visa through the relevant agency",
+     "detail": "Conference speakers use a business visa with the relevant agency's approval, through immi.gov.bt.",
+     "next": "The host agency sponsors the application.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa to enter Bhutan",
+       "authority": "Ministry of Foreign Affairs and External Trade, Bhutan",
+       "url": "https://www.mfa.gov.bt/visa-to-enter-bhutan/",
+       "checked": "2026-11-01",
+       "supports": "business visa and work permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Bhutanese Embassy, Deakin",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Bhutanese Embassy, Deakin which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Department of Labour work permit for training or professional services",
+     "detail": "Training and professional services need a work permit.",
+     "next": "The host applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa to enter Bhutan",
+       "authority": "Ministry of Foreign Affairs and External Trade, Bhutan",
+       "url": "https://www.mfa.gov.bt/visa-to-enter-bhutan/",
+       "checked": "2026-11-01",
+       "supports": "business visa and work permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
      "status": "confirm-in-writing",
@@ -340,11 +358,20 @@
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Bhutanese Embassy, Deakin",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Bhutanese Embassy, Deakin which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Department of Labour work permit for training or professional services",
+     "detail": "Training and professional services need a work permit.",
+     "next": "The host applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa to enter Bhutan",
+       "authority": "Ministry of Foreign Affairs and External Trade, Bhutan",
+       "url": "https://www.mfa.gov.bt/visa-to-enter-bhutan/",
+       "checked": "2026-11-01",
+       "supports": "business visa and work permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
      "status": "confirm-in-writing",
