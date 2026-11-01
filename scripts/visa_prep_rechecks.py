@@ -583,3 +583,56 @@ RECHECKS.update({
 })
 for _p in ("ro", "bg", "hr", "is", "no", "dk", "se", "fi", "ee", "lv", "lt", "pl", "cz", "sk", "hu", "si", "mt"):
     RECHECKS[_p]["fees"] = [free(_p, "visa-free short stay; EES registration", {"ro": "RON", "bg": "EUR", "is": "ISK", "no": "NOK", "dk": "DKK", "se": "SEK", "pl": "PLN", "cz": "CZK", "hu": "HUF"}.get(_p, "EUR"))]
+
+
+RECHECKS.update({
+    "ao": vf("ao", "No visa for tourism: 30 days an entry, up to 90 days a year.", ["Other travel needs a visa applied for online with the Serviço de Migração."], "AOA"),
+    "bo": vf("bo", "No visa for tourism; 30 days on entry, extendable to 90 days a calendar year at an immigration office.", ["Get entry and exit stamps (especially at land borders) or pay a fine on leaving."], "BOB"),
+    "bs": vf("bs", "No visa for visits of 90 days or less with a return or onward ticket.", ["Recent presence in Ebola-affected countries can mean screening and quarantine."], "BSD", ("Passport", "Return or onward ticket")),
+    "bw": vf("bw", "No visa for tourists up to 90 days.", ["Children may need extra documents.", "Entering on an emergency passport needs a visa in advance."], "BWP"),
+    "cl": vf("cl", "No visa for stays up to 90 days (Chile announced this for Australians on 17 September 2026).", ["Rapa Nui (Easter Island) stays are capped at 30 consecutive days."], "CLP"),
+    "co": vf("co", "Generally no visa for tourism up to 90 days.", ["Be ready to show an onward or return ticket or proof of funds."], "COP", ("Passport", "Onward or return ticket", "Proof of funds")),
+    "cr": vf("cr", "No visa for tourist visits under 90 days.", ["Show you'll return home or travel on, or you may be refused entry.", "A departure tax applies (may be in the airfare)."], "CRC", ("Passport", "Onward or return ticket")),
+    "ec": vf("ec", "Up to 90 days without a visa; one paid extension of up to 90 more days.", ["Request any extension before the first 90 days end."], "USD"),
+    "gy": vf("gy", "No visa; generally 30 days on arrival, extensions from the Ministry of Foreign Affairs.", ["Complete the online Immigration and Customs form within 48 hours before travel."], "GYD"),
+    "hn": vf("hn", "No visa with a passport valid more than 6 months; CA-4 area (with El Salvador, Guatemala, Nicaragua) allows 90 days across members.", ["Your CA-4 period starts at the first entry into any member country."], "HNL", ("Passport valid more than 6 months",)),
+    "jm": vf("jm", "No visa for tourism under 6 months or business under 30 days.", ["Complete the Immigration/Customs C5 form online before travel."], "JMD"),
+    "kg": vf("kg", "No tourist visa for up to 30 days in each 60-day period; e-visa (Sapar) for up to 90 days.", ["Use the official e-visa site for longer stays."], "KGS"),
+    "kz": vf("kz", "Visa-free up to 30 days an entry, 90 days in 180; no work.", ["Your host or accommodation provider registers you (see Smartraveller for the deadline)."], "KZT"),
+    "ls": vf("ls", "Up to 30 days without a visa; extensions within the first 14 days.", ["Other purposes need a visa in advance."], "LSL"),
+    "ma": vf("ma", "Generally no visa for visits under 90 days.", ["Don't overstay; you may not be able to leave until it's resolved."], "MAD"),
+    "eh": vf("eh", "Smartraveller covers Western Sahara under its Morocco advice: generally no visa for visits under 90 days.", ["Entry is through Moroccan border control."], "MAD", note="Smartraveller's Western Sahara link resolves to the Morocco page; confirm local conditions."),
+    "mu": vf("mu", "Free visa on arrival for stays under 60 days.", ["Other visits need a visa before travel; extensions through the Passport and Immigration Office."], "MUR"),
+    "om": visa("om", "Free entry visa up to 14 days for tourism (may not be extendable).", ["Carry a confirmed accommodation booking, health insurance and a return ticket.", "Leave before day 14 to avoid penalties."],
+               ["Passport valid more than 6 months", "Accommodation booking", "Health insurance", "Return ticket"], [free("om", "14-day tourist entry visa", "OMR")]),
+    "pe": vf("pe", "No visa; a permit for up to 90 days on arrival, maximum 183 days a year.", ["Overstays mean a fine before leaving."], "PEN"),
+    "py": vf("py", "No visitor visa for tourism up to 90 days on a regular passport.", ["Make sure the passport is stamped, signed and dated on entry."], "PYG"),
+    "rw": vf("rw", "Free 30-day tourist visa on arrival for Commonwealth citizens.", ["Travel to or through the DRC in the last 30 days means refused entry."], "RWF"),
+    "sz": vf("sz", "Up to 30 days without a visa.", ["Passport must be valid 6 months after departure with two blank pages."], "SZL", ("Passport valid 6 months after departure, 2 blank pages",)),
+    "tj": vf("tj", "Visa-free stays up to 30 days.", ["Longer stays need a visa; check its dates when issued."], "TJS"),
+    "tn": vf("tn", "No visa for visits of 90 days or less.", ["Other travel needs a visa before arrival."], "TND"),
+    "uz": vf("uz", "No visa for stays up to 30 days.", ["Longer stays need a visa before arrival."], "UZS"),
+    "zm": vf("zm", "No visa: tourists 90 days in any 12 months, business visitors 30 days.", ["Arriving by air, carry a return ticket; by land or water, enough funds.", "Business visitors may need an invitation letter."], "ZMW", ("Passport", "Return ticket or proof of funds")),
+    "tt": visa("tt", "e-Visa needed before travel (multiple entry).", ["Apply on the official E-Visa Online Portal.", "Complete the digital Immigration and Customs form within 72 hours before travel."],
+               ["Passport", "e-Visa", "Immigration and Customs form"], [fee("multiple-entry e-Visa", 800, "TTD", SR["tt"])]),
+    "mg": visa("mg", "Tourist visa on arrival up to 60 days, single entry.", ["Show onward or return travel.", "Under 15 days there's no visa fee but a EUR 10 border administration fee; 30 and 60-day visas cost more (not stated)."],
+               ["Passport", "Onward or return ticket"], [fee("visa under 15 days", 0, "EUR", SR["mg"]), fee("border administration fee", 10, "EUR", SR["mg"])], note="30 and 60-day visa fees not stated by Smartraveller."),
+})
+for _p, _why in {
+    "bh": "visa on arrival resumed and eVisa available; fee not stated", "bi": "visa needed (nearest embassy Tokyo) and online registration; fee not stated",
+    "bj": "e-visa for a fee plus yellow fever certificate; amount not stated", "bz": "Smartraveller's entry text covers health screening and an online form; visa status not clear in the section read",
+    "ci": "no visa details in the section read", "cm": "e-visa before travel, no visa on arrival; fee not stated", "cu": "tourist card needed plus an online declaration; fee not stated",
+    "dj": "visa needed via the e-visa portal; fee not stated", "do": "tourist card bought on arrival (30 days) and electronic entry/exit form; amount not stated",
+    "dz": "visa in advance; fee not stated", "eg": "eVisa or visa on entry paid in USD or card; amount not stated", "er": "visa and exit permit needed; fee not stated",
+    "et": "online visa needed; fee not stated", "ga": "visa advised plus a French invitation letter; fee not stated", "gh": "visa needed and yellow fever certificate; fee not stated",
+    "gm": "visa may be needed and an airport security fee applies; amounts not stated", "gn": "no visa details in the section read", "gt": "CA-4 tourist card bought at the airport (90 days); amount not stated",
+    "ni": "CA-4 tourist card bought at the airport (90 days); amount not stated", "sv": "CA-4 tourist card bought at the airport (90 days); amount not stated",
+    "il": "ETA-IL needed for stays under 90 days (valid 2 years); fee not stated", "jo": "visa needed (90-day single entry on arrival or e-services); fee not stated",
+    "kw": "visa on arrival or e-visa with fee; amount not stated", "lr": "visa needed and yellow fever certificate; fee not stated", "mr": "e-visa before travel, no visa on arrival; fee not stated",
+    "mw": "visa needed, fees apply (eVisa); amount not stated", "mz": "tourist visa or eVisa depending on stay length; fee not stated", "na": "visa on arrival or online before travel, fees apply; amount not stated",
+    "ng": "visa online through Nigeria Immigration Service, passport may need mailing; fee not stated", "sc": "no visa but a paid Digital Travel Authorisation (up to 30 days ahead); amount not stated",
+    "sl": "visa needed plus airport security fee; amounts not stated", "sn": "visa details referred to the embassy; onward ticket and accommodation proof needed",
+    "tz": "eVisa (some visas on arrival) plus mandatory NIC or ZIC inbound insurance; fees not stated", "ug": "visa or EAC Tourist Visa online; fees not stated",
+    "zw": "30-day tourist visa on arrival or e-visa, fee in USD; amount not stated", "pa": "entry section didn't extract from Smartraveller", "tm": "entry section didn't extract from Smartraveller",
+}.items():
+    RECHECKS[_p] = flag("Smartraveller read: " + _why + ".")
