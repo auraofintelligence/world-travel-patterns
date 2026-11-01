@@ -460,3 +460,9 @@ FCDO has no customs subheading for these places, so they are ask-locally with th
 ## 2026-11-01 16:51 AEST, Grok: Culture from FCDO, batch 6 (ask-locally) (13 records)
 
 FCDO has no customs subheading for these places, so they are ask-locally with the named authority. National etiquette pages have not been searched yet. Places: sr st sv sz tc tg tv tw vc vg yt za zm.
+
+## 2026-11-01 16:52 AEST, Grok: Culture for places with no FCDO page, batch 1 (aq, sj official; as, ax, bl, bq, cq, fo, gg, gl ask-locally) (10 records)
+
+- aq: Antarctic Treaty General Guidelines for Visitors (ats.aq).
+- sj: Governor of Svalbard rules (polar-bear distances, pre-1946 heritage, firearms) and Visit Svalbard.
+- The other 8 are ask-locally with the named authority and no sources. No official etiquette page has been searched for them yet.
