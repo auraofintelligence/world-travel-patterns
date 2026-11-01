@@ -302,11 +302,20 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of the Republic of Rwanda",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of the Republic of Rwanda which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Business investor residence permit",
+     "detail": "Needs business registration, an RDB Investment Certificate, trade licence and police clearance. Fee 150,000 Frw; valid up to two years.",
+     "next": "Get the RDB investment certificate first.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Business investor permit",
+       "authority": "Directorate General of Immigration and Emigration, Rwanda",
+       "url": "https://www.migration.gov.rw/our-services/business-investor",
+       "checked": "2026-11-01",
+       "supports": "RDB investment certificate, fee 150,000 Frw, up to two years (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "conditional",

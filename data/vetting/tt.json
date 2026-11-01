@@ -394,11 +394,20 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Up to 30 days gainful activity in 12 months without a permit",
+     "detail": "Gainful activity up to 30 days in any 12 months needs no work permit; longer needs one. No separate entrepreneur route is described.",
+     "next": "Plan short business trips under 30 days.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work permits",
+       "authority": "Ministry of National Security, Trinidad and Tobago",
+       "url": "https://nationalsecurity.gov.tt/services/work-permit/",
+       "checked": "2026-11-01",
+       "supports": "30 days in 12 months without permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "confirm-in-writing",

@@ -364,11 +364,20 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of Jamaica",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of Jamaica which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work permit unless an exemption applies",
+     "detail": "Foreign nationals working in Jamaica need a work permit unless exempt. The page does not set out a separate entrepreneur route.",
+     "next": "Ask the Ministry whether running your own business needs a permit.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work permit",
+       "authority": "Ministry of Labour and Social Security, Jamaica",
+       "url": "https://www.mlss.gov.jm/departments/work-permit/",
+       "checked": "2026-11-01",
+       "supports": "work permit unless exempt (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "confirm-in-writing",

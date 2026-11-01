@@ -416,11 +416,20 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Temporary resident permit",
-     "detail": "Exploring opportunities fits a business visit; running a business needs the business or work route.",
-     "next": "Ask the Consulate General of Samoa in Sydney or Samoa Immigration (Ministry of the Prime Minister and Cabinet).",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Foreign Investment Certificate, business licence, residence permit",
+     "detail": "Foreign investors register a company, obtain a Foreign Investment Certificate (renewed annually), then a business licence from the Ministry of Customs and Revenue. Residence permits come from the Immigration Office.",
+     "next": "Start at businessregistries.gov.ws.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Business registration and foreign investment registration",
+       "authority": "Ministry of Commerce, Industry and Labour, Samoa",
+       "url": "https://www.mcil.gov.ws/services/business-registration",
+       "checked": "2026-11-01",
+       "supports": "Foreign Investment Certificate, business licence, residence permits (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "conditional",

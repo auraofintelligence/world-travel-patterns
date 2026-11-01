@@ -385,11 +385,27 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Business visa for short-term employment, with a temporary work permit from the Labour Department and the employer's letter",
-     "detail": "Exploring opportunities fits a business visit; running a business needs the business or work route.",
-     "next": "Ask the Vanuatu Department of Immigration and Passport Services.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Foreign Investment Registration Certificate, then business licence",
+     "detail": "Foreign investors need a FIRC from VFIPA first (online, 1 to 7 working days, business plan and police clearance), then a business licence from Customs and Inland Revenue (VT5,000 to VT20,000).",
+     "next": "Register online with VFIPA.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Investment approval",
+       "authority": "Vanuatu Foreign Investment Promotion Agency",
+       "url": "https://investvanuatu.vu/investment-approval/",
+       "checked": "2026-11-01",
+       "supports": "FIRC first step, 1 to 7 working days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Business licence",
+       "authority": "Vanuatu Foreign Investment Promotion Agency",
+       "url": "https://investvanuatu.vu/business-in-vanuatu/business-license-2/",
+       "checked": "2026-11-01",
+       "supports": "licence VT5,000 to VT20,000 (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "conditional",

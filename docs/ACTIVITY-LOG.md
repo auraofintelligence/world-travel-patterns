@@ -838,3 +838,7 @@ Docs only: handoff and STATUS.md item 1 updated (743 confirm-in-writing, 20%; 42
 ## 2026-11-01 23:15 AEST, Grok: Entrepreneur rules: tw, mu, sc, mn, am, az (6 records)
 
 Entrepreneur checks from official sources (search-index snapshots): Taiwan Entrepreneur Visa criteria; Mauritius investor OP USD 100,000 or innovative start-up; Seychelles visitor permit for business; Mongolia 10-day K1 e-visa; Armenia business residency; Azerbaijan needs 5 local staff (80% citizens).
+
+## 2026-11-01 23:15 AEST, Grok: Entrepreneur rules: vu, ws, pw, rw, jm, tt (6 records)
+
+Entrepreneur checks from official sources (search-index snapshots): Vanuatu FIRC then licence; Samoa Foreign Investment Certificate; Palau FIAC with citizen-reserved activities; Rwanda business investor permit 150,000 Frw; Jamaica work permit; Trinidad and Tobago 30 days in 12 months.
