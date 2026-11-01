@@ -601,10 +601,10 @@
    }
   },
   "culture-and-protocol": {
-   "status": "ask-locally",
+   "status": "partly-mapped",
    "checked": "2026-11-01",
    "evidence": "official",
-   "dress_and_conduct": "FCDO's laws and cultural differences section for Paraguay has no customs or etiquette guidance. A national etiquette page has not been searched for yet. Ask locally.",
+   "dress_and_conduct": "FCDO's laws and cultural differences section for Paraguay has no customs or etiquette guidance. A national etiquette page has not been searched for yet. Ask locally. SENATUR describes tereré as a shared national ritual: if offered the guampa, take it, drink and pass it back.",
    "cultural_authority": "Government of Paraguay and its tourism office; local community leaders.",
    "note": "FCDO page checked (written for British travellers); it has no customs guidance. National tourism or government etiquette pages not yet searched.",
    "sources": [
@@ -614,8 +614,20 @@
      "url": "https://www.gov.uk/foreign-travel-advice/paraguay/safety-and-security",
      "checked": "2026-11-01",
      "supports": "laws and cultural differences section as read on 2026-11-01"
+    },
+    {
+     "title": "Día nacional del tereré",
+     "authority": "SENATUR (Secretaría Nacional de Turismo)",
+     "url": "https://senatur.gov.py/noticias/feliz-dia-nacional-del-terere-tradicion-y-cultura-viva-del-paraguay/",
+     "checked": "2026-11-01",
+     "supports": "tereré custom (read via a search-index snapshot)"
     }
-   ]
+   ],
+   "national_search": {
+    "checked": "2026-11-01",
+    "result": "found",
+    "note": "National tourism or government etiquette guidance found and cited."
+   }
   }
  }
 }

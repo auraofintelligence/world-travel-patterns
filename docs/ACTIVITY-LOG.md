@@ -636,3 +636,7 @@ Work and speaking rules from official immigration and labour sources for gm (GMB
 ## 2026-11-01 17:32 AEST, Grok: Culture: cg, fk, gf, gg, gi, gn, gw, mr, mw, ng (10 records)
 
 Upgraded fk (Countryside Code), gf (Parc amazonien village conduct), gg, gi (macaque feeding penalty GBP 500), mw, gw (IBAP sacred sites) and ng to partly-mapped. mr, cg and gn: searched, none found. Read via search-index snapshots.
+
+## 2026-11-01 17:32 AEST, Grok: Culture: pw, py, qa, re, ro, rs, rw, sa, sb, sc (10 records)
+
+Upgraded pw (Palau Pledge, sunscreen ban), qa, sa (public decency fines), rw (plastic ban), ro (regional Harghita code), rs, re (Tamil temples), py (tereré) and sb (kastom permission) to partly-mapped. sc: searched, none found. Read via search-index snapshots.
