@@ -6,7 +6,7 @@ Two inputs:
   https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2019_wmd_marital_status.xlsx
 - data/sources/marriage-equality.json (signal): the year same-sex marriage became legal, from Pew Research Center.
 
-    python scripts/affection_trends.py --wmd PATH/undesa_pd_2019_wmd_marital_status.xlsx [--skip-region "Middle East"]
+    python scripts/affection_trends.py --wmd PATH/undesa_pd_2019_wmd_marital_status.xlsx
 
 Replaces earlier items written by this script (marked "by": "affection_trends"); leaves every other item alone.
 Needs openpyxl to read the workbook.

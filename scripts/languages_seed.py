@@ -2,7 +2,7 @@
 English capacity (European Commission Special Eurobarometer 540 for EU members, official; EF English Proficiency
 Index 2025, a signal) and English hotspots (EF capital, city and region scores).
 
-    python scripts/languages_seed.py [--skip-region "Middle East"]
+    python scripts/languages_seed.py
 
 Replaces earlier items written by this script (marked "by": "languages_seed"); leaves every other item alone.
 """

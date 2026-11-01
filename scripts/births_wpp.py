@@ -4,7 +4,7 @@ Births per woman (total fertility rate) and the average age of mothers at birth,
 (the latest estimate year), and the number of births in 2023. Pass the downloaded demographic indicators file:
 https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_Demographic_Indicators_Medium.csv.gz
 
-    python scripts/births_wpp.py --csv PATH/WPP2024_Demographic_Indicators_Medium.csv.gz [--skip-region "Middle East"]
+    python scripts/births_wpp.py --csv PATH/WPP2024_Demographic_Indicators_Medium.csv.gz
 
 Replaces earlier items written by this script (marked "by": "births_wpp"); leaves every other item alone.
 """

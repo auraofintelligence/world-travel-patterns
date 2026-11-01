@@ -6,7 +6,7 @@ says whether it is law or custom. A first draft for a place pass: check every it
 
     python scripts/smartraveller_affection.py --dir PAGES fj id ws     # read <key>.html already fetched
     python scripts/smartraveller_affection.py --all --dir PAGES        # every place with a Smartraveller page
-    python scripts/smartraveller_affection.py --all --skip-region "Middle East" --dir PAGES
+    python scripts/smartraveller_affection.py --all --dir PAGES
 
 Writes affection-and-relationships into data/vetting/<id>.json, dated today, evidence "official"
 (Australian Government advice), unless that pattern was already checked today.

@@ -6,7 +6,7 @@ drug law in general (each sentence goes to the first substance it names). Each i
 for a place pass: check every item against the page.
 
     python scripts/smartraveller_substances.py --dir PAGES th nl jm
-    python scripts/smartraveller_substances.py --all --skip-region "Middle East" --dir PAGES
+    python scripts/smartraveller_substances.py --all --dir PAGES
 
 Writes psychoactive-substances into data/vetting/<id>.json, dated today, evidence "official"
 (Australian Government advice), keeping any items not written by this script.
