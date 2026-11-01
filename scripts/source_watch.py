@@ -43,6 +43,17 @@ def collect():
     return used
 
 
+SOFT_404_URL = re.compile(r"(?i)(/404(\b|[/?._-])|not[-_]?found|/error(\b|[/?._-])|pagenotfound)")
+SOFT_404_TITLE = re.compile(r"(?is)<title[^>]*>[^<]*(404|page not found|not found|page cannot be found)[^<]*</title>")
+
+
+def soft_404(url, final_url, raw_html=""):
+    """True when a 200 response is really a not-found page: a redirect to a 404-style URL, or a not-found title."""
+    if final_url and final_url != url and SOFT_404_URL.search("/" + final_url.split("://", 1)[-1].partition("/")[2]):
+        return True
+    return bool(raw_html and SOFT_404_TITLE.search(raw_html[:20000]))
+
+
 def fingerprint(url):
     try:
         with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=45) as response:
@@ -53,6 +64,8 @@ def fingerprint(url):
     except Exception as error:  # network failures are recorded, never treated as a rule change
         return {"status": "error", "error": type(error).__name__}
     text = raw.decode("utf-8", errors="replace")
+    if "pdf" not in url.lower() and soft_404(url, final, text):
+        return {"status": "soft-404", "final_url": final}
     if "pdf" not in url.lower():
         text = re.sub(r"(?is)<(script|style|nav|header|footer|noscript)[^>]*>.*?</\1>", " ", text)
         text = html.unescape(re.sub(r"(?s)<[^>]+>", " ", text))
@@ -77,7 +90,7 @@ def main():
                 entry["changed_on"] = on
                 changed.append(url)
             entry["sha256"] = result["sha256"]
-        if result["status"] in (404, 410):
+        if result["status"] in (404, 410, "soft-404"):
             entry["dead_since"] = before.get("dead_since", on)
             dead.append(url)
         else:

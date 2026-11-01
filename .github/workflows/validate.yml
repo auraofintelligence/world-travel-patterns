@@ -12,3 +12,4 @@ jobs:
           python-version: "3.12"
       - run: python scripts/validate.py
       - run: python scripts/due.py --date 2027-01-01
+      - run: python -m unittest discover tests
