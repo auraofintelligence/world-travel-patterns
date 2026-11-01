@@ -188,11 +188,20 @@
      ]
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Philippines, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Philippines, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "47(a)(2) Special Non-Immigrant Visa via PNVSCA",
+     "detail": "Foreign volunteers need a 47(a)(2) visa; the host or sending organisation registers with PNVSCA, which gets DFA authorisation.",
+     "next": "Ask the host to register with PNVSCA.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Requirements for 47(a)(2) foreign volunteer",
+       "authority": "Philippine Embassy Berlin",
+       "url": "http://philippine-embassy.de/wp-content/uploads/2019/05/Requirements_foreign-volunteers-1.pdf",
+       "checked": "2026-11-01",
+       "supports": "PNVSCA registration and 47(a)(2) visa (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "status": "conditional",

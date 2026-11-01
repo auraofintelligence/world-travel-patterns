@@ -776,3 +776,7 @@ Research checks from official sources: Brazil VIVIS allows unpaid research and t
 ## 2026-11-01 17:58 AEST, Grok: Volunteering rules: de, nl, in, ch, fr, cn, at, es, it, pt, be (11 records)
 
 Volunteering checks: Germany allows qualifying voluntary work for visa-exempt visitors up to 90 days in 12 months; India e-Tourist visa up to 1 month unpaid; Belgium exempt under the 2005 volunteer law if lawfully staying; Netherlands needs a UWV volunteer permit; France, Spain, Portugal need long-stay volunteering visas; Italy only via authorised European programmes; Switzerland, China and Austria do not address short volunteering (confirm). Read via search-index snapshots.
+
+## 2026-11-01 17:59 AEST, Grok: Volunteering rules: jp, ar, gr, ph (4 records)
+
+Volunteering checks: Japan Temporary Visitor bars paid or profit-making activity, unpaid volunteering not named; Argentina needs an exchange or volunteering permit via a RENURE-registered organisation; Greece D visa over 3 months; Philippines 47(a)(2) visa via PNVSCA. Read via search-index snapshots.

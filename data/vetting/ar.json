@@ -167,11 +167,20 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Argentine Republic, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Argentine Republic, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Cultural exchange or volunteering permit (up to 1 year)",
+     "detail": "Volunteering needs a cultural exchange or volunteering entry permit, with an organisation registered in RENURE providing an acceptance letter or agreement.",
+     "next": "Ask the organisation for its RENURE registration.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso de ingreso transitorio para participantes de programas de intercambio",
+       "authority": "Government of Argentina",
+       "url": "https://www.argentina.gob.ar/servicio/obtener-un-permiso-de-ingreso-transitorio-para-participantes-de-programas-de-intercambio",
+       "checked": "2026-11-01",
+       "supports": "exchange and volunteering via RENURE-registered organisations (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "status": "conditional",
