@@ -466,3 +466,7 @@ FCDO has no customs subheading for these places, so they are ask-locally with th
 - aq: Antarctic Treaty General Guidelines for Visitors (ats.aq).
 - sj: Governor of Svalbard rules (polar-bear distances, pre-1946 heritage, firearms) and Visit Svalbard.
 - The other 8 are ask-locally with the named authority and no sources. No official etiquette page has been searched for them yet.
+
+## 2026-11-01 16:52 AEST, Grok: Culture for places with no FCDO page, batch 2 (ask-locally) (14 records)
+
+gs, gu, im, je, mf, mp, pm, pn, pr, sx, tf, tk, vi and wf are ask-locally with the named authority (for example Tokelau's Taupulega village councils and Wallis and Futuna's customary kingdoms). No official etiquette page has been searched for these yet.
