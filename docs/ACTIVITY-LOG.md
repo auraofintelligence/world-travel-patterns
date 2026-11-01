@@ -700,3 +700,7 @@ Work and speaking rules: Maldives (14-day on-arrival Meeting Visa), Bosnia (Form
 ## 2026-11-01 17:46 AEST, Grok: Do-not-travel: tourism af, bf, ps, so; culture ir, iq, ve, lb, kp, ht (10 records)
 
 Do-not-travel pass (last, as agreed): entry and tourism records for af (visa before travel), bf (eVisa 90 days), ps (entry via Israel) and so (eVisa since 1 Sep 2025). Culture: ir (official dress code), iq (KRG), ve (tourism law) upgraded; lb, kp and ht searched, none found. Smartraveller advice recorded as information. Read via search-index snapshots.
+
+## 2026-11-01 17:46 AEST, Grok: Do-not-travel culture: ps, sy, ml, ne, sd, td, af, bf, cd, cf (10 records)
+
+Do-not-travel culture pass: ps upgraded (Ministry of Tourism and Antiquities behaviour code); sy, ml, ne, sd, td, af, bf, cd and cf searched, none found. Read via search-index snapshots.
