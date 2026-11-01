@@ -564,3 +564,7 @@ gm entry is now visa-free (Australia is on the Gambia's exemption list). gw is n
 ## 2026-11-01 17:15 AEST, Grok: Culture: national etiquette upgrades (hu to jm) (10 records)
 
 Upgraded hu, id (2025 Bali circular for foreign tourists), ie, il (Western Wall and Shabbat), im (Fairy Bridge custom), in, it (St Peter's and Pantheon dress rules, Florence fines), je and jm to partly-mapped from national tourism or official sources. io: searched, none found. Sources were read via search-index snapshots.
+
+## 2026-11-01 17:16 AEST, Grok: Year-ahead: 2027 national days (ag to lt) (10 records)
+
+Added national-day events from official holiday laws or government pages for ag, ao, aw, ax, az, be, bg, cz, ee and lt. These are fixed statutory dates. bd was skipped because the official 2027 gazette isn't out yet. Antigua Carnival 2027 (20 July to 3 August) appears only in news reports, so it wasn't added.
