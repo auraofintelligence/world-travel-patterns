@@ -720,3 +720,7 @@ Work rules from official sources: Colombia (visa-exempt speakers and artists at 
 ## 2026-11-01 17:51 AEST, Grok: Work rules for open places (aq, io, va, mg, dz) and Pacific territories (pf, nc, ki, mh) (9 records)
 
 Open work entries closed with official sources: Antarctica (AAD environmental authorisation for all activity), BIOT (entry permits paused from 31 March 2026), Vatican (via Italy, Schengen rules), Madagascar non-immigrant visa under 90 days, Algeria business or cultural visa with official invitation. Pacific: French Polynesia exempts conferences and artistic events under 3 months; New Caledonia requires prior work authorisation for all foreigners; Kiribati business visitor 1 month (4 in 12); Marshall Islands work permit plus E-1. Guinea-Bissau still has no official source (eVisa portal suspended). Read via search-index snapshots.
+
+## 2026-11-01 17:51 AEST, Grok: Work rules for remote territories: Sark, French Southern Lands, Wallis and Futuna (3 records)
+
+Final work-rule batch: Sark (Bailiwick rules plus Chief Pleas permission), TAAF (prefect authorisation, Marion Dufresne rotations only), Wallis and Futuna (prefect work authorisation, no published short-visit exemption). Searched without a usable official answer: Guinea-Bissau, and St Vincent, St Kitts and Dominica, whose published exemptions cover CARICOM nationals only. Read via search-index snapshots.
