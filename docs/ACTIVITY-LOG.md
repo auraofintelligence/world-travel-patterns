@@ -206,3 +206,16 @@ Most were read via search snapshots of official pages (marked SNAP).
 - Saudi Arabia: SAR 535 (non-official site).
 - Mozambique: about USD 190 (news report).
 None of these were used.
+
+## 2026-11-01 17:45 AEST, Grok: batch F3, fee pages (4 verified)
+
+- my: entry free; the MDAC is free (Immigration Department FAQ, which warns about fake paid sites).
+- pk: USD 60 single entry, USD 90 multiple entry (DGI&P fee table).
+- vu: visa-exempt for up to 120 days (Vanuatu Immigration).
+- cu: tourist card AUD 69 blank or AUD 76 completed (Cuban Embassy in Australia tariff, October 2026).
+
+All four were read via search snapshots.
+
+**Correction to the plan:** Russia (ru) is under Smartraveller "Do not travel", so it moves to the conflict-zones-last list.
+
+**Not done:** mx (the FMM cost isn't on an official page), sa (fee only on non-official sites), ae.

@@ -865,3 +865,30 @@ RECHECKS.update({
              [fee("standard e-Visa (USD 20 state fee + USD 9 service)", 29, "USD", AZP)],
              src("About e-Visa", "ASAN Visa, Republic of Azerbaijan", AZP, "USD 29 total" + SNAP)),
 })
+
+
+# Batch F3 (2026-11-01)
+MYP = "https://www.imi.gov.my/index.php/faq_mdacjim/faq-malaysia-digital-arrival-card-mdac/"
+PKP = "https://dgip.gov.pk/visa/fee.php"
+VUP = "https://immigration.gov.vu/visa-exempted-countries/"
+CUP = "http://misiones.cubaminrex.cu/sites/default/files/formularios/editoraustralia/arancel_consular_octubre_2026_aud_0.pdf"
+RECHECKS.update({
+    "my": pv("my", "No visa for tourism up to 90 days in most cases.",
+             ["Submit the free Malaysia Digital Arrival Card (MDAC) within 3 days before arrival, only on imigresen-online.imi.gov.my (the department warns of fake paid sites)."],
+             [PASSPORT_6M, "MDAC"], [free("my", "visa-free entry", "MYR"), fee("MDAC", 0, "MYR", MYP)],
+             src("FAQ Malaysia Digital Arrival Card", "Immigration Department of Malaysia", MYP, "MDAC free; fake portal warning" + SNAP)),
+    "pk": pv("pk", "Visit or tourist visa before travel through the Pakistan Online Visa System (Australia is eligible).",
+             ["Apply on visa.nadra.gov.pk; fees are charged in USD."], ["Passport", "e-Visa grant"],
+             [fee("visit/tourist visa, single entry", 60, "USD", PKP), fee("multiple entry up to 1 year", 90, "USD", PKP)],
+             src("Visa application fee", "Directorate General of Immigration and Passports, Pakistan", PKP, "fee table for Australia" + SNAP)),
+    "vu": pv("vu", "Visa-exempt: Australians get a single-entry visitor stay on arrival, up to 120 days.",
+             ["Carry an accredited accommodation booking or support letter and a return ticket."], [PASSPORT_6M, "Return ticket", "Accommodation booking or support letter"],
+             [fee("visitor entry (visa-exempt)", 0, "VUV", VUP)],
+             src("Visa exempted countries", "Department of Immigration and Passport Services, Vanuatu", VUP, "Australia visa-exempt" + SNAP)),
+    "cu": pv("cu", "Tourist card (or the newer electronic tourist visa) needed before travel, plus the online D'Viajeros declaration.",
+             ["Get the tourist card or e-visa from the Cuban Embassy in Canberra or visasonline.cubaminrex.cu.", "Complete the D'Viajeros declaration before arrival."],
+             ["Passport", "Tourist card or e-visa", "D'Viajeros declaration", "Travel insurance"],
+             [fee("tourist card, blank (Embassy in Australia)", 69, "AUD", CUP), fee("tourist card, completed by the consulate", 76, "AUD", CUP)],
+             src("Consular tariff, October 2026 (AUD)", "Embassy of Cuba in Australia (MINREX)", CUP, "tourist card prices in AUD" + SNAP),
+             note="Cuba is moving to an electronic tourist visa; check whether the fee differs."),
+})

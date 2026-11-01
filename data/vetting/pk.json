@@ -645,19 +645,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa required in advance. Online visa portal available.",
    "cost_aud_baseline": {
     "value": "~ $90+",
     "checked": "2025-08-16",
     "claim_id": "WORLD-PAKISTAN-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -668,7 +666,51 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller confirms a visa in advance through the Pakistan Online Visa System; fee not confirmed."
+   "fastest_entry": "Visit or tourist visa before travel through the Pakistan Online Visa System (Australia is eligible).",
+   "steps": [
+    "Apply on visa.nadra.gov.pk; fees are charged in USD."
+   ],
+   "documents": [
+    "Passport",
+    "e-Visa grant"
+   ],
+   "fees": [
+    {
+     "item": "visit/tourist visa, single entry",
+     "amount": 60,
+     "currency": "USD",
+     "url": "https://dgip.gov.pk/visa/fee.php",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "multiple entry up to 1 year",
+     "amount": 90,
+     "currency": "USD",
+     "url": "https://dgip.gov.pk/visa/fee.php",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
+     "supports": "visa status, pre-arrival forms and border documents as read",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "Visa application fee",
+     "authority": "Directorate General of Immigration and Passports, Pakistan",
+     "url": "https://dgip.gov.pk/visa/fee.php",
+     "supports": "fee table for Australia (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
+   }
   }
  }
 }

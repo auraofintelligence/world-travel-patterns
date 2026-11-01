@@ -3,10 +3,10 @@
   "generated_on": "2026-11-01",
   "mode": "public",
   "place_passes": 272,
-  "pattern_items": 1266,
+  "pattern_items": 1263,
   "by_reason": {
    "never-checked": 1209,
-   "over-budget": 57
+   "over-budget": 54
   },
   "watch_checks": 0
  },
@@ -282,40 +282,6 @@
      "age_days": null,
      "budget_days": 90
     },
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 90
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "vu",
-   "name": "Vanuatu",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
     {
      "pattern": "visa-preparation",
      "reason": "over-budget",
@@ -1088,6 +1054,34 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "vu",
+   "name": "Vanuatu",
+   "kind": "country",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
@@ -2492,38 +2486,6 @@
    ]
   },
   {
-   "place": "cu",
-   "name": "Cuba",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "cd",
    "name": "Democratic Republic of the Congo",
    "kind": "country",
@@ -3255,32 +3217,6 @@
      "age_days": null,
      "budget_days": 365
     },
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "pk",
-   "name": "Pakistan",
-   "kind": "country",
-   "tags": [],
-   "due": [
     {
      "pattern": "visa-preparation",
      "reason": "over-budget",
@@ -5029,6 +4965,32 @@
    "kind": "country",
    "tags": [],
    "due": [
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "cu",
+   "name": "Cuba",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
     {
      "pattern": "year-ahead",
      "reason": "never-checked",
@@ -7346,6 +7308,26 @@
   {
    "place": "om",
    "name": "Oman",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "pk",
+   "name": "Pakistan",
    "kind": "country",
    "tags": [],
    "due": [
