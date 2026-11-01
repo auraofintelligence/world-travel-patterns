@@ -1,0 +1,47 @@
+{
+ "id": "visa-preparation",
+ "name": "Visa preparation",
+ "layer": "permission",
+ "method": "agent",
+ "question": "What steps, documents and lead time does an Australian passport holder need to prepare before entering, and what is the visa cost signal?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 90,
+ "sources": [
+  "destination immigration authority or embassy",
+  "destination e-visa or arrival-card portal",
+  "Australian-visa-activity-atlas (baseline only, recheck)"
+ ],
+ "fields": [
+  "steps",
+  "before_departure",
+  "documents",
+  "fastest_entry",
+  "useful_stay",
+  "host_unlock",
+  "open_questions",
+  "cost_aud_baseline",
+  "needs_recheck",
+  "last_reviewed",
+  "provenance"
+ ],
+ "statuses": [
+  "steps-found",
+  "baseline-only",
+  "confirm-in-writing",
+  "unknown"
+ ],
+ "rules": [
+  "Steps and document lists come from the destination's own pages. Anything carried from Luke's earlier repos is a baseline: status imported or baseline-only, evidence legacy-baseline, needs_recheck true, with the origin repo, commit and claim id in provenance.",
+  "Set needs_recheck to false only after every step, document and cost has been reread at an official source; then set status steps-found and redate checked.",
+  "Costs are signals in AUD with the date they were read. Never store passport numbers, bookings or personal documents.",
+  "Skipped for the home country (Australia)."
+ ],
+ "version": 1,
+ "skip_home": true
+}
