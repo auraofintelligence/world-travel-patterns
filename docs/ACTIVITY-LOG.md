@@ -474,3 +474,7 @@ gs, gu, im, je, mf, mp, pm, pn, pr, sx, tf, tk, vi and wf are ask-locally with t
 ## 2026-11-01 16:52 AEST, Grok: Culture, Do-not-travel places from FCDO (5 records)
 
 cd, cf, ht, ru and ve have no Smartraveller customs section, so these come from FCDO's laws and cultural differences section, written for British travellers.
+
+## 2026-11-01 16:53 AEST, Grok: STATUS.md gaps revised
+
+Rewrote the hand-written gap list to current counts (culture 244 of 247, about 80 ask-locally; local law missing for 35; substances missing for 72; visa prep 60 baseline; photos reviewed).
