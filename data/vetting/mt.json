@@ -159,10 +159,19 @@
     },
     "book-launch": {
      "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the High Commission of Malta, O'Malley.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the High Commission of Malta, O'Malley.",
-     "checked": "2026-11-01"
+     "route": "No published short-visit exemption",
+     "detail": "Work under 6 months needs an employment licence; the culture and entertainment sector is exempt only from the labour market test, not the licence. Unpaid book launches are not addressed.",
+     "next": "Ask Identità in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Employed worker in Malta",
+       "authority": "European Commission, EU Immigration Portal",
+       "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-malta_en",
+       "checked": "2026-11-01",
+       "supports": "employment licence for work under 6 months; culture sector exempt only from labour market test (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",

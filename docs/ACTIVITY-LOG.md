@@ -818,3 +818,7 @@ Remote-work checks: Dominica Work in Nature visa (USD 50,000 income, USD 800 fee
 ## 2026-11-01 20:35 AEST, Grok: Remote work (am, ck, to, sb) and research visits (tw, us, pr, gu, vi, mp, na, uz, tj) (13 records)
 
 Remote work: Armenia allows remote work for a foreign employer without a permit (hartak.am); Cook Islands, Tonga and Solomon Islands do not address it (confirm). Research: US B-1 allows independent unpaid research benefiting no US institution (also pr, gu, vi, mp); Taiwan visitor up to 180 days; Namibia NCRST permit 4 months ahead; Uzbekistan A-3 and Tajikistan O2 visas. A Vietnam research entry was drafted from a misread Taiwan page and dropped before commit. Read via search-index snapshots.
+
+## 2026-11-01 20:35 AEST, Grok: Book launch rules: mt, az, am, kz, ax, rs, lt (7 records)
+
+Book-launch checks: Armenia exempts invited lecturers and touring performers; Serbia Article 3 cultural events 90 days in 180; Kazakhstan B1 covers lectures; Åland follows Finland (90 days); Malta, Azerbaijan and Lithuania do not address short unpaid launches (confirm with detail). Read via search-index snapshots.

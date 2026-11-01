@@ -157,10 +157,19 @@
     },
     "book-launch": {
      "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Lithuania, Barton.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Lithuania, Barton.",
-     "checked": "2026-11-01"
+     "route": "Performers and lecturers exempt from the permit, not from residence",
+     "detail": "Performers and lecturers are exempt from the work permit but generally need a national visa or temporary residence permit to work. A short book launch is not addressed.",
+     "next": "Ask the Migration Department in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Self-employed worker in Lithuania",
+       "authority": "European Commission, EU Immigration Portal",
+       "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/self-employed-worker-lithuania_en",
+       "checked": "2026-11-01",
+       "supports": "performers and lecturers exempt from work permit but need residence or national visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",

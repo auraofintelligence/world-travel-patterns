@@ -72,11 +72,20 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of Finland, Yarralumla.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of Finland, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Finnish rules: work without residence permit, up to 90 days",
+     "detail": "Åland follows Finnish immigration law: invited lecturers and professional artists may work up to 90 days without a residence permit.",
+     "next": "Carry the invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work without residence permit",
+       "authority": "Finnish Immigration Service (Migri)",
+       "url": "https://migri.fi/en/work-without-residence-permit",
+       "checked": "2026-11-01",
+       "supports": "Finnish rules apply in Åland: lecturers and artists 90 days (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "low",

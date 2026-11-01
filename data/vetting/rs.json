@@ -383,11 +383,20 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Serbia, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Serbia, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Article 3 exemption, 90 days in 180",
+     "detail": "Temporary cultural or educational activity at authorised events, and lecturing at organised professional meetings, need no work permit for up to 90 days in 180.",
+     "next": "Get a host letter naming the event.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Law on Employment of Foreigners (English text)",
+       "authority": "Republic of Serbia, via ILO NATLEX",
+       "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/99440/SRB-99440%20(EN).pdf",
+       "checked": "2026-11-01",
+       "supports": "Article 3: cultural activity at authorised events and lecturing, 90 days in 180 (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "low",
