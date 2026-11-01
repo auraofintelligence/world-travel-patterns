@@ -886,3 +886,7 @@ Docs only: handoff and STATUS.md item 1 refreshed with current confirm-in-writin
 ## 2026-11-01 23:21 AEST, Grok: Entrepreneur rules: ao, sn, na, sz, ki, ck (6 records)
 
 Entrepreneur checks from official sources (search-index snapshots): Angola investor visa via AIPEX registration; Senegal APIX business creation; Namibia Investor Permit from 1 September 2026 (5 years, N$2,600); Eswatini EIPA 5-year director permits; Kiribati Foreign Investment Certificate; Cook Islands foreign enterprise registration.
+
+## 2026-11-01 23:21 AEST, Grok: Filming rules: la, gy, cm (3 records)
+
+Filming checks from official sources (search-index snapshots): Laos authorisation via a Lao embassy under Decree 246/GOV; Guyana Tourism Authority request a month ahead; Cameroon Ministry of Arts and Culture authorisation.

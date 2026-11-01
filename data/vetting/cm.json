@@ -492,11 +492,20 @@
      "checked": "2026-11-01"
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of the Republic of Cameroon",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of the Republic of Cameroon which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Filming authorisation from the Ministry of Arts and Culture",
+     "detail": "The Ministry's cinematography directorate handles filming authorisation requests.",
+     "next": "Apply to the directorate before travel.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Directorate of Cinematography and Audiovisual Productions",
+       "authority": "Ministry of Arts and Culture, Cameroon",
+       "url": "https://www.minac.gov.cm/fr/le-ministere/administration-centrale/direction-de-la-cinematographie-et-des-productions-audiovisuelles",
+       "checked": "2026-11-01",
+       "supports": "handles filming authorisation requests (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
      "status": "confirm-in-writing",
