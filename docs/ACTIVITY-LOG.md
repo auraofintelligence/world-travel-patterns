@@ -480,3 +480,7 @@ cd, cf, ht, ru and ve have no Smartraveller customs section, so these come from 
 Rewrote the hand-written gap list to current counts (culture 244 of 247; local law missing for 35; substances missing for 72; visa prep 60 baseline; photos reviewed).
 
 Correction: 206 of the 244 culture records are ask-locally, not about 80 (fixed in STATUS.md).
+
+## 2026-11-01 16:55 AEST, Grok: Culture national-source search ad-ba (12 records)
+
+Searched national tourism boards and government etiquette pages for 12 ask-locally culture records. Upgraded 9: ad, am, az and at are partly mapped; ae, ar, as, aw and ax are community-published. Searched with none found for 3 (al, ao, ba), which stay ask-locally and are recorded under national_search. The ad source is French Government advice, written for French travellers.
