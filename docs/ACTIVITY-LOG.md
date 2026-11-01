@@ -920,3 +920,7 @@ Entrepreneur checks from official sources (search-index snapshots): Côte d'Ivoi
 ## 2026-11-01 23:26 AEST, Grok: Fix stray escape characters in Saint Lucia entrepreneur source note (1 records)
 
 Correction to 1b4e6f5: removed backslashes accidentally left in the Saint Lucia source 'supports' text (EC$500 and EC$1,000). Detail and status unchanged.
+
+## 2026-11-01 23:26 AEST, Grok: Filming rules: dz, mg, ci (3 records)
+
+Filming checks from official sources (search-index snapshots): Algeria Ministry of Culture authorisation 30 days ahead via a licensed Algerian producer; Madagascar filming visa plus ISSM authorisation 15 days ahead; Côte d'Ivoire Cinéma authorisation.
