@@ -500,3 +500,7 @@ Extended the year-ahead schema (version 2) with an optional event category field
 ## 2026-11-01 16:59 AEST, Grok: Year-ahead 2027 official events batch 2 (11 records)
 
 Added 12 official-events entries across 11 records: gb__scotland (Fringe), gb (Glastonbury), it (Biennale Architettura), es__catalonia (MWC), mx (Independence Day), in__uttarakhand (International Yoga Festival), gh (Independence Day), ch (Montreux Jazz), cl (Viña del Mar), co (Barranquilla Carnaval) and pt (Primavera Porto, NOS Alive). Skipped (no official 2027 dates yet): Slush, Avignon, Mawazine, TIFF and Biennale Arte. Lisdoonvarna Matchmaking Festival 2027 is not yet confirmed on its official site, and the Kenya and Philippines national days had no official 2027 source in hand. Categories as in the earlier entry.
+
+## 2026-11-01 17:01 AEST, Grok: Year-ahead 2027 events: tech, adult and national days (10 records)
+
+Added 11 official-events entries across 10 records. Technology: IFA (de), CES (us), COMPUTEX (tw), VivaTech (fr). Dating-marriage-adult: Folsom Europe (de), Fetish Weekend London (gb). Other: EuroPride Torino (it). National days: al, am, bb and bs, from government or statute pages for fixed dates. New watchlist data/calendar/pending-official-dates.json holds 12 events without official 2027 dates (GITEX, Web Summit, Slush, Tomorrowland, TIFF, Lisdoonvarna, Avignon, Mawazine, Biennale Arte, Rock in Rio, and the ke and ph national days) for routines to add later. The Castres erotic fair has no exact 2027 date, so it was not added.
