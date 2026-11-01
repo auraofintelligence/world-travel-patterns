@@ -143,73 +143,97 @@
      "month": 1,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 9.9,
+     "rain_mm": 39
     },
     {
      "month": 2,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 11.6,
+     "rain_mm": 36
     },
     {
      "month": 3,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 14.3,
+     "rain_mm": 37
     },
     {
      "month": 4,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 16.4,
+     "rain_mm": 28
     },
     {
      "month": 5,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 19.8,
+     "rain_mm": 18
     },
     {
      "month": 6,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.5,
+     "rain_mm": 5
     },
     {
      "month": 7,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.8,
+     "rain_mm": 3
     },
     {
      "month": 8,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.9,
+     "rain_mm": 7
     },
     {
      "month": 9,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.2,
+     "rain_mm": 17
     },
     {
      "month": 10,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 19.3,
+     "rain_mm": 35
     },
     {
      "month": 11,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 14.5,
+     "rain_mm": 42
     },
     {
      "month": 12,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 11.0,
+     "rain_mm": 46
     }
    ],
    "notes": "Hazard windows from Smartraveller; regional climates can differ. Weather seasons and visitor flow are still to be read from the national meteorological service and tourism statistics.",
@@ -220,8 +244,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/morocco",
      "checked": "2026-11-01",
      "supports": "hazard seasons and closures as read on 2026-11-01"
+    },
+    {
+     "title": "Climatology 1991-2020, monthly mean temperature and precipitation (CRU TS 4.08)",
+     "authority": "World Bank Climate Change Knowledge Portal",
+     "url": "https://climateknowledgeportal.worldbank.org/",
+     "checked": "2026-11-01",
+     "supports": "monthly average temperature and rainfall, 1991 to 2020"
     }
-   ]
+   ],
+   "climate": "Wettest: January, November and December. Driest: June, July and August. Hottest: August (26.9°C average). Coolest: January (9.9°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "culture-cycles": {
    "status": "partly-mapped",

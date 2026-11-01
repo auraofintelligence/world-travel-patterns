@@ -127,7 +127,7 @@ def main():
                 for m in rec["months"]:
                     if wanted and m["month"] not in wanted:
                         continue
-                    bits = [b for b in (m.get("season"), m.get("hazard") and f"hazard: {m['hazard']}", m.get("visitor_flow") and f"visitors: {m['visitor_flow']}") if b]
+                    bits = [b for b in (m.get("temp_c") is not None and f"{m['temp_c']}°C, {m['rain_mm']} mm rain", m.get("season"), m.get("hazard") and f"hazard: {m['hazard']}", m.get("visitor_flow") and f"visitors: {m['visitor_flow']}") if b]
                     lines.append(f"  - {MONTHS[m['month'] - 1]}: {'; '.join(bits) or 'not yet mapped'}")
             for key in ("festivals", "closures", "moving_calendars", "protocol_notes"):
                 for item in rec.get(key) or []:

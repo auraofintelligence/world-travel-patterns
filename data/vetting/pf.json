@@ -146,73 +146,97 @@
      "month": 1,
      "season": null,
      "hazard": "cyclone season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.2,
+     "rain_mm": 195
     },
     {
      "month": 2,
      "season": null,
      "hazard": "cyclone season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.3,
+     "rain_mm": 186
     },
     {
      "month": 3,
      "season": null,
      "hazard": "cyclone season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.5,
+     "rain_mm": 159
     },
     {
      "month": 4,
      "season": null,
      "hazard": "cyclone season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.1,
+     "rain_mm": 120
     },
     {
      "month": 5,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.4,
+     "rain_mm": 105
     },
     {
      "month": 6,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.6,
+     "rain_mm": 101
     },
     {
      "month": 7,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.1,
+     "rain_mm": 83
     },
     {
      "month": 8,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.0,
+     "rain_mm": 71
     },
     {
      "month": 9,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.3,
+     "rain_mm": 61
     },
     {
      "month": 10,
      "season": null,
      "hazard": null,
-     "visitor_flow": "25,775 tourists in October 2025 (plus 15,383 cruise day visitors)"
+     "visitor_flow": "25,775 tourists in October 2025 (plus 15,383 cruise day visitors)",
+     "temp_c": 23.8,
+     "rain_mm": 100
     },
     {
      "month": 11,
      "season": null,
      "hazard": "cyclone season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.5,
+     "rain_mm": 109
     },
     {
      "month": 12,
      "season": null,
      "hazard": "cyclone season",
-     "visitor_flow": "21,454 tourists in December 2025"
+     "visitor_flow": "21,454 tourists in December 2025",
+     "temp_c": 25.0,
+     "rain_mm": 181
     }
    ],
    "notes": "Visitor flow: 281,227 tourists in 2025, the highest ever measured (ISPF); cruise day visitors are counted separately.",
@@ -230,8 +254,16 @@
      "url": "https://www.ispf.pf/content/uploads/1511_PC_Tourisme_2025_10_c01c1bffc8.pdf",
      "checked": "2026-11-01",
      "supports": "monthly tourists; 281,227 in 2025"
+    },
+    {
+     "title": "Climatology 1991-2020, monthly mean temperature and precipitation (CRU TS 4.08)",
+     "authority": "World Bank Climate Change Knowledge Portal",
+     "url": "https://climateknowledgeportal.worldbank.org/",
+     "checked": "2026-11-01",
+     "supports": "monthly average temperature and rainfall, 1991 to 2020"
     }
-   ]
+   ],
+   "climate": "Wettest: January, February and December. Driest: July, August and September. Hottest: March (25.5°C average). Coolest: August (23.0°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "culture-cycles": {
    "status": "partly-mapped",

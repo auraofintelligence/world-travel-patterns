@@ -152,80 +152,104 @@
   },
   "seasons-and-flow": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "evidence": "official",
    "months": [
     {
      "month": 1,
      "season": null,
      "hazard": "flood risk",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 13.2,
+     "rain_mm": 21
     },
     {
      "month": 2,
      "season": null,
      "hazard": "flood risk",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 15.6,
+     "rain_mm": 12
     },
     {
      "month": 3,
      "season": null,
      "hazard": "flood risk",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 20.1,
+     "rain_mm": 20
     },
     {
      "month": 4,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.8,
+     "rain_mm": 17
     },
     {
      "month": 5,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 32.3,
+     "rain_mm": 3
     },
     {
      "month": 6,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 36.4,
+     "rain_mm": 0
     },
     {
      "month": 7,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 37.9,
+     "rain_mm": 0
     },
     {
      "month": 8,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 37.3,
+     "rain_mm": 0
     },
     {
      "month": 9,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 34.1,
+     "rain_mm": 0
     },
     {
      "month": 10,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 28.4,
+     "rain_mm": 2
     },
     {
      "month": 11,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 20.2,
+     "rain_mm": 19
     },
     {
      "month": 12,
      "season": null,
      "hazard": "flood risk",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 14.8,
+     "rain_mm": 25
     }
    ],
    "notes": "Hazard windows from Smartraveller; regional climates can differ. Weather seasons and visitor flow are still to be read from the national meteorological service and tourism statistics.",
@@ -236,8 +260,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/kuwait",
      "checked": "2026-10-31",
      "supports": "hazard seasons and closures as read on 2026-10-31"
+    },
+    {
+     "title": "Climatology 1991-2020, monthly mean temperature and precipitation (CRU TS 4.08)",
+     "authority": "World Bank Climate Change Knowledge Portal",
+     "url": "https://climateknowledgeportal.worldbank.org/",
+     "checked": "2026-11-01",
+     "supports": "monthly average temperature and rainfall, 1991 to 2020"
     }
-   ]
+   ],
+   "climate": "Wettest: January, March and December. Driest: June, July and August. Hottest: July (37.9°C average). Coolest: January (13.2°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "activities": {
    "status": "conditional",

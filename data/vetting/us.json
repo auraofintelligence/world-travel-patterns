@@ -271,80 +271,104 @@
   },
   "seasons-and-flow": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "evidence": "official",
    "months": [
     {
      "month": 1,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": -2.7,
+     "rain_mm": 56
     },
     {
      "month": 2,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": -0.8,
+     "rain_mm": 50
     },
     {
      "month": 3,
      "season": null,
      "hazard": "tornadoes more common",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 3.2,
+     "rain_mm": 56
     },
     {
      "month": 4,
      "season": null,
      "hazard": "tornadoes more common",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 8.6,
+     "rain_mm": 61
     },
     {
      "month": 5,
      "season": null,
      "hazard": "hurricane peak (any month possible); tornadoes more common",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 14.3,
+     "rain_mm": 69
     },
     {
      "month": 6,
      "season": null,
      "hazard": "hurricane peak (any month possible); tornadoes more common",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 19.1,
+     "rain_mm": 73
     },
     {
      "month": 7,
      "season": null,
      "hazard": "hurricane peak (any month possible); tornadoes more common",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 21.7,
+     "rain_mm": 71
     },
     {
      "month": 8,
      "season": null,
      "hazard": "hurricane peak (any month possible); tornadoes more common",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 20.8,
+     "rain_mm": 70
     },
     {
      "month": 9,
      "season": null,
      "hazard": "hurricane peak (any month possible); tornadoes more common",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 16.7,
+     "rain_mm": 64
     },
     {
      "month": 10,
      "season": null,
      "hazard": "hurricane peak (any month possible)",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 10.1,
+     "rain_mm": 60
     },
     {
      "month": 11,
      "season": null,
      "hazard": "hurricane peak (any month possible)",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 3.2,
+     "rain_mm": 54
     },
     {
      "month": 12,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": -1.4,
+     "rain_mm": 58
     }
    ],
    "notes": "National hazard windows only; regional climates vary widely. Visitor flow is still to be read from tourism statistics.",
@@ -355,8 +379,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
      "checked": "2026-10-31",
      "supports": "hazard windows as read on 2026-10-31"
+    },
+    {
+     "title": "Climatology 1991-2020, monthly mean temperature and precipitation (CRU TS 4.08)",
+     "authority": "World Bank Climate Change Knowledge Portal",
+     "url": "https://climateknowledgeportal.worldbank.org/",
+     "checked": "2026-11-01",
+     "supports": "monthly average temperature and rainfall, 1991 to 2020"
     }
-   ]
+   ],
+   "climate": "Wettest: June, July and August. Driest: January, February and November. Hottest: July (21.7°C average). Coolest: January (-2.7°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "health-entry": {
    "status": "none-required",

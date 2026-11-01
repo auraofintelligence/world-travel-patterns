@@ -127,73 +127,97 @@
      "month": 1,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.4,
+     "rain_mm": 129
     },
     {
      "month": 2,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.8,
+     "rain_mm": 117
     },
     {
      "month": 3,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.0,
+     "rain_mm": 163
     },
     {
      "month": 4,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.9,
+     "rain_mm": 151
     },
     {
      "month": 5,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.6,
+     "rain_mm": 107
     },
     {
      "month": 6,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.7,
+     "rain_mm": 63
     },
     {
      "month": 7,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.2,
+     "rain_mm": 62
     },
     {
      "month": 8,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.9,
+     "rain_mm": 91
     },
     {
      "month": 9,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.3,
+     "rain_mm": 123
     },
     {
      "month": 10,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.5,
+     "rain_mm": 168
     },
     {
      "month": 11,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.4,
+     "rain_mm": 176
     },
     {
      "month": 12,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.3,
+     "rain_mm": 153
     }
    ],
    "notes": "Rainy season April to October in the north and November to March in the south (Smartraveller), so no single national window is marked. Hazard windows from Smartraveller; regional climates can differ. Weather seasons and visitor flow are still to be read from the national meteorological service and tourism statistics.",
@@ -204,8 +228,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo",
      "checked": "2026-11-01",
      "supports": "hazard seasons and closures as read on 2026-11-01"
+    },
+    {
+     "title": "Climatology 1991-2020, monthly mean temperature and precipitation (CRU TS 4.08)",
+     "authority": "World Bank Climate Change Knowledge Portal",
+     "url": "https://climateknowledgeportal.worldbank.org/",
+     "checked": "2026-11-01",
+     "supports": "monthly average temperature and rainfall, 1991 to 2020"
     }
-   ]
+   ],
+   "climate": "Wettest: March, October and November. Driest: June, July and August. Hottest: March (25.0°C average). Coolest: July (23.2°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "culture-cycles": {
    "status": "partly-mapped",

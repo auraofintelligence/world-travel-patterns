@@ -101,73 +101,97 @@
      "month": 1,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 22.6,
+     "rain_mm": 64
     },
     {
      "month": 2,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.0,
+     "rain_mm": 65
     },
     {
      "month": 3,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.6,
+     "rain_mm": 65
     },
     {
      "month": 4,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.3,
+     "rain_mm": 112
     },
     {
      "month": 5,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.1,
+     "rain_mm": 207
     },
     {
      "month": 6,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.9,
+     "rain_mm": 120
     },
     {
      "month": 7,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.0,
+     "rain_mm": 133
     },
     {
      "month": 8,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.2,
+     "rain_mm": 148
     },
     {
      "month": 9,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.0,
+     "rain_mm": 173
     },
     {
      "month": 10,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.4,
+     "rain_mm": 180
     },
     {
      "month": 11,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.2,
+     "rain_mm": 143
     },
     {
      "month": 12,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.1,
+     "rain_mm": 93
     }
    ],
    "notes": "Hazard windows from Smartraveller; regional climates can differ. Weather seasons and visitor flow are still to be read from the national meteorological service and tourism statistics.",
@@ -178,8 +202,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/dominican-republic",
      "checked": "2026-11-01",
      "supports": "hazard seasons and closures as read on 2026-11-01"
+    },
+    {
+     "title": "Climatology 1991-2020, monthly mean temperature and precipitation (CRU TS 4.08)",
+     "authority": "World Bank Climate Change Knowledge Portal",
+     "url": "https://climateknowledgeportal.worldbank.org/",
+     "checked": "2026-11-01",
+     "supports": "monthly average temperature and rainfall, 1991 to 2020"
     }
-   ]
+   ],
+   "climate": "Wettest: May, September and October. Driest: January, February and March. Hottest: August (26.2°C average). Coolest: January (22.6°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "culture-cycles": {
    "status": "partly-mapped",

@@ -88,80 +88,104 @@
   },
   "seasons-and-flow": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "evidence": "official",
    "months": [
     {
      "month": 1,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": -3.6,
+     "rain_mm": 49
     },
     {
      "month": 2,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": -3.4,
+     "rain_mm": 39
     },
     {
      "month": 3,
      "season": null,
      "hazard": "flood risk",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 0.2,
+     "rain_mm": 37
     },
     {
      "month": 4,
      "season": null,
      "hazard": "flood risk",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 6.4,
+     "rain_mm": 37
     },
     {
      "month": 5,
      "season": null,
      "hazard": "flood risk",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 11.7,
+     "rain_mm": 51
     },
     {
      "month": 6,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 15.3,
+     "rain_mm": 66
     },
     {
      "month": 7,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 17.9,
+     "rain_mm": 76
     },
     {
      "month": 8,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 17.3,
+     "rain_mm": 76
     },
     {
      "month": 9,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 12.6,
+     "rain_mm": 63
     },
     {
      "month": 10,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 6.9,
+     "rain_mm": 71
     },
     {
      "month": 11,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 2.1,
+     "rain_mm": 58
     },
     {
      "month": 12,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": -1.7,
+     "rain_mm": 53
     }
    ],
    "notes": "Hazard windows from Smartraveller; regional climates can differ. Weather seasons and visitor flow are still to be read from the national meteorological service and tourism statistics.",
@@ -172,8 +196,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/latvia",
      "checked": "2026-10-31",
      "supports": "hazard seasons and closures as read on 2026-10-31"
+    },
+    {
+     "title": "Climatology 1991-2020, monthly mean temperature and precipitation (CRU TS 4.08)",
+     "authority": "World Bank Climate Change Knowledge Portal",
+     "url": "https://climateknowledgeportal.worldbank.org/",
+     "checked": "2026-11-01",
+     "supports": "monthly average temperature and rainfall, 1991 to 2020"
     }
-   ]
+   ],
+   "climate": "Wettest: July, August and October. Driest: February, March and April. Hottest: July (17.9°C average). Coolest: January (-3.6°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "culture-cycles": {
    "status": "partly-mapped",

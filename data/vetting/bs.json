@@ -119,73 +119,97 @@
      "month": 1,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 22.1,
+     "rain_mm": 44
     },
     {
      "month": 2,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 22.7,
+     "rain_mm": 44
     },
     {
      "month": 3,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.2,
+     "rain_mm": 44
     },
     {
      "month": 4,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.7,
+     "rain_mm": 68
     },
     {
      "month": 5,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.2,
+     "rain_mm": 114
     },
     {
      "month": 6,
      "season": null,
      "hazard": "hurricane season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 27.7,
+     "rain_mm": 155
     },
     {
      "month": 7,
      "season": null,
      "hazard": "hurricane season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 28.4,
+     "rain_mm": 105
     },
     {
      "month": 8,
      "season": null,
      "hazard": "hurricane season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 28.6,
+     "rain_mm": 130
     },
     {
      "month": 9,
      "season": null,
      "hazard": "hurricane season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 28.1,
+     "rain_mm": 184
     },
     {
      "month": 10,
      "season": null,
      "hazard": "hurricane season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 27.0,
+     "rain_mm": 172
     },
     {
      "month": 11,
      "season": null,
      "hazard": "hurricane season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.9,
+     "rain_mm": 80
     },
     {
      "month": 12,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.2,
+     "rain_mm": 51
     }
    ],
    "notes": "Hazard windows from Smartraveller; regional climates can differ. Weather seasons and visitor flow are still to be read from the national meteorological service and tourism statistics.",
@@ -196,8 +220,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/bahamas",
      "checked": "2026-11-01",
      "supports": "hazard seasons and closures as read on 2026-11-01"
+    },
+    {
+     "title": "Climatology 1991-2020, monthly mean temperature and precipitation (CRU TS 4.08)",
+     "authority": "World Bank Climate Change Knowledge Portal",
+     "url": "https://climateknowledgeportal.worldbank.org/",
+     "checked": "2026-11-01",
+     "supports": "monthly average temperature and rainfall, 1991 to 2020"
     }
-   ]
+   ],
+   "climate": "Wettest: June, September and October. Driest: January, February and March. Hottest: August (28.6°C average). Coolest: January (22.1°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "culture-cycles": {
    "status": "partly-mapped",

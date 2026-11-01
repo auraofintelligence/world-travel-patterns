@@ -145,73 +145,97 @@
      "month": 1,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 27.4,
+     "rain_mm": 9
     },
     {
      "month": 2,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 29.5,
+     "rain_mm": 28
     },
     {
      "month": 3,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 30.3,
+     "rain_mm": 68
     },
     {
      "month": 4,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 29.7,
+     "rain_mm": 114
     },
     {
      "month": 5,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 28.5,
+     "rain_mm": 148
     },
     {
      "month": 6,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 27.1,
+     "rain_mm": 171
     },
     {
      "month": 7,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.1,
+     "rain_mm": 145
     },
     {
      "month": 8,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.6,
+     "rain_mm": 140
     },
     {
      "month": 9,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.2,
+     "rain_mm": 178
     },
     {
      "month": 10,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 27.1,
+     "rain_mm": 150
     },
     {
      "month": 11,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 27.9,
+     "rain_mm": 44
     },
     {
      "month": 12,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 27.2,
+     "rain_mm": 14
     }
    ],
    "notes": "Hazard windows from Smartraveller; regional climates can differ. Weather seasons and visitor flow are still to be read from the national meteorological service and tourism statistics.",
@@ -222,8 +246,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/ghana",
      "checked": "2026-11-01",
      "supports": "hazard seasons and closures as read on 2026-11-01"
+    },
+    {
+     "title": "Climatology 1991-2020, monthly mean temperature and precipitation (CRU TS 4.08)",
+     "authority": "World Bank Climate Change Knowledge Portal",
+     "url": "https://climateknowledgeportal.worldbank.org/",
+     "checked": "2026-11-01",
+     "supports": "monthly average temperature and rainfall, 1991 to 2020"
     }
-   ]
+   ],
+   "climate": "Wettest: June, September and October. Driest: January, February and December. Hottest: March (30.3°C average). Coolest: August (25.6°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "culture-cycles": {
    "status": "partly-mapped",

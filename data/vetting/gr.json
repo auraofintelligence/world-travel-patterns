@@ -326,80 +326,104 @@
   },
   "seasons-and-flow": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "evidence": "official",
    "months": [
     {
      "month": 1,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 5.1,
+     "rain_mm": 85
     },
     {
      "month": 2,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 6.2,
+     "rain_mm": 68
     },
     {
      "month": 3,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 8.8,
+     "rain_mm": 62
     },
     {
      "month": 4,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 12.3,
+     "rain_mm": 46
     },
     {
      "month": 5,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 17.1,
+     "rain_mm": 45
     },
     {
      "month": 6,
      "season": null,
      "hazard": "fire season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 21.5,
+     "rain_mm": 34
     },
     {
      "month": 7,
      "season": null,
      "hazard": "fire season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.1,
+     "rain_mm": 24
     },
     {
      "month": 8,
      "season": null,
      "hazard": "fire season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.2,
+     "rain_mm": 20
     },
     {
      "month": 9,
      "season": null,
      "hazard": "fire season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 20.1,
+     "rain_mm": 45
     },
     {
      "month": 10,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 15.3,
+     "rain_mm": 67
     },
     {
      "month": 11,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 10.6,
+     "rain_mm": 84
     },
     {
      "month": 12,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 6.3,
+     "rain_mm": 99
     }
    ],
    "notes": "Hazard windows from Smartraveller; regional climates can differ. Weather seasons and visitor flow are still to be read from the national meteorological service and tourism statistics.",
@@ -410,8 +434,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/greece",
      "checked": "2026-10-31",
      "supports": "hazard seasons and closures as read on 2026-10-31"
+    },
+    {
+     "title": "Climatology 1991-2020, monthly mean temperature and precipitation (CRU TS 4.08)",
+     "authority": "World Bank Climate Change Knowledge Portal",
+     "url": "https://climateknowledgeportal.worldbank.org/",
+     "checked": "2026-11-01",
+     "supports": "monthly average temperature and rainfall, 1991 to 2020"
     }
-   ]
+   ],
+   "climate": "Wettest: January, November and December. Driest: June, July and August. Hottest: August (24.2°C average). Coolest: January (5.1°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "culture-cycles": {
    "status": "partly-mapped",

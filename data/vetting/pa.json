@@ -142,73 +142,97 @@
      "month": 1,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.2,
+     "rain_mm": 83
     },
     {
      "month": 2,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.5,
+     "rain_mm": 50
     },
     {
      "month": 3,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.1,
+     "rain_mm": 58
     },
     {
      "month": 4,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.6,
+     "rain_mm": 125
     },
     {
      "month": 5,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.2,
+     "rain_mm": 282
     },
     {
      "month": 6,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.7,
+     "rain_mm": 250
     },
     {
      "month": 7,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.9,
+     "rain_mm": 222
     },
     {
      "month": 8,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.6,
+     "rain_mm": 250
     },
     {
      "month": 9,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.3,
+     "rain_mm": 260
     },
     {
      "month": 10,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.3,
+     "rain_mm": 356
     },
     {
      "month": 11,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.9,
+     "rain_mm": 324
     },
     {
      "month": 12,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.9,
+     "rain_mm": 171
     }
    ],
    "notes": "Hazard windows from Smartraveller; regional climates can differ. Weather seasons and visitor flow are still to be read from the national meteorological service and tourism statistics.",
@@ -219,8 +243,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/panama",
      "checked": "2026-11-01",
      "supports": "hazard seasons and closures as read on 2026-11-01"
+    },
+    {
+     "title": "Climatology 1991-2020, monthly mean temperature and precipitation (CRU TS 4.08)",
+     "authority": "World Bank Climate Change Knowledge Portal",
+     "url": "https://climateknowledgeportal.worldbank.org/",
+     "checked": "2026-11-01",
+     "supports": "monthly average temperature and rainfall, 1991 to 2020"
     }
-   ]
+   ],
+   "climate": "Wettest: May, October and November. Driest: January, February and March. Hottest: April (26.6°C average). Coolest: November (24.9°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "culture-cycles": {
    "status": "partly-mapped",

@@ -135,73 +135,97 @@
      "month": 1,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.4,
+     "rain_mm": 7
     },
     {
      "month": 2,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 27.3,
+     "rain_mm": 17
     },
     {
      "month": 3,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 28.4,
+     "rain_mm": 39
     },
     {
      "month": 4,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 28.4,
+     "rain_mm": 101
     },
     {
      "month": 5,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 27.5,
+     "rain_mm": 220
     },
     {
      "month": 6,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.4,
+     "rain_mm": 318
     },
     {
      "month": 7,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.4,
+     "rain_mm": 446
     },
     {
      "month": 8,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.2,
+     "rain_mm": 597
     },
     {
      "month": 9,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.7,
+     "rain_mm": 439
     },
     {
      "month": 10,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.3,
+     "rain_mm": 321
     },
     {
      "month": 11,
      "season": null,
      "hazard": "wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.5,
+     "rain_mm": 123
     },
     {
      "month": 12,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.7,
+     "rain_mm": 22
     }
    ],
    "notes": "Hazard windows from Smartraveller; regional climates can differ. Weather seasons and visitor flow are still to be read from the national meteorological service and tourism statistics.",
@@ -212,8 +236,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/sierra-leone",
      "checked": "2026-11-01",
      "supports": "hazard seasons and closures as read on 2026-11-01"
+    },
+    {
+     "title": "Climatology 1991-2020, monthly mean temperature and precipitation (CRU TS 4.08)",
+     "authority": "World Bank Climate Change Knowledge Portal",
+     "url": "https://climateknowledgeportal.worldbank.org/",
+     "checked": "2026-11-01",
+     "supports": "monthly average temperature and rainfall, 1991 to 2020"
     }
-   ]
+   ],
+   "climate": "Wettest: July, August and September. Driest: January, February and December. Hottest: April (28.4°C average). Coolest: August (25.2°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "culture-cycles": {
    "status": "partly-mapped",

@@ -376,15 +376,15 @@
       (rec.layers || []).forEach((l) => { body += `<div class="detail"><b>${esc(l.type)}:</b> ${esc(l.process)} (${esc(l.authority)})${l.lead_time_days ? `, lead time ${l.lead_time_days} days` : ""}</div>`; });
       if (rec.pre_arrival) body += `<div class="detail"><b>Before arrival:</b> ${esc(rec.pre_arrival)}</div>`;
       [["max_stay", "Stay"], ["passport_validity", "Passport"], ["other", "Also"], ["mission", "Office"], ["notes", "Note"], ["currency", "Currency"],
-       ["cash_card_notes", "Cash and cards"], ["own_names", "Own names"], ["sacred_or_restricted_places", "Sacred and restricted places"],
+       ["cash_card_notes", "Cash and cards"], ["climate", "Climate"], ["own_names", "Own names"], ["sacred_or_restricted_places", "Sacred and restricted places"],
        ["dress_and_conduct", "Dress and conduct"], ["cultural_authority", "Who to ask"], ["required", "Required"], ["conditional", "Depends on route"], ["note", "Note"]]
         .forEach(([k, label]) => { if (rec[k] && (!Array.isArray(rec[k]) || rec[k].length)) body += `<div class="detail"><b>${label}:</b> ${esc(Array.isArray(rec[k]) ? rec[k].join("; ") : rec[k])}</div>`; });
       [["closures", "Closures"], ["moving_calendars", "Moving calendars"], ["festivals", "Festivals"], ["public_holidays", "Public holidays"]]
         .forEach(([k, label]) => { const v = rec[k]; if (v && (!Array.isArray(v) || v.length)) body += `<div class="detail"><b>${label}:</b> ${esc(Array.isArray(v) ? v.map((x) => (typeof x === "string" ? x : x.what)).join("; ") : v)}</div>`; });
       if (rec.months?.length) {
         const M = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-        body += `<div class="months">${rec.months.map((m) => `<div class="mo${m.hazard ? " hz" : ""}" title="${esc([m.season, m.hazard && "Hazard: " + m.hazard, m.visitor_flow && "Visitors: " + m.visitor_flow].filter(Boolean).join(". "))}">
-          <b>${M[m.month - 1]}</b><span>${esc((m.season || "").split(" (")[0])}</span>${m.hazard ? `<i>${esc(m.hazard.split(" (")[0])}</i>` : ""}${m.visitor_flow ? `<em>${esc((m.visitor_flow.match(/^[\d,]+/) || [m.visitor_flow.split(" ").slice(0, 3).join(" ")])[0])}${/^[\d,]+ (air )?visitors/.test(m.visitor_flow) ? " visitors" : ""}</em>` : ""}</div>`).join("")}</div>`;
+        body += `<div class="months">${rec.months.map((m) => `<div class="mo${m.hazard ? " hz" : ""}" title="${esc([m.temp_c != null && `${m.temp_c}°C average, ${m.rain_mm} mm rain`, m.season, m.hazard && "Hazard: " + m.hazard, m.visitor_flow && "Visitors: " + m.visitor_flow].filter(Boolean).join(". "))}">
+          <b>${M[m.month - 1]}</b>${m.temp_c != null ? `<small>${Math.round(m.temp_c)}° · ${num(m.rain_mm)} mm</small>` : ""}<span>${esc((m.season || "").split(" (")[0])}</span>${m.hazard ? `<i>${esc(m.hazard.split(" (")[0])}</i>` : ""}${m.visitor_flow ? `<em>${esc((m.visitor_flow.match(/^[\d,]+/) || [m.visitor_flow.split(" ").slice(0, 3).join(" ")])[0])}${/^[\d,]+ (air )?visitors/.test(m.visitor_flow) ? " visitors" : ""}</em>` : ""}</div>`).join("")}</div>`;
       }
       (rec.events || []).forEach((e) => { body += `<div class="detail"><b>${esc(e.date)}${e.end ? " to " + esc(e.end) : ""}:</b> ${esc(e.what)}</div>`; });
       if (rec.sources?.length) body += `<div class="detail meta">Sources: ${rec.sources.slice(0, 4).map((s) => `<a href="${esc(s.url)}" rel="noopener">${esc(s.authority || s.title || "source")}</a>`).join(" · ")}${rec.sources.length > 4 ? ` and ${rec.sources.length - 4} more` : ""}</div>`;

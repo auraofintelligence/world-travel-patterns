@@ -144,73 +144,97 @@
      "month": 1,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.3,
+     "rain_mm": 122
     },
     {
      "month": 2,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.7,
+     "rain_mm": 88
     },
     {
      "month": 3,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.5,
+     "rain_mm": 84
     },
     {
      "month": 4,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.0,
+     "rain_mm": 140
     },
     {
      "month": 5,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.5,
+     "rain_mm": 327
     },
     {
      "month": 6,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25,
+     "rain_mm": 319
     },
     {
      "month": 7,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.1,
+     "rain_mm": 308
     },
     {
      "month": 8,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.9,
+     "rain_mm": 304
     },
     {
      "month": 9,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.7,
+     "rain_mm": 334
     },
     {
      "month": 10,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.4,
+     "rain_mm": 445
     },
     {
      "month": 11,
      "season": null,
      "hazard": "hurricane season; wet season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.9,
+     "rain_mm": 312
     },
     {
      "month": 12,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.9,
+     "rain_mm": 182
     }
    ],
    "notes": "Hazard windows from Smartraveller; regional climates can differ. Weather seasons and visitor flow are still to be read from the national meteorological service and tourism statistics.",
@@ -221,8 +245,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/costa-rica",
      "checked": "2026-11-01",
      "supports": "hazard seasons and closures as read on 2026-11-01"
+    },
+    {
+     "title": "Climatology 1991-2020, monthly mean temperature and precipitation (CRU TS 4.08)",
+     "authority": "World Bank Climate Change Knowledge Portal",
+     "url": "https://climateknowledgeportal.worldbank.org/",
+     "checked": "2026-11-01",
+     "supports": "monthly average temperature and rainfall, 1991 to 2020"
     }
-   ]
+   ],
+   "climate": "Wettest: May, September and October. Driest: January, February and March. Hottest: April (26.0°C average). Coolest: November (23.9°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "culture-cycles": {
    "status": "partly-mapped",

@@ -231,80 +231,104 @@
   },
   "seasons-and-flow": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "evidence": "official",
    "months": [
     {
      "month": 1,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": -21.3,
+     "rain_mm": 36
     },
     {
      "month": 2,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": -20.1,
+     "rain_mm": 28
     },
     {
      "month": 3,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": -14.9,
+     "rain_mm": 32
     },
     {
      "month": 4,
      "season": null,
      "hazard": "forest fires; tornadoes in parts of the prairies and Ontario",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": -6.3,
+     "rain_mm": 31
     },
     {
      "month": 5,
      "season": null,
      "hazard": "forest fires; tornadoes in parts of the prairies and Ontario",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 2.4,
+     "rain_mm": 40
     },
     {
      "month": 6,
      "season": null,
      "hazard": "forest fires; tornadoes in parts of the prairies and Ontario; Atlantic hurricanes",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 9.5,
+     "rain_mm": 58
     },
     {
      "month": 7,
      "season": null,
      "hazard": "forest fires; tornadoes in parts of the prairies and Ontario; Atlantic hurricanes",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 13.1,
+     "rain_mm": 67
     },
     {
      "month": 8,
      "season": null,
      "hazard": "forest fires; tornadoes in parts of the prairies and Ontario; Atlantic hurricanes",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 11.7,
+     "rain_mm": 63
     },
     {
      "month": 9,
      "season": null,
      "hazard": "forest fires; tornadoes in parts of the prairies and Ontario; Atlantic hurricanes",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 6.1,
+     "rain_mm": 57
     },
     {
      "month": 10,
      "season": null,
      "hazard": "Atlantic hurricanes",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": -1.6,
+     "rain_mm": 52
     },
     {
      "month": 11,
      "season": null,
      "hazard": "Atlantic hurricanes",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": -10.9,
+     "rain_mm": 45
     },
     {
      "month": 12,
      "season": null,
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": -17.6,
+     "rain_mm": 39
     }
    ],
    "notes": "National hazard windows only; regional climates vary widely. Visitor flow is still to be read from tourism statistics.",
@@ -315,8 +339,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/canada",
      "checked": "2026-10-31",
      "supports": "hazard windows as read on 2026-10-31"
+    },
+    {
+     "title": "Climatology 1991-2020, monthly mean temperature and precipitation (CRU TS 4.08)",
+     "authority": "World Bank Climate Change Knowledge Portal",
+     "url": "https://climateknowledgeportal.worldbank.org/",
+     "checked": "2026-11-01",
+     "supports": "monthly average temperature and rainfall, 1991 to 2020"
     }
-   ]
+   ],
+   "climate": "Wettest: June, July and August. Driest: February, March and April. Hottest: July (13.1°C average). Coolest: January (-21.3°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "health-entry": {
    "status": "none-required",

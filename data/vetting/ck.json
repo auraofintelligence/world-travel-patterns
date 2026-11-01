@@ -118,73 +118,97 @@
      "month": 1,
      "season": "wet season (from late November)",
      "hazard": "cyclone season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.3,
+     "rain_mm": 247
     },
     {
      "month": 2,
      "season": "wet season (from late November)",
      "hazard": "cyclone season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.6,
+     "rain_mm": 229
     },
     {
      "month": 3,
      "season": "wet season (from late November)",
      "hazard": "cyclone season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 26.4,
+     "rain_mm": 189
     },
     {
      "month": 4,
      "season": "wet season (from late November)",
      "hazard": "cyclone season",
-     "visitor_flow": "14,665 visitors in 2025"
+     "visitor_flow": "14,665 visitors in 2025",
+     "temp_c": 25.7,
+     "rain_mm": 215
     },
     {
      "month": 5,
      "season": "dry season (driest June to October)",
      "hazard": null,
-     "visitor_flow": "15,757 visitors in 2025"
+     "visitor_flow": "15,757 visitors in 2025",
+     "temp_c": 24.5,
+     "rain_mm": 175
     },
     {
      "month": 6,
      "season": "dry season (driest June to October)",
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.6,
+     "rain_mm": 107
     },
     {
      "month": 7,
      "season": "dry season (driest June to October)",
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.0,
+     "rain_mm": 105
     },
     {
      "month": 8,
      "season": "dry season (driest June to October)",
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 22.9,
+     "rain_mm": 117
     },
     {
      "month": 9,
      "season": "dry season (driest June to October)",
      "hazard": null,
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 23.2,
+     "rain_mm": 108
     },
     {
      "month": 10,
      "season": "dry season (driest June to October)",
      "hazard": null,
-     "visitor_flow": "18,508 visitors in 2025 (20,127 arrivals)"
+     "visitor_flow": "18,508 visitors in 2025 (20,127 arrivals)",
+     "temp_c": 23.9,
+     "rain_mm": 125
     },
     {
      "month": 11,
      "season": "wet season (from late November)",
      "hazard": "cyclone season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 24.9,
+     "rain_mm": 156
     },
     {
      "month": 12,
      "season": "wet season (from late November)",
      "hazard": "cyclone season",
-     "visitor_flow": null
+     "visitor_flow": null,
+     "temp_c": 25.5,
+     "rain_mm": 209
     }
    ],
    "notes": "The wet season runs late November to April or May, about a month longer at Rarotonga. Visitor flow: The Statistics Office describes May to October as the busy period. Other months' counts are in its monthly reports.",
@@ -216,8 +240,16 @@
      "url": "https://stats.gov.ck/tourism-and-migration-statistics-april-2025/",
      "checked": "2026-11-01",
      "supports": "April 2025 arrivals"
+    },
+    {
+     "title": "Climatology 1991-2020, monthly mean temperature and precipitation (CRU TS 4.08)",
+     "authority": "World Bank Climate Change Knowledge Portal",
+     "url": "https://climateknowledgeportal.worldbank.org/",
+     "checked": "2026-11-01",
+     "supports": "monthly average temperature and rainfall, 1991 to 2020"
     }
-   ]
+   ],
+   "climate": "Wettest: January, February and April. Driest: June, July and September. Hottest: February (26.6°C average). Coolest: August (22.9°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "culture-cycles": {
    "status": "partly-mapped",
