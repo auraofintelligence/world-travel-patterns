@@ -288,3 +288,13 @@ Cannabis rules from state and provincial regulators and statutes:
 **Also:** FCDO local-law records for Aruba (aw) and Curaçao (cw). FCDO has no laws section for the French overseas departments (gf, gp, mq, re, yt) or for io.
 
 **Year-ahead:** the K-ETA (kr) and China waiver (cn) expiries on 31 December 2026 are already in year-ahead through `data/watch.json`. ETIAS has no official start date: the EU site says it is "not in operation" and the date will be announced months ahead. So there's no dated event; recheck in early 2027.
+
+## 2026-11-01 18:15 AEST, Grok: states and regions, local-law (id/bali)
+
+id/bali local-law comes from Governor's Circular 4/2023 on how foreign tourists must behave. Prohibitions 2f to 2h were read directly from the PDF (abuse or aggression including online, working without documents, trading in illegal goods, artefacts or drugs). The dos and don'ts summary (temple main areas, sacred trees, modest dress, licensed guides and money changers, paying in rupiah) came from a Bali Tourism Office snapshot.
+
+**Where to resume:**
+- States and regions: more US states (Massachusetts and Illinois need direct statute reads), Phuket, Goa, Hawaii local-law.
+- Culture: places with no Smartraveller "Local customs" section need own-community sources.
+- Leftovers: re-run FCDO for sh (title alias) and va.
+- "Do not travel" places stay last.
