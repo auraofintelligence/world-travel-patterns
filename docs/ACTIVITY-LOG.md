@@ -802,3 +802,7 @@ Docs only: handoff section rewritten with today's activity passes, the Liechtens
 ## 2026-11-01 20:31 AEST, Grok: Volunteering rules: ca, ie, mx, th, fi, se, dk, no, kr, mt, hr, hu, cz (13 records)
 
 Volunteering checks from official sources: Mexico visitor status covers unpaid activity (180 days); Canada allows incidental volunteering that is not 'work'; Thailand needs an O visa and work permit even unpaid; Ireland's short stay excludes volunteering, the scheme is over 3 months; Denmark volunteer permit only ages 18 to 30; Finland, Norway, Malta via programmes; Sweden visitor's permit; Croatia, Hungary, Czechia permits; Korea not named (confirm). Read via search-index snapshots.
+
+## 2026-11-01 20:32 AEST, Grok: Volunteering rules for EU states (bg, ee, lt, lu, lv, ro, sk, pl) and Canada source fix (9 records)
+
+Volunteering checks from the European Commission EU Immigration Portal (read directly): Slovakia allows 90 days without residence if reported to the Foreign Police within 3 working days; Latvia ages 18 to 30 only; Bulgaria, Estonia, Lithuania, Poland via European or recognised programmes; Luxembourg and Romania need authorisation before arrival. Slovenia's page has no information (left open). Fix: e802e79 cited a third-party mirror (migova.ca) for Canada's charitable versus volunteer guidance; replaced with the canada.ca original (read directly).
