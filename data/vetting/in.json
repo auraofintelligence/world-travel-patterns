@@ -841,6 +841,136 @@
    ],
    "notes": "Signals until the country's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "visa-preparation": {
+   "status": "imported",
+   "checked": "2026-08-20",
+   "last_reviewed": "2026-08-20",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "fastest_entry": "Official e-Tourist for tourism and personal reconnaissance; e-Business for meetings, trade and venture discovery",
+   "before_departure": "Apply through the official Indian eVisa portal and match the selected purpose to the first trip.",
+   "useful_stay": "30-day e-Tourist, longer one- and five-year tourist options, or 365-day multiple-entry e-Business with per-visit limits.",
+   "host_unlock": "An organiser can support e-Conference, a cultural-event Business route, GIAN lecture documents or an Employment visa, depending on the engagement.",
+   "documents": [
+    "Approved Electronic Travel Authorisation",
+    "Passport used in the application",
+    "Host or conference invitation",
+    "Activity, fee and sales breakdown"
+   ],
+   "steps": [
+    "Choose e-Tourist for tourism and personal reconnaissance, or e-Business for meetings, trade and venture discovery.",
+    "Secure the organiser or institution invitation for any programmed appearance.",
+    "Split cultural appearance, consulting, teaching, rights meetings and sales.",
+    "Use the official eVisa portal where the purpose is supported; use a regular Mission-led visa for Employment or X-Misc.",
+    "Carry the electronic approval and the passport used in the application."
+   ],
+   "open_questions": [
+    "Is the speaker a conference delegate, cultural participant or contracted professional?",
+    "Is the lecture inside the Government's GIAN program?",
+    "Who receives book-sale revenue, and is any direct retail excluded as petty trade?",
+    "If Employment applies, which current remuneration threshold does the Mission use?",
+    "Does the current eVisa portal label the conference option consistently for this event?"
+   ],
+   "sources": [
+    {
+     "title": "Official Indian eVisa portal",
+     "authority": "Government of India",
+     "url": "https://www.indianvisaonline.gov.in/evisa/tvoa.html",
+     "checked": "2026-08-20",
+     "supports": "eligibility, eVisa purposes, validity and application"
+    },
+    {
+     "title": "Details of visas granted by India",
+     "authority": "Ministry of Home Affairs",
+     "url": "https://www.mha.gov.in/PDF_Other/AnnexIII_01022018.pdf",
+     "checked": "2026-08-20",
+     "supports": "business, cultural event, X-Misc and employment distinctions"
+    },
+    {
+     "title": "Work-related visa FAQs",
+     "authority": "Ministry of Home Affairs",
+     "url": "https://www.mha.gov.in/sites/default/files/2022-07/ForeigD-work_visa_faq.pdf",
+     "checked": "2026-08-20",
+     "supports": "employment and contracted-service rules"
+    },
+    {
+     "title": "Regular visa provision table",
+     "authority": "Bureau of Immigration India",
+     "url": "https://www.indianvisaonline.gov.in/visa/visa-provision.html",
+     "checked": "2026-08-20",
+     "supports": "regular visa categories, indicative validity and application documents"
+    },
+    {
+     "title": "Doing Business in India 2025–2026",
+     "authority": "Invest India",
+     "url": "https://static.investindia.gov.in/s3fs-public/2025-10/doing_business_in_india_investor_s_guide_at_a_glance_2025-26.pdf",
+     "checked": "2026-08-20",
+     "supports": "venture and investment structures"
+    },
+    {
+     "title": "Bengaluru Tech Summit 2026",
+     "authority": "Government of Karnataka and event partners",
+     "url": "https://www.bengalurutechsummit.com/index.php",
+     "checked": "2026-08-20",
+     "supports": "English technology opportunity signal"
+    },
+    {
+     "title": "New Delhi World Book Fair 2026",
+     "authority": "Press Information Bureau, Government of India",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2213262&lang=1&reg=6",
+     "checked": "2026-08-20",
+     "supports": "large international publishing, author and speaker opportunity signal"
+    },
+    {
+     "title": "Jaipur Literature Festival",
+     "authority": "Festival organiser",
+     "url": "https://jlflitfest.org/about-jlf",
+     "checked": "2026-08-20",
+     "supports": "literary and author opportunity signal"
+    }
+   ],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/data.js",
+    "country_id": "india",
+    "claims": {
+     "steps": {
+      "id": "IND-ROUTE-BUILDER",
+      "checked": "2026-08-20"
+     },
+     "open_questions": {
+      "id": "IND-ROUTE-EDGES",
+      "checked": "2026-08-20"
+     },
+     "fastest_entry": {
+      "id": "IND-LAUNCH-FASTEST-ENTRY",
+      "checked": "2026-08-20"
+     },
+     "before_departure": {
+      "id": "IND-LAUNCH-BEFORE-DEPARTURE",
+      "checked": "2026-08-20"
+     },
+     "useful_stay": {
+      "id": "IND-LAUNCH-USEFUL-STAY",
+      "checked": "2026-08-20"
+     },
+     "host_unlock": {
+      "id": "IND-LAUNCH-HOST-UNLOCK",
+      "checked": "2026-08-20"
+     },
+     "documents": {
+      "id": "IND-LAUNCH-QUICK-PACKET",
+      "checked": "2026-08-20"
+     }
+    }
+   },
+   "cost_aud_baseline": {
+    "value": "~ $120",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-INDIA-COST"
+   }
   }
  }
 }

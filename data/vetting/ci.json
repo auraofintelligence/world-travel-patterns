@@ -576,6 +576,31 @@
    ],
    "notes": "Signals until the country's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "visa-preparation": {
+   "status": "baseline-only",
+   "checked": "2026-08-20",
+   "last_reviewed": "2026-08-20",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "entry_summary": "Visa required. Apply through the Ivorian Embassy or the official eVisa route before arrival.",
+   "cost_aud_baseline": {
+    "value": "Official fee applies",
+    "checked": "2026-08-20",
+    "claim_id": "WORLD-COTE-DIVOIRE-COST"
+   },
+   "steps": [],
+   "documents": [],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/world-baseline.js",
+    "claims": {
+     "entry_summary": "WORLD-COTE-DIVOIRE-ENTRY",
+     "cost": "WORLD-COTE-DIVOIRE-COST"
+    },
+    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   }
   }
  }
 }

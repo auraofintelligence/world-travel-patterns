@@ -756,6 +756,171 @@
    ],
    "notes": "Signals until the country's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "visa-preparation": {
+   "status": "imported",
+   "checked": "2026-08-20",
+   "last_reviewed": "2026-08-20",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "fastest_entry": "30-day visa-free entry for tourism or temporary business",
+   "before_departure": "Complete the official eTravel registration within 72 hours before arrival and carry onward travel.",
+   "useful_stay": "30 days initially, with published visitor-extension pathways for a longer stay.",
+   "host_unlock": "A Philippine organiser can ask BI to classify the engagement. Commercial SWP is currently published for three-to-six-month work, while an older checklist names lecturers, trainers and consultants. Day or week appearances need written BI confirmation; artists have a separate under-six-month SWP.",
+   "documents": [
+    "Passport valid at least six months beyond the stay",
+    "Return or onward ticket",
+    "eTravel registration",
+    "Invitation and Philippine host details"
+   ],
+   "steps": [
+    "Take the 30-day visa-free front door when the trip begins as tourism, meetings or conference attendance.",
+    "Choose one Philippine lead host for an active tour.",
+    "List every talk, workshop, reading, performance, venue and payment source.",
+    "For any sub-three-month professional engagement, have the host obtain BI's route classification in writing.",
+    "Use local publishers, distributors and event operators for retail and local commercial handling."
+   ],
+   "open_questions": [
+    "Is the event attendance only, or does Luke join the program?",
+    "What route does BI confirm for an engagement shorter than the published three-month Commercial SWP minimum?",
+    "Will books be sold by a Philippine publisher or directly by the traveller?",
+    "Is AI teaching a short service, employment or formal exchange?",
+    "Has the Mission confirmed both a live DNV application channel and Australian reciprocity?"
+   ],
+   "sources": [
+    {
+     "title": "Visa information for Australians",
+     "authority": "Embassy of the Philippines in Canberra",
+     "url": "https://www.philembassy.org.au/consular/visa",
+     "checked": "2026-08-20",
+     "supports": "30-day visa-free entry"
+    },
+    {
+     "title": "eTravel frequently asked questions",
+     "authority": "Philippine One-Stop Electronic Travel Declaration System",
+     "url": "https://etravel.gov.ph/en/frequently-asked-questions",
+     "checked": "2026-08-20",
+     "supports": "arrival registration window"
+    },
+    {
+     "title": "Bureau of Immigration frequently asked questions",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/faqs/",
+     "checked": "2026-08-20",
+     "supports": "temporary business and longer employment"
+    },
+    {
+     "title": "Special Work Permit checklist",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/wp-content/uploads/pdf/07%20Special%20Permits%20Certifiacte%20%26%20Clearance/SWP_Commercial2020.pdf",
+     "checked": "2026-08-20",
+     "supports": "older category list for lecturers, trainers and consultants with or without compensation"
+    },
+    {
+     "title": "Commercial Special Work Permit",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/services/special-work-permit-commercial/",
+     "checked": "2026-08-20",
+     "supports": "current three-to-six-month duration and application route"
+    },
+    {
+     "title": "Artist and athlete Special Work Permit",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/services/special-work-permit-commercial-2/",
+     "checked": "2026-08-20",
+     "supports": "paid artist and performer route"
+    },
+    {
+     "title": "Executive Order No. 86: Digital Nomad Visa",
+     "authority": "Supreme Court E-Library / Office of the President",
+     "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/98965",
+     "checked": "2026-08-20",
+     "supports": "DNV authority and conditions"
+    },
+    {
+     "title": "Special Investor's Resident Visa FAQ",
+     "authority": "Philippine Board of Investments",
+     "url": "https://www.boi.gov.ph/wp-content/uploads/2023/08/SIRV-FAQ-ao-2023-v.pdf",
+     "checked": "2026-08-20",
+     "supports": "investor age, capital and residence"
+    },
+    {
+     "title": "Pre-arranged Employment Visa 9(g)",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/pre-4-arranged-employment-visa-9g/",
+     "checked": "2026-08-20",
+     "supports": "longer compensated employment route"
+    },
+    {
+     "title": "Alien Employment Regulation",
+     "authority": "Philippine Department of Labor and Employment",
+     "url": "https://ble.dole.gov.ph/alien-employment-regulation/",
+     "checked": "2026-08-20",
+     "supports": "AEP and long-term foreign employment layer"
+    },
+    {
+     "title": "Special Visa for Employment Generation",
+     "authority": "Philippine Bureau of Immigration",
+     "url": "https://immigration.gov.ph/visas/special-visa-for-employment-generation/",
+     "checked": "2026-08-20",
+     "supports": "ten-worker SVEG requirement"
+    },
+    {
+     "title": "Manila International Book Fair",
+     "authority": "Event organiser",
+     "url": "https://www.manilabookfair.com/about",
+     "checked": "2026-08-20",
+     "supports": "publishing opportunity signal"
+    },
+    {
+     "title": "AICon Manila",
+     "authority": "Analytics and AI Association of the Philippines",
+     "url": "https://aicon.aap.ph/",
+     "checked": "2026-08-20",
+     "supports": "AI conference opportunity signal"
+    }
+   ],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/data.js",
+    "country_id": "philippines",
+    "claims": {
+     "steps": {
+      "id": "PHL-ROUTE-BUILDER",
+      "checked": "2026-08-20"
+     },
+     "open_questions": {
+      "id": "PHL-ROUTE-EDGES",
+      "checked": "2026-08-20"
+     },
+     "fastest_entry": {
+      "id": "PHL-LAUNCH-FASTEST-ENTRY",
+      "checked": "2026-08-20"
+     },
+     "before_departure": {
+      "id": "PHL-LAUNCH-BEFORE-DEPARTURE",
+      "checked": "2026-08-20"
+     },
+     "useful_stay": {
+      "id": "PHL-LAUNCH-USEFUL-STAY",
+      "checked": "2026-08-20"
+     },
+     "host_unlock": {
+      "id": "PHL-LAUNCH-HOST-UNLOCK",
+      "checked": "2026-08-20"
+     },
+     "documents": {
+      "id": "PHL-LAUNCH-QUICK-PACKET",
+      "checked": "2026-08-20"
+     }
+    }
+   },
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-PHILIPPINES-COST"
+   }
   }
  }
 }

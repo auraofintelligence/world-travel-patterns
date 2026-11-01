@@ -556,6 +556,31 @@
     }
    ],
    "climate": "Wettest: May, June and July. Driest: January, February and December. Hottest: August (20.3°C average). Coolest: January (-2.5°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
+  },
+  "visa-preparation": {
+   "status": "baseline-only",
+   "checked": "2025-08-16",
+   "last_reviewed": "2025-08-16",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "entry_summary": "Visa-free for business visits up to 1 year.",
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-GEORGIA-COST"
+   },
+   "steps": [],
+   "documents": [],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/world-baseline.js",
+    "claims": {
+     "entry_summary": "WORLD-GEORGIA-ENTRY",
+     "cost": "WORLD-GEORGIA-COST"
+    },
+    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   }
   }
  }
 }

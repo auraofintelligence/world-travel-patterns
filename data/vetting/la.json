@@ -639,6 +639,31 @@
    ],
    "notes": "Signals until the country's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "visa-preparation": {
+   "status": "baseline-only",
+   "checked": "2025-08-16",
+   "last_reviewed": "2025-08-16",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "entry_summary": "e-Visa or visa on arrival available.",
+   "cost_aud_baseline": {
+    "value": "~ $75",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-LAOS-COST"
+   },
+   "steps": [],
+   "documents": [],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/world-baseline.js",
+    "claims": {
+     "entry_summary": "WORLD-LAOS-ENTRY",
+     "cost": "WORLD-LAOS-COST"
+    },
+    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   }
   }
  }
 }

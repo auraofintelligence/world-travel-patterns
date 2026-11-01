@@ -571,6 +571,31 @@
     }
    ],
    "climate": "Wettest: March, April and May. Driest: July, August and September. Hottest: July (16.2°C average). Coolest: January (-9.5°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
+  },
+  "visa-preparation": {
+   "status": "baseline-only",
+   "checked": "2025-08-16",
+   "last_reviewed": "2025-08-16",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "entry_summary": "e-Visa required in advance.",
+   "cost_aud_baseline": {
+    "value": "~ $75",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-TAJIKISTAN-COST"
+   },
+   "steps": [],
+   "documents": [],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/world-baseline.js",
+    "claims": {
+     "entry_summary": "WORLD-TAJIKISTAN-ENTRY",
+     "cost": "WORLD-TAJIKISTAN-COST"
+    },
+    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   }
   }
  }
 }

@@ -538,6 +538,31 @@
     }
    ],
    "climate": "Wettest: June, July and August. Driest: February, March and April. Hottest: July (18.3°C average). Coolest: January (-3.3°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
+  },
+  "visa-preparation": {
+   "status": "baseline-only",
+   "checked": "2025-08-16",
+   "last_reviewed": "2025-08-16",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "entry_summary": "Visa-free (Schengen Area).",
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-LITHUANIA-COST"
+   },
+   "steps": [],
+   "documents": [],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/world-baseline.js",
+    "claims": {
+     "entry_summary": "WORLD-LITHUANIA-ENTRY",
+     "cost": "WORLD-LITHUANIA-COST"
+    },
+    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   }
   }
  }
 }

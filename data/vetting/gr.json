@@ -733,6 +733,108 @@
    ],
    "notes": "Signals until the country's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "visa-preparation": {
+   "status": "imported",
+   "checked": "2026-08-21",
+   "last_reviewed": "2026-08-21",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
+   "before_departure": "Check the Greek mission, Schengen day count, invitation and any local work days.",
+   "useful_stay": "Short stay is the fast key; residence and work routes need preparation.",
+   "host_unlock": "A Greek university, employer, promoter or event organiser can clarify the activity and supporting documents.",
+   "documents": [
+    "Australian passport and Schengen day-count",
+    "Greek host/invitation or event ticket",
+    "Role, payment and reimbursement statement",
+    "Insurance, accommodation and funds"
+   ],
+   "steps": [
+    "Check Schengen eligibility and day count.",
+    "Get host/event documentation.",
+    "Separate attendance from delivery and payment.",
+    "Check digital-nomad or work residence if staying longer.",
+    "Confirm Greek tax, insurance and local-sales issues."
+   ],
+   "open_questions": [
+    "Is the host Greek or foreign?",
+    "Will any Greek entity pay or contract?",
+    "Does the digital-nomad route exclude the proposed activity?",
+    "Are performance and book sales covered?",
+    "Which Greek authority confirms the category?"
+   ],
+   "sources": [
+    {
+     "title": "Visas: Greece in Australia",
+     "authority": "Hellenic Ministry of Foreign Affairs",
+     "url": "https://www.mfa.gr/australia/en/services/visas/",
+     "checked": "2026-08-21",
+     "supports": "Australian visa and Schengen application guidance"
+    },
+    {
+     "title": "Migration policy",
+     "authority": "Greek Ministry of Migration and Asylum",
+     "url": "https://migration.gov.gr/en/migration-policy/",
+     "checked": "2026-08-21",
+     "supports": "residence and migration framework"
+    },
+    {
+     "title": "Investment in Greece",
+     "authority": "Enterprise Greece",
+     "url": "https://enterprisegreece.gov.gr/en/invest-in-greece/",
+     "checked": "2026-08-21",
+     "supports": "investment and business opportunity context"
+    },
+    {
+     "title": "Greek tax authority",
+     "authority": "Independent Authority for Public Revenue",
+     "url": "https://www.aade.gr/",
+     "checked": "2026-08-21",
+     "supports": "tax and local economic activity check"
+    }
+   ],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/data.js",
+    "country_id": "greece",
+    "claims": {
+     "steps": {
+      "id": "GRC-ROUTE-BUILDER",
+      "checked": "2026-08-21"
+     },
+     "open_questions": {
+      "id": "GRC-ROUTE-EDGES",
+      "checked": "2026-08-21"
+     },
+     "fastest_entry": {
+      "id": "GRC-LAUNCH-FASTEST-ENTRY",
+      "checked": "2026-08-21"
+     },
+     "before_departure": {
+      "id": "GRC-LAUNCH-BEFORE-DEPARTURE",
+      "checked": "2026-08-21"
+     },
+     "useful_stay": {
+      "id": "GRC-LAUNCH-USEFUL-STAY",
+      "checked": "2026-08-21"
+     },
+     "host_unlock": {
+      "id": "GRC-LAUNCH-HOST-UNLOCK",
+      "checked": "2026-08-21"
+     },
+     "documents": {
+      "id": "GRC-LAUNCH-QUICK-PACKET",
+      "checked": "2026-08-21"
+     }
+    }
+   },
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-GREECE-COST"
+   }
   }
  }
 }

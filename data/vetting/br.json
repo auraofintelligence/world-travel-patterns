@@ -696,6 +696,115 @@
    ],
    "notes": "Signals until the country's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "visa-preparation": {
+   "status": "imported",
+   "checked": "2026-08-21",
+   "last_reviewed": "2026-08-21",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "fastest_entry": "Electronic VIVIS visitor visa for Australian passports",
+   "before_departure": "Apply through the official eVisa channel, check the consular jurisdiction and keep a printed copy with the itinerary.",
+   "useful_stay": "VIVIS is generally up to 90 days and may be extendable once; active paid work needs a VITEM or residence authorisation.",
+   "host_unlock": "A Brazilian employer, institution, producer or immigration sponsor initiates the relevant temporary visa/residence process.",
+   "documents": [
+    "Brazil eVisa and passport",
+    "Flight/financial evidence",
+    "Host letter or business letter",
+    "Portuguese/English role and payment statement"
+   ],
+   "steps": [
+    "Apply for the Brazilian eVisa early.",
+    "Carry business/conference or host evidence.",
+    "Keep visitor activity non-remunerated.",
+    "Let sponsors lead VITEM work/research/cultural applications.",
+    "Use VITEM XIV only for foreign remote work."
+   ],
+   "open_questions": [
+    "Is the activity remunerated in Brazil?",
+    "Does technical assistance turn a visit into work?",
+    "Is the host a university, employer or producer?",
+    "Are books and merchandise imported or sold locally?",
+    "Does the VIVIS stay/extension still fit the itinerary?"
+   ],
+   "sources": [
+    {
+     "title": "Electronic visitor visa (e-Visa)",
+     "authority": "Brazilian Ministry of Foreign Affairs",
+     "url": "https://www.gov.br/mre/pt-br/consulado-sao-francisco/electronic-visitor-visa-e-visa",
+     "checked": "2026-08-21",
+     "supports": "Australian eVisa requirement and VIVIS business/tourism"
+    },
+    {
+     "title": "Visitor visa (VIVIS)",
+     "authority": "Brazilian Ministry of Foreign Affairs",
+     "url": "https://www.gov.br/mre/pt-br/consulado-zurique/deutsch/visa-english-1/vivis_en",
+     "checked": "2026-08-21",
+     "supports": "90-day visitor purposes and paid-work prohibition"
+    },
+    {
+     "title": "VITEM V: work",
+     "authority": "Brazilian Consulate-General in Sydney",
+     "url": "https://www.gov.br/mre/pt-br/consulado-sydney/servicos-consulares/visas/types-of-visas/vitem/vitem-v-work",
+     "checked": "2026-08-21",
+     "supports": "sponsor-led work visa"
+    },
+    {
+     "title": "VITEM XIV: digital nomad",
+     "authority": "Brazilian Ministry of Foreign Affairs",
+     "url": "https://www.gov.br/mre/pt-br/embaixada-windhoek/english/consular-services/visas-1/vitem-xiv-digital-nomad",
+     "checked": "2026-08-21",
+     "supports": "foreign-employer remote-work route"
+    },
+    {
+     "title": "Digital nomad information folder",
+     "authority": "Brazilian Ministry of Justice and Public Security",
+     "url": "https://portaldeimigracao.mj.gov.br/images/Informativos_Publica%C3%A7%C3%A3o/FOLDER_INGLES.pdf",
+     "checked": "2026-08-21",
+     "supports": "income and residence evidence"
+    }
+   ],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/data.js",
+    "country_id": "brazil",
+    "claims": {
+     "steps": {
+      "id": "BRA-ROUTE-BUILDER",
+      "checked": "2026-08-21"
+     },
+     "open_questions": {
+      "id": "BRA-ROUTE-EDGES",
+      "checked": "2026-08-21"
+     },
+     "fastest_entry": {
+      "id": "BRA-LAUNCH-FASTEST-ENTRY",
+      "checked": "2026-08-21"
+     },
+     "before_departure": {
+      "id": "BRA-LAUNCH-BEFORE-DEPARTURE",
+      "checked": "2026-08-21"
+     },
+     "useful_stay": {
+      "id": "BRA-LAUNCH-USEFUL-STAY",
+      "checked": "2026-08-21"
+     },
+     "host_unlock": {
+      "id": "BRA-LAUNCH-HOST-UNLOCK",
+      "checked": "2026-08-21"
+     },
+     "documents": {
+      "id": "BRA-LAUNCH-QUICK-PACKET",
+      "checked": "2026-08-21"
+     }
+    }
+   },
+   "cost_aud_baseline": {
+    "value": "~ $120",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-BRAZIL-COST"
+   }
   }
  }
 }

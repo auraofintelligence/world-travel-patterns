@@ -618,6 +618,108 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "visa-preparation": {
+   "status": "imported",
+   "checked": "2026-08-21",
+   "last_reviewed": "2026-08-21",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
+   "before_departure": "Check SEM entry rules, Schengen day count, host canton and whether any days of work are planned.",
+   "useful_stay": "Visitor entry is useful for scouting and attendance; local work requires cantonal/federal approval.",
+   "host_unlock": "A Swiss employer, university, conference or promoter must explain the role and seek any notification or permit.",
+   "documents": [
+    "Australian passport and Schengen day-count",
+    "Swiss host/canton and venue",
+    "Invitation or contract with role and fee",
+    "Funds, insurance and onward plan"
+   ],
+   "steps": [
+    "Check SEM entry and Schengen days.",
+    "Identify canton and host type.",
+    "Separate delegate, speaker, teacher, seller and performer roles.",
+    "Let the Swiss host confirm notification or permit.",
+    "Keep remote work and Swiss work as separate tracks."
+   ],
+   "open_questions": [
+    "Which canton and language region?",
+    "Foreign employer or Swiss engager?",
+    "Is any fee, prize or expense support paid?",
+    "Is the activity short enough for notification?",
+    "Will Swiss customers or venues be served?"
+   ],
+   "sources": [
+    {
+     "title": "Visa application procedure",
+     "authority": "State Secretariat for Migration",
+     "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/visumantragsverfahren.html",
+     "checked": "2026-08-21",
+     "supports": "Swiss entry and visa framework"
+    },
+    {
+     "title": "Working in Switzerland",
+     "authority": "State Secretariat for Migration",
+     "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit.html",
+     "checked": "2026-08-21",
+     "supports": "work, notification and permit framework"
+    },
+    {
+     "title": "Working in Switzerland",
+     "authority": "Swiss Confederation",
+     "url": "https://www.ch.ch/en/foreign-nationals-in-switzerland/working-in-switzerland/",
+     "checked": "2026-08-21",
+     "supports": "plain-language work guidance"
+    },
+    {
+     "title": "Swiss representation in Australia: entry",
+     "authority": "Federal Department of Foreign Affairs",
+     "url": "https://www.eda.admin.ch/countries/australia/en/home/visa/entry-ch.html",
+     "checked": "2026-08-21",
+     "supports": "Australia-specific consular entry guidance"
+    }
+   ],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/data.js",
+    "country_id": "switzerland",
+    "claims": {
+     "steps": {
+      "id": "CHE-ROUTE-BUILDER",
+      "checked": "2026-08-21"
+     },
+     "open_questions": {
+      "id": "CHE-ROUTE-EDGES",
+      "checked": "2026-08-21"
+     },
+     "fastest_entry": {
+      "id": "CHE-LAUNCH-FASTEST-ENTRY",
+      "checked": "2026-08-21"
+     },
+     "before_departure": {
+      "id": "CHE-LAUNCH-BEFORE-DEPARTURE",
+      "checked": "2026-08-21"
+     },
+     "useful_stay": {
+      "id": "CHE-LAUNCH-USEFUL-STAY",
+      "checked": "2026-08-21"
+     },
+     "host_unlock": {
+      "id": "CHE-LAUNCH-HOST-UNLOCK",
+      "checked": "2026-08-21"
+     },
+     "documents": {
+      "id": "CHE-LAUNCH-QUICK-PACKET",
+      "checked": "2026-08-21"
+     }
+    }
+   },
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-SWITZERLAND-COST"
+   }
   }
  },
  "retired_sources": [

@@ -763,6 +763,108 @@
    ],
    "notes": "Signals until the country's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "visa-preparation": {
+   "status": "imported",
+   "checked": "2026-08-21",
+   "last_reviewed": "2026-08-21",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "fastest_entry": "Visa-exempt visitor entry for Australians, with stay length set at the border",
+   "before_departure": "Check current SRE/INM entry guidance, passport validity, return/onward evidence and the stated purpose.",
+   "useful_stay": "Visitor permission can be generous but is not a work permit; temporary residence is the longer base.",
+   "host_unlock": "A Mexican employer or institution can request a work-authorisation visa; a host invitation can support unpaid or academic activity.",
+   "documents": [
+    "Australian passport and onward plan",
+    "Accommodation and financial evidence",
+    "Spanish/English host letter",
+    "Role, payment and local-client statement"
+   ],
+   "steps": [
+    "Check current SRE/INM nationality and entry rules.",
+    "Carry a Spanish/English purpose letter.",
+    "Separate unpaid activity from local remuneration.",
+    "Have a Mexican employer request work authorisation where needed.",
+    "Check tax, customs and local-sales implications."
+   ],
+   "open_questions": [
+    "What stay length did the officer authorise?",
+    "Who pays and where is the service delivered?",
+    "Is the invitation unpaid, reimbursed or remunerated?",
+    "Is temporary residence more accurate than repeated visitor entry?",
+    "Are Spanish translations and Mexican tax registration required?"
+   ],
+   "sources": [
+    {
+     "title": "Visas for foreigners",
+     "authority": "Secretariat of Foreign Affairs (SRE), Mexico",
+     "url": "https://www.gob.mx/sre/acciones-y-programas/visas-para-extranjeros",
+     "checked": "2026-08-21",
+     "supports": "visa and visitor categories"
+    },
+    {
+     "title": "Autonomous immigration filters and eligible nationalities",
+     "authority": "National Institute of Migration (INM), Mexico",
+     "url": "https://www.gob.mx/inm/es/articulos/filtros-migratorios-autonomos-del-inm-requisitos-y-nacionalidades-que-pueden-utilizarlos?idiom=es",
+     "checked": "2026-08-21",
+     "supports": "Australian visitor entry signal"
+    },
+    {
+     "title": "FAQ: visa by job offer",
+     "authority": "National Institute of Migration (INM), Mexico",
+     "url": "https://www.gob.mx/inm/documentos/preguntas-frecuentes-para-solicitar-visa-por-oferta-de-empleo",
+     "checked": "2026-08-21",
+     "supports": "employer-led paid work route"
+    },
+    {
+     "title": "Mexican Embassy in Australia: business visa requirements",
+     "authority": "Embassy of Mexico in Australia",
+     "url": "https://embamex.sre.gob.mx/australia/images/stories/businessvisarequirements",
+     "checked": "2026-08-21",
+     "supports": "business documentation and consular evidence"
+    }
+   ],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/data.js",
+    "country_id": "mexico",
+    "claims": {
+     "steps": {
+      "id": "MEX-ROUTE-BUILDER",
+      "checked": "2026-08-21"
+     },
+     "open_questions": {
+      "id": "MEX-ROUTE-EDGES",
+      "checked": "2026-08-21"
+     },
+     "fastest_entry": {
+      "id": "MEX-LAUNCH-FASTEST-ENTRY",
+      "checked": "2026-08-21"
+     },
+     "before_departure": {
+      "id": "MEX-LAUNCH-BEFORE-DEPARTURE",
+      "checked": "2026-08-21"
+     },
+     "useful_stay": {
+      "id": "MEX-LAUNCH-USEFUL-STAY",
+      "checked": "2026-08-21"
+     },
+     "host_unlock": {
+      "id": "MEX-LAUNCH-HOST-UNLOCK",
+      "checked": "2026-08-21"
+     },
+     "documents": {
+      "id": "MEX-LAUNCH-QUICK-PACKET",
+      "checked": "2026-08-21"
+     }
+    }
+   },
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-MEXICO-COST"
+   }
   }
  },
  "retired_sources": [

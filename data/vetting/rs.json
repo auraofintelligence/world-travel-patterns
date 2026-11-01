@@ -576,6 +576,31 @@
    ],
    "notes": "Signals until the country's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "visa-preparation": {
+   "status": "baseline-only",
+   "checked": "2025-08-16",
+   "last_reviewed": "2025-08-16",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "entry_summary": "Visa-free for business visits up to 90 days.",
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-SERBIA-COST"
+   },
+   "steps": [],
+   "documents": [],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/world-baseline.js",
+    "claims": {
+     "entry_summary": "WORLD-SERBIA-ENTRY",
+     "cost": "WORLD-SERBIA-COST"
+    },
+    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   }
   }
  }
 }

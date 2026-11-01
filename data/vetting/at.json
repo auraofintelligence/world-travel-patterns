@@ -652,6 +652,108 @@
     }
    ],
    "climate": "Wettest: June, July and August. Driest: January, February and December. Hottest: July (17.0°C average). Coolest: January (-2.1°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
+  },
+  "visa-preparation": {
+   "status": "imported",
+   "checked": "2026-08-21",
+   "last_reviewed": "2026-08-21",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
+   "before_departure": "Check Austrian entry rules and the host's province, contract and planned activity.",
+   "useful_stay": "Short visitor entry works for scouting and attendance; residence/work routes take longer.",
+   "host_unlock": "An Austrian employer, university, promoter or startup support body can lead the permit or residence process.",
+   "documents": [
+    "Australian passport and Schengen day-count",
+    "Vienna/province host letter",
+    "Activity, fee and contract details",
+    "Insurance, accommodation and funds"
+   ],
+   "steps": [
+    "Check Schengen visitor eligibility.",
+    "Identify the province and host.",
+    "Separate attendance from delivery.",
+    "Choose work, artist, researcher, startup or key-worker route.",
+    "Check German/English translation and legalisation needs."
+   ],
+   "open_questions": [
+    "Is this a conference visit or paid delivery?",
+    "Does the artist route fit the contract length?",
+    "Is the founder project economically significant?",
+    "Will local clients be served?",
+    "Which authority and province leads?"
+   ],
+   "sources": [
+    {
+     "title": "Entry and residence in Austria",
+     "authority": "Austrian Embassy Canberra",
+     "url": "https://www.bmeia.gv.at/en/austrian-embassy-canberra/travel-to-austria/entry-and-residence/",
+     "checked": "2026-08-21",
+     "supports": "Australia-specific entry and residence guidance"
+    },
+    {
+     "title": "Permanent immigration",
+     "authority": "Migration.gv.at",
+     "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/",
+     "checked": "2026-08-21",
+     "supports": "Red-White-Red, startup and key-worker routes"
+    },
+    {
+     "title": "Other forms of settlement",
+     "authority": "Migration.gv.at",
+     "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/other-forms-of-settlement/",
+     "checked": "2026-08-21",
+     "supports": "artist settlement permit"
+    },
+    {
+     "title": "Act Governing the Employment of Foreign Nationals",
+     "authority": "Migration.gv.at",
+     "url": "https://www.migration.gv.at/fileadmin/downloads/gesetzestexte/AuslBG_englisch_1_10_2017.pdf",
+     "checked": "2026-08-21",
+     "supports": "employment and work-permission boundary"
+    }
+   ],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/data.js",
+    "country_id": "austria",
+    "claims": {
+     "steps": {
+      "id": "AUT-ROUTE-BUILDER",
+      "checked": "2026-08-21"
+     },
+     "open_questions": {
+      "id": "AUT-ROUTE-EDGES",
+      "checked": "2026-08-21"
+     },
+     "fastest_entry": {
+      "id": "AUT-LAUNCH-FASTEST-ENTRY",
+      "checked": "2026-08-21"
+     },
+     "before_departure": {
+      "id": "AUT-LAUNCH-BEFORE-DEPARTURE",
+      "checked": "2026-08-21"
+     },
+     "useful_stay": {
+      "id": "AUT-LAUNCH-USEFUL-STAY",
+      "checked": "2026-08-21"
+     },
+     "host_unlock": {
+      "id": "AUT-LAUNCH-HOST-UNLOCK",
+      "checked": "2026-08-21"
+     },
+     "documents": {
+      "id": "AUT-LAUNCH-QUICK-PACKET",
+      "checked": "2026-08-21"
+     }
+    }
+   },
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-AUSTRIA-COST"
+   }
   }
  },
  "retired_sources": [

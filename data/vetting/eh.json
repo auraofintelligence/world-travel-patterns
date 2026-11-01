@@ -244,6 +244,31 @@
    ],
    "notes": "Signals until the country's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "visa-preparation": {
+   "status": "baseline-only",
+   "checked": "2026-08-20",
+   "last_reviewed": "2026-08-20",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "entry_summary": "Moroccan-administered areas use Moroccan entry rules; Australians are visa-exempt for tourism up to three months. Access east or south of the Berm is a separate route.",
+   "cost_aud_baseline": {
+    "value": "Free under Moroccan visa exemption",
+    "checked": "2026-08-20",
+    "claim_id": "WORLD-WESTERN-SAHARA-COST"
+   },
+   "steps": [],
+   "documents": [],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/world-baseline.js",
+    "claims": {
+     "entry_summary": "WORLD-WESTERN-SAHARA-ENTRY",
+     "cost": "WORLD-WESTERN-SAHARA-COST"
+    },
+    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   }
   }
  }
 }

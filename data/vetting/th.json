@@ -848,6 +848,157 @@
    ],
    "notes": "Signals until the country's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "visa-preparation": {
+   "status": "imported",
+   "checked": "2026-08-20",
+   "last_reviewed": "2026-08-20",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "fastest_entry": "Current visa exemption shown as up to 60 days for tourism and short-term business",
+   "before_departure": "Submit the Thailand Digital Arrival Card within three days before arrival and live-check whether the approved 30-day policy has commenced.",
+   "useful_stay": "Current pages show up to 60 days with a possible 30-day extension; the announced replacement would be 30 days and tourism-only.",
+   "host_unlock": "A Thai organiser may use an accepted WP.34 urgent/ad-hoc notification for a short lecture, or sponsor Non-B plus work permit for a planned tour.",
+   "documents": [
+    "Australian passport",
+    "Thailand Digital Arrival Card",
+    "Onward travel and accommodation",
+    "Invitation with role, fee and dates"
+   ],
+   "steps": [
+    "Live-check whether the 60-day exemption or announced 30-day replacement applies.",
+    "Complete TDAC within three days before arrival.",
+    "Use attendance-only entry for meetings, trade fairs and conferences.",
+    "Choose one Thai host for any speaking, training, performance or planned local work.",
+    "Use DTV for a longer overseas-remote-work base or Smart S for a certified Thai startup."
+   ],
+   "open_questions": [
+    "Has the announced 30-day tourism-only exemption replaced the currently published 60-day rules?",
+    "Will the traveller attend the event or deliver part of it?",
+    "Can the host get WP.34 acceptance for a genuinely urgent/ad-hoc lecture?",
+    "Does the DTV activity stay with overseas clients and employers?",
+    "Will a Thai publisher, venue or seller handle local money and retail?"
+   ],
+   "sources": [
+    {
+     "title": "Thailand Digital Arrival Card",
+     "authority": "Royal Thai Embassy Sydney",
+     "url": "https://sydney.thaiembassy.org/en/content/thailand-digital-arrival-card-tdac",
+     "checked": "2026-08-20",
+     "supports": "pre-arrival registration"
+    },
+    {
+     "title": "Thailand's latest visa exemption and visa on arrival",
+     "authority": "Royal Thai Embassy Canberra",
+     "url": "https://canberra.thaiembassy.org/en/content/thailand-s-latest-visa-exemption-and-visa-on-arriv",
+     "checked": "2026-08-20",
+     "supports": "currently published Australian exemption"
+    },
+    {
+     "title": "Visa policy press briefing, 19 May 2026",
+     "authority": "Ministry of Foreign Affairs Thailand",
+     "url": "https://www.mfa.go.th/en/content/summary-press-briefing-190526",
+     "checked": "2026-08-20",
+     "supports": "approved 30-day policy transition"
+    },
+    {
+     "title": "Getting visa and work permit",
+     "authority": "Thailand Board of Investment One Start One Stop",
+     "url": "https://osos.boi.go.th/EN/how-to/218/Getting-Visa--Work-Permit/",
+     "checked": "2026-08-20",
+     "supports": "attendance activities not classified as work"
+    },
+    {
+     "title": "Non-Immigrant B for business and work",
+     "authority": "Ministry of Foreign Affairs Thailand",
+     "url": "https://www.mfa.go.th/en/publicservice/non-immigrant-visa-b-for-business-and-work?form=MG0AV3",
+     "checked": "2026-08-20",
+     "supports": "planned business and work route"
+    },
+    {
+     "title": "Destination Thailand Visa",
+     "authority": "Royal Thai Embassy Canberra",
+     "url": "https://canberra.thaiembassy.org/en/content/destination-thailand-visa-dtv",
+     "checked": "2026-08-20",
+     "supports": "eligible applicant categories"
+    },
+    {
+     "title": "Destination Thailand Visa factsheet",
+     "authority": "Ministry of Foreign Affairs Thailand",
+     "url": "https://image.mfa.go.th/mfa/0/RzaiZWKBzF/consular/Visa/18.Destination_Thailand_Visa_%28DTV%29.pdf",
+     "checked": "2026-08-20",
+     "supports": "five-year validity, 180-day stays and THB500,000 evidence"
+    },
+    {
+     "title": "A Business Guide to Thailand",
+     "authority": "Thailand Board of Investment",
+     "url": "https://www.boi.go.th/upload/content/A_Business_Guide_to_Thailand.pdf",
+     "checked": "2026-08-20",
+     "supports": "WP.34 duration, extension and special-lecture examples"
+    },
+    {
+     "title": "Smart S startup visa",
+     "authority": "Thailand Board of Investment",
+     "url": "https://smart-visa.boi.go.th/smart/pages/smart_s.html",
+     "checked": "2026-08-20",
+     "supports": "startup eligibility and work benefit"
+    },
+    {
+     "title": "Foreign Business Licence or Certificate",
+     "authority": "Thailand Board of Investment One Start One Stop",
+     "url": "https://osos.boi.go.th/EN/how-to/147/Obtaining-Foreign-Business-LicenseCertificate/",
+     "checked": "2026-08-20",
+     "supports": "foreign business operation layer"
+    },
+    {
+     "title": "Techsauce Global Summit 2026",
+     "authority": "Event organiser",
+     "url": "https://summit.techsauce.co/",
+     "checked": "2026-08-20",
+     "supports": "English/international conference opportunity"
+    }
+   ],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/data.js",
+    "country_id": "thailand",
+    "claims": {
+     "steps": {
+      "id": "THA-ROUTE-BUILDER",
+      "checked": "2026-08-20"
+     },
+     "open_questions": {
+      "id": "THA-ROUTE-EDGES",
+      "checked": "2026-08-20"
+     },
+     "fastest_entry": {
+      "id": "THA-LAUNCH-FASTEST-ENTRY",
+      "checked": "2026-08-20"
+     },
+     "before_departure": {
+      "id": "THA-LAUNCH-BEFORE-DEPARTURE",
+      "checked": "2026-08-20"
+     },
+     "useful_stay": {
+      "id": "THA-LAUNCH-USEFUL-STAY",
+      "checked": "2026-08-20"
+     },
+     "host_unlock": {
+      "id": "THA-LAUNCH-HOST-UNLOCK",
+      "checked": "2026-08-20"
+     },
+     "documents": {
+      "id": "THA-LAUNCH-QUICK-PACKET",
+      "checked": "2026-08-20"
+     }
+    }
+   },
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-THAILAND-COST"
+   }
   }
  }
 }

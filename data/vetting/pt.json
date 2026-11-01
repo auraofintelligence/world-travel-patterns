@@ -636,6 +636,108 @@
     }
    ],
    "climate": "Wettest: October, November and December. Driest: June, July and August. Hottest: August (23.1°C average). Coolest: January (9.5°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
+  },
+  "visa-preparation": {
+   "status": "imported",
+   "checked": "2026-08-21",
+   "last_reviewed": "2026-08-21",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
+   "before_departure": "Check the Portuguese mission/AIMA, Schengen day count and whether the trip is visitor, remote-worker or local work.",
+   "useful_stay": "Use the visitor route for short scouting; D8/D2 and other residence routes take a prepared dossier.",
+   "host_unlock": "A Portuguese university, event, publisher, employer or incubator can provide the host evidence.",
+   "documents": [
+    "Australian passport and Schengen day-count",
+    "Invitation or event registration",
+    "Foreign-work income evidence if D8 is considered",
+    "Accommodation, insurance and funds"
+   ],
+   "steps": [
+    "Check Schengen entry and day count.",
+    "Choose visitor, D8, D2 or host-led work route.",
+    "Gather AIMA/consular evidence.",
+    "Keep Portuguese clients and foreign remote work distinct.",
+    "Confirm tax, social-security and event obligations."
+   ],
+   "open_questions": [
+    "Is the work for entities outside Portugal?",
+    "Will a Portuguese organiser pay or contract you?",
+    "Is the route a visitor, D8, D2 or local employment?",
+    "Are books or merchandise sold locally?",
+    "Which AIMA checklist is current?"
+   ],
+   "sources": [
+    {
+     "title": "National visas: general information",
+     "authority": "Portuguese Ministry of Foreign Affairs",
+     "url": "https://vistos.mne.gov.pt/en/national-visas/general-information/type-of-visa",
+     "checked": "2026-08-21",
+     "supports": "national visa categories"
+    },
+    {
+     "title": "Working in Portugal",
+     "authority": "AIMA",
+     "url": "https://aima.gov.pt/pt/trabalhar",
+     "checked": "2026-08-21",
+     "supports": "employment, remote work and work-residence links"
+    },
+    {
+     "title": "Remote professional activity residence",
+     "authority": "AIMA",
+     "url": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-para-o-exercicio-de-atividade-profissional-prestada-de-forma-remota-com-visto-de-residencia",
+     "checked": "2026-08-21",
+     "supports": "D8 remote-worker route"
+    },
+    {
+     "title": "Investment residence authorisation",
+     "authority": "AIMA",
+     "url": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-para-investimento-art-90-o-a",
+     "checked": "2026-08-21",
+     "supports": "investment residence framework"
+    }
+   ],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/data.js",
+    "country_id": "portugal",
+    "claims": {
+     "steps": {
+      "id": "PRT-ROUTE-BUILDER",
+      "checked": "2026-08-21"
+     },
+     "open_questions": {
+      "id": "PRT-ROUTE-EDGES",
+      "checked": "2026-08-21"
+     },
+     "fastest_entry": {
+      "id": "PRT-LAUNCH-FASTEST-ENTRY",
+      "checked": "2026-08-21"
+     },
+     "before_departure": {
+      "id": "PRT-LAUNCH-BEFORE-DEPARTURE",
+      "checked": "2026-08-21"
+     },
+     "useful_stay": {
+      "id": "PRT-LAUNCH-USEFUL-STAY",
+      "checked": "2026-08-21"
+     },
+     "host_unlock": {
+      "id": "PRT-LAUNCH-HOST-UNLOCK",
+      "checked": "2026-08-21"
+     },
+     "documents": {
+      "id": "PRT-LAUNCH-QUICK-PACKET",
+      "checked": "2026-08-21"
+     }
+    }
+   },
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-PORTUGAL-COST"
+   }
   }
  }
 }

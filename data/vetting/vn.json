@@ -816,6 +816,143 @@
    ],
    "notes": "Signals until the country's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "visa-preparation": {
+   "status": "imported",
+   "checked": "2026-08-20",
+   "last_reviewed": "2026-08-20",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "fastest_entry": "Vietnam National Electronic Visa, up to 90 days, single or multiple entry",
+   "before_departure": "Apply through the official eVisa system, choose the accurate purpose and wait for issuance before flying.",
+   "useful_stay": "Up to 90 days; official fee USD25 single-entry or USD50 multiple-entry.",
+   "host_unlock": "A qualifying manager, executive, expert or technical worker under 90 total days in a calendar year may use a work-permit exemption with host notice at least three working days before work begins.",
+   "documents": [
+    "Issued official eVisa",
+    "Passport used for the application",
+    "Accurate purpose and entry point",
+    "Host letter with role, credentials and dates"
+   ],
+   "steps": [
+    "Apply through the official eVisa portal with the accurate purpose and entry point.",
+    "Wait for issuance before booking the final flight commitment.",
+    "Use meetings and conference attendance directly under the entry purpose.",
+    "Choose one Vietnamese host for any active speaking, teaching, consulting or performance.",
+    "Have the host lodge the short-expert notice or work/cultural approvals before delivery."
+   ],
+   "open_questions": [
+    "Does the traveller qualify as a manager, executive, expert or technical worker for the short exemption?",
+    "Has the host counted total working days in the calendar year and lodged the three-working-day notice?",
+    "Is the engagement a service assignment or local labour-contract employment?",
+    "Will a Vietnamese publisher or seller handle local stock and receipts?",
+    "Does a performance require both labour and cultural approvals?"
+   ],
+   "sources": [
+    {
+     "title": "Vietnam National Electronic Visa system",
+     "authority": "Vietnam Immigration Department",
+     "url": "https://evisa.gov.vn/?option=MO",
+     "checked": "2026-08-20",
+     "supports": "Australian eligibility, application and eVisa options"
+    },
+    {
+     "title": "Consolidated Law on Entry, Exit, Transit and Residence of Foreigners",
+     "authority": "Government of Vietnam",
+     "url": "https://vanban.chinhphu.vn/?classid=2629&docid=217302&pageid=27160",
+     "checked": "2026-08-20",
+     "supports": "visa codes and stay framework"
+    },
+    {
+     "title": "Decree 219/2025 on foreign workers",
+     "authority": "Government of Vietnam",
+     "url": "https://vanban.chinhphu.vn/?classid=1&docid=214840&orggroupid=2&pageid=27160",
+     "checked": "2026-08-20",
+     "supports": "short expert and work-permit framework"
+    },
+    {
+     "title": "Procedure for short-term foreign workers",
+     "authority": "Government News Vietnam",
+     "url": "https://baochinhphu.vn/thu-tuc-doi-voi-lao-dong-nuoc-ngoai-lam-viec-ngan-han-102260401093539635.htm",
+     "checked": "2026-08-20",
+     "supports": "under-90-day host notice process"
+    },
+    {
+     "title": "Fresh regulations on work permits",
+     "authority": "Government News Vietnam",
+     "url": "https://en.baochinhphu.vn/fresh-regulations-on-work-permit-issuance-to-foreign-workers-111250808104813884.htm",
+     "checked": "2026-08-20",
+     "supports": "work-permit timing and process"
+    },
+    {
+     "title": "Law on Digital Technology Industry approved",
+     "authority": "Government News Vietnam",
+     "url": "https://en.baochinhphu.vn/law-on-digital-technology-industry-approved-111250614143640329.htm",
+     "checked": "2026-08-20",
+     "supports": "high-quality digital professional route"
+    },
+    {
+     "title": "Vietnam's Law on Investment 2025",
+     "authority": "Government News Vietnam",
+     "url": "https://en.baochinhphu.vn/viet-nams-law-on-investment-2025-111260731145214387.htm",
+     "checked": "2026-08-20",
+     "supports": "investment and commercial presence"
+    },
+    {
+     "title": "Approval procedure for foreign artists",
+     "authority": "Government News Vietnam",
+     "url": "https://baochinhphu.vn/thu-tuc-cap-phep-to-chuc-bieu-dien-cho-nghe-si-nuoc-ngoai-102250923140746162.htm",
+     "checked": "2026-08-20",
+     "supports": "cultural performance approval"
+    },
+    {
+     "title": "Vietnam Innovation Challenge",
+     "authority": "National Innovation Center Vietnam",
+     "url": "https://vic.nic.gov.vn/en",
+     "checked": "2026-08-20",
+     "supports": "AI and innovation opportunity signal"
+    }
+   ],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/data.js",
+    "country_id": "vietnam",
+    "claims": {
+     "steps": {
+      "id": "VNM-ROUTE-BUILDER",
+      "checked": "2026-08-20"
+     },
+     "open_questions": {
+      "id": "VNM-ROUTE-EDGES",
+      "checked": "2026-08-20"
+     },
+     "fastest_entry": {
+      "id": "VNM-LAUNCH-FASTEST-ENTRY",
+      "checked": "2026-08-20"
+     },
+     "before_departure": {
+      "id": "VNM-LAUNCH-BEFORE-DEPARTURE",
+      "checked": "2026-08-20"
+     },
+     "useful_stay": {
+      "id": "VNM-LAUNCH-USEFUL-STAY",
+      "checked": "2026-08-20"
+     },
+     "host_unlock": {
+      "id": "VNM-LAUNCH-HOST-UNLOCK",
+      "checked": "2026-08-20"
+     },
+     "documents": {
+      "id": "VNM-LAUNCH-QUICK-PACKET",
+      "checked": "2026-08-20"
+     }
+    }
+   },
+   "cost_aud_baseline": {
+    "value": "~ $40",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-VIETNAM-COST"
+   }
   }
  }
 }

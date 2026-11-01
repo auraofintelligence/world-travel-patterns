@@ -651,6 +651,115 @@
     }
    ],
    "climate": "Wettest: July, August and December. Driest: March, April and May. Hottest: August (18.1°C average). Coolest: January (3.5°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
+  },
+  "visa-preparation": {
+   "status": "imported",
+   "checked": "2026-08-21",
+   "last_reviewed": "2026-08-21",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
+   "before_departure": "Check NetherlandsWorldwide entry guidance, Schengen day count, host letter and accommodation.",
+   "useful_stay": "Short stay is the agile option; local work or residence needs an IND route.",
+   "host_unlock": "A Dutch employer, recognised sponsor, university or startup facilitator can supply the documents for the matching permit.",
+   "documents": [
+    "Australian passport and Schengen day-count",
+    "Dutch host invitation or event ticket",
+    "Employer/client and payment explanation",
+    "Insurance, funds and onward itinerary"
+   ],
+   "steps": [
+    "Check Schengen eligibility and day count.",
+    "Get the Dutch invitation or conference ticket.",
+    "Label every appearance as attendee, speaker, trainer, performer or seller.",
+    "Ask the host about TWV/single-permit or exemption.",
+    "Use IND startup/self-employed routes for a real longer project."
+   ],
+   "open_questions": [
+    "Is there Dutch remuneration or a local client?",
+    "Is a recognised sponsor involved?",
+    "Does the event invitation describe delivery or just attendance?",
+    "Will remote work continue beyond a short visit?",
+    "Are goods or books being sold locally?"
+   ],
+   "sources": [
+    {
+     "title": "Visa for the Netherlands",
+     "authority": "NetherlandsWorldwide",
+     "url": "https://www.netherlandsworldwide.nl/visa-the-netherlands",
+     "checked": "2026-08-21",
+     "supports": "short-stay and visa-exemption entry guidance"
+    },
+    {
+     "title": "Business or official visit checklist",
+     "authority": "NetherlandsWorldwide",
+     "url": "https://www.netherlandsworldwide.nl/visa-the-netherlands/checklist-schengen-visa-business-official-visit",
+     "checked": "2026-08-21",
+     "supports": "business invitations, congresses and evidence"
+    },
+    {
+     "title": "Working in the Netherlands",
+     "authority": "Immigration and Naturalisation Service (IND)",
+     "url": "https://ind.nl/en/work/working_in_the_Netherlands",
+     "checked": "2026-08-21",
+     "supports": "work and sponsorship framework"
+    },
+    {
+     "title": "Residence permit for a start-up",
+     "authority": "Immigration and Naturalisation Service (IND)",
+     "url": "https://ind.nl/en/residence-permits/work/start-up",
+     "checked": "2026-08-21",
+     "supports": "startup founder route"
+    },
+    {
+     "title": "Residence permit self-employed person",
+     "authority": "Immigration and Naturalisation Service (IND)",
+     "url": "https://ind.nl/en/residence-permits/work/self-employed-person",
+     "checked": "2026-08-21",
+     "supports": "self-employed route"
+    }
+   ],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/data.js",
+    "country_id": "netherlands",
+    "claims": {
+     "steps": {
+      "id": "NLD-ROUTE-BUILDER",
+      "checked": "2026-08-21"
+     },
+     "open_questions": {
+      "id": "NLD-ROUTE-EDGES",
+      "checked": "2026-08-21"
+     },
+     "fastest_entry": {
+      "id": "NLD-LAUNCH-FASTEST-ENTRY",
+      "checked": "2026-08-21"
+     },
+     "before_departure": {
+      "id": "NLD-LAUNCH-BEFORE-DEPARTURE",
+      "checked": "2026-08-21"
+     },
+     "useful_stay": {
+      "id": "NLD-LAUNCH-USEFUL-STAY",
+      "checked": "2026-08-21"
+     },
+     "host_unlock": {
+      "id": "NLD-LAUNCH-HOST-UNLOCK",
+      "checked": "2026-08-21"
+     },
+     "documents": {
+      "id": "NLD-LAUNCH-QUICK-PACKET",
+      "checked": "2026-08-21"
+     }
+    }
+   },
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-NETHERLANDS-COST"
+   }
   }
  }
 }

@@ -851,6 +851,171 @@
    ],
    "notes": "Signals until the country's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "visa-preparation": {
+   "status": "imported",
+   "checked": "2026-08-21",
+   "last_reviewed": "2026-08-21",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "fastest_entry": "Visa-free Short Term Social Visit Pass, normally up to 90 days",
+   "before_departure": "Submit the free Malaysia Digital Arrival Card through the official portal within three days before arrival and carry the invitation for any business visit.",
+   "useful_stay": "Normally up to 90 days on the short social visit; extensions are limited to special circumstances.",
+   "host_unlock": "A Malaysian company, university, event organiser or other eligible sponsor can apply for a Professional Visit Pass covering an invited lecturer, seminar speaker, trainer, adviser, researcher, artist or volunteer.",
+   "documents": [
+    "Australian passport",
+    "Malaysia Digital Arrival Card",
+    "Onward itinerary and accommodation",
+    "Invitation, role, fee and Malaysian sponsor details"
+   ],
+   "steps": [
+    "Use visa-free entry and MDAC for tourism, meetings, conference attendance, inspections and investment surveys.",
+    "Choose one Malaysian sponsor for any programmed speaking, training, research, volunteer or artistic role.",
+    "Use the published Professional Visit Pass position that matches the actual activity, even when the engagement is unpaid.",
+    "Put speaker or performer withholding and treaty evidence into the contract rather than treating tax as an afterthought.",
+    "Use DE Rantau for qualifying overseas digital work or MTEP for a technology-founder base."
+   ],
+   "open_questions": [
+    "Was MDAC lodged only through the official free portal in the three-day window?",
+    "Is Luke attending a seminar or delivering it as an invited speaker or trainer?",
+    "Does the Malaysian sponsor need another sector or cultural approval in addition to the PVP?",
+    "Who withholds Malaysian tax from a paid speech, talk or performance?",
+    "Will a Malaysian publisher or importer handle book stock and retail?"
+   ],
+   "sources": [
+    {
+     "title": "Visa requirement for foreigners travelling to Malaysia",
+     "authority": "High Commission of Malaysia in Canberra",
+     "url": "https://www.kln.gov.my/web/aus_canberra/requirement_foreigner",
+     "checked": "2026-08-21",
+     "supports": "Australian visa-free eligibility"
+    },
+    {
+     "title": "Visa entitlement table updated 1 October 2025",
+     "authority": "Ministry of Foreign Affairs Malaysia",
+     "url": "https://www.kln.gov.my/documents/33866/10223708/1.%2BVISA%2BAPPLICATION%2B%28English%29%2B%28Updated%2Bon%2B1%2BOct.%2B2025%29.pdf/b97a0337-667f-46c5-acc7-2dbbc7bb974d",
+     "checked": "2026-08-21",
+     "supports": "90-day Australian visit entitlement"
+    },
+    {
+     "title": "Short Term Social Visit Pass",
+     "authority": "Immigration Department of Malaysia",
+     "url": "https://www.imi.gov.my/index.php/en/main-services/pass/visitor-pass/social-visit-pass/short-term-social-visit-pass/",
+     "checked": "2026-08-21",
+     "supports": "meeting, conference, seminar, inspection, agreement and investment-survey purposes"
+    },
+    {
+     "title": "Malaysia Digital Arrival Card",
+     "authority": "Immigration Department of Malaysia",
+     "url": "https://imigresen-online.imi.gov.my/mdac/register",
+     "checked": "2026-08-21",
+     "supports": "official arrival-card portal and three-day window"
+    },
+    {
+     "title": "Professional Visit Pass",
+     "authority": "Malaysia Expatriate Services Division",
+     "url": "https://esd.imi.gov.my/portal/expatriates/myxpats/key-services/professional-visit-pass/",
+     "checked": "2026-08-21",
+     "supports": "Malaysian sponsor, temporary professional service and pass duration"
+    },
+    {
+     "title": "Realignment of Professional Visit Pass positions",
+     "authority": "Malaysia Expatriate Services Division",
+     "url": "https://esd.imi.gov.my/portal/latest-news/announcement-2025/announcement-257-realignment-pvp-position/",
+     "checked": "2026-08-21",
+     "supports": "speaker, lecturer, trainer, adviser, researcher and volunteer positions"
+    },
+    {
+     "title": "DE Rantau Nomad Pass",
+     "authority": "Malaysia Digital Economy Corporation",
+     "url": "https://www.mdec.my/md-programmes/digital-nomad-pass",
+     "checked": "2026-08-21",
+     "supports": "digital fields, income, contract, client and stay requirements"
+    },
+    {
+     "title": "Malaysia Tech Entrepreneur Programme",
+     "authority": "Malaysia Digital Economy Corporation",
+     "url": "https://www.mdec.my/programmes/mtep",
+     "checked": "2026-08-21",
+     "supports": "new and established technology entrepreneur routes"
+    },
+    {
+     "title": "Cukai Pegangan (withholding tax)",
+     "authority": "Inland Revenue Board of Malaysia",
+     "url": "https://www.hasil.gov.my/perundangan/cukai-pegangan/?bt_warnabg=1",
+     "checked": "2026-08-21",
+     "supports": "non-resident public-entertainer treatment for lectures, speeches and talks"
+    },
+    {
+     "title": "ATA Carnet",
+     "authority": "Royal Malaysian Customs Department",
+     "url": "https://www.customs.gov.my/en/individu/ata-carnet",
+     "checked": "2026-08-21",
+     "supports": "temporary professional equipment, samples and exhibition goods"
+    },
+    {
+     "title": "Australia–Malaysia Work and Holiday programme",
+     "authority": "Immigration Department of Malaysia",
+     "url": "https://www.imi.gov.my/index.php/en/main-services/special-programme/",
+     "checked": "2026-08-21",
+     "supports": "18–30 age limit and excluded professional activities"
+    },
+    {
+     "title": "DCCI Malaysia",
+     "authority": "Event organiser",
+     "url": "https://malaysia.dccisummit.com/",
+     "checked": "2026-08-21",
+     "supports": "regional data-centre and cloud event signal"
+    },
+    {
+     "title": "APAIE 2027",
+     "authority": "Asia-Pacific Association for International Education",
+     "url": "https://apaie.net/conferences/apaie-2027/",
+     "checked": "2026-08-21",
+     "supports": "international education, AI and English-language event signal"
+    }
+   ],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/data.js",
+    "country_id": "malaysia",
+    "claims": {
+     "steps": {
+      "id": "MYS-ROUTE-BUILDER",
+      "checked": "2026-08-21"
+     },
+     "open_questions": {
+      "id": "MYS-ROUTE-EDGES",
+      "checked": "2026-08-21"
+     },
+     "fastest_entry": {
+      "id": "MYS-LAUNCH-FASTEST-ENTRY",
+      "checked": "2026-08-21"
+     },
+     "before_departure": {
+      "id": "MYS-LAUNCH-BEFORE-DEPARTURE",
+      "checked": "2026-08-21"
+     },
+     "useful_stay": {
+      "id": "MYS-LAUNCH-USEFUL-STAY",
+      "checked": "2026-08-21"
+     },
+     "host_unlock": {
+      "id": "MYS-LAUNCH-HOST-UNLOCK",
+      "checked": "2026-08-21"
+     },
+     "documents": {
+      "id": "MYS-LAUNCH-QUICK-PACKET",
+      "checked": "2026-08-21"
+     }
+    }
+   },
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-MALAYSIA-COST"
+   }
   }
  }
 }

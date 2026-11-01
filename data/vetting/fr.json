@@ -657,6 +657,108 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "visa-preparation": {
+   "status": "imported",
+   "checked": "2026-08-21",
+   "last_reviewed": "2026-08-21",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
+   "before_departure": "Check the France-Visas assistant, Schengen day count, passport validity and any event invitation before booking.",
+   "useful_stay": "Short-stay entry is the quick key; long stays or active local work move to a French long-stay visa or residence permit.",
+   "host_unlock": "A French organiser, university, employer or producer can classify the assignment and provide the contract, convention or work-authorisation evidence.",
+   "documents": [
+    "Australian passport and Schengen day-count",
+    "Invitation with dates, venue and role",
+    "Fee, reimbursement and who pays",
+    "Insurance, accommodation and onward plan"
+   ],
+   "steps": [
+    "Run France-Visas for the exact purpose and duration.",
+    "Count the whole Schengen itinerary, not France alone.",
+    "Get the invitation or contract to name the role and payment.",
+    "Ask the host to classify any speaking, teaching, performance or local service.",
+    "Use talent, researcher, artist or creator routes for longer activity."
+   ],
+   "open_questions": [
+    "Is the trip attendance, delivery or local employment?",
+    "Does the organiser pay a fee, expenses, royalties or in-kind benefit?",
+    "Which Schengen country is the main destination?",
+    "Does the project meet a talent, researcher, artist or creator threshold?",
+    "Will French customers or venues be served locally?"
+   ],
+   "sources": [
+    {
+     "title": "France-Visas: Australia",
+     "authority": "French Ministry for Europe and Foreign Affairs",
+     "url": "https://france-visas.gouv.fr/en/web/france-visas/australie",
+     "checked": "2026-08-21",
+     "supports": "Australian application route and processing context"
+    },
+    {
+     "title": "France-Visas: professional purpose",
+     "authority": "French Ministry for Europe and Foreign Affairs",
+     "url": "https://france-visas.gouv.fr/en/web/france-visas/motif-professionnel",
+     "checked": "2026-08-21",
+     "supports": "business, self-employed and professional categories"
+    },
+    {
+     "title": "France-Visas: salaried activity",
+     "authority": "French Ministry for Europe and Foreign Affairs",
+     "url": "https://www.france-visas.gouv.fr/web/france-visas/activite-salariee",
+     "checked": "2026-08-21",
+     "supports": "short missions, events and occasional invited teaching"
+    },
+    {
+     "title": "France-Visas: international talents",
+     "authority": "French Ministry for Europe and Foreign Affairs",
+     "url": "https://france-visas.gouv.fr/en/web/france-visas/talents-internationaux-et-attractivite-economique",
+     "checked": "2026-08-21",
+     "supports": "talent, researcher, creator, investor and artist routes"
+    }
+   ],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/data.js",
+    "country_id": "france",
+    "claims": {
+     "steps": {
+      "id": "FRA-ROUTE-BUILDER",
+      "checked": "2026-08-21"
+     },
+     "open_questions": {
+      "id": "FRA-ROUTE-EDGES",
+      "checked": "2026-08-21"
+     },
+     "fastest_entry": {
+      "id": "FRA-LAUNCH-FASTEST-ENTRY",
+      "checked": "2026-08-21"
+     },
+     "before_departure": {
+      "id": "FRA-LAUNCH-BEFORE-DEPARTURE",
+      "checked": "2026-08-21"
+     },
+     "useful_stay": {
+      "id": "FRA-LAUNCH-USEFUL-STAY",
+      "checked": "2026-08-21"
+     },
+     "host_unlock": {
+      "id": "FRA-LAUNCH-HOST-UNLOCK",
+      "checked": "2026-08-21"
+     },
+     "documents": {
+      "id": "FRA-LAUNCH-QUICK-PACKET",
+      "checked": "2026-08-21"
+     }
+    }
+   },
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-FRANCE-COST"
+   }
   }
  }
 }

@@ -358,6 +358,31 @@
    "mission": "Australian High Commission, Port of Spain",
    "city": "Port of Spain",
    "notes": "Covered by the Australian mission responsible for Trinidad and Tobago. DFAT also lists: Dominican Republic (Canadian Embassy - Santo Domingo) - see also Mexico."
+  },
+  "visa-preparation": {
+   "status": "baseline-only",
+   "checked": "2025-08-16",
+   "last_reviewed": "2025-08-16",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "entry_summary": "Visa-free for business visits up to 6 months.",
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-DOMINICA-COST"
+   },
+   "steps": [],
+   "documents": [],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/world-baseline.js",
+    "claims": {
+     "entry_summary": "WORLD-DOMINICA-ENTRY",
+     "cost": "WORLD-DOMINICA-COST"
+    },
+    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   }
   }
  }
 }

@@ -610,6 +610,161 @@
     }
    ],
    "climate": "Wettest: February, April and October. Driest: July, August and November. Hottest: January (24.4°C average). Coolest: July (11.5°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
+  },
+  "visa-preparation": {
+   "status": "imported",
+   "checked": "2026-08-21",
+   "last_reviewed": "2026-08-21",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "fastest_entry": "Visa-free admission for an Australian ordinary passport, normally for a 90-day short stay",
+   "before_departure": "Carry a Spanish or bilingual invitation stating whether the purpose is tourism, business, conference attendance, an invited professional appearance, teaching or an artistic or cultural performance. Ask the host to confirm the admission category with the National Directorate of Migration.",
+   "useful_stay": "The ordinary short stay is 90 days and has a 90-day extension process. A Provisional Identity Card can support activity for up to 180 days and may be renewed once for another 180 days.",
+   "host_unlock": "A Uruguayan public body, company, university, conference, publisher or promoter can document the exact professional or artistic invitation and, if the non-resident category is insufficient, support a Provisional Identity Card or temporary-residence application.",
+   "documents": [
+    "Australian passport",
+    "Return or onward plan and accommodation",
+    "Spanish or bilingual host invitation",
+    "Duties, venues, dates, fee and expenses",
+    "Professional or artistic evidence",
+    "Migration confirmation or provisional-identity application where needed"
+   ],
+   "steps": [
+    "Enter visa-free with the Australian passport and evidence of the declared purpose.",
+    "Use a Spanish or bilingual invitation to identify business, conference, invited-professional or artistic activity.",
+    "Have the host confirm the non-resident category with Migration before any active appearance.",
+    "Use the Provisional Identity Card for short work or foreign remote activity where required.",
+    "Move to temporary or permanent residence before longer local work or company operation."
+   ],
+   "open_questions": [
+    "Will the arrival be recorded in the correct non-resident category rather than merely as tourism?",
+    "Does the invitation describe the exact profession, art, duties, payment and duration?",
+    "Is the proposed activity inside the non-resident category granted?",
+    "Does a short engagement need a Provisional Identity Card?",
+    "Does remote work stay entirely with an entity outside Uruguay and outside any Uruguayan permanent establishment?",
+    "Which official BPS position applies to the digital-nomad permit?",
+    "Will a local publisher, seller or importer handle stock and receipts?"
+   ],
+   "sources": [
+    {
+     "title": "Admission visa regime",
+     "authority": "Uruguayan Ministry of the Interior",
+     "url": "https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/regimen-visas-admision",
+     "checked": "2026-08-21",
+     "supports": "Australian ordinary-passport visa exemption"
+    },
+    {
+     "title": "Migration Law No. 18,250",
+     "authority": "Uruguay Official Gazette / IMPO",
+     "url": "https://www.impo.com.uy/bases/leyes/18250-2008",
+     "checked": "2026-08-21",
+     "supports": "resident work rights and non-resident tourist, business, invited-professional and artistic categories"
+    },
+    {
+     "title": "Decree No. 394/009, Article 13",
+     "authority": "Uruguay Official Gazette / IMPO",
+     "url": "https://www.impo.com.uy/bases/decretos/394-2009/13",
+     "checked": "2026-08-21",
+     "supports": "90-day non-resident stay and one 90-day renewal for tourist, invited-professional, business and artistic categories"
+    },
+    {
+     "title": "Hiring foreign workers in dependent employment",
+     "authority": "Uruguayan Ministry of Labour and Social Security",
+     "url": "https://www.gub.uy/ministerio-trabajo-seguridad-social/politicas-y-gestion/contratacion-trabajadores-extranjeros-bajo-regimen-dependencia-laboral",
+     "checked": "2026-08-21",
+     "supports": "residence as work authority, absence of a separately named work permit and hiring while residence is in progress"
+    },
+    {
+     "title": "Types of residence",
+     "authority": "Uruguayan Ministry of Foreign Affairs",
+     "url": "https://www.gub.uy/ministerio-relaciones-exteriores/comunicacion/publicaciones/tipos-de-residencia",
+     "checked": "2026-08-21",
+     "supports": "teacher, academic, specialist, entrepreneur, manager and artist temporary-residence categories"
+    },
+    {
+     "title": "Provisional Identity Card",
+     "authority": "Uruguayan Ministry of the Interior / National Directorate of Migration",
+     "url": "https://www.gub.uy/tramites/hoja-identidad-provisoria",
+     "checked": "2026-08-21",
+     "supports": "under-180-day activity and digital-nomad application and renewal requirements"
+    },
+    {
+     "title": "Decree No. 238/022",
+     "authority": "Uruguay Official Gazette / IMPO",
+     "url": "https://www.impo.com.uy/bases/decretos-originales/238-2022/1",
+     "checked": "2026-08-21",
+     "supports": "foreign-entity remote-work permission, 180-day duration, one renewal and statutory social-security wording"
+    },
+    {
+     "title": "Entry and hiring people",
+     "authority": "Uruguay Investment Single Window",
+     "url": "https://vui.gub.uy/procesos/ingreso-y-contratacion-de-personas/",
+     "checked": "2026-08-21",
+     "supports": "digital-nomad foreign-company boundary, duration and current social-security guidance"
+    },
+    {
+     "title": "Working Holiday for foreign citizens",
+     "authority": "Uruguayan Ministry of Foreign Affairs",
+     "url": "https://www.gub.uy/tramites/vacaciones-trabajo-working-holiday-vacaciones-trabajo-working-holiday-ciudadanos-extranjeros",
+     "checked": "2026-08-21",
+     "supports": "youth age band and Working Holiday distinction"
+    },
+    {
+     "title": "ConnectIA 2026",
+     "authority": "Data Science UY / event organiser",
+     "url": "https://connectia.uy/",
+     "checked": "2026-08-21",
+     "supports": "Spanish-language AI and data-science event signal, location and free public access"
+    },
+    {
+     "title": "ConnectIA 2026 call for speakers",
+     "authority": "ConnectIA organiser",
+     "url": "https://sessionize.com/connectia2026/",
+     "checked": "2026-08-21",
+     "supports": "open call, deadline, event date, talk format and topic scope"
+    }
+   ],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/data.js",
+    "country_id": "uruguay",
+    "claims": {
+     "steps": {
+      "id": "URY-ROUTE-BUILDER",
+      "checked": "2026-08-21"
+     },
+     "open_questions": {
+      "id": "URY-ROUTE-EDGES",
+      "checked": "2026-08-21"
+     },
+     "fastest_entry": {
+      "id": "URY-LAUNCH-FASTEST-ENTRY",
+      "checked": "2026-08-21"
+     },
+     "before_departure": {
+      "id": "URY-LAUNCH-BEFORE-DEPARTURE",
+      "checked": "2026-08-21"
+     },
+     "useful_stay": {
+      "id": "URY-LAUNCH-USEFUL-STAY",
+      "checked": "2026-08-21"
+     },
+     "host_unlock": {
+      "id": "URY-LAUNCH-HOST-UNLOCK",
+      "checked": "2026-08-21"
+     },
+     "documents": {
+      "id": "URY-LAUNCH-QUICK-PACKET",
+      "checked": "2026-08-21"
+     }
+    }
+   },
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-URUGUAY-COST"
+   }
   }
  }
 }

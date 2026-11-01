@@ -739,6 +739,108 @@
    ],
    "notes": "Signals until the country's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "visa-preparation": {
+   "status": "imported",
+   "checked": "2026-08-21",
+   "last_reviewed": "2026-08-21",
+   "evidence": "legacy-baseline",
+   "needs_recheck": true,
+   "fastest_entry": "Visa-free touristic/transit entry up to 90 days in any 180-day period",
+   "before_departure": "Check the Turkish MFA exemption, passport validity, e-visa site and whether the trip is tourism or business/work.",
+   "useful_stay": "Tourist/transit entry is the quick key; local work or a longer base uses work/residence permits.",
+   "host_unlock": "A Turkish employer, university, promoter or company can support work permission and residence applications.",
+   "documents": [
+    "Australian passport and onward plan",
+    "Turkish/English host letter",
+    "Role, venue, fee and payment explanation",
+    "Accommodation, funds and insurance"
+   ],
+   "steps": [
+    "Check the MFA exemption wording.",
+    "Ask the host about business/work entry.",
+    "Prepare Turkish/English invitation and payment details.",
+    "Use work/residence permits for active local delivery.",
+    "Check tax, customs and regional travel conditions."
+   ],
+   "open_questions": [
+    "Is the purpose genuinely touristic/transit?",
+    "Are meetings or trade covered by the exemption?",
+    "Who pays the speaker or performer?",
+    "Will a Turkish employer/client be involved?",
+    "Does the route need Turkish translations or apostilles?"
+   ],
+   "sources": [
+    {
+     "title": "Visa information for foreigners",
+     "authority": "Republic of Türkiye Ministry of Foreign Affairs",
+     "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+     "checked": "2026-08-21",
+     "supports": "Australian tourism/transit exemption"
+    },
+    {
+     "title": "e-Visa portal",
+     "authority": "Republic of Türkiye",
+     "url": "https://www.evisa.gov.tr/en/",
+     "checked": "2026-08-21",
+     "supports": "official visa application gateway"
+    },
+    {
+     "title": "Directorate General of International Labour Force",
+     "authority": "Turkish Ministry of Labour and Social Security",
+     "url": "https://www.csgb.gov.tr/uigm/en/",
+     "checked": "2026-08-21",
+     "supports": "work permit framework"
+    },
+    {
+     "title": "Residence permit types",
+     "authority": "Presidency of Migration Management",
+     "url": "https://en.goc.gov.tr/residence-permit-types",
+     "checked": "2026-08-21",
+     "supports": "residence categories"
+    }
+   ],
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/data.js",
+    "country_id": "turkiye",
+    "claims": {
+     "steps": {
+      "id": "TUR-ROUTE-BUILDER",
+      "checked": "2026-08-21"
+     },
+     "open_questions": {
+      "id": "TUR-ROUTE-EDGES",
+      "checked": "2026-08-21"
+     },
+     "fastest_entry": {
+      "id": "TUR-LAUNCH-FASTEST-ENTRY",
+      "checked": "2026-08-21"
+     },
+     "before_departure": {
+      "id": "TUR-LAUNCH-BEFORE-DEPARTURE",
+      "checked": "2026-08-21"
+     },
+     "useful_stay": {
+      "id": "TUR-LAUNCH-USEFUL-STAY",
+      "checked": "2026-08-21"
+     },
+     "host_unlock": {
+      "id": "TUR-LAUNCH-HOST-UNLOCK",
+      "checked": "2026-08-21"
+     },
+     "documents": {
+      "id": "TUR-LAUNCH-QUICK-PACKET",
+      "checked": "2026-08-21"
+     }
+    }
+   },
+   "cost_aud_baseline": {
+    "value": "~ $90",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-TURKEY-COST"
+   }
   }
  }
 }
