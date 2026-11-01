@@ -266,6 +266,58 @@
     }
    ],
    "climate": "Wettest: January, February and December. Driest: July, August and September. Hottest: January (28.4°C average). Coolest: July (14.7°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "checked": "2026-11-02",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2027-01-26",
+     "what": "Australia Day (national public holiday, a Tuesday in 2027)",
+     "effect": "Busy travel and events around the day; some services closed",
+     "url": "https://date.nager.at/",
+     "by": "hand",
+     "category": "national-day"
+    }
+   ],
+   "note": "No federal or Queensland election falls in the window as far as this pass found. NAIDOC Week usually runs from the first Sunday in July to the following Sunday; the National NAIDOC Committee hadn't published 2027 dates when checked. GAJRA Earth Ahead lists an ASIC consultation closing 5 November 2026: a door to take part, not a travel event.",
+   "sources": [
+    {
+     "title": "Public holidays (Nager.Date)",
+     "authority": "Signal: machine holiday data",
+     "url": "https://date.nager.at/",
+     "checked": "2026-11-02",
+     "supports": "public holidays in data/calendar"
+    },
+    {
+     "title": "ElectionGuide: upcoming elections",
+     "authority": "Signal: IFES (International Foundation for Electoral Systems)",
+     "url": "https://www.electionguide.org/elections/type/upcoming/",
+     "checked": "2026-11-02",
+     "supports": "no national election listed for this place (the list, read 1 November 2026, runs to July 2027)"
+    }
+   ]
+  },
+  "culture-and-protocol": {
+   "status": "partly-mapped",
+   "checked": "2026-11-02",
+   "evidence": "official",
+   "own_names": [
+    "Australia holds many Aboriginal and Torres Strait Islander Countries, each with its own names. Use the name of the Country you are on."
+   ],
+   "welcome_and_acknowledgement": "Only Traditional Owners can give a Welcome to Country, or authorise someone to give it; a land council, council of elders or community organisation can advise. Anyone can give an Acknowledgement of Country, as a sign of respect.",
+   "cultural_authority": "Traditional Owners of each Country; this record holds only the national pattern. Each state, zone and place stacks its own guidance underneath.",
+   "source": "AIATSIS",
+   "sources": [
+    {
+     "title": "Welcome to Country",
+     "authority": "Australian Institute of Aboriginal and Torres Strait Islander Studies (AIATSIS)",
+     "url": "https://aiatsis.gov.au/explore/welcome-country",
+     "checked": "2026-11-02",
+     "supports": "who can give a Welcome; Acknowledgement as respect (read via search summary; page not fetched)"
+    }
+   ]
   }
  }
 }

@@ -413,6 +413,26 @@
      "supports": "historic sites and monuments (read via a search-index snapshot)"
     }
    ]
+  },
+  "culture-cycles": {
+   "status": "unknown",
+   "checked": "2026-11-02",
+   "evidence": "signal",
+   "public_holidays": "No public holiday calendar of its own in the machine data; research stations keep their own national calendars.",
+   "moving_calendars": [],
+   "festivals": [],
+   "closures": [],
+   "protocol_notes": [],
+   "note": "Visits are seasonal (the Antarctic summer); see seasons-and-flow and zone requirements.",
+   "sources": [
+    {
+     "title": "Public holidays (Nager.Date)",
+     "authority": "Signal: machine holiday data",
+     "url": "https://date.nager.at/",
+     "checked": "2026-11-02",
+     "supports": "public holidays in data/calendar"
+    }
+   ]
   }
  }
 }
