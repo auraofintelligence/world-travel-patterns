@@ -266,3 +266,37 @@ RECHECKS.update({
         "fees": [free("za", "visa-free entry (tourism)", "ZAR")],
     },
 })
+
+
+def schengen(pid, name, extra_step=None, extra_source=None):
+    steps = [f"{name} is in the Schengen area: short stays of 90 days or less can be visa-free in some cases; other purposes or longer stays need a visa before travel.",
+             "At the first Schengen border, give fingerprints and a photo for the Entry/Exit System (EES). It's free; nothing is needed before arrival, and sites charging for it are fraudulent.",
+             "Carry your passport when crossing borders, including inside Schengen (temporary internal checks are in place in places)."]
+    if extra_step:
+        steps.append(extra_step)
+    spec = {"fastest_entry": f"Visa-free short stays (90 days or less) as part of the Schengen area, in some cases.",
+            "before_departure": "Nothing to lodge before travel today: EES registration happens at the border. ETIAS hadn't started on 2026-11-01.",
+            "steps": steps, "documents": ["Passport"], "fees": [free(pid, "visa-free short stay; EES registration", "EUR" if pid != "ch" else "CHF")]}
+    if extra_source:
+        spec["sources"] = [extra_source]
+    return spec
+
+
+RECHECKS.update({
+    "at": schengen("at", "Austria", "An Austrian-Australian bilateral agreement on visa-free short stays exists; check its terms with the Austrian Embassy Canberra before relying on it."),
+    "be": schengen("be", "Belgium", "Adults travelling with children may need proof of relationship (birth certificate or court order)."),
+    "ch": schengen("ch", "Switzerland"),
+    "de": schengen("de", "Germany", "A German-Australian visa exemption agreement exists; check its terms with the German Embassy Canberra. Non-travelling parents can sign a consent form for children."),
+    "es": schengen("es", "Spain", "Get a legible entry stamp at the first Schengen entry; airlines may check you haven't overstayed 90 days."),
+    "fr": schengen("fr", "France", "Visas must be applied for in Australia; status can't be changed once in France. France Diplomacy has an online visa tool."),
+    "gr": schengen("gr", "Greece", "Get an entry stamp at the first Schengen entry."),
+    "it": schengen("it", "Italy", "If you can't leave before the visa-free limit, contact the local questura; report wrong EES records at the next external border."),
+    "nl": schengen("nl", "the Netherlands", "Check visa needs on NetherlandsWorldwide; temporary checks run at the Belgian and German land borders."),
+    "pt": schengen("pt", "Portugal", "Get a clear entry stamp; AIMA residence and long-stay visa processing has long delays."),
+    "ae": {"flag": True, "note": "Not verified 2026-11-01: Smartraveller confirms a tourist visa on arrival, but the length of stay (30 vs 90 days) and any fee need an official UAE source (ICP or GDRFA pages blocked fetches from here)."},
+    "qa": {"flag": True, "note": "Not verified 2026-11-01: Smartraveller confirms visa on arrival and accommodation proof, but the stay length and fee weren't found on an official Qatari page (gov.qa timed out)."},
+    "sa": {"flag": True, "note": "Not verified 2026-11-01: Smartraveller confirms a 1-year multiple-entry tourist e-visa (stays up to 90 days) from visa.visitsaudi.com; the fee (reported as SAR 395 with insurance by non-official sites) wasn't readable on the official portal."},
+    "pw": {"flag": True, "note": "Not verified 2026-11-01: Smartraveller confirms a 30-day visitor visa on arrival and a free online Palau Entry Form within 72 hours; the Palau entry portal didn't load and any arrival fee wasn't confirmed."},
+    "my": {"flag": True, "note": "Partly verified 2026-11-01: Smartraveller confirms a 90-day tourism entry in most cases and the MDAC within 3 days before arrival (imigresen-online.imi.gov.my); whether any fee applies wasn't stated, so left flagged."},
+    "mx": {"flag": True, "note": "Partly verified 2026-11-01: Smartraveller confirms tourism entry without a visa (e-gates up to 180 days with a chipped passport) and the online FMM with QR code; the FMM cost wasn't stated on an official page read, so left flagged."},
+})

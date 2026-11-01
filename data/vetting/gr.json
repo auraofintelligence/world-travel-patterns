@@ -735,28 +735,11 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
-   "before_departure": "Check the Greek mission, Schengen day count, invitation and any local work days.",
-   "useful_stay": "Short stay is the fast key; residence and work routes need preparation.",
-   "host_unlock": "A Greek university, employer, promoter or event organiser can clarify the activity and supporting documents.",
-   "documents": [
-    "Australian passport and Schengen day-count",
-    "Greek host/invitation or event ticket",
-    "Role, payment and reimbursement statement",
-    "Insurance, accommodation and funds"
-   ],
-   "steps": [
-    "Check Schengen eligibility and day count.",
-    "Get host/event documentation.",
-    "Separate attendance from delivery and payment.",
-    "Check digital-nomad or work residence if staying longer.",
-    "Confirm Greek tax, insurance and local-sales issues."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Is the host Greek or foreign?",
     "Will any Greek entity pay or contract?",
@@ -766,32 +749,11 @@
    ],
    "sources": [
     {
-     "title": "Visas: Greece in Australia",
-     "authority": "Hellenic Ministry of Foreign Affairs",
-     "url": "https://www.mfa.gr/australia/en/services/visas/",
-     "checked": "2026-08-21",
-     "supports": "Australian visa and Schengen application guidance"
-    },
-    {
-     "title": "Migration policy",
-     "authority": "Greek Ministry of Migration and Asylum",
-     "url": "https://migration.gov.gr/en/migration-policy/",
-     "checked": "2026-08-21",
-     "supports": "residence and migration framework"
-    },
-    {
-     "title": "Investment in Greece",
-     "authority": "Enterprise Greece",
-     "url": "https://enterprisegreece.gov.gr/en/invest-in-greece/",
-     "checked": "2026-08-21",
-     "supports": "investment and business opportunity context"
-    },
-    {
-     "title": "Greek tax authority",
-     "authority": "Independent Authority for Public Revenue",
-     "url": "https://www.aade.gr/",
-     "checked": "2026-08-21",
-     "supports": "tax and local economic activity check"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/greece",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     }
    ],
    "provenance": {
@@ -834,6 +796,46 @@
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-GREECE-COST"
+   },
+   "fastest_entry": "Visa-free short stays (90 days or less) as part of the Schengen area, in some cases.",
+   "before_departure": "Nothing to lodge before travel today: EES registration happens at the border. ETIAS hadn't started on 2026-11-01.",
+   "steps": [
+    "Greece is in the Schengen area: short stays of 90 days or less can be visa-free in some cases; other purposes or longer stays need a visa before travel.",
+    "At the first Schengen border, give fingerprints and a photo for the Entry/Exit System (EES). It's free; nothing is needed before arrival, and sites charging for it are fraudulent.",
+    "Carry your passport when crossing borders, including inside Schengen (temporary internal checks are in place in places).",
+    "Get an entry stamp at the first Schengen entry."
+   ],
+   "documents": [
+    "Passport"
+   ],
+   "fees": [
+    {
+     "item": "visa-free short stay; EES registration",
+     "amount": 0,
+     "currency": "EUR",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/greece",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "host_unlock": "A Greek university, employer, promoter or event organiser can clarify the activity and supporting documents.",
+    "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
+    "before_departure": "Check the Greek mission, Schengen day count, invitation and any local work days.",
+    "useful_stay": "Short stay is the fast key; residence and work routes need preparation.",
+    "documents": [
+     "Australian passport and Schengen day-count",
+     "Greek host/invitation or event ticket",
+     "Role, payment and reimbursement statement",
+     "Insurance, accommodation and funds"
+    ],
+    "steps": [
+     "Check Schengen eligibility and day count.",
+     "Get host/event documentation.",
+     "Separate attendance from delivery and payment.",
+     "Check digital-nomad or work residence if staying longer.",
+     "Confirm Greek tax, insurance and local-sales issues."
+    ]
    }
   }
  }

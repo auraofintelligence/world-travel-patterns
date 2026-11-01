@@ -701,29 +701,11 @@
    "climate": "Wettest: June, July and August. Driest: February, March and April. Hottest: July (18.6°C average). Coolest: January (0.9°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Visa-free entry for up to 90 days in any 180-day Schengen period for tourism, reconnaissance, attendance and properly bounded business visits",
-   "before_departure": "Count all Schengen days and obtain an invitation stating every duty, venue, fee, expense and date. Test any lecture or performance against sections 22 and 30 of the Employment Ordinance before accepting it.",
-   "useful_stay": "The ordinary short-stay ceiling is 90 days in 180. A qualifying lecture or special academic or artistic performance must also stay within 90 days in a 12-month period.",
-   "host_unlock": "A German organiser can document the academic or artistic value, overseas professional role, habitual residence abroad and exact duration, then confirm the section 22/30 treatment with the competent mission or foreigners authority where the facts are not plain.",
-   "documents": [
-    "Australian passport",
-    "Schengen day count",
-    "Invitation with duties, dates, venues, fee and expenses",
-    "Evidence of overseas profession and habitual residence",
-    "Written route confirmation where the section 22 exception is relied upon"
-   ],
-   "steps": [
-    "Count the full Schengen 90-in-180 window.",
-    "Obtain one invitation listing every activity, venue, payment and expense.",
-    "Keep ordinary entry to tourism, attendance and bounded business activity.",
-    "For any lecture or performance, test every section 22 and section 30 condition and document the result.",
-    "Use a residence permit before ordinary consulting, recurring teaching, remote work or local operation."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Does the trip remain within the shared Schengen day count?",
     "Is the traveller acting for a foreign employer where section 16 is relied upon?",
@@ -735,74 +717,11 @@
    ],
    "sources": [
     {
-     "title": "Overview of visa requirements and exemptions",
-     "authority": "German Federal Foreign Office",
-     "url": "https://www.auswaertiges-amt.de/en/visa-service/231148-231148",
-     "checked": "2026-08-21",
-     "supports": "Australian visa exemption, 90-in-180 limit, employment exclusion and post-entry residence application privilege"
-    },
-    {
-     "title": "Ordinance on the Employment of Foreigners",
-     "authority": "Federal Ministry of Justice and Federal Office of Justice",
-     "url": "https://www.gesetze-im-internet.de/englisch_beschv/englisch_beschv.html",
-     "checked": "2026-08-21",
-     "supports": "business travellers, short lectures and performances, Australian employment access and activities not deemed employment"
-    },
-    {
-     "title": "How do I apply for a visa?",
-     "authority": "Make it in Germany / Federal Government",
-     "url": "https://www.make-it-in-germany.com/en/visa-residence/apply-for-visa",
-     "checked": "2026-08-21",
-     "supports": "Australian post-entry residence-permit option and no work before authorisation"
-    },
-    {
-     "title": "Visa for self-employed business",
-     "authority": "Make it in Germany / Federal Government",
-     "url": "https://www.make-it-in-germany.com/en/working-in-germany/setting-up-business/visa/self-employed",
-     "checked": "2026-08-21",
-     "supports": "economic-interest, positive-impact, finance and over-45 tests for commercial self-employment"
-    },
-    {
-     "title": "Visa for freelance business",
-     "authority": "Make it in Germany / Federal Government",
-     "url": "https://www.make-it-in-germany.com/en/working-in-germany/setting-up-business/visa/freelance",
-     "checked": "2026-08-21",
-     "supports": "freelance residence requirements, initial duration and over-45 test"
-    },
-    {
-     "title": "Special regulations for artists",
-     "authority": "Make it in Germany / Federal Government",
-     "url": "https://www.make-it-in-germany.com/en/visa-residence/types/other/artists",
-     "checked": "2026-08-21",
-     "supports": "short artist exceptions, longer artist routes and over-45 old-age provision"
-    },
-    {
-     "title": "Working Holiday Visa Programme",
-     "authority": "German missions in Australia",
-     "url": "https://australien.diplo.de/au-en/service/visa/working-holiday-2640582",
-     "checked": "2026-08-21",
-     "supports": "Australian Working Holiday age limit"
-    },
-    {
-     "title": "Frankfurter Buchmesse 2026 tickets and program signal",
-     "authority": "Frankfurter Buchmesse",
-     "url": "https://www.buchmesse.de/en/press/press-releases/2026-06-24-frankfurter-buchmesse-tickets-are-sale",
-     "checked": "2026-08-21",
-     "supports": "international publishing, rights and author-event signal"
-    },
-    {
-     "title": "data:unplugged 2027",
-     "authority": "Event organiser",
-     "url": "https://www.data-unplugged.de/en",
-     "checked": "2026-08-21",
-     "supports": "recurring English-language data and AI event signal"
-    },
-    {
-     "title": "Adaptive Organizations meet Architecture 2027 call for speakers",
-     "authority": "AOmA conference organiser",
-     "url": "https://sessionize.com/aoma-2027/",
-     "checked": "2026-08-21",
-     "supports": "open call, deadline, event dates, English requirement and speaker travel terms"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/germany",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     }
    ],
    "provenance": {
@@ -845,6 +764,47 @@
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-GERMANY-COST"
+   },
+   "fastest_entry": "Visa-free short stays (90 days or less) as part of the Schengen area, in some cases.",
+   "before_departure": "Nothing to lodge before travel today: EES registration happens at the border. ETIAS hadn't started on 2026-11-01.",
+   "steps": [
+    "Germany is in the Schengen area: short stays of 90 days or less can be visa-free in some cases; other purposes or longer stays need a visa before travel.",
+    "At the first Schengen border, give fingerprints and a photo for the Entry/Exit System (EES). It's free; nothing is needed before arrival, and sites charging for it are fraudulent.",
+    "Carry your passport when crossing borders, including inside Schengen (temporary internal checks are in place in places).",
+    "A German-Australian visa exemption agreement exists; check its terms with the German Embassy Canberra. Non-travelling parents can sign a consent form for children."
+   ],
+   "documents": [
+    "Passport"
+   ],
+   "fees": [
+    {
+     "item": "visa-free short stay; EES registration",
+     "amount": 0,
+     "currency": "EUR",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/germany",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "host_unlock": "A German organiser can document the academic or artistic value, overseas professional role, habitual residence abroad and exact duration, then confirm the section 22/30 treatment with the competent mission or foreigners authority where the facts are not plain.",
+    "fastest_entry": "Visa-free entry for up to 90 days in any 180-day Schengen period for tourism, reconnaissance, attendance and properly bounded business visits",
+    "before_departure": "Count all Schengen days and obtain an invitation stating every duty, venue, fee, expense and date. Test any lecture or performance against sections 22 and 30 of the Employment Ordinance before accepting it.",
+    "useful_stay": "The ordinary short-stay ceiling is 90 days in 180. A qualifying lecture or special academic or artistic performance must also stay within 90 days in a 12-month period.",
+    "documents": [
+     "Australian passport",
+     "Schengen day count",
+     "Invitation with duties, dates, venues, fee and expenses",
+     "Evidence of overseas profession and habitual residence",
+     "Written route confirmation where the section 22 exception is relied upon"
+    ],
+    "steps": [
+     "Count the full Schengen 90-in-180 window.",
+     "Obtain one invitation listing every activity, venue, payment and expense.",
+     "Keep ordinary entry to tourism, attendance and bounded business activity.",
+     "For any lecture or performance, test every section 22 and section 30 condition and document the result.",
+     "Use a residence permit before ordinary consulting, recurring teaching, remote work or local operation."
+    ]
    }
   }
  }

@@ -638,28 +638,11 @@
    "climate": "Wettest: October, November and December. Driest: June, July and August. Hottest: August (23.1°C average). Coolest: January (9.5°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
-   "before_departure": "Check the Portuguese mission/AIMA, Schengen day count and whether the trip is visitor, remote-worker or local work.",
-   "useful_stay": "Use the visitor route for short scouting; D8/D2 and other residence routes take a prepared dossier.",
-   "host_unlock": "A Portuguese university, event, publisher, employer or incubator can provide the host evidence.",
-   "documents": [
-    "Australian passport and Schengen day-count",
-    "Invitation or event registration",
-    "Foreign-work income evidence if D8 is considered",
-    "Accommodation, insurance and funds"
-   ],
-   "steps": [
-    "Check Schengen entry and day count.",
-    "Choose visitor, D8, D2 or host-led work route.",
-    "Gather AIMA/consular evidence.",
-    "Keep Portuguese clients and foreign remote work distinct.",
-    "Confirm tax, social-security and event obligations."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Is the work for entities outside Portugal?",
     "Will a Portuguese organiser pay or contract you?",
@@ -669,32 +652,11 @@
    ],
    "sources": [
     {
-     "title": "National visas: general information",
-     "authority": "Portuguese Ministry of Foreign Affairs",
-     "url": "https://vistos.mne.gov.pt/en/national-visas/general-information/type-of-visa",
-     "checked": "2026-08-21",
-     "supports": "national visa categories"
-    },
-    {
-     "title": "Working in Portugal",
-     "authority": "AIMA",
-     "url": "https://aima.gov.pt/pt/trabalhar",
-     "checked": "2026-08-21",
-     "supports": "employment, remote work and work-residence links"
-    },
-    {
-     "title": "Remote professional activity residence",
-     "authority": "AIMA",
-     "url": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-para-o-exercicio-de-atividade-profissional-prestada-de-forma-remota-com-visto-de-residencia",
-     "checked": "2026-08-21",
-     "supports": "D8 remote-worker route"
-    },
-    {
-     "title": "Investment residence authorisation",
-     "authority": "AIMA",
-     "url": "https://aima.gov.pt/pt/viver/autorizacao-de-residencia-para-investimento-art-90-o-a",
-     "checked": "2026-08-21",
-     "supports": "investment residence framework"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/portugal",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     }
    ],
    "provenance": {
@@ -737,6 +699,46 @@
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-PORTUGAL-COST"
+   },
+   "fastest_entry": "Visa-free short stays (90 days or less) as part of the Schengen area, in some cases.",
+   "before_departure": "Nothing to lodge before travel today: EES registration happens at the border. ETIAS hadn't started on 2026-11-01.",
+   "steps": [
+    "Portugal is in the Schengen area: short stays of 90 days or less can be visa-free in some cases; other purposes or longer stays need a visa before travel.",
+    "At the first Schengen border, give fingerprints and a photo for the Entry/Exit System (EES). It's free; nothing is needed before arrival, and sites charging for it are fraudulent.",
+    "Carry your passport when crossing borders, including inside Schengen (temporary internal checks are in place in places).",
+    "Get a clear entry stamp; AIMA residence and long-stay visa processing has long delays."
+   ],
+   "documents": [
+    "Passport"
+   ],
+   "fees": [
+    {
+     "item": "visa-free short stay; EES registration",
+     "amount": 0,
+     "currency": "EUR",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/portugal",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "host_unlock": "A Portuguese university, event, publisher, employer or incubator can provide the host evidence.",
+    "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
+    "before_departure": "Check the Portuguese mission/AIMA, Schengen day count and whether the trip is visitor, remote-worker or local work.",
+    "useful_stay": "Use the visitor route for short scouting; D8/D2 and other residence routes take a prepared dossier.",
+    "documents": [
+     "Australian passport and Schengen day-count",
+     "Invitation or event registration",
+     "Foreign-work income evidence if D8 is considered",
+     "Accommodation, insurance and funds"
+    ],
+    "steps": [
+     "Check Schengen entry and day count.",
+     "Choose visitor, D8, D2 or host-led work route.",
+     "Gather AIMA/consular evidence.",
+     "Keep Portuguese clients and foreign remote work distinct.",
+     "Confirm tax, social-security and event obligations."
+    ]
    }
   }
  }

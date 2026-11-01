@@ -637,28 +637,11 @@
    "climate": "Wettest: July, November and December. Driest: February, March and April. Hottest: July (18.6°C average). Coolest: January (3.2°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
-   "before_departure": "Check the Belgian mission, Schengen day count, invitation and whether the activity is employee or self-employed.",
-   "useful_stay": "Visitor entry handles attendance and meetings; local delivery needs the regional or federal work key.",
-   "host_unlock": "A Belgian employer, institution, promoter or regional professional-card process activates work.",
-   "documents": [
-    "Australian passport and Schengen day-count",
-    "Invitation with Belgian region and venue",
-    "Role, fee, reimbursement and contract",
-    "Insurance, funds and accommodation"
-   ],
-   "steps": [
-    "Check the Schengen visitor rule.",
-    "Identify the Belgian region and language of the host.",
-    "Separate meetings/attendance from delivery.",
-    "Choose single permit or professional card.",
-    "Keep publisher, artist, teacher and trade activities separately evidenced."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Which Belgian region controls the activity?",
     "Employee, independent, visiting academic or performer?",
@@ -668,32 +651,11 @@
    ],
    "sources": [
     {
-     "title": "Visa for Belgium",
-     "authority": "Belgian FPS Foreign Affairs",
-     "url": "https://australia.diplomatie.belgium.be/en/travel-belgium/visa-belgium",
-     "checked": "2026-08-21",
-     "supports": "Australian short-stay and visa application guidance"
-    },
-    {
-     "title": "Single permit and work visa",
-     "authority": "Belgian Embassy in Australia",
-     "url": "https://australie.diplomatie.belgium.be/en/travel-belgium/visa-belgium/single-permit-and-work-visa",
-     "checked": "2026-08-21",
-     "supports": "employer-led work authorisation and visa D"
-    },
-    {
-     "title": "Professional card",
-     "authority": "Belgian FPS Foreign Affairs",
-     "url": "https://verenigdearabischeemiraten.diplomatie.belgium.be/en/travel-belgium/visa-belgium/professional-card",
-     "checked": "2026-08-21",
-     "supports": "regional self-employed and freelancer route"
-    },
-    {
-     "title": "Work as a third-country national",
-     "authority": "Belgian Immigration Office",
-     "url": "https://dofi.ibz.be/en/themes/third-country-nationals/work",
-     "checked": "2026-08-21",
-     "supports": "Belgian work-permission framework"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/belgium",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     }
    ],
    "provenance": {
@@ -736,6 +698,46 @@
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-BELGIUM-COST"
+   },
+   "fastest_entry": "Visa-free short stays (90 days or less) as part of the Schengen area, in some cases.",
+   "before_departure": "Nothing to lodge before travel today: EES registration happens at the border. ETIAS hadn't started on 2026-11-01.",
+   "steps": [
+    "Belgium is in the Schengen area: short stays of 90 days or less can be visa-free in some cases; other purposes or longer stays need a visa before travel.",
+    "At the first Schengen border, give fingerprints and a photo for the Entry/Exit System (EES). It's free; nothing is needed before arrival, and sites charging for it are fraudulent.",
+    "Carry your passport when crossing borders, including inside Schengen (temporary internal checks are in place in places).",
+    "Adults travelling with children may need proof of relationship (birth certificate or court order)."
+   ],
+   "documents": [
+    "Passport"
+   ],
+   "fees": [
+    {
+     "item": "visa-free short stay; EES registration",
+     "amount": 0,
+     "currency": "EUR",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/belgium",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "host_unlock": "A Belgian employer, institution, promoter or regional professional-card process activates work.",
+    "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
+    "before_departure": "Check the Belgian mission, Schengen day count, invitation and whether the activity is employee or self-employed.",
+    "useful_stay": "Visitor entry handles attendance and meetings; local delivery needs the regional or federal work key.",
+    "documents": [
+     "Australian passport and Schengen day-count",
+     "Invitation with Belgian region and venue",
+     "Role, fee, reimbursement and contract",
+     "Insurance, funds and accommodation"
+    ],
+    "steps": [
+     "Check the Schengen visitor rule.",
+     "Identify the Belgian region and language of the host.",
+     "Separate meetings/attendance from delivery.",
+     "Choose single permit or professional card.",
+     "Keep publisher, artist, teacher and trade activities separately evidenced."
+    ]
    }
   }
  }

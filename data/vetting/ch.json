@@ -620,28 +620,11 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
-   "before_departure": "Check SEM entry rules, Schengen day count, host canton and whether any days of work are planned.",
-   "useful_stay": "Visitor entry is useful for scouting and attendance; local work requires cantonal/federal approval.",
-   "host_unlock": "A Swiss employer, university, conference or promoter must explain the role and seek any notification or permit.",
-   "documents": [
-    "Australian passport and Schengen day-count",
-    "Swiss host/canton and venue",
-    "Invitation or contract with role and fee",
-    "Funds, insurance and onward plan"
-   ],
-   "steps": [
-    "Check SEM entry and Schengen days.",
-    "Identify canton and host type.",
-    "Separate delegate, speaker, teacher, seller and performer roles.",
-    "Let the Swiss host confirm notification or permit.",
-    "Keep remote work and Swiss work as separate tracks."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Which canton and language region?",
     "Foreign employer or Swiss engager?",
@@ -651,32 +634,11 @@
    ],
    "sources": [
     {
-     "title": "Visa application procedure",
-     "authority": "State Secretariat for Migration",
-     "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/visumantragsverfahren.html",
-     "checked": "2026-08-21",
-     "supports": "Swiss entry and visa framework"
-    },
-    {
-     "title": "Working in Switzerland",
-     "authority": "State Secretariat for Migration",
-     "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit.html",
-     "checked": "2026-08-21",
-     "supports": "work, notification and permit framework"
-    },
-    {
-     "title": "Working in Switzerland",
-     "authority": "Swiss Confederation",
-     "url": "https://www.ch.ch/en/foreign-nationals-in-switzerland/working-in-switzerland/",
-     "checked": "2026-08-21",
-     "supports": "plain-language work guidance"
-    },
-    {
-     "title": "Swiss representation in Australia: entry",
-     "authority": "Federal Department of Foreign Affairs",
-     "url": "https://www.eda.admin.ch/countries/australia/en/home/visa/entry-ch.html",
-     "checked": "2026-08-21",
-     "supports": "Australia-specific consular entry guidance"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/switzerland",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     }
    ],
    "provenance": {
@@ -719,6 +681,45 @@
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-SWITZERLAND-COST"
+   },
+   "fastest_entry": "Visa-free short stays (90 days or less) as part of the Schengen area, in some cases.",
+   "before_departure": "Nothing to lodge before travel today: EES registration happens at the border. ETIAS hadn't started on 2026-11-01.",
+   "steps": [
+    "Switzerland is in the Schengen area: short stays of 90 days or less can be visa-free in some cases; other purposes or longer stays need a visa before travel.",
+    "At the first Schengen border, give fingerprints and a photo for the Entry/Exit System (EES). It's free; nothing is needed before arrival, and sites charging for it are fraudulent.",
+    "Carry your passport when crossing borders, including inside Schengen (temporary internal checks are in place in places)."
+   ],
+   "documents": [
+    "Passport"
+   ],
+   "fees": [
+    {
+     "item": "visa-free short stay; EES registration",
+     "amount": 0,
+     "currency": "CHF",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/switzerland",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "host_unlock": "A Swiss employer, university, conference or promoter must explain the role and seek any notification or permit.",
+    "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
+    "before_departure": "Check SEM entry rules, Schengen day count, host canton and whether any days of work are planned.",
+    "useful_stay": "Visitor entry is useful for scouting and attendance; local work requires cantonal/federal approval.",
+    "documents": [
+     "Australian passport and Schengen day-count",
+     "Swiss host/canton and venue",
+     "Invitation or contract with role and fee",
+     "Funds, insurance and onward plan"
+    ],
+    "steps": [
+     "Check SEM entry and Schengen days.",
+     "Identify canton and host type.",
+     "Separate delegate, speaker, teacher, seller and performer roles.",
+     "Let the Swiss host confirm notification or permit.",
+     "Keep remote work and Swiss work as separate tracks."
+    ]
    }
   }
  },

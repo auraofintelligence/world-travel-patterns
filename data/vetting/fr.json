@@ -659,28 +659,11 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
-   "before_departure": "Check the France-Visas assistant, Schengen day count, passport validity and any event invitation before booking.",
-   "useful_stay": "Short-stay entry is the quick key; long stays or active local work move to a French long-stay visa or residence permit.",
-   "host_unlock": "A French organiser, university, employer or producer can classify the assignment and provide the contract, convention or work-authorisation evidence.",
-   "documents": [
-    "Australian passport and Schengen day-count",
-    "Invitation with dates, venue and role",
-    "Fee, reimbursement and who pays",
-    "Insurance, accommodation and onward plan"
-   ],
-   "steps": [
-    "Run France-Visas for the exact purpose and duration.",
-    "Count the whole Schengen itinerary, not France alone.",
-    "Get the invitation or contract to name the role and payment.",
-    "Ask the host to classify any speaking, teaching, performance or local service.",
-    "Use talent, researcher, artist or creator routes for longer activity."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Is the trip attendance, delivery or local employment?",
     "Does the organiser pay a fee, expenses, royalties or in-kind benefit?",
@@ -690,32 +673,11 @@
    ],
    "sources": [
     {
-     "title": "France-Visas: Australia",
-     "authority": "French Ministry for Europe and Foreign Affairs",
-     "url": "https://france-visas.gouv.fr/en/web/france-visas/australie",
-     "checked": "2026-08-21",
-     "supports": "Australian application route and processing context"
-    },
-    {
-     "title": "France-Visas: professional purpose",
-     "authority": "French Ministry for Europe and Foreign Affairs",
-     "url": "https://france-visas.gouv.fr/en/web/france-visas/motif-professionnel",
-     "checked": "2026-08-21",
-     "supports": "business, self-employed and professional categories"
-    },
-    {
-     "title": "France-Visas: salaried activity",
-     "authority": "French Ministry for Europe and Foreign Affairs",
-     "url": "https://www.france-visas.gouv.fr/web/france-visas/activite-salariee",
-     "checked": "2026-08-21",
-     "supports": "short missions, events and occasional invited teaching"
-    },
-    {
-     "title": "France-Visas: international talents",
-     "authority": "French Ministry for Europe and Foreign Affairs",
-     "url": "https://france-visas.gouv.fr/en/web/france-visas/talents-internationaux-et-attractivite-economique",
-     "checked": "2026-08-21",
-     "supports": "talent, researcher, creator, investor and artist routes"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/france",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     }
    ],
    "provenance": {
@@ -758,6 +720,46 @@
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-FRANCE-COST"
+   },
+   "fastest_entry": "Visa-free short stays (90 days or less) as part of the Schengen area, in some cases.",
+   "before_departure": "Nothing to lodge before travel today: EES registration happens at the border. ETIAS hadn't started on 2026-11-01.",
+   "steps": [
+    "France is in the Schengen area: short stays of 90 days or less can be visa-free in some cases; other purposes or longer stays need a visa before travel.",
+    "At the first Schengen border, give fingerprints and a photo for the Entry/Exit System (EES). It's free; nothing is needed before arrival, and sites charging for it are fraudulent.",
+    "Carry your passport when crossing borders, including inside Schengen (temporary internal checks are in place in places).",
+    "Visas must be applied for in Australia; status can't be changed once in France. France Diplomacy has an online visa tool."
+   ],
+   "documents": [
+    "Passport"
+   ],
+   "fees": [
+    {
+     "item": "visa-free short stay; EES registration",
+     "amount": 0,
+     "currency": "EUR",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/france",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "host_unlock": "A French organiser, university, employer or producer can classify the assignment and provide the contract, convention or work-authorisation evidence.",
+    "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
+    "before_departure": "Check the France-Visas assistant, Schengen day count, passport validity and any event invitation before booking.",
+    "useful_stay": "Short-stay entry is the quick key; long stays or active local work move to a French long-stay visa or residence permit.",
+    "documents": [
+     "Australian passport and Schengen day-count",
+     "Invitation with dates, venue and role",
+     "Fee, reimbursement and who pays",
+     "Insurance, accommodation and onward plan"
+    ],
+    "steps": [
+     "Run France-Visas for the exact purpose and duration.",
+     "Count the whole Schengen itinerary, not France alone.",
+     "Get the invitation or contract to name the role and payment.",
+     "Ask the host to classify any speaking, teaching, performance or local service.",
+     "Use talent, researcher, artist or creator routes for longer activity."
+    ]
    }
   }
  }

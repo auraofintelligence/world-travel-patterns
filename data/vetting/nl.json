@@ -653,28 +653,11 @@
    "climate": "Wettest: July, August and December. Driest: March, April and May. Hottest: August (18.1°C average). Coolest: January (3.5°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
-   "before_departure": "Check NetherlandsWorldwide entry guidance, Schengen day count, host letter and accommodation.",
-   "useful_stay": "Short stay is the agile option; local work or residence needs an IND route.",
-   "host_unlock": "A Dutch employer, recognised sponsor, university or startup facilitator can supply the documents for the matching permit.",
-   "documents": [
-    "Australian passport and Schengen day-count",
-    "Dutch host invitation or event ticket",
-    "Employer/client and payment explanation",
-    "Insurance, funds and onward itinerary"
-   ],
-   "steps": [
-    "Check Schengen eligibility and day count.",
-    "Get the Dutch invitation or conference ticket.",
-    "Label every appearance as attendee, speaker, trainer, performer or seller.",
-    "Ask the host about TWV/single-permit or exemption.",
-    "Use IND startup/self-employed routes for a real longer project."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Is there Dutch remuneration or a local client?",
     "Is a recognised sponsor involved?",
@@ -684,39 +667,11 @@
    ],
    "sources": [
     {
-     "title": "Visa for the Netherlands",
-     "authority": "NetherlandsWorldwide",
-     "url": "https://www.netherlandsworldwide.nl/visa-the-netherlands",
-     "checked": "2026-08-21",
-     "supports": "short-stay and visa-exemption entry guidance"
-    },
-    {
-     "title": "Business or official visit checklist",
-     "authority": "NetherlandsWorldwide",
-     "url": "https://www.netherlandsworldwide.nl/visa-the-netherlands/checklist-schengen-visa-business-official-visit",
-     "checked": "2026-08-21",
-     "supports": "business invitations, congresses and evidence"
-    },
-    {
-     "title": "Working in the Netherlands",
-     "authority": "Immigration and Naturalisation Service (IND)",
-     "url": "https://ind.nl/en/work/working_in_the_Netherlands",
-     "checked": "2026-08-21",
-     "supports": "work and sponsorship framework"
-    },
-    {
-     "title": "Residence permit for a start-up",
-     "authority": "Immigration and Naturalisation Service (IND)",
-     "url": "https://ind.nl/en/residence-permits/work/start-up",
-     "checked": "2026-08-21",
-     "supports": "startup founder route"
-    },
-    {
-     "title": "Residence permit self-employed person",
-     "authority": "Immigration and Naturalisation Service (IND)",
-     "url": "https://ind.nl/en/residence-permits/work/self-employed-person",
-     "checked": "2026-08-21",
-     "supports": "self-employed route"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/netherlands",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     }
    ],
    "provenance": {
@@ -759,6 +714,46 @@
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-NETHERLANDS-COST"
+   },
+   "fastest_entry": "Visa-free short stays (90 days or less) as part of the Schengen area, in some cases.",
+   "before_departure": "Nothing to lodge before travel today: EES registration happens at the border. ETIAS hadn't started on 2026-11-01.",
+   "steps": [
+    "the Netherlands is in the Schengen area: short stays of 90 days or less can be visa-free in some cases; other purposes or longer stays need a visa before travel.",
+    "At the first Schengen border, give fingerprints and a photo for the Entry/Exit System (EES). It's free; nothing is needed before arrival, and sites charging for it are fraudulent.",
+    "Carry your passport when crossing borders, including inside Schengen (temporary internal checks are in place in places).",
+    "Check visa needs on NetherlandsWorldwide; temporary checks run at the Belgian and German land borders."
+   ],
+   "documents": [
+    "Passport"
+   ],
+   "fees": [
+    {
+     "item": "visa-free short stay; EES registration",
+     "amount": 0,
+     "currency": "EUR",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/netherlands",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "host_unlock": "A Dutch employer, recognised sponsor, university or startup facilitator can supply the documents for the matching permit.",
+    "fastest_entry": "Visa-free Schengen short stay, normally up to 90 days in any 180-day period",
+    "before_departure": "Check NetherlandsWorldwide entry guidance, Schengen day count, host letter and accommodation.",
+    "useful_stay": "Short stay is the agile option; local work or residence needs an IND route.",
+    "documents": [
+     "Australian passport and Schengen day-count",
+     "Dutch host invitation or event ticket",
+     "Employer/client and payment explanation",
+     "Insurance, funds and onward itinerary"
+    ],
+    "steps": [
+     "Check Schengen eligibility and day count.",
+     "Get the Dutch invitation or conference ticket.",
+     "Label every appearance as attendee, speaker, trainer, performer or seller.",
+     "Ask the host about TWV/single-permit or exemption.",
+     "Use IND startup/self-employed routes for a real longer project."
+    ]
    }
   }
  }
