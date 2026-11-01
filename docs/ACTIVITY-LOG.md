@@ -596,3 +596,7 @@ Notable for speakers: je and im (pre-arranged paid lectures, conference talks an
 ## 2026-11-01 17:23 AEST, Grok: Entry and activities: bm and eh tourism, and Caribbean work rules (dm, gy, jm, kn, lc, sr, tt, vc) (10 records)
 
 bm is visa-free (180 days). eh is visa-free under Moroccan rules, but tourism is conditional because independent travellers may be turned back. Notable: tt (no work permit for one period of up to 30 days in 12 months). Elsewhere, paid speakers and artists need a permit or exemption: lc, dm, sr, vc, jm and kn. gy treats seminars and events as visitor purposes. Read via search-index snapshots.
+
+## 2026-11-01 17:24 AEST, Grok: Culture: national etiquette upgrades (mh to mv), plus a vc text fix (11 records)
+
+Upgraded mh, mk, mm (Shwedagon dress rules), mn (ger etiquette), mo, mp, mq (All Saints cemetery conduct), mt (St John's Co-Cathedral rules), mu and mv (local island rules) to partly-mapped. Also fixed a stray backslash in vc's work-permit fee text from the previous batch. Read via search-index snapshots.

@@ -539,10 +539,10 @@
    }
   },
   "culture-and-protocol": {
-   "status": "ask-locally",
+   "status": "partly-mapped",
    "checked": "2026-11-01",
    "evidence": "official",
-   "dress_and_conduct": "LGBTQIA+ travellers: Most people in Macau accept or are indifferent to LGBTQIA+ travellers. However, community attitudes towards LGBTQIA+ people are generally more conservative than in Australia.",
+   "dress_and_conduct": "LGBTQIA+ travellers: Most people in Macau accept or are indifferent to LGBTQIA+ travellers. However, community attitudes towards LGBTQIA+ people are generally more conservative than in Australia. The Macao Government Tourism Office's travel tips cover conduct at temples and in public: keep voices low, don't litter or spit, and follow staff instructions.",
    "cultural_authority": "Ask locally, through your host.",
    "note": "Read from the Australian Government's description of local customs.",
    "sources": [
@@ -552,8 +552,27 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/macau",
      "checked": "2026-11-01",
      "supports": "local laws, customs and money as read on 2026-11-01"
+    },
+    {
+     "title": "Travel tips",
+     "authority": "Macao Government Tourism Office",
+     "url": "https://www.macaotourism.gov.mo/en/travelessential/useful-info/travel-tips",
+     "checked": "2026-11-01",
+     "supports": "conduct (read via a search-index snapshot)"
+    },
+    {
+     "title": "Temples",
+     "authority": "Macao Government Tourism Office",
+     "url": "https://www.macaotourism.gov.mo/en/sightseeing/temples",
+     "checked": "2026-11-01",
+     "supports": "temples (read via a search-index snapshot)"
     }
-   ]
+   ],
+   "national_search": {
+    "checked": "2026-11-01",
+    "result": "found",
+    "note": "National tourism or government etiquette guidance found and cited."
+   }
   }
  }
 }
