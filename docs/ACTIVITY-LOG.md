@@ -656,3 +656,7 @@ Upgraded to (Sunday law), tr (Diyanet mosque rules), tw (regional temple etiquet
 ## 2026-11-01 17:35 AEST, Grok: Culture: vg, vi, vn, vu, wf, ws, xk, yt, za, zm, zw (11 records)
 
 Upgraded vn (Decision 718 code), vu, ws (Sa curfew), vi (sunscreen ban), wf, za, zm and zw to partly-mapped. yt, vg and xk: searched, none found. All non-Do-not-travel culture records have now been searched. Read via search-index snapshots.
+
+## 2026-11-01 17:36 AEST, Grok: Events 2027: ma, kz, ke, mn, rs, pf, de, br, qa, sa (10 records)
+
+Added official 2027 dates: GITEX Africa, GITEX AI Kazakhstan, Africa Tech Summit Nairobi, Naadam, Expo 2027 Belgrade, Pacific Games Tahiti, documenta 16, Web Summit Rio, Web Summit Qatar and the AFC Asian Cup. The Cricket World Cup, Biennale and Sauti za Busara were already recorded. Bhutan tsechus (tentative) and Lake of Stars (no official dates) skipped. Read via search-index snapshots.
