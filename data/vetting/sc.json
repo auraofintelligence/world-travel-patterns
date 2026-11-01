@@ -388,11 +388,27 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of the Republic of the Seychelles",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of the Republic of the Seychelles which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Gainful Occupation Permit if the launch counts as work",
+     "detail": "The cited source says any work in Seychelles, paid or unpaid, needs a Gainful Occupation Permit (short-term GOP: one month, not extendable). Whether a launch counts as work is not stated.",
+     "next": "Ask Immigration whether a launch needs a short-term GOP.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Gainful Occupation Permit",
+       "authority": "Immigration and Civil Status, Seychelles",
+       "url": "https://www.ics.gov.sc/permits/gainful-occupation-permit",
+       "checked": "2026-11-01",
+       "supports": "GOP (read via a search-index snapshot)"
+      },
+      {
+       "title": "GOP FAQ",
+       "authority": "Immigration and Civil Status, Seychelles",
+       "url": "https://ics.gov.sc/faq/immigration-services/gop-section",
+       "checked": "2026-11-01",
+       "supports": "short-term GOP (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",

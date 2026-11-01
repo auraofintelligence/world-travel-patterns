@@ -908,3 +908,7 @@ Mixed-mission checks for 31 places (am ax az bg bt ci cm cu dk dm fm gy jm kg kn
 ## 2026-11-01 23:24 AEST, Grok: Fix mixed missions: restore cu, dk, se (still confirm) and keep earlier detail for ax, bg, fm, mh, mt, ws (9 records)
 
 Correction to dbe7dca: the bulk derivation overwrote mixed-mission detail that had been read deliberately. Cuba, Denmark and Sweden restored to their earlier confirm-in-writing entries (status unchanged from before dbe7dca). For ax, bg, fm, mh, mt and ws the earlier detail is kept ahead of the derived text (detail updated, status as derived).
+
+## 2026-11-01 23:25 AEST, Grok: Book launch and unpaid speaking: reuse cited pages for am, sc, to, mu, gy, cu (6 records)
+
+Resolved from the official source already cited for the sibling activity in the same record: Armenia unpaid talks fit the invited-lecturer exemption; Seychelles and Tonga launches turn on whether they count as work (permit needed if so); Mauritius business visitors may not sell directly; Guyana events under 3 months are visitor purposes; Cuba uses an events visa. All set conditional, no new sources.

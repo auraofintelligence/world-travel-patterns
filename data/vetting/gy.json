@@ -216,11 +216,20 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission for the Republic of Guyana",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission for the Republic of Guyana which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor with an invitation (events under 3 months)",
+     "detail": "Guyana treats meetings, workshops, seminars and events of under 3 months as visitor purposes with an invitation letter. Direct book sales are not addressed.",
+     "next": "Carry the host invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Information on visas (new immigration procedures)",
+       "authority": "Ministry of Foreign Affairs, Guyana",
+       "url": "https://www.minfor.gov.gy/sites/default/files/2025-04/New_Immigration_Procedures_Visa_Fees_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor and employment rules (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "confirm-in-writing",

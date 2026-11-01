@@ -428,11 +428,27 @@
      "checked": "2026-11-01"
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Not confirmed from an official source",
-     "detail": "Third-party guides describe a business visa (up to 3 months) and a short-term work permit (up to 6 months); no Tonga Government page was found.",
-     "next": "Ask the High Commission of the Kingdom of Tonga.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Written permission for any work",
+     "detail": "No short-term speaker exemption is published and any work needs written permission. Whether a launch counts as work is not stated.",
+     "next": "Ask Immigration in writing before the launch.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration and General Services",
+       "authority": "Ministry of Revenue and Customs, Tonga",
+       "url": "https://www.revenue.gov.to/immigration-and-general-services",
+       "checked": "2026-11-01",
+       "supports": "visitor permit forbids employment without written permission (read via a search-index snapshot)"
+      },
+      {
+       "title": "Business Visa",
+       "authority": "Embassy of Tonga in China",
+       "url": "https://www.tongaembassycn.gov.to/en/going-to-tonga-en/visas-en/business-visa-en",
+       "checked": "2026-11-01",
+       "supports": "business visa before entry, written notice for business visits (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "specialist",

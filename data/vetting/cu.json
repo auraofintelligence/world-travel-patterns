@@ -355,18 +355,25 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Event visa on request",
-     "detail": "Events can need a specific event visa; consulates say to ask them directly.",
-     "next": "Ask the Cuban consulate in writing.",
+     "status": "conditional",
+     "route": "Events visa on the Cuban organiser's invitation",
+     "detail": "Cuba issues a specific events visa on a Cuban organiser's invitation; a tourist card is not the normal route for events.",
+     "next": "Ask the organiser to request the events visa.",
      "checked": "2026-11-01",
      "sources": [
       {
-       "title": "Servicios Consulares",
-       "authority": "Ministry of Foreign Affairs (MINREX), Cuba, consular missions",
-       "url": "http://misiones.cubaminrex.cu/es/el-salvador/servicios-consulares",
+       "title": "Visas online",
+       "authority": "Ministerio de Relaciones Exteriores de Cuba",
+       "url": "https://visasonline.cubaminrex.cu/en",
        "checked": "2026-11-01",
-       "supports": "business visas via the commercial office; event visas on request (read via a search-index snapshot)"
+       "supports": "visa categories (read via a search-index snapshot)"
+      },
+      {
+       "title": "Visa de eventos (application form)",
+       "authority": "Embassy of Cuba (MINREX missions)",
+       "url": "http://misiones.cubaminrex.cu/sites/default/files/formularios/editorsuecia/visa_de_eventos_0.pdf",
+       "checked": "2026-11-01",
+       "supports": "events visa (read via a search-index snapshot)"
       }
      ]
     },

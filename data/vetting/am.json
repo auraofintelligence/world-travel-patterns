@@ -178,11 +178,20 @@
      "checked": "2026-11-01"
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Armenia",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Armenia which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work permit exemption for invited lecturers",
+     "detail": "The Law on Foreigners exempts invited lecturers and scientific and educational workers from the work permit during a lawful stay. An invited talk fits this; an uninvited public talk is not addressed.",
+     "next": "Get a written invitation from the host institution.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Law of the Republic of Armenia on Foreigners",
+       "authority": "ARLIS, Armenian legal information system",
+       "url": "https://www.arlis.am/en/acts/231843",
+       "checked": "2026-11-01",
+       "supports": "Article 23 exempts invited lecturers and touring performers (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "conditional",
