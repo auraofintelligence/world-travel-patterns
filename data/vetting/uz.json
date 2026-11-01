@@ -353,11 +353,20 @@
      "checked": "2026-11-01"
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Uzbekistan",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Uzbekistan which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "A-3 academic visa",
+     "detail": "Scientific research uses the A-3 academic visa (3 months to 2 years), issued on application from the Academy of Sciences, a university or a ministry.",
+     "next": "Have the host institution apply.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa to the Republic of Uzbekistan",
+       "authority": "Ministry of Foreign Affairs, Uzbekistan",
+       "url": "https://gov.uz/en/mfa/pages/o-zbekiston-respublikasi-vizasi",
+       "checked": "2026-11-01",
+       "supports": "A-3 academic visa on application by research bodies (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
      "status": "confirm-in-writing",

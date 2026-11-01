@@ -400,10 +400,19 @@
     },
     "remote-work": {
      "status": "confirm-in-writing",
-     "route": "Not published",
-     "detail": "No remote-work rule was found on the official pages.",
-     "next": "Ask the Ministry of Foreign Affairs and Immigration before travel.",
-     "checked": "2026-11-01"
+     "route": "Visitor permit (up to 8 months for non-New Zealanders)",
+     "detail": "Visitor permits prohibit work for gain or reward; remote work for a foreign employer is not addressed.",
+     "next": "Ask Cook Islands Immigration in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa and permit criteria",
+       "authority": "Ministry of Foreign Affairs and Immigration, Cook Islands",
+       "url": "https://mfai.gov.ck/visa-and-permit-criteria",
+       "checked": "2026-11-01",
+       "supports": "visitor permits prohibit work for gain or reward; 8-month cap (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "confirm-in-writing",

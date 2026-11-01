@@ -127,11 +127,20 @@
      "checked": "2026-11-01"
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Depends on the research",
-     "detail": "Independent research may be a business visit; paid research at a US institution needs a visa. US immigration law applies in the US Virgin Islands.",
-     "next": "Ask a US Embassy.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "B-1 or ESTA for independent research (US law applies)",
+     "detail": "US immigration law applies here: independent, unpaid research benefiting no US institution is a permitted B-1 activity.",
+     "next": "Keep research independent and unpaid.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "9 FAM 402.2",
+       "authority": "U.S. Department of State, Foreign Affairs Manual",
+       "url": "https://fam.state.gov/fam/09fam/09fam040202.html",
+       "checked": "2026-11-01",
+       "supports": "B-1 independent research (US immigration law applies) (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
      "status": "specialist",

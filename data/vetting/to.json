@@ -443,10 +443,19 @@
     },
     "remote-work": {
      "status": "confirm-in-writing",
-     "route": "Not confirmed from an official source",
-     "detail": "Third-party guides describe a business visa (up to 3 months) and a short-term work permit (up to 6 months); no Tonga Government page was found.",
-     "next": "Ask the High Commission of the Kingdom of Tonga.",
-     "checked": "2026-11-01"
+     "route": "Visitor permit",
+     "detail": "Visitor permits prohibit employment, business and study; remote work for a foreign employer is not addressed.",
+     "next": "Ask Tonga Immigration in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration and General Services",
+       "authority": "Ministry of Revenue and Customs, Tonga",
+       "url": "https://www.revenue.gov.to/immigration-and-general-services",
+       "checked": "2026-11-01",
+       "supports": "visitor permits prohibit employment and business (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "specialist",

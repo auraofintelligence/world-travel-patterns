@@ -164,11 +164,20 @@
      "checked": "2026-11-01"
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Depends on the research",
-     "detail": "Independent research may be a business visit; paid research at a US institution needs a visa.",
-     "next": "Ask a US Embassy.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "B-1 or ESTA for independent research",
+     "detail": "Independent research is a permitted B-1 activity if it involves no US employment and benefits no US institution; expenses may be reimbursed, but no salary or stipend. Collaborative research for a US host needs a J-1 or work visa.",
+     "next": "Keep research independent and unpaid.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "9 FAM 402.2",
+       "authority": "U.S. Department of State, Foreign Affairs Manual",
+       "url": "https://fam.state.gov/fam/09fam/09fam040202.html",
+       "checked": "2026-11-01",
+       "supports": "B-1 independent research (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
      "status": "specialist",

@@ -814,3 +814,7 @@ Volunteering checks: Micronesia allows unpaid volunteering on any entry permit; 
 ## 2026-11-01 20:34 AEST, Grok: Remote work rules: Dominica WIN visa, Serbia, Sweden, and the US and its territories (8 records)
 
 Remote-work checks: Dominica Work in Nature visa (USD 50,000 income, USD 800 fee); Serbia and Sweden list no remote-work exemption; the US (and pr, gu, vi, mp under US law) does not address remote work for a foreign employer on ESTA or B visas, left confirm-in-writing with detail. Fiji, Vanuatu and Samoa have no official nomad page (only third-party sites), not recorded. Read via search-index snapshots.
+
+## 2026-11-01 20:35 AEST, Grok: Remote work (am, ck, to, sb) and research visits (tw, us, pr, gu, vi, mp, na, uz, tj) (13 records)
+
+Remote work: Armenia allows remote work for a foreign employer without a permit (hartak.am); Cook Islands, Tonga and Solomon Islands do not address it (confirm). Research: US B-1 allows independent unpaid research benefiting no US institution (also pr, gu, vi, mp); Taiwan visitor up to 180 days; Namibia NCRST permit 4 months ahead; Uzbekistan A-3 and Tajikistan O2 visas. A Vietnam research entry was drafted from a misread Taiwan page and dropped before commit. Read via search-index snapshots.

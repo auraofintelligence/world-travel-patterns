@@ -328,10 +328,19 @@
     },
     "remote-work": {
      "status": "confirm-in-writing",
-     "route": "Not published",
-     "detail": "No remote-work rule found.",
-     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
-     "checked": "2026-11-01"
+     "route": "No remote-work category",
+     "detail": "There is no remote-work category; work needs a short-term employment visa and work permit. Remote work for a foreign employer is not addressed.",
+     "next": "Ask the Immigration Division in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visas",
+       "authority": "Solomon Islands Immigration Division",
+       "url": "https://immigration.gov.sb/visas/",
+       "checked": "2026-11-01",
+       "supports": "visa categories; no remote-work category (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "conditional",
