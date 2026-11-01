@@ -868,3 +868,7 @@ Official sources (search-index snapshots): Namibia speaking needs a short-term w
 ## 2026-11-01 23:19 AEST, Grok: Entrepreneur rules: co, kz, pk, mg, cm, sr (6 records)
 
 Entrepreneur checks from official sources (search-index snapshots): Colombia Visa M investor over 650 minimum wages; Kazakhstan USD 300,000 investor visa to 10-year residence; Pakistan investor visas 1, 3 or 5 years; Madagascar EDBM investor visa; Cameroon API support; Suriname business permit plus residence.
+
+## 2026-11-01 23:19 AEST, Grok: Filming rules: rs, rw, pg, sb, ar (5 records)
+
+Filming checks from official sources (search-index snapshots): Serbia exempts actors and creative team (crew need permits); Rwanda Irembo permit in 4 days; PNG film-maker visa; Solomon Islands commercial film-maker visa; Argentina RENURE invitation and INCAA residence.
