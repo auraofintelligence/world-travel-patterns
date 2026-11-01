@@ -619,6 +619,65 @@
    ],
    "notes": "Read from the Australian Government's travel advice; confirm with the country's own law.",
    "checked": "2026-11-01"
+  },
+  "births-and-family-support": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Births per woman: 1.9 in 1975, 1.3 in 2000, 1.2 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Average age of mothers at birth: 27.4 in 1975, 31.9 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "text": "Births in 2023: about 750,000.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "kind": "law",
+     "changing": true,
+     "text": "Childbirth lump-sum allowance: ¥500,000 (about A$4,512) per child for births from 1 April 2023, raised from ¥420,000, paid by the parent's health insurer to people in Japan's health insurance system. RBA rates on 30 October 2026: A$1 = ¥110.82.",
+     "source": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/shussan",
+     "checked": "2026-11-01",
+     "by": "hand",
+     "area": "support"
+    }
+   ],
+   "sources": [
+    {
+     "title": "World Population Prospects 2024",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "supports": "births per woman, births and mothers' average age, 1975 to 2023"
+    },
+    {
+     "title": "Childbirth lump-sum allowance (出産育児一時金)",
+     "authority": "Ministry of Health, Labour and Welfare, Japan",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/shussan",
+     "checked": "2026-11-01",
+     "supports": "allowance amount and April 2023 increase"
+    }
+   ],
+   "notes": "UN estimates; the national statistics office may publish newer figures.",
+   "checked": "2026-11-01"
   }
  }
 }

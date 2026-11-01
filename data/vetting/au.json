@@ -96,6 +96,65 @@
     }
    ],
    "notes": "National rules from the Therapeutic Goods Administration. States and territories add their own laws, shown at their level."
+  },
+  "births-and-family-support": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Births per woman: 2.2 in 1975, 1.8 in 2000, 1.6 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Average age of mothers at birth: 26.7 in 1975, 31.4 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "text": "Births in 2023: about 304,000.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "kind": "law",
+     "changing": true,
+     "text": "Parental Leave Pay: for children born or adopted from 1 July 2026, up to 130 days (26 weeks on a five-day week), paid at $1,004.70 a week before tax; children born before then stay on 120 days. Paid by Services Australia to eligible parents.",
+     "source": "https://www.servicesaustralia.gov.au/individuals/services/centrelink/parental-leave-pay/how-much-you-can-get",
+     "checked": "2026-11-01",
+     "by": "hand",
+     "area": "support"
+    }
+   ],
+   "sources": [
+    {
+     "title": "World Population Prospects 2024",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "supports": "births per woman, births and mothers' average age, 1975 to 2023"
+    },
+    {
+     "title": "Parental Leave Pay: how much you can get",
+     "authority": "Services Australia",
+     "url": "https://www.servicesaustralia.gov.au/individuals/services/centrelink/parental-leave-pay/how-much-you-can-get",
+     "checked": "2026-11-01",
+     "supports": "Parental Leave Pay rate and length from 1 July 2026"
+    }
+   ],
+   "notes": "UN estimates; the national statistics office may publish newer figures.",
+   "checked": "2026-11-01"
   }
  }
 }

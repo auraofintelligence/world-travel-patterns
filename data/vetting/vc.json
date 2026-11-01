@@ -176,6 +176,49 @@
     }
    ],
    "notes": "Custom differs between communities and places; ask locally."
+  },
+  "births-and-family-support": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Births per woman: 5.2 in 1975, 2.3 in 2000, 1.8 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Average age of mothers at birth: 28.3 in 1975, 28.2 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "text": "Births in 2023: about 1,200.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    }
+   ],
+   "sources": [
+    {
+     "title": "World Population Prospects 2024",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "supports": "births per woman, births and mothers' average age, 1975 to 2023"
+    }
+   ],
+   "notes": "UN estimates; the national statistics office may publish newer figures.",
+   "checked": "2026-11-01"
   }
  }
 }

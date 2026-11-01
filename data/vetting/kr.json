@@ -597,6 +597,65 @@
    ],
    "notes": "Read from the Australian Government's travel advice; confirm with the country's own law.",
    "checked": "2026-11-01"
+  },
+  "births-and-family-support": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Births per woman: 3.3 in 1975, 1.5 in 2000, 0.7 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Average age of mothers at birth: 28.6 in 1975, 33.4 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "text": "Births in 2023: about 236,000.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "kind": "law",
+     "evidence": "signal",
+     "text": "Parent benefit: ₩1,000,000 a month (about A$1,063) while a child is under one and ₩500,000 (about A$531) in the second year; a first-meeting voucher of ₩2,000,000 (about A$2,125) for a first child and ₩3,000,000 (about A$3,188) from the second, for Korean citizen children. RBA rates on 30 October 2026: A$1 = ₩941.07.",
+     "source": "https://wikidocs.net/blog/@mythos/21029/",
+     "checked": "2026-11-01",
+     "by": "hand",
+     "area": "support"
+    }
+   ],
+   "sources": [
+    {
+     "title": "World Population Prospects 2024",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "supports": "births per woman, births and mothers' average age, 1975 to 2023"
+    },
+    {
+     "title": "Parent benefit, first-meeting voucher and child allowance (2026)",
+     "authority": "Signal: WikiDocs guide",
+     "url": "https://wikidocs.net/blog/@mythos/21029/",
+     "checked": "2026-11-01",
+     "supports": "Korean birth support amounts; confirm with Bokjiro or the Ministry of Health and Welfare"
+    }
+   ],
+   "notes": "UN estimates; the national statistics office may publish newer figures.",
+   "checked": "2026-11-01"
   }
  }
 }

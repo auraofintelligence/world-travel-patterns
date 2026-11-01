@@ -18,7 +18,7 @@ from lib import (ROOT, applies, descendants, event_span, events_for, load_feeds,
                  load_places, parse_date, read, resolve, today)
 
 ORDER = ["advisory", "entry", "activities", "health-entry", "zone-requirements", "local-law",
-         "culture-and-protocol", "affection-and-relationships", "psychoactive-substances", "culture-cycles", "seasons-and-flow", "year-ahead", "consular", "money-and-cost", "works-and-purpose"]
+         "culture-and-protocol", "affection-and-relationships", "births-and-family-support", "psychoactive-substances", "culture-cycles", "seasons-and-flow", "year-ahead", "consular", "money-and-cost", "works-and-purpose"]
 
 
 def age(record, on):

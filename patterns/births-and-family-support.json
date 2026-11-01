@@ -1,0 +1,49 @@
+{
+ "id": "births-and-family-support",
+ "name": "Births and family support",
+ "layer": "relationships",
+ "method": "agent",
+ "inherit": "stack",
+ "question": "How many children are born here and how is that changing, and what do governments offer families: payments at birth, parental leave, childcare, tax relief and other incentives?",
+ "connected_to": "affection-and-relationships",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation",
+  "city"
+ ],
+ "baseline_days": 365,
+ "sources": [
+  "UN World Population Prospects (births per woman, births, mothers' average age)",
+  "the national statistics office",
+  "the government department that pays or sets the support"
+ ],
+ "areas": [
+  "births",
+  "support"
+ ],
+ "fields": [
+  "items[]: area, kind (figure or law), changing (true for a dated change), evidence when it differs from the record, text, source, checked",
+  "notes"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "unknown"
+ ],
+ "rules": [
+  "Figures come from the UN or the national statistics office, with their year.",
+  "Support is recorded with who pays it, who can get it and its amount in local currency and AUD (with the rate and date).",
+  "Most support is for residents or citizens: say who qualifies, and never imply a visitor can claim it.",
+  "Describe, don't moralise. No ranking of places or cultures.",
+  "Never store anything about the traveller's own family or plans."
+ ],
+ "version": 1
+}

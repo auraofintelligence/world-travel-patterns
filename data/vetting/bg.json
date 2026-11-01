@@ -348,6 +348,49 @@
    ],
    "notes": "Read from the Australian Government's travel advice; confirm with the country's own law.",
    "checked": "2026-11-01"
+  },
+  "births-and-family-support": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Births per woman: 2.2 in 1975, 1.3 in 2000, 1.7 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Average age of mothers at birth: 24.4 in 1975, 27.9 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "text": "Births in 2023: about 63,000.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    }
+   ],
+   "sources": [
+    {
+     "title": "World Population Prospects 2024",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "supports": "births per woman, births and mothers' average age, 1975 to 2023"
+    }
+   ],
+   "notes": "UN estimates; the national statistics office may publish newer figures.",
+   "checked": "2026-11-01"
   }
  }
 }

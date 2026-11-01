@@ -378,6 +378,66 @@
    ],
    "notes": "Read from the Australian Government's travel advice; confirm with the country's own law.",
    "checked": "2026-11-01"
+  },
+  "births-and-family-support": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Births per woman: 2.4 in 1975, 1.3 in 2000, 1.5 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Average age of mothers at birth: 25.3 in 1975, 30.0 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "text": "Births in 2023: about 85,000.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "kind": "law",
+     "changing": true,
+     "evidence": "signal",
+     "text": "Mothers raising three children have been exempt from personal income tax on employment income since October 2025; mothers of two children are being brought in by age group, starting with mothers under 40 from 1 January 2026. Parliament passed the allowance on 29 April 2025.",
+     "source": "https://wtsklient.hu/en/2025/05/06/allowance-for-mothers-raising-two-or-three-children/",
+     "checked": "2026-11-01",
+     "by": "hand",
+     "area": "support"
+    }
+   ],
+   "sources": [
+    {
+     "title": "World Population Prospects 2024",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "supports": "births per woman, births and mothers' average age, 1975 to 2023"
+    },
+    {
+     "title": "Allowance for mothers raising two or three children",
+     "authority": "Signal: WTS Klient (tax advisers)",
+     "url": "https://wtsklient.hu/en/2025/05/06/allowance-for-mothers-raising-two-or-three-children/",
+     "checked": "2026-11-01",
+     "supports": "Hungary's income tax exemption for mothers; confirm with the Hungarian tax authority"
+    }
+   ],
+   "notes": "UN estimates; the national statistics office may publish newer figures.",
+   "checked": "2026-11-01"
   }
  }
 }
