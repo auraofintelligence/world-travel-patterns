@@ -890,3 +890,7 @@ Entrepreneur checks from official sources (search-index snapshots): Angola inves
 ## 2026-11-01 23:21 AEST, Grok: Filming rules: la, gy, cm (3 records)
 
 Filming checks from official sources (search-index snapshots): Laos authorisation via a Lao embassy under Decree 246/GOV; Guyana Tourism Authority request a month ahead; Cameroon Ministry of Arts and Culture authorisation.
+
+## 2026-11-01 23:22 AEST, Grok: Research rules: hk, sa, vn (3 records)
+
+Research checks from official sources (search-index snapshots): Hong Kong visitors may do research and academic lectures up to 14 days under the facilitation scheme; Saudi Arabia needs an accredited host; Viet Nam via host under the science and technology experts decree.

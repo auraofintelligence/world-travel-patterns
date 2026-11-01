@@ -276,11 +276,20 @@
      ]
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the People's Republic of China, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the People's Republic of China, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor under the short-term activities facilitation scheme (up to 14 days)",
+     "detail": "Eligible visitors may do research, peer review and academic lectures at higher education institutions for up to 14 consecutive days per stay, without taking a local post. Longer research needs an employment or training visa.",
+     "next": "Confirm the host institution is in the scheme.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration facilitation scheme for visitors in short-term activities",
+       "authority": "Immigration Department, Hong Kong",
+       "url": "https://www.immd.gov.hk/eng/services/visas/stv.html",
+       "checked": "2026-11-01",
+       "supports": "research, peer review and academic lectures up to 14 consecutive days (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
      "status": "confirm-in-writing",
