@@ -576,3 +576,7 @@ Applied each country's official work-permit exemption rules to speaking, teachin
 ## 2026-11-01 17:18 AEST, Grok: Activities: speaker and artist work rules (bg, hr, is, lt, lu, me, mk, mt, ro, rs) (10 records)
 
 Applied official rules: lu (conference speakers and lecturers exempt under 3 months), is (artists and academics 90 days with notice), rs (Article 3: lecturers at professional meetings and artistic work 90 days in 180), hr (work registration certificate up to 90 days), me (work registration), mk (artists 7 days), lt (performers and lecturers need no work permit but still need a residence route), ro (minister's order), bg (single permit, no labour-market test), mt (employment licence under six months). Read via search-index snapshots.
+
+## 2026-11-01 17:18 AEST, Grok: Culture: national etiquette upgrades (jo to lk) (10 records)
+
+Upgraded jo, ke, kg, kh (APSARA Angkor dress code), kn (camouflage clothing illegal), kw, ky (public nudity offence), kz, li and lk (Buddha imagery) to partly-mapped from national tourism or government sources. Read via search-index snapshots.
