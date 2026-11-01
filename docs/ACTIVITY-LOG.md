@@ -4,7 +4,7 @@ Dated handover notes for whoever works on this repo next (Claude, Codex, Grok). 
 
 ## Handoff for Claude (updated 2026-11-01 evening AEST, Grok)
 
-**State today.** Every country and territory outside Australia has entry, activities and culture records. 694 of 3,705 activity checks (19%) still say "confirm in writing"; 374 of those are outside the Do-not-travel places (remote work 62, volunteering 51, mixed missions 51, book launches 43, research 40, unpaid speaking 26, filming 18, entrepreneur 16, others 67).
+**State today.** Every country and territory outside Australia has entry, activities and culture records. 682 of 3,705 activity checks (18%) still say "confirm in writing"; 362 of those are outside the Do-not-travel places (remote work 62, volunteering 51, mixed missions 51, book launches 43, research 37, unpaid speaking 26, filming 15, entrepreneur 10, others 67).
 
 **Later passes (e802e79 to 08304a9).** Volunteering for 32 places (ca, ie, mx, th, Nordics, Baltics, central Europe, is, co, rw, tr, Pacific, Caribbean); remote work for 12 (Armenia allowed for a foreign employer; Dominica WIN visa; US and territories not addressed); research for 9 (US B-1, Namibia NCRST permit 4 months ahead); book launches for 7 (Armenia, Serbia, Kazakhstan); filming for 9 (ca, jp, za, ie, br, co, cl, hk, uz). Corrections: the Canada volunteering source was a mirror (migova.ca), replaced with canada.ca in 078680c; a Vietnam research draft based on a misread Taiwan page was reverted before commit.
 
@@ -12,7 +12,9 @@ Dated handover notes for whoever works on this repo next (Claude, Codex, Grok). 
 
 **Run of 1 to 2 November (1fbff79 to 4950548).** Entrepreneur for 15 more places (rs, kg, uz, tj, la, bt, mo, pf, tn, co, kz, pk, mg, cm, sr); filming for 11 (pk, uy, tn, sn, mx, qa, rs, rw, pg, sb, ar); Kyrgyz Digital Nomad status; volunteering at, ch, si, kr, tr; research sg, th, ar; book launches na, mn (plus unpaid speaking), ro. Switzerland and Türkiye volunteering stay confirm-in-writing with detail (official pages don't settle it).
 
-**Next.** Entrepreneur (16) and filming (18), then remaining remote work, volunteering, research, book launches; Do-not-travel work rules last; then ask-locally culture and 2027 events.
+**Latest (eb8b663 to 1fe906d).** Entrepreneur ao, sn, na (new Investor Permit from 1 September 2026), sz, ki, ck; filming la, gy, cm; research hk, sa, vn. Remote work searches found few official routes (Azerbaijan's planned nomad visa seen only in news, not recorded).
+
+**Next.** Entrepreneur (10) and filming (15), then remaining remote work, volunteering, research, book launches; Do-not-travel work rules last; then ask-locally culture and 2027 events.
 
 **Today's work (3bf3434 to d0191a2).**
 - Work rules filled for about 90 places.
@@ -894,3 +896,7 @@ Filming checks from official sources (search-index snapshots): Laos authorisatio
 ## 2026-11-01 23:22 AEST, Grok: Research rules: hk, sa, vn (3 records)
 
 Research checks from official sources (search-index snapshots): Hong Kong visitors may do research and academic lectures up to 14 days under the facilitation scheme; Saudi Arabia needs an accredited host; Viet Nam via host under the science and technology experts decree.
+
+## 2026-11-01 23:23 AEST, Grok: Docs: handoff and STATUS updated with current counts (0 records)
+
+Docs only: handoff and STATUS.md item 1 refreshed.
