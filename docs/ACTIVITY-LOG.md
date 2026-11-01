@@ -864,3 +864,7 @@ Official sources (search-index snapshots): Austria volunteer permit only for Eur
 ## 2026-11-01 23:18 AEST, Grok: Book launch and speaking rules: na, mn, ro (3 records)
 
 Official sources (search-index snapshots): Namibia speaking needs a short-term work visa (attending is fine on a visitor visa); Mongolia K4 visa for cultural and arts events (book launch and unpaid speaking); Romania exemption for artistic activity in cultural institutions under Ordinance 25/2014.
+
+## 2026-11-01 23:19 AEST, Grok: Entrepreneur rules: co, kz, pk, mg, cm, sr (6 records)
+
+Entrepreneur checks from official sources (search-index snapshots): Colombia Visa M investor over 650 minimum wages; Kazakhstan USD 300,000 investor visa to 10-year residence; Pakistan investor visas 1, 3 or 5 years; Madagascar EDBM investor visa; Cameroon API support; Suriname business permit plus residence.

@@ -439,11 +439,20 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of the Republic of Cameroon",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of the Republic of Cameroon which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Investor support via the Investment Promotion Agency",
+     "detail": "The API helps approved investors with visa and residence procedures. It sets no specific entrepreneur visa criteria.",
+     "next": "Contact the API before travel.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Investment Promotion Agency",
+       "authority": "Presidency of the Republic of Cameroon",
+       "url": "https://www.prc.cm/fr/investir/api",
+       "checked": "2026-11-01",
+       "supports": "API supports investors with visas and residence (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "confirm-in-writing",

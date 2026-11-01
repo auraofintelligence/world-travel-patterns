@@ -457,11 +457,20 @@
      ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Colombia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Colombia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Visa M Investor",
+     "detail": "Needs registered foreign direct investment over 650 monthly minimum wages (or property worth 350), with Banco de la República records and health insurance. Valid up to 3 years.",
+     "next": "Register the investment with Banco de la República.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa M Inversionista",
+       "authority": "Ministry of Foreign Affairs of Colombia (Cancillería)",
+       "url": "https://www.cancilleria.gov.co/node/26979",
+       "checked": "2026-11-01",
+       "supports": "FDI over 650 SMMLV or property 350 SMMLV, up to 3 years (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "conditional",
