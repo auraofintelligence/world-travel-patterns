@@ -440,3 +440,7 @@ New script scripts/fcdo_culture.py takes only customs subheadings (dress, behavi
 ## 2026-11-01 16:49 AEST, Grok: Culture from FCDO, batch 2 (7 partly-mapped, 7 ask-locally) (14 records)
 
 Same method as batch 1. Places where FCDO has no customs subheading get ask-locally, naming the government and tourism office as authority. Places: km la lc mc ms pt tt bb kn ky ug zw ad ao.
+
+## 2026-11-01 16:50 AEST, Grok: Culture from FCDO, batch 3 (ask-locally) (15 records)
+
+FCDO has no customs subheading for these places and no national etiquette page was found, so they are ask-locally with the named authority. Places: ar aw bi bs bw bz cg ch cl co cu cv cw cy do.
