@@ -2,29 +2,38 @@
  "place": "mf",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "Overseas France is outside the Schengen area: a Schengen visa doesn't cover it. Australians are reported visa-free for short stays (Smartraveller says so for French Polynesia and New Caledonia, 90 days in 180).",
+   "status": "visa-free",
+   "summary": "No visa: French law exempts Australians from a short-stay visa for this territory (a Schengen visa wouldn't cover it). The exemption doesn't apply to paid work that needs French work authorisation. Stays of up to 90 days in any 180.",
    "next_check": "Confirm the rule for this territory on France-Visas.",
    "evidence": "official",
    "sources": [
     {
-     "title": "France-Visas",
-     "authority": "Government of France",
-     "url": "https://france-visas.gouv.fr/",
-     "checked": "2026-10-31",
-     "supports": "the official source for French visas, including overseas France"
+     "title": "Arrêté du 8 juillet 2021 modifiant l'arrêté du 18 avril 2012 (Saint-Barthélemy and Saint-Martin)",
+     "authority": "Légifrance, Government of France",
+     "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043814282",
+     "checked": "2026-11-01",
+     "supports": "Australia: visa exemption, 90 days in 180, paid-work exception (read via a search-index snapshot)"
     }
    ],
-   "checked": "2026-10-31"
+   "checked": "2026-11-01"
   },
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of France, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of France, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "No visa: French law exempts Australians from a short-stay visa for this territory (a Schengen visa wouldn't cover it). The exemption doesn't apply to paid work that needs French work authorisation. Stays of up to 90 days in any 180.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Arrêté du 8 juillet 2021 modifiant l'arrêté du 18 avril 2012 (Saint-Barthélemy and Saint-Martin)",
+       "authority": "Légifrance, Government of France",
+       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043814282",
+       "checked": "2026-11-01",
+       "supports": "Australia: visa exemption, 90 days in 180, paid-work exception (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

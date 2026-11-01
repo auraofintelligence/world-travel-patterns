@@ -2,21 +2,52 @@
  "place": "vg",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no official British Virgin Islands page found on 31 October 2026. Commonwealth Caribbean islands generally admit Australians without a visa, but that is a pattern, not a finding.",
+   "status": "visa-free",
+   "summary": "No visa: Australia isn't on the Virgin Islands' visa-required list. Visitors are normally admitted for one month, and an online embarkation card is required.",
    "next_check": "Confirm with British Virgin Islands's immigration authority before travel.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa requirements for the Virgin Islands",
+     "authority": "Government of the Virgin Islands",
+     "url": "https://bvi.gov.vg/sites/default/files/visa_requirements_for_the_virgin_islands_nationals_of_the_following_countries.pdf",
+     "checked": "2026-11-01",
+     "supports": "visa-required list (Australia absent) (read via a search-index snapshot)"
+    },
+    {
+     "title": "Immigration Department FAQs",
+     "authority": "Government of the Virgin Islands",
+     "url": "https://bvi.gov.vg/department-faqs/52",
+     "checked": "2026-11-01",
+     "supports": "one-month admission (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "No visa: Australia isn't on the Virgin Islands' visa-required list. Visitors are normally admitted for one month, and an online embarkation card is required.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa requirements for the Virgin Islands",
+       "authority": "Government of the Virgin Islands",
+       "url": "https://bvi.gov.vg/sites/default/files/visa_requirements_for_the_virgin_islands_nationals_of_the_following_countries.pdf",
+       "checked": "2026-11-01",
+       "supports": "visa-required list (Australia absent) (read via a search-index snapshot)"
+      },
+      {
+       "title": "Immigration Department FAQs",
+       "authority": "Government of the Virgin Islands",
+       "url": "https://bvi.gov.vg/department-faqs/52",
+       "checked": "2026-11-01",
+       "supports": "one-month admission (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

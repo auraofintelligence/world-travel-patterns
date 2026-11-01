@@ -2,21 +2,52 @@
  "place": "gi",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page. Gibraltar is outside Schengen; the land route from Spain means Schengen exit and re-entry.",
+   "status": "visa-free",
+   "summary": "No visa: since 15 July 2026 Gibraltar follows the Schengen short-stay rules (90 days in 180), and Australia is on its visa-exempt list. Arrivals pass both Gibraltar and Schengen controls.",
    "next_check": "Confirm with Gibraltar's government.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "List of third countries whose nationals are exempt from the visa requirement (558.1/2026)",
+     "authority": "HM Government of Gibraltar",
+     "url": "https://www.gibraltar.gov.gi/uploads/Brexit%20Page/2026/558.1%20-%20List%20of%20Third%20Countries%20Whose%20Nationals%20Are%20Exempt%20from%20the%20Requirement%20to%20be%20in%20Possession%20of%20a%20Visa.pdf",
+     "checked": "2026-11-01",
+     "supports": "Australia listed (read via a search-index snapshot)"
+    },
+    {
+     "title": "Technical Notice 558/2026",
+     "authority": "HM Government of Gibraltar",
+     "url": "https://www.gibraltar.gov.gi/press-releases/technical-notice-reminder-concerning-visa-arrangements-5582026-12201",
+     "checked": "2026-11-01",
+     "supports": "Schengen alignment from 15 July 2026 (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "No visa: since 15 July 2026 Gibraltar follows the Schengen short-stay rules (90 days in 180), and Australia is on its visa-exempt list. Arrivals pass both Gibraltar and Schengen controls.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "List of third countries whose nationals are exempt from the visa requirement (558.1/2026)",
+       "authority": "HM Government of Gibraltar",
+       "url": "https://www.gibraltar.gov.gi/uploads/Brexit%20Page/2026/558.1%20-%20List%20of%20Third%20Countries%20Whose%20Nationals%20Are%20Exempt%20from%20the%20Requirement%20to%20be%20in%20Possession%20of%20a%20Visa.pdf",
+       "checked": "2026-11-01",
+       "supports": "Australia listed (read via a search-index snapshot)"
+      },
+      {
+       "title": "Technical Notice 558/2026",
+       "authority": "HM Government of Gibraltar",
+       "url": "https://www.gibraltar.gov.gi/press-releases/technical-notice-reminder-concerning-visa-arrangements-5582026-12201",
+       "checked": "2026-11-01",
+       "supports": "Schengen alignment from 15 July 2026 (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

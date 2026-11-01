@@ -2,21 +2,38 @@
  "place": "tc",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no official Turks and Caicos Islands page found on 31 October 2026. Commonwealth Caribbean islands generally admit Australians without a visa, but that is a pattern, not a finding.",
+   "status": "visa-free",
+   "summary": "No visa: Australia is on the Turks and Caicos Islands' visa-exempt list.",
    "next_check": "Confirm with Turks and Caicos Islands's immigration authority before travel.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Entry requirements",
+     "authority": "Turks and Caicos Islands Border Force",
+     "url": "https://borderforce.gov.tc/entry-requirements",
+     "checked": "2026-11-01",
+     "supports": "visa-exempt list includes Australia (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "No visa: Australia is on the Turks and Caicos Islands' visa-exempt list.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry requirements",
+       "authority": "Turks and Caicos Islands Border Force",
+       "url": "https://borderforce.gov.tc/entry-requirements",
+       "checked": "2026-11-01",
+       "supports": "visa-exempt list includes Australia (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",
