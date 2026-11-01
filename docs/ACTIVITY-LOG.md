@@ -676,3 +676,7 @@ Work and speaking rules from official immigration sources for et (Conference Vis
 ## 2026-11-01 17:41 AEST, Grok: Work: French overseas (gf, gp, mq, re, yt, bl, mf, pm), mc, ad; watchlist adds (10 records)
 
 Work and speaking rules: Code du travail D5221-2-1 3-month exemption for events, seminars and performers (gf, gp, mq, re, yt), plus local permit regimes for bl, mf and pm, Monaco (permit always required) and Andorra (30-day notice regime). Watchlist: added the Bhutan tshechus (tentative only) and Lake of Stars (no dates). Read via search-index snapshots.
+
+## 2026-11-01 17:42 AEST, Grok: Work: cw, aw, bq, sx, ky, bm, vg, tc, ms, ai (10 records)
+
+Work and speaking rules from official sources: Cayman (guest speakers exempt 10 days), Bermuda (non-public conference presenters 14 days), BVI (event speakers exempt 7 days with 48-hour notice), Montserrat (writers exempt), TCI, Anguilla and the Dutch Caribbean (permits required). Read via search-index snapshots.
