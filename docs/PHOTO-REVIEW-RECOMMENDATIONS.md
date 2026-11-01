@@ -2,7 +2,7 @@
 
 Vision review by Grok Bot, 1 November 2026. Luke authorised applying verdicts: confirmed photos are approved, denied photos are rejected, unsure stays pending. Camera EXIF on Wikimedia Commons was checked to enforce the no-drone rule. Rejected photos get an approved replacement from Commons where a suitable open, non-drone photo clearly shows the place.
 
-Counts: confirm 280, deny 36; replacements approved: 9
+Counts: confirm 280, deny 36; replacements approved: 18
 
 ## Denied (rejected)
 
@@ -29,23 +29,23 @@ Counts: confirm 280, deny 36; replacements approved: 9
 - **jp**: Close-up of paper lanterns; an object, not a place ([Japanese lanterns banner.jpg](https://commons.wikimedia.org/wiki/File:Japanese_lanterns_banner.jpg))
   - Replaced with: Mount Fuji from Lake Kawaguchi, Japan's best-known landmark ([Mount Fuji view from Lake Kawaguchi 2024-12-01.jpg](https://commons.wikimedia.org/wiki/File:Mount_Fuji_view_from_Lake_Kawaguchi_2024-12-01.jpg), CC BY-SA 4.0, camera no EXIF)
 - **ke**: Close-up of a lioness and cub; wildlife portrait, no Kenyan landscape visible ([Kenya banner Lioness and cub.jpg](https://commons.wikimedia.org/wiki/File:Kenya_banner_Lioness_and_cub.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Mount Kenya's snow-capped peaks above moorland ([Mount kenya.JPG](https://commons.wikimedia.org/wiki/File:Mount_kenya.JPG), CC BY-SA 2.5 nl, camera NIKON CORPORATION NIKON D70s)
 - **km**: People wading with a fishing net; people-centred, nothing identifies Comoros ([Fish Harvest.jpg](https://commons.wikimedia.org/wiki/File:Fish_Harvest.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Grande Comore coast and palms with Karthala slopes ([Grande Comore banner.jpg](https://commons.wikimedia.org/wiki/File:Grande_Comore_banner.jpg), CC BY-SA 2.0, camera Canon Canon DIGITAL IXUS 900Ti)
 - **md**: Moldovan fields, but EXIF camera DJI FC6310 (Phantom 4 Pro); breaks the no-drone rule ([Republic of Moldova banner.jpg](https://commons.wikimedia.org/wiki/File:Republic_of_Moldova_banner.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Orheiul Vechi river gorge and monastery, Moldova ([Orhei Vechi 08.JPG](https://commons.wikimedia.org/wiki/File:Orhei_Vechi_08.JPG), CC BY-SA 4.0, camera Canon Canon EOS 550D)
 - **mo**: Macau waterfront, but EXIF camera Hasselblad L1D-20c is the DJI Mavic 2 Pro drone camera; breaks the no-drone rule ([Panorama of Macau Peninsula2021.jpg](https://commons.wikimedia.org/wiki/File:Panorama_of_Macau_Peninsula2021.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Macau Science Center on the waterfront at night ([Macau science center banner.jpg](https://commons.wikimedia.org/wiki/File:Macau_science_center_banner.jpg), CC BY-SA 3.0, camera no EXIF)
 - **ms**: Abstract close texture of eroded ash gullies; unrecognisable as Montserrat to a viewer ([Monserrat banner.jpg](https://commons.wikimedia.org/wiki/File:Monserrat_banner.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Soufrière Hills volcano from green farmland, Montserrat ([Soufriere Hills.jpg](https://commons.wikimedia.org/wiki/File:Soufriere_Hills.jpg), Public domain, camera OLYMPUS CORPORATION C740UZ)
 - **pf**: Dark satellite frame of tiny atoll rings and cloud; unrecognisable as French Polynesia to a traveller ([Archipel des Tuamotu.jpg](https://commons.wikimedia.org/wiki/File:Archipel_des_Tuamotu.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Mount Otemanu above the Bora Bora lagoon ([Mount Otemanu, Bora Bora - French Polynesia.jpg](https://commons.wikimedia.org/wiki/File:Mount_Otemanu,_Bora_Bora_-_French_Polynesia.jpg), CC BY-SA 2.0, camera SONY DSC-N2)
 - **tl**: Underwater close-up of a tube sponge; nothing identifies Timor-Leste ([East Timor banner Reef Tube sponge.jpg](https://commons.wikimedia.org/wiki/File:East_Timor_banner_Reef_Tube_sponge.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Cristo Rei headland and beach, Dili ([Cristo Rei beach, Dili, 2018 (04).jpg](https://commons.wikimedia.org/wiki/File:Cristo_Rei_beach,_Dili,_2018_(04).jpg), CC BY-SA 4.0, camera NIKON CORPORATION NIKON D750)
 - **tm**: Close-up of carpets; an object, not a place ([Turkmenistan banner Carpets 2.jpg](https://commons.wikimedia.org/wiki/File:Turkmenistan_banner_Carpets_2.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Neutrality Road and white-marble Ashgabat ([Neutrality-Road-Ashgabat-2015.JPG](https://commons.wikimedia.org/wiki/File:Neutrality-Road-Ashgabat-2015.JPG), CC BY-SA 4.0, camera SONY DSC-HX400)
 - **tn**: Close-up of a Roman mosaic; an artefact, not a view of Tunisia ([Tunisia banner Roman mosaic at Carthage.jpg](https://commons.wikimedia.org/wiki/File:Tunisia_banner_Roman_mosaic_at_Carthage.jpg))
-  - No suitable replacement yet; page shows no photo.
+  - Replaced with: Rooftops of the Medina of Tunis ([View over the Medina of Tunis 01.jpg](https://commons.wikimedia.org/wiki/File:View_over_the_Medina_of_Tunis_01.jpg), CC BY-SA 4.0, camera Panasonic DMC-FZ1000)
 - **us/delaware**: Flock of shorebirds on sand; nothing identifies Delaware ([Bannerdelaware.jpg](https://commons.wikimedia.org/wiki/File:Bannerdelaware.jpg))
   - No suitable replacement yet; page shows no photo.
 - **us/florida**: Heavily processed sunset over a boardwalk; generic, nothing identifies Florida ([Sunset on coast of Florida.jpg](https://commons.wikimedia.org/wiki/File:Sunset_on_coast_of_Florida.jpg))
