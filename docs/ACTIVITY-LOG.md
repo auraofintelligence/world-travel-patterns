@@ -704,3 +704,7 @@ Do-not-travel pass (last, as agreed): entry and tourism records for af (visa bef
 ## 2026-11-01 17:46 AEST, Grok: Do-not-travel culture: ps, sy, ml, ne, sd, td, af, bf, cd, cf (10 records)
 
 Do-not-travel culture pass: ps upgraded (Ministry of Tourism and Antiquities behaviour code); sy, ml, ne, sd, td, af, bf, cd and cf searched, none found. Read via search-index snapshots.
+
+## 2026-11-01 17:48 AEST, Grok: Do-not-travel culture fresh searches (af, bf, cd, cf, ye, so, ly, ss) and The Outing 2027 matchmaking event (9 records)
+
+Finishes the Do-not-travel culture category. Fresh, separate searches for af, bf, cd and cf replace the generic 897e1c1 entries. af upgraded (MoIC coordination letter, Virtue and Vice law dress rules); cf upgraded (France Diplomatie: Ministry of Tourism photo authorisation); bf and cd none found, with sites checked and unofficial pages excluded. ye upgraded (Yemen Tourism Promotion Board); so, ly, ss none found. Event: The Outing matchmaking 12 to 14 Feb 2027, Ennis (organiser). Venus Berlin 2027 was already recorded. Read via search-index snapshots.
