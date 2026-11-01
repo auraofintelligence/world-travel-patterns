@@ -668,3 +668,7 @@ Work and speaking rules from official migration and labour sources: gt (invited 
 ## 2026-11-01 17:38 AEST, Grok: Work: ma, tn, eg, md, ge, mk, ua, xk, me, bw (10 records)
 
 Work and speaking rules from official labour and migration sources: ma (TAECHIR), tn (30-day show authorisation), eg, md (90-day creative exemption), ge (4 months a year registered short-term activity), mk (7 days, 30 a year), ua (artists exempt), xk (lecturers 90 in 180 days), me (90-day registration) and bw (emergency permit). Read via search-index snapshots.
+
+## 2026-11-01 17:39 AEST, Grok: Work: bi, bj, dj, er, et, ga, gq, km, ls, mz (10 records)
+
+Work and speaking rules from official immigration sources for et (Conference Visa), mz, ls, dj, bj, ga, bi, km, gq and er. Read via search-index snapshots.
