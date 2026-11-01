@@ -288,11 +288,27 @@
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Lao People's Democratic Republic, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Lao People's Democratic Republic, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work permit through the employer's quota, plus an LA-B2 visa",
+     "detail": "Foreign employees need a quota-backed work permit through the MOLSW system.",
+     "next": "The host applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Lao Work Permit Web Application System",
+       "authority": "Ministry of Labour and Social Welfare, Laos",
+       "url": "https://eps.lmi.gov.la/",
+       "checked": "2026-11-01",
+       "supports": "work permit system (read via a search-index snapshot)"
+      },
+      {
+       "title": "Visa and stay permit card",
+       "authority": "Investment Promotion and Management Committee, Laos",
+       "url": "https://investlaos.gov.la/starting-a-business/one-stop-service/visa-stay-permit-card/",
+       "checked": "2026-11-01",
+       "supports": "LA-B2 (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
      "status": "confirm-in-writing",

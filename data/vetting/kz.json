@@ -151,11 +151,20 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Visa-free entry or a business visa",
-     "detail": "Business visas exist; whether meetings fit visa-free entry isn't stated.",
-     "next": "Ask the Kazakh Embassy.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Business trip: no work permit for up to 120 days a year",
+     "detail": "Business trips totalling up to 120 days a calendar year don't need a work permit.",
+     "next": "Track days.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Labour laws and labour force",
+       "authority": "Kazakh Invest (national investment agency)",
+       "url": "https://invest.gov.kz/invest-guide/doing-business/labor-laws-and-labor-force/",
+       "checked": "2026-11-01",
+       "supports": "permit exemptions (read via a search-index snapshot)"
+      }
+     ]
     },
     "conference": {
      "status": "conditional",
@@ -201,18 +210,36 @@
      "checked": "2026-11-01"
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Kazakhstan",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Kazakhstan which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Business trip: no work permit for up to 120 days a year",
+     "detail": "Business trips totalling up to 120 days a calendar year don't need a work permit.",
+     "next": "Track days.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Labour laws and labour force",
+       "authority": "Kazakh Invest (national investment agency)",
+       "url": "https://invest.gov.kz/invest-guide/doing-business/labor-laws-and-labor-force/",
+       "checked": "2026-11-01",
+       "supports": "permit exemptions (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Kazakhstan",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Kazakhstan which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Exempt from local work permits (artists, directors, conductors, choreographers)",
+     "detail": "Artists, directors, conductors and choreographers don't need a local work permit. Visa rules still apply.",
+     "next": "Check visa needs.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Labour laws and labour force",
+       "authority": "Kazakh Invest (national investment agency)",
+       "url": "https://invest.gov.kz/invest-guide/doing-business/labor-laws-and-labor-force/",
+       "checked": "2026-11-01",
+       "supports": "permit exemptions (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
      "status": "confirm-in-writing",

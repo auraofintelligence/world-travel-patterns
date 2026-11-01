@@ -604,3 +604,7 @@ Upgraded mh, mk, mm (Shwedagon dress rules), mn (ger etiquette), mo, mp, mq (All
 ## 2026-11-01 17:24 AEST, Grok: Year-ahead: 2027 national days (bh to pl) (10 records)
 
 Added fixed-date national days from official holiday laws, calendars or circulars for bh, bn, bo, cy, es (the 2027 BOE calendar is already published), fi, gr, lv, mt and pl.
+
+## 2026-11-01 17:25 AEST, Grok: Activities: Gulf, Central and South Asia speaker rules (kg, kw, kz, la, mn, np, om, pk, tj, uz) (10 records)
+
+Notable: uz (lecturers and master classes under one month exempt), kz (artists exempt; business trips up to 120 days a year), pk (the Others visa covers conferences and cultural events; apply 6 weeks ahead), kw (visit visa forbids speaking work; PAM permit needed), plus om, mn, kg, la, np and tj. qa had no remaining confirm-in-writing entries. Read via search-index snapshots.

@@ -159,11 +159,27 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Uzbekistan",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Uzbekistan which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Exempt: short-term specialists (up to one month) giving lectures, master classes or training",
+     "detail": "Foreign specialists coming for up to a month for lectures, master classes, training or experience exchange don't need work-permit confirmation.",
+     "next": "Keep it under a month.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Migration Agency overview",
+       "authority": "Government of Uzbekistan (gov.uz)",
+       "url": "https://gov.uz/en/migration/pages/about",
+       "checked": "2026-11-01",
+       "supports": "work permit authority (read via a search-index snapshot)"
+      },
+      {
+       "title": "Work permit and visa procedures in Uzbekistan (2026)",
+       "authority": "JETRO (Japan External Trade Organization)",
+       "url": "https://www.jetro.go.jp/ext_images/_Reports/02/2026/57550b1ac4554957/202601.pdf",
+       "checked": "2026-11-01",
+       "supports": "one-month lecturer exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
      "status": "confirm-in-writing",
@@ -173,11 +189,27 @@
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Uzbekistan",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Uzbekistan which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Exempt: short-term specialists (up to one month) giving lectures, master classes or training",
+     "detail": "Foreign specialists coming for up to a month for lectures, master classes, training or experience exchange don't need work-permit confirmation.",
+     "next": "Keep it under a month.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Migration Agency overview",
+       "authority": "Government of Uzbekistan (gov.uz)",
+       "url": "https://gov.uz/en/migration/pages/about",
+       "checked": "2026-11-01",
+       "supports": "work permit authority (read via a search-index snapshot)"
+      },
+      {
+       "title": "Work permit and visa procedures in Uzbekistan (2026)",
+       "authority": "JETRO (Japan External Trade Organization)",
+       "url": "https://www.jetro.go.jp/ext_images/_Reports/02/2026/57550b1ac4554957/202601.pdf",
+       "checked": "2026-11-01",
+       "supports": "one-month lecturer exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
      "status": "confirm-in-writing",
@@ -201,11 +233,27 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Uzbekistan",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Uzbekistan which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work-permit confirmation and an E work visa",
+     "detail": "Artists aren't covered by the short-term exemption.",
+     "next": "The host applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Migration Agency overview",
+       "authority": "Government of Uzbekistan (gov.uz)",
+       "url": "https://gov.uz/en/migration/pages/about",
+       "checked": "2026-11-01",
+       "supports": "work permit authority (read via a search-index snapshot)"
+      },
+      {
+       "title": "Work permit and visa procedures in Uzbekistan (2026)",
+       "authority": "JETRO (Japan External Trade Organization)",
+       "url": "https://www.jetro.go.jp/ext_images/_Reports/02/2026/57550b1ac4554957/202601.pdf",
+       "checked": "2026-11-01",
+       "supports": "one-month lecturer exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
      "status": "confirm-in-writing",
