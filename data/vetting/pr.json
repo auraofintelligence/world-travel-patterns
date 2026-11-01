@@ -70,10 +70,26 @@
     },
     "remote-work": {
      "status": "confirm-in-writing",
-     "route": "Not on the pages read",
-     "detail": "Not addressed on the pages read. US immigration law applies in Puerto Rico.",
-     "next": "Ask a US Embassy.",
-     "checked": "2026-11-01"
+     "route": "Not addressed for visitors (US immigration law)",
+     "detail": "Visitors (ESTA or B visa) may not take employment; the State Department pages list meetings, conferences and negotiations but do not address remote work for a foreign employer either way.",
+     "next": "Ask US Customs and Border Protection or a US consulate in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visitor Visa",
+       "authority": "U.S. Department of State",
+       "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+       "checked": "2026-11-01",
+       "supports": "visitors may not take employment (read via a search-index snapshot)"
+      },
+      {
+       "title": "Fact sheet: B-1 allowable uses",
+       "authority": "U.S. Department of State",
+       "url": "https://travel.state.gov/content/travel/en/us-visas/business/b-1-fact-sheet.html",
+       "checked": "2026-11-01",
+       "supports": "permitted business activities (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "conditional",

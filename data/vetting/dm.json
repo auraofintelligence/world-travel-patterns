@@ -117,11 +117,27 @@
      ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work in Nature (WIN) visa",
+     "detail": "Remote workers aged 18+ expecting at least USD 50,000 income over the next 12 months (or showing enough means). Fees: USD 100 to apply, then USD 800 individual or USD 1,200 family.",
+     "next": "Apply online at windominica.gov.dm.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Eligibility, Work in Nature",
+       "authority": "Government of Dominica (WIN programme)",
+       "url": "https://www.windominica.gov.dm/details/eligibility",
+       "checked": "2026-11-01",
+       "supports": "USD 50,000 expected income over 12 months (read via a search-index snapshot)"
+      },
+      {
+       "title": "Fees, Work in Nature",
+       "authority": "Government of Dominica",
+       "url": "https://www.windominica.gov.dm/details/fees",
+       "checked": "2026-11-01",
+       "supports": "USD 100 application; USD 800 individual, USD 1,200 family (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "confirm-in-writing",

@@ -206,10 +206,19 @@
     },
     "remote-work": {
      "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Remote work for an employer outside the EU isn't addressed in the EU guidance read.",
-     "next": "Ask the Embassy of Sweden, Yarralumla.",
-     "checked": "2026-11-01"
+     "route": "Not addressed",
+     "detail": "Remote work for a foreign employer is not among the listed work permit exemptions, and the agency does not address it for visitors.",
+     "next": "Ask the Swedish Migration Agency in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Exemptions from the work permit requirement",
+       "authority": "Swedish Migration Agency",
+       "url": "https://www.migrationsverket.se/en/you-want-to-apply/work/certain-people-may-work-in-sweden-without-a-work-permit.html",
+       "checked": "2026-11-01",
+       "supports": "listed exemptions; remote work not listed (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "conditional",

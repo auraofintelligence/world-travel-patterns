@@ -810,3 +810,7 @@ Volunteering checks from the European Commission EU Immigration Portal (read dir
 ## 2026-11-01 20:33 AEST, Grok: Volunteering rules: is, co, rw, tr, pg, jm, tt, tl, mh, fm (10 records)
 
 Volunteering checks: Micronesia allows unpaid volunteering on any entry permit; Trinidad and Tobago no permit for 30 days in 12 months; Timor-Leste 120-day temporary stay; Marshall Islands V-1 with MOA, 90 days; Iceland, Colombia, Rwanda, PNG and Jamaica need specific permits; Türkiye has no general volunteer exemption (confirm). Read via search-index snapshots.
+
+## 2026-11-01 20:34 AEST, Grok: Remote work rules: Dominica WIN visa, Serbia, Sweden, and the US and its territories (8 records)
+
+Remote-work checks: Dominica Work in Nature visa (USD 50,000 income, USD 800 fee); Serbia and Sweden list no remote-work exemption; the US (and pr, gu, vi, mp under US law) does not address remote work for a foreign employer on ESTA or B visas, left confirm-in-writing with detail. Fiji, Vanuatu and Samoa have no official nomad page (only third-party sites), not recorded. Read via search-index snapshots.
