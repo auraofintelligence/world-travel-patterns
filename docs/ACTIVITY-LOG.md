@@ -337,3 +337,17 @@ These countries have no Smartraveller "Local customs" section, so the records co
 - fi: everyone's rights (Ministry of the Environment).
 
 **Next:** fr, it, es, gb, de, us and others have no such national etiquette page; look for site-level rules (for example Venice's access fee, the Acropolis) or leave them as ask-locally.
+
+## 2026-11-01 19:20 AEST, Grok: year-ahead, official dated events, batch 1 (5 places, 6 events)
+
+Events are tagged `"by": "official-events"`, so the election and watch scripts won't replace them.
+- it/veneto: Venice access fee runs 72 days from 26 March to 15 August 2027 (Comune di Venezia).
+- br/rio-de-janeiro: Carnival parades 5 to 9 February 2027 (Riotur); Women's World Cup opener 24 June 2027 and final 25 July 2027 at the Maracanã (FIFA).
+- br: Women's World Cup, 24 June to 25 July 2027.
+- de/bavaria: Oktoberfest, 18 September to 3 October 2027 (oktoberfest.de).
+- rs/city-of-belgrade: Expo 2027, 15 May to 15 August (BIE).
+
+**Not added:**
+- Thailand's tourism entry fee: only a news report (THB 450, possibly April 2027); no Royal Gazette notice yet.
+- Hajj 2027 dates: expected around 14 to 19 May, subject to moon sighting; no official date.
+- Japan's departure tax rise to JPY 3,000: already took effect on 1 July 2026, so it's in the past.
