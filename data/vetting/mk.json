@@ -294,11 +294,20 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of North Macedonia, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of North Macedonia, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work permit (lecturers aren't specifically exempt)",
+     "detail": "Lecturers aren't on the exempt list.",
+     "next": "Ask the Agency through the host.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Employment of foreign citizens",
+       "authority": "Employment Service Agency of North Macedonia",
+       "url": "https://av.gov.mk/employment-of-foreign-citizens.nspx",
+       "checked": "2026-11-01",
+       "supports": "work permits and registration (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
      "status": "confirm-in-writing",
@@ -308,11 +317,20 @@
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of North Macedonia, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of North Macedonia, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work permit (lecturers aren't specifically exempt)",
+     "detail": "Lecturers aren't on the exempt list.",
+     "next": "Ask the Agency through the host.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Employment of foreign citizens",
+       "authority": "Employment Service Agency of North Macedonia",
+       "url": "https://av.gov.mk/employment-of-foreign-citizens.nspx",
+       "checked": "2026-11-01",
+       "supports": "work permits and registration (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
      "status": "confirm-in-writing",
@@ -336,11 +354,20 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of North Macedonia, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of North Macedonia, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "No permit for stays up to 7 days (30 a year), with ministry approval and Employment Agency registration",
+     "detail": "Artists and cultural creators can work without a permit for up to 7 days, and 30 days a year, with approval and registration.",
+     "next": "Have the organiser register it.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Employment of foreign citizens",
+       "authority": "Employment Service Agency of North Macedonia",
+       "url": "https://av.gov.mk/employment-of-foreign-citizens.nspx",
+       "checked": "2026-11-01",
+       "supports": "work permits and registration (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
      "status": "confirm-in-writing",

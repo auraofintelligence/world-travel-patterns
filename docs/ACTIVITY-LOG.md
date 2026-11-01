@@ -572,3 +572,7 @@ Added national-day events from official holiday laws or government pages for ag,
 ## 2026-11-01 17:17 AEST, Grok: Activities: Nordic and central European speaker and artist exemptions (cz, dk, ee, hu, lv, no, pl, se, si, sk) (10 records)
 
 Applied each country's official work-permit exemption rules to speaking, teaching, artist and research activities. se (lecturers up to 3 months, artists via listed arrangers for 14 days), no (lecturers under 3 months, artists 14 days with police notice), dk (lecturers 90 days, speakers 1 to 2 days), cz (s.98(d): 7 days per engagement, 30 a year), pl (lectures and performances 30 days a year from December 2025), ee (5 days in 30 without registration), hu (10 working days), sk (30 days), lv (artists 14 days), si (lecturers at professional meetings outside the Act). Read via search-index snapshots.
+
+## 2026-11-01 17:18 AEST, Grok: Activities: speaker and artist work rules (bg, hr, is, lt, lu, me, mk, mt, ro, rs) (10 records)
+
+Applied official rules: lu (conference speakers and lecturers exempt under 3 months), is (artists and academics 90 days with notice), rs (Article 3: lecturers at professional meetings and artistic work 90 days in 180), hr (work registration certificate up to 90 days), me (work registration), mk (artists 7 days), lt (performers and lecturers need no work permit but still need a residence route), ro (minister's order), bg (single permit, no labour-market test), mt (employment licence under six months). Read via search-index snapshots.
