@@ -76,7 +76,7 @@ Everything is Python standard library: no installs.
 
 ## Search discovery
 
-`robots.txt` documents scoped search and training preferences: search crawlers (including OAI-SearchBot and Claude-SearchBot) are allowed; training crawlers (GPTBot, ClaudeBot, Google-Extended) are not. `sitemap.xml` lists the real public pages, including a page per country, territory and checked place, and `llms.txt` is a voluntary guide; `scripts/build_site.py` rewrites both. GitHub project Pages can't set the origin-root crawler policy, so `.github/robots-root-snippet.txt` is a scoped addition for the account-root `robots.txt` when authorised. This project doesn't change that root policy. Discovery grants no additional reuse or AI-training rights.
+`robots.txt` documents scoped search and training preferences: search crawlers (including OAI-SearchBot and Claude-SearchBot) are allowed; training crawlers (GPTBot, ClaudeBot, Google-Extended) are not. `sitemap.xml` lists the real public pages, including a page per country, territory and checked place, and `llms.txt` is a voluntary guide; `scripts/build_site.py` rewrites both. GitHub project Pages can't set the origin-root crawler policy, so `.github/robots-root-snippet.txt` is a scoped addition for the account-root `robots.txt` when authorised. The snippet was merged into the account-root policy on 1 November 2026. Discovery grants no additional reuse or AI-training rights.
 
 ## Licence
 
