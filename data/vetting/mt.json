@@ -491,19 +491,17 @@
    "climate": "Wettest: January, October and December. Driest: June, July and August. Hottest: August (27.5°C average). Coolest: February (12.6°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa-free (Schengen Area).",
    "cost_aud_baseline": {
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-MALTA-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -513,6 +511,40 @@
      "cost": "WORLD-MALTA-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "Visa-free short stays (90 days or less) as part of the Schengen area, in some cases.",
+   "before_departure": "Nothing to lodge before travel today: EES registration happens at the border. ETIAS hadn't started on 2026-11-01.",
+   "steps": [
+    "Malta is in the Schengen area: short stays of 90 days or less can be visa-free in some cases; other purposes or longer stays need a visa before travel.",
+    "At the first Schengen border, give fingerprints and a photo for the Entry/Exit System (EES). It's free; nothing is needed before arrival, and sites charging for it are fraudulent.",
+    "Carry your passport when crossing borders, including inside Schengen (temporary internal checks are in place in places).",
+    "Visa-free stays cover up to 90 days in any 180 for tourism, family visits, business meetings, events and short study."
+   ],
+   "documents": [
+    "Passport"
+   ],
+   "fees": [
+    {
+     "item": "visa-free short stay; EES registration",
+     "amount": 0,
+     "currency": "EUR",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/malta",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/malta",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }

@@ -542,3 +542,44 @@ RECHECKS.update({
     "pk": flag("Smartraveller confirms a visa in advance through the Pakistan Online Visa System; fee not confirmed."),
 })
 RECHECKS["ws"] = flag("Smartraveller confirms a 90-day Visitor Permit on arrival via the arrival card (return ticket, funds, passport valid 6 months beyond the stay); no fee stated.")
+
+
+def vf(pid, fastest, steps, cur, documents=("Passport",), note=None):
+    return visa(pid, fastest, steps, list(documents), [free(pid, "visa-free entry", cur)], note=note)
+
+
+RECHECKS.update({
+    "cy": vf("cy", "No tourist visa for stays up to 90 days in 6 months (Cyprus isn't in Schengen).", ["Longer stays need a visa (applications can be made in-country).", "Overstaying can mean a stop-list entry and up to 5 years' refusal."], "EUR"),
+    "al": vf("al", "Visit for up to 90 days without a visa.", ["Longer stays need a visa."], "ALL"),
+    "ba": vf("ba", "No visa for stays up to 90 days in 6 months.", ["Make sure the passport is stamped on entry.", "Register your address if staying 3 days or more (see Smartraveller).", "Longer stays need a temporary residence permit."], "BAM"),
+    "me": vf("me", "Up to 90 days in 6 months without a tourist visa.", ["Register your address with police or a tourist organisation within 24 hours (hotels usually do it)."], "EUR"),
+    "mk": vf("mk", "Up to 90 days in a 6-month period without a visa.", ["Children not travelling with both parents need written consent."], "MKD"),
+    "rs": vf("rs", "No visa for tourist visits up to 90 days in 6 months from first entry.", ["Don't enter Serbia from Kosovo unless you first went to Kosovo from Serbia; you need a recent Serbian entry stamp."], "RSD"),
+    "xk": vf("xk", "No visa for tourist stays under 90 days in any 180 days; a 90-day stamp is given on arrival.", ["Be ready to show documents on the reason for the visit.", "Serbia doesn't recognise Kosovo border crossings: plan routes accordingly."], "EUR"),
+    "md": vf("md", "No visa for visits up to 90 days in 6 months.", ["Entry is registered at the border; record the entry date and avoid overstaying."], "MDL"),
+    "am": vf("am", "No visa for stays up to 180 days a year.", ["Longer stays need a resident card (up to 30 days to process)."], "AMD"),
+    "ge": vf("ge", "Visit for up to 12 months without a visa on an Australian passport.", ["Don't enter or exit via the land borders with Russia.", "Dual nationals: get advice from a Georgian embassy first."], "GEL"),
+    "ua": vf("ua", "Visa-free visits up to 90 days in 180 days. Smartraveller advises do not travel.", ["Hold valid health insurance to enter.", "Check the Visit Ukraine site before travel."], "UAH", ("Passport", "Health insurance")),
+    "by": vf("by", "30-day visa-free entry until 31 December 2026 (90 days a calendar year), only through Minsk National Airport and Brest, Vitebsk, Gomel and Mogilev airports. Smartraveller advises do not travel.", ["Not available when coming from or going to Russia.", "Compulsory medical insurance applies."], "BYN", ("Passport", "Medical insurance"), note="Visa-free scheme ends 31 December 2026 unless extended."),
+    "ru": flag("Smartraveller confirms a visa is needed before travel (no visa on arrival; biometrics may be required) and advises do not travel; fee not confirmed."),
+    "az": flag("Smartraveller confirms an e-visa from the Official Electronic Visa Portal (valid 90 days, stays up to 30 days); fee not confirmed on the portal."),
+    "lv": schengen("lv", "Latvia", "Hold a valid health insurance policy covering health-related expenses (required to enter)."),
+    "ro": schengen("ro", "Romania", "Get an entry stamp at the first Schengen entry."),
+    "bg": schengen("bg", "Bulgaria", "Security incidents have occurred in the Black Sea off the coast; monitor local advice."),
+    "hr": schengen("hr", "Croatia", "Get a clear entry stamp at the first Schengen entry."),
+    "is": schengen("is", "Iceland"),
+    "no": schengen("no", "Norway", "Svalbard isn't in Schengen; Schengen rules apply again on return to the mainland."),
+    "dk": schengen("dk", "Denmark", "Greenland and the Faroe Islands aren't in Schengen or the EU."),
+    "se": schengen("se", "Sweden"),
+    "fi": schengen("fi", "Finland"),
+    "ee": schengen("ee", "Estonia", "Russian border crossings can close at short notice."),
+    "lt": schengen("lt", "Lithuania", "Temporary checks at the border with Poland."),
+    "pl": schengen("pl", "Poland", "Officials may ask for an onward ticket; land borders from Belarus and Russia are closed to entry."),
+    "cz": schengen("cz", "Czechia"),
+    "sk": schengen("sk", "Slovakia"),
+    "hu": schengen("hu", "Hungary"),
+    "si": schengen("si", "Slovenia"),
+    "mt": schengen("mt", "Malta", "Visa-free stays cover up to 90 days in any 180 for tourism, family visits, business meetings, events and short study."),
+})
+for _p in ("ro", "bg", "hr", "is", "no", "dk", "se", "fi", "ee", "lv", "lt", "pl", "cz", "sk", "hu", "si", "mt"):
+    RECHECKS[_p]["fees"] = [free(_p, "visa-free short stay; EES registration", {"ro": "RON", "bg": "EUR", "is": "ISK", "no": "NOK", "dk": "DKK", "se": "SEK", "pl": "PLN", "cz": "CZK", "hu": "HUF"}.get(_p, "EUR"))]

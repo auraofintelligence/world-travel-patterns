@@ -587,19 +587,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa-free for 30 days via Minsk airport. Restrictions apply.",
    "cost_aud_baseline": {
     "value": "Free (conditions apply)",
     "checked": "2025-08-16",
     "claim_id": "WORLD-BELARUS-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -609,7 +607,40 @@
      "cost": "WORLD-BELARUS-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   }
+   },
+   "fastest_entry": "30-day visa-free entry until 31 December 2026 (90 days a calendar year), only through Minsk National Airport and Brest, Vitebsk, Gomel and Mogilev airports. Smartraveller advises do not travel.",
+   "steps": [
+    "Not available when coming from or going to Russia.",
+    "Compulsory medical insurance applies."
+   ],
+   "documents": [
+    "Passport",
+    "Medical insurance"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry",
+     "amount": 0,
+     "currency": "BYN",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/belarus",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/belarus",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
+   },
+   "recheck_note": "Visa-free scheme ends 31 December 2026 unless extended."
   }
  }
 }
