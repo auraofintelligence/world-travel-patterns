@@ -470,3 +470,7 @@ FCDO has no customs subheading for these places, so they are ask-locally with th
 ## 2026-11-01 16:52 AEST, Grok: Culture for places with no FCDO page, batch 2 (ask-locally) (14 records)
 
 gs, gu, im, je, mf, mp, pm, pn, pr, sx, tf, tk, vi and wf are ask-locally with the named authority (for example Tokelau's Taupulega village councils and Wallis and Futuna's customary kingdoms). No official etiquette page has been searched for these yet.
+
+## 2026-11-01 16:52 AEST, Grok: Culture, Do-not-travel places from FCDO (5 records)
+
+cd, cf, ht, ru and ve have no Smartraveller customs section, so these come from FCDO's laws and cultural differences section, written for British travellers.
