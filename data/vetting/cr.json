@@ -296,25 +296,73 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Costa Rica, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Costa Rica, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Tourist entry, no lucrative activity",
+     "detail": "Tourists may not do any work or lucrative activity.",
+     "next": "Keep to unpaid meetings.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Circular DG-0011-03-2026",
+       "authority": "Dirección General de Migración y Extranjería (La Gaceta)",
+       "url": "https://www.dnn.go.cr/sites/default/files/2026-04/Circular%20Migraci%C3%B3n%20DG-0011-03-2026.pdf",
+       "checked": "2026-11-01",
+       "supports": "tourists may not do lucrative activity (read via a search-index snapshot)"
+      },
+      {
+       "title": "Reglamento de extranjería",
+       "authority": "Gobierno de Costa Rica",
+       "url": "https://www.tse.go.cr/pdf/normativa/reglamentodeextranjeria.pdf",
+       "checked": "2026-11-01",
+       "supports": "special categories (read via a search-index snapshot)"
+      }
+     ]
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Costa Rica, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Costa Rica, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Special category / Estancia",
+     "detail": "Lucrative or speaking activity needs a suitable DGME authorisation.",
+     "next": "Ask DGME in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Circular DG-0011-03-2026",
+       "authority": "Dirección General de Migración y Extranjería (La Gaceta)",
+       "url": "https://www.dnn.go.cr/sites/default/files/2026-04/Circular%20Migraci%C3%B3n%20DG-0011-03-2026.pdf",
+       "checked": "2026-11-01",
+       "supports": "tourists may not do lucrative activity (read via a search-index snapshot)"
+      },
+      {
+       "title": "Reglamento de extranjería",
+       "authority": "Gobierno de Costa Rica",
+       "url": "https://www.tse.go.cr/pdf/normativa/reglamentodeextranjeria.pdf",
+       "checked": "2026-11-01",
+       "supports": "special categories (read via a search-index snapshot)"
+      }
+     ]
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Costa Rica, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Costa Rica, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Special category / Estancia",
+     "detail": "Lucrative or speaking activity needs a suitable DGME authorisation.",
+     "next": "Ask DGME in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Circular DG-0011-03-2026",
+       "authority": "Dirección General de Migración y Extranjería (La Gaceta)",
+       "url": "https://www.dnn.go.cr/sites/default/files/2026-04/Circular%20Migraci%C3%B3n%20DG-0011-03-2026.pdf",
+       "checked": "2026-11-01",
+       "supports": "tourists may not do lucrative activity (read via a search-index snapshot)"
+      },
+      {
+       "title": "Reglamento de extranjería",
+       "authority": "Gobierno de Costa Rica",
+       "url": "https://www.tse.go.cr/pdf/normativa/reglamentodeextranjeria.pdf",
+       "checked": "2026-11-01",
+       "supports": "special categories (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "specialist",
@@ -333,39 +381,119 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Costa Rica, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Costa Rica, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Special category / Estancia",
+     "detail": "Lucrative or speaking activity needs a suitable DGME authorisation.",
+     "next": "Ask DGME in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Circular DG-0011-03-2026",
+       "authority": "Dirección General de Migración y Extranjería (La Gaceta)",
+       "url": "https://www.dnn.go.cr/sites/default/files/2026-04/Circular%20Migraci%C3%B3n%20DG-0011-03-2026.pdf",
+       "checked": "2026-11-01",
+       "supports": "tourists may not do lucrative activity (read via a search-index snapshot)"
+      },
+      {
+       "title": "Reglamento de extranjería",
+       "authority": "Gobierno de Costa Rica",
+       "url": "https://www.tse.go.cr/pdf/normativa/reglamentodeextranjeria.pdf",
+       "checked": "2026-11-01",
+       "supports": "special categories (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Costa Rica, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Costa Rica, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Special category / Estancia",
+     "detail": "Lucrative or speaking activity needs a suitable DGME authorisation.",
+     "next": "Ask DGME in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Circular DG-0011-03-2026",
+       "authority": "Dirección General de Migración y Extranjería (La Gaceta)",
+       "url": "https://www.dnn.go.cr/sites/default/files/2026-04/Circular%20Migraci%C3%B3n%20DG-0011-03-2026.pdf",
+       "checked": "2026-11-01",
+       "supports": "tourists may not do lucrative activity (read via a search-index snapshot)"
+      },
+      {
+       "title": "Reglamento de extranjería",
+       "authority": "Gobierno de Costa Rica",
+       "url": "https://www.tse.go.cr/pdf/normativa/reglamentodeextranjeria.pdf",
+       "checked": "2026-11-01",
+       "supports": "special categories (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Costa Rica, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Costa Rica, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Special category / Estancia",
+     "detail": "Lucrative or speaking activity needs a suitable DGME authorisation.",
+     "next": "Ask DGME in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Circular DG-0011-03-2026",
+       "authority": "Dirección General de Migración y Extranjería (La Gaceta)",
+       "url": "https://www.dnn.go.cr/sites/default/files/2026-04/Circular%20Migraci%C3%B3n%20DG-0011-03-2026.pdf",
+       "checked": "2026-11-01",
+       "supports": "tourists may not do lucrative activity (read via a search-index snapshot)"
+      },
+      {
+       "title": "Reglamento de extranjería",
+       "authority": "Gobierno de Costa Rica",
+       "url": "https://www.tse.go.cr/pdf/normativa/reglamentodeextranjeria.pdf",
+       "checked": "2026-11-01",
+       "supports": "special categories (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Costa Rica, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Costa Rica, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Special category / Estancia",
+     "detail": "Lucrative or speaking activity needs a suitable DGME authorisation.",
+     "next": "Ask DGME in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Circular DG-0011-03-2026",
+       "authority": "Dirección General de Migración y Extranjería (La Gaceta)",
+       "url": "https://www.dnn.go.cr/sites/default/files/2026-04/Circular%20Migraci%C3%B3n%20DG-0011-03-2026.pdf",
+       "checked": "2026-11-01",
+       "supports": "tourists may not do lucrative activity (read via a search-index snapshot)"
+      },
+      {
+       "title": "Reglamento de extranjería",
+       "authority": "Gobierno de Costa Rica",
+       "url": "https://www.tse.go.cr/pdf/normativa/reglamentodeextranjeria.pdf",
+       "checked": "2026-11-01",
+       "supports": "special categories (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Costa Rica, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Costa Rica, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Tourist entry, no lucrative activity",
+     "detail": "Tourists may not do any work or lucrative activity.",
+     "next": "Keep to unpaid meetings.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Circular DG-0011-03-2026",
+       "authority": "Dirección General de Migración y Extranjería (La Gaceta)",
+       "url": "https://www.dnn.go.cr/sites/default/files/2026-04/Circular%20Migraci%C3%B3n%20DG-0011-03-2026.pdf",
+       "checked": "2026-11-01",
+       "supports": "tourists may not do lucrative activity (read via a search-index snapshot)"
+      },
+      {
+       "title": "Reglamento de extranjería",
+       "authority": "Gobierno de Costa Rica",
+       "url": "https://www.tse.go.cr/pdf/normativa/reglamentodeextranjeria.pdf",
+       "checked": "2026-11-01",
+       "supports": "special categories (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
      "status": "specialist",
@@ -384,11 +512,27 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Costa Rica, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Costa Rica, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Special category / Estancia",
+     "detail": "Lucrative or speaking activity needs a suitable DGME authorisation.",
+     "next": "Ask DGME in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Circular DG-0011-03-2026",
+       "authority": "Dirección General de Migración y Extranjería (La Gaceta)",
+       "url": "https://www.dnn.go.cr/sites/default/files/2026-04/Circular%20Migraci%C3%B3n%20DG-0011-03-2026.pdf",
+       "checked": "2026-11-01",
+       "supports": "tourists may not do lucrative activity (read via a search-index snapshot)"
+      },
+      {
+       "title": "Reglamento de extranjería",
+       "authority": "Gobierno de Costa Rica",
+       "url": "https://www.tse.go.cr/pdf/normativa/reglamentodeextranjeria.pdf",
+       "checked": "2026-11-01",
+       "supports": "special categories (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "specialist",
@@ -407,18 +551,50 @@
      ]
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Costa Rica, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Costa Rica, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Special category / Estancia",
+     "detail": "Lucrative or speaking activity needs a suitable DGME authorisation.",
+     "next": "Ask DGME in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Circular DG-0011-03-2026",
+       "authority": "Dirección General de Migración y Extranjería (La Gaceta)",
+       "url": "https://www.dnn.go.cr/sites/default/files/2026-04/Circular%20Migraci%C3%B3n%20DG-0011-03-2026.pdf",
+       "checked": "2026-11-01",
+       "supports": "tourists may not do lucrative activity (read via a search-index snapshot)"
+      },
+      {
+       "title": "Reglamento de extranjería",
+       "authority": "Gobierno de Costa Rica",
+       "url": "https://www.tse.go.cr/pdf/normativa/reglamentodeextranjeria.pdf",
+       "checked": "2026-11-01",
+       "supports": "special categories (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Costa Rica, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Costa Rica, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Special category / Estancia",
+     "detail": "Lucrative or speaking activity needs a suitable DGME authorisation.",
+     "next": "Ask DGME in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Circular DG-0011-03-2026",
+       "authority": "Dirección General de Migración y Extranjería (La Gaceta)",
+       "url": "https://www.dnn.go.cr/sites/default/files/2026-04/Circular%20Migraci%C3%B3n%20DG-0011-03-2026.pdf",
+       "checked": "2026-11-01",
+       "supports": "tourists may not do lucrative activity (read via a search-index snapshot)"
+      },
+      {
+       "title": "Reglamento de extranjería",
+       "authority": "Gobierno de Costa Rica",
+       "url": "https://www.tse.go.cr/pdf/normativa/reglamentodeextranjeria.pdf",
+       "checked": "2026-11-01",
+       "supports": "special categories (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

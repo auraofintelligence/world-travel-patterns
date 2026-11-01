@@ -248,25 +248,73 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Dominican Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Dominican Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "NG-1 business permit",
+     "detail": "DGM's permit for business persons.",
+     "next": "Check DGM.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso de negocios (NG-1)",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-persona-de-negocio/",
+       "checked": "2026-11-01",
+       "supports": "business permit (read via a search-index snapshot)"
+      },
+      {
+       "title": "PADEI",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-artistas-deportistas-y-estudiantes-de-intercambio-padei/",
+       "checked": "2026-11-01",
+       "supports": "artists permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Dominican Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Dominican Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "NG-1 business permit",
+     "detail": "DGM's permit for business persons.",
+     "next": "Check DGM.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso de negocios (NG-1)",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-persona-de-negocio/",
+       "checked": "2026-11-01",
+       "supports": "business permit (read via a search-index snapshot)"
+      },
+      {
+       "title": "PADEI",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-artistas-deportistas-y-estudiantes-de-intercambio-padei/",
+       "checked": "2026-11-01",
+       "supports": "artists permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Dominican Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Dominican Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "NG-1 business permit",
+     "detail": "DGM's permit for business persons.",
+     "next": "Check DGM.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso de negocios (NG-1)",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-persona-de-negocio/",
+       "checked": "2026-11-01",
+       "supports": "business permit (read via a search-index snapshot)"
+      },
+      {
+       "title": "PADEI",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-artistas-deportistas-y-estudiantes-de-intercambio-padei/",
+       "checked": "2026-11-01",
+       "supports": "artists permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "conditional",
@@ -285,11 +333,27 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Dominican Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Dominican Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "PADEI (artists)",
+     "detail": "Temporary artistic activity: 1 year, renewable. Needs a sponsor, a medical certificate and approved insurance.",
+     "next": "The sponsor applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso de negocios (NG-1)",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-persona-de-negocio/",
+       "checked": "2026-11-01",
+       "supports": "business permit (read via a search-index snapshot)"
+      },
+      {
+       "title": "PADEI",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-artistas-deportistas-y-estudiantes-de-intercambio-padei/",
+       "checked": "2026-11-01",
+       "supports": "artists permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",
@@ -308,25 +372,73 @@
      ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Dominican Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Dominican Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "NM1 work visa",
+     "detail": "Temporary employment contracts use the NM1.",
+     "next": "Confirm with MIREX.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso de negocios (NG-1)",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-persona-de-negocio/",
+       "checked": "2026-11-01",
+       "supports": "business permit (read via a search-index snapshot)"
+      },
+      {
+       "title": "PADEI",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-artistas-deportistas-y-estudiantes-de-intercambio-padei/",
+       "checked": "2026-11-01",
+       "supports": "artists permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Dominican Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Dominican Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "NM1 work visa",
+     "detail": "Temporary employment contracts use the NM1.",
+     "next": "Confirm with MIREX.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso de negocios (NG-1)",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-persona-de-negocio/",
+       "checked": "2026-11-01",
+       "supports": "business permit (read via a search-index snapshot)"
+      },
+      {
+       "title": "PADEI",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-artistas-deportistas-y-estudiantes-de-intercambio-padei/",
+       "checked": "2026-11-01",
+       "supports": "artists permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Dominican Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Dominican Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "NG-1 business permit",
+     "detail": "DGM's permit for business persons.",
+     "next": "Check DGM.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso de negocios (NG-1)",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-persona-de-negocio/",
+       "checked": "2026-11-01",
+       "supports": "business permit (read via a search-index snapshot)"
+      },
+      {
+       "title": "PADEI",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-artistas-deportistas-y-estudiantes-de-intercambio-padei/",
+       "checked": "2026-11-01",
+       "supports": "artists permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
      "status": "conditional",
@@ -345,32 +457,96 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Dominican Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Dominican Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "PADEI (artists)",
+     "detail": "Temporary artistic activity: 1 year, renewable. Needs a sponsor, a medical certificate and approved insurance.",
+     "next": "The sponsor applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso de negocios (NG-1)",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-persona-de-negocio/",
+       "checked": "2026-11-01",
+       "supports": "business permit (read via a search-index snapshot)"
+      },
+      {
+       "title": "PADEI",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-artistas-deportistas-y-estudiantes-de-intercambio-padei/",
+       "checked": "2026-11-01",
+       "supports": "artists permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Dominican Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Dominican Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "PADEI (artists)",
+     "detail": "Temporary artistic activity: 1 year, renewable. Needs a sponsor, a medical certificate and approved insurance.",
+     "next": "The sponsor applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso de negocios (NG-1)",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-persona-de-negocio/",
+       "checked": "2026-11-01",
+       "supports": "business permit (read via a search-index snapshot)"
+      },
+      {
+       "title": "PADEI",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-artistas-deportistas-y-estudiantes-de-intercambio-padei/",
+       "checked": "2026-11-01",
+       "supports": "artists permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Dominican Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Dominican Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "NM1 work visa",
+     "detail": "Temporary employment contracts use the NM1.",
+     "next": "Confirm with MIREX.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso de negocios (NG-1)",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-persona-de-negocio/",
+       "checked": "2026-11-01",
+       "supports": "business permit (read via a search-index snapshot)"
+      },
+      {
+       "title": "PADEI",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-artistas-deportistas-y-estudiantes-de-intercambio-padei/",
+       "checked": "2026-11-01",
+       "supports": "artists permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Dominican Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Dominican Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "NM1 work visa",
+     "detail": "Temporary employment contracts use the NM1.",
+     "next": "Confirm with MIREX.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso de negocios (NG-1)",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-persona-de-negocio/",
+       "checked": "2026-11-01",
+       "supports": "business permit (read via a search-index snapshot)"
+      },
+      {
+       "title": "PADEI",
+       "authority": "Dirección General de Migración",
+       "url": "https://migracion.gob.do/servicio/permiso-para-artistas-deportistas-y-estudiantes-de-intercambio-padei/",
+       "checked": "2026-11-01",
+       "supports": "artists permit (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

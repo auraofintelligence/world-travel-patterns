@@ -288,102 +288,326 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of El Salvador, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of El Salvador, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Standard visitor entry",
+     "detail": "Business meetings on normal entry.",
+     "next": "Check visa needs.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso Especial de Ingreso para Artistas (PEI)",
+       "authority": "Dirección General de Migración y Extranjería",
+       "url": "https://www.migracion.gob.sv/servicios/permiso-especial-de-ingreso-para-artistas-extranjeros-pei-artistas/",
+       "checked": "2026-11-01",
+       "supports": "PEI covers conferences, music, theatre; 15 days ahead; up to 30 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Formulario F-51",
+       "authority": "DGME",
+       "url": "https://www.migracion.gob.sv/wp-content/uploads/2022/04/F.51-PERMISO-ESPECIAL-DE-INGRESO-EVENTOS-ARTISTAS-v4-3-1.pdf",
+       "checked": "2026-11-01",
+       "supports": "form (read via a search-index snapshot)"
+      }
+     ]
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of El Salvador, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of El Salvador, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Standard visitor entry",
+     "detail": "Business meetings on normal entry.",
+     "next": "Check visa needs.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso Especial de Ingreso para Artistas (PEI)",
+       "authority": "Dirección General de Migración y Extranjería",
+       "url": "https://www.migracion.gob.sv/servicios/permiso-especial-de-ingreso-para-artistas-extranjeros-pei-artistas/",
+       "checked": "2026-11-01",
+       "supports": "PEI covers conferences, music, theatre; 15 days ahead; up to 30 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Formulario F-51",
+       "authority": "DGME",
+       "url": "https://www.migracion.gob.sv/wp-content/uploads/2022/04/F.51-PERMISO-ESPECIAL-DE-INGRESO-EVENTOS-ARTISTAS-v4-3-1.pdf",
+       "checked": "2026-11-01",
+       "supports": "form (read via a search-index snapshot)"
+      }
+     ]
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of El Salvador, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of El Salvador, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Permiso Especial de Ingreso para Artistas (PEI)",
+     "detail": "Covers conferences, music, theatre and similar events. The promoter applies online (Form 51) at least 15 days ahead. Valid for up to 30 consecutive days of presentations within a year.",
+     "next": "Have the promoter email peiartistas@migracion.gob.sv.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso Especial de Ingreso para Artistas (PEI)",
+       "authority": "Dirección General de Migración y Extranjería",
+       "url": "https://www.migracion.gob.sv/servicios/permiso-especial-de-ingreso-para-artistas-extranjeros-pei-artistas/",
+       "checked": "2026-11-01",
+       "supports": "PEI covers conferences, music, theatre; 15 days ahead; up to 30 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Formulario F-51",
+       "authority": "DGME",
+       "url": "https://www.migracion.gob.sv/wp-content/uploads/2022/04/F.51-PERMISO-ESPECIAL-DE-INGRESO-EVENTOS-ARTISTAS-v4-3-1.pdf",
+       "checked": "2026-11-01",
+       "supports": "form (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of El Salvador, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of El Salvador, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Permiso Especial de Ingreso para Artistas (PEI)",
+     "detail": "Covers conferences, music, theatre and similar events. The promoter applies online (Form 51) at least 15 days ahead. Valid for up to 30 consecutive days of presentations within a year.",
+     "next": "Have the promoter email peiartistas@migracion.gob.sv.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso Especial de Ingreso para Artistas (PEI)",
+       "authority": "Dirección General de Migración y Extranjería",
+       "url": "https://www.migracion.gob.sv/servicios/permiso-especial-de-ingreso-para-artistas-extranjeros-pei-artistas/",
+       "checked": "2026-11-01",
+       "supports": "PEI covers conferences, music, theatre; 15 days ahead; up to 30 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Formulario F-51",
+       "authority": "DGME",
+       "url": "https://www.migracion.gob.sv/wp-content/uploads/2022/04/F.51-PERMISO-ESPECIAL-DE-INGRESO-EVENTOS-ARTISTAS-v4-3-1.pdf",
+       "checked": "2026-11-01",
+       "supports": "form (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of El Salvador, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of El Salvador, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Permiso Especial de Ingreso para Artistas (PEI)",
+     "detail": "Covers conferences, music, theatre and similar events. The promoter applies online (Form 51) at least 15 days ahead. Valid for up to 30 consecutive days of presentations within a year.",
+     "next": "Have the promoter email peiartistas@migracion.gob.sv.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso Especial de Ingreso para Artistas (PEI)",
+       "authority": "Dirección General de Migración y Extranjería",
+       "url": "https://www.migracion.gob.sv/servicios/permiso-especial-de-ingreso-para-artistas-extranjeros-pei-artistas/",
+       "checked": "2026-11-01",
+       "supports": "PEI covers conferences, music, theatre; 15 days ahead; up to 30 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Formulario F-51",
+       "authority": "DGME",
+       "url": "https://www.migracion.gob.sv/wp-content/uploads/2022/04/F.51-PERMISO-ESPECIAL-DE-INGRESO-EVENTOS-ARTISTAS-v4-3-1.pdf",
+       "checked": "2026-11-01",
+       "supports": "form (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of El Salvador, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of El Salvador, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Permiso Especial de Ingreso para Artistas (PEI)",
+     "detail": "Covers conferences, music, theatre and similar events. The promoter applies online (Form 51) at least 15 days ahead. Valid for up to 30 consecutive days of presentations within a year.",
+     "next": "Have the promoter email peiartistas@migracion.gob.sv.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso Especial de Ingreso para Artistas (PEI)",
+       "authority": "Dirección General de Migración y Extranjería",
+       "url": "https://www.migracion.gob.sv/servicios/permiso-especial-de-ingreso-para-artistas-extranjeros-pei-artistas/",
+       "checked": "2026-11-01",
+       "supports": "PEI covers conferences, music, theatre; 15 days ahead; up to 30 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Formulario F-51",
+       "authority": "DGME",
+       "url": "https://www.migracion.gob.sv/wp-content/uploads/2022/04/F.51-PERMISO-ESPECIAL-DE-INGRESO-EVENTOS-ARTISTAS-v4-3-1.pdf",
+       "checked": "2026-11-01",
+       "supports": "form (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of El Salvador, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of El Salvador, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Confirm with DGME",
+     "detail": "No route is published for these.",
+     "next": "Ask DGME.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso Especial de Ingreso para Artistas (PEI)",
+       "authority": "Dirección General de Migración y Extranjería",
+       "url": "https://www.migracion.gob.sv/servicios/permiso-especial-de-ingreso-para-artistas-extranjeros-pei-artistas/",
+       "checked": "2026-11-01",
+       "supports": "PEI covers conferences, music, theatre; 15 days ahead; up to 30 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Formulario F-51",
+       "authority": "DGME",
+       "url": "https://www.migracion.gob.sv/wp-content/uploads/2022/04/F.51-PERMISO-ESPECIAL-DE-INGRESO-EVENTOS-ARTISTAS-v4-3-1.pdf",
+       "checked": "2026-11-01",
+       "supports": "form (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of El Salvador, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of El Salvador, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Confirm with DGME",
+     "detail": "No route is published for these.",
+     "next": "Ask DGME.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso Especial de Ingreso para Artistas (PEI)",
+       "authority": "Dirección General de Migración y Extranjería",
+       "url": "https://www.migracion.gob.sv/servicios/permiso-especial-de-ingreso-para-artistas-extranjeros-pei-artistas/",
+       "checked": "2026-11-01",
+       "supports": "PEI covers conferences, music, theatre; 15 days ahead; up to 30 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Formulario F-51",
+       "authority": "DGME",
+       "url": "https://www.migracion.gob.sv/wp-content/uploads/2022/04/F.51-PERMISO-ESPECIAL-DE-INGRESO-EVENTOS-ARTISTAS-v4-3-1.pdf",
+       "checked": "2026-11-01",
+       "supports": "form (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of El Salvador, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of El Salvador, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Standard visitor entry",
+     "detail": "Business meetings on normal entry.",
+     "next": "Check visa needs.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso Especial de Ingreso para Artistas (PEI)",
+       "authority": "Dirección General de Migración y Extranjería",
+       "url": "https://www.migracion.gob.sv/servicios/permiso-especial-de-ingreso-para-artistas-extranjeros-pei-artistas/",
+       "checked": "2026-11-01",
+       "supports": "PEI covers conferences, music, theatre; 15 days ahead; up to 30 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Formulario F-51",
+       "authority": "DGME",
+       "url": "https://www.migracion.gob.sv/wp-content/uploads/2022/04/F.51-PERMISO-ESPECIAL-DE-INGRESO-EVENTOS-ARTISTAS-v4-3-1.pdf",
+       "checked": "2026-11-01",
+       "supports": "form (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of El Salvador, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of El Salvador, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Permiso Especial de Ingreso para Artistas (PEI)",
+     "detail": "Covers conferences, music, theatre and similar events. The promoter applies online (Form 51) at least 15 days ahead. Valid for up to 30 consecutive days of presentations within a year.",
+     "next": "Have the promoter email peiartistas@migracion.gob.sv.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso Especial de Ingreso para Artistas (PEI)",
+       "authority": "Dirección General de Migración y Extranjería",
+       "url": "https://www.migracion.gob.sv/servicios/permiso-especial-de-ingreso-para-artistas-extranjeros-pei-artistas/",
+       "checked": "2026-11-01",
+       "supports": "PEI covers conferences, music, theatre; 15 days ahead; up to 30 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Formulario F-51",
+       "authority": "DGME",
+       "url": "https://www.migracion.gob.sv/wp-content/uploads/2022/04/F.51-PERMISO-ESPECIAL-DE-INGRESO-EVENTOS-ARTISTAS-v4-3-1.pdf",
+       "checked": "2026-11-01",
+       "supports": "form (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of El Salvador, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of El Salvador, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Permiso Especial de Ingreso para Artistas (PEI)",
+     "detail": "Covers conferences, music, theatre and similar events. The promoter applies online (Form 51) at least 15 days ahead. Valid for up to 30 consecutive days of presentations within a year.",
+     "next": "Have the promoter email peiartistas@migracion.gob.sv.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso Especial de Ingreso para Artistas (PEI)",
+       "authority": "Dirección General de Migración y Extranjería",
+       "url": "https://www.migracion.gob.sv/servicios/permiso-especial-de-ingreso-para-artistas-extranjeros-pei-artistas/",
+       "checked": "2026-11-01",
+       "supports": "PEI covers conferences, music, theatre; 15 days ahead; up to 30 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Formulario F-51",
+       "authority": "DGME",
+       "url": "https://www.migracion.gob.sv/wp-content/uploads/2022/04/F.51-PERMISO-ESPECIAL-DE-INGRESO-EVENTOS-ARTISTAS-v4-3-1.pdf",
+       "checked": "2026-11-01",
+       "supports": "form (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of El Salvador, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of El Salvador, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Confirm with DGME",
+     "detail": "No route is published for these.",
+     "next": "Ask DGME.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso Especial de Ingreso para Artistas (PEI)",
+       "authority": "Dirección General de Migración y Extranjería",
+       "url": "https://www.migracion.gob.sv/servicios/permiso-especial-de-ingreso-para-artistas-extranjeros-pei-artistas/",
+       "checked": "2026-11-01",
+       "supports": "PEI covers conferences, music, theatre; 15 days ahead; up to 30 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Formulario F-51",
+       "authority": "DGME",
+       "url": "https://www.migracion.gob.sv/wp-content/uploads/2022/04/F.51-PERMISO-ESPECIAL-DE-INGRESO-EVENTOS-ARTISTAS-v4-3-1.pdf",
+       "checked": "2026-11-01",
+       "supports": "form (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of El Salvador, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of El Salvador, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Confirm with DGME",
+     "detail": "No route is published for these.",
+     "next": "Ask DGME.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso Especial de Ingreso para Artistas (PEI)",
+       "authority": "Dirección General de Migración y Extranjería",
+       "url": "https://www.migracion.gob.sv/servicios/permiso-especial-de-ingreso-para-artistas-extranjeros-pei-artistas/",
+       "checked": "2026-11-01",
+       "supports": "PEI covers conferences, music, theatre; 15 days ahead; up to 30 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Formulario F-51",
+       "authority": "DGME",
+       "url": "https://www.migracion.gob.sv/wp-content/uploads/2022/04/F.51-PERMISO-ESPECIAL-DE-INGRESO-EVENTOS-ARTISTAS-v4-3-1.pdf",
+       "checked": "2026-11-01",
+       "supports": "form (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of El Salvador, Canberra",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of El Salvador, Canberra which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Confirm with DGME",
+     "detail": "No route is published for these.",
+     "next": "Ask DGME.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permiso Especial de Ingreso para Artistas (PEI)",
+       "authority": "Dirección General de Migración y Extranjería",
+       "url": "https://www.migracion.gob.sv/servicios/permiso-especial-de-ingreso-para-artistas-extranjeros-pei-artistas/",
+       "checked": "2026-11-01",
+       "supports": "PEI covers conferences, music, theatre; 15 days ahead; up to 30 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Formulario F-51",
+       "authority": "DGME",
+       "url": "https://www.migracion.gob.sv/wp-content/uploads/2022/04/F.51-PERMISO-ESPECIAL-DE-INGRESO-EVENTOS-ARTISTAS-v4-3-1.pdf",
+       "checked": "2026-11-01",
+       "supports": "form (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

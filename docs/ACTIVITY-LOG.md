@@ -660,3 +660,7 @@ Upgraded vn (Decision 718 code), vu, ws (Sa curfew), vi (sunscreen ban), wf, za,
 ## 2026-11-01 17:36 AEST, Grok: Events 2027: ma, kz, ke, mn, rs, pf, de, br, qa, sa (10 records)
 
 Added official 2027 dates: GITEX Africa, GITEX AI Kazakhstan, Africa Tech Summit Nairobi, Naadam, Expo 2027 Belgrade, Pacific Games Tahiti, documenta 16, Web Summit Rio, Web Summit Qatar and the AFC Asian Cup. The Cricket World Cup, Biennale and Sauti za Busara were already recorded. Bhutan tsechus (tentative) and Lake of Stars (no official dates) skipped. Read via search-index snapshots.
+
+## 2026-11-01 17:37 AEST, Grok: Work: gt, hn, pa, pe, py, sv, ni, cr, do, ec (10 records)
+
+Work and speaking rules from official migration and labour sources: gt (invited speakers on traveller visa), hn, pa, pe (lecturer fees allowed 30 days in 12 months), py (90-day occasional residence for invited guests), sv (PEI permit for conferences), ni, cr, do (PADEI) and ec (visitor visa covers conferences 180 days). Read via search-index snapshots.
