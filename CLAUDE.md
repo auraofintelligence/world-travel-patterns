@@ -92,6 +92,7 @@ Search discovery follows Luke's pattern across his sites: hand-kept `robots.txt`
 python scripts/validate.py
 python scripts/due.py
 python scripts/build_site.py
+python scripts/status_report.py   # refreshes the coverage table in docs/STATUS.md
 ```
 
 Commit only when validation passes. End commit messages with the Claude co-author line.
