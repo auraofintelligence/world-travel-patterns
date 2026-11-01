@@ -432,3 +432,7 @@ Reread Smartraveller's visa text for af, bf, cd, cf, ht, iq, ir, kp, lb, ly and 
 ## 2026-11-01 16:47 AEST, Grok: culture, "Do not travel" countries (4 records)
 
 Smartraveller customs sections drafted as ask-locally for af, ml, so and ye. cd, cf, ht, ru and ve have no customs section ("nothing new"). This is a short batch because it is the whole remainder of the Do-not-travel culture list.
+
+## 2026-11-01 16:49 AEST, Grok: Culture from FCDO customs guidance, batch 1 (12 records)
+
+New script scripts/fcdo_culture.py takes only customs subheadings (dress, behaviour, religion, Ramadan) from FCDO's laws and cultural differences section. Status is partly-mapped, and each record is flagged as written for British travellers. Laws stay in local-law. Places: ag ai be bm cn cz dk dm eh gd gq ki.
