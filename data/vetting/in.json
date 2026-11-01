@@ -843,28 +843,11 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-20",
-   "last_reviewed": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Official e-Tourist for tourism and personal reconnaissance; e-Business for meetings, trade and venture discovery",
-   "before_departure": "Apply through the official Indian eVisa portal and match the selected purpose to the first trip.",
-   "useful_stay": "30-day e-Tourist, longer one- and five-year tourist options, or 365-day multiple-entry e-Business with per-visit limits.",
-   "host_unlock": "An organiser can support e-Conference, a cultural-event Business route, GIAN lecture documents or an Employment visa, depending on the engagement.",
-   "documents": [
-    "Approved Electronic Travel Authorisation",
-    "Passport used in the application",
-    "Host or conference invitation",
-    "Activity, fee and sales breakdown"
-   ],
-   "steps": [
-    "Choose e-Tourist for tourism and personal reconnaissance, or e-Business for meetings, trade and venture discovery.",
-    "Secure the organiser or institution invitation for any programmed appearance.",
-    "Split cultural appearance, consulting, teaching, rights meetings and sales.",
-    "Use the official eVisa portal where the purpose is supported; use a regular Mission-led visa for Employment or X-Misc.",
-    "Carry the electronic approval and the passport used in the application."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Is the speaker a conference delegate, cultural participant or contracted professional?",
     "Is the lecture inside the Government's GIAN program?",
@@ -874,60 +857,18 @@
    ],
    "sources": [
     {
-     "title": "Official Indian eVisa portal",
-     "authority": "Government of India",
-     "url": "https://www.indianvisaonline.gov.in/evisa/tvoa.html",
-     "checked": "2026-08-20",
-     "supports": "eligibility, eVisa purposes, validity and application"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/india",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     },
     {
-     "title": "Details of visas granted by India",
-     "authority": "Ministry of Home Affairs",
-     "url": "https://www.mha.gov.in/PDF_Other/AnnexIII_01022018.pdf",
-     "checked": "2026-08-20",
-     "supports": "business, cultural event, X-Misc and employment distinctions"
-    },
-    {
-     "title": "Work-related visa FAQs",
-     "authority": "Ministry of Home Affairs",
-     "url": "https://www.mha.gov.in/sites/default/files/2022-07/ForeigD-work_visa_faq.pdf",
-     "checked": "2026-08-20",
-     "supports": "employment and contracted-service rules"
-    },
-    {
-     "title": "Regular visa provision table",
-     "authority": "Bureau of Immigration India",
-     "url": "https://www.indianvisaonline.gov.in/visa/visa-provision.html",
-     "checked": "2026-08-20",
-     "supports": "regular visa categories, indicative validity and application documents"
-    },
-    {
-     "title": "Doing Business in India 2025–2026",
-     "authority": "Invest India",
-     "url": "https://static.investindia.gov.in/s3fs-public/2025-10/doing_business_in_india_investor_s_guide_at_a_glance_2025-26.pdf",
-     "checked": "2026-08-20",
-     "supports": "venture and investment structures"
-    },
-    {
-     "title": "Bengaluru Tech Summit 2026",
-     "authority": "Government of Karnataka and event partners",
-     "url": "https://www.bengalurutechsummit.com/index.php",
-     "checked": "2026-08-20",
-     "supports": "English technology opportunity signal"
-    },
-    {
-     "title": "New Delhi World Book Fair 2026",
-     "authority": "Press Information Bureau, Government of India",
-     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2213262&lang=1&reg=6",
-     "checked": "2026-08-20",
-     "supports": "large international publishing, author and speaker opportunity signal"
-    },
-    {
-     "title": "Jaipur Literature Festival",
-     "authority": "Festival organiser",
-     "url": "https://jlflitfest.org/about-jlf",
-     "checked": "2026-08-20",
-     "supports": "literary and author opportunity signal"
+     "title": "Country/Territory wise e-Tourist visa fee",
+     "authority": "Government of India, Indian Visa Online",
+     "url": "https://indianvisaonline.gov.in/evisa/images/Etourist%5Ffee%5Ffinal.pdf",
+     "supports": "Australia row of the fee table",
+     "checked": "2026-11-01"
     }
    ],
    "provenance": {
@@ -970,7 +911,73 @@
     "value": "~ $120",
     "checked": "2025-08-16",
     "claim_id": "WORLD-INDIA-COST"
-   }
+   },
+   "fastest_entry": "e-Visa (tourism, business or medical) before arrival; no visa on arrival.",
+   "before_departure": "Apply only on Indian Visa Online and check the arrival port recognises the e-Visa.",
+   "steps": [
+    {
+     "step": "Apply for the e-Visa on Indian Visa Online (beware of fake sites).",
+     "url": "https://indianvisaonline.gov.in/evisa/"
+    },
+    "Arrive only at an entry point that recognises the e-Visa; otherwise entry is refused.",
+    "Other visa types go through the Indian High Commission in Australia.",
+    "If a visa expires or you overstay, speak to the FRRO before trying to leave."
+   ],
+   "documents": [
+    "Passport",
+    "e-Visa approval (print it)"
+   ],
+   "fees": [
+    {
+     "item": "e-Tourist visa, 30 days, arriving July to March",
+     "amount": 25,
+     "currency": "USD",
+     "url": "https://indianvisaonline.gov.in/evisa/images/Etourist%5Ffee%5Ffinal.pdf",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "e-Tourist visa, 30 days, arriving April to June",
+     "amount": 10,
+     "currency": "USD",
+     "url": "https://indianvisaonline.gov.in/evisa/images/Etourist%5Ffee%5Ffinal.pdf",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "e-Tourist visa, 1 year",
+     "amount": 40,
+     "currency": "USD",
+     "url": "https://indianvisaonline.gov.in/evisa/images/Etourist%5Ffee%5Ffinal.pdf",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "e-Tourist visa, 5 years",
+     "amount": 200,
+     "currency": "USD",
+     "url": "https://indianvisaonline.gov.in/evisa/images/Etourist%5Ffee%5Ffinal.pdf",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread on 2026-11-01",
+    "host_unlock": "An organiser can support e-Conference, a cultural-event Business route, GIAN lecture documents or an Employment visa, depending on the engagement.",
+    "fastest_entry": "Official e-Tourist for tourism and personal reconnaissance; e-Business for meetings, trade and venture discovery",
+    "before_departure": "Apply through the official Indian eVisa portal and match the selected purpose to the first trip.",
+    "useful_stay": "30-day e-Tourist, longer one- and five-year tourist options, or 365-day multiple-entry e-Business with per-visit limits.",
+    "documents": [
+     "Approved Electronic Travel Authorisation",
+     "Passport used in the application",
+     "Host or conference invitation",
+     "Activity, fee and sales breakdown"
+    ],
+    "steps": [
+     "Choose e-Tourist for tourism and personal reconnaissance, or e-Business for meetings, trade and venture discovery.",
+     "Secure the organiser or institution invitation for any programmed appearance.",
+     "Split cultural appearance, consulting, teaching, rights meetings and sales.",
+     "Use the official eVisa portal where the purpose is supported; use a regular Mission-led visa for Employment or X-Misc.",
+     "Carry the electronic approval and the passport used in the application."
+    ]
+   },
+   "recheck_note": "Business and medical e-Visa fees weren't reread."
   }
  }
 }

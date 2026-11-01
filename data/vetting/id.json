@@ -888,28 +888,11 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "B1 Visa on Arrival or e-VOA, initially 30 days",
-   "before_departure": "Use the official eVisa portal if applying online, check passport and onward-ticket requirements, and match the visa index to the real activity rather than relying on a tourism label.",
-   "useful_stay": "B1 is initially 30 days and is normally extendable once for a further 30 days; C10 and C11 start at 60 days and can be extended within their published maximum.",
-   "host_unlock": "An Indonesian organiser can sponsor C10 for a business-event speaker or presenter, C11 for an exhibitor, or C7/C7A for an artistic or music performance.",
-   "documents": [
-    "Australian passport with required validity",
-    "Return or onward ticket",
-    "Indonesian sponsor and invitation",
-    "Agenda, presentation material, contract and compensation details"
-   ],
-   "steps": [
-    "Use B1 for tourism, business meetings and purchasing only, not for active delivery or selling.",
-    "Use C10 for an invited business-event speech or presentation, whether unpaid or compensated.",
-    "Use C11 for exhibition promotion and C7/C7A for the relevant artistic performance.",
-    "Use E33G only for qualifying overseas-company duties and E28/company approvals for investment and management.",
-    "Recheck every index on the official visa catalogue because it was freshly updated on 18 August 2026."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Does the live B1 page still show the same eligibility, stay and extension conditions?",
     "Is the appearance a C10 business-event presentation, a C7 cultural performance or actual employment?",
@@ -919,109 +902,25 @@
    ],
    "sources": [
     {
-     "title": "Official Indonesian eVisa portal",
-     "authority": "Directorate General of Immigration Indonesia",
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
+    },
+    {
+     "title": "Indonesia e-Visa",
+     "authority": "Directorate General of Immigration, Indonesia",
      "url": "https://evisa.imigrasi.go.id/",
-     "checked": "2026-08-21",
-     "supports": "official application channel and visa-index access"
+     "supports": "official e-VOA portal",
+     "checked": "2026-11-01"
     },
     {
-     "title": "Indonesian visa catalogue",
-     "authority": "Directorate General of Immigration Indonesia",
-     "url": "https://kanwilsultra.imigrasi.go.id/wna/daftar-visa-indonesia",
-     "checked": "2026-08-21",
-     "supports": "current B1, C7, C10, C11, C12, E28 and E33G categories; page updated 18 August 2026"
-    },
-    {
-     "title": "B1 Visa on Arrival",
-     "authority": "Directorate General of Immigration Indonesia",
-     "url": "https://kanwilpapuabarat.imigrasi.go.id/service-proxy/8?url=https%3A%2F%2Fwww.imigrasi.go.id%2Fwna%2Fdaftar-visa-indonesia%2FB1",
-     "checked": "2026-08-21",
-     "supports": "tourism, business meeting, purchasing, stay and prohibited-work boundary"
-    },
-    {
-     "title": "C10 Business Events Speaker Visitor Visa",
-     "authority": "Directorate General of Immigration Indonesia",
-     "url": "https://kanwilpapuabarat.imigrasi.go.id/service-proxy/8?url=https%3A%2F%2Fwww.imigrasi.go.id%2Fwna%2Fdaftar-visa-indonesia%2FC10",
-     "checked": "2026-08-21",
-     "supports": "speaker activity, sponsorship, compensation and no-employment boundary"
-    },
-    {
-     "title": "C11 Exhibitor Visitor Visa",
-     "authority": "Directorate General of Immigration Indonesia",
-     "url": "https://kanwilpapuabarat.imigrasi.go.id/service-proxy/8?url=https%3A%2F%2Fwww.imigrasi.go.id%2Fwna%2Fdaftar-visa-indonesia%2FC11",
-     "checked": "2026-08-21",
-     "supports": "exhibitor promotion, stay and sales boundary"
-    },
-    {
-     "title": "C7A Music Performance Visa",
-     "authority": "Directorate General of Immigration Indonesia",
-     "url": "https://kanwilpapuabarat.imigrasi.go.id/service-proxy/8?url=https%3A%2F%2Fwww.imigrasi.go.id%2Fwna%2Fdaftar-visa-indonesia%2FC7A",
-     "checked": "2026-08-21",
-     "supports": "music performance, sponsor and contract route"
-    },
-    {
-     "title": "E33G Remote Worker visa",
-     "authority": "Directorate General of Immigration Indonesia",
-     "url": "https://www.imigrasi.go.id/wna/daftar-visa-indonesia/E33G",
-     "checked": "2026-08-21",
-     "supports": "overseas-company duties and current remote-worker evidence"
-    },
-    {
-     "title": "Indonesian visa information by index",
-     "authority": "Bontang Immigration Office",
-     "url": "https://bontang.imigrasi.go.id/public/layanan-publik/kategori/wna/sub/informasi-visa-republik-indonesia",
-     "checked": "2026-08-21",
-     "supports": "C10 compensation, E28B investment and E33G activity descriptions"
-    },
-    {
-     "title": "Investment procedures",
-     "authority": "Indonesia Investment Promotion Centre Sydney / Ministry of Investment",
-     "url": "https://sydney.bkpm.go.id/invesment-procedures",
-     "checked": "2026-08-21",
-     "supports": "foreign investment company, ownership and capital layer"
-    },
-    {
-     "title": "Income Tax Article 26 for foreign taxpayers",
-     "authority": "Directorate General of Taxes Indonesia",
-     "url": "https://pajak.go.id/en/income-tax-article-26-income-tax-foreign-taxpayers",
-     "checked": "2026-08-21",
-     "supports": "Indonesian-source service and activity withholding and treaty relief"
-    },
-    {
-     "title": "Income Tax Article 21 withholding",
-     "authority": "Directorate General of Taxes Indonesia",
-     "url": "https://www.pajak.go.id/en/withholding-article-21-tax",
-     "checked": "2026-08-21",
-     "supports": "speaker, trainer, author, artist and musician activity categories"
-    },
-    {
-     "title": "ATA Carnet facility",
-     "authority": "Directorate General of Customs and Excise Indonesia",
-     "url": "https://www.beacukai.go.id/faq-fasilitas-ata-carnet",
-     "checked": "2026-08-21",
-     "supports": "temporary professional equipment, exhibitions, meetings and cultural goods"
-    },
-    {
-     "title": "Indonesia Digital Leap and DTI Series",
-     "authority": "Coordinating Ministry for Economic Affairs Indonesia",
-     "url": "https://ekon.go.id/publikasi/detail/6942/kemenko-perekonomian-gelar-forum-nasional-indonesia-digital-leap-akselerasi-ekosistem-data-center-ai-keamanan-siber-untuk-pertumbuhan-ekonomi-8",
-     "checked": "2026-08-21",
-     "supports": "government-backed AI, data-centre and cyber event signal"
-    },
-    {
-     "title": "Indonesia International Data Center and Cloud",
-     "authority": "Event organiser",
-     "url": "https://iidcc-summit.com/",
-     "checked": "2026-08-21",
-     "supports": "recurring data-centre event signal"
-    },
-    {
-     "title": "Ubud Writers and Readers Festival 2026",
-     "authority": "Festival organiser",
-     "url": "https://www.ubudwritersfestival.com/programs/ubud-writers-and-readers-festival-2026",
-     "checked": "2026-08-21",
-     "supports": "bilingual literary, author and book-launch event signal"
+     "title": "All Indonesia",
+     "authority": "Directorate General of Immigration, Indonesia",
+     "url": "https://allindonesia.imigrasi.go.id/",
+     "supports": "official arrival card portal",
+     "checked": "2026-11-01"
     }
    ],
    "provenance": {
@@ -1064,6 +963,62 @@
     "value": "~ $50",
     "checked": "2025-08-16",
     "claim_id": "WORLD-INDONESIA-COST"
+   },
+   "fastest_entry": "e-Visa on Arrival (e-VOA) online at least 48 hours ahead, or a Visa on Arrival at listed ports, for tourism, government duties or business meetings.",
+   "before_departure": "Submit the All Indonesia arrival card, then apply for the e-VOA. Bali visitors also pay the tourist levy.",
+   "steps": [
+    {
+     "step": "Submit the arrival card on All Indonesia.",
+     "url": "https://allindonesia.imigrasi.go.id/"
+    },
+    {
+     "step": "Apply for the e-VOA at least 48 hours before travel (or get a VOA on arrival at listed ports).",
+     "url": "https://evisa.imigrasi.go.id/"
+    },
+    "For Bali, pay the IDR 150,000 tourist levy online or at the airport or seaport counters.",
+    "You can't transit without an e-VOA or VOA."
+   ],
+   "documents": [
+    "Passport",
+    "All Indonesia arrival card",
+    "e-VOA or VOA",
+    "Bali levy receipt if visiting Bali"
+   ],
+   "fees": [
+    {
+     "item": "e-VOA or VOA (e-VOA adds a small processing fee)",
+     "amount": 500000,
+     "currency": "IDR",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "Bali tourist levy",
+     "amount": 150000,
+     "currency": "IDR",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread on 2026-11-01",
+    "host_unlock": "An Indonesian organiser can sponsor C10 for a business-event speaker or presenter, C11 for an exhibitor, or C7/C7A for an artistic or music performance.",
+    "fastest_entry": "B1 Visa on Arrival or e-VOA, initially 30 days",
+    "before_departure": "Use the official eVisa portal if applying online, check passport and onward-ticket requirements, and match the visa index to the real activity rather than relying on a tourism label.",
+    "useful_stay": "B1 is initially 30 days and is normally extendable once for a further 30 days; C10 and C11 start at 60 days and can be extended within their published maximum.",
+    "documents": [
+     "Australian passport with required validity",
+     "Return or onward ticket",
+     "Indonesian sponsor and invitation",
+     "Agenda, presentation material, contract and compensation details"
+    ],
+    "steps": [
+     "Use B1 for tourism, business meetings and purchasing only, not for active delivery or selling.",
+     "Use C10 for an invited business-event speech or presentation, whether unpaid or compensated.",
+     "Use C11 for exhibition promotion and C7/C7A for the relevant artistic performance.",
+     "Use E33G only for qualifying overseas-company duties and E28/company approvals for investment and management.",
+     "Recheck every index on the official visa catalogue because it was freshly updated on 18 August 2026."
+    ]
    }
   }
  },

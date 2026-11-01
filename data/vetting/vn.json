@@ -818,28 +818,11 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-20",
-   "last_reviewed": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Vietnam National Electronic Visa, up to 90 days, single or multiple entry",
-   "before_departure": "Apply through the official eVisa system, choose the accurate purpose and wait for issuance before flying.",
-   "useful_stay": "Up to 90 days; official fee USD25 single-entry or USD50 multiple-entry.",
-   "host_unlock": "A qualifying manager, executive, expert or technical worker under 90 total days in a calendar year may use a work-permit exemption with host notice at least three working days before work begins.",
-   "documents": [
-    "Issued official eVisa",
-    "Passport used for the application",
-    "Accurate purpose and entry point",
-    "Host letter with role, credentials and dates"
-   ],
-   "steps": [
-    "Apply through the official eVisa portal with the accurate purpose and entry point.",
-    "Wait for issuance before booking the final flight commitment.",
-    "Use meetings and conference attendance directly under the entry purpose.",
-    "Choose one Vietnamese host for any active speaking, teaching, consulting or performance.",
-    "Have the host lodge the short-expert notice or work/cultural approvals before delivery."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Does the traveller qualify as a manager, executive, expert or technical worker for the short exemption?",
     "Has the host counted total working days in the calendar year and lodged the three-working-day notice?",
@@ -849,67 +832,18 @@
    ],
    "sources": [
     {
-     "title": "Vietnam National Electronic Visa system",
-     "authority": "Vietnam Immigration Department",
-     "url": "https://evisa.gov.vn/?option=MO",
-     "checked": "2026-08-20",
-     "supports": "Australian eligibility, application and eVisa options"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     },
     {
-     "title": "Consolidated Law on Entry, Exit, Transit and Residence of Foreigners",
-     "authority": "Government of Vietnam",
-     "url": "https://vanban.chinhphu.vn/?classid=2629&docid=217302&pageid=27160",
-     "checked": "2026-08-20",
-     "supports": "visa codes and stay framework"
-    },
-    {
-     "title": "Decree 219/2025 on foreign workers",
-     "authority": "Government of Vietnam",
-     "url": "https://vanban.chinhphu.vn/?classid=1&docid=214840&orggroupid=2&pageid=27160",
-     "checked": "2026-08-20",
-     "supports": "short expert and work-permit framework"
-    },
-    {
-     "title": "Procedure for short-term foreign workers",
-     "authority": "Government News Vietnam",
-     "url": "https://baochinhphu.vn/thu-tuc-doi-voi-lao-dong-nuoc-ngoai-lam-viec-ngan-han-102260401093539635.htm",
-     "checked": "2026-08-20",
-     "supports": "under-90-day host notice process"
-    },
-    {
-     "title": "Fresh regulations on work permits",
-     "authority": "Government News Vietnam",
-     "url": "https://en.baochinhphu.vn/fresh-regulations-on-work-permit-issuance-to-foreign-workers-111250808104813884.htm",
-     "checked": "2026-08-20",
-     "supports": "work-permit timing and process"
-    },
-    {
-     "title": "Law on Digital Technology Industry approved",
-     "authority": "Government News Vietnam",
-     "url": "https://en.baochinhphu.vn/law-on-digital-technology-industry-approved-111250614143640329.htm",
-     "checked": "2026-08-20",
-     "supports": "high-quality digital professional route"
-    },
-    {
-     "title": "Vietnam's Law on Investment 2025",
-     "authority": "Government News Vietnam",
-     "url": "https://en.baochinhphu.vn/viet-nams-law-on-investment-2025-111260731145214387.htm",
-     "checked": "2026-08-20",
-     "supports": "investment and commercial presence"
-    },
-    {
-     "title": "Approval procedure for foreign artists",
-     "authority": "Government News Vietnam",
-     "url": "https://baochinhphu.vn/thu-tuc-cap-phep-to-chuc-bieu-dien-cho-nghe-si-nuoc-ngoai-102250923140746162.htm",
-     "checked": "2026-08-20",
-     "supports": "cultural performance approval"
-    },
-    {
-     "title": "Vietnam Innovation Challenge",
-     "authority": "National Innovation Center Vietnam",
-     "url": "https://vic.nic.gov.vn/en",
-     "checked": "2026-08-20",
-     "supports": "AI and innovation opportunity signal"
+     "title": "Foreigner apply for e-visa",
+     "authority": "Vietnam Immigration Department, National Portal on Immigration",
+     "url": "https://evisa.immigration.gov.vn/en_US/web/guest/khai-thi-thuc-dien-tu/cap-thi-thuc-dien-tu",
+     "supports": "steps, 3 working days, US$25/US$50",
+     "checked": "2026-11-01"
     }
    ],
    "provenance": {
@@ -952,6 +886,57 @@
     "value": "~ $40",
     "checked": "2025-08-16",
     "claim_id": "WORLD-VIETNAM-COST"
+   },
+   "fastest_entry": "eVisa for tourism or business, up to 90 days, single or multiple entry; no visa on arrival for Australians.",
+   "before_departure": "Apply on the official Vietnam eVisa portal; details must match the passport exactly. Print the approval.",
+   "steps": [
+    {
+     "step": "Apply online on the National Portal on Immigration and pay the fee; processing takes about 3 working days.",
+     "url": "https://evisa.immigration.gov.vn/en_US/web/guest/khai-thi-thuc-dien-tu/cap-thi-thuc-dien-tu"
+    },
+    "Check every detail against the passport biodata page, on lodging and again on approval.",
+    "Print the approval; some travellers had trouble showing eVisas at check-in.",
+    "Check the exit date stamped on arrival before leaving border control."
+   ],
+   "documents": [
+    "Passport",
+    "Printed eVisa approval"
+   ],
+   "fees": [
+    {
+     "item": "eVisa, single entry",
+     "amount": 25,
+     "currency": "USD",
+     "url": "https://evisa.immigration.gov.vn/en_US/web/guest/khai-thi-thuc-dien-tu/cap-thi-thuc-dien-tu",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "eVisa, multiple entry",
+     "amount": 50,
+     "currency": "USD",
+     "url": "https://evisa.immigration.gov.vn/en_US/web/guest/khai-thi-thuc-dien-tu/cap-thi-thuc-dien-tu",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread on 2026-11-01",
+    "host_unlock": "A qualifying manager, executive, expert or technical worker under 90 total days in a calendar year may use a work-permit exemption with host notice at least three working days before work begins.",
+    "fastest_entry": "Vietnam National Electronic Visa, up to 90 days, single or multiple entry",
+    "before_departure": "Apply through the official eVisa system, choose the accurate purpose and wait for issuance before flying.",
+    "useful_stay": "Up to 90 days; official fee USD25 single-entry or USD50 multiple-entry.",
+    "documents": [
+     "Issued official eVisa",
+     "Passport used for the application",
+     "Accurate purpose and entry point",
+     "Host letter with role, credentials and dates"
+    ],
+    "steps": [
+     "Apply through the official eVisa portal with the accurate purpose and entry point.",
+     "Wait for issuance before booking the final flight commitment.",
+     "Use meetings and conference attendance directly under the entry purpose.",
+     "Choose one Vietnamese host for any active speaking, teaching, consulting or performance.",
+     "Have the host lodge the short-expert notice or work/cultural approvals before delivery."
+    ]
    }
   }
  }

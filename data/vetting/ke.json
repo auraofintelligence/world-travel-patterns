@@ -680,32 +680,11 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Approved Kenyan eTA obtained before starting the journey",
-   "before_departure": "Apply only through the official eTA service, normally at least three working days ahead. Carry a passport valid six months, itinerary, accommodation and any conference or business invitation and company registration documents.",
-   "useful_stay": "The eTA must be used for travel within 90 days of issue; the authorised stay is decided at the border. A Special Pass can cover up to six months. Class N is issued for one or two years and is renewable.",
-   "host_unlock": "A Kenyan organisation supplies the stamped Special Pass application, detailed cover letter, registration certificate and any regulatory clearance for speaking, teaching, consulting, performance or other temporary professional activity.",
-   "documents": [
-    "Australian passport valid at least six months",
-    "Approved eTA PDF",
-    "Itinerary and accommodation",
-    "Kenyan invitation and organisation registration",
-    "CV and certified qualifications for Special Pass",
-    "Fee, expenses and 20% withholding terms"
-   ],
-   "steps": [
-    "Apply through the official Kenya eTA service and wait for approval before starting the journey.",
-    "Attach the correct conference or business invitation and the Kenyan organisation's registration where requested.",
-    "Separate attendance and meetings from every talk, workshop, performance, consulting session and sale.",
-    "For temporary professional activity, have the Kenyan organisation file the Special Pass pack and obtain the actual pass before work starts.",
-    "Use Class N for a sustained foreign-remote-work base and Class G for locally operated business or consultancy.",
-    "Have the payer withhold and remit the applicable non-resident tax and provide the withholding certificate.",
-    "Add county, venue, professional, publisher and customs checks to the national immigration route where needed."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Is the eTA approval being mistaken for a work permit or a guaranteed length of stay?",
     "Has the traveller received the Special Pass itself, not only an approval notification or payment request?",
@@ -718,74 +697,25 @@
    ],
    "sources": [
     {
-     "title": "How to apply for a Kenya eTA",
-     "authority": "Kenya Directorate of Immigration Services",
-     "url": "https://etakenya.go.ke/form/apply/how-to-apply?type=tourist",
-     "checked": "2026-08-21",
-     "supports": "pre-travel approval, 90-day use window, border-set stay, documents, conference and business invitations and three-day processing"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/kenya",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     },
     {
-     "title": "Kenya eTA frequently asked questions",
-     "authority": "Kenya Directorate of Immigration Services",
-     "url": "https://etakenya.go.ke/faqs",
-     "checked": "2026-08-21",
-     "supports": "official application channel, approval-before-travel rule, processing and fees"
+     "title": "ETA eligibility and fees",
+     "authority": "Government of Kenya, ETA Kenya",
+     "url": "https://etakenya.go.ke/eligibility",
+     "supports": "US$30 standard ETA",
+     "checked": "2026-11-01"
     },
     {
-     "title": "Special Pass",
-     "authority": "Kenya Directorate of Immigration Services",
-     "url": "https://immigration.go.ke/kenya-special-pass/",
-     "checked": "2026-08-21",
-     "supports": "up-to-six-month temporary business, trade or professional activity, host documents and USD 200 monthly fee"
-    },
-    {
-     "title": "Special Pass information pack",
-     "authority": "Kenya Foreign Nationals Services",
-     "url": "https://fns.immigration.go.ke/infopack/passes/specialpass/",
-     "checked": "2026-08-21",
-     "supports": "online process, permit-before-work warning and approval-notification boundary"
-    },
-    {
-     "title": "Class N Digital Nomad Permit",
-     "authority": "Kenya Foreign Nationals Services",
-     "url": "https://fns.immigration.go.ke/infopack/permits/classN/",
-     "checked": "2026-08-21",
-     "supports": "foreign remote-work scope, one- or two-year duration, evidence and current fees"
-    },
-    {
-     "title": "Class G trade, business or consultancy permit",
-     "authority": "Kenya Foreign Nationals Services",
-     "url": "https://fns.immigration.go.ke/infopack/permits/classG/",
-     "checked": "2026-08-21",
-     "supports": "business scope, benefit test, licences, company and tax documents and USD 100,000 capital"
-    },
-    {
-     "title": "Everything about Withholding Tax",
-     "authority": "Kenya Revenue Authority",
-     "url": "https://www.kra.go.ke/helping-tax-payers/faqs/everything-about-withholding-tax",
-     "checked": "2026-08-21",
-     "supports": "20% non-resident professional, training and appearance or performance rates, final-tax treatment and five-working-day remittance"
-    },
-    {
-     "title": "Constitution of Kenya, Article 7",
-     "authority": "Kenya Law",
-     "url": "https://new.kenyalaw.org/akn/ke/act/2010/constitution/eng%402010-09-03",
-     "checked": "2026-08-21",
-     "supports": "Kiswahili national language, Kiswahili and English official languages and protection of language diversity"
-    },
-    {
-     "title": "IGF 2026",
-     "authority": "United Nations Internet Governance Forum",
-     "url": "https://intgovforum.org/en/dashboard/igf-2026",
-     "checked": "2026-08-21",
-     "supports": "Nairobi dates, themes and participation signal; no open speaker opportunity inferred"
-    },
-    {
-     "title": "Africa Tech Summit Nairobi",
-     "authority": "Africa Tech Summit",
-     "url": "https://www.africatechsummit.com/",
-     "checked": "2026-08-21",
-     "supports": "recurring Nairobi technology, investment and startup event signal; no speaking access inferred"
+     "title": "Inbound travel health insurance",
+     "authority": "Government of Kenya, eCitizen",
+     "url": "https://insurance.ecitizen.go.ke/dashboard/travel",
+     "supports": "required from 5 October 2026; premium up to US$44",
+     "checked": "2026-11-01"
     }
    ],
    "provenance": {
@@ -828,7 +758,68 @@
     "value": "~ $50",
     "checked": "2025-08-16",
     "claim_id": "WORLD-KENYA-COST"
-   }
+   },
+   "fastest_entry": "Electronic Travel Authorisation (ETA), applied for and paid online before departure.",
+   "before_departure": "Apply on the official ETA Kenya site (normally up to 72 hours). The portal now also requires Kenya's inbound travel health insurance.",
+   "steps": [
+    {
+     "step": "Apply for the standard ETA on etakenya.go.ke.",
+     "url": "https://etakenya.go.ke/eligibility"
+    },
+    {
+     "step": "Buy the Kenyan inbound travel health insurance in the ETA process (required from 5 October 2026 under Gazette Notice 11492); foreign policies aren't accepted in its place.",
+     "url": "https://insurance.ecitizen.go.ke/dashboard/travel"
+    },
+    "Carry a yellow fever certificate if arriving from a yellow fever country.",
+    "Still hold comprehensive travel insurance; the Kenyan policy has limits."
+   ],
+   "documents": [
+    "Passport",
+    "ETA approval",
+    "Kenyan inbound travel health insurance policy",
+    "Yellow fever certificate if arriving from a risk country"
+   ],
+   "fees": [
+    {
+     "item": "standard ETA (single entry)",
+     "amount": 30,
+     "currency": "USD",
+     "url": "https://etakenya.go.ke/eligibility",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "inbound travel health insurance (up to 3 months)",
+     "amount": 44,
+     "currency": "USD",
+     "url": "https://insurance.ecitizen.go.ke/dashboard/travel",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread on 2026-11-01",
+    "host_unlock": "A Kenyan organisation supplies the stamped Special Pass application, detailed cover letter, registration certificate and any regulatory clearance for speaking, teaching, consulting, performance or other temporary professional activity.",
+    "fastest_entry": "Approved Kenyan eTA obtained before starting the journey",
+    "before_departure": "Apply only through the official eTA service, normally at least three working days ahead. Carry a passport valid six months, itinerary, accommodation and any conference or business invitation and company registration documents.",
+    "useful_stay": "The eTA must be used for travel within 90 days of issue; the authorised stay is decided at the border. A Special Pass can cover up to six months. Class N is issued for one or two years and is renewable.",
+    "documents": [
+     "Australian passport valid at least six months",
+     "Approved eTA PDF",
+     "Itinerary and accommodation",
+     "Kenyan invitation and organisation registration",
+     "CV and certified qualifications for Special Pass",
+     "Fee, expenses and 20% withholding terms"
+    ],
+    "steps": [
+     "Apply through the official Kenya eTA service and wait for approval before starting the journey.",
+     "Attach the correct conference or business invitation and the Kenyan organisation's registration where requested.",
+     "Separate attendance and meetings from every talk, workshop, performance, consulting session and sale.",
+     "For temporary professional activity, have the Kenyan organisation file the Special Pass pack and obtain the actual pass before work starts.",
+     "Use Class N for a sustained foreign-remote-work base and Class G for locally operated business or consultancy.",
+     "Have the payer withhold and remit the applicable non-resident tax and provide the withholding certificate.",
+     "Add county, venue, professional, publisher and customs checks to the national immigration route where needed."
+    ]
+   },
+   "recheck_note": "A trade report says a Kenyan court suspended the insurance mandate in late August 2026 while the portal still enforces it; payment-gateway fees may add a few dollars. Recheck before travel."
   }
  }
 }

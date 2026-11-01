@@ -943,32 +943,11 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Visa-free travel for Australian passport holders; the stay granted appears on the electronic Short-Term Visit Pass after entry",
-   "before_departure": "Use a passport valid for at least six months, submit the free SG Arrival Card within three days including the arrival day, carry onward travel and funds, and have the organiser classify every active role before departure.",
-   "useful_stay": "Do not promise a fixed duration: ICA decides the authorised stay at entry and records it on the e-Pass. Work Pass Exempt delivery must fit inside that stay and the 90-day annual ceiling.",
-   "host_unlock": "For a normal technical or commercial conference, the organiser supplies the confirmed engagement, dates, workplace address and activity category so the traveller can notify MOM after entry. For cause-related, political, religion, race or community content, a Singapore organisation may need to sponsor a Miscellaneous Work Pass at least two months ahead.",
-   "documents": [
-    "Australian passport valid at least six months",
-    "Submitted SG Arrival Card",
-    "Electronic Short-Term Visit Pass after arrival",
-    "Confirmed invitation obtained before entry",
-    "MOM activity classification and workplace address",
-    "Fee, benefits and withholding-tax terms"
-   ],
-   "steps": [
-    "Obtain the confirmed speaking, training, exhibiting or performance engagement before entering Singapore.",
-    "Submit SG Arrival Card within three days including the arrival date and travel on a passport valid for at least six months.",
-    "After entry, retrieve the electronic Short-Term Visit Pass and confirm its last authorised day.",
-    "For an eligible Work Pass Exempt activity, submit MOM e-notification after entry and before starting; keep the acknowledgement.",
-    "If content is cause-related, political, religious, race-related or community-related, have a Singapore sponsor test the Miscellaneous Work Pass route at least two months ahead.",
-    "Have the Singapore payer resolve professional or public-entertainer withholding before finalising the fee.",
-    "Use a separate long-term route for continuing teaching, local employment, company operation or any activity outside the exemption."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Was the traveller engaged for the Work Pass Exempt activity before entering Singapore?",
     "Is this attendance, or active speaking, facilitation, training, exhibiting or performance?",
@@ -981,144 +960,18 @@
    ],
    "sources": [
     {
-     "title": "Visa information for Australian passport holders",
-     "authority": "High Commission of Singapore in Canberra",
-     "url": "https://canberra.mfa.gov.sg/consular-services/visa-information/",
-     "checked": "2026-08-21",
-     "supports": "Australian visa-free entry, border grant and Visit Pass activity warning"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     },
     {
-     "title": "Entering Singapore",
-     "authority": "Immigration and Checkpoints Authority",
-     "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore",
-     "checked": "2026-08-21",
-     "supports": "passport validity, SG Arrival Card, onward travel, electronic pass and Short-Term Visit Pass restrictions"
-    },
-    {
-     "title": "Eligible activities for a Work Pass Exemption",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/work-pass-exempt-activities/eligible-activities",
-     "checked": "2026-08-21",
-     "supports": "meetings, attendance, speaking, training, exhibitions, performance boundaries and 90-day annual limit"
-    },
-    {
-     "title": "Notify MOM for Work Pass Exempt Activities",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/work-pass-exempt-activities/notify-mom-for-an-exemption",
-     "checked": "2026-08-21",
-     "supports": "post-arrival and pre-work notification timing and required details"
-    },
-    {
-     "title": "Eligibility for Miscellaneous Work Pass",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/miscellaneous-work-pass/eligibility",
-     "checked": "2026-08-21",
-     "supports": "cause, political, religion, race and community event route and 60-day duration"
-    },
-    {
-     "title": "Apply for a Miscellaneous Work Pass",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/miscellaneous-work-pass/apply-for-a-pass",
-     "checked": "2026-08-21",
-     "supports": "Singapore sponsor, two-month lead recommendation and six-week processing"
-    },
-    {
-     "title": "Eligibility for Employment Pass",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
-     "checked": "2026-08-21",
-     "supports": "age-43 salary floors, 2027 increases and COMPASS"
-    },
-    {
-     "title": "Eligibility for EntrePass",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/entrepass/eligibility",
-     "checked": "2026-08-21",
-     "supports": "venture-backed or innovative-company and ownership criteria"
-    },
-    {
-     "title": "Apply for an EntrePass",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/entrepass/apply-for-a-pass",
-     "checked": "2026-08-21",
-     "supports": "six-week processing, separate business registration and visitor-extension warning"
-    },
-    {
-     "title": "Key facts on Overseas Networks and Expertise Pass",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass/key-facts",
-     "checked": "2026-08-21",
-     "supports": "five-year top-talent route and ability to operate multiple companies"
-    },
-    {
-     "title": "Foreign workforce policy announcements at COS 2026",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/-/media/mom/documents/press-releases/2026/factsheet-on-foreign-workforce-policies-03032026.pdf",
-     "checked": "2026-08-21",
-     "supports": "announced January 2027 ONE Pass AI and Tech track and pending-detail boundary"
-    },
-    {
-     "title": "Treatment of income for non-resident professionals",
-     "authority": "Inland Revenue Authority of Singapore",
-     "url": "https://www.iras.gov.sg/taxes/withholding-tax/payments-to-non-resident-professional-%28consultant-trainer-coach-etc-%29/treatment-of-income-for-non-resident-professional",
-     "checked": "2026-08-21",
-     "supports": "15% gross withholding and inclusion of fees, honoraria, accommodation, airfare and benefits"
-    },
-    {
-     "title": "Tax obligations of non-resident public entertainers",
-     "authority": "Inland Revenue Authority of Singapore",
-     "url": "https://www.iras.gov.sg/taxes/withholding-tax/payments-to-non-resident-public-entertainer-%28artiste-musician-sportsman-etc-%29/tax-obligations-of-non-resident-public-entertainer",
-     "checked": "2026-08-21",
-     "supports": "15% performance-income withholding and local payer obligations"
-    },
-    {
-     "title": "Performing Artiste Work Permit scheme",
-     "authority": "Singapore Ministry of Manpower",
-     "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-performing-artiste/eligibility-and-requirements",
-     "checked": "2026-08-21",
-     "supports": "scheme closure and remaining exemption or regular-pass alternatives"
-    },
-    {
-     "title": "Public Entertainment Licence",
-     "authority": "Singapore Police Force",
-     "url": "https://www.police.gov.sg/Business-E-Services/Apply-for-Public-Entertainment-Licence",
-     "checked": "2026-08-21",
-     "supports": "venue and event licensing layer"
-    },
-    {
-     "title": "ATA Carnet",
-     "authority": "Singapore Customs",
-     "url": "https://www.customs.gov.sg/permits-and-licences/import-export-facilitation-schemes/temporary-import-export/ata-carnet/",
-     "checked": "2026-08-21",
-     "supports": "temporary import of exhibition and professional goods"
-    },
-    {
-     "title": "Asia Tech x Singapore",
-     "authority": "IMDA and Informa",
-     "url": "https://asiatechxsg.com/",
-     "checked": "2026-08-21",
-     "supports": "recurring global AI, infrastructure, policy and enterprise conference opportunity"
-    },
-    {
-     "title": "Singapore FinTech Festival 2026 agenda",
-     "authority": "Singapore FinTech Festival",
-     "url": "https://www.fintechfestival.sg/agenda",
-     "checked": "2026-08-21",
-     "supports": "2026 English programme and current Apply to Speak opportunity signal"
-    },
-    {
-     "title": "Singapore Week of Innovation and Technology",
-     "authority": "SWITCH",
-     "url": "https://www.switchsg.org/",
-     "checked": "2026-08-21",
-     "supports": "recurring deep-tech, AI, startup, innovation and trade conference opportunity"
-    },
-    {
-     "title": "SuperAI",
-     "authority": "SuperAI",
-     "url": "https://www.superai.com/",
-     "checked": "2026-08-21",
-     "supports": "large international AI event and current 2027 speaker application opportunity signal"
+     "title": "SG Arrival Card",
+     "authority": "Immigration and Checkpoints Authority, Singapore",
+     "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+     "supports": "official SGAC portal",
+     "checked": "2026-11-01"
     }
    ],
    "provenance": {
@@ -1161,6 +1014,63 @@
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-SINGAPORE-COST"
+   },
+   "fastest_entry": "No visa for tourism, business meetings or conferences up to 90 days in most circumstances.",
+   "before_departure": "Singapore Arrival Card (SGAC), free, within 3 days before arrival on the official ICA site.",
+   "steps": [
+    {
+     "step": "Submit the free SGAC within 3 days before arrival (avoid scam sites asking for payment).",
+     "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card"
+    },
+    "Carry proof of funds, a confirmed onward or return ticket and a visa for the next destination if needed.",
+    "Work or study needs a pass through the Ministry of Manpower or ICA."
+   ],
+   "documents": [
+    "Passport valid for at least 6 months on arrival",
+    "SGAC",
+    "Proof of funds",
+    "Onward or return ticket",
+    "Yellow fever certificate if required"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry",
+     "amount": 0,
+     "currency": "SGD",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/singapore",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "SGAC",
+     "amount": 0,
+     "currency": "SGD",
+     "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread on 2026-11-01",
+    "host_unlock": "For a normal technical or commercial conference, the organiser supplies the confirmed engagement, dates, workplace address and activity category so the traveller can notify MOM after entry. For cause-related, political, religion, race or community content, a Singapore organisation may need to sponsor a Miscellaneous Work Pass at least two months ahead.",
+    "fastest_entry": "Visa-free travel for Australian passport holders; the stay granted appears on the electronic Short-Term Visit Pass after entry",
+    "before_departure": "Use a passport valid for at least six months, submit the free SG Arrival Card within three days including the arrival day, carry onward travel and funds, and have the organiser classify every active role before departure.",
+    "useful_stay": "Do not promise a fixed duration: ICA decides the authorised stay at entry and records it on the e-Pass. Work Pass Exempt delivery must fit inside that stay and the 90-day annual ceiling.",
+    "documents": [
+     "Australian passport valid at least six months",
+     "Submitted SG Arrival Card",
+     "Electronic Short-Term Visit Pass after arrival",
+     "Confirmed invitation obtained before entry",
+     "MOM activity classification and workplace address",
+     "Fee, benefits and withholding-tax terms"
+    ],
+    "steps": [
+     "Obtain the confirmed speaking, training, exhibiting or performance engagement before entering Singapore.",
+     "Submit SG Arrival Card within three days including the arrival date and travel on a passport valid for at least six months.",
+     "After entry, retrieve the electronic Short-Term Visit Pass and confirm its last authorised day.",
+     "For an eligible Work Pass Exempt activity, submit MOM e-notification after entry and before starting; keep the acknowledgement.",
+     "If content is cause-related, political, religious, race-related or community-related, have a Singapore sponsor test the Miscellaneous Work Pass route at least two months ahead.",
+     "Have the Singapore payer resolve professional or public-entertainer withholding before finalising the fee.",
+     "Use a separate long-term route for continuing teaching, local employment, company operation or any activity outside the exemption."
+    ]
    }
   }
  }

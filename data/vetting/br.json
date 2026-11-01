@@ -698,28 +698,11 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Electronic VIVIS visitor visa for Australian passports",
-   "before_departure": "Apply through the official eVisa channel, check the consular jurisdiction and keep a printed copy with the itinerary.",
-   "useful_stay": "VIVIS is generally up to 90 days and may be extendable once; active paid work needs a VITEM or residence authorisation.",
-   "host_unlock": "A Brazilian employer, institution, producer or immigration sponsor initiates the relevant temporary visa/residence process.",
-   "documents": [
-    "Brazil eVisa and passport",
-    "Flight/financial evidence",
-    "Host letter or business letter",
-    "Portuguese/English role and payment statement"
-   ],
-   "steps": [
-    "Apply for the Brazilian eVisa early.",
-    "Carry business/conference or host evidence.",
-    "Keep visitor activity non-remunerated.",
-    "Let sponsors lead VITEM work/research/cultural applications.",
-    "Use VITEM XIV only for foreign remote work."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Is the activity remunerated in Brazil?",
     "Does technical assistance turn a visit into work?",
@@ -729,39 +712,18 @@
    ],
    "sources": [
     {
-     "title": "Electronic visitor visa (e-Visa)",
-     "authority": "Brazilian Ministry of Foreign Affairs",
-     "url": "https://www.gov.br/mre/pt-br/consulado-sao-francisco/electronic-visitor-visa-e-visa",
-     "checked": "2026-08-21",
-     "supports": "Australian eVisa requirement and VIVIS business/tourism"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/brazil",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     },
     {
-     "title": "Visitor visa (VIVIS)",
-     "authority": "Brazilian Ministry of Foreign Affairs",
-     "url": "https://www.gov.br/mre/pt-br/consulado-zurique/deutsch/visa-english-1/vivis_en",
-     "checked": "2026-08-21",
-     "supports": "90-day visitor purposes and paid-work prohibition"
-    },
-    {
-     "title": "VITEM V: work",
-     "authority": "Brazilian Consulate-General in Sydney",
-     "url": "https://www.gov.br/mre/pt-br/consulado-sydney/servicos-consulares/visas/types-of-visas/vitem/vitem-v-work",
-     "checked": "2026-08-21",
-     "supports": "sponsor-led work visa"
-    },
-    {
-     "title": "VITEM XIV: digital nomad",
-     "authority": "Brazilian Ministry of Foreign Affairs",
-     "url": "https://www.gov.br/mre/pt-br/embaixada-windhoek/english/consular-services/visas-1/vitem-xiv-digital-nomad",
-     "checked": "2026-08-21",
-     "supports": "foreign-employer remote-work route"
-    },
-    {
-     "title": "Digital nomad information folder",
-     "authority": "Brazilian Ministry of Justice and Public Security",
-     "url": "https://portaldeimigracao.mj.gov.br/images/Informativos_Publica%C3%A7%C3%A3o/FOLDER_INGLES.pdf",
-     "checked": "2026-08-21",
-     "supports": "income and residence evidence"
+     "title": "Electronic Visitor Visa (e-Visa): US, Canadian and Australian citizens",
+     "authority": "Consulate-General of Brazil in Miami, Ministry of Foreign Affairs",
+     "url": "https://www.gov.br/mre/pt-br/consulado-miami/information-about-visas-in-english/electronic-visitor-visa-e-visa",
+     "supports": "requirements and US$80.90 fee",
+     "checked": "2026-11-01"
     }
    ],
    "provenance": {
@@ -804,7 +766,55 @@
     "value": "~ $120",
     "checked": "2025-08-16",
     "claim_id": "WORLD-BRAZIL-COST"
-   }
+   },
+   "fastest_entry": "e-Visa (VIVIS) for tourism, business, transit, sport or artistic activities, stays up to 90 days; no visa at the border.",
+   "before_departure": "Apply online only through the VFS Global portal before buying tickets; there's no expedited option.",
+   "useful_stay": "Up to 90 days; e-Visa valid up to 5 years, multiple entries.",
+   "steps": [
+    {
+     "step": "Apply for the e-Visa at brazil.vfsevisa.com and pay inside the platform.",
+     "url": "https://www.gov.br/mre/pt-br/consulado-miami/information-about-visas-in-english/electronic-visitor-visa-e-visa"
+    },
+    "Wait for the e-Visa by email; arriving without one means return on the next flight.",
+    "Get entry and exit stamps, especially at land borders.",
+    "You may need a yellow fever vaccination certificate."
+   ],
+   "documents": [
+    "Passport with 2 free visa pages, valid to the end of the trip",
+    "Passport-style photo (2 x 2 inches, white background)",
+    "e-Visa approval",
+    "Yellow fever certificate if required"
+   ],
+   "fees": [
+    {
+     "item": "e-Visa (consular US$80.00 + platform US$0.90)",
+     "amount": 80.9,
+     "currency": "USD",
+     "url": "https://www.gov.br/mre/pt-br/consulado-miami/information-about-visas-in-english/electronic-visitor-visa-e-visa",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread on 2026-11-01",
+    "host_unlock": "A Brazilian employer, institution, producer or immigration sponsor initiates the relevant temporary visa/residence process.",
+    "fastest_entry": "Electronic VIVIS visitor visa for Australian passports",
+    "before_departure": "Apply through the official eVisa channel, check the consular jurisdiction and keep a printed copy with the itinerary.",
+    "useful_stay": "VIVIS is generally up to 90 days and may be extendable once; active paid work needs a VITEM or residence authorisation.",
+    "documents": [
+     "Brazil eVisa and passport",
+     "Flight/financial evidence",
+     "Host letter or business letter",
+     "Portuguese/English role and payment statement"
+    ],
+    "steps": [
+     "Apply for the Brazilian eVisa early.",
+     "Carry business/conference or host evidence.",
+     "Keep visitor activity non-remunerated.",
+     "Let sponsors lead VITEM work/research/cultural applications.",
+     "Use VITEM XIV only for foreign remote work."
+    ]
+   },
+   "recheck_note": "The Brazilian Embassy in Canberra's e-Visa page (gov.br/mre/.../embaixada-camberra/.../e-visa) returned 404 on 2026-11-01."
   }
  }
 }

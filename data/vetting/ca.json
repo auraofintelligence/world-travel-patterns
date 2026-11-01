@@ -589,29 +589,11 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "CAD $7 eTA for air travel; most approvals arrive within minutes, although supporting-document cases can take several days",
-   "before_departure": "Get the eTA before booking a flight and have the Canadian host classify the activity and prepare its invitation before travel, even when no work permit is required.",
-   "useful_stay": "An eTA can remain valid for up to five years or passport expiry and supports repeat short visits, normally up to six months each; the border officer decides the actual admission period.",
-   "host_unlock": "A Canadian host can document the guest-speaker or five-day commercial-seminar exemption, a short high-skilled work exemption, or support a CPTPP, entrepreneur or other work-permit route.",
-   "documents": [
-    "Australian passport linked to the eTA",
-    "Invitation with exact activities and dates",
-    "Written fee and expense terms",
-    "Evidence of the work-permit exemption or permit route",
-    "Host contact available for the border officer"
-   ],
-   "steps": [
-    "Obtain the eTA before booking a flight and verify the linked passport number.",
-    "Build one schedule separating meetings, attendance, guest speech, commercial seminar, teaching, performance, remote work, sales and company operation.",
-    "Have the Canadian host write the exact IRPR exemption, short-work or permit rationale into the invitation packet.",
-    "For CPTPP or entrepreneur work, begin the contract, significant-benefit and permit work well before travel and recheck current processing times.",
-    "Carry entry documents, host contacts, payment terms and evidence that foreign business and remote work remain outside the Canadian labour market."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "An eTA is an entry document, not work permission; carry proof of any work-permit exemption.",
     "Do not apply the five-day limit to every guest speech: it expressly applies to the commercial speaker or seminar-leader limb, while the guest-speaker limb has its own sole-purpose and function wording.",
@@ -622,109 +604,18 @@
    ],
    "sources": [
     {
-     "title": "What you need to enter Canada",
-     "authority": "Immigration, Refugees and Citizenship Canada",
-     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html",
-     "checked": "2026-08-21",
-     "supports": "Australian eTA requirement, land and sea distinction and current public-health sequencing restriction"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/canada",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     },
     {
-     "title": "Electronic travel authorization facts",
-     "authority": "Immigration, Refugees and Citizenship Canada",
-     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/facts.html",
-     "checked": "2026-08-21",
-     "supports": "CAD $7 fee, application timing, validity and normally six-month visits"
-    },
-    {
-     "title": "Business visitors attending meetings, events and conferences",
-     "authority": "Immigration, Refugees and Citizenship Canada",
-     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/business/visitors-events-conferences.html",
-     "checked": "2026-08-21",
-     "supports": "business-visitor tests, activities, host actions and border packet"
-    },
-    {
-     "title": "Immigration and Refugee Protection Regulations section 186",
-     "authority": "Department of Justice Canada",
-     "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-227/section-186.html",
-     "checked": "2026-08-21",
-     "supports": "business visitor, guest speaker, five-day seminar and performing-artist work-permit exemptions"
-    },
-    {
-     "title": "Immigration and Refugee Protection Regulations section 187",
-     "authority": "Department of Justice Canada",
-     "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-227/section-187.html",
-     "checked": "2026-08-21",
-     "supports": "international-business, foreign-remuneration and no-public-sales boundaries"
-    },
-    {
-     "title": "Public policy facilitating entry for short-term work",
-     "authority": "Immigration, Refugees and Citizenship Canada",
-     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/short-term-work-2022.html",
-     "checked": "2026-08-21",
-     "supports": "15-day, 30-day and 120-day exemptions and recurrence limits"
-    },
-    {
-     "title": "Tech Talent Strategy: digital nomads",
-     "authority": "Immigration, Refugees and Citizenship Canada",
-     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/cimm-nov-07-2023/tech-talent-strategy-digital-nomads.html",
-     "checked": "2026-08-21",
-     "supports": "self-employed and foreign-employer remote work on visitor status"
-    },
-    {
-     "title": "Start-up Visa: about the process",
-     "authority": "Immigration, Refugees and Citizenship Canada",
-     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/start-visa/about.html",
-     "checked": "2026-08-21",
-     "supports": "30 June 2026 pause on new applications"
-    },
-    {
-     "title": "Entrepreneur LMIA question",
-     "authority": "Immigration, Refugees and Citizenship Canada",
-     "url": "https://ircc.canada.ca/English/helpcentre/answer.asp?qnum=1199&top=17",
-     "checked": "2026-08-21",
-     "supports": "significant-benefit or Canadian-jobs entrepreneur work permit"
-    },
-    {
-     "title": "Canada's CPTPP temporary-entry schedule",
-     "authority": "Global Affairs Canada",
-     "url": "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/tpp-ptp/text-texte/12-a3.aspx?lang=eng",
-     "checked": "2026-08-21",
-     "supports": "Australian reciprocal investor, business visitor, professional, technician and intra-company categories"
-    },
-    {
-     "title": "International Experience Canada",
-     "authority": "Immigration, Refugees and Citizenship Canada",
-     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/iec.html",
-     "checked": "2026-08-21",
-     "supports": "Australian participation and 18-to-35 age boundary"
-    },
-    {
-     "title": "Web Summit Vancouver 2027",
-     "authority": "Event organiser",
-     "url": "https://vancouver.websummit.com/",
-     "checked": "2026-08-21",
-     "supports": "recurring English-language technology conference opportunity signal"
-    },
-    {
-     "title": "Elevate Festival 2026",
-     "authority": "Event organiser",
-     "url": "https://elevate.ca/blog/elevate-festival-returns-2026/",
-     "checked": "2026-08-21",
-     "supports": "Toronto AI, sovereignty, technology and international-speaker opportunity signal"
-    },
-    {
-     "title": "Upper Bound 2027",
-     "authority": "Event organiser",
-     "url": "https://www.upperbound.ai/",
-     "checked": "2026-08-21",
-     "supports": "Edmonton AI conference opportunity and 2026 scale of 8,000 attendees and 250 speakers"
-    },
-    {
-     "title": "ITechLaw 2027 World Technology Law Conference call for proposals",
-     "authority": "International Technology Law Association",
-     "url": "https://www.itechlaw.org/2026/07/22/call-for-proposals-vancouver/",
-     "checked": "2026-08-21",
-     "supports": "open Vancouver call, 28 August deadline, AI topics, speaker-fee policy and registration coverage"
+     "title": "Immigration and Refugee Protection Regulations, s. 294.1",
+     "authority": "Government of Canada, Justice Laws",
+     "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-227/section-294.1.html",
+     "supports": "$7 eTA fee",
+     "checked": "2026-11-01"
     }
    ],
    "provenance": {
@@ -767,6 +658,49 @@
     "value": "~ $7 CAD",
     "checked": "2025-08-16",
     "claim_id": "WORLD-CANADA-COST"
+   },
+   "fastest_entry": "Electronic travel authorisation (eTA) before flying to Canada; not needed arriving by car, bus, train or boat.",
+   "before_departure": "Apply for the eTA through Immigration, Refugees and Citizenship Canada only.",
+   "steps": [
+    "Apply for the eTA online with passport, email and a card.",
+    "Most decisions arrive within minutes; some are asked for documents within 72 hours.",
+    "A criminal record, including drink-driving, can make you inadmissible: check with the Government of Canada.",
+    "Children travelling without both parents should carry a consent letter."
+   ],
+   "documents": [
+    "Passport",
+    "eTA approval",
+    "Consent letter for children travelling without both parents"
+   ],
+   "fees": [
+    {
+     "item": "eTA",
+     "amount": 7,
+     "currency": "CAD",
+     "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-227/section-294.1.html",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread on 2026-11-01",
+    "host_unlock": "A Canadian host can document the guest-speaker or five-day commercial-seminar exemption, a short high-skilled work exemption, or support a CPTPP, entrepreneur or other work-permit route.",
+    "fastest_entry": "CAD $7 eTA for air travel; most approvals arrive within minutes, although supporting-document cases can take several days",
+    "before_departure": "Get the eTA before booking a flight and have the Canadian host classify the activity and prepare its invitation before travel, even when no work permit is required.",
+    "useful_stay": "An eTA can remain valid for up to five years or passport expiry and supports repeat short visits, normally up to six months each; the border officer decides the actual admission period.",
+    "documents": [
+     "Australian passport linked to the eTA",
+     "Invitation with exact activities and dates",
+     "Written fee and expense terms",
+     "Evidence of the work-permit exemption or permit route",
+     "Host contact available for the border officer"
+    ],
+    "steps": [
+     "Obtain the eTA before booking a flight and verify the linked passport number.",
+     "Build one schedule separating meetings, attendance, guest speech, commercial seminar, teaching, performance, remote work, sales and company operation.",
+     "Have the Canadian host write the exact IRPR exemption, short-work or permit rationale into the invitation packet.",
+     "For CPTPP or entrepreneur work, begin the contract, significant-benefit and permit work well before travel and recheck current processing times.",
+     "Carry entry documents, host contacts, payment terms and evidence that foreign business and remote work remain outside the Canadian labour market."
+    ]
    }
   }
  }
