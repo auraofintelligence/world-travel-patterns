@@ -524,3 +524,7 @@ Upgraded 11 confirm-in-writing tourism checks (and their entry records) to visa-
 ## 2026-11-01 17:06 AEST, Grok: Entry and tourism: Schengen micro-states, Caribbean and African territories (10 records)
 
 Upgraded 10 confirm-in-writing tourism checks. ad, mc, sm and va: Regulation (EU) 2018/1806 Annex II (Australia visa-exempt), low. ky: Cayman CBC country list, read directly, visa not required. ms: Montserrat visa-not-required list, low. km: visa on arrival (Comoros national tourism office), low. sr: Entry Fee before travel via the official VFS partner, conditional. st: visa needed, not on the exempt list, conditional. aq: tourism set to conditional on Australian Antarctic Division environmental authorisation, citing the existing entry source. Remaining non-conflict: bm, cg, eh, gm, gq, gs, gw, io, sh, sj, tf, to, tv, wf.
+
+## 2026-11-01 17:07 AEST, Grok: Culture national-source search er-gl (10 records)
+
+Searched national tourism boards and government pages for 10 ask-locally culture records. Upgraded 6: er, fm and ge are partly mapped; fj, fo and gl are community-published. Searched with none found for et, fr, ga and gh. The fm source is the FSM Embassy in Japan's visitor guide.
