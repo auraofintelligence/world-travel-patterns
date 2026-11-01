@@ -528,3 +528,7 @@ Upgraded 10 confirm-in-writing tourism checks. ad, mc, sm and va: Regulation (EU
 ## 2026-11-01 17:07 AEST, Grok: Culture national-source search er-gl (10 records)
 
 Searched national tourism boards and government pages for 10 ask-locally culture records. Upgraded 6: er, fm and ge are partly mapped; fj, fo and gl are community-published. Searched with none found for et, fr, ga and gh. The fm source is the FSM Embassy in Japan's visitor guide.
+
+## 2026-11-01 17:07 AEST, Grok: Year-ahead 2027: less-visited countries (10 records)
+
+Added 10 official-events entries across 10 records. National days: bw, bz (Belize 2027 holiday list), fj, ge, jm, ke, cv, and mn (Naadam, by law). Music: Sauti za Busara (tz) and Gnaoua Essaouira (ma). Watchlist: removed ke (now added); added Paro Tshechu and Bhutan National Day (no official source), Lake of Stars (dates to come), and FESPACO 20 to 27 March, held for the Do-not-travel pass because bf is Do not travel.
