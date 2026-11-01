@@ -240,3 +240,18 @@ Of the 87 places with no culture record and a Smartraveller page, only 23 have a
 - ae, bd, dz, gm and id were re-cut at sentence ends with the new `trim()`.
 
 That's 18 new culture records in all. "Do not travel" places with customs sections (af, ml, so, ye) are left until last.
+
+## 2026-11-01 17:20 AEST, Grok: local-law for places without Smartraveller pages, batch 1 (11 records, plus mr)
+
+New `scripts/fcdo_local_law.py`:
+- Reads UK FCDO travel advice through the GOV.UK content API and takes the "Laws and cultural differences" section, one law per subheading. Topics come from `smartraveller_draft.topic_for`.
+- FCDO is an official government source written for British travellers; each record notes that.
+- It never overwrites an existing local-law record (`--force` to override).
+
+**Written:** ad, ag, bb, dm, gd, kn, lc, li, lu, mc, sm. Highlights: camouflage clothing is illegal in ag, bb, dm, gd, kn and lc; smoking in public places is illegal in ag; Monaco fines swimsuits, bare chests and bare feet away from beaches.
+
+**Not written:**
+- va: no FCDO page for Vatican City.
+- vc: the FCDO page has no laws section.
+
+**Also:** mr's local-law was drafted from Smartraveller with `--only local-law` (2 laws). It was missing because of the case-sensitivity bug.
