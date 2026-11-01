@@ -795,28 +795,11 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Visa-free short visit, normally up to 90 days",
-   "before_departure": "Until 31 December 2026, use the temporary K-ETA exemption or obtain a voluntary K-ETA; without one, complete the required arrival declaration and live-check the rule for travel after that date.",
-   "useful_stay": "Normally up to 90 days for a visa-free visit; C-4 supports eligible paid short-term work up to 90 days.",
-   "host_unlock": "A Korean organiser can support C-3 classification for an unpaid invited appearance or lodge the invitation, contract and corporate documents needed for C-4 paid delivery.",
-   "documents": [
-    "Australian passport",
-    "K-ETA or arrival declaration as then required",
-    "Korean invitation and program",
-    "Contract, payment source and duties"
-   ],
-   "steps": [
-    "Live-check the K-ETA rule for the departure date; the published Australian exemption ends on 31 December 2026.",
-    "Use the visa-free lane for tourism, meetings and delegate attendance only.",
-    "Ask the Korean mission to classify a genuinely unpaid speech under C-3 or the Australian visa waiver in writing.",
-    "Use C-4 for paid short speaking, training, consulting, media or performance, including offshore-paid work.",
-    "For a remote-work base, confirm the 2026 Workcation income threshold for age 43 and the intended Korean region."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Will the trip occur after the current K-ETA exemption ends?",
     "Does an unpaid invited appearance require C-3 despite Australian visa-free access?",
@@ -826,95 +809,18 @@
    ],
    "sources": [
     {
-     "title": "Temporary K-ETA exemption extended through 2026",
-     "authority": "Embassy of the Republic of Korea in Australia",
-     "url": "https://overseas.mofa.go.kr/au-en/brd/m_3306/view.do?page=1&seq=760576",
-     "checked": "2026-08-21",
-     "supports": "Australian K-ETA exemption end date"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     },
     {
-     "title": "K-ETA temporary exemption notice",
-     "authority": "Korea Electronic Travel Authorization",
-     "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
-     "checked": "2026-08-21",
-     "supports": "voluntary K-ETA and arrival-declaration distinction"
-    },
-    {
-     "title": "Customized stay guide for foreign residents",
-     "authority": "Korea Immigration Service",
-     "url": "https://www.immigration.go.kr/bbs/immigration_eng/230/454085/download.do",
-     "checked": "2026-08-21",
-     "supports": "B-1/B-2 short visits, C-4 and long-stay activity categories"
-    },
-    {
-     "title": "C-4 Short-Term Employee visa",
-     "authority": "Embassy of the Republic of Korea in Australia",
-     "url": "https://overseas.mofa.go.kr/au-en/brd/m_3306/view.do?page=1&seq=760562",
-     "checked": "2026-08-21",
-     "supports": "paid lecture, training, services, media and entertainment route"
-    },
-    {
-     "title": "Short-term visit visa guidance",
-     "authority": "Embassy of the Republic of Korea in Belgium",
-     "url": "https://overseas.mofa.go.kr/be-en/wpge/m_7442/contents.do",
-     "checked": "2026-08-21",
-     "supports": "official unpaid C-3 versus paid C-4 speaking distinction"
-    },
-    {
-     "title": "Digital Nomad visa reform notice",
-     "authority": "Korea Immigration Service",
-     "url": "https://www.immigration.go.kr/bbs/immigration/214/608294/artclView.do",
-     "checked": "2026-08-21",
-     "supports": "2026 maximum stay and age-and-region income framework"
-    },
-    {
-     "title": "Digital Nomad Workcation visa guide",
-     "authority": "Korea Immigration Service",
-     "url": "https://www.immigration.go.kr/bbs/immigration_eng/229/464290/download.do",
-     "checked": "2026-08-21",
-     "supports": "overseas work, experience, insurance and local-work boundary; duration superseded by 2026 reform"
-    },
-    {
-     "title": "Investor and startup visa categories",
-     "authority": "Invest KOREA",
-     "url": "https://www.investkorea.org/ik-en/cntnts/i-358/web.do",
-     "checked": "2026-08-21",
-     "supports": "D-8 corporate investor and startup pathways"
-    },
-    {
-     "title": "Taxation of non-resident personal services",
-     "authority": "National Tax Service Korea",
-     "url": "https://www.nts.go.kr/english/na/ntt/selectNttInfo.do?mi=11742&nttSn=1629",
-     "checked": "2026-08-21",
-     "supports": "withholding and treaty review for paid delivery"
-    },
-    {
-     "title": "ATA Carnet definition",
-     "authority": "Korea Customs Service",
-     "url": "https://customs.go.kr/kcs/ad/tr/trTermView.do?mi=2902&termId=286",
-     "checked": "2026-08-21",
-     "supports": "temporary admission of qualifying goods"
-    },
-    {
-     "title": "AI EXPO KOREA visitor information",
-     "authority": "Event organiser",
-     "url": "https://aiexpo.co.kr/en/visitor-info/",
-     "checked": "2026-08-21",
-     "supports": "recurring AI event and English-interface signal"
-    },
-    {
-     "title": "Seoul Meta Week",
-     "authority": "Event organiser",
-     "url": "https://seoulmetaweek.com/en",
-     "checked": "2026-08-21",
-     "supports": "international technology event and mixed-language signal"
-    },
-    {
-     "title": "OCP Korea Tech Day",
-     "authority": "Open Compute Project Foundation",
-     "url": "https://www.opencompute.org/index.php/summit/2026-ocp-korea-tech-day",
-     "checked": "2026-08-21",
-     "supports": "open-compute and data-centre event signal"
+     "title": "e-Arrival card",
+     "authority": "Korea Immigration Service, Ministry of Justice",
+     "url": "https://www.e-arrivalcard.go.kr/",
+     "supports": "official e-Arrival portal",
+     "checked": "2026-11-01"
     }
    ],
    "provenance": {
@@ -957,7 +863,51 @@
     "value": "~ $12",
     "checked": "2025-08-16",
     "claim_id": "WORLD-SOUTH-KOREA-COST"
-   }
+   },
+   "fastest_entry": "Visa-free tourist stays up to 90 days; Australians are exempt from K-ETA until 31 December 2026.",
+   "before_departure": "Optional e-Arrival card online (paper still available).",
+   "steps": [
+    "Check whether the K-ETA exemption has been extended past 31 December 2026 before booking 2027 travel.",
+    {
+     "step": "Submit the e-Arrival card online before arrival (optional).",
+     "url": "https://www.e-arrivalcard.go.kr/"
+    },
+    "Other purposes need a visa from a South Korean embassy or consulate."
+   ],
+   "documents": [
+    "Passport",
+    "e-Arrival card (optional)"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry, K-ETA exempt to 31 December 2026",
+     "amount": 0,
+     "currency": "KRW",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "host_unlock": "A Korean organiser can support C-3 classification for an unpaid invited appearance or lodge the invitation, contract and corporate documents needed for C-4 paid delivery.",
+    "fastest_entry": "Visa-free short visit, normally up to 90 days",
+    "before_departure": "Until 31 December 2026, use the temporary K-ETA exemption or obtain a voluntary K-ETA; without one, complete the required arrival declaration and live-check the rule for travel after that date.",
+    "useful_stay": "Normally up to 90 days for a visa-free visit; C-4 supports eligible paid short-term work up to 90 days.",
+    "documents": [
+     "Australian passport",
+     "K-ETA or arrival declaration as then required",
+     "Korean invitation and program",
+     "Contract, payment source and duties"
+    ],
+    "steps": [
+     "Live-check the K-ETA rule for the departure date; the published Australian exemption ends on 31 December 2026.",
+     "Use the visa-free lane for tourism, meetings and delegate attendance only.",
+     "Ask the Korean mission to classify a genuinely unpaid speech under C-3 or the Australian visa waiver in writing.",
+     "Use C-4 for paid short speaking, training, consulting, media or performance, including offshore-paid work.",
+     "For a remote-work base, confirm the 2026 Workcation income threshold for age 43 and the intended Korean region."
+    ]
+   },
+   "recheck_note": "K-ETA exemption ends 31 December 2026 unless extended; recheck in December."
   }
  }
 }

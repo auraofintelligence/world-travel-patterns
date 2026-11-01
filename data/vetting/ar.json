@@ -620,28 +620,11 @@
    "climate": "Wettest: January, February and December. Driest: July, August and September. Hottest: January (21.6°C average). Coolest: July (8.0°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Current visa-exempt tourism/business entry subject to reciprocity and border checks",
-   "before_departure": "Check Migraciones and the Argentine consular/entry-fee position, then prepare a Spanish purpose letter.",
-   "useful_stay": "Tourist permission is generally up to 90 days and may be extended; TIE/residence categories can be more accurate for work.",
-   "host_unlock": "An Argentine registered requester, university, producer or company can support the TIE/permission process.",
-   "documents": [
-    "Australian passport and entry-fee check",
-    "Spanish/English host letter",
-    "Business/event or professional activity brief",
-    "Funds, accommodation and onward plan"
-   ],
-   "steps": [
-    "Check tourist/business and reciprocity status.",
-    "Use Spanish/English purpose documentation.",
-    "Ask whether TIE 24H is required.",
-    "Separate foreign remote work from Argentine activity.",
-    "Confirm tax, copyright, customs and residence consequences."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Is the current reciprocity fee charged?",
     "Is the host registered as a requester?",
@@ -651,32 +634,11 @@
    ],
    "sources": [
     {
-     "title": "Tourists",
-     "authority": "Argentine National Migration Directorate",
-     "url": "https://www.argentina.gob.ar/migraciones/turistas",
-     "checked": "2026-08-21",
-     "supports": "tourist duration and extension"
-    },
-    {
-     "title": "Electronic entry processing (TIE 24H)",
-     "authority": "Argentine National Migration Directorate",
-     "url": "https://www.argentina.gob.ar/migraciones/tramitacion-de-ingreso-electronica-tie-24h",
-     "checked": "2026-08-21",
-     "supports": "business, professional/artistic and digital-nomad menu"
-    },
-    {
-     "title": "Electronic entry processing: business",
-     "authority": "Argentine National Migration Directorate",
-     "url": "https://www.argentina.gob.ar/servicio/tramitacion-de-ingreso-electronica-negocios",
-     "checked": "2026-08-21",
-     "supports": "registered requester and business category"
-    },
-    {
-     "title": "Visiting Argentina",
-     "authority": "Argentina.gob.ar",
-     "url": "https://www.argentina.gob.ar/tema/extranjeros/turistas",
-     "checked": "2026-08-21",
-     "supports": "Australian entry and reciprocity prompt"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/argentina",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     }
    ],
    "provenance": {
@@ -719,6 +681,47 @@
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-ARGENTINA-COST"
+   },
+   "fastest_entry": "Tourists can stay up to 90 days without a visa.",
+   "steps": [
+    "Carry evidence of departure within 90 days (return or onward ticket).",
+    "Officials may ask for proof of accommodation and enough money or a credit card.",
+    "Other purposes or non-ordinary passports need a visa before travel; none on arrival."
+   ],
+   "documents": [
+    "Passport",
+    "Return or onward ticket",
+    "Accommodation proof",
+    "Proof of funds"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry (tourism)",
+     "amount": 0,
+     "currency": "ARS",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/argentina",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "host_unlock": "An Argentine registered requester, university, producer or company can support the TIE/permission process.",
+    "fastest_entry": "Current visa-exempt tourism/business entry subject to reciprocity and border checks",
+    "before_departure": "Check Migraciones and the Argentine consular/entry-fee position, then prepare a Spanish purpose letter.",
+    "useful_stay": "Tourist permission is generally up to 90 days and may be extended; TIE/residence categories can be more accurate for work.",
+    "documents": [
+     "Australian passport and entry-fee check",
+     "Spanish/English host letter",
+     "Business/event or professional activity brief",
+     "Funds, accommodation and onward plan"
+    ],
+    "steps": [
+     "Check tourist/business and reciprocity status.",
+     "Use Spanish/English purpose documentation.",
+     "Ask whether TIE 24H is required.",
+     "Separate foreign remote work from Argentine activity.",
+     "Confirm tax, copyright, customs and residence consequences."
+    ]
    }
   }
  }

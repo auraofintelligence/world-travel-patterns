@@ -615,28 +615,11 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Short visitor entry for Australians, subject to current Home Affairs conditions",
-   "before_departure": "Check DHA nationality/stay guidance, passport validity, return ticket, yellow-fever and any prescribed-activity paperwork.",
-   "useful_stay": "Visitor entry is useful for scouting and attendance; local work and longer remote stays need a permit/category check.",
-   "host_unlock": "A South African employer, university, promoter or client can support the correct visa or prescribed-activity application.",
-   "documents": [
-    "Australian passport and onward ticket",
-    "Host/event letter",
-    "Role, fee and local-employment statement",
-    "Insurance, accommodation and health documents"
-   ],
-   "steps": [
-    "Check DHA visitor and remote-work notices.",
-    "Carry host and onward evidence.",
-    "Separate conference attendance from delivery.",
-    "Use work/critical-skills/prescribed-activity routes for local work.",
-    "Check tax, health and regional travel conditions."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "What stay period is actually granted?",
     "Is South African employment or a local client involved?",
@@ -646,32 +629,11 @@
    ],
    "sources": [
     {
-     "title": "Types of visas",
-     "authority": "South African Department of Home Affairs",
-     "url": "https://www.dha.gov.za/index.php/types-of-visas",
-     "checked": "2026-08-21",
-     "supports": "visitor and work visa framework"
-    },
-    {
-     "title": "Remote-work visitor visa requirements",
-     "authority": "South African Department of Home Affairs",
-     "url": "https://www.dha.gov.za/images/notices/8october24/Remote_Work_Visa_-_requirements_-_9_Oct_2024.pdf",
-     "checked": "2026-08-21",
-     "supports": "remote-work conditions and no local employment"
-    },
-    {
-     "title": "Work visas",
-     "authority": "South African Department of Home Affairs",
-     "url": "https://www.dha.gov.za/index.php/immigration-services/work-visas",
-     "checked": "2026-08-21",
-     "supports": "work authorisation categories"
-    },
-    {
-     "title": "Critical skills and immigration review",
-     "authority": "South African Department of Home Affairs",
-     "url": "https://www.dha.gov.za/images/PDFs/Report-of-the-Work-Visa-Review-2023.pdf",
-     "checked": "2026-08-21",
-     "supports": "critical-skills and work-policy context"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/south-africa",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     }
    ],
    "provenance": {
@@ -714,6 +676,47 @@
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-SOUTH-AFRICA-COST"
+   },
+   "fastest_entry": "No visa for tourism up to 90 days. Leaving and re-entering doesn't reset the 90 days.",
+   "before_departure": "Online traveller declaration within 24 hours before the last leg into South Africa (and before leaving).",
+   "steps": [
+    "Submit the online traveller declaration within 24 hours of the last leg into South Africa.",
+    "Carry a yellow fever certificate if arriving from a yellow fever country.",
+    "Other purposes need a visa through the Department of Home Affairs."
+   ],
+   "documents": [
+    "Passport (provisional travel documents not accepted)",
+    "Traveller declaration",
+    "Yellow fever certificate if required"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry (tourism)",
+     "amount": 0,
+     "currency": "ZAR",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/south-africa",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "host_unlock": "A South African employer, university, promoter or client can support the correct visa or prescribed-activity application.",
+    "fastest_entry": "Short visitor entry for Australians, subject to current Home Affairs conditions",
+    "before_departure": "Check DHA nationality/stay guidance, passport validity, return ticket, yellow-fever and any prescribed-activity paperwork.",
+    "useful_stay": "Visitor entry is useful for scouting and attendance; local work and longer remote stays need a permit/category check.",
+    "documents": [
+     "Australian passport and onward ticket",
+     "Host/event letter",
+     "Role, fee and local-employment statement",
+     "Insurance, accommodation and health documents"
+    ],
+    "steps": [
+     "Check DHA visitor and remote-work notices.",
+     "Carry host and onward evidence.",
+     "Separate conference attendance from delivery.",
+     "Use work/critical-skills/prescribed-activity routes for local work.",
+     "Check tax, health and regional travel conditions."
+    ]
    }
   }
  },

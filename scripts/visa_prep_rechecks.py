@@ -168,3 +168,101 @@ RECHECKS = {
         "sources": [{"title": "SG Arrival Card", "authority": "Immigration and Checkpoints Authority, Singapore", "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card", "supports": "official SGAC portal"}],
     },
 }
+
+
+def free(pid, item, currency):
+    return {"item": item, "amount": 0, "currency": currency, "url": SR[pid]}
+
+
+RECHECKS.update({
+    "jp": {
+        "fastest_entry": "Visa exemption for tourism, business trips, conferences or visiting friends and family, under 90 days.",
+        "before_departure": "Optional pre-registration for immigration and customs on Visit Japan Web.",
+        "steps": [{"step": "Pre-register immigration and customs details on Visit Japan Web (optional, faster).", "url": "https://www.vjw.digital.go.jp/"},
+                  "Expect photographs and fingerprints on arrival (under-16s exempt).",
+                  "Status can't be changed inside Japan: work, study or spouse visas need departure and re-entry with that visa.",
+                  "Transiting between two airports means entering Japan, so entry rules apply."],
+        "documents": ["Passport", "Visit Japan Web QR codes (optional)"],
+        "fees": [free("jp", "visa exemption", "JPY")],
+        "sources": [{"title": "Visit Japan Web", "authority": "Digital Agency, Government of Japan", "url": "https://www.vjw.digital.go.jp/", "supports": "official pre-registration portal"}],
+    },
+    "kr": {
+        "fastest_entry": "Visa-free tourist stays up to 90 days; Australians are exempt from K-ETA until 31 December 2026.",
+        "before_departure": "Optional e-Arrival card online (paper still available).",
+        "steps": ["Check whether the K-ETA exemption has been extended past 31 December 2026 before booking 2027 travel.",
+                  {"step": "Submit the e-Arrival card online before arrival (optional).", "url": "https://www.e-arrivalcard.go.kr/"},
+                  "Other purposes need a visa from a South Korean embassy or consulate."],
+        "documents": ["Passport", "e-Arrival card (optional)"],
+        "fees": [free("kr", "visa-free entry, K-ETA exempt to 31 December 2026", "KRW")],
+        "sources": [{"title": "e-Arrival card", "authority": "Korea Immigration Service, Ministry of Justice", "url": "https://www.e-arrivalcard.go.kr/", "supports": "official e-Arrival portal"}],
+        "note": "K-ETA exemption ends 31 December 2026 unless extended; recheck in December.",
+    },
+    "nz": {
+        "fastest_entry": "Australian citizens need no visa or NZeTA, unless they have a criminal record or have been deported from any country.",
+        "before_departure": "New Zealand Traveller Declaration (NZTD), free, online or in the app, before passport control.",
+        "steps": [{"step": "Complete the free NZTD before arrival.", "url": "https://www.travellerdeclaration.govt.nz/"},
+                  "With a conviction or past deportation, contact a New Zealand Visa Application Centre well before travel."],
+        "documents": ["Passport", "NZTD"],
+        "fees": [free("nz", "entry for Australian citizens", "NZD"), {"item": "NZTD", "amount": 0, "currency": "NZD", "url": "https://www.travellerdeclaration.govt.nz/"}],
+        "sources": [{"title": "New Zealand Traveller Declaration", "authority": "New Zealand Government", "url": "https://www.travellerdeclaration.govt.nz/", "supports": "official NZTD portal"}],
+    },
+    "ph": {
+        "fastest_entry": "Visa-free for 30 days or less.",
+        "before_departure": "Register on eTravel and complete the electronic health declaration to get a QR code for arrival and departure.",
+        "steps": [{"step": "Register on eTravel and get the QR code.", "url": "https://etravel.gov.ph/"},
+                  "Carry an onward or return ticket for no later than 30 days after arrival.",
+                  "To stay longer, extend through the Bureau of Immigration (fees apply)."],
+        "documents": [PASSPORT_6M, "eTravel QR code", "Onward or return ticket within 30 days"],
+        "fees": [free("ph", "visa-free entry (30 days)", "PHP")],
+        "sources": [{"title": "eTravel", "authority": "Government of the Philippines", "url": "https://etravel.gov.ph/", "supports": "official eTravel portal"}],
+    },
+    "cn": {
+        "fastest_entry": "Visa waiver for ordinary Australian passports, up to 30 days for business, tourism, visiting family and friends or transit, until 31 December 2026.",
+        "steps": ["Confirm the purpose fits the waiver (business, tourism, family visits, transit) and the stay is 30 days or less.",
+                  "Anything else needs a full visa from the Chinese embassy before travel.",
+                  "Expect fingerprints on arrival (ages 14 to 70). Entry can be refused at the border."],
+        "documents": ["Ordinary Australian passport"],
+        "fees": [free("cn", "visa waiver (30 days)", "CNY")],
+        "note": "The waiver runs until 31 December 2026; recheck in December for an extension.",
+    },
+    "ie": {
+        "fastest_entry": "No visa before travel; permission to stay up to 90 days is given on arrival by the immigration officer.",
+        "steps": ["Be ready to show accommodation bookings, return flights and contacts in Ireland.",
+                  "Work needs an employment permit (EPOS); study or longer stays need a visa before leaving Australia.",
+                  "Ireland isn't in Schengen; check UK rules if travelling via the UK."],
+        "documents": ["Passport with at least one blank page", "Accommodation bookings", "Return flight"],
+        "fees": [free("ie", "visa-free entry", "EUR")],
+        "sources": [{"title": "Entry for non-EU, non-EEA, non-Swiss and non-UK nationals", "authority": "Immigration Service Delivery, Department of Justice, Ireland", "url": "https://www.irishimmigration.ie/at-the-border/entry-for-non-eu-non-eea-non-swiss-and-non-uk-nationals/", "supports": "what to show at the border"}],
+    },
+    "ar": {
+        "fastest_entry": "Tourists can stay up to 90 days without a visa.",
+        "steps": ["Carry evidence of departure within 90 days (return or onward ticket).",
+                  "Officials may ask for proof of accommodation and enough money or a credit card.",
+                  "Other purposes or non-ordinary passports need a visa before travel; none on arrival."],
+        "documents": ["Passport", "Return or onward ticket", "Accommodation proof", "Proof of funds"],
+        "fees": [free("ar", "visa-free entry (tourism)", "ARS")],
+    },
+    "uy": {
+        "fastest_entry": "Tourists can enter without a visa for up to 90 days.",
+        "steps": ["Confirm details with the Uruguayan embassy for other purposes.", "Minors travelling alone or with one parent may need a letter of consent (Permiso de Menor)."],
+        "documents": ["Passport"],
+        "fees": [free("uy", "visa-free entry (tourism)", "UYU")],
+    },
+    "tr": {
+        "fastest_entry": "No visa for tourism, business or transit up to 90 days in any 180 days (ordinary passports).",
+        "steps": ["Other purposes need a visa from a Turkish embassy or consulate before arrival.",
+                  "Longer stays need a Turkish residence permit.",
+                  "Arriving by sea, get entry and exit stamps."],
+        "documents": ["Ordinary passport"],
+        "fees": [free("tr", "visa-free entry (90 in 180 days)", "TRY")],
+    },
+    "za": {
+        "fastest_entry": "No visa for tourism up to 90 days. Leaving and re-entering doesn't reset the 90 days.",
+        "before_departure": "Online traveller declaration within 24 hours before the last leg into South Africa (and before leaving).",
+        "steps": ["Submit the online traveller declaration within 24 hours of the last leg into South Africa.",
+                  "Carry a yellow fever certificate if arriving from a yellow fever country.",
+                  "Other purposes need a visa through the Department of Home Affairs."],
+        "documents": ["Passport (provisional travel documents not accepted)", "Traveller declaration", "Yellow fever certificate if required"],
+        "fees": [free("za", "visa-free entry (tourism)", "ZAR")],
+    },
+})

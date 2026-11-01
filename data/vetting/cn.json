@@ -841,28 +841,11 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-20",
-   "last_reviewed": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "30-day visa-free entry for tourism, business, exchange, conferences and exhibitions",
-   "before_departure": "Confirm the visa-free policy is still in force for the travel date and carry the invitation or activity purpose.",
-   "useful_stay": "Up to 30 calendar days under the current policy, through 31 December 2026.",
-   "host_unlock": "A Chinese organiser can start short-term employment approval for paid speaking, teaching or performance; that route ordinarily leads to a Z visa. M or F applies only when the host and authorities classify the activity as commerce or non-commercial exchange rather than work.",
-   "documents": [
-    "Ordinary Australian passport",
-    "Onward travel and accommodation",
-    "Invitation or event registration",
-    "One-page activity and payment note"
-   ],
-   "steps": [
-    "Choose the city, event and principal host.",
-    "Split meetings, exchange, paid delivery, sales and performance into separate lines.",
-    "Use visa-free entry where the published purpose fits; otherwise have the host initiate M, F or work documents.",
-    "Carry the invitation, activity schedule, accommodation and onward travel.",
-    "Recheck the visa-free end date before departure."
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "open_questions": [
     "Does the host describe the appearance as exchange, commercial service or performance?",
     "Is any fee, honorarium, royalty, ticket share or expense support attached?",
@@ -872,81 +855,11 @@
    ],
    "sources": [
     {
-     "title": "FAQs on visa-free entry into China",
-     "authority": "Ministry of Foreign Affairs of China",
-     "url": "https://cs.mfa.gov.cn/lh/lhqz_149493/cjwd/",
-     "checked": "2026-08-20",
-     "supports": "eligible purposes, 30-day stay and work exclusion"
-    },
-    {
-     "title": "Extension of visa-free policy for Australians",
-     "authority": "Embassy of China in Australia",
-     "url": "https://au.china-embassy.gov.cn/eng/tzgg/202511/t20251105_11747334.htm",
-     "checked": "2026-08-20",
-     "supports": "policy end date"
-    },
-    {
-     "title": "China visa categories F, M, Z and R",
-     "authority": "Chinese Visa Application Service Centre",
-     "url": "https://pdf.visaforchina.cn/MES3_EN/qianzhengyewu/jichuzhishi/changjianwenti/206736865926189056.html",
-     "checked": "2026-08-20",
-     "supports": "exchange, business and work visa purposes"
-    },
-    {
-     "title": "Work permit for 90 days or less",
-     "authority": "Shanghai Municipal Government",
-     "url": "https://english.shanghai.gov.cn/en-Latest-TalentsinShanghai/20260202/6846c3872de54772a4635b227d2f15de.html",
-     "checked": "2026-08-20",
-     "supports": "short-term host-led work process"
-    },
-    {
-     "title": "Short-term working tasks for foreigners",
-     "authority": "Beijing Municipal Government",
-     "url": "https://english.beijing.gov.cn/mostrequested/residencepermit/employment/202005/t20200521_1904763.html",
-     "checked": "2026-08-20",
-     "supports": "Z-visa sequence and commercial-performance approvals"
-    },
-    {
-     "title": "Foreign professional work-permit criteria",
-     "authority": "Shanghai Municipal Government",
-     "url": "https://english.shanghai.gov.cn/en-WorkPermit-Hongqiao/20231213/a88687f2d8094fbebe38b1a667530ed1.html",
-     "checked": "2026-08-20",
-     "supports": "Category B age, degree, experience and points criteria"
-    },
-    {
-     "title": "Entrepreneurship residence pathways",
-     "authority": "Shanghai Municipal Government",
-     "url": "https://english.shanghai.gov.cn/en-FAQs-TalentInShanghai/20240607/432231df2d514907bb49dbe3ee9a8338.html",
-     "checked": "2026-08-20",
-     "supports": "city-specific founder route"
-    },
-    {
-     "title": "Foreign Investment Law",
-     "authority": "State Council of China",
-     "url": "https://english.www.gov.cn/services/mvestment/202102/24/content_WS6035aa38c6d0719374af9609.html",
-     "checked": "2026-08-20",
-     "supports": "foreign investment framework"
-    },
-    {
-     "title": "World Artificial Intelligence Conference 2026",
-     "authority": "Shanghai Municipal Government",
-     "url": "https://english.shanghai.gov.cn/en-Events/20260624/9cc202d708504b56ba32f70fbd61ef79.html",
-     "checked": "2026-08-20",
-     "supports": "AI opportunity signal"
-    },
-    {
-     "title": "China International Fair for Trade in Services",
-     "authority": "Beijing Municipal Government",
-     "url": "https://english.beijing.gov.cn/investinginbeijing/hotspot/CIFTIS/index.html",
-     "checked": "2026-08-20",
-     "supports": "trade and conference opportunity signal"
-    },
-    {
-     "title": "Beijing International Book Fair 2026",
-     "authority": "Beijing Municipal Government",
-     "url": "https://english.beijing.gov.cn/whatson/events/exhibition/202606/t20260611_4695970.html",
-     "checked": "2026-08-20",
-     "supports": "publishing opportunity signal"
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
     }
    ],
    "provenance": {
@@ -989,7 +902,46 @@
     "value": "~ $110 + fee",
     "checked": "2025-08-16",
     "claim_id": "WORLD-CHINA-COST"
-   }
+   },
+   "fastest_entry": "Visa waiver for ordinary Australian passports, up to 30 days for business, tourism, visiting family and friends or transit, until 31 December 2026.",
+   "steps": [
+    "Confirm the purpose fits the waiver (business, tourism, family visits, transit) and the stay is 30 days or less.",
+    "Anything else needs a full visa from the Chinese embassy before travel.",
+    "Expect fingerprints on arrival (ages 14 to 70). Entry can be refused at the border."
+   ],
+   "documents": [
+    "Ordinary Australian passport"
+   ],
+   "fees": [
+    {
+     "item": "visa waiver (30 days)",
+     "amount": 0,
+     "currency": "CNY",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "host_unlock": "A Chinese organiser can start short-term employment approval for paid speaking, teaching or performance; that route ordinarily leads to a Z visa. M or F applies only when the host and authorities classify the activity as commerce or non-commercial exchange rather than work.",
+    "fastest_entry": "30-day visa-free entry for tourism, business, exchange, conferences and exhibitions",
+    "before_departure": "Confirm the visa-free policy is still in force for the travel date and carry the invitation or activity purpose.",
+    "useful_stay": "Up to 30 calendar days under the current policy, through 31 December 2026.",
+    "documents": [
+     "Ordinary Australian passport",
+     "Onward travel and accommodation",
+     "Invitation or event registration",
+     "One-page activity and payment note"
+    ],
+    "steps": [
+     "Choose the city, event and principal host.",
+     "Split meetings, exchange, paid delivery, sales and performance into separate lines.",
+     "Use visa-free entry where the published purpose fits; otherwise have the host initiate M, F or work documents.",
+     "Carry the invitation, activity schedule, accommodation and onward travel.",
+     "Recheck the visa-free end date before departure."
+    ]
+   },
+   "recheck_note": "The waiver runs until 31 December 2026; recheck in December for an extension."
   }
  }
 }
