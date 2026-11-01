@@ -485,11 +485,27 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of the Republic of Cameroon",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of the Republic of Cameroon which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Strictest element decides; any paid element: Long-stay visa with a work contract approved by the employment minister",
+     "detail": "A combined trip is only as permitted as its strictest activity, so check each part separately. For any paid speaking, teaching or work element, the cited official source says: Employment needs a long-stay visa and an approved contract.",
+     "next": "List every activity on the trip and confirm each one's route; The host starts early.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Loi 97/012 (entry and stay of foreigners)",
+       "authority": "Presidency of the Republic of Cameroon",
+       "url": "https://www.prc.cm/files/47/4a/a3/a84330acd666b5684ff46711e2b7669e.pdf",
+       "checked": "2026-11-01",
+       "supports": "visa types (read via a search-index snapshot)"
+      },
+      {
+       "title": "e-Visa",
+       "authority": "MINREX Cameroon",
+       "url": "https://www.diplocam.cm/e-visa/",
+       "checked": "2026-11-01",
+       "supports": "online visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "specialist",

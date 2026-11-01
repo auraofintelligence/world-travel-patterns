@@ -900,3 +900,7 @@ Research checks from official sources (search-index snapshots): Hong Kong visito
 ## 2026-11-01 23:23 AEST, Grok: Docs: handoff and STATUS updated with current counts (0 records)
 
 Docs only: handoff and STATUS.md item 1 refreshed.
+
+## 2026-11-01 23:24 AEST, Grok: Mixed missions: derived from each place's cited paid-work source (31 places) (31 records)
+
+Mixed-mission checks for 31 places (am ax az bg bt ci cm cu dk dm fm gy jm kg kn lc mh mn mt mu mw na se sn sr sz tj tl uz vc ws) resolved by reusing the official source already cited for paid speaking in the same record: a combined trip is governed by its strictest element, so status follows the paid-work rule (low raised to conditional). No new sources; detail says so.

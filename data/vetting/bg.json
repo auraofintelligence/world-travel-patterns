@@ -293,11 +293,27 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Depends on the mix",
-     "detail": "The visa-free stay covers the business and tourism parts; any paid part needs national permission.",
-     "next": "Ask the Embassy of Bulgaria, Barton.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Strictest element decides; any paid element: Single residence-and-work permit (no labour-market test for guest lecturers and performing artists)",
+     "detail": "A combined trip is only as permitted as its strictest activity, so check each part separately. For any paid speaking, teaching or work element, the cited official source says: Guest lecturers and performing artists skip the labour-market test but still need the Employment Agency's opinion and an Interior Ministry permit. Artists also need Ministry of Culture confirmation.",
+     "next": "List every activity on the trip and confirm each one's route; Start months ahead through the host.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Labour Migration and Labour Mobility Act",
+       "authority": "Ministry of Labour and Social Policy, Bulgaria",
+       "url": "https://www.mlsp.government.bg/uploads/78/sdrmi/2025.pdf",
+       "checked": "2026-11-01",
+       "supports": "exemptions from the labour-market test (read via a search-index snapshot)"
+      },
+      {
+       "title": "Work permit for third-country nationals",
+       "authority": "Employment Agency, Bulgaria",
+       "url": "https://www.az.government.bg/pages/au-predostaviane-na-razreshenie-za-dostup-do-pazara-na-truda-na-na-rabotnici-gravdani-ot-treti-durvavi/",
+       "checked": "2026-11-01",
+       "supports": "permit procedure (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "conditional",

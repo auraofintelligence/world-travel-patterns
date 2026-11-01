@@ -218,11 +218,20 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Strictest element decides; any paid element: Work permit or exemption from the Department of Labour",
+     "detail": "A combined trip is only as permitted as its strictest activity, so check each part separately. For any paid speaking, teaching or work element, the cited official source says: Labour Act s.317: no occupation without a valid work permit or exemption. The festival fee exemptions expired in April 2021.",
+     "next": "List every activity on the trip and confirm each one's route; Contact the Work Permit Unit (468-2707) through the host.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work permit requirement for employment of foreign nationals mandatory",
+       "authority": "Government of Saint Lucia",
+       "url": "https://www.govt.lc/news/work-permit-requirement-for-employment-of-foreign-nationals-mandatory",
+       "checked": "2026-11-01",
+       "supports": "work permit or exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "conditional",

@@ -278,11 +278,20 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Kyrgyz Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Kyrgyz Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Strictest element decides; any paid element: Work permit (lecturers and artists aren't specifically exempt)",
+     "detail": "A combined trip is only as permitted as its strictest activity, so check each part separately. For any paid speaking, teaching or work element, the cited official source says: Lecturers and artists generally need a work permit and, where applicable, a quota.",
+     "next": "List every activity on the trip and confirm each one's route; The host applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Law on External Migration (Central Database of Legal Information)",
+       "authority": "Ministry of Justice, Kyrgyzstan",
+       "url": "https://cbd.minjust.gov.kg/230045488/edition/52377/ru?lang=ru",
+       "checked": "2026-11-01",
+       "supports": "work permits and quotas (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "confirm-in-writing",

@@ -525,11 +525,27 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Consulate-General of Namibia (honorary)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Consulate-General of Namibia (honorary) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Strictest element decides; any paid element: Short-term work visa (1 day to 6 months; speakers and conference facilitators named)",
+     "detail": "A combined trip is only as permitted as its strictest activity, so check each part separately. For any paid speaking, teaching or work element, the cited official source says: MHAISS's short-term work visa expressly covers speakers and conference facilitators. Apply online; it typically takes 10 working days.",
+     "next": "List every activity on the trip and confirm each one's route; Apply about 3 weeks ahead.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa and permits FAQ",
+       "authority": "Ministry of Home Affairs, Immigration, Safety and Security, Namibia",
+       "url": "https://mhaiss.gov.na/documents/292728/5839021/VISA+and+PERMITS+FAQ.pdf/3005c430-1833-f89a-a6b6-5bd8fa88fe5f?t=1741020997482",
+       "checked": "2026-11-01",
+       "supports": "short-term work visa includes speakers (read via a search-index snapshot)"
+      },
+      {
+       "title": "Work visa services",
+       "authority": "MHAISS e-Services",
+       "url": "https://eservices.mhaiss.gov.na/workvisa-services",
+       "checked": "2026-11-01",
+       "supports": "online application (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "conditional",

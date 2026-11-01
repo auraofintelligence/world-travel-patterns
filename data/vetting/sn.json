@@ -505,11 +505,27 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Senegal",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Senegal which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Strictest element decides; any paid element: Non-immigrant stay authorisation for temporary artistic or literary activity (up to 4 months)",
+     "detail": "A combined trip is only as permitted as its strictest activity, so check each part separately. For any paid speaking, teaching or work element, the cited official source says: Senegal's law lets temporary artistic or literary activity go ahead under a stay authorisation of up to four months. Salaried employment needs the employer's hiring visa.",
+     "next": "List every activity on the trip and confirm each one's route; Ask the host which route applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Loi n° 71-10 du 25 janvier 1971 (entry and stay of foreigners)",
+       "authority": "Government of Senegal (dri.gouv.sn)",
+       "url": "https://www.dri.gouv.sn/sites/default/files/LOI/1971/Commission-loi-decentralisation-et-travail/LOI-N-71-10-DU-25-JANVIER-1971.pdf",
+       "checked": "2026-11-01",
+       "supports": "temporary artistic or literary activity up to 4 months (read via a search-index snapshot)"
+      },
+      {
+       "title": "Demande de visa",
+       "authority": "Consulat général du Sénégal à Paris",
+       "url": "https://consulsen-paris.gouv.sn/demande-de-visa/",
+       "checked": "2026-11-01",
+       "supports": "short-stay visa for conferences (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "specialist",

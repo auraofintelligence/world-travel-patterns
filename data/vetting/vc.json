@@ -154,11 +154,20 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Strictest element decides; any paid element: Work permit from the Office of the Prime Minister (up to 6 months)",
+     "detail": "A combined trip is only as permitted as its strictest activity, so check each part separately. For any paid speaking, teaching or work element, the cited official source says: Paid work needs a work permit. The application fee is EC$200.",
+     "next": "List every activity on the trip and confirm each one's route; The host applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Residence, work permit and citizenship requirements",
+       "authority": "Office of the Prime Minister, St Vincent and the Grenadines",
+       "url": "https://pmoffice.gov.vc/pmoffice/images/stories/Forms/Residence_Work_Permit_and_Citizenship_Requirements.pdf",
+       "checked": "2026-11-01",
+       "supports": "work permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "conditional",

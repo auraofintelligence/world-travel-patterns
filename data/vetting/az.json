@@ -318,11 +318,27 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Azerbaijan, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Azerbaijan, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Strictest element decides; any paid element: Exempt only within the Cabinet's 90-day business-trip fields; otherwise a work permit",
+     "detail": "A combined trip is only as permitted as its strictest activity, so check each part separately. For any paid speaking, teaching or work element, the cited official source says: Business trips of up to 90 days a year are exempt only in the fields the Cabinet has listed.",
+     "next": "List every activity on the trip and confirm each one's route; Check the activity against the State Migration Service list before travel.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Questions",
+       "authority": "State Migration Service of Azerbaijan",
+       "url": "https://www.migration.gov.az/en/questions/",
+       "checked": "2026-11-01",
+       "supports": "work permit exemptions (read via a search-index snapshot)"
+      },
+      {
+       "title": "List of fields not requiring a work permit for business trips up to 90 days a year",
+       "authority": "State Migration Service of Azerbaijan",
+       "url": "https://www.migration.gov.az/content/pdf/7508e37cf7b8c9167ccba32332384240.pdf",
+       "checked": "2026-11-01",
+       "supports": "90-day business trip list (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "conditional",

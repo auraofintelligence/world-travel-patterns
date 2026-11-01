@@ -419,11 +419,27 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Entry permit before arrival (to confirm)",
-     "detail": "Non-visitors need an entry permit before arrival; work needs a state work permit first.",
-     "next": "Ask the FSM Division of Immigration in Pohnpei, and the state's labour office for any work.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Strictest element decides; any paid element: Visitor status can cover short-term contract work under 90 days (submit the contract when extending)",
+     "detail": "A combined trip is only as permitted as its strictest activity, so check each part separately. For any paid speaking, teaching or work element, the cited official source says: The regulations let short-term visitors do contract work of under 90 days, with the contract filed.",
+     "next": "List every activity on the trip and confirm each one's route; Carry the contract.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Revised FSM Immigration Regulations",
+       "authority": "Embassy of the Federated States of Micronesia",
+       "url": "https://fsmembassy.fm/wp-content/uploads/2022/05/RevFSMImmigrationReg.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor short-term contract work (read via a search-index snapshot)"
+      },
+      {
+       "title": "Public Law No. 10-14",
+       "authority": "Congress of the FSM",
+       "url": "https://www.cfsm.gov.fm/wp-content/uploads/2024/08/PL10.014.pdf",
+       "checked": "2026-11-01",
+       "supports": "immigration law (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "confirm-in-writing",

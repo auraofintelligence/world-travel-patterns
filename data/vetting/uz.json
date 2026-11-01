@@ -348,11 +348,27 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Uzbekistan",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Uzbekistan which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Strictest element decides; any paid element: Exempt: short-term specialists (up to one month) giving lectures, master classes or training",
+     "detail": "A combined trip is only as permitted as its strictest activity, so check each part separately. For any paid speaking, teaching or work element, the cited official source says: Foreign specialists coming for up to a month for lectures, master classes, training or experience exchange don't need work-permit confirmation.",
+     "next": "List every activity on the trip and confirm each one's route; Keep it under a month.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Migration Agency overview",
+       "authority": "Government of Uzbekistan (gov.uz)",
+       "url": "https://gov.uz/en/migration/pages/about",
+       "checked": "2026-11-01",
+       "supports": "work permit authority (read via a search-index snapshot)"
+      },
+      {
+       "title": "Work permit and visa procedures in Uzbekistan (2026)",
+       "authority": "JETRO (Japan External Trade Organization)",
+       "url": "https://www.jetro.go.jp/ext_images/_Reports/02/2026/57550b1ac4554957/202601.pdf",
+       "checked": "2026-11-01",
+       "supports": "one-month lecturer exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "specialist",

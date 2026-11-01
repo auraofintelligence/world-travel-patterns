@@ -462,11 +462,27 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Depends on the mix",
-     "detail": "Visitor, business and work routes each cover different parts.",
-     "next": "Ask the Consulate General of Samoa in Sydney or Samoa Immigration (Ministry of the Prime Minister and Cabinet).",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Strictest element decides; any paid element: Foreign Employment Employee Permit plus an employment entry permit",
+     "detail": "A combined trip is only as permitted as its strictest activity, so check each part separately. For any paid speaking, teaching or work element, the cited official source says: Visitor permits don't allow work, including short speaking engagements, and no speaker exemption exists.",
+     "next": "List every activity on the trip and confirm each one's route; The employer applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permit services",
+       "authority": "Ministry of the Prime Minister and Cabinet (Immigration), Samoa",
+       "url": "https://mpmc.gov.ws/divisions/immigration/permits-2/",
+       "checked": "2026-11-01",
+       "supports": "visitors can't work (read via a search-index snapshot)"
+      },
+      {
+       "title": "Employment services",
+       "authority": "Ministry of Commerce, Industry and Labour, Samoa",
+       "url": "https://www.mcil.gov.ws/services/employment",
+       "checked": "2026-11-01",
+       "supports": "FEEP (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "conditional",

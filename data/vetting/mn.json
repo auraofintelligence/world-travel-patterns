@@ -465,11 +465,27 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Mongolia, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Mongolia, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Strictest element decides; any paid element: Labour permission from the competent authority",
+     "detail": "A combined trip is only as permitted as its strictest activity, so check each part separately. For any paid speaking, teaching or work element, the cited official source says: Foreigners may not work without permission, including at education institutions.",
+     "next": "List every activity on the trip and confirm each one's route; The host applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Applying for a visa without visa permission",
+       "authority": "Immigration Agency of Mongolia",
+       "url": "https://immigration.gov.mn/en/vizijn-zvshrl/vizijn-zvshrlgj-viz-medleh/",
+       "checked": "2026-11-01",
+       "supports": "30-day cultural and filming visas (read via a search-index snapshot)"
+      },
+      {
+       "title": "Law on the legal status of foreign nationals",
+       "authority": "Parliament of Mongolia",
+       "url": "https://www.parliament.mn/en/nn/12987/",
+       "checked": "2026-11-01",
+       "supports": "no work without permission (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "conditional",

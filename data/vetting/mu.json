@@ -482,11 +482,27 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of the Republic of Mauritius, Deakin",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of the Republic of Mauritius, Deakin which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Strictest element decides; any paid element: Short-term Occupation Permit",
+     "detail": "A combined trip is only as permitted as its strictest activity, so check each part separately. For any paid speaking, teaching or work element, the cited official source says: Other short-term work uses the Short-term Occupation Permit.",
+     "next": "List every activity on the trip and confirm each one's route; The host applies via the EDB.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Non-Citizens (Employment Restriction) Regulations 1970",
+       "authority": "Ministry of Labour, Mauritius",
+       "url": "https://empment-labour.govmu.org/Pages/Legislations/NON-CITIZENS%20%28EMPLOYMENT%20RESTRICTION%29%20REGULATIONS%201970.pdf",
+       "checked": "2026-11-01",
+       "supports": "entertainer exemption (read via a search-index snapshot)"
+      },
+      {
+       "title": "Immigration Act 2022",
+       "authority": "Prime Minister's Office (Passport and Immigration), Mauritius",
+       "url": "https://dha.govmu.org/Documents/Legislations/Immigration%20Act/Immigration_Act_2022.pdf",
+       "checked": "2026-11-01",
+       "supports": "Short-term Occupation Permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "low",

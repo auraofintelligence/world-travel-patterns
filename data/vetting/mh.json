@@ -336,11 +336,20 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Depends on the mix",
-     "detail": "Visitor, business and work visas each cover different parts.",
-     "next": "Ask the RMI Division of Immigration.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Strictest element decides; any paid element: Work permit plus E-1 employment visa",
+     "detail": "A combined trip is only as permitted as its strictest activity, so check each part separately. For any paid speaking, teaching or work element, the cited official source says: Non-citizens need both a Labor Division work permit and an E-1 employment visa to work; no short-term exemption is published.",
+     "next": "List every activity on the trip and confirm each one's route; Host applies for both before travel.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Live and Work (Permits)",
+       "authority": "Division of Immigration, Republic of the Marshall Islands",
+       "url": "https://rmiimmigration.org/live-work-permits/",
+       "checked": "2026-11-01",
+       "supports": "work needs a Labor Division permit and E-1 visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "specialist",
