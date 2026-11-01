@@ -684,3 +684,7 @@ Work and speaking rules from official sources: Cayman (guest speakers exempt 10 
 ## 2026-11-01 17:43 AEST, Grok: Work: cy, fo, gl, fk, im, je, gg, sh, sm, gi (10 records)
 
 Work and speaking rules: Faroe Islands and Greenland (invited lecturers exempt under 3 months; Greenland also artists), Isle of Man (conference work 30 days, performers 48 days), Jersey and Guernsey (permitted paid engagements 1 month), St Helena, Falklands, Cyprus, San Marino and Gibraltar (permits). Read via search-index snapshots.
+
+## 2026-11-01 17:43 AEST, Grok: x (9 records)
+
+x

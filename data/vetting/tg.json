@@ -57,102 +57,326 @@
      ]
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Tourist/business visa via voyage.gouv.tg",
+     "detail": "Covers meetings, fairs, seminars and conferences. Apply at least 5 days before arrival.",
+     "next": "Apply with the host's invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "A propos",
+       "authority": "Voyage Togo (Gouvernement togolais)",
+       "url": "https://voyage.gouv.tg/about",
+       "checked": "2026-11-01",
+       "supports": "visa for meetings, fairs, seminars, conferences (read via a search-index snapshot)"
+      },
+      {
+       "title": "Autorisation d'entrée aux fins de travail",
+       "authority": "Service public de l'administration togolaise",
+       "url": "https://service-public.gouv.tg/service/62197bd433c0179346497bbf/papiers-citoyennete/autorisation-d-entree-sur-le-territoire-togolais-aux-fins-de",
+       "checked": "2026-11-01",
+       "supports": "work entry authorisation 3 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Tourist/business visa via voyage.gouv.tg",
+     "detail": "Covers meetings, fairs, seminars and conferences. Apply at least 5 days before arrival.",
+     "next": "Apply with the host's invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "A propos",
+       "authority": "Voyage Togo (Gouvernement togolais)",
+       "url": "https://voyage.gouv.tg/about",
+       "checked": "2026-11-01",
+       "supports": "visa for meetings, fairs, seminars, conferences (read via a search-index snapshot)"
+      },
+      {
+       "title": "Autorisation d'entrée aux fins de travail",
+       "authority": "Service public de l'administration togolaise",
+       "url": "https://service-public.gouv.tg/service/62197bd433c0179346497bbf/papiers-citoyennete/autorisation-d-entree-sur-le-territoire-togolais-aux-fins-de",
+       "checked": "2026-11-01",
+       "supports": "work entry authorisation 3 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Tourist/business visa via voyage.gouv.tg",
+     "detail": "Covers meetings, fairs, seminars and conferences. Apply at least 5 days before arrival.",
+     "next": "Apply with the host's invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "A propos",
+       "authority": "Voyage Togo (Gouvernement togolais)",
+       "url": "https://voyage.gouv.tg/about",
+       "checked": "2026-11-01",
+       "supports": "visa for meetings, fairs, seminars, conferences (read via a search-index snapshot)"
+      },
+      {
+       "title": "Autorisation d'entrée aux fins de travail",
+       "authority": "Service public de l'administration togolaise",
+       "url": "https://service-public.gouv.tg/service/62197bd433c0179346497bbf/papiers-citoyennete/autorisation-d-entree-sur-le-territoire-togolais-aux-fins-de",
+       "checked": "2026-11-01",
+       "supports": "work entry authorisation 3 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Entry authorisation for work (3 months)",
+     "detail": "Work needs an entry authorisation from the Ministry of Security, applied for in person.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "A propos",
+       "authority": "Voyage Togo (Gouvernement togolais)",
+       "url": "https://voyage.gouv.tg/about",
+       "checked": "2026-11-01",
+       "supports": "visa for meetings, fairs, seminars, conferences (read via a search-index snapshot)"
+      },
+      {
+       "title": "Autorisation d'entrée aux fins de travail",
+       "authority": "Service public de l'administration togolaise",
+       "url": "https://service-public.gouv.tg/service/62197bd433c0179346497bbf/papiers-citoyennete/autorisation-d-entree-sur-le-territoire-togolais-aux-fins-de",
+       "checked": "2026-11-01",
+       "supports": "work entry authorisation 3 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Entry authorisation for work (3 months)",
+     "detail": "Work needs an entry authorisation from the Ministry of Security, applied for in person.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "A propos",
+       "authority": "Voyage Togo (Gouvernement togolais)",
+       "url": "https://voyage.gouv.tg/about",
+       "checked": "2026-11-01",
+       "supports": "visa for meetings, fairs, seminars, conferences (read via a search-index snapshot)"
+      },
+      {
+       "title": "Autorisation d'entrée aux fins de travail",
+       "authority": "Service public de l'administration togolaise",
+       "url": "https://service-public.gouv.tg/service/62197bd433c0179346497bbf/papiers-citoyennete/autorisation-d-entree-sur-le-territoire-togolais-aux-fins-de",
+       "checked": "2026-11-01",
+       "supports": "work entry authorisation 3 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Entry authorisation for work (3 months)",
+     "detail": "Work needs an entry authorisation from the Ministry of Security, applied for in person.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "A propos",
+       "authority": "Voyage Togo (Gouvernement togolais)",
+       "url": "https://voyage.gouv.tg/about",
+       "checked": "2026-11-01",
+       "supports": "visa for meetings, fairs, seminars, conferences (read via a search-index snapshot)"
+      },
+      {
+       "title": "Autorisation d'entrée aux fins de travail",
+       "authority": "Service public de l'administration togolaise",
+       "url": "https://service-public.gouv.tg/service/62197bd433c0179346497bbf/papiers-citoyennete/autorisation-d-entree-sur-le-territoire-togolais-aux-fins-de",
+       "checked": "2026-11-01",
+       "supports": "work entry authorisation 3 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Entry authorisation for work (3 months)",
+     "detail": "Work needs an entry authorisation from the Ministry of Security, applied for in person.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "A propos",
+       "authority": "Voyage Togo (Gouvernement togolais)",
+       "url": "https://voyage.gouv.tg/about",
+       "checked": "2026-11-01",
+       "supports": "visa for meetings, fairs, seminars, conferences (read via a search-index snapshot)"
+      },
+      {
+       "title": "Autorisation d'entrée aux fins de travail",
+       "authority": "Service public de l'administration togolaise",
+       "url": "https://service-public.gouv.tg/service/62197bd433c0179346497bbf/papiers-citoyennete/autorisation-d-entree-sur-le-territoire-togolais-aux-fins-de",
+       "checked": "2026-11-01",
+       "supports": "work entry authorisation 3 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Entry authorisation for work (3 months)",
+     "detail": "Work needs an entry authorisation from the Ministry of Security, applied for in person.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "A propos",
+       "authority": "Voyage Togo (Gouvernement togolais)",
+       "url": "https://voyage.gouv.tg/about",
+       "checked": "2026-11-01",
+       "supports": "visa for meetings, fairs, seminars, conferences (read via a search-index snapshot)"
+      },
+      {
+       "title": "Autorisation d'entrée aux fins de travail",
+       "authority": "Service public de l'administration togolaise",
+       "url": "https://service-public.gouv.tg/service/62197bd433c0179346497bbf/papiers-citoyennete/autorisation-d-entree-sur-le-territoire-togolais-aux-fins-de",
+       "checked": "2026-11-01",
+       "supports": "work entry authorisation 3 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Tourist/business visa via voyage.gouv.tg",
+     "detail": "Covers meetings, fairs, seminars and conferences. Apply at least 5 days before arrival.",
+     "next": "Apply with the host's invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "A propos",
+       "authority": "Voyage Togo (Gouvernement togolais)",
+       "url": "https://voyage.gouv.tg/about",
+       "checked": "2026-11-01",
+       "supports": "visa for meetings, fairs, seminars, conferences (read via a search-index snapshot)"
+      },
+      {
+       "title": "Autorisation d'entrée aux fins de travail",
+       "authority": "Service public de l'administration togolaise",
+       "url": "https://service-public.gouv.tg/service/62197bd433c0179346497bbf/papiers-citoyennete/autorisation-d-entree-sur-le-territoire-togolais-aux-fins-de",
+       "checked": "2026-11-01",
+       "supports": "work entry authorisation 3 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Entry authorisation for work (3 months)",
+     "detail": "Work needs an entry authorisation from the Ministry of Security, applied for in person.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "A propos",
+       "authority": "Voyage Togo (Gouvernement togolais)",
+       "url": "https://voyage.gouv.tg/about",
+       "checked": "2026-11-01",
+       "supports": "visa for meetings, fairs, seminars, conferences (read via a search-index snapshot)"
+      },
+      {
+       "title": "Autorisation d'entrée aux fins de travail",
+       "authority": "Service public de l'administration togolaise",
+       "url": "https://service-public.gouv.tg/service/62197bd433c0179346497bbf/papiers-citoyennete/autorisation-d-entree-sur-le-territoire-togolais-aux-fins-de",
+       "checked": "2026-11-01",
+       "supports": "work entry authorisation 3 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Entry authorisation for work (3 months)",
+     "detail": "Work needs an entry authorisation from the Ministry of Security, applied for in person.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "A propos",
+       "authority": "Voyage Togo (Gouvernement togolais)",
+       "url": "https://voyage.gouv.tg/about",
+       "checked": "2026-11-01",
+       "supports": "visa for meetings, fairs, seminars, conferences (read via a search-index snapshot)"
+      },
+      {
+       "title": "Autorisation d'entrée aux fins de travail",
+       "authority": "Service public de l'administration togolaise",
+       "url": "https://service-public.gouv.tg/service/62197bd433c0179346497bbf/papiers-citoyennete/autorisation-d-entree-sur-le-territoire-togolais-aux-fins-de",
+       "checked": "2026-11-01",
+       "supports": "work entry authorisation 3 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Entry authorisation for work (3 months)",
+     "detail": "Work needs an entry authorisation from the Ministry of Security, applied for in person.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "A propos",
+       "authority": "Voyage Togo (Gouvernement togolais)",
+       "url": "https://voyage.gouv.tg/about",
+       "checked": "2026-11-01",
+       "supports": "visa for meetings, fairs, seminars, conferences (read via a search-index snapshot)"
+      },
+      {
+       "title": "Autorisation d'entrée aux fins de travail",
+       "authority": "Service public de l'administration togolaise",
+       "url": "https://service-public.gouv.tg/service/62197bd433c0179346497bbf/papiers-citoyennete/autorisation-d-entree-sur-le-territoire-togolais-aux-fins-de",
+       "checked": "2026-11-01",
+       "supports": "work entry authorisation 3 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Entry authorisation for work (3 months)",
+     "detail": "Work needs an entry authorisation from the Ministry of Security, applied for in person.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "A propos",
+       "authority": "Voyage Togo (Gouvernement togolais)",
+       "url": "https://voyage.gouv.tg/about",
+       "checked": "2026-11-01",
+       "supports": "visa for meetings, fairs, seminars, conferences (read via a search-index snapshot)"
+      },
+      {
+       "title": "Autorisation d'entrée aux fins de travail",
+       "authority": "Service public de l'administration togolaise",
+       "url": "https://service-public.gouv.tg/service/62197bd433c0179346497bbf/papiers-citoyennete/autorisation-d-entree-sur-le-territoire-togolais-aux-fins-de",
+       "checked": "2026-11-01",
+       "supports": "work entry authorisation 3 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Entry authorisation for work (3 months)",
+     "detail": "Work needs an entry authorisation from the Ministry of Security, applied for in person.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "A propos",
+       "authority": "Voyage Togo (Gouvernement togolais)",
+       "url": "https://voyage.gouv.tg/about",
+       "checked": "2026-11-01",
+       "supports": "visa for meetings, fairs, seminars, conferences (read via a search-index snapshot)"
+      },
+      {
+       "title": "Autorisation d'entrée aux fins de travail",
+       "authority": "Service public de l'administration togolaise",
+       "url": "https://service-public.gouv.tg/service/62197bd433c0179346497bbf/papiers-citoyennete/autorisation-d-entree-sur-le-territoire-togolais-aux-fins-de",
+       "checked": "2026-11-01",
+       "supports": "work entry authorisation 3 months (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [],
