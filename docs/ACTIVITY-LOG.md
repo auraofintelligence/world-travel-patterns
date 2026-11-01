@@ -255,3 +255,13 @@ New `scripts/fcdo_local_law.py`:
 - vc: the FCDO page has no laws section.
 
 **Also:** mr's local-law was drafted from Smartraveller with `--only local-law` (2 laws). It was missing because of the case-sensitivity bug.
+
+## 2026-11-01 17:35 AEST, Grok: local-law from FCDO, batches 2 and 3
+
+**Batch 2 (11 countries):** cg, cv, gq, gw, ki, km, nr, sr, st, tg, tv. Notable: same-sex acts are illegal in Kiribati (up to 14 years) and Comoros (up to 5 years); Comoros requires dress covering shoulders to knees and bans public drinking.
+
+**Batch 3 (8 British Overseas Territories):** ai, bm, ky, ms, tc, vg, gi, fk. Notable: Bermuda bans going topless in public and drinking outside licensed premises.
+
+**Not written:** sh (FCDO's St Helena page title didn't match; alias needed).
+
+FCDO sections sometimes include non-law items (money, stray dogs, internet); they are kept with the heading so readers can tell.
