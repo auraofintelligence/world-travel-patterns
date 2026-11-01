@@ -146,3 +146,20 @@ Smartraveller only has stub pages (no advice) for these 24 countries, so there's
 The entry records for ag, bb, dm, gd, kn, lc and vc were upgraded from `confirm-in-writing`/`signal` to official, and the aggregator sources were removed.
 
 **Notable correction:** Saint Lucia **requires a visa** for Australians. Immigration Act Schedule 1 (revised 2023) lists Australia; fees are EC$125 single entry and EC$190 multiple entry, through the police visa office. The entry record had assumed the Commonwealth Caribbean norm (visa-free).
+
+## 2026-11-01 16:50 AEST, Grok: batch D2, no-Smartraveller countries (Africa, Pacific, Suriname, 11 records)
+
+**Verified (3):**
+- nr: Justice and Border Control visa fees are AUD 50, 150 or 250 for 1, 2 or 3 months, and a sponsor letter is needed.
+- ki: Visa Exemption Order 2023, 90 days in 12 months (read via a snapshot).
+- tg: voyage.gouv.tg e-visa, XOF 25,000 to 65,000, at least 5 days ahead, visa on arrival suspended.
+
+The ki and tg entry records were upgraded to official.
+
+**Flagged (8)**, with the reasons in each `recheck_note`:
+- cv: needs a visa (not on the gov.cv exempt list) plus a CVE 3,400 airport security fee; the visa fee wasn't found.
+- st, gw, km, cg, gq: no official page found.
+- tv: the regulations PDF wouldn't load to check whether Australians are exempt from the AUD 100 fee.
+- sr: the VFS portal blocked fetches.
+
+**Correction:** Cabo Verde is not visa-free for Australians; Australia is absent from the official exempt list.

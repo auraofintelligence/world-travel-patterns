@@ -2,21 +2,21 @@
  "place": "ki",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no current Kiribati government page found. Secondary sites say Australians enter visa-free, some for 30 days and some for 90 days under a 2023 Visa Exemption Order.",
+   "status": "visa-free",
+   "summary": "No visa: Australian citizens are exempt for up to 90 days in any 12 months (Visa Exemption Order 2023); entry permission is granted on arrival.",
    "next_check": "Ask the Kiribati Ministry of Foreign Affairs and Immigration, or the Kiribati High Commission, which stay applies.",
-   "evidence": "signal",
+   "evidence": "official",
    "note": "The Kiribati tourism office's visa page now redirects to an unrelated site and wasn't used.",
    "sources": [
     {
-     "title": "Kiribati entry requirements (aggregator)",
-     "authority": "Signal: secondary site",
-     "url": "https://www.worldtravelguide.net/guides/oceania/kiribati/passport-visa",
-     "checked": "2026-10-31",
-     "supports": "visa-free short stays, length unclear"
+     "title": "Visa Exemption Order 2023",
+     "authority": "Ministry of Foreign Affairs and Immigration, Kiribati",
+     "url": "https://www.mfa.gov.ki/wp-content/uploads/2023/09/VISA-EXEMPTION-ORDER-2023-1.pdf",
+     "supports": "Australian citizens exempt; up to 90 days in 12 months; passport valid 6 months after departure (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
+     "checked": "2026-11-01"
     }
    ],
-   "checked": "2026-10-31"
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -451,19 +451,17 @@
    "notes": "For consular help, contact the Australian High Commission in Tarawa."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa-free for business visits up to 30 days.",
    "cost_aud_baseline": {
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-KIRIBATI-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -473,6 +471,45 @@
      "cost": "WORLD-KIRIBATI-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "No visa: Australian citizens are exempt for up to 90 days in any 12 months; entry permission is still granted on arrival.",
+   "steps": [
+    "Apply for entry permission on arrival (separate from the visa exemption).",
+    "Passport must be valid 6 months after you leave Kiribati."
+   ],
+   "documents": [
+    "Passport valid 6 months after departure",
+    "Onward or return ticket"
+   ],
+   "fees": [
+    {
+     "item": "visa exemption",
+     "amount": 0,
+     "currency": "AUD",
+     "url": "https://www.mfa.gov.ki/wp-content/uploads/2023/09/VISA-EXEMPTION-ORDER-2023-1.pdf",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Visa Exemption Order 2023",
+     "authority": "Ministry of Foreign Affairs and Immigration, Kiribati",
+     "url": "https://www.mfa.gov.ki/wp-content/uploads/2023/09/VISA-EXEMPTION-ORDER-2023-1.pdf",
+     "supports": "Australian citizens exempt; up to 90 days in 12 months; passport valid 6 months after departure (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "Visa",
+     "authority": "Ministry of Foreign Affairs and Immigration, Kiribati",
+     "url": "https://www.mfa.gov.ki/visa/",
+     "supports": "visa rules under the Immigration Act 2019 and Procedures 2020",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }

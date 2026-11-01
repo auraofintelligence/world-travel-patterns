@@ -2,12 +2,20 @@
  "place": "tg",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no Australian-specific official source found on 31 October 2026 for Togo. Aggregator sites disagree.",
+   "status": "visa-required",
+   "summary": "e-Visa before travel on voyage.gouv.tg, at least 5 days ahead (visas on arrival suspended); XOF 25,000 to 65,000 by length.",
    "next_check": "Ask Togo's embassy or immigration authority which visa an Australian needs.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "A propos du e-Visa",
+     "authority": "Voyage Togo, Government of Togo",
+     "url": "https://voyage.gouv.tg/about",
+     "supports": "tourist e-visa durations, prices and documents",
+     "checked": "2026-11-01"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -384,19 +392,17 @@
    "notes": "Covered by the Australian mission responsible for Ghana."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa on arrival available.",
    "cost_aud_baseline": {
     "value": "~ $35",
     "checked": "2025-08-16",
     "claim_id": "WORLD-TOGO-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -406,6 +412,62 @@
      "cost": "WORLD-TOGO-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "e-Visa needed, applied for online at least 5 days before arrival (visas on arrival suspended).",
+   "steps": [
+    "Fill in the immigration form on voyage.gouv.tg; it routes you to the e-visa and online payment (card or mobile money).",
+    "Apply at least 5 to 6 days ahead; processing takes up to 5 working days.",
+    "Carry a yellow fever vaccination card."
+   ],
+   "documents": [
+    "Passport valid 3 months beyond the visa",
+    "Recent photo",
+    "Accommodation booking",
+    "Yellow fever certificate"
+   ],
+   "fees": [
+    {
+     "item": "tourist e-visa 1 to 15 days, single entry",
+     "amount": 25000,
+     "currency": "XOF",
+     "url": "https://voyage.gouv.tg/about",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "tourist e-visa 1 to 15 days, multiple entry",
+     "amount": 35000,
+     "currency": "XOF",
+     "url": "https://voyage.gouv.tg/about",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "tourist e-visa 16 to 30 days, multiple entry",
+     "amount": 45000,
+     "currency": "XOF",
+     "url": "https://voyage.gouv.tg/about",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "tourist e-visa 31 to 90 days, multiple entry",
+     "amount": 65000,
+     "currency": "XOF",
+     "url": "https://voyage.gouv.tg/about",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "A propos du e-Visa",
+     "authority": "Voyage Togo, Government of Togo",
+     "url": "https://voyage.gouv.tg/about",
+     "supports": "tourist e-visa durations, prices and documents",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }

@@ -713,3 +713,33 @@ RECHECKS.update({
                ["Carry a return or onward ticket, enough funds and accommodation details."],
                ["Passport valid 6 months beyond entry", "Return or onward ticket", "Proof of funds", "Accommodation details"], [fee("visa-free entry", 0, "XCD", None)])),
 })
+
+
+NR = src("Immigration Division: visas and visa fees", "Department of Justice and Border Control, Nauru", "https://justice.gov.nr/immigration-division/", "visitor visa classes and fees under the Immigration Act 2014")
+KI = src("Visa Exemption Order 2023", "Ministry of Foreign Affairs and Immigration, Kiribati", "https://www.mfa.gov.ki/wp-content/uploads/2023/09/VISA-EXEMPTION-ORDER-2023-1.pdf", "Australian citizens exempt; up to 90 days in 12 months; passport valid 6 months after departure" + SNAP)
+TG = src("A propos du e-Visa", "Voyage Togo, Government of Togo", "https://voyage.gouv.tg/about", "tourist e-visa durations, prices and documents")
+RECHECKS.update({
+    "nr": ofc("nr", NR, visa("nr", "Visitor visa needed before travel; applicants from Australia need a sponsorship letter from a Nauruan citizen living in Nauru.",
+               ["Download the visitor visa application form from the Immigration Division and lodge it with the fee.", "Get the sponsorship letter first; overstaying costs $50 a day."],
+               ["Passport", "Visitor visa application form", "Sponsorship letter from a Nauruan citizen in Nauru"],
+               [fee("visitor visa, up to 1 month", 50, "AUD", None), fee("visitor visa, up to 2 months", 150, "AUD", None), fee("visitor visa, up to 3 months", 250, "AUD", None)],
+               [src("Immigration Regulations 2014", "Republic of Nauru (PacLII)", "https://pacliirms.austlii.edu.au/nr/legis/sub_leg/ia2014ir2014385", "sponsorship requirement")])),
+    "ki": ofc("ki", KI, visa("ki", "No visa: Australian citizens are exempt for up to 90 days in any 12 months; entry permission is still granted on arrival.",
+               ["Apply for entry permission on arrival (separate from the visa exemption).", "Passport must be valid 6 months after you leave Kiribati."],
+               ["Passport valid 6 months after departure", "Onward or return ticket"], [fee("visa exemption", 0, "AUD", None)],
+               [src("Visa", "Ministry of Foreign Affairs and Immigration, Kiribati", "https://www.mfa.gov.ki/visa/", "visa rules under the Immigration Act 2019 and Procedures 2020")])),
+    "tg": ofc("tg", TG, visa("tg", "e-Visa needed, applied for online at least 5 days before arrival (visas on arrival suspended).",
+               ["Fill in the immigration form on voyage.gouv.tg; it routes you to the e-visa and online payment (card or mobile money).",
+                "Apply at least 5 to 6 days ahead; processing takes up to 5 working days.", "Carry a yellow fever vaccination card."],
+               ["Passport valid 3 months beyond the visa", "Recent photo", "Accommodation booking", "Yellow fever certificate"],
+               [fee("tourist e-visa 1 to 15 days, single entry", 25000, "XOF", None), fee("tourist e-visa 1 to 15 days, multiple entry", 35000, "XOF", None),
+                fee("tourist e-visa 16 to 30 days, multiple entry", 45000, "XOF", None), fee("tourist e-visa 31 to 90 days, multiple entry", 65000, "XOF", None)])),
+    "cv": flag("no Smartraveller advice. The Cabo Verde government (gov.cv) visa-exempt list doesn't include Australia, so a visa is needed; EASE pre-registration and the Airport Security Fee (CVE 3,400, gov.cv/pedir-tsa) apply. The tourist visa fee wasn't found on gov.cv."),
+    "st": flag("no Smartraveller advice. Search snapshots of the national law (smf.st) and the tourism office say a 15-day exemption covers listed nationalities and holders of a Schengen or US visa; Australia's place on the list and the e-visa fee weren't confirmed on an official page."),
+    "gw": flag("no Smartraveller advice. Only a pre-enrolment e-visa site (rgb-visa.com, government status unclear) and foreign-ministry reports (visa on arrival about EUR 80) were found."),
+    "km": flag("no Smartraveller advice. Visa on arrival (reported EUR 30 for 45 days) only in foreign government advice; no Comoros government page found."),
+    "cg": flag("no Smartraveller advice and no Republic of the Congo government visa page found."),
+    "gq": flag("no Smartraveller advice and no Equatorial Guinea government visa page found."),
+    "tv": flag("no Smartraveller advice. Search snapshots of Tuvalu's Immigration Regulations 2014 say a visitor permit up to 30 days is issued on arrival for AUD 100 unless the nationality is on a fee-exemption list; the PDF wouldn't load to check whether Australia is exempt."),
+    "sr": flag("no Smartraveller advice. Suriname's e-visa/entry-fee portal (suriname.vfsevisa.com, run by VFS for the government) blocked fetches; snapshots show a US$50 single-entry entry fee plus US$8 service fee. Needs a direct government read."),
+})
