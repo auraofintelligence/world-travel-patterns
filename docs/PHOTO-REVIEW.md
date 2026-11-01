@@ -6,10 +6,14 @@ For Luke. Every place photo is marked `review: pending` until you've looked. Cha
 
 A place page shows a photo of that place, or of somewhere inside it (labelled), or none. Never a stand-in from elsewhere.
 
-## Where it stands (30 October 2026)
+## Where it stands (1 November 2026)
 
-- 316 places have a photo: 121 Wikidata main images, 190 Wikivoyage banners, 5 chosen by hand.
-- 10 places in the photo search have none: au/kakadu, au/nt, au/torres-strait-islands, au/uluru-kata-tjuta, ca/haida-gwaii, kp, st, us/navajo-nation, us/new-jersey, us/north-carolina.
+- 313 places have a photo. 312 are approved and 1 is pending: **au**, the Uluṟu sunset, which is waiting for your decision.
+- **The review:** Grok Bot reviewed all 316 original picks by eye, and checked camera EXIF to enforce the no-drone rule. 280 were confirmed, 36 rejected and 1 left unsure (au). See [PHOTO-REVIEW-RECOMMENDATIONS.md](PHOTO-REVIEW-RECOMMENDATIONS.md).
+- **Replacements:** 33 rejected photos were replaced with approved, openly licensed Commons photos, which are in `site/heroes/place-photos-curated.json`.
+- **Rejected with no replacement (no photo shown):** gn, io, us/papahanaumokuakea.
+- **No photo for other reasons:** au/kakadu, au/nt, au/torres-strait-islands, au/uluru-kata-tjuta, ca/haida-gwaii, de, kp, st, us/navajo-nation, us/new-jersey, us/north-carolina.
+- Approvals live in `site/heroes/place-photo-choices.json` (`review: approved` with the file title). If a rebuild picks a different file, it goes back to pending.
 - Sub-places without their own photo (councils, wards, electorates) borrow one from a place inside them, labelled, or show none.
 
 ## Chosen by hand

@@ -2,7 +2,7 @@
 
 Vision review by Grok Bot, 1 November 2026. Luke authorised applying verdicts: confirmed photos are approved, denied photos are rejected, unsure stays pending. Camera EXIF on Wikimedia Commons was checked to enforce the no-drone rule. Rejected photos get an approved replacement from Commons where a suitable open, non-drone photo clearly shows the place.
 
-Counts: confirm 280, deny 36; replacements approved: 33
+Counts: confirm 279, deny 36, unsure 1; replacements approved: 33
 
 ## Denied (rejected)
 
@@ -81,6 +81,7 @@ Counts: confirm 280, deny 36; replacements approved: 33
 
 ## Unsure (still pending)
 
+- **au**: Depicts Uluru at sunset from the public viewing area, so it shows the place; left pending because Luke is deciding whether to use a sacred-site photo ([Uluru-Kata Tjuta banner Uluru Sunset.jpg](https://commons.wikimedia.org/wiki/File:Uluru-Kata_Tjuta_banner_Uluru_Sunset.jpg))
 
 ## Confirmed (approved)
 
@@ -97,7 +98,6 @@ Counts: confirm 280, deny 36; replacements approved: 33
 - **ar**: Patagonian Andes with horse; captioned Argentina ([Argentina Banner 5.jpg](https://commons.wikimedia.org/wiki/File:Argentina_Banner_5.jpg))
 - **as**: Tropical coast and steep green ridges consistent with Tutuila, American Samoa ([American Samoa-banner.jpg](https://commons.wikimedia.org/wiki/File:American_Samoa-banner.jpg))
 - **at**: Alpine village with church spire under limestone cliffs, typical Austria ([Austria-banner1.jpg](https://commons.wikimedia.org/wiki/File:Austria-banner1.jpg))
-- **au**: Uluru at sunset from the public viewing area; depicts Australia (sacred-site sensitivity already noted in PHOTO-REVIEW) ([Uluru-Kata Tjuta banner Uluru Sunset.jpg](https://commons.wikimedia.org/wiki/File:Uluru-Kata_Tjuta_banner_Uluru_Sunset.jpg))
 - **au/act**: ACT Legislative Assembly building and Civic Square, Canberra ([Australian Capital Territory Legislative Assembly.jpg](https://commons.wikimedia.org/wiki/File:Australian_Capital_Territory_Legislative_Assembly.jpg))
 - **au/lord-howe-island**: Lagoon and Mt Lidgbird/Gower skyline of Lord Howe Island ([Lord Howe Island banner.jpg](https://commons.wikimedia.org/wiki/File:Lord_Howe_Island_banner.jpg))
 - **au/minjerribah**: Hand-chosen Main Beach from Point Lookout; verified source ([View of Main Beach from Point Lookout (North Stradbroke Island).JPG](https://commons.wikimedia.org/wiki/File:View_of_Main_Beach_from_Point_Lookout_(North_Stradbroke_Island).JPG))

@@ -385,3 +385,8 @@ For photos rejected in review, I approved openly licensed Wikimedia Commons repl
 ## 2026-11-01 16:38 AEST, Grok: replacement photos, batch 3 (15 places)
 
 For photos rejected in review, I approved openly licensed Wikimedia Commons replacements (curated file plus a choices entry that keeps the rejected title). Each one was viewed, has a CC or public-domain licence and is at least 1600 px wide, with no drone camera in EXIF. Places: us/delaware, us/florida, us/indiana, us/maryland, us/michigan, us/montana, us/new-mexico, us/ohio, us/tennessee, us/texas, us/virginia, us/west-virginia, us/wisconsin, vc, yt.
+
+## 2026-11-01 16:39 AEST, Grok: photo review status and the au correction
+
+- **au (Uluṟu sunset):** I approved this in batch 1 by mistake. It is back to pending, because Luke is deciding.
+- **PHOTO-REVIEW.md updated:** 313 places have a photo (312 approved, 1 pending). 3 rejected places still have no replacement: gn, io, us/papahanaumokuakea.
