@@ -390,3 +390,12 @@ For photos rejected in review, I approved openly licensed Wikimedia Commons repl
 
 - **au (Uluṟu sunset):** I approved this in batch 1 by mistake. It is back to pending, because Luke is deciding.
 - **PHOTO-REVIEW.md updated:** 313 places have a photo (312 approved, 1 pending). 3 rejected places still have no replacement: gn, io, us/papahanaumokuakea.
+
+## 2026-11-01 16:40 AEST, Grok: year-ahead, official dated events, batch 2 (10 places)
+
+- gb/scotland, gb/wales and fr: Tour de France 2027. Team presentation 30 June in Edinburgh; stage 1 from Edinburgh 2 July; stage 3 to Cardiff 4 July; French stages 6 to 25 July (letour.fr, City of Edinburgh Council).
+- kr/seoul: World Youth Day, 3 to 8 August 2027 (Holy See dicastery and WYD Seoul).
+- sa: AFC Asian Cup, 7 January to 5 February 2027 (AFC).
+- pe/lima-department: Pan American Games, 23 July to 8 August 2027 (Panam Sports).
+- in/maharashtra: Nashik-Trimbakeshwar Kumbh Amrit Snan dates. The Kumbh Mela Authority plan marks these as interim.
+- za, zw and na: ICC Men's Cricket World Cup, 2 October to 21 November 2027 (ICC).
