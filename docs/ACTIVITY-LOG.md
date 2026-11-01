@@ -612,3 +612,7 @@ Notable: uz (lecturers and master classes under one month exempt), kz (artists e
 ## 2026-11-01 17:26 AEST, Grok: Year-ahead: 2027 technology, music and arts events (br, ca, ch, de, es, fr, gb, it, sa, tw) (10 records)
 
 Strengthened technology with organiser-published 2027 dates: MWC Barcelona (1 to 4 March), LEAP Riyadh (12 to 15 April), Web Summit Vancouver (25 to 28 May), COMPUTEX (1 to 4 June), VivaTech (16 to 19 June) and gamescom (23 to 29 August). Also added Oktoberfest (18 September to 3 October), Venice Carnival (23 January to 9 February), Rio Sambadrome (5 to 13 February), Edinburgh Fringe (6 to 30 August) and Montreux Jazz (2 to 17 July). Watchlist: GITEX status updated (December 2027 only), Lisdoonvarna noted (runs through September, 2027 programme pending), TechCrunch Disrupt added. Dating-marriage-adult is still thin; no 2027 official dates found yet. Read via search-index snapshots.
+
+## 2026-11-01 17:27 AEST, Grok: Culture: national etiquette upgrades and searches (mx to nu) (10 records)
+
+Upgraded mx (INAH site rules), my (mosque rules), na (photography fees), nc (customary gesture), nl (Amsterdam ban zones), np, nr and nu (Sunday rules) to partly-mapped. mz and ni: searched, none found. Read via search-index snapshots.
