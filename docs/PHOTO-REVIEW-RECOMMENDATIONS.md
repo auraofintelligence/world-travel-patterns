@@ -1,47 +1,83 @@
 # Photo review recommendations
 
-Vision review by Grok Bot, 1 November 2026. Luke authorised applying the verdicts: confirmed photos are marked approved, denied photos are rejected (the place shows no photo until a better one is chosen), unsure stays pending. Camera EXIF on Wikimedia Commons was also checked to enforce the no-drone rule.
+Vision review by Grok Bot, 1 November 2026. Luke authorised applying verdicts: confirmed photos are approved, denied photos are rejected, unsure stays pending. Camera EXIF on Wikimedia Commons was checked to enforce the no-drone rule. Rejected photos get an approved replacement from Commons where a suitable open, non-drone photo clearly shows the place.
 
-Counts so far: confirm 280, deny 36
+Counts: confirm 280, deny 36; replacements approved: 9
 
 ## Denied (rejected)
 
 - **au/nsw**: Astronaut orbit view; NSW not identifiable to a traveller, a stand-in rather than a place photo ([ISS037-E-21113 - View of New South Wales.jpg](https://commons.wikimedia.org/wiki/File:ISS037-E-21113_-_View_of_New_South_Wales.jpg))
+  - Replaced with: Sydney Opera House and Harbour Bridge at dusk ([Sydney Opera House and Harbour Bridge Dusk (3) 2019-06-21.jpg](https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_and_Harbour_Bridge_Dusk_(3)_2019-06-21.jpg), CC BY-SA 4.0, camera FUJIFILM X-T2)
 - **au/qld**: Generic palm fronds against sky; nothing identifies Queensland ([Townsville (Queensland) banner Palms.jpg](https://commons.wikimedia.org/wiki/File:Townsville_(Queensland)_banner_Palms.jpg))
+  - Replaced with: Story Bridge and Brisbane CBD ([Story Bridge Panorama.jpg](https://commons.wikimedia.org/wiki/File:Story_Bridge_Panorama.jpg), CC BY 2.0, camera no EXIF)
 - **au/sa**: Orbit view dominated by spacecraft and Earth's curve; South Australia not identifiable ([STS131-E-12044 - View of South Australia.jpg](https://commons.wikimedia.org/wiki/File:STS131-E-12044_-_View_of_South_Australia.jpg))
+  - Replaced with: Barossa Valley vineyards and gum trees, South Australia (chosen over an Adelaide skyline shot with no camera data) ([Barossa Valley banner 1.jpg](https://commons.wikimedia.org/wiki/File:Barossa_Valley_banner_1.jpg), CC BY-SA 4.0, camera Canon Canon EOS 70D)
 - **fj**: Palm fronds at a branded resort (Shangri-La); generic, nothing identifies Fiji itself ([Fiji banner Shangri-La Fijian Resort.jpg](https://commons.wikimedia.org/wiki/File:Fiji_banner_Shangri-La_Fijian_Resort.jpg))
+  - Replaced with: Small coral island in the Mamanuca group, Fiji ([Mamanuca island.jpg](https://commons.wikimedia.org/wiki/File:Mamanuca_island.jpg), CC BY-SA 3.0 de, camera FUJIFILM FinePix S100FS)
 - **gf**: Orbit view dominated by station solar panels and cloud; French Guiana not identifiable ([ISS009-E-21542 - View of French Guiana.jpg](https://commons.wikimedia.org/wiki/File:ISS009-E-21542_-_View_of_French_Guiana.jpg))
+  - Replaced with: Île du Diable shore, Îles du Salut, French Guiana ([Île du Diable Dreyfus.jpg](https://commons.wikimedia.org/wiki/File:%C3%8Ele_du_Diable_Dreyfus.jpg), CC BY-SA 4.0, camera NIKON CORPORATION NIKON D2H)
 - **gn**: Close crop of women carrying loads and fishing nets; people-centred, nothing identifies Guinea as a place ([Guinea banner.jpg](https://commons.wikimedia.org/wiki/File:Guinea_banner.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **id**: Dark sunset silhouette; nothing identifiable as Indonesia (or Bali) to a viewer ([Bali banner Sunset.jpg](https://commons.wikimedia.org/wiki/File:Bali_banner_Sunset.jpg))
+  - Replaced with: Borobudur temple, Central Java ([Borobudur-Nothwest-view.jpg](https://commons.wikimedia.org/wiki/File:Borobudur-Nothwest-view.jpg), Public domain, camera Canon Canon EOS 400D DIGITAL)
 - **io**: Plain strip of turquoise sea; nothing identifies Diego Garcia or BIOT ([Diego Garcia (BIOT) banner.jpg](https://commons.wikimedia.org/wiki/File:Diego_Garcia_(BIOT)_banner.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **jm**: Resort beach loungers and pavilion at dusk; generic resort scene, nothing identifies Jamaica ([Jamaica banner.jpg](https://commons.wikimedia.org/wiki/File:Jamaica_banner.jpg))
+  - Replaced with: Dunn's River Falls, Ocho Rios, Jamaica ([Dunns River Falls climb.JPG](https://commons.wikimedia.org/wiki/File:Dunns_River_Falls_climb.JPG), CC BY-SA 3.0, camera SONY            DSLR-A100)
 - **jo**: Hotel swimming pool and palms; the Dead Sea itself is not visible, generic resort stand-in ([17 Dead Sea (13) (13252089754).jpg](https://commons.wikimedia.org/wiki/File:17_Dead_Sea_(13)_(13252089754).jpg))
+  - Replaced with: Al-Khazneh (the Treasury), Petra ([Al-Khazneh (The Treasury) 2, Petra, Jordan.jpg](https://commons.wikimedia.org/wiki/File:Al-Khazneh_(The_Treasury)_2,_Petra,_Jordan.jpg), CC BY 4.0, camera OLYMPUS IMAGING CORP. C70Z,C7000Z)
 - **jp**: Close-up of paper lanterns; an object, not a place ([Japanese lanterns banner.jpg](https://commons.wikimedia.org/wiki/File:Japanese_lanterns_banner.jpg))
+  - Replaced with: Mount Fuji from Lake Kawaguchi, Japan's best-known landmark ([Mount Fuji view from Lake Kawaguchi 2024-12-01.jpg](https://commons.wikimedia.org/wiki/File:Mount_Fuji_view_from_Lake_Kawaguchi_2024-12-01.jpg), CC BY-SA 4.0, camera no EXIF)
 - **ke**: Close-up of a lioness and cub; wildlife portrait, no Kenyan landscape visible ([Kenya banner Lioness and cub.jpg](https://commons.wikimedia.org/wiki/File:Kenya_banner_Lioness_and_cub.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **km**: People wading with a fishing net; people-centred, nothing identifies Comoros ([Fish Harvest.jpg](https://commons.wikimedia.org/wiki/File:Fish_Harvest.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **md**: Moldovan fields, but EXIF camera DJI FC6310 (Phantom 4 Pro); breaks the no-drone rule ([Republic of Moldova banner.jpg](https://commons.wikimedia.org/wiki/File:Republic_of_Moldova_banner.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **mo**: Macau waterfront, but EXIF camera Hasselblad L1D-20c is the DJI Mavic 2 Pro drone camera; breaks the no-drone rule ([Panorama of Macau Peninsula2021.jpg](https://commons.wikimedia.org/wiki/File:Panorama_of_Macau_Peninsula2021.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **ms**: Abstract close texture of eroded ash gullies; unrecognisable as Montserrat to a viewer ([Monserrat banner.jpg](https://commons.wikimedia.org/wiki/File:Monserrat_banner.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **pf**: Dark satellite frame of tiny atoll rings and cloud; unrecognisable as French Polynesia to a traveller ([Archipel des Tuamotu.jpg](https://commons.wikimedia.org/wiki/File:Archipel_des_Tuamotu.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **tl**: Underwater close-up of a tube sponge; nothing identifies Timor-Leste ([East Timor banner Reef Tube sponge.jpg](https://commons.wikimedia.org/wiki/File:East_Timor_banner_Reef_Tube_sponge.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **tm**: Close-up of carpets; an object, not a place ([Turkmenistan banner Carpets 2.jpg](https://commons.wikimedia.org/wiki/File:Turkmenistan_banner_Carpets_2.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **tn**: Close-up of a Roman mosaic; an artefact, not a view of Tunisia ([Tunisia banner Roman mosaic at Carthage.jpg](https://commons.wikimedia.org/wiki/File:Tunisia_banner_Roman_mosaic_at_Carthage.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **us/delaware**: Flock of shorebirds on sand; nothing identifies Delaware ([Bannerdelaware.jpg](https://commons.wikimedia.org/wiki/File:Bannerdelaware.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **us/florida**: Heavily processed sunset over a boardwalk; generic, nothing identifies Florida ([Sunset on coast of Florida.jpg](https://commons.wikimedia.org/wiki/File:Sunset_on_coast_of_Florida.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **us/indiana**: Generic autumn residential street; nothing identifies Indiana ([Bannerindiana.jpg](https://commons.wikimedia.org/wiki/File:Bannerindiana.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **us/maryland**: Plate of steamed crabs; food, not a place ([Maryland-banner1.jpg](https://commons.wikimedia.org/wiki/File:Maryland-banner1.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **us/michigan**: Oblique orbit view of the Great Lakes; not identifiable to a traveller ([ISS015-E-6196 - View of Michigan.jpg](https://commons.wikimedia.org/wiki/File:ISS015-E-6196_-_View_of_Michigan.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **us/montana**: Orbit view dominated by Earth's curve and station hardware; Montana not identifiable ([ISS028-E-12597 - View of Montana.jpg](https://commons.wikimedia.org/wiki/File:ISS028-E-12597_-_View_of_Montana.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **us/new-mexico**: Orbit view under heavy cloud; New Mexico not identifiable ([ISS006-E-25187 - View of New Mexico.jpg](https://commons.wikimedia.org/wiki/File:ISS006-E-25187_-_View_of_New_Mexico.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **us/ohio**: Orbit view of cloud and Earth's curve with station hardware; Ohio not identifiable ([ISS007-E-16092 - View of Ohio.jpg](https://commons.wikimedia.org/wiki/File:ISS007-E-16092_-_View_of_Ohio.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **us/papahanaumokuakea**: Open-ocean sunset; generic, nothing identifies Papahānaumokuākea ([Sanc1404 - Flickr - NOAA Photo Library.jpg](https://commons.wikimedia.org/wiki/File:Sanc1404_-_Flickr_-_NOAA_Photo_Library.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **us/tennessee**: Generic forested lake reflection; nothing identifies Tennessee ([Lake Lindsey in David Crockett State Park (June 2005).jpg](https://commons.wikimedia.org/wiki/File:Lake_Lindsey_in_David_Crockett_State_Park_(June_2005).jpg))
+  - No suitable replacement yet; page shows no photo.
 - **us/texas**: Orbit view of coastline and cloud; Texas not identifiable to a traveller ([ISS036-E-9064 - View of Texas.jpg](https://commons.wikimedia.org/wiki/File:ISS036-E-9064_-_View_of_Texas.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **us/virginia**: Orbit view of land and water; Virginia not identifiable ([ISS006-E-35934 - View of Virginia.jpg](https://commons.wikimedia.org/wiki/File:ISS006-E-35934_-_View_of_Virginia.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **us/west-virginia**: Autumn stream and trees; generic, nothing identifies West Virginia ([West Virginia-banner1.jpg](https://commons.wikimedia.org/wiki/File:West_Virginia-banner1.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **us/wisconsin**: Snowy wooded path; generic, nothing identifies Wisconsin ([Bannerwisconsin.jpg](https://commons.wikimedia.org/wiki/File:Bannerwisconsin.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **vc**: Orbit view of cloud-covered specks; Saint Vincent and the Grenadines not identifiable ([ISS006-E-38029 - View of the Lesser Antilles.jpg](https://commons.wikimedia.org/wiki/File:ISS006-E-38029_-_View_of_the_Lesser_Antilles.jpg))
+  - No suitable replacement yet; page shows no photo.
 - **yt**: Close-up of a brown lemur; wildlife portrait, no Mayotte landscape ([Mayotte banner.jpg](https://commons.wikimedia.org/wiki/File:Mayotte_banner.jpg))
+  - No suitable replacement yet; page shows no photo.
 
 ## Unsure (still pending)
 

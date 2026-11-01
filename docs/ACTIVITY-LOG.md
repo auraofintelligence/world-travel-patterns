@@ -373,3 +373,7 @@ Same method and mechanism as batch 1: 85 confirmed and approved, 4 denied and re
 ## 2026-11-01 16:33 AEST, Grok: photo review, batch 4 of 4 (tc to zw, 86 photos)
 
 Same method and mechanism as batch 1: 67 confirmed and approved, 19 denied and rejected, 0 unsure. Denied: tl tm tn us/delaware us/florida us/indiana us/maryland us/michigan us/montana us/new-mexico us/ohio us/papahanaumokuakea us/tennessee us/texas us/virginia us/west-virginia us/wisconsin vc yt . Reasons are in docs/PHOTO-REVIEW-RECOMMENDATIONS.md.
+
+## 2026-11-01 16:38 AEST, Grok: replacement photos, batch 1 (9 places)
+
+For photos rejected in review, I approved openly licensed Wikimedia Commons replacements (curated file plus a choices entry that keeps the rejected title). Each one was viewed, has a CC or public-domain licence and is at least 1600 px wide, with no drone camera in EXIF. Places: au/nsw, au/qld, au/sa, fj, gf, id, jm, jo, jp.
