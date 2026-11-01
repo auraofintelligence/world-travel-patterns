@@ -2,29 +2,38 @@
  "place": "sx",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "Secondary sites say Australians enter Sint Maarten visa-free for short stays (about 90 days); Aruba, Curaçao and Sint Maarten use an online ED (embarkation-disembarkation) card before arrival.",
+   "status": "visa-free",
+   "summary": "No visa: Australia is on the Kingdom of the Netherlands' no-visa list for St Maarten.",
    "next_check": "Confirm on Sint Maarten's official immigration or ED card site.",
-   "evidence": "signal",
+   "evidence": "official",
    "sources": [
     {
-     "title": "Dutch Caribbean entry (aggregators)",
-     "authority": "Signal: secondary site",
-     "url": "https://evisas.io/visa-requirements/au/bq",
-     "checked": "2026-10-31",
-     "supports": "visa-free short stays"
+     "title": "Do I need a visa for the Caribbean parts of the Kingdom?",
+     "authority": "NetherlandsWorldwide, Government of the Netherlands",
+     "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+     "checked": "2026-11-01",
+     "supports": "Australia on the no-visa list for Aruba, Bonaire, Curaçao, Saba, St Eustatius and St Maarten (read directly)"
     }
    ],
-   "checked": "2026-10-31"
+   "checked": "2026-11-01"
   },
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Kingdom of the Netherlands, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Kingdom of the Netherlands, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "No visa: Australia is on the Kingdom of the Netherlands' no-visa list for St Maarten.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Do I need a visa for the Caribbean parts of the Kingdom?",
+       "authority": "NetherlandsWorldwide, Government of the Netherlands",
+       "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+       "checked": "2026-11-01",
+       "supports": "Australia on the no-visa list for Aruba, Bonaire, Curaçao, Saba, St Eustatius and St Maarten (read directly)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

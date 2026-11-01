@@ -2,21 +2,52 @@
  "place": "fk",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page. Visitors usually need a return ticket, accommodation and insurance; the islands have their own immigration rules.",
+   "status": "visa-free",
+   "summary": "Falkland Islands Government: Australians don't need a visa. A visitor permit is normally given on arrival, valid for one month. Show onward travel, booked accommodation, funds and medical evacuation insurance.",
    "next_check": "Confirm with the Falkland Islands's government.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa national list",
+     "authority": "Falkland Islands Government Customs and Immigration",
+     "url": "https://falklands.gov.fk/customs/useful-information/3-visa-national-list",
+     "checked": "2026-11-01",
+     "supports": "visa list (read via a search-index snapshot)"
+    },
+    {
+     "title": "Visitor permit",
+     "authority": "Falkland Islands Government",
+     "url": "https://www.gov.fk/customs/visitor-permit/",
+     "checked": "2026-11-01",
+     "supports": "permit and conditions (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free; visitor permit on arrival",
+     "detail": "Falkland Islands Government: Australians don't need a visa. A visitor permit is normally given on arrival, valid for one month. Show onward travel, booked accommodation, funds and medical evacuation insurance.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa national list",
+       "authority": "Falkland Islands Government Customs and Immigration",
+       "url": "https://falklands.gov.fk/customs/useful-information/3-visa-national-list",
+       "checked": "2026-11-01",
+       "supports": "visa list (read via a search-index snapshot)"
+      },
+      {
+       "title": "Visitor permit",
+       "authority": "Falkland Islands Government",
+       "url": "https://www.gov.fk/customs/visitor-permit/",
+       "checked": "2026-11-01",
+       "supports": "permit and conditions (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

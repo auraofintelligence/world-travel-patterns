@@ -2,12 +2,20 @@
  "place": "cv",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no Australian-specific official source found on 31 October 2026 for Cape Verde. Aggregator sites disagree. Cape Verde runs an online pre-registration (EASE) with an airport security fee for visa-free nationalities.",
+   "status": "visa-required",
+   "summary": "Visa needed: Australia isn't on Cabo Verde's official visa-exempt list (67 countries). All travellers must pre-register on EASE and pay the airport security tax (TSA) at least five days before arrival.",
    "next_check": "Ask Cape Verde's embassy or immigration authority which visa an Australian needs.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Países isentos de visto para Cabo Verde",
+     "authority": "Portal Único, Government of Cabo Verde",
+     "url": "https://www.gov.cv/paises-isentos-de-visto-para-cabo-verde",
+     "checked": "2026-11-01",
+     "supports": "exempt list (Australia absent) and EASE rule (read directly)"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -33,11 +41,20 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visa before travel, plus EASE pre-registration",
+     "detail": "Visa needed: Australia isn't on Cabo Verde's official visa-exempt list (67 countries). All travellers must pre-register on EASE and pay the airport security tax (TSA) at least five days before arrival.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Países isentos de visto para Cabo Verde",
+       "authority": "Portal Único, Government of Cabo Verde",
+       "url": "https://www.gov.cv/paises-isentos-de-visto-para-cabo-verde",
+       "checked": "2026-11-01",
+       "supports": "exempt list (Australia absent) and EASE rule (read directly)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

@@ -512,3 +512,7 @@ Searched national tourism boards and government pages for 11 ask-locally culture
 ## 2026-11-01 17:03 AEST, Grok: Activities: tourism confirm-in-writing upgraded from official entry sources (15 records)
 
 15 tourism activity checks marked confirm-in-writing already had official entry records, so I upgraded them using those citations. Low: ag, bb, cq, dm, fo, gd, gg, gl, im, je, ki, kn, vc. Conditional (visa or e-Visa before travel): lc, tg. Other activities (work, speaking and so on) are unchanged because they need labour or immigration pages for each activity. 49 tourism checks remain confirm-in-writing, mostly places whose entry record also lacks an official source.
+
+## 2026-11-01 17:04 AEST, Grok: Entry and tourism: official immigration sources replace confirm-in-writing (10 records)
+
+Researched official immigration pages for 10 places whose tourism check was confirm-in-writing; updated both the entry and the tourism activity. Visa-free (low): aw, bq, cw and sx (Kingdom of the Netherlands no-visa list, read directly), ai (Anguilla visa-required list from 2018, Australia absent, read directly) and fk (Falkland Islands Government, snapshot). Visa on arrival (low): sn (Senegal Embassy London Category B list, read directly). Visa or e-Visa before travel (conditional): cv (Australia absent from the gov.cv exempt list, read directly; EASE pre-registration), ci (SNEDAI e-Visa, snapshot) and gn (PAF e-Visa, snapshot). Tried and still unconfirmed: bm (Order 2026 list not readable) and gm (gambia.gov.gm timed out).

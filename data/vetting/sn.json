@@ -2,17 +2,17 @@
  "place": "sn",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "Smartraveller's page gives no visa detail; it refers travellers to the country's embassy.",
+   "status": "visa-on-arrival",
+   "summary": "Australia is in Category B: free visa on arrival, at Dakar Blaise Diagne International Airport only. Bring a return ticket, hotel booking or invitation letter, and yellow fever vaccination proof.",
    "evidence": "official",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "sources": [
     {
-     "title": "Senegal travel advice",
-     "authority": "Smartraveller, Australian Government",
-     "url": "https://www.smartraveller.gov.au/destinations/africa/senegal",
-     "checked": "2026-10-31",
-     "supports": "entry conditions as read on 2026-10-31"
+     "title": "Visa nationals and categories",
+     "authority": "Embassy of the Republic of Senegal, London",
+     "url": "https://senegal-embassy.uk/list-of-countries-and-categories/",
+     "checked": "2026-11-01",
+     "supports": "Category B (page updated 31 March 2025) (read directly)"
     }
    ]
   },
@@ -307,11 +307,20 @@
    "evidence": "official",
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "confirm in writing",
-     "detail": "Smartraveller's page gives no visa detail; it refers travellers to the country's embassy.",
-     "next": "See the entry record.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Free visa on arrival at Dakar Blaise Diagne airport only",
+     "detail": "Australia is in Category B: free visa on arrival, at Dakar Blaise Diagne International Airport only. Bring a return ticket, hotel booking or invitation letter, and yellow fever vaccination proof.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa nationals and categories",
+       "authority": "Embassy of the Republic of Senegal, London",
+       "url": "https://senegal-embassy.uk/list-of-countries-and-categories/",
+       "checked": "2026-11-01",
+       "supports": "Category B (page updated 31 March 2025) (read directly)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

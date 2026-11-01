@@ -2,17 +2,24 @@
  "place": "ci",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "Smartraveller's page gives no visa detail; it refers travellers to the country's embassy.",
+   "status": "evisa",
+   "summary": "Australians need a visa. Apply online through the official e-Visa platform at least 10 working days ahead, then complete biometric enrolment at Abidjan airport. A yellow fever certificate is required.",
    "evidence": "official",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "sources": [
     {
-     "title": "Côte d'Ivoire (Ivory Coast) travel advice",
-     "authority": "Smartraveller, Australian Government",
-     "url": "https://www.smartraveller.gov.au/destinations/africa/cote-divoire-ivory-coast",
-     "checked": "2026-10-31",
-     "supports": "entry conditions as read on 2026-10-31"
+     "title": "E-visa",
+     "authority": "SNEDAI (official e-Visa operator for Côte d'Ivoire)",
+     "url": "https://snedai.com/e-visa/",
+     "checked": "2026-11-01",
+     "supports": "e-Visa process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Visa",
+     "authority": "Embassy of Côte d'Ivoire in Australia",
+     "url": "https://australie.diplomatie.gouv.ci/visa.php?lang=&num=1",
+     "checked": "2026-11-01",
+     "supports": "visa needed (read via a search-index snapshot)"
     }
    ]
   },
@@ -287,11 +294,27 @@
    "evidence": "official",
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "confirm in writing",
-     "detail": "Smartraveller's page gives no visa detail; it refers travellers to the country's embassy.",
-     "next": "See the entry record.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "e-Visa approval before travel, visa issued on arrival",
+     "detail": "Australians need a visa. Apply online through the official e-Visa platform at least 10 working days ahead, then complete biometric enrolment at Abidjan airport. A yellow fever certificate is required.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "E-visa",
+       "authority": "SNEDAI (official e-Visa operator for Côte d'Ivoire)",
+       "url": "https://snedai.com/e-visa/",
+       "checked": "2026-11-01",
+       "supports": "e-Visa process (read via a search-index snapshot)"
+      },
+      {
+       "title": "Visa",
+       "authority": "Embassy of Côte d'Ivoire in Australia",
+       "url": "https://australie.diplomatie.gouv.ci/visa.php?lang=&num=1",
+       "checked": "2026-11-01",
+       "supports": "visa needed (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

@@ -2,17 +2,24 @@
  "place": "gn",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "Smartraveller's page gives no visa detail; it refers travellers to the country's embassy.",
+   "status": "evisa",
+   "summary": "Apply for Guinea's e-Visa on the official Police aux Frontières platform. Upload your passport, photo, yellow fever certificate and return flight, then present the receipt at Conakry airport for biometrics and visa issue.",
    "evidence": "official",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "sources": [
     {
-     "title": "Guinea travel advice",
-     "authority": "Smartraveller, Australian Government",
-     "url": "https://www.smartraveller.gov.au/destinations/africa/guinea",
-     "checked": "2026-10-31",
-     "supports": "entry conditions as read on 2026-10-31"
+     "title": "Guinea Visa",
+     "authority": "Police de l'Air et des Frontières, Guinea",
+     "url": "https://www.paf.gov.gn/visa",
+     "checked": "2026-11-01",
+     "supports": "e-Visa application (read via a search-index snapshot)"
+    },
+    {
+     "title": "Visa",
+     "authority": "PAF Guinée",
+     "url": "https://www.paf.gov.gn/dnpaf/?page_id=335&lang=en",
+     "checked": "2026-11-01",
+     "supports": "documents (read via a search-index snapshot)"
     }
    ]
   },
@@ -315,11 +322,27 @@
    "evidence": "official",
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "confirm in writing",
-     "detail": "Smartraveller's page gives no visa detail; it refers travellers to the country's embassy.",
-     "next": "See the entry record.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "e-Visa through the official PAF platform",
+     "detail": "Apply for Guinea's e-Visa on the official Police aux Frontières platform. Upload your passport, photo, yellow fever certificate and return flight, then present the receipt at Conakry airport for biometrics and visa issue.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Guinea Visa",
+       "authority": "Police de l'Air et des Frontières, Guinea",
+       "url": "https://www.paf.gov.gn/visa",
+       "checked": "2026-11-01",
+       "supports": "e-Visa application (read via a search-index snapshot)"
+      },
+      {
+       "title": "Visa",
+       "authority": "PAF Guinée",
+       "url": "https://www.paf.gov.gn/dnpaf/?page_id=335&lang=en",
+       "checked": "2026-11-01",
+       "supports": "documents (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

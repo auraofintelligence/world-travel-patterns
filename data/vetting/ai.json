@@ -2,29 +2,38 @@
  "place": "ai",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "A secondary guide lists Australians as needing no visa, with a passport valid 6 months after entry.",
+   "status": "visa-free",
+   "summary": "No visa: Australia isn't on Anguilla's visa-required list (revised July 2018; an older list, so confirm close to travel).",
    "next_check": "Confirm with Anguilla's Immigration Department.",
-   "evidence": "signal",
+   "evidence": "official",
    "sources": [
     {
-     "title": "Anguilla passport and visa",
-     "authority": "Signal: secondary site",
-     "url": "https://www.worldtravelguide.net/guides/caribbean/anguilla/passport-visa",
-     "checked": "2026-10-31",
-     "supports": "no visa for Australians"
+     "title": "Visa requirements for Anguilla, revised July 2018",
+     "authority": "Government of Anguilla",
+     "url": "https://www.gov.ai/document/immigration/Visa%20Requirements%20for%20Anguilla%20Revised%20August%202018.pdf",
+     "checked": "2026-11-01",
+     "supports": "visa-required list (Australia absent) (read directly)"
     }
    ],
-   "checked": "2026-10-31"
+   "checked": "2026-11-01"
   },
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "No visa: Australia isn't on Anguilla's visa-required list (revised July 2018; an older list, so confirm close to travel).",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa requirements for Anguilla, revised July 2018",
+       "authority": "Government of Anguilla",
+       "url": "https://www.gov.ai/document/immigration/Visa%20Requirements%20for%20Anguilla%20Revised%20August%202018.pdf",
+       "checked": "2026-11-01",
+       "supports": "visa-required list (Australia absent) (read directly)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",
