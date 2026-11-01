@@ -563,19 +563,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa on arrival for 90 days.",
    "cost_aud_baseline": {
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-SOLOMON-ISLANDS-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -585,6 +583,52 @@
      "cost": "WORLD-SOLOMON-ISLANDS-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "Tourist Visa applied for before travel, valid up to 90 days (a temporary grace period may still allow visas on arrival).",
+   "steps": [
+    {
+     "step": "Apply for the Tourist Visa with passport copy, itinerary, hotel booking and proof of funds.",
+     "url": "https://immigration.gov.sb/visas/"
+    },
+    "Carry proof of measles vaccination (recommended).",
+    "Extensions cost extra."
+   ],
+   "documents": [
+    "Passport copy",
+    "Travel itinerary",
+    "Hotel booking",
+    "Proof of funds",
+    "Measles vaccination proof (recommended)"
+   ],
+   "fees": [
+    {
+     "item": "Tourist Visa",
+     "amount": 100,
+     "currency": "USD",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/solomon-islands",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/solomon-islands",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
+    },
+    {
+     "title": "Visas",
+     "authority": "Solomon Islands Immigration Division",
+     "url": "https://immigration.gov.sb/visas/",
+     "supports": "official visa page",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }

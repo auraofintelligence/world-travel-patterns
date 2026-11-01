@@ -571,19 +571,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2026-08-20",
-   "last_reviewed": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Australian passport holders can receive a 30-day visitor permit on arrival; longer stays need advance permission.",
    "cost_aud_baseline": {
     "value": "Free on arrival",
     "checked": "2026-08-20",
     "claim_id": "WORLD-NIUE-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -593,6 +591,40 @@
      "cost": "WORLD-NIUE-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "No visa for tourist visits up to 30 days. Flights only via New Zealand, so NZ entry rules also apply.",
+   "steps": [
+    "Pre-book accommodation for the whole stay.",
+    "Carry an onward or return ticket and enough money."
+   ],
+   "documents": [
+    "Passport",
+    "Accommodation booking",
+    "Onward or return ticket",
+    "Proof of funds"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry (30 days)",
+     "amount": 0,
+     "currency": "NZD",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/niue",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/niue",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }

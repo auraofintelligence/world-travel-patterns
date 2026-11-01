@@ -639,19 +639,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa must be arranged through a licensed tour operator.",
    "cost_aud_baseline": {
     "value": "High (daily fee applies)",
     "checked": "2025-08-16",
     "claim_id": "WORLD-BHUTAN-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -661,6 +659,56 @@
      "cost": "WORLD-BHUTAN-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "Visa needed, approved in advance (through a Bhutanese tour operator, hotel or the Department of Immigration) and issued on arrival.",
+   "steps": [
+    {
+     "step": "Apply online and pay the visa fee and Sustainable Development Fee (SDF) during the application.",
+     "url": "https://visit.doi.gov.bt/help/faq"
+    },
+    "Some areas need permits; a guide can arrange them.",
+    "Get the visa stamped on arrival."
+   ],
+   "documents": [
+    "Passport valid at least 6 months",
+    "Visa clearance letter"
+   ],
+   "fees": [
+    {
+     "item": "visa",
+     "amount": 40,
+     "currency": "USD",
+     "url": "https://visit.doi.gov.bt/help/faq",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "Sustainable Development Fee, per adult per night (discount to 31 August 2027)",
+     "amount": 100,
+     "currency": "USD",
+     "url": "https://visit.doi.gov.bt/help/faq",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
+    },
+    {
+     "title": "Visit Bhutan FAQ",
+     "authority": "Department of Immigration, Bhutan",
+     "url": "https://visit.doi.gov.bt/help/faq",
+     "supports": "visa fee and SDF (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }

@@ -3,10 +3,10 @@
   "generated_on": "2026-11-01",
   "mode": "public",
   "place_passes": 272,
-  "pattern_items": 1366,
+  "pattern_items": 1357,
   "by_reason": {
    "never-checked": 1209,
-   "over-budget": 157
+   "over-budget": 148
   },
   "watch_checks": 0
  },
@@ -123,34 +123,6 @@
   {
    "place": "fm",
    "name": "Federated States of Micronesia",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 90
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "fj",
-   "name": "Fiji",
    "kind": "country",
    "tags": [
     "oceania"
@@ -363,40 +335,6 @@
   {
    "place": "ws",
    "name": "Samoa",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 90
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "sb",
-   "name": "Solomon Islands",
    "kind": "country",
    "tags": [
     "oceania"
@@ -644,6 +582,28 @@
    "place": "ck",
    "name": "Cook Islands",
    "kind": "associated",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "fj",
+   "name": "Fiji",
+   "kind": "country",
    "tags": [
     "oceania"
    ],
@@ -1035,6 +995,34 @@
     },
     {
      "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "sb",
+   "name": "Solomon Islands",
+   "kind": "country",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
@@ -2694,32 +2682,6 @@
    ]
   },
   {
-   "place": "bt",
-   "name": "Bhutan",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "bo",
    "name": "Bolivia",
    "kind": "country",
@@ -2887,32 +2849,6 @@
      "age_days": null,
      "budget_days": 365
     },
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "kh",
-   "name": "Cambodia",
-   "kind": "country",
-   "tags": [],
-   "due": [
     {
      "pattern": "visa-preparation",
      "reason": "over-budget",
@@ -4754,38 +4690,6 @@
    ]
   },
   {
-   "place": "mv",
-   "name": "Maldives",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "ml",
    "name": "Mali",
    "kind": "country",
@@ -4996,26 +4900,6 @@
    ]
   },
   {
-   "place": "mn",
-   "name": "Mongolia",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "me",
    "name": "Montenegro",
    "kind": "country",
@@ -5143,38 +5027,6 @@
    "kind": "country",
    "tags": [],
    "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "np",
-   "name": "Nepal",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
     {
      "pattern": "visa-preparation",
      "reason": "over-budget",
@@ -6092,38 +5944,6 @@
    ]
   },
   {
-   "place": "lk",
-   "name": "Sri Lanka",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "sd",
    "name": "Sudan",
    "kind": "country",
@@ -6283,50 +6103,6 @@
     },
     {
      "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "tw",
-   "name": "Taiwan",
-   "kind": "jurisdiction",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "health-entry",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
@@ -7164,6 +6940,26 @@
    ]
   },
   {
+   "place": "bt",
+   "name": "Bhutan",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "br",
    "name": "Brazil",
    "kind": "country",
@@ -7287,6 +7083,26 @@
      "age_days": null,
      "budget_days": 90
     },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "kh",
+   "name": "Cambodia",
+   "kind": "country",
+   "tags": [],
+   "due": [
     {
      "pattern": "year-ahead",
      "reason": "never-checked",
@@ -8574,6 +8390,32 @@
    ]
   },
   {
+   "place": "mv",
+   "name": "Maldives",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "mq",
    "name": "Martinique",
    "kind": "territory",
@@ -8700,6 +8542,20 @@
    ]
   },
   {
+   "place": "mn",
+   "name": "Mongolia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "ms",
    "name": "Montserrat",
    "kind": "territory",
@@ -8740,6 +8596,32 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "np",
+   "name": "Nepal",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
     },
     {
      "pattern": "year-ahead",
@@ -9526,6 +9408,32 @@
    ]
   },
   {
+   "place": "lk",
+   "name": "Sri Lanka",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "sj",
    "name": "Svalbard and Jan Mayen",
    "kind": "territory",
@@ -9604,6 +9512,44 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "tw",
+   "name": "Taiwan",
+   "kind": "jurisdiction",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
     },
     {
      "pattern": "zone-requirements",

@@ -539,19 +539,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa-free for business visits up to 90 days.",
    "cost_aud_baseline": {
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-TAIWAN-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -561,6 +559,57 @@
      "cost": "WORLD-TAIWAN-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "Visa-exempt entry up to 90 days for tourism or business, with a confirmed onward ticket; not available with a criminal record.",
+   "before_departure": "Free TWAC within 3 days before arrival.",
+   "steps": [
+    {
+     "step": "Submit the free Taiwan Arrival Card (TWAC) within 3 days before arrival (beware imitation sites).",
+     "url": "https://twac.immigration.gov.tw/"
+    },
+    "Check the visa-exempt conditions on the Bureau of Consular Affairs site."
+   ],
+   "documents": [
+    "Passport",
+    "TWAC",
+    "Confirmed onward or return ticket"
+   ],
+   "fees": [
+    {
+     "item": "visa-exempt entry (90 days)",
+     "amount": 0,
+     "currency": "TWD",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/taiwan",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "TWAC",
+     "amount": 0,
+     "currency": "TWD",
+     "url": "https://twac.immigration.gov.tw/",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/taiwan",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
+    },
+    {
+     "title": "Taiwan Arrival Card",
+     "authority": "National Immigration Agency, Ministry of the Interior",
+     "url": "https://twac.immigration.gov.tw/",
+     "supports": "official TWAC portal",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }

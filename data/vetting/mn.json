@@ -603,19 +603,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "e-Visa available for business travel up to 30 days.",
    "cost_aud_baseline": {
     "value": "~ $80",
     "checked": "2025-08-16",
     "claim_id": "WORLD-MONGOLIA-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -625,7 +623,40 @@
      "cost": "WORLD-MONGOLIA-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   }
+   },
+   "fastest_entry": "Tourists can stay up to 30 days without a visa.",
+   "steps": [
+    "Business or longer stays need a visa (up to 90 days) and health entry conditions.",
+    "Register with the Mongolian immigration authority if required (see Smartraveller).",
+    "Border areas need local permission."
+   ],
+   "documents": [
+    "Passport"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry (30 days)",
+     "amount": 0,
+     "currency": "MNT",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/mongolia",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/mongolia",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
+   },
+   "recheck_note": "Smartraveller flags a fuel shortage disrupting flights and roads."
   }
  }
 }

@@ -637,19 +637,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "e-Visa or Visa on arrival available for business.",
    "cost_aud_baseline": {
     "value": "~ $55",
     "checked": "2025-08-16",
     "claim_id": "WORLD-CAMBODIA-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -659,6 +657,58 @@
      "cost": "WORLD-CAMBODIA-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "e-Visa online or a tourist visa on arrival, valid 30 days.",
+   "steps": [
+    {
+     "step": "Apply for the Visa T e-Visa (about 3 business days) and bring the certificate.",
+     "url": "https://www.evisa.gov.kh/information/visa_type/4"
+    },
+    "Submit the Cambodia e-Arrival, recommended within 7 days before arrival.",
+    "Don't overstay: fines, detention and bans apply."
+   ],
+   "documents": [
+    "Passport valid more than 6 months",
+    "Digital passport photo",
+    "e-Visa certificate",
+    "e-Arrival"
+   ],
+   "fees": [
+    {
+     "item": "e-Visa T (tourist, 1 month)",
+     "amount": 30,
+     "currency": "USD",
+     "url": "https://www.evisa.gov.kh/information/visa_type/4",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "e-Visa E (ordinary/business, 1 month)",
+     "amount": 35,
+     "currency": "USD",
+     "url": "https://www.evisa.gov.kh/information/visa_type/4",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/cambodia",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
+    },
+    {
+     "title": "Visa type information",
+     "authority": "eVisa Kingdom of Cambodia, Ministry of Foreign Affairs",
+     "url": "https://www.evisa.gov.kh/information/visa_type/4",
+     "supports": "fees, validity, requirements (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }
