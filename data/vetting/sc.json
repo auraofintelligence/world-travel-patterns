@@ -425,11 +425,20 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of the Republic of the Seychelles",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of the Republic of the Seychelles which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor's Permit on arrival (business purposes) with travel authorisation",
+     "detail": "The Visitor's Permit covers business visits for up to 3 months, extendable to 12. Travel authorisation must be obtained before departure. The page does not cover setting up or running a business locally.",
+     "next": "Ask Immigration about establishing a business.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visitor's Permit",
+       "authority": "Immigration and Civil Status, Seychelles",
+       "url": "https://ics.gov.sc/permits/visitors-permit",
+       "checked": "2026-11-01",
+       "supports": "issued on arrival for business; ETA needed (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "conditional",

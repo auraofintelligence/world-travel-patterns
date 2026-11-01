@@ -256,11 +256,20 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Azerbaijan, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Azerbaijan, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Temporary residence for entrepreneurs with local staff, or investment",
+     "detail": "Entrepreneurship qualifies for temporary residence only with labour contracts for at least 5 full-time (or 10 part-time) workers, 80% of them citizens. Investing AZN 500,000 is a separate ground.",
+     "next": "Apply to the State Migration Service.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Obtaining a residence permit",
+       "authority": "Invest in Azerbaijan (official investment portal)",
+       "url": "http://invest.gov.az/en/page/localize-in-Azerbaijan/obtaining-a-residence-permit",
+       "checked": "2026-11-01",
+       "supports": "entrepreneurs need 5 full-time staff, 80% citizens; AZN 500,000 investment (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "conditional",

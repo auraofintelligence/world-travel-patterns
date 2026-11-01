@@ -834,3 +834,7 @@ Filming checks from official sources: Ireland crews up to 14 days on visitor ent
 ## 2026-11-01 20:36 AEST, Grok: Docs: handoff and STATUS updated after volunteering, remote work, research, book launch and filming passes (0 records)
 
 Docs only: handoff and STATUS.md item 1 updated (743 confirm-in-writing, 20%; 423 outside Do-not-travel places).
+
+## 2026-11-01 23:15 AEST, Grok: Entrepreneur rules: tw, mu, sc, mn, am, az (6 records)
+
+Entrepreneur checks from official sources (search-index snapshots): Taiwan Entrepreneur Visa criteria; Mauritius investor OP USD 100,000 or innovative start-up; Seychelles visitor permit for business; Mongolia 10-day K1 e-visa; Armenia business residency; Azerbaijan needs 5 local staff (80% citizens).

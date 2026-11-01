@@ -401,11 +401,20 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Mongolia, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Mongolia, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "K1 business e-visa (10 days, no inviter needed)",
+     "detail": "Short business and investment visits up to 10 days can use a K1 e-visa without an inviter, processed in about 48 hours. Longer stays need an inviter.",
+     "next": "Apply via isf.mn.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Ten-day K1 and A3 e-visas without an inviter",
+       "authority": "Immigration Agency of Mongolia",
+       "url": "https://immigration.gov.mn/en/articles/525/",
+       "checked": "2026-11-01",
+       "supports": "K1 business visas up to 10 days without inviter, 48 hours (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "confirm-in-writing",

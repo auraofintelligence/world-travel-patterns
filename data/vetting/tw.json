@@ -301,11 +301,27 @@
      ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Entrepreneur Visa (MOEA review, NIA online application)",
+     "detail": "Eligibility includes venture or NT$2 million platform funding, an approved incubator recommendation, patents, startup or design awards, festival selection, or a Taiwan startup with at least NT$1 million invested. The first residence card is valid two years.",
+     "next": "Apply online through the NIA foreign professionals platform.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Directions for the Entrepreneur Visa",
+       "authority": "Ministry of Economic Affairs, Taiwan",
+       "url": "https://law.moea.gov.tw/EngLawContent.aspx?id=10595",
+       "checked": "2026-11-01",
+       "supports": "criteria incl. NT$2 million funding, incubator, patents, NT$1 million company (read via a search-index snapshot)"
+      },
+      {
+       "title": "Guidelines for online application for Entrepreneur Visa",
+       "authority": "National Immigration Agency, Taiwan",
+       "url": "https://www.immigration.gov.tw/media/110863/0928-guidelines-for-online-application-for-entrepreneur-visa-and-resident-visa-and-extension-of-residence-or-change-of-registration-for-foreign-nationals20250217.pdf",
+       "checked": "2026-11-01",
+       "supports": "online application, ARC valid two years (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "low",

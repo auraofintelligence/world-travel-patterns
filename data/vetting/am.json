@@ -256,11 +256,20 @@
      ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Armenia",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Armenia which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Residency on business grounds via the Migration Service",
+     "detail": "Temporary residency (one year) can be granted for a business venture; permanent residency (5 years, renewable) is open to those carrying out entrepreneurial activity in Armenia.",
+     "next": "Apply to the Migration Service with proof of business activity.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Temporary, permanent and special residency statuses",
+       "authority": "Office of the High Commissioner for Diaspora Affairs, Armenia",
+       "url": "http://diaspora.gov.am/en/faqs/12",
+       "checked": "2026-11-01",
+       "supports": "temporary residency for a business venture; permanent for entrepreneurial activity (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "confirm-in-writing",
