@@ -616,3 +616,7 @@ Strengthened technology with organiser-published 2027 dates: MWC Barcelona (1 to
 ## 2026-11-01 17:27 AEST, Grok: Culture: national etiquette upgrades and searches (mx to nu) (10 records)
 
 Upgraded mx (INAH site rules), my (mosque rules), na (photography fees), nc (customary gesture), nl (Amsterdam ban zones), np, nr and nu (Sunday rules) to partly-mapped. mz and ni: searched, none found. Read via search-index snapshots.
+
+## 2026-11-01 17:28 AEST, Grok: Activities: southern and east African speaker routes (mu, mw, na, rw, sc, sz, tz, ug, zm, zw) (10 records)
+
+Notable: mu (entertainers exempt for public shows up to 90 days a year), na (short-term work visa names speakers and conference facilitators; about 10 working days), rw (V5 conference visa; R special pass for paid work), sc (even unpaid work needs a Gainful Occupation Permit), ug (Special Pass USD 400), plus tz, zm, zw, mw and sz. Read via search-index snapshots.
