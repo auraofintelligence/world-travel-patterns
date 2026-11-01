@@ -84,7 +84,7 @@ def write_discovery(rows):
     (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"<url><loc>{u.replace('&', '&amp;')}</loc><lastmod>{on}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
     lines = ["# World Travel Patterns", "",
-             "A Luke × Claude travel research site for Australian passport holders: entry, local law, culture and protocol, permit zones, "
+             "A Luke × Claude, Codex and Grok travel research site for Australian passport holders: entry, local law, culture and protocol, permit zones, "
              "seasons and festivals, and consular help for each place, with every rule linked to its source and dated.", "",
              "A planning aid, not legal advice. A level marked \"not yet checked\" has unknown rules, not no rules. Rules come from the government, "
              "authority or community that owns them; anything else is labelled a signal. Original material uses the Strange But True Public Source "

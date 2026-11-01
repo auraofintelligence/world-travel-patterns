@@ -103,7 +103,7 @@
         `<a href="${href}"${key === page || (page === "place" && key === "places") ? ' aria-current="page"' : ""}>${label}</a>`).join("")}</div>`;
     document.body.prepend(nav);
     const footer = document.createElement("footer");
-    footer.innerHTML = `<div class="section"><span>🤝🔷 A Luke × Claude build · Strange But True Public Source Licence</span>
+    footer.innerHTML = `<div class="section"><span>🤝🔷 A Luke × Claude, Codex and Grok build · Strange But True Public Source Licence</span>
       <span>A planning aid, not legal advice. A level marked "not yet checked" has unknown rules, not no rules.</span>
       <span><a href="site-map.html">Site map</a> · <a href="how.html">How it works</a> · <a href="queue.html">Queue</a> · <a href="${REPO}">Source on GitHub</a></span></div>`;
     document.body.append(footer);
