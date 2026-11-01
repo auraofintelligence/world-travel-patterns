@@ -284,10 +284,10 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "currency": null,
+   "currency": "euro (EUR)",
    "cash_card_notes": "Belgium's currency is the Euro. ATMs are widely available. If you're travelling between Belgium and a non-EU country, declare currency of 10,000 euros or more or equivalent. This covers all forms of currency, not only cash. You'll be fined if you don't declare currency or give incorrect information on entry or exit. You don't need to declare currency if you're travelling to or from another EU country.",
    "daily_cost_aud": null,
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "evidence": "official",
    "sources": [
     {
@@ -296,8 +296,23 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/belgium",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Currency (P38) with ISO 4217 code (P498)",
+     "authority": "Signal: Wikidata",
+     "url": "https://www.wikidata.org/wiki/Property:P38",
+     "checked": "2026-11-01",
+     "supports": "currencies in use"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
+     "checked": "2026-11-01",
+     "supports": "A$ exchange rates on 30 October 2026"
     }
-   ]
+   ],
+   "rate_and_date": "A$1 = 0.6293 EUR (Reserve Bank of Australia, 30 October 2026)"
   },
   "culture-cycles": {
    "status": "partly-mapped",

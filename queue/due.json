@@ -3,10 +3,9 @@
   "generated_on": "2026-11-01",
   "mode": "public",
   "place_passes": 272,
-  "pattern_items": 1286,
+  "pattern_items": 1217,
   "by_reason": {
-   "never-checked": 1257,
-   "over-budget": 29
+   "never-checked": 1217
   },
   "watch_checks": 0
  },
@@ -121,6 +120,46 @@
    ]
   },
   {
+   "place": "ca",
+   "name": "Canada",
+   "kind": "country",
+   "tags": [
+    "first-nations"
+   ],
+   "due": [
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
    "place": "ki",
    "name": "Kiribati",
    "kind": "country",
@@ -147,16 +186,44 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
+    },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "mh",
+   "name": "Marshall Islands",
+   "kind": "country",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
     },
     {
      "pattern": "works-and-purpose",
@@ -205,148 +272,10 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "tv",
-   "name": "Tuvalu",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "ca",
-   "name": "Canada",
-   "kind": "country",
-   "tags": [
-    "first-nations"
-   ],
-   "due": [
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "mh",
-   "name": "Marshall Islands",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
     },
     {
      "pattern": "works-and-purpose",
@@ -458,12 +387,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -595,12 +518,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -709,12 +626,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -742,6 +653,58 @@
     "oceania"
    ],
    "due": [
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "tv",
+   "name": "Tuvalu",
+   "kind": "country",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
     {
      "pattern": "works-and-purpose",
      "reason": "never-checked",
@@ -817,12 +780,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -876,12 +833,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -1027,12 +978,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "works-and-purpose",
      "reason": "never-checked",
      "age_days": null,
@@ -1097,12 +1042,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -2172,1306 +2111,6 @@
    ]
   },
   {
-   "place": "ad",
-   "name": "Andorra",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "ag",
-   "name": "Antigua and Barbuda",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "bb",
-   "name": "Barbados",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "cv",
-   "name": "Cape Verde",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "km",
-   "name": "Comoros",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "cy",
-   "name": "Cyprus",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "dm",
-   "name": "Dominica",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "gq",
-   "name": "Equatorial Guinea",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "er",
-   "name": "Eritrea",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "fi",
-   "name": "Finland",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "gh",
-   "name": "Ghana",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "gd",
-   "name": "Grenada",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "gw",
-   "name": "Guinea-Bissau",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "li",
-   "name": "Liechtenstein",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "lu",
-   "name": "Luxembourg",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "mc",
-   "name": "Monaco",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "cg",
-   "name": "Republic of the Congo",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "rw",
-   "name": "Rwanda",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "kn",
-   "name": "Saint Kitts and Nevis",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "lc",
-   "name": "Saint Lucia",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "vc",
-   "name": "Saint Vincent and the Grenadines",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "sm",
-   "name": "San Marino",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "sr",
-   "name": "Suriname",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "st",
-   "name": "São Tomé and Príncipe",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "tg",
-   "name": "Togo",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
-   "place": "va",
-   "name": "Vatican City",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "affection-and-relationships",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "over-budget",
-     "age_days": 442,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
    "place": "af",
    "name": "Afghanistan",
    "kind": "country",
@@ -3544,6 +2183,56 @@
    ]
   },
   {
+   "place": "ad",
+   "name": "Andorra",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
    "place": "ao",
    "name": "Angola",
    "kind": "country",
@@ -3595,12 +2284,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -3706,6 +2389,56 @@
    ]
   },
   {
+   "place": "ag",
+   "name": "Antigua and Barbuda",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
    "place": "ar",
    "name": "Argentina",
    "kind": "country",
@@ -3783,12 +2516,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -3938,6 +2665,56 @@
    ]
   },
   {
+   "place": "bb",
+   "name": "Barbados",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
    "place": "by",
    "name": "Belarus",
    "kind": "country",
@@ -4055,12 +2832,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -4234,12 +3005,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -4285,12 +3050,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -4458,12 +3217,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -4509,12 +3262,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -4686,12 +3433,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -4760,12 +3501,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -4796,6 +3531,56 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "km",
+   "name": "Comoros",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
     },
     {
      "pattern": "year-ahead",
@@ -4909,12 +3694,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -5058,6 +3837,56 @@
    ]
   },
   {
+   "place": "dm",
+   "name": "Dominica",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
    "place": "do",
    "name": "Dominican Republic",
    "kind": "country",
@@ -5112,6 +3941,76 @@
   {
    "place": "eg",
    "name": "Egypt",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "gq",
+   "name": "Equatorial Guinea",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "er",
+   "name": "Eritrea",
    "kind": "country",
    "tags": [],
    "due": [
@@ -5201,12 +4100,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -5324,12 +4217,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -5393,12 +4280,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -5496,6 +4377,26 @@
    ]
   },
   {
+   "place": "gh",
+   "name": "Ghana",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
    "place": "gi",
    "name": "Gibraltar",
    "kind": "territory",
@@ -5521,12 +4422,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -5602,12 +4497,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -5659,12 +4548,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -5741,12 +4624,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -6224,12 +5101,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -6536,6 +5407,56 @@
    ]
   },
   {
+   "place": "li",
+   "name": "Liechtenstein",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
    "place": "lt",
    "name": "Lithuania",
    "kind": "country",
@@ -6546,6 +5467,56 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "lu",
+   "name": "Luxembourg",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
     },
     {
      "pattern": "year-ahead",
@@ -6774,12 +5745,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -6888,12 +5853,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -6939,6 +5898,56 @@
    "kind": "country",
    "tags": [],
    "due": [
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "mc",
+   "name": "Monaco",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
     {
      "pattern": "year-ahead",
      "reason": "never-checked",
@@ -7019,12 +6028,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -7552,12 +6555,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -7583,6 +6580,56 @@
    "kind": "country",
    "tags": [],
    "due": [
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "cg",
+   "name": "Republic of the Congo",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
     {
      "pattern": "year-ahead",
      "reason": "never-checked",
@@ -7650,6 +6697,32 @@
    ]
   },
   {
+   "place": "rw",
+   "name": "Rwanda",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
    "place": "re",
    "name": "Réunion",
    "kind": "territory",
@@ -7675,12 +6748,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -7737,12 +6804,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -7810,7 +6871,101 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "kn",
+   "name": "Saint Kitts and Nevis",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "lc",
+   "name": "Saint Lucia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -7872,12 +7027,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -7928,7 +7077,101 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "vc",
+   "name": "Saint Vincent and the Grenadines",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "sm",
+   "name": "San Marino",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -8178,12 +7421,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -8324,12 +7561,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -8428,6 +7659,56 @@
    ]
   },
   {
+   "place": "sr",
+   "name": "Suriname",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
    "place": "sj",
    "name": "Svalbard and Jan Mayen",
    "kind": "territory",
@@ -8465,12 +7746,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -8527,6 +7802,56 @@
    "kind": "country",
    "tags": [],
    "due": [
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "st",
+   "name": "São Tomé and Príncipe",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
     {
      "pattern": "year-ahead",
      "reason": "never-checked",
@@ -8666,6 +7991,56 @@
    ]
   },
   {
+   "place": "tg",
+   "name": "Togo",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
    "place": "tt",
    "name": "Trinidad and Tobago",
    "kind": "country",
@@ -8769,12 +8144,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
@@ -8954,6 +8323,62 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "va",
+   "name": "Vatican City",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "affection-and-relationships",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
     },
     {
      "pattern": "year-ahead",
@@ -9198,12 +8623,6 @@
      "budget_days": 180
     },
     {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -9229,6 +8648,70 @@
    "kind": "country",
    "tags": [],
    "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "cv",
+   "name": "Cape Verde",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "cy",
+   "name": "Cyprus",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
@@ -9278,6 +8761,26 @@
    ]
   },
   {
+   "place": "fi",
+   "name": "Finland",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
    "place": "fr",
    "name": "France",
    "kind": "country",
@@ -9308,6 +8811,94 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "gd",
+   "name": "Grenada",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "gw",
+   "name": "Guinea-Bissau",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
     },
     {
      "pattern": "zone-requirements",
@@ -9471,12 +9062,6 @@
     },
     {
      "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180

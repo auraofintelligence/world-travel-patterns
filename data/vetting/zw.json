@@ -20,10 +20,10 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "currency": null,
+   "currency": "Australian dollar (AUD), renminbi (CNY), euro (EUR), pound sterling (GBP), Indian rupee (INR), yen (JPY), United States dollar (USD), rand (ZAR), Zimbabwe ZiG (ZWG)",
    "cash_card_notes": "Zimbabwe’s economic situation is unpredictable. In April 2024, Zimbabwe announced the introduction of a new currency, Zimbabwe Gold ($ZWG), to replace the Zimbabwe dollar ($ZWL). The US dollar is widely accepted, but this could change without notice. Prices can be listed in either currency. Check before making a transaction, as the $ symbol can be used for both currencies. The exchange rate between the local currency and USD can change quickly. Most stores and businesses will not accept US banknotes issued before 2006. Zimbabwe is experiencing a cash crisis. Authorities have introduced restric",
    "daily_cost_aud": null,
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "evidence": "official",
    "sources": [
     {
@@ -32,8 +32,23 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/zimbabwe",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Currency (P38) with ISO 4217 code (P498)",
+     "authority": "Signal: Wikidata",
+     "url": "https://www.wikidata.org/wiki/Property:P38",
+     "checked": "2026-11-01",
+     "supports": "currencies in use"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
+     "checked": "2026-11-01",
+     "supports": "A$ exchange rates on 30 October 2026"
     }
-   ]
+   ],
+   "rate_and_date": "Australian dollar: no exchange needed; A$1 = 4.6877 CNY; A$1 = 0.6293 EUR; A$1 = 0.5258 GBP; A$1 = 67.05 INR; A$1 = 110.82 JPY; A$1 = 0.704 USD (Reserve Bank of Australia, 30 October 2026)"
   },
   "consular": {
    "status": "in-place",

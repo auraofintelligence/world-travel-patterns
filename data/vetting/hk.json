@@ -19,10 +19,10 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "currency": null,
+   "currency": "Hong Kong dollar (HKD)",
    "cash_card_notes": "The currency in Hong Kong is the Hong Kong Dollar (HKD). Under Hong Kong law, travellers in and out of Hong Kong may need to declare cash. Make a written declaration if you're carrying more than HKD120,000 or equivalent in cash. You can change Australian dollars for HKD at local currency exchanges and banks. Credit cards are widely accepted. Take care when using ATMs, as petty crime occurs (See 'Safety'). - Hong Kong Customs - Currency",
    "daily_cost_aud": null,
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "evidence": "official",
    "sources": [
     {
@@ -31,8 +31,23 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/hong-kong",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Currency (P38) with ISO 4217 code (P498)",
+     "authority": "Signal: Wikidata",
+     "url": "https://www.wikidata.org/wiki/Property:P38",
+     "checked": "2026-11-01",
+     "supports": "currencies in use"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
+     "checked": "2026-11-01",
+     "supports": "A$ exchange rates on 30 October 2026"
     }
-   ]
+   ],
+   "rate_and_date": "A$1 = 5.5234 HKD (Reserve Bank of Australia, 30 October 2026)"
   },
   "consular": {
    "status": "in-place",

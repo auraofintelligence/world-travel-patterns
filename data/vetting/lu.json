@@ -22,12 +22,30 @@
    "status": "noted",
    "daily_cost_aud": null,
    "visa_cost_signal": "Free",
-   "checked": "2025-08-16",
+   "checked": "2026-11-01",
    "evidence": "legacy-baseline",
    "provenance": {
     "repo": "Australian-visa-activity-atlas",
     "claim_id": "WORLD-LUXEMBOURG-COST"
-   }
+   },
+   "currency": "euro (EUR)",
+   "sources": [
+    {
+     "title": "Currency (P38) with ISO 4217 code (P498)",
+     "authority": "Signal: Wikidata",
+     "url": "https://www.wikidata.org/wiki/Property:P38",
+     "checked": "2026-11-01",
+     "supports": "currencies in use"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
+     "checked": "2026-11-01",
+     "supports": "A$ exchange rates on 30 October 2026"
+    }
+   ],
+   "rate_and_date": "A$1 = 0.6293 EUR (Reserve Bank of Australia, 30 October 2026)"
   },
   "activities": {
    "activities": {

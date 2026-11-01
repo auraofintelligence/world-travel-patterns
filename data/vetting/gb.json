@@ -333,10 +333,10 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "currency": null,
+   "currency": "pound sterling (GBP)",
    "cash_card_notes": "The official currency is the Pound Sterling (GBP). ATMs are available, and credit cards are widely used. Contactless payment is widely accepted. There are rules about how much cash you must declare upon arrival or departure from the UK. These may differ between Great Britain (England, Scotland and Wales) and Northern Ireland. This covers all forms of currency (i.e., bearer bonds, prepaid cards, gold coins, bullion or nuggets, cheques, and travellers’ cheques), not just cash. You may have to pay a penalty if you don't declare this cash.",
    "daily_cost_aud": null,
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "evidence": "official",
    "sources": [
     {
@@ -345,8 +345,23 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/united-kingdom",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Currency (P38) with ISO 4217 code (P498)",
+     "authority": "Signal: Wikidata",
+     "url": "https://www.wikidata.org/wiki/Property:P38",
+     "checked": "2026-11-01",
+     "supports": "currencies in use"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
+     "checked": "2026-11-01",
+     "supports": "A$ exchange rates on 30 October 2026"
     }
-   ]
+   ],
+   "rate_and_date": "A$1 = 0.5258 GBP (Reserve Bank of Australia, 30 October 2026)"
   },
   "culture-cycles": {
    "status": "partly-mapped",

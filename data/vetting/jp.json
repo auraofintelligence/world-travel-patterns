@@ -382,10 +382,10 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "currency": null,
+   "currency": "yen (JPY)",
    "cash_card_notes": "The Japanese currency is the Yen (JPY). No restrictions apply to bringing foreign currency in or out of the country. Declare all amounts more than JPY 1 million or equivalent, when you arrive or leave. This covers all forms of currency, not only cash. Cash is preferred in many places, but cards are becoming more widely used, especially in major cities. Hotels accept major credit cards. Credit cards may not be widely accepted outside major cities, and tourist areas. Some ATMs at banks and convenience stores don't accept foreign cards. Ask your bank if your cards will work in Japan.",
    "daily_cost_aud": null,
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "evidence": "official",
    "sources": [
     {
@@ -394,8 +394,23 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/japan",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Currency (P38) with ISO 4217 code (P498)",
+     "authority": "Signal: Wikidata",
+     "url": "https://www.wikidata.org/wiki/Property:P38",
+     "checked": "2026-11-01",
+     "supports": "currencies in use"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
+     "checked": "2026-11-01",
+     "supports": "A$ exchange rates on 30 October 2026"
     }
-   ]
+   ],
+   "rate_and_date": "A$1 = 110.82 JPY (Reserve Bank of Australia, 30 October 2026)"
   },
   "seasons-and-flow": {
    "status": "partly-mapped",

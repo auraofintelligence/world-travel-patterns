@@ -21,10 +21,10 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "currency": null,
+   "currency": "euro (EUR)",
    "cash_card_notes": "Lithuania's official currency is the Euro. Declare amounts over 10,000 euros or equivalent if you travel between Lithuania and any non-European Union (EU) country. This covers all forms of currency, not only cash. If you fail to declare or you give incorrect information on entry or exit, authorities will fine you. You should check with local authorities in the countries you're leaving, entering or passing through whether you must declare higher amounts of currency.",
    "daily_cost_aud": null,
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "evidence": "official",
    "sources": [
     {
@@ -33,8 +33,23 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/lithuania",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Currency (P38) with ISO 4217 code (P498)",
+     "authority": "Signal: Wikidata",
+     "url": "https://www.wikidata.org/wiki/Property:P38",
+     "checked": "2026-11-01",
+     "supports": "currencies in use"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
+     "checked": "2026-11-01",
+     "supports": "A$ exchange rates on 30 October 2026"
     }
-   ]
+   ],
+   "rate_and_date": "A$1 = 0.6293 EUR (Reserve Bank of Australia, 30 October 2026)"
   },
   "consular": {
    "status": "neighbour",

@@ -19,10 +19,10 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "currency": null,
+   "currency": "Panamanian balboa (PAB), United States dollar (USD)",
    "cash_card_notes": "The local coin currency is the Panama Balboa (PAB). The banknote currency is the US Dollar (USD). Beware of counterfeit currency, especially USD50 and USD100 notes. You can't exchange Australian dollars in Panama, but you can exchange US dollars. Credit cards are widely accepted. Carry cash if you're travelling to rural areas. Most international hotels and tourist facilities accept credit and debit cards. Ask your bank whether your ATM card will work in Panama.",
    "daily_cost_aud": null,
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "evidence": "official",
    "sources": [
     {
@@ -31,8 +31,23 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/panama",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Currency (P38) with ISO 4217 code (P498)",
+     "authority": "Signal: Wikidata",
+     "url": "https://www.wikidata.org/wiki/Property:P38",
+     "checked": "2026-11-01",
+     "supports": "currencies in use"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
+     "checked": "2026-11-01",
+     "supports": "A$ exchange rates on 30 October 2026"
     }
-   ]
+   ],
+   "rate_and_date": "A$1 = 0.704 USD (Reserve Bank of Australia, 30 October 2026)"
   },
   "consular": {
    "status": "neighbour",

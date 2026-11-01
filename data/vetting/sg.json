@@ -484,10 +484,10 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "currency": null,
+   "currency": "Singapore dollar (SGD)",
    "cash_card_notes": "The official currency is the Singapore Dollar (SGD). You can easily exchange Australian dollars for SGD in Singapore. You must declare amounts over SGD20,000 or the same amount in foreign currency on arrival. This covers all forms of currency, not only cash. ATMs are available across the country. Hotels, restaurants and shops accept international credit cards. Food stalls known as 'hawker centres' and small retailers may not accept credit cards. Cash may be required.",
    "daily_cost_aud": null,
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "evidence": "official",
    "sources": [
     {
@@ -496,8 +496,23 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/singapore",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Currency (P38) with ISO 4217 code (P498)",
+     "authority": "Signal: Wikidata",
+     "url": "https://www.wikidata.org/wiki/Property:P38",
+     "checked": "2026-11-01",
+     "supports": "currencies in use"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
+     "checked": "2026-11-01",
+     "supports": "A$ exchange rates on 30 October 2026"
     }
-   ]
+   ],
+   "rate_and_date": "A$1 = 0.8997 SGD (Reserve Bank of Australia, 30 October 2026)"
   },
   "health-entry": {
    "status": "conditional",
