@@ -904,3 +904,7 @@ Docs only: handoff and STATUS.md item 1 refreshed.
 ## 2026-11-01 23:24 AEST, Grok: Mixed missions: derived from each place's cited paid-work source (31 places) (31 records)
 
 Mixed-mission checks for 31 places (am ax az bg bt ci cm cu dk dm fm gy jm kg kn lc mh mn mt mu mw na se sn sr sz tj tl uz vc ws) resolved by reusing the official source already cited for paid speaking in the same record: a combined trip is governed by its strictest element, so status follows the paid-work rule (low raised to conditional). No new sources; detail says so.
+
+## 2026-11-01 23:24 AEST, Grok: Fix mixed missions: restore cu, dk, se (still confirm) and keep earlier detail for ax, bg, fm, mh, mt, ws (9 records)
+
+Correction to dbe7dca: the bulk derivation overwrote mixed-mission detail that had been read deliberately. Cuba, Denmark and Sweden restored to their earlier confirm-in-writing entries (status unchanged from before dbe7dca). For ax, bg, fm, mh, mt and ws the earlier detail is kept ahead of the derived text (detail updated, status as derived).
