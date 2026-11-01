@@ -571,11 +571,11 @@
    }
   },
   "culture-and-protocol": {
-   "status": "ask-locally",
+   "status": "partly-mapped",
    "checked": "2026-11-01",
    "evidence": "official",
-   "dress_and_conduct": "FCDO's laws and cultural differences section for Bahamas has no customs or etiquette guidance. A national etiquette page has not been searched for yet. Ask locally.",
-   "cultural_authority": "Government of Bahamas and its tourism office; local community leaders.",
+   "dress_and_conduct": "FCDO's laws and cultural differences section for Bahamas has no customs or etiquette guidance. A national etiquette page has not been searched for yet. Ask locally. Bahamas.com: dress is casual, but cover swimwear in towns, restaurants, churches and casinos. A tip of about 15% is customary. The free People-to-People programme connects visitors with local hosts.",
+   "cultural_authority": "Bahamas Ministry of Tourism",
    "note": "FCDO page checked (written for British travellers); it has no customs guidance. National tourism or government etiquette pages not yet searched.",
    "sources": [
     {
@@ -584,8 +584,27 @@
      "url": "https://www.gov.uk/foreign-travel-advice/bahamas/safety-and-security",
      "checked": "2026-11-01",
      "supports": "laws and cultural differences section as read on 2026-11-01"
+    },
+    {
+     "title": "Island FAQ",
+     "authority": "Bahamas Ministry of Tourism (bahamas.com)",
+     "url": "https://www.bahamas.com/plan-your-trip/island-faq",
+     "checked": "2026-11-01",
+     "supports": "dress and tipping (read via a search-index snapshot)"
+    },
+    {
+     "title": "People-to-People FAQ",
+     "authority": "Bahamas Ministry of Tourism",
+     "url": "https://www.bahamas.com/plan-your-trip/people-to-people/locals-faq",
+     "checked": "2026-11-01",
+     "supports": "local host programme (read via a search-index snapshot)"
     }
-   ]
+   ],
+   "national_search": {
+    "checked": "2026-11-01",
+    "result": "found",
+    "note": "National tourism or government etiquette guidance found and cited."
+   }
   }
  }
 }
