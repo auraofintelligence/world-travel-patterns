@@ -336,11 +336,27 @@
      "checked": "2026-11-01"
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Depends on the mix",
-     "detail": "Business visa and work permit cover different parts.",
-     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "No permit for up to 30 days if the work comes from your normal overseas employment",
+     "detail": "Work arising from your normal employment outside Solomon Islands can run 30 days without a permit. Local hires need a permit.",
+     "next": "Clarify who pays you.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Labour Act Cap. 73",
+       "authority": "Labour Division, Solomon Islands",
+       "url": "https://www.labour.gov.sb/wp-content/uploads/dlm_uploads/2016/07/Labour-Act-Cap-73.pdf",
+       "checked": "2026-11-01",
+       "supports": "30-day rule (read via a search-index snapshot)"
+      },
+      {
+       "title": "Work permit",
+       "authority": "SI Labour Division",
+       "url": "https://www.labour.gov.sb/work-permt/",
+       "checked": "2026-11-01",
+       "supports": "permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "confirm-in-writing",

@@ -250,11 +250,20 @@
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask the Kiribati Ministry of Foreign Affairs and Immigration.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work visa",
+     "detail": "Employment or other work needs a work visa.",
+     "next": "The host supports the application.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration procedures 2020",
+       "authority": "Ministry of Foreign Affairs and Immigration, Kiribati",
+       "url": "https://www.mfa.gov.ki/wp-content/uploads/2020/11/Immigration-Procedures-2020.pdf",
+       "checked": "2026-11-01",
+       "supports": "business visitors and work visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
      "status": "confirm-in-writing",
@@ -271,18 +280,36 @@
      "checked": "2026-11-01"
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask the Kiribati Ministry of Foreign Affairs and Immigration.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Business visitor visa (up to one month; no more than 4 months in 12)",
+     "detail": "Consultations and negotiations are allowed on a business visitor visa.",
+     "next": "Stay within the limits.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration procedures 2020",
+       "authority": "Ministry of Foreign Affairs and Immigration, Kiribati",
+       "url": "https://www.mfa.gov.ki/wp-content/uploads/2020/11/Immigration-Procedures-2020.pdf",
+       "checked": "2026-11-01",
+       "supports": "business visitors and work visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask the Kiribati Ministry of Foreign Affairs and Immigration.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work visa",
+     "detail": "Employment or other work needs a work visa.",
+     "next": "The host supports the application.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration procedures 2020",
+       "authority": "Ministry of Foreign Affairs and Immigration, Kiribati",
+       "url": "https://www.mfa.gov.ki/wp-content/uploads/2020/11/Immigration-Procedures-2020.pdf",
+       "checked": "2026-11-01",
+       "supports": "business visitors and work visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
      "status": "confirm-in-writing",

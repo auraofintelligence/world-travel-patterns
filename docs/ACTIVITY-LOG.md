@@ -620,3 +620,7 @@ Upgraded mx (INAH site rules), my (mosque rules), na (photography fees), nc (cus
 ## 2026-11-01 17:28 AEST, Grok: Activities: southern and east African speaker routes (mu, mw, na, rw, sc, sz, tz, ug, zm, zw) (10 records)
 
 Notable: mu (entertainers exempt for public shows up to 90 days a year), na (short-term work visa names speakers and conference facilitators; about 10 working days), rw (V5 conference visa; R special pass for paid work), sc (even unpaid work needs a Gainful Occupation Permit), ug (Special Pass USD 400), plus tz, zm, zw, mw and sz. Read via search-index snapshots.
+
+## 2026-11-01 17:29 AEST, Grok: Activities: Pacific, Timor-Leste and West Africa speaker routes (ci, cm, fm, ki, pg, pw, sb, sn, tl, ws) (10 records)
+
+Notable: sb (30 days with no permit if paid by your normal overseas employer), fm (visitors can do contract work under 90 days), sn (temporary artistic or literary activity up to 4 months on a stay authorisation, which suits book tours), tl (specialised-activity visa), pg (the business visa doesn't cover paid talks), plus ws, pw, ki, ci and cm. vu, ck and nu were already resolved. Read via search-index snapshots.

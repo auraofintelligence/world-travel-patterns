@@ -317,32 +317,68 @@
      ]
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Côte d’Ivoire",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Côte d’Ivoire which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business or conference visa (invitation with event details)",
+     "detail": "Conferences use the business visa, applied for via SNEDAI or an embassy.",
+     "next": "Bring the invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa",
+       "authority": "Ambassade de Côte d'Ivoire à Paris",
+       "url": "https://france.diplomatie.gouv.ci/visa.php?num=1",
+       "checked": "2026-11-01",
+       "supports": "business and conference visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Côte d’Ivoire",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Côte d’Ivoire which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business or conference visa (invitation with event details)",
+     "detail": "Conferences use the business visa, applied for via SNEDAI or an embassy.",
+     "next": "Bring the invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa",
+       "authority": "Ambassade de Côte d'Ivoire à Paris",
+       "url": "https://france.diplomatie.gouv.ci/visa.php?num=1",
+       "checked": "2026-11-01",
+       "supports": "business and conference visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Côte d’Ivoire",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Côte d’Ivoire which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business or conference visa (invitation with event details)",
+     "detail": "Conferences use the business visa, applied for via SNEDAI or an embassy.",
+     "next": "Bring the invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa",
+       "authority": "Ambassade de Côte d'Ivoire à Paris",
+       "url": "https://france.diplomatie.gouv.ci/visa.php?num=1",
+       "checked": "2026-11-01",
+       "supports": "business and conference visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Côte d’Ivoire",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Côte d’Ivoire which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work contract approved by AGEPE before entry",
+     "detail": "Paid activity needs a contract approved by AGEPE; the business visa isn't enough.",
+     "next": "The host arranges it.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa",
+       "authority": "Ambassade de Côte d'Ivoire à Paris",
+       "url": "https://france.diplomatie.gouv.ci/visa.php?num=1",
+       "checked": "2026-11-01",
+       "supports": "business and conference visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
      "status": "confirm-in-writing",
@@ -380,11 +416,20 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Côte d’Ivoire",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Côte d’Ivoire which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work contract approved by AGEPE before entry",
+     "detail": "Paid activity needs a contract approved by AGEPE; the business visa isn't enough.",
+     "next": "The host arranges it.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa",
+       "authority": "Ambassade de Côte d'Ivoire à Paris",
+       "url": "https://france.diplomatie.gouv.ci/visa.php?num=1",
+       "checked": "2026-11-01",
+       "supports": "business and conference visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
      "status": "confirm-in-writing",
