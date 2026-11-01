@@ -4,13 +4,15 @@ Dated handover notes for whoever works on this repo next (Claude, Codex, Grok). 
 
 ## Handoff for Claude (updated 2026-11-01 evening AEST, Grok)
 
-**State today.** Every country and territory outside Australia has entry, activities and culture records. 731 of 3,705 activity checks (20%) still say "confirm in writing"; 411 of those are outside the Do-not-travel places (remote work 63, volunteering 54, mixed missions 51, book launches 46, entrepreneur 31, research 43, filming 29, unpaid speaking 27, others 67).
+**State today.** Every country and territory outside Australia has entry, activities and culture records. 694 of 3,705 activity checks (19%) still say "confirm in writing"; 374 of those are outside the Do-not-travel places (remote work 62, volunteering 51, mixed missions 51, book launches 43, research 40, unpaid speaking 26, filming 18, entrepreneur 16, others 67).
 
 **Later passes (e802e79 to 08304a9).** Volunteering for 32 places (ca, ie, mx, th, Nordics, Baltics, central Europe, is, co, rw, tr, Pacific, Caribbean); remote work for 12 (Armenia allowed for a foreign employer; Dominica WIN visa; US and territories not addressed); research for 9 (US B-1, Namibia NCRST permit 4 months ahead); book launches for 7 (Armenia, Serbia, Kazakhstan); filming for 9 (ca, jp, za, ie, br, co, cl, hk, uz). Corrections: the Canada volunteering source was a mirror (migova.ca), replaced with canada.ca in 078680c; a Vietnam research draft based on a misread Taiwan page was reverted before commit.
 
 **Latest (f77a2c7, 3edb052).** Entrepreneur for 12 places: tw, mu, sc, mn, am, az, vu, ws, pw, rw, jm, tt.
 
-**Next.** Entrepreneur (31) and filming (29), then remaining remote work, volunteering, research, book launches; Do-not-travel work rules last; then ask-locally culture and 2027 events.
+**Run of 1 to 2 November (1fbff79 to 4950548).** Entrepreneur for 15 more places (rs, kg, uz, tj, la, bt, mo, pf, tn, co, kz, pk, mg, cm, sr); filming for 11 (pk, uy, tn, sn, mx, qa, rs, rw, pg, sb, ar); Kyrgyz Digital Nomad status; volunteering at, ch, si, kr, tr; research sg, th, ar; book launches na, mn (plus unpaid speaking), ro. Switzerland and Türkiye volunteering stay confirm-in-writing with detail (official pages don't settle it).
+
+**Next.** Entrepreneur (16) and filming (18), then remaining remote work, volunteering, research, book launches; Do-not-travel work rules last; then ask-locally culture and 2027 events.
 
 **Today's work (3bf3434 to d0191a2).**
 - Work rules filled for about 90 places.
@@ -876,3 +878,7 @@ Filming checks from official sources (search-index snapshots): Serbia exempts ac
 ## 2026-11-01 23:20 AEST, Grok: Volunteering rules: kr, tr (2 records)
 
 Official sources (search-index snapshots): Korea working holiday guide lists volunteer activities for H-1 holders; Türkiye exemption list does not name volunteering (stays confirm-in-writing with detail).
+
+## 2026-11-01 23:20 AEST, Grok: Docs: handoff and STATUS updated after entrepreneur, filming, volunteering, research and book launch passes (0 records)
+
+Docs only: handoff and STATUS.md item 1 refreshed with current confirm-in-writing counts.
