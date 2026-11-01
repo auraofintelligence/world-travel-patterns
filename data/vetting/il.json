@@ -324,25 +324,52 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Israel, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Israel, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor (no B/1 needed for unpaid meetings)",
+     "detail": "Unpaid attendance and meetings don't need a B/1.",
+     "next": "Carry the host's invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "Population and Immigration Authority (PIBA)",
+       "url": "https://israel-entry.piba.gov.il/visa-option",
+       "checked": "2026-11-01",
+       "supports": "B/1 expert visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Israel, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Israel, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor (no B/1 needed for unpaid meetings)",
+     "detail": "Unpaid attendance and meetings don't need a B/1.",
+     "next": "Carry the host's invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "Population and Immigration Authority (PIBA)",
+       "url": "https://israel-entry.piba.gov.il/visa-option",
+       "checked": "2026-11-01",
+       "supports": "B/1 expert visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Israel, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Israel, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor (no B/1 needed for unpaid meetings)",
+     "detail": "Unpaid attendance and meetings don't need a B/1.",
+     "next": "Carry the host's invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "Population and Immigration Authority (PIBA)",
+       "url": "https://israel-entry.piba.gov.il/visa-option",
+       "checked": "2026-11-01",
+       "supports": "B/1 expert visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "conditional",
@@ -368,11 +395,20 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Israel, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Israel, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "B/1 foreign expert visa (expedited up to 90 days)",
+     "detail": "Paid expert work needs a B/1 (employer applies). Smartraveller advice applies.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "Population and Immigration Authority (PIBA)",
+       "url": "https://israel-entry.piba.gov.il/visa-option",
+       "checked": "2026-11-01",
+       "supports": "B/1 expert visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",
@@ -398,46 +434,100 @@
      ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Israel, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Israel, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "B/1 foreign expert visa (expedited up to 90 days)",
+     "detail": "Paid expert work needs a B/1 (employer applies). Smartraveller advice applies.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "Population and Immigration Authority (PIBA)",
+       "url": "https://israel-entry.piba.gov.il/visa-option",
+       "checked": "2026-11-01",
+       "supports": "B/1 expert visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Israel, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Israel, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "B/1 foreign expert visa (expedited up to 90 days)",
+     "detail": "Paid expert work needs a B/1 (employer applies). Smartraveller advice applies.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "Population and Immigration Authority (PIBA)",
+       "url": "https://israel-entry.piba.gov.il/visa-option",
+       "checked": "2026-11-01",
+       "supports": "B/1 expert visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Israel, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Israel, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor (no B/1 needed for unpaid meetings)",
+     "detail": "Unpaid attendance and meetings don't need a B/1.",
+     "next": "Carry the host's invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "Population and Immigration Authority (PIBA)",
+       "url": "https://israel-entry.piba.gov.il/visa-option",
+       "checked": "2026-11-01",
+       "supports": "B/1 expert visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Israel, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Israel, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "B/1 foreign expert visa (expedited up to 90 days)",
+     "detail": "Paid expert work needs a B/1 (employer applies). Smartraveller advice applies.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "Population and Immigration Authority (PIBA)",
+       "url": "https://israel-entry.piba.gov.il/visa-option",
+       "checked": "2026-11-01",
+       "supports": "B/1 expert visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Israel, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Israel, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "B/1 foreign expert visa (expedited up to 90 days)",
+     "detail": "Paid expert work needs a B/1 (employer applies). Smartraveller advice applies.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "Population and Immigration Authority (PIBA)",
+       "url": "https://israel-entry.piba.gov.il/visa-option",
+       "checked": "2026-11-01",
+       "supports": "B/1 expert visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Israel, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Israel, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "B/1 foreign expert visa (expedited up to 90 days)",
+     "detail": "Paid expert work needs a B/1 (employer applies). Smartraveller advice applies.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "Population and Immigration Authority (PIBA)",
+       "url": "https://israel-entry.piba.gov.il/visa-option",
+       "checked": "2026-11-01",
+       "supports": "B/1 expert visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
      "status": "conditional",
@@ -463,11 +553,20 @@
      ]
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Israel, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Israel, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "B/1 foreign expert visa (expedited up to 90 days)",
+     "detail": "Paid expert work needs a B/1 (employer applies). Smartraveller advice applies.",
+     "next": "Confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "Population and Immigration Authority (PIBA)",
+       "url": "https://israel-entry.piba.gov.il/visa-option",
+       "checked": "2026-11-01",
+       "supports": "B/1 expert visa (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

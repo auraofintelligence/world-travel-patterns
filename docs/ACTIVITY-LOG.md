@@ -692,3 +692,7 @@ Work and speaking rules from official immigration sources: ng (F4A business visa
 ## 2026-11-01 17:44 AEST, Grok: Work: bb, bs, bz, ag, gd, bh, jo, bn, bo, eh (and log fix) (10 records)
 
 Work and speaking rules: Grenada (no permit for conferences up to 14 days a year), Bahamas (conference participants exempt 3 days), Barbados, Belize, Antigua, Bahrain, Jordan, Brunei (Business Visit Visa), Bolivia and Western Sahara (Moroccan rules). Also corrected the placeholder log entry for ab9a95d. Read via search-index snapshots.
+
+## 2026-11-01 17:45 AEST, Grok: Work: mv, il, al, ba, mm, by, np, om, kw, tm (10 records)
+
+Work and speaking rules: Maldives (14-day on-arrival Meeting Visa), Bosnia (Form 17, 90 days), Albania (lecturers 1 month exempt), Belarus (lecturer and cultural exemptions), Israel (B/1), Myanmar, Nepal, Oman, Kuwait and Turkmenistan. Read via search-index snapshots.
