@@ -452,3 +452,7 @@ The ask-locally text said no national etiquette page was found, but I had not se
 ## 2026-11-01 16:50 AEST, Grok: Culture from FCDO, batch 4 (ask-locally) (15 records)
 
 FCDO has no customs subheading for these places, so they are ask-locally with the named authority. National etiquette pages have not been searched yet. Places: ee fk ga gf gi gp gw gy hk ie io jm li ls lt.
+
+## 2026-11-01 16:51 AEST, Grok: Culture from FCDO, batch 5 (ask-locally) (15 records)
+
+FCDO has no customs subheading for these places, so they are ask-locally with the named authority. National etiquette pages have not been searched yet. Places: lu lv me mq mt ni nl nr pl py re rw sh si sm.
