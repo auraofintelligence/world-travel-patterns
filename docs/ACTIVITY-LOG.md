@@ -652,3 +652,7 @@ Upgraded tn, tc (protected-area fines), sz (Incwala), tk (Taupulega permit), tl 
 ## 2026-11-01 17:34 AEST, Grok: Culture: to, tr, tv, tw, tz, ua, ug, uy, uz, vc (10 records)
 
 Upgraded to (Sunday law), tr (Diyanet mosque rules), tw (regional temple etiquette), tz, ug (UWA gorilla rules), uz and uy to partly-mapped. tv, ua and vc: searched, none found. Read via search-index snapshots.
+
+## 2026-11-01 17:35 AEST, Grok: Culture: vg, vi, vn, vu, wf, ws, xk, yt, za, zm, zw (11 records)
+
+Upgraded vn (Decision 718 code), vu, ws (Sa curfew), vi (sunscreen ban), wf, za, zm and zw to partly-mapped. yt, vg and xk: searched, none found. All non-Do-not-travel culture records have now been searched. Read via search-index snapshots.
