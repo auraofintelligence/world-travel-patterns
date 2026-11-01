@@ -80,6 +80,8 @@ The site (root `*.html`, `site/`) reads the repo's data directly; `scripts/build
 
 Place pages show a photo of that place, or of somewhere inside it (labelled), or none: never a stand-in from elsewhere. `scripts/place_photos.py` picks from Wikidata and Wikivoyage; hand decisions and their reasons live in `site/heroes/place-photo-choices.json`, and chosen photos in `site/heroes/place-photos-curated.json`. Places belonging to a nation or community with its own cultural authority get no automatic photo. Every automatic pick stays `review: pending` until Luke has looked.
 
+These photo rules describe how Claude picks photos automatically. They don't bind Luke's directions: he asks Codex, Grok or anyone else for images, generated or not, wherever he judges them worthwhile.
+
 Search discovery follows Luke's pattern across his sites: hand-kept `robots.txt` and `.github/robots-root-snippet.txt` (search crawlers allowed, training crawlers disallowed), `sitemap.xml` and `llms.txt` written by `build_site.py`, and `index,follow`, canonical and Open Graph tags in each page head. The account-root robots policy lives in the auraofintelligence.github.io repo; the snippet was merged there on 1 November 2026 with his OK; keep the two in step if the rules change.
 
 ## Feeds

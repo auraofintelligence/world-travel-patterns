@@ -3,9 +3,9 @@
   "generated_on": "2026-11-01",
   "mode": "public",
   "place_passes": 272,
-  "pattern_items": 1166,
+  "pattern_items": 1163,
   "by_reason": {
-   "never-checked": 1166
+   "never-checked": 1163
   },
   "watch_checks": 0
  },
@@ -2637,26 +2637,6 @@
    ]
   },
   {
-   "place": "by",
-   "name": "Belarus",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
    "place": "be",
    "name": "Belgium",
    "kind": "country",
@@ -3253,32 +3233,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "cn",
-   "name": "China",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
     }
    ]
   },
@@ -7335,32 +7289,6 @@
    ]
   },
   {
-   "place": "kr",
-   "name": "South Korea",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 120
-    }
-   ]
-  },
-  {
    "place": "lk",
    "name": "Sri Lanka",
    "kind": "country",
@@ -8361,6 +8289,20 @@
    ]
   },
   {
+   "place": "by",
+   "name": "Belarus",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
    "place": "bg",
    "name": "Bulgaria",
    "kind": "country",
@@ -8403,6 +8345,26 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "cn",
+   "name": "China",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
     },
     {
      "pattern": "zone-requirements",
@@ -8665,6 +8627,26 @@
   {
    "place": "so",
    "name": "Somalia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 120
+    }
+   ]
+  },
+  {
+   "place": "kr",
+   "name": "South Korea",
    "kind": "country",
    "tags": [],
    "due": [

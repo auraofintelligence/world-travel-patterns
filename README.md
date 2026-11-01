@@ -1,6 +1,6 @@
 # World Travel Patterns
 
-🤝🔷 **A Luke × Claude build.** Created by Luke Nathan Hayes (`auraofintelligence`) and Claude (Opus 5.5) on 30 October 2026. Not a Codex build.
+🤝🔷 **A Luke × Claude, Codex and Grok build.** Created by Luke Nathan Hayes (`auraofintelligence`) with Claude (Opus 5.5) on 30 October 2026, and built on from November 2026 with Codex and Grok, each in the lanes Luke directs.
 
 Every place an Australian passport holder might visit, vetted with the same simple, repeatable patterns: so local laws aren't broken by accident, and local culture is met on its own terms.
 
@@ -84,4 +84,4 @@ Everything is Python standard library: no installs.
 
 ---
 
-🤝🔷 Luke × Claude · world-travel-patterns
+🤝🔷 Luke × Claude, Codex and Grok · world-travel-patterns
