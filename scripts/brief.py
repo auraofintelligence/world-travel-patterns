@@ -18,7 +18,7 @@ from lib import (ROOT, applies, descendants, event_span, events_for, load_feeds,
                  load_places, parse_date, read, resolve, today)
 
 ORDER = ["advisory", "entry", "activities", "health-entry", "zone-requirements", "local-law",
-         "culture-and-protocol", "affection-and-relationships", "culture-cycles", "seasons-and-flow", "year-ahead", "consular", "money-and-cost", "works-and-purpose"]
+         "culture-and-protocol", "affection-and-relationships", "psychoactive-substances", "culture-cycles", "seasons-and-flow", "year-ahead", "consular", "money-and-cost", "works-and-purpose"]
 
 
 def age(record, on):
@@ -120,7 +120,7 @@ def main():
             for law in rec.get("laws", []):
                 lines.append(f"  - {law['topic']}: {law['rule']} ({law.get('source', 'no source')})")
             for item in rec.get("items", []):
-                lines.append(f"  - {item['area']} ({item['kind']}{', signal' if item.get('evidence') == 'signal' else ''}): {item['text']} ({item.get('source', 'no source')})")
+                lines.append(f"  - {item.get('area') or item.get('substance')}{' (changing)' if item.get('changing') else ''} ({item['kind']}{', signal' if item.get('evidence') == 'signal' else ''}): {item['text']} ({item.get('source', 'no source')})")
             if pid == "seasons-and-flow" and rec.get("months"):
                 # Only the trip's months when a window is given, else the whole year.
                 wanted = window_months(start, parse_date(args.end) if args.end else None)

@@ -29,7 +29,7 @@ UA = {"User-Agent": "world-travel-patterns/1.0 (https://github.com/auraofintelli
 SPARQL = "https://query.wikidata.org/sparql"
 COMMONS = "https://commons.wikimedia.org/w/api.php"
 OPEN = re.compile(r"^(public domain.*|pd.*|cc0.*|cc[ -]by(-sa)? \d(\.\d)?.*|attribution.*)$", re.I)
-FROM_ORBIT = re.compile(r"ISS\d|STS-?\d|satellite|sentinel-?2|modis|landsat|copernicus|cloud-free|view of .* from space|bushfires", re.I)
+FROM_ORBIT = re.compile(r"\bISS\d|\bSTS-?\d|satellite|sentinel-?2|modis|landsat|copernicus|cloud-free|view of .* from space|bushfires", re.I)
 NOT_A_PLACE_PHOTO = re.compile(r"flag|map|coat of arms|arms of|emblem|locator|seal of|logo|dannebrog|banner of|location", re.I)
 QUERY = """
 SELECT ?code ?label ?img ?banner WHERE {

@@ -12,6 +12,7 @@ A pattern is one repeatable question asked of every place it applies to. Every p
 | local-law | Laws a visitor could break without knowing (14 topics) | agent | stack | 180 days |
 | culture-and-protocol | How the place asks visitors to arrive and behave, in its own words | agent | stack | 365 days |
 | affection-and-relationships | Affection in public, couples in private, marriage and partnership, what's changing (law or custom) | agent | stack | 365 days |
+| psychoactive-substances | Alcohol, tobacco and vaping, cannabis, MDMA, psilocybin, ayahuasca and more: law, medical and ceremonial access, penalties, change | agent | stack | 180 days |
 | culture-cycles | Holidays, moving calendars, festivals, closures | mixed | stack | 365 days |
 | seasons-and-flow | Twelve months of season, hazard and visitor flow | agent | nearest | 365 days |
 | year-ahead | Dated elections, events and rule changes | agent | none | 90 days |

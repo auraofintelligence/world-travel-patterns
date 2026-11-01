@@ -29,6 +29,8 @@ AREAS = [
                               r"sexual (relations|activity|acts)|same-sex (relationships|relations|acts|sexual|activity)|homosexual|consensual", re.I)),
     ("marriage-and-partnership", re.compile(r"marri|surrogacy|civil union|civil partnership|de facto|spouse|wedding|polygam|dowry", re.I)),
 ]
+# Luke has no drone plans: drone clauses never reach the site.
+DRONE = re.compile(r"(?:\b(?:fly|flying|using|operating)\s+)?(?:\w+\s+)?\bdrones?\b", re.I)
 ABOUT = re.compile(r"same-sex|lgbt|homosexual|marri|relationship|partner|affection|cohabit|sexual|sex outside|adultery|civil union", re.I)
 LAW = re.compile(r"authorities|illegal|\blegal|\blaws?\b|arrest|penalt|prison|jail|\bfines?\b|criminal|prosecut|death penalty|corporal|offence|banned|"
                  r"prohibit|recogni[sz]|decriminali[sz]|legali[sz]", re.I)
@@ -43,7 +45,8 @@ def items_from(secs, url, on):
             continue
         text = clean(body)
         for sentence in re.split(r"(?<=[.!?])\s+(?=[A-Z])|(?<=[a-z])\s+(?=(?:The|Same-sex|Public|If|Avoid|You|Homosexual|Unmarried) )", text):
-            s = sentence.strip()
+            s = DRONE.sub("", sentence).strip()
+            s = re.sub(r"\s{2,}", " ", s)
             if len(s) < 25 or SKIP.search(s) or s in seen:
                 continue
             area = next((a for a, rx in AREAS if rx.search(s) and (a != "changing" or ABOUT.search(s))), None)
@@ -99,11 +102,14 @@ def main():
             continue
         if not args.force and rec["patterns"].get("affection-and-relationships", {}).get("checked") == D:
             continue
+        old = rec["patterns"].get("affection-and-relationships", {})
+        kept = [i for i in old.get("items", []) if i.get("by")]
+        kept_sources = [s for s in old.get("sources", []) if s["url"] != dest["url"] and any(i.get("source") == s["url"] for i in kept)]
         rec["patterns"]["affection-and-relationships"] = {
-            "status": "partly-mapped", "checked": D, "evidence": "official", "items": items,
+            "status": "partly-mapped", "checked": D, "evidence": "official", "items": items + kept,
             "notes": "Read from the Australian Government's travel advice. Custom differs between communities and places; ask locally.",
             "sources": [{"title": f"{dest['title']} travel advice (updated {updated})", "authority": "Smartraveller, Australian Government",
-                         "url": dest["url"], "checked": D, "supports": "local laws, local customs and LGBTQIA+ sections as read on " + D}]}
+                         "url": dest["url"], "checked": D, "supports": "local laws, local customs and LGBTQIA+ sections as read on " + D}] + kept_sources}
         write(path, rec)
         counts["written"] += 1
         print(f"{pid}: {len(items)} items ({', '.join(sorted({i['area'] for i in items}))})")

@@ -507,6 +507,39 @@
     }
    ],
    "notes": "Custom differs between communities and places; ask locally."
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "alcohol",
+     "kind": "safety",
+     "text": "Food and drink spiking can occur at popular nightclubs and markets, often leading to sexual assault.",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/spain",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Penalties for drug offences include heavy fines and prison time.",
+     "source": "https://www.smartraveller.gov.au/destinations/europe/spain",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Spain travel advice (updated 29 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/spain",
+     "checked": "2026-11-01",
+     "supports": "drugs, alcohol, vaping and local laws as read on 2026-11-01"
+    }
+   ],
+   "notes": "Read from the Australian Government's travel advice; confirm with the country's own law.",
+   "checked": "2026-11-01"
   }
  }
 }

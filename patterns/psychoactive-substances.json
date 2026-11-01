@@ -1,0 +1,57 @@
+{
+ "id": "psychoactive-substances",
+ "name": "Psychoactive substances",
+ "layer": "substances",
+ "method": "agent",
+ "inherit": "stack",
+ "question": "What do law and custom here say about alcohol, tobacco and vaping, cannabis, and psychedelic and emerging medicines (MDMA, psilocybin, ayahuasca and others): possession, use, buying, bringing them in, medical, therapeutic and ceremonial access, penalties, and what's changing?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation",
+  "zone",
+  "city",
+  "site"
+ ],
+ "baseline_days": 180,
+ "sources": [
+  "the level's own legislation and health regulator",
+  "Smartraveller's drugs, alcohol and local laws sections",
+  "the community's own published guidance for ceremonial use"
+ ],
+ "substances": [
+  "alcohol",
+  "tobacco-and-vaping",
+  "cannabis",
+  "mdma",
+  "psilocybin",
+  "ayahuasca-and-dmt",
+  "kava",
+  "khat",
+  "drugs-in-general"
+ ],
+ "fields": [
+  "items[]: substance, kind (law, custom, safety or figure), changing (true for a dated change), evidence when it differs from the record, text, source, checked",
+  "notes"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "unknown"
+ ],
+ "rules": [
+  "Record the law as it stands at each level, from country down: states, cities and communities can differ.",
+  "Medical, therapeutic and ceremonial access is recorded with who authorises it; a retreat or clinic's own claims are a signal.",
+  "Bringing a substance in is recorded separately from using it there, and carrying it home is Australian law.",
+  "Describe, don't moralise or advise use. No ranking of places or cultures.",
+  "Never store anything about the traveller's own use or prescriptions."
+ ],
+ "version": 1
+}

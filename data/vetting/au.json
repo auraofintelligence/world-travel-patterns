@@ -33,6 +33,54 @@
      "supports": "national and state holidays"
     }
    ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "mdma",
+     "kind": "law",
+     "changing": true,
+     "text": "From 1 July 2023, psychiatrists approved by the TGA under the Authorised Prescriber Scheme, after a human research ethics committee approves, can prescribe MDMA for post-traumatic stress disorder. For every other use MDMA stays a prohibited substance (Schedule 9), largely limited to clinical trials.",
+     "source": "https://www.tga.gov.au/news/media-releases/change-classification-psilocybin-and-mdma-enable-prescribing-authorised-psychiatrists",
+     "checked": "2026-11-01"
+    },
+    {
+     "substance": "psilocybin",
+     "kind": "law",
+     "changing": true,
+     "text": "From 1 July 2023, authorised psychiatrists can prescribe psilocybin for treatment-resistant depression under the same scheme. For every other use it stays a prohibited substance (Schedule 9).",
+     "source": "https://www.tga.gov.au/news/media-releases/change-classification-psilocybin-and-mdma-enable-prescribing-authorised-psychiatrists",
+     "checked": "2026-11-01"
+    },
+    {
+     "substance": "tobacco-and-vaping",
+     "kind": "law",
+     "changing": true,
+     "text": "From 1 July 2024, nicotine vapes can be sold only in pharmacies. From 1 October 2024, adults 18 and over can buy therapeutic vapes with up to 20 mg/mL nicotine from a pharmacy without a prescription, subject to state and territory laws; under 18s need a prescription.",
+     "source": "https://www.tga.gov.au/products/unapproved-therapeutic-goods/nicotine-vaping-products-hub/reforms-regulation-vapes",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Change to classification of psilocybin and MDMA to enable prescribing by authorised psychiatrists (3 February 2023)",
+     "authority": "Therapeutic Goods Administration, Australian Government",
+     "url": "https://www.tga.gov.au/news/media-releases/change-classification-psilocybin-and-mdma-enable-prescribing-authorised-psychiatrists",
+     "checked": "2026-11-01",
+     "supports": "MDMA and psilocybin prescribing from 1 July 2023"
+    },
+    {
+     "title": "Reforms to the regulation of vapes",
+     "authority": "Therapeutic Goods Administration, Australian Government",
+     "url": "https://www.tga.gov.au/products/unapproved-therapeutic-goods/nicotine-vaping-products-hub/reforms-regulation-vapes",
+     "checked": "2026-11-01",
+     "supports": "pharmacy-only vapes from 1 July 2024; adult pharmacy supply without prescription from 1 October 2024"
+    }
+   ],
+   "notes": "National rules from the Therapeutic Goods Administration. States and territories add their own laws, shown at their level."
   }
  }
 }
