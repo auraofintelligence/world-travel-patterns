@@ -29,7 +29,7 @@
     aura: "Aura", music: "Music", books: "Books", founder: "Founder",
   };
   const LAYERS = [
-    ["permission", "Permission", ["entry", "activities", "health-entry", "zone-requirements"]],
+    ["permission", "Permission", ["entry", "visa-preparation", "activities", "health-entry", "zone-requirements"]],
     ["law", "Local law", ["local-law"]],
     ["culture", "Culture, protocol and language", ["culture-and-protocol", "languages", "culture-cycles"]],
     ["relationships", "Affection, relationships and family", ["affection-and-relationships", "births-and-family-support"]],
@@ -359,7 +359,7 @@
       const age = rec.checked ? days(rec.checked, now) : null;
       const colour = due ? "var(--due)" : "var(--fresh)";
       const text = rec.summary || rec.status;
-      let body = `<li style="--c:${colour}"><span class="lvl">${esc(p.name)}</span><span class="chip ${due ? "gold" : "teal"}">${esc(rec.status)}</span>
+      let body = `<li style="--c:${colour}"><span class="lvl">${esc(p.name)}</span><span class="chip ${due ? "gold" : "teal"}">${esc(rec.status)}</span>${rec.needs_recheck ? ' <span class="chip gold" title="Carried from an earlier repo or not yet reread at an official source: confirm before relying on it">needs recheck</span>' : ""}
         <span class="meta"> checked ${fmt(rec.checked)}${age !== null ? ` (${age} days ago)` : ""}${due ? ` · ${esc(REASON_LABEL[due] || due)}` : ""}</span>`;
       if (pat.id === "activities") {
         const acts = rec.activities || {};
@@ -374,6 +374,16 @@
       (rec.laws || []).forEach((l) => { body += `<div class="detail"><b>${esc(l.topic)}:</b> ${esc(l.rule)}</div>`; });
       (rec.items || []).forEach((it) => { body += `<div class="detail"><b>${esc(AREA_LABEL[it.area || it.substance] || it.area || it.substance)}</b>${it.changing ? ' <span class="chip sky">changing</span>' : ""} <span class="chip">${esc(it.kind)}</span>${it.evidence === "signal" ? ' <span class="chip gold">signal</span>' : ""} ${esc(it.text)}</div>`; });
       (rec.layers || []).forEach((l) => { body += `<div class="detail"><b>${esc(l.type)}:</b> ${esc(l.process)} (${esc(l.authority)})${l.lead_time_days ? `, lead time ${l.lead_time_days} days` : ""}</div>`; });
+      if (pat.id === "visa-preparation") {
+        [["entry_summary", "Entry"], ["fastest_entry", "Fastest entry"], ["before_departure", "Before departure"], ["useful_stay", "Stay"], ["host_unlock", "With a host"]]
+          .forEach(([k, label]) => { if (rec[k]) body += `<div class="detail"><b>${label}:</b> ${esc(rec[k])}</div>`; });
+        if (rec.steps?.length) body += `<div class="detail"><b>Steps:</b><ol>${rec.steps.map((s) => `<li>${esc(typeof s === "string" ? s : s.step)}${s.url ? ` <a href="${esc(s.url)}" rel="noopener">source</a>` : ""}</li>`).join("")}</ol></div>`;
+        if (rec.documents?.length) body += `<div class="detail"><b>Documents:</b> ${esc(rec.documents.map((d) => (typeof d === "string" ? d : d.name)).join("; "))}</div>`;
+        (rec.fees || []).forEach((f) => { body += `<div class="detail"><b>Fee, ${esc(f.item)}:</b> ${f.amount === 0 ? "free" : `${esc(f.currency)} ${num(f.amount)}`}${f.aud ? ` (about AUD ${num(f.aud)})` : ""}, read ${fmt(f.checked)}${f.url ? ` <a href="${esc(f.url)}" rel="noopener">source</a>` : ""}</div>`; });
+        if (rec.cost_aud_baseline?.value && !(rec.fees || []).length) body += `<div class="detail"><b>Visa cost signal:</b> ${esc(rec.cost_aud_baseline.value)} (AUD, baseline from ${fmt(rec.cost_aud_baseline.checked)})</div>`;
+        if (rec.open_questions?.length) body += `<div class="detail"><b>Open questions:</b> ${esc(rec.open_questions.join(" "))}</div>`;
+        if (rec.recheck_note) body += `<div class="detail"><b>Recheck note:</b> ${esc(rec.recheck_note)}</div>`;
+      }
       if (rec.pre_arrival) body += `<div class="detail"><b>Before arrival:</b> ${esc(rec.pre_arrival)}</div>`;
       [["max_stay", "Stay"], ["passport_validity", "Passport"], ["other", "Also"], ["mission", "Office"], ["notes", "Note"], ["currency", "Currency"],
        ["rate_and_date", "Exchange rate"], ["cash_card_notes", "Cash and cards"], ["climate", "Climate"], ["own_names", "Own names"], ["sacred_or_restricted_places", "Sacred and restricted places"],
@@ -640,7 +650,7 @@
     const app = document.getElementById("app");
     const [index, creditFile] = await Promise.all([json("site/data/index.json", null), json("site/heroes/credits.json", { images: [] })]);
     if (!index) { app.innerHTML = '<section class="section"><h1>Data not built</h1><p>Run <code>python scripts/build_site.py</code>, then serve the repo folder over HTTP.</p></section>'; return; }
-    const ORDER = ["advisory", "entry", "activities", "zone-requirements", "health-entry", "local-law", "culture-and-protocol", "languages", "affection-and-relationships", "births-and-family-support", "psychoactive-substances", "culture-cycles", "seasons-and-flow", "year-ahead", "consular", "money-and-cost", "works-and-purpose"];
+    const ORDER = ["advisory", "entry", "visa-preparation", "activities", "zone-requirements", "health-entry", "local-law", "culture-and-protocol", "languages", "affection-and-relationships", "births-and-family-support", "psychoactive-substances", "culture-cycles", "seasons-and-flow", "year-ahead", "consular", "money-and-cost", "works-and-purpose"];
     index.patterns.sort((a, b) => (ORDER.indexOf(a.id) + 1 || 99) - (ORDER.indexOf(b.id) + 1 || 99));
     index.byId = Object.fromEntries(index.places.map((p) => [p.id, p]));
     IDX = index;

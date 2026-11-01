@@ -25,9 +25,11 @@
   "useful_stay",
   "host_unlock",
   "open_questions",
+  "fees",
   "cost_aud_baseline",
   "needs_recheck",
   "last_reviewed",
+  "recheck_note",
   "provenance"
  ],
  "statuses": [
@@ -39,6 +41,7 @@
  "rules": [
   "Steps and document lists come from the destination's own pages. Anything carried from Luke's earlier repos is a baseline: status imported or baseline-only, evidence legacy-baseline, needs_recheck true, with the origin repo, commit and claim id in provenance.",
   "Set needs_recheck to false only after every step, document and cost has been reread at an official source; then set status steps-found and redate checked.",
+  "Fees are structured once reread: fees: [{item, amount (number, 0 for free), currency (ISO 4217), aud (optional, with rate_date), url, checked}]. cost_aud_baseline stays as the historical signal.",
   "Costs are signals in AUD with the date they were read. Never store passport numbers, bookings or personal documents.",
   "Skipped for the home country (Australia)."
  ],
