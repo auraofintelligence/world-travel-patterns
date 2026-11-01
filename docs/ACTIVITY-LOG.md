@@ -685,6 +685,10 @@ Work and speaking rules from official sources: Cayman (guest speakers exempt 10 
 
 Work and speaking rules: Faroe Islands and Greenland (invited lecturers exempt under 3 months; Greenland also artists), Isle of Man (conference work 30 days, performers 48 days), Jersey and Guernsey (permitted paid engagements 1 month), St Helena, Falklands, Cyprus, San Marino and Gibraltar (permits). Read via search-index snapshots.
 
-## 2026-11-01 17:43 AEST, Grok: x (9 records)
+## 2026-11-01 17:43 AEST, Grok: Work: ng, mr, tg, gn, cg, zm, zw, tz, ug (9 records)
 
-x
+Work and speaking rules from official immigration sources: ng (F4A business visa covers conferences), mr, tg, gn, cg, zm (30 business days a year free), zw (Conferencing Visa), tz (Business Visa USD 250) and ug. Correction: commit ab9a95d was pushed by mistake with placeholder message "x" and only 9 records (below the 10-record minimum); this entry replaces the placeholder text. No force-push was used.
+
+## 2026-11-01 17:44 AEST, Grok: Work: bb, bs, bz, ag, gd, bh, jo, bn, bo, eh (and log fix) (10 records)
+
+Work and speaking rules: Grenada (no permit for conferences up to 14 days a year), Bahamas (conference participants exempt 3 days), Barbados, Belize, Antigua, Bahrain, Jordan, Brunei (Business Visit Visa), Bolivia and Western Sahara (Moroccan rules). Also corrected the placeholder log entry for ab9a95d. Read via search-index snapshots.
