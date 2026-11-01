@@ -2,18 +2,25 @@
  "place": "bf",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "Smartraveller's page gives no visa detail; it refers travellers to the country's embassy.",
+   "status": "evisa",
+   "summary": "Official eVisa (applicant.visaburkina.bf) for tourism or family visits, up to 90 days; hotel booking, health insurance and medical certificate required. Smartraveller advises Do not travel; advice is information, never an exclusion.",
    "other": "Smartraveller advises against all travel here; advice is information, never an exclusion.",
    "evidence": "official",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "sources": [
     {
-     "title": "Burkina Faso travel advice",
-     "authority": "Smartraveller, Australian Government",
-     "url": "https://www.smartraveller.gov.au/destinations/africa/burkina-faso",
-     "checked": "2026-10-31",
-     "supports": "entry conditions as read on 2026-10-31"
+     "title": "Visa Burkina (eVisa)",
+     "authority": "Government of Burkina Faso",
+     "url": "https://www.visaburkina.bf/en/home/",
+     "checked": "2026-11-01",
+     "supports": "eVisa (read via a search-index snapshot)"
+    },
+    {
+     "title": "eVisa",
+     "authority": "Service Public de l'Administration Burkinabè",
+     "url": "https://servicepublic.gov.bf/eservice/evisa",
+     "checked": "2026-11-01",
+     "supports": "eVisa up to 90 days (read via a search-index snapshot)"
     }
    ]
   },
@@ -276,11 +283,27 @@
    "evidence": "official",
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "confirm in writing",
-     "detail": "Smartraveller's page gives no visa detail; it refers travellers to the country's embassy.",
+     "status": "conditional",
+     "route": "eVisa",
+     "detail": "Official eVisa (applicant.visaburkina.bf) for tourism or family visits, up to 90 days; hotel booking, health insurance and medical certificate required. Smartraveller advises Do not travel; advice is information, never an exclusion.",
      "next": "See the entry record.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa Burkina (eVisa)",
+       "authority": "Government of Burkina Faso",
+       "url": "https://www.visaburkina.bf/en/home/",
+       "checked": "2026-11-01",
+       "supports": "eVisa (read via a search-index snapshot)"
+      },
+      {
+       "title": "eVisa",
+       "authority": "Service Public de l'Administration Burkinabè",
+       "url": "https://servicepublic.gov.bf/eservice/evisa",
+       "checked": "2026-11-01",
+       "supports": "eVisa up to 90 days (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

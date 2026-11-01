@@ -2,18 +2,25 @@
  "place": "so",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "Somalia's e-visa system had a data breach in November 2025 exposing applicants' personal details.",
+   "status": "evisa",
+   "summary": "Since 1 September 2025 foreign passport holders need an eTA/eVisa (evisa.gov.so) before arrival; proof of onward travel and funds; passport valid 6 months. Smartraveller advises Do not travel; advice is information, never an exclusion.",
    "other": "Smartraveller advises against all travel here; advice is information, never an exclusion.",
    "evidence": "official",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "sources": [
     {
-     "title": "Somalia travel advice",
-     "authority": "Smartraveller, Australian Government",
-     "url": "https://www.smartraveller.gov.au/destinations/africa/somalia",
-     "checked": "2026-10-31",
-     "supports": "entry conditions as read on 2026-10-31"
+     "title": "Visa",
+     "authority": "Immigration and Citizenship Agency, Somalia",
+     "url": "https://immigration.gov.so/en/visa/",
+     "checked": "2026-11-01",
+     "supports": "tourist visa requirements (read via a search-index snapshot)"
+    },
+    {
+     "title": "ICA Somalia eVisa",
+     "authority": "Immigration and Citizenship Agency",
+     "url": "https://evisa.gov.so/",
+     "checked": "2026-11-01",
+     "supports": "eVisa portal (read via a search-index snapshot)"
     }
    ]
   },
@@ -282,11 +289,27 @@
    "evidence": "official",
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "confirm in writing",
-     "detail": "Somalia's e-visa system had a data breach in November 2025 exposing applicants' personal details.",
+     "status": "conditional",
+     "route": "eVisa before arrival",
+     "detail": "Since 1 September 2025 foreign passport holders need an eTA/eVisa (evisa.gov.so) before arrival; proof of onward travel and funds; passport valid 6 months. Smartraveller advises Do not travel; advice is information, never an exclusion.",
      "next": "See the entry record.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa",
+       "authority": "Immigration and Citizenship Agency, Somalia",
+       "url": "https://immigration.gov.so/en/visa/",
+       "checked": "2026-11-01",
+       "supports": "tourist visa requirements (read via a search-index snapshot)"
+      },
+      {
+       "title": "ICA Somalia eVisa",
+       "authority": "Immigration and Citizenship Agency",
+       "url": "https://evisa.gov.so/",
+       "checked": "2026-11-01",
+       "supports": "eVisa portal (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

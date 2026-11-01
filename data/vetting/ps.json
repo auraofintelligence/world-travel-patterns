@@ -2,19 +2,19 @@
  "place": "ps",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "Entry to the West Bank is through Israeli-controlled crossings, so Israel's ETA-IL or visa rules apply; crossings can close at short notice.",
+   "status": "visa-required",
+   "summary": "Entry to the West Bank and Gaza is controlled by Israel: visitors need an Israeli ETA-IL or visa, and West Bank entry may need a specific Israeli permit; Gaza crossings are closed or extremely restricted. Smartraveller advises Do not travel; advice is information, never an exclusion.",
    "next_check": "Read the Israel Government Portal and the Palestinian side's own guidance before travel.",
    "other": "Smartraveller advises against all travel here; advice is information, never an exclusion.",
    "evidence": "official",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "sources": [
     {
      "title": "Palestine travel advice",
      "authority": "Smartraveller, Australian Government",
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/palestine",
-     "checked": "2026-10-31",
-     "supports": "entry conditions as read on 2026-10-31"
+     "checked": "2026-11-01",
+     "supports": "entry via Israel; do not travel (read via a search-index snapshot)"
     }
    ]
   },
@@ -274,11 +274,20 @@
    "evidence": "official",
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "confirm in writing",
-     "detail": "Entry to the West Bank is through Israeli-controlled crossings, so Israel's ETA-IL or visa rules apply; crossings can close at short notice.",
+     "status": "conditional",
+     "route": "Entry via Israel (ETA-IL/visa) plus permits",
+     "detail": "Entry to the West Bank and Gaza is controlled by Israel: visitors need an Israeli ETA-IL or visa, and West Bank entry may need a specific Israeli permit; Gaza crossings are closed or extremely restricted. Smartraveller advises Do not travel; advice is information, never an exclusion.",
      "next": "See the entry record.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Palestine travel advice",
+       "authority": "Smartraveller, Australian Government",
+       "url": "https://www.smartraveller.gov.au/destinations/middle-east/palestine",
+       "checked": "2026-11-01",
+       "supports": "entry via Israel; do not travel (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

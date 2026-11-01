@@ -696,3 +696,7 @@ Work and speaking rules: Grenada (no permit for conferences up to 14 days a year
 ## 2026-11-01 17:45 AEST, Grok: Work: mv, il, al, ba, mm, by, np, om, kw, tm (10 records)
 
 Work and speaking rules: Maldives (14-day on-arrival Meeting Visa), Bosnia (Form 17, 90 days), Albania (lecturers 1 month exempt), Belarus (lecturer and cultural exemptions), Israel (B/1), Myanmar, Nepal, Oman, Kuwait and Turkmenistan. Read via search-index snapshots.
+
+## 2026-11-01 17:46 AEST, Grok: Do-not-travel: tourism af, bf, ps, so; culture ir, iq, ve, lb, kp, ht (10 records)
+
+Do-not-travel pass (last, as agreed): entry and tourism records for af (visa before travel), bf (eVisa 90 days), ps (entry via Israel) and so (eVisa since 1 Sep 2025). Culture: ir (official dress code), iq (KRG), ve (tourism law) upgraded; lb, kp and ht searched, none found. Smartraveller advice recorded as information. Read via search-index snapshots.

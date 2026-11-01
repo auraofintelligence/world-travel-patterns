@@ -2,18 +2,25 @@
  "place": "af",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "Smartraveller gives no visa route; the Australian Embassy in Kabul is closed.",
+   "status": "visa-required",
+   "summary": "Foreign nationals need an Afghan visa before travel; generally not available on arrival. Smartraveller advises Do not travel; advice is information, never an exclusion.",
    "other": "Smartraveller advises against all travel here; advice is information, never an exclusion.",
    "evidence": "official",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "sources": [
+    {
+     "title": "Entry permit visa",
+     "authority": "Ministry of Foreign Affairs (Afghanistan)",
+     "url": "https://mfa.gov.af/en/page/38993/",
+     "checked": "2026-11-01",
+     "supports": "visa needed (read via a search-index snapshot)"
+    },
     {
      "title": "Afghanistan travel advice",
      "authority": "Smartraveller, Australian Government",
      "url": "https://www.smartraveller.gov.au/destinations/asia/afghanistan",
-     "checked": "2026-10-31",
-     "supports": "entry conditions as read on 2026-10-31"
+     "checked": "2026-11-01",
+     "supports": "do not travel; visa before travel (read via a search-index snapshot)"
     }
    ]
   },
@@ -128,11 +135,27 @@
    "evidence": "official",
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "confirm in writing",
-     "detail": "Smartraveller gives no visa route; the Australian Embassy in Kabul is closed.",
+     "status": "conditional",
+     "route": "Visa before travel",
+     "detail": "Foreign nationals need an Afghan visa before travel; generally not available on arrival. Smartraveller advises Do not travel; advice is information, never an exclusion.",
      "next": "See the entry record.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry permit visa",
+       "authority": "Ministry of Foreign Affairs (Afghanistan)",
+       "url": "https://mfa.gov.af/en/page/38993/",
+       "checked": "2026-11-01",
+       "supports": "visa needed (read via a search-index snapshot)"
+      },
+      {
+       "title": "Afghanistan travel advice",
+       "authority": "Smartraveller, Australian Government",
+       "url": "https://www.smartraveller.gov.au/destinations/asia/afghanistan",
+       "checked": "2026-11-01",
+       "supports": "do not travel; visa before travel (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",
