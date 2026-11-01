@@ -193,11 +193,20 @@
      ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Remote work for an employer outside the EU isn't addressed in the EU guidance read.",
-     "next": "Ask the Embassy of Finland, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visitor stay (Schengen 90 days)",
+     "detail": "Migri says you may work remotely for a foreign employer while legally in Finland, but remote work cannot be the basis of a residence permit.",
+     "next": "Stay within 90 days in 180.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work in Finland",
+       "authority": "Finnish Immigration Service (Migri)",
+       "url": "https://migri.fi/en/work-in-finland",
+       "checked": "2026-11-01",
+       "supports": "remote work for a foreign employer while legally in Finland (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "conditional",

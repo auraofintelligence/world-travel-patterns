@@ -194,11 +194,20 @@
      "checked": "2026-11-01"
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Remote work for an employer outside the EU isn't addressed in the EU guidance read.",
-     "next": "Ask the Embassy of the Republic of Slovenia, O'Malley.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Temporary residence permit for digital nomads (1 year, not extendable)",
+     "detail": "For remote work for an employer, contract or own business outside Slovenia. Income at least twice the average monthly net salary, health insurance, police certificate. Reapply only after 6 months.",
+     "next": "Apply at a Slovenian embassy.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Temporary residence permit for digital nomads",
+       "authority": "Government of Slovenia (GOV.SI)",
+       "url": "https://www.gov.si/en/news/2025-11-21-temporary-residence-permit-for-digital-nomads/",
+       "checked": "2026-11-01",
+       "supports": "eligibility and income twice the average net salary (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "conditional",

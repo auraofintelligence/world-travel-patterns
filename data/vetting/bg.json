@@ -240,11 +240,20 @@
      ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Remote work for an employer outside the EU isn't addressed in the EU guidance read.",
-     "next": "Ask the Embassy of Bulgaria, Barton.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Digital nomad residence permit (1 year, renewable once)",
+     "detail": "For remote workers employed by or owning a company outside the EU, EEA and Switzerland, or freelancers with a year of remote service. Gross income at least 50 times Bulgaria's minimum monthly wage for the prior year. Needs a long-stay visa first. No Bulgarian clients.",
+     "next": "Apply for the D visa, then the permit.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "State Gazette amendment to the Foreigners Act (digital nomad permit)",
+       "authority": "Държавен вестник, National Assembly of Bulgaria",
+       "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=235575",
+       "checked": "2026-11-01",
+       "supports": "1-year digital nomad residence, income 50 times minimum wage (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "conditional",

@@ -215,10 +215,19 @@
     },
     "remote-work": {
      "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Kyrgyz Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Kyrgyz Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "route": "Digital nomad status (listed nationalities only)",
+     "detail": "Kyrgyzstan's digital nomad status waives the work permit, but the published list of eligible nationalities (Armenia, Azerbaijan, Kazakhstan, Russia, Belarus, Moldova and others) was not confirmed to include Australia.",
+     "next": "Ask the Ministry of Economy whether Australians qualify.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Digital nomad status",
+       "authority": "Ministry of Economy and Commerce, Kyrgyz Republic",
+       "url": "https://mineconom.gov.kg/ru/direct/385/395",
+       "checked": "2026-11-01",
+       "supports": "digital nomad status for listed nationalities (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "confirm-in-writing",

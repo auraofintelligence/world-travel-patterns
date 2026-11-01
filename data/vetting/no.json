@@ -218,11 +218,20 @@
      ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Remote work for an employer outside the EU isn't addressed in the EU guidance read.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "not-fit",
+     "route": "Not allowed as a visitor",
+     "detail": "UDI: visitors may not work remotely for a foreign employer, apart from limited emails, calls and meetings that are not the main purpose of the trip and create no value in Norway.",
+     "next": "Keep work to incidental emails and calls.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Remote work in Norway",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/remote-work-in-norway/",
+       "checked": "2026-11-01",
+       "supports": "remote work as a visitor is generally not allowed (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "conditional",

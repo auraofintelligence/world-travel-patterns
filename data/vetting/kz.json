@@ -214,11 +214,20 @@
      ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Kazakhstan",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Kazakhstan which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Neo Nomad Visa (up to 1 year, multiple entry)",
+     "detail": "For remote workers with foreign income of at least USD 3,000 a month, with tax return, police certificate and insurance. No local employment.",
+     "next": "Apply at a Kazakh mission.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Neo Nomad Visa instructions",
+       "authority": "Kazakh Tourism (kazakhstan.travel), national tourism company",
+       "url": "https://kazakhstan.travel/ko/publications/172/neo-nomad-visa-instructions-for-obtaining-a-visa-for-digital-nomads",
+       "checked": "2026-11-01",
+       "supports": "USD 3,000 a month, up to 1 year (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "confirm-in-writing",
