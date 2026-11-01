@@ -219,3 +219,13 @@ All four were read via search snapshots.
 **Correction to the plan:** Russia (ru) is under Smartraveller "Do not travel", so it moves to the conflict-zones-last list.
 
 **Not done:** mx (the FMM cost isn't on an official page), sa (fee only on non-official sites), ae.
+
+## 2026-11-01 16:40 AEST, Grok: part 3 starts, culture-and-protocol batch 1 (13 records)
+
+`smartraveller_draft.py` changes:
+- New `--only culture|local-law|money` option, so it can write one pattern without touching the others.
+- The "Local customs" capture now includes its subheadings (Ramadan, Dress and behaviour, ...); before, it stopped at the first one.
+
+Of the 87 places with no culture record and a Smartraveller page, only 23 have a "Local customs" section. The rest (France, Japan, the US and others) have none, so there's nothing official to record yet. For those, own-community sources are the next step.
+
+**Written from Smartraveller's local customs (status ask-locally, evidence official):** ae, bd, dz, eh, gm, id, ke, kg, kz, mh, mo, mr, mv.

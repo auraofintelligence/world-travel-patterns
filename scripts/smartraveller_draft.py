@@ -101,6 +101,7 @@ def main():
     ap.add_argument("--dir")
     ap.add_argument("--print", action="store_true", dest="show")
     ap.add_argument("--force", action="store_true", help="redraft patterns already checked today")
+    ap.add_argument("--only", help="comma list of patterns to write: local-law,culture,money (default all)")
     args = ap.parse_args()
     D = today().isoformat()
     places = load_places()
@@ -136,13 +137,16 @@ def main():
                     print(f"## {t}\n{txt[:900]}")
             continue
 
-        laws, customs = [], ""
+        laws, customs, in_customs = [], "", False
         for title, body in laws_secs:
             text = clean(body)
-            if not text or title in SKIP_HEADS or title.startswith("Dual"):
-                continue
             if title.lower().startswith("local custom"):
-                customs = text
+                in_customs = True  # subheadings after it (Ramadan, Dress...) belong to customs
+            if in_customs:
+                if text:
+                    customs = (customs + " " + (text if title.lower().startswith("local custom") else f"{title}: {text}")).strip()
+                continue
+            if not text or title in SKIP_HEADS or title.startswith("Dual"):
                 continue
             laws.append({"topic": topic_for(title, text), "rule": text[:700], "level": "country", "source": dest["url"], "checked": D,
                          "heading": title})
@@ -163,11 +167,18 @@ def main():
         rec = read(path, {"place": pid, "patterns": {}})
         pats = rec["patterns"]
         wrote = []
+        only = set(args.only.split(",")) if args.only else {"local-law", "culture", "money"}
+        if "local-law" not in only:
+            laws = []
+        if "culture" not in only:
+            customs = ""
+        if "money" not in only:
+            money = ""
         if laws and (args.force or pats.get("local-law", {}).get("checked") != D):
             pats["local-law"] = {"status": "partly-mapped", "checked": D, "evidence": "official", "laws": laws, "sources": [src]}
             wrote.append(f"local-law ({len(laws)})")
         if customs and (args.force or pats.get("culture-and-protocol", {}).get("checked") != D):
-            pats["culture-and-protocol"] = {"status": "ask-locally", "checked": D, "evidence": "official", "dress_and_conduct": customs[:700],
+            pats["culture-and-protocol"] = {"status": "ask-locally", "checked": D, "evidence": "official", "dress_and_conduct": customs[:900],
                                             "cultural_authority": "Ask locally, through your host.",
                                             "note": "Read from the Australian Government's description of local customs.", "sources": [src]}
             wrote.append("culture")
