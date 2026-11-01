@@ -423,3 +423,8 @@ Fees are filed under the local-law topic work-and-payment, because money-and-cos
 ## 2026-11-01 16:46 AEST, Grok: visa preparation, "Do not travel" countries, part 1 (11 records)
 
 Reread Smartraveller's visa text for af, bf, cd, cf, ht, iq, ir, kp, lb, ly and ml. No page states a fee, so all 11 stay needs_recheck with a dated recheck_note giving the visa rule (Do not travel first). Added as batch DNT in scripts/visa_prep_rechecks.py.
+
+## 2026-11-01 16:46 AEST, Grok: visa preparation, "Do not travel" countries, part 2 (10 records)
+
+- ve: verified from Smartraveller. In most cases no visa is needed for tourist visits under 90 days; the Do not travel note is kept.
+- ne, ps, sd, so, ss, sy, td, ye and ru: flagged with the reread visa rules; no fees stated.
