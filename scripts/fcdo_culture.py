@@ -60,9 +60,9 @@ def main():
             out["note"] = "From UK Government (FCDO) travel advice, written for British travellers. Confirm locally."
         else:
             out = {"status": "ask-locally", "checked": D, "evidence": "official",
-                   "dress_and_conduct": f"FCDO's laws and cultural differences section for {name} has no customs or etiquette guidance, and no national etiquette page was found. Ask locally.",
+                   "dress_and_conduct": f"FCDO's laws and cultural differences section for {name} has no customs or etiquette guidance. A national etiquette page has not been searched for yet. Ask locally.",
                    "cultural_authority": f"Government of {name} and its tourism office; local community leaders.",
-                   "note": "No official etiquette guidance found; FCDO page checked (written for British travellers)."}
+                   "note": "FCDO page checked (written for British travellers); it has no customs guidance. National tourism or government etiquette pages not yet searched."}
         out["sources"] = src
         print(f"{pid}: {out['status']} {[x.split(':')[0] for x in dress + sacred]}")
         if not args.dry:
