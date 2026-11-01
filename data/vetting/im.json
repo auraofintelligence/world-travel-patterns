@@ -37,11 +37,27 @@
      ]
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor / permitted paid engagement",
+     "detail": "Visitors can't work for an Isle of Man employer. Conference-related work is exempt for up to 30 days a year, and performers and crew for up to 48 days a year.",
+     "next": "Check the exemption list.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visit",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/travel-traffic-and-motoring/immigration/visit/",
+       "checked": "2026-11-01",
+       "supports": "permitted paid engagements (read via a search-index snapshot)"
+      },
+      {
+       "title": "Temporary exemptions",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/working-in-the-isle-of-man/work-permits/temporary-exemptions",
+       "checked": "2026-11-01",
+       "supports": "conference work 30 days a year; performers 48 days (read via a search-index snapshot)"
+      }
+     ]
     },
     "conference": {
      "status": "low",
@@ -136,32 +152,96 @@
      ]
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor / permitted paid engagement",
+     "detail": "Visitors can't work for an Isle of Man employer. Conference-related work is exempt for up to 30 days a year, and performers and crew for up to 48 days a year.",
+     "next": "Check the exemption list.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visit",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/travel-traffic-and-motoring/immigration/visit/",
+       "checked": "2026-11-01",
+       "supports": "permitted paid engagements (read via a search-index snapshot)"
+      },
+      {
+       "title": "Temporary exemptions",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/working-in-the-isle-of-man/work-permits/temporary-exemptions",
+       "checked": "2026-11-01",
+       "supports": "conference work 30 days a year; performers 48 days (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work permit",
+     "detail": "Other paid work.",
+     "next": "Confirm with the Work Permit Office.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visit",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/travel-traffic-and-motoring/immigration/visit/",
+       "checked": "2026-11-01",
+       "supports": "permitted paid engagements (read via a search-index snapshot)"
+      },
+      {
+       "title": "Temporary exemptions",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/working-in-the-isle-of-man/work-permits/temporary-exemptions",
+       "checked": "2026-11-01",
+       "supports": "conference work 30 days a year; performers 48 days (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work permit",
+     "detail": "Other paid work.",
+     "next": "Confirm with the Work Permit Office.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visit",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/travel-traffic-and-motoring/immigration/visit/",
+       "checked": "2026-11-01",
+       "supports": "permitted paid engagements (read via a search-index snapshot)"
+      },
+      {
+       "title": "Temporary exemptions",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/working-in-the-isle-of-man/work-permits/temporary-exemptions",
+       "checked": "2026-11-01",
+       "supports": "conference work 30 days a year; performers 48 days (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor / permitted paid engagement",
+     "detail": "Visitors can't work for an Isle of Man employer. Conference-related work is exempt for up to 30 days a year, and performers and crew for up to 48 days a year.",
+     "next": "Check the exemption list.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visit",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/travel-traffic-and-motoring/immigration/visit/",
+       "checked": "2026-11-01",
+       "supports": "permitted paid engagements (read via a search-index snapshot)"
+      },
+      {
+       "title": "Temporary exemptions",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/working-in-the-isle-of-man/work-permits/temporary-exemptions",
+       "checked": "2026-11-01",
+       "supports": "conference work 30 days a year; performers 48 days (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
      "status": "low",
@@ -187,32 +267,96 @@
      ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor / permitted paid engagement",
+     "detail": "Visitors can't work for an Isle of Man employer. Conference-related work is exempt for up to 30 days a year, and performers and crew for up to 48 days a year.",
+     "next": "Check the exemption list.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visit",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/travel-traffic-and-motoring/immigration/visit/",
+       "checked": "2026-11-01",
+       "supports": "permitted paid engagements (read via a search-index snapshot)"
+      },
+      {
+       "title": "Temporary exemptions",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/working-in-the-isle-of-man/work-permits/temporary-exemptions",
+       "checked": "2026-11-01",
+       "supports": "conference work 30 days a year; performers 48 days (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor / permitted paid engagement",
+     "detail": "Visitors can't work for an Isle of Man employer. Conference-related work is exempt for up to 30 days a year, and performers and crew for up to 48 days a year.",
+     "next": "Check the exemption list.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visit",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/travel-traffic-and-motoring/immigration/visit/",
+       "checked": "2026-11-01",
+       "supports": "permitted paid engagements (read via a search-index snapshot)"
+      },
+      {
+       "title": "Temporary exemptions",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/working-in-the-isle-of-man/work-permits/temporary-exemptions",
+       "checked": "2026-11-01",
+       "supports": "conference work 30 days a year; performers 48 days (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work permit",
+     "detail": "Other paid work.",
+     "next": "Confirm with the Work Permit Office.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visit",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/travel-traffic-and-motoring/immigration/visit/",
+       "checked": "2026-11-01",
+       "supports": "permitted paid engagements (read via a search-index snapshot)"
+      },
+      {
+       "title": "Temporary exemptions",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/working-in-the-isle-of-man/work-permits/temporary-exemptions",
+       "checked": "2026-11-01",
+       "supports": "conference work 30 days a year; performers 48 days (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work permit",
+     "detail": "Other paid work.",
+     "next": "Confirm with the Work Permit Office.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visit",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/travel-traffic-and-motoring/immigration/visit/",
+       "checked": "2026-11-01",
+       "supports": "permitted paid engagements (read via a search-index snapshot)"
+      },
+      {
+       "title": "Temporary exemptions",
+       "authority": "Isle of Man Government",
+       "url": "https://www.gov.im/categories/working-in-the-isle-of-man/work-permits/temporary-exemptions",
+       "checked": "2026-11-01",
+       "supports": "conference work 30 days a year; performers 48 days (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [],

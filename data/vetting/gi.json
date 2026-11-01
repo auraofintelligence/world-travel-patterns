@@ -73,18 +73,36 @@
      ]
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor",
+     "detail": "Unpaid visits.",
+     "next": "Check entry rules.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work permits and employment",
+       "authority": "Government of Gibraltar",
+       "url": "https://residency.gov.gi/residency/work-permits-and-employment-approval/",
+       "checked": "2026-11-01",
+       "supports": "work permit before starting work (read via a search-index snapshot)"
+      }
+     ]
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor",
+     "detail": "Unpaid visits.",
+     "next": "Check entry rules.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work permits and employment",
+       "authority": "Government of Gibraltar",
+       "url": "https://residency.gov.gi/residency/work-permits-and-employment-approval/",
+       "checked": "2026-11-01",
+       "supports": "work permit before starting work (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "conditional",
@@ -110,11 +128,20 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work permit (employer applies)",
+     "detail": "Non-entitled workers need a work permit before starting. There is expedited registration for short assignments (up to 2 weeks at a time, 2 months in 12).",
+     "next": "The employer applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work permits and employment",
+       "authority": "Government of Gibraltar",
+       "url": "https://residency.gov.gi/residency/work-permits-and-employment-approval/",
+       "checked": "2026-11-01",
+       "supports": "work permit before starting work (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",
@@ -140,60 +167,132 @@
      ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work permit (employer applies)",
+     "detail": "Non-entitled workers need a work permit before starting. There is expedited registration for short assignments (up to 2 weeks at a time, 2 months in 12).",
+     "next": "The employer applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work permits and employment",
+       "authority": "Government of Gibraltar",
+       "url": "https://residency.gov.gi/residency/work-permits-and-employment-approval/",
+       "checked": "2026-11-01",
+       "supports": "work permit before starting work (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work permit (employer applies)",
+     "detail": "Non-entitled workers need a work permit before starting. There is expedited registration for short assignments (up to 2 weeks at a time, 2 months in 12).",
+     "next": "The employer applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work permits and employment",
+       "authority": "Government of Gibraltar",
+       "url": "https://residency.gov.gi/residency/work-permits-and-employment-approval/",
+       "checked": "2026-11-01",
+       "supports": "work permit before starting work (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor",
+     "detail": "Unpaid visits.",
+     "next": "Check entry rules.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work permits and employment",
+       "authority": "Government of Gibraltar",
+       "url": "https://residency.gov.gi/residency/work-permits-and-employment-approval/",
+       "checked": "2026-11-01",
+       "supports": "work permit before starting work (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work permit (employer applies)",
+     "detail": "Non-entitled workers need a work permit before starting. There is expedited registration for short assignments (up to 2 weeks at a time, 2 months in 12).",
+     "next": "The employer applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work permits and employment",
+       "authority": "Government of Gibraltar",
+       "url": "https://residency.gov.gi/residency/work-permits-and-employment-approval/",
+       "checked": "2026-11-01",
+       "supports": "work permit before starting work (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work permit (employer applies)",
+     "detail": "Non-entitled workers need a work permit before starting. There is expedited registration for short assignments (up to 2 weeks at a time, 2 months in 12).",
+     "next": "The employer applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work permits and employment",
+       "authority": "Government of Gibraltar",
+       "url": "https://residency.gov.gi/residency/work-permits-and-employment-approval/",
+       "checked": "2026-11-01",
+       "supports": "work permit before starting work (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work permit (employer applies)",
+     "detail": "Non-entitled workers need a work permit before starting. There is expedited registration for short assignments (up to 2 weeks at a time, 2 months in 12).",
+     "next": "The employer applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work permits and employment",
+       "authority": "Government of Gibraltar",
+       "url": "https://residency.gov.gi/residency/work-permits-and-employment-approval/",
+       "checked": "2026-11-01",
+       "supports": "work permit before starting work (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work permit (employer applies)",
+     "detail": "Non-entitled workers need a work permit before starting. There is expedited registration for short assignments (up to 2 weeks at a time, 2 months in 12).",
+     "next": "The employer applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work permits and employment",
+       "authority": "Government of Gibraltar",
+       "url": "https://residency.gov.gi/residency/work-permits-and-employment-approval/",
+       "checked": "2026-11-01",
+       "supports": "work permit before starting work (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work permit (employer applies)",
+     "detail": "Non-entitled workers need a work permit before starting. There is expedited registration for short assignments (up to 2 weeks at a time, 2 months in 12).",
+     "next": "The employer applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work permits and employment",
+       "authority": "Government of Gibraltar",
+       "url": "https://residency.gov.gi/residency/work-permits-and-employment-approval/",
+       "checked": "2026-11-01",
+       "supports": "work permit before starting work (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [],
