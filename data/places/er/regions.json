@@ -1,0 +1,65 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "er/anseba-region",
+   "name": "Anseba Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "er",
+   "iso_3166_2": "ER-AN",
+   "wikidata": "Q569468",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "er/debub-region",
+   "name": "Debub Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "er",
+   "iso_3166_2": "ER-DU",
+   "wikidata": "Q27728",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "er/gash-barka-region",
+   "name": "Gash-Barka Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "er",
+   "iso_3166_2": "ER-GB",
+   "wikidata": "Q873012",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "er/maekel-region",
+   "name": "Maekel Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "er",
+   "iso_3166_2": "ER-MA",
+   "wikidata": "Q27710",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "er/northern-red-sea-region",
+   "name": "Northern Red Sea Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "er",
+   "iso_3166_2": "ER-SK",
+   "wikidata": "Q27910",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "er/southern-red-sea-region",
+   "name": "Southern Red Sea Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "er",
+   "iso_3166_2": "ER-DK",
+   "wikidata": "Q27928",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

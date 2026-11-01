@@ -1,0 +1,45 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "bn/belait-district",
+   "name": "Belait District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "bn",
+   "iso_3166_2": "BN-BE",
+   "wikidata": "Q40395",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "bn/brunei-muara-district",
+   "name": "Brunei-Muara District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "bn",
+   "iso_3166_2": "BN-BM",
+   "wikidata": "Q153009",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "bn/temburong-district",
+   "name": "Temburong District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "bn",
+   "iso_3166_2": "BN-TE",
+   "wikidata": "Q263285",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "bn/tutong-district",
+   "name": "Tutong District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "bn",
+   "iso_3166_2": "BN-TU",
+   "wikidata": "Q40398",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

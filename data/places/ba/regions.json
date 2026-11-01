@@ -1,0 +1,35 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "ba/brcko-district",
+   "name": "Brčko District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ba",
+   "iso_3166_2": "BA-BRC",
+   "wikidata": "Q194483",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ba/federation-of-bosnia-and-herzegovina",
+   "name": "Federation of Bosnia and Herzegovina",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ba",
+   "iso_3166_2": "BA-BIH",
+   "wikidata": "Q11198",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ba/republika-srpska",
+   "name": "Republika Srpska",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ba",
+   "iso_3166_2": "BA-SRP",
+   "wikidata": "Q11196",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

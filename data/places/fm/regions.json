@@ -1,0 +1,45 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "fm/chuuk",
+   "name": "Chuuk",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "fm",
+   "iso_3166_2": "FM-TRK",
+   "wikidata": "Q221684",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "fm/kosrae-state",
+   "name": "Kosrae State",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "fm",
+   "iso_3166_2": "FM-KSA",
+   "wikidata": "Q1785093",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "fm/pohnpei-state",
+   "name": "Pohnpei State",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "fm",
+   "iso_3166_2": "FM-PNI",
+   "wikidata": "Q7771127",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "fm/yap-state",
+   "name": "Yap State",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "fm",
+   "iso_3166_2": "FM-YAP",
+   "wikidata": "Q11342951",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

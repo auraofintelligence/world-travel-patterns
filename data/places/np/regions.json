@@ -1,0 +1,65 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "np/bagmati-province",
+   "name": "Bagmati Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "np",
+   "iso_3166_2": "NP-P3",
+   "wikidata": "Q25104015",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "np/karnali-province",
+   "name": "Karnali Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "np",
+   "iso_3166_2": "NP-P6",
+   "wikidata": "Q25104017",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "np/koshi-province",
+   "name": "Koshi Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "np",
+   "iso_3166_2": "NP-P1",
+   "wikidata": "Q25104008",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "np/lumbini-province",
+   "name": "Lumbini Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "np",
+   "iso_3166_2": "NP-P5",
+   "wikidata": "Q25104014",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "np/madhesh-province",
+   "name": "Madhesh Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "np",
+   "iso_3166_2": "NP-P2",
+   "wikidata": "Q25104009",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "np/sudurpashchim-province",
+   "name": "Sudurpashchim Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "np",
+   "iso_3166_2": "NP-P7",
+   "wikidata": "Q25104019",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

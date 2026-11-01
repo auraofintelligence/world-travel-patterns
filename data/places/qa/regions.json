@@ -1,0 +1,55 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "qa/al-khor",
+   "name": "Al Khor",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "qa",
+   "iso_3166_2": "QA-KH",
+   "wikidata": "Q1156471",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "qa/al-rayyan-municipality",
+   "name": "Al Rayyan Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "qa",
+   "iso_3166_2": "QA-RA",
+   "wikidata": "Q311272",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "qa/al-shamal",
+   "name": "Al Shamal",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "qa",
+   "iso_3166_2": "QA-MS",
+   "wikidata": "Q310872",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "qa/al-wakrah",
+   "name": "Al Wakrah",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "qa",
+   "iso_3166_2": "QA-WA",
+   "wikidata": "Q310893",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "qa/umm-salal-municipality",
+   "name": "Umm Salal Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "qa",
+   "iso_3166_2": "QA-US",
+   "wikidata": "Q990414",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

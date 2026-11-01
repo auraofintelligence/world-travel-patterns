@@ -21,7 +21,7 @@
   const SOURCE_KIND = {
     council: "Council", ward: "Ward or division", "unincorporated-area": "Unincorporated area", "special-local-body": "Special local body",
     "federal-division": "Federal division", "state-district": "State electoral district", "state-region": "State electoral region",
-    "senate-area": "Senate area", "statewide-upper-house": "Statewide upper house",
+    "senate-area": "Senate area", "statewide-upper-house": "Statewide upper house", "first-level": "State, province or region",
   };
   const kindOf = (p) => SOURCE_KIND[p.sk] || KIND_LABEL[p.kind] || p.kind;
   const TAG_LABEL = {
@@ -90,6 +90,9 @@
     return "lvl-none";
   };
 
+  let IDX = null;
+  const isRegion = (p) => p.sk === "first-level" || p.kind === "state";
+
   /* Shell */
   function shell(page) {
     const nav = document.createElement("nav");
@@ -130,7 +133,7 @@
     return `<div class="fresh-bar" role="img" aria-label="${fresh} current, ${due} due, ${total - fresh - due} not yet checked"><i class="f" style="width:${f}%"></i><i class="d" style="width:${d}%"></i></div>`;
   }
 
-  function placeCard(p) {
+  function placeCard(p, short = false) {
     const due = Object.keys(p.due || {}).length;
     const fresh = p.fresh || 0;
     const records = p.records || 0;
@@ -138,10 +141,10 @@
     const tags = (p.tags || []).map((t) => `<span class="chip gold">${esc(TAG_LABEL[t] || t)}</span>`).join("");
     return `<a class="card" href="place.html?id=${encodeURIComponent(p.id)}">
       <h3>${esc(p.name)}</h3>
-      <div class="meta">${esc(kindOf(p))}${p.children ? ` · ${num(p.children)} inside` : ""}</div>
+      ${short ? "" : `<div class="meta">${esc(kindOf(p))}${p.id.includes("/") && IDX ? `, ${esc(IDX.byId[p.id.split("/")[0]]?.name || "")}` : ""}${p.children ? ` · ${num(p.children)} inside` : ""}</div>`}
       <div class="chips" style="margin-top:10px">${p.zone ? '<span class="chip coral">Permit zone scan</span>' : ""}${tags}</div>
       <div class="mini-bar" aria-hidden="true"><i style="width:${total ? (fresh / total) * 100 : 0}%;background:var(--fresh)"></i><i style="width:${total ? ((records - fresh) / total) * 100 : 0}%;background:var(--due)"></i></div>
-      <div class="meta" style="margin-top:6px">${total ? `${records} of ${total} patterns on record${due ? `, ${due} due` : ""}` : "Inherits from the levels above"}</div>
+      <div class="meta" style="margin-top:6px">${!total ? "Uses the rules of the levels above" : records ? `${records} of ${total} checked${due ? `, ${due} due again` : ""}` : "Not yet checked"}</div>
     </a>`;
   }
 
@@ -244,7 +247,7 @@
       <div class="toolbar"><input class="search" id="q" type="search" placeholder="Search any place: Rapa Nui, Redland City, Bougainville…" aria-label="Search places">
       </div>
       <div class="toolbar" id="filters">
-        ${[["spine", "Countries and territories"], ["oceania", "Oceania"], ["native", "First Nations"], ["home", "Home"], ["zones", "Permit zones"], ["records", "Has records"], ["all", "Everything"]]
+        ${[["spine", "Countries and territories"], ["regions", "States and regions"], ["oceania", "Oceania"], ["native", "First Nations"], ["home", "Home"], ["zones", "Permit zones"], ["records", "Has records"], ["all", "Everything"]]
           .map(([k, l], i) => `<button class="filter" data-f="${k}" aria-pressed="${i === 0}">${l}</button>`).join("")}
       </div>
       <p class="meta" id="count"></p>
@@ -259,6 +262,7 @@
     let filter = "spine";
     const tests = {
       spine: (p) => !p.id.includes("/"),
+      regions: (p) => isRegion(p),
       oceania: (p) => (p.tags || []).includes("oceania"),
       native: (p) => (p.tags || []).includes("first-nations"),
       home: (p) => (p.tags || []).includes("home"),
@@ -274,7 +278,7 @@
       list.sort((a, b) => (a.id.includes("/") - b.id.includes("/")) || a.name.localeCompare(b.name));
       const grouped = !term && filter === "spine";
       const shown = grouped ? list : list.slice(0, 240);
-      count.textContent = `${num(list.length)} places${list.length > shown.length ? `, showing the first ${shown.length}: search to narrow` : ""}`;
+      count.textContent = `${num(list.length)} place${list.length === 1 ? "" : "s"}${list.length > shown.length ? `, showing the first ${shown.length}: search to narrow` : ""}`;
       if (grouped) {
         const groups = {};
         shown.forEach((p) => { (groups[p.region || ((p.tags || []).includes("oceania") ? "Pacific" : "More places")] ||= []).push(p); });
@@ -403,10 +407,12 @@
     const events = feed.events.filter((e) => (chainIds.has(e.place) || (e.members || []).includes(spine.id)) && (e.closes || e.ends || e.starts || "") >= now);
     const watched = watch.items.filter((w) => w.status !== "resolved" && (w.places.includes(id) || w.places.includes(spine.id)));
     const byKind = {};
-    children.forEach((c) => (byKind[kindOf(c)] ||= []).push(c));
+    children.slice().sort((a, b) => isRegion(b) - isRegion(a)).forEach((c) => (byKind[isRegion(c) ? "States and regions" : kindOf(c)] ||= []).push(c));
 
     const strata = `<div class="strata">${chain.map((p) => `<a class="stratum ${p.id === id ? "here" : ""}" href="place.html?id=${encodeURIComponent(p.id)}"><small>${esc(kindOf(p))}</small>${esc(p.name)}</a>`).join("")}</div>`;
+    const regionCount = children.filter(isRegion).length;
     const links = [
+      children.length ? `<a class="btn" href="#inside">${regionCount ? `States and regions (${regionCount})` : `Places inside (${children.length})`}</a>` : "",
       advice ? `<a class="btn ghost" href="${esc(advice.url)}" rel="noopener">Smartraveller advice</a>` : "",
     ].join("");
     const html = hero(credits, "place", {
@@ -440,8 +446,8 @@
         <p class="meta">Where to apply for a visa or ask for a rule in writing before you go. From the DFAT Protocol directory, read ${fmt(inAus.checked)}. Honorary consuls offer limited services.</p>
         <div class="grid">${offices.map((o) => `<div class="card"><h3>${esc(o.name)}</h3><p class="meta">${esc(o.type)}${o.honorary ? " · honorary" : ""}${o.city ? ` · ${esc(o.city)}${o.state ? ` ${esc(o.state)}` : ""}` : ""}</p>
           ${o.notice ? `<p><span class="chip gold">${esc(o.notice)}</span></p>` : ""}<p>${o.website ? `<a href="${esc(o.website)}">Website</a> · ` : ""}<a href="${esc(o.source)}">DFAT listing</a></p></div>`).join("")}</div></section>` : ""}
-      ${children.length ? `<section class="section tight"><div class="layer-group"><h2>Inside ${esc(place.name)}</h2><span class="rule"></span></div>
-        ${Object.entries(byKind).map(([k, list]) => `<h3 class="month-head">${esc(k)} <span class="meta">${list.length}</span></h3><div class="grid">${list.sort((a, b) => a.name.localeCompare(b.name)).slice(0, 120).map(placeCard).join("")}</div>${list.length > 120 ? `<p class="meta">${list.length - 120} more: use <a href="places.html">search</a>.</p>` : ""}`).join("")}</section>` : ""}
+      ${children.length ? `<section class="section tight" id="inside"><div class="layer-group"><h2>Inside ${esc(place.name)}</h2><span class="rule"></span></div>
+        ${Object.entries(byKind).map(([k, list]) => `<h3 class="month-head">${esc(k)} <span class="meta">${list.length}</span></h3><div class="grid">${list.sort((a, b) => a.name.localeCompare(b.name)).slice(0, 120).map((c) => placeCard(c, k === "States and regions")).join("")}</div>${list.length > 120 ? `<p class="meta">${list.length - 120} more: use <a href="places.html">search</a>.</p>` : ""}`).join("")}</section>` : ""}
       <section class="section tight"><div class="card"><h3>A dated brief for a trip</h3>
         <p>Trip dates never go on this site. To get a brief with latest safe start dates for permits, run this on your own machine:</p>
         <pre>python scripts/brief.py ${esc(id)} --start 2027-03-01 --end 2027-04-15 --activities tourism,filming</pre></div></section>
@@ -637,6 +643,7 @@
     const ORDER = ["advisory", "entry", "activities", "zone-requirements", "health-entry", "local-law", "culture-and-protocol", "languages", "affection-and-relationships", "births-and-family-support", "psychoactive-substances", "culture-cycles", "seasons-and-flow", "year-ahead", "consular", "money-and-cost", "works-and-purpose"];
     index.patterns.sort((a, b) => (ORDER.indexOf(a.id) + 1 || 99) - (ORDER.indexOf(b.id) + 1 || 99));
     index.byId = Object.fromEntries(index.places.map((p) => [p.id, p]));
+    IDX = index;
     const credits = Object.fromEntries(creditFile.images.map((c) => [c.page, c]));
     app.innerHTML = await render[page]({ index, credits });
   }

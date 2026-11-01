@@ -1,0 +1,55 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "gm/central-river-division",
+   "name": "Central River Division",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "gm",
+   "iso_3166_2": "GM-M",
+   "wikidata": "Q824431",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "gm/lower-river-division",
+   "name": "Lower River Division",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "gm",
+   "iso_3166_2": "GM-L",
+   "wikidata": "Q824421",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "gm/north-bank-division",
+   "name": "North Bank Division",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "gm",
+   "iso_3166_2": "GM-N",
+   "wikidata": "Q846161",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "gm/upper-river-division",
+   "name": "Upper River Division",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "gm",
+   "iso_3166_2": "GM-U",
+   "wikidata": "Q824373",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "gm/west-coast-division",
+   "name": "West Coast Division",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "gm",
+   "iso_3166_2": "GM-W",
+   "wikidata": "Q846158",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

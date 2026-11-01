@@ -1,0 +1,55 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "ci/bafing-region",
+   "name": "Bafing Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ci",
+   "iso_3166_2": "CI-17",
+   "wikidata": "Q799800",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ci/haut-sassandra",
+   "name": "Haut-Sassandra",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ci",
+   "iso_3166_2": "CI-02",
+   "wikidata": "Q845709",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ci/marahoue-region",
+   "name": "Marahoué Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ci",
+   "iso_3166_2": "CI-12",
+   "wikidata": "Q839083",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ci/sud-comoe",
+   "name": "Sud-Comoé",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ci",
+   "iso_3166_2": "CI-13",
+   "wikidata": "Q842495",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ci/worodougou",
+   "name": "Worodougou",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ci",
+   "iso_3166_2": "CI-14",
+   "wikidata": "Q846056",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

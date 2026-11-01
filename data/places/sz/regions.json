@@ -1,0 +1,45 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "sz/hhohho-region",
+   "name": "Hhohho Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "sz",
+   "iso_3166_2": "SZ-HH",
+   "wikidata": "Q735570",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "sz/lubombo-region",
+   "name": "Lubombo Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "sz",
+   "iso_3166_2": "SZ-LU",
+   "wikidata": "Q856657",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "sz/manzini-region",
+   "name": "Manzini Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "sz",
+   "iso_3166_2": "SZ-MA",
+   "wikidata": "Q305395",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "sz/shiselweni-region",
+   "name": "Shiselweni Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "sz",
+   "iso_3166_2": "SZ-SH",
+   "wikidata": "Q845934",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

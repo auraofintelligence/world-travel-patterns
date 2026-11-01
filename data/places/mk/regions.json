@@ -1,0 +1,815 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "mk/aerodrom-municipality",
+   "name": "Aerodrom Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-801",
+   "wikidata": "Q1992708",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/aracinovo-municipality",
+   "name": "Aračinovo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-802",
+   "wikidata": "Q597345",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/berovo-municipality",
+   "name": "Berovo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-201",
+   "wikidata": "Q793727",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/bitola-municipality",
+   "name": "Bitola Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-501",
+   "wikidata": "Q159380",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/bogdanci-municipality",
+   "name": "Bogdanci Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-401",
+   "wikidata": "Q1992752",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/bogovinje-municipality",
+   "name": "Bogovinje Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-601",
+   "wikidata": "Q9035785",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/bosilovo-municipality",
+   "name": "Bosilovo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-402",
+   "wikidata": "Q1779775",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/brvenica-municipality",
+   "name": "Brvenica Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-602",
+   "wikidata": "Q1057563",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/butel-municipality",
+   "name": "Butel Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-803",
+   "wikidata": "Q935620",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/centar-municipality",
+   "name": "Centar Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-814",
+   "wikidata": "Q1463152",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/centar-zupa-municipality",
+   "name": "Centar Župa Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-313",
+   "wikidata": "Q1779085",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/city-of-skopje",
+   "name": "City of Skopje",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-85",
+   "wikidata": "Q2575820",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/debar-municipality",
+   "name": "Debar Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-303",
+   "wikidata": "Q1344996",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/debarca-municipality",
+   "name": "Debarca Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-304",
+   "wikidata": "Q1323340",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/delcevo-municipality",
+   "name": "Delčevo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-203",
+   "wikidata": "Q1323322",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/demir-hisar-municipality",
+   "name": "Demir Hisar Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-502",
+   "wikidata": "Q856278",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/demir-kapija-municipality",
+   "name": "Demir Kapija Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-103",
+   "wikidata": "Q2370973",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/dojran-municipality",
+   "name": "Dojran Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-406",
+   "wikidata": "Q1996413",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/dolneni-municipality",
+   "name": "Dolneni Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-503",
+   "wikidata": "Q1992691",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/gazi-baba-municipality",
+   "name": "Gazi Baba Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-804",
+   "wikidata": "Q2019836",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/gevgelija-municipality",
+   "name": "Gevgelija Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-405",
+   "wikidata": "Q2018974",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/gostivar-municipality",
+   "name": "Gostivar Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-604",
+   "wikidata": "Q521112",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/gradsko-municipality",
+   "name": "Gradsko Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-102",
+   "wikidata": "Q1992701",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/ilinden-municipality",
+   "name": "Ilinden Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-807",
+   "wikidata": "Q657754",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/jegunovce-municipality",
+   "name": "Jegunovce Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-606",
+   "wikidata": "Q431908",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/karbinci-municipality",
+   "name": "Karbinci Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-205",
+   "wikidata": "Q1346554",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/karpos-municipality",
+   "name": "Karpoš Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-808",
+   "wikidata": "Q1463246",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/kavadarci-municipality",
+   "name": "Kavadarci Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-104",
+   "wikidata": "Q1155055",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/kisela-voda-municipality",
+   "name": "Kisela Voda Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-809",
+   "wikidata": "Q1386136",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/kicevo-municipality",
+   "name": "Kičevo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-307",
+   "wikidata": "Q2018957",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/konce-municipality",
+   "name": "Konče Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-407",
+   "wikidata": "Q1992728",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/kocani-municipality",
+   "name": "Kočani Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-206",
+   "wikidata": "Q1819289",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/kratovo-municipality",
+   "name": "Kratovo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-701",
+   "wikidata": "Q1992716",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/kriva-palanka-municipality",
+   "name": "Kriva Palanka Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-702",
+   "wikidata": "Q1422453",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/krivogastani-municipality",
+   "name": "Krivogaštani Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-504",
+   "wikidata": "Q2018930",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/krusevo-municipality",
+   "name": "Kruševo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-505",
+   "wikidata": "Q2476159",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/kumanovo-municipality",
+   "name": "Kumanovo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-703",
+   "wikidata": "Q2352376",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/lipkovo-municipality",
+   "name": "Lipkovo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-704",
+   "wikidata": "Q2041236",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/lozovo-municipality",
+   "name": "Lozovo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-105",
+   "wikidata": "Q1996470",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/makedonska-kamenica-municipality",
+   "name": "Makedonska Kamenica Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-207",
+   "wikidata": "Q2041219",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/makedonski-brod-municipality",
+   "name": "Makedonski Brod Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-308",
+   "wikidata": "Q2364199",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/mavrovo-i-rostuse-municipality",
+   "name": "Mavrovo i Rostuše Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-607",
+   "wikidata": "Q1323332",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/mogila-municipality",
+   "name": "Mogila Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-506",
+   "wikidata": "Q1839369",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/negotino-municipality",
+   "name": "Negotino Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-106",
+   "wikidata": "Q3246545",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/novaci-municipality",
+   "name": "Novaci Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-507",
+   "wikidata": "Q2088022",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/novo-selo-municipality",
+   "name": "Novo Selo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-408",
+   "wikidata": "Q1946579",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/ohrid-municipality",
+   "name": "Ohrid Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-310",
+   "wikidata": "Q1125333",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/pehcevo-municipality",
+   "name": "Pehčevo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-208",
+   "wikidata": "Q426114",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/petrovec-municipality",
+   "name": "Petrovec Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-810",
+   "wikidata": "Q1018191",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/plasnica-municipality",
+   "name": "Plasnica Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-311",
+   "wikidata": "Q2018921",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/prilep-municipality",
+   "name": "Prilep Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-508",
+   "wikidata": "Q6312454",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/probistip-municipality",
+   "name": "Probištip Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-209",
+   "wikidata": "Q2270414",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/radovis-municipality",
+   "name": "Radoviš Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-409",
+   "wikidata": "Q2738284",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/rankovce-municipality",
+   "name": "Rankovce Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-705",
+   "wikidata": "Q1475001",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/resen-municipality",
+   "name": "Resen Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-509",
+   "wikidata": "Q740591",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/rosoman-municipality",
+   "name": "Rosoman Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-107",
+   "wikidata": "Q2088585",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/saraj-municipality",
+   "name": "Saraj Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-811",
+   "wikidata": "Q1309481",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/sopiste-municipality",
+   "name": "Sopište Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-812",
+   "wikidata": "Q2282240",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/staro-nagoricane-municipality",
+   "name": "Staro Nagoričane Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-706",
+   "wikidata": "Q2128903",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/struga-municipality",
+   "name": "Struga Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-312",
+   "wikidata": "Q749618",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/strumica-municipality",
+   "name": "Strumica Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-410",
+   "wikidata": "Q2308287",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/studenicani-municipality",
+   "name": "Studeničani Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-813",
+   "wikidata": "Q2088034",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/sveti-nikole-municipality",
+   "name": "Sveti Nikole Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-108",
+   "wikidata": "Q2308277",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/tearce-municipality",
+   "name": "Tearce Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-608",
+   "wikidata": "Q2282274",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/tetovo-municipality",
+   "name": "Tetovo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-609",
+   "wikidata": "Q3245456",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/valandovo-municipality",
+   "name": "Valandovo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-403",
+   "wikidata": "Q2018965",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/vasilevo-municipality",
+   "name": "Vasilevo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-404",
+   "wikidata": "Q2018980",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/veles-municipality",
+   "name": "Veles Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-101",
+   "wikidata": "Q2088561",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/vevcani-municipality",
+   "name": "Vevčani Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-301",
+   "wikidata": "Q2029825",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/vinica-municipality",
+   "name": "Vinica Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-202",
+   "wikidata": "Q2479526",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/vrapciste-municipality",
+   "name": "Vrapčište Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-603",
+   "wikidata": "Q1996740",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/zelenikovo-municipality",
+   "name": "Zelenikovo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-806",
+   "wikidata": "Q9050283",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/zrnovci-municipality",
+   "name": "Zrnovci Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-204",
+   "wikidata": "Q950881",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/cair-municipality",
+   "name": "Čair Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-815",
+   "wikidata": "Q1419314",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/caska-municipality",
+   "name": "Čaška Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-109",
+   "wikidata": "Q1994547",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/cesinovo-oblesevo-municipality",
+   "name": "Češinovo-Obleševo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-210",
+   "wikidata": "Q281898",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/cucer-sandevo-municipality",
+   "name": "Čučer-Sandevo Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-816",
+   "wikidata": "Q629720",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/stip-municipality",
+   "name": "Štip Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-211",
+   "wikidata": "Q2423082",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/suto-orizari-municipality",
+   "name": "Šuto Orizari Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-817",
+   "wikidata": "Q1020859",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/zelino-municipality",
+   "name": "Želino Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-605",
+   "wikidata": "Q1996410",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "mk/gorce-petrov-municipality",
+   "name": "Ǵorče Petrov Municipality",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "mk",
+   "iso_3166_2": "MK-805",
+   "wikidata": "Q924278",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

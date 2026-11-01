@@ -5,127 +5,14 @@
   "url": "https://www.wikidata.org/wiki/Property:P37",
   "checked": "2026-11-01"
  },
- "note": "Regions whose own official or co-official languages differ from the country's, chosen by hand from Wikidata: places where a statute, charter or language act gives the language status. Russia's republics are left out while Smartraveller advises against travel. Confirm each against the region's own law.",
+ "note": "Regions whose own official or co-official languages are recorded in Wikidata, kept where a statute, charter, constitution or language act gives the language status. Dropped as noise: national-language variants (Australian English, Swiss Standard German and the like) and spoken languages listed without legal status (Thai, Malaysian and Indonesian provinces, among others). Hawaii added by hand from its constitution. Confirm each against the region's own law.",
  "regions": {
-  "es/catalonia": {
-   "name": "Catalonia",
-   "wikidata": "Q5705",
-   "languages": [
-    "Catalan",
-    "Occitan (Aranese)"
-   ]
-  },
-  "es/balearic-islands": {
-   "name": "Balearic Islands",
-   "wikidata": "Q5765",
-   "languages": [
-    "Catalan"
-   ]
-  },
-  "es/valencian-community": {
-   "name": "Valencian Community",
-   "wikidata": "Q5720",
-   "languages": [
-    "Valencian"
-   ]
-  },
-  "es/basque-country": {
-   "name": "Basque Country",
-   "wikidata": "Q3995",
-   "languages": [
-    "Basque"
-   ]
-  },
-  "es/navarre": {
-   "name": "Navarre",
-   "wikidata": "Q4018",
-   "languages": [
-    "Basque"
-   ]
-  },
-  "es/galicia": {
-   "name": "Galicia",
-   "wikidata": "Q3908",
-   "languages": [
-    "Galician"
-   ]
-  },
-  "gb/wales": {
-   "name": "Wales",
-   "wikidata": "Q25",
-   "languages": [
-    "Welsh"
-   ]
-  },
-  "gb/scotland": {
-   "name": "Scotland",
-   "wikidata": "Q22",
-   "languages": [
-    "Scottish Gaelic",
-    "Scots"
-   ]
-  },
-  "gb/northern-ireland": {
-   "name": "Northern Ireland",
-   "wikidata": "Q26",
-   "languages": [
-    "Irish"
-   ]
-  },
-  "it/aosta-valley": {
-   "name": "Aosta Valley",
-   "wikidata": "Q1222",
-   "languages": [
-    "French"
-   ]
-  },
-  "it/trentino-south-tyrol": {
-   "name": "Trentino-South Tyrol",
-   "wikidata": "Q1237",
-   "languages": [
-    "German",
-    "Ladin"
-   ]
-  },
-  "it/friuli-venezia-giulia": {
-   "name": "Friuli Venezia Giulia",
-   "wikidata": "Q1250",
-   "languages": [
-    "Friulian",
-    "Slovene",
-    "German"
-   ]
-  },
-  "it/sardinia": {
-   "name": "Sardinia",
-   "wikidata": "Q1462",
-   "languages": [
-    "Sardinian"
-   ]
-  },
   "at/burgenland": {
    "name": "Burgenland",
    "wikidata": "Q43210",
    "languages": [
     "Burgenland Croatian",
     "Hungarian"
-   ]
-  },
-  "se/norrbotten": {
-   "name": "Norrbotten County",
-   "wikidata": "Q103686",
-   "languages": [
-    "Finnish",
-    "Meänkieli",
-    "Sámi"
-   ]
-  },
-  "ca/nunavut": {
-   "name": "Nunavut",
-   "wikidata": "Q2023",
-   "languages": [
-    "Inuktitut",
-    "Inuinnaqtun"
    ]
   },
   "ca/northwest-territories": {
@@ -143,11 +30,363 @@
     "Tłı̨chǫ"
    ]
   },
+  "ca/nunavut": {
+   "name": "Nunavut",
+   "wikidata": "Q2023",
+   "languages": [
+    "Inuinnaqtun",
+    "Inuktitut"
+   ]
+  },
+  "ch/canton-of-appenzell-ausserrhoden": {
+   "name": "Canton of Appenzell Ausserrhoden",
+   "wikidata": "Q12079",
+   "languages": [
+    "German"
+   ]
+  },
+  "ch/canton-of-berne": {
+   "name": "Canton of Berne",
+   "wikidata": "Q11911",
+   "languages": [
+    "French",
+    "German"
+   ]
+  },
+  "ch/canton-of-geneva": {
+   "name": "Canton of Geneva",
+   "wikidata": "Q11917",
+   "languages": [
+    "French"
+   ]
+  },
+  "ch/canton-of-glarus": {
+   "name": "Canton of Glarus",
+   "wikidata": "Q11922",
+   "languages": [
+    "German"
+   ]
+  },
+  "ch/canton-of-nidwalden": {
+   "name": "Canton of Nidwalden",
+   "wikidata": "Q12592",
+   "languages": [
+    "German"
+   ]
+  },
+  "ch/canton-of-obwalden": {
+   "name": "Canton of Obwalden",
+   "wikidata": "Q12573",
+   "languages": [
+    "German"
+   ]
+  },
+  "ch/canton-of-schwyz": {
+   "name": "Canton of Schwyz",
+   "wikidata": "Q12433",
+   "languages": [
+    "German"
+   ]
+  },
+  "ch/canton-of-st-gallen": {
+   "name": "Canton of St. Gallen",
+   "wikidata": "Q12746",
+   "languages": [
+    "German"
+   ]
+  },
+  "ch/canton-of-uri": {
+   "name": "Canton of Uri",
+   "wikidata": "Q12404",
+   "languages": [
+    "German"
+   ]
+  },
+  "ch/canton-of-valais": {
+   "name": "Canton of Valais",
+   "wikidata": "Q834",
+   "languages": [
+    "German"
+   ]
+  },
   "cn/tibet": {
-   "name": "Tibet Autonomous Region",
+   "name": "Tibet",
    "wikidata": "Q17269",
    "languages": [
     "Tibetan"
+   ]
+  },
+  "ec/carchi-province": {
+   "name": "Carchi Province",
+   "wikidata": "Q321729",
+   "languages": [
+    "Awa Pit"
+   ]
+  },
+  "ec/esmeraldas-province": {
+   "name": "Esmeraldas Province",
+   "wikidata": "Q335526",
+   "languages": [
+    "Awa Pit",
+    "Cha'palaa",
+    "Embera"
+   ]
+  },
+  "ec/imbabura-province": {
+   "name": "Imbabura Province",
+   "wikidata": "Q321863",
+   "languages": [
+    "Awa Pit"
+   ]
+  },
+  "ec/morona-santiago-province": {
+   "name": "Morona-Santiago Province",
+   "wikidata": "Q549522",
+   "languages": [
+    "Achuar"
+   ]
+  },
+  "ec/napo-province": {
+   "name": "Napo Province",
+   "wikidata": "Q211900",
+   "languages": [
+    "Waorani"
+   ]
+  },
+  "ec/orellana-province": {
+   "name": "Orellana Province",
+   "wikidata": "Q499475",
+   "languages": [
+    "Waorani"
+   ]
+  },
+  "ec/pastaza-province": {
+   "name": "Pastaza Province",
+   "wikidata": "Q214814",
+   "languages": [
+    "Achuar",
+    "Andoa",
+    "Waorani",
+    "Záparo"
+   ]
+  },
+  "ec/santo-domingo-de-los-tsachilas-province": {
+   "name": "Santo Domingo de los Tsáchilas Province",
+   "wikidata": "Q1123208",
+   "languages": [
+    "Tsachila"
+   ]
+  },
+  "ec/sucumbios-province": {
+   "name": "Sucumbíos Province",
+   "wikidata": "Q499456",
+   "languages": [
+    "Cofán",
+    "Secoya",
+    "Siona"
+   ]
+  },
+  "es/balearic-islands": {
+   "name": "Balearic Islands",
+   "wikidata": "Q107356467",
+   "languages": [
+    "Catalan"
+   ]
+  },
+  "es/basque-country": {
+   "name": "Basque Country",
+   "wikidata": "Q3995",
+   "languages": [
+    "Basque"
+   ]
+  },
+  "es/catalonia": {
+   "name": "Catalonia",
+   "wikidata": "Q5705",
+   "languages": [
+    "Catalan",
+    "Occitan (Aranese)",
+    "Spanish"
+   ]
+  },
+  "es/galicia": {
+   "name": "Galicia",
+   "wikidata": "Q3908",
+   "languages": [
+    "Galician"
+   ]
+  },
+  "es/navarre": {
+   "name": "Navarre",
+   "wikidata": "Q4018",
+   "languages": [
+    "Basque"
+   ]
+  },
+  "es/valencian-community": {
+   "name": "Valencian Community",
+   "wikidata": "Q5720",
+   "languages": [
+    "Valencian"
+   ]
+  },
+  "et/afar-region": {
+   "name": "Afar Region",
+   "wikidata": "Q193494",
+   "languages": [
+    "Afar"
+   ]
+  },
+  "et/harari-region": {
+   "name": "Harari Region",
+   "wikidata": "Q1033855",
+   "languages": [
+    "Harari",
+    "Oromo"
+   ]
+  },
+  "et/somali-region": {
+   "name": "Somali Region",
+   "wikidata": "Q202800",
+   "languages": [
+    "Somali"
+   ]
+  },
+  "et/tigray-region": {
+   "name": "Tigray Region",
+   "wikidata": "Q200127",
+   "languages": [
+    "Tigrinya"
+   ]
+  },
+  "gb/northern-ireland": {
+   "name": "Northern Ireland",
+   "wikidata": "Q26",
+   "languages": [
+    "Irish"
+   ]
+  },
+  "gb/scotland": {
+   "name": "Scotland",
+   "wikidata": "Q22",
+   "languages": [
+    "Scots",
+    "Scottish Gaelic"
+   ]
+  },
+  "gb/wales": {
+   "name": "Wales",
+   "wikidata": "Q25",
+   "languages": [
+    "English",
+    "Welsh"
+   ]
+  },
+  "ge/autonomous-republic-of-abkhazia": {
+   "name": "Autonomous Republic of Abkhazia",
+   "wikidata": "Q2914461",
+   "languages": [
+    "Abkhaz"
+   ]
+  },
+  "gt/alta-verapaz-department": {
+   "name": "Alta Verapaz Department",
+   "wikidata": "Q504637",
+   "languages": [
+    "Achi",
+    "Poqomam",
+    "Poqomchi'",
+    "Q’eqchi’"
+   ]
+  },
+  "gt/escuintla-department": {
+   "name": "Escuintla Department",
+   "wikidata": "Q795587",
+   "languages": [
+    "Kaqchikel",
+    "Poqomam"
+   ]
+  },
+  "gt/huehuetenango-department": {
+   "name": "Huehuetenango Department",
+   "wikidata": "Q842266",
+   "languages": [
+    "Akateko",
+    "Awakatek",
+    "Chuj",
+    "Jakaltek",
+    "Mam",
+    "Q’anjob’al"
+   ]
+  },
+  "gt/izabal-department": {
+   "name": "Izabal Department",
+   "wikidata": "Q693658",
+   "languages": [
+    "Garifuna",
+    "Q’eqchi’"
+   ]
+  },
+  "gt/retalhuleu-department": {
+   "name": "Retalhuleu Department",
+   "wikidata": "Q888307",
+   "languages": [
+    "Kaqchikel",
+    "K’iche’"
+   ]
+  },
+  "gt/sacatepequez-department": {
+   "name": "Sacatepéquez Department",
+   "wikidata": "Q508804",
+   "languages": [
+    "Kaqchikel"
+   ]
+  },
+  "hn/bay-islands-department": {
+   "name": "Bay Islands Department",
+   "wikidata": "Q751725",
+   "languages": [
+    "English"
+   ]
+  },
+  "in/andaman-nicobar": {
+   "name": "Andaman and Nicobar Islands",
+   "wikidata": "Q40888",
+   "languages": [
+    "Nicobarese languages",
+    "Tamil"
+   ]
+  },
+  "in/andhra-pradesh": {
+   "name": "Andhra Pradesh",
+   "wikidata": "Q1159",
+   "languages": [
+    "Telugu",
+    "Urdu"
+   ]
+  },
+  "in/assam": {
+   "name": "Assam",
+   "wikidata": "Q1164",
+   "languages": [
+    "Assamese",
+    "Bangla",
+    "Bodo"
+   ]
+  },
+  "in/chhattisgarh": {
+   "name": "Chhattisgarh",
+   "wikidata": "Q1168",
+   "languages": [
+    "Chhattisgarhi"
+   ]
+  },
+  "in/dadra-and-nagar-haveli-and-daman-and-diu": {
+   "name": "Dadra and Nagar Haveli and Daman and Diu",
+   "wikidata": "Q77997266",
+   "languages": [
+    "Gujarati",
+    "Marathi"
    ]
   },
   "in/goa": {
@@ -157,18 +396,39 @@
     "Konkani"
    ]
   },
-  "in/kerala": {
-   "name": "Kerala",
-   "wikidata": "Q1186",
+  "in/haryana": {
+   "name": "Haryana",
+   "wikidata": "Q1174",
    "languages": [
-    "Malayalam"
+    "Haryanvi"
    ]
   },
-  "in/tamil-nadu": {
-   "name": "Tamil Nadu",
-   "wikidata": "Q1445",
+  "in/jammu-and-kashmir": {
+   "name": "Jammu and Kashmir",
+   "wikidata": "Q66278313",
    "languages": [
-    "Tamil"
+    "Dogri",
+    "Kashmiri",
+    "Urdu"
+   ]
+  },
+  "in/jharkhand": {
+   "name": "Jharkhand",
+   "wikidata": "Q1184",
+   "languages": [
+    "Bangla",
+    "Ho",
+    "Kharia",
+    "Khortha",
+    "Kudmali",
+    "Kurukh",
+    "Maithili",
+    "Mundari",
+    "Nagpuri",
+    "Odia",
+    "Panchpargania",
+    "Santali",
+    "Urdu"
    ]
   },
   "in/karnataka": {
@@ -178,6 +438,13 @@
     "Kannada"
    ]
   },
+  "in/kerala": {
+   "name": "Kerala",
+   "wikidata": "Q1186",
+   "languages": [
+    "Malayalam"
+   ]
+  },
   "in/maharashtra": {
    "name": "Maharashtra",
    "wikidata": "Q1191",
@@ -185,11 +452,29 @@
     "Marathi"
    ]
   },
-  "in/west-bengal": {
-   "name": "West Bengal",
-   "wikidata": "Q1356",
+  "in/meghalaya": {
+   "name": "Meghalaya",
+   "wikidata": "Q1195",
    "languages": [
-    "Bangla"
+    "Garo",
+    "Khasi"
+   ]
+  },
+  "in/odisha": {
+   "name": "Odisha",
+   "wikidata": "Q22048",
+   "languages": [
+    "Odia"
+   ]
+  },
+  "in/puducherry": {
+   "name": "Puducherry",
+   "wikidata": "Q66743",
+   "languages": [
+    "French",
+    "Malayalam",
+    "Tamil",
+    "Telugu"
    ]
   },
   "in/punjab": {
@@ -199,11 +484,542 @@
     "Punjabi"
    ]
   },
-  "in/odisha": {
-   "name": "Odisha",
-   "wikidata": "Q22048",
+  "in/tamil-nadu": {
+   "name": "Tamil Nadu",
+   "wikidata": "Q1445",
    "languages": [
-    "Odia"
+    "Tamil"
+   ]
+  },
+  "in/telangana": {
+   "name": "Telangana",
+   "wikidata": "Q677037",
+   "languages": [
+    "Telugu",
+    "Urdu"
+   ]
+  },
+  "in/uttar-pradesh": {
+   "name": "Uttar Pradesh",
+   "wikidata": "Q1498",
+   "languages": [
+    "Urdu"
+   ]
+  },
+  "in/uttarakhand": {
+   "name": "Uttarakhand",
+   "wikidata": "Q1499",
+   "languages": [
+    "Sanskrit"
+   ]
+  },
+  "in/west-bengal": {
+   "name": "West Bengal",
+   "wikidata": "Q1356",
+   "languages": [
+    "Bangla",
+    "Kudmali",
+    "Kurukh",
+    "Nepali",
+    "Odia",
+    "Punjabi",
+    "Rajbanshi",
+    "Rangpuri",
+    "Santali",
+    "Telugu",
+    "Urdu"
+   ]
+  },
+  "it/aosta-valley": {
+   "name": "Aosta Valley",
+   "wikidata": "Q1222",
+   "languages": [
+    "French"
+   ]
+  },
+  "it/friuli-venezia-giulia": {
+   "name": "Friuli Venezia Giulia",
+   "wikidata": "Q1250",
+   "languages": [
+    "Friulian",
+    "German",
+    "Slovene"
+   ]
+  },
+  "it/sardinia": {
+   "name": "Sardinia",
+   "wikidata": "Q1462",
+   "languages": [
+    "Sardinian"
+   ]
+  },
+  "it/trentino-south-tyrol": {
+   "name": "Trentino-South Tyrol",
+   "wikidata": "Q1237",
+   "languages": [
+    "German",
+    "Ladin"
+   ]
+  },
+  "my/sarawak": {
+   "name": "Sarawak",
+   "wikidata": "Q170462",
+   "languages": [
+    "English"
+   ]
+  },
+  "ph/central-visayas": {
+   "name": "Central Visayas",
+   "wikidata": "Q13669",
+   "languages": [
+    "Cebuano"
+   ]
+  },
+  "pk/sindh": {
+   "name": "Sindh",
+   "wikidata": "Q37211",
+   "languages": [
+    "Sindhi"
+   ]
+  },
+  "ru/adygea": {
+   "name": "Adygea",
+   "wikidata": "Q3734",
+   "languages": [
+    "Adyghe"
+   ]
+  },
+  "ru/altai-republic": {
+   "name": "Altai Republic",
+   "wikidata": "Q5971",
+   "languages": [
+    "Southern Altai"
+   ]
+  },
+  "ru/bashkortostan": {
+   "name": "Bashkortostan",
+   "wikidata": "Q5710",
+   "languages": [
+    "Bashkir"
+   ]
+  },
+  "ru/buryatia": {
+   "name": "Buryatia",
+   "wikidata": "Q6809",
+   "languages": [
+    "Buryat"
+   ]
+  },
+  "ru/chechnya": {
+   "name": "Chechnya",
+   "wikidata": "Q5187",
+   "languages": [
+    "Chechen"
+   ]
+  },
+  "ru/chukotka-autonomous-district": {
+   "name": "Chukotka Autonomous District",
+   "wikidata": "Q7984",
+   "languages": [
+    "Chukchi"
+   ]
+  },
+  "ru/chuvashia": {
+   "name": "Chuvashia",
+   "wikidata": "Q5466",
+   "languages": [
+    "Chuvash"
+   ]
+  },
+  "ru/dagestan": {
+   "name": "Dagestan",
+   "wikidata": "Q5118",
+   "languages": [
+    "Aghul",
+    "Avar",
+    "Azerbaijani",
+    "Chechen",
+    "Dargwa",
+    "Kumyk",
+    "Lak",
+    "Lezgian",
+    "Nogai",
+    "Rutulian",
+    "Tabasaran",
+    "Tsakhur"
+   ]
+  },
+  "ru/ingushetia": {
+   "name": "Ingushetia",
+   "wikidata": "Q5219",
+   "languages": [
+    "Ingush"
+   ]
+  },
+  "ru/jewish-autonomous-oblast": {
+   "name": "Jewish Autonomous Oblast",
+   "wikidata": "Q7730",
+   "languages": [
+    "Yiddish"
+   ]
+  },
+  "ru/kabardino-balkaria": {
+   "name": "Kabardino-Balkaria",
+   "wikidata": "Q5267",
+   "languages": [
+    "Kabardian",
+    "Karachay-Balkar"
+   ]
+  },
+  "ru/kalmykia": {
+   "name": "Kalmykia",
+   "wikidata": "Q3953",
+   "languages": [
+    "Kalmyk"
+   ]
+  },
+  "ru/karachay-cherkessia": {
+   "name": "Karachay-Cherkessia",
+   "wikidata": "Q5328",
+   "languages": [
+    "Abaza",
+    "Kabardian",
+    "Karachay-Balkar",
+    "Nogai"
+   ]
+  },
+  "ru/khakassia": {
+   "name": "Khakassia",
+   "wikidata": "Q6543",
+   "languages": [
+    "Khakas"
+   ]
+  },
+  "ru/khanty-mansi-autonomous-okrug": {
+   "name": "Khanty-Mansi Autonomous Okrug",
+   "wikidata": "Q6320",
+   "languages": [
+    "Khanty",
+    "Mansi"
+   ]
+  },
+  "ru/komi-republic": {
+   "name": "Komi Republic",
+   "wikidata": "Q2073",
+   "languages": [
+    "Komi"
+   ]
+  },
+  "ru/mari-el": {
+   "name": "Mari El",
+   "wikidata": "Q5446",
+   "languages": [
+    "Hill Mari",
+    "Mari"
+   ]
+  },
+  "ru/mordovia": {
+   "name": "Mordovia",
+   "wikidata": "Q5340",
+   "languages": [
+    "Erzya",
+    "Moksha"
+   ]
+  },
+  "ru/nenets-autonomous-district": {
+   "name": "Nenets Autonomous District",
+   "wikidata": "Q2164",
+   "languages": [
+    "Nenets"
+   ]
+  },
+  "ru/north-ossetiaalania": {
+   "name": "North Ossetia–Alania",
+   "wikidata": "Q5237",
+   "languages": [
+    "Ossetian"
+   ]
+  },
+  "ru/sakha": {
+   "name": "Sakha",
+   "wikidata": "Q6605",
+   "languages": [
+    "Yakut"
+   ]
+  },
+  "ru/tatarstan": {
+   "name": "Tatarstan",
+   "wikidata": "Q5481",
+   "languages": [
+    "Tatar"
+   ]
+  },
+  "ru/tuva": {
+   "name": "Tuva",
+   "wikidata": "Q960",
+   "languages": [
+    "Tuvan"
+   ]
+  },
+  "ru/udmurtia": {
+   "name": "Udmurtia",
+   "wikidata": "Q5422",
+   "languages": [
+    "Udmurt"
+   ]
+  },
+  "ru/yamalo-nenets-autonomous-district": {
+   "name": "Yamalo-Nenets Autonomous District",
+   "wikidata": "Q6407",
+   "languages": [
+    "Nenets"
+   ]
+  },
+  "se/norrbotten": {
+   "name": "Norrbotten County",
+   "wikidata": "Q103686",
+   "languages": [
+    "Finnish",
+    "Meänkieli",
+    "Sámi"
+   ]
+  },
+  "us/alabama": {
+   "name": "Alabama",
+   "wikidata": "Q173",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/alaska": {
+   "name": "Alaska",
+   "wikidata": "Q797",
+   "languages": [
+    "Ahtna",
+    "Aleut",
+    "Alutiiq",
+    "Deg Xinag",
+    "Dena'ina",
+    "English",
+    "Eyak",
+    "Gwich’in",
+    "Haida",
+    "Holikachuk",
+    "Hän",
+    "Iñupiaq",
+    "Koyukon",
+    "Tanacross",
+    "Tanana",
+    "Tlingit",
+    "Tsetsaut",
+    "Tsimshian",
+    "Upper Kuskokwim",
+    "Yupik"
+   ]
+  },
+  "us/arizona": {
+   "name": "Arizona",
+   "wikidata": "Q816",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/arkansas": {
+   "name": "Arkansas",
+   "wikidata": "Q1612",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/california": {
+   "name": "California",
+   "wikidata": "Q99",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/colorado": {
+   "name": "Colorado",
+   "wikidata": "Q1261",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/florida": {
+   "name": "Florida",
+   "wikidata": "Q812",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/georgia": {
+   "name": "Georgia",
+   "wikidata": "Q1428",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/hawaii": {
+   "name": "Hawaii",
+   "wikidata": "Q782",
+   "languages": [
+    "English",
+    "Hawaiian"
+   ],
+   "source": "Constitution of the State of Hawaii, Article XV, section 4"
+  },
+  "us/idaho": {
+   "name": "Idaho",
+   "wikidata": "Q1221",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/illinois": {
+   "name": "Illinois",
+   "wikidata": "Q1204",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/indiana": {
+   "name": "Indiana",
+   "wikidata": "Q1415",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/iowa": {
+   "name": "Iowa",
+   "wikidata": "Q1546",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/kansas": {
+   "name": "Kansas",
+   "wikidata": "Q1558",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/kentucky": {
+   "name": "Kentucky",
+   "wikidata": "Q1603",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/massachusetts": {
+   "name": "Massachusetts",
+   "wikidata": "Q771",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/mississippi": {
+   "name": "Mississippi",
+   "wikidata": "Q1494",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/montana": {
+   "name": "Montana",
+   "wikidata": "Q1212",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/nebraska": {
+   "name": "Nebraska",
+   "wikidata": "Q1553",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/new-hampshire": {
+   "name": "New Hampshire",
+   "wikidata": "Q759",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/new-jersey": {
+   "name": "New Jersey",
+   "wikidata": "Q1408",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/north-carolina": {
+   "name": "North Carolina",
+   "wikidata": "Q1454",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/north-dakota": {
+   "name": "North Dakota",
+   "wikidata": "Q1207",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/oklahoma": {
+   "name": "Oklahoma",
+   "wikidata": "Q1649",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/south-carolina": {
+   "name": "South Carolina",
+   "wikidata": "Q1456",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/south-dakota": {
+   "name": "South Dakota",
+   "wikidata": "Q1211",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/tennessee": {
+   "name": "Tennessee",
+   "wikidata": "Q1509",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/utah": {
+   "name": "Utah",
+   "wikidata": "Q829",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/virginia": {
+   "name": "Virginia",
+   "wikidata": "Q1370",
+   "languages": [
+    "English"
+   ]
+  },
+  "us/wyoming": {
+   "name": "Wyoming",
+   "wikidata": "Q1214",
+   "languages": [
+    "English"
+   ]
+  },
+  "uz/karakalpakstan": {
+   "name": "Karakalpakstan",
+   "wikidata": "Q484245",
+   "languages": [
+    "Karakalpak"
    ]
   }
  }

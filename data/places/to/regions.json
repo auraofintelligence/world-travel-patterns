@@ -1,0 +1,45 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "to/haapai-district",
+   "name": "Haʻapai district",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "to",
+   "iso_3166_2": "TO-02",
+   "wikidata": "Q4494291",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "to/tongatapu",
+   "name": "Tongatapu",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "to",
+   "iso_3166_2": "TO-04",
+   "wikidata": "Q10383165",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "to/vavau",
+   "name": "Vava‘u",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "to",
+   "iso_3166_2": "TO-05",
+   "wikidata": "Q4102091",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "to/eua-district",
+   "name": "ʻEua district",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "to",
+   "iso_3166_2": "TO-01",
+   "wikidata": "Q4533167",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "ke/coast-province",
+   "name": "Coast Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ke",
+   "iso_3166_2": "KE-300",
+   "wikidata": "Q185371",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ke/eastern-province",
+   "name": "Eastern Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ke",
+   "iso_3166_2": "KE-400",
+   "wikidata": "Q328493",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ke/north-eastern-province",
+   "name": "North Eastern Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ke",
+   "iso_3166_2": "KE-500",
+   "wikidata": "Q390213",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ke/nyanza-province",
+   "name": "Nyanza Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ke",
+   "iso_3166_2": "KE-600",
+   "wikidata": "Q38589",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ke/rift-valley-province",
+   "name": "Rift Valley Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ke",
+   "iso_3166_2": "KE-700",
+   "wikidata": "Q38587",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ke/western-province",
+   "name": "Western Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ke",
+   "iso_3166_2": "KE-800",
+   "wikidata": "Q38585",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

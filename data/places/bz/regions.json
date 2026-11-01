@@ -1,0 +1,65 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "bz/belize-district",
+   "name": "Belize District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "bz",
+   "iso_3166_2": "BZ-BZ",
+   "wikidata": "Q506056",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "bz/cayo-district",
+   "name": "Cayo District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "bz",
+   "iso_3166_2": "BZ-CY",
+   "wikidata": "Q508773",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "bz/corozal-district",
+   "name": "Corozal District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "bz",
+   "iso_3166_2": "BZ-CZL",
+   "wikidata": "Q512273",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "bz/orange-walk-district",
+   "name": "Orange Walk District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "bz",
+   "iso_3166_2": "BZ-OW",
+   "wikidata": "Q506036",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "bz/stann-creek-district",
+   "name": "Stann Creek District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "bz",
+   "iso_3166_2": "BZ-SC",
+   "wikidata": "Q502652",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "bz/toledo-district",
+   "name": "Toledo District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "bz",
+   "iso_3166_2": "BZ-TOL",
+   "wikidata": "Q506049",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "zm/central-province",
+   "name": "Central Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "zm",
+   "iso_3166_2": "ZM-02",
+   "wikidata": "Q190718",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "zm/copperbelt-province",
+   "name": "Copperbelt Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "zm",
+   "iso_3166_2": "ZM-08",
+   "wikidata": "Q1131523",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "zm/eastern-province",
+   "name": "Eastern Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "zm",
+   "iso_3166_2": "ZM-03",
+   "wikidata": "Q823810",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "zm/luapula-province",
+   "name": "Luapula Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "zm",
+   "iso_3166_2": "ZM-04",
+   "wikidata": "Q386667",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "zm/lusaka-province",
+   "name": "Lusaka Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "zm",
+   "iso_3166_2": "ZM-09",
+   "wikidata": "Q819998",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "zm/muchinga-province",
+   "name": "Muchinga Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "zm",
+   "iso_3166_2": "ZM-10",
+   "wikidata": "Q6714242",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "zm/northern-province",
+   "name": "Northern Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "zm",
+   "iso_3166_2": "ZM-05",
+   "wikidata": "Q778738",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "zm/northwestern-province",
+   "name": "Northwestern Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "zm",
+   "iso_3166_2": "ZM-06",
+   "wikidata": "Q846320",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "zm/southern-province",
+   "name": "Southern Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "zm",
+   "iso_3166_2": "ZM-07",
+   "wikidata": "Q738382",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "zm/western-province",
+   "name": "Western Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "zm",
+   "iso_3166_2": "ZM-01",
+   "wikidata": "Q748486",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

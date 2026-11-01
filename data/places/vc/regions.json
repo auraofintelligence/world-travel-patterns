@@ -1,0 +1,65 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "vc/charlotte-parish",
+   "name": "Charlotte Parish",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "vc",
+   "iso_3166_2": "VC-01",
+   "wikidata": "Q2075188",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "vc/grenadines-parish",
+   "name": "Grenadines Parish",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "vc",
+   "iso_3166_2": "VC-06",
+   "wikidata": "Q2545297",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "vc/saint-andrew-parish",
+   "name": "Saint Andrew Parish",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "vc",
+   "iso_3166_2": "VC-02",
+   "wikidata": "Q2305115",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "vc/saint-david-parish",
+   "name": "Saint David Parish",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "vc",
+   "iso_3166_2": "VC-03",
+   "wikidata": "Q2412394",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "vc/saint-george-parish",
+   "name": "Saint George Parish",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "vc",
+   "iso_3166_2": "VC-04",
+   "wikidata": "Q2300294",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "vc/saint-patrick-parish",
+   "name": "Saint Patrick Parish",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "vc",
+   "iso_3166_2": "VC-05",
+   "wikidata": "Q1864637",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

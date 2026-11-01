@@ -1,0 +1,65 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "tm/ahal-region",
+   "name": "Ahal Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tm",
+   "iso_3166_2": "TM-A",
+   "wikidata": "Q399899",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "tm/ashgabat",
+   "name": "Ashgabat",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tm",
+   "iso_3166_2": "TM-S",
+   "wikidata": "Q23438",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "tm/balkan-province",
+   "name": "Balkan Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tm",
+   "iso_3166_2": "TM-B",
+   "wikidata": "Q486073",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "tm/dasoguz-region",
+   "name": "Daşoguz Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tm",
+   "iso_3166_2": "TM-D",
+   "wikidata": "Q487393",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "tm/lebap-region",
+   "name": "Lebap Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tm",
+   "iso_3166_2": "TM-L",
+   "wikidata": "Q487389",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "tm/mary-region",
+   "name": "Mary Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tm",
+   "iso_3166_2": "TM-M",
+   "wikidata": "Q487401",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

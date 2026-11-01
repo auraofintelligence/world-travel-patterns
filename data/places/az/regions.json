@@ -1,0 +1,685 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "az/absheron-district",
+   "name": "Absheron District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-ABS",
+   "wikidata": "Q179538",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/aghdam",
+   "name": "Aghdam",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-AGM",
+   "wikidata": "Q201647",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/aghdash-district",
+   "name": "Aghdash District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-AGS",
+   "wikidata": "Q275784",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/aghjabadi-district",
+   "name": "Aghjabadi District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-AGC",
+   "wikidata": "Q330818",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/aghstafa-district",
+   "name": "Aghstafa District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-AGA",
+   "wikidata": "Q275744",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/agsu-district",
+   "name": "Agsu District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-AGU",
+   "wikidata": "Q330800",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/astara-district",
+   "name": "Astara District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-AST",
+   "wikidata": "Q269680",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/baku",
+   "name": "Baku",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-BA",
+   "wikidata": "Q9248",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/balakan-district",
+   "name": "Balakan District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-BAL",
+   "wikidata": "Q330850",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/barda-district",
+   "name": "Barda District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-BAR",
+   "wikidata": "Q330857",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/beylagan-district",
+   "name": "Beylagan District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-BEY",
+   "wikidata": "Q330807",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/bilasuvar-district",
+   "name": "Bilasuvar District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-BIL",
+   "wikidata": "Q330834",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/dashkasan-district",
+   "name": "Dashkasan District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-DAS",
+   "wikidata": "Q457494",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/fuzuli-district",
+   "name": "Fuzuli District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-FUZ",
+   "wikidata": "Q331687",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/gadabay-district",
+   "name": "Gadabay District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-GAD",
+   "wikidata": "Q330749",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/ganja",
+   "name": "Ganja",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-GA",
+   "wikidata": "Q131290",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/gazakh-district",
+   "name": "Gazakh District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-QAZ",
+   "wikidata": "Q389381",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/gobustan-district",
+   "name": "Gobustan District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-QOB",
+   "wikidata": "Q457508",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/goranboy-district",
+   "name": "Goranboy District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-GOR",
+   "wikidata": "Q330843",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/goychay-district",
+   "name": "Goychay District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-GOY",
+   "wikidata": "Q477163",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/goygol-district",
+   "name": "Goygol District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-GYG",
+   "wikidata": "Q388087",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/guba-district",
+   "name": "Guba District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-QBA",
+   "wikidata": "Q457499",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/gubadly-district",
+   "name": "Gubadly District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-QBI",
+   "wikidata": "Q644048",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/hajigabul-district",
+   "name": "Hajigabul District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-HAC",
+   "wikidata": "Q476690",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/imishli-district",
+   "name": "Imishli District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-IMI",
+   "wikidata": "Q343908",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/ismayilli-district",
+   "name": "Ismayilli District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-ISM",
+   "wikidata": "Q344252",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/jabrayil-district",
+   "name": "Jabrayil District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-CAB",
+   "wikidata": "Q457491",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/jalilabad-district",
+   "name": "Jalilabad District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-CAL",
+   "wikidata": "Q372795",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/kalbajar-district",
+   "name": "Kalbajar District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-KAL",
+   "wikidata": "Q457513",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/khachmaz-district",
+   "name": "Khachmaz District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-XAC",
+   "wikidata": "Q6398826",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/khankendi",
+   "name": "Khankendi",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-XA",
+   "wikidata": "Q129352",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/khizi-district",
+   "name": "Khizi District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-XIZ",
+   "wikidata": "Q476708",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/khojaly-district",
+   "name": "Khojaly District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-XCI",
+   "wikidata": "Q330790",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/khojavend-district",
+   "name": "Khojavend District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-XVD",
+   "wikidata": "Q330813",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/kurdamir-district",
+   "name": "Kurdamir District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-KUR",
+   "wikidata": "Q688589",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/lachin-district",
+   "name": "Lachin District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-LAC",
+   "wikidata": "Q301832",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/lankaran",
+   "name": "Lankaran",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-LA",
+   "wikidata": "Q228811",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/lankaran-district",
+   "name": "Lankaran District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-LAN",
+   "wikidata": "Q269986",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/lerik-district",
+   "name": "Lerik District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-LER",
+   "wikidata": "Q688626",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/masally-district",
+   "name": "Masally District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-MAS",
+   "wikidata": "Q476695",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/mingachevir",
+   "name": "Mingachevir",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-MI",
+   "wikidata": "Q230932",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/neftchala-district",
+   "name": "Neftchala District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-NEF",
+   "wikidata": "Q688633",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/oghuz-district",
+   "name": "Oghuz District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-OGU",
+   "wikidata": "Q643989",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/qabala-district",
+   "name": "Qabala District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-QAB",
+   "wikidata": "Q593872",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/qakh-district",
+   "name": "Qakh District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-QAX",
+   "wikidata": "Q330796",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/qusar-district",
+   "name": "Qusar District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-QUS",
+   "wikidata": "Q386506",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/saatly-district",
+   "name": "Saatly District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-SAT",
+   "wikidata": "Q601105",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/sabirabad-district",
+   "name": "Sabirabad District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-SAB",
+   "wikidata": "Q382132",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/salyan-district",
+   "name": "Salyan District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-SAL",
+   "wikidata": "Q457485",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/samukh-district",
+   "name": "Samukh District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-SMX",
+   "wikidata": "Q498437",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/shabran-district",
+   "name": "Shabran District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-SBN",
+   "wikidata": "Q387994",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/shaki",
+   "name": "Shaki",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-SA",
+   "wikidata": "Q234783",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/shaki-district",
+   "name": "Shaki District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-SAK",
+   "wikidata": "Q330864",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/shamakhi-district",
+   "name": "Shamakhi District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-SMI",
+   "wikidata": "Q330839",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/shamkir-district",
+   "name": "Shamkir District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-SKR",
+   "wikidata": "Q467491",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/shirvan",
+   "name": "Shirvan",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-SR",
+   "wikidata": "Q241116",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/shusha-district",
+   "name": "Shusha District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-SUS",
+   "wikidata": "Q388960",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/siyazan-district",
+   "name": "Siyazan District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-SIY",
+   "wikidata": "Q820940",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/sumgait",
+   "name": "Sumgait",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-SM",
+   "wikidata": "Q179833",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/tartar-district",
+   "name": "Tartar District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-TAR",
+   "wikidata": "Q477168",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/tovuz-district",
+   "name": "Tovuz District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-TOV",
+   "wikidata": "Q388980",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/ujar-district",
+   "name": "Ujar District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-UCA",
+   "wikidata": "Q476703",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/yardimli-district",
+   "name": "Yardimli District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-YAR",
+   "wikidata": "Q127255",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/yevlakh",
+   "name": "Yevlakh",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-YE",
+   "wikidata": "Q175459",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/yevlakh-district",
+   "name": "Yevlakh District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-YEV",
+   "wikidata": "Q458524",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/zangilan-district",
+   "name": "Zangilan District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-ZAN",
+   "wikidata": "Q249252",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/zaqatala-district",
+   "name": "Zaqatala District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-ZAQ",
+   "wikidata": "Q147553",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "az/zardab-district",
+   "name": "Zardab District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "az",
+   "iso_3166_2": "AZ-ZAR",
+   "wikidata": "Q249293",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

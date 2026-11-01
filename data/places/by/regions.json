@@ -1,0 +1,75 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "by/brest-region",
+   "name": "Brest region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "by",
+   "iso_3166_2": "BY-BR",
+   "wikidata": "Q173822",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "by/gomel-region",
+   "name": "Gomel Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "by",
+   "iso_3166_2": "BY-HO",
+   "wikidata": "Q188732",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "by/hrodna-region",
+   "name": "Hrodna Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "by",
+   "iso_3166_2": "BY-HR",
+   "wikidata": "Q191061",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "by/mahilyow-region",
+   "name": "Mahilyow Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "by",
+   "iso_3166_2": "BY-MA",
+   "wikidata": "Q189822",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "by/minsk",
+   "name": "Minsk",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "by",
+   "iso_3166_2": "BY-HM",
+   "wikidata": "Q2280",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "by/minsk-region",
+   "name": "Minsk region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "by",
+   "iso_3166_2": "BY-MI",
+   "wikidata": "Q192959",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "by/vitebsk-region",
+   "name": "Vitebsk Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "by",
+   "iso_3166_2": "BY-VI",
+   "wikidata": "Q185700",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

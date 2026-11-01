@@ -1,0 +1,75 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "ae/emirate-of-abu-dhabi",
+   "name": "Emirate of Abu Dhabi",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ae",
+   "iso_3166_2": "AE-AZ",
+   "wikidata": "Q187712",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ae/emirate-of-ajman",
+   "name": "Emirate of Ajman",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ae",
+   "iso_3166_2": "AE-AJ",
+   "wikidata": "Q159477",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ae/emirate-of-dubai",
+   "name": "Emirate of Dubai",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ae",
+   "iso_3166_2": "AE-DU",
+   "wikidata": "Q613",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ae/emirate-of-fujairah",
+   "name": "Emirate of Fujairah",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ae",
+   "iso_3166_2": "AE-FU",
+   "wikidata": "Q4091",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ae/emirate-of-sharjah",
+   "name": "Emirate of Sharjah",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ae",
+   "iso_3166_2": "AE-SH",
+   "wikidata": "Q188810",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ae/emirate-of-umm-al-quwain",
+   "name": "Emirate of Umm Al Quwain",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ae",
+   "iso_3166_2": "AE-UQ",
+   "wikidata": "Q175021",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ae/ras-al-khaimah",
+   "name": "Ras Al Khaimah",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ae",
+   "iso_3166_2": "AE-RK",
+   "wikidata": "Q170024",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

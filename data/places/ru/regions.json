@@ -1,0 +1,835 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "ru/adygea",
+   "name": "Adygea",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-AD",
+   "wikidata": "Q3734",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/altai-krai",
+   "name": "Altai Krai",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-ALT",
+   "wikidata": "Q5942",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/altai-republic",
+   "name": "Altai Republic",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-AL",
+   "wikidata": "Q5971",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/amur-oblast",
+   "name": "Amur Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-AMU",
+   "wikidata": "Q6886",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/arkhangelsk-oblast",
+   "name": "Arkhangelsk Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-ARK",
+   "wikidata": "Q1875",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/astrakhan-oblast",
+   "name": "Astrakhan Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-AST",
+   "wikidata": "Q3941",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/bashkortostan",
+   "name": "Bashkortostan",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-BA",
+   "wikidata": "Q5710",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/belgorod-oblast",
+   "name": "Belgorod Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-BEL",
+   "wikidata": "Q3329",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/bryansk-oblast",
+   "name": "Bryansk Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-BRY",
+   "wikidata": "Q2810",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/buryatia",
+   "name": "Buryatia",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-BU",
+   "wikidata": "Q6809",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/chechnya",
+   "name": "Chechnya",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-CE",
+   "wikidata": "Q5187",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/chelyabinsk-oblast",
+   "name": "Chelyabinsk Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-CHE",
+   "wikidata": "Q5714",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/chukotka-autonomous-district",
+   "name": "Chukotka Autonomous District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-CHU",
+   "wikidata": "Q7984",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/chuvashia",
+   "name": "Chuvashia",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-CU",
+   "wikidata": "Q5466",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/dagestan",
+   "name": "Dagestan",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-DA",
+   "wikidata": "Q5118",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/ingushetia",
+   "name": "Ingushetia",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-IN",
+   "wikidata": "Q5219",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/irkutsk-oblast",
+   "name": "Irkutsk Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-IRK",
+   "wikidata": "Q6585",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/ivanovo-oblast",
+   "name": "Ivanovo Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-IVA",
+   "wikidata": "Q2654",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/jewish-autonomous-oblast",
+   "name": "Jewish Autonomous Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-YEV",
+   "wikidata": "Q7730",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/kabardino-balkaria",
+   "name": "Kabardino-Balkaria",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KB",
+   "wikidata": "Q5267",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/kaliningrad-oblast",
+   "name": "Kaliningrad Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KGD",
+   "wikidata": "Q1749",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/kalmykia",
+   "name": "Kalmykia",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KL",
+   "wikidata": "Q3953",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/kaluga-oblast",
+   "name": "Kaluga Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KLU",
+   "wikidata": "Q2842",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/kamchatka-krai",
+   "name": "Kamchatka Krai",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KAM",
+   "wikidata": "Q7948",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/karachay-cherkessia",
+   "name": "Karachay-Cherkessia",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KC",
+   "wikidata": "Q5328",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/karelia",
+   "name": "Karelia",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KR",
+   "wikidata": "Q1914",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/kemerovo-oblast",
+   "name": "Kemerovo Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KEM",
+   "wikidata": "Q6076",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/khabarovsk-krai",
+   "name": "Khabarovsk Krai",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KHA",
+   "wikidata": "Q7788",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/khakassia",
+   "name": "Khakassia",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KK",
+   "wikidata": "Q6543",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/khanty-mansi-autonomous-okrug",
+   "name": "Khanty-Mansi Autonomous Okrug",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KHM",
+   "wikidata": "Q6320",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/kirov-oblast",
+   "name": "Kirov Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KIR",
+   "wikidata": "Q5387",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/komi-republic",
+   "name": "Komi Republic",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KO",
+   "wikidata": "Q2073",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/kostroma-oblast",
+   "name": "Kostroma Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KOS",
+   "wikidata": "Q2596",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/krasnodar-krai",
+   "name": "Krasnodar Krai",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KDA",
+   "wikidata": "Q3680",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/krasnoyarsk-krai",
+   "name": "Krasnoyarsk Krai",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KYA",
+   "wikidata": "Q6563",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/kurgan-oblast",
+   "name": "Kurgan Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KGN",
+   "wikidata": "Q5741",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/kursk-oblast",
+   "name": "Kursk Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-KRS",
+   "wikidata": "Q3178",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/leningrad-oblast",
+   "name": "Leningrad Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-LEN",
+   "wikidata": "Q2191",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/lipetsk-oblast",
+   "name": "Lipetsk Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-LIP",
+   "wikidata": "Q3510",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/magadan-oblast",
+   "name": "Magadan Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-MAG",
+   "wikidata": "Q7971",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/mari-el",
+   "name": "Mari El",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-ME",
+   "wikidata": "Q5446",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/mordovia",
+   "name": "Mordovia",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-MO",
+   "wikidata": "Q5340",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/moscow",
+   "name": "Moscow",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-MOW",
+   "wikidata": "Q649",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/moscow-oblast",
+   "name": "Moscow Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-MOS",
+   "wikidata": "Q1697",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/murmansk-oblast",
+   "name": "Murmansk Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-MUR",
+   "wikidata": "Q1759",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/nenets-autonomous-district",
+   "name": "Nenets Autonomous District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-NEN",
+   "wikidata": "Q2164",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/nizhny-novgorod-oblast",
+   "name": "Nizhny Novgorod Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-NIZ",
+   "wikidata": "Q2246",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/north-ossetiaalania",
+   "name": "North Ossetia–Alania",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-SE",
+   "wikidata": "Q5237",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/novgorod-oblast",
+   "name": "Novgorod Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-NGR",
+   "wikidata": "Q2240",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/novosibirsk-oblast",
+   "name": "Novosibirsk Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-NVS",
+   "wikidata": "Q5851",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/omsk-oblast",
+   "name": "Omsk Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-OMS",
+   "wikidata": "Q5835",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/orenburg-oblast",
+   "name": "Orenburg Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-ORE",
+   "wikidata": "Q5338",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/oryol-oblast",
+   "name": "Oryol Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-ORL",
+   "wikidata": "Q3129",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/penza-oblast",
+   "name": "Penza Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-PNZ",
+   "wikidata": "Q5545",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/perm-krai",
+   "name": "Perm Krai",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-PER",
+   "wikidata": "Q5400",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/primorsky-krai",
+   "name": "Primorsky Krai",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-PRI",
+   "wikidata": "Q4341",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/pskov-oblast",
+   "name": "Pskov Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-PSK",
+   "wikidata": "Q2218",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/rostov-oblast",
+   "name": "Rostov Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-ROS",
+   "wikidata": "Q3573",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/ryazan-oblast",
+   "name": "Ryazan Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-RYA",
+   "wikidata": "Q2753",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/saint-petersburg",
+   "name": "Saint Petersburg",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-SPE",
+   "wikidata": "Q656",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/sakha",
+   "name": "Sakha",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-SA",
+   "wikidata": "Q6605",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/sakhalin-oblast",
+   "name": "Sakhalin Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-SAK",
+   "wikidata": "Q7797",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/samara-oblast",
+   "name": "Samara Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-SAM",
+   "wikidata": "Q1727",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/saratov-oblast",
+   "name": "Saratov Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-SAR",
+   "wikidata": "Q5334",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/smolensk-oblast",
+   "name": "Smolensk Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-SMO",
+   "wikidata": "Q2347",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/stavropol-krai",
+   "name": "Stavropol Krai",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-STA",
+   "wikidata": "Q5207",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/sverdlovsk-oblast",
+   "name": "Sverdlovsk Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-SVE",
+   "wikidata": "Q5462",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/tambov-oblast",
+   "name": "Tambov Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-TAM",
+   "wikidata": "Q3550",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/tatarstan",
+   "name": "Tatarstan",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-TA",
+   "wikidata": "Q5481",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/tomsk-oblast",
+   "name": "Tomsk Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-TOM",
+   "wikidata": "Q5884",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/tula-oblast",
+   "name": "Tula Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-TUL",
+   "wikidata": "Q2792",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/tuva",
+   "name": "Tuva",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-TY",
+   "wikidata": "Q960",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/tver-oblast",
+   "name": "Tver Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-TVE",
+   "wikidata": "Q2292",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/tyumen-oblast",
+   "name": "Tyumen Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-TYU",
+   "wikidata": "Q5824",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/udmurtia",
+   "name": "Udmurtia",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-UD",
+   "wikidata": "Q5422",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/ulyanovsk-oblast",
+   "name": "Ulyanovsk Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-ULY",
+   "wikidata": "Q5634",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/vladimir-oblast",
+   "name": "Vladimir Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-VLA",
+   "wikidata": "Q2702",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/volgograd-oblast",
+   "name": "Volgograd Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-VGG",
+   "wikidata": "Q3819",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/vologda-oblast",
+   "name": "Vologda Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-VLG",
+   "wikidata": "Q2015",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/voronezh-oblast",
+   "name": "Voronezh Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-VOR",
+   "wikidata": "Q3447",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/yamalo-nenets-autonomous-district",
+   "name": "Yamalo-Nenets Autonomous District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-YAN",
+   "wikidata": "Q6407",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/yaroslavl-oblast",
+   "name": "Yaroslavl Oblast",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-YAR",
+   "wikidata": "Q2448",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "ru/zabaykalsky-krai",
+   "name": "Zabaykalsky Krai",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "ru",
+   "iso_3166_2": "RU-ZAB",
+   "wikidata": "Q6838",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

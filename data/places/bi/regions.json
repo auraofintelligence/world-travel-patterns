@@ -1,0 +1,15 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "bi/gitega-province",
+   "name": "Gitega Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "bi",
+   "iso_3166_2": "BI-GI",
+   "wikidata": "Q720843",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

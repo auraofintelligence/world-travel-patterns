@@ -1,0 +1,55 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "tj/districts-under-central-government-jurisdiction",
+   "name": "Districts under Central Government Jurisdiction",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tj",
+   "iso_3166_2": "TJ-RA",
+   "wikidata": "Q633490",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "tj/dushanbe",
+   "name": "Dushanbe",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tj",
+   "iso_3166_2": "TJ-DU",
+   "wikidata": "Q9365",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "tj/gorno-badakhshan-autonomous-region",
+   "name": "Gorno-Badakhshan Autonomous Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tj",
+   "iso_3166_2": "TJ-GB",
+   "wikidata": "Q207319",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "tj/khatlon-province",
+   "name": "Khatlon Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tj",
+   "iso_3166_2": "TJ-KT",
+   "wikidata": "Q633511",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "tj/sughd-province",
+   "name": "Sughd Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tj",
+   "iso_3166_2": "TJ-SU",
+   "wikidata": "Q241582",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

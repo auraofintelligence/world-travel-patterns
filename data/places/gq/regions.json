@@ -1,0 +1,85 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "gq/annobon-province",
+   "name": "Annobón Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "gq",
+   "iso_3166_2": "GQ-AN",
+   "wikidata": "Q3736616",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "gq/bioko-norte",
+   "name": "Bioko Norte",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "gq",
+   "iso_3166_2": "GQ-BN",
+   "wikidata": "Q845834",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "gq/bioko-sur",
+   "name": "Bioko Sur",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "gq",
+   "iso_3166_2": "GQ-BS",
+   "wikidata": "Q845817",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "gq/centro-sur",
+   "name": "Centro Sur",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "gq",
+   "iso_3166_2": "GQ-CS",
+   "wikidata": "Q845823",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "gq/djibloho",
+   "name": "Djibloho",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "gq",
+   "iso_3166_2": "GQ-DJ",
+   "wikidata": "Q28814758",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "gq/kie-ntem",
+   "name": "Kie-ntem",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "gq",
+   "iso_3166_2": "GQ-KN",
+   "wikidata": "Q853393",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "gq/litoral",
+   "name": "Litoral",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "gq",
+   "iso_3166_2": "GQ-LI",
+   "wikidata": "Q203873",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "gq/wele-nzas",
+   "name": "Wele-Nzas",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "gq",
+   "iso_3166_2": "GQ-WN",
+   "wikidata": "Q853400",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

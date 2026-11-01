@@ -1,0 +1,65 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "il/central-district",
+   "name": "Central District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "il",
+   "iso_3166_2": "IL-M",
+   "wikidata": "Q188785",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "il/haifa-district",
+   "name": "Haifa District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "il",
+   "iso_3166_2": "IL-HA",
+   "wikidata": "Q185845",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "il/jerusalem-district",
+   "name": "Jerusalem District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "il",
+   "iso_3166_2": "IL-JM",
+   "wikidata": "Q192232",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "il/northern-district",
+   "name": "Northern District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "il",
+   "iso_3166_2": "IL-Z",
+   "wikidata": "Q189942",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "il/southern-district",
+   "name": "Southern District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "il",
+   "iso_3166_2": "IL-D",
+   "wikidata": "Q188781",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "il/tel-aviv-district",
+   "name": "Tel Aviv District",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "il",
+   "iso_3166_2": "IL-TA",
+   "wikidata": "Q192811",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

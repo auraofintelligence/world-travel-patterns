@@ -1,0 +1,55 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "sg/central-singapore-community-development-council",
+   "name": "Central Singapore Community Development Council",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "sg",
+   "iso_3166_2": "SG-01",
+   "wikidata": "Q2544592",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "sg/north-east-community-development-council",
+   "name": "North East Community Development Council",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "sg",
+   "iso_3166_2": "SG-02",
+   "wikidata": "Q3710534",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "sg/north-west-community-development-council",
+   "name": "North West Community Development Council",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "sg",
+   "iso_3166_2": "SG-03",
+   "wikidata": "Q5784118",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "sg/south-east-community-development-council",
+   "name": "South East Community Development Council",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "sg",
+   "iso_3166_2": "SG-04",
+   "wikidata": "Q1687545",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "sg/south-west-community-development-council",
+   "name": "South West Community Development Council",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "sg",
+   "iso_3166_2": "SG-05",
+   "wikidata": "Q5784126",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "bh/capital-governorate",
+   "name": "Capital Governorate",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "bh",
+   "iso_3166_2": "BH-13",
+   "wikidata": "Q528953",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "bh/muharraq-governorate",
+   "name": "Muharraq Governorate",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "bh",
+   "iso_3166_2": "BH-15",
+   "wikidata": "Q375630",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "bh/northern-governorate",
+   "name": "Northern Governorate",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "bh",
+   "iso_3166_2": "BH-17",
+   "wikidata": "Q840445",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "bh/southern-governorate",
+   "name": "Southern Governorate",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "bh",
+   "iso_3166_2": "BH-14",
+   "wikidata": "Q838532",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

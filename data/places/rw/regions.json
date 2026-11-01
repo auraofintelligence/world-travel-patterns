@@ -1,0 +1,55 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "rw/eastern-province",
+   "name": "Eastern Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "rw",
+   "iso_3166_2": "RW-02",
+   "wikidata": "Q853152",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "rw/kigali",
+   "name": "Kigali",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "rw",
+   "iso_3166_2": "RW-01",
+   "wikidata": "Q3859",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "rw/northern-province",
+   "name": "Northern Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "rw",
+   "iso_3166_2": "RW-03",
+   "wikidata": "Q845807",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "rw/southern-province",
+   "name": "Southern Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "rw",
+   "iso_3166_2": "RW-05",
+   "wikidata": "Q853162",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "rw/western-province",
+   "name": "Western Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "rw",
+   "iso_3166_2": "RW-04",
+   "wikidata": "Q737354",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

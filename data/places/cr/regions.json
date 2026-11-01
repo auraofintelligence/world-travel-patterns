@@ -1,0 +1,75 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "cr/alajuela-province",
+   "name": "Alajuela Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "cr",
+   "iso_3166_2": "CR-A",
+   "wikidata": "Q502188",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "cr/cartago-province",
+   "name": "Cartago Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "cr",
+   "iso_3166_2": "CR-C",
+   "wikidata": "Q502181",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "cr/guanacaste-province",
+   "name": "Guanacaste Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "cr",
+   "iso_3166_2": "CR-G",
+   "wikidata": "Q690026",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "cr/heredia-province",
+   "name": "Heredia Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "cr",
+   "iso_3166_2": "CR-H",
+   "wikidata": "Q502192",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "cr/limon-province",
+   "name": "Limón Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "cr",
+   "iso_3166_2": "CR-L",
+   "wikidata": "Q642644",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "cr/puntarenas-province",
+   "name": "Puntarenas Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "cr",
+   "iso_3166_2": "CR-P",
+   "wikidata": "Q502170",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "cr/san-jose-province",
+   "name": "San José Province",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "cr",
+   "iso_3166_2": "CR-SJ",
+   "wikidata": "Q647808",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

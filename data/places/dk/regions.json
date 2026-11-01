@@ -1,0 +1,55 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "dk/capital-region-of-denmark",
+   "name": "Capital Region of Denmark",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "dk",
+   "iso_3166_2": "DK-84",
+   "wikidata": "Q26073",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "dk/central-denmark",
+   "name": "Central Denmark",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "dk",
+   "iso_3166_2": "DK-82",
+   "wikidata": "Q26586",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "dk/north-denmark-region",
+   "name": "North Denmark Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "dk",
+   "iso_3166_2": "DK-81",
+   "wikidata": "Q26067",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "dk/region-zealand",
+   "name": "Region Zealand",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "dk",
+   "iso_3166_2": "DK-85",
+   "wikidata": "Q26589",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "dk/southern-denmark",
+   "name": "Southern Denmark",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "dk",
+   "iso_3166_2": "DK-83",
+   "wikidata": "Q26061",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

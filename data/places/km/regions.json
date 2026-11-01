@@ -1,0 +1,35 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "km/anjouan",
+   "name": "Anjouan",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "km",
+   "iso_3166_2": "KM-A",
+   "wikidata": "Q231324",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "km/grande-comore",
+   "name": "Grande Comore",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "km",
+   "iso_3166_2": "KM-G",
+   "wikidata": "Q244978",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "km/moheli",
+   "name": "Mohéli",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "km",
+   "iso_3166_2": "KM-M",
+   "wikidata": "Q271797",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

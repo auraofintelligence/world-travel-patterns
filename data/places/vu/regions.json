@@ -1,0 +1,65 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "vu/malampa",
+   "name": "Malampa",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "vu",
+   "iso_3166_2": "VU-MAP",
+   "wikidata": "Q740656",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "vu/penama",
+   "name": "Penama",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "vu",
+   "iso_3166_2": "VU-PAM",
+   "wikidata": "Q836649",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "vu/sanma",
+   "name": "Sanma",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "vu",
+   "iso_3166_2": "VU-SAM",
+   "wikidata": "Q740640",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "vu/shefa",
+   "name": "Shefa",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "vu",
+   "iso_3166_2": "VU-SEE",
+   "wikidata": "Q650617",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "vu/tafea",
+   "name": "Tafea",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "vu",
+   "iso_3166_2": "VU-TAE",
+   "wikidata": "Q576417",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "vu/torba",
+   "name": "Torba",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "vu",
+   "iso_3166_2": "VU-TOB",
+   "wikidata": "Q822514",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

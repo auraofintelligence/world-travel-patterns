@@ -1,0 +1,65 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "tw/kaohsiung",
+   "name": "Kaohsiung",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tw",
+   "iso_3166_2": "TW-KHH",
+   "wikidata": "Q181557",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "tw/new-taipei-city",
+   "name": "New Taipei City",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tw",
+   "iso_3166_2": "TW-NWT",
+   "wikidata": "Q244898",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "tw/taichung",
+   "name": "Taichung",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tw",
+   "iso_3166_2": "TW-TXG",
+   "wikidata": "Q245023",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "tw/tainan",
+   "name": "Tainan",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tw",
+   "iso_3166_2": "TW-TNN",
+   "wikidata": "Q140631",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "tw/taipei",
+   "name": "Taipei",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tw",
+   "iso_3166_2": "TW-TPE",
+   "wikidata": "Q1867",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "tw/taoyuan",
+   "name": "Taoyuan",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "tw",
+   "iso_3166_2": "TW-TAO",
+   "wikidata": "Q115256",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "lb/beirut-governorate",
+   "name": "Beirut Governorate",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "lb",
+   "iso_3166_2": "LB-BA",
+   "wikidata": "Q651688",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "lb/beqaa-governorate",
+   "name": "Beqaa Governorate",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "lb",
+   "iso_3166_2": "LB-BI",
+   "wikidata": "Q319632",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "lb/mount-lebanon-governorate",
+   "name": "Mount Lebanon Governorate",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "lb",
+   "iso_3166_2": "LB-JL",
+   "wikidata": "Q216945",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "lb/nabatieh-governorate",
+   "name": "Nabatieh Governorate",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "lb",
+   "iso_3166_2": "LB-NA",
+   "wikidata": "Q458417",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "lb/north-governorate",
+   "name": "North Governorate",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "lb",
+   "iso_3166_2": "LB-AS",
+   "wikidata": "Q390267",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "lb/south-governorate",
+   "name": "South Governorate",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "lb",
+   "iso_3166_2": "LB-JA",
+   "wikidata": "Q223643",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

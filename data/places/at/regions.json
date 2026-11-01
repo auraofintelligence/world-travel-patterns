@@ -1,0 +1,85 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "at/carinthia",
+   "name": "Carinthia",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "at",
+   "iso_3166_2": "AT-2",
+   "wikidata": "Q37985",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "at/lower-austria",
+   "name": "Lower Austria",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "at",
+   "iso_3166_2": "AT-3",
+   "wikidata": "Q42497",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "at/salzburg",
+   "name": "Salzburg",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "at",
+   "iso_3166_2": "AT-5",
+   "wikidata": "Q43325",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "at/styria",
+   "name": "Styria",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "at",
+   "iso_3166_2": "AT-6",
+   "wikidata": "Q41358",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "at/tyrol",
+   "name": "Tyrol",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "at",
+   "iso_3166_2": "AT-7",
+   "wikidata": "Q42880",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "at/upper-austria",
+   "name": "Upper Austria",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "at",
+   "iso_3166_2": "AT-4",
+   "wikidata": "Q41967",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "at/vienna",
+   "name": "Vienna",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "at",
+   "iso_3166_2": "AT-9",
+   "wikidata": "Q1741",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "at/vorarlberg",
+   "name": "Vorarlberg",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "at",
+   "iso_3166_2": "AT-8",
+   "wikidata": "Q38981",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

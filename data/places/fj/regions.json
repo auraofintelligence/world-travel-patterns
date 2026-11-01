@@ -1,0 +1,55 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "fj/central-division",
+   "name": "Central Division",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "fj",
+   "iso_3166_2": "FJ-C",
+   "wikidata": "Q1053789",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "fj/eastern-division",
+   "name": "Eastern Division",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "fj",
+   "iso_3166_2": "FJ-E",
+   "wikidata": "Q182169",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "fj/northern-division",
+   "name": "Northern Division",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "fj",
+   "iso_3166_2": "FJ-N",
+   "wikidata": "Q1062430",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "fj/rotuma",
+   "name": "Rotuma",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "fj",
+   "iso_3166_2": "FJ-R",
+   "wikidata": "Q459763",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "fj/western-division",
+   "name": "Western Division",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "fj",
+   "iso_3166_2": "FJ-W",
+   "wikidata": "Q1062451",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

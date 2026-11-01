@@ -1,0 +1,75 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "pk/azad-kashmir",
+   "name": "Azad Kashmir",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "pk",
+   "iso_3166_2": "PK-JK",
+   "wikidata": "Q200130",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "pk/balochistan",
+   "name": "Balochistan",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "pk",
+   "iso_3166_2": "PK-BA",
+   "wikidata": "Q163239",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "pk/gilgit-baltistan",
+   "name": "Gilgit-Baltistan",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "pk",
+   "iso_3166_2": "PK-GB",
+   "wikidata": "Q200697",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "pk/islamabad-capital-territory",
+   "name": "Islamabad Capital Territory",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "pk",
+   "iso_3166_2": "PK-IS",
+   "wikidata": "Q848613",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "pk/khyber-pakhtunkhwa",
+   "name": "Khyber Pakhtunkhwa",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "pk",
+   "iso_3166_2": "PK-KP",
+   "wikidata": "Q183314",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "pk/punjab",
+   "name": "Punjab",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "pk",
+   "iso_3166_2": "PK-PB",
+   "wikidata": "Q4478",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "pk/sindh",
+   "name": "Sindh",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "pk",
+   "iso_3166_2": "PK-SD",
+   "wikidata": "Q37211",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}

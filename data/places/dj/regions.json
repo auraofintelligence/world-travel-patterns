@@ -1,0 +1,55 @@
+{
+ "rule": "First-level regions from ISO 3166-2 (via Wikidata). Rerun scripts/import_regions.py to refresh; hand additions go in extra.json.",
+ "places": [
+  {
+   "id": "dj/ali-sabieh-region",
+   "name": "Ali Sabieh Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "dj",
+   "iso_3166_2": "DJ-AS",
+   "wikidata": "Q821008",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "dj/arta-region",
+   "name": "Arta Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "dj",
+   "iso_3166_2": "DJ-AR",
+   "wikidata": "Q705941",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "dj/dikhil-region",
+   "name": "Dikhil Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "dj",
+   "iso_3166_2": "DJ-DI",
+   "wikidata": "Q283979",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "dj/obock-region",
+   "name": "Obock Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "dj",
+   "iso_3166_2": "DJ-OB",
+   "wikidata": "Q844929",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  },
+  {
+   "id": "dj/tadjourah-region",
+   "name": "Tadjourah Region",
+   "kind": "region",
+   "source_kind": "first-level",
+   "parent": "dj",
+   "iso_3166_2": "DJ-TA",
+   "wikidata": "Q645896",
+   "why": "First-level region: its own laws, languages and seasons can differ from the country's."
+  }
+ ]
+}
