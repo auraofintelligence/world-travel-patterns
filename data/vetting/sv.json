@@ -627,6 +627,14 @@
      "effect": "National election",
      "url": "https://www.electionguide.org/elections/type/upcoming/",
      "by": "elections"
+    },
+    {
+     "date": "2027-09-15",
+     "what": "Independence Day, 15 September (national holiday)",
+     "effect": "Public holiday; parades",
+     "url": "https://www.mh.gob.sv/events/categoria/feriado/lista/?tribe-bar-date=2026-04-01",
+     "by": "official-events",
+     "category": "national-day"
     }
    ],
    "sources": [
@@ -636,6 +644,13 @@
      "url": "https://www.electionguide.org/elections/type/upcoming/",
      "checked": "2026-11-01",
      "supports": "election dates"
+    },
+    {
+     "title": "Feriados",
+     "authority": "Ministerio de Hacienda, El Salvador",
+     "url": "https://www.mh.gob.sv/events/categoria/feriado/lista/?tribe-bar-date=2026-04-01",
+     "checked": "2026-11-01",
+     "supports": "event dates (read via a search-index snapshot)"
     }
    ],
    "checked": "2026-11-01"

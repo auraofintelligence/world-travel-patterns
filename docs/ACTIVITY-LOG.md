@@ -548,3 +548,7 @@ Upgraded the entry and tourism checks for 10 places from official sources. tv: I
 ## 2026-11-01 17:11 AEST, Grok: Culture national-source search gm-hr (10 records)
 
 Searched national tourism boards and government pages for 10 ask-locally culture records. Upgraded 8: gp, gr, gu, gy and hn are partly mapped; gm, gs and hk are community-published. Searched with none found for gt and hr. gn and gw were not covered in this batch.
+
+## 2026-11-01 17:12 AEST, Grok: Year-ahead 2027: national days and festivals, gy to sv (10 records)
+
+Added 10 official-events entries (all national days) across 10 records: gy (Mashramani), hr, is, id (2027 SKB decree), gt, hu (St Stephen's Day programme), ie (St Patrick's Festival), cr, sv and fo (Ólavsøka). Honduras was dropped because the only source was a private legal database. Watchlist additions: Iceland Airwaves, Hornbill, Jerash and the Fes Sacred Music festival (no official 2027 dates).
