@@ -2,12 +2,27 @@
  "place": "sr",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no Australian-specific official source found on 31 October 2026 for Suriname. Aggregator sites disagree.",
+   "status": "evisa",
+   "summary": "Entry Fee (tourist card) before travel: Australians pay online through Suriname's official VFS portal (USD or EUR 50 plus a service fee), for tourism or family visits of up to 90 days.",
    "next_check": "Ask Suriname's embassy or immigration authority which visa an Australian needs.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Who can apply for Entry Fee?",
+     "authority": "VFS Global, official partner of the Government of Suriname",
+     "url": "https://suriname.vfsevisa.com/suriname/online/home/who-can-apply-for-e-tourist-card",
+     "checked": "2026-11-01",
+     "supports": "eligibility and fee (read via a search-index snapshot)"
+    },
+    {
+     "title": "Toelichting op de visum- en toeristenkaartprocedure",
+     "authority": "Government of Suriname (gov.sr)",
+     "url": "https://gov.sr/toelichting-op-de-visum-en-toeristenkaartprocedure/",
+     "checked": "2026-11-01",
+     "supports": "procedure (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -33,11 +48,27 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic Suriname",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic Suriname which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Online entry fee or visa before travel",
+     "detail": "Entry Fee (tourist card) before travel: Australians pay online through Suriname's official VFS portal (USD or EUR 50 plus a service fee), for tourism or family visits of up to 90 days.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Who can apply for Entry Fee?",
+       "authority": "VFS Global, official partner of the Government of Suriname",
+       "url": "https://suriname.vfsevisa.com/suriname/online/home/who-can-apply-for-e-tourist-card",
+       "checked": "2026-11-01",
+       "supports": "eligibility and fee (read via a search-index snapshot)"
+      },
+      {
+       "title": "Toelichting op de visum- en toeristenkaartprocedure",
+       "authority": "Government of Suriname (gov.sr)",
+       "url": "https://gov.sr/toelichting-op-de-visum-en-toeristenkaartprocedure/",
+       "checked": "2026-11-01",
+       "supports": "procedure (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

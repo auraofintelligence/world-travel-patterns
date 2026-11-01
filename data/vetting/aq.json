@@ -46,11 +46,20 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Environmental authorisation through the tour operator",
+     "detail": "No visa: the Antarctic Treaty area south of 60°S. Australian citizens and organisations going there need environmental authorisation from the Australian Antarctic Division before departure, usually held by the tour operator.",
+     "next": "Book with an operator that holds Australian Antarctic Division environmental approval (IAATO members usually handle it).",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Tourism and non-government expeditions",
+       "authority": "Australian Antarctic Division",
+       "url": "https://www.antarctica.gov.au/about-antarctica/environment/environmental-impact-assessment-approvals-and-permits/tour-and-expedition-organisers/",
+       "checked": "2026-10-31",
+       "supports": "environmental authorisation before departure"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

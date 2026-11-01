@@ -2,21 +2,38 @@
  "place": "ky",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no official Cayman Islands page found on 31 October 2026. Commonwealth Caribbean islands generally admit Australians without a visa, but that is a pattern, not a finding.",
+   "status": "visa-free",
+   "summary": "No visa: Australia is marked 'Visa Not Required' on the Cayman Islands Customs and Border Control country list.",
    "next_check": "Confirm with Cayman Islands's immigration authority before travel.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "List of countries: visa required",
+     "authority": "Cayman Islands Customs and Border Control",
+     "url": "https://gov.ky/web/cbc/travel/visas-extensions/visitors-visas/list-of-countries-visa-required",
+     "checked": "2026-11-01",
+     "supports": "Australia: visa not required (read directly)"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "No visa: Australia is marked 'Visa Not Required' on the Cayman Islands Customs and Border Control country list.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "List of countries: visa required",
+       "authority": "Cayman Islands Customs and Border Control",
+       "url": "https://gov.ky/web/cbc/travel/visas-extensions/visitors-visas/list-of-countries-visa-required",
+       "checked": "2026-11-01",
+       "supports": "Australia: visa not required (read directly)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

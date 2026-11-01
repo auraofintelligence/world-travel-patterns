@@ -2,12 +2,20 @@
  "place": "st",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no Australian-specific official source found on 31 October 2026 for São Tomé and Príncipe. Aggregator sites disagree.",
+   "status": "visa-required",
+   "summary": "Visa needed: Australia isn't on São Tomé and Príncipe's exemption list. A stay of up to 15 days without a visa is possible with a valid Schengen or US visa and a passport valid for more than three months.",
    "next_check": "Ask São Tomé and Príncipe's embassy or immigration authority which visa an Australian needs.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Vistos e migração",
+     "authority": "Turismo São Tomé e Príncipe (official tourism)",
+     "url": "https://visitsaotomeprincipe.st/en/informacoes-uteis/vistos-e-migracao",
+     "checked": "2026-11-01",
+     "supports": "visa rules (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -33,11 +41,20 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visa before travel",
+     "detail": "Visa needed: Australia isn't on São Tomé and Príncipe's exemption list. A stay of up to 15 days without a visa is possible with a valid Schengen or US visa and a passport valid for more than three months.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Vistos e migração",
+       "authority": "Turismo São Tomé e Príncipe (official tourism)",
+       "url": "https://visitsaotomeprincipe.st/en/informacoes-uteis/vistos-e-migracao",
+       "checked": "2026-11-01",
+       "supports": "visa rules (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

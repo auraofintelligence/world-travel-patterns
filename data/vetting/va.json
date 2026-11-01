@@ -3,19 +3,19 @@
  "patterns": {
   "entry": {
    "status": "visa-free",
-   "summary": "Vatican City is entered from Rome; visitors are on Schengen Italy's rule. Areas beyond the museums and St Peter's need permission.",
+   "summary": "No visa of its own: Vatican City is reached through Schengen territory, and Australians are visa-exempt there under Regulation (EU) 2018/1806 (90 days in any 180).",
    "max_stay": "90 days in any 180-day period across the Schengen area",
-   "evidence": "signal",
+   "evidence": "official",
    "sources": [
     {
-     "title": "Schengen area",
-     "authority": "European Commission, Migration and Home Affairs",
-     "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en",
-     "checked": "2026-10-31",
-     "supports": "Schengen membership"
+     "title": "Regulation (EU) 2018/1806, Annex II",
+     "authority": "EUR-Lex, European Union",
+     "url": "https://eur-lex.europa.eu/eli/reg/2018/1806/oj/eng",
+     "checked": "2026-11-01",
+     "supports": "Australia visa-exempt for Schengen short stays (90 days in 180) (read via a search-index snapshot)"
     }
    ],
-   "checked": "2026-10-31"
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -49,11 +49,20 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Apostolic Nunciature, Red Hill",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Apostolic Nunciature, Red Hill which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "No visa of its own: Vatican City is reached through Schengen territory, and Australians are visa-exempt there under Regulation (EU) 2018/1806 (90 days in any 180).",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Regulation (EU) 2018/1806, Annex II",
+       "authority": "EUR-Lex, European Union",
+       "url": "https://eur-lex.europa.eu/eli/reg/2018/1806/oj/eng",
+       "checked": "2026-11-01",
+       "supports": "Australia visa-exempt for Schengen short stays (90 days in 180) (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

@@ -2,21 +2,52 @@
  "place": "ms",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no official Montserrat page found on 31 October 2026. Commonwealth Caribbean islands generally admit Australians without a visa, but that is a pattern, not a finding.",
+   "status": "visa-free",
+   "summary": "No visa: Australia is on Montserrat's list of countries not requiring a visa. Complete the online immigration and customs form within 72 hours before travel.",
    "next_check": "Confirm with Montserrat's immigration authority before travel.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Countries not requiring a visa",
+     "authority": "Government of Montserrat (immigration.ms)",
+     "url": "https://www.immigration.ms/countries/visa_not_required",
+     "checked": "2026-11-01",
+     "supports": "Australia listed (read via a search-index snapshot)"
+    },
+    {
+     "title": "Online Immigration and Customs Portal",
+     "authority": "Government of Montserrat",
+     "url": "https://www.travelmontserrat.gov.ms/en",
+     "checked": "2026-11-01",
+     "supports": "arrival form (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free visitor entry",
+     "detail": "No visa: Australia is on Montserrat's list of countries not requiring a visa. Complete the online immigration and customs form within 72 hours before travel.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Countries not requiring a visa",
+       "authority": "Government of Montserrat (immigration.ms)",
+       "url": "https://www.immigration.ms/countries/visa_not_required",
+       "checked": "2026-11-01",
+       "supports": "Australia listed (read via a search-index snapshot)"
+      },
+      {
+       "title": "Online Immigration and Customs Portal",
+       "authority": "Government of Montserrat",
+       "url": "https://www.travelmontserrat.gov.ms/en",
+       "checked": "2026-11-01",
+       "supports": "arrival form (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

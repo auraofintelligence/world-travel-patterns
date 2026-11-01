@@ -2,12 +2,20 @@
  "place": "km",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no Australian-specific official source found on 31 October 2026 for Comoros. Aggregator sites disagree.",
+   "status": "visa-on-arrival",
+   "summary": "Visa on arrival: the Comoros National Tourism Office says tourist visas are issued on arrival to all nationalities, for up to 45 days.",
    "next_check": "Ask Comoros's embassy or immigration authority which visa an Australian needs.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa et formalités d'entrée",
+     "authority": "Office National du Tourisme des Comores",
+     "url": "https://www.comorostourism.com/en/preparersonvoyage/visa_et_formalites_d_entree",
+     "checked": "2026-11-01",
+     "supports": "visa on arrival (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -33,11 +41,20 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa on arrival",
+     "detail": "Visa on arrival: the Comoros National Tourism Office says tourist visas are issued on arrival to all nationalities, for up to 45 days.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa et formalités d'entrée",
+       "authority": "Office National du Tourisme des Comores",
+       "url": "https://www.comorostourism.com/en/preparersonvoyage/visa_et_formalites_d_entree",
+       "checked": "2026-11-01",
+       "supports": "visa on arrival (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",
