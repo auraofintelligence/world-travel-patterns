@@ -301,11 +301,20 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Volunteering isn't addressed in the EU guidance read.",
-     "next": "Ask the Royal Danish Embassy, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Volunteer residence permit (ages 18 to 30 only)",
+     "detail": "Only for unpaid full-time (37 hours a week) social or humanitarian work, ages 18 to 30, with an agreement with the Danish organisation.",
+     "next": "Over 30: not available.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Volunteer",
+       "authority": "New to Denmark (SIRI)",
+       "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Volunteer",
+       "checked": "2026-11-01",
+       "supports": "volunteer permit, ages 18 to 30, full-time social or humanitarian (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

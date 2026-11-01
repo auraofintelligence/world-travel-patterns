@@ -204,11 +204,27 @@
      ]
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Thai Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Thai Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Non-Immigrant O (Volunteer) visa plus work permit",
+     "detail": "Even unpaid volunteering needs a Non-Immigrant O visa and a work permit, through a legally registered NGO with a supporting letter from a government department.",
+     "next": "Ask the NGO to start the government letter early.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Non-Immigrant Type O (Volunteer)",
+       "authority": "Royal Thai Consulate-General, Los Angeles",
+       "url": "https://thaiconsulatela.thaiembassy.org/en/publicservice/non-immigrant-type-o-volunteer",
+       "checked": "2026-11-01",
+       "supports": "volunteer O visa with government agency letter (read via a search-index snapshot)"
+      },
+      {
+       "title": "FAQ",
+       "authority": "Royal Thai Embassy, Brussels",
+       "url": "https://brussels.thaiembassy.org/en/page/faq",
+       "checked": "2026-11-01",
+       "supports": "unpaid volunteers need a Non-Immigrant visa and work permit (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "status": "conditional",

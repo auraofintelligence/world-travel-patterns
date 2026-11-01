@@ -191,11 +191,20 @@
      ]
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Mexico, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Mexico, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor without permission for paid activity (180 days)",
+     "detail": "Visitor status covers any unremunerated activity for up to 180 days, which includes unpaid volunteering.",
+     "next": "Carry the organisation's invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Ley de Migración y su Reglamento",
+       "authority": "Instituto Nacional de Migración, Mexico",
+       "url": "https://www.inm.gob.mx/static/marco_juridico/pdf/Ley_de_Migracion_y_Reglamento.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor status covers unremunerated activity up to 180 days (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "status": "conditional",

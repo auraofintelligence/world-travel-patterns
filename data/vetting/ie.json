@@ -191,11 +191,27 @@
      ]
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Ireland, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Ireland, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Volunteer preclearance (stays over 3 months)",
+     "detail": "Volunteering is not among the short-stay purposes. The Volunteer scheme (over 3 months, up to 2 years) needs preclearance before travel with an eligible organisation that supports you fully, and Irish-authorised health insurance.",
+     "next": "Use the scheme only for stays over 3 months.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Frequently asked questions (short stay)",
+       "authority": "Immigration Service Delivery, Ireland",
+       "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/frequently-asked-questions/",
+       "checked": "2026-11-01",
+       "supports": "short-stay purposes; volunteering not listed (read via a search-index snapshot)"
+      },
+      {
+       "title": "Volunteer",
+       "authority": "Immigration Service Delivery, Ireland",
+       "url": "https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-options-for-working-in-ireland/coming-to-work-for-more-than-90-days/volunteer/",
+       "checked": "2026-11-01",
+       "supports": "volunteer scheme over 3 months, preclearance (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "status": "conditional",

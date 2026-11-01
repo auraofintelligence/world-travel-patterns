@@ -798,3 +798,7 @@ Volunteering checks: Japan Temporary Visitor bars paid or profit-making activity
 ## 2026-11-01 17:59 AEST, Grok: Update Claude handoff and STATUS gaps after activity passes (0 records)
 
 Docs only: handoff section rewritten with today's activity passes, the Liechtenstein correction and next priorities; STATUS.md item 1 updated (796 confirm-in-writing, 22%; 476 outside Do-not-travel places).
+
+## 2026-11-01 20:31 AEST, Grok: Volunteering rules: ca, ie, mx, th, fi, se, dk, no, kr, mt, hr, hu, cz (13 records)
+
+Volunteering checks from official sources: Mexico visitor status covers unpaid activity (180 days); Canada allows incidental volunteering that is not 'work'; Thailand needs an O visa and work permit even unpaid; Ireland's short stay excludes volunteering, the scheme is over 3 months; Denmark volunteer permit only ages 18 to 30; Finland, Norway, Malta via programmes; Sweden visitor's permit; Croatia, Hungary, Czechia permits; Korea not named (confirm). Read via search-index snapshots.

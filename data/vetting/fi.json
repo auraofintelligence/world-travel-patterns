@@ -278,11 +278,20 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Volunteering isn't addressed in the EU guidance read.",
-     "next": "Ask the Embassy of Finland, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Volunteer residence permit (approved programmes, up to 1 year)",
+     "detail": "Permits are for European Solidarity Corps or NGO exchange programmes (for example ICYE, AIESEC); the organisation must fund your stay. You cannot start before the permit is granted.",
+     "next": "Go through an approved programme.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Volunteering",
+       "authority": "Finnish Immigration Service (Migri)",
+       "url": "https://migri.fi/en/volunteering",
+       "checked": "2026-11-01",
+       "supports": "volunteer residence permit via approved programmes (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

@@ -177,10 +177,19 @@
     },
     "volunteering": {
      "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Korea",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Korea which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "route": "C-3 or visa-free entry; volunteering not named",
+     "detail": "Short-term visit status covers listed non-profit activities up to 90 days (tourism, events, cultural arts, training, religious events); volunteering is not named.",
+     "next": "Ask the Korean Immigration Service in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Statuses of stay and activities (Immigration Act Enforcement Decree, Table 1)",
+       "authority": "Korean Law Information Center (law.go.kr)",
+       "url": "https://www.law.go.kr/LSW/flDownload.do?bylClsCd=110201&flSeq=69567597&gubun=",
+       "checked": "2026-11-01",
+       "supports": "C-3 non-profit short-term activities up to 90 days (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "status": "conditional",

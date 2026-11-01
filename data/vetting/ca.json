@@ -131,11 +131,20 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Not on the pages read",
-     "detail": "Volunteering isn't addressed on the pages read.",
-     "next": "Ask IRCC.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor status if the volunteering is not 'work'",
+     "detail": "Volunteering incidental to a visit that people would not normally be paid for (charity boards, canvassing, crisis lines) is not work. Unpaid tasks that compete with Canadian jobs, or charitable work like group homes or building, need a work permit (LMIA-exempt).",
+     "next": "Ask whether the role is normally paid.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Canadian interests: charitable work R205(d), charitable versus volunteer work",
+       "authority": "IRCC International Mobility Program instructions (via migova.ca mirror)",
+       "url": "https://migova.ca/canada/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals/temporary-residents/foreign-workers/exemption-codes/canadian-interests-charitable-religious-work-r205-exemption-code-c50.html",
+       "checked": "2026-11-01",
+       "supports": "volunteer vs charitable worker distinction (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [
