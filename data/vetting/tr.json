@@ -152,18 +152,50 @@
      }
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Türkiye, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Türkiye, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Filming permission via the Ministry of Foreign Affairs procedure",
+     "detail": "Film shoots by foreign crews follow the same Ministry of Foreign Affairs procedure as research and excavation.",
+     "next": "Apply through a Turkish embassy.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permits for cultural and scientific activities of foreign nationals",
+       "authority": "Ministry of Foreign Affairs, Türkiye",
+       "url": "https://www.mfa.gov.tr/yabanci-uyruklu-kisilerin-ulkemizdeki-kulturel-ve-bilimsel-faaliyetlerine-iliskin-izinler.tr.mfa",
+       "checked": "2026-11-01",
+       "supports": "archaeological permits via embassy; ordinary research via the relevant institution (read via a search-index snapshot)"
+      },
+      {
+       "title": "Researches, excavations and film shootings by foreign researchers",
+       "authority": "Ministry of Foreign Affairs, Türkiye",
+       "url": "https://www.mfa.gov.tr/the-transactions-to-be-followed-in-relation-with-the-researches_-excavations-and-film-shootings-by-foreign-researchers-in-our-co.en.mfa",
+       "checked": "2026-11-01",
+       "supports": "procedure (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Türkiye, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Türkiye, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Permission from the relevant institution; archaeology via embassy",
+     "detail": "Ordinary scientific research: apply directly to the relevant institution. Archaeological excavation, surface survey and underwater archaeology need Ministry of Culture and Tourism permits applied for through a Turkish embassy (valid 1 year).",
+     "next": "Ask the host institution; allow months for archaeology.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Permits for cultural and scientific activities of foreign nationals",
+       "authority": "Ministry of Foreign Affairs, Türkiye",
+       "url": "https://www.mfa.gov.tr/yabanci-uyruklu-kisilerin-ulkemizdeki-kulturel-ve-bilimsel-faaliyetlerine-iliskin-izinler.tr.mfa",
+       "checked": "2026-11-01",
+       "supports": "archaeological permits via embassy; ordinary research via the relevant institution (read via a search-index snapshot)"
+      },
+      {
+       "title": "Researches, excavations and film shootings by foreign researchers",
+       "authority": "Ministry of Foreign Affairs, Türkiye",
+       "url": "https://www.mfa.gov.tr/the-transactions-to-be-followed-in-relation-with-the-researches_-excavations-and-film-shootings-by-foreign-researchers-in-our-co.en.mfa",
+       "checked": "2026-11-01",
+       "supports": "procedure (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
      "status": "confirm-in-writing",

@@ -168,11 +168,27 @@
      "checked": "2026-11-01"
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Mexico, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Mexico, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor without permission for paid activity (180 days)",
+     "detail": "Unpaid academic activity uses visitor status up to 180 days, with a Mexican institution's letter. Scientific research or collecting samples needs authorisation from the relevant Mexican authority.",
+     "next": "Get the institution letter, and any field permits.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa de visitante sin permiso para realizar actividades remuneradas",
+       "authority": "Consulado de México en Saint Paul, SRE",
+       "url": "https://consulmex.sre.gob.mx/saintpaul/index.php/se/visesp/5-seccion/232-visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas",
+       "checked": "2026-11-01",
+       "supports": "unpaid academic and congress activity up to 180 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Lineamientos generales para la expedición de visas",
+       "authority": "Diario Oficial de la Federación (SEGOB)",
+       "url": "https://sidof.segob.gob.mx/notas/docFuente/5763837",
+       "checked": "2026-11-01",
+       "supports": "scientific research or sampling needs authorisation (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
      "status": "confirm-in-writing",

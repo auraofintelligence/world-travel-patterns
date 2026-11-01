@@ -172,11 +172,20 @@
      "checked": "2026-11-01"
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Philippines, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Philippines, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "9(a) temporary visitor (or visa-free entry)",
+     "detail": "Scientific purposes are covered by temporary visitor status, with proof of purpose.",
+     "next": "Carry the host's letter.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa general info",
+       "authority": "Department of Foreign Affairs, Office of Consular Affairs, Philippines",
+       "url": "https://consular.dfa.gov.ph/visa-general-info/",
+       "checked": "2026-11-01",
+       "supports": "9(a) temporary visitor visa covers scientific purposes (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
      "status": "confirm-in-writing",

@@ -42,26 +42,44 @@
      }
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "A business visa (Non-Immigrant B) or confirmation in writing from a Royal Thai Embassy",
-     "detail": "The exemption now covers tourism only, so attendance-only business no longer sits under it by default.",
-     "next": "Ask the Royal Thai Embassy Canberra or Consulate-General Sydney which visa covers this attendance.",
-     "checked": "2026-10-31",
+     "status": "conditional",
+     "route": "Not work when attending",
+     "detail": "Attending seminars, meetings and academic lectures is not work, so no work permit is needed on a visitor entry.",
+     "next": "Carry the invitation.",
+     "checked": "2026-11-01",
      "provenance": {
       "repo": "Australian-visa-activity-atlas",
       "claim_id": "THA-PATH-MEETINGS-STATUS"
-     }
+     },
+     "sources": [
+      {
+       "title": "Notification of the Department of Employment: necessary, urgent or ad-hoc works",
+       "authority": "Department of Employment, Thailand",
+       "url": "https://www.doe.go.th/prd/assets/upload/files/alien_en/da9e573f3fd05ae716d4bd504c30b1b7.pdf",
+       "checked": "2026-11-01",
+       "supports": "special academic lectures and conference organising: 15 days with notification (read via a search-index snapshot)"
+      }
+     ]
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "A business visa (Non-Immigrant B) or confirmation in writing from a Royal Thai Embassy",
-     "detail": "The exemption now covers tourism only, so attendance-only business no longer sits under it by default.",
-     "next": "Ask the Royal Thai Embassy Canberra or Consulate-General Sydney which visa covers this attendance.",
-     "checked": "2026-10-31",
+     "status": "conditional",
+     "route": "Not work when attending",
+     "detail": "Attending seminars, meetings and academic lectures is not work, so no work permit is needed on a visitor entry.",
+     "next": "Carry the invitation.",
+     "checked": "2026-11-01",
      "provenance": {
       "repo": "Australian-visa-activity-atlas",
       "claim_id": "THA-PATH-CONFERENCE-STATUS"
-     }
+     },
+     "sources": [
+      {
+       "title": "Notification of the Department of Employment: necessary, urgent or ad-hoc works",
+       "authority": "Department of Employment, Thailand",
+       "url": "https://www.doe.go.th/prd/assets/upload/files/alien_en/da9e573f3fd05ae716d4bd504c30b1b7.pdf",
+       "checked": "2026-11-01",
+       "supports": "special academic lectures and conference organising: 15 days with notification (read via a search-index snapshot)"
+      }
+     ]
     },
     "unpaid-speaking": {
      "status": "conditional",
@@ -171,10 +189,19 @@
     },
     "research": {
      "status": "confirm-in-writing",
-     "route": "Ask the Royal Thai Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Thai Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "route": "Research not listed as exempt",
+     "detail": "Special academic lectures and conference organising are ad-hoc work allowed for 15 days with notice to the registrar. Research itself is not listed and may need a work permit.",
+     "next": "Ask the host institution in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Notification of the Department of Employment: necessary, urgent or ad-hoc works",
+       "authority": "Department of Employment, Thailand",
+       "url": "https://www.doe.go.th/prd/assets/upload/files/alien_en/da9e573f3fd05ae716d4bd504c30b1b7.pdf",
+       "checked": "2026-11-01",
+       "supports": "special academic lectures and conference organising: 15 days with notification (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
      "status": "confirm-in-writing",

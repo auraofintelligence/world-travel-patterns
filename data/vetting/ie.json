@@ -168,11 +168,27 @@
      "checked": "2026-11-01"
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Ireland, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Ireland, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor under 90 days; Visiting Academic (Stamp 0) beyond",
+     "detail": "Short research visits fit a visitor stay under 90 days (business work capped at 14 days). Longer research needs Visiting Academic permission: paid from outside Ireland, with an Irish host institution's confirmation.",
+     "next": "Get the host institution's letter.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Short stay business visa",
+       "authority": "Immigration Service Delivery, Ireland",
+       "url": "https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-options-for-working-in-ireland/coming-to-work-for-less-than-90-days/short-stay-business-visa/",
+       "checked": "2026-11-01",
+       "supports": "business visits; work up to 14 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Visiting academic",
+       "authority": "Immigration Service Delivery, Ireland",
+       "url": "https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-options-for-working-in-ireland/coming-to-work-for-more-than-90-days/visiting-academic/",
+       "checked": "2026-11-01",
+       "supports": "Stamp 0 for research over 90 days (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
      "status": "confirm-in-writing",

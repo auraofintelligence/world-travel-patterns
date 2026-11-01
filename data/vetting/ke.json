@@ -181,11 +181,20 @@
      ]
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of the Republic of Kenya, O'MALLEY",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of the Republic of Kenya, O'MALLEY which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "NACOSTI research licence plus Kenyan affiliation",
+     "detail": "Foreign researchers need a NACOSTI research licence before starting, and affiliation with a Kenyan institution (letter valid 1 year). Apply online with proposal, ethics approval and fee via eCitizen.",
+     "next": "Arrange affiliation, then apply on the RIMS portal.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Application guidelines",
+       "authority": "NACOSTI Research Information Management System, Kenya",
+       "url": "https://research-portal.nacosti.go.ke/researcher/ApplicationGuidelines.html",
+       "checked": "2026-11-01",
+       "supports": "research licence and affiliation required (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "status": "conditional",

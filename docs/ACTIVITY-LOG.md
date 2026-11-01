@@ -768,3 +768,7 @@ Book-launch checks: Slovenia (cultural creators incl. literature exempt; authors
 ## 2026-11-01 17:57 AEST, Grok: Correct Liechtenstein work rule sources (replace misattributed EU portal link) (1 records)
 
 Fix forward for 94c0948: li activity rules cited a generic EU portal page attributed to the Liechtenstein Migration and Passport Office, and an unverified '8 days in 90' rule. Replaced with the Ausländer- und Passamt's own pages: gainful activity needs a permit whatever the length; artists are exempt from service notification only. Read via search-index snapshots.
+
+## 2026-11-01 17:58 AEST, Grok: Research visits: sg, ie, mx, kr, br, th, tr, ke, za, ph, ae (11 records)
+
+Research checks from official sources: Brazil VIVIS allows unpaid research and teaching 90 days (and volunteering); Korea C-3-1 academic data collection 90 days; Mexico unpaid academic 180 days, field sampling needs authorisation; Ireland visitor under 90 days or Stamp 0; Türkiye research via institution, archaeology via embassy; Kenya NACOSTI licence; South Africa research visitor visa; Philippines 9(a); Singapore, Thailand and UAE do not list research as exempt (confirm). Read via search-index snapshots.
