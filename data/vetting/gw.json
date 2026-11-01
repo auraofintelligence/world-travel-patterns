@@ -2,12 +2,27 @@
  "place": "gw",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no Australian-specific official source found on 31 October 2026 for Guinea-Bissau. Aggregator sites disagree.",
+   "status": "visa-on-arrival",
+   "summary": "A visa is required. It can be issued on arrival at Bissau airport (France says the host should notify immigration in advance), or obtained in advance from an embassy, for example in Dakar or Lisbon. You need a yellow fever certificate and a passport valid for 6 months.",
    "next_check": "Ask Guinea-Bissau's embassy or immigration authority which visa an Australian needs.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Guinée-Bissao: entrée / séjour",
+     "authority": "France Diplomatie",
+     "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
+     "checked": "2026-11-01",
+     "supports": "visa at Bissau airport with advance notice (read via a search-index snapshot)"
+    },
+    {
+     "title": "Guinea-Bissau travel advisory",
+     "authority": "U.S. Department of State",
+     "url": "https://travel.state.gov/en/international-travel/travel-advisories/guinea-bissau.html",
+     "checked": "2026-11-01",
+     "supports": "visa on arrival, yellow fever (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -33,11 +48,27 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visa on arrival (ask the host to notify immigration ahead)",
+     "detail": "A visa is required. It can be issued on arrival at Bissau airport (France says the host should notify immigration in advance), or obtained in advance from an embassy, for example in Dakar or Lisbon. You need a yellow fever certificate and a passport valid for 6 months.",
+     "next": "See the entry record.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Guinée-Bissao: entrée / séjour",
+       "authority": "France Diplomatie",
+       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
+       "checked": "2026-11-01",
+       "supports": "visa at Bissau airport with advance notice (read via a search-index snapshot)"
+      },
+      {
+       "title": "Guinea-Bissau travel advisory",
+       "authority": "U.S. Department of State",
+       "url": "https://travel.state.gov/en/international-travel/travel-advisories/guinea-bissau.html",
+       "checked": "2026-11-01",
+       "supports": "visa on arrival, yellow fever (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

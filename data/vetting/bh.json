@@ -268,11 +268,27 @@
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Kingdom of Bahrain",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Kingdom of Bahrain which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Outside LMRA work-permit rules if occasional work for one employer under 15 days",
+     "detail": "LMRA Order 2 of 2013: occasional, temporary work (exhibitions, celebrations, festivals, ceremonies and similar) for an employer, lasting no more than 15 days, isn't subject to the LMRA law, provided the employer holds the activity's permits.",
+     "next": "Keep it under 15 days; have the host confirm with LMRA.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Order No. 2 of 2013 on temporary works",
+       "authority": "Labour Market Regulatory Authority, Bahrain",
+       "url": "https://www.lmra.gov.bh/en/legal/show/29",
+       "checked": "2026-11-01",
+       "supports": "under-15-day temporary work exemption (read via a search-index snapshot)"
+      },
+      {
+       "title": "eServices: business and artistic band visas",
+       "authority": "Bahrain eGovernment",
+       "url": "https://services.bahrain.bh/wps/portal/en/BSP/GSX-UI-EServiceDetails?esID=121",
+       "checked": "2026-11-01",
+       "supports": "artistic band visa needs a tourism authority permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
      "status": "confirm-in-writing",
@@ -296,18 +312,50 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Kingdom of Bahrain",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Kingdom of Bahrain which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Artistic band visa with a Bahrain Tourism and Exhibition Authority permit",
+     "detail": "Performers use the artistic band visa service, which needs a BTEA permit and a guarantor.",
+     "next": "The host or guarantor applies.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Order No. 2 of 2013 on temporary works",
+       "authority": "Labour Market Regulatory Authority, Bahrain",
+       "url": "https://www.lmra.gov.bh/en/legal/show/29",
+       "checked": "2026-11-01",
+       "supports": "under-15-day temporary work exemption (read via a search-index snapshot)"
+      },
+      {
+       "title": "eServices: business and artistic band visas",
+       "authority": "Bahrain eGovernment",
+       "url": "https://services.bahrain.bh/wps/portal/en/BSP/GSX-UI-EServiceDetails?esID=121",
+       "checked": "2026-11-01",
+       "supports": "artistic band visa needs a tourism authority permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Kingdom of Bahrain",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Kingdom of Bahrain which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Outside LMRA work-permit rules if occasional work for one employer under 15 days",
+     "detail": "LMRA Order 2 of 2013: occasional, temporary work (exhibitions, celebrations, festivals, ceremonies and similar) for an employer, lasting no more than 15 days, isn't subject to the LMRA law, provided the employer holds the activity's permits.",
+     "next": "Keep it under 15 days; have the host confirm with LMRA.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Order No. 2 of 2013 on temporary works",
+       "authority": "Labour Market Regulatory Authority, Bahrain",
+       "url": "https://www.lmra.gov.bh/en/legal/show/29",
+       "checked": "2026-11-01",
+       "supports": "under-15-day temporary work exemption (read via a search-index snapshot)"
+      },
+      {
+       "title": "eServices: business and artistic band visas",
+       "authority": "Bahrain eGovernment",
+       "url": "https://services.bahrain.bh/wps/portal/en/BSP/GSX-UI-EServiceDetails?esID=121",
+       "checked": "2026-11-01",
+       "supports": "artistic band visa needs a tourism authority permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
      "status": "confirm-in-writing",

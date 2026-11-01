@@ -2,17 +2,24 @@
  "place": "gm",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "Smartraveller says you may need a visa; ask the High Commission of The Gambia.",
+   "status": "visa-free",
+   "summary": "Australians are on The Gambia's visa-exemption list for stays up to 90 days, for holiday or business. A yellow fever certificate is needed if you arrive from a risk country. There's a USD 20 airport security fee on arrival and departure.",
    "evidence": "official",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "sources": [
     {
-     "title": "The Gambia travel advice",
-     "authority": "Smartraveller, Australian Government",
-     "url": "https://www.smartraveller.gov.au/destinations/africa/gambia",
-     "checked": "2026-10-31",
-     "supports": "entry conditions as read on 2026-10-31"
+     "title": "Entry requirement",
+     "authority": "Government of The Gambia",
+     "url": "https://gambia.gov.gm/entry-requirement/",
+     "checked": "2026-11-01",
+     "supports": "Commonwealth visa exemption up to 90 days (read via a search-index snapshot)"
+    },
+    {
+     "title": "Visa list (Annexure B: no visa required)",
+     "authority": "Embassy of The Gambia, Brussels",
+     "url": "https://gambiaembassy.eu/wp-content/uploads/2023/04/Visa-List.pdf",
+     "checked": "2026-11-01",
+     "supports": "Australia listed as no visa required (read via a search-index snapshot)"
     }
    ]
   },
@@ -306,11 +313,27 @@
    "evidence": "official",
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "confirm in writing",
-     "detail": "Smartraveller says you may need a visa; ask the High Commission of The Gambia.",
+     "status": "low",
+     "route": "Visa-free, up to 90 days",
+     "detail": "Australians are on The Gambia's visa-exemption list for stays up to 90 days, for holiday or business. A yellow fever certificate is needed if you arrive from a risk country. There's a USD 20 airport security fee on arrival and departure.",
      "next": "See the entry record.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry requirement",
+       "authority": "Government of The Gambia",
+       "url": "https://gambia.gov.gm/entry-requirement/",
+       "checked": "2026-11-01",
+       "supports": "Commonwealth visa exemption up to 90 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Visa list (Annexure B: no visa required)",
+       "authority": "Embassy of The Gambia, Brussels",
+       "url": "https://gambiaembassy.eu/wp-content/uploads/2023/04/Visa-List.pdf",
+       "checked": "2026-11-01",
+       "supports": "Australia listed as no visa required (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",
