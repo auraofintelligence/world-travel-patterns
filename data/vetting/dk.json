@@ -165,11 +165,27 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Royal Danish Embassy, Yarralumla.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Royal Danish Embassy, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Guest speaker exemption for short presentations of 1 to 2 days",
+     "detail": "SIRI treats limited guest presentations of 1 to 2 days as exempt; anything longer needs a permit unless another exemption applies.",
+     "next": "Keep it to a short presentation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Exemption from the requirement of a work permit",
+       "authority": "SIRI (New to Denmark)",
+       "url": "https://nyidanmark.dk/en-GB/Words-and-concepts/SIRI/Exemption-from-the-requirement-of-a-work-permit",
+       "checked": "2026-11-01",
+       "supports": "exemptions (read via a search-index snapshot)"
+      },
+      {
+       "title": "New practice for artists on short-term stay",
+       "authority": "New to Denmark",
+       "url": "https://www.nyidanmark.dk/en-GB/News-Front-Page/2022/10/New-praxis-for-artists-on-short-term-stay",
+       "checked": "2026-11-01",
+       "supports": "artist exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
      "status": "confirm-in-writing",
@@ -179,11 +195,27 @@
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Royal Danish Embassy, Yarralumla.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Royal Danish Embassy, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Exempt: invited lecturer (up to 90 days from entry)",
+     "detail": "Invited lecturers can work without a permit for up to 90 days from entry; guest teachers up to 5 days in 180.",
+     "next": "Carry the invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Exemption from the requirement of a work permit",
+       "authority": "SIRI (New to Denmark)",
+       "url": "https://nyidanmark.dk/en-GB/Words-and-concepts/SIRI/Exemption-from-the-requirement-of-a-work-permit",
+       "checked": "2026-11-01",
+       "supports": "exemptions (read via a search-index snapshot)"
+      },
+      {
+       "title": "New practice for artists on short-term stay",
+       "authority": "New to Denmark",
+       "url": "https://www.nyidanmark.dk/en-GB/News-Front-Page/2022/10/New-praxis-for-artists-on-short-term-stay",
+       "checked": "2026-11-01",
+       "supports": "artist exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
      "status": "confirm-in-writing",
@@ -207,11 +239,27 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Royal Danish Embassy, Yarralumla.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Royal Danish Embassy, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Exempt for a short public artistic event (normally under 14 days) as a main attraction",
+     "detail": "Performers who are the main attraction, or otherwise major to a public short-term event, can be exempt.",
+     "next": "Get the organiser to confirm the act's role.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Exemption from the requirement of a work permit",
+       "authority": "SIRI (New to Denmark)",
+       "url": "https://nyidanmark.dk/en-GB/Words-and-concepts/SIRI/Exemption-from-the-requirement-of-a-work-permit",
+       "checked": "2026-11-01",
+       "supports": "exemptions (read via a search-index snapshot)"
+      },
+      {
+       "title": "New practice for artists on short-term stay",
+       "authority": "New to Denmark",
+       "url": "https://www.nyidanmark.dk/en-GB/News-Front-Page/2022/10/New-praxis-for-artists-on-short-term-stay",
+       "checked": "2026-11-01",
+       "supports": "artist exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
      "status": "confirm-in-writing",

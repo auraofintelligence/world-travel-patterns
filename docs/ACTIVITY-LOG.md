@@ -568,3 +568,7 @@ Upgraded hu, id (2025 Bali circular for foreign tourists), ie, il (Western Wall 
 ## 2026-11-01 17:16 AEST, Grok: Year-ahead: 2027 national days (ag to lt) (10 records)
 
 Added national-day events from official holiday laws or government pages for ag, ao, aw, ax, az, be, bg, cz, ee and lt. These are fixed statutory dates. bd was skipped because the official 2027 gazette isn't out yet. Antigua Carnival 2027 (20 July to 3 August) appears only in news reports, so it wasn't added.
+
+## 2026-11-01 17:17 AEST, Grok: Activities: Nordic and central European speaker and artist exemptions (cz, dk, ee, hu, lv, no, pl, se, si, sk) (10 records)
+
+Applied each country's official work-permit exemption rules to speaking, teaching, artist and research activities. se (lecturers up to 3 months, artists via listed arrangers for 14 days), no (lecturers under 3 months, artists 14 days with police notice), dk (lecturers 90 days, speakers 1 to 2 days), cz (s.98(d): 7 days per engagement, 30 a year), pl (lectures and performances 30 days a year from December 2025), ee (5 days in 30 without registration), hu (10 working days), sk (30 days), lv (artists 14 days), si (lecturers at professional meetings outside the Act). Read via search-index snapshots.

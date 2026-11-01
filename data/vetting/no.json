@@ -165,11 +165,27 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Royal Norwegian Embassy, Yarralumla.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Royal Norwegian Embassy, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Exempt: lecturer or researcher for under 3 months",
+     "detail": "UDI: lecturers (and researchers with at least a bachelor's degree) can work under three months without a residence permit.",
+     "next": "Notify the police in writing before entry if UDI requires it.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "People who can work in Norway for less than three months without a residence permit",
+       "authority": "UDI",
+       "url": "https://www.udi.no/en/word-definitions/people-who-can-work-in-norway-for-less-than-three-months-without-a-residence-permit/",
+       "checked": "2026-11-01",
+       "supports": "3-month lecturer exemption (read via a search-index snapshot)"
+      },
+      {
+       "title": "People who can work in Norway for 14 days without a residence permit",
+       "authority": "UDI",
+       "url": "https://www.udi.no/en/word-definitions/people-who-can-work-in-norway-for-14-days-without-a-residence-permit/",
+       "checked": "2026-11-01",
+       "supports": "14-day artist exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
      "status": "confirm-in-writing",
@@ -179,11 +195,27 @@
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Royal Norwegian Embassy, Yarralumla.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Royal Norwegian Embassy, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Exempt: lecturer or researcher for under 3 months",
+     "detail": "UDI: lecturers (and researchers with at least a bachelor's degree) can work under three months without a residence permit.",
+     "next": "Notify the police in writing before entry if UDI requires it.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "People who can work in Norway for less than three months without a residence permit",
+       "authority": "UDI",
+       "url": "https://www.udi.no/en/word-definitions/people-who-can-work-in-norway-for-less-than-three-months-without-a-residence-permit/",
+       "checked": "2026-11-01",
+       "supports": "3-month lecturer exemption (read via a search-index snapshot)"
+      },
+      {
+       "title": "People who can work in Norway for 14 days without a residence permit",
+       "authority": "UDI",
+       "url": "https://www.udi.no/en/word-definitions/people-who-can-work-in-norway-for-14-days-without-a-residence-permit/",
+       "checked": "2026-11-01",
+       "supports": "14-day artist exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
      "status": "confirm-in-writing",
@@ -207,11 +239,27 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Royal Norwegian Embassy, Yarralumla.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Royal Norwegian Embassy, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Exempt for cultural work up to 14 days a calendar year, with written notice to the police before entry",
+     "detail": "Artists, musicians, performers and support staff can work up to 14 days a year without a permit if the police are notified in writing before entry.",
+     "next": "Send the notice before travel.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "People who can work in Norway for less than three months without a residence permit",
+       "authority": "UDI",
+       "url": "https://www.udi.no/en/word-definitions/people-who-can-work-in-norway-for-less-than-three-months-without-a-residence-permit/",
+       "checked": "2026-11-01",
+       "supports": "3-month lecturer exemption (read via a search-index snapshot)"
+      },
+      {
+       "title": "People who can work in Norway for 14 days without a residence permit",
+       "authority": "UDI",
+       "url": "https://www.udi.no/en/word-definitions/people-who-can-work-in-norway-for-14-days-without-a-residence-permit/",
+       "checked": "2026-11-01",
+       "supports": "14-day artist exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
      "status": "confirm-in-writing",

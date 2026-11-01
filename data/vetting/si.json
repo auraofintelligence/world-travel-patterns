@@ -157,11 +157,27 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Slovenia, O'Malley.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Slovenia, O'Malley.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Outside the Act: lecturer at an organised professional meeting",
+     "detail": "The Act doesn't apply to lecturers at organised professional meetings, or to cultural creators at workshops and cultural events.",
+     "next": "Carry the programme or invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Zakon o zaposlovanju, samozaposlovanju in delu tujcev (ZZSDT)",
+       "authority": "PISRS (Slovenian legal information system)",
+       "url": "https://pisrs.si/pregledPredpisa?id=ZAKO4777",
+       "checked": "2026-11-01",
+       "supports": "exemptions and work registration (read via a search-index snapshot)"
+      },
+      {
+       "title": "Employment and work of foreign nationals",
+       "authority": "GOV.SI",
+       "url": "https://www.gov.si/en/topics/employment-and-work-of-foreign-nationals/",
+       "checked": "2026-11-01",
+       "supports": "overview (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
      "status": "confirm-in-writing",
@@ -199,11 +215,27 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Slovenia, O'Malley.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Slovenia, O'Malley.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Performing artists: up to 7 days per engagement, 30 days a year, registered by the organiser the day before",
+     "detail": "Performing artists can work without a permit for up to 7 days per engagement and 30 days a year, once the organiser registers the work.",
+     "next": "Have the organiser register it.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Zakon o zaposlovanju, samozaposlovanju in delu tujcev (ZZSDT)",
+       "authority": "PISRS (Slovenian legal information system)",
+       "url": "https://pisrs.si/pregledPredpisa?id=ZAKO4777",
+       "checked": "2026-11-01",
+       "supports": "exemptions and work registration (read via a search-index snapshot)"
+      },
+      {
+       "title": "Employment and work of foreign nationals",
+       "authority": "GOV.SI",
+       "url": "https://www.gov.si/en/topics/employment-and-work-of-foreign-nationals/",
+       "checked": "2026-11-01",
+       "supports": "overview (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
      "status": "confirm-in-writing",

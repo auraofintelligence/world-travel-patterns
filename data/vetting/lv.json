@@ -271,11 +271,20 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Latvia, Canberra.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Latvia, Canberra.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visa or residence permit with the right to employment",
+     "detail": "Otherwise, third-country nationals need the right to employment recorded in their visa or permit, after the employer registers the vacancy.",
+     "next": "The host starts the process early.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa with the right to employment",
+       "authority": "Office of Citizenship and Migration Affairs (PMLP), Latvia",
+       "url": "https://www.pmlp.gov.lv/en/visa-right-employment",
+       "checked": "2026-11-01",
+       "supports": "right to work and artist exception (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
      "status": "confirm-in-writing",
@@ -285,11 +294,20 @@
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Latvia, Canberra.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Latvia, Canberra.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visa or residence permit with the right to employment",
+     "detail": "Otherwise, third-country nationals need the right to employment recorded in their visa or permit, after the employer registers the vacancy.",
+     "next": "The host starts the process early.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa with the right to employment",
+       "authority": "Office of Citizenship and Migration Affairs (PMLP), Latvia",
+       "url": "https://www.pmlp.gov.lv/en/visa-right-employment",
+       "checked": "2026-11-01",
+       "supports": "right to work and artist exception (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
      "status": "confirm-in-writing",
@@ -313,11 +331,20 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Latvia, Canberra.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Latvia, Canberra.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Artists and concert staff exempt for stays up to 14 days",
+     "detail": "PMLP: creative and performing artists and concert support staff can work without the employment right for stays up to 14 days.",
+     "next": "Keep the stay to 14 days or less.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa with the right to employment",
+       "authority": "Office of Citizenship and Migration Affairs (PMLP), Latvia",
+       "url": "https://www.pmlp.gov.lv/en/visa-right-employment",
+       "checked": "2026-11-01",
+       "supports": "right to work and artist exception (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
      "status": "confirm-in-writing",
