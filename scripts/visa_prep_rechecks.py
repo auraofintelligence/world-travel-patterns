@@ -816,3 +816,52 @@ RECHECKS.update({
              [fee("14-day single-entry eVisa (BD 9 plus BD 4 application)", 13, "BHD", BHP), fee("3-month multiple-entry eVisa", 29, "BHD", BHP)],
              src("eVisa service", "Government of Bahrain portal", BHP, "eVisa fees" + SNAP)),
 })
+
+
+# Batch F2 (2026-11-01)
+QAP = "https://portal.moi.gov.qa/wps/wcm/connect/wcmlib-internet-en/sa-departmentcommittee/generaladministrationofnationalitybordersandexpatriateaffairs/visas/sad"
+CMP = "https://www.diplocam.cm/e-visa/"
+BJP = "https://catis.xroad.bj/publicservices/PS00005/eServiceSection"
+DJP = "https://www.evisa.gouv.dj/"
+PGP = "https://ica.gov.pg/visa-information/migration-service-fees"
+LAP = "https://laoevisa.gov.la/fee-calculator"
+BDP = "https://voa.specialbranch.gov.bd/public/voa-instructions.html"
+TLP = "https://migracao.gov.tl/wp/tourist-visa/"
+AZP = "https://evisa.gov.az/en/information"
+RECHECKS.update({
+    "qa": pv("qa", "Free multiple-entry tourist visa on arrival for 30 days, extendable once for 30 more.",
+             ["Carry proof of accommodation (Smartraveller) and a return or onward ticket.", "Check the Ministry of Interior's health-insurance requirement before travel."],
+             [PASSPORT_6M, "Return or onward ticket", "Accommodation proof"], [fee("tourist visa on arrival (30 days)", 0, "QAR", QAP)],
+             src("Free tourist visas with multiple entries (30 days)", "Ministry of Interior, Qatar", QAP, "free, 30 days, extendable 30; Australia's listing read via snapshot" + SNAP)),
+    "cm": pv("cm", "e-Visa before travel (no visa on arrival): pre-enrol online, then the visa is issued at entry.",
+             ["Pre-enrol and pay on the official e-visa platform linked from MINREX.", "Carry a yellow fever certificate."],
+             ["Passport", "e-Visa pre-enrolment receipt", "Yellow fever certificate"],
+             [fee("short-stay visa, ordinary (6 months)", 100000, "XAF", CMP), fee("short-stay visa, express", 150000, "XAF", CMP)],
+             src("e-Visa", "Ministry of External Relations (MINREX), Cameroon", CMP, "harmonised e-visa fees")),
+    "bj": pv("bj", "e-Visa before travel on the official platform.",
+             ["Apply on evisa.bj (government e-service).", "Carry a yellow fever certificate."], ["Passport", "e-Visa", "Yellow fever certificate"],
+             [fee("tourist e-visa, 30 days single entry", 32798, "XOF", BJP), fee("tourist e-visa, 30 days multiple entry", 49197, "XOF", BJP)],
+             src("Délivrance de visa électronique", "Government of Benin e-services (CatIS)", BJP, "30-day e-visa prices" + SNAP)),
+    "dj": pv("dj", "e-Visa needed before travel.", ["Apply on evisa.gouv.dj; the charge is shown at payment."], ["Passport", "e-Visa"],
+             [fee("short-stay e-visa (15 to 90 days)", 23, "USD", DJP)], src("Djibouti electronic visa platform", "Government of Djibouti", DJP, "e-visa fees" + SNAP)),
+    "pg": pv("pg", "Tourist eVisa before travel: the visa itself is free, but online lodgement costs US$50 (charged in AUD).",
+             ["Apply on evisa.ica.gov.pg; the AUD amount is shown before payment."], ["Passport", "eVisa"],
+             [fee("tourist visa", 0, "PGK", PGP), fee("online lodgement service fee", 50, "USD", PGP)],
+             src("Migration service fees", "Immigration and Citizenship Authority, PNG", PGP, "tourist visa nil, US$50 online lodgement" + SNAP)),
+    "la": pv("la", "Tourist eVisa (single entry, 30 days, valid 60 days after approval) or visa on arrival at main checkpoints.",
+             ["Use the fee calculator on laoevisa.gov.la (fees vary by nationality)."], ["Passport", "eVisa approval"],
+             [fee("tourist eVisa (excluding bank charges)", 50, "USD", LAP)], src("Lao eVisa fee calculator", "Government of Lao PDR", LAP, "USD 50 tourist eVisa" + SNAP),
+             note="Fee varies by nationality; confirm the Australian figure in the calculator."),
+    "bd": pv("bd", "Visa on arrival (single entry, up to 30 days), or a visa from a Bangladesh mission before travel.",
+             ["Fill in the VOA form on voa.specialbranch.gov.bd before arrival.", "Pay in cash (USD, EUR or GBP) at entry."], ["Passport", "Return ticket", "Hotel booking"],
+             [fee("visa on arrival (excluding processing fee)", 50, "USD", BDP)],
+             src("Visa-on-arrival instructions", "Special Branch, Bangladesh Police", BDP, "USD 50 VOA" + SNAP)),
+    "tl": pv("tl", "Tourist visa on arrival at Dili airport or seaport, 30 days, US$30 cash. Land arrivals need prior authorisation.",
+             ["Fill in the arrival declaration.", "Carry proof of funds, accommodation and onward travel if asked."],
+             [PASSPORT_6M, "Arrival declaration", "US$30 cash"], [fee("tourist visa on arrival (30 days)", 30, "USD", TLP)],
+             src("Tourist visa", "Migration Service of Timor-Leste", TLP, "US$30, 30 days, conditions" + SNAP)),
+    "az": pv("az", "ASAN e-Visa before travel: single entry, valid 90 days, stay up to 30 days.",
+             ["Apply on evisa.gov.az (standard 3 working days; urgent 3 hours costs more)."], ["Passport", "e-Visa"],
+             [fee("standard e-Visa (USD 20 state fee + USD 9 service)", 29, "USD", AZP)],
+             src("About e-Visa", "ASAN Visa, Republic of Azerbaijan", AZP, "USD 29 total" + SNAP)),
+})

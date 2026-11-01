@@ -651,19 +651,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa on arrival available for business travelers.",
    "cost_aud_baseline": {
     "value": "~ $75",
     "checked": "2025-08-16",
     "claim_id": "WORLD-BANGLADESH-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -674,7 +672,46 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller confirms a visa before travel (online form) and arrival/departure cards; fee not confirmed."
+   "fastest_entry": "Visa on arrival (single entry, up to 30 days), or a visa from a Bangladesh mission before travel.",
+   "steps": [
+    "Fill in the VOA form on voa.specialbranch.gov.bd before arrival.",
+    "Pay in cash (USD, EUR or GBP) at entry."
+   ],
+   "documents": [
+    "Passport",
+    "Return ticket",
+    "Hotel booking"
+   ],
+   "fees": [
+    {
+     "item": "visa on arrival (excluding processing fee)",
+     "amount": 50,
+     "currency": "USD",
+     "url": "https://voa.specialbranch.gov.bd/public/voa-instructions.html",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/bangladesh",
+     "supports": "visa status, pre-arrival forms and border documents as read",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "Visa-on-arrival instructions",
+     "authority": "Special Branch, Bangladesh Police",
+     "url": "https://voa.specialbranch.gov.bd/public/voa-instructions.html",
+     "supports": "USD 50 VOA (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
+   }
   }
  }
 }

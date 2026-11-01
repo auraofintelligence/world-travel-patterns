@@ -184,3 +184,25 @@ All 12 now cite the destination government's fee page. Pages that blocked fetche
 | bh | BHD 13 single entry or BHD 29 multiple entry |
 
 The Egypt increase is a correction to older baseline figures.
+
+## 2026-11-01 17:30 AEST, Grok: batch F2, fee pages for flagged records (9 verified)
+
+| Country | Finding |
+|---|---|
+| qa | Ministry of Interior: free 30-day multiple-entry visa, extendable |
+| cm | MINREX (read directly): XAF 100,000 ordinary or 150,000 express |
+| bj | CatIS: XOF 32,798 single or 49,197 multiple entry, 30 days |
+| dj | USD 23 |
+| pg | Tourist visa free, plus a US$50 online lodgement fee |
+| la | USD 50 (varies by nationality) |
+| bd | VOA USD 50 plus processing |
+| tl | VOA US$30 cash |
+| az | ASAN USD 29 |
+
+Most were read via search snapshots of official pages (marked SNAP).
+
+**Still flagged:** ae, sa, pw, my, mx, ws, ck, vu, fm, mh, to, mm, bn, pk, ru, bi, bz, ci, cu, do, dz, er, ga, gh, gm, gn, gt, ni, sv, lr, mr, mz, ng, sl, sn, pa, tm, plus the 8 no-Smartraveller flags.
+- Ghana: the USD 260 e-visa figure came only from non-government reports.
+- Saudi Arabia: SAR 535 (non-official site).
+- Mozambique: about USD 190 (news report).
+None of these were used.

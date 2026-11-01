@@ -591,19 +591,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa required in advance. e-Visa available.",
    "cost_aud_baseline": {
     "value": "~ $70 (e-Visa)",
     "checked": "2025-08-16",
     "claim_id": "WORLD-PAPUA-NEW-GUINEA-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -614,7 +612,51 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller confirms a visa is needed before travel (PNG eVisa portal; no visa on arrival) and a Digital Arrival Card; eVisa fee not confirmed."
+   "fastest_entry": "Tourist eVisa before travel: the visa itself is free, but online lodgement costs US$50 (charged in AUD).",
+   "steps": [
+    "Apply on evisa.ica.gov.pg; the AUD amount is shown before payment."
+   ],
+   "documents": [
+    "Passport",
+    "eVisa"
+   ],
+   "fees": [
+    {
+     "item": "tourist visa",
+     "amount": 0,
+     "currency": "PGK",
+     "url": "https://ica.gov.pg/visa-information/migration-service-fees",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "online lodgement service fee",
+     "amount": 50,
+     "currency": "USD",
+     "url": "https://ica.gov.pg/visa-information/migration-service-fees",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/papua-new-guinea",
+     "supports": "visa status, pre-arrival forms and border documents as read",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "Migration service fees",
+     "authority": "Immigration and Citizenship Authority, PNG",
+     "url": "https://ica.gov.pg/visa-information/migration-service-fees",
+     "supports": "tourist visa nil, US$50 online lodgement (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
+   }
   }
  }
 }

@@ -641,19 +641,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "e-Visa or visa on arrival available.",
    "cost_aud_baseline": {
     "value": "~ $75",
     "checked": "2025-08-16",
     "claim_id": "WORLD-LAOS-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -664,7 +662,45 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller confirms paid visas on arrival and e-visas plus the optional Lao Digital Immigration Form; the Australian fee wasn't on an official page read (eVisa fee calculator needs interaction)."
+   "recheck_note": "Fee varies by nationality; confirm the Australian figure in the calculator.",
+   "fastest_entry": "Tourist eVisa (single entry, 30 days, valid 60 days after approval) or visa on arrival at main checkpoints.",
+   "steps": [
+    "Use the fee calculator on laoevisa.gov.la (fees vary by nationality)."
+   ],
+   "documents": [
+    "Passport",
+    "eVisa approval"
+   ],
+   "fees": [
+    {
+     "item": "tourist eVisa (excluding bank charges)",
+     "amount": 50,
+     "currency": "USD",
+     "url": "https://laoevisa.gov.la/fee-calculator",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/laos",
+     "supports": "visa status, pre-arrival forms and border documents as read",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "Lao eVisa fee calculator",
+     "authority": "Government of Lao PDR",
+     "url": "https://laoevisa.gov.la/fee-calculator",
+     "supports": "USD 50 tourist eVisa (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
+   }
   }
  }
 }
