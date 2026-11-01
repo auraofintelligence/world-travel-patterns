@@ -2,11 +2,13 @@
 
 The website reads vetting records, feeds and advisories straight from data/, and uses this index
 for the place tree, freshness, pattern coverage and the run list. It never reads private/.
+It also writes sitemap.xml and llms.txt for search discovery (robots.txt is hand-kept).
 Run after due.py: python scripts/build_site.py
 """
 import json
 import pathlib
 import sys
+from urllib.parse import quote
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from lib import ROOT, VETTING, applies, is_active, load_patterns, load_places, read, today  # noqa: E402
@@ -60,6 +62,44 @@ def main():
         "has_change_log": (ROOT / "data/logs/advisory-changes.jsonl").exists(),
     }, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"site index: {len(rows)} places, {len(runs)} run notes")
+    write_discovery(rows)
+
+
+SITE = "https://auraofintelligence.github.io/world-travel-patterns/"
+PAGES = [("", "Home", "Search any place and see what each place page covers."),
+         ("places.html", "Places", "Every country and territory, and the states, councils, islands, nations and permit zones inside them."),
+         ("advisories.html", "Advisories", "Smartraveller advice levels for every destination, checked daily, and each change."),
+         ("upcoming.html", "Upcoming", "Dated events and open calls from GAJRA Earth Ahead, by month and place."),
+         ("patterns.html", "Patterns", "The thirteen questions every place is checked against."),
+         ("how.html", "How it works", "The checks, how rules reach down from country to council, culture and permit zones."),
+         ("queue.html", "Queue", "What gets checked next."),
+         ("site-map.html", "Site map", "Every page, and every country and territory by region.")]
+
+
+def write_discovery(rows):
+    """sitemap.xml lists the real pages: the site pages plus a page per country, territory or place with records."""
+    on = today().isoformat()
+    places = sorted((r for r in rows if "/" not in r["id"] or r.get("records")), key=lambda r: r["id"])
+    urls = [SITE + path for path, _, _ in PAGES] + [f"{SITE}place.html?id={quote(r['id'], safe='')}" for r in places]
+    (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "".join(f"<url><loc>{u.replace('&', '&amp;')}</loc><lastmod>{on}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
+    lines = ["# World Travel Patterns", "",
+             "A Luke × Claude travel research site for Australian passport holders: entry, local law, culture and protocol, permit zones, "
+             "seasons and festivals, and consular help for each place, with every rule linked to its source and dated.", "",
+             "A planning aid, not legal advice. A level marked \"not yet checked\" has unknown rules, not no rules. Rules come from the government, "
+             "authority or community that owns them; anything else is labelled a signal. Original material uses the Strange But True Public Source "
+             "Licence; third-party rights remain separate. This voluntary guide grants no additional reuse or AI-training rights.", "",
+             "## Pages", ""]
+    lines += [f"- [{title}]({SITE + path}): {about}" for path, title, about in PAGES]
+    lines += ["", "## Place pages", "",
+              f"- One page per place at {SITE}place.html?id=<place id>, for example [Fiji]({SITE}place.html?id=fj) "
+              f"and [Minjerribah]({SITE}place.html?id=au%2Fminjerribah). The sitemap lists {len(places)} of them.", "",
+              "## Data", "",
+              "- [Place records](https://github.com/auraofintelligence/world-travel-patterns/tree/main/data/vetting): one JSON file per place",
+              "- [Patterns](https://github.com/auraofintelligence/world-travel-patterns/tree/main/patterns): the thirteen questions",
+              f"- [Licence]({SITE}LICENCE.md)", ""]
+    (ROOT / "llms.txt").write_text("\n".join(lines), encoding="utf-8")
+    print(f"discovery: sitemap.xml with {len(urls)} pages, llms.txt")
 
 
 if __name__ == "__main__":

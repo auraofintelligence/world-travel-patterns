@@ -615,6 +615,12 @@
   async function main() {
     const page = document.body.dataset.page;
     shell(page);
+    if (page === "place") {
+      const link = document.createElement("link");
+      link.rel = "canonical";
+      link.href = `https://auraofintelligence.github.io/world-travel-patterns/place.html?id=${encodeURIComponent(new URLSearchParams(location.search).get("id") || "")}`;
+      document.head.append(link);
+    }
     const app = document.getElementById("app");
     const [index, creditFile] = await Promise.all([json("site/data/index.json", null), json("site/heroes/credits.json", { images: [] })]);
     if (!index) { app.innerHTML = '<section class="section"><h1>Data not built</h1><p>Run <code>python scripts/build_site.py</code>, then serve the repo folder over HTTP.</p></section>'; return; }

@@ -74,6 +74,10 @@ To declare a trip, copy `examples/windows.example.json` to `private/windows.json
 
 Everything is Python standard library: no installs.
 
+## Search discovery
+
+`robots.txt` documents scoped search and training preferences: search crawlers (including OAI-SearchBot and Claude-SearchBot) are allowed; training crawlers (GPTBot, ClaudeBot, Google-Extended) are not. `sitemap.xml` lists the real public pages, including a page per country, territory and checked place, and `llms.txt` is a voluntary guide; `scripts/build_site.py` rewrites both. GitHub project Pages can't set the origin-root crawler policy, so `.github/robots-root-snippet.txt` is a scoped addition for the account-root `robots.txt` when authorised. This project doesn't change that root policy. Discovery grants no additional reuse or AI-training rights.
+
 ## Licence
 
 [Strange But True Public Source Licence](LICENCE.md). Non-commercial use is welcome with credit; commercial rights are reserved.

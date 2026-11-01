@@ -1,0 +1,26 @@
+# World Travel Patterns project discovery policy, reviewed 1 November 2026.
+# For GitHub project Pages, effective directions belong at the origin root.
+# Merge .github/robots-root-snippet.txt into the account-root policy when authorised.
+# This project file is informational at /world-travel-patterns/robots.txt.
+# Discovery grants no additional reuse, commercial or AI-training rights.
+# https://auraofintelligence.github.io/world-travel-patterns/LICENCE.md
+
+User-agent: *
+Allow: /world-travel-patterns/
+
+User-agent: OAI-SearchBot
+Allow: /world-travel-patterns/
+
+User-agent: Claude-SearchBot
+Allow: /world-travel-patterns/
+
+User-agent: GPTBot
+Disallow: /world-travel-patterns/
+
+User-agent: ClaudeBot
+Disallow: /world-travel-patterns/
+
+User-agent: Google-Extended
+Disallow: /world-travel-patterns/
+
+Sitemap: https://auraofintelligence.github.io/world-travel-patterns/sitemap.xml

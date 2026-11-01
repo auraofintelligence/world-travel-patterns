@@ -1,0 +1,23 @@
+# Scoped World Travel Patterns addition for https://auraofintelligence.github.io/robots.txt.
+# Merge into existing corresponding user-agent groups. Preserve other projects' rules.
+# Do not upload this snippet as a replacement for the account-root robots.txt.
+
+User-agent: *
+Allow: /world-travel-patterns/
+
+User-agent: OAI-SearchBot
+Allow: /world-travel-patterns/
+
+User-agent: Claude-SearchBot
+Allow: /world-travel-patterns/
+
+User-agent: GPTBot
+Disallow: /world-travel-patterns/
+
+User-agent: ClaudeBot
+Disallow: /world-travel-patterns/
+
+User-agent: Google-Extended
+Disallow: /world-travel-patterns/
+
+Sitemap: https://auraofintelligence.github.io/world-travel-patterns/sitemap.xml
