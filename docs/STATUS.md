@@ -65,7 +65,7 @@ Biggest gaps first.
 
 ## Known source problems
 
-- Smartraveller's Venezuela page still names the bolívar fuerte (replaced in 2018).
-- Canada's psychedelic access rules changed on 1 October 2026 and haven't been re-read.
-- WHO's vaccination list is the 2022 edition; some countries last confirmed their rule before 2013.
-- Fiji's 2027 public holiday list was reported to contain errors; a revised list is expected.
+- Smartraveller's Venezuela page still names the bolívar fuerte (replaced in 2018). The money record now names the bolívar (VES), redenominated on 1 October 2021 (ISO 4217 Amendment 170); Smartraveller's cash notes are kept as read.
+- Canada's Controlled Substances Regulations (SOR/2025-242) took effect on 1 October 2026; the psilocybin and MDMA records were re-read against them on 1 November 2026.
+- WHO's vaccination list is the 2022 edition. On 1 November 2026 the newest WHO yellow fever country list found was still the November 2022 edition (cdn.who.int countries-with-risk-of-yellow-fever-transmission.pdf), so no newer WHO source was found; some countries last confirmed their rule before 2013.
+- Fiji's 2027 public holiday list was reported to contain errors; no revised list from the Fiji Government was found on 1 November 2026 (only third-party calendars).

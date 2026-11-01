@@ -20,7 +20,7 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "currency": "Venezuelan Bolivar Fuerte (VEF)",
+   "currency": "Venezuelan bolívar (VES; redenominated on 1 October 2021, six zeros removed)",
    "cash_card_notes": "The local currency is the Venezuelan Bolivar Fuerte (VEF). US dollars are widely accepted. Some vendors only accept US dollars for basic transactions. You are required to declare to authorities if you are entering or leaving Venezuela with more than US$10,000. If you’re bringing goods into the country worth more than US$1,000, you must declare them to customs. You may be required to pay tax.",
    "daily_cost_aud": null,
    "checked": "2026-11-01",
@@ -32,9 +32,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/venezuela",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "ISO 4217 Amendment 170 (Venezuela redenomination)",
+     "authority": "SIX Financial Information, ISO 4217 Maintenance Agency",
+     "url": "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/amendments/dl_currency_iso_amendment_170.pdf",
+     "checked": "2026-11-01",
+     "supports": "VES redenominated by removing six zeros from 1 October 2021; VES/928 remains the valid code"
     }
    ],
-   "note": "Smartraveller's page names the bolívar fuerte (VEF), which Venezuela replaced with the sovereign bolívar (VES) in 2018; Wikidata lists VES. Confirm before changing money."
+   "note": "Smartraveller's page (read 2026-10-31) still names the bolívar fuerte (VEF), which was replaced by the sovereign bolívar (VES) in 2018. ISO 4217 Amendment 170 records a further redenomination on 1 October 2021 (six zeros removed), with VES still the valid code. The cash notes above are Smartraveller's text as read; the currency name there is outdated. The Banco Central de Venezuela page (bcv.org.ve) couldn't be fetched on 2026-11-01."
   },
   "consular": {
    "status": "neighbour",
