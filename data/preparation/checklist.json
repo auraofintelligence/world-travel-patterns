@@ -1,0 +1,863 @@
+{
+ "about": "Generic preparation checklist for an Australian passport holder travelling overseas, before any one destination is chosen. Per-country steps live in the visa-preparation pattern in data/vetting. Every item here is a baseline carried from Luke's earlier repos: recheck it, then set needs_recheck to false and redate checked. Statuses (not started, ready) belong in private/, never here.",
+ "rules": [
+  "No personal values: passport numbers, bank details, bookings or document contents are never stored.",
+  "Destination-specific requirements (apostille, translation, sworn copies) must be confirmed at the destination authority and recorded in that place's visa-preparation record."
+ ],
+ "horizons": {
+  "all": "Everything",
+  "always": "Always ready",
+  "tonight": "Invited tonight",
+  "72h": "Flying in 72 hours",
+  "long": "Long-lead upkeep",
+  "return": "Arrival and return"
+ },
+ "sections": [
+  {
+   "id": "readiness",
+   "title": "Readiness by horizon",
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
+    "file": "assets/prepare.js",
+    "reviewed": "2026-08-21"
+   },
+   "items": [
+    {
+     "id": "PREP-ID-01",
+     "category": "Identity and entry",
+     "horizons": [
+      "always",
+      "72h"
+     ],
+     "title": "Passport runway",
+     "detail": "Check passport validity, condition and blank-page needs against the destination and every transit point.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-ID-02",
+     "category": "Identity and entry",
+     "horizons": [
+      "always",
+      "tonight"
+     ],
+     "title": "Encrypted document vault",
+     "detail": "Keep secure offline copies of identity pages and essential approvals, with a separate recovery method.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-ID-03",
+     "category": "Identity and entry",
+     "horizons": [
+      "tonight",
+      "72h"
+     ],
+     "title": "Entry and transit route",
+     "detail": "Recheck the visa, exemption, transit and arrival-form path against current official sources.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-ID-04",
+     "category": "Identity and entry",
+     "horizons": [
+      "72h"
+     ],
+     "title": "Arrival forms and evidence",
+     "detail": "Complete time-sensitive entry forms and carry the issued approval, onward travel and accommodation evidence.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-ID-05",
+     "category": "Identity and entry",
+     "horizons": [
+      "always",
+      "long"
+     ],
+     "title": "Replacement pathway",
+     "detail": "Know where a lost passport can be replaced and how to reach the nearest Australian mission.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-ACT-01",
+     "category": "Activity and host",
+     "horizons": [
+      "always",
+      "tonight"
+     ],
+     "title": "One-paragraph activity brief",
+     "detail": "Describe the dates, every activity, audience, host, payments, benefits and anything sold locally.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-ACT-02",
+     "category": "Activity and host",
+     "horizons": [
+      "tonight",
+      "72h"
+     ],
+     "title": "Host invitation",
+     "detail": "Get the legal host, venue, role, dates, audience and payment arrangement in writing.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-ACT-03",
+     "category": "Activity and host",
+     "horizons": [
+      "tonight",
+      "72h"
+     ],
+     "title": "Activity permission",
+     "detail": "Confirm permission to speak, teach, sell, perform or work—not merely permission to enter.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-ACT-04",
+     "category": "Activity and host",
+     "horizons": [
+      "tonight",
+      "long"
+     ],
+     "title": "Permit responsibility",
+     "detail": "Record who lodges work, event, cultural, labour, tax or sponsor paperwork and the lead time.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-ACT-05",
+     "category": "Activity and host",
+     "horizons": [
+      "tonight",
+      "72h"
+     ],
+     "title": "Money and merchandise split",
+     "detail": "Separate fees, royalties, expenses, ticket shares, book stock, equipment and local sales.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-HEALTH-01",
+     "category": "Health and recovery",
+     "horizons": [
+      "always",
+      "long"
+     ],
+     "title": "Health summary",
+     "detail": "Keep a concise private medical and allergy summary that can travel offline without being published.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-HEALTH-02",
+     "category": "Health and recovery",
+     "horizons": [
+      "always",
+      "72h"
+     ],
+     "title": "Medication runway",
+     "detail": "Check supply, original packaging, prescription evidence and destination restrictions.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-HEALTH-03",
+     "category": "Health and recovery",
+     "horizons": [
+      "long",
+      "72h"
+     ],
+     "title": "Vaccination and health entry",
+     "detail": "Check destination, transit and event requirements through current health authorities.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-HEALTH-04",
+     "category": "Health and recovery",
+     "horizons": [
+      "always",
+      "72h"
+     ],
+     "title": "Insurance fit",
+     "detail": "Check medical, evacuation, activity, equipment and advisory-level exclusions for this exact trip.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-HEALTH-05",
+     "category": "Health and recovery",
+     "horizons": [
+      "always",
+      "return"
+     ],
+     "title": "Recovery space",
+     "detail": "Leave room for sleep, illness, decompression and a return-to-base reset between intense legs.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-MONEY-01",
+     "category": "Money and payments",
+     "horizons": [
+      "always",
+      "72h"
+     ],
+     "title": "Payment redundancy",
+     "detail": "Carry two independent payment methods and keep them in separate places.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-MONEY-02",
+     "category": "Money and payments",
+     "horizons": [
+      "always",
+      "72h"
+     ],
+     "title": "Emergency reserve",
+     "detail": "Keep a private reserve for an exit, replacement accommodation, health care or a missed connection.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-MONEY-03",
+     "category": "Money and payments",
+     "horizons": [
+      "72h"
+     ],
+     "title": "Access and fees",
+     "detail": "Check card notices, cash access, exchange costs, payment blocks and local acceptance.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-MONEY-04",
+     "category": "Money and payments",
+     "horizons": [
+      "tonight",
+      "72h"
+     ],
+     "title": "Proof of funds and payment terms",
+     "detail": "Carry only the evidence the route requires and keep contracts, invoices and expense terms together.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-DATA-01",
+     "category": "Devices, data and communications",
+     "horizons": [
+      "always",
+      "72h"
+     ],
+     "title": "Phone and connectivity",
+     "detail": "Prepare eSIM or SIM options, roaming, key numbers and a plan for arrival without mobile data.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-DATA-02",
+     "category": "Devices, data and communications",
+     "horizons": [
+      "always",
+      "72h"
+     ],
+     "title": "Power kit",
+     "detail": "Match plugs, voltage, chargers, power bank rules and the equipment actually travelling.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-DATA-03",
+     "category": "Devices, data and communications",
+     "horizons": [
+      "always"
+     ],
+     "title": "Account recovery",
+     "detail": "Keep 2FA recovery methods that still work if the main phone, number or laptop disappears.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-DATA-04",
+     "category": "Devices, data and communications",
+     "horizons": [
+      "always",
+      "return"
+     ],
+     "title": "Encrypted backups",
+     "detail": "Back up essential work before departure and copy new material again after each major leg.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-DATA-05",
+     "category": "Devices, data and communications",
+     "horizons": [
+      "72h"
+     ],
+     "title": "Offline layer",
+     "detail": "Download maps, tickets, approvals, translations, host details and emergency contacts.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-DATA-06",
+     "category": "Devices, data and communications",
+     "horizons": [
+      "long",
+      "72h"
+     ],
+     "title": "Backup communications",
+     "detail": "Choose a second communications path where remoteness, disaster or network shutdown makes it useful.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-JOURNEY-01",
+     "category": "Journey and logistics",
+     "horizons": [
+      "tonight",
+      "72h"
+     ],
+     "title": "Reversible bookings",
+     "detail": "Prefer changeable transport and accommodation until the entry and activity routes are confirmed.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-JOURNEY-02",
+     "category": "Journey and logistics",
+     "horizons": [
+      "72h"
+     ],
+     "title": "Onward and fallback route",
+     "detail": "Know the intended exit plus one realistic alternative if transport, weather or borders change.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-JOURNEY-03",
+     "category": "Journey and logistics",
+     "horizons": [
+      "tonight",
+      "72h"
+     ],
+     "title": "First-night landing",
+     "detail": "Confirm the first sleep, airport or port transfer, check-in window and a late-arrival fallback.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-JOURNEY-04",
+     "category": "Journey and logistics",
+     "horizons": [
+      "72h"
+     ],
+     "title": "Live disruption check",
+     "detail": "Review weather, strikes, major events, closures and transport changes without treating them as automatic vetoes.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-JOURNEY-05",
+     "category": "Journey and logistics",
+     "horizons": [
+      "always",
+      "tonight"
+     ],
+     "title": "Modular go-bag",
+     "detail": "Keep a small reusable kit that can support an unplanned short trip while specialist items remain optional.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-WORK-01",
+     "category": "Speaking, books and creative work",
+     "horizons": [
+      "always",
+      "tonight"
+     ],
+     "title": "Public biography and portraits",
+     "detail": "Keep a short and long biography, current portraits and contact links ready without private identity documents.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-WORK-02",
+     "category": "Speaking, books and creative work",
+     "horizons": [
+      "always",
+      "tonight"
+     ],
+     "title": "Talk and workshop menu",
+     "detail": "Maintain adaptable abstracts, audience outcomes, lengths, formats and equipment needs.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-WORK-03",
+     "category": "Speaking, books and creative work",
+     "horizons": [
+      "always",
+      "tonight"
+     ],
+     "title": "Author pack",
+     "detail": "Prepare book summaries, covers, rights contacts, launch formats and a local-seller option for physical stock.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-WORK-04",
+     "category": "Speaking, books and creative work",
+     "horizons": [
+      "always",
+      "tonight"
+     ],
+     "title": "Teaching evidence",
+     "detail": "Keep relevant qualifications, experience, sample sessions and host-ready learning outcomes.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-WORK-05",
+     "category": "Speaking, books and creative work",
+     "horizons": [
+      "always",
+      "72h"
+     ],
+     "title": "Media and equipment list",
+     "detail": "List every microphone, camera, instrument, computer and sale item crossing the border.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-WORK-06",
+     "category": "Speaking, books and creative work",
+     "horizons": [
+      "tonight",
+      "72h"
+     ],
+     "title": "Contract and cancellation",
+     "detail": "Put scope, fee, expenses, tax, recording, rights, cancellation and permit responsibilities in writing.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-LONG-01",
+     "category": "Long-lead evidence",
+     "horizons": [
+      "long"
+     ],
+     "title": "Police and background evidence",
+     "detail": "Check whether the exact route needs a current certificate and how the destination defines validity.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-LONG-02",
+     "category": "Long-lead evidence",
+     "horizons": [
+      "long"
+     ],
+     "title": "Qualifications and references",
+     "detail": "Keep certified academic, professional and experience evidence ready for work, teaching or talent routes.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-LONG-03",
+     "category": "Long-lead evidence",
+     "horizons": [
+      "long"
+     ],
+     "title": "Notarisation, apostille or authentication",
+     "detail": "Confirm the destination-specific legalisation chain before paying for it.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-LONG-04",
+     "category": "Long-lead evidence",
+     "horizons": [
+      "long"
+     ],
+     "title": "Certified translations",
+     "detail": "Translate only the documents and languages required by the actual route, using an accepted translator.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-LONG-05",
+     "category": "Long-lead evidence",
+     "horizons": [
+      "long"
+     ],
+     "title": "Founder or investor evidence",
+     "detail": "Keep venture, ownership, funding and source-of-funds material separate from permission to work in the venture.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-GUEST-01",
+     "category": "Arrive as a guest",
+     "horizons": [
+      "tonight",
+      "72h",
+      "return"
+     ],
+     "title": "Language and etiquette",
+     "detail": "Learn useful phrases, hosting customs, sensitive topics and the local rhythm before arriving.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-GUEST-02",
+     "category": "Arrive as a guest",
+     "horizons": [
+      "tonight",
+      "return"
+     ],
+     "title": "Explicit consent",
+     "detail": "Ask before recording, photographing, publishing or reusing another person's story; consent stays revocable.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-GUEST-03",
+     "category": "Arrive as a guest",
+     "horizons": [
+      "tonight",
+      "return"
+     ],
+     "title": "Cultural and community authority",
+     "detail": "Do not infer permission to speak for a community, culture or Indigenous group; find the responsible local authority.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-GUEST-04",
+     "category": "Arrive as a guest",
+     "horizons": [
+      "return"
+     ],
+     "title": "Reciprocal contribution",
+     "detail": "Listen first, ask what is useful, contribute without promising more than the visit can deliver, then reflect.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-LEARN-01",
+     "category": "Learn and refresh",
+     "horizons": [
+      "return"
+     ],
+     "title": "Keep the receipts",
+     "detail": "Retain entry evidence, permits, official replies and what the host actually lodged.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-LEARN-02",
+     "category": "Learn and refresh",
+     "horizons": [
+      "return"
+     ],
+     "title": "Record the real outcome",
+     "detail": "Note what the border or authority accepted, actual processing time, surprises and the fallback used.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-LEARN-03",
+     "category": "Learn and refresh",
+     "horizons": [
+      "return"
+     ],
+     "title": "Update only affected claims",
+     "detail": "Refresh the changed claim IDs and dates without pretending every country or pathway was rechecked.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "PREP-LEARN-04",
+     "category": "Learn and refresh",
+     "horizons": [
+      "return",
+      "always"
+     ],
+     "title": "Recover and recalibrate",
+     "detail": "Back up material, rest, renew documents and let new invitations reweight the next move.",
+     "checked": "2026-08-21",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    }
+   ]
+  },
+  {
+   "id": "business-visa-documents",
+   "title": "Document checklist for business visa applications",
+   "provenance": {
+    "repo": "https://github.com/auraofintelligence/Australian-world-travel",
+    "commit": "22746ae9e9f19b66684681da05517c86b0953748",
+    "file": "documents.html",
+    "reviewed": "2026-09-07",
+    "note": "reviewed is the file's last commit date; the items carried no dates of their own."
+   },
+   "items": [
+    {
+     "id": "personal-documents-01",
+     "category": "Personal Documents",
+     "title": "Passport Bio Pages (Primary & Concurrent)",
+     "detail": "High-resolution colour scans of all pages. Ensure at least 12 months validity and 4 blank pages.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "personal-documents-02",
+     "category": "Personal Documents",
+     "title": "Birth Certificate",
+     "detail": "Original, certified copy, and high-resolution scan. May require an Apostille.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "personal-documents-03",
+     "category": "Personal Documents",
+     "title": "National ID Cards / Driver's Licence",
+     "detail": "High-resolution colour scans of front and back.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "personal-documents-04",
+     "category": "Personal Documents",
+     "title": "Curriculum Vitae (CV)",
+     "detail": "Updated quarterly. Tailor to highlight business experience and qualifications relevant to the mission.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "personal-documents-05",
+     "category": "Personal Documents",
+     "title": "Police Clearance Certificates",
+     "detail": "From Australian Federal Police and any country of residence for >12 months in the last 10 years. Renew as required.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "personal-documents-06",
+     "category": "Personal Documents",
+     "title": "Vaccination Records",
+     "detail": "Including International Certificate of Vaccination for Yellow Fever.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "personal-documents-07",
+     "category": "Personal Documents",
+     "title": "Passport Photos",
+     "detail": "Multiple sets in various required sizes (e.g., 2x2 inch, 35x45 mm). Digital and physical copies.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "personal-documents-08",
+     "category": "Personal Documents",
+     "title": "Marriage Certificate",
+     "detail": "If applicable. Original, certified copy, and scan. May require an Apostille.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "personal-documents-09",
+     "category": "Personal Documents",
+     "title": "Proof of Address",
+     "detail": "Utility bill or bank statement from the last 3 months.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "financial-documents-01",
+     "category": "Financial Documents",
+     "title": "Bank Statements (Personal)",
+     "detail": "Rolling 12 months of statements, updated monthly. Must show sufficient funds.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "financial-documents-02",
+     "category": "Financial Documents",
+     "title": "Bank Statements (Business)",
+     "detail": "Rolling 12 months of statements for primary business entities, updated monthly.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "financial-documents-03",
+     "category": "Financial Documents",
+     "title": "Tax Returns (Personal & Business)",
+     "detail": "Previous 3 financial years. Stamped by an accountant if possible.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "financial-documents-04",
+     "category": "Financial Documents",
+     "title": "Proof of Property Ownership / Assets",
+     "detail": "Deeds, valuation reports. Can demonstrate ties to home country.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "financial-documents-05",
+     "category": "Financial Documents",
+     "title": "Letter from Financial Institution",
+     "detail": "Confirming account status, length of relationship, and good standing.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "financial-documents-06",
+     "category": "Financial Documents",
+     "title": "Proof of Comprehensive Health/Travel Insurance",
+     "detail": "Policy document showing global coverage, including medical evacuation and repatriation, for the entire mission duration.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "business-documents-01",
+     "category": "Business & Mission Documents",
+     "title": "Certificate of Incorporation (Mission Entities)",
+     "detail": "For GAJRA Earth, Alpha Infinity Foundation, etc. Certified copies.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "business-documents-02",
+     "category": "Business & Mission Documents",
+     "title": "Business Plan Summary",
+     "detail": "1-page summary of Project Odyssey, outlining goals, activities, and timeline in the destination country.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "business-documents-03",
+     "category": "Business & Mission Documents",
+     "title": "Letter of Support (From Own Company)",
+     "detail": "Template letter confirming employment, salary, purpose of travel, and that all expenses will be covered.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "business-documents-04",
+     "category": "Business & Mission Documents",
+     "title": "Letter of Invitation (From Host)",
+     "detail": "Template to be customised by hosts in destination countries. Must be on their letterhead and often needs to be certified or notarised locally.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "business-documents-05",
+     "category": "Business & Mission Documents",
+     "title": "List of Global Contacts/Partners",
+     "detail": "For reference in applications, showing established business connections.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "business-documents-06",
+     "category": "Business & Mission Documents",
+     "title": "Company Profile / Brochure",
+     "detail": "Professional document outlining your business activities.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    },
+    {
+     "id": "business-documents-07",
+     "category": "Business & Mission Documents",
+     "title": "Proof of Past Business Dealings",
+     "detail": "Contracts, invoices, or correspondence with companies in the destination country, if applicable.",
+     "checked": "2026-09-07",
+     "evidence": "legacy-baseline",
+     "needs_recheck": true
+    }
+   ]
+  }
+ ]
+}
