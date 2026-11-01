@@ -36,3 +36,9 @@ Dated handover notes for whoever works on this repo next (Claude, Codex, Grok). 
 - WHO vaccination list: the newest WHO yellow fever list found is still November 2022, so there's nothing newer to cite. Health-entry records left as they were.
 - Fiji 2027 holidays: no revised Fiji Government list found, only third-party calendars, so `fj.json` stays "confirm on the gazetted list". Next: check the Ministry of Employment, Productivity and Workplace Relations site and the Fiji Government Gazette.
 - UAE visa-on-arrival length (30 vs 90 days) still needs an official source (see batch 1).
+
+## 2026-11-01 16:20 AEST, Grok: batch 4, README numbers
+
+**What changed.** `README.md` "Where it stands" now takes its numbers from the generated table in `docs/STATUS.md` (1 November 2026) instead of the hand-written 31 October counts, which had drifted (for example local law 179 vs 177, culture 93 vs 92, "25 permit zones" vs 6 countries plus 4 regions). It links STATUS.md and this log.
+
+**Next step.** Have `scripts/status_report.py` also rewrite the README table between markers, so they can't drift again.
