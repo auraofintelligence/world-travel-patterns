@@ -201,24 +201,24 @@
      "checked": "2026-11-01"
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the People's Republic of China, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the People's Republic of China, Yarralumla which visa covers it, in writing.",
+     "status": "conditional",
+     "route": "Visa-free visit, invited by a local entity (academic or cultural activity)",
+     "detail": "Macao's non-resident worker law doesn't apply to someone who comes occasionally, at a local entity's invitation, for religious, sports, academic, cultural or artistic activities, even if paid. It's assessed case by case; anything beyond that needs a non-resident worker permit (blue card).",
+     "next": "Get a written invitation from the local host.",
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the People's Republic of China, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the People's Republic of China, Yarralumla which visa covers it, in writing.",
+     "status": "conditional",
+     "route": "Visa-free visit, invited by a local entity (academic or cultural activity)",
+     "detail": "Macao's non-resident worker law doesn't apply to someone who comes occasionally, at a local entity's invitation, for religious, sports, academic, cultural or artistic activities, even if paid. It's assessed case by case; anything beyond that needs a non-resident worker permit (blue card).",
+     "next": "Ask the Labour Affairs Bureau (DSAL) if the engagement is unusual.",
      "checked": "2026-11-01"
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the People's Republic of China, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the People's Republic of China, Yarralumla which visa covers it, in writing.",
+     "status": "conditional",
+     "route": "Visa-free visit, invited by a local entity (cultural activity)",
+     "detail": "Macao's non-resident worker law doesn't apply to someone who comes occasionally, at a local entity's invitation, for religious, sports, academic, cultural or artistic activities, even if paid. It's assessed case by case; anything beyond that needs a non-resident worker permit (blue card).",
+     "next": "Get a written invitation from the publisher or venue.",
      "checked": "2026-11-01"
     },
     "ai-teaching": {
@@ -250,10 +250,10 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the People's Republic of China, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the People's Republic of China, Yarralumla which visa covers it, in writing.",
+     "status": "conditional",
+     "route": "Visa-free visit, invited by a local entity (artistic activity)",
+     "detail": "Macao's non-resident worker law doesn't apply to someone who comes occasionally, at a local entity's invitation, for religious, sports, academic, cultural or artistic activities, even if paid. It's assessed case by case; anything beyond that needs a non-resident worker permit (blue card).",
+     "next": "Get a written invitation from the local host.",
      "checked": "2026-11-01"
     },
     "mixed-mission": {
@@ -299,6 +299,13 @@
      "url": "https://www.gcs.gov.mo/detail/en/N21COXxTUH",
      "checked": "2026-11-01",
      "supports": "entry for important business events, academic or professional activities"
+    },
+    {
+     "title": "Lei n.º 21/2009: Lei da contratação de trabalhadores não residentes",
+     "authority": "Imprensa Oficial, Macao SAR",
+     "url": "https://images.io.gov.mo//bo/i/2009/43/lei-21-2009.pdf",
+     "checked": "2026-11-01",
+     "supports": "Article 1(3): the law doesn't apply to occasional invited participation in religious, sports, academic, cultural or artistic activities, even if paid"
     }
    ]
   }

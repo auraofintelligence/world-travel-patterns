@@ -217,31 +217,31 @@
      "checked": "2026-11-01"
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
+     "status": "specialist",
+     "route": "Work permit, applied for by the host",
+     "detail": "The Ministry of Labor treats speakers as workers who need a work permit, paid or not; visa-exempt entry doesn't change that.",
+     "next": "Ask the host to apply to the Workforce Development Agency.",
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
+     "status": "specialist",
+     "route": "Work permit, applied for by the host",
+     "detail": "The Ministry of Labor treats speakers as workers who need a work permit, paid or not; visa-exempt entry doesn't change that.",
+     "next": "Ask the host to apply.",
      "checked": "2026-11-01"
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
+     "status": "specialist",
+     "route": "Work permit for any talk or appearance",
+     "detail": "The Ministry of Labor treats speakers as workers who need a work permit, paid or not; visa-exempt entry doesn't change that.",
+     "next": "Ask the publisher to apply, or keep to private meetings.",
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
+     "status": "specialist",
+     "route": "Work permit, unless lecturing at a university with Ministry of Education approval",
+     "detail": "Teaching is work. Article 48 exempts lecturing or academic research at a public or registered private university approved by the Ministry of Education.",
+     "next": "Ask the host whether its approval covers you, or to apply for a permit.",
      "checked": "2026-11-01"
     },
     "remote-work": {
@@ -337,6 +337,13 @@
      "url": "https://cd.nccu.edu.tw/uploads/media/96a571f5715632ef47785c84b86129d2.pdf",
      "checked": "2026-11-01",
      "supports": "volunteers, speakers and performers count as workers needing permits"
+    },
+    {
+     "title": "Employment Service Act, Article 48",
+     "authority": "Ministry of Justice, Laws and Regulations Database",
+     "url": "https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=N0090001",
+     "checked": "2026-11-01",
+     "supports": "permit exemptions, including lecturing at universities approved by the Ministry of Education"
     }
    ]
   }
