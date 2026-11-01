@@ -540,3 +540,7 @@ Upgraded the paid-speaking check from confirm-in-writing to conditional for 10 p
 ## 2026-11-01 17:08 AEST, Grok: user note on separate datasets
 
 User note: world-travel-patterns, aura-affinity, outreach-cms, global-founder-atlas and right-time-right-place are separate, standalone datasets. The user's oracle pulls from each one in batches on request. Do not link them, import between them or integrate them. No cross-repo wiring.
+
+## 2026-11-01 17:10 AEST, Grok: Entry and activities: last non-conflict confirm-in-writing tourism checks (10 records)
+
+Upgraded the entry and tourism checks for 10 places from official sources. tv: Immigration Regulations 2014, visitor permit on arrival; all 14 work and speaking activities set from regulation 2 (business endorsement; conferences explicitly count as business). sj: Governor of Svalbard and UDI, no visa or work permit; all activities low, with a means requirement. gs: Entry Control Ordinance 2022 visitor or work permits; Regulated Activity Permit for filming and research. wf: Légifrance arrêté, Australia exempt; paid activities conditional. sh: St Helena permit on arrival, Ascension e-visa. tf: TAAF visa and prefect approval (specialist). io: BIOT permit applications paused since 31 March 2026. to: visa on arrival. gq: e-Visa. cg: visa before travel. Still open: bm, eh, gm and gw, plus the Do-not-travel places af, bf, ps and so.

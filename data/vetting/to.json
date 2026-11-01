@@ -2,19 +2,26 @@
  "place": "to",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "Smartraveller gives no visa detail for Tonga and refers travellers to the High Commission of the Kingdom of Tonga.",
+   "status": "visa-on-arrival",
+   "summary": "Visitor visa on arrival for Australians, about 30 days and free. Bring an onward ticket, proof of funds and a passport valid for six months.",
    "pre_arrival": "Most airlines require proof of a return or onward ticket.",
    "next_check": "Read the entry rule from Tonga's own immigration or High Commission page.",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "evidence": "official",
    "sources": [
     {
-     "title": "Tonga travel advice (updated 11 September 2026)",
-     "authority": "Smartraveller, Australian Government",
-     "url": "https://www.smartraveller.gov.au/destinations/pacific/tonga",
-     "checked": "2026-10-31",
-     "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
+     "title": "Immigration and general services",
+     "authority": "Ministry of Revenue and Customs, Tonga",
+     "url": "https://www.revenue.gov.to/immigration-and-general-services",
+     "checked": "2026-11-01",
+     "supports": "visitor visa on arrival (read via a search-index snapshot)"
+    },
+    {
+     "title": "Visas",
+     "authority": "Embassy of the Kingdom of Tonga in China",
+     "url": "https://www.tongaembassycn.gov.to/en/going-to-tonga-en/visas-en",
+     "checked": "2026-11-01",
+     "supports": "visa-on-arrival nationalities (read via a search-index snapshot)"
     }
    ]
   },
@@ -303,11 +310,27 @@
    "evidence": "signal",
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Not confirmed from an official source",
-     "detail": "Third-party guides describe a business visa (up to 3 months) and a short-term work permit (up to 6 months); no Tonga Government page was found.",
-     "next": "Ask the High Commission of the Kingdom of Tonga.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visitor visa on arrival",
+     "detail": "Visitor visa on arrival for Australians, about 30 days and free. Bring an onward ticket, proof of funds and a passport valid for six months.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration and general services",
+       "authority": "Ministry of Revenue and Customs, Tonga",
+       "url": "https://www.revenue.gov.to/immigration-and-general-services",
+       "checked": "2026-11-01",
+       "supports": "visitor visa on arrival (read via a search-index snapshot)"
+      },
+      {
+       "title": "Visas",
+       "authority": "Embassy of the Kingdom of Tonga in China",
+       "url": "https://www.tongaembassycn.gov.to/en/going-to-tonga-en/visas-en",
+       "checked": "2026-11-01",
+       "supports": "visa-on-arrival nationalities (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

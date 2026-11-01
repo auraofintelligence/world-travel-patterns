@@ -2,21 +2,66 @@
  "place": "sh",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page. Each island has its own entry rule; Ascension and Tristan need advance permission.",
+   "status": "visa-free",
+   "summary": "St Helena: Australia isn't on the e-visa (visa-national) list, so you get a short-term entry permit at the border (up to 183 days). There is no visa on arrival for visa nationals. Ascension Island needs an e-visa for everyone, applied for at least 14 days ahead.",
    "next_check": "Confirm with Saint Helena, Ascension and Tristan da Cunha's government.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "St Helena eVisa FAQ",
+     "authority": "St Helena Government",
+     "url": "https://evisa.sainthelena.gov.sh/faq",
+     "checked": "2026-11-01",
+     "supports": "visa-national list (Australia absent) (read via a search-index snapshot)"
+    },
+    {
+     "title": "Entry requirements",
+     "authority": "St Helena Government",
+     "url": "https://www.sainthelena.gov.sh/st-helena/entry-requirements/",
+     "checked": "2026-11-01",
+     "supports": "entry permits (read via a search-index snapshot)"
+    },
+    {
+     "title": "Immigration",
+     "authority": "Ascension Island Government",
+     "url": "https://www.ascension.gov.ac/travel-and-shipping/immigration",
+     "checked": "2026-11-01",
+     "supports": "Ascension e-visa for all (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "St Helena entry permit on arrival; Ascension e-visa in advance",
+     "detail": "St Helena entry permit at the border; Ascension needs an e-visa applied for at least 14 days ahead.",
+     "next": "Apply for the Ascension e-visa only through the AIG portal.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "St Helena eVisa FAQ",
+       "authority": "St Helena Government",
+       "url": "https://evisa.sainthelena.gov.sh/faq",
+       "checked": "2026-11-01",
+       "supports": "visa-national list (Australia absent) (read via a search-index snapshot)"
+      },
+      {
+       "title": "Entry requirements",
+       "authority": "St Helena Government",
+       "url": "https://www.sainthelena.gov.sh/st-helena/entry-requirements/",
+       "checked": "2026-11-01",
+       "supports": "entry permits (read via a search-index snapshot)"
+      },
+      {
+       "title": "Immigration",
+       "authority": "Ascension Island Government",
+       "url": "https://www.ascension.gov.ac/travel-and-shipping/immigration",
+       "checked": "2026-11-01",
+       "supports": "Ascension e-visa for all (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

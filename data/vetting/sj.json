@@ -2,127 +2,374 @@
  "place": "sj",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "Svalbard is outside Schengen and needs no visa of its own, but every route goes through mainland Norway, so Schengen entry applies on the way.",
+   "status": "visa-free",
+   "summary": "Svalbard needs no visa of its own. Every route goes through mainland Norway (Schengen), where Australians are visa-exempt for 90 days in 180. Svalbard is outside Schengen, so leaving it and returning counts as re-entry.",
    "next_check": "Read the Governor of Svalbard's visitor rules (firearms and polar bear safety outside settlements, field travel notification).",
-   "evidence": "signal",
+   "evidence": "official",
    "sources": [
     {
-     "title": "Schengen area",
-     "authority": "European Commission, Migration and Home Affairs",
-     "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en",
-     "checked": "2026-10-31",
-     "supports": "Schengen membership"
+     "title": "Entry and residence",
+     "authority": "Governor of Svalbard (Sysselmesteren)",
+     "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+     "checked": "2026-11-01",
+     "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+    },
+    {
+     "title": "Svalbard: visa and residence requirements",
+     "authority": "Norwegian Directorate of Immigration (UDI)",
+     "url": "https://www.udi.no/en/word-definitions/svalbard/",
+     "checked": "2026-11-01",
+     "supports": "Schengen double entry (read via a search-index snapshot)"
     }
    ],
-   "checked": "2026-10-31"
+   "checked": "2026-11-01"
   },
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Norwegian Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visa-free (through Schengen Norway)",
+     "detail": "No visa, work or residence permit is needed for Svalbard itself; carry a passport.",
+     "next": "Count the Schengen days used on the mainland legs.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry and residence",
+       "authority": "Governor of Svalbard (Sysselmesteren)",
+       "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+       "checked": "2026-11-01",
+       "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "Svalbard: visa and residence requirements",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/svalbard/",
+       "checked": "2026-11-01",
+       "supports": "Schengen double entry (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Norwegian Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "No Norwegian visa, work or residence permit needed for Svalbard itself",
+     "detail": "The Governor of Svalbard says foreigners need no visa or work and residence permit from Norway to stay in Svalbard, but must be able to support themselves (rejection and expulsion regulations). Routes go through mainland Norway, so the Schengen rules apply in transit.",
+     "next": "Plan the work and housing in advance, and get Schengen permission for any work done on the mainland separately.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry and residence",
+       "authority": "Governor of Svalbard (Sysselmesteren)",
+       "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+       "checked": "2026-11-01",
+       "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "Svalbard: visa and residence requirements",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/svalbard/",
+       "checked": "2026-11-01",
+       "supports": "Schengen double entry (read via a search-index snapshot)"
+      }
+     ]
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Norwegian Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "No Norwegian visa, work or residence permit needed for Svalbard itself",
+     "detail": "The Governor of Svalbard says foreigners need no visa or work and residence permit from Norway to stay in Svalbard, but must be able to support themselves (rejection and expulsion regulations). Routes go through mainland Norway, so the Schengen rules apply in transit.",
+     "next": "Plan the work and housing in advance, and get Schengen permission for any work done on the mainland separately.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry and residence",
+       "authority": "Governor of Svalbard (Sysselmesteren)",
+       "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+       "checked": "2026-11-01",
+       "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "Svalbard: visa and residence requirements",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/svalbard/",
+       "checked": "2026-11-01",
+       "supports": "Schengen double entry (read via a search-index snapshot)"
+      }
+     ]
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Norwegian Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "No Norwegian visa, work or residence permit needed for Svalbard itself",
+     "detail": "The Governor of Svalbard says foreigners need no visa or work and residence permit from Norway to stay in Svalbard, but must be able to support themselves (rejection and expulsion regulations). Routes go through mainland Norway, so the Schengen rules apply in transit.",
+     "next": "Plan the work and housing in advance, and get Schengen permission for any work done on the mainland separately.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry and residence",
+       "authority": "Governor of Svalbard (Sysselmesteren)",
+       "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+       "checked": "2026-11-01",
+       "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "Svalbard: visa and residence requirements",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/svalbard/",
+       "checked": "2026-11-01",
+       "supports": "Schengen double entry (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Norwegian Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "No Norwegian visa, work or residence permit needed for Svalbard itself",
+     "detail": "The Governor of Svalbard says foreigners need no visa or work and residence permit from Norway to stay in Svalbard, but must be able to support themselves (rejection and expulsion regulations). Routes go through mainland Norway, so the Schengen rules apply in transit.",
+     "next": "Plan the work and housing in advance, and get Schengen permission for any work done on the mainland separately.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry and residence",
+       "authority": "Governor of Svalbard (Sysselmesteren)",
+       "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+       "checked": "2026-11-01",
+       "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "Svalbard: visa and residence requirements",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/svalbard/",
+       "checked": "2026-11-01",
+       "supports": "Schengen double entry (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Norwegian Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "No Norwegian visa, work or residence permit needed for Svalbard itself",
+     "detail": "The Governor of Svalbard says foreigners need no visa or work and residence permit from Norway to stay in Svalbard, but must be able to support themselves (rejection and expulsion regulations). Routes go through mainland Norway, so the Schengen rules apply in transit.",
+     "next": "Plan the work and housing in advance, and get Schengen permission for any work done on the mainland separately.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry and residence",
+       "authority": "Governor of Svalbard (Sysselmesteren)",
+       "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+       "checked": "2026-11-01",
+       "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "Svalbard: visa and residence requirements",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/svalbard/",
+       "checked": "2026-11-01",
+       "supports": "Schengen double entry (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Norwegian Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "No Norwegian visa, work or residence permit needed for Svalbard itself",
+     "detail": "The Governor of Svalbard says foreigners need no visa or work and residence permit from Norway to stay in Svalbard, but must be able to support themselves (rejection and expulsion regulations). Routes go through mainland Norway, so the Schengen rules apply in transit.",
+     "next": "Plan the work and housing in advance, and get Schengen permission for any work done on the mainland separately.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry and residence",
+       "authority": "Governor of Svalbard (Sysselmesteren)",
+       "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+       "checked": "2026-11-01",
+       "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "Svalbard: visa and residence requirements",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/svalbard/",
+       "checked": "2026-11-01",
+       "supports": "Schengen double entry (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Norwegian Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "No Norwegian visa, work or residence permit needed for Svalbard itself",
+     "detail": "The Governor of Svalbard says foreigners need no visa or work and residence permit from Norway to stay in Svalbard, but must be able to support themselves (rejection and expulsion regulations). Routes go through mainland Norway, so the Schengen rules apply in transit.",
+     "next": "Plan the work and housing in advance, and get Schengen permission for any work done on the mainland separately.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry and residence",
+       "authority": "Governor of Svalbard (Sysselmesteren)",
+       "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+       "checked": "2026-11-01",
+       "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "Svalbard: visa and residence requirements",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/svalbard/",
+       "checked": "2026-11-01",
+       "supports": "Schengen double entry (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Norwegian Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "No Norwegian visa, work or residence permit needed for Svalbard itself",
+     "detail": "The Governor of Svalbard says foreigners need no visa or work and residence permit from Norway to stay in Svalbard, but must be able to support themselves (rejection and expulsion regulations). Routes go through mainland Norway, so the Schengen rules apply in transit.",
+     "next": "Plan the work and housing in advance, and get Schengen permission for any work done on the mainland separately.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry and residence",
+       "authority": "Governor of Svalbard (Sysselmesteren)",
+       "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+       "checked": "2026-11-01",
+       "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "Svalbard: visa and residence requirements",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/svalbard/",
+       "checked": "2026-11-01",
+       "supports": "Schengen double entry (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Norwegian Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "No Norwegian visa, work or residence permit needed for Svalbard itself",
+     "detail": "The Governor of Svalbard says foreigners need no visa or work and residence permit from Norway to stay in Svalbard, but must be able to support themselves (rejection and expulsion regulations). Routes go through mainland Norway, so the Schengen rules apply in transit.",
+     "next": "Plan the work and housing in advance, and get Schengen permission for any work done on the mainland separately.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry and residence",
+       "authority": "Governor of Svalbard (Sysselmesteren)",
+       "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+       "checked": "2026-11-01",
+       "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "Svalbard: visa and residence requirements",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/svalbard/",
+       "checked": "2026-11-01",
+       "supports": "Schengen double entry (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Norwegian Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "No Norwegian visa, work or residence permit needed for Svalbard itself",
+     "detail": "The Governor of Svalbard says foreigners need no visa or work and residence permit from Norway to stay in Svalbard, but must be able to support themselves (rejection and expulsion regulations). Routes go through mainland Norway, so the Schengen rules apply in transit.",
+     "next": "Plan the work and housing in advance, and get Schengen permission for any work done on the mainland separately.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry and residence",
+       "authority": "Governor of Svalbard (Sysselmesteren)",
+       "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+       "checked": "2026-11-01",
+       "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "Svalbard: visa and residence requirements",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/svalbard/",
+       "checked": "2026-11-01",
+       "supports": "Schengen double entry (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Norwegian Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "No Norwegian visa, work or residence permit needed for Svalbard itself",
+     "detail": "The Governor of Svalbard says foreigners need no visa or work and residence permit from Norway to stay in Svalbard, but must be able to support themselves (rejection and expulsion regulations). Routes go through mainland Norway, so the Schengen rules apply in transit.",
+     "next": "Plan the work and housing in advance, and get Schengen permission for any work done on the mainland separately.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry and residence",
+       "authority": "Governor of Svalbard (Sysselmesteren)",
+       "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+       "checked": "2026-11-01",
+       "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "Svalbard: visa and residence requirements",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/svalbard/",
+       "checked": "2026-11-01",
+       "supports": "Schengen double entry (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Norwegian Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "No Norwegian visa, work or residence permit needed for Svalbard itself",
+     "detail": "The Governor of Svalbard says foreigners need no visa or work and residence permit from Norway to stay in Svalbard, but must be able to support themselves (rejection and expulsion regulations). Routes go through mainland Norway, so the Schengen rules apply in transit.",
+     "next": "Plan the work and housing in advance, and get Schengen permission for any work done on the mainland separately.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry and residence",
+       "authority": "Governor of Svalbard (Sysselmesteren)",
+       "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+       "checked": "2026-11-01",
+       "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "Svalbard: visa and residence requirements",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/svalbard/",
+       "checked": "2026-11-01",
+       "supports": "Schengen double entry (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Norwegian Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "No Norwegian visa, work or residence permit needed for Svalbard itself",
+     "detail": "The Governor of Svalbard says foreigners need no visa or work and residence permit from Norway to stay in Svalbard, but must be able to support themselves (rejection and expulsion regulations). Routes go through mainland Norway, so the Schengen rules apply in transit.",
+     "next": "Plan the work and housing in advance, and get Schengen permission for any work done on the mainland separately.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry and residence",
+       "authority": "Governor of Svalbard (Sysselmesteren)",
+       "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+       "checked": "2026-11-01",
+       "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "Svalbard: visa and residence requirements",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/svalbard/",
+       "checked": "2026-11-01",
+       "supports": "Schengen double entry (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Norwegian Embassy, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Norwegian Embassy, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "No Norwegian visa, work or residence permit needed for Svalbard itself",
+     "detail": "The Governor of Svalbard says foreigners need no visa or work and residence permit from Norway to stay in Svalbard, but must be able to support themselves (rejection and expulsion regulations). Routes go through mainland Norway, so the Schengen rules apply in transit.",
+     "next": "Plan the work and housing in advance, and get Schengen permission for any work done on the mainland separately.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Entry and residence",
+       "authority": "Governor of Svalbard (Sysselmesteren)",
+       "url": "https://www.sysselmesteren.no/en/entry-and-residence/",
+       "checked": "2026-11-01",
+       "supports": "no visa, work or residence permit; means requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "Svalbard: visa and residence requirements",
+       "authority": "Norwegian Directorate of Immigration (UDI)",
+       "url": "https://www.udi.no/en/word-definitions/svalbard/",
+       "checked": "2026-11-01",
+       "supports": "Schengen double entry (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [],

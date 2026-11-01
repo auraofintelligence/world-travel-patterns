@@ -2,21 +2,52 @@
  "place": "io",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page. Access is restricted to permitted visitors; yachts need a permit in advance.",
+   "status": "visa-required",
+   "summary": "Every visitor needs a BIOT permit; yachts need a mooring permit applied for at least six weeks ahead. Since 31 March 2026 BIOT has paused substantive consideration of new visitor permit applications, except in exceptional circumstances (notice updated 24 April 2026).",
    "next_check": "Confirm with the British Indian Ocean Territory's government.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa requirements",
+     "authority": "British Indian Ocean Territory Administration",
+     "url": "https://www.biot.gov.io/visiting/visa-requirements/",
+     "checked": "2026-11-01",
+     "supports": "permit rule and pause (read via a search-index snapshot)"
+    },
+    {
+     "title": "How to apply for a mooring permit",
+     "authority": "BIOT Administration",
+     "url": "https://www.biot.gov.io/visiting/mooring-permits/",
+     "checked": "2026-11-01",
+     "supports": "mooring permits (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Permit before arrival (paused)",
+     "detail": "Every visitor needs a BIOT permit; yachts need a mooring permit applied for at least six weeks ahead. Since 31 March 2026 BIOT has paused substantive consideration of new visitor permit applications, except in exceptional circumstances (notice updated 24 April 2026).",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa requirements",
+       "authority": "British Indian Ocean Territory Administration",
+       "url": "https://www.biot.gov.io/visiting/visa-requirements/",
+       "checked": "2026-11-01",
+       "supports": "permit rule and pause (read via a search-index snapshot)"
+      },
+      {
+       "title": "How to apply for a mooring permit",
+       "authority": "BIOT Administration",
+       "url": "https://www.biot.gov.io/visiting/mooring-permits/",
+       "checked": "2026-11-01",
+       "supports": "mooring permits (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

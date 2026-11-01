@@ -2,12 +2,27 @@
  "place": "gq",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no Australian-specific official source found on 31 October 2026 for Equatorial Guinea. Aggregator sites disagree.",
+   "status": "evisa",
+   "summary": "Visa needed: Equatorial Guinea introduced an online visa. Apply before travel (single entry, up to 90 days) and present the e-visa letter on arrival.",
    "next_check": "Ask Equatorial Guinea's embassy or immigration authority which visa an Australian needs.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Implementation of the online visa in the Republic of Equatorial Guinea",
+     "authority": "UN Tourism",
+     "url": "https://www.untourism.int/news/implementation-of-the-online-visa-in-the-republic-of-equatorial-guinea",
+     "checked": "2026-11-01",
+     "supports": "online visa introduced (read via a search-index snapshot)"
+    },
+    {
+     "title": "Equatorial Guinea eVisa information",
+     "authority": "Equatorial Guinea eVisa portal (states it is official)",
+     "url": "https://equatorialguinea-evisa.com/information",
+     "checked": "2026-11-01",
+     "supports": "process (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -33,11 +48,27 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Equatorial Guinea",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Equatorial Guinea which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "e-Visa before travel",
+     "detail": "Visa needed: Equatorial Guinea introduced an online visa. Apply before travel (single entry, up to 90 days) and present the e-visa letter on arrival.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Implementation of the online visa in the Republic of Equatorial Guinea",
+       "authority": "UN Tourism",
+       "url": "https://www.untourism.int/news/implementation-of-the-online-visa-in-the-republic-of-equatorial-guinea",
+       "checked": "2026-11-01",
+       "supports": "online visa introduced (read via a search-index snapshot)"
+      },
+      {
+       "title": "Equatorial Guinea eVisa information",
+       "authority": "Equatorial Guinea eVisa portal (states it is official)",
+       "url": "https://equatorialguinea-evisa.com/information",
+       "checked": "2026-11-01",
+       "supports": "process (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

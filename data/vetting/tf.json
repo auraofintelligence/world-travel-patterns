@@ -2,29 +2,52 @@
  "place": "tf",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "Overseas France is outside the Schengen area: a Schengen visa doesn't cover it. Australians are reported visa-free for short stays (Smartraveller says so for French Polynesia and New Caledonia, 90 days in 180).",
+   "status": "visa-required",
+   "summary": "Access is tightly controlled. Foreign visitors need a TAAF visa with the senior administrator's prior approval, requested at least two months ahead. Going ashore needs the district chief's authorisation, and integral protection zones are closed.",
    "next_check": "Confirm the rule for this territory on France-Visas.",
    "evidence": "official",
    "sources": [
     {
-     "title": "France-Visas",
-     "authority": "Government of France",
-     "url": "https://france-visas.gouv.fr/",
-     "checked": "2026-10-31",
-     "supports": "the official source for French visas, including overseas France"
+     "title": "Demandes de visa pour les territoires TAAF",
+     "authority": "Terres australes et antarctiques françaises (TAAF)",
+     "url": "https://taaf.fr/acceder-aux-territoires/demande-de-visa/",
+     "checked": "2026-11-01",
+     "supports": "visa and prefect approval (read via a search-index snapshot)"
+    },
+    {
+     "title": "Accès et mouillage dans les Australes",
+     "authority": "TAAF",
+     "url": "https://taaf.fr/acceder-aux-territoires/demandes-dactivites-et-dacces/acces-et-mouillage-dans-les-australes/",
+     "checked": "2026-11-01",
+     "supports": "access rules (read via a search-index snapshot)"
     }
    ],
-   "checked": "2026-10-31"
+   "checked": "2026-11-01"
   },
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of France, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of France, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "TAAF visa and prefect approval",
+     "detail": "Usually reached on the Marion Dufresne or by a yacht with prefect approval; apply at least two months ahead.",
+     "next": "Contact TAAF headquarters (Saint-Pierre, Réunion) at least two months before.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Demandes de visa pour les territoires TAAF",
+       "authority": "Terres australes et antarctiques françaises (TAAF)",
+       "url": "https://taaf.fr/acceder-aux-territoires/demande-de-visa/",
+       "checked": "2026-11-01",
+       "supports": "visa and prefect approval (read via a search-index snapshot)"
+      },
+      {
+       "title": "Accès et mouillage dans les Australes",
+       "authority": "TAAF",
+       "url": "https://taaf.fr/acceder-aux-territoires/demandes-dactivites-et-dacces/acces-et-mouillage-dans-les-australes/",
+       "checked": "2026-11-01",
+       "supports": "access rules (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

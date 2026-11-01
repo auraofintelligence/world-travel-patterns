@@ -2,20 +2,20 @@
  "place": "tv",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no current Tuvalu government page found. Secondary sites agree on a visitor permit on arrival for about one month with an onward ticket; they disagree on the fee (free or A$100 cash) and on extensions.",
+   "status": "visa-on-arrival",
+   "summary": "Visitor permit on arrival, up to 30 days. AUD 100 fee unless your country is on the regulations' Schedule 1. No employment, business, study or proselytising on a plain permit.",
    "next_check": "Ask the Tuvalu High Commission or the Immigration Department in Funafuti about the fee and extensions.",
-   "evidence": "signal",
+   "evidence": "official",
    "sources": [
     {
-     "title": "Tuvalu passport and visa (aggregator)",
-     "authority": "Signal: secondary site",
-     "url": "https://www.worldtravelguide.net/guides/oceania/tuvalu/passport-visa",
-     "checked": "2026-10-31",
-     "supports": "one-month visitor permit on arrival"
+     "title": "Immigration Regulations 2014, reg 2",
+     "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+     "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+     "checked": "2026-11-01",
+     "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
     }
    ],
-   "checked": "2026-10-31"
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -195,109 +195,244 @@
    "evidence": "signal",
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Tuvalu's Immigration Department.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visitor permit on arrival",
+     "detail": "Visitor permit on arrival for up to 30 days (AUD 100 fee unless your country is on Schedule 1).",
+     "next": "Bring an onward ticket, accommodation details and proof of funds.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations 2014, reg 2",
+       "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+       "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "conditional",
-     "route": "Visitor permit with a special business endorsement",
-     "detail": "Business needs the visitor permit's special endorsement, on terms set by the Principal Immigration Officer.",
-     "next": "Ask the Immigration Department in Funafuti.",
-     "checked": "2026-11-01"
+     "route": "Visitor permit with a special business endorsement (extra AUD 100, up to 30 days)",
+     "detail": "Tuvalu's Immigration Regulations bar employment and business on a plain visitor permit. Business activities explicitly include attending a conference or training session, performing professional services (including for the Government and NGOs) and exploratory negotiations. A visitor permit endorsed for business is available on arrival for an extra fee.",
+     "next": "Ask for the business endorsement on arrival, or confirm in advance with the Principal Immigration Officer.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations 2014, reg 2",
+       "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+       "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
+      }
+     ]
     },
     "conference": {
      "status": "conditional",
-     "route": "Visitor permit with a special business endorsement",
-     "detail": "As for meetings.",
-     "next": "Ask the Immigration Department.",
-     "checked": "2026-11-01"
+     "route": "Visitor permit with a special business endorsement (extra AUD 100, up to 30 days)",
+     "detail": "Tuvalu's Immigration Regulations bar employment and business on a plain visitor permit. Business activities explicitly include attending a conference or training session, performing professional services (including for the Government and NGOs) and exploratory negotiations. A visitor permit endorsed for business is available on arrival for an extra fee.",
+     "next": "Ask for the business endorsement on arrival, or confirm in advance with the Principal Immigration Officer.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations 2014, reg 2",
+       "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+       "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
+      }
+     ]
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Tuvalu's Immigration Department.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor permit with a special business endorsement (extra AUD 100, up to 30 days)",
+     "detail": "Tuvalu's Immigration Regulations bar employment and business on a plain visitor permit. Business activities explicitly include attending a conference or training session, performing professional services (including for the Government and NGOs) and exploratory negotiations. A visitor permit endorsed for business is available on arrival for an extra fee.",
+     "next": "Ask for the business endorsement on arrival, or confirm in advance with the Principal Immigration Officer.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations 2014, reg 2",
+       "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+       "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
-     "status": "specialist",
-     "route": "Permit to enter and reside for employment",
-     "detail": "Employment needs a permit to enter and reside, with extra requirements.",
-     "next": "Ask the Immigration Department.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor permit with a special business endorsement (extra AUD 100, up to 30 days)",
+     "detail": "Tuvalu's Immigration Regulations bar employment and business on a plain visitor permit. Business activities explicitly include attending a conference or training session, performing professional services (including for the Government and NGOs) and exploratory negotiations. A visitor permit endorsed for business is available on arrival for an extra fee.",
+     "next": "Ask for the business endorsement on arrival, or confirm in advance with the Principal Immigration Officer.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations 2014, reg 2",
+       "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+       "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Tuvalu's Immigration Department.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor permit with a special business endorsement (extra AUD 100, up to 30 days)",
+     "detail": "Tuvalu's Immigration Regulations bar employment and business on a plain visitor permit. Business activities explicitly include attending a conference or training session, performing professional services (including for the Government and NGOs) and exploratory negotiations. A visitor permit endorsed for business is available on arrival for an extra fee.",
+     "next": "Ask for the business endorsement on arrival, or confirm in advance with the Principal Immigration Officer.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations 2014, reg 2",
+       "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+       "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Tuvalu's Immigration Department.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor permit with a special business endorsement (extra AUD 100, up to 30 days)",
+     "detail": "Tuvalu's Immigration Regulations bar employment and business on a plain visitor permit. Business activities explicitly include attending a conference or training session, performing professional services (including for the Government and NGOs) and exploratory negotiations. A visitor permit endorsed for business is available on arrival for an extra fee.",
+     "next": "Ask for the business endorsement on arrival, or confirm in advance with the Principal Immigration Officer.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations 2014, reg 2",
+       "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+       "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Tuvalu's Immigration Department.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor permit with a special business endorsement (extra AUD 100, up to 30 days)",
+     "detail": "Tuvalu's Immigration Regulations bar employment and business on a plain visitor permit. Business activities explicitly include attending a conference or training session, performing professional services (including for the Government and NGOs) and exploratory negotiations. A visitor permit endorsed for business is available on arrival for an extra fee.",
+     "next": "Ask for the business endorsement on arrival, or confirm in advance with the Principal Immigration Officer.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations 2014, reg 2",
+       "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+       "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Tuvalu's Immigration Department.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor permit with a special business endorsement (extra AUD 100, up to 30 days)",
+     "detail": "Tuvalu's Immigration Regulations bar employment and business on a plain visitor permit. Business activities explicitly include attending a conference or training session, performing professional services (including for the Government and NGOs) and exploratory negotiations. A visitor permit endorsed for business is available on arrival for an extra fee.",
+     "next": "Ask for the business endorsement on arrival, or confirm in advance with the Principal Immigration Officer.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations 2014, reg 2",
+       "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+       "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "conditional",
-     "route": "Visitor permit with a special business endorsement",
-     "detail": "As for meetings.",
-     "next": "Ask the Immigration Department.",
-     "checked": "2026-11-01"
+     "route": "Visitor permit with a special business endorsement (extra AUD 100, up to 30 days)",
+     "detail": "Tuvalu's Immigration Regulations bar employment and business on a plain visitor permit. Business activities explicitly include attending a conference or training session, performing professional services (including for the Government and NGOs) and exploratory negotiations. A visitor permit endorsed for business is available on arrival for an extra fee.",
+     "next": "Ask for the business endorsement on arrival, or confirm in advance with the Principal Immigration Officer.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations 2014, reg 2",
+       "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+       "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
-     "status": "specialist",
-     "route": "Permit to enter and reside for employment",
-     "detail": "Paid performance is employment.",
-     "next": "Ask the Immigration Department.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor permit with a special business endorsement (extra AUD 100, up to 30 days)",
+     "detail": "Tuvalu's Immigration Regulations bar employment and business on a plain visitor permit. Business activities explicitly include attending a conference or training session, performing professional services (including for the Government and NGOs) and exploratory negotiations. A visitor permit endorsed for business is available on arrival for an extra fee.",
+     "next": "Ask for the business endorsement on arrival, or confirm in advance with the Principal Immigration Officer.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations 2014, reg 2",
+       "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+       "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Tuvalu's Immigration Department.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor permit with a special business endorsement (extra AUD 100, up to 30 days)",
+     "detail": "Tuvalu's Immigration Regulations bar employment and business on a plain visitor permit. Business activities explicitly include attending a conference or training session, performing professional services (including for the Government and NGOs) and exploratory negotiations. A visitor permit endorsed for business is available on arrival for an extra fee.",
+     "next": "Ask for the business endorsement on arrival, or confirm in advance with the Principal Immigration Officer.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations 2014, reg 2",
+       "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+       "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Tuvalu's Immigration Department.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor permit with a special business endorsement (extra AUD 100, up to 30 days)",
+     "detail": "Tuvalu's Immigration Regulations bar employment and business on a plain visitor permit. Business activities explicitly include attending a conference or training session, performing professional services (including for the Government and NGOs) and exploratory negotiations. A visitor permit endorsed for business is available on arrival for an extra fee.",
+     "next": "Ask for the business endorsement on arrival, or confirm in advance with the Principal Immigration Officer.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations 2014, reg 2",
+       "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+       "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Tuvalu's Immigration Department.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor permit with a special business endorsement (extra AUD 100, up to 30 days)",
+     "detail": "Tuvalu's Immigration Regulations bar employment and business on a plain visitor permit. Business activities explicitly include attending a conference or training session, performing professional services (including for the Government and NGOs) and exploratory negotiations. A visitor permit endorsed for business is available on arrival for an extra fee.",
+     "next": "Ask for the business endorsement on arrival, or confirm in advance with the Principal Immigration Officer.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations 2014, reg 2",
+       "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+       "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
      "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Tuvalu's Immigration Department.",
-     "checked": "2026-11-01"
+     "route": "Visitor permit (no employment, business, study or proselytising) or business endorsement",
+     "detail": "Regulation 2 bars employment and business on a plain visitor permit. It doesn't say whether unpaid volunteering counts.",
+     "next": "Ask the Principal Immigration Officer before travel, in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations 2014, reg 2",
+       "authority": "Tuvalu Legislation (Office of the Attorney-General)",
+       "url": "https://www.tuvalu-legislation.tv/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0003/2014-0003_2.pdf",
+       "checked": "2026-11-01",
+       "supports": "visitor permit and business endorsement (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

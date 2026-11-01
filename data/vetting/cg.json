@@ -2,12 +2,27 @@
  "place": "cg",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no Australian-specific official source found on 31 October 2026 for Republic of the Congo. Aggregator sites disagree.",
+   "status": "visa-required",
+   "summary": "Visa needed before travel; Congolese embassies say it can't be issued at the airport. An official Congo Pass e-Visa service also exists for tourism and business.",
    "next_check": "Ask Republic of the Congo's embassy or immigration authority which visa an Australian needs.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa",
+     "authority": "Embassy of the Republic of the Congo in the United States",
+     "url": "https://us.ambacongo.org/en/consular-services/visa/",
+     "checked": "2026-11-01",
+     "supports": "visa requirement (read via a search-index snapshot)"
+    },
+    {
+     "title": "eVisa",
+     "authority": "Congo Pass",
+     "url": "https://congo-pass.bytecomplete.com/services/evisa",
+     "checked": "2026-11-01",
+     "supports": "e-Visa service (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -33,11 +48,27 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visa before travel (no visa at the airport)",
+     "detail": "Visa needed before travel; Congolese embassies say it can't be issued at the airport. An official Congo Pass e-Visa service also exists for tourism and business.",
+     "next": "Follow the cited official page; easy entry isn't permission to work.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa",
+       "authority": "Embassy of the Republic of the Congo in the United States",
+       "url": "https://us.ambacongo.org/en/consular-services/visa/",
+       "checked": "2026-11-01",
+       "supports": "visa requirement (read via a search-index snapshot)"
+      },
+      {
+       "title": "eVisa",
+       "authority": "Congo Pass",
+       "url": "https://congo-pass.bytecomplete.com/services/evisa",
+       "checked": "2026-11-01",
+       "supports": "e-Visa service (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",
