@@ -866,6 +866,30 @@
     "claim_id": "WORLD-MEXICO-COST"
    },
    "recheck_note": "Partly verified 2026-11-01: Smartraveller confirms tourism entry without a visa (e-gates up to 180 days with a chipped passport) and the online FMM with QR code; the FMM cost wasn't stated on an official page read, so left flagged."
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2027-09-15",
+     "what": "Independence Day: Grito de Dolores on the night of 15 September, military parade on 16 September",
+     "effect": "Public holiday; Zócalo crowds and Mexico City closures",
+     "url": "https://www.inehrm.gob.mx/es/inehrm/SEPTIEMBRE_civicas",
+     "by": "official-events",
+     "category": "national-day"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Efemérides cívicas de septiembre",
+     "authority": "INEHRM, Secretaría de Cultura (Mexican Government)",
+     "url": "https://www.inehrm.gob.mx/es/inehrm/SEPTIEMBRE_civicas",
+     "checked": "2026-11-01",
+     "supports": "event dates (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   }
  },
  "retired_sources": [

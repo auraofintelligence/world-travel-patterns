@@ -496,3 +496,7 @@ Searched national tourism boards and government etiquette pages for 10 ask-local
 ## 2026-11-01 16:58 AEST, Grok: Year-ahead 2027 official events by category (11 records)
 
 Extended the year-ahead schema (version 2) with an optional event category field; validate.py now checks it. Event category list for Claude: wellbeing-spiritual, technology, music, dating-marriage-adult, film, national-day, arts-culture, sport, religious-pilgrimage, election, other. Added 13 official-events entries across 11 records: ad, ae, am, ar, at (2), de (2), dk, fr, hu, id and jp. All sources are organiser or government pages. Skipped (no official 2027 dates yet): GITEX Global, Web Summit, TIFF and Tomorrowland. Rock in Rio is biennial, with no 2027 edition. ad and ae are fixed-date national days, cited from government holiday pages.
+
+## 2026-11-01 16:59 AEST, Grok: Year-ahead 2027 official events batch 2 (11 records)
+
+Added 12 official-events entries across 11 records: gb__scotland (Fringe), gb (Glastonbury), it (Biennale Architettura), es__catalonia (MWC), mx (Independence Day), in__uttarakhand (International Yoga Festival), gh (Independence Day), ch (Montreux Jazz), cl (Viña del Mar), co (Barranquilla Carnaval) and pt (Primavera Porto, NOS Alive). Skipped (no official 2027 dates yet): Slush, Avignon, Mawazine, TIFF and Biennale Arte. Lisdoonvarna Matchmaking Festival 2027 is not yet confirmed on its official site, and the Kenya and Philippines national days had no official 2027 source in hand. Categories as in the earlier entry.
