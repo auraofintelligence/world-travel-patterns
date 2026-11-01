@@ -93,3 +93,38 @@ python scripts/build_site.py
 ```
 
 Commit only when validation passes. End commit messages with the Claude co-author line.
+
+## Handover for Claude: GitHub About metadata (1 November 2026)
+
+At Luke's request, Codex updated the repository's GitHub About fields to match the established Aura of Intelligence repository navigation and search pattern. The original Luke × Claude build credit in the README and this project's licence remain unchanged.
+
+**Description:** A Luke × Claude travel research project for Australian passport holders, using repeatable, source-linked checks of entry, local laws, cultural protocols, permit zones, seasons, consular reach and events, with dated records and private trip windows.
+
+**Website:** https://auraofintelligence.github.io/world-travel-patterns/
+
+**Topics:**
+
+```text
+auraofintelligence-world-travel-patterns
+built-2026-10-31
+consular-services
+cultural-protocols
+github-pages
+local-laws
+permit-zones
+privacy-first
+public-source
+source-provenance
+travel-advisories
+travel-planning
+visa-requirements
+world-travel-patterns
+```
+
+The `built-2026-10-31` tag records GitHub repository creation: `2026-10-31T12:56:30Z`, which is 22:56:30 on 31 October 2026 in Australia/Brisbane. It does not replace the README's 30 October project build date, or any source-check date.
+
+For future About maintenance, retain the lower-case repository slug, the complete `auraofintelligence-<slug>` search topic when it fits GitHub's 50-character topic limit, the actual repository-creation date in Brisbane time, `github-pages` for a published Pages site, and a few accurate subject topics. Preserve useful existing topics and stay within GitHub's 20-topic limit. The combined identifier lets people search for the project from link-free comments.
+
+The description names the research workflow and its subjects without claiming that every place and pattern has already been checked. Keep source-check dates and coverage claims tied to their records. Keep private travel windows and visitor briefs out of public commits.
+
+This maintenance changed only the GitHub About metadata and this handover note. It did not change travel records, routines, website content, photographs, deployment settings or licence terms.
