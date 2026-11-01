@@ -1,5 +1,5 @@
 {
- "rule": "Hand decisions over the automatic picker, each with its reason. banner = use the Wikivoyage banner; main = use the Wikidata main image; none = show no photo.",
+ "rule": "Hand decisions over the automatic picker, each with its reason. banner = use the Wikivoyage banner; main = use the Wikidata main image; none = show no photo. review = approved (applies only to the named title) or rejected.",
  "choices": {
   "kp": {
    "use": "none",
@@ -43,7 +43,9 @@
   },
   "cn/tibet": {
    "use": "banner",
-   "why": "Main image is a space-station view captioned as China, not specifically Tibet."
+   "why": "Main image is a space-station view captioned as China, not specifically Tibet.",
+   "review": "approved",
+   "title": "Tibet Wikivoyage banner.jpg"
   },
   "au/nt": {
    "use": "none",
@@ -51,11 +53,346 @@
   },
   "bq": {
    "use": "banner",
-   "why": "The main image is a drone shot; no drone imagery on this site (Luke, 1 November 2026)."
+   "why": "The main image is a drone shot; no drone imagery on this site (Luke, 1 November 2026).",
+   "review": "approved",
+   "title": "Saba-banner.jpg"
   },
   "de": {
    "use": "banner",
    "why": "The main image is a drone shot; no drone imagery on this site (Luke, 1 November 2026)."
+  },
+  "ad": {
+   "review": "approved",
+   "title": "Andorra la Vella - footpath.jpg",
+   "why": "Andorra la Vella town in a Pyrenees valley, matches title and terrain"
+  },
+  "ae": {
+   "review": "approved",
+   "title": "Souq Al Bahar From Burj Khalifa, Dubai (7997597156).jpg",
+   "why": "Dubai Mall fountain lake and towers seen from Burj Khalifa"
+  },
+  "af": {
+   "review": "approved",
+   "title": "Band Amir banner.jpg",
+   "why": "Band-e Amir lakes and cliffs, Bamyan; terrain matches"
+  },
+  "ag": {
+   "review": "approved",
+   "title": "Antigua banner beach.jpg",
+   "why": "Caribbean beach scene captioned Antigua; consistent, no conflicting signage"
+  },
+  "ai": {
+   "review": "approved",
+   "title": "Blowing Point (Anguilla) banner Ferry terminal.jpg",
+   "why": "Blowing Point ferry terminal, Anguilla; Caribbean harbour consistent"
+  },
+  "al": {
+   "review": "approved",
+   "title": "Albania banner.jpg",
+   "why": "Albanian hill and valley landscape; generic but consistent with Albania and captioned as such"
+  },
+  "am": {
+   "review": "approved",
+   "title": "Noravank panorama.jpg",
+   "why": "Noravank monastery and red cliffs, a well-known Armenian landmark"
+  },
+  "ao": {
+   "review": "approved",
+   "title": "Malange (Angola) banner Kalandula waterfalls of the Lucala River.jpg",
+   "why": "Kalandula Falls, Malanje, Angola; recognisable broad falls"
+  },
+  "aq": {
+   "review": "approved",
+   "title": "Antarctica-banner1.jpg",
+   "why": "Ice and penguin on Antarctic sea ice"
+  },
+  "aq/australian-antarctic-territory": {
+   "review": "approved",
+   "title": "Davis Station November 2005.jpg",
+   "why": "Davis Station buildings on Antarctic coast"
+  },
+  "ar": {
+   "review": "approved",
+   "title": "Argentina Banner 5.jpg",
+   "why": "Patagonian Andes with horse; captioned Argentina"
+  },
+  "as": {
+   "review": "approved",
+   "title": "American Samoa-banner.jpg",
+   "why": "Tropical coast and steep green ridges consistent with Tutuila, American Samoa"
+  },
+  "at": {
+   "review": "approved",
+   "title": "Austria-banner1.jpg",
+   "why": "Alpine village with church spire under limestone cliffs, typical Austria"
+  },
+  "au": {
+   "review": "approved",
+   "title": "Uluru-Kata Tjuta banner Uluru Sunset.jpg",
+   "why": "Uluru at sunset from the public viewing area; depicts Australia (sacred-site sensitivity already noted in PHOTO-REVIEW)"
+  },
+  "au/act": {
+   "review": "approved",
+   "title": "Australian Capital Territory Legislative Assembly.jpg",
+   "why": "ACT Legislative Assembly building and Civic Square, Canberra"
+  },
+  "au/lord-howe-island": {
+   "review": "approved",
+   "title": "Lord Howe Island banner.jpg",
+   "why": "Lagoon and Mt Lidgbird/Gower skyline of Lord Howe Island"
+  },
+  "au/minjerribah": {
+   "review": "approved",
+   "title": "View of Main Beach from Point Lookout (North Stradbroke Island).JPG",
+   "why": "Hand-chosen Main Beach from Point Lookout; verified source"
+  },
+  "au/nsw": {
+   "use": "none",
+   "review": "rejected",
+   "title": "ISS037-E-21113 - View of New South Wales.jpg",
+   "why": "Rejected in photo review: Astronaut orbit view; NSW not identifiable to a traveller, a stand-in rather than a place photo"
+  },
+  "au/qld": {
+   "use": "none",
+   "review": "rejected",
+   "title": "Townsville (Queensland) banner Palms.jpg",
+   "why": "Rejected in photo review: Generic palm fronds against sky; nothing identifies Queensland"
+  },
+  "au/sa": {
+   "use": "none",
+   "review": "rejected",
+   "title": "STS131-E-12044 - View of South Australia.jpg",
+   "why": "Rejected in photo review: Orbit view dominated by spacecraft and Earth's curve; South Australia not identifiable"
+  },
+  "au/tas": {
+   "review": "approved",
+   "title": "Port Arthur (Tasmania) banner.jpg",
+   "why": "Port Arthur Historic Site ruins, Tasmania"
+  },
+  "au/vic": {
+   "review": "approved",
+   "title": "Victoria, Australia banner.jpg",
+   "why": "Twelve Apostles, Great Ocean Road, Victoria"
+  },
+  "au/wa": {
+   "review": "approved",
+   "title": "Western Australia banner Road.jpg",
+   "why": "Outback highway with WA road sign; plausible Western Australia"
+  },
+  "aw": {
+   "review": "approved",
+   "title": "Aruba-banner.jpg",
+   "why": "Eagle Beach style white sand and high-rise hotels, Aruba"
+  },
+  "ax": {
+   "review": "approved",
+   "title": "Aland banner Coastal panorama.jpg",
+   "why": "Low Baltic coastline and skerries typical of Åland"
+  },
+  "az": {
+   "review": "approved",
+   "title": "Azerbajiani landscape banner.jpg",
+   "why": "Caucasus mountain valley; captioned Azerbaijan landscape"
+  },
+  "ba": {
+   "review": "approved",
+   "title": "Gornji Orahovac, Bosnia y Herzegovina, 2014-04-14, DD 10-13 PAN.jpg",
+   "why": "Gornji Orahovac valley, Bosnia and Herzegovina, matches title"
+  },
+  "bb": {
+   "review": "approved",
+   "title": "Barbados (50).jpg",
+   "why": "White-sand beach and turquoise water on Barbados coast"
+  },
+  "bd": {
+   "review": "approved",
+   "title": "সেন্টমার্টিন-উইকিভ্রমণ ব্যানার.jpg",
+   "why": "Flat Bay of Bengal shoreline with Bengali-titled file; consistent with Bangladesh coast"
+  },
+  "be": {
+   "review": "approved",
+   "title": "Belgique - Bruxelles - Grand-Place - Côté nord-est.jpg",
+   "why": "Grand-Place guildhalls, Brussels"
+  },
+  "bf": {
+   "review": "approved",
+   "title": "Burkina Faso Wikivoyage banner.jpg",
+   "why": "Sudano-Sahelian mud mosque (Bobo-Dioulasso style), Burkina Faso"
+  },
+  "bg": {
+   "review": "approved",
+   "title": "Rila Monastery, August 2013.jpg",
+   "why": "Rila Monastery, Bulgaria; distinctive striped arcades"
+  },
+  "bh": {
+   "review": "approved",
+   "title": "Manama, Bahrain Decembre 2014.jpg",
+   "why": "Manama skyline with Bahrain World Trade Center twin towers"
+  },
+  "bi": {
+   "review": "approved",
+   "title": "Bujumbura (Burundi) Coconut beach.jpg",
+   "why": "Lake Tanganyika beach at Bujumbura with hills behind"
+  },
+  "bj": {
+   "review": "approved",
+   "title": "Benin Wikivoyage banner.jpg",
+   "why": "Thatched paillote on a West African beach; captioned Benin"
+  },
+  "bl": {
+   "review": "approved",
+   "title": "Saint Barth - Vue panoramique - Octobre 2009.jpg",
+   "why": "Aerial of Saint-Barthélemy bays and islets"
+  },
+  "bm": {
+   "review": "approved",
+   "title": "ISS017-E-10695 - View of Bermuda.jpg",
+   "why": "Orbit view of the whole Bermuda atoll and reef platform; the place itself, though a ground photo would be better"
+  },
+  "bn": {
+   "review": "approved",
+   "title": "BN-bsb-jame-asr-hassanil-m-2.jpg",
+   "why": "Jame' Asr Hassanil Bolkiah Mosque, Bandar Seri Begawan"
+  },
+  "bo": {
+   "review": "approved",
+   "title": "LagunaChiarKhota2013.jpg",
+   "why": "Laguna Chiar Khota and Condoriri peaks, Cordillera Real, Bolivia"
+  },
+  "br": {
+   "review": "approved",
+   "title": "Cidade Maravilhosa.jpg",
+   "why": "Christ the Redeemer above Rio de Janeiro and Sugarloaf"
+  },
+  "bs": {
+   "review": "approved",
+   "title": "Jaws Beach, Bahamas banner.jpg",
+   "why": "Jaws Beach, New Providence, Bahamas; shallow turquoise water"
+  },
+  "bt": {
+   "review": "approved",
+   "title": "Bhutan Wikivoyage banner.jpg",
+   "why": "Paro Taktsang (Tiger's Nest) monastery on cliff, Bhutan"
+  },
+  "bw": {
+   "review": "approved",
+   "title": "Okavango Delta, Botswana (2674364913).jpg",
+   "why": "Okavango Delta floodplain channels from the air"
+  },
+  "by": {
+   "review": "approved",
+   "title": "Strusta Lake banner.jpg",
+   "why": "Strusta Lake, Braslav Lakes, Belarus; flat lake country matches"
+  },
+  "bz": {
+   "review": "approved",
+   "title": "Belize banner Caye with beach huts and palm trees.jpg",
+   "why": "Belize caye with thatched huts and palms"
+  },
+  "ca": {
+   "review": "approved",
+   "title": "Alberta (Canada) banner Herbert lake shore.png",
+   "why": "Herbert Lake shore, Banff, Alberta; inside Canada with Rockies"
+  },
+  "cc": {
+   "review": "approved",
+   "title": "Cocos (Keeling) Islands (32206670676).jpg",
+   "why": "Cocos (Keeling) lagoon with palm-fringed islets"
+  },
+  "cd": {
+   "review": "approved",
+   "title": "Democratic Republic of the Congo banner Katopa Camp on the Lomami river.jpg",
+   "why": "Riverside camp with dugout canoes in rainforest, captioned Katopa Camp, DR Congo"
+  },
+  "cf": {
+   "review": "approved",
+   "title": "Central-African-Republic-Dzanga-Sangha-National-Park-Bayanga-elephants-banner.jpg",
+   "why": "Forest clearing (bai) in Dzanga-Sangha National Park, Central African Republic"
+  },
+  "cg": {
+   "review": "approved",
+   "title": "Congo banner Congo River.JPG",
+   "why": "Sunset over the Congo River"
+  },
+  "ch": {
+   "review": "approved",
+   "title": "Sörenberg banner.jpg",
+   "why": "Swiss pre-Alpine ridges and valley (Stierenberg)"
+  },
+  "ci": {
+   "review": "approved",
+   "title": "San Pédro banner Beach.jpg",
+   "why": "Palm-lined beach at San-Pédro, Côte d'Ivoire"
+  },
+  "ck": {
+   "review": "approved",
+   "title": "ISS006-E-38664 - View of the Cook Islands.jpg",
+   "why": "Orbit view of Aitutaki's triangular lagoon, Cook Islands; recognisable"
+  },
+  "cl": {
+   "review": "approved",
+   "title": "Macizo Paine al Amanecer Torres del Paine.jpg",
+   "why": "Cuernos del Paine, Torres del Paine, Chile"
+  },
+  "cl/rapa-nui": {
+   "review": "approved",
+   "title": "Easter Island 5.jpg",
+   "why": "Moai on volcanic coast of Rapa Nui"
+  },
+  "cm": {
+   "review": "approved",
+   "title": "Cameroon banner Kribi beach with boats.jpg",
+   "why": "Kribi beach with boats, Cameroon"
+  },
+  "cn": {
+   "review": "approved",
+   "title": "Badaling China Great-Wall-of-China-01.jpg",
+   "why": "Great Wall at Badaling, China"
+  },
+  "co": {
+   "review": "approved",
+   "title": "El Desierto de Tatacoah (Colombia) banner.jpg",
+   "why": "Tatacoa Desert red eroded badlands, Colombia"
+  },
+  "cq": {
+   "review": "approved",
+   "title": "Sark-aerial.jpg",
+   "why": "Aerial of Sark showing its distinctive shape and field pattern"
+  },
+  "cr": {
+   "review": "approved",
+   "title": "Costa Rica WV banner.jpg",
+   "why": "Arenal volcano cone over rainforest, Costa Rica"
+  },
+  "cu": {
+   "review": "approved",
+   "title": "Santa Clara (Cuba).jpg",
+   "why": "1950s American car on a colonial street, Santa Clara, Cuba"
+  },
+  "cv": {
+   "review": "approved",
+   "title": "Pico de Fogo banner.jpg",
+   "why": "Pico do Fogo volcano, Cabo Verde"
+  },
+  "cw": {
+   "review": "approved",
+   "title": "Facades of Handelskade, Willemstad, Curaçao - February 2020.jpg",
+   "why": "Handelskade coloured facades, Willemstad, Curaçao"
+  },
+  "cx": {
+   "review": "approved",
+   "title": "Christmas Island banner.jpg",
+   "why": "Christmas Island coast with jungle and surf"
+  },
+  "cy": {
+   "review": "approved",
+   "title": "Vouni (Cyprus) banner.jpg",
+   "why": "Vouni hillside village, Troodos, Cyprus"
+  },
+  "cz": {
+   "review": "approved",
+   "title": "Czech Republic WV banner.jpg",
+   "why": "Charles Bridge and Prague riverside, Czechia"
   }
  }
 }

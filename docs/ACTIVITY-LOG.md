@@ -351,3 +351,13 @@ Events are tagged `"by": "official-events"`, so the election and watch scripts w
 - Thailand's tourism entry fee: only a news report (THB 450, possibly April 2027); no Royal Gazette notice yet.
 - Hajj 2027 dates: expected around 14 to 19 May, subject to moon sighting; no official date.
 - Japan's departure tax rise to JPY 3,000: already took effect on 1 July 2026, so it's in the past.
+
+## 2026-11-01 16:55 AEST, Grok: photo review, batch 1 of 4 (ad to cz, 68 photos)
+
+Luke asked me to apply the verdicts myself: approve the confirmed photos, reject the denied ones, and keep the unsure list short.
+- **Method:** I looked at each place photo as a 330 px thumbnail and judged it against its place. I also read each file's camera EXIF on Commons to enforce the no-drone rule.
+- **Approved:** marked with `review: approved` plus the file title in `site/heroes/place-photo-choices.json`.
+- **Rejected:** set to `use: none` with `review: rejected` and the reason.
+- **Script change:** `place_photos.py` now carries an approval through a rebuild, but only for the exact file that was judged.
+- **Audit trail:** `data/photo-review-recommendations.json` and `docs/PHOTO-REVIEW-RECOMMENDATIONS.md`.
+- **Batch 1:** 65 confirmed, 3 denied (au/nsw and au/sa are orbit views; au/qld is generic palm fronds), 0 unsure.

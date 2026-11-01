@@ -1,0 +1,487 @@
+{
+ "rule": "Vision review of each place photo by Grok Bot. confirm = approved in site/heroes/place-photo-choices.json; deny = rejected (use: none); unsure = left pending. Luke authorised applying verdicts on 1 November 2026.",
+ "reviewed_on": "2026-11-01",
+ "method": "Viewed each image (330 px thumbnail) against its place; also read camera EXIF on Commons to enforce the no-drone rule.",
+ "items": {
+  "ad": {
+   "verdict": "confirm",
+   "reason": "Andorra la Vella town in a Pyrenees valley, matches title and terrain",
+   "title": "Andorra la Vella - footpath.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Andorra_la_Vella_-_footpath.jpg",
+   "via": "Wikidata main image"
+  },
+  "ae": {
+   "verdict": "confirm",
+   "reason": "Dubai Mall fountain lake and towers seen from Burj Khalifa",
+   "title": "Souq Al Bahar From Burj Khalifa, Dubai (7997597156).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Souq_Al_Bahar_From_Burj_Khalifa,_Dubai_(7997597156).jpg",
+   "via": "Wikidata main image"
+  },
+  "af": {
+   "verdict": "confirm",
+   "reason": "Band-e Amir lakes and cliffs, Bamyan; terrain matches",
+   "title": "Band Amir banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Band_Amir_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "ag": {
+   "verdict": "confirm",
+   "reason": "Caribbean beach scene captioned Antigua; consistent, no conflicting signage",
+   "title": "Antigua banner beach.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Antigua_banner_beach.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "ai": {
+   "verdict": "confirm",
+   "reason": "Blowing Point ferry terminal, Anguilla; Caribbean harbour consistent",
+   "title": "Blowing Point (Anguilla) banner Ferry terminal.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Blowing_Point_(Anguilla)_banner_Ferry_terminal.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "al": {
+   "verdict": "confirm",
+   "reason": "Albanian hill and valley landscape; generic but consistent with Albania and captioned as such",
+   "title": "Albania banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Albania_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "am": {
+   "verdict": "confirm",
+   "reason": "Noravank monastery and red cliffs, a well-known Armenian landmark",
+   "title": "Noravank panorama.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Noravank_panorama.jpg",
+   "via": "Wikidata main image"
+  },
+  "ao": {
+   "verdict": "confirm",
+   "reason": "Kalandula Falls, Malanje, Angola; recognisable broad falls",
+   "title": "Malange (Angola) banner Kalandula waterfalls of the Lucala River.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Malange_(Angola)_banner_Kalandula_waterfalls_of_the_Lucala_River.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "aq": {
+   "verdict": "confirm",
+   "reason": "Ice and penguin on Antarctic sea ice",
+   "title": "Antarctica-banner1.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Antarctica-banner1.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "aq/australian-antarctic-territory": {
+   "verdict": "confirm",
+   "reason": "Davis Station buildings on Antarctic coast",
+   "title": "Davis Station November 2005.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Davis_Station_November_2005.jpg",
+   "via": "Wikidata main image"
+  },
+  "ar": {
+   "verdict": "confirm",
+   "reason": "Patagonian Andes with horse; captioned Argentina",
+   "title": "Argentina Banner 5.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Argentina_Banner_5.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "as": {
+   "verdict": "confirm",
+   "reason": "Tropical coast and steep green ridges consistent with Tutuila, American Samoa",
+   "title": "American Samoa-banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:American_Samoa-banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "at": {
+   "verdict": "confirm",
+   "reason": "Alpine village with church spire under limestone cliffs, typical Austria",
+   "title": "Austria-banner1.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Austria-banner1.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "au": {
+   "verdict": "confirm",
+   "reason": "Uluru at sunset from the public viewing area; depicts Australia (sacred-site sensitivity already noted in PHOTO-REVIEW)",
+   "title": "Uluru-Kata Tjuta banner Uluru Sunset.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Uluru-Kata_Tjuta_banner_Uluru_Sunset.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "au/act": {
+   "verdict": "confirm",
+   "reason": "ACT Legislative Assembly building and Civic Square, Canberra",
+   "title": "Australian Capital Territory Legislative Assembly.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Australian_Capital_Territory_Legislative_Assembly.jpg",
+   "via": "Wikidata main image"
+  },
+  "au/lord-howe-island": {
+   "verdict": "confirm",
+   "reason": "Lagoon and Mt Lidgbird/Gower skyline of Lord Howe Island",
+   "title": "Lord Howe Island banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Lord_Howe_Island_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "au/minjerribah": {
+   "verdict": "confirm",
+   "reason": "Hand-chosen Main Beach from Point Lookout; verified source",
+   "title": "View of Main Beach from Point Lookout (North Stradbroke Island).JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:View_of_Main_Beach_from_Point_Lookout_(North_Stradbroke_Island).JPG",
+   "via": "Wikimedia Commons, chosen by Claude"
+  },
+  "au/nsw": {
+   "verdict": "deny",
+   "reason": "Astronaut orbit view; NSW not identifiable to a traveller, a stand-in rather than a place photo",
+   "title": "ISS037-E-21113 - View of New South Wales.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:ISS037-E-21113_-_View_of_New_South_Wales.jpg",
+   "via": "Wikidata main image"
+  },
+  "au/qld": {
+   "verdict": "deny",
+   "reason": "Generic palm fronds against sky; nothing identifies Queensland",
+   "title": "Townsville (Queensland) banner Palms.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Townsville_(Queensland)_banner_Palms.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "au/sa": {
+   "verdict": "deny",
+   "reason": "Orbit view dominated by spacecraft and Earth's curve; South Australia not identifiable",
+   "title": "STS131-E-12044 - View of South Australia.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:STS131-E-12044_-_View_of_South_Australia.jpg",
+   "via": "Wikidata main image"
+  },
+  "au/tas": {
+   "verdict": "confirm",
+   "reason": "Port Arthur Historic Site ruins, Tasmania",
+   "title": "Port Arthur (Tasmania) banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Port_Arthur_(Tasmania)_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "au/vic": {
+   "verdict": "confirm",
+   "reason": "Twelve Apostles, Great Ocean Road, Victoria",
+   "title": "Victoria, Australia banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Victoria,_Australia_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "au/wa": {
+   "verdict": "confirm",
+   "reason": "Outback highway with WA road sign; plausible Western Australia",
+   "title": "Western Australia banner Road.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Western_Australia_banner_Road.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "aw": {
+   "verdict": "confirm",
+   "reason": "Eagle Beach style white sand and high-rise hotels, Aruba",
+   "title": "Aruba-banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Aruba-banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "ax": {
+   "verdict": "confirm",
+   "reason": "Low Baltic coastline and skerries typical of Åland",
+   "title": "Aland banner Coastal panorama.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Aland_banner_Coastal_panorama.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "az": {
+   "verdict": "confirm",
+   "reason": "Caucasus mountain valley; captioned Azerbaijan landscape",
+   "title": "Azerbajiani landscape banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Azerbajiani_landscape_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "ba": {
+   "verdict": "confirm",
+   "reason": "Gornji Orahovac valley, Bosnia and Herzegovina, matches title",
+   "title": "Gornji Orahovac, Bosnia y Herzegovina, 2014-04-14, DD 10-13 PAN.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Gornji_Orahovac,_Bosnia_y_Herzegovina,_2014-04-14,_DD_10-13_PAN.jpg",
+   "via": "Wikidata main image"
+  },
+  "bb": {
+   "verdict": "confirm",
+   "reason": "White-sand beach and turquoise water on Barbados coast",
+   "title": "Barbados (50).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Barbados_(50).jpg",
+   "via": "Wikidata main image"
+  },
+  "bd": {
+   "verdict": "confirm",
+   "reason": "Flat Bay of Bengal shoreline with Bengali-titled file; consistent with Bangladesh coast",
+   "title": "সেন্টমার্টিন-উইকিভ্রমণ ব্যানার.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:%E0%A6%B8%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%A8-%E0%A6%89%E0%A6%87%E0%A6%95%E0%A6%BF%E0%A6%AD%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%A3_%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B0.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "be": {
+   "verdict": "confirm",
+   "reason": "Grand-Place guildhalls, Brussels",
+   "title": "Belgique - Bruxelles - Grand-Place - Côté nord-est.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Grand-Place_-_C%C3%B4t%C3%A9_nord-est.jpg",
+   "via": "Wikidata main image"
+  },
+  "bf": {
+   "verdict": "confirm",
+   "reason": "Sudano-Sahelian mud mosque (Bobo-Dioulasso style), Burkina Faso",
+   "title": "Burkina Faso Wikivoyage banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Burkina_Faso_Wikivoyage_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "bg": {
+   "verdict": "confirm",
+   "reason": "Rila Monastery, Bulgaria; distinctive striped arcades",
+   "title": "Rila Monastery, August 2013.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Rila_Monastery,_August_2013.jpg",
+   "via": "Wikidata main image"
+  },
+  "bh": {
+   "verdict": "confirm",
+   "reason": "Manama skyline with Bahrain World Trade Center twin towers",
+   "title": "Manama, Bahrain Decembre 2014.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Manama,_Bahrain_Decembre_2014.jpg",
+   "via": "Wikidata main image"
+  },
+  "bi": {
+   "verdict": "confirm",
+   "reason": "Lake Tanganyika beach at Bujumbura with hills behind",
+   "title": "Bujumbura (Burundi) Coconut beach.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Bujumbura_(Burundi)_Coconut_beach.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "bj": {
+   "verdict": "confirm",
+   "reason": "Thatched paillote on a West African beach; captioned Benin",
+   "title": "Benin Wikivoyage banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Benin_Wikivoyage_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "bl": {
+   "verdict": "confirm",
+   "reason": "Aerial of Saint-Barthélemy bays and islets",
+   "title": "Saint Barth - Vue panoramique - Octobre 2009.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Saint_Barth_-_Vue_panoramique_-_Octobre_2009.jpg",
+   "via": "Wikidata main image"
+  },
+  "bm": {
+   "verdict": "confirm",
+   "reason": "Orbit view of the whole Bermuda atoll and reef platform; the place itself, though a ground photo would be better",
+   "title": "ISS017-E-10695 - View of Bermuda.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:ISS017-E-10695_-_View_of_Bermuda.jpg",
+   "via": "Wikidata main image"
+  },
+  "bn": {
+   "verdict": "confirm",
+   "reason": "Jame' Asr Hassanil Bolkiah Mosque, Bandar Seri Begawan",
+   "title": "BN-bsb-jame-asr-hassanil-m-2.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:BN-bsb-jame-asr-hassanil-m-2.jpg",
+   "via": "Wikidata main image"
+  },
+  "bo": {
+   "verdict": "confirm",
+   "reason": "Laguna Chiar Khota and Condoriri peaks, Cordillera Real, Bolivia",
+   "title": "LagunaChiarKhota2013.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:LagunaChiarKhota2013.jpg",
+   "via": "Wikidata main image"
+  },
+  "bq": {
+   "verdict": "confirm",
+   "reason": "Windwardside village on green slopes of Saba",
+   "title": "Saba-banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Saba-banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "br": {
+   "verdict": "confirm",
+   "reason": "Christ the Redeemer above Rio de Janeiro and Sugarloaf",
+   "title": "Cidade Maravilhosa.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Cidade_Maravilhosa.jpg",
+   "via": "Wikidata main image"
+  },
+  "bs": {
+   "verdict": "confirm",
+   "reason": "Jaws Beach, New Providence, Bahamas; shallow turquoise water",
+   "title": "Jaws Beach, Bahamas banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Jaws_Beach,_Bahamas_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "bt": {
+   "verdict": "confirm",
+   "reason": "Paro Taktsang (Tiger's Nest) monastery on cliff, Bhutan",
+   "title": "Bhutan Wikivoyage banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Bhutan_Wikivoyage_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "bw": {
+   "verdict": "confirm",
+   "reason": "Okavango Delta floodplain channels from the air",
+   "title": "Okavango Delta, Botswana (2674364913).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Okavango_Delta,_Botswana_(2674364913).jpg",
+   "via": "Wikidata main image"
+  },
+  "by": {
+   "verdict": "confirm",
+   "reason": "Strusta Lake, Braslav Lakes, Belarus; flat lake country matches",
+   "title": "Strusta Lake banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Strusta_Lake_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "bz": {
+   "verdict": "confirm",
+   "reason": "Belize caye with thatched huts and palms",
+   "title": "Belize banner Caye with beach huts and palm trees.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Belize_banner_Caye_with_beach_huts_and_palm_trees.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "ca": {
+   "verdict": "confirm",
+   "reason": "Herbert Lake shore, Banff, Alberta; inside Canada with Rockies",
+   "title": "Alberta (Canada) banner Herbert lake shore.png",
+   "source": "https://commons.wikimedia.org/wiki/File:Alberta_(Canada)_banner_Herbert_lake_shore.png",
+   "via": "Wikivoyage page banner"
+  },
+  "cc": {
+   "verdict": "confirm",
+   "reason": "Cocos (Keeling) lagoon with palm-fringed islets",
+   "title": "Cocos (Keeling) Islands (32206670676).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Cocos_(Keeling)_Islands_(32206670676).jpg",
+   "via": "Wikidata main image"
+  },
+  "cd": {
+   "verdict": "confirm",
+   "reason": "Riverside camp with dugout canoes in rainforest, captioned Katopa Camp, DR Congo",
+   "title": "Democratic Republic of the Congo banner Katopa Camp on the Lomami river.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Democratic_Republic_of_the_Congo_banner_Katopa_Camp_on_the_Lomami_river.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "cf": {
+   "verdict": "confirm",
+   "reason": "Forest clearing (bai) in Dzanga-Sangha National Park, Central African Republic",
+   "title": "Central-African-Republic-Dzanga-Sangha-National-Park-Bayanga-elephants-banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Central-African-Republic-Dzanga-Sangha-National-Park-Bayanga-elephants-banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "cg": {
+   "verdict": "confirm",
+   "reason": "Sunset over the Congo River",
+   "title": "Congo banner Congo River.JPG",
+   "source": "https://commons.wikimedia.org/wiki/File:Congo_banner_Congo_River.JPG",
+   "via": "Wikivoyage page banner"
+  },
+  "ch": {
+   "verdict": "confirm",
+   "reason": "Swiss pre-Alpine ridges and valley (Stierenberg)",
+   "title": "Sörenberg banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:S%C3%B6renberg_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "ci": {
+   "verdict": "confirm",
+   "reason": "Palm-lined beach at San-Pédro, Côte d'Ivoire",
+   "title": "San Pédro banner Beach.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:San_P%C3%A9dro_banner_Beach.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "ck": {
+   "verdict": "confirm",
+   "reason": "Orbit view of Aitutaki's triangular lagoon, Cook Islands; recognisable",
+   "title": "ISS006-E-38664 - View of the Cook Islands.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:ISS006-E-38664_-_View_of_the_Cook_Islands.jpg",
+   "via": "Wikidata main image"
+  },
+  "cl": {
+   "verdict": "confirm",
+   "reason": "Cuernos del Paine, Torres del Paine, Chile",
+   "title": "Macizo Paine al Amanecer Torres del Paine.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Macizo_Paine_al_Amanecer_Torres_del_Paine.jpg",
+   "via": "Wikidata main image"
+  },
+  "cl/rapa-nui": {
+   "verdict": "confirm",
+   "reason": "Moai on volcanic coast of Rapa Nui",
+   "title": "Easter Island 5.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Easter_Island_5.jpg",
+   "via": "Wikidata main image"
+  },
+  "cm": {
+   "verdict": "confirm",
+   "reason": "Kribi beach with boats, Cameroon",
+   "title": "Cameroon banner Kribi beach with boats.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Cameroon_banner_Kribi_beach_with_boats.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "cn": {
+   "verdict": "confirm",
+   "reason": "Great Wall at Badaling, China",
+   "title": "Badaling China Great-Wall-of-China-01.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Badaling_China_Great-Wall-of-China-01.jpg",
+   "via": "Wikidata main image"
+  },
+  "cn/tibet": {
+   "verdict": "confirm",
+   "reason": "Tibetan monastery town and arid mountains, Tibet",
+   "title": "Tibet Wikivoyage banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Tibet_Wikivoyage_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "co": {
+   "verdict": "confirm",
+   "reason": "Tatacoa Desert red eroded badlands, Colombia",
+   "title": "El Desierto de Tatacoah (Colombia) banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:El_Desierto_de_Tatacoah_(Colombia)_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "cq": {
+   "verdict": "confirm",
+   "reason": "Aerial of Sark showing its distinctive shape and field pattern",
+   "title": "Sark-aerial.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Sark-aerial.jpg",
+   "via": "Wikidata main image"
+  },
+  "cr": {
+   "verdict": "confirm",
+   "reason": "Arenal volcano cone over rainforest, Costa Rica",
+   "title": "Costa Rica WV banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Costa_Rica_WV_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "cu": {
+   "verdict": "confirm",
+   "reason": "1950s American car on a colonial street, Santa Clara, Cuba",
+   "title": "Santa Clara (Cuba).jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Santa_Clara_(Cuba).jpg",
+   "via": "Wikidata main image"
+  },
+  "cv": {
+   "verdict": "confirm",
+   "reason": "Pico do Fogo volcano, Cabo Verde",
+   "title": "Pico de Fogo banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Pico_de_Fogo_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "cw": {
+   "verdict": "confirm",
+   "reason": "Handelskade coloured facades, Willemstad, Curaçao",
+   "title": "Facades of Handelskade, Willemstad, Curaçao - February 2020.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Facades_of_Handelskade,_Willemstad,_Cura%C3%A7ao_-_February_2020.jpg",
+   "via": "Wikidata main image"
+  },
+  "cx": {
+   "verdict": "confirm",
+   "reason": "Christmas Island coast with jungle and surf",
+   "title": "Christmas Island banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Christmas_Island_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "cy": {
+   "verdict": "confirm",
+   "reason": "Vouni hillside village, Troodos, Cyprus",
+   "title": "Vouni (Cyprus) banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Vouni_(Cyprus)_banner.jpg",
+   "via": "Wikivoyage page banner"
+  },
+  "cz": {
+   "verdict": "confirm",
+   "reason": "Charles Bridge and Prague riverside, Czechia",
+   "title": "Czech Republic WV banner.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Czech_Republic_WV_banner.jpg",
+   "via": "Wikivoyage page banner"
+  }
+ },
+ "counts": {
+  "confirm": 65,
+  "deny": 3
+ }
+}

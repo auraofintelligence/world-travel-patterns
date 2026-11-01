@@ -161,6 +161,12 @@ def main():
 
     curated = read(ROOT / "site/heroes/place-photos-curated.json", {"photos": {}})["photos"]
     photos.update(curated)
+    # Review verdicts (approved / rejected) recorded in place-photo-choices.json apply only to the exact file judged.
+    for pid, ph in photos.items():
+        c = choices.get(pid, {})
+        if c.get("review") == "approved" and c.get("title") == ph["title"]:
+            ph["review"] = "approved"
+            ph["review_note"] = c.get("why", "")
     write(ROOT / "site/data/place-photos.json", {
         "built_on": today().isoformat(),
         "rule": "A photo of the place, or of somewhere inside it (labelled), or none. Never a stand-in from elsewhere.",
