@@ -824,6 +824,45 @@
      "supports": "greetings, punctuality, names, drinking, nudity, recycling (read directly)"
     }
    ]
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2027-02-10",
+     "what": "77th Berlin International Film Festival (Berlinale), 10 to 21 February",
+     "effect": "Berlin hotels busy; public screenings",
+     "url": "https://www.berlinale.de/en/dates.html",
+     "by": "official-events",
+     "category": "film"
+    },
+    {
+     "date": "2027-10-14",
+     "what": "VENUS Berlin, erotic trade fair and festival (18+), 14 to 17 October, Messe Berlin",
+     "effect": "Adult-only event; Messe Berlin area busy",
+     "url": "https://www.berlin.de/en/tickets/miscellaneous/venus-2027-9476aebe-7352-4d6e-acc3-2346b083d888/",
+     "by": "official-events",
+     "category": "dating-marriage-adult"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Festival dates",
+     "authority": "Berlinale (organiser)",
+     "url": "https://www.berlinale.de/en/dates.html",
+     "checked": "2026-11-01",
+     "supports": "event dates (read via a search-index snapshot)"
+    },
+    {
+     "title": "Venus 2027 listing",
+     "authority": "Berlin.de (official city portal of Land Berlin); organiser site still lists 2026",
+     "url": "https://www.berlin.de/en/tickets/miscellaneous/venus-2027-9476aebe-7352-4d6e-acc3-2346b083d888/",
+     "checked": "2026-11-01",
+     "supports": "event dates (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-01"
   }
  }
 }

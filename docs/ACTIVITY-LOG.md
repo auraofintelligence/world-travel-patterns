@@ -492,3 +492,7 @@ Searched national tourism boards and government etiquette pages for 12 ask-local
 ## 2026-11-01 16:57 AEST, Grok: Culture national-source search bt-co (10 records)
 
 Searched national tourism boards and government etiquette pages for 10 ask-locally culture records. Upgraded 8: bw, bz, ch, cl and co are partly mapped; bt, ck and cm are community-published. Searched with none found for by and ci. Correction to the bb-bs entry: 10 records were upgraded, not 9 (bn is community-published, plus 9 partly mapped).
+
+## 2026-11-01 16:58 AEST, Grok: Year-ahead 2027 official events by category (11 records)
+
+Extended the year-ahead schema (version 2) with an optional event category field; validate.py now checks it. Event category list for Claude: wellbeing-spiritual, technology, music, dating-marriage-adult, film, national-day, arts-culture, sport, religious-pilgrimage, election, other. Added 13 official-events entries across 11 records: ad, ae, am, ar, at (2), de (2), dk, fr, hu, id and jp. All sources are organiser or government pages. Skipped (no official 2027 dates yet): GITEX Global, Web Summit, TIFF and Tomorrowland. Rock in Rio is biennial, with no 2027 edition. ad and ae are fixed-date national days, cited from government holiday pages.

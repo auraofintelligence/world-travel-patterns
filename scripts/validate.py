@@ -58,6 +58,13 @@ def main():
                 check(not FORBIDDEN_KEYS.search(key), f"{where}: private field {key} is not allowed")
             for url in re.findall(r'"url": "([^"]+)"', text):
                 check(url.startswith("https://") or url.startswith("http://"), f"{where}: bad url {url}")
+            if pattern_id == "year-ahead":
+                cats = set(pattern.get("event_categories", []))
+                for ev in body.get("events", []):
+                    if "category" in ev:
+                        check(ev["category"] in cats, f"{where}: unknown event category {ev['category']}")
+                    if ev.get("by") == "official-events":
+                        check(re.fullmatch(r"\d{4}-\d{2}-\d{2}", ev.get("date", "")) and ev.get("url"), f"{where}: official event needs date and url")
             if body.get("provenance", {}).get("repo") is None:
                 check(chr(0x2014) not in text, f"{where}: em dash in new text")
 

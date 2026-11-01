@@ -25,14 +25,28 @@
   "data/feeds (GAJRA Earth Ahead and others: signals to confirm at source)"
  ],
  "fields": [
-  "events[]: date, what, effect, url"
+  "events[]: date, what, effect, url, by, category (optional; required when by is official-events and the event is a festival or conference)"
  ],
  "statuses": [
   "mapped",
   "unknown"
  ],
  "rules": [
-  "A date must come from a source. 'Later this year' is not a date."
+  "A date must come from a source. 'Later this year' is not a date.",
+  "Optional event field 'category' must be one of event_categories. Adult (18+) events use dating-marriage-adult and must come from the organiser's own site."
  ],
- "version": 1
+ "version": 2,
+ "event_categories": [
+  "wellbeing-spiritual",
+  "technology",
+  "music",
+  "dating-marriage-adult",
+  "film",
+  "national-day",
+  "arts-culture",
+  "sport",
+  "religious-pilgrimage",
+  "election",
+  "other"
+ ]
 }
