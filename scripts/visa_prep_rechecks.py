@@ -892,3 +892,34 @@ RECHECKS.update({
              src("Consular tariff, October 2026 (AUD)", "Embassy of Cuba in Australia (MINREX)", CUP, "tourist card prices in AUD" + SNAP),
              note="Cuba is moving to an electronic tourist visa; check whether the fee differs."),
 })
+
+
+# Batch DNT (2026-11-01): Smartraveller "Do not travel" countries, done last by Luke's ordering rule.
+# Smartraveller's visa text was reread; none of these pages state a fee, so all but ve stay flagged.
+DNT = "Smartraveller advises Do not travel. "
+RECHECKS.update({
+    "af": flag(DNT + "Smartraveller gives no visa details. Not all Afghan embassies can issue valid travel documents, and passport services in Afghanistan are severely limited. No fee stated."),
+    "bf": flag(DNT + "Smartraveller says to contact an embassy or consulate of Burkina Faso for visas; entry rules and borders can change without notice. No fee stated."),
+    "cd": flag(DNT + "A visa is needed before arrival; there is no visa on arrival. The nearest DRC embassy is in Tokyo. No fee stated."),
+    "cf": flag(DNT + "Contact an embassy or consulate of the CAR for a visa; the Consulate-General of France in Sydney may help. No fee stated."),
+    "ht": flag(DNT + "Contact a Haitian embassy for visa details. An arrival fee is payable at Toussaint Louverture airport (amount not stated); under-5s and some others are exempt. Travel via the US needs US entry or transit permission."),
+    "iq": flag(DNT + "An e-visa from the Iraq e-Visa Portal is needed before travel, and airlines check it. Kurdistan Region visas (KRG e-visa or on arrival) are valid only in the Kurdistan Region. Israeli stamps may lead to refused entry. No fee stated."),
+    "ir": flag(DNT + "A visa is needed before travel, through the Iranian Embassy in Australia. Overstaying brings a fine and needs an exit visa. Travel to Israel is illegal under Iranian law. No fee stated."),
+    "kp": flag(DNT + "A visa is needed for all travel, and there is no DPRK mission in Australia, so you apply in another country such as China or Indonesia. Arriving without a visa risks detention. No fee stated."),
+    "lb": flag(DNT + "A tourist visa is available on arrival; contact a Lebanese embassy for details. No fee stated."),
+    "ly": flag(DNT + "A visa is needed; contact the nearest Libyan embassy or consulate. No fee stated."),
+    "ml": flag(DNT + "A visa is needed; contact the nearest Embassy of Mali. No fee stated."),
+    "ne": flag(DNT + "A visa is needed in advance of travel. No fee stated."),
+    "ps": flag(DNT + "Entry is mostly through Israeli-controlled ports, so Israel's visa and security rules apply. Israel has had requirements for foreign nationals entering the West Bank since October 2022. No fee stated."),
+    "sd": flag(DNT + "A visa is needed and can take months; it is not granted automatically. Single-entry visitors may need an exit visa. Contact the Embassy of Sudan in Canberra. Yellow fever certificate may be needed. No fee stated."),
+    "so": flag(DNT + "Visas are mandatory, via the Immigration and Citizenship Agency e-visa (a data breach in November 2025 exposed applicants' details). Visas may not be valid in Somaliland and Puntland. No fee stated."),
+    "ss": flag(DNT + "A visa must be issued in advance through the Department of e-Visa and Immigration Services; there is no entry without one. Extend through the Ministry of the Interior. No fee stated."),
+    "sy": flag(DNT + "A visa is needed unless you hold Syrian identity documents; a Syrian eVisa is available online. Parts of Syria are controlled by groups that may issue local permits. No fee stated."),
+    "td": flag(DNT + "A visa is needed before arrival; contact an embassy or consulate of Chad. No fee stated."),
+    "ye": flag(DNT + "A visa is needed before travel, from the legitimate Yemeni Government, including for Socotra; beware private companies selling Socotra visa packages. Check exit rules before booking. No fee stated."),
+    "ru": flag(DNT + "A visa is needed (except on certain commercial cruises); there is no visa on arrival. Arriving without one means a fine, detention and deportation. The visa type must match the purpose, biometrics may be needed, and details can't be corrected once in Russia. No fee stated."),
+    "ve": visa("ve", "Smartraveller advises Do not travel. In most cases no visa is needed for tourist visits under 90 days.",
+               ["Check with SAIME (Venezuelan migration) before travelling.", "Work trips need an employer letter and local contact details, with a Spanish translation."],
+               ["Passport valid at least 6 months after departure", "Proof of return or onward travel"], [free("ve", "visa-free tourist visit (under 90 days)", "VES")],
+               note="Smartraveller advises Do not travel to Venezuela."),
+})
