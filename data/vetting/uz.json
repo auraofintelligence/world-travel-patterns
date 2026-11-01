@@ -157,25 +157,73 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Uzbekistan",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Uzbekistan which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visa-free entry or business e-visa",
+     "detail": "Short business meetings and conferences fit visa-free entry (where your nationality qualifies) or a business e-visa. Visa-free status does not authorise employment.",
+     "next": "Register your address within 3 working days.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa to the Republic of Uzbekistan",
+       "authority": "Ministry of Foreign Affairs, Uzbekistan",
+       "url": "https://gov.uz/en/mfa/pages/o-zbekiston-respublikasi-vizasi",
+       "checked": "2026-11-01",
+       "supports": "visa-free and business e-visa entry (read via a search-index snapshot)"
+      },
+      {
+       "title": "Obtaining confirmation for the right to employment",
+       "authority": "my.gov.uz, Government of Uzbekistan",
+       "url": "https://my.gov.uz/en/service/270",
+       "checked": "2026-11-01",
+       "supports": "employer must obtain work confirmation through the Migration Agency (read via a search-index snapshot)"
+      }
+     ]
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Uzbekistan",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Uzbekistan which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visa-free entry or business e-visa",
+     "detail": "Short business meetings and conferences fit visa-free entry (where your nationality qualifies) or a business e-visa. Visa-free status does not authorise employment.",
+     "next": "Register your address within 3 working days.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa to the Republic of Uzbekistan",
+       "authority": "Ministry of Foreign Affairs, Uzbekistan",
+       "url": "https://gov.uz/en/mfa/pages/o-zbekiston-respublikasi-vizasi",
+       "checked": "2026-11-01",
+       "supports": "visa-free and business e-visa entry (read via a search-index snapshot)"
+      },
+      {
+       "title": "Obtaining confirmation for the right to employment",
+       "authority": "my.gov.uz, Government of Uzbekistan",
+       "url": "https://my.gov.uz/en/service/270",
+       "checked": "2026-11-01",
+       "supports": "employer must obtain work confirmation through the Migration Agency (read via a search-index snapshot)"
+      }
+     ]
     },
     "unpaid-speaking": {
      "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Uzbekistan",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Uzbekistan which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "route": "No published speaker rule",
+     "detail": "Official pages separate business visits from employment but do not address unpaid speaking.",
+     "next": "Ask the host to confirm in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa to the Republic of Uzbekistan",
+       "authority": "Ministry of Foreign Affairs, Uzbekistan",
+       "url": "https://gov.uz/en/mfa/pages/o-zbekiston-respublikasi-vizasi",
+       "checked": "2026-11-01",
+       "supports": "visa-free and business e-visa entry (read via a search-index snapshot)"
+      },
+      {
+       "title": "Obtaining confirmation for the right to employment",
+       "authority": "my.gov.uz, Government of Uzbekistan",
+       "url": "https://my.gov.uz/en/service/270",
+       "checked": "2026-11-01",
+       "supports": "employer must obtain work confirmation through the Migration Agency (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "low",
@@ -245,11 +293,27 @@
      "checked": "2026-11-01"
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Uzbekistan",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Uzbekistan which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visa-free entry or business e-visa",
+     "detail": "Short business meetings and conferences fit visa-free entry (where your nationality qualifies) or a business e-visa. Visa-free status does not authorise employment.",
+     "next": "Register your address within 3 working days.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa to the Republic of Uzbekistan",
+       "authority": "Ministry of Foreign Affairs, Uzbekistan",
+       "url": "https://gov.uz/en/mfa/pages/o-zbekiston-respublikasi-vizasi",
+       "checked": "2026-11-01",
+       "supports": "visa-free and business e-visa entry (read via a search-index snapshot)"
+      },
+      {
+       "title": "Obtaining confirmation for the right to employment",
+       "authority": "my.gov.uz, Government of Uzbekistan",
+       "url": "https://my.gov.uz/en/service/270",
+       "checked": "2026-11-01",
+       "supports": "employer must obtain work confirmation through the Migration Agency (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
      "status": "conditional",

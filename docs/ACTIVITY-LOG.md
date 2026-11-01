@@ -708,3 +708,7 @@ Do-not-travel culture pass: ps upgraded (Ministry of Tourism and Antiquities beh
 ## 2026-11-01 17:48 AEST, Grok: Do-not-travel culture fresh searches (af, bf, cd, cf, ye, so, ly, ss) and The Outing 2027 matchmaking event (9 records)
 
 Finishes the Do-not-travel culture category. Fresh, separate searches for af, bf, cd and cf replace the generic 897e1c1 entries. af upgraded (MoIC coordination letter, Virtue and Vice law dress rules); cf upgraded (France Diplomatie: Ministry of Tourism photo authorisation); bf and cd none found, with sites checked and unofficial pages excluded. ye upgraded (Yemen Tourism Promotion Board); so, ly, ss none found. Event: The Outing matchmaking 12 to 14 Feb 2027, Ennis (organiser). Venus Berlin 2027 was already recorded. Read via search-index snapshots.
+
+## 2026-11-01 17:49 AEST, Grok: Work rules for business visitors and speakers: lc, mu, na, uz, rs, sr, gy, jm, kz, kg, tj (11 records)
+
+Work rules filled from official sources: Saint Lucia business-visitor regulations; Mauritius business visitor terms (90 days a trip, 120 a year); Namibia business, MICE e-visa, and short-term work visa for speakers; Uzbekistan visa-free or business e-visa; Serbia Article 3 (90 days in 180 for lecturers and artists at events); Suriname business e-visa; Guyana business visa on arrival with sponsor; Jamaica arts and education exemption application; Kazakhstan B1 covers lectures; Kyrgyzstan B visa 60 days; Tajikistan visa-free 30 days. Read via search-index snapshots.

@@ -159,11 +159,20 @@
      "checked": "2026-11-01"
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Kyrgyz Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Kyrgyz Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "B business visa (or visa-free entry where eligible)",
+     "detail": "The B business visa covers conferences and meetings for up to 60 days. Paid employment needs a W1 or W2 visa and a work permit.",
+     "next": "Get a host invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa issues",
+       "authority": "Ministry of Foreign Affairs of the Kyrgyz Republic",
+       "url": "https://mfa.gov.kg/en/Menu---Foreign-/Consular-issues/Visa-issues/akistran",
+       "checked": "2026-11-01",
+       "supports": "B business visa for conferences and meetings up to 60 days; W visas for work (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "conditional",
@@ -219,11 +228,20 @@
      "checked": "2026-11-01"
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Kyrgyz Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Kyrgyz Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "B business visa (or visa-free entry where eligible)",
+     "detail": "The B business visa covers conferences and meetings for up to 60 days. Paid employment needs a W1 or W2 visa and a work permit.",
+     "next": "Get a host invitation.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa issues",
+       "authority": "Ministry of Foreign Affairs of the Kyrgyz Republic",
+       "url": "https://mfa.gov.kg/en/Menu---Foreign-/Consular-issues/Visa-issues/akistran",
+       "checked": "2026-11-01",
+       "supports": "B business visa for conferences and meetings up to 60 days; W visas for work (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
      "status": "conditional",

@@ -244,11 +244,20 @@
      "checked": "2026-11-01"
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission for the Republic of Guyana",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission for the Republic of Guyana which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business visa, or on arrival if the sponsor files details with Home Affairs",
+     "detail": "Business activities fit a business visa, which can be issued on arrival when the sponsor's details are lodged with the Ministry of Home Affairs before travel. Work permits are for employment.",
+     "next": "Have the host lodge sponsor details before you fly.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa Information",
+       "authority": "Ministry of Foreign Affairs, Guyana",
+       "url": "https://www.minfor.gov.gy/visa-information",
+       "checked": "2026-11-01",
+       "supports": "business visa and visa on arrival with sponsor details (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
      "status": "conditional",
