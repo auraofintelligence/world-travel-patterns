@@ -185,11 +185,20 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Armenia",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Armenia which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work permit for paid local work",
+     "detail": "Paid work in Armenia generally needs a work permit under the Law on Foreigners.",
+     "next": "Ask the host to confirm with the Migration and Citizenship Service whether a permit is needed.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Law of the Republic of Armenia on Foreigners",
+       "authority": "ARLIS (Armenian Legal Information System)",
+       "url": "https://www.arlis.am/en/acts/231843",
+       "checked": "2026-11-01",
+       "supports": "work permit rules and lecturer exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
      "status": "confirm-in-writing",
@@ -199,11 +208,20 @@
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Armenia",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Armenia which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Exempt when invited by an Armenian educational or scientific institution",
+     "detail": "The Law on Foreigners exempts foreign lecturers invited to teach or do scientific work at Armenian educational institutions; other paid work needs a work permit.",
+     "next": "Get the invitation from the institution itself.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Law of the Republic of Armenia on Foreigners",
+       "authority": "ARLIS (Armenian Legal Information System)",
+       "url": "https://www.arlis.am/en/acts/231843",
+       "checked": "2026-11-01",
+       "supports": "work permit rules and lecturer exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "remote-work": {
      "status": "confirm-in-writing",
@@ -227,11 +245,20 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Armenia",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Armenia which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work permit for paid local work",
+     "detail": "Paid work in Armenia generally needs a work permit under the Law on Foreigners.",
+     "next": "Ask the host to confirm with the Migration and Citizenship Service whether a permit is needed.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Law of the Republic of Armenia on Foreigners",
+       "authority": "ARLIS (Armenian Legal Information System)",
+       "url": "https://www.arlis.am/en/acts/231843",
+       "checked": "2026-11-01",
+       "supports": "work permit rules and lecturer exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "mixed-mission": {
      "status": "confirm-in-writing",
@@ -241,18 +268,36 @@
      "checked": "2026-11-01"
     },
     "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Armenia",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Armenia which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work permit for paid local work",
+     "detail": "Paid work in Armenia generally needs a work permit under the Law on Foreigners.",
+     "next": "Ask the host to confirm with the Migration and Citizenship Service whether a permit is needed.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Law of the Republic of Armenia on Foreigners",
+       "authority": "ARLIS (Armenian Legal Information System)",
+       "url": "https://www.arlis.am/en/acts/231843",
+       "checked": "2026-11-01",
+       "supports": "work permit rules and lecturer exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Armenia",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Armenia which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Exempt when invited by an Armenian educational or scientific institution",
+     "detail": "The Law on Foreigners exempts foreign lecturers invited to teach or do scientific work at Armenian educational institutions; other paid work needs a work permit.",
+     "next": "Get the invitation from the institution itself.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Law of the Republic of Armenia on Foreigners",
+       "authority": "ARLIS (Armenian Legal Information System)",
+       "url": "https://www.arlis.am/en/acts/231843",
+       "checked": "2026-11-01",
+       "supports": "work permit rules and lecturer exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
      "status": "confirm-in-writing",

@@ -552,3 +552,7 @@ Searched national tourism boards and government pages for 10 ask-locally culture
 ## 2026-11-01 17:12 AEST, Grok: Year-ahead 2027: national days and festivals, gy to sv (10 records)
 
 Added 10 official-events entries (all national days) across 10 records: gy (Mashramani), hr, is, id (2027 SKB decree), gt, hu (St Stephen's Day programme), ie (St Patrick's Festival), cr, sv and fo (Ólavsøka). Honduras was dropped because the only source was a private legal database. Watchlist additions: Iceland Airwaves, Hornbill, Jerash and the Fes Sacred Music festival (no official 2027 dates).
+
+## 2026-11-01 17:13 AEST, Grok: Activities: work and speaking checks from official labour and immigration rules (ad to bb) (10 records)
+
+Read each country's official labour or immigration source once and applied it only to the activities it covers. Places: ad (form H1 short-term work notice), ag (Labour Department work permit), ai (Department of Labour permits), al (Law 79/2021: business visitors under a month exempt; lecturers only under agreements), am (Law on Foreigners lecturer exemption), ao (SME: paid work needs a work visa), aw (DIMAS short-term project permits), az (Migration Code lecturer exemption and 90-day business-trip list), ba (Article 77: lecturers, artists and conference lecturers up to 90 days with Form 17), bb (Immigration Act: short-term work permit). Activities the sources don't address stay confirm-in-writing.
