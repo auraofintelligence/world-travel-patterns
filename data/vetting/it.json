@@ -860,10 +860,10 @@
    }
   },
   "culture-and-protocol": {
-   "status": "ask-locally",
+   "status": "partly-mapped",
    "checked": "2026-11-01",
    "evidence": "official",
-   "dress_and_conduct": "No national etiquette guidance found on Italia.it, which covers practical travel only. Major churches set their own dress codes, typically covering shoulders and knees, with no hats; see the Vatican (va) and Milan Duomo (it/lombardy) records.",
+   "dress_and_conduct": "No national etiquette guidance found on Italia.it, which covers practical travel only. Major churches set their own dress codes, typically covering shoulders and knees, with no hats; see the Vatican (va) and Milan Duomo (it/lombardy) records. There's no national tourist dress law. St Peter's Basilica bans shorts, bare shoulders, miniskirts and hats, and the Pantheon asks for appropriate clothing. Some cities fine conduct: Florence fines entering fountains (EUR 80 to 500).",
    "cultural_authority": "Each church or site's own authority.",
    "note": "No national government etiquette page; site rules apply.",
    "sources": [
@@ -873,8 +873,34 @@
      "url": "https://www.italia.it/en/italy/practical-information",
      "checked": "2026-11-01",
      "supports": "checked: no etiquette section (read via a search-index snapshot)"
+    },
+    {
+     "title": "Rules for the common good",
+     "authority": "Basilica di San Pietro (Holy See)",
+     "url": "https://www.basilicasanpietro.va/en/rules-for-the-common-good",
+     "checked": "2026-11-01",
+     "supports": "dress rules (read via a search-index snapshot)"
+    },
+    {
+     "title": "Pantheon",
+     "authority": "Direzione Musei nazionali della città di Roma (Ministero della cultura)",
+     "url": "https://direzionemuseiroma.cultura.gov.it/en/pantheon/",
+     "checked": "2026-11-01",
+     "supports": "visitor rules (read via a search-index snapshot)"
+    },
+    {
+     "title": "Ten behavioural guidelines for tourists",
+     "authority": "Florence Chamber of Commerce",
+     "url": "https://www.fi.camcom.gov.it/sites/default/files/uploads/Promozione_Assistenza_Imprese/DECALOGO%20ERF%20ENG.pdf",
+     "checked": "2026-11-01",
+     "supports": "Florence fines (read via a search-index snapshot)"
     }
-   ]
+   ],
+   "national_search": {
+    "checked": "2026-11-01",
+    "result": "found",
+    "note": "National tourism or government etiquette guidance found and cited."
+   }
   },
   "year-ahead": {
    "status": "mapped",

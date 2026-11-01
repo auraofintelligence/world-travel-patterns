@@ -560,3 +560,7 @@ Read each country's official labour or immigration source once and applied it on
 ## 2026-11-01 17:14 AEST, Grok: Entry and activities: gm and gw tourism, and work and speaking checks (ax, bd, bh, bj, bn, bo, bs, fi) (10 records)
 
 gm entry is now visa-free (Australia is on the Gambia's exemption list). gw is now visa on arrival (France Diplomatie and the U.S. State Department). Work and speaking: fi and ax (Migri: lecturers, experts and artists can work 90 days without a permit), bh (LMRA: temporary work under 15 days exempt), bd (B and T visas; BIDA permit for paid work), bj (business e-visa), bn (Professional Visit Visa), bo (Objeto Determinado visa), bs (Short Term Work Permit; entertainers 30 days ahead). Sources were read via search-index snapshots.
+
+## 2026-11-01 17:15 AEST, Grok: Culture: national etiquette upgrades (hu to jm) (10 records)
+
+Upgraded hu, id (2025 Bali circular for foreign tourists), ie, il (Western Wall and Shabbat), im (Fairy Bridge custom), in, it (St Peter's and Pantheon dress rules, Florence fines), je and jm to partly-mapped from national tourism or official sources. io: searched, none found. Sources were read via search-index snapshots.
