@@ -242,9 +242,9 @@
     },
     "meetings": {
      "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Niue Immigration (tourist visits up to 30 days are visa-free).",
+     "route": "Visitor permit (business not allowed)",
+     "detail": "The 30-day visitor permit doesn't allow work, business or study. Whether a meeting counts as business isn't stated.",
+     "next": "Ask Niue Immigration.",
      "checked": "2026-11-01"
     },
     "conference": {
@@ -262,24 +262,24 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Niue Immigration (tourist visits up to 30 days are visa-free).",
+     "status": "specialist",
+     "route": "Work permit",
+     "detail": "The 30-day visitor permit doesn't allow work, business or study. Providing services needs a work permit.",
+     "next": "Ask Niue Immigration in Alofi.",
      "checked": "2026-11-01"
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Niue Immigration (tourist visits up to 30 days are visa-free).",
+     "status": "specialist",
+     "route": "Work permit",
+     "detail": "The 30-day visitor permit doesn't allow work, business or study. Providing services needs a work permit.",
+     "next": "Ask Niue Immigration in Alofi.",
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Niue Immigration (tourist visits up to 30 days are visa-free).",
+     "status": "specialist",
+     "route": "Work permit",
+     "detail": "The 30-day visitor permit doesn't allow work, business or study. Providing services needs a work permit.",
+     "next": "Ask Niue Immigration in Alofi.",
      "checked": "2026-11-01"
     },
     "remote-work": {
@@ -290,10 +290,10 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Niue Immigration (tourist visits up to 30 days are visa-free).",
+     "status": "specialist",
+     "route": "Work or temporary residence permit plus registration under the Development Investment Act 1992",
+     "detail": "Registering a business doesn't give immigration permission; both are needed.",
+     "next": "Ask Niue Immigration and the investment office.",
      "checked": "2026-11-01"
     },
     "trade": {
@@ -304,10 +304,10 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask Niue Immigration (tourist visits up to 30 days are visa-free).",
+     "status": "specialist",
+     "route": "Work permit",
+     "detail": "The 30-day visitor permit doesn't allow work, business or study. Providing services needs a work permit.",
+     "next": "Ask Niue Immigration in Alofi.",
      "checked": "2026-11-01"
     },
     "mixed-mission": {
@@ -339,7 +339,22 @@
      "checked": "2026-11-01"
     }
    },
-   "sources": []
+   "sources": [
+    {
+     "title": "Immigration Regulations 2011",
+     "authority": "Government of Niue (via PacLII)",
+     "url": "https://pacliirms.austlii.edu.au/nu/legis/sub_leg/ia2011ir2011385.pdf",
+     "checked": "2026-11-01",
+     "supports": "visitor permits up to 30 days; work permits for employment or services"
+    },
+    {
+     "title": "Niue work permit (summary)",
+     "authority": "Signal: visa directory",
+     "url": "https://visaatlas.org/visas/niue/work-permit",
+     "checked": "2026-11-01",
+     "supports": "visitor permits don't allow work, business or study"
+    }
+   ]
   }
  }
 }

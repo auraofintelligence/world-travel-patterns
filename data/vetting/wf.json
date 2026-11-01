@@ -73,25 +73,28 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "French territory rules (to confirm)",
-     "detail": "Short tourist stays are visa-free; work needs a French visa and the territory's own work authorisation.",
-     "next": "Ask the Consulate-General of France in Sydney or the territory's government.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work authorisation from the prefecture plus a long-stay visa",
+     "detail": "Any work, salaried or self-employed, needs a work authorisation before starting, and working needs a long-stay visa specific to Wallis and Futuna.",
+     "next": "Ask the Préfecture through the French Embassy.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "French territory rules (to confirm)",
-     "detail": "Short tourist stays are visa-free; work needs a French visa and the territory's own work authorisation.",
-     "next": "Ask the Consulate-General of France in Sydney or the territory's government.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work authorisation from the prefecture plus a long-stay visa",
+     "detail": "Any work, salaried or self-employed, needs a work authorisation before starting, and working needs a long-stay visa specific to Wallis and Futuna.",
+     "next": "Ask the Préfecture through the French Embassy.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "French territory rules (to confirm)",
-     "detail": "Short tourist stays are visa-free; work needs a French visa and the territory's own work authorisation.",
-     "next": "Ask the Consulate-General of France in Sydney or the territory's government.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work authorisation from the prefecture plus a long-stay visa",
+     "detail": "Any work, salaried or self-employed, needs a work authorisation before starting, and working needs a long-stay visa specific to Wallis and Futuna.",
+     "next": "Ask the Préfecture through the French Embassy.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "remote-work": {
      "status": "confirm-in-writing",
@@ -101,11 +104,12 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "French territory rules (to confirm)",
-     "detail": "Short tourist stays are visa-free; work needs a French visa and the territory's own work authorisation.",
-     "next": "Ask the Consulate-General of France in Sydney or the territory's government.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work authorisation from the prefecture plus a long-stay visa",
+     "detail": "Any work, salaried or self-employed, needs a work authorisation before starting, and working needs a long-stay visa specific to Wallis and Futuna.",
+     "next": "Ask the Préfecture through the French Embassy.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "trade": {
      "status": "confirm-in-writing",
@@ -115,11 +119,12 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "French territory rules (to confirm)",
-     "detail": "Short tourist stays are visa-free; work needs a French visa and the territory's own work authorisation.",
-     "next": "Ask the Consulate-General of France in Sydney or the territory's government.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work authorisation from the prefecture plus a long-stay visa",
+     "detail": "Any work, salaried or self-employed, needs a work authorisation before starting, and working needs a long-stay visa specific to Wallis and Futuna.",
+     "next": "Ask the Préfecture through the French Embassy.",
+     "checked": "2026-11-01",
+     "evidence": "signal"
     },
     "mixed-mission": {
      "status": "confirm-in-writing",
@@ -157,6 +162,20 @@
      "url": "https://france-visas.gouv.fr/",
      "checked": "2026-11-01",
      "supports": "overseas France entry"
+    },
+    {
+     "title": "Arrêté: documents et visas exigés pour l'entrée des étrangers à Wallis et Futuna",
+     "authority": "Préfecture de Wallis-et-Futuna",
+     "url": "https://wallis-et-futuna.gouv.fr/contenu/telechargement/1035/6594/file/Arrêté-2011-07-26-Documents et visas exigés entrée étrangers W et F.PDF",
+     "checked": "2026-11-01",
+     "supports": "entry documents and visas"
+    },
+    {
+     "title": "Démarches pour vivre à Wallis et Futuna",
+     "authority": "Signal: guide",
+     "url": "https://www.cyriljarnias.com/?p=37565",
+     "checked": "2026-11-01",
+     "supports": "work authorisation from the prefecture and a long-stay visa for any work"
     }
    ]
   }

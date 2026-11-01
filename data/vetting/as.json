@@ -30,24 +30,24 @@
    "evidence": "official",
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "American Samoa's own 30-day entry permit (to confirm)",
-     "detail": "Tourism.",
-     "next": "Ask the American Samoa Attorney General's Office (Immigration).",
+     "status": "conditional",
+     "route": "Entry permit waiver (30 days, tourism and business) with an 'OK to Board', or a sponsored 30-day permit",
+     "detail": "Eligible countries can visit for tourism or business up to 30 days with an 'OK to Board' from the Attorney General's office; otherwise a local sponsor files a 30-day permit in person.",
+     "next": "Check Australia's eligibility and lodge at least three business days before travel.",
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "American Samoa's own 30-day entry permit (to confirm)",
-     "detail": "Business visits such as meetings and conferences fit the waiver.",
-     "next": "Ask the American Samoa Attorney General's Office (Immigration).",
+     "status": "conditional",
+     "route": "Entry permit waiver (30 days, tourism and business) with an 'OK to Board', or a sponsored 30-day permit",
+     "detail": "Business purposes are covered for up to 30 days.",
+     "next": "Lodge at least three business days before travel.",
      "checked": "2026-11-01"
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "American Samoa's own 30-day entry permit (to confirm)",
-     "detail": "Business visits such as meetings and conferences fit the waiver.",
-     "next": "Ask the American Samoa Attorney General's Office (Immigration).",
+     "status": "conditional",
+     "route": "Entry permit waiver (30 days, tourism and business) with an 'OK to Board', or a sponsored 30-day permit",
+     "detail": "Business purposes are covered.",
+     "next": "Lodge early.",
      "checked": "2026-11-01"
     },
     "unpaid-speaking": {
@@ -58,24 +58,24 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "A US visa for this purpose",
-     "detail": "The visa waiver covers tourism and business visits only; paid or unpaid work, including volunteering, needs a visa.",
-     "next": "Ask the American Samoa Attorney General's Office (Immigration).",
+     "status": "specialist",
+     "route": "Work permit sponsored by an employer",
+     "detail": "Paid work needs an employer-sponsored work permit through the Attorney General's Immigration Division.",
+     "next": "Ask the host to sponsor.",
      "checked": "2026-11-01"
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "A US visa for this purpose",
-     "detail": "The visa waiver covers tourism and business visits only; paid or unpaid work, including volunteering, needs a visa.",
-     "next": "Ask the American Samoa Attorney General's Office (Immigration).",
+     "status": "specialist",
+     "route": "Work permit sponsored by an employer",
+     "detail": "Paid work needs an employer-sponsored work permit through the Attorney General's Immigration Division.",
+     "next": "Ask the host to sponsor.",
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "A US visa for this purpose",
-     "detail": "The visa waiver covers tourism and business visits only; paid or unpaid work, including volunteering, needs a visa.",
-     "next": "Ask the American Samoa Attorney General's Office (Immigration).",
+     "status": "specialist",
+     "route": "Work permit sponsored by an employer",
+     "detail": "Paid work needs an employer-sponsored work permit through the Attorney General's Immigration Division.",
+     "next": "Ask the host to sponsor.",
      "checked": "2026-11-01"
     },
     "remote-work": {
@@ -93,17 +93,17 @@
      "checked": "2026-11-01"
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "A US visa for this purpose",
-     "detail": "The visa waiver covers tourism and business visits only; paid or unpaid work, including volunteering, needs a visa.",
-     "next": "Ask the American Samoa Attorney General's Office (Immigration).",
+     "status": "conditional",
+     "route": "Entry permit waiver (30 days, tourism and business) with an 'OK to Board', or a sponsored 30-day permit",
+     "detail": "Business purposes are covered.",
+     "next": "Lodge early.",
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "A US visa for this purpose",
-     "detail": "The visa waiver covers tourism and business visits only; paid or unpaid work, including volunteering, needs a visa.",
-     "next": "Ask the American Samoa Attorney General's Office (Immigration).",
+     "status": "specialist",
+     "route": "Work permit sponsored by an employer",
+     "detail": "Paid work needs an employer-sponsored work permit through the Attorney General's Immigration Division.",
+     "next": "Ask the host to sponsor.",
      "checked": "2026-11-01"
     },
     "mixed-mission": {
@@ -142,6 +142,20 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
      "checked": "2026-10-31",
      "supports": "Visa Waiver Program conditions: tourism and business visits, no paid or unpaid work"
+    },
+    {
+     "title": "Entry permit waiver and permits",
+     "authority": "Department of Legal Affairs (Attorney General), American Samoa",
+     "url": "https://legalaffairs.as.gov/30-day-permit-info",
+     "checked": "2026-11-01",
+     "supports": "30-day permits; documents at least three business days before travel"
+    },
+    {
+     "title": "New American Samoa entry waiver now in effect for more than 40 countries",
+     "authority": "Signal: Samoa News",
+     "url": "https://samoanews.com/node/127203",
+     "checked": "2026-11-01",
+     "supports": "waiver for tourism and business up to 30 days with an 'OK to Board'"
     }
    ]
   }
