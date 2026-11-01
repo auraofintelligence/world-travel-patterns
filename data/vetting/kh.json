@@ -315,26 +315,74 @@
      "checked": "2026-11-01"
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Embassy of Cambodia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Embassy of Cambodia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Type E (business) eVisa",
+     "detail": "Use the Type E business visa for business visits.",
+     "next": "Apply on evisa.gov.kh.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "eVisa Kingdom of Cambodia",
+       "url": "https://www.evisa.gov.kh/information/visa_type/4",
+       "checked": "2026-11-01",
+       "supports": "Type E business visa (read via a search-index snapshot)"
+      },
+      {
+       "title": "FWCMS",
+       "authority": "Ministry of Labour and Vocational Training",
+       "url": "https://www.fwcms.mlvt.gov.kh/",
+       "checked": "2026-11-01",
+       "supports": "work permits (read via a search-index snapshot)"
+      }
+     ]
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Embassy of Cambodia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Embassy of Cambodia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Type E (business) eVisa",
+     "detail": "Use the Type E business visa for business visits.",
+     "next": "Apply on evisa.gov.kh.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "eVisa Kingdom of Cambodia",
+       "url": "https://www.evisa.gov.kh/information/visa_type/4",
+       "checked": "2026-11-01",
+       "supports": "Type E business visa (read via a search-index snapshot)"
+      },
+      {
+       "title": "FWCMS",
+       "authority": "Ministry of Labour and Vocational Training",
+       "url": "https://www.fwcms.mlvt.gov.kh/",
+       "checked": "2026-11-01",
+       "supports": "work permits (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Business (EB) visa plus a Ministry of Labour work permit if paid",
-     "detail": "Paid appearances are work; a free talk isn't addressed.",
-     "next": "Ask the Royal Embassy of Cambodia.",
+     "status": "specialist",
+     "route": "Type E plus MLVT work permit",
+     "detail": "Work in Cambodia needs a work permit through FWCMS.",
+     "next": "Register on FWCMS.",
      "checked": "2026-11-01",
-     "evidence": "signal"
+     "evidence": "signal",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "eVisa Kingdom of Cambodia",
+       "url": "https://www.evisa.gov.kh/information/visa_type/4",
+       "checked": "2026-11-01",
+       "supports": "Type E business visa (read via a search-index snapshot)"
+      },
+      {
+       "title": "FWCMS",
+       "authority": "Ministry of Labour and Vocational Training",
+       "url": "https://www.fwcms.mlvt.gov.kh/",
+       "checked": "2026-11-01",
+       "supports": "work permits (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "specialist",
@@ -345,25 +393,73 @@
      "evidence": "signal"
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Embassy of Cambodia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Embassy of Cambodia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Type E plus MLVT work permit",
+     "detail": "Work in Cambodia needs a work permit through FWCMS.",
+     "next": "Register on FWCMS.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "eVisa Kingdom of Cambodia",
+       "url": "https://www.evisa.gov.kh/information/visa_type/4",
+       "checked": "2026-11-01",
+       "supports": "Type E business visa (read via a search-index snapshot)"
+      },
+      {
+       "title": "FWCMS",
+       "authority": "Ministry of Labour and Vocational Training",
+       "url": "https://www.fwcms.mlvt.gov.kh/",
+       "checked": "2026-11-01",
+       "supports": "work permits (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Embassy of Cambodia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Embassy of Cambodia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Type E plus MLVT work permit",
+     "detail": "Work in Cambodia needs a work permit through FWCMS.",
+     "next": "Register on FWCMS.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "eVisa Kingdom of Cambodia",
+       "url": "https://www.evisa.gov.kh/information/visa_type/4",
+       "checked": "2026-11-01",
+       "supports": "Type E business visa (read via a search-index snapshot)"
+      },
+      {
+       "title": "FWCMS",
+       "authority": "Ministry of Labour and Vocational Training",
+       "url": "https://www.fwcms.mlvt.gov.kh/",
+       "checked": "2026-11-01",
+       "supports": "work permits (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Embassy of Cambodia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Embassy of Cambodia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Type E (business) eVisa",
+     "detail": "Use the Type E business visa for business visits.",
+     "next": "Apply on evisa.gov.kh.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "eVisa Kingdom of Cambodia",
+       "url": "https://www.evisa.gov.kh/information/visa_type/4",
+       "checked": "2026-11-01",
+       "supports": "Type E business visa (read via a search-index snapshot)"
+      },
+      {
+       "title": "FWCMS",
+       "authority": "Ministry of Labour and Vocational Training",
+       "url": "https://www.fwcms.mlvt.gov.kh/",
+       "checked": "2026-11-01",
+       "supports": "work permits (read via a search-index snapshot)"
+      }
+     ]
     },
     "artist": {
      "status": "specialist",
@@ -374,11 +470,27 @@
      "evidence": "signal"
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Embassy of Cambodia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Embassy of Cambodia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Type E plus MLVT work permit",
+     "detail": "Work in Cambodia needs a work permit through FWCMS.",
+     "next": "Register on FWCMS.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "eVisa Kingdom of Cambodia",
+       "url": "https://www.evisa.gov.kh/information/visa_type/4",
+       "checked": "2026-11-01",
+       "supports": "Type E business visa (read via a search-index snapshot)"
+      },
+      {
+       "title": "FWCMS",
+       "authority": "Ministry of Labour and Vocational Training",
+       "url": "https://www.fwcms.mlvt.gov.kh/",
+       "checked": "2026-11-01",
+       "supports": "work permits (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "specialist",
@@ -389,18 +501,50 @@
      "evidence": "signal"
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Embassy of Cambodia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Embassy of Cambodia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Type E plus MLVT work permit",
+     "detail": "Work in Cambodia needs a work permit through FWCMS.",
+     "next": "Register on FWCMS.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "eVisa Kingdom of Cambodia",
+       "url": "https://www.evisa.gov.kh/information/visa_type/4",
+       "checked": "2026-11-01",
+       "supports": "Type E business visa (read via a search-index snapshot)"
+      },
+      {
+       "title": "FWCMS",
+       "authority": "Ministry of Labour and Vocational Training",
+       "url": "https://www.fwcms.mlvt.gov.kh/",
+       "checked": "2026-11-01",
+       "supports": "work permits (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Royal Embassy of Cambodia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Royal Embassy of Cambodia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Type E plus MLVT work permit",
+     "detail": "Work in Cambodia needs a work permit through FWCMS.",
+     "next": "Register on FWCMS.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "eVisa Kingdom of Cambodia",
+       "url": "https://www.evisa.gov.kh/information/visa_type/4",
+       "checked": "2026-11-01",
+       "supports": "Type E business visa (read via a search-index snapshot)"
+      },
+      {
+       "title": "FWCMS",
+       "authority": "Ministry of Labour and Vocational Training",
+       "url": "https://www.fwcms.mlvt.gov.kh/",
+       "checked": "2026-11-01",
+       "supports": "work permits (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

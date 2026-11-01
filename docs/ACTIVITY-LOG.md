@@ -628,3 +628,7 @@ Notable: sb (30 days with no permit if paid by your normal overseas employer), f
 ## 2026-11-01 17:30 AEST, Grok: Culture: national etiquette upgrades and searches (om to pr) (10 records)
 
 Upgraded om (heritage ministry dress guidelines), pa (Guna Yala rules), pf (marae rules), pg, ph (Boracay guide), pk, pm, pn (Sabbath, no alcohol in public) and pr to partly-mapped. pl: searched, none found. Read via search-index snapshots.
+
+## 2026-11-01 17:31 AEST, Grok: Work: gm, sl, lr, st, lk, kh, gh, ke, cv, bd (10 records)
+
+Work and speaking rules from official immigration and labour sources for gm (GMB2), sl, lr, st, lk (Business ETA covers conferences under one month), kh, gh, ke (KFCB filming licence), cv (EASE) and bd. Madagascar was skipped because no official source was found. Read via search-index snapshots.
