@@ -408,11 +408,20 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Consulate-General of Namibia (honorary)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Consulate-General of Namibia (honorary) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Short-term employment (work) visa for presenting",
+     "detail": "Attending is allowed on a visitor visa, but speaking, facilitating or training needs a short-term employment visa.",
+     "next": "Apply for the work visa before travel.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa and permits FAQ",
+       "authority": "Ministry of Home Affairs, Immigration, Safety and Security, Namibia",
+       "url": "https://mhaiss.gov.na/documents/292728/5839021/VISA+and+PERMITS+FAQ.pdf/3005c430-1833-f89a-a6b6-5bd8fa88fe5f?t=1741020997482",
+       "checked": "2026-11-01",
+       "supports": "attending a conference allowed on a visitor visa; speaking or training needs a short-term work visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",

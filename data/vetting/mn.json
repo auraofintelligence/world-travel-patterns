@@ -334,11 +334,20 @@
      "evidence": "signal"
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Mongolia, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Mongolia, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "K4 visa for cultural and arts events",
+     "detail": "Mongolia lists a K4 visa for participation in cultural and arts events. Confirm a book launch or talk fits K4 when applying.",
+     "next": "Apply for K4 through the e-visa system or a consulate.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "Consulate of Mongolia in Chicago",
+       "url": "https://chicago.consul.mn/page/430",
+       "checked": "2026-11-01",
+       "supports": "K4 visa for cultural and arts events (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "conditional",
@@ -364,11 +373,20 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of Mongolia, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of Mongolia, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "K4 visa for cultural and arts events",
+     "detail": "Mongolia lists a K4 visa for participation in cultural and arts events. Confirm a book launch or talk fits K4 when applying.",
+     "next": "Apply for K4 through the e-visa system or a consulate.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa types",
+       "authority": "Consulate of Mongolia in Chicago",
+       "url": "https://chicago.consul.mn/page/430",
+       "checked": "2026-11-01",
+       "supports": "K4 visa for cultural and arts events (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",

@@ -860,3 +860,7 @@ Filming checks from official sources (search-index snapshots): Pakistan media vi
 ## 2026-11-01 23:18 AEST, Grok: Volunteering (at, ch, si) and research (sg, th, ar) rules (6 records)
 
 Official sources (search-index snapshots): Austria volunteer permit only for European Solidarity Corps (EUR 218); Switzerland unpaid work can count as gainful (canton decides, stays confirm-in-writing with detail); Slovenia volunteer residence permit; Singapore NParks field research permit; Thailand NRCT approval 90 days ahead; Argentina scientist residence via RENURE host.
+
+## 2026-11-01 23:18 AEST, Grok: Book launch and speaking rules: na, mn, ro (3 records)
+
+Official sources (search-index snapshots): Namibia speaking needs a short-term work visa (attending is fine on a visitor visa); Mongolia K4 visa for cultural and arts events (book launch and unpaid speaking); Romania exemption for artistic activity in cultural institutions under Ordinance 25/2014.
