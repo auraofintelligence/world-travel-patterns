@@ -2,20 +2,27 @@
  "place": "eh",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "Most of Western Sahara is administered by Morocco and entered through Morocco, so Morocco's entry rules apply in practice; status is disputed.",
+   "status": "visa-free",
+   "summary": "Moroccan entry rules apply in the Moroccan-administered parts: visa-free up to 90 days. Independent travellers may be turned back; organised groups are more likely to be let in. Get your passport stamped on entry.",
    "next_check": "Read Smartraveller's Morocco advice on Western Sahara before planning.",
    "evidence": "official",
    "sources": [
     {
-     "title": "Morocco travel advice",
-     "authority": "Smartraveller, Australian Government",
-     "url": "https://www.smartraveller.gov.au/destinations/africa/morocco",
-     "checked": "2026-10-31",
-     "supports": "entry conditions as read on 2026-10-31"
+     "title": "Travel formalities in Morocco",
+     "authority": "Moroccan National Tourist Office",
+     "url": "https://www.visitmorocco.com/en/formalities",
+     "checked": "2026-11-01",
+     "supports": "90-day stay (read via a search-index snapshot)"
+    },
+    {
+     "title": "Western Sahara travel advice: entry requirements",
+     "authority": "GOV.UK (FCDO)",
+     "url": "https://www.gov.uk/foreign-travel-advice/western-sahara/entry-requirements",
+     "checked": "2026-11-01",
+     "supports": "access restrictions (read via a search-index snapshot)"
     }
    ],
-   "checked": "2026-10-31"
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -41,11 +48,27 @@
   "activities": {
    "activities": {
     "tourism": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Kingdom of Morocco, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Kingdom of Morocco, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visa-free under Moroccan rules; access restricted",
+     "detail": "Moroccan entry rules apply in the Moroccan-administered parts: visa-free up to 90 days. Independent travellers may be turned back; organised groups are more likely to be let in. Get your passport stamped on entry.",
+     "next": "See the entry record.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Travel formalities in Morocco",
+       "authority": "Moroccan National Tourist Office",
+       "url": "https://www.visitmorocco.com/en/formalities",
+       "checked": "2026-11-01",
+       "supports": "90-day stay (read via a search-index snapshot)"
+      },
+      {
+       "title": "Western Sahara travel advice: entry requirements",
+       "authority": "GOV.UK (FCDO)",
+       "url": "https://www.gov.uk/foreign-travel-advice/western-sahara/entry-requirements",
+       "checked": "2026-11-01",
+       "supports": "access restrictions (read via a search-index snapshot)"
+      }
+     ]
     },
     "meetings": {
      "status": "confirm-in-writing",

@@ -592,3 +592,7 @@ Upgraded ls, lu, ma (Hassan II Mosque visit rules), md, mf (2024 Saint-Martin To
 ## 2026-11-01 17:21 AEST, Grok: Activities: Crown Dependencies and other speaker routes (gd, ge, gg, gh, gi, gl, il, im, je, ph) (10 records)
 
 Notable for speakers: je and im (pre-arranged paid lectures, conference talks and artistic work allowed for visitors within 30 days), gg (paid engagement up to a month), gl (invited lecturers under 3 months exempt), gi (free route for presentations under 48 hours), ge (short-term registration since March 2026), ph (Special Work Permit for artists), il (B/1 fast track), gh, gd. Read via search-index snapshots.
+
+## 2026-11-01 17:23 AEST, Grok: Entry and activities: bm and eh tourism, and Caribbean work rules (dm, gy, jm, kn, lc, sr, tt, vc) (10 records)
+
+bm is visa-free (180 days). eh is visa-free under Moroccan rules, but tourism is conditional because independent travellers may be turned back. Notable: tt (no work permit for one period of up to 30 days in 12 months). Elsewhere, paid speakers and artists need a permit or exemption: lc, dm, sr, vc, jm and kn. gy treats seminars and events as visitor purposes. Read via search-index snapshots.
