@@ -168,11 +168,27 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Volunteering isn't addressed in the EU guidance read.",
-     "next": "Ask the Embassy of Italy, Deakin.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Volunteering D visa, authorised European programmes only",
+     "detail": "The volunteering D visa is limited to European Solidarity Corps and similar programmes authorised by the national youth agency; the national quota has issued no clearances since 2015.",
+     "next": "Treat independent volunteering as not available.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Diritti e doveri dello straniero (visto Volontariato)",
+       "authority": "Ministry of Foreign Affairs, Italy (Visto per Italia)",
+       "url": "https://vistoperitalia.esteri.it/infovisto?code=14_27_D",
+       "checked": "2026-11-01",
+       "supports": "D visa for volunteering (read via a search-index snapshot)"
+      },
+      {
+       "title": "Corpo europeo di solidarietà e MAECI: visti per volontariato",
+       "authority": "Agenzia Italiana per la Gioventù",
+       "url": "https://agenziagioventu.gov.it/corpo-europeo-di-solidarieta-e-ministero-degli-affari-esteri-pratiche-di-visto-per-volontariato-e-relativi-permessi-di-soggiorno/",
+       "checked": "2026-11-01",
+       "supports": "only authorised European programmes (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "status": "conditional",

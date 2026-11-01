@@ -168,11 +168,27 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Volunteering isn't addressed in the EU guidance read.",
-     "next": "Ask the Embassy of the Kingdom of the Netherlands, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Organisation obtains a UWV volunteer permit",
+     "detail": "Volunteering is work unless the organisation is non-profit and socially beneficial, the work is unpaid and replaces no paid job, and the organisation holds a UWV volunteer permit.",
+     "next": "Ask the organisation to arrange the UWV permit.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Doing voluntary work in the Netherlands",
+       "authority": "Government of the Netherlands",
+       "url": "https://www.government.nl/themes/migration-and-travel/foreign-citizens-working-in-the-netherlands/doing-voluntary-work-in-the-netherlands",
+       "checked": "2026-11-01",
+       "supports": "volunteer permit via UWV (read via a search-index snapshot)"
+      },
+      {
+       "title": "Arranging a volunteer permit",
+       "authority": "UWV",
+       "url": "https://www.uwv.nl/en/employers/forms/arranging-a-volunteer-permit",
+       "checked": "2026-11-01",
+       "supports": "organisation applies (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "status": "conditional",

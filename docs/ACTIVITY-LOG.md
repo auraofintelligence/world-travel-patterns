@@ -772,3 +772,7 @@ Fix forward for 94c0948: li activity rules cited a generic EU portal page attrib
 ## 2026-11-01 17:58 AEST, Grok: Research visits: sg, ie, mx, kr, br, th, tr, ke, za, ph, ae (11 records)
 
 Research checks from official sources: Brazil VIVIS allows unpaid research and teaching 90 days (and volunteering); Korea C-3-1 academic data collection 90 days; Mexico unpaid academic 180 days, field sampling needs authorisation; Ireland visitor under 90 days or Stamp 0; Türkiye research via institution, archaeology via embassy; Kenya NACOSTI licence; South Africa research visitor visa; Philippines 9(a); Singapore, Thailand and UAE do not list research as exempt (confirm). Read via search-index snapshots.
+
+## 2026-11-01 17:58 AEST, Grok: Volunteering rules: de, nl, in, ch, fr, cn, at, es, it, pt, be (11 records)
+
+Volunteering checks: Germany allows qualifying voluntary work for visa-exempt visitors up to 90 days in 12 months; India e-Tourist visa up to 1 month unpaid; Belgium exempt under the 2005 volunteer law if lawfully staying; Netherlands needs a UWV volunteer permit; France, Spain, Portugal need long-stay volunteering visas; Italy only via authorised European programmes; Switzerland, China and Austria do not address short volunteering (confirm). Read via search-index snapshots.

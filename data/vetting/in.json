@@ -151,11 +151,20 @@
      "evidence": "signal"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Visa to confirm",
-     "detail": "Smartraveller: contact the nearest Indian embassy or consulate about visa requirements before volunteering.",
-     "next": "Ask the Indian High Commission.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "e-Tourist Visa, up to 1 month",
+     "detail": "Short voluntary work of up to one month is allowed on an e-Tourist Visa with no payment of any kind, with a letter from the organisation. NGO activities are not allowed on an e-Visa.",
+     "next": "Carry the organisation's letter.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "e-Visa",
+       "authority": "Bureau of Immigration, Government of India",
+       "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+       "checked": "2026-11-01",
+       "supports": "short voluntary work up to 1 month on e-Tourist visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
      "status": "specialist",

@@ -168,11 +168,20 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Volunteering isn't addressed in the EU guidance read.",
-     "next": "Ask the Embassy of Spain, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Long-stay volunteering visa (over 90 days)",
+     "detail": "Volunteering programmes over 90 days need a national long-stay visa, an agreement with a legally registered organisation, funds, insurance and a medical certificate (police check over 6 months). Apply 2 months ahead. Short visits are not addressed.",
+     "next": "Ask the consulate about stays under 90 days.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Autorización de estancia por participación en un programa de voluntariado",
+       "authority": "Ministerio de Inclusión, Seguridad Social y Migraciones, Spain",
+       "url": "https://www.inclusion.gob.es/web/migraciones/w/autorizacion-para-participacion-programa-voluntario",
+       "checked": "2026-11-01",
+       "supports": "volunteering over 90 days: national visa, agreement with registered organisation (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "status": "conditional",

@@ -168,11 +168,27 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Volunteering isn't addressed in the EU guidance read.",
-     "next": "Ask the Embassy of France, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Long-stay visa for volunteering",
+     "detail": "Volunteering in France needs a long-stay visa, a signed contract before arrival with an approved public-interest association or foundation, and an APS from the prefecture within a month of arrival.",
+     "next": "Apply via France-Visas with the contract.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Volontariat",
+       "authority": "France-Visas, Government of France",
+       "url": "https://france-visas.gouv.fr/web/france-visas/volontariat",
+       "checked": "2026-11-01",
+       "supports": "volunteering needs a long-stay visa (read via a search-index snapshot)"
+      },
+      {
+       "title": "APS pour volontaire",
+       "authority": "Service-Public.fr",
+       "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17335",
+       "checked": "2026-11-01",
+       "supports": "contract with an approved association (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "status": "conditional",

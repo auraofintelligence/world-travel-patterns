@@ -176,10 +176,19 @@
     },
     "volunteering": {
      "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Volunteering isn't addressed in the EU guidance read.",
-     "next": "Ask the Embassy of Switzerland, Forrest.",
-     "checked": "2026-11-01"
+     "route": "Possibly gainful activity",
+     "detail": "Unpaid work that would normally be paid counts as gainful activity and needs a permit. A narrow exemption exists for small amounts of unpaid ideological, social or charitable work.",
+     "next": "Ask the cantonal migration office in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "FAQ: Working",
+       "authority": "State Secretariat for Migration (SEM), Switzerland",
+       "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit/faq.html",
+       "checked": "2026-11-01",
+       "supports": "volunteer work can be gainful activity; limited exemption (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "status": "conditional",

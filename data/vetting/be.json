@@ -168,11 +168,27 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Volunteering isn't addressed in the EU guidance read.",
-     "next": "Ask the Royal Belgian Embassy, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Exempt from work permit if a lawful resident and the work meets the volunteer law",
+     "detail": "Unpaid, altruistic volunteering for a non-profit (expenses within statutory limits) is exempt from the work permit for foreigners lawfully staying in Belgium. It gives no right of residence.",
+     "next": "Check with the regional employment authority before a visitor stint.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Loi relative aux droits des volontaires (3 juillet 2005)",
+       "authority": "Justel, Belgian Official Journal",
+       "url": "https://www.ejustice.just.fgov.be/eli/loi/2005/07/03/2005022674/justel",
+       "checked": "2026-11-01",
+       "supports": "foreign volunteers exempt from work permit if lawfully resident and conditions met (read via a search-index snapshot)"
+      },
+      {
+       "title": "Employing a foreigner in Flanders: volunteer",
+       "authority": "Flemish Government",
+       "url": "https://www.vlaanderen.be/en/working-enterprise-and-investment/working/employing-a-foreigner-in-flanders/categories/volunteer",
+       "checked": "2026-11-01",
+       "supports": "volunteer category (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "status": "conditional",

@@ -170,10 +170,19 @@
     },
     "volunteering": {
      "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Volunteering isn't addressed in the EU guidance read.",
-     "next": "Ask the Embassy of Austria, Forrest.",
-     "checked": "2026-11-01"
+     "route": "Volunteering not addressed",
+     "detail": "Tourist stays do not permit employment; volunteering is not specifically addressed.",
+     "next": "Ask the AMS or the Austrian embassy in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Working in Austria",
+       "authority": "Austrian Ministry for European and International Affairs (BMEIA)",
+       "url": "https://www.bmeia.gv.at/en/austrian-embassy-addis-abeba/travel-to-austria/working-in-austria",
+       "checked": "2026-11-01",
+       "supports": "tourist visas do not permit employment (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "status": "conditional",
