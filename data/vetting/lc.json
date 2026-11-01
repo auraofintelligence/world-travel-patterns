@@ -172,11 +172,20 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Trade licence for non-CARICOM citizens",
+     "detail": "Non-CARICOM citizens need a trade licence to trade or sell goods (EC$500 if stock is under EC$10,000, otherwise EC$1,000), with bank references, character certificates and a business plan. Licences expire on 31 December.",
+     "next": "Apply to the Advisory Board.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Apply for a Trade Licence (new)",
+       "authority": "Government of Saint Lucia",
+       "url": "https://www.govt.lc/services/apply-for-a-trade-licence-new-",
+       "checked": "2026-11-01",
+       "supports": "non-CARICOM citizens need a trade licence; EC\\$500 or EC\\$1,000 (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "conditional",

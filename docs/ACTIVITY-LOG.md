@@ -912,3 +912,7 @@ Correction to dbe7dca: the bulk derivation overwrote mixed-mission detail that h
 ## 2026-11-01 23:25 AEST, Grok: Book launch and unpaid speaking: reuse cited pages for am, sc, to, mu, gy, cu (6 records)
 
 Resolved from the official source already cited for the sibling activity in the same record: Armenia unpaid talks fit the invited-lecturer exemption; Seychelles and Tonga launches turn on whether they count as work (permit needed if so); Mauritius business visitors may not sell directly; Guyana events under 3 months are visitor purposes; Cuba uses an events visa. All set conditional, no new sources.
+
+## 2026-11-01 23:25 AEST, Grok: Entrepreneur rules: ci, lc, vc, dz, dm, nc (6 records)
+
+Entrepreneur checks from official sources (search-index snapshots): Côte d'Ivoire CEPICI registration with residence certificate; Saint Lucia non-CARICOM trade licence EC$500 to EC$1,000; Saint Vincent annual trader's licence; Algeria AAPI foreign investment one-stop shop; Dominica registration then self-employed work permit; New Caledonia self-employment allowed with FDI declaration.

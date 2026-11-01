@@ -124,11 +124,20 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Annual trader's licence (fee by stock value)",
+     "detail": "Traders need an annual trader's licence, priced by stock value (EC$20 to EC$1,000), after a stock inspection. The page doesn't state separate rules for foreigners.",
+     "next": "Ask about work permit needs for foreign owners.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Trader's licence",
+       "authority": "Ministry of Foreign Affairs, Foreign Trade and Consumer Affairs, Saint Vincent and the Grenadines",
+       "url": "https://foreign.gov.vc/foreign/index.php/49-consumer-affairs-section/consumer-affairs/300-traders-licence",
+       "checked": "2026-11-01",
+       "supports": "annual trader's licence by stock value (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "confirm-in-writing",

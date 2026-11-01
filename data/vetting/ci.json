@@ -402,11 +402,20 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Côte d’Ivoire",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Côte d’Ivoire which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business registration at the CEPICI one-stop shop; residence card from ONECI",
+     "detail": "Foreigners can register a business at CEPICI with a passport, but need a residence certificate under 6 months old. Registration costs 10,000 F. Non-ECOWAS residents get a residence card from ONECI.",
+     "next": "Arrange residence before registering.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Complete list of documents for business creation",
+       "authority": "CEPICI (Investment Promotion Centre of Côte d'Ivoire)",
+       "url": "https://cepici.africa/admin/pdf/codeinvestir/1767862894.pdf",
+       "checked": "2026-11-01",
+       "supports": "passport accepted; residence certificate needed; RCCM 10,000 F (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "confirm-in-writing",
