@@ -160,11 +160,20 @@
      "checked": "2026-11-01"
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Argentine Republic, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Argentine Republic, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Temporary residence for scientists hired by a registered host",
+     "detail": "Researchers hired by public or private entities get temporary residence; the host must be in RENURE and supply a notarised contract.",
+     "next": "Arrange a RENURE-registered host.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Temporary residence as a scientist or specialised staff",
+       "authority": "Government of Argentina",
+       "url": "https://www.argentina.gob.ar/servicio/obtener-una-residencia-temporaria-como-cientifico-yo-personal-especializado-yo-personal-de",
+       "checked": "2026-11-01",
+       "supports": "host registered in RENURE, notarised contract (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
      "status": "specialist",

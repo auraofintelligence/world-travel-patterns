@@ -856,3 +856,7 @@ Entrepreneur checks from official sources (search-index snapshots): Serbia self-
 ## 2026-11-01 23:17 AEST, Grok: Filming rules: pk, uy, tn, sn, mx, qa; Kyrgyz Digital Nomad status (7 records)
 
 Filming checks from official sources (search-index snapshots): Pakistan media visa; Uruguay ICAU and local permits; Tunisia authorisation within a week; Senegal 300,000 FCFA feature fee; Mexico COMEFILM support letter for crew paid from abroad; Qatar QNA permit 20 days ahead. Remote work: Kyrgyzstan Digital Nomad status, 60 days then yearly up to 10 years (mlsp.gov.kg read directly).
+
+## 2026-11-01 23:18 AEST, Grok: Volunteering (at, ch, si) and research (sg, th, ar) rules (6 records)
+
+Official sources (search-index snapshots): Austria volunteer permit only for European Solidarity Corps (EUR 218); Switzerland unpaid work can count as gainful (canton decides, stays confirm-in-writing with detail); Slovenia volunteer residence permit; Singapore NParks field research permit; Thailand NRCT approval 90 days ahead; Argentina scientist residence via RENURE host.
