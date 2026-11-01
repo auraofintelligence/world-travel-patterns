@@ -362,10 +362,10 @@
    ]
   },
   "culture-and-protocol": {
-   "status": "ask-locally",
+   "status": "partly-mapped",
    "checked": "2026-11-01",
    "evidence": "official",
-   "dress_and_conduct": "FCDO's laws and cultural differences section for Falkland Islands has no customs or etiquette guidance. A national etiquette page has not been searched for yet. Ask locally.",
+   "dress_and_conduct": "FCDO's laws and cultural differences section for Falkland Islands has no customs or etiquette guidance. A national etiquette page has not been searched for yet. Ask locally. The Falkland Islands Countryside Code says to keep at least 6 m from wildlife, never feed or touch animals, and never block a penguin's path to the sea. Use no flash and no selfie sticks, ask before entering private land, and don't take whalebones or eggs. Breaking the code may be an offence carrying significant fines.",
    "cultural_authority": "Government of Falkland Islands and its tourism office; local community leaders.",
    "note": "FCDO page checked (written for British travellers); it has no customs guidance. National tourism or government etiquette pages not yet searched.",
    "sources": [
@@ -375,8 +375,27 @@
      "url": "https://www.gov.uk/foreign-travel-advice/falkland-islands/safety-and-security",
      "checked": "2026-11-01",
      "supports": "laws and cultural differences section as read on 2026-11-01"
+    },
+    {
+     "title": "Countryside Code",
+     "authority": "Falkland Islands Government",
+     "url": "https://www.falklands.gov.fk/policy/jdownloads/Reports%20&%20Publications/Environmental%20Reports%20and%20Guidance/CountrysideCode.pdf",
+     "checked": "2026-11-01",
+     "supports": "countryside and wildlife code (read via a search-index snapshot)"
+    },
+    {
+     "title": "Safe travel",
+     "authority": "Falkland Islands Tourist Board",
+     "url": "https://www.falklandislands.com/plan-your-trip/visitor-information/safe-travel",
+     "checked": "2026-11-01",
+     "supports": "wildlife distance (read via a search-index snapshot)"
     }
-   ]
+   ],
+   "national_search": {
+    "checked": "2026-11-01",
+    "result": "found",
+    "note": "National tourism or government etiquette guidance found and cited."
+   }
   }
  }
 }

@@ -471,10 +471,10 @@
    ]
   },
   "culture-and-protocol": {
-   "status": "ask-locally",
+   "status": "partly-mapped",
    "checked": "2026-11-01",
    "evidence": "official",
-   "dress_and_conduct": "FCDO's laws and cultural differences section for Gibraltar has no customs or etiquette guidance. A national etiquette page has not been searched for yet. Ask locally.",
+   "dress_and_conduct": "FCDO's laws and cultural differences section for Gibraltar has no customs or etiquette guidance. A national etiquette page has not been searched for yet. Ask locally. It is illegal to feed or touch the Barbary macaques. The fixed penalty is GBP 500 inside the Nature Reserve and GBP 250 outside it. Keep food out of sight.",
    "cultural_authority": "Government of Gibraltar and its tourism office; local community leaders.",
    "note": "FCDO page checked (written for British travellers); it has no customs guidance. National tourism or government etiquette pages not yet searched.",
    "sources": [
@@ -484,8 +484,27 @@
      "url": "https://www.gov.uk/foreign-travel-advice/gibraltar/safety-and-security",
      "checked": "2026-11-01",
      "supports": "laws and cultural differences section as read on 2026-11-01"
+    },
+    {
+     "title": "Ape management",
+     "authority": "HM Government of Gibraltar",
+     "url": "https://www.gibraltar.gov.gi/environment/ape-management",
+     "checked": "2026-11-01",
+     "supports": "GBP 500 penalty (read via a search-index snapshot)"
+    },
+    {
+     "title": "Barbary Macaques amendment bill",
+     "authority": "Gibraltar Gazette",
+     "url": "https://www.gibraltarlaws.gov.gi/bills/animals-and-birds-barbary-macaques-amendment-bill-2013-167/download",
+     "checked": "2026-11-01",
+     "supports": "fixed penalties (read via a search-index snapshot)"
     }
-   ]
+   ],
+   "national_search": {
+    "checked": "2026-11-01",
+    "result": "found",
+    "note": "National tourism or government etiquette guidance found and cited."
+   }
   }
  }
 }

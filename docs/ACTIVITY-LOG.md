@@ -632,3 +632,7 @@ Upgraded om (heritage ministry dress guidelines), pa (Guna Yala rules), pf (mara
 ## 2026-11-01 17:31 AEST, Grok: Work: gm, sl, lr, st, lk, kh, gh, ke, cv, bd (10 records)
 
 Work and speaking rules from official immigration and labour sources for gm (GMB2), sl, lr, st, lk (Business ETA covers conferences under one month), kh, gh, ke (KFCB filming licence), cv (EASE) and bd. Madagascar was skipped because no official source was found. Read via search-index snapshots.
+
+## 2026-11-01 17:32 AEST, Grok: Culture: cg, fk, gf, gg, gi, gn, gw, mr, mw, ng (10 records)
+
+Upgraded fk (Countryside Code), gf (Parc amazonien village conduct), gg, gi (macaque feeding penalty GBP 500), mw, gw (IBAP sacred sites) and ng to partly-mapped. mr, cg and gn: searched, none found. Read via search-index snapshots.
