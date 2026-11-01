@@ -640,3 +640,7 @@ Upgraded fk (Countryside Code), gf (Parc amazonien village conduct), gg, gi (mac
 ## 2026-11-01 17:32 AEST, Grok: Culture: pw, py, qa, re, ro, rs, rw, sa, sb, sc (10 records)
 
 Upgraded pw (Palau Pledge, sunscreen ban), qa, sa (public decency fines), rw (plastic ban), ro (regional Harghita code), rs, re (Tamil temples), py (tereré) and sb (kastom permission) to partly-mapped. sc: searched, none found. Read via search-index snapshots.
+
+## 2026-11-01 17:33 AEST, Grok: Culture: sg, sh, si, sk, sl, sm, sn, sr, st, sv (10 records)
+
+Upgraded sg (gum import ban, litter fines), sh, si, sk and sv to partly-mapped. sm, sn, sr, sl and st: searched, none found. Read via search-index snapshots.
