@@ -2,9 +2,13 @@
 
 Dated handover notes for whoever works on this repo next (Claude, Codex, Grok). Newest entry at the bottom. Times are Brisbane time (AEST, UTC+10).
 
-## Handoff for Claude (updated 2026-11-01 17:59 AEST, Grok)
+## Handoff for Claude (updated 2026-11-01 evening AEST, Grok)
 
-**State today.** Every country and territory outside Australia has entry, activities and culture records. 796 of 3,705 activity checks (22%) still say "confirm in writing"; 476 of those are outside the Do-not-travel places.
+**State today.** Every country and territory outside Australia has entry, activities and culture records. 743 of 3,705 activity checks (20%) still say "confirm in writing"; 423 of those are outside the Do-not-travel places (remote work 63, volunteering 54, mixed missions 51, book launches 46, entrepreneur 43, research 43, filming 29, unpaid speaking 27, others 67).
+
+**Later passes (e802e79 to 08304a9).** Volunteering for 32 places (ca, ie, mx, th, Nordics, Baltics, central Europe, is, co, rw, tr, Pacific, Caribbean); remote work for 12 (Armenia allowed for a foreign employer; Dominica WIN visa; US and territories not addressed); research for 9 (US B-1, Namibia NCRST permit 4 months ahead); book launches for 7 (Armenia, Serbia, Kazakhstan); filming for 9 (ca, jp, za, ie, br, co, cl, hk, uz). Corrections: the Canada volunteering source was a mirror (migova.ca), replaced with canada.ca in 078680c; a Vietnam research draft based on a misread Taiwan page was reverted before commit.
+
+**Next.** Entrepreneur (43) and filming (29), then remaining remote work, volunteering, research, book launches; Do-not-travel work rules last; then ask-locally culture and 2027 events.
 
 **Today's work (3bf3434 to d0191a2).**
 - Work rules filled for about 90 places.
@@ -826,3 +830,7 @@ Book-launch checks: Armenia exempts invited lecturers and touring performers; Se
 ## 2026-11-01 20:36 AEST, Grok: Filming rules: ca, jp, za, ie, br, co, cl, hk, uz (9 records)
 
 Filming checks from official sources: Ireland crews up to 14 days on visitor entry; Canada exempts producers of foreign-funded films, most crew need permits (canada.ca read directly); Japan needs Entertainer status (visitor only for scouting); Brazil ANCINE notification; Colombia V courtesy visa; Chile, South Africa (STAGES), Hong Kong and Uzbekistan (UzbekKino, 2 months) need permits. Read via search-index snapshots unless noted.
+
+## 2026-11-01 20:36 AEST, Grok: Docs: handoff and STATUS updated after volunteering, remote work, research, book launch and filming passes (0 records)
+
+Docs only: handoff and STATUS.md item 1 updated (743 confirm-in-writing, 20%; 423 outside Do-not-travel places).
