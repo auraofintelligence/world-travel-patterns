@@ -488,3 +488,7 @@ Searched national tourism boards and government etiquette pages for 12 ask-local
 ## 2026-11-01 16:56 AEST, Grok: Culture national-source search bb-bs (12 records)
 
 Searched national tourism boards and government etiquette pages for 12 ask-locally culture records. Upgraded 9: bb, bd, bg, bh, bj, bl, bo, bq and bs are partly mapped; bn is community-published. Searched with none found for bi and br.
+
+## 2026-11-01 16:57 AEST, Grok: Culture national-source search bt-co (10 records)
+
+Searched national tourism boards and government etiquette pages for 10 ask-locally culture records. Upgraded 8: bw, bz, ch, cl and co are partly mapped; bt, ck and cm are community-published. Searched with none found for by and ci. Correction to the bb-bs entry: 10 records were upgraded, not 9 (bn is community-published, plus 9 partly mapped).
