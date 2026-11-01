@@ -24,7 +24,8 @@ ALIASES = {"United States": "USA", "Vatican City": "Vatican City", "Cabo Verde":
            "Republic of the Congo": "Congo", "São Tomé & Príncipe": "Sao Tome & Príncipe", "São Tomé and Príncipe": "Sao Tome & Príncipe", "Sao Tome and Principe": "Sao Tome & Príncipe",
            "St Kitts and Nevis": "St Kitts and Nevis", "Saint Kitts and Nevis": "St Kitts and Nevis", "Saint Lucia": "St Lucia",
            "Saint Vincent and the Grenadines": "St Vincent and the Grenadines", "British Virgin Islands": "British Virgin Islands",
-           "Turks and Caicos Islands": "Turks and Caicos Islands", "Falkland Islands": "Falkland Islands", "Saint Helena": "St Helena, Ascension and Tristan da Cunha"}
+           "Turks and Caicos Islands": "Turks and Caicos Islands", "Falkland Islands": "Falkland Islands", "Saint Helena": "St Helena, Ascension and Tristan da Cunha",
+           "Saint Helena, Ascension and Tristan da Cunha": "St Helena, Ascension and Tristan da Cunha"}
 
 
 def get(url):

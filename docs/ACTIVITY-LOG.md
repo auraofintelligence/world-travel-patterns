@@ -298,3 +298,27 @@ id/bali local-law comes from Governor's Circular 4/2023 on how foreign tourists 
 - Culture: places with no Smartraveller "Local customs" section need own-community sources.
 - Leftovers: re-run FCDO for sh (title alias) and va.
 - "Do not travel" places stay last.
+
+## 2026-11-01 18:40 AEST, Grok: St Helena, Vatican, and regions batch 2 (7 places, 8 records)
+
+**St Helena (sh):**
+- FCDO title alias added to `fcdo_local_law.py`.
+- local-law written (2 laws).
+
+**Vatican City (va):**
+- local-law (2) and culture-and-protocol written.
+- Source: St Peter's Basilica's own rules (basilicasanpietro.va, the Fabbrica di San Pietro).
+- Rules: shoulders covered; long trousers or below-knee skirts; no sleeveless tops, short clothing or hats; no phones, smoking or food inside.
+
+**Cannabis (psychoactive-substances):**
+
+| Place | Status | Limit or penalty | Notes |
+|---|---|---|---|
+| us/hawaii | No adult use | 3 g or less is a US$130 violation | International visitors can't use the out-of-state medical route |
+| us/arizona | 21+ | 1 oz (5 g concentrate) | Smoking in public is a petty offence |
+| us/new-jersey | 21+ | 6 oz | Consumption lounges allowed |
+| us/florida | No adult use | 20 g or less is a misdemeanour; more is a felony | |
+
+**in/goa local-law:** the Goa Tourism do's and don'ts PDF says drinking, drugs and smoking are banned on all beaches (fine, jail or both), and beaches close at sunset. The fine amounts (INR 2,000 per person, 10,000 per group) are noted as news-reported only.
+
+**Still skipped:** Illinois (the official sources conflict: an IDFPR PDF says 15 g; snapshots claim 30 g from June 2026).
