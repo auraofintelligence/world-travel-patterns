@@ -2,25 +2,39 @@
 
 Dated handover notes for whoever works on this repo next (Claude, Codex, Grok). Newest entry at the bottom. Times are Brisbane time (AEST, UTC+10).
 
-## Handoff for Claude (written 2026-11-01 17:52 AEST, Grok)
+## Handoff for Claude (updated 2026-11-01 17:59 AEST, Grok)
 
-**State today.** Every country and territory outside Australia has entry, activities and culture records. Today's long run (commits 3bf3434 to e64520e) did three things:
-- Filled work rules for about 90 places from official immigration and labour sources. The remaining "confirm in writing" checks are 867 of 3,705 (24%).
-- Searched every Do-not-travel place for an official etiquette page. af, ir, iq, ve, ps, cf and ye were upgraded; the others record "searched, none found" with the sites checked.
-- Added 2027 watchlist items (Bhutan tshechus, Lake of Stars) and The Outing 2027 matchmaking weekend. Venus Berlin 2027 was already in.
+**State today.** Every country and territory outside Australia has entry, activities and culture records. 796 of 3,705 activity checks (22%) still say "confirm in writing"; 476 of those are outside the Do-not-travel places.
+
+**Today's work (3bf3434 to d0191a2).**
+- Work rules filled for about 90 places.
+- Do-not-travel culture searched in full.
+- Then focused passes on four activities:
+  - **Remote work:** digital nomad visas in 22 places, with income thresholds from official pages. Estonia's two official figures conflict and are flagged. Norway's UDI says remote work as a visitor is not allowed (recorded as not-fit).
+  - **Book launches:** lecture and artist exemptions across Europe. Slovenia names literature; Poland allows 30 days a year of occasional lectures since 1 December 2025; the US has no author category.
+  - **Research:** sg, ie, mx, kr, br, th, tr, ke, za, ph, ae.
+  - **Volunteering:** de, nl, in, ch, fr, cn, at, es, it, pt, be, jp, ar, gr, ph.
 
 **Corrections to know about.**
-- Commit ab9a95d was an accidental test push titled "x" with 9 records. Its log entry was corrected in 720cad7; history was not rewritten.
-- In 897e1c1 the af, bf, cd and cf culture entries were marked "none found" without fresh searches. They were redone with real searches in c9cb164: af and cf now have official sources; bf and cd name the sites checked.
+- ab9a95d was an accidental test push titled "x" with 9 records. Fixed forward in 720cad7.
+- af, bf, cd and cf culture entries in 897e1c1 were marked "none found" without fresh searches. They were redone in c9cb164.
+- li activity rules in 94c0948 cited a generic EU page and an unverified "8 days in 90" rule. Corrected from the Liechtenstein Ausländer- und Passamt in daa1922.
 
 **Top next priorities.**
-1. Do-not-travel work rules: 23 places still have all 14 activities at confirm in writing (af, bf, cd, cf, gw, ht, ir, iq, kp, lb, ly, ml, ne, ps, ru, sd, so, ss, sy, td, ve, ye, plus cq which has guidance but no published list). Low value for travel, so only official visa pages.
-2. Volunteering, remote work, book launches and research across ordinary countries (the biggest remaining activity buckets).
-3. Year ahead: only 90 of 247 countries, mostly signal. Official 2027 festival and holiday dates, and the watchlist in `data/calendar/pending-official-dates.json`.
-4. States and regions remain almost empty (see docs/STATUS.md).
-5. Pending Luke: the Uluru photo (do not touch). The five repos are separate datasets: no cross-repo links or imports.
+1. Volunteering (83 left): mostly smaller states, the Pacific, the Caribbean and Africa.
+2. Remote work (65 left): EU states without a nomad route (sk, lu, lt, dk, se); Pacific and US territories; Africa.
+3. Research (52) and book launches (50): Latin America, Africa and the Pacific.
+4. Entrepreneur and filming (81 together): not yet started as a focused pass.
+5. Do-not-travel work rules last (23 places, all 14 activities).
+6. Year ahead is still only 90 of 247 countries, mostly signal.
+7. Pending Luke: the Uluru photo (do not touch). The five repos stay separate: no cross-repo links or imports.
 
-**Rules in force.** Official sources only, never invent figures, Australian English, no em dashes. Batches of 10 to 15 vetting records (smaller only when finishing a category). Run validate, tests, build_site, due and status_report before each commit. `git pull --rebase`, fast-forward push only, clear descriptive commit messages, a dated AEST entry here per batch.
+**Rules in force.**
+- Official sources only, never invent figures, Australian English, no em dashes.
+- Batches of 10 to 15 vetting records (smaller only when finishing a category).
+- Run validate, tests, build_site, due and status_report before each commit.
+- `git pull --rebase`, fast-forward push only, clear descriptive commit messages, a dated AEST entry here per batch.
+- When a page doesn't name the activity, leave "confirm in writing" and record what it does say.
 
 ## Standing notes from Luke (1 November 2026)
 
@@ -780,3 +794,7 @@ Volunteering checks: Germany allows qualifying voluntary work for visa-exempt vi
 ## 2026-11-01 17:59 AEST, Grok: Volunteering rules: jp, ar, gr, ph (4 records)
 
 Volunteering checks: Japan Temporary Visitor bars paid or profit-making activity, unpaid volunteering not named; Argentina needs an exchange or volunteering permit via a RENURE-registered organisation; Greece D visa over 3 months; Philippines 47(a)(2) visa via PNVSCA. Read via search-index snapshots.
+
+## 2026-11-01 17:59 AEST, Grok: Update Claude handoff and STATUS gaps after activity passes (0 records)
+
+Docs only: handoff section rewritten with today's activity passes, the Liechtenstein correction and next priorities; STATUS.md item 1 updated (796 confirm-in-writing, 22%; 476 outside Do-not-travel places).
