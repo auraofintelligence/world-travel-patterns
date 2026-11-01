@@ -399,3 +399,17 @@ For photos rejected in review, I approved openly licensed Wikimedia Commons repl
 - pe/lima-department: Pan American Games, 23 July to 8 August 2027 (Panam Sports).
 - in/maharashtra: Nashik-Trimbakeshwar Kumbh Amrit Snan dates. The Kumbh Mela Authority plan marks these as interim.
 - za, zw and na: ICC Men's Cricket World Cup, 2 October to 21 November 2027 (ICC).
+
+## 2026-11-01 16:42 AEST, Grok: high-visitor regions, batch (10 records)
+
+- th: cannabis flower has been a controlled herb since 23 June 2025 and needs a Thai prescription (TAT notice via thailand.go.th).
+- th/phuket and th/krabi: DMCR beach smoking order 864/2563 covers Patong and three Ko Lanta beaches, with a penalty of up to THB 100,000. The order was for two years; a renewal is not confirmed, and the rule says so.
+- hr/dubrovnik-neretva-county: no swimwear in the old town (Grad Dubrovnik).
+- gr/south-aegean-region: Santorini and Mykonos cruise fee of EUR 20 in peak season (Ministry of Tourism).
+- pt/lisbon: EUR 4 tourist tax (Câmara Municipal de Lisboa).
+- ae/emirate-of-dubai: Tourism Dirham (Dubai Legislation Portal).
+- jp/kyoto-prefecture: Kyoto City accommodation tax, JPY 200 to 10,000 from March 2026.
+- es/balearic-islands: ITS sustainable tourism tax.
+- it/lazio: EUR 2 Trevi Fountain ticket since 2 February 2026 (Roma Capitale).
+
+Fees are filed under the local-law topic work-and-payment, because money-and-cost uses nearest-level inheritance and a regional record would hide the national currency notes.
