@@ -415,11 +415,20 @@
      ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Work permit",
-     "detail": "Exploring opportunities fits a business visit; running a business needs the business or work route.",
-     "next": "Ask the Ministry of Foreign Affairs and Immigration before travel.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Foreign Enterprise Registration Certificate",
+     "detail": "Foreign enterprises must be approved by the Business Trade and Investment Board before operating, with a business plan, police and health reports and references. Some activities are restricted.",
+     "next": "Check the reserved activities list.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Foreign investment registration",
+       "authority": "Business Trade and Investment Board, Cook Islands",
+       "url": "https://btib.gov.ck/foreign-investment-registration/",
+       "checked": "2026-11-01",
+       "supports": "foreign enterprise registration before operating (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "conditional",

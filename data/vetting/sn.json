@@ -450,11 +450,20 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Senegal",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Senegal which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business creation via APIX; residence card for stays over 3 months",
+     "detail": "Foreigners can register a business at APIX with a passport (sole traders also need a residence certificate; companies go through a notary). Sector licences may follow. Residence is a separate Interior Ministry process.",
+     "next": "Ask APIX about investor residence support.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "FAQ",
+       "authority": "APIX (Senegal investment promotion agency)",
+       "url": "https://investinsenegal.sn/apix-s-a/faq/",
+       "checked": "2026-11-01",
+       "supports": "foreigners register businesses with a passport; companies via notary (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "conditional",

@@ -882,3 +882,7 @@ Official sources (search-index snapshots): Korea working holiday guide lists vol
 ## 2026-11-01 23:20 AEST, Grok: Docs: handoff and STATUS updated after entrepreneur, filming, volunteering, research and book launch passes (0 records)
 
 Docs only: handoff and STATUS.md item 1 refreshed with current confirm-in-writing counts.
+
+## 2026-11-01 23:21 AEST, Grok: Entrepreneur rules: ao, sn, na, sz, ki, ck (6 records)
+
+Entrepreneur checks from official sources (search-index snapshots): Angola investor visa via AIPEX registration; Senegal APIX business creation; Namibia Investor Permit from 1 September 2026 (5 years, N$2,600); Eswatini EIPA 5-year director permits; Kiribati Foreign Investment Certificate; Cook Islands foreign enterprise registration.
