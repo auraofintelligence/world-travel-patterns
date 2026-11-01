@@ -4,7 +4,7 @@ Dated handover notes for whoever works on this repo next (Claude, Codex, Grok). 
 
 ## Handoff for Claude (updated 2026-11-01 evening AEST, Grok)
 
-**State today.** Every country and territory outside Australia has entry, activities and culture records. 682 of 3,705 activity checks (18%) still say "confirm in writing"; 362 of those are outside the Do-not-travel places (remote work 62, volunteering 51, mixed missions 51, book launches 43, research 37, unpaid speaking 26, filming 15, entrepreneur 10, others 67).
+**State today.** Every country and territory outside Australia has entry, activities and culture records. 639 of 3,705 activity checks (17%) still say "confirm in writing"; 319 of those are outside the Do-not-travel places (remote work 62, volunteering 51, book launches 38, research 37, unpaid speaking 25, mixed missions 23, filming 12, entrepreneur 4, others 67).
 
 **Later passes (e802e79 to 08304a9).** Volunteering for 32 places (ca, ie, mx, th, Nordics, Baltics, central Europe, is, co, rw, tr, Pacific, Caribbean); remote work for 12 (Armenia allowed for a foreign employer; Dominica WIN visa; US and territories not addressed); research for 9 (US B-1, Namibia NCRST permit 4 months ahead); book launches for 7 (Armenia, Serbia, Kazakhstan); filming for 9 (ca, jp, za, ie, br, co, cl, hk, uz). Corrections: the Canada volunteering source was a mirror (migova.ca), replaced with canada.ca in 078680c; a Vietnam research draft based on a misread Taiwan page was reverted before commit.
 
@@ -14,7 +14,9 @@ Dated handover notes for whoever works on this repo next (Claude, Codex, Grok). 
 
 **Latest (eb8b663 to 1fe906d).** Entrepreneur ao, sn, na (new Investor Permit from 1 September 2026), sz, ki, ck; filming la, gy, cm; research hk, sa, vn. Remote work searches found few official routes (Azerbaijan's planned nomad visa seen only in news, not recorded).
 
-**Next.** Entrepreneur (10) and filming (15), then remaining remote work, volunteering, research, book launches; Do-not-travel work rules last; then ask-locally culture and 2027 events.
+**Latest (dbe7dca to f65a627).** Mixed missions for 28 places derived from each record's already-cited paid-work source (strictest element decides); dbe7dca overwrote deliberate detail, fixed in 523b376 (cu, dk, se restored to confirm-in-writing). Book launch or unpaid speaking reused sibling sources for am, sc, to, mu, gy, cu. Entrepreneur ci, lc, vc, dz, dm, nc (Saint Lucia escape fix 60a77c0). Filming dz, mg, ci.
+
+**Next.** Entrepreneur (4) and filming (12), then remaining remote work, volunteering, research, book launches; Do-not-travel work rules last; then ask-locally culture and 2027 events.
 
 **Today's work (3bf3434 to d0191a2).**
 - Work rules filled for about 90 places.
@@ -924,3 +926,7 @@ Correction to 1b4e6f5: removed backslashes accidentally left in the Saint Lucia 
 ## 2026-11-01 23:26 AEST, Grok: Filming rules: dz, mg, ci (3 records)
 
 Filming checks from official sources (search-index snapshots): Algeria Ministry of Culture authorisation 30 days ahead via a licensed Algerian producer; Madagascar filming visa plus ISSM authorisation 15 days ahead; Côte d'Ivoire Cinéma authorisation.
+
+## 2026-11-01 23:26 AEST, Grok: Docs: handoff and STATUS updated with current counts (0 records)
+
+Docs only: handoff and STATUS.md item 1 refreshed after mixed-mission, book launch, entrepreneur and filming passes.
