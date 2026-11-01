@@ -756,3 +756,7 @@ Remote-work checks filled from official sources: Estonia digital nomad visa (sou
 ## 2026-11-01 17:55 AEST, Grok: Remote work rules: cz, tw, bg, no, fi, si, kz, kg, pl, lt, hk (11 records)
 
 Remote-work checks: Czech Digital Nomad Program (Australia eligible, IT and marketing only); Taiwan digital nomad visitor visa (USD 40,000 income); Bulgaria 2025 permit (50 times minimum wage); Norway UDI says remote work as a visitor is not allowed (not-fit); Finland Migri allows it while legally present; Slovenia permit (twice average net salary); Kazakhstan Neo Nomad Visa (USD 3,000 a month); Kyrgyzstan status, Australian eligibility unconfirmed; Poland, Lithuania and Hong Kong publish no remote-work allowance, left confirm-in-writing with detail. Read via search-index snapshots.
+
+## 2026-11-01 17:55 AEST, Grok: Book launch and lecture exemptions: no, se, dk, fi, pl, cz, ee, lv (8 records)
+
+Book-launch checks from official exemption lists: Poland (since 1 December 2025, occasional lectures and artistic work 30 days a year without permit); Czech s 98(d) 7 consecutive or 30 days; Finland 90 days for invited lecturers and artists; Estonia 5 days in 30 without registration; Latvia 14 days for guest performances; Norway, Sweden and Denmark have no author exemption, only narrow lecturer and artist rules (left confirm-in-writing with detail). Read via search-index snapshots.

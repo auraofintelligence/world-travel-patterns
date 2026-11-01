@@ -302,11 +302,20 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Estonia, Yarralumla.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of the Republic of Estonia, Yarralumla.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "No registration for 5 days in 30; otherwise short-term employment registration",
+     "detail": "Work of up to 5 days in any 30 needs no registration. Longer stints by lecturers or creative workers need the host to register short-term employment.",
+     "next": "Keep to 5 days, or have the host register.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Registration of short-term employment",
+       "authority": "Police and Border Guard Board, Estonia",
+       "url": "https://www.politsei.ee/en/instructions/working-in-estonia/registration-of-short-term-employment",
+       "checked": "2026-11-01",
+       "supports": "5 days in 30 without registration; creative workers and lecturers eligible for registration (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",

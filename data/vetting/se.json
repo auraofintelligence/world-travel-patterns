@@ -174,10 +174,19 @@
     },
     "book-launch": {
      "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of Sweden, Yarralumla.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of Sweden, Yarralumla.",
-     "checked": "2026-11-01"
+     "route": "Narrow exemptions only",
+     "detail": "Artists may work 14 days in 12 months only if invited by an arranger on the agency's list; higher-education teachers and researchers may lecture up to 3 months. A book launch fits neither clearly.",
+     "next": "Ask the host whether it is a listed arranger or a university.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Exemptions from the work permit requirement",
+       "authority": "Swedish Migration Agency",
+       "url": "https://www.migrationsverket.se/en/you-want-to-apply/work/certain-people-may-work-in-sweden-without-a-work-permit.html",
+       "checked": "2026-11-01",
+       "supports": "artists with listed arrangers 14 days; lecturers 3 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "low",
@@ -234,10 +243,19 @@
     },
     "mixed-mission": {
      "status": "confirm-in-writing",
-     "route": "Depends on the mix",
-     "detail": "The visa-free stay covers the business and tourism parts; any paid part needs national permission.",
-     "next": "Ask the Embassy of Sweden, Yarralumla.",
-     "checked": "2026-11-01"
+     "route": "Narrow exemptions only",
+     "detail": "Artists may work 14 days in 12 months only if invited by an arranger on the agency's list; higher-education teachers and researchers may lecture up to 3 months. A book launch fits neither clearly.",
+     "next": "Ask the host whether it is a listed arranger or a university.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Exemptions from the work permit requirement",
+       "authority": "Swedish Migration Agency",
+       "url": "https://www.migrationsverket.se/en/you-want-to-apply/work/certain-people-may-work-in-sweden-without-a-work-permit.html",
+       "checked": "2026-11-01",
+       "supports": "artists with listed arrangers 14 days; lecturers 3 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "filming": {
      "status": "conditional",
