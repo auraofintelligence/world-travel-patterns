@@ -504,3 +504,7 @@ Added 12 official-events entries across 11 records: gb__scotland (Fringe), gb (G
 ## 2026-11-01 17:01 AEST, Grok: Year-ahead 2027 events: tech, adult and national days (10 records)
 
 Added 11 official-events entries across 10 records. Technology: IFA (de), CES (us), COMPUTEX (tw), VivaTech (fr). Dating-marriage-adult: Folsom Europe (de), Fetish Weekend London (gb). Other: EuroPride Torino (it). National days: al, am, bb and bs, from government or statute pages for fixed dates. New watchlist data/calendar/pending-official-dates.json holds 12 events without official 2027 dates (GITEX, Web Summit, Slush, Tomorrowland, TIFF, Lisdoonvarna, Avignon, Mawazine, Biennale Arte, Rock in Rio, and the ke and ph national days) for routines to add later. The Castres erotic fair has no exact 2027 date, so it was not added.
+
+## 2026-11-01 17:01 AEST, Grok: Culture national-source search cq-eg (11 records)
+
+Searched national tourism boards and government pages for 11 ask-locally culture records. Upgraded 7: cq, cv, cy, ee and eg are partly mapped; cw and do are community-published. Searched with none found for cr, cu, dj and dz.
