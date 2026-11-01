@@ -369,3 +369,7 @@ Same method and mechanism as batch 1: 63 confirmed and approved, 10 denied and r
 ## 2026-11-01 16:33 AEST, Grok: photo review, batch 3 of 4 (lb to sz, 89 photos)
 
 Same method and mechanism as batch 1: 85 confirmed and approved, 4 denied and rejected, 0 unsure. Denied: md mo ms pf . Reasons are in docs/PHOTO-REVIEW-RECOMMENDATIONS.md.
+
+## 2026-11-01 16:33 AEST, Grok: photo review, batch 4 of 4 (tc to zw, 86 photos)
+
+Same method and mechanism as batch 1: 67 confirmed and approved, 19 denied and rejected, 0 unsure. Denied: tl tm tn us/delaware us/florida us/indiana us/maryland us/michigan us/montana us/new-mexico us/ohio us/papahanaumokuakea us/tennessee us/texas us/virginia us/west-virginia us/wisconsin vc yt . Reasons are in docs/PHOTO-REVIEW-RECOMMENDATIONS.md.
