@@ -281,6 +281,271 @@
      "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
     }
    ]
+  },
+  "health-entry": {
+   "status": "none-required",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Vaccination requirements and WHO recommendations for international travellers, and malaria situation per country (2022 edition)",
+     "authority": "World Health Organization",
+     "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+     "checked": "2026-11-01",
+     "supports": "each country's entry requirement as reported to WHO"
+    }
+   ],
+   "notes": "No yellow fever certificate is needed for entry (as reported to WHO in 2022). WHO advises confirming with the embassy before travel."
+  },
+  "affection-and-relationships": {
+   "status": "partly-mapped",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "changing",
+     "kind": "law",
+     "text": "It's also illegal to take photos or film government and security buildings, including: checkpoints military bases embassies In 2024, Iraq criminalised same-sex relationships, changing gender, and the promotion of LGBTQ+ ideology, with large fines and prison terms of up to 15 years.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "in-private",
+     "kind": "custom",
+     "text": "Homosexuality is not socially accepted, and local attitudes towards the LGBTQIA+ community may be hostile.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "marriage-and-partnership",
+     "kind": "law",
+     "text": "Know your rights and responsibilities, especially in family law, such as: divorce child custody child support forced marriages Australia has laws against slavery, slavery-like practices and human trafficking.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "marriage-and-partnership",
+     "kind": "law",
+     "text": "These laws make forced marriage a crime.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "marriage-and-partnership",
+     "kind": "custom",
+     "text": "This is an example of exit trafficking for the purpose of forced marriage.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "marriage-and-partnership",
+     "kind": "custom",
+     "text": "Hotels may not allow couples to stay unless they can provide proof that they're married.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "changing",
+     "kind": "figure",
+     "evidence": "official",
+     "text": "Average age at first marriage: women 20.8 in 1977, 22.7 in 2012; men 25.3 in 1977, 26.2 in 2012.",
+     "source": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2019_wmd_marital_status.xlsx",
+     "checked": "2026-11-01",
+     "by": "affection_trends"
+    }
+   ],
+   "notes": "Read from the Australian Government's travel advice. Custom differs between communities and places; ask locally.",
+   "sources": [
+    {
+     "title": "Iraq travel advice (updated 02 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-01",
+     "supports": "local laws, local customs and LGBTQIA+ sections as read on 2026-11-01"
+    },
+    {
+     "title": "World Marriage Data 2019",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2019_wmd_marital_status.xlsx",
+     "supports": "average age at first marriage (SMAM) over time, from national censuses and surveys",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "They include long jail terms and the death penalty. - Carrying or using drugs",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Iraq applies the death penalty for a range of crimes, including murder, espionage, rape, kidnapping, terrorism, war crimes, smuggling antiquities and drug trafficking.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "In February 2023, Iraq prohibited the import, manufacture, and selling of alcoholic beverages of all sorts, punishable by fines of up to IQD 25m.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Know your rights and responsibilities, especially in family law, such as: divorce child custody child support forced marriages Australia has laws against slavery, slavery-like practices and human trafficking.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "custom",
+     "text": "Exit trafficking is a type of human trafficking seen in Iraq.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "tobacco-and-vaping",
+     "kind": "law",
+     "text": "During Ramadan, eating, drinking and smoking is illegal in public during the day.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Iraq travel advice (updated 02 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-01",
+     "supports": "drugs, alcohol, vaping and local laws as read on 2026-11-01"
+    }
+   ],
+   "notes": "Read from the Australian Government's travel advice; confirm with the country's own law.",
+   "checked": "2026-11-01"
+  },
+  "births-and-family-support": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Births per woman: 6.9 in 1975, 4.9 in 2000, 3.2 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Average age of mothers at birth: 29.9 in 1975, 28.6 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "text": "Births in 2023: about 1.2 million.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    }
+   ],
+   "sources": [
+    {
+     "title": "World Population Prospects 2024",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "supports": "births per woman, births and mothers' average age, 1975 to 2023"
+    }
+   ],
+   "notes": "UN estimates; the national statistics office may publish newer figures.",
+   "checked": "2026-11-01"
+  },
+  "languages": {
+   "status": "partly-mapped",
+   "evidence": "signal",
+   "items": [
+    {
+     "area": "official",
+     "kind": "law",
+     "evidence": "signal",
+     "text": "Official or national languages: Arabic, Kurdish language.",
+     "source": "https://www.wikidata.org/wiki/Property:P37",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "english",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "English proficiency score 406 (very low), ranked 113 of 123 in the EF English Proficiency Index 2025, from adults who took EF's online English test.",
+     "source": "https://www.ef.com/wwen/epi/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "hotspots",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "Baghdad scored 407 (very low), above the national 406.",
+     "source": "https://www.ef.com/wwen/epi/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "hotspots",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "Highest-scoring other cities: Erbil 442 (very low), Kirkuk 424 (very low), Mosul 409 (very low).",
+     "source": "https://www.ef.com/wwen/epi/regions/middle-east/iraq/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "hotspots",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "Highest-scoring region: Sulaimaniyah 460 (low), of 14 scored.",
+     "source": "https://www.ef.com/wwen/epi/regions/middle-east/iraq/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Official language (P37)",
+     "authority": "Signal: Wikidata",
+     "url": "https://www.wikidata.org/wiki/Property:P37",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "EF English Proficiency Index 2025",
+     "authority": "Signal: EF Education First",
+     "url": "https://www.ef.com/wwen/epi/",
+     "checked": "2026-11-01"
+    }
+   ],
+   "notes": "Signals until the place's own language law and census are read.",
+   "checked": "2026-11-01"
   }
  }
 }

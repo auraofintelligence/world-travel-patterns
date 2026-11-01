@@ -364,6 +364,232 @@
      "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
     }
    ]
+  },
+  "health-entry": {
+   "status": "none-required",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Vaccination requirements and WHO recommendations for international travellers, and malaria situation per country (2022 edition)",
+     "authority": "World Health Organization",
+     "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+     "checked": "2026-11-01",
+     "supports": "each country's entry requirement as reported to WHO"
+    }
+   ],
+   "notes": "No yellow fever certificate is needed for entry (as reported to WHO in 2022). WHO advises confirming with the embassy before travel."
+  },
+  "affection-and-relationships": {
+   "status": "partly-mapped",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "marriage-and-partnership",
+     "kind": "law",
+     "text": "If you're in an area affected by clashes: stay indoors and away from windows and balconies follow the advice of local authorities Stay indoors during celebratory gunfire, which has caused casualties and often happens during and after political speeches, weddings, funerals as well as religious and new year holidays.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "marriage-and-partnership",
+     "kind": "law",
+     "text": "Religious law has the same standing as civil law, which incorporates family law, marriage, divorce and custody.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "in-private",
+     "kind": "law",
+     "text": "Same-sex relations are illegal in Lebanon.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "in-public",
+     "kind": "law",
+     "text": "Public displays of affection may cause offence in conservative and religious areas.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "marriage-and-partnership",
+     "kind": "custom",
+     "text": "Some hotels ask for proof of marriage before renting rooms to couples.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "changing",
+     "kind": "figure",
+     "evidence": "official",
+     "text": "Average age at first marriage: women 27.9 in 1997, 28.3 in 2007; men 31.4 in 1997, 32.3 in 2007.",
+     "source": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2019_wmd_marital_status.xlsx",
+     "checked": "2026-11-01",
+     "by": "affection_trends"
+    }
+   ],
+   "notes": "Read from the Australian Government's travel advice. Custom differs between communities and places; ask locally.",
+   "sources": [
+    {
+     "title": "Lebanon travel advice (updated 24 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-11-01",
+     "supports": "local laws, local customs and LGBTQIA+ sections as read on 2026-11-01"
+    },
+    {
+     "title": "World Marriage Data 2019",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2019_wmd_marital_status.xlsx",
+     "supports": "average age at first marriage (SMAM) over time, from national censuses and surveys",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Penalties for drug offences are severe and include mandatory jail terms. - Carrying or using drugs",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "tobacco-and-vaping",
+     "kind": "custom",
+     "text": "Avoid eating, drinking or smoking in public, or in front of people who are fasting.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Lebanon travel advice (updated 24 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-11-01",
+     "supports": "drugs, alcohol, vaping and local laws as read on 2026-11-01"
+    }
+   ],
+   "notes": "Read from the Australian Government's travel advice; confirm with the country's own law.",
+   "checked": "2026-11-01"
+  },
+  "births-and-family-support": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Births per woman: 4.5 in 1975, 2.6 in 2000, 2.2 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Average age of mothers at birth: 28.9 in 1975, 29.2 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "text": "Births in 2023: about 93,000.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    }
+   ],
+   "sources": [
+    {
+     "title": "World Population Prospects 2024",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "supports": "births per woman, births and mothers' average age, 1975 to 2023"
+    }
+   ],
+   "notes": "UN estimates; the national statistics office may publish newer figures.",
+   "checked": "2026-11-01"
+  },
+  "languages": {
+   "status": "partly-mapped",
+   "evidence": "signal",
+   "items": [
+    {
+     "area": "official",
+     "kind": "law",
+     "evidence": "signal",
+     "text": "Official or national languages: Arabic.",
+     "source": "https://www.wikidata.org/wiki/Property:P37",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "english",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "English proficiency score 477 (low), ranked 78 of 123 in the EF English Proficiency Index 2025, from adults who took EF's online English test.",
+     "source": "https://www.ef.com/wwen/epi/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "hotspots",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "Beirut scored 523 (moderate), above the national 477.",
+     "source": "https://www.ef.com/wwen/epi/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "hotspots",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "Highest-scoring other cities: Sidon 458 (low), Zahle 450 (low), Tripoli 426 (very low).",
+     "source": "https://www.ef.com/wwen/epi/regions/middle-east/lebanon/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "hotspots",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "Highest-scoring region: Mount Lebanon 536 (moderate), of 6 scored.",
+     "source": "https://www.ef.com/wwen/epi/regions/middle-east/lebanon/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Official language (P37)",
+     "authority": "Signal: Wikidata",
+     "url": "https://www.wikidata.org/wiki/Property:P37",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "EF English Proficiency Index 2025",
+     "authority": "Signal: EF Education First",
+     "url": "https://www.ef.com/wwen/epi/",
+     "checked": "2026-11-01"
+    }
+   ],
+   "notes": "Signals until the place's own language law and census are read.",
+   "checked": "2026-11-01"
   }
  }
 }

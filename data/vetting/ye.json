@@ -370,6 +370,332 @@
      "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
     }
    ]
+  },
+  "health-entry": {
+   "status": "none-required",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Vaccination requirements and WHO recommendations for international travellers, and malaria situation per country (2022 edition)",
+     "authority": "World Health Organization",
+     "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+     "checked": "2026-11-01",
+     "supports": "each country's entry requirement as reported to WHO"
+    }
+   ],
+   "notes": "No yellow fever certificate is needed for entry (as reported to WHO in 2022). WHO advises confirming with the embassy before travel."
+  },
+  "affection-and-relationships": {
+   "status": "partly-mapped",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "marriage-and-partnership",
+     "kind": "law",
+     "text": "Yemen does not recognise children born outside marriage and does not issue birth certificates for children born outside marriage.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "in-private",
+     "kind": "law",
+     "text": "These offences include: murder robbery arson/explosion endangering transport and communications adultery prostitution same-sex relationships abandoning the Islamic religion promoting religions other than Islam Some crimes are punishable by lashing and imprisonment.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "in-private",
+     "kind": "custom",
+     "text": "These include drinking alcohol in public, slander and adultery.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "marriage-and-partnership",
+     "kind": "law",
+     "text": "Yemen doesn't recognise or allow same-sex marriages and rights.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "in-private",
+     "kind": "law",
+     "text": "Same-sex relationships are illegal, and sentences can include imprisonment or the death penalty.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "in-public",
+     "kind": "law",
+     "text": "Same-sex public displays of affection and pride flags are strictly prohibited by law, carry a significant risk of immediate arrest.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "in-public",
+     "kind": "law",
+     "text": "Public displays of affection may cause offence.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "in-private",
+     "kind": "custom",
+     "text": "It's generally unacceptable for unmarried couples to live together.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "marriage-and-partnership",
+     "kind": "custom",
+     "text": "Hotels may not allow couples to stay unless they can prove they are officially married.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "changing",
+     "kind": "figure",
+     "evidence": "official",
+     "text": "Average age at first marriage: women 18.0 in 1975, 23.0 in 2013; men 22.5 in 1975, 26.1 in 2013.",
+     "source": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2019_wmd_marital_status.xlsx",
+     "checked": "2026-11-01",
+     "by": "affection_trends"
+    }
+   ],
+   "notes": "Read from the Australian Government's travel advice. Custom differs between communities and places; ask locally.",
+   "sources": [
+    {
+     "title": "Yemen travel advice (updated 23 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01",
+     "supports": "local laws, local customs and LGBTQIA+ sections as read on 2026-11-01"
+    },
+    {
+     "title": "World Marriage Data 2019",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2019_wmd_marital_status.xlsx",
+     "supports": "average age at first marriage (SMAM) over time, from national censuses and surveys",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "tobacco-and-vaping",
+     "kind": "law",
+     "text": "Some skincare products and e-cigarette refills may contain ingredients that are illegal in Yemen, such as Cannabidiol (CBD) oil.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "CBD oil or products are illegal in Yemen, even if they're for medical or recreational purposes.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "It's a serious crime to carry illegal drugs or CBD oil or products in Yemen.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Punishment for possessing, using or trafficking illegal drugs is severe.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "khat",
+     "kind": "custom",
+     "text": "Never attempt to export ‘Qat’.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "custom",
+     "text": "Bringing it to neighbouring or other countries can lead to drug trafficking charges.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "custom",
+     "text": "These include drinking alcohol in public, slander and adultery.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "custom",
+     "text": "Restrictions apply to the sale or possession of alcohol, drugs, pornography and pork.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "In some cases, authorities have detained travellers at borders because of the smell of alcohol on their breath.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "tobacco-and-vaping",
+     "kind": "law",
+     "text": "During Ramadan, eating, drinking, and smoking may be illegal in public during the day.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "tobacco-and-vaping",
+     "kind": "custom",
+     "text": "Avoid dressing inappropriately, eating, drinking or smoking in public or around people who are fasting.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Yemen travel advice (updated 23 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-01",
+     "supports": "drugs, alcohol, vaping and local laws as read on 2026-11-01"
+    }
+   ],
+   "notes": "Read from the Australian Government's travel advice; confirm with the country's own law.",
+   "checked": "2026-11-01"
+  },
+  "births-and-family-support": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Births per woman: 8.4 in 1975, 6.3 in 2000, 4.6 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Average age of mothers at birth: 30.5 in 1975, 29.7 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "text": "Births in 2023: about 1.4 million.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    }
+   ],
+   "sources": [
+    {
+     "title": "World Population Prospects 2024",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "supports": "births per woman, births and mothers' average age, 1975 to 2023"
+    }
+   ],
+   "notes": "UN estimates; the national statistics office may publish newer figures.",
+   "checked": "2026-11-01"
+  },
+  "languages": {
+   "status": "partly-mapped",
+   "evidence": "signal",
+   "items": [
+    {
+     "area": "official",
+     "kind": "law",
+     "evidence": "signal",
+     "text": "Official or national languages: Arabic.",
+     "source": "https://www.wikidata.org/wiki/Property:P37",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "english",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "English proficiency score 402 (very low), ranked 116 of 123 in the EF English Proficiency Index 2025, from adults who took EF's online English test.",
+     "source": "https://www.ef.com/wwen/epi/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "hotspots",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "Sana'a scored 410 (very low), above the national 402.",
+     "source": "https://www.ef.com/wwen/epi/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "hotspots",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "Highest-scoring other cities: Aden 412 (very low), Sanaa 410 (very low), Ibb 406 (very low).",
+     "source": "https://www.ef.com/wwen/epi/regions/middle-east/yemen/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "hotspots",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "Highest-scoring region: Hadramaut 424 (very low), of 4 scored.",
+     "source": "https://www.ef.com/wwen/epi/regions/middle-east/yemen/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Official language (P37)",
+     "authority": "Signal: Wikidata",
+     "url": "https://www.wikidata.org/wiki/Property:P37",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "EF English Proficiency Index 2025",
+     "authority": "Signal: EF Education First",
+     "url": "https://www.ef.com/wwen/epi/",
+     "checked": "2026-11-01"
+    }
+   ],
+   "notes": "Signals until the place's own language law and census are read.",
+   "checked": "2026-11-01"
   }
  }
 }

@@ -267,6 +267,204 @@
      "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
     }
    ]
+  },
+  "health-entry": {
+   "status": "none-required",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Vaccination requirements and WHO recommendations for international travellers, and malaria situation per country (2022 edition)",
+     "authority": "World Health Organization",
+     "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+     "checked": "2026-11-01",
+     "supports": "each country's entry requirement as reported to WHO"
+    }
+   ],
+   "notes": "No yellow fever certificate is needed for entry (as reported to WHO in 2022). WHO advises confirming with the embassy before travel."
+  },
+  "affection-and-relationships": {
+   "status": "partly-mapped",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "in-private",
+     "kind": "law",
+     "text": "These activities are illegal: same-sex relationships taking photos of military or government buildings or other sensitive infrastructure not carrying ID failing to have the right entry visa",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/syria",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "changing",
+     "kind": "figure",
+     "evidence": "official",
+     "text": "Average age at first marriage: women 20.7 in 1970, 25.4 in 2006; men 25.9 in 1970, 29.3 in 2001.",
+     "source": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2019_wmd_marital_status.xlsx",
+     "checked": "2026-11-01",
+     "by": "affection_trends"
+    }
+   ],
+   "notes": "Read from the Australian Government's travel advice. Custom differs between communities and places; ask locally.",
+   "sources": [
+    {
+     "title": "Syria travel advice (updated 02 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/syria",
+     "checked": "2026-11-01",
+     "supports": "local laws, local customs and LGBTQIA+ sections as read on 2026-11-01"
+    },
+    {
+     "title": "World Marriage Data 2019",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2019_wmd_marital_status.xlsx",
+     "supports": "average age at first marriage (SMAM) over time, from national censuses and surveys",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Penalties for drug offences are severe and include the death penalty.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/syria",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "tobacco-and-vaping",
+     "kind": "law",
+     "text": "During Ramadan, eating, drinking and smoking may be illegal in public during the day.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/syria",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Syria travel advice (updated 02 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/syria",
+     "checked": "2026-11-01",
+     "supports": "drugs, alcohol, vaping and local laws as read on 2026-11-01"
+    }
+   ],
+   "notes": "Read from the Australian Government's travel advice; confirm with the country's own law.",
+   "checked": "2026-11-01"
+  },
+  "births-and-family-support": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Births per woman: 7.5 in 1975, 4.1 in 2000, 2.7 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Average age of mothers at birth: 30.2 in 1975, 28.8 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "text": "Births in 2023: about 522,000.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    }
+   ],
+   "sources": [
+    {
+     "title": "World Population Prospects 2024",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "supports": "births per woman, births and mothers' average age, 1975 to 2023"
+    }
+   ],
+   "notes": "UN estimates; the national statistics office may publish newer figures.",
+   "checked": "2026-11-01"
+  },
+  "languages": {
+   "status": "partly-mapped",
+   "evidence": "signal",
+   "items": [
+    {
+     "area": "official",
+     "kind": "law",
+     "evidence": "signal",
+     "text": "Official or national languages: Arabic.",
+     "source": "https://www.wikidata.org/wiki/Property:P37",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "english",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "English proficiency score 456 (low), ranked 91 of 123 in the EF English Proficiency Index 2025, from adults who took EF's online English test.",
+     "source": "https://www.ef.com/wwen/epi/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "hotspots",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "Damascus scored 470 (low), above the national 456.",
+     "source": "https://www.ef.com/wwen/epi/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "hotspots",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "Highest-scoring other cities: Latakia 493 (low), Tartus 484 (low), Homs 472 (low).",
+     "source": "https://www.ef.com/wwen/epi/regions/middle-east/syria/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "hotspots",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "Highest-scoring region: Latakia Governorate 489 (low), of 10 scored.",
+     "source": "https://www.ef.com/wwen/epi/regions/middle-east/syria/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Official language (P37)",
+     "authority": "Signal: Wikidata",
+     "url": "https://www.wikidata.org/wiki/Property:P37",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "EF English Proficiency Index 2025",
+     "authority": "Signal: EF Education First",
+     "url": "https://www.ef.com/wwen/epi/",
+     "checked": "2026-11-01"
+    }
+   ],
+   "notes": "Signals until the place's own language law and census are read.",
+   "checked": "2026-11-01"
   }
  }
 }

@@ -321,6 +321,279 @@
      "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
     }
    ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Vaccination requirements and WHO recommendations for international travellers, and malaria situation per country (2022 edition)",
+     "authority": "World Health Organization",
+     "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+     "checked": "2026-11-01",
+     "supports": "each country's entry requirement as reported to WHO"
+    }
+   ],
+   "notes": "Yellow fever rule as reported to WHO in 2022. WHO advises confirming with the embassy before travel.",
+   "conditional": [
+    "Yellow fever certificate: Proof of vaccination against yellow fever is required for travellers aged 9 months or over arriving from countries with risk of yellow fever transmission, and for travellers having transited for more than 12 hours through an airport of a country with risk of yellow fever transmission"
+   ]
+  },
+  "affection-and-relationships": {
+   "status": "partly-mapped",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "marriage-and-partnership",
+     "kind": "law",
+     "text": "Bahrain doesn't recognise children born outside marriage and doesn't issue birth certificates for children born outside marriage.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "marriage-and-partnership",
+     "kind": "custom",
+     "text": "Non-Muslim residents in Bahrain may marry in civil or religious ceremonies, but all marriages must be registered with a Bahraini civil court.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "marriage-and-partnership",
+     "kind": "law",
+     "text": "It is illegal to: attempt to convert a Muslim to another religion make offensive remarks about or insult Bahrain, the royal family, Islam, other religious beliefs, or local authorities - you may face prosecution if you do so use offensive language, swear, abuse others, spread rumours or make rude gestures in public or ",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "in-private",
+     "kind": "law",
+     "text": "Women reporting sexual assault may be taken into custody and may need to prove that the encounter was non-consensual to avoid being charged under extramarital sex laws.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "marriage-and-partnership",
+     "kind": "custom",
+     "text": "Hotels may refuse couples who can't prove they're married.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "in-public",
+     "kind": "law",
+     "text": "Avoid public displays of affection which may cause offence and dress appropriately.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "in-private",
+     "kind": "law",
+     "text": "Same-sex relationships between consenting adults aged over 21 years aren't criminalised.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "changing",
+     "kind": "figure",
+     "evidence": "official",
+     "text": "Average age at first marriage: women 25.5 in 1989, 26.9 in 2010; men 28.8 in 1989, 30.0 in 2001.",
+     "source": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2019_wmd_marital_status.xlsx",
+     "checked": "2026-11-01",
+     "by": "affection_trends"
+    }
+   ],
+   "notes": "Read from the Australian Government's travel advice. Custom differs between communities and places; ask locally.",
+   "sources": [
+    {
+     "title": "Bahrain travel advice (updated 23 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01",
+     "supports": "local laws, local customs and LGBTQIA+ sections as read on 2026-11-01"
+    },
+    {
+     "title": "World Marriage Data 2019",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2019_wmd_marital_status.xlsx",
+     "supports": "average age at first marriage (SMAM) over time, from national censuses and surveys",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "tobacco-and-vaping",
+     "kind": "law",
+     "text": "Some skincare products and e-cigarette refills may contain ingredients that are illegal in Bahrain such as Cannabidiol (CBD) oil.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "CBD oil or products are illegal in Bahrain even if they're for medical or recreational purposes.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "It's considered a serious crime to carry illegal drugs or CBD oil or products in Bahrain, even if you're transiting Bahrain from another country.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Penalties for drug offences, including buying, selling, and possession, even when transiting through Bahrain, are severe and may include a life sentence or the death penalty.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "tobacco-and-vaping",
+     "kind": "law",
+     "text": "Some cosmetic products and e-cigarette refills may contain ingredients that are illegal in Bahrain, such as Cannabidiol (CBD) oil.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "custom",
+     "text": "You can be charged with possession if trace amounts of drugs are found on your body, clothing, or luggage.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "custom",
+     "text": "Police may detain you if you're accompanied by someone who is involved in drug cases, including trafficking, possessing, or using drugs.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "In Bahrain, there's no minimum legal threshold for drug possession.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "custom",
+     "text": "This can include, for example, marijuana-flavoured or branded: liquor tea chewing gum lollies Lab testing on suspicious substances could take days or weeks.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "It is illegal to: attempt to convert a Muslim to another religion make offensive remarks about or insult Bahrain, the royal family, Islam, other religious beliefs, or local authorities - you may face prosecution if you do so use offensive language, swear, abuse others, spread rumours or make rude gestures in public or ",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "tobacco-and-vaping",
+     "kind": "custom",
+     "text": "Avoid dressing inappropriately, eating, drinking or smoking in public or around people who are fasting.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bahrain travel advice (updated 23 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/bahrain",
+     "checked": "2026-11-01",
+     "supports": "drugs, alcohol, vaping and local laws as read on 2026-11-01"
+    }
+   ],
+   "notes": "Read from the Australian Government's travel advice; confirm with the country's own law.",
+   "checked": "2026-11-01"
+  },
+  "births-and-family-support": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Births per woman: 5.6 in 1975, 2.8 in 2000, 1.8 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Average age of mothers at birth: 29.7 in 1975, 30.0 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "text": "Births in 2023: about 20,000.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    }
+   ],
+   "sources": [
+    {
+     "title": "World Population Prospects 2024",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "supports": "births per woman, births and mothers' average age, 1975 to 2023"
+    }
+   ],
+   "notes": "UN estimates; the national statistics office may publish newer figures.",
+   "checked": "2026-11-01"
+  },
+  "languages": {
+   "status": "partly-mapped",
+   "evidence": "signal",
+   "items": [
+    {
+     "area": "official",
+     "kind": "law",
+     "evidence": "signal",
+     "text": "Official or national languages: Arabic.",
+     "source": "https://www.wikidata.org/wiki/Property:P37",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Official language (P37)",
+     "authority": "Signal: Wikidata",
+     "url": "https://www.wikidata.org/wiki/Property:P37",
+     "checked": "2026-11-01"
+    }
+   ],
+   "notes": "Signals until the place's own language law and census are read.",
+   "checked": "2026-11-01"
   }
  }
 }

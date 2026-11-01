@@ -452,6 +452,247 @@
      "supports": "hazard seasons and closures as read on 2026-10-31"
     }
    ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Vaccination requirements and WHO recommendations for international travellers, and malaria situation per country (2022 edition)",
+     "authority": "World Health Organization",
+     "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+     "checked": "2026-11-01",
+     "supports": "each country's entry requirement as reported to WHO"
+    }
+   ],
+   "notes": "Yellow fever rule as reported to WHO in 2022. WHO advises confirming with the embassy before travel.",
+   "conditional": [
+    "Yellow fever certificate: Proof of vaccination against yellow fever is required for travellers aged 9 months or over arriving from countries with risk of yellow fever transmission",
+    "Proof of vaccination against poliomyelitis for all travellers arriving from endemic countries"
+   ]
+  },
+  "affection-and-relationships": {
+   "status": "partly-mapped",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "in-public",
+     "kind": "law",
+     "text": "It's illegal to: have sex outside marriage be sexually intimate or overly affectionate in public engage in same-sex relationships stalk or harass women verbally, physically or online",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/qatar",
+     "checked": "2026-11-01"
+    },
+    {
+     "area": "changing",
+     "kind": "figure",
+     "evidence": "official",
+     "text": "Average age at first marriage: women 22.7 in 1986, 25.8 in 2004; men 26.6 in 1986, 27.6 in 2004.",
+     "source": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2019_wmd_marital_status.xlsx",
+     "checked": "2026-11-01",
+     "by": "affection_trends"
+    }
+   ],
+   "notes": "Read from the Australian Government's travel advice. Custom differs between communities and places; ask locally.",
+   "sources": [
+    {
+     "title": "Qatar travel advice (updated 08 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/qatar",
+     "checked": "2026-11-01",
+     "supports": "local laws, local customs and LGBTQIA+ sections as read on 2026-11-01"
+    },
+    {
+     "title": "World Marriage Data 2019",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2019_wmd_marital_status.xlsx",
+     "supports": "average age at first marriage (SMAM) over time, from national censuses and surveys",
+     "checked": "2026-11-01"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Penalties for drug offences include long jail terms.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/qatar",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Authorities could charge you with possession if they can detect illegal drugs in your body.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/qatar",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "tobacco-and-vaping",
+     "kind": "law",
+     "text": "It's illegal to: eat, drink or smoke in public between sunrise and sunset during Ramadan drink alcohol, if you're Muslim drink alcohol or be drunk in public drink alcohol outside licensed premises Expats living in Qatar can buy alcohol on a permit system.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/qatar",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Alcohol is currently only available to visitors at licenced hotel restaurants and bars.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/qatar",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "It is an offence to drink alcohol or be drunk in a public place.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/qatar",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "The importation of alcohol into the State of Qatar is illegal.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/qatar",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "custom",
+     "text": "You will not be able to purchase alcohol from duty free in airports.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/qatar",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    },
+    {
+     "substance": "tobacco-and-vaping",
+     "kind": "law",
+     "text": "During Ramadan, eating, drinking and smoking may be illegal in public during the day.",
+     "source": "https://www.smartraveller.gov.au/destinations/middle-east/qatar",
+     "checked": "2026-11-01",
+     "by": "smartraveller_substances"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Qatar travel advice (updated 08 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/qatar",
+     "checked": "2026-11-01",
+     "supports": "drugs, alcohol, vaping and local laws as read on 2026-11-01"
+    }
+   ],
+   "notes": "Read from the Australian Government's travel advice; confirm with the country's own law.",
+   "checked": "2026-11-01"
+  },
+  "births-and-family-support": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Births per woman: 5.9 in 1975, 3.1 in 2000, 1.7 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "changing": true,
+     "text": "Average age of mothers at birth: 28.4 in 1975, 30.4 in 2023.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    },
+    {
+     "area": "births",
+     "kind": "figure",
+     "text": "Births in 2023: about 30,000.",
+     "source": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "by": "births_wpp"
+    }
+   ],
+   "sources": [
+    {
+     "title": "World Population Prospects 2024",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://population.un.org/wpp/",
+     "checked": "2026-11-01",
+     "supports": "births per woman, births and mothers' average age, 1975 to 2023"
+    }
+   ],
+   "notes": "UN estimates; the national statistics office may publish newer figures.",
+   "checked": "2026-11-01"
+  },
+  "languages": {
+   "status": "partly-mapped",
+   "evidence": "signal",
+   "items": [
+    {
+     "area": "official",
+     "kind": "law",
+     "evidence": "signal",
+     "text": "Official or national languages: Arabic.",
+     "source": "https://www.wikidata.org/wiki/Property:P37",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "english",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "English proficiency score 469 (low), ranked 81 of 123 in the EF English Proficiency Index 2025, from adults who took EF's online English test.",
+     "source": "https://www.ef.com/wwen/epi/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "hotspots",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "Doha scored 479 (low), above the national 469.",
+     "source": "https://www.ef.com/wwen/epi/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    },
+    {
+     "area": "hotspots",
+     "kind": "figure",
+     "evidence": "signal",
+     "text": "Highest-scoring other cities: Al Khor 477 (low).",
+     "source": "https://www.ef.com/wwen/epi/regions/middle-east/qatar/",
+     "checked": "2026-11-01",
+     "by": "languages_seed"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Official language (P37)",
+     "authority": "Signal: Wikidata",
+     "url": "https://www.wikidata.org/wiki/Property:P37",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "EF English Proficiency Index 2025",
+     "authority": "Signal: EF Education First",
+     "url": "https://www.ef.com/wwen/epi/",
+     "checked": "2026-11-01"
+    }
+   ],
+   "notes": "Signals until the place's own language law and census are read.",
+   "checked": "2026-11-01"
   }
  }
 }
