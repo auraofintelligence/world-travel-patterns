@@ -322,3 +322,18 @@ id/bali local-law comes from Governor's Circular 4/2023 on how foreign tourists 
 **in/goa local-law:** the Goa Tourism do's and don'ts PDF says drinking, drugs and smoking are banned on all beaches (fine, jail or both), and beaches close at sunset. The fine amounts (INR 2,000 per person, 10,000 per group) are noted as news-reported only.
 
 **Still skipped:** Illinois (the official sources conflict: an IDFPR PDF says 15 g; snapshots claim 30 g from June 2026).
+
+## 2026-11-01 19:00 AEST, Grok: culture-and-protocol from countries' own guidance (9 records)
+
+These countries have no Smartraveller "Local customs" section, so the records come from each government's or national tourism body's own visitor guidance (status community-published; all read via search snapshots):
+- jp: JNTO manners, onsen and tipping guides.
+- nz: the Tiaki Promise (Tourism NZ).
+- is: the Icelandic Pledge (Visit Iceland, Icelandic Tourist Board).
+- kr: Korea.net and VisitKorea etiquette.
+- pe: Machu Picchu code of conduct (Ministry of Culture).
+- ec: Galápagos National Park visit rules, reissued in the Registro Oficial of 14 September 2026.
+- se: allemansrätten (Naturvårdsverket).
+- no: allemannsretten (Norwegian Environment Agency); camp at least 150 m from homes, up to 2 nights.
+- fi: everyone's rights (Ministry of the Environment).
+
+**Next:** fr, it, es, gb, de, us and others have no such national etiquette page; look for site-level rules (for example Venice's access fee, the Acropolis) or leave them as ask-locally.
