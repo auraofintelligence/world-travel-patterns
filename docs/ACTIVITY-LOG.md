@@ -764,3 +764,7 @@ Book-launch checks from official exemption lists: Poland (since 1 December 2025,
 ## 2026-11-01 17:56 AEST, Grok: Book launch and lecture exemptions: hu, hr, sk, ro, lu, is, us, si, li, plus pl source title fix (10 records)
 
 Book-launch checks: Slovenia (cultural creators incl. literature exempt; authors up to 3 months); Iceland (90 days, notify Directorate of Labour by day 1); Luxembourg (speakers and lecturers under 3 months); Hungary (10 working days a year); Croatia (no permit at organised meetings or cultural events); Slovakia (30 days a year); Romania (via cultural or teaching institution, confirm); US (book promotion not named, no US appearance fee, honorarium rule); Liechtenstein (no exempt activities). Poland source title corrected to Dz.U. 2025 item 1620. Read via search-index snapshots.
+
+## 2026-11-01 17:57 AEST, Grok: Correct Liechtenstein work rule sources (replace misattributed EU portal link) (1 records)
+
+Fix forward for 94c0948: li activity rules cited a generic EU portal page attributed to the Liechtenstein Migration and Passport Office, and an unverified '8 days in 90' rule. Replaced with the Ausländer- und Passamt's own pages: gainful activity needs a permit whatever the length; artists are exempt from service notification only. Read via search-index snapshots.
