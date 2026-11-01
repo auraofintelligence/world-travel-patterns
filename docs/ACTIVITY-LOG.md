@@ -532,3 +532,7 @@ Searched national tourism boards and government pages for 10 ask-locally culture
 ## 2026-11-01 17:07 AEST, Grok: Year-ahead 2027: less-visited countries (10 records)
 
 Added 10 official-events entries across 10 records. National days: bw, bz (Belize 2027 holiday list), fj, ge, jm, ke, cv, and mn (Naadam, by law). Music: Sauti za Busara (tz) and Gnaoua Essaouira (ma). Watchlist: removed ke (now added); added Paro Tshechu and Bhutan National Day (no official source), Lake of Stars (dates to come), and FESPACO 20 to 27 March, held for the Do-not-travel pass because bf is Do not travel.
+
+## 2026-11-01 17:08 AEST, Grok: Activities: paid-speaking from official labour and immigration law (10 records)
+
+Upgraded the paid-speaking check from confirm-in-writing to conditional for 10 places, with citations. gf, gp, mq, re, pm, bl, mf and yt: the French entry arrêtés exclude paid activity that needs an autorisation de travail. vg: BVI Immigration Department FAQ (work permit for gainful employment). ky: Cayman Immigration Regulations guest-speaker exemption (single or occasional event, up to 10 days) and WORC Business Visitor's Permit. Other activities stay confirm-in-writing.

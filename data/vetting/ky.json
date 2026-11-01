@@ -57,11 +57,27 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Guest-speaker work-permit exemption (single or occasional event, up to 10 days); otherwise a work permit",
+     "detail": "Cayman Immigration Regulations: a guest speaker at a single or occasional conference or seminar that isn't part of a commercial venture is exempt from a work permit for up to 10 days, with no other gainful activity. Repeated short business visits use a Business Visitor's Permit.",
+     "next": "Have the organiser confirm with WORC that the event qualifies for the guest-speaker exemption.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Regulations (2025 Revision)",
+       "authority": "Cayman Islands Legislation",
+       "url": "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2004/2004-0005/2004-0005_2025%20Revision.pdf",
+       "checked": "2026-11-01",
+       "supports": "guest speaker exemption (read via a search-index snapshot)"
+      },
+      {
+       "title": "Business Visitors' Permit form BVP1",
+       "authority": "WORC, Cayman Islands Government",
+       "url": "https://my.egov.ky/documents/d/worc/bvp1-grant-of-business-visitors-permit-revised-fillable-202608-002f?download=true",
+       "checked": "2026-11-01",
+       "supports": "business visitor permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
      "status": "confirm-in-writing",

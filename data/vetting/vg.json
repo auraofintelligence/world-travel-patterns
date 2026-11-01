@@ -71,11 +71,20 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the British High Commission, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the British High Commission, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work permit for gainful employment",
+     "detail": "The BVI Immigration Department says everyone who doesn't belong to the Virgin Islands, isn't exempt and has no Certificate of Residence needs a valid work permit to engage in gainful employment.",
+     "next": "Ask the BVI Labour Department, through the host, whether the paid talk counts as gainful employment, before travel.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Immigration Department FAQs",
+       "authority": "Government of the Virgin Islands",
+       "url": "https://bvi.gov.vg/department-faqs/52",
+       "checked": "2026-11-01",
+       "supports": "work permit for gainful employment (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
      "status": "confirm-in-writing",
