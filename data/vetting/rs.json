@@ -438,11 +438,27 @@
      ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Serbia, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Serbia, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Visa D or single permit on self-employment (or startup) grounds",
+     "detail": "Running a business is a recognised basis (self-employment). Founding a company does not guarantee a permit. A startup ground exists for companies recognised by a registered science and technology park. Applications are online.",
+     "next": "Register with the Business Registers Agency, then apply on welcometoserbia.gov.rs.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa for foreign business owners",
+       "authority": "Welcome to Serbia (Government of Serbia)",
+       "url": "http://welcometoserbia.gov.rs/visa-for-foreign-business-owners",
+       "checked": "2026-11-01",
+       "supports": "self-employment basis; D visa or single permit; registration no guarantee (read via a search-index snapshot)"
+      },
+      {
+       "title": "Temporary residence",
+       "authority": "Ministry of Interior, Serbia",
+       "url": "https://www.mup.gov.rs/wps/portal/en/information/temporary+residence/temporary+residence",
+       "checked": "2026-11-01",
+       "supports": "startup ground via science and technology park (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "conditional",

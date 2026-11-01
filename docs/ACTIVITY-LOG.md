@@ -848,3 +848,7 @@ Entrepreneur checks from official sources (search-index snapshots): Vanuatu FIRC
 ## 2026-11-01 23:15 AEST, Grok: Docs: handoff and STATUS updated after entrepreneur passes (0 records)
 
 Docs only: handoff and STATUS.md item 1 updated (731 confirm-in-writing; 411 outside Do-not-travel places; entrepreneur 31).
+
+## 2026-11-01 23:16 AEST, Grok: Entrepreneur rules: rs, kg, uz, tj, la, bt, mo, pf, tn (9 records)
+
+Entrepreneur checks from official sources (search-index snapshots): Serbia self-employment or startup permit; Kyrgyz investment visa 10 million som; Uzbekistan investment visa 8,500 base units; Tajikistan C visa USD 500,000; Laos NI-B2 via one-stop; Bhutan investor card over Nu. 15 million; Macao company set-up open to foreigners; French Polynesia SEFI trader card; Tunisia investor residence card.

@@ -286,11 +286,20 @@
      "checked": "2026-11-01"
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Uzbekistan",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Uzbekistan which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Investment visa (8,500 base units invested); B-2 business visa for visits",
+     "detail": "A multiple-entry investment visa (up to 3 years, extendable in country) needs investment of at least 8,500 times the base amount. Business visitors use the B-2 visa (up to 1 year).",
+     "next": "Use B-2 for scoping trips.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa to the Republic of Uzbekistan",
+       "authority": "Ministry of Foreign Affairs, Uzbekistan",
+       "url": "https://gov.uz/en/mfa/activity_page/o-zbekiston-respublikasi-vizasi",
+       "checked": "2026-11-01",
+       "supports": "investment visa 8,500 base units, up to 3 years; B-2 business visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "conditional",

@@ -230,11 +230,20 @@
      ]
     },
     "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Kyrgyz Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Kyrgyz Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Investment visa (I type)",
+     "detail": "Investors contributing at least 10 million som in listed sectors (including ICT, education, medicine) get an investment visa for up to 3 years.",
+     "next": "Apply to the Ministry of Economy.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Investment visa",
+       "authority": "Ministry of Economy, Kyrgyz Republic",
+       "url": "https://mineconom.gov.kg/en/direct/7/181",
+       "checked": "2026-11-01",
+       "supports": "10 million som, up to 3 years (read via a search-index snapshot)"
+      }
+     ]
     },
     "trade": {
      "status": "conditional",
