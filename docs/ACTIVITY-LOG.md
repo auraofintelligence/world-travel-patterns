@@ -477,4 +477,6 @@ cd, cf, ht, ru and ve have no Smartraveller customs section, so these come from 
 
 ## 2026-11-01 16:53 AEST, Grok: STATUS.md gaps revised
 
-Rewrote the hand-written gap list to current counts (culture 244 of 247, about 80 ask-locally; local law missing for 35; substances missing for 72; visa prep 60 baseline; photos reviewed).
+Rewrote the hand-written gap list to current counts (culture 244 of 247; local law missing for 35; substances missing for 72; visa prep 60 baseline; photos reviewed).
+
+Correction: 206 of the 244 culture records are ask-locally, not about 80 (fixed in STATUS.md).
