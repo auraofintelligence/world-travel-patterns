@@ -664,3 +664,7 @@ Added official 2027 dates: GITEX Africa, GITEX AI Kazakhstan, Africa Tech Summit
 ## 2026-11-01 17:37 AEST, Grok: Work: gt, hn, pa, pe, py, sv, ni, cr, do, ec (10 records)
 
 Work and speaking rules from official migration and labour sources: gt (invited speakers on traveller visa), hn, pa, pe (lecturer fees allowed 30 days in 12 months), py (90-day occasional residence for invited guests), sv (PEI permit for conferences), ni, cr, do (PADEI) and ec (visitor visa covers conferences 180 days). Read via search-index snapshots.
+
+## 2026-11-01 17:38 AEST, Grok: Work: ma, tn, eg, md, ge, mk, ua, xk, me, bw (10 records)
+
+Work and speaking rules from official labour and migration sources: ma (TAECHIR), tn (30-day show authorisation), eg, md (90-day creative exemption), ge (4 months a year registered short-term activity), mk (7 days, 30 a year), ua (artists exempt), xk (lecturers 90 in 180 days), me (90-day registration) and bw (emergency permit). Read via search-index snapshots.
