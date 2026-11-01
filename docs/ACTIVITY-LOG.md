@@ -413,3 +413,9 @@ For photos rejected in review, I approved openly licensed Wikimedia Commons repl
 - it/lazio: EUR 2 Trevi Fountain ticket since 2 February 2026 (Roma Capitale).
 
 Fees are filed under the local-law topic work-and-payment, because money-and-cost uses nearest-level inheritance and a regional record would hide the national currency notes.
+
+## 2026-11-01 16:44 AEST, Grok: culture, national and regional guidance (10 records)
+
+- community-published: gb (Countryside Code, GOV.UK), gb/scotland (Scottish Outdoor Access Code, NatureScot), us/hawaii (DLNR Nā Wahi Pana and HTA responsible travel), de (deutschland.de etiquette guide, read directly), it/lombardy (Milan Duomo regulation, July 2025).
+- partly-mapped: us (NPS Leave No Trace and archaeological-site guidelines), es (spain.info hours, greetings and tipping), ca (Parks Canada wildlife distances and cultural sites).
+- ask-locally: it and fr. Neither has a national government etiquette page (italia.it and france.fr checked); site rules apply.
