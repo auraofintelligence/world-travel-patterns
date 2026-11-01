@@ -336,6 +336,25 @@
      "supports": "business visa recommendations; working visa for salaried jobs"
     }
    ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Vaccination requirements and WHO recommendations for international travellers, and malaria situation per country (2022 edition)",
+     "authority": "World Health Organization",
+     "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+     "checked": "2026-11-01",
+     "supports": "each country's entry requirement as reported to WHO"
+    }
+   ],
+   "notes": "Yellow fever rule as reported to WHO in 2022. WHO advises confirming with the embassy before travel.",
+   "conditional": [
+    "Yellow fever certificate: Proof of vaccination against yellow fever is required for travellers aged 9 months or over arriving from countries with risk of yellow fever transmission, and for travellers having transited for more than 12 hours through an airport of a country with risk of yellow fever transmission",
+    "Proof of vaccination against poliomyelitis, documented in the International Certificate of Vaccination or Prophylaxis, for all travellers arriving from from the following countries. Countries with risk of Polio transmission: Afghanistan, Benin, Burkina Faso, Cameroon, Central African Republic (CAR), Chad, Republic of Congo, Democratic Republic of Congo, Côte d’Ivoire, Egypt, Ethiopia, Gambia, Guinea, Guinea Bissau, Iran (Islamic Republic of), Kenya, Liberia, Madagascar, Mali, Mauritania, Niger, Nigeria, Pakistan, Senegal, Sierra Leone, Somalia, South Sudan, Sudan, Tajikistan, Uganda, Ukraine, Yemen. All residents and long-term visitors (i.e. > four weeks) of all ages should have received the polio vaccine between four weeks and 12 months prior to travel and those undertaking urgent travel (i.e. within four weeks) should have received a dose of polio vaccine at least by the time of departure"
+   ]
   }
  }
 }

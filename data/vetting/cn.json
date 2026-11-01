@@ -521,6 +521,24 @@
      "supports": "6 public holidays next year"
     }
    ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Vaccination requirements and WHO recommendations for international travellers, and malaria situation per country (2022 edition)",
+     "authority": "World Health Organization",
+     "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+     "checked": "2026-11-01",
+     "supports": "each country's entry requirement as reported to WHO"
+    }
+   ],
+   "notes": "Yellow fever rule as reported to WHO in 2022. WHO advises confirming with the embassy before travel.",
+   "conditional": [
+    "Yellow fever certificate: Proof of vaccination against yellow fever is required for travellers aged 9 months or over arriving from countries with risk of yellow fever transmission, and for travellers having transited for more than 12 hours through an airport of a country with risk of yellow fever transmission"
+   ]
   }
  }
 }

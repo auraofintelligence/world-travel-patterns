@@ -531,6 +531,25 @@
      "supports": "hazard seasons and closures as read on 2026-10-31"
     }
    ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Vaccination requirements and WHO recommendations for international travellers, and malaria situation per country (2022 edition)",
+     "authority": "World Health Organization",
+     "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+     "checked": "2026-11-01",
+     "supports": "each country's entry requirement as reported to WHO"
+    }
+   ],
+   "notes": "Yellow fever rule as reported to WHO in 2019. WHO advises confirming with the embassy before travel.",
+   "conditional": [
+    "Yellow fever certificate: Anyone (except infants up to the age of 9 months) arriving by air or sea without proof of vaccination against yellow fever is detained in isolation for up to 6 days if that person (i ) arrives within 6 days of departure from an area with risk of yellow fever transmission, or (ii) has been in such an area in transit (except those passengers and members of the crew who, while in transit through an airport situated in an area with risk of yellow fever transmission, remained within the airport premises during the period of their entire stay and the Health Officer agrees to such exemption), or (iii) arrives on a ship that started from or touched at any port in an area with risk of yellow fev er transmission up to 30 days before its arrival in India, unless such a ship has been disinsected in accordance with the procedure laid down by WHO, or (iv) arrives on an aircraft that has been in an area with risk of yellow fever transmission and has not been disinsected in accordance with the Indian Aircraft Public Health Rules, 1954, or as recommended by WHO. Countries and areas regarded as having risk of yellow fever transmission are, in Africa: Angola, Benin, Burkina Faso, Burundi, Cameroon, Central African Republic, Chad, Congo, Côte dʼIvoire, Democratic Republic of the Congo, Equatorial Guinea, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya, Liberia, Mali, Mauritania, Niger, Nigeria, Rwanda, Senegal, Sierra Leone, South Sudan, Sudan, Togo and Uganda; and in the Americas: Argentina, Bolivia, Brazil, Colombia, Ecuador, French Guiana, Guyana, Panama, Paraguay, Peru, Suriname, Trinidad and Tobago (Trinidad only) and Venezuela (Bolivarian Republic of). Note: When a case of yellow fever is re ported from any country, that country is regarded by the Government of India as a country with risk of yellow fever transmission and is added to the above list",
+    "Proof of oral polio vaccination at least 4 weeks before departure for resident national travellers from polio - endemic countries (Afghanistan, Nigeria, Pakistan) and countries with poliovirus circulation following importation (Democratic Republic of the Congo, Ethiopia, Kenya, Somalia, Syrian Arab Republic) is required"
+   ]
   }
  }
 }

@@ -267,6 +267,24 @@
      "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
     }
    ]
+  },
+  "health-entry": {
+   "status": "conditional",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Vaccination requirements and WHO recommendations for international travellers, and malaria situation per country (2022 edition)",
+     "authority": "World Health Organization",
+     "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+     "checked": "2026-11-01",
+     "supports": "each country's entry requirement as reported to WHO"
+    }
+   ],
+   "notes": "No yellow fever certificate is needed for entry (as reported to WHO in 2022). WHO advises confirming with the embassy before travel.",
+   "conditional": [
+    "Proof of vaccination against poliom ielytis required for travellers arriving from countries and territories with risk of polio virus transmission. Travellers who are not vaccinated or are unable to present the vaccination certificate are offered oral polio vaccine at the border"
+   ]
   }
  }
 }
