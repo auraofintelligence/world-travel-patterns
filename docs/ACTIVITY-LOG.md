@@ -448,3 +448,7 @@ FCDO has no customs subheading for these places and no national etiquette page w
 ## 2026-11-01 16:50 AEST, Grok: correction to culture batches 2 and 3 (22 records)
 
 The ask-locally text said no national etiquette page was found, but I had not searched for one. The text and notes now say a national page has not been searched for yet. The batch 3 entry above overstated this. The script wording is fixed too.
+
+## 2026-11-01 16:50 AEST, Grok: Culture from FCDO, batch 4 (ask-locally) (15 records)
+
+FCDO has no customs subheading for these places, so they are ask-locally with the named authority. National etiquette pages have not been searched yet. Places: ee fk ga gf gi gp gw gy hk ie io jm li ls lt.
