@@ -2,6 +2,26 @@
 
 Dated handover notes for whoever works on this repo next (Claude, Codex, Grok). Newest entry at the bottom. Times are Brisbane time (AEST, UTC+10).
 
+## Handoff for Claude (written 2026-11-01 17:52 AEST, Grok)
+
+**State today.** Every country and territory outside Australia has entry, activities and culture records. Today's long run (commits 3bf3434 to e64520e) did three things:
+- Filled work rules for about 90 places from official immigration and labour sources. The remaining "confirm in writing" checks are 867 of 3,705 (24%).
+- Searched every Do-not-travel place for an official etiquette page. af, ir, iq, ve, ps, cf and ye were upgraded; the others record "searched, none found" with the sites checked.
+- Added 2027 watchlist items (Bhutan tshechus, Lake of Stars) and The Outing 2027 matchmaking weekend. Venus Berlin 2027 was already in.
+
+**Corrections to know about.**
+- Commit ab9a95d was an accidental test push titled "x" with 9 records. Its log entry was corrected in 720cad7; history was not rewritten.
+- In 897e1c1 the af, bf, cd and cf culture entries were marked "none found" without fresh searches. They were redone with real searches in c9cb164: af and cf now have official sources; bf and cd name the sites checked.
+
+**Top next priorities.**
+1. Do-not-travel work rules: 23 places still have all 14 activities at confirm in writing (af, bf, cd, cf, gw, ht, ir, iq, kp, lb, ly, ml, ne, ps, ru, sd, so, ss, sy, td, ve, ye, plus cq which has guidance but no published list). Low value for travel, so only official visa pages.
+2. Volunteering, remote work, book launches and research across ordinary countries (the biggest remaining activity buckets).
+3. Year ahead: only 90 of 247 countries, mostly signal. Official 2027 festival and holiday dates, and the watchlist in `data/calendar/pending-official-dates.json`.
+4. States and regions remain almost empty (see docs/STATUS.md).
+5. Pending Luke: the Uluru photo (do not touch). The five repos are separate datasets: no cross-repo links or imports.
+
+**Rules in force.** Official sources only, never invent figures, Australian English, no em dashes. Batches of 10 to 15 vetting records (smaller only when finishing a category). Run validate, tests, build_site, due and status_report before each commit. `git pull --rebase`, fast-forward push only, clear descriptive commit messages, a dated AEST entry here per batch.
+
 ## Standing notes from Luke (1 November 2026)
 
 - **What this repo is.** A dataset only: accurate, sourced records that a separate oracle (built elsewhere) will draw on for Luke's own spontaneous overseas travel. This repo is not the oracle. Focus purely on accurate, cited data.
@@ -724,3 +744,7 @@ Open work entries closed with official sources: Antarctica (AAD environmental au
 ## 2026-11-01 17:51 AEST, Grok: Work rules for remote territories: Sark, French Southern Lands, Wallis and Futuna (3 records)
 
 Final work-rule batch: Sark (Bailiwick rules plus Chief Pleas permission), TAAF (prefect authorisation, Marion Dufresne rotations only), Wallis and Futuna (prefect work authorisation, no published short-visit exemption). Searched without a usable official answer: Guinea-Bissau, and St Vincent, St Kitts and Dominica, whose published exemptions cover CARICOM nationals only. Read via search-index snapshots.
+
+## 2026-11-01 17:52 AEST, Grok: Refresh STATUS.md gaps and add Claude handoff to activity log (0 records)
+
+Docs only: STATUS.md items 1, 3 and 4 revised to current figures (867 confirm-in-writing checks, 24%; 56 culture records ask-locally after national searches; year-ahead and watchlist). Handoff for Claude added at the top of this log.
