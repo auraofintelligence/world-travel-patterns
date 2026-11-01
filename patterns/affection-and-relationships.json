@@ -1,0 +1,53 @@
+{
+ "id": "affection-and-relationships",
+ "name": "Affection and relationships",
+ "layer": "relationships",
+ "method": "agent",
+ "inherit": "stack",
+ "question": "How do law and custom here treat love and closeness: affection in public, couples in private (sharing a room, unmarried and same-sex couples), how marriages and partnerships are recognised, and how all of this is changing?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation",
+  "zone",
+  "city",
+  "site"
+ ],
+ "baseline_days": 365,
+ "sources": [
+  "the level's own legislation and official visitor guidance",
+  "Smartraveller's local laws, local customs and LGBTQIA+ sections",
+  "the community's own published guidance for custom"
+ ],
+ "areas": [
+  "in-public",
+  "in-private",
+  "marriage-and-partnership",
+  "changing"
+ ],
+ "fields": [
+  "items[]: area, kind (law or custom), text, source, checked",
+  "notes"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "ask-locally",
+  "unknown"
+ ],
+ "rules": [
+  "Every item says whether it is law or custom. Custom comes from the place's own published guidance, or is labelled a signal.",
+  "Written for every visitor, whoever they love: the same question for any couple.",
+  "Changing means dated changes in law or published official figures, never impressions.",
+  "Describe, don't moralise. No ranking of places or cultures.",
+  "Never store anything about the traveller's own relationships."
+ ],
+ "version": 1
+}
