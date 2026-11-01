@@ -70,7 +70,7 @@ PAGES = [("", "Home", "Search any place and see what each place page covers."),
          ("places.html", "Places", "Every country and territory, and the states, councils, islands, nations and permit zones inside them."),
          ("advisories.html", "Advisories", "Smartraveller advice levels for every destination, checked daily, and each change."),
          ("upcoming.html", "Upcoming", "Dated events and open calls from GAJRA Earth Ahead, by month and place."),
-         ("patterns.html", "Patterns", "The sixteen questions every place is checked against."),
+         ("patterns.html", "Patterns", "The seventeen questions every place is checked against."),
          ("how.html", "How it works", "The checks, how rules reach down from country to council, culture and permit zones."),
          ("queue.html", "Queue", "What gets checked next."),
          ("site-map.html", "Site map", "Every page, and every country and territory by region.")]
@@ -96,7 +96,7 @@ def write_discovery(rows):
               f"and [Minjerribah]({SITE}place.html?id=au%2Fminjerribah). The sitemap lists {len(places)} of them.", "",
               "## Data", "",
               "- [Place records](https://github.com/auraofintelligence/world-travel-patterns/tree/main/data/vetting): one JSON file per place",
-              "- [Patterns](https://github.com/auraofintelligence/world-travel-patterns/tree/main/patterns): the sixteen questions",
+              "- [Patterns](https://github.com/auraofintelligence/world-travel-patterns/tree/main/patterns): the seventeen questions",
               f"- [Licence]({SITE}LICENCE.md)", ""]
     (ROOT / "llms.txt").write_text("\n".join(lines), encoding="utf-8")
     print(f"discovery: sitemap.xml with {len(urls)} pages, llms.txt")

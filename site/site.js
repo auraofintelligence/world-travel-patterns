@@ -31,14 +31,14 @@
   const LAYERS = [
     ["permission", "Permission", ["entry", "activities", "health-entry", "zone-requirements"]],
     ["law", "Local law", ["local-law"]],
-    ["culture", "Culture and protocol", ["culture-and-protocol", "culture-cycles"]],
+    ["culture", "Culture, protocol and language", ["culture-and-protocol", "languages", "culture-cycles"]],
     ["relationships", "Affection, relationships and family", ["affection-and-relationships", "births-and-family-support"]],
     ["substances", "Alcohol, drugs and psychoactive medicines", ["psychoactive-substances"]],
     ["cycles", "The year here", ["seasons-and-flow", "year-ahead"]],
     ["practical", "Practical", ["consular", "money-and-cost"]],
     ["purpose", "Works and purpose", ["works-and-purpose"]],
   ];
-  const AREA_LABEL = { "in-public": "In public", "in-private": "In private", "marriage-and-partnership": "Marriage and partnership", changing: "Changing", births: "Births", support: "Family support",
+  const AREA_LABEL = { "in-public": "In public", "in-private": "In private", "marriage-and-partnership": "Marriage and partnership", changing: "Changing", births: "Births", support: "Family support", official: "Official languages", english: "English", hotspots: "English hotspots",
     alcohol: "Alcohol", "tobacco-and-vaping": "Tobacco and vaping", cannabis: "Cannabis", mdma: "MDMA", psilocybin: "Psilocybin",
     "ayahuasca-and-dmt": "Ayahuasca and DMT", kava: "Kava", khat: "Khat", "drugs-in-general": "Drug law in general" };
   const REASON_LABEL = {
@@ -163,6 +163,7 @@
     ["Getting in", "Visa or visa-free stay, health entry rules, and what each kind of trip needs: holiday, meetings, speaking, teaching, filming, research or volunteering."],
     ["Local law", "Rules a visitor can break without knowing: drugs and medicines, alcohol, dress, photography, wildlife, driving and money limits, at every level from country to council."],
     ["Culture and protocol", "Each place's own published guidance and names, sacred or restricted places, and who to ask where nothing is published."],
+    ["Languages", "Official and national languages, how widely English is spoken, and where it's easiest to get by in English."],
     ["Affection and relationships", "Affection in public, couples in private, how marriages and partnerships are recognised, and what's changing, for every couple, marked as law or custom."],
     ["Births and family support", "Births per woman over time, mothers' average age, and what governments offer families, with who qualifies and amounts in AUD."],
     ["Alcohol, drugs and psychoactive medicines", "Alcohol, tobacco and vaping, cannabis, MDMA, psilocybin, ayahuasca and more: what's legal, medical and ceremonial access, penalties, and what's changing."],
@@ -591,7 +592,7 @@
       <div class="card"><h3>Add a feed</h3><p>A script that writes the shared event shape to <code>data/feeds/</code>. Briefs and the trip watch pick it up.</p></div>
     </div><p style="margin-top:22px"><a href="${REPO}">Source, data and routines on GitHub</a></p></section>
     <section class="section"><h2>Data, for people and agents</h2><div class="table-wrap"><table><tbody>
-      ${[["patterns/", "The sixteen pattern files"], ["data/places/", "The place tree: spine plus one folder per country"], ["data/vetting/", "One record file per vetted place"], ["data/advisories.json", "Smartraveller levels, daily"], ["data/feeds/gajra-ahead.json", "GAJRA Earth Ahead events, daily"], ["data/calendar/", "Public holidays, monthly"], ["data/source-status.json", "Source watch, weekly"], ["queue/due.json", "The public queue"], ["CLAUDE.md", "Working rules for every agent and routine"]]
+      ${[["patterns/", "The seventeen pattern files"], ["data/places/", "The place tree: spine plus one folder per country"], ["data/vetting/", "One record file per vetted place"], ["data/advisories.json", "Smartraveller levels, daily"], ["data/feeds/gajra-ahead.json", "GAJRA Earth Ahead events, daily"], ["data/calendar/", "Public holidays, monthly"], ["data/source-status.json", "Source watch, weekly"], ["queue/due.json", "The public queue"], ["CLAUDE.md", "Working rules for every agent and routine"]]
         .map(([p, d]) => `<tr><td><a href="${REPO}/tree/main/${p}"><code>${p}</code></a></td><td>${d}</td></tr>`).join("")}</tbody></table></div></section>
   </main>`;
 
@@ -603,7 +604,7 @@
     const pages = [
       ["Find a place", [["places.html", "Places", "Search and browse every place, from countries to islands, councils and permit zones."], ["place.html?id=au/minjerribah", "A place page", "Every level's rules for one place, stacked. Example: Minjerribah."]]],
       ["Before you go", [["advisories.html", "Advisories", "Today's Smartraveller advice levels and every change since tracking began."], ["upcoming.html", "Upcoming", "Dated events and open calls from GAJRA Earth Ahead, by month and place."]]],
-      ["About this site", [["patterns.html", "Patterns", "The sixteen questions every place is checked against."], ["how.html", "How it works", "The checks, how rules reach down from country to council, culture and permit zones."], ["queue.html", "Queue", "What gets checked next."]]],
+      ["About this site", [["patterns.html", "Patterns", "The seventeen questions every place is checked against."], ["how.html", "How it works", "The checks, how rules reach down from country to council, culture and permit zones."], ["queue.html", "Queue", "What gets checked next."]]],
     ];
     return hero(credits, "site-map", {
       title: "Site map",
@@ -633,7 +634,7 @@
     const app = document.getElementById("app");
     const [index, creditFile] = await Promise.all([json("site/data/index.json", null), json("site/heroes/credits.json", { images: [] })]);
     if (!index) { app.innerHTML = '<section class="section"><h1>Data not built</h1><p>Run <code>python scripts/build_site.py</code>, then serve the repo folder over HTTP.</p></section>'; return; }
-    const ORDER = ["advisory", "entry", "activities", "zone-requirements", "health-entry", "local-law", "culture-and-protocol", "affection-and-relationships", "births-and-family-support", "psychoactive-substances", "culture-cycles", "seasons-and-flow", "year-ahead", "consular", "money-and-cost", "works-and-purpose"];
+    const ORDER = ["advisory", "entry", "activities", "zone-requirements", "health-entry", "local-law", "culture-and-protocol", "languages", "affection-and-relationships", "births-and-family-support", "psychoactive-substances", "culture-cycles", "seasons-and-flow", "year-ahead", "consular", "money-and-cost", "works-and-purpose"];
     index.patterns.sort((a, b) => (ORDER.indexOf(a.id) + 1 || 99) - (ORDER.indexOf(b.id) + 1 || 99));
     index.byId = Object.fromEntries(index.places.map((p) => [p.id, p]));
     const credits = Object.fromEntries(creditFile.images.map((c) => [c.page, c]));

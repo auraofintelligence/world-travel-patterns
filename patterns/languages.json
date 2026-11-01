@@ -1,0 +1,48 @@
+{
+ "id": "languages",
+ "name": "Languages",
+ "layer": "culture",
+ "method": "agent",
+ "inherit": "stack",
+ "question": "Which languages are official or national here, how widely is English spoken, and where is English easiest to get by (cities, regions, tourist areas)?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "region",
+  "island",
+  "island-group",
+  "nation",
+  "city"
+ ],
+ "baseline_days": 365,
+ "sources": [
+  "the country's constitution or language law",
+  "national census language questions",
+  "European Commission Eurobarometer language surveys",
+  "EF English Proficiency Index (a signal)"
+ ],
+ "areas": [
+  "official",
+  "english",
+  "hotspots"
+ ],
+ "fields": [
+  "items[]: area, kind (law or figure), evidence when it differs from the record, text, source, checked",
+  "notes"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "unknown"
+ ],
+ "rules": [
+  "Record the place's own languages first, including Indigenous and sign languages where they're recognised.",
+  "English capacity is an estimate with its source and year; a test-taker index is a signal, not a census.",
+  "Hotspots are places with a published score or official figure, never impressions.",
+  "Describe, don't rank people. No language is treated as better than another."
+ ],
+ "version": 1
+}
