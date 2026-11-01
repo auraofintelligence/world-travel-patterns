@@ -150,6 +150,32 @@
    "conditional": [
     "Yellow fever certificate: Proof of vaccination against yellow fever is required for travellers aged 9 months or over arriving from countries with risk of yellow fever transmission"
    ]
+  },
+  "affection-and-relationships": {
+   "status": "partly-mapped",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "changing",
+     "kind": "figure",
+     "evidence": "official",
+     "text": "Average age at first marriage: women 28.7 in 1970, 21.9 in 2012; men 32.0 in 1970, 35.1 in 1991.",
+     "source": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2019_wmd_marital_status.xlsx",
+     "checked": "2026-11-01",
+     "by": "affection_trends"
+    }
+   ],
+   "sources": [
+    {
+     "title": "World Marriage Data 2019",
+     "authority": "United Nations, Department of Economic and Social Affairs, Population Division",
+     "url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2019_wmd_marital_status.xlsx",
+     "supports": "average age at first marriage (SMAM) over time, from national censuses and surveys",
+     "checked": "2026-11-01"
+    }
+   ],
+   "notes": "Custom differs between communities and places; ask locally."
   }
  }
 }

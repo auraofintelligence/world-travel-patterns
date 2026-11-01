@@ -362,7 +362,7 @@
         body += `<div class="detail">${esc(text)}</div>`;
       }
       (rec.laws || []).forEach((l) => { body += `<div class="detail"><b>${esc(l.topic)}:</b> ${esc(l.rule)}</div>`; });
-      (rec.items || []).forEach((it) => { body += `<div class="detail"><b>${esc(AREA_LABEL[it.area] || it.area)}</b> <span class="chip">${esc(it.kind)}</span> ${esc(it.text)}</div>`; });
+      (rec.items || []).forEach((it) => { body += `<div class="detail"><b>${esc(AREA_LABEL[it.area] || it.area)}</b> <span class="chip">${esc(it.kind)}</span>${it.evidence === "signal" ? ' <span class="chip gold">signal</span>' : ""} ${esc(it.text)}</div>`; });
       (rec.layers || []).forEach((l) => { body += `<div class="detail"><b>${esc(l.type)}:</b> ${esc(l.process)} (${esc(l.authority)})${l.lead_time_days ? `, lead time ${l.lead_time_days} days` : ""}</div>`; });
       if (rec.pre_arrival) body += `<div class="detail"><b>Before arrival:</b> ${esc(rec.pre_arrival)}</div>`;
       [["max_stay", "Stay"], ["passport_validity", "Passport"], ["other", "Also"], ["mission", "Office"], ["notes", "Note"], ["currency", "Currency"],

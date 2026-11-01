@@ -120,7 +120,7 @@ def main():
             for law in rec.get("laws", []):
                 lines.append(f"  - {law['topic']}: {law['rule']} ({law.get('source', 'no source')})")
             for item in rec.get("items", []):
-                lines.append(f"  - {item['area']} ({item['kind']}): {item['text']} ({item.get('source', 'no source')})")
+                lines.append(f"  - {item['area']} ({item['kind']}{', signal' if item.get('evidence') == 'signal' else ''}): {item['text']} ({item.get('source', 'no source')})")
             if pid == "seasons-and-flow" and rec.get("months"):
                 # Only the trip's months when a window is given, else the whole year.
                 wanted = window_months(start, parse_date(args.end) if args.end else None)
