@@ -588,3 +588,7 @@ Notable: co (Resolution 5477/2022: paid speakers and artists need the V Eventos 
 ## 2026-11-01 17:20 AEST, Grok: Culture: national etiquette upgrades and searches (lr to mg) (10 records)
 
 Upgraded ls, lu, ma (Hassan II Mosque visit rules), md, mf (2024 Saint-Martin Tourism Code) and mg (fady taboos) to partly-mapped. lr, lt, lv and me: searched, none found (Budva's swimwear fines appeared only in news reports). Read via search-index snapshots.
+
+## 2026-11-01 17:21 AEST, Grok: Activities: Crown Dependencies and other speaker routes (gd, ge, gg, gh, gi, gl, il, im, je, ph) (10 records)
+
+Notable for speakers: je and im (pre-arranged paid lectures, conference talks and artistic work allowed for visitors within 30 days), gg (paid engagement up to a month), gl (invited lecturers under 3 months exempt), gi (free route for presentations under 48 hours), ge (short-term registration since March 2026), ph (Special Work Permit for artists), il (B/1 fast track), gh, gd. Read via search-index snapshots.

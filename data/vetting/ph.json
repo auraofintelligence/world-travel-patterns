@@ -67,12 +67,28 @@
      }
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Special Work Permit (to confirm)",
-     "detail": "Paid short-term work needs a Special Work Permit; speakers aren't named on the pages read.",
-     "next": "Ask the Bureau of Immigration through the host.",
+     "status": "conditional",
+     "route": "Special Work Permit (commercial)",
+     "detail": "Short paid engagements use the commercial Special Work Permit.",
+     "next": "The host files.",
      "checked": "2026-11-01",
-     "evidence": "signal"
+     "evidence": "signal",
+     "sources": [
+      {
+       "title": "Special Work Permit: artists and athletes",
+       "authority": "Bureau of Immigration, Philippines",
+       "url": "https://immigration.gov.ph/services/special-work-permit-artists-and-athletes/",
+       "checked": "2026-11-01",
+       "supports": "SWP for performers (read via a search-index snapshot)"
+      },
+      {
+       "title": "Special Work Permit: commercial",
+       "authority": "Bureau of Immigration, Philippines",
+       "url": "https://immigration.gov.ph/services/special-work-permit-commercial/",
+       "checked": "2026-11-01",
+       "supports": "short commercial work (read via a search-index snapshot)"
+      }
+     ]
     },
     "book-launch": {
      "status": "confirm",
