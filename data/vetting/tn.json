@@ -564,19 +564,17 @@
    "climate": "Wettest: January, October and December. Driest: June, July and August. Hottest: August (30.1°C average). Coolest: January (11°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa-free for business visits up to 90 days.",
    "cost_aud_baseline": {
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-TUNISIA-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -586,6 +584,36 @@
      "cost": "WORLD-TUNISIA-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "No visa for visits of 90 days or less.",
+   "steps": [
+    "Other travel needs a visa before arrival."
+   ],
+   "documents": [
+    "Passport"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry",
+     "amount": 0,
+     "currency": "TND",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/tunisia",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/tunisia",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }

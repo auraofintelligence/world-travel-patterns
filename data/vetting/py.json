@@ -548,19 +548,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa on arrival available.",
    "cost_aud_baseline": {
     "value": "~ $230",
     "checked": "2025-08-16",
     "claim_id": "WORLD-PARAGUAY-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -570,6 +568,36 @@
      "cost": "WORLD-PARAGUAY-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "No visitor visa for tourism up to 90 days on a regular passport.",
+   "steps": [
+    "Make sure the passport is stamped, signed and dated on entry."
+   ],
+   "documents": [
+    "Passport"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry",
+     "amount": 0,
+     "currency": "PYG",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/paraguay",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/paraguay",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }

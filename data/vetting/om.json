@@ -652,19 +652,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "e-Visa required in advance for business travel.",
    "cost_aud_baseline": {
     "value": "~ $80",
     "checked": "2025-08-16",
     "claim_id": "WORLD-OMAN-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -674,6 +672,40 @@
      "cost": "WORLD-OMAN-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "Free entry visa up to 14 days for tourism (may not be extendable).",
+   "steps": [
+    "Carry a confirmed accommodation booking, health insurance and a return ticket.",
+    "Leave before day 14 to avoid penalties."
+   ],
+   "documents": [
+    "Passport valid more than 6 months",
+    "Accommodation booking",
+    "Health insurance",
+    "Return ticket"
+   ],
+   "fees": [
+    {
+     "item": "14-day tourist entry visa",
+     "amount": 0,
+     "currency": "OMR",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/oman",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/oman",
+     "checked": "2026-11-01",
+     "supports": "visa status, pre-arrival forms and border documents as read"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }
