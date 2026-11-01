@@ -438,11 +438,20 @@
      ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Consulate-General of Namibia (honorary)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Consulate-General of Namibia (honorary) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Digital Nomad Visa (6 months, not renewable)",
+     "detail": "Income USD 2,000 a month (USD 1,000 per spouse, USD 500 per child), with payslips or contract and 6 months of bank statements. Reapply only 12 months after expiry.",
+     "next": "Apply via the MHAISS e-services portal.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Digital Nomad Visa",
+       "authority": "Namibia Investment Promotion and Development Board",
+       "url": "https://www.nipdb.com/digital-nomad-visa",
+       "checked": "2026-11-01",
+       "supports": "USD 2,000 a month, 6 months non-renewable (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "confirm-in-writing",

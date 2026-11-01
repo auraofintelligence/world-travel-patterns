@@ -748,3 +748,7 @@ Final work-rule batch: Sark (Bailiwick rules plus Chief Pleas permission), TAAF 
 ## 2026-11-01 17:52 AEST, Grok: Refresh STATUS.md gaps and add Claude handoff to activity log (0 records)
 
 Docs only: STATUS.md items 1, 3 and 4 revised to current figures (867 confirm-in-writing checks, 24%; 56 culture records ask-locally after national searches; year-ahead and watchlist). Handoff for Claude added at the top of this log.
+
+## 2026-11-01 17:54 AEST, Grok: Remote work and digital nomad visas: ee, hr, hu, mt, is, lv, ro, mu, na, ca, co (11 records)
+
+Remote-work checks filled from official sources: Estonia digital nomad visa (sources conflict: EUR 4,500 a month vs EUR 132 a day, flagged); Croatia EUR 3,622.50 a month (2026); Hungary White Card EUR 3,000 net; Malta EUR 42,000 a year; Iceland ISK 1,000,000 a month, 90 to 180 days; Latvia OECD employer, EUR 4,538; Romania 3 times average gross salary; Mauritius Premium Visa USD 1,500; Namibia USD 2,000, 6 months; Canada visitors may work for a foreign employer up to 6 months; Colombia 3 minimum wages. Seychelles Workcation and Saint Lucia Live It reported closed by unofficial sources only, so not recorded. Read via search-index snapshots.

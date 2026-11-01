@@ -441,11 +441,20 @@
      ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Colombia, Barton",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Colombia, Barton which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Visa V Nómadas Digitales (up to 2 years)",
+     "detail": "For visa-exempt nationals working remotely for foreign companies or running a digital business. Income at least 3 Colombian monthly minimum wages, 3 months of bank statements, health cover in Colombia. No Colombian clients or employers.",
+     "next": "Apply online with Cancillería.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visa V Nómadas digitales",
+       "authority": "Cancillería, Colombia",
+       "url": "https://www.cancilleria.gov.co/node/26950",
+       "checked": "2026-11-01",
+       "supports": "requirements: visa-exempt passport, foreign employer, 3 minimum wages income (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "confirm-in-writing",

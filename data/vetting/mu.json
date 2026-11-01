@@ -404,11 +404,20 @@
      ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of the Republic of Mauritius, Deakin",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of the Republic of Mauritius, Deakin which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Premium Visa (up to 1 year, renewable)",
+     "detail": "Remote work allowed if you do not enter the local labour market and your income comes from outside Mauritius. Income USD 1,500 a month per adult, USD 500 per child. Free to apply.",
+     "next": "Apply online with the EDB.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Stay in Mauritius under Premium Visa FAQs",
+       "authority": "Economic Development Board, Mauritius",
+       "url": "https://edbmauritius.org/wp-content/uploads/2023/12/FAQs-Premium-Visa.pdf",
+       "checked": "2026-11-01",
+       "supports": "remote work, USD 1,500 a month (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "confirm-in-writing",

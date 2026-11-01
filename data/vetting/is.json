@@ -210,11 +210,27 @@
      ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Remote work for an employer outside the EU isn't addressed in the EU guidance read.",
-     "next": "Ask the Embassy of Iceland.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Long-term visa for remote work (90 to 180 days)",
+     "detail": "For Schengen visa-exempt non-EEA nationals working for a foreign employer or self-employed abroad. Income ISK 1,000,000 a month (ISK 1,300,000 with a partner). Not more than once in 12 months.",
+     "next": "Post form L-802 to the Directorate of Immigration.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Application for long-term visa for remote work (form L-802)",
+       "authority": "Directorate of Immigration, Iceland",
+       "url": "https://assets.ctfassets.net/8k0h54kbe6bj/1H201xJYatKFbnoGBmLNeJ/c5f75d69afea16e5b7e7165fe1658e55/L-802-long-term-visa-for-remote-work.pdf",
+       "checked": "2026-11-01",
+       "supports": "ISK 1,000,000 a month; visa-exempt applicants only (read via a search-index snapshot)"
+      },
+      {
+       "title": "Work permits",
+       "authority": "Multicultural Information Centre, Iceland",
+       "url": "https://mcc.is/living-in-iceland/employment/work-permits",
+       "checked": "2026-11-01",
+       "supports": "90 to 180 days (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "conditional",

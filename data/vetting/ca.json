@@ -73,11 +73,20 @@
      "checked": "2026-11-01"
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Not stated on the pages read",
-     "detail": "Business visitors keep their main income outside Canada; remote work for an overseas employer isn't addressed directly.",
-     "next": "Ask IRCC.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Visitor status (eTA for Australians)",
+     "detail": "Visitors may work remotely for a foreign employer for up to 6 months without a work permit, as long as they do not enter the Canadian labour market (no Canadian employer or clients).",
+     "next": "Carry proof of foreign employment and onward travel.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Canada's Tech Talent Strategy",
+       "authority": "Immigration, Refugees and Citizenship Canada",
+       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2023/06/canadas-tech-talent-strategy.html",
+       "checked": "2026-11-01",
+       "supports": "digital nomads may work remotely for a foreign employer for up to 6 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "conditional",

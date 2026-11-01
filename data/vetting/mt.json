@@ -181,11 +181,20 @@
      ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Remote work for an employer outside the EU isn't addressed in the EU guidance read.",
-     "next": "Ask the High Commission of Malta, O'Malley.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Nomad Residence Permit",
+     "detail": "Remote employees, self-employed or freelancers with foreign clients. Minimum gross income EUR 42,000 a year, guaranteed for at least 5 months from applying. Not for those serving a Maltese subsidiary.",
+     "next": "Apply online with the Residency Malta Agency.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Nomad Residence Permit eligibility",
+       "authority": "Residency Malta Agency",
+       "url": "https://nomad.residencymalta.gov.mt/nomad-eligibility/",
+       "checked": "2026-11-01",
+       "supports": "EUR 42,000 gross yearly income (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "conditional",
