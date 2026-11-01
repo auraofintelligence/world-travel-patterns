@@ -428,3 +428,7 @@ Reread Smartraveller's visa text for af, bf, cd, cf, ht, iq, ir, kp, lb, ly and 
 
 - ve: verified from Smartraveller. In most cases no visa is needed for tourist visits under 90 days; the Do not travel note is kept.
 - ne, ps, sd, so, ss, sy, td, ye and ru: flagged with the reread visa rules; no fees stated.
+
+## 2026-11-01 16:47 AEST, Grok: culture, "Do not travel" countries (4 records)
+
+Smartraveller customs sections drafted as ask-locally for af, ml, so and ye. cd, cf, ht, ru and ve have no customs section ("nothing new"). This is a short batch because it is the whole remainder of the Do-not-travel culture list.
