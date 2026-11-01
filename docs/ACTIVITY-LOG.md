@@ -672,3 +672,7 @@ Work and speaking rules from official labour and migration sources: ma (TAECHIR)
 ## 2026-11-01 17:39 AEST, Grok: Work: bi, bj, dj, er, et, ga, gq, km, ls, mz (10 records)
 
 Work and speaking rules from official immigration sources for et (Conference Visa), mz, ls, dj, bj, ga, bi, km, gq and er. Read via search-index snapshots.
+
+## 2026-11-01 17:41 AEST, Grok: Work: French overseas (gf, gp, mq, re, yt, bl, mf, pm), mc, ad; watchlist adds (10 records)
+
+Work and speaking rules: Code du travail D5221-2-1 3-month exemption for events, seminars and performers (gf, gp, mq, re, yt), plus local permit regimes for bl, mf and pm, Monaco (permit always required) and Andorra (30-day notice regime). Watchlist: added the Bhutan tshechus (tentative only) and Lake of Stars (no dates). Read via search-index snapshots.
