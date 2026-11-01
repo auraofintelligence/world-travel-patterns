@@ -255,10 +255,10 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Business visa (up to six weeks a visit, 90 days a year; US$500, about A$710 at RBA, 30 October 2026: A$1 = US$0.7040) or Work permit from the Commissioner of Labour",
-     "detail": "Paid work beyond 30 days needs a work permit; shorter paid work is unclear from current pages.",
-     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "status": "specialist",
+     "route": "Work permit from the Commissioner of Labour, then the matching visa",
+     "detail": "Working in Solomon Islands needs a work permit; the employer applies to the Labour Division first.",
+     "next": "Ask the host to apply.",
      "checked": "2026-11-01"
     },
     "book-launch": {
@@ -269,10 +269,10 @@
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Work permit from the Commissioner of Labour",
-     "detail": "Teaching is likely work.",
-     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "status": "specialist",
+     "route": "Work permit from the Commissioner of Labour, then the matching visa",
+     "detail": "Working in Solomon Islands needs a work permit; the employer applies to the Labour Division first.",
+     "next": "Ask the host to apply.",
      "checked": "2026-11-01"
     },
     "remote-work": {
@@ -297,10 +297,10 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Work permit from the Commissioner of Labour",
-     "detail": "Performing for payment is likely work.",
-     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "status": "specialist",
+     "route": "Work permit from the Commissioner of Labour, then the matching visa",
+     "detail": "Working in Solomon Islands needs a work permit; the employer applies to the Labour Division first.",
+     "next": "Ask the host to apply.",
      "checked": "2026-11-01"
     },
     "mixed-mission": {
@@ -318,17 +318,17 @@
      "checked": "2026-11-01"
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Research permit (to confirm)",
-     "detail": "Not covered on the pages read.",
-     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "status": "specialist",
+     "route": "Long Term Special Purpose (Research) visa",
+     "detail": "Researchers have their own long-term visa; approval from the Director of Immigration comes before entry.",
+     "next": "Apply through the Immigration Division with the host institution.",
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Not published",
-     "detail": "Not covered on the pages read.",
-     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
+     "status": "specialist",
+     "route": "Long Term Special Purpose (Volunteer) visa",
+     "detail": "Volunteers have their own long-term visa, processed by the Permit Unit; approval from the Director of Immigration comes before entry.",
+     "next": "Ask the host organisation to apply before travel.",
      "checked": "2026-11-01"
     }
    },
@@ -346,6 +346,20 @@
      "url": "https://www.un.int/solomonislands/solomonislands/visa-information",
      "checked": "2026-11-01",
      "supports": "business or work over 30 days needs a Commissioner of Labour work permit"
+    },
+    {
+     "title": "Long-term visas",
+     "authority": "Ministry of Commerce, Industry, Labour and Immigration, Solomon Islands",
+     "url": "https://commerce.gov.sb/long-term-visa-2/",
+     "checked": "2026-11-01",
+     "supports": "Long Term Special Purpose visas for volunteers and researchers; Director of Immigration's approval before entry"
+    },
+    {
+     "title": "Application for work permit",
+     "authority": "Ministry of Commerce, Industry, Labour and Immigration, Solomon Islands",
+     "url": "https://commerce.gov.sb/work-permit/",
+     "checked": "2026-11-01",
+     "supports": "all non-citizens apart from listed exemptions must apply for a work permit"
     }
    ]
   },

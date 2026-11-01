@@ -306,10 +306,10 @@
      "checked": "2026-11-01"
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Business visa for short-term employment, with a temporary work permit from the Labour Department and the employer's letter",
-     "detail": "Paid work needs a temporary work permit from the Labour Department plus the business visa.",
-     "next": "Ask the Vanuatu Department of Immigration and Passport Services.",
+     "status": "specialist",
+     "route": "Specialist Skill visa (sponsored, up to two weeks) or Short-Term Employment visa",
+     "detail": "Sponsored specialist work up to two weeks uses the Specialist Skill visa; longer skilled work up to six months uses the Short-Term Employment visa.",
+     "next": "Ask the host to sponsor.",
      "checked": "2026-11-01"
     },
     "book-launch": {
@@ -320,10 +320,10 @@
      "checked": "2026-11-01"
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Business visa for short-term employment, with a temporary work permit from the Labour Department and the employer's letter",
-     "detail": "Paid work needs a temporary work permit from the Labour Department plus the business visa.",
-     "next": "Ask the Vanuatu Department of Immigration and Passport Services.",
+     "status": "specialist",
+     "route": "Specialist Skill visa (sponsored, up to two weeks) or Short-Term Employment visa",
+     "detail": "Sponsored specialist work up to two weeks uses the Specialist Skill visa; longer skilled work up to six months uses the Short-Term Employment visa.",
+     "next": "Ask the host to sponsor.",
      "checked": "2026-11-01"
     },
     "remote-work": {
@@ -348,10 +348,10 @@
      "checked": "2026-11-01"
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Business visa for short-term employment, with a temporary work permit from the Labour Department and the employer's letter",
-     "detail": "Paid work needs a temporary work permit from the Labour Department plus the business visa.",
-     "next": "Ask the Vanuatu Department of Immigration and Passport Services.",
+     "status": "specialist",
+     "route": "Specialist Skill visa (sponsored, up to two weeks) or Short-Term Employment visa",
+     "detail": "Sponsored specialist work up to two weeks uses the Specialist Skill visa; longer skilled work up to six months uses the Short-Term Employment visa.",
+     "next": "Ask the host to sponsor.",
      "checked": "2026-11-01"
     },
     "mixed-mission": {
@@ -376,10 +376,10 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Not published",
-     "detail": "Not a named purpose.",
-     "next": "Ask Immigration through the host.",
+     "status": "specialist",
+     "route": "Development Support visa",
+     "detail": "A volunteer nominated by an NGO to work in a development field may be eligible for the Development Support visa.",
+     "next": "Ask the NGO to nominate you and apply.",
      "checked": "2026-11-01"
     }
    },
@@ -397,6 +397,13 @@
      "url": "https://immigration.gov.vu/conduct-business/",
      "checked": "2026-11-01",
      "supports": "business activity routes"
+    },
+    {
+     "title": "Work visas",
+     "authority": "Vanuatu Department of Immigration and Passport Services",
+     "url": "https://immigration.gov.vu/work/",
+     "checked": "2026-11-01",
+     "supports": "Employment, Short-Term Employment, Development Support, Religious Worker and Specialist Skill visas"
     }
    ]
   }
