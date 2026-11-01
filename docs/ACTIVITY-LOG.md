@@ -265,3 +265,26 @@ New `scripts/fcdo_local_law.py`:
 **Not written:** sh (FCDO's St Helena page title didn't match; alias needed).
 
 FCDO sections sometimes include non-law items (money, stray dogs, internet); they are kept with the heading so readers can tell.
+
+## 2026-11-01 18:00 AEST, Grok: states and regions, substances batch 1 (8 records), plus aw and cw local-law
+
+Cannabis rules from state and provincial regulators and statutes:
+
+| Place | Age | Public carry limit | Other |
+|---|---|---|---|
+| us/california | 21+ | 28.5 g (8 g concentrate) | |
+| us/nevada | 21+ | 2.5 oz (raised from 1 oz on 1 January 2024) | no public use; lounges allowed |
+| us/new-york | 21+ | 3 oz (24 g concentrate) | use allowed in most places tobacco is |
+| us/washington | 21+ | 1 oz | no public use |
+| us/michigan | 21+ | 2.5 oz (15 g concentrate) | |
+| ca/british-columbia | 19+ | 30 g | |
+| ca/ontario | 19+ | 30 g | |
+| ca/quebec | **21+** | 30 g | public-use ban |
+
+**Skipped (couldn't confirm on an official page):**
+- Illinois: a snapshot claimed a new 30 g non-resident limit from June 2026; the statute page wouldn't load.
+- Massachusetts: a snapshot claimed a 2 oz limit from April 2026; the statute page wouldn't load.
+
+**Also:** FCDO local-law records for Aruba (aw) and Curaçao (cw). FCDO has no laws section for the French overseas departments (gf, gp, mq, re, yt) or for io.
+
+**Year-ahead:** the K-ETA (kr) and China waiver (cn) expiries on 31 December 2026 are already in year-ahead through `data/watch.json`. ETIAS has no official start date: the EU site says it is "not in operation" and the date will be announced months ahead. So there's no dated event; recheck in early 2027.

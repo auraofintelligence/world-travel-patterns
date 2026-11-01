@@ -23,6 +23,37 @@
     "2027-08-02: British Columbia Day (regional holiday)"
    ],
    "checked": "2026-11-01"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-01",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "You must be 19 or older to buy, possess or use non-medical cannabis. Adults may carry up to 30 g of dried cannabis (or equivalent) in public. Smoking or vaping is allowed outdoors where tobacco is, but not in parks (except designated areas and campsites), playgrounds, sports fields, skate parks, pools, public buildings, or within 6 m of their doors, windows and air intakes, and never in a vehicle or boat, even as a passenger.",
+     "source": "https://www2.gov.bc.ca/gov/content/safety/public-safety/cannabis/possession-and-purchasing-limits",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Possession and purchasing limits",
+     "authority": "Province of British Columbia",
+     "url": "https://www2.gov.bc.ca/gov/content/safety/public-safety/cannabis/possession-and-purchasing-limits",
+     "checked": "2026-11-01",
+     "supports": "age 19, 30 g in public"
+    },
+    {
+     "title": "Where you can consume",
+     "authority": "Province of British Columbia",
+     "url": "https://www2.gov.bc.ca/gov/content/safety/public-safety/cannabis/where-you-can-consume",
+     "checked": "2026-11-01",
+     "supports": "places of use (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "Provincial law. Read with Canada's federal Cannabis Act; never carry cannabis across the international border."
   }
  }
 }
