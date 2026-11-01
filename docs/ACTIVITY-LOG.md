@@ -916,3 +916,7 @@ Resolved from the official source already cited for the sibling activity in the 
 ## 2026-11-01 23:25 AEST, Grok: Entrepreneur rules: ci, lc, vc, dz, dm, nc (6 records)
 
 Entrepreneur checks from official sources (search-index snapshots): Côte d'Ivoire CEPICI registration with residence certificate; Saint Lucia non-CARICOM trade licence EC$500 to EC$1,000; Saint Vincent annual trader's licence; Algeria AAPI foreign investment one-stop shop; Dominica registration then self-employed work permit; New Caledonia self-employment allowed with FDI declaration.
+
+## 2026-11-01 23:26 AEST, Grok: Fix stray escape characters in Saint Lucia entrepreneur source note (1 records)
+
+Correction to 1b4e6f5: removed backslashes accidentally left in the Saint Lucia source 'supports' text (EC$500 and EC$1,000). Detail and status unchanged.
