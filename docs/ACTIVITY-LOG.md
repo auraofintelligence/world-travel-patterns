@@ -624,3 +624,7 @@ Notable: mu (entertainers exempt for public shows up to 90 days a year), na (sho
 ## 2026-11-01 17:29 AEST, Grok: Activities: Pacific, Timor-Leste and West Africa speaker routes (ci, cm, fm, ki, pg, pw, sb, sn, tl, ws) (10 records)
 
 Notable: sb (30 days with no permit if paid by your normal overseas employer), fm (visitors can do contract work under 90 days), sn (temporary artistic or literary activity up to 4 months on a stay authorisation, which suits book tours), tl (specialised-activity visa), pg (the business visa doesn't cover paid talks), plus ws, pw, ki, ci and cm. vu, ck and nu were already resolved. Read via search-index snapshots.
+
+## 2026-11-01 17:30 AEST, Grok: Culture: national etiquette upgrades and searches (om to pr) (10 records)
+
+Upgraded om (heritage ministry dress guidelines), pa (Guna Yala rules), pf (marae rules), pg, ph (Boracay guide), pk, pm, pn (Sabbath, no alcohol in public) and pr to partly-mapped. pl: searched, none found. Read via search-index snapshots.
