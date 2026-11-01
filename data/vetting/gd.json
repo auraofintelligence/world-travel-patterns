@@ -2,12 +2,20 @@
  "place": "gd",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no official Grenada page found on 31 October 2026. Commonwealth Caribbean islands generally admit Australians without a visa, but that is a pattern, not a finding.",
+   "status": "visa-free",
+   "summary": "No visa required for Australians (Grenada visa requirements list).",
    "next_check": "Confirm with Grenada's immigration authority before travel.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa requirements for travelling to Grenada",
+     "authority": "Embassy of Grenada (Ministry of Foreign Affairs)",
+     "url": "https://gndembassyprc.mofa.gov.gd/wp-content/uploads/2023/08/Visa-Requirements-for-Grenada-final-UPDATED-February-2021-Approved1.pdf",
+     "supports": "Australia: no visa required",
+     "checked": "2026-11-01"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -383,19 +391,17 @@
    "notes": "Covered by the Australian mission responsible for Trinidad and Tobago."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa-free for business visits up to 3 months.",
    "cost_aud_baseline": {
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-GRENADA-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -405,7 +411,48 @@
      "cost": "WORLD-GRENADA-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   }
+   },
+   "fastest_entry": "No visa required for Australians.",
+   "steps": [
+    "Complete the online Immigration and Customs form (opens 72 hours before arrival).",
+    "Staying beyond the permitted visitor period, or work or study, needs a visa."
+   ],
+   "documents": [
+    "Passport valid 6 months from arrival",
+    "Return or onward ticket",
+    "Immigration and Customs form"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry",
+     "amount": 0,
+     "currency": "XCD",
+     "url": "https://gndembassyprc.mofa.gov.gd/wp-content/uploads/2023/08/Visa-Requirements-for-Grenada-final-UPDATED-February-2021-Approved1.pdf",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Visa requirements for travelling to Grenada",
+     "authority": "Embassy of Grenada (Ministry of Foreign Affairs)",
+     "url": "https://gndembassyprc.mofa.gov.gd/wp-content/uploads/2023/08/Visa-Requirements-for-Grenada-final-UPDATED-February-2021-Approved1.pdf",
+     "supports": "Australia: no visa required",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "Online Immigration and Customs portal",
+     "authority": "Government of Grenada",
+     "url": "https://edcard.gov.gd/",
+     "supports": "official arrival form",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
+   },
+   "recheck_note": "Stay length for Australians isn't given on the official list (visitor periods range from 14 days to 6 months)."
   }
  }
 }

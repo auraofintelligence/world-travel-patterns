@@ -2,12 +2,20 @@
  "place": "kn",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no official Saint Kitts and Nevis page found on 31 October 2026. Commonwealth Caribbean islands generally admit Australians without a visa, but that is a pattern, not a finding.",
+   "status": "visa-free",
+   "summary": "No visa: Australia isn't on Saint Kitts and Nevis's visa-required list.",
    "next_check": "Confirm with Saint Kitts and Nevis's immigration authority before travel.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Visa-required countries for entry",
+     "authority": "Ministry of Foreign Affairs, Saint Kitts and Nevis",
+     "url": "https://www.mofa.gov.kn/visa-required-countries-for-entry-2/",
+     "supports": "Australia not on the 67-country visa-required list",
+     "checked": "2026-11-01"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -361,19 +369,17 @@
    "notes": "Covered by the Australian mission responsible for Trinidad and Tobago."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa-free for business visits up to 3 months.",
    "cost_aud_baseline": {
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-SAINT-KITTS-AND-NEVIS-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -383,7 +389,39 @@
      "cost": "WORLD-SAINT-KITTS-AND-NEVIS-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   }
+   },
+   "fastest_entry": "No visa: Australia isn't on the visa-required list.",
+   "steps": [
+    "Complete the Saint Kitts and Nevis online immigration form before arrival (linked from the Ministry's Travel menu)."
+   ],
+   "documents": [
+    "Passport",
+    "Online immigration form"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry",
+     "amount": 0,
+     "currency": "XCD",
+     "url": "https://www.mofa.gov.kn/visa-required-countries-for-entry-2/",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Visa-required countries for entry",
+     "authority": "Ministry of Foreign Affairs, Saint Kitts and Nevis",
+     "url": "https://www.mofa.gov.kn/visa-required-countries-for-entry-2/",
+     "supports": "Australia not on the 67-country visa-required list",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
+   },
+   "recheck_note": "Permitted stay isn't stated on the Ministry page; set at the border."
   }
  }
 }

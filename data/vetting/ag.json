@@ -2,20 +2,20 @@
  "place": "ag",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "Secondary sites say Australians enter visa-free, up to 180 days an entry.",
+   "status": "visa-free",
+   "summary": "No visa: Australia is on Antigua and Barbuda's visa-exempt list; stays up to 6 months with accommodation, onward ticket and funds.",
    "next_check": "Confirm with Antigua and Barbuda's Immigration Department.",
-   "evidence": "signal",
+   "evidence": "official",
    "sources": [
     {
-     "title": "Antigua and Barbuda visa requirements",
-     "authority": "Signal: secondary site",
-     "url": "https://globalcostdata.com/visa/australia-to-antigua-and-barbuda/",
-     "checked": "2026-10-31",
-     "supports": "visa-free, 180 days"
+     "title": "Countries exempt from visa",
+     "authority": "Immigration Department, Antigua and Barbuda",
+     "url": "https://immigration.gov.ag/visa-services/countries-exempt-from-visa/",
+     "supports": "Australia listed as visa-exempt",
+     "checked": "2026-11-01"
     }
    ],
-   "checked": "2026-10-31"
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -368,19 +368,17 @@
    "notes": "Covered by the Australian mission responsible for Trinidad and Tobago."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa-free for business visits up to 1 month.",
    "cost_aud_baseline": {
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-ANTIGUA-AND-BARBUDA-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -390,6 +388,46 @@
      "cost": "WORLD-ANTIGUA-AND-BARBUDA-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "No visa; stays up to 6 months on holiday or business.",
+   "steps": [
+    "Carry proof you can support yourself, an accommodation confirmation and an onward or return ticket."
+   ],
+   "documents": [
+    "Passport",
+    "Accommodation confirmation",
+    "Onward or return ticket",
+    "Proof of funds"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry",
+     "amount": 0,
+     "currency": "XCD",
+     "url": "https://immigration.gov.ag/visa-services/countries-exempt-from-visa/",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Countries exempt from visa",
+     "authority": "Immigration Department, Antigua and Barbuda",
+     "url": "https://immigration.gov.ag/visa-services/countries-exempt-from-visa/",
+     "supports": "Australia listed as visa-exempt",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "General visa information",
+     "authority": "Immigration Department, Antigua and Barbuda",
+     "url": "https://immigration.gov.ag/visa-services/general-visa-information/",
+     "supports": "stay up to 6 months and conditions",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }

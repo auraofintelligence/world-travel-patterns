@@ -338,19 +338,17 @@
    "notes": "For consular help, contact the Australian Embassy in Vatican City."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Entry via Italy (Schengen Area rules apply).",
    "cost_aud_baseline": {
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-VATICAN-CITY-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -360,6 +358,45 @@
      "cost": "WORLD-VATICAN-CITY-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "No visa: Vatican City is reached through Rome, Italy, so the Schengen 90 days in 180 rule applies in practice.",
+   "steps": [
+    "Areas beyond St Peter's and the Museums need permission.",
+    "At the first Schengen border, give fingerprints and a photo for the Entry/Exit System (EES); it's free.",
+    "Stays over 90 days need a national visa or a bilateral waiver arranged before travel."
+   ],
+   "documents": [
+    "Passport"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry",
+     "amount": 0,
+     "currency": "EUR",
+     "url": "https://www.smartraveller.gov.au/travel-essentials/getting-foreign-visa/travelling-europe-and-schengen-area",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Travelling to Europe and the Schengen Area",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/travel-essentials/getting-foreign-visa/travelling-europe-and-schengen-area",
+     "supports": "Australians visa-free in Schengen up to 90 days in 180; Smartraveller gives no separate advice for Vatican City",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "Schengen area",
+     "authority": "European Commission, Migration and Home Affairs",
+     "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en",
+     "supports": "Schengen membership and 90/180 rule",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }

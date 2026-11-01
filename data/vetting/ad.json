@@ -364,19 +364,17 @@
    "notes": "Covered by the Australian mission responsible for Spain."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa-free (entry via France or Spain - Schengen rules apply).",
    "cost_aud_baseline": {
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-ANDORRA-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -386,6 +384,44 @@
      "cost": "WORLD-ANDORRA-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "No visa for tourists; Andorra is outside Schengen but only reached through France or Spain.",
+   "steps": [
+    "Meet Schengen entry rules for France or Spain on the way in.",
+    "Leaving Andorra means re-entering Schengen; carry your passport."
+   ],
+   "documents": [
+    "Passport"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry",
+     "amount": 0,
+     "currency": "EUR",
+     "url": "https://www.govern.ad/en/ministries-and-secretaries-of-state/ministry-of-foreign-affairs/travel-to-andorra",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Travel to Andorra",
+     "authority": "Govern d'Andorra, Ministry of Foreign Affairs",
+     "url": "https://www.govern.ad/en/ministries-and-secretaries-of-state/ministry-of-foreign-affairs/travel-to-andorra",
+     "supports": "no visa for tourists; entry is through France or Spain (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "Schengen area",
+     "authority": "European Commission, Migration and Home Affairs",
+     "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en",
+     "supports": "Schengen membership and 90/180 rule",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }

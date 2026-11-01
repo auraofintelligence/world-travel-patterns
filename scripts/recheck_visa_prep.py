@@ -22,8 +22,9 @@ def apply(pid, spec):
         write(vetting_path(pid), vet)
         return "flagged"
     extras = {k: rec.pop(k) for k in ("host_unlock", "fastest_entry", "before_departure", "useful_stay", "documents", "steps") if k in rec}
-    sources = [{"title": "Smartraveller travel advice: entry and exit", "authority": "Smartraveller, Australian Government",
-                "url": SR[pid], "checked": CHECKED, "supports": "visa status, pre-arrival forms and border documents as read"}]
+    primary = spec.get("primary") or {"title": "Smartraveller travel advice: entry and exit", "authority": "Smartraveller, Australian Government",
+                "url": SR[pid], "supports": "visa status, pre-arrival forms and border documents as read"}
+    sources = [{**primary, "checked": CHECKED}]
     sources += [{**s, "checked": CHECKED} for s in spec.get("sources", [])]
     rec.update({
         "status": "steps-found", "checked": CHECKED, "last_reviewed": CHECKED, "evidence": "official", "needs_recheck": False,

@@ -2,12 +2,20 @@
  "place": "lc",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no official Saint Lucia page found on 31 October 2026. Commonwealth Caribbean islands generally admit Australians without a visa, but that is a pattern, not a finding.",
+   "status": "visa-required",
+   "summary": "Visa needed before travel: Australia is on Saint Lucia's visa-required list (Immigration Act Schedule 1, revised 2023). Single entry EC$125, multiple entry EC$190.",
    "next_check": "Confirm with Saint Lucia's immigration authority before travel.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Immigration Act, Schedule 1 (Revised Laws of Saint Lucia 2023)",
+     "authority": "Attorney General's Chambers, Saint Lucia",
+     "url": "http://attorneygeneralchambers.com/laws-of-saint-lucia/immigration-act/schedule-1-01",
+     "supports": "Australia listed among countries whose citizens need a visa",
+     "checked": "2026-11-01"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -360,19 +368,17 @@
    "notes": "Covered by the Australian mission responsible for Trinidad and Tobago."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa-free for business visits up to 6 weeks.",
    "cost_aud_baseline": {
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-SAINT-LUCIA-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -382,6 +388,56 @@
      "cost": "WORLD-SAINT-LUCIA-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "Visa needed: Australia is on Saint Lucia's visa-required list. Apply through the Royal Saint Lucia Police Force visa office (about 5 working days).",
+   "steps": [
+    "Apply at least 2 weeks before travel (visaoffice@police.govt.lc); an airport application is sometimes possible but can be refused.",
+    "Include 2 certified photos, return ticket, itinerary and accommodation proof."
+   ],
+   "documents": [
+    "Passport valid 6 months",
+    "2 certified passport photos",
+    "Return ticket",
+    "Itinerary",
+    "Accommodation proof",
+    "Invitation letter if staying with someone"
+   ],
+   "fees": [
+    {
+     "item": "single-entry visa (3 months)",
+     "amount": 125,
+     "currency": "XCD",
+     "url": "https://www.govt.lc/services/apply-for-saint-lucia-non-immigrant-visa",
+     "checked": "2026-11-01"
+    },
+    {
+     "item": "multiple-entry visa (1 year)",
+     "amount": 190,
+     "currency": "XCD",
+     "url": "https://www.govt.lc/services/apply-for-saint-lucia-non-immigrant-visa",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Immigration Act, Schedule 1 (Revised Laws of Saint Lucia 2023)",
+     "authority": "Attorney General's Chambers, Saint Lucia",
+     "url": "http://attorneygeneralchambers.com/laws-of-saint-lucia/immigration-act/schedule-1-01",
+     "supports": "Australia listed among countries whose citizens need a visa",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "Apply for Saint Lucia non-immigrant visa",
+     "authority": "Government of Saint Lucia",
+     "url": "https://www.govt.lc/services/apply-for-saint-lucia-non-immigrant-visa",
+     "supports": "fees, documents and processing time",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }

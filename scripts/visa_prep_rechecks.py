@@ -636,3 +636,80 @@ for _p, _why in {
     "zw": "30-day tourist visa on arrival or e-visa, fee in USD; amount not stated", "pa": "entry section didn't extract from Smartraveller", "tm": "entry section didn't extract from Smartraveller",
 }.items():
     RECHECKS[_p] = flag("Smartraveller read: " + _why + ".")
+
+
+# Batch D (2026-11-01): the 24 countries with no Smartraveller advice page. Smartraveller only has
+# stub pages for these, so the primary source is the destination government's own page (or the
+# Smartraveller Schengen page for Schengen members). ofc() sets SR[pid] to that URL so free() cites it.
+SR_SCHENGEN = "https://www.smartraveller.gov.au/travel-essentials/getting-foreign-visa/travelling-europe-and-schengen-area"
+EC_SCHENGEN = src("Schengen area", "European Commission, Migration and Home Affairs", "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en", "Schengen membership and 90/180 rule")
+
+
+def ofc(pid, primary, spec):
+    SR[pid] = primary["url"]
+    spec["primary"] = primary
+    for f in spec["fees"]:
+        f["url"] = f["url"] or primary["url"]
+    return spec
+
+
+def micro(pid, name, via, step):
+    prim = src("Travelling to Europe and the Schengen Area", "Smartraveller, Australian Government", SR_SCHENGEN,
+               "Australians visa-free in Schengen up to 90 days in 180; Smartraveller gives no separate advice for " + name)
+    return ofc(pid, prim, visa(pid, f"No visa: {name} is reached through {via}, so the Schengen 90 days in 180 rule applies in practice.",
+               [step, "At the first Schengen border, give fingerprints and a photo for the Entry/Exit System (EES); it's free.",
+                "Stays over 90 days need a national visa or a bilateral waiver arranged before travel."],
+               ["Passport"], [fee("visa-free entry", 0, "EUR", None)], [EC_SCHENGEN]))
+
+
+AG = src("Countries exempt from visa", "Immigration Department, Antigua and Barbuda", "https://immigration.gov.ag/visa-services/countries-exempt-from-visa/", "Australia listed as visa-exempt")
+BB = src("Visitors to Barbados", "Barbados Immigration Department", "https://immigration.gov.bb/pages/visitor.aspx", "visitor documents and the online Immigration and Customs form")
+DM = src("Do I need a visa to enter into Dominica?", "Government of Dominica", "https://www.dominica.gov.dm/services/passports-and-travel-documents-non-nationals/do-i-need-a-visa-to-enter-into-dominica", "Commonwealth citizens visa-free up to 6 months")
+GD = src("Visa requirements for travelling to Grenada", "Embassy of Grenada (Ministry of Foreign Affairs)", "https://gndembassyprc.mofa.gov.gd/wp-content/uploads/2023/08/Visa-Requirements-for-Grenada-final-UPDATED-February-2021-Approved1.pdf", "Australia: no visa required")
+KN = src("Visa-required countries for entry", "Ministry of Foreign Affairs, Saint Kitts and Nevis", "https://www.mofa.gov.kn/visa-required-countries-for-entry-2/", "Australia not on the 67-country visa-required list")
+LC = src("Immigration Act, Schedule 1 (Revised Laws of Saint Lucia 2023)", "Attorney General's Chambers, Saint Lucia", "http://attorneygeneralchambers.com/laws-of-saint-lucia/immigration-act/schedule-1-01", "Australia listed among countries whose citizens need a visa")
+LCF = "https://www.govt.lc/services/apply-for-saint-lucia-non-immigrant-visa"
+VC = src("Entry requirements", "Tourism Authority, Saint Vincent and the Grenadines", "https://tourism.gov.vc/tourism/index.php/svg-facts/459-entry-requirements", "visa-required nationalities list (Australia not on it)" + SNAP)
+AD = src("Travel to Andorra", "Govern d'Andorra, Ministry of Foreign Affairs", "https://www.govern.ad/en/ministries-and-secretaries-of-state/ministry-of-foreign-affairs/travel-to-andorra", "no visa for tourists; entry is through France or Spain" + SNAP)
+
+RECHECKS.update({
+    "lu": micro("lu", "Luxembourg", "Schengen (it's a member)", "Luxembourg has a bilateral visa waiver with Australia usable after the Schengen 90 days; tell the first border guard if you plan to use it."),
+    "li": micro("li", "Liechtenstein", "Switzerland or Austria (it's a Schengen member)", "There's no airport; arrive through Zurich or another Schengen airport."),
+    "mc": micro("mc", "Monaco", "France (no border controls)", "Monaco isn't a Schengen member but has an open border with France; time there counts in practice."),
+    "sm": micro("sm", "San Marino", "Italy (open border)", "San Marino isn't a Schengen member but is only reached through Italy."),
+    "va": micro("va", "Vatican City", "Rome, Italy", "Areas beyond St Peter's and the Museums need permission."),
+    "ad": ofc("ad", AD, visa("ad", "No visa for tourists; Andorra is outside Schengen but only reached through France or Spain.",
+               ["Meet Schengen entry rules for France or Spain on the way in.", "Leaving Andorra means re-entering Schengen; carry your passport."],
+               ["Passport"], [fee("visa-free entry", 0, "EUR", None)], [EC_SCHENGEN])),
+    "ag": ofc("ag", AG, visa("ag", "No visa; stays up to 6 months on holiday or business.",
+               ["Carry proof you can support yourself, an accommodation confirmation and an onward or return ticket."],
+               ["Passport", "Accommodation confirmation", "Onward or return ticket", "Proof of funds"], [fee("visa-free entry", 0, "XCD", None)],
+               [src("General visa information", "Immigration Department, Antigua and Barbuda", "https://immigration.gov.ag/visa-services/general-visa-information/", "stay up to 6 months and conditions")])),
+    "bb": ofc("bb", BB, visa("bb", "No visa; Australians can stay up to 6 months.",
+               ["Complete the online Immigration and Customs form (opens 72 hours before arrival) and keep the receipt.", "Carry a return ticket, intended address and evidence of support."],
+               ["Passport valid for the trip", "Immigration and Customs form receipt", "Return ticket", "Address in Barbados", "Proof of funds"],
+               [fee("visa-free entry", 0, "BBD", "https://www.foreign.gov.bb/wp-content/uploads/2025/11/Updated-visa-list-May-09-2025-002.pdf")],
+               [src("Visa requirements list (revised 9 May 2025)", "Ministry of Foreign Affairs and Foreign Trade, Barbados", "https://www.foreign.gov.bb/wp-content/uploads/2025/11/Updated-visa-list-May-09-2025-002.pdf", "Australians: no visa, maximum 6 months")])),
+    "dm": ofc("dm", DM, visa("dm", "No visa for Commonwealth citizens (including Australians) for up to 6 months.",
+               ["Submit the online ED card (immigration and customs) before arrival.", "Carry a return ticket, enough funds and a local address."],
+               ["Passport", "ED card", "Return ticket"], [fee("visa-free entry", 0, "XCD", None)],
+               [src("Online immigration and customs form", "Government of Dominica", "https://edcard.dominica.gov.dm/", "official ED card portal")])),
+    "gd": ofc("gd", GD, visa("gd", "No visa required for Australians.",
+               ["Complete the online Immigration and Customs form (opens 72 hours before arrival).", "Staying beyond the permitted visitor period, or work or study, needs a visa."],
+               ["Passport valid 6 months from arrival", "Return or onward ticket", "Immigration and Customs form"], [fee("visa-free entry", 0, "XCD", None)],
+               [src("Online Immigration and Customs portal", "Government of Grenada", "https://edcard.gov.gd/", "official arrival form")],
+               note="Stay length for Australians isn't given on the official list (visitor periods range from 14 days to 6 months).")),
+    "kn": ofc("kn", KN, visa("kn", "No visa: Australia isn't on the visa-required list.",
+               ["Complete the Saint Kitts and Nevis online immigration form before arrival (linked from the Ministry's Travel menu)."],
+               ["Passport", "Online immigration form"], [fee("visa-free entry", 0, "XCD", None)],
+               note="Permitted stay isn't stated on the Ministry page; set at the border.")),
+    "lc": ofc("lc", LC, visa("lc", "Visa needed: Australia is on Saint Lucia's visa-required list. Apply through the Royal Saint Lucia Police Force visa office (about 5 working days).",
+               ["Apply at least 2 weeks before travel (visaoffice@police.govt.lc); an airport application is sometimes possible but can be refused.",
+                "Include 2 certified photos, return ticket, itinerary and accommodation proof."],
+               ["Passport valid 6 months", "2 certified passport photos", "Return ticket", "Itinerary", "Accommodation proof", "Invitation letter if staying with someone"],
+               [fee("single-entry visa (3 months)", 125, "XCD", LCF), fee("multiple-entry visa (1 year)", 190, "XCD", LCF)],
+               [src("Apply for Saint Lucia non-immigrant visa", "Government of Saint Lucia", LCF, "fees, documents and processing time")])),
+    "vc": ofc("vc", VC, visa("vc", "No visa before travel; the visa-required list doesn't include Australia. Immigration sets the stay on arrival.",
+               ["Carry a return or onward ticket, enough funds and accommodation details."],
+               ["Passport valid 6 months beyond entry", "Return or onward ticket", "Proof of funds", "Accommodation details"], [fee("visa-free entry", 0, "XCD", None)])),
+})

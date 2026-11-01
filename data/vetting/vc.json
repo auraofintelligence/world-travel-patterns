@@ -2,12 +2,20 @@
  "place": "vc",
  "patterns": {
   "entry": {
-   "status": "confirm-in-writing",
-   "summary": "No Smartraveller page and no official Saint Vincent and the Grenadines page found on 31 October 2026. Commonwealth Caribbean islands generally admit Australians without a visa, but that is a pattern, not a finding.",
+   "status": "visa-free",
+   "summary": "No visa before travel: Australia isn't on the visa-required list; immigration sets the stay on arrival.",
    "next_check": "Confirm with Saint Vincent and the Grenadines's immigration authority before travel.",
-   "evidence": "signal",
-   "sources": [],
-   "checked": "2026-10-31"
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Entry requirements",
+     "authority": "Tourism Authority, Saint Vincent and the Grenadines",
+     "url": "https://tourism.gov.vc/tourism/index.php/svg-facts/459-entry-requirements",
+     "supports": "visa-required nationalities list (Australia not on it) (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
+     "checked": "2026-11-01"
+    }
+   ],
+   "checked": "2026-11-01"
   },
   "money-and-cost": {
    "status": "noted",
@@ -360,19 +368,17 @@
    "notes": "Covered by the Australian mission responsible for Trinidad and Tobago."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa-free for business visits up to 1 month.",
    "cost_aud_baseline": {
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-SAINT-VINCENT-AND-THE-GRENADINES-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -382,6 +388,39 @@
      "cost": "WORLD-SAINT-VINCENT-AND-THE-GRENADINES-COST"
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+   },
+   "fastest_entry": "No visa before travel; the visa-required list doesn't include Australia. Immigration sets the stay on arrival.",
+   "steps": [
+    "Carry a return or onward ticket, enough funds and accommodation details."
+   ],
+   "documents": [
+    "Passport valid 6 months beyond entry",
+    "Return or onward ticket",
+    "Proof of funds",
+    "Accommodation details"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry",
+     "amount": 0,
+     "currency": "XCD",
+     "url": "https://tourism.gov.vc/tourism/index.php/svg-facts/459-entry-requirements",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Entry requirements",
+     "authority": "Tourism Authority, Saint Vincent and the Grenadines",
+     "url": "https://tourism.gov.vc/tourism/index.php/svg-facts/459-entry-requirements",
+     "supports": "visa-required nationalities list (Australia not on it) (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
    }
   }
  }
