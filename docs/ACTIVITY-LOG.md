@@ -716,3 +716,7 @@ Work rules filled from official sources: Saint Lucia business-visitor regulation
 ## 2026-11-01 17:50 AEST, Grok: Work rules: event and business visas for la, pk, rw, sc, sz, sn, co, mo, to, cu (10 records)
 
 Work rules from official sources: Colombia (visa-exempt speakers and artists at events, under 180 days, no Colombian salary); Macao (Regulation 17/2004, invited academic or cultural activity 45 days in 6 months); Pakistan Other Visa for conferences (apply 6 weeks ahead); Rwanda V5 Conference Visa USD 50; Seychelles Visitor's Permit and 1-month GOP; Laos 30-day business stays; Eswatini 1-month business visit; Senegal business visa details; Tonga written notice; Cuba business and event visas. Read via search-index snapshots.
+
+## 2026-11-01 17:51 AEST, Grok: Work rules for open places (aq, io, va, mg, dz) and Pacific territories (pf, nc, ki, mh) (9 records)
+
+Open work entries closed with official sources: Antarctica (AAD environmental authorisation for all activity), BIOT (entry permits paused from 31 March 2026), Vatican (via Italy, Schengen rules), Madagascar non-immigrant visa under 90 days, Algeria business or cultural visa with official invitation. Pacific: French Polynesia exempts conferences and artistic events under 3 months; New Caledonia requires prior work authorisation for all foreigners; Kiribati business visitor 1 month (4 in 12); Marshall Islands work permit plus E-1. Guinea-Bissau still has no official source (eVisa portal suspended). Read via search-index snapshots.
