@@ -4,11 +4,13 @@ Dated handover notes for whoever works on this repo next (Claude, Codex, Grok). 
 
 ## Handoff for Claude (updated 2026-11-01 evening AEST, Grok)
 
-**State today.** Every country and territory outside Australia has entry, activities and culture records. 743 of 3,705 activity checks (20%) still say "confirm in writing"; 423 of those are outside the Do-not-travel places (remote work 63, volunteering 54, mixed missions 51, book launches 46, entrepreneur 43, research 43, filming 29, unpaid speaking 27, others 67).
+**State today.** Every country and territory outside Australia has entry, activities and culture records. 731 of 3,705 activity checks (20%) still say "confirm in writing"; 411 of those are outside the Do-not-travel places (remote work 63, volunteering 54, mixed missions 51, book launches 46, entrepreneur 31, research 43, filming 29, unpaid speaking 27, others 67).
 
 **Later passes (e802e79 to 08304a9).** Volunteering for 32 places (ca, ie, mx, th, Nordics, Baltics, central Europe, is, co, rw, tr, Pacific, Caribbean); remote work for 12 (Armenia allowed for a foreign employer; Dominica WIN visa; US and territories not addressed); research for 9 (US B-1, Namibia NCRST permit 4 months ahead); book launches for 7 (Armenia, Serbia, Kazakhstan); filming for 9 (ca, jp, za, ie, br, co, cl, hk, uz). Corrections: the Canada volunteering source was a mirror (migova.ca), replaced with canada.ca in 078680c; a Vietnam research draft based on a misread Taiwan page was reverted before commit.
 
-**Next.** Entrepreneur (43) and filming (29), then remaining remote work, volunteering, research, book launches; Do-not-travel work rules last; then ask-locally culture and 2027 events.
+**Latest (f77a2c7, 3edb052).** Entrepreneur for 12 places: tw, mu, sc, mn, am, az, vu, ws, pw, rw, jm, tt.
+
+**Next.** Entrepreneur (31) and filming (29), then remaining remote work, volunteering, research, book launches; Do-not-travel work rules last; then ask-locally culture and 2027 events.
 
 **Today's work (3bf3434 to d0191a2).**
 - Work rules filled for about 90 places.
@@ -842,3 +844,7 @@ Entrepreneur checks from official sources (search-index snapshots): Taiwan Entre
 ## 2026-11-01 23:15 AEST, Grok: Entrepreneur rules: vu, ws, pw, rw, jm, tt (6 records)
 
 Entrepreneur checks from official sources (search-index snapshots): Vanuatu FIRC then licence; Samoa Foreign Investment Certificate; Palau FIAC with citizen-reserved activities; Rwanda business investor permit 150,000 Frw; Jamaica work permit; Trinidad and Tobago 30 days in 12 months.
+
+## 2026-11-01 23:15 AEST, Grok: Docs: handoff and STATUS updated after entrepreneur passes (0 records)
+
+Docs only: handoff and STATUS.md item 1 updated (731 confirm-in-writing; 411 outside Do-not-travel places; entrepreneur 31).
