@@ -436,3 +436,7 @@ Smartraveller customs sections drafted as ask-locally for af, ml, so and ye. cd,
 ## 2026-11-01 16:49 AEST, Grok: Culture from FCDO customs guidance, batch 1 (12 records)
 
 New script scripts/fcdo_culture.py takes only customs subheadings (dress, behaviour, religion, Ramadan) from FCDO's laws and cultural differences section. Status is partly-mapped, and each record is flagged as written for British travellers. Laws stay in local-law. Places: ag ai be bm cn cz dk dm eh gd gq ki.
+
+## 2026-11-01 16:49 AEST, Grok: Culture from FCDO, batch 2 (7 partly-mapped, 7 ask-locally) (14 records)
+
+Same method as batch 1. Places where FCDO has no customs subheading get ask-locally, naming the government and tourism office as authority. Places: km la lc mc ms pt tt bb kn ky ug zw ad ao.
