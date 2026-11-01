@@ -743,3 +743,76 @@ RECHECKS.update({
     "tv": flag("no Smartraveller advice. Search snapshots of Tuvalu's Immigration Regulations 2014 say a visitor permit up to 30 days is issued on arrival for AUD 100 unless the nationality is on a fee-exemption list; the PDF wouldn't load to check whether Australia is exempt."),
     "sr": flag("no Smartraveller advice. Suriname's e-visa/entry-fee portal (suriname.vfsevisa.com, run by VFS for the government) blocked fetches; snapshots show a US$50 single-entry entry fee plus US$8 service fee. Needs a direct government read."),
 })
+
+
+# Batch F1 (2026-11-01): official fee pages found for previously flagged records.
+def pv(pid, fastest, steps, documents, fees, portal, note=None, before=None):
+    return visa(pid, fastest, steps, documents, fees, [portal], before=before, note=note)
+
+
+EGP = "https://visa2egypt.gov.eg/eVisa/FAQ?VISTK"
+ILP = "https://israel-entry.piba.gov.il/learn-about/"
+TZP = "https://www.immigration.go.tz/websiteportal/uploads/information_links/info_link_20260910_084204_a50ed70947.pdf"
+UGP = "https://immigration.go.ug/services/tourist-visa"
+SCP = "https://seychelles.govtas.com/en/FAQ/dc3d5be6-d29e-4881-84f8-ad93a2759682"
+ETP = "https://www.evisa.gov.et/information/tourist"
+JOP = "https://www.mota.gov.jo/En/Pages/Visa_information"
+ZWP = "https://www.zimembassyberlin.gov.zw/?page_id=791"
+MWP = "https://www.immigration.gov.mw/visa/visa-fees/"
+NAP = "https://eservices.mhaiss.gov.na/holidayvisa-services"
+KWP = "https://kuwaitvisa.moi.gov.kw/tourist-visa-instructions"
+BHP = "https://www.bahrain.bh/wps/portal/en/BNP/ServicesCatalogue/GSX-UI-PServiceDetails?psID=1871"
+RECHECKS.update({
+    "eg": pv("eg", "Single-entry tourist visa: e-Visa before travel or visa on arrival (paid in USD or by card).",
+             ["Apply on the official e-Visa portal (visa2egypt.gov.eg) or buy on arrival at the airport.", "Avoid look-alike sites charging extra."],
+             ["Passport valid 6 months", "e-Visa approval or cash/card for the arrival visa"], [fee("single-entry tourist visa (from 1 March 2026)", 30, "USD", EGP)],
+             src("Egypt e-Visa portal FAQ", "Government of Egypt", EGP, "single-entry fee USD 30" + SNAP)),
+    "il": pv("il", "ETA-IL needed before travel for stays under 90 days; valid up to 2 years or until the passport expires.",
+             ["Apply on the official PIBA site only (israel-entry.piba.gov.il).", "Check Smartraveller's current advice level for Israel before booking."],
+             ["Passport", "ETA-IL approval"], [fee("ETA-IL (non-refundable)", 25, "ILS", ILP)],
+             src("ETA-IL", "Population and Immigration Authority, Israel", ILP, "NIS 25 fee, 2-year validity, 90-day visits" + SNAP)),
+    "tz": pv("tz", "Ordinary (single-entry) visa, online or on arrival (Australia is on the on-arrival list); valid up to 90 days.",
+             ["Apply on the official eVisa portal (visa.immigration.go.tz) or get it on arrival.", "Buy the mandatory inbound travel insurance (NIC for the mainland, ZIC for Zanzibar) per Smartraveller."],
+             ["Passport", "Return ticket", "Inbound insurance certificate", "Yellow fever certificate if arriving from a risk country"],
+             [fee("Ordinary visa (single entry, up to 90 days)", 50, "USD", TZP)],
+             src("Tanzania Visa Guidelines (September 2026)", "Immigration Services Department, Tanzania", TZP, "Australia on the visa-on-arrival list; Ordinary visa USD 50"),
+             note="Mandatory NIC/ZIC insurance cost not confirmed on an official page."),
+    "ug": pv("ug", "Tourist visa (single entry) applied for online before travel.",
+             ["Apply only on visas.immigration.go.ug; the immigration service warns about fake portals.", "Carry a yellow fever certificate."],
+             ["Passport", "Recent photo", "Hotel booking or host address", "Yellow fever certificate"], [fee("tourist visa, single entry", 50, "USD", UGP)],
+             src("Uganda tourist visa, single entry", "National Citizenship and Immigration Control, Uganda", UGP, "documents and USD 50 fee")),
+    "sc": pv("sc", "No visa; a paid Travel Authorisation is needed, applied for up to 30 days before travel.",
+             ["Apply only on seychelles.govtas.com (third-party sites charge more).", "Carry return ticket, accommodation proof and enough funds."],
+             ["Passport", "Travel Authorisation", "Return ticket", "Accommodation booking"],
+             [fee("Travel Authorisation (enrolment EUR 10 plus charges)", 12.06, "EUR", SCP)],
+             src("Price of the Travel Authorisation", "Seychelles Electronic Border System (Government of Seychelles)", SCP, "EUR 12.06 total" + SNAP)),
+    "et": pv("et", "e-Visa needed before travel (tourist, single entry, 30 days).",
+             ["Apply on evisa.gov.et; processing is about 3 days."], ["Passport", "e-Visa", "Yellow fever certificate if required"],
+             [fee("tourist e-visa, 30 days", 62, "USD", ETP)],
+             src("Tourist visa", "Ethiopian Immigration and Citizenship Service e-Visa", ETP, "USD 62 for 30 days" + SNAP)),
+    "jo": pv("jo", "Single-entry visa (valid 3 months) on arrival at airports and most crossings, or paid in advance online.",
+             ["Pay online through the Ministry of Interior e-services (eservices.moi.gov.jo/MOI_EVISA) or on arrival.", "The Jordan Pass (tourism ministry) can cover the fee if you stay 3 nights or more."],
+             ["Passport valid 6 months"], [fee("single-entry visa", 40, "JOD", JOP)],
+             src("Visa information", "Ministry of Tourism and Antiquities, Jordan", JOP, "JOD 40 single-entry visa" + SNAP)),
+    "zw": pv("zw", "Tourist visa on arrival or e-visa before travel, paid in USD.",
+             ["Apply on evisa.gov.zw or pay on arrival.", "KAZA UNIVISA covers Zimbabwe and Zambia at some crossings."], ["Passport", "Return ticket"],
+             [fee("single-entry visa", 30, "USD", ZWP)],
+             src("Visas", "Embassy of the Republic of Zimbabwe, Berlin", ZWP, "single entry USD 30" + SNAP)),
+    "mw": pv("mw", "Visa needed; apply on the official e-Visa portal (about 3 working days).",
+             ["Apply on evisa.gov.mw and pay online by card; fees are non-refundable."], ["Passport", "e-Visa approval"],
+             [fee("single-entry visa", 50, "USD", MWP)],
+             src("Visa fees", "Department of Immigration and Citizenship Services, Malawi", MWP, "single entry USD 50" + SNAP)),
+    "na": pv("na", "Visa needed: apply online before travel (visa on arrival issued at the port of entry).",
+             ["Apply on the Ministry's e-services portal before arriving.", "Manual applications at the border were announced at a higher fee (N$2,000)."],
+             ["Passport", "e-visa approval", "Return ticket"], [fee("visa on arrival / e-visa (non-African nationals)", 1600, "NAD", NAP)],
+             src("Holiday visa services", "Ministry of Home Affairs, Immigration, Safety and Security, Namibia", NAP, "N$1,600 fee" + SNAP)),
+    "kw": pv("kw", "Tourist e-Visa before travel (single entry, valid 30 days from issue, stay up to 90 days), or visa on arrival.",
+             ["Apply on kuwaitvisa.moi.gov.kw; the portal shows the fee for your nationality at payment."], ["Passport valid 6 months from entry"],
+             [fee("tourist e-Visa", 3, "KWD", KWP)],
+             src("Tourist visa instructions", "Ministry of Interior, Kuwait", KWP, "KWD 3 standard fee" + SNAP),
+             note="Fee can vary by nationality; confirm at payment."),
+    "bh": pv("bh", "Tourist eVisa before travel (or visa on arrival, per Smartraveller).",
+             ["Apply only on evisa.gov.bh."], ["Passport", "eVisa"],
+             [fee("14-day single-entry eVisa (BD 9 plus BD 4 application)", 13, "BHD", BHP), fee("3-month multiple-entry eVisa", 29, "BHD", BHP)],
+             src("eVisa service", "Government of Bahrain portal", BHP, "eVisa fees" + SNAP)),
+})

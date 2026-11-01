@@ -618,19 +618,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "e-Visa or visa on arrival available.",
    "cost_aud_baseline": {
     "value": "~ $15",
     "checked": "2025-08-16",
     "claim_id": "WORLD-KUWAIT-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -641,7 +639,44 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: visa on arrival or e-visa with fee; amount not stated."
+   "recheck_note": "Fee can vary by nationality; confirm at payment.",
+   "fastest_entry": "Tourist e-Visa before travel (single entry, valid 30 days from issue, stay up to 90 days), or visa on arrival.",
+   "steps": [
+    "Apply on kuwaitvisa.moi.gov.kw; the portal shows the fee for your nationality at payment."
+   ],
+   "documents": [
+    "Passport valid 6 months from entry"
+   ],
+   "fees": [
+    {
+     "item": "tourist e-Visa",
+     "amount": 3,
+     "currency": "KWD",
+     "url": "https://kuwaitvisa.moi.gov.kw/tourist-visa-instructions",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/kuwait",
+     "supports": "visa status, pre-arrival forms and border documents as read",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "Tourist visa instructions",
+     "authority": "Ministry of Interior, Kuwait",
+     "url": "https://kuwaitvisa.moi.gov.kw/tourist-visa-instructions",
+     "supports": "KWD 3 standard fee (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
+   }
   }
  }
 }

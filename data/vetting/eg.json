@@ -658,19 +658,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "Visa required (on arrival or e-Visa).",
    "cost_aud_baseline": {
     "value": "~ $40",
     "checked": "2025-08-16",
     "claim_id": "WORLD-EGYPT-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -681,7 +679,45 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: eVisa or visa on entry paid in USD or card; amount not stated."
+   "fastest_entry": "Single-entry tourist visa: e-Visa before travel or visa on arrival (paid in USD or by card).",
+   "steps": [
+    "Apply on the official e-Visa portal (visa2egypt.gov.eg) or buy on arrival at the airport.",
+    "Avoid look-alike sites charging extra."
+   ],
+   "documents": [
+    "Passport valid 6 months",
+    "e-Visa approval or cash/card for the arrival visa"
+   ],
+   "fees": [
+    {
+     "item": "single-entry tourist visa (from 1 March 2026)",
+     "amount": 30,
+     "currency": "USD",
+     "url": "https://visa2egypt.gov.eg/eVisa/FAQ?VISTK",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/egypt",
+     "supports": "visa status, pre-arrival forms and border documents as read",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "Egypt e-Visa portal FAQ",
+     "authority": "Government of Egypt",
+     "url": "https://visa2egypt.gov.eg/eVisa/FAQ?VISTK",
+     "supports": "single-entry fee USD 30 (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
+   }
   }
  }
 }

@@ -163,3 +163,24 @@ The ki and tg entry records were upgraded to official.
 - sr: the VFS portal blocked fetches.
 
 **Correction:** Cabo Verde is not visa-free for Australians; Australia is absent from the official exempt list.
+
+## 2026-11-01 17:10 AEST, Grok: batch F1, fee pages for flagged records (12 verified)
+
+All 12 now cite the destination government's fee page. Pages that blocked fetches were read via search snapshots (marked SNAP).
+
+| Country | Fee |
+|---|---|
+| eg | USD 30 (raised from USD 25 on 1 March 2026) |
+| il | ETA-IL NIS 25 |
+| tz | Ordinary visa USD 50 (Immigration guidelines PDF, September 2026, read directly); the NIC/ZIC insurance cost is still unconfirmed |
+| ug | USD 50 (read directly) |
+| sc | Travel Authorisation EUR 12.06 |
+| et | USD 62 for 30 days |
+| jo | JOD 40 |
+| zw | USD 30 |
+| mw | USD 50 |
+| na | N$1,600 |
+| kw | KWD 3 (may vary by nationality) |
+| bh | BHD 13 single entry or BHD 29 multiple entry |
+
+The Egypt increase is a correction to older baseline figures.

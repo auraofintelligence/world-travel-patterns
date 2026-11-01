@@ -579,19 +579,17 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
+   "status": "steps-found",
+   "checked": "2026-11-01",
+   "last_reviewed": "2026-11-01",
+   "evidence": "official",
+   "needs_recheck": false,
    "entry_summary": "e-Visa or visa on arrival for business.",
    "cost_aud_baseline": {
     "value": "~ $150",
     "checked": "2025-08-16",
     "claim_id": "WORLD-TANZANIA-COST"
    },
-   "steps": [],
-   "documents": [],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -602,7 +600,48 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: eVisa (some visas on arrival) plus mandatory NIC or ZIC inbound insurance; fees not stated."
+   "recheck_note": "Mandatory NIC/ZIC insurance cost not confirmed on an official page.",
+   "fastest_entry": "Ordinary (single-entry) visa, online or on arrival (Australia is on the on-arrival list); valid up to 90 days.",
+   "steps": [
+    "Apply on the official eVisa portal (visa.immigration.go.tz) or get it on arrival.",
+    "Buy the mandatory inbound travel insurance (NIC for the mainland, ZIC for Zanzibar) per Smartraveller."
+   ],
+   "documents": [
+    "Passport",
+    "Return ticket",
+    "Inbound insurance certificate",
+    "Yellow fever certificate if arriving from a risk country"
+   ],
+   "fees": [
+    {
+     "item": "Ordinary visa (single entry, up to 90 days)",
+     "amount": 50,
+     "currency": "USD",
+     "url": "https://www.immigration.go.tz/websiteportal/uploads/information_links/info_link_20260910_084204_a50ed70947.pdf",
+     "checked": "2026-11-01"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
+     "supports": "visa status, pre-arrival forms and border documents as read",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "Tanzania Visa Guidelines (September 2026)",
+     "authority": "Immigration Services Department, Tanzania",
+     "url": "https://www.immigration.go.tz/websiteportal/uploads/information_links/info_link_20260910_084204_a50ed70947.pdf",
+     "supports": "Australia on the visa-on-arrival list; Ordinary visa USD 50",
+     "checked": "2026-11-01"
+    }
+   ],
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "documents": [],
+    "steps": []
+   }
   }
  }
 }
