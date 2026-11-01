@@ -281,11 +281,31 @@
   "culture-and-protocol": {
    "checked": "2026-11-01",
    "evidence": "official",
-   "status": "ask-locally",
-   "dress_and_conduct": "No FCDO advice page exists for French Southern Territories, and no official etiquette guidance has been checked yet. Ask locally.",
+   "status": "partly-mapped",
+   "dress_and_conduct": "No FCDO advice page exists for French Southern Territories, and no official etiquette guidance has been checked yet. Ask locally. TAAF: landing anywhere needs the district chief's authorisation, and integral protection zones are off-limits. Foreign visitors need the prefect's approval at least two months ahead.",
    "cultural_authority": "Administration of the French Southern and Antarctic Lands (TAAF)",
    "note": "No official source read; the authority is named so it can be asked.",
-   "sources": []
+   "sources": [
+    {
+     "title": "Accès et mouillage dans les Australes",
+     "authority": "TAAF",
+     "url": "https://taaf.fr/acceder-aux-territoires/demandes-dactivites-et-dacces/acces-et-mouillage-dans-les-australes/",
+     "checked": "2026-11-01",
+     "supports": "landing authorisation (read via a search-index snapshot)"
+    },
+    {
+     "title": "Demandes de visa",
+     "authority": "TAAF",
+     "url": "https://taaf.fr/acceder-aux-territoires/demande-de-visa/",
+     "checked": "2026-11-01",
+     "supports": "visa (read via a search-index snapshot)"
+    }
+   ],
+   "national_search": {
+    "checked": "2026-11-01",
+    "result": "found",
+    "note": "National tourism or government etiquette guidance found and cited."
+   }
   }
  }
 }

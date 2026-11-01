@@ -644,3 +644,7 @@ Upgraded pw (Palau Pledge, sunscreen ban), qa, sa (public decency fines), rw (pl
 ## 2026-11-01 17:33 AEST, Grok: Culture: sg, sh, si, sk, sl, sm, sn, sr, st, sv (10 records)
 
 Upgraded sg (gum import ban, litter fines), sh, si, sk and sv to partly-mapped. sm, sn, sr, sl and st: searched, none found. Read via search-index snapshots.
+
+## 2026-11-01 17:34 AEST, Grok: Culture: sx, sz, tc, tf, tg, tj, tk, tl, tm, tn (10 records)
+
+Upgraded tn, tc (protected-area fines), sz (Incwala), tk (Taupulega permit), tl (Pledge, Jaco day only), tf (landing authorisation) and sx to partly-mapped. tj, tm and tg: searched, none found. Read via search-index snapshots.
