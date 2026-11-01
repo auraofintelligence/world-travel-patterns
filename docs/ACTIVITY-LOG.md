@@ -806,3 +806,7 @@ Volunteering checks from official sources: Mexico visitor status covers unpaid a
 ## 2026-11-01 20:32 AEST, Grok: Volunteering rules for EU states (bg, ee, lt, lu, lv, ro, sk, pl) and Canada source fix (9 records)
 
 Volunteering checks from the European Commission EU Immigration Portal (read directly): Slovakia allows 90 days without residence if reported to the Foreign Police within 3 working days; Latvia ages 18 to 30 only; Bulgaria, Estonia, Lithuania, Poland via European or recognised programmes; Luxembourg and Romania need authorisation before arrival. Slovenia's page has no information (left open). Fix: e802e79 cited a third-party mirror (migova.ca) for Canada's charitable versus volunteer guidance; replaced with the canada.ca original (read directly).
+
+## 2026-11-01 20:33 AEST, Grok: Volunteering rules: is, co, rw, tr, pg, jm, tt, tl, mh, fm (10 records)
+
+Volunteering checks: Micronesia allows unpaid volunteering on any entry permit; Trinidad and Tobago no permit for 30 days in 12 months; Timor-Leste 120-day temporary stay; Marshall Islands V-1 with MOA, 90 days; Iceland, Colombia, Rwanda, PNG and Jamaica need specific permits; Türkiye has no general volunteer exemption (confirm). Read via search-index snapshots.

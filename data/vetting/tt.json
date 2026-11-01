@@ -484,11 +484,20 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "No work permit for 30 days or less in 12 months",
+     "detail": "Work of 30 days or less in any 12 months needs no work permit; longer stints do. Missionaries can use an Overseas Missionaries Permit.",
+     "next": "Keep within 30 days.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Work Permit",
+       "authority": "ttconnect, Government of Trinidad and Tobago",
+       "url": "https://ttconnect.gov.tt/work-permit/",
+       "checked": "2026-11-01",
+       "supports": "work permit not needed for 30 days or less in 12 months (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

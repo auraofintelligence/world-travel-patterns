@@ -404,11 +404,20 @@
      ]
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Democratic Republic of Timor-Leste, Deakin",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Democratic Republic of Timor-Leste, Deakin which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Temporary stay visa (up to 120 days)",
+     "detail": "Short volunteering uses the temporary stay visa, up to 120 days. Long-term volunteering needs a volunteer agreement.",
+     "next": "Carry the host's letter.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Temporary Stay Visa",
+       "authority": "Immigration Service of Timor-Leste",
+       "url": "https://www.migracao.gov.tl/html/sub0307.php",
+       "checked": "2026-11-01",
+       "supports": "short volunteering up to 120 days (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

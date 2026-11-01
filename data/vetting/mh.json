@@ -366,11 +366,20 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Work permit and E-1 employment visa",
-     "detail": "Any work needs a work permit and an E-1 visa; the visitor visa allows neither work nor business.",
-     "next": "Ask the RMI Division of Immigration.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "V-1 visitor visa with a signed memorandum of agreement",
+     "detail": "The V-1 visitor visa covers volunteer services for up to 90 days, with a signed memorandum of agreement.",
+     "next": "Get the MOA signed first.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visit RMI (Visa and Entry)",
+       "authority": "Division of Immigration, Republic of the Marshall Islands",
+       "url": "https://rmiimmigration.org/visit-rmi-visa-entry/",
+       "checked": "2026-11-01",
+       "supports": "V-1 covers volunteer services up to 90 days (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

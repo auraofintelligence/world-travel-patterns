@@ -420,11 +420,20 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Visa category to confirm with ICSA",
-     "detail": "PNG needs a visa before travel for every purpose; the right category for this activity wasn't found on an official page.",
-     "next": "Ask the PNG Immigration and Citizenship Service Authority (ICSA) which visa fits, through the PNG High Commission in Canberra.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Aid Worker Volunteer visa or Special Exemption visa",
+     "detail": "Volunteers use the Aid Worker Volunteer visa (e-Visa portal) or, for community projects, the Special Exemption visa.",
+     "next": "Apply via the e-Visa portal with the host's letter.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Special Exemption Visa",
+       "authority": "Immigration and Citizenship Authority, Papua New Guinea",
+       "url": "https://ica.gov.pg/visa/specialise/special-exemption-visa",
+       "checked": "2026-11-01",
+       "supports": "volunteers on community projects (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

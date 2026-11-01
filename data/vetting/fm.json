@@ -440,11 +440,20 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Entry permit before arrival (to confirm)",
-     "detail": "Non-visitors need an entry permit before arrival; work needs a state work permit first.",
-     "next": "Ask the FSM Division of Immigration in Pohnpei, and the state's labour office for any work.",
-     "checked": "2026-11-01"
+     "status": "low",
+     "route": "Any entry permit",
+     "detail": "The regulations allow unpaid volunteer services under any entry permit.",
+     "next": "Take no pay.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "FSM Immigration Regulations (revised)",
+       "authority": "Embassy of the Federated States of Micronesia",
+       "url": "https://fsmembassy.fm/wp-content/uploads/2022/05/RevFSMImmigrationReg.pdf",
+       "checked": "2026-11-01",
+       "supports": "unpaid volunteer services allowed under any entry permit (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

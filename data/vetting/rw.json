@@ -392,11 +392,20 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the High Commission of the Republic of Rwanda",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the High Commission of the Republic of Rwanda which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "P1 Voluntary Worker permit",
+     "detail": "Unpaid work with an organisation that has an agreement with the Rwandan government or an international organisation, with police clearance, recommendation letter and CV.",
+     "next": "Ask the organisation about its government agreement.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Other permits",
+       "authority": "Directorate General of Immigration and Emigration, Rwanda",
+       "url": "https://www.migration.gov.rw/our-services/permit/other-permits",
+       "checked": "2026-11-01",
+       "supports": "P1 voluntary worker permit (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

@@ -199,10 +199,19 @@
     },
     "volunteering": {
      "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Türkiye, Yarralumla",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Türkiye, Yarralumla which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "route": "No general volunteer exemption",
+     "detail": "Work permit exemptions are limited to listed cases; volunteering alone is not one.",
+     "next": "Ask the host to check the exemption list with the ministry.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Çalışma izni muafiyet türleri",
+       "authority": "Ministry of Labour and Social Security, Türkiye",
+       "url": "https://csgb.gov.tr/uigm/muafiyetler/muafiyet-turleri/",
+       "checked": "2026-11-01",
+       "supports": "exemption types; volunteering not a general exemption (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "status": "conditional",
