@@ -361,3 +361,7 @@ Luke asked me to apply the verdicts myself: approve the confirmed photos, reject
 - **Script change:** `place_photos.py` now carries an approval through a rebuild, but only for the exact file that was judged.
 - **Audit trail:** `data/photo-review-recommendations.json` and `docs/PHOTO-REVIEW-RECOMMENDATIONS.md`.
 - **Batch 1:** 65 confirmed, 3 denied (au/nsw and au/sa are orbit views; au/qld is generic palm fronds), 0 unsure.
+
+## 2026-11-01 16:33 AEST, Grok: photo review, batch 2 of 4 (dj to kz, 73 photos)
+
+Same method and mechanism as batch 1: 63 confirmed and approved, 10 denied and rejected, 0 unsure. Denied: fj gf gn id io jm jo jp ke km . Reasons are in docs/PHOTO-REVIEW-RECOMMENDATIONS.md.
