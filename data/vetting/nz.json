@@ -492,6 +492,15 @@
      "source": "https://population.un.org/wpp/",
      "checked": "2026-11-01",
      "by": "births_wpp"
+    },
+    {
+     "changing": true,
+     "text": "Best Start: up to NZ$77 (about A$61.70) a week over a child's first three years. For children born from 1 April 2026 it's income-tested from the first year, reducing above NZ$79,000 family income; children born earlier get NZ$73 a week in their first year whatever the income. Paid by Inland Revenue through Working for Families. RBA rate on 30 October 2026: A$1 = NZ$1.248.",
+     "source": "https://www.ird.govt.nz/working-for-families/types/best-start",
+     "checked": "2026-11-01",
+     "by": "hand",
+     "area": "support",
+     "kind": "law"
     }
    ],
    "sources": [
@@ -501,6 +510,13 @@
      "url": "https://population.un.org/wpp/",
      "checked": "2026-11-01",
      "supports": "births per woman, births and mothers' average age, 1975 to 2023"
+    },
+    {
+     "title": "Best Start",
+     "authority": "Inland Revenue, New Zealand Government",
+     "url": "https://www.ird.govt.nz/working-for-families/types/best-start",
+     "checked": "2026-11-01",
+     "supports": "Best Start amounts and income test from 1 April 2026"
     }
    ],
    "notes": "UN estimates; the national statistics office may publish newer figures.",
