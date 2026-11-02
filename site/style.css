@@ -105,6 +105,8 @@ pre { font-family: var(--mono); background: var(--surface-2); border: 1px solid 
 .btn:hover { color: #1b1305; filter: brightness(1.08); }
 .btn.ghost { background: rgba(255, 255, 255, 0.12); color: #fff; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35); backdrop-filter: blur(6px); }
 .btn.ghost:hover { color: #fff; background: rgba(255, 255, 255, 0.2); }
+.btn.outline { background: transparent; color: var(--ink, #1f2a2e); box-shadow: inset 0 0 0 2px var(--gold); }
+.btn.outline:hover { background: var(--gold); color: #1b1305; }
 
 .hero.banner { min-height: min(62vh, 600px); }
 .hero.no-photo { background: radial-gradient(120% 90% at 80% 10%, #1d3354 0%, #0f1a2e 55%, #0a1220 100%); }

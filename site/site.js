@@ -195,7 +195,7 @@
         <div class="grid wide">${LOOKUP.map(([t, d]) => `<div class="card"><h3>${t}</h3><p class="meta">${d}</p></div>`).join("")}</div>
         <p class="note" style="margin-top:22px">Rules stack: a visitor on Minjerribah is bound by Australian, Queensland and Redland City law together, and the place page shows each level. A level marked "not yet checked" has unknown rules, not no rules.</p></section>
       <section class="section tight"><h2>Start with</h2><div class="grid">${picks.map((p) => `<a class="card" href="place.html?id=${encodeURIComponent(p.id)}"><h3>${esc(p.name)}</h3><div class="meta">${esc(kindOf(p))}${p.id.includes("/") ? `, ${esc(index.byId[p.id.split("/")[0]]?.name || "")}` : p.region ? `, ${esc(p.region)}` : ""}</div></a>`).join("")}</div>
-        <p style="margin-top:16px"><a class="btn ghost" href="places.html">Every place, by region</a></p></section>
+        <p style="margin-top:16px"><a class="btn outline" href="places.html">Every place, by region</a></p></section>
       <section class="section band"><div class="two">
         <div><h2>Travel advice today</h2><p class="meta">Smartraveller's advice levels, checked daily${adv.checked_on ? `, last on ${fmt(adv.checked_on)}` : ""}.</p>
           ${Object.entries(levels).sort((a, b) => b[1] - a[1]).map(([l, n]) => `<p><span class="adv ${levelClass(l)}">${esc(l)}</span> ${num(n)} destination${n === 1 ? "" : "s"}</p>`).join("")}
