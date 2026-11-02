@@ -1092,3 +1092,7 @@ Confirm-in-writing: 316 of 3,705, all outside DNT and Australia: remote-work 63,
 ## 2026-11-02 12:19 AEST, Grok: Docs: handoff and STATUS after the Do-not-travel pass; DNT set corrected to 21 places (0 records)
 
 STATUS activities paragraph rewritten with current counts; handoff records the DNT pass and the gw/cq correction.
+
+## 2026-11-02 12:20 AEST, Grok: Guinea-Bissau: meetings, conference and trade from France's travel advice (3 checks) (1 records)
+
+gw meetings, conference and trade set to conditional, citing France Diplomatie business-travel advice (no tourist and business distinction; 1 to 12-month multiple-entry visas). The other 11 gw checks stay confirm-in-writing: no official source on work permits was found.
