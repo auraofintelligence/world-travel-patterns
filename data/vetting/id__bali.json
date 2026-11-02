@@ -37,9 +37,19 @@
      "source": "https://disparda.baliprov.go.id/apa-yang-boleh-dan-tidak-boleh-dilakukan-wisman-di-bali/2023/06/",
      "checked": "2026-11-01",
      "heading": "Do and don't summary (read via a search-index snapshot)"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Governor's Circular 7/2025 (March 2025) updates Circular 4/2023. It adds that foreign tourists must follow Indonesian traffic rules, carry a valid international or national driving licence, wear a helmet on a motorbike, not overload vehicles, use officially registered four-wheel transport and not drive under the influence of alcohol or drugs. It also asks tourists to pay the levy and to be accompanied by a licensed guide at attractions. Residents can report tourists' breaches to a provincial hotline.",
+     "penalty_signal": "Sanctions or legal process under Indonesian law",
+     "level": "region",
+     "source": "https://bali.antaranews.com/berita/373757/bali-luncurkan-edaran-tatanan-baru-bagi-turis-asing",
+     "checked": "2026-11-03",
+     "evidence": "signal",
+     "heading": "Governor's Circular 7/2025 (reported by Antara)"
     }
    ],
-   "note": "Provincial rules for foreign tourists, in force since 2023 until further notice; breaches can bring sanctions or legal process under Indonesian law. Read with Indonesia's national laws (and the IDR 150,000 tourist levy, recorded under visa preparation).",
+   "note": "Provincial rules for foreign tourists, in force since 2023 until further notice; breaches can bring sanctions or legal process under Indonesian law. Read with Indonesia's national laws (and the IDR 150,000 tourist levy, recorded under visa preparation). Circular 7/2025 (24 March 2025, reported by Antara and not yet read on a government page) updates Circular 4/2023. The levy is also recorded under Bali's special permit zones.",
    "sources": [
     {
      "title": "Surat Edaran Gubernur Bali No. 4 Tahun 2023 (new order for foreign tourists in Bali)",
@@ -54,6 +64,13 @@
      "url": "https://disparda.baliprov.go.id/apa-yang-boleh-dan-tidak-boleh-dilakukan-wisman-di-bali/2023/06/",
      "checked": "2026-11-01",
      "supports": "full list of dos and don'ts (snapshot)"
+    },
+    {
+     "title": "Bali luncurkan edaran tatanan baru bagi turis asing (24 March 2025)",
+     "authority": "Signal: Antara (Bali bureau)",
+     "url": "https://bali.antaranews.com/berita/373757/bali-luncurkan-edaran-tatanan-baru-bagi-turis-asing",
+     "checked": "2026-11-03",
+     "supports": "Circular 7/2025 obligations, prohibitions and sanctions"
     }
    ]
   },
@@ -80,6 +97,48 @@
     }
    ],
    "checked": "2026-11-02"
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Bali Provincial Government (Love Bali system)",
+     "process": "Every foreign tourist (anyone from outside Indonesia who isn't an Indonesian citizen and is touring in Bali) pays a levy of IDR 150,000 per person, about A$11.74 at the RBA rate of 30 October 2026 (A$1 = IDR 12,780). The money funds protection of Bali's culture and natural environment, and it's separate from the visa or e-VOA. Payment is cashless: online through Love Bali before arrival, or at the counters on arrival at the airport or seaport, during the stay, or on departure; counter staff use your passport to fill in the details. The voucher is emailed, and the system checks for duplicate payments. The Love Bali site also takes exemption applications.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://lovebali.baliprov.go.id/",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Love Bali: tourist levy",
+     "authority": "Bali Provincial Government",
+     "url": "https://lovebali.baliprov.go.id/",
+     "checked": "2026-11-03",
+     "supports": "IDR 150,000 amount, payment channels, voucher by email, duplicate check, exemption application, legal basis (read directly)"
+    },
+    {
+     "title": "Peraturan Gubernur Bali Nomor 25 Tahun 2025 (payment procedure for the foreign tourist levy)",
+     "authority": "Governor of Bali",
+     "url": "https://lovebali.baliprov.go.id/gubernur/v5/9.pdf",
+     "checked": "2026-11-03",
+     "supports": "who counts as a foreign tourist, cashless payment, paying on arrival, during the stay or on departure, passport-based counter payment (read directly)"
+    },
+    {
+     "title": "Indonesia travel advice (updated 21 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+     "checked": "2026-11-03",
+     "supports": "IDR 150,000 per person, separate from the e-VOA, cashless online or at airport and seaport counters (read directly)"
+    }
+   ],
+   "note": "Legal basis: Bali Provincial Regulation 6 of 2023 on the levy for foreign tourists, amended by Regulation 2 of 2025, with the payment procedure in Governor Regulation 25 of 2025. Collection began on 14 February 2024."
   }
  }
 }

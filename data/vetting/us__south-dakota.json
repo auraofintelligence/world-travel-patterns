@@ -46,6 +46,83 @@
     "2027-10-11: Indigenous Peoples' Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "No one may drive while using a mobile electronic device (SDCL 32-26-47.1), and police can stop a driver for it alone. Allowed: emergency calls, GPS navigation (but not typing into it while driving), selecting a name or number to make or take a call and talking on that call, switching a feature on or off, and voice or hands-free use. Breaking the rule is a Class 2 misdemeanour.",
+     "level": "state",
+     "source": "https://sdlegislature.gov/api/Statutes/32-26-47.1.html",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "To stop aquatic invasive species (pest mussels and plants carried on boats), all trailered boats must have drain plugs, bailers and valves opened or removed except at a boat ramp parking area or while launching or loading, and fish and bait may not be carried in water taken from a lake, river or stream. Anyone taking a boat out of the water must clean and drain it (SDCL 41-13A-4), and vehicles carrying boats must stop at any open inspection station. Breaking the cleaning and draining rule is a Class 2 misdemeanour.",
+     "level": "state",
+     "source": "https://gfp.sd.gov/userdocs/docs/ais_programupdate.pdf",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "SDCL 32-26-47.1 Use of mobile electronic device, prohibitions, exceptions",
+     "authority": "South Dakota Legislature",
+     "url": "https://sdlegislature.gov/api/Statutes/32-26-47.1.html",
+     "checked": "2026-11-03",
+     "supports": "ban, exceptions, Class 2 misdemeanour"
+    },
+    {
+     "title": "News: new no texting law begins July 1 (2020)",
+     "authority": "State of South Dakota",
+     "url": "https://news.sd.gov/news?id=news_kb_article_view&spa=1&sys_kb_id=a145610c1bdc69506e4aa97ae54bcbb6&sysparm_article=KB0036542",
+     "checked": "2026-11-03",
+     "supports": "primary offence (read via a search-index snapshot)"
+    },
+    {
+     "title": "Aquatic Invasive Species Management Efforts 2025 Overview",
+     "authority": "South Dakota Game, Fish and Parks",
+     "url": "https://gfp.sd.gov/userdocs/docs/ais_programupdate.pdf",
+     "checked": "2026-11-03",
+     "supports": "plug rule, no fish or bait in lake water, inspection stops, SDCL 41-13A-4 (read via a search-index snapshot)"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "South Dakota allows medical cannabis only, and buying or selling cannabis outside the state's licensed medical cannabis establishments is illegal (SDCL 34-20G). A visitor with a valid medical cannabis card from another US state, territory or recognised country can be a nonresident cardholder, but only after registering with the South Dakota Department of Health and receiving confirmation; the card alone is not enough. Registration needs a practitioner's statement and proof the person may possess cannabis at home, and a nonresident may name no more than two dispensaries.",
+     "source": "https://sdlegislature.gov/Statutes/34-20G",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "A registered nonresident cardholder is protected for buying, carrying and using up to 3 ounces (about 85 g) of cannabis, and a dispensary may sell a patient no more than 3 ounces in any 14 days.",
+     "source": "https://sdlegislature.gov/Statutes/34-20G",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Codified Law 34-20G Medical cannabis",
+     "authority": "South Dakota Legislature",
+     "url": "https://sdlegislature.gov/Statutes/34-20G",
+     "checked": "2026-11-03",
+     "supports": "nonresident cardholder definition and registration, two dispensaries, 3 oz limits, sales only in licensed establishments (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules. Tribal nations within South Dakota set their own rules on their land."
   }
  }
 }

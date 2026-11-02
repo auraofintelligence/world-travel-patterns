@@ -40,6 +40,34 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "entry-permit",
+     "authority": "Immigration Department of Malaysia",
+     "process": "You need your passport to travel between Peninsular Malaysia and Sarawak, even though the trip stays inside Malaysia. East Malaysia (Sabah and Sarawak) has its own entry checks.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.smartraveller.gov.au/destinations/asia/malaysia",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Malaysia travel advice (updated 2 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/malaysia",
+     "checked": "2026-11-03",
+     "supports": "passport needed between Peninsular and East Malaysia (read directly)"
+    }
+   ],
+   "note": "Sabah and Sarawak keep their own immigration powers under Part VII of Malaysia's Immigration Act 1959/63 (the Act wasn't read on an official page)."
   }
  }
 }

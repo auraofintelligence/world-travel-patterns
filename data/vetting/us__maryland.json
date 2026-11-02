@@ -21,6 +21,84 @@
     "2027-10-11: Columbus Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Cannabis is legal for adults 21 and over. The personal use amount is up to 1.5 ounces (about 42 g) of cannabis, 12 g of concentrate, or products holding up to 750 mg of THC (Criminal Law 5-101). Holding more, up to 2.5 ounces, 20 g of concentrate or 1,250 mg of THC, is a civil offence with a fine of up to US$250 (about A$355 at A$1 = US$0.7040, RBA 30 Oct 2026); more than that is a crime. Smoking cannabis in a public place is a civil offence with a fine of up to US$50 for a first finding and US$150 for later ones (about A$71 and A$213) (Criminal Law 5-601).",
+     "source": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcr&section=5-601&enactments=false",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Criminal Law 5-101 Definitions (personal use amount, civil use amount)",
+     "authority": "Maryland General Assembly",
+     "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcr&section=5-101&enactments=false",
+     "checked": "2026-11-03",
+     "supports": "1.5 oz, 12 g, 750 mg; civil use amount ranges"
+    },
+    {
+     "title": "Criminal Law 5-601 Possessing or administering controlled dangerous substance",
+     "authority": "Maryland General Assembly",
+     "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcr&section=5-601&enactments=false",
+     "checked": "2026-11-03",
+     "supports": "fines for civil use amount and public smoking"
+    },
+    {
+     "title": "BeCannabisSmart",
+     "authority": "Maryland Cannabis Administration",
+     "url": "https://cannabis.maryland.gov/Pages/BeCannabisSmart.aspx",
+     "checked": "2026-11-03",
+     "supports": "legal for adults 21 and over"
+    }
+   ],
+   "notes": "State law. Read with the national rules (in the US, cannabis stays illegal federally: no federal land, no crossing state lines)."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "A driver in Maryland may not use their hands to use a hand-held phone while the vehicle is moving, other than to start or end a call or turn the phone on or off (Transportation 21-1124.2). Emergency calls to 911, hospitals, ambulance, fire or police are allowed. Texting while driving is banned under a separate section (21-1124.1).",
+     "penalty_signal": "Up to US$75 for a first offence, US$125 for a second and US$175 for a third or later (about A$107, A$178 and A$249 at A$1 = US$0.7040, RBA 30 Oct 2026); points only if it contributes to a crash",
+     "level": "state",
+     "source": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1124.2&enactments=false",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Maryland law bans wearing, carrying or transporting a handgun, openly or concealed, unless the person holds a Maryland permit (Criminal Law 4-203). Narrow exceptions cover carrying an unloaded handgun in an enclosed case to or from places such as a place of legal purchase or sale or a repair shop.",
+     "penalty_signal": "First offence: 30 days to 5 years in prison, a fine of US$250 to US$2,500 (about A$355 to A$3,551), or both",
+     "level": "state",
+     "source": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcr&section=4-203&enactments=false",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Transportation 21-1124.2 Use of handheld telephone while driving",
+     "authority": "Maryland General Assembly",
+     "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1124.2&enactments=false",
+     "checked": "2026-11-03",
+     "supports": "hand-held ban, exceptions, fines"
+    },
+    {
+     "title": "Criminal Law 4-203 Wearing, carrying or transporting handgun",
+     "authority": "Maryland General Assembly",
+     "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcr&section=4-203&enactments=false",
+     "checked": "2026-11-03",
+     "supports": "permit needed, transport exception, penalty"
+    }
+   ]
   }
  }
 }

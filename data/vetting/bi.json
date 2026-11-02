@@ -737,19 +737,90 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance.",
-   "cost_aud_baseline": {
-    "value": "~ $130",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-BURUNDI-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "A visa is needed. Register online on the incoming/outgoing passenger form before travel; the certificate it gives is needed to get the visa on arrival. A single-entry visa (1 month) can be obtained online, at Melchior Ndadaye International Airport or at embassies. Yellow fever certificate required.",
+   "fastest_entry": "Register the passenger form online, then get the single-entry visa online or on arrival at Bujumbura's airport.",
+   "before_departure": "Complete the online passenger registration (entry and transit) and keep the certificate; carry a yellow fever certificate. Burundi has no mission in Australia; the nearest embassy is in Tokyo.",
+   "useful_stay": "Single-entry visa: 1 month. Multiple-entry visa: up to 90 days, valid 1 month and renewable up to twice. Visas can be renewed in Burundi.",
+   "steps": [
+    {
+     "step": "Register on the incoming/outgoing passenger form before travelling (also required for transit) and keep the certificate.",
+     "url": "https://migration.gov.bi/Apply/step1/8"
+    },
+    {
+     "step": "Apply for the visa online, or obtain it on arrival at Melchior Ndadaye International Airport with the certificate.",
+     "url": "https://migration.gov.bi/Apply/step1/8"
+    },
+    {
+     "step": "Carry a yellow fever vaccination certificate and expect temperature checks on arrival (Ebola screening).",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/burundi"
+    },
+    {
+     "step": "To stay longer, renew the visa with the Commissariat Général des Migrations in Burundi.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/burundi"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Passenger registration certificate",
+    "Visa, or the visa-on-arrival fee",
+    "Passport photo (uploaded with the form)",
+    "Yellow fever vaccination certificate"
+   ],
+   "fees": [
+    {
+     "item": "single-entry visa, 1 month",
+     "amount": 90,
+     "currency": "USD",
+     "url": "https://migration.gov.bi/Apply/step1/8",
+     "checked": "2026-11-03",
+     "aud": 127.84,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704"
+    },
+    {
+     "item": "multiple-entry visa (up to 90 days)",
+     "amount": 90,
+     "currency": "USD",
+     "url": "https://migration.gov.bi/Apply/step1/8",
+     "checked": "2026-11-03",
+     "aud": 127.84,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704"
+    },
+    {
+     "item": "transit visa, 3 days",
+     "amount": 40,
+     "currency": "USD",
+     "url": "https://migration.gov.bi/Apply/step1/8",
+     "checked": "2026-11-03",
+     "aud": 56.82,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704"
+    }
+   ],
+   "open_questions": [
+    "The land border with Rwanda has been closed since 2024; which land crossings are open?"
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/burundi",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Commissariat Général des Migrations: visa and passenger forms",
+     "authority": "Commissariat Général des Migrations, Police Nationale du Burundi",
+     "url": "https://migration.gov.bi/Apply/step1/8",
+     "supports": "visa types, validity, where obtained and USD tariffs; passenger registration form",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -760,7 +831,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: visa needed (nearest embassy Tokyo) and online registration; fee not stated."
+   "cost_aud_baseline": {
+    "value": "~ $130",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-BURUNDI-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance."
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (page current at 3 Nov 2026) confirms visa needed, online passenger registration and the certificate needed for the visa on arrival; the Burundi migration portal (migration.gov.bi) gives visa types and USD tariffs (or the equivalent in euros)."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

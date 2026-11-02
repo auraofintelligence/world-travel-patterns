@@ -25,6 +25,47 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "entry-permit",
+     "authority": "Immigration Department of Malaysia",
+     "process": "You need your passport to travel between Peninsular Malaysia and Sabah, even though the trip stays inside Malaysia. East Malaysia (Sabah and Sarawak) has its own entry checks.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.smartraveller.gov.au/destinations/asia/malaysia",
+     "checked": "2026-11-03"
+    },
+    {
+     "type": "transport-control",
+     "authority": "Malaysian security authorities and police in the Eastern Sabah Security Zone (ESSZone); the Sabah Government restricts use of the waterways",
+     "process": "A 6 pm to 6 am curfew on water travel applies in 6 coastal districts of eastern Sabah, including waters up to 3 nautical miles (5.5 km) offshore. In daylight, vessels in the waters off Lahad Datu and Sandakan need a permit or permission from police, and all vessels must keep to designated routes. Resort-run water activities at night, including diving and fishing, are banned. Authorities may extend the curfew each fortnight; travelling by water in curfew hours without permission can bring a fine or up to 6 months' jail. The ESSZone covers Beluran, Kinabatangan, Kota Marudu, Kudat, Kunak, Lahad Datu, Pitas, Sandakan, Semporna and Tawau.",
+     "lead_time_days": 0,
+     "activities": [
+      "boat travel",
+      "diving",
+      "fishing"
+     ],
+     "url": "https://www.smartraveller.gov.au/destinations/asia/malaysia",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Malaysia travel advice (updated 2 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/malaysia",
+     "checked": "2026-11-03",
+     "supports": "passport needed between Peninsular and East Malaysia; eastern Sabah water curfew, permits off Lahad Datu and Sandakan, designated routes, night water activity ban, ESSZone districts, penalty (read directly)"
+    }
+   ],
+   "note": "Sabah and Sarawak keep their own immigration powers under Part VII of Malaysia's Immigration Act 1959/63 (the Act wasn't read on an official page)."
   }
  }
 }

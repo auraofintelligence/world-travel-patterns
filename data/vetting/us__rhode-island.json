@@ -21,6 +21,77 @@
     "2027-10-11: Columbus Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drivers may not hold a phone or other wireless device while driving, including while stopped at red lights or stop signs. Hands-free use through an in-car system or an accessory such as Bluetooth is allowed; headphones covering both ears are not. Drivers under 18 may not use any mobile device while driving, even hands-free. The 2018 hands-free law was upgraded in 2025 (R.I. Gen. Laws 31-22-30), which also covers texting.",
+     "penalty_signal": "Up to US$100 (about A$142 at RBA 30 Oct 2026, A$1 = USD 0.7040); under the 2025 text a first conviction can also bring a licence suspension of up to 30 days.",
+     "level": "state",
+     "source": "https://www.dot.ri.gov/safety/distracted_safety.php",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Distracted Driving",
+     "authority": "Rhode Island Department of Transportation",
+     "url": "https://www.dot.ri.gov/safety/distracted_safety.php",
+     "checked": "2026-11-03",
+     "supports": "hand-held ban, stopped at lights, headphones, under-18 rule, 2025 upgrade, US$100"
+    },
+    {
+     "title": "R.I. Gen. Laws 31-22-30 as amended in 2025 (public law text law25401)",
+     "authority": "Rhode Island General Assembly",
+     "url": "https://webserver.rilegislature.gov/PublicLaws/law25/law25401.htm",
+     "checked": "2026-11-03",
+     "supports": "2025 text: any use while driving, US$100 or up to 30 days suspension for a first conviction (read via a search-index snapshot; the Assembly site refused the connection)"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Under the Rhode Island Cannabis Act (2022), adults 21 and over may carry up to 1 ounce (about 28 g) of cannabis flower or the equivalent in concentrate, and keep up to 10 ounces at their primary home (R.I. Gen. Laws 21-28.11-22). Nothing in the Act allows smoking or vaping cannabis in any public place, or anywhere tobacco smoking is banned (21-28.11-29). Cities and towns can add their own bans, for example on parks and beaches, with civil penalties.",
+     "source": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.htm",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Rhode Island's medical cannabis compassion centres may sell to patients from other states who show a valid medical cannabis card from their home program and government ID in the same name. The ID must show residency in the state that issued the card (R.I. Gen. Laws 21-28.6-12).",
+     "source": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.6/21-28.6-12.HTM",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "R.I. Gen. Laws 21-28.11-22 and 21-28.11-29",
+     "authority": "Rhode Island General Assembly",
+     "url": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.htm",
+     "checked": "2026-11-03",
+     "supports": "age 21, 1 oz carried, 10 oz at home, no public smoking or vaping (read via a search-index snapshot; the Assembly site refused the connection)"
+    },
+    {
+     "title": "R.I. Gen. Laws 21-28.6-12 Compassion centers",
+     "authority": "Rhode Island General Assembly",
+     "url": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.6/21-28.6-12.HTM",
+     "checked": "2026-11-03",
+     "supports": "out-of-state card and same-state residency ID (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules."
   }
  }
 }

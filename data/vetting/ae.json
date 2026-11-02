@@ -926,31 +926,47 @@
    "climate": "Wettest: February, March and December. Driest: June, July and September. Hottest: July (36.2°C average). Coolest: January (18.5°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Free 30-day visa on arrival for an Australian ordinary passport",
-   "before_departure": "Carry a passport valid for at least six months, onward and accommodation evidence, and a written invitation that separates attendance, meetings, delivery, sales and media activity. Have the host choose any work, event, education or media route before travel.",
-   "useful_stay": "The visitor visa is 30 days. A Mission Work Permit is issued for three months and can be renewed once for a similar period; longer remote or founder plans belong under a residence route.",
-   "host_unlock": "A licensed UAE establishment applies for the Mission Work Permit and supplies the official job offer. A regulated profession, including formal teaching, can need the relevant professional licence as well.",
-   "documents": [
-    "Australian passport valid at least six months",
-    "Onward travel and accommodation",
-    "Invitation with emirate, venue, duties and dates",
-    "Fee, expenses and tax terms",
-    "Host trade licence and work-route confirmation",
-    "Media, publication or education approval where relevant"
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "No visa needed before travel: Australian ordinary passport holders get a tourist visa on arrival. Diplomatic and official passport holders need a visa first, and emergency passports aren't accepted.",
+   "fastest_entry": "Tourist visa on arrival at the UAE border, for an Australian ordinary passport.",
+   "before_departure": "Check the passport is valid for at least 6 months from the date of entry, has a numerical date of birth (no 'XX') and names in both the first and last name fields. Nothing to lodge online before arrival.",
+   "useful_stay": "Not stated on the pages read on 2026-11-03; the stamp given on arrival sets the stay.",
    "steps": [
-    "Use the free 30-day visitor entry only for tourism, scouting, meetings and clearly passive attendance.",
-    "List every talk, workshop, signing, performance, sale, demonstration and remote-work day before booking.",
-    "Have a licensed UAE host choose the Mission Work Permit or relevant residence route and identify emirate-specific approvals.",
-    "Obtain the official job offer, professional licence and event, education or media approval before active delivery.",
-    "Use a local publisher, bookseller, importer, distributor or promoter for stock, receipts and local permissions where practical.",
-    "Have the payer document corporate-tax, invoice and benefit treatment, including travel and accommodation.",
-    "Carry permits and host contacts and keep the delivered program within the approved activity and emirate."
+    {
+     "step": "Travel on an ordinary Australian passport; the tourist visa is given on arrival.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/united-arab-emirates"
+    },
+    {
+     "step": "Make sure the passport is valid for at least 6 months from the date of entry.",
+     "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae"
+    },
+    {
+     "step": "Passports with 'XX' in the date of birth, or with only one name, are refused entry or transit.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/united-arab-emirates"
+    },
+    {
+     "step": "Unresolved charges or unpaid debts in the UAE can lead to detention on arrival, even in transit; check legal status online or with a UAE mission first.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/united-arab-emirates"
+    },
+    {
+     "step": "Diplomatic and official passport holders need a visa before travelling; emergency passports aren't accepted.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/united-arab-emirates"
+    }
+   ],
+   "documents": [
+    "Ordinary Australian passport valid at least 6 months from entry, numerical date of birth, first and last names"
+   ],
+   "fees": [
+    {
+     "item": "entry visa for Australian ordinary passports (MOFA lists 'Visa Free')",
+     "amount": 0,
+     "currency": "AED",
+     "url": "https://www.mofa.gov.ae/en/visa-exemptions-for-non-citizen",
+     "checked": "2026-11-03"
+    }
    ],
    "open_questions": [
     "Is the 30-day visitor entry being mistaken for work permission?",
@@ -959,7 +975,8 @@
     "Are imported books, merchandise, exhibition stock or professional equipment cleared for circulation or temporary admission?",
     "Does online promotional content require a UAE Media Council advertiser permit or an approved agency?",
     "Will the natural-person corporate-tax threshold or a licensed UAE business apply to repeated UAE-source activity?",
-    "Is a Green or Golden Residence criterion being confused with the separate licences needed to operate the activity?"
+    "Is a Green or Golden Residence criterion being confused with the separate licences needed to operate the activity?",
+    "How many days does the visa on arrival give an Australian passport holder today (30 was the earlier reading)? The u.ae page sends readers to VisitDubai for the country list, and the UAE mission pages in Australia didn't load."
    ],
    "sources": [
     {
@@ -973,8 +990,8 @@
      "title": "Visa exemptions for non-citizens",
      "authority": "United Arab Emirates Ministry of Foreign Affairs",
      "url": "https://www.mofa.gov.ae/en/visa-exemptions-for-non-citizen",
-     "checked": "2026-08-21",
-     "supports": "Australian ordinary-passport entry status"
+     "checked": "2026-11-03",
+     "supports": "Australia listed as Visa Free"
     },
     {
      "title": "Mission Work Permit",
@@ -1045,6 +1062,20 @@
      "url": "https://sibf.com/ar/visit",
      "checked": "2026-08-21",
      "supports": "current publishing and literary event signal; no speaking access inferred"
+    },
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/united-arab-emirates",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Check if you need a visa to enter the UAE",
+     "authority": "The Official Portal of the UAE Government (u.ae)",
+     "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae",
+     "supports": "6-month passport validity from entry; visa-on-arrival lists can change",
+     "checked": "2026-11-03"
     }
    ],
    "provenance": {
@@ -1088,7 +1119,31 @@
     "checked": "2025-08-16",
     "claim_id": "WORLD-UNITED-ARAB-EMIRATES-COST"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller confirms a tourist visa on arrival, but the length of stay (30 vs 90 days) and any fee need an official UAE source (ICP or GDRFA pages blocked fetches from here)."
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "host_unlock": "A licensed UAE establishment applies for the Mission Work Permit and supplies the official job offer. A regulated profession, including formal teaching, can need the relevant professional licence as well.",
+    "fastest_entry": "Free 30-day visa on arrival for an Australian ordinary passport",
+    "before_departure": "Carry a passport valid for at least six months, onward and accommodation evidence, and a written invitation that separates attendance, meetings, delivery, sales and media activity. Have the host choose any work, event, education or media route before travel.",
+    "useful_stay": "The visitor visa is 30 days. A Mission Work Permit is issued for three months and can be renewed once for a similar period; longer remote or founder plans belong under a residence route.",
+    "documents": [
+     "Australian passport valid at least six months",
+     "Onward travel and accommodation",
+     "Invitation with emirate, venue, duties and dates",
+     "Fee, expenses and tax terms",
+     "Host trade licence and work-route confirmation",
+     "Media, publication or education approval where relevant"
+    ],
+    "steps": [
+     "Use the free 30-day visitor entry only for tourism, scouting, meetings and clearly passive attendance.",
+     "List every talk, workshop, signing, performance, sale, demonstration and remote-work day before booking.",
+     "Have a licensed UAE host choose the Mission Work Permit or relevant residence route and identify emirate-specific approvals.",
+     "Obtain the official job offer, professional licence and event, education or media approval before active delivery.",
+     "Use a local publisher, bookseller, importer, distributor or promoter for stock, receipts and local permissions where practical.",
+     "Have the payer document corporate-tax, invoice and benefit treatment, including travel and accommodation.",
+     "Carry permits and host contacts and keep the delivered program within the approved activity and emirate."
+    ]
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (updated 2026 page, read today) confirms a tourist visa on arrival for Australian passport holders and the passport rules; the MOFA visa-exemptions page lists Australia as Visa Free; u.ae confirms 6 months passport validity. Stay length isn't on any page read today. The atlas route notes (Mission Work Permit, residences, media permits) sit in baseline_unverified."
   },
   "culture-and-protocol": {
    "status": "community-published",

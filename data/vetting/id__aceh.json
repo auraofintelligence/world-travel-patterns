@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-03",
    "evidence": "official",
    "laws": [
     {
@@ -12,7 +12,7 @@
      "penalty_signal": "Caning, fines, imprisonment",
      "level": "region",
      "source": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
-     "checked": "2026-10-31"
+     "checked": "2026-11-03"
     },
     {
      "topic": "alcohol",
@@ -20,7 +20,7 @@
      "penalty_signal": "Caning, fines, imprisonment",
      "level": "region",
      "source": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
-     "checked": "2026-10-31"
+     "checked": "2026-11-03"
     },
     {
      "topic": "relationships-and-cohabitation",
@@ -28,14 +28,41 @@
      "penalty_signal": "Corporal punishment, caning, imprisonment",
      "level": "region",
      "source": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
-     "checked": "2026-10-31"
+     "checked": "2026-11-03"
     },
     {
      "topic": "dress-and-public-behaviour",
      "rule": "A conservative standard of dress is required.",
      "level": "region",
      "source": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
-     "checked": "2026-10-31"
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Aceh's Islamic criminal code (Qanun Aceh 6 of 2014 on Hukum Jinayat, in force since October 2015) applies to every Muslim in Aceh. It also applies to a non-Muslim who commits an offence in Aceh together with a Muslim and chooses to submit to it, and to a non-Muslim whose act is an offence under the qanun but isn't covered by Indonesia's Criminal Code or other national criminal law (Article 5). Businesses operating in Aceh are covered too.",
+     "penalty_signal": "Caning, fines set in grams of pure gold, imprisonment",
+     "level": "region",
+     "source": "https://ppid.acehprov.go.id//assets/uploads/3lE1/informasi-publik/AXd9/QANUN%20ACEH%20NOMOR%206%20TAHUN%202014%20%E2%80%93%20TENTANG%20HUKUM%20JINAYAT.pdf",
+     "checked": "2026-11-03",
+     "heading": "Qanun Aceh 6 of 2014 on Hukum Jinayat, Article 5"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Khamar means any intoxicating drink, or any drink with 2% alcohol or more. Drinking it: 40 lashes; a repeat offence adds up to 40 more lashes, a fine of up to 400 g of pure gold or up to 40 months' prison. Producing, storing, selling or bringing it in: up to 60 lashes, 600 g of gold or 60 months. Buying, carrying or giving it: up to 20 lashes, 200 g of gold or 20 months.",
+     "penalty_signal": "Up to 60 lashes, 600 g of gold or 60 months' prison",
+     "level": "region",
+     "source": "https://ppid.acehprov.go.id//assets/uploads/3lE1/informasi-publik/AXd9/QANUN%20ACEH%20NOMOR%206%20TAHUN%202014%20%E2%80%93%20TENTANG%20HUKUM%20JINAYAT.pdf",
+     "checked": "2026-11-03",
+     "heading": "Qanun Aceh 6 of 2014 on Hukum Jinayat, Articles 1, 15 and 16"
+    },
+    {
+     "topic": "relationships-and-cohabitation",
+     "rule": "Khalwat (an unmarried man and woman who aren't close relatives being together, by consent, in a closed or hidden place in a way that leads towards sex) carries up to 10 lashes, 100 g of gold or 10 months; some cases go to customary (adat) courts instead. Ikhtilath (intimate contact such as kissing, hugging or touching between a man and woman who aren't married, in private or in public) carries up to 30 lashes, 300 g of gold or 30 months. Arranging, hosting or promoting either carries higher penalties.",
+     "penalty_signal": "Up to 30 lashes, 300 g of gold or 30 months' prison",
+     "level": "region",
+     "source": "https://ppid.acehprov.go.id//assets/uploads/3lE1/informasi-publik/AXd9/QANUN%20ACEH%20NOMOR%206%20TAHUN%202014%20%E2%80%93%20TENTANG%20HUKUM%20JINAYAT.pdf",
+     "checked": "2026-11-03",
+     "heading": "Qanun Aceh 6 of 2014 on Hukum Jinayat, Articles 1, 23 to 25"
     }
    ],
    "sources": [
@@ -43,11 +70,18 @@
      "title": "Indonesia travel advice (updated 21 October 2026)",
      "authority": "Smartraveller, Australian Government",
      "url": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
-     "checked": "2026-10-31",
+     "checked": "2026-11-03",
      "supports": "Aceh section"
+    },
+    {
+     "title": "Qanun Aceh Nomor 6 Tahun 2014 tentang Hukum Jinayat",
+     "authority": "Government of Aceh (provincial information office copy)",
+     "url": "https://ppid.acehprov.go.id//assets/uploads/3lE1/informasi-publik/AXd9/QANUN%20ACEH%20NOMOR%206%20TAHUN%202014%20%E2%80%93%20TENTANG%20HUKUM%20JINAYAT.pdf",
+     "checked": "2026-11-03",
+     "supports": "Articles 1, 5, 15, 16, 23 to 25 and commencement one year after 23 October 2014 (read directly)"
     }
    ],
-   "note": "Read from the Australian Government's summary. Aceh's own qanun (regional regulations) are still to be cited."
+   "note": "Read from the Australian Government's summary and from Qanun Aceh 6 of 2014 (provincial government copy). Other qanun, such as those on dress, are still to be cited."
   }
  }
 }

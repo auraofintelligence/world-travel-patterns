@@ -47,6 +47,45 @@
     }
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Louisiana bans using any wireless device while driving on public roads unless the vehicle is lawfully stationary (R.S. 32:59, as cited by the Highway Safety Commission). Exceptions include reporting a crash, emergency or serious hazard, hands-free GPS navigation and calling 911 to report a crime. In school zones and highway construction zones police can stop a driver for this alone; elsewhere it is enforced only alongside another violation. Officers issued only written warnings before 1 January 2026.",
+     "penalty_signal": "US$250 in school or construction zones (a judge may reduce it to US$100 with community service) and US$100 elsewhere (reducible to US$50); doubled if there is a crash (about A$355, A$142 and A$71 at A$1 = US$0.7040, RBA 30 Oct 2026)",
+     "level": "state",
+     "source": "https://www.lahighwaysafety.org/resources/traffic-safety-laws/",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "It is illegal to drive or ride in a moving vehicle with an open container of alcohol, and the rule covers every occupant (R.S. 32:300).",
+     "level": "state",
+     "source": "https://www.lahighwaysafety.org/resources/traffic-safety-laws/",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drivers may not wear headphones or earbuds covering both ears (R.S. 32:295.2). Headlights must be on from sunset to sunrise, in poor visibility and whenever the wipers are needed for rain or moisture (R.S. 32:301, 32:322).",
+     "penalty_signal": "Headphones: US$25 (about A$36) plus court costs",
+     "level": "state",
+     "source": "https://www.lahighwaysafety.org/resources/traffic-safety-laws/",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Traffic safety laws",
+     "authority": "Louisiana Highway Safety Commission",
+     "url": "https://www.lahighwaysafety.org/resources/traffic-safety-laws/",
+     "checked": "2026-11-03",
+     "supports": "wireless device rule and fines, open containers, headphones, headlights"
+    }
+   ]
   }
  }
 }

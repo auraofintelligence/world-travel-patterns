@@ -2,9 +2,9 @@
  "place": "in/arunachal-pradesh",
  "patterns": {
   "zone-requirements": {
-   "status": "partly-vetted",
-   "checked": "2026-10-31",
-   "evidence": "signal",
+   "status": "requirements-found",
+   "checked": "2026-11-03",
+   "evidence": "official",
    "layers": [
     {
      "type": "protected-area-permit",
@@ -15,7 +15,19 @@
       "all"
      ],
      "url": "https://www.immihelp.com/protected-restricted-area-permit-india/",
-     "checked": "2026-10-31"
+     "checked": "2026-10-31",
+     "evidence": "signal"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "Ministry of Home Affairs, Government of India (e-FRRO portal)",
+     "process": "The entire area of Arunachal Pradesh is a Protected Area under the Third Schedule of India's Immigration and Foreigners Order 2025. Foreigners need a Protected Area Permit to enter or stay. Apply online at indianfrro.gov.in (the e-FRRO portal) or in the Indian Visa Su-Swagatam app; the permit is issued electronically. Citizens of Afghanistan, China or Pakistan, and people of origin there (born there, a parent or grandparent born and permanently living there, or ever a citizen), need the central government's prior approval. Smartraveller advises applying at least 4 weeks ahead; entering without a permit carries significant penalties.",
+     "lead_time_days": 28,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.thc.nic.in/Central%20Governmental%20Ordinances/Immigration%20and%20Foreigners%20Order,%202025..pdf",
+     "checked": "2026-11-03"
     }
    ],
    "sources": [
@@ -25,9 +37,30 @@
      "url": "https://www.immihelp.com/protected-restricted-area-permit-india/",
      "checked": "2026-10-31",
      "supports": "PAP for foreigners"
+    },
+    {
+     "title": "Immigration and Foreigners Order, 2025 (S.O. 3986(E), 1 September 2025)",
+     "authority": "Ministry of Home Affairs, Government of India (Gazette of India copy hosted by the High Court of Tripura)",
+     "url": "https://www.thc.nic.in/Central%20Governmental%20Ordinances/Immigration%20and%20Foreigners%20Order,%202025..pdf",
+     "checked": "2026-11-03",
+     "supports": "paragraph 14 and Third Schedule item: Arunachal Pradesh, entire area of the State (read directly)"
+    },
+    {
+     "title": "India travel advice (updated 29 October 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/india",
+     "checked": "2026-11-03",
+     "supports": "permits for protected and restricted areas, extra permits for people born in some countries, apply at least 4 weeks ahead, significant penalties (read directly)"
+    },
+    {
+     "title": "Arunachal Pradesh eILP portal",
+     "authority": "Department of Information Technology and Communication, Government of Arunachal Pradesh",
+     "url": "https://eilp.arunachal.gov.in/",
+     "checked": "2026-11-03",
+     "supports": "tourist eILP for Indian visitors; the ePAP link for foreigners goes to the e-FRRO portal (read directly)"
     }
    ],
-   "note": "Confirm on the e-FRRO portal or with the state."
+   "note": "Confirm on the e-FRRO portal or with the state. The state's eILP portal sends foreigners to the e-FRRO portal for the ePAP; its Inner Line Permit is for Indian visitors."
   }
  }
 }

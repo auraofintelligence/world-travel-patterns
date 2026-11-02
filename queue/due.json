@@ -3,10 +3,10 @@
   "generated_on": "2026-11-03",
   "mode": "public",
   "place_passes": 269,
-  "pattern_items": 871,
+  "pattern_items": 860,
   "by_reason": {
-   "never-checked": 818,
-   "over-budget": 53
+   "never-checked": 810,
+   "over-budget": 50
   },
   "watch_checks": 0
  },
@@ -1782,26 +1782,6 @@
    ]
   },
   {
-   "place": "af",
-   "name": "Afghanistan",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "dz",
    "name": "Algeria",
    "kind": "country",
@@ -1844,46 +1824,6 @@
   {
    "place": "bn",
    "name": "Brunei",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "bf",
-   "name": "Burkina Faso",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "bi",
-   "name": "Burundi",
    "kind": "country",
    "tags": [],
    "due": [
@@ -2898,6 +2838,20 @@
    ]
   },
   {
+   "place": "af",
+   "name": "Afghanistan",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "al",
    "name": "Albania",
    "kind": "country",
@@ -3484,6 +3438,34 @@
   {
    "place": "bg",
    "name": "Bulgaria",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "bf",
+   "name": "Burkina Faso",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "bi",
+   "name": "Burundi",
    "kind": "country",
    "tags": [],
    "due": [
@@ -5008,12 +4990,6 @@
      "budget_days": 90
     },
     {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
@@ -5364,12 +5340,6 @@
      "budget_days": 365
     },
     {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
@@ -5444,12 +5414,6 @@
    "tags": [],
    "due": [
     {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
@@ -5463,12 +5427,6 @@
    "kind": "country",
    "tags": [],
    "due": [
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
@@ -5485,12 +5443,6 @@
    "due": [
     {
      "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
@@ -5537,12 +5489,6 @@
    "kind": "country",
    "tags": [],
    "due": [
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
@@ -6502,12 +6448,6 @@
    "tags": [],
    "due": [
     {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
@@ -6845,12 +6785,6 @@
    "kind": "country",
    "tags": [],
    "due": [
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",

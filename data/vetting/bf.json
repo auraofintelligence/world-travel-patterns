@@ -700,19 +700,111 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance.",
-   "cost_aud_baseline": {
-    "value": "~ $150",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-BURKINA-FASO-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel. A visa is needed before arrival: the short-stay e-Visa (under 90 days) from the Burkina Faso police migration service, or a visa through a Burkina Faso embassy. A yellow fever certificate is required.",
+   "fastest_entry": "e-Visa on visaburkina.bf: fill in the form, pay online, receive the answer (a dearer express visa gives a faster answer).",
+   "before_departure": "Apply for the e-Visa and carry the pre-visa (PDF or printout), a yellow fever certificate, health insurance and the documents for the visa type, such as a hotel booking of at least 3 nights for a tourist visa.",
+   "useful_stay": "Short-stay visa: up to 90 days, single or multiple entry. Work needs separate prior authorisation from the labour minister.",
+   "steps": [
+    {
+     "step": "Read the Do not travel advice; entry and exit rules can change at short notice.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/burkina-faso"
+    },
+    {
+     "step": "Apply for the short-stay e-Visa online (form, online payment, answer by email).",
+     "url": "https://www.visaburkina.bf/obtenir-son-visa-en-ligne/"
+    },
+    {
+     "step": "Choose the visa type that matches the purpose: tourism, business, conference or study, or family visit.",
+     "url": "https://www.visaburkina.bf/les-visas-dentree-au-burkina-faso-le-visa-court-sejour/"
+    },
+    {
+     "step": "At the border, show the passport, visa, health booklet (yellow fever) and a return ticket, and fill in the arrival information form.",
+     "url": "https://www.visaburkina.bf/conditions-dentree-au-burkina-faso/"
+    }
+   ],
+   "documents": [
+    "Valid passport",
+    "e-Visa pre-visa (PDF or printout)",
+    "Recent colour photo 3.5 x 4.5 cm on white",
+    "Proof of purpose of stay",
+    "Medical certificate stating no contagious disease",
+    "Health insurance for the stay",
+    "Yellow fever vaccination certificate",
+    "Return ticket",
+    "Tourist visa: hotel booking of at least 3 nights"
+   ],
+   "fees": [
+    {
+     "item": "short-stay tourist visa, single or multiple entry",
+     "amount": 66000,
+     "currency": "XOF",
+     "url": "https://www.visaburkina.bf/les-visas-dentree-au-burkina-faso-le-visa-court-sejour/",
+     "checked": "2026-11-03",
+     "aud": 159.89,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = EUR 0.6293; XOF fixed at 655.957 per EUR (BCEAO parity)"
+    },
+    {
+     "item": "short-stay business visa, single entry",
+     "amount": 99000,
+     "currency": "XOF",
+     "url": "https://www.visaburkina.bf/les-visas-dentree-au-burkina-faso-le-visa-court-sejour/",
+     "checked": "2026-11-03",
+     "aud": 239.83,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = EUR 0.6293; XOF fixed at 655.957 per EUR (BCEAO parity)"
+    },
+    {
+     "item": "short-stay business visa, multiple entry",
+     "amount": 132500,
+     "currency": "XOF",
+     "url": "https://www.visaburkina.bf/les-visas-dentree-au-burkina-faso-le-visa-court-sejour/",
+     "checked": "2026-11-03",
+     "aud": 320.98,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = EUR 0.6293; XOF fixed at 655.957 per EUR (BCEAO parity)"
+    },
+    {
+     "item": "express visa (faster answer)",
+     "amount": 247500,
+     "currency": "XOF",
+     "url": "https://www.visaburkina.bf/les-visas-dentree-au-burkina-faso-le-visa-court-sejour/",
+     "checked": "2026-11-03",
+     "aud": 599.57,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = EUR 0.6293; XOF fixed at 655.957 per EUR (BCEAO parity)"
+    }
+   ],
+   "open_questions": [
+    "Does a card payment on the e-Visa site add a processing fee, and how much?"
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/burkina-faso",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Le visa de court séjour",
+     "authority": "Ministère de la Sécurité, Direction Générale de la Police Nationale, Burkina Faso",
+     "url": "https://www.visaburkina.bf/les-visas-dentree-au-burkina-faso-le-visa-court-sejour/",
+     "supports": "short-stay visa length, documents and fees in F CFA",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Conditions d'entrée au Burkina Faso",
+     "authority": "Ministère de la Sécurité, Direction Générale de la Police Nationale, Burkina Faso",
+     "url": "https://www.visaburkina.bf/conditions-dentree-au-burkina-faso/",
+     "supports": "border documents",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -723,7 +815,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises Do not travel. Smartraveller says to contact an embassy or consulate of Burkina Faso for visas; entry rules and borders can change without notice. No fee stated."
+   "cost_aud_baseline": {
+    "value": "~ $150",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-BURKINA-FASO-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance."
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (Do not travel, page current at 3 Nov 2026) says to contact a Burkina Faso mission and requires yellow fever vaccination; the official visaburkina.bf portal (Ministry of Security) sets the short-stay visa, documents and fees. The earlier ~A$150 baseline is close to the XOF 66,000 tourist fee."
   },
   "year-ahead": {
    "status": "mapped",

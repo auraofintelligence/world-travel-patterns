@@ -924,6 +924,87 @@
      "Use local publishers, distributors and event operators for retail and local commercial handling."
     ]
    }
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2026-11-16",
+     "end": "2026-11-18",
+     "what": "49th ASEAN Summit in Manila, with special non-working days in Manila on 16 to 18 November 2026",
+     "effect": "Special non-working days in Manila while summit delegations are in the city",
+     "url": "https://www.officeholidays.com/countries/philippines/2026",
+     "by": "signal",
+     "category": "other",
+     "evidence": "signal"
+    },
+    {
+     "date": "2026-11-30",
+     "what": "Bonifacio Day, 30 November 2026",
+     "effect": "Regular holiday: government offices and banks closed",
+     "url": "https://www.officeholidays.com/countries/philippines/2026",
+     "by": "signal",
+     "category": "national-day",
+     "evidence": "signal"
+    },
+    {
+     "date": "2026-12-24",
+     "end": "2026-12-31",
+     "what": "Christmas and year-end holidays: Christmas Eve 24, Christmas 25, Rizal Day 30 and New Year's Eve 31 December 2026",
+     "effect": "Peak home-travel season: domestic flights, ferries and buses full, Manila traffic heavy before Christmas, many offices closed between holidays",
+     "url": "https://www.officeholidays.com/countries/philippines/2026",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-03-25",
+     "end": "2027-03-27",
+     "what": "Holy Week: Maundy Thursday 25 March, Good Friday 26 March, Black Saturday 27 March 2027",
+     "effect": "Many businesses close; heavy travel out of Manila to provinces and beaches; processions in many towns",
+     "url": "https://www.officeholidays.com/countries/philippines/2027",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-06-12",
+     "what": "Independence Day, 12 June 2027",
+     "effect": "Regular holiday: ceremonies; offices closed",
+     "url": "https://www.officeholidays.com/countries/philippines/2027",
+     "by": "signal",
+     "category": "national-day",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-11-01",
+     "end": "2027-11-02",
+     "what": "All Saints' Day 1 November and All Souls' Day 2 November 2027",
+     "effect": "Families travel to provincial cemeteries: buses, ferries and roads very busy; cemeteries crowded",
+     "url": "https://www.officeholidays.com/countries/philippines/2027",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Philippines public holidays 2026",
+     "authority": "Signal: Office Holidays (commercial calendar site)",
+     "url": "https://www.officeholidays.com/countries/philippines/2026",
+     "supports": "ASEAN Summit non-working days and late-2026 holidays (read directly)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Philippines public holidays 2027",
+     "authority": "Signal: Office Holidays (commercial calendar site)",
+     "url": "https://www.officeholidays.com/countries/philippines/2027",
+     "supports": "expected 2027 holiday dates (read directly); the Official Gazette page for 2027 refused the request (HTTP 403)",
+     "checked": "2026-11-03"
+    }
+   ],
+   "checked": "2026-11-03"
   }
  }
 }

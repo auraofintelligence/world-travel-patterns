@@ -678,19 +678,45 @@
    "climate": "Wettest: February, March and April. Driest: July, August and September. Hottest: July (25.5°C average). Coolest: January (0.5°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required. Extremely difficult to obtain.",
-   "cost_aud_baseline": {
-    "value": "Variable",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-AFGHANISTAN-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel. A visa is needed, but Smartraveller notes that not all Afghan embassies abroad can issue valid travel documents, and it gives no visa route or fee.",
+   "fastest_entry": "No route published on the official pages read; confirm in writing with the issuing Afghan mission that its visa will be accepted at the border.",
+   "before_departure": "Confirm in writing which mission can issue a valid visa, and meet every entry and exit condition before travel: Australian passport services inside Afghanistan are severely limited.",
+   "steps": [
+    {
+     "step": "Read the Do not travel advice and the entry section before any planning.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/afghanistan"
+    },
+    {
+     "step": "Ask the Afghan mission you plan to use, in writing, whether its visas are valid for entry: not all Afghan embassies abroad can issue valid travel documents.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/afghanistan"
+    },
+    {
+     "step": "Carry a passport with plenty of validity: Australia can't deliver passports into Afghanistan.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/afghanistan"
+    }
+   ],
+   "documents": [
+    "Australian passport with plenty of validity",
+    "Visa from a mission whose documents are accepted at the border"
+   ],
+   "fees": [],
+   "open_questions": [
+    "Which Afghan missions currently issue visas accepted at the border, and at what fee?",
+    "Is there an official online visa portal?"
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/afghanistan",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -701,7 +727,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises Do not travel. Smartraveller gives no visa details. Not all Afghan embassies can issue valid travel documents, and passport services in Afghanistan are severely limited. No fee stated."
+   "cost_aud_baseline": {
+    "value": "Variable",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-AFGHANISTAN-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required. Extremely difficult to obtain."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (Do not travel; page current at 3 Nov 2026): visa needed, not all Afghan embassies can issue valid documents, no fee or route given. No Afghan government visa page was found to confirm a route, so the status is confirm-in-writing."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",
