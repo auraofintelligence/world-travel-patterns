@@ -569,15 +569,23 @@
     const q = document.getElementById("aq"), lv = document.getElementById("alevel"), rg = document.getElementById("aregion");
     const params = new URLSearchParams(location.search);
     if (params.get("q")) q.value = params.get("q");
-    let key = "title", dir = 1;
+    let key = "region", dir = 1;
     function draw() {
       const t = q.value.trim().toLowerCase();
       const shown = rows.filter((r) => (!t || r.title.toLowerCase().includes(t) || r.region.toLowerCase().includes(t)) && (!lv.value || r.level === lv.value) && (!rg.value || r.region === rg.value))
         .sort((a, b) => {
-          const c = key === "level" ? (rank[a.level] ?? 9) - (rank[b.level] ?? 9) : String(a[key]).localeCompare(String(b[key]));
-          return (c || a.title.localeCompare(b.title)) * dir;
+          const lvl = (rank[a.level] ?? 9) - (rank[b.level] ?? 9);
+          const c = key === "level" ? lvl : String(a[key]).localeCompare(String(b[key]));
+          if (c) return c * dir;
+          if (key === "region") return lvl || a.title.localeCompare(b.title);
+          return a.title.localeCompare(b.title);
         });
-      document.getElementById("arows").innerHTML = shown.map((r) => `<tr><td>${r.p ? `<a href="place.html?id=${encodeURIComponent(r.p.id)}">${esc(r.title)}</a>` : esc(r.title)}</td><td class="meta">${esc(r.region)}</td><td><span class="adv ${levelClass(r.level)}">${esc(r.level)}</span></td><td class="meta">${fmt(r.updated)}</td><td><a href="${esc(r.d.url)}">advice</a></td></tr>`).join("") || '<tr><td colspan="5" class="empty">Nothing matches.</td></tr>';
+      let last = null;
+      document.getElementById("arows").innerHTML = shown.map((r) => {
+        const head = key === "region" && r.region !== last ? `<tr class="group-row"><th colspan="5">${esc(r.region)} <span class="meta">${shown.filter((x) => x.region === r.region).length}</span></th></tr>` : "";
+        last = r.region;
+        return head + `<tr><td>${r.p ? `<a href="place.html?id=${encodeURIComponent(r.p.id)}">${esc(r.title)}</a>` : esc(r.title)}</td><td class="meta">${esc(r.region)}</td><td><span class="adv ${levelClass(r.level)}">${esc(r.level)}</span></td><td class="meta">${fmt(r.updated)}</td><td><a href="${esc(r.d.url)}">advice</a></td></tr>`;
+      }).join("") || '<tr><td colspan="5" class="empty">Nothing matches.</td></tr>';
       document.getElementById("acount").textContent = `${shown.length} of ${rows.length}`;
       document.querySelectorAll("table.sortable .sort").forEach((b) => { b.querySelector("span").textContent = b.dataset.k === key ? (dir > 0 ? "▲" : "▼") : ""; b.closest("th").setAttribute("aria-sort", b.dataset.k === key ? (dir > 0 ? "ascending" : "descending") : "none"); });
     }

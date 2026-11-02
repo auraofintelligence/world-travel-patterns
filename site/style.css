@@ -267,3 +267,4 @@ table.sortable th button.sort { all: unset; cursor: pointer; font: inherit; font
 table.sortable th button.sort:hover, table.sortable th button.sort:focus-visible { text-decoration: underline; }
 table.sortable th button.sort span { font-size: 0.75em; margin-left: 4px; }
 input.filter[type="search"] { color: inherit; }
+table.sortable tr.group-row th { text-align: left; font-size: 1.05rem; padding-top: 22px; border-bottom: 2px solid var(--gold); }
