@@ -1342,3 +1342,7 @@ us/massachusetts: licence required, non-resident licence to carry (mass.gov). us
 ## 2026-11-02 12:49 AEST, Grok: Nicaragua talks and meetings to conditional; Tunisia detail updated, still confirm (2 records)
 
 ni meetings, conference, unpaid-speaking, trade: conditional, visa needed if not a tourist (Smartraveller), entry-denial risk (US State Department). tn 9 activities: Smartraveller 90-day visa-free, scope not stated, status unchanged. gw: no official source found, unchanged.
+
+## 2026-11-02 12:49 AEST, Grok: Bavaria cannabis bans in beer gardens and festival grounds (Land level): 1 record (1 records)
+
+de/bavaria local-law: Gesundheitsschutzgesetz bans on cannabis in beer gardens, festival tents and Volksfest grounds (Bavarian Health Ministry, search snapshot). Swiss cantons: nothing canton-specific found, not yet checked.
