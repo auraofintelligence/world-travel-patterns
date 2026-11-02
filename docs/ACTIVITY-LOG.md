@@ -1060,3 +1060,7 @@ Handoff updated; corrected an unsourced remark about io in the previous log entr
 ## 2026-11-02 12:12 AEST, Grok: Docs: correct handoff event count to 17 (0 records)
 
 The handoff said 20 events; the run added 17 (6 + 3 + 2 + 6).
+
+## 2026-11-02 12:17 AEST, Grok: DNT work rules: kp, sy, ye, ru, ir activity checks set to not-fit citing Smartraveller Do not travel (69 checks) (5 records)
+
+69 confirm-in-writing activity checks in North Korea, Syria, Yemen, Russia and Iran set to not-fit. Each cites the Smartraveller page (read directly 2026-11-02, Do not travel, with its update date) and the existing Smartraveller visa note; no activity work rules are invented. Travel advisory status unchanged.
