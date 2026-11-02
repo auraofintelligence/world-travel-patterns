@@ -180,11 +180,27 @@
      "checked": "2026-11-01"
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Azerbaijan, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Azerbaijan, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work-permit exempt if invited to lecture at a higher-education institution",
+     "detail": "The Migration Code exempts professors, teachers and lecturers invited to deliver lectures at higher-education institutions. Other unpaid talks are not addressed.",
+     "next": "Get an invitation from a university if possible.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Questions",
+       "authority": "State Migration Service of Azerbaijan",
+       "url": "https://www.migration.gov.az/en/questions/",
+       "checked": "2026-11-01",
+       "supports": "work permit exemptions (read via a search-index snapshot)"
+      },
+      {
+       "title": "List of fields not requiring a work permit for business trips up to 90 days a year",
+       "authority": "State Migration Service of Azerbaijan",
+       "url": "https://www.migration.gov.az/content/pdf/7508e37cf7b8c9167ccba32332384240.pdf",
+       "checked": "2026-11-01",
+       "supports": "90-day business trip list (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "conditional",

@@ -210,11 +210,27 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of Bulgaria, Barton.",
-     "next": "Paid activity isn't covered by the visa-free stay; most member states need a national visa and work permit, even under 90 days. Ask the Embassy of Bulgaria, Barton.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Single permit for guest lecturers or performers if paid; visa-free stay otherwise",
+     "detail": "Guest lecturers and performing artists working in Bulgaria still need a single residence and work permit (without the labour-market test). An unpaid launch is not addressed.",
+     "next": "Confirm with the host whether any fee is paid.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Labour Migration and Labour Mobility Act",
+       "authority": "Ministry of Labour and Social Policy, Bulgaria",
+       "url": "https://www.mlsp.government.bg/uploads/78/sdrmi/2025.pdf",
+       "checked": "2026-11-01",
+       "supports": "exemptions from the labour-market test (read via a search-index snapshot)"
+      },
+      {
+       "title": "Work permit for third-country nationals",
+       "authority": "Employment Agency, Bulgaria",
+       "url": "https://www.az.government.bg/pages/au-predostaviane-na-razreshenie-za-dostup-do-pazara-na-truda-na-na-rabotnici-gravdani-ot-treti-durvavi/",
+       "checked": "2026-11-01",
+       "supports": "permit procedure (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "specialist",

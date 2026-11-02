@@ -191,11 +191,20 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Kyrgyz Republic",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Kyrgyz Republic which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work permit (and quota) if the launch counts as work",
+     "detail": "Lecturers and artists generally need a work permit and, where applicable, a quota. Whether an unpaid launch counts as work is not stated.",
+     "next": "Ask the migration service before the launch.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Law on External Migration (Central Database of Legal Information)",
+       "authority": "Ministry of Justice, Kyrgyzstan",
+       "url": "https://cbd.minjust.gov.kg/230045488/edition/52377/ru?lang=ru",
+       "checked": "2026-11-01",
+       "supports": "work permits and quotas (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",

@@ -960,3 +960,7 @@ Docs only: handoff and STATUS.md item 1 refreshed; handoff records the 26d61c3 r
 ## 2026-11-01 11:57 AEST, Grok: Entrepreneur (as, cu) and filming (ki, to) rules (4 records)
 
 Official sources (search-index snapshots): American Samoa foreign corporation permit and business licence; Cuba Law 118 foreign investment forms, non-residents only in senior or technical posts; Kiribati research and filming permit from the Office of the President; Tonga ministerial land-use permit for filming on Crown land.
+
+## 2026-11-01 11:58 AEST, Grok: Unpaid speaking, book launches and research from already-cited pages: az, tt, ws, tl, kg, tj, bg (7 records)
+
+Resolved 9 activities in 7 records by reusing the official source already cited in the same record: Azerbaijan unpaid talks exempt when invited by a university; Trinidad and Tobago research within the 30-day paid-or-unpaid allowance; Samoa talks and launches need work permission; Timor-Leste temporary stay visa for cultural engagements; Kyrgyzstan, Tajikistan and Bulgaria launches need a permit if they count as work. All conditional; no new sources.

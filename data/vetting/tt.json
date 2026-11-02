@@ -486,11 +486,27 @@
      ]
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Up to 30 days of gainful work (paid or unpaid) in 12 months without a work permit",
+     "detail": "The Immigration Regulations let a non-national do gainful work, paid or unpaid, for one period of up to 30 days in every 12 consecutive months without a work permit. Longer research needs a permit.",
+     "next": "Keep fieldwork within 30 days or apply for a permit.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Work permits",
+       "authority": "Ministry of National Security / Homeland Security, Trinidad and Tobago",
+       "url": "https://nationalsecurity.gov.tt/services/work-permit/",
+       "checked": "2026-11-01",
+       "supports": "30-day exemption (read via a search-index snapshot)"
+      },
+      {
+       "title": "Work permit",
+       "authority": "ttconnect (Government of Trinidad and Tobago)",
+       "url": "https://www.ttconnect.gov.tt/work-permit/",
+       "checked": "2026-11-01",
+       "supports": "30-day exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
      "status": "conditional",

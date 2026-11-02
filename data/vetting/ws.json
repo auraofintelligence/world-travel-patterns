@@ -349,11 +349,27 @@
      "checked": "2026-11-01"
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Business visitor permit or Temporary resident permit",
-     "detail": "Speaking at a business conference fits a business visit; other speaking may count as work.",
-     "next": "Ask the Consulate General of Samoa in Sydney or Samoa Immigration (Ministry of the Prime Minister and Cabinet).",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work permission needed; visitor permits do not cover speaking",
+     "detail": "The cited source says visitor permits do not allow work, including short speaking engagements, and no speaker exemption exists. Whether an unpaid talk counts as work is for Immigration to decide.",
+     "next": "Ask Immigration in writing before the event.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Permit services",
+       "authority": "Ministry of the Prime Minister and Cabinet (Immigration), Samoa",
+       "url": "https://mpmc.gov.ws/divisions/immigration/permits-2/",
+       "checked": "2026-11-01",
+       "supports": "visitors can't work (read via a search-index snapshot)"
+      },
+      {
+       "title": "Employment services",
+       "authority": "Ministry of Commerce, Industry and Labour, Samoa",
+       "url": "https://www.mcil.gov.ws/services/employment",
+       "checked": "2026-11-01",
+       "supports": "FEEP (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "conditional",
@@ -379,11 +395,27 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Temporary resident permit",
-     "detail": "Work isn't allowed on a visitor permit; other business activity needs a temporary resident permit.",
-     "next": "Ask the Consulate General of Samoa in Sydney or Samoa Immigration (Ministry of the Prime Minister and Cabinet).",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Work permission needed; visitor permits do not cover speaking",
+     "detail": "Visitor permits do not allow work, including short speaking engagements, and no speaker exemption exists. A launch with a talk falls under the same question.",
+     "next": "Ask Immigration in writing before the launch.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Permit services",
+       "authority": "Ministry of the Prime Minister and Cabinet (Immigration), Samoa",
+       "url": "https://mpmc.gov.ws/divisions/immigration/permits-2/",
+       "checked": "2026-11-01",
+       "supports": "visitors can't work (read via a search-index snapshot)"
+      },
+      {
+       "title": "Employment services",
+       "authority": "Ministry of Commerce, Industry and Labour, Samoa",
+       "url": "https://www.mcil.gov.ws/services/employment",
+       "checked": "2026-11-01",
+       "supports": "FEEP (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",
