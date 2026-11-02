@@ -934,3 +934,7 @@ Docs only: handoff and STATUS.md item 1 refreshed after mixed-mission, book laun
 ## 2026-11-01 11:55 AEST, Grok: Review fixes to 26d61c3: Central Land Council permit link, Minjerribah festival source labelled as a signal (2 records)
 
 Quality review of 26d61c3 (kept, not reverted): schema valid and sources are land councils, WA and Queensland government pages, BoM and AIATSIS. Fixed: the Central Land Council permit layer linked to the Northern Land Council page (now clc.org.au/permits); the Minjerribah culture-cycles entry cited National Indigenous Times as community evidence, now labelled a signal. Noted: NT and WA permit lead times are planning buffers, as the records already say.
+
+## 2026-11-01 11:55 AEST, Grok: Australia light pass: 2027 writers' and arts festivals for NSW, SA and WA (3 records)
+
+Australia light pass (state level): Sydney Writers' Festival 17 to 23 May 2027, Adelaide Writers' Week 27 February to 4 March 2027, Perth Festival 5 to 28 February 2027, from the festivals' own pages (search-index snapshots).
