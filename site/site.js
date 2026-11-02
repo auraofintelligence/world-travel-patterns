@@ -557,12 +557,14 @@
       <div class="toolbar" id="afilters">
         <input type="search" id="aq" class="filter" placeholder="Search destination or region" aria-label="Search destinations" style="min-width:240px">
         <select class="filter" id="alevel" aria-label="Level"><option value="">All levels</option>${levels.map(([l]) => `<option>${esc(l)}</option>`).join("")}</select>
-        <select class="filter" id="aregion" aria-label="Region"><option value="">All regions</option>${Object.keys(regions).sort().map((r) => `<option>${esc(r)}</option>`).join("")}</select>
+        <select class="filter" id="aregion" aria-label="Region"><option value="">All regions</option>${Object.keys(regions).sort((a, b) => (REGION_ORDER.indexOf(a) + 1 || 99) - (REGION_ORDER.indexOf(b) + 1 || 99)).map((r) => `<option>${esc(r)}</option>`).join("")}</select>
         <span class="meta" id="acount"></span></div>
       <div class="table-wrap"><table class="sortable"><thead><tr>${[["title", "Destination"], ["region", "Region"], ["level", "Level"], ["updated", "Updated"]].map(([k, l]) => `<th><button class="sort" data-k="${k}">${l} <span aria-hidden="true"></span></button></th>`).join("")}<th>Advice</th></tr></thead><tbody id="arows"></tbody></table></div>
     </section></main>`;
   };
 
+  // The user's own region order (their likeliest travel first), not alphabetical.
+  const REGION_ORDER = ["Asia", "Pacific", "Europe", "Americas", "Africa", "Middle East", "Other"];
   function wireAdvisories(list, bySlug, levels) {
     const rank = Object.fromEntries(levels.map(([l], i) => [l, i]));
     const rows = list.map(([k, d]) => ({ k, d, p: bySlug[k], title: d.title || k, region: d.region || "Other", level: d.level || "", updated: d.published_change || "" }));
@@ -575,7 +577,7 @@
       const shown = rows.filter((r) => (!t || r.title.toLowerCase().includes(t) || r.region.toLowerCase().includes(t)) && (!lv.value || r.level === lv.value) && (!rg.value || r.region === rg.value))
         .sort((a, b) => {
           const lvl = (rank[a.level] ?? 9) - (rank[b.level] ?? 9);
-          const c = key === "level" ? lvl : String(a[key]).localeCompare(String(b[key]));
+          const c = key === "level" ? lvl : key === "region" ? (REGION_ORDER.indexOf(a.region) + 1 || 99) - (REGION_ORDER.indexOf(b.region) + 1 || 99) : String(a[key]).localeCompare(String(b[key]));
           if (c) return c * dir;
           if (key === "region") return lvl || a.title.localeCompare(b.title);
           return a.title.localeCompare(b.title);
