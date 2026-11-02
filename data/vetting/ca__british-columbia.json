@@ -54,6 +54,43 @@
     }
    ],
    "notes": "Provincial law. Read with Canada's federal Cannabis Act; never carry cannabis across the international border."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-02",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "The legal age for cannabis in British Columbia is 19. Adults may carry up to 30 g of dried cannabis (or equivalent) in public, and buy only from government-operated stores in person and online or private licensed stores.",
+     "level": "region",
+     "source": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Smoking or vaping cannabis is generally allowed where tobacco smoking is, but not in parks (except some designated areas and campsites), at playgrounds, beaches' sports and pool areas, near schools, or within 6 metres of bus stops, transit shelters, train stations and ferry docks. Local bylaws may add limits.",
+     "level": "region",
+     "source": "https://www2.gov.bc.ca/gov/content/safety/public-safety/cannabis/where-you-can-consume",
+     "checked": "2026-11-02"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Authorized cannabis retailers in the provinces and territories",
+     "authority": "Health Canada",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
+     "checked": "2026-11-02",
+     "supports": "legal age, where to buy and public possession limit by province or territory (read via a search-index snapshot)"
+    },
+    {
+     "title": "Where you can consume",
+     "authority": "Province of British Columbia",
+     "url": "https://www2.gov.bc.ca/gov/content/safety/public-safety/cannabis/where-you-can-consume",
+     "checked": "2026-11-02",
+     "supports": "public consumption rules (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

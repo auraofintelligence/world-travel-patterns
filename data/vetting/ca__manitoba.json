@@ -22,6 +22,43 @@
     "2027-08-02: Civic Holiday (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-02",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "The legal age for cannabis in Manitoba is 19. Adults may carry up to 30 g of dried cannabis (or equivalent) in public, and buy only from private licensed stores, in person and online.",
+     "level": "region",
+     "source": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Smoking or vaping cannabis is illegal in all public places, including streets, sidewalks, parks, beaches and restaurant patios.",
+     "level": "region",
+     "source": "https://www.gov.mb.ca/cannabis/knowthelaw/cantuseinpublic.html",
+     "checked": "2026-11-02"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Authorized cannabis retailers in the provinces and territories",
+     "authority": "Health Canada",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
+     "checked": "2026-11-02",
+     "supports": "legal age, where to buy and public possession limit by province or territory (read via a search-index snapshot)"
+    },
+    {
+     "title": "You can't use cannabis in public",
+     "authority": "Province of Manitoba",
+     "url": "https://www.gov.mb.ca/cannabis/knowthelaw/cantuseinpublic.html",
+     "checked": "2026-11-02",
+     "supports": "public smoking and vaping ban (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

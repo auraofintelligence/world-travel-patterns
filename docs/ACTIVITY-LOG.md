@@ -1269,3 +1269,7 @@ dm book-launch and unpaid-speaking: detail updated, still confirm (Labour Divisi
   - Remaining national levels: Nordic territories from the Danish, Finnish and Norwegian governments; vc, sx, mp, vi; tk from the Tokelau government.
   - More US states and German Länder.
   - The remaining talks and launches (ao bt ci cm gw la ma ni tn and others).
+
+## 2026-11-02 12:41 AEST, Grok: Sub-national law levels: cannabis rules in 11 Canadian provinces and territories (11 records)
+
+local-law partly-mapped for ab bc mb nb nl nt ns nu on pe sk from the Health Canada provincial table (legal age, public possession limit, where to buy); British Columbia and Manitoba public-use rules from their government pages. Search snapshots. Yukon not in the snapshot, left not yet checked.
