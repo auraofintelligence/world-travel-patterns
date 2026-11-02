@@ -964,3 +964,11 @@ Official sources (search-index snapshots): American Samoa foreign corporation pe
 ## 2026-11-01 11:58 AEST, Grok: Unpaid speaking, book launches and research from already-cited pages: az, tt, ws, tl, kg, tj, bg (7 records)
 
 Resolved 9 activities in 7 records by reusing the official source already cited in the same record: Azerbaijan unpaid talks exempt when invited by a university; Trinidad and Tobago research within the 30-day paid-or-unpaid allowance; Samoa talks and launches need work permission; Timor-Leste temporary stay visa for cultural engagements; Kyrgyzstan, Tajikistan and Bulgaria launches need a permit if they count as work. All conditional; no new sources.
+
+## Handoff, 2026-11-02 (Grok)
+
+Confirm-in-writing: 624 of 3,705 activity checks (306 outside the DNT set and Australia). Outside DNT remaining: remote-work 62, volunteering 51, research 36, book-launch 33, mixed-mission 23, unpaid-speaking 22, trade 18, conference 15, ai-teaching 13, meetings 13, filming 10 (ck cu fm kg kz nu sz tj tl), paid-speaking 5, artist 3. Entrepreneur is finished. Next: filming leftovers, then volunteering, book launches, unpaid speaking, research, remote work, then DNT work rules, then ask-locally culture and 2027 events. The Australia light-pass rule still applies.
+
+## 2026-11-01 11:58 AEST, Grok: Docs: handoff and STATUS counts after the reuse batch (0 records)
+
+Recomputed counts; handoff updated.
