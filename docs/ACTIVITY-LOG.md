@@ -1040,3 +1040,7 @@ Added 6 official 2027 events across 5 records (us__california, us__florida, us__
 ## 2026-11-02 12:11 AEST, Grok: Culture: conduct rules from Government of Canada advice for vc, yt, sr, sm (ask-locally to partly-mapped) (4 records)
 
 Four ask-locally culture records moved to partly-mapped using the travel.gc.ca laws and culture sections, read directly on 2026-11-02: St Vincent camouflage ban and criminalised same-sex relations; Mayotte under French law with low local acceptance of homosexuality; Suriname driving permits; San Marino public drunkenness rules. Congo (cg) and British Indian Ocean Territory (io) stay ask-locally.
+
+## 2026-11-02 12:12 AEST, Grok: Culture: Republic of the Congo conduct rules from Government of Canada advice (ask-locally to partly-mapped) (1 records)
+
+cg moved to partly-mapped from the travel.gc.ca laws and culture section, read directly: ID and visa at all times, photography bans, export tax on crafts. Only British Indian Ocean Territory (io) remains ask-locally; it has no civilian visitor access beyond permits.
