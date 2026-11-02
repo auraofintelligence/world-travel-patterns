@@ -1004,3 +1004,15 @@ tl filming moved from confirm-in-writing to specialist, citing Article 25 of the
 ## 2026-11-02 12:05 AEST, Grok: Filming: Tajikistan MFA media accreditation and category Ж visa (1 records)
 
 tj filming moved from confirm-in-writing to specialist, citing the MFA Consular Department media visa page (read directly).
+
+## Handoff, 2026-11-02 midday (Grok)
+
+This run: 7 new official 2027 events (SXSW, Sundance in Boulder, Burning Man, Primavera Sound Barcelona, Hay Festival, Jaipur Literature Festival, Ubud Writers and Readers Festival); pending-official-dates rechecked (Web Summit Lisbon, Slush, Tomorrowland, Iceland Airwaves still unpublished; Venice Film Festival, WOMAD and Coachella 2027 added as pending). Culture: 50 of 56 ask-locally records moved to partly-mapped from UK FCDO "laws and cultural differences" sections (read directly); left: cg, sm, sr (thin sections), io, vc (no section), yt. Filming: tl (Press Council, Media Law Art. 25) and tj (MFA accreditation, Ж visa) resolved; 8 left outside DNT (ck cu fm kg kz nu sz), fm's NACH policy PDF is behind a JS challenge, Eswatini and Cook Islands have only fixer sources.
+
+Confirm-in-writing: 622 of 3,705. Outside DNT and Australia: remote-work 62, volunteering 51, research 36, book-launch 33, mixed-mission 23, unpaid-speaking 22, trade 18, conference 15, ai-teaching 13, meetings 13, filming 8, paid-speaking 5, artist 3.
+
+Next: more 2027 events (wellbeing-spiritual, dating-marriage-adult, national-day gaps), recheck the pending list in December (Tomorrowland says details in December 2026), remaining 6 culture records via national tourism pages, then work-rule categories.
+
+## 2026-11-02 12:05 AEST, Grok: Docs: handoff and STATUS after the events, culture and filming run (0 records)
+
+Handoff updated with counts and next steps.
