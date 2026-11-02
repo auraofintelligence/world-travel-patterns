@@ -1350,3 +1350,13 @@ de/bavaria local-law: Gesundheitsschutzgesetz bans on cannabis in beer gardens, 
 ## 2026-11-02 12:49 AEST, Grok: Florida non-resident carry and Colorado public cannabis use (state level) (2 records)
 
 us/florida: 790.015 non-resident carry limited to US residents (flsenate.gov, read directly). us/colorado: public use and federal land bans (cannabis.colorado.gov, search snapshot). Added to existing records.
+
+## 2026-11-02 handoff (steps 1 to 3, fourth run)
+
+- c3ef7c8: ni meetings, conference, unpaid-speaking and trade moved to conditional. Smartraveller says non-tourists need a visa, and the US State Department warns of entry denial. tn: 9 activities, detail updated, still confirm (Smartraveller: 90-day visa-free visit, activity scope not stated). gw: no government source found, unchanged.
+- 3cfb88e: de/bavaria law level. Cannabis smoking or vaping is banned in beer gardens, festival tents and Volksfest grounds (Bavarian Health Ministry). The commit title repeats the count because the C helper appends it; avoid putting counts in titles.
+- 5589d56: us/florida 790.015 (the non-resident carry rule covers US residents only, so not an Australian visitor) and us/colorado (public cannabis use and federal land bans). Both were added to existing records.
+- Swiss cantons: no canton-specific visitor rule found on an official page. Not yet checked.
+- Not covered: ao bt ci cm la talks and launches; Texas and Washington firearms and alcohol.
+- Law stacks: 294 filled, 3,473 not yet checked. National: 247 of 247. Sub-national: 47. Work rules open: 272.
+- Morocco embassy enquiry: the user's call. No outreach drafted.
