@@ -58,6 +58,13 @@
      "level": "state",
      "source": "https://cannabis.ny.gov/adult-use-information",
      "checked": "2026-11-02"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "New York generally prohibits possessing a handgun, short-barrelled rifle or shotgun, or assault weapon outside your home or business without a New York licence, and New York City has its own separate licensing. Out-of-state permits are not a substitute.",
+     "level": "state",
+     "source": "https://www.nyc.gov/site/nypd/about/faq/firearms-faq.page",
+     "checked": "2026-11-02"
     }
    ],
    "sources": [
@@ -67,6 +74,13 @@
      "url": "https://cannabis.ny.gov/adult-use-information",
      "checked": "2026-11-02",
      "supports": "age 21, 3 oz, where use is banned (read via a search-index snapshot)"
+    },
+    {
+     "title": "FAQ: Firearms",
+     "authority": "New York City Police Department",
+     "url": "https://www.nyc.gov/site/nypd/about/faq/firearms-faq.page",
+     "checked": "2026-11-02",
+     "supports": "licence needed to possess firearms; NYC has its own licensing (read via a search-index snapshot)"
     }
    ]
   }

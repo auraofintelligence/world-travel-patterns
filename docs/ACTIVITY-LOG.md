@@ -1296,3 +1296,7 @@ sj from the Governor of Svalbard (polar bear deterrents, field-travel notificati
   - The other UAE emirates, Swiss cantons and German states.
   - Talks and launches (ao bt ci cm gw la ma ni tn).
   - gw and sz filming.
+
+## 2026-11-02 12:44 AEST, Grok: Law levels: New York and Hawaii firearms (state), Åland and St Vincent (national) (4 records)
+
+us/new-york firearms (NYPD FAQ) and us/hawaii firearm registration (HRS 134-3, read directly via search result text) added; ax local-law from Finnish Customs (tax border alcohol allowances); vc local-law from Government of Canada and US State Department advice and Act No. 10 of 2019. Search snapshots.

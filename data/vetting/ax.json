@@ -413,6 +413,36 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-02",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "currency-and-goods",
+     "rule": "Åland is in the EU but outside its VAT and excise area, so a tax border applies with mainland Finland and other EU countries. Arriving from those, you may bring tax-free only the non-EU allowance: 16 litres of beer, 4 litres of still wine and 1 litre of spirits (or 2 litres under 22%). Ferries between mainland Finland and Åland may sell you no more than 2 litres of tax-free beer.",
+     "level": "country",
+     "source": "https://tulli.fi/en/restrictions/alcohol/traveller-imports",
+     "checked": "2026-11-02"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Traveller imports of alcohol",
+     "authority": "Finnish Customs",
+     "url": "https://tulli.fi/en/restrictions/alcohol/traveller-imports",
+     "checked": "2026-11-02",
+     "supports": "Åland allowance (read via a search-index snapshot)"
+    },
+    {
+     "title": "Customs regulations in Åland",
+     "authority": "Nordic Council of Ministers (Info Norden)",
+     "url": "https://www.norden.org/en/info-norden/customs-regulations-aland",
+     "checked": "2026-11-02",
+     "supports": "tax border (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

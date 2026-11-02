@@ -594,6 +594,50 @@
     "result": "found",
     "note": "No national etiquette page; official foreign-ministry conduct advice (Global Affairs Canada) cited instead."
    }
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-02",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Penalties for possessing, using or trafficking illegal drugs are severe. Holding 56 g or less of cannabis is still an offence (fine up to XCD 500) but is dealt with by a ticket rather than arrest, and smoking cannabis in a public place is an offence (Act No. 10 of 2019). Bringing cannabis or CBD products into the country is illegal.",
+     "level": "country",
+     "source": "https://travel.gc.ca/destinations/saint-vincent-the-grenadines",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Bringing guns, ammunition or even spent shells or casings into the country is illegal, with long detention possible.",
+     "level": "country",
+     "source": "https://travel.state.gov/en/international-travel/travel-advisories/saint-vincent-and-the-grenadines.html",
+     "checked": "2026-11-02"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Saint Vincent and the Grenadines travel advice",
+     "authority": "Government of Canada",
+     "url": "https://travel.gc.ca/destinations/saint-vincent-the-grenadines",
+     "checked": "2026-11-02",
+     "supports": "severe drug penalties (read via a search-index snapshot)"
+    },
+    {
+     "title": "Saint Vincent and the Grenadines travel advisory",
+     "authority": "US Department of State",
+     "url": "https://travel.state.gov/en/international-travel/travel-advisories/saint-vincent-and-the-grenadines.html",
+     "checked": "2026-11-02",
+     "supports": "no cannabis, CBD, guns or ammunition including spent casings (read via a search-index snapshot)"
+    },
+    {
+     "title": "Drugs (Prevention of Misuse) (Amendment) Act No. 10 of 2019",
+     "authority": "Government of Saint Vincent and the Grenadines (published PDF)",
+     "url": "https://mca.vc/wp-content/uploads/2026/05/Act-No.-10-of-2019-Drugs-Prevention-of-Misuse-Amendment-Act-2019.pdf",
+     "checked": "2026-11-02",
+     "supports": "56 g ticketable offence, public use offence (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }
