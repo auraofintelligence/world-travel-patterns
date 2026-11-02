@@ -1068,3 +1068,7 @@ The handoff said 20 events; the run added 17 (6 + 3 + 2 + 6).
 ## 2026-11-02 12:18 AEST, Grok: DNT work rules: af, iq, lb, ps activity checks set to not-fit citing Smartraveller (55 checks); ye quote corrected (5 records)
 
 55 confirm-in-writing activity checks in Afghanistan, Iraq, Lebanon and Palestine set to not-fit, citing Smartraveller Do not travel (read directly 2026-11-02) and the existing Smartraveller visa notes. Yemen's quoted line replaced with the explicit Do not travel sentence (detail only, status unchanged). Travel advisory status unchanged.
+
+## 2026-11-02 12:18 AEST, Grok: DNT work rules: bf, cd, cf, ly, ml, ne, sd, so, ss, td activity checks set to not-fit citing Smartraveller (140 checks) (10 records)
+
+140 confirm-in-writing activity checks in ten African Do-not-travel places set to not-fit, each citing its Smartraveller page (read directly 2026-11-02, Do not travel line quoted with update date) and the existing Smartraveller visa note. Travel advisory status unchanged.
