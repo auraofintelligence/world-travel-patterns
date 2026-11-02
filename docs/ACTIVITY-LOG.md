@@ -1036,3 +1036,7 @@ India 15 Aug 2027 from the DoPT 2027 holiday memorandum (read directly); New Zea
 ## 2026-11-02 12:09 AEST, Grok: 2027 events: Folsom Street Fair, Fantasy Fest, New Orleans Mardi Gras, GITEX AI Asia, SuperAI, Frankfurt Book Fair (5 records)
 
 Added 6 official 2027 events across 5 records (us__california, us__florida, us__louisiana, sg twice, de__hesse), each read directly on the organiser or official tourism site.
+
+## 2026-11-02 12:11 AEST, Grok: Culture: conduct rules from Government of Canada advice for vc, yt, sr, sm (ask-locally to partly-mapped) (4 records)
+
+Four ask-locally culture records moved to partly-mapped using the travel.gc.ca laws and culture sections, read directly on 2026-11-02: St Vincent camouflage ban and criminalised same-sex relations; Mayotte under French law with low local acceptance of homosexuality; Suriname driving permits; San Marino public drunkenness rules. Congo (cg) and British Indian Ocean Territory (io) stay ask-locally.
