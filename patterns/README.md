@@ -24,6 +24,8 @@ A pattern is one repeatable question asked of every place it applies to. Every p
 | money-and-cost | Currency, cash and card, daily cost in AUD | agent | nearest | 180 days |
 | works-and-purpose | Where this place meets Luke's works (tagged places only) | agent | none | 365 days |
 
+Inheritance decides what applies at a place, not what its page prints. Each record is written once, at the level that owns the rule, and shown once, on that level's page; deeper pages link up to it. Write a state or region record only for what differs at that level, and never copy the country's text down.
+
 ## Adding a pattern
 
 1. Copy the closest existing file and give it a new `id`.

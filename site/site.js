@@ -193,7 +193,7 @@
     }) + `<main>
       <section class="section"><h2>What each place page tells you</h2>
         <div class="grid wide">${LOOKUP.map(([t, d]) => `<div class="card"><h3>${t}</h3><p class="meta">${d}</p></div>`).join("")}</div>
-        <p class="note" style="margin-top:22px">Rules stack: a visitor on Minjerribah is bound by Australian, Queensland and Redland City law together, and the place page shows each level. A level marked "not yet checked" has unknown rules, not no rules.</p></section>
+        <p class="note" style="margin-top:22px">Rules stack: a visitor on Minjerribah is bound by Australian, Queensland and Redland City law together, and each level's rules are shown once, on that level's own page; a deeper page links up to the rest. A level marked "not yet checked" has unknown rules, not no rules.</p></section>
       <section class="section tight"><h2>Start with</h2><div class="grid">${picks.map((p) => `<a class="card" href="place.html?id=${encodeURIComponent(p.id)}"><h3>${esc(p.name)}</h3><div class="meta">${esc(kindOf(p))}${p.id.includes("/") ? `, ${esc(index.byId[p.id.split("/")[0]]?.name || "")}` : p.region ? `, ${esc(p.region)}` : ""}</div></a>`).join("")}</div>
         <p style="margin-top:16px"><a class="btn outline" href="places.html">Every place, by region</a></p></section>
       <section class="section band"><div class="two">
@@ -334,9 +334,9 @@
     }
     const spine = chain[chain.length - 1];
     const offices = inAus.places[spine.id] || [];
-    // Where each level's law is officially published, from the place up to the country, plus shared repositories (EU, PacLII).
-    const lawLevels = [...chain].reverse().map((p) => [p, lawRepos.places[p.id] || []]).filter(([, l]) => l.length);
-    (lawRepos.groups || []).forEach((g) => { if (g.members.includes(spine.id)) lawLevels.push([{ name: g.name }, g.repositories]); });
+    // This level's own law repositories only; the country's (and shared ones such as the EU's) are on the country page.
+    const lawLevels = [[place, lawRepos.places[id] || []]].filter(([, l]) => l.length);
+    if (chain.length === 1) (lawRepos.groups || []).forEach((g) => { if (g.members.includes(spine.id)) lawLevels.push([{ name: g.name }, g.repositories]); });
     const advice = spine.smartraveller && adv.destinations[spine.smartraveller];
     const patterns = Object.fromEntries(index.patterns.map((p) => [p.id, p]));
     const applies = (pat, p) => !(pat.home_only && !homeChain.includes(p.id)) && pat.applies_to.includes(p.kind) && !(pat.only_tagged && !(p.tags || []).length) && !(pat.skip_home && p.id === "au");
@@ -402,23 +402,47 @@
       if (rec.sources?.length) body += `<div class="detail meta">Sources: ${rec.sources.slice(0, 4).map((s) => `<a href="${esc(s.url)}" rel="noopener">${esc(s.authority || s.title || "source")}</a>`).join(" · ")}${rec.sources.length > 4 ? ` and ${rec.sources.length - 4} more` : ""}</div>`;
       return body + "</li>";
     }
+    // Each level's rules are shown once, on that level's own page. A deeper page shows its own records in full and links up for the rest.
+    // Home obligations show only on the home base and the levels above it, never on destinations.
+    const above = chain.slice(1).reverse();
+    const shown = (pat) => !(pat.home_only && !homeChain.includes(id)) && applies(pat, place);
+    const fromAbove = (pat) => above.filter((a) => vets[a.id]?.[pat.id]);
+    const ownGaps = [];
+    const patLink = (p, pat) => `<a href="place.html?id=${encodeURIComponent(p.id)}#pat-${pat.id}">${esc(pat.name)}</a>`;
     function patternCard(pat) {
-      const rows = pat.id === "zone-requirements"
-        ? [...new Map([id, ...descendants.filter((d) => d.zone).map((d) => d.id)].flatMap((z) => resolve(z, pat)).map(([p, r]) => [p.id, [p, r]])).values()]
-        : pat.home_only ? (index.home_base ? resolve(index.home_base.place, pat) : []) : resolve(id, pat);
-      if (!rows.length) return "";
-      const homeNote = pat.home_only ? `<p class="meta">What still applies to a resident of ${esc(index.byId[index.home_base.place]?.name || "the home base")} while away, by level, alongside this place's own rules. A level marked "not yet checked" has unknown obligations, not none.</p>` : "";
-      return `<div class="card pattern-card"><h3>${esc(pat.name)} <span class="chip">${pat.inherit === "stack" ? "stacks across levels" : pat.inherit === "nearest" ? "nearest level" : "this place only"}</span></h3>
-        <p class="q">${esc(pat.question)}</p>${homeNote}<ul class="levels">${rows.map(([p, r]) => levelRow(p, r, pat)).join("")}</ul></div>`;
+      if (!shown(pat)) return "";
+      const own = vets[id]?.[pat.id];
+      const rows = own ? [[place, own]] : [];
+      if (pat.id === "zone-requirements") descendants.filter((d) => d.zone && vets[d.id]?.[pat.id]).forEach((d) => rows.push([d, vets[d.id][pat.id]]));
+      if (!rows.length) { if (pat.inherit !== "nearest" || !fromAbove(pat).length) ownGaps.push(pat); return ""; }
+      const up = own && pat.inherit !== "none" ? fromAbove(pat) : [];
+      const upNote = !up.length ? "" : pat.inherit === "nearest"
+        ? `<p class="meta">This replaces ${up.map((a) => `<a href="place.html?id=${encodeURIComponent(a.id)}#pat-${pat.id}">${esc(a.name)}'s</a>`).join(" and ")} for ${esc(place.name)}.</p>`
+        : `<p class="meta">Adds to ${up.map((a) => `<a href="place.html?id=${encodeURIComponent(a.id)}#pat-${pat.id}">${esc(a.name)}'s</a>`).join(" and ")}, which still apply here.</p>`;
+      return `<div class="card pattern-card" id="pat-${pat.id}"><h3>${esc(pat.name)}</h3>
+        <p class="q">${esc(pat.question)}</p>${upNote}<ul class="levels">${rows.map(([p, r]) => levelRow(p, r, pat)).join("")}</ul></div>`;
     }
     const sections = LAYERS.map(([key, label, ids]) => {
       const cards = ids.map((pid) => patterns[pid]).filter(Boolean).map(patternCard).join("");
       return cards ? `<div class="layer-group"><h2>${label}</h2><span class="rule"></span></div>${cards}` : "";
     }).join("");
+    gaps += ownGaps.length;
+    // One line per level above: what it covers that still applies here. A nearest-level topic this place (or a nearer level) answers itself is left out.
+    const upLines = above.map((a) => {
+      const pats = index.patterns.filter((pat) => applies(pat, a) && pat.inherit !== "none" && vets[a.id]?.[pat.id]
+        && !(pat.inherit === "nearest" && (vets[id]?.[pat.id] || chain.slice(1, chain.indexOf(a)).some((n) => vets[n.id]?.[pat.id]))));
+      return pats.length ? `<p><b><a href="place.html?id=${encodeURIComponent(a.id)}">${esc(a.name)}</a>:</b> ${pats.map((pat) => patLink(a, pat)).join(" · ")}</p>` : "";
+    }).join("");
+    const homeLine = place === spine && id !== "au" && homeChain.length && vets.au?.["home-obligations"]
+      ? `<p class="meta">Some Australian laws still apply to you overseas, such as bribing a foreign official. They're listed once, on <a href="place.html?id=au#pat-home-obligations">Australia's page</a>.</p>` : "";
+    const upCard = upLines || ownGaps.length || homeLine ? `<div class="card up-card">
+      ${upLines ? `<h3>From the levels above</h3><p class="meta">These apply in ${esc(place.name)} too. Each is shown once, on its own level's page.</p>${upLines}` : ""}
+      ${ownGaps.length ? `<p class="meta"><b>Not yet checked for ${esc(place.name)} itself:</b> ${ownGaps.map((p) => esc(p.name)).join(", ")}. Not yet checked means the rules are unknown, not that there are none.</p>` : ""}
+      ${homeLine}</div>` : "";
 
-    const chainIds = new Set([...chain, ...descendants].map((p) => p.id));
-    const events = feed.events.filter((e) => (chainIds.has(e.place) || (e.members || []).includes(spine.id)) && (e.closes || e.ends || e.starts || "") >= now);
-    const watched = watch.items.filter((w) => w.status !== "resolved" && (w.places.includes(id) || w.places.includes(spine.id)));
+    const chainIds = new Set([place, ...descendants].map((p) => p.id));
+    const events = feed.events.filter((e) => (chainIds.has(e.place) || (place === spine && (e.members || []).includes(spine.id))) && (e.closes || e.ends || e.starts || "") >= now);
+    const watched = watch.items.filter((w) => w.status !== "resolved" && (w.places.includes(id) || (place === spine && w.places.includes(spine.id))));
     const byKind = {};
     children.slice().sort((a, b) => isRegion(b) - isRegion(a)).forEach((c) => (byKind[isRegion(c) ? "States and regions" : kindOf(c)] ||= []).push(c));
 
@@ -447,15 +471,15 @@
       </div>
       ${watched.map((w) => `<p class="note" style="margin-top:18px"><b>Rule change watched:</b> ${esc(w.what)} Status: ${esc(w.status)}. Effective: ${w.effective ? fmt(w.effective) : "not settled"}. ${esc(w.next)}</p>`).join("")}
       </section>
-      <section class="section tight">${sections}</section>
+      <section class="section tight">${upCard}${sections}</section>
       ${events.length ? `<section class="section tight"><div class="layer-group"><h2>Upcoming here</h2><span class="rule"></span></div>
         <p class="meta">Dated leads from the feeds. An event is not a permission: taking part still runs through entry, activities and zone checks.</p>${events.map(eventCard(index)).join("")}</section>` : ""}
-      ${!lawLevels.length && (lawRepos.no_online_source || {})[spine.id] ? `<section class="section tight"><div class="layer-group"><h2>Where the law is published</h2><span class="rule"></span></div>
+      ${chain.length === 1 && !lawLevels.length && (lawRepos.no_online_source || {})[spine.id] ? `<section class="section tight"><div class="layer-group"><h2>Where the law is published</h2><span class="rule"></span></div>
         <p class="meta">${esc(lawRepos.no_online_source[spine.id])} Not knowing a law is no defence.</p></section>` : ""}
       ${lawLevels.length ? `<section class="section tight"><div class="layer-group"><h2>Where the law is published</h2><span class="rule"></span></div>
         <p class="meta">The official places to read the laws that apply here. Not knowing a law is no defence.</p>
         <div class="grid">${lawLevels.map(([p, list]) => `<div class="card"><h3>${esc(p.name)}</h3>${list.map((r) => `<p><a href="${esc(r.url)}" rel="noopener">${esc(r.name)}</a><br><span class="meta">${esc(r.publisher)}${r.check && r.check !== "loaded" ? ` · ${esc(r.check)}` : ""}</span></p>`).join("")}</div>`).join("")}</div></section>` : ""}
-      ${offices.length ? `<section class="section tight"><div class="layer-group"><h2>${esc(spine.name)}'s offices in Australia</h2><span class="rule"></span></div>
+      ${offices.length && place === spine ? `<section class="section tight"><div class="layer-group"><h2>${esc(spine.name)}'s offices in Australia</h2><span class="rule"></span></div>
         <p class="meta">Where to apply for a visa or ask for a rule in writing before you go. From the DFAT Protocol directory, read ${fmt(inAus.checked)}. Honorary consuls offer limited services.</p>
         <div class="grid">${offices.map((o) => `<div class="card"><h3>${esc(o.name)}</h3><p class="meta">${esc(o.type)}${o.honorary ? " · honorary" : ""}${o.city ? ` · ${esc(o.city)}${o.state ? ` ${esc(o.state)}` : ""}` : ""}</p>
           ${o.notice ? `<p><span class="chip gold">${esc(o.notice)}</span></p>` : ""}<p>${o.website ? `<a href="${esc(o.website)}">Website</a> · ` : ""}<a href="${esc(o.source)}">DFAT listing</a></p></div>`).join("")}</div></section>` : ""}
@@ -636,7 +660,7 @@
       <div class="card" style="border-top:4px solid var(--coral)"><h3>Trip watch</h3><p>Runs daily on the home computer and exits in seconds when no trip is near. Trip dates stay private.</p>
         <ul><li>Approach: from 90 days out, or earlier for long permit lead times</li><li>Countdown: 30 days, imminent: 7 days, then daily while there</li><li>Debrief: what the brief got right and missed</li></ul></div>
     </div></section>
-    <section class="section band"><div class="section-head"><div><h2>Laws stack. Seasons don't.</h2><p>Each pattern says how it reaches down the tree.</p></div></div>
+    <section class="section band"><div class="section-head"><div><h2>Laws stack. Seasons don't.</h2><p>Each pattern says how it reaches down the tree. Either way, a rule is shown once, on the page of the level that set it, and deeper pages link up to it.</p></div></div>
       <div class="grid wide">
         <div class="card"><h3>Stack</h3><p>Every level at once, country down to the place. A visitor on Minjerribah is bound by Australian, Queensland and Redland City law together.</p><div class="chips"><span class="chip">local law</span><span class="chip">culture and protocol</span><span class="chip">culture cycles</span><span class="chip">permit zones</span></div></div>
         <div class="card"><h3>Nearest</h3><p>The place's own record, else the closest level above that has one. Entry rules are set nationally, so an island uses its country's.</p><div class="chips"><span class="chip">entry</span><span class="chip">activities</span><span class="chip">health</span><span class="chip">seasons</span><span class="chip">consular</span><span class="chip">money</span></div></div>
@@ -663,7 +687,7 @@
     index.places.filter((p) => !p.id.includes("/")).forEach((p) => { (groups[p.region || ((p.tags || []).includes("oceania") ? "Pacific" : "More places")] ||= []).push(p); });
     const order = ["Pacific", "Asia", "Middle East", "Africa", "Europe", "Americas", "More places"];
     const pages = [
-      ["Find a place", [["places.html", "Places", "Search and browse every place, from countries to islands, councils and permit zones."], ["place.html?id=au/minjerribah", "A place page", "Every level's rules for one place, stacked. Example: Minjerribah."]]],
+      ["Find a place", [["places.html", "Places", "Search and browse every place, from countries to islands, councils and permit zones."], ["place.html?id=au/minjerribah", "A place page", "One place's own rules, with links up to the levels above it. Example: Minjerribah."]]],
       ["Before you go", [["advisories.html", "Advisories", "Today's Smartraveller advice levels and every change since tracking began."], ["upcoming.html", "Upcoming", "Dated events and open calls from GAJRA Earth Ahead, by month and place."]]],
       ["About this site", [["patterns.html", "Patterns", "The seventeen questions every place is checked against."], ["how.html", "How it works", "The checks, how rules reach down from country to council, culture and permit zones."], ["queue.html", "Queue", "What gets checked next."]]],
     ];
@@ -701,6 +725,7 @@
     IDX = index;
     const credits = Object.fromEntries(creditFile.images.map((c) => [c.page, c]));
     app.innerHTML = await render[page]({ index, credits });
+    if (location.hash) setTimeout(() => document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView({ behavior: "instant" }), 50);
   }
   main();
 })();

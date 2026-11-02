@@ -188,6 +188,9 @@ select.filter { appearance: auto; }
 /* Pattern levels on a place */
 .pattern-card { margin-bottom: 18px; }
 .pattern-card .q { color: var(--ink-2); font-style: italic; margin-bottom: 14px; }
+.up-card { margin-bottom: 22px; border-left: 4px solid var(--sky); }
+.up-card p { margin: 8px 0; line-height: 1.7; }
+.pattern-card { scroll-margin-top: 80px; }
 .levels { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--line); }
 .levels li { position: relative; padding: 6px 0 12px 20px; }
 .levels li::before { content: ""; position: absolute; left: -7px; top: 13px; width: 12px; height: 12px; border-radius: 50%; background: var(--c, var(--never)); box-shadow: 0 0 0 3px var(--surface); }
