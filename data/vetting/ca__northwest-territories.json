@@ -71,6 +71,58 @@
      "supports": "legal age, where to buy and public possession limit by province or territory (read via a search-index snapshot)"
     }
    ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "The minimum age to buy, possess and use cannabis in the Northwest Territories is 19, the same as the drinking age. Adults may carry up to 30 g of dried cannabis (or equivalent) in public. Legal cannabis is sold online by the NWT Liquor and Cannabis Commission (NTLCC) or in some NWT liquor stores.",
+     "source": "https://www.eia.gov.nt.ca/en/cannabis",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Use is limited to private property where tobacco smoking is allowed, trails and roadways (when not driving), and parks not in use for a public event. Smoking or vaping cannabis is banned in places children frequent, such as playgrounds, school grounds, sports fields and outdoor events. In a vehicle, cannabis must be unopened or stored out of reach of the driver and passengers.",
+     "source": "https://www.eia.gov.nt.ca/en/cannabis",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Community governments can make bylaws that add to the territory's rules on public use, and a community without a cannabis store can restrict or ban cannabis by plebiscite (a community vote).",
+     "source": "https://www.eia.gov.nt.ca/en/cannabis",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Drinking in a public place isn't allowed unless specifically authorised. Residences, licensed premises and remote places used for outdoor recreation don't count as public places; public intoxication is always an offence. Each community can choose by plebiscite an unrestricted, restricted, committee-run or prohibited liquor system, set in its own regulations, so check the community's rules before bringing alcohol.",
+     "source": "https://www.fin.gov.nt.ca/sites/fin/files/resources/nwt_liquor_legislation_review-discussion_guide.pdf",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cannabis in the NWT",
+     "authority": "Government of the Northwest Territories",
+     "url": "https://www.eia.gov.nt.ca/en/cannabis",
+     "checked": "2026-11-03",
+     "supports": "age 19, possession, where to buy, where you can use it, community bylaws and plebiscites"
+    },
+    {
+     "title": "NWT Liquor Legislation Review: discussion guide (March 2021)",
+     "authority": "Government of the Northwest Territories, Department of Finance",
+     "url": "https://www.fin.gov.nt.ca/sites/fin/files/resources/nwt_liquor_legislation_review-discussion_guide.pdf",
+     "checked": "2026-11-03",
+     "supports": "public place rule and community liquor systems as described in 2021"
+    }
+   ],
+   "notes": "Provincial or territorial law. Read with Canada's federal Cannabis Act and drug laws; never carry cannabis across the international border."
   }
  }
 }

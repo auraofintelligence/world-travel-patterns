@@ -49,7 +49,7 @@
   },
   "psychoactive-substances": {
    "status": "partly-mapped",
-   "checked": "2026-11-01",
+   "checked": "2026-11-03",
    "evidence": "official",
    "items": [
     {
@@ -58,6 +58,14 @@
      "text": "Adults 21 and over may possess, buy and carry up to 1 ounce of marijuana, of which no more than 5 g concentrate. Smoking in a public place or open space is a petty offence; no use while driving or riding in an operating vehicle; property owners can ban use.",
      "source": "https://azleg.gov/ars/36/02852.htm",
      "checked": "2026-11-01"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Kratom is legal to buy in Arizona under the Kratom Consumer Protection Act (A.R.S. 36-795 to 36-795.03), with limits on sellers: no sales to anyone under 18, no products with 7-hydroxymitragynine (a strong kratom alkaloid, called 7-OH) above 2% of the alkaloids, no synthetic alkaloids, and labels must state the mitragynine and 7-OH content. In December 2025 the Attorney General warned of synthetic 7-OH products being sold in the state and said she would seek a stronger law.",
+     "source": "https://www.azag.gov/node/1927",
+     "checked": "2026-11-03",
+     "by": "hand"
     }
    ],
    "sources": [
@@ -74,9 +82,55 @@
      "url": "https://www.azleg.gov/ars/36/02851.htm",
      "checked": "2026-11-01",
      "supports": "public smoking ban (read via a search-index snapshot)"
+    },
+    {
+     "title": "Consumer alert: Attorney General Mayes warns of dangerous synthetic opioids sold across Arizona (9 December 2025)",
+     "authority": "Arizona Attorney General",
+     "url": "https://www.azag.gov/node/1927",
+     "checked": "2026-11-03",
+     "supports": "kratom sale rules under A.R.S. 36-795"
     }
    ],
    "notes": "State law. Cannabis stays illegal under US federal law: no federal land, no crossing state lines, no flights."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drivers in Arizona may not hold or support a phone or other portable wireless device, or write, send or read texts, emails or internet data, while driving (A.R.S. 28-914). Voice calls through an earpiece, headphones or a wrist device, voice-commanded messages and hands-free navigation are allowed. The rule doesn't apply while parked or lawfully stopped.",
+     "penalty_signal": "Civil penalty of US$75 to US$149 for a first violation and US$400 for later ones, plus US$150 more if it causes a crash with a motorcycle (about A$107 to A$212, and A$568, at A$1 = US$0.7040, RBA 30 Oct 2026)",
+     "level": "state",
+     "source": "https://azleg.gov/ars/28/00914.htm",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "A driver who goes onto a flooded road that is barricaded because of flooding, and whose vehicle then stops working, is liable for the cost of the emergency response to remove them, their passengers or the vehicle (A.R.S. 28-910).",
+     "penalty_signal": "Liability of up to US$2,000 per incident (about A$2,840), on top of any other penalty",
+     "level": "state",
+     "source": "https://www.azleg.gov/ars/28/00910.htm",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "A.R.S. 28-914 Use of portable wireless communication device while driving",
+     "authority": "Arizona State Legislature",
+     "url": "https://azleg.gov/ars/28/00914.htm",
+     "checked": "2026-11-03",
+     "supports": "hands-free rule, exceptions, civil penalties"
+    },
+    {
+     "title": "A.R.S. 28-910 Liability for emergency responses in flood areas",
+     "authority": "Arizona State Legislature",
+     "url": "https://www.azleg.gov/ars/28/00910.htm",
+     "checked": "2026-11-03",
+     "supports": "liability for rescue costs, US$2,000 cap"
+    }
+   ]
   }
  }
 }

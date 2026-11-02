@@ -22,6 +22,113 @@
     "2027-10-11: Indigenous Peoples' Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drivers may not read or view a text message, or type by hand on a hand-held phone or other mobile device, for any purpose while driving, except to call for medical or other emergency help (NMSA 66-7-374).",
+     "level": "state",
+     "source": "https://www.nmlegis.gov/Sessions/14%20regular/final/SB0019.pdf",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Watercraft registered outside New Mexico, and boats re-entering the state, must be inspected for aquatic invasive species (pest mussels and plants carried on boats) and decontaminated if needed before launching. Stopping is compulsory at any inspection station that is open, boats must be drained (plug pulled) while carried on New Mexico roads, and a watercraft 26 feet (about 8 m) or longer needs 14 days' notice to the Department before it is brought in. Knowingly transporting aquatic invasive species into or within the state is unlawful.",
+     "level": "state",
+     "source": "https://wildlife.dgf.nm.gov/fishing/fishing-regulations/aquatic-invasive-species/",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Senate Bill 19 (2014), texting while driving, now NMSA 66-7-374",
+     "authority": "New Mexico Legislature",
+     "url": "https://www.nmlegis.gov/Sessions/14%20regular/final/SB0019.pdf",
+     "checked": "2026-11-03",
+     "supports": "texting and manual typing ban, emergency exception (read via a search-index snapshot of the statute text)"
+    },
+    {
+     "title": "Aquatic Invasive Species",
+     "authority": "New Mexico Department of Game and Fish (Department of Wildlife)",
+     "url": "https://wildlife.dgf.nm.gov/fishing/fishing-regulations/aquatic-invasive-species/",
+     "checked": "2026-11-03",
+     "supports": "mandatory inspection, stations, draining, 26-foot notice"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Adults 21 and over may buy, at one time, up to 2 ounces (about 57 g) of cannabis, 16 g of concentrate and 800 mg of edibles, and carry no more than that in public. More may be kept at home if it is out of public view. Using cannabis while driving or in public places such as restaurants, parks and footpaths is illegal, including at festivals and at dispensaries without a consumption lounge licence; use is limited to homes and licensed lounges. A public-use citation can bring a fine of up to US$50 (about A$71 at RBA 30 Oct 2026, A$1 = USD 0.7040).",
+     "source": "https://www.rld.nm.gov/2024/04/17/cannabis-control-division-reminds-public-to-consume-safely-ahead-of-springtime-events/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Patients enrolled in another US state's, territory's or Washington DC's medical cannabis program, or a New Mexico tribal program, can buy as reciprocal participants. They register at a participating dispensary on their first purchase and show government proof of enrolment and a government ID from the same state every time they buy. Not every dispensary takes reciprocal patients. As of March 2026, patients from Alabama and Louisiana were not eligible because those states don't issue cards.",
+     "source": "https://www.nmhealth.org/publication/view/guide/8907/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "psilocybin",
+     "kind": "law",
+     "changing": true,
+     "text": "The Medical Psilocybin Act (Senate Bill 219, signed April 2025, in force 20 June 2025) sets up a state-regulated program for the medical use of psilocybin, the active compound in some mushrooms, run by the Department of Health. Conditions named include treatment-resistant major depression, PTSD, substance use disorders and end-of-life care. The Act requires the program to be running by 31 December 2027; one Department of Health page gives 31 December 2026. A nine-member Medical Psilocybin Advisory Board was still meeting in October 2026 and rules were being written, so there was no patient access yet.",
+     "source": "https://www.nmhealth.org/about/mcpp/mpp/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cannabis Control Division reminds public to consume safely ahead of springtime events",
+     "authority": "New Mexico Regulation and Licensing Department, Cannabis Control Division",
+     "url": "https://www.rld.nm.gov/2024/04/17/cannabis-control-division-reminds-public-to-consume-safely-ahead-of-springtime-events/",
+     "checked": "2026-11-03",
+     "supports": "no use while driving or in public, festivals and dispensaries, US$50 fine (read via a search-index snapshot)"
+    },
+    {
+     "title": "New Mexico Adult-Use Cannabis",
+     "authority": "New Mexico Regulation and Licensing Department, Cannabis Control Division",
+     "url": "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/adult-use/",
+     "checked": "2026-11-03",
+     "supports": "2 oz, 16 g, 800 mg limits; unlimited at home out of view"
+    },
+    {
+     "title": "Participating in New Mexico's Medical Cannabis Program (reciprocal participants)",
+     "authority": "New Mexico Department of Health, Medical Cannabis Program",
+     "url": "https://www.nmhealth.org/publication/view/guide/8907/",
+     "checked": "2026-11-03",
+     "supports": "reciprocal participant rules (read via a search-index snapshot)"
+    },
+    {
+     "title": "Medical Psilocybin Program",
+     "authority": "New Mexico Department of Health",
+     "url": "https://www.nmhealth.org/about/mcpp/mpp/",
+     "checked": "2026-11-03",
+     "supports": "what the program is, conditions, in force 20 June 2025, page's 2026 date"
+    },
+    {
+     "title": "Senate Bill 219 (2025), Medical Psilocybin Act",
+     "authority": "New Mexico Legislature",
+     "url": "https://www.nmlegis.gov/Sessions/25%20Regular/bills/senate/SB0219.HTML",
+     "checked": "2026-11-03",
+     "supports": "31 December 2027 deadline, nine-member board (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules. Tribal nations within New Mexico set their own rules on their land."
   }
  }
 }

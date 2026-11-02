@@ -46,6 +46,51 @@
      "supports": "legal age, where to buy and public possession limit by province or territory (read via a search-index snapshot)"
     }
    ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "The legal age to buy and use cannabis is 19, the same as alcohol. Adults may carry up to 30 g in public. Cannabis is sold through private stores regulated by the Saskatchewan Liquor and Gaming Authority (SLGA).",
+     "source": "https://www.saskatchewan.ca/government/cannabis-in-saskatchewan/cannabis-use-in-saskatchewan",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Using cannabis in public places is banned, and so is using it in a vehicle, as driver or passenger. Set fines include C$200 (about A$203) for using it in a public place or carrying more than 30 g in public, C$300 (about A$305) for possessing or using it in a vehicle, and C$1,000 (about A$1,016) for using it at a school or child care facility, at the RBA rate of 30 October 2026, A$1 = CAD 0.9838.",
+     "source": "https://www.saskatchewan.ca/government/cannabis-in-saskatchewan/cannabis-use-in-saskatchewan",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "The legal drinking age is 19. Since 23 May 2023 municipalities and park authorities can pass a bylaw designating outdoor public places, such as parks, where adults may drink; the areas and hours must be posted, and provincial liquor rules still apply there.",
+     "source": "https://www.saskatchewan.ca/government/news-and-media/2023/may/18/changes-to-the-alcohol-and-gaming-regulation-act-come-into-force",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cannabis use in Saskatchewan",
+     "authority": "Government of Saskatchewan",
+     "url": "https://www.saskatchewan.ca/government/cannabis-in-saskatchewan/cannabis-use-in-saskatchewan",
+     "checked": "2026-11-03",
+     "supports": "age, possession, stores, public and vehicle bans, set fines"
+    },
+    {
+     "title": "Changes to The Alcohol and Gaming Regulation Act come into force (18 May 2023)",
+     "authority": "Government of Saskatchewan",
+     "url": "https://www.saskatchewan.ca/government/news-and-media/2023/may/18/changes-to-the-alcohol-and-gaming-regulation-act-come-into-force",
+     "checked": "2026-11-03",
+     "supports": "designated outdoor drinking places from 23 May 2023"
+    }
+   ],
+   "notes": "Provincial or territorial law. Read with Canada's federal Cannabis Act and drug laws; never carry cannabis across the international border."
   }
  }
 }

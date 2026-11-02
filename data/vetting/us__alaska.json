@@ -46,6 +46,98 @@
     "2027-10-11: Indigenous Peoples' Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Adults 21 and over may possess and carry up to 1 ounce (about 28 g) of cannabis and give up to 1 ounce to another adult; buying is from licensed retail stores only. Using it in any public place is illegal and is a violation with a fine of up to US$100 (about A$142 at A$1 = US$0.7040, RBA 30 Oct 2026).",
+     "source": "https://www.commerce.alaska.gov/web/Portals/9/pub/MCB/StatutesAndRegulations/AS17.38.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Local option: Alaska law (AS 04.11.491) lets a community vote to ban the sale of alcohol, the sale and importation of alcohol, or the sale, importation and possession of alcohol. More than 100 mostly rural communities have held these votes. In a community that bans importation, nobody may bring alcohol in; where possession is banned, having any alcohol there is an offence (sacramental wine excepted), with a fine of up to US$1,000 (about A$1,420). Some damp communities (sales banned) need a local permit to buy or possess. Check the Alcoholic Beverage Control Board's current list before carrying alcohol to a rural town or village, including by small plane or boat.",
+     "source": "https://www.commerce.alaska.gov/web/Portals/9/pub/ABC/DryDampCommunities/Local%20Option%20Communities%20-%20Rev%206.5.23.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "AS 17.38 The regulation of marijuana",
+     "authority": "Alcohol and Marijuana Control Office, State of Alaska",
+     "url": "https://www.commerce.alaska.gov/web/Portals/9/pub/MCB/StatutesAndRegulations/AS17.38.pdf",
+     "checked": "2026-11-03",
+     "supports": "age 21, 1 ounce, public use banned, fine up to US$100 (read via a search-index snapshot; the state site refused direct fetches)"
+    },
+    {
+     "title": "Local option communities (revision 5 June 2023)",
+     "authority": "Alcoholic Beverage Control Board, State of Alaska",
+     "url": "https://www.commerce.alaska.gov/web/Portals/9/pub/ABC/DryDampCommunities/Local%20Option%20Communities%20-%20Rev%206.5.23.pdf",
+     "checked": "2026-11-03",
+     "supports": "communities by type of ban (read via a search-index snapshot)"
+    },
+    {
+     "title": "Title 4 local option law controlling alcohol in Alaska's cities and villages",
+     "authority": "Department of Commerce, Community and Economic Development, State of Alaska",
+     "url": "https://www.commerce.alaska.gov/web/portals/4/pub/title4localoptionlaw.pdf",
+     "checked": "2026-11-03",
+     "supports": "the options, importation and possession bans, fine up to US$1,000, over 100 communities (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law. Read with the national rules (in the US, cannabis stays illegal federally: no federal land, no crossing state lines). The local option list is dated June 2023; a community's status can change after a vote."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "It is a crime in Alaska to drive while reading or typing a text, communicating on a computer, or with a screen device operating in the driver's view (AS 28.35.161). Causing a death this way is a class A felony.",
+     "level": "state",
+     "source": "https://www.akleg.gov/basis/statutes.asp#28.35.161",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Non-residents 16 and over need an Alaska sport fishing licence to fish in fresh or salt water, and anyone fishing for king salmon (catch-and-release included) also needs a current king salmon stamp. Non-residents under 16 need no licence but may need a free harvest record card. Licences and stamps are sold by the Alaska Department of Fish and Game online, in its app and through vendors.",
+     "penalty_signal": "2026 non-resident king salmon stamps range from US$15 for 1 day to US$100 for a year (about A$21 to A$142 at A$1 = US$0.7040, RBA 30 Oct 2026)",
+     "level": "state",
+     "source": "https://www.adfg.alaska.gov/index.cfm?adfg=sportlicense.main",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Alaska Statutes 28.35.161 Driving while texting, while communicating on a computer, or while a screen device is operating",
+     "authority": "Alaska State Legislature",
+     "url": "https://www.akleg.gov/basis/statutes.asp#28.35.161",
+     "checked": "2026-11-03",
+     "supports": "the offence (text read via a published copy of the statute; the state site refused direct fetches)"
+    },
+    {
+     "title": "Sport fishing licences and king salmon stamps",
+     "authority": "Alaska Department of Fish and Game",
+     "url": "https://www.adfg.alaska.gov/index.cfm?adfg=sportlicense.main",
+     "checked": "2026-11-03",
+     "supports": "who needs a licence and stamp (read via a search-index snapshot)"
+    },
+    {
+     "title": "2026 Southcentral sport fishing regulations: licensing",
+     "authority": "Alaska Department of Fish and Game",
+     "url": "https://www.adfg.alaska.gov/static/regulations/fishregulations/PDFs/southcentral/2026sc_sfregs_licensing.pdf",
+     "checked": "2026-11-03",
+     "supports": "age thresholds, harvest record card, stamp prices (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

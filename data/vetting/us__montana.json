@@ -46,6 +46,85 @@
     "2027-10-11: Columbus Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Every watercraft entering Montana must be inspected for aquatic invasive species (pest mussels and plants carried on boats) before it is launched on Montana waters, and must stop at any open Montana inspection station. Boats with ballast tanks or bladders, such as wakeboard boats, must be decontaminated first. Nonresident watercraft also need a Vessel AIS Prevention Pass before launching. Transporting aquatic invasive species, dead or alive, is illegal.",
+     "penalty_signal": "Pass: US$30 motorised, US$10 non-motorised (about A$43 and A$14 at RBA 30 Oct 2026, A$1 = USD 0.7040).",
+     "level": "state",
+     "source": "https://fwp.mt.gov/buyandapply/aquatic-invasive-species-prevention-pass",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Everyone who fishes in Montana needs a fishing licence and an Angler AIS Prevention Pass, bought with the licence. There is no pass fee for youth 15 and under.",
+     "penalty_signal": "Angler pass: US$7.50 for nonresidents (about A$11 at RBA 30 Oct 2026, A$1 = USD 0.7040).",
+     "level": "state",
+     "source": "https://fwp.mt.gov/buyandapply/aquatic-invasive-species-prevention-pass",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Aquatic Invasive Species Prevention Pass",
+     "authority": "Montana Fish, Wildlife and Parks",
+     "url": "https://fwp.mt.gov/buyandapply/aquatic-invasive-species-prevention-pass",
+     "checked": "2026-11-03",
+     "supports": "inspection before launch, vessel and angler passes, fees"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Adults 21 and over may possess, buy, use and transport up to 1 ounce (about 28 g) of usable marijuana, with separate limits for concentrates and edibles. A retail sale to an adult-use customer is capped at 1 ounce of flower, and flower may not exceed 35% total THC.",
+     "source": "https://mca.legmt.gov/bills/mca/title_0160/chapter_0120/part_0010/section_0060/0160-0120-0010-0060.html",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Consuming marijuana in a public place or on public transport such as trains and buses is not allowed, except where the Department of Revenue licenses it. Consuming it while driving, or as a passenger in the enclosed part of a moving vehicle, is not allowed. Smoking in a public place carries a civil fine of up to US$50 (about A$71 at RBA 30 Oct 2026, A$1 = USD 0.7040).",
+     "source": "https://mca.legmt.gov/bills/mca/title_0160/chapter_0120/part_0010/section_0080/0160-0120-0010-0080.html",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "MCA 16-12-106 Personal use and cultivation of marijuana",
+     "authority": "Montana Legislature",
+     "url": "https://mca.legmt.gov/bills/mca/title_0160/chapter_0120/part_0010/section_0060/0160-0120-0010-0060.html",
+     "checked": "2026-11-03",
+     "supports": "age 21, 1 oz, US$50 civil fine for smoking in public"
+    },
+    {
+     "title": "MCA 16-12-108 Limitations of act",
+     "authority": "Montana Legislature",
+     "url": "https://mca.legmt.gov/bills/mca/title_0160/chapter_0120/part_0010/section_0080/0160-0120-0010-0080.html",
+     "checked": "2026-11-03",
+     "supports": "no public or public-transport use, no use while driving or as a passenger"
+    },
+    {
+     "title": "Adult-use marijuana retail sales limits",
+     "authority": "Montana Department of Revenue, Cannabis Control Division",
+     "url": "https://revenue.mt.gov/card/cannabis/education/adult-use-marijuana-retail-sales-limits",
+     "checked": "2026-11-03",
+     "supports": "1 oz per sale, 35% THC cap on flower"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules."
   }
  }
 }

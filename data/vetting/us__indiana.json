@@ -48,6 +48,91 @@
     "2027-10-11: Columbus Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Indiana has no medical or adult-use cannabis. Possessing marijuana, hash oil or hashish is a Class B misdemeanour (Indiana Code 35-48-4-11), rising to a more serious offence for larger amounts with a prior drug conviction. Cannabis bought legally in a neighbouring state is still covered once in Indiana.",
+     "source": "https://iga.in.gov/ic/2026/Title_35/Article_48.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Alcohol may be served from 7 am to 3 am every day. Carry-out sales (from shops) on Sunday are allowed only from noon to 8 pm (Indiana Code 7.1-3-1-14).",
+     "source": "https://faqs.in.gov/hc/en-us/articles/115005237828-What-are-the-legal-hours-for-dispensing-alcoholic-beverages",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Indiana Code title 35, article 48: controlled substances (2026)",
+     "authority": "Indiana General Assembly",
+     "url": "https://iga.in.gov/ic/2026/Title_35/Article_48.pdf",
+     "checked": "2026-11-03",
+     "supports": "possession of marijuana a Class B misdemeanour (read via a search-index snapshot)"
+    },
+    {
+     "title": "What are the legal hours for dispensing alcoholic beverages?",
+     "authority": "State of Indiana",
+     "url": "https://faqs.in.gov/hc/en-us/articles/115005237828-What-are-the-legal-hours-for-dispensing-alcoholic-beverages",
+     "checked": "2026-11-03",
+     "supports": "7 am to 3 am (read via a search-index snapshot)"
+    },
+    {
+     "title": "Acts 2018 (amending IC 7.1-3-1-14)",
+     "authority": "Indiana General Assembly",
+     "url": "https://iga.in.gov/ic/2018/2018%20Acts.pdf",
+     "checked": "2026-11-03",
+     "supports": "Sunday carry-out from noon to 8 pm (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law. Read with the national rules (in the US, cannabis stays illegal federally: no federal land, no crossing state lines)."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Indiana drivers may not hold or use a phone or other telecommunications device while the vehicle is moving (Indiana Code 9-21-8-59, from 1 July 2020), and state guidance says holding a phone is banned even at red lights. Hands-free or voice-operated use, including hands-free GPS, is allowed, and a phone may be held to call 911 in an emergency.",
+     "penalty_signal": "Class C infraction: fine of up to US$500 (about A$710 at A$1 = US$0.7040, RBA 30 Oct 2026) and points on the licence",
+     "level": "state",
+     "source": "https://www.in.gov/cji/traffic-safety/distracted-driving/",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Distracted driving",
+     "authority": "Indiana Criminal Justice Institute",
+     "url": "https://www.in.gov/cji/traffic-safety/distracted-driving/",
+     "checked": "2026-11-03",
+     "supports": "Class C infraction, fine up to US$500, points (read via a search-index snapshot)"
+    },
+    {
+     "title": "Indiana hands-free driving law frequently asked questions",
+     "authority": "Indiana Department of Transportation",
+     "url": "https://www.in.gov/indot/files/faqfinalhf.pdf",
+     "checked": "2026-11-03",
+     "supports": "hands-free GPS allowed (read via a search-index snapshot)"
+    },
+    {
+     "title": "Distracted driving FAQs",
+     "authority": "Indiana Criminal Justice Institute",
+     "url": "https://www.in.gov/cji/traffic-safety/files/ICJI_DistractedDriving-FAQs.pdf",
+     "checked": "2026-11-03",
+     "supports": "holding banned at red lights (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

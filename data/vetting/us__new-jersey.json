@@ -59,6 +59,15 @@
      "text": "Adults 21 and over may buy at licensed dispensaries and possess up to 6 ounces of cannabis and cannabis products. Public consumption isn't allowed; use on private property unless the owner restricts it, or in licensed consumption areas attached to dispensaries (21+, no alcohol or tobacco).",
      "source": "https://www.nj.gov/cannabis/resources/faqs/general/",
      "checked": "2026-11-01"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "A 2025 state law (P.L.2025, c.215, amended in 2026) brings intoxicating hemp products (THC products made from hemp) under the Cannabis Regulatory Commission. Since 13 April 2026, a product with more than 0.4 mg of total THC per container is no longer treated as hemp; hemp-derived THC products may be sold only by licensed Class 5 cannabis retailers, never online, and never to anyone under 21. Shops with alcohol distribution licences could sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2026 those drinks are treated as cannabis and sold only by licensed cannabis retailers.",
+     "source": "https://www.nj.gov/cannabis/resources/faqs/intoxicating-hemp/",
+     "checked": "2026-11-03",
+     "by": "hand"
     }
    ],
    "sources": [
@@ -68,9 +77,54 @@
      "url": "https://www.nj.gov/cannabis/resources/faqs/general/",
      "checked": "2026-11-01",
      "supports": "6 oz limit and where to use (read via a search-index snapshot)"
+    },
+    {
+     "title": "Intoxicating hemp-derived products FAQ",
+     "authority": "New Jersey Cannabis Regulatory Commission",
+     "url": "https://www.nj.gov/cannabis/resources/faqs/intoxicating-hemp/",
+     "checked": "2026-11-03",
+     "supports": "0.4 mg per container limit from 13 April 2026, Class 5 retailers only, no online sales, age 21, beverage cut-off 13 November 2026"
     }
    ],
    "notes": "State law. Cannabis stays illegal under US federal law: no federal land, no crossing state lines, no flights."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Using a hand-held phone or electronic device while driving a moving vehicle on a public road is illegal; talking, listening, texting and sending messages all count (N.J.S.A. 39:4-97.3). Hands-free use is allowed, and a hand may be used to start or end a function. Hand-held use is allowed only to report an emergency or when the driver fears for their safety. Police can stop a driver for this offence alone.",
+     "penalty_signal": "US$200 to US$400 first offence, US$400 to US$600 second, US$600 to US$800 third or later, plus 3 licence points and a possible 90-day loss of licence from the third (about A$284 to A$568 for a first offence at RBA 30 Oct 2026, A$1 = USD 0.7040).",
+     "level": "state",
+     "source": "https://www.nj.gov/oag/hts/downloads/2013c70_law.pdf",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drivers may not pump their own fuel at New Jersey petrol stations. The Retail Gasoline Dispensing Safety Act (N.J.S.A. 34:3A-4 and following) says only a trained station attendant may dispense fuel into a vehicle or container, and stations must post a notice that serving yourself is unlawful.",
+     "level": "state",
+     "source": "https://nj.gov/labor/lsse/employee/Retail_Gasoline.html",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "P.L.2013, c.70 (N.J.S.A. 39:4-97.3) Use of wireless telephone in moving vehicles",
+     "authority": "State of New Jersey, Office of the Attorney General, Division of Highway Traffic Safety",
+     "url": "https://www.nj.gov/oag/hts/downloads/2013c70_law.pdf",
+     "checked": "2026-11-03",
+     "supports": "hand-held ban, exceptions, fines, points and suspension"
+    },
+    {
+     "title": "Retail Gasoline Dispensing Safety Act and regulations",
+     "authority": "New Jersey Department of Labor and Workforce Development",
+     "url": "https://nj.gov/labor/lsse/employee/Retail_Gasoline.html",
+     "checked": "2026-11-03",
+     "supports": "attendant-only fuelling, self-service notice (read via a search-index snapshot; the page now redirects to the department's safety and health section)"
+    }
+   ]
   }
  }
 }

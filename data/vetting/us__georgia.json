@@ -46,6 +46,83 @@
     "2027-10-11: Columbus Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Georgia has no adult-use cannabis. Its medical program lets registered patients and caregivers with a Medical Cannabis Patient Registry Card possess up to 12,000 mg of THC, bought only from Commission-licensed dispensaries or licensed independent pharmacies. Vape products are allowed but smoking cannabis is banned by state law. There is no reciprocity with other states: a card from another state may be recognised only if it allows the same possession as Georgia law and the holder has been in Georgia for less than 45 days, and visitors can't buy at Georgia dispensaries.",
+     "source": "https://www.gmcc.ga.gov/faqs",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FAQs",
+     "authority": "Georgia Access to Medical Cannabis Commission",
+     "url": "https://www.gmcc.ga.gov/faqs",
+     "checked": "2026-11-03",
+     "supports": "12,000 mg limit, no smoking, purchases by registered patients only, no reciprocity, 45-day rule"
+    },
+    {
+     "title": "For law enforcement: low THC oil registry",
+     "authority": "Georgia Department of Public Health",
+     "url": "https://dph.georgia.gov/low-thc-oil-registry/law-enforcement",
+     "checked": "2026-11-03",
+     "supports": "out-of-state card recognised under 45 days (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law. Read with the national rules (in the US, cannabis stays illegal federally: no federal land, no crossing state lines)."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Under the Hands-Free Georgia Act (O.C.G.A. 40-6-241, from 1 July 2018), drivers may not hold or support a phone with any part of the body, write, read or send texts, emails or social media, watch video other than navigation, or record video (running dash cams excepted). Hands-free calls, voice-to-text, GPS and music set up before driving are allowed. The only stop exemption is for a lawfully parked vehicle.",
+     "penalty_signal": "US$50 and 1 point for a first conviction, US$100 and 2 points for a second and US$150 and 3 points for a third within 24 months (about A$71, A$142 and A$213 at A$1 = US$0.7040, RBA 30 Oct 2026); a first charge can be dropped by showing the court a hands-free device",
+     "level": "state",
+     "source": "https://www.gahighwaysafety.org/hands-free-law/",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Visitors with a foreign driver's licence don't need a Georgia licence unless they become Georgia residents. Carry the foreign licence, and a passport or visa, as police may ask for it to check the licence. The state drivers manual requires an International Driving Permit if the licence is not in English.",
+     "level": "state",
+     "source": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/new-georgia-residents-and-out-state-1",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hands-free law",
+     "authority": "Georgia Governor's Office of Highway Safety",
+     "url": "https://www.gahighwaysafety.org/hands-free-law/",
+     "checked": "2026-11-03",
+     "supports": "what is banned and allowed, fines and points"
+    },
+    {
+     "title": "Drivers from other nations",
+     "authority": "Georgia Department of Driver Services",
+     "url": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/new-georgia-residents-and-out-state-1",
+     "checked": "2026-11-03",
+     "supports": "foreign licence holders, passport or visa"
+    },
+    {
+     "title": "Drivers manual, section 1: general licensing information",
+     "authority": "Georgia Department of Driver Services",
+     "url": "https://dds.georgia.gov/section-1-general-licensing-information",
+     "checked": "2026-11-03",
+     "supports": "International Driving Permit for non-English licences (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

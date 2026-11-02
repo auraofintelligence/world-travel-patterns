@@ -47,6 +47,78 @@
     "2027-10-11: Indigenous Peoples' Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Iowa has no adult-use cannabis. Its medical cannabidiol program issues cards only to permanent Iowa residents 18 and over certified by a health care practitioner. A valid card from another state gives no defence in Iowa for a cannabis product that Iowa prohibits.",
+     "source": "https://www.legis.iowa.gov/docs/publications/CLE/1544022.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "Hemp products: since a 2024 law (HF 2605), consumable hemp products may hold no more than 4 mg of total THC per serving and 10 mg per container, and only people 21 and over may buy or possess them. Selling or possessing hemp products above those limits is prohibited, including products bought in other states or online.",
+     "source": "https://www.legis.iowa.gov/docs/publications/CLE/1544022.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cannabis regulation in Iowa (briefing by the Bureau Chief, Cannabis Regulation)",
+     "authority": "Iowa Department of Health and Human Services, via the Iowa Legislature",
+     "url": "https://www.legis.iowa.gov/docs/publications/CLE/1544022.pdf",
+     "checked": "2026-11-03",
+     "supports": "residents-only medical program, hemp limits and age 21 (read via a search-index snapshot)"
+    },
+    {
+     "title": "ARC 8124C medical cannabidiol rules",
+     "authority": "Iowa Administrative Rules",
+     "url": "https://rules.iowa.gov/Notice/Details/8124C",
+     "checked": "2026-11-03",
+     "supports": "no defence for out-of-state cardholders with products Iowa prohibits (read via a search-index snapshot)"
+    },
+    {
+     "title": "Consumable hemp",
+     "authority": "Iowa Department of Health and Human Services",
+     "url": "https://hhs.iowa.gov/health-prevention/consumable-hemp",
+     "checked": "2026-11-03",
+     "supports": "HHS regulates consumable hemp under Iowa Code chapter 204"
+    }
+   ],
+   "notes": "State law. Read with the national rules (in the US, cannabis stays illegal federally: no federal land, no crossing state lines)."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Since Senate File 22 of 2025, Iowa drivers may not use an electronic device (phone, tablet, gaming device) while driving, where use includes holding, viewing or manipulating it, unless the vehicle is at a complete stop off the travelled part of the road. Voice-activated or hands-free mode (single touch) and GPS are allowed, but not video calls, video streaming or reading messages. Police gave warnings only until 1 January 2026; since then they issue citations.",
+     "penalty_signal": "Simple misdemeanour with a scheduled fine of US$100 (about A$142 at A$1 = US$0.7040, RBA 30 Oct 2026), plus surcharge and court costs",
+     "level": "state",
+     "source": "https://www.legis.iowa.gov/docs/publications/LGE/91/SF22.pdf",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Senate File 22 (enrolled, approved 2 April 2025)",
+     "authority": "Iowa Legislature",
+     "url": "https://www.legis.iowa.gov/docs/publications/LGE/91/SF22.pdf",
+     "checked": "2026-11-03",
+     "supports": "definition of use, exceptions, warning period ending 1 January 2026, US$100 scheduled fine"
+    }
+   ]
   }
  }
 }

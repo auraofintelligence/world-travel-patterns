@@ -48,6 +48,85 @@
     "2027-10-11: Indigenous Peoples' Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drivers may not read or write text messages or emails while the vehicle is moving (G.S. 20-137.4A). Drivers under 18 may not use a phone at all while driving, except in an emergency or to talk to a parent or spouse. A bill for a wider hands-free law (Senate Bill 797, the Hands Free NC Act) was before the General Assembly in 2025 and 2026; it had not been confirmed as law when checked.",
+     "penalty_signal": "US$100 plus court costs (about A$142 at RBA 30 Oct 2026, A$1 = USD 0.7040); no licence points.",
+     "level": "state",
+     "source": "https://www.ncdot.gov/initiatives-policies/safety/driving-safety/Pages/driving-laws.aspx",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drivers must move over a lane, or slow down considerably, when passing stopped emergency vehicles, including NCDOT vehicles, with flashing lights. Injury or damage can bring misdemeanour or felony charges.",
+     "penalty_signal": "US$250 fine (about A$355 at RBA 30 Oct 2026, A$1 = USD 0.7040).",
+     "level": "state",
+     "source": "https://www.ncdot.gov/initiatives-policies/safety/driving-safety/Pages/driving-laws.aspx",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "North Carolina driving laws",
+     "authority": "North Carolina Department of Transportation",
+     "url": "https://www.ncdot.gov/initiatives-policies/safety/driving-safety/Pages/driving-laws.aspx",
+     "checked": "2026-11-03",
+     "supports": "texting ban and fine, under-18 rule, move-over law"
+    },
+    {
+     "title": "Bill summary for S 797 (2025-2026), Hands Free NC Act",
+     "authority": "Signal: UNC School of Government legislative reporting",
+     "url": "https://lrs.sog.unc.edu/node/575630",
+     "checked": "2026-11-03",
+     "supports": "the bill and its proposed 1 December 2026 start (read via a search-index snapshot; passage not confirmed)"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Cannabis is not legal for adult or medical use under North Carolina law. Possessing half an ounce (about 14 g) of marijuana or less is a Class 3 misdemeanour, and any jail sentence must be suspended; more than half an ounce is a Class 1 misdemeanour, and more than 1.5 ounces (about 42 g) is a felony (G.S. 90-95(d)(4)). Lower thresholds apply to hashish and extracts.",
+     "source": "https://www.ncleg.gov/enactedlegislation/statutes/html/bysection/chapter_90/gs_90-95.html",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Spirits are sold only in ABC stores run by local ABC boards, or by the drink in licensed bars and restaurants (G.S. 18B-800). ABC stores may not open between 9 pm and 9 am, and are closed on Sundays, Thanksgiving Day and Christmas Day (G.S. 18B-802). Bills to let counties allow Sunday ABC store sales were drafted in 2023 and 2025; check the current statute.",
+     "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_18B/GS_18B-802.html",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "G.S. 90-95 Violations; penalties",
+     "authority": "North Carolina General Assembly",
+     "url": "https://www.ncleg.gov/enactedlegislation/statutes/html/bysection/chapter_90/gs_90-95.html",
+     "checked": "2026-11-03",
+     "supports": "possession thresholds and classes (read via a search-index snapshot)"
+    },
+    {
+     "title": "G.S. 18B-800 and 18B-802",
+     "authority": "North Carolina General Assembly",
+     "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_18B/GS_18B-802.html",
+     "checked": "2026-11-03",
+     "supports": "ABC stores only, hours, Sunday and holiday closing (read via a search-index snapshot; the page refused direct fetch)"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules. The Eastern Band of Cherokee Indians sets its own rules on its land."
   }
  }
 }

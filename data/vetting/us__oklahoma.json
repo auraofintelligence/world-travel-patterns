@@ -47,6 +47,93 @@
     "2027-10-11: Indigenous Peoples' Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drivers may not use a hand-held device to type, send or read a text message while the vehicle is moving (47 O.S. 11-901d, in force since November 2015). Hands-free and voice-operated use is allowed, as is calling emergency services. Since 1 November 2025 drivers also may not use a hand-held phone or other device at all in active school zones and work zones (House Bill 2263), with the same penalties.",
+     "penalty_signal": "Up to US$100 (about A$142 at RBA 30 Oct 2026, A$1 = USD 0.7040); no licence points.",
+     "level": "state",
+     "source": "https://www.okhouse.gov/posts/news-20251027_1",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "47 O.S. 11-901d Composing, sending, reading text message while vehicle in motion",
+     "authority": "Oklahoma State Courts Network (Oklahoma Statutes)",
+     "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=476472",
+     "checked": "2026-11-03",
+     "supports": "texting ban, exceptions, US$100 fine, no points (read via a search-index snapshot)"
+    },
+    {
+     "title": "New law requires drivers to go hands-free (27 October 2025)",
+     "authority": "Oklahoma House of Representatives",
+     "url": "https://www.okhouse.gov/posts/news-20251027_1",
+     "checked": "2026-11-03",
+     "supports": "hand-held ban in active school and work zones from 1 November 2025, same penalties"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Oklahoma allows cannabis for licensed medical patients. A visitor holding a medical marijuana licence issued by another US state's government can apply to the Oklahoma Medical Marijuana Authority for an out-of-state (temporary) patient licence, valid for 30 days and renewable from a week before it expires; it lets the holder buy, use and grow medical marijuana in Oklahoma. Prescriptions or recommendations from out-of-state doctors are not accepted on their own.",
+     "source": "https://oklahoma.gov/omma/patients-caregivers/patient-licenses.html",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "figure",
+     "text": "The temporary licence costs US$100 plus a US$4.30 card fee (about A$148 in total at RBA 30 Oct 2026, A$1 = USD 0.7040), with no reduced fee for temporary patients.",
+     "source": "https://oklahoma.gov/omma/patients-caregivers/patient-licenses.html",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "changing": true,
+     "text": "Kratom (a leaf product from a Southeast Asian tree) is legal to sell in Oklahoma under rules that took effect on 1 November 2025 (Senate Bill 891): sales to anyone under 18 are banned, products must carry that warning, synthesised alkaloids are banned, and 7-hydroxymitragynine (7-OH, a strong kratom compound) may make up no more than 1% of a product's total kratom alkaloids. In September 2026 a state representative said he would file a bill to list 7-OH and related compounds as Schedule I controlled substances.",
+     "source": "https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/SB/SB891%20ENR.PDF",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Patient licenses",
+     "authority": "Oklahoma Medical Marijuana Authority",
+     "url": "https://oklahoma.gov/omma/patients-caregivers/patient-licenses.html",
+     "checked": "2026-11-03",
+     "supports": "temporary out-of-state licence: requirements, 30 days, fee, what it allows"
+    },
+    {
+     "title": "Enrolled Senate Bill 891 (2025)",
+     "authority": "Oklahoma Legislature",
+     "url": "https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/SB/SB891%20ENR.PDF",
+     "checked": "2026-11-03",
+     "supports": "kratom rules from 1 November 2025 (read via a search-index snapshot)"
+    },
+    {
+     "title": "Turner to pursue legislation to ban kratom (18 September 2026)",
+     "authority": "Oklahoma House of Representatives",
+     "url": "https://www.okhouse.gov/posts/news-20260918_1",
+     "checked": "2026-11-03",
+     "supports": "proposed Schedule I listing of 7-OH (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules. Tribal nations within Oklahoma set their own rules on their land."
   }
  }
 }

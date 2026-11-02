@@ -22,6 +22,112 @@
     "2027-10-11: Columbus Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Ohio's hands-free law (Ohio Revised Code 4511.204, in force April 2023, with tickets since October 2023) bans drivers from holding or using a phone or other electronic wireless device while driving. It is a primary offence: police can stop a driver for it alone.",
+     "penalty_signal": "Up to US$150 and 2 licence points for a first offence, up to US$250 with one prior offence in 2 years, up to US$500 and a possible 90-day suspension with two or more (about A$213, A$355 and A$710 at RBA 30 Oct 2026, A$1 = USD 0.7040).",
+     "level": "state",
+     "source": "https://codes.ohio.gov/assets/laws/revised-code/authenticated/45/4511/4511.204/4-4-2023/4511.204-4-4-2023.pdf",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ohio Revised Code 4511.204 Driving while using an electronic wireless communications device (authenticated, 4 April 2023)",
+     "authority": "Ohio Legislative Service Commission, Ohio Laws",
+     "url": "https://codes.ohio.gov/assets/laws/revised-code/authenticated/45/4511/4511.204/4-4-2023/4511.204-4-4-2023.pdf",
+     "checked": "2026-11-03",
+     "supports": "fine tiers and suspension (read via a search-index snapshot; the site refused the connection)"
+    },
+    {
+     "title": "Motor vehicle crashes decrease following year of strengthened distracted driving enforcement",
+     "authority": "Office of the Governor of Ohio",
+     "url": "https://governor.ohio.gov/media/news-and-media/motor-vehicle-crashes-decrease-following-year-of-strengthened-distracted-driving-enforcement",
+     "checked": "2026-11-03",
+     "supports": "primary offence, enforcement from October 2023, 2 points (read via a search-index snapshot)"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "Adults 21 and over may possess no more than 2.5 ounces (about 71 g) of marijuana plant material and 15 g of extract in total, counting home-grown and bought cannabis together (Ohio Revised Code 3796.221). Since Senate Bill 56 took effect on 20 March 2026, only marijuana bought from an Ohio dispensary or grown at home in Ohio is legal to possess: cannabis bought in another state, even legally, is not. The law also cut the THC cap for adult-use extracts from 90% to 70%.",
+     "source": "https://www.legislature.ohio.gov/download?key=27450",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "Since 20 March 2026, smoking or vaping marijuana is banned in public places, workplaces, child-care homes, halfway houses and rented homes, and is allowed only on private residential or agricultural property. Breaking this is a minor misdemeanour. Smoking or vaping in a vehicle, boat or aircraft, including as a passenger, carries a higher penalty (a third-degree misdemeanour).",
+     "source": "https://www.legislature.ohio.gov/download?key=27450",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "Senate Bill 56 also banned the making and sale of intoxicating hemp products (THC products made from hemp) from 20 March 2026; the state's cannabis regulator says they can no longer be bought legally anywhere in Ohio. The Governor vetoed a grace period that would have let low-dose hemp THC drinks be sold until the end of 2026.",
+     "source": "https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/ohio-cannabis-faq",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "evidence": "signal",
+     "text": "A citizens' referendum to suspend Senate Bill 56 did not gather enough signatures by its March 2026 deadline, so the changes took effect.",
+     "source": "https://www.fox19.com/2026/03/18/massive-overhaul-ohio-cannabis-laws-way-after-group-fails-stop-sb-56",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Final Analysis, Sub. S.B. 56 (136th General Assembly), 2 April 2026",
+     "authority": "Ohio Legislative Service Commission",
+     "url": "https://www.legislature.ohio.gov/download?key=27450",
+     "checked": "2026-11-03",
+     "supports": "effective 20 March 2026, Ohio-sourced cannabis only, smoking and vaping limits, penalties, 70% extract cap (read via a search-index snapshot)"
+    },
+    {
+     "title": "Ohio Revised Code 3796.221",
+     "authority": "Ohio Legislative Service Commission, Ohio Laws",
+     "url": "https://codes.ohio.gov/ohio-revised-code/section-3796.221",
+     "checked": "2026-11-03",
+     "supports": "2.5 oz and 15 g combined limits (read via a search-index snapshot; the site refused the connection)"
+    },
+    {
+     "title": "Ohio Cannabis FAQ",
+     "authority": "Ohio Department of Commerce, Division of Cannabis Control",
+     "url": "https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/ohio-cannabis-faq",
+     "checked": "2026-11-03",
+     "supports": "age 21, SB 56 in force 20 March 2026, intoxicating hemp banned (read via a search-index snapshot; the page returned not found on direct fetch)"
+    },
+    {
+     "title": "Massive overhaul to Ohio cannabis laws on the way after group fails to stop SB 56",
+     "authority": "Signal: FOX19",
+     "url": "https://www.fox19.com/2026/03/18/massive-overhaul-ohio-cannabis-laws-way-after-group-fails-stop-sb-56",
+     "checked": "2026-11-03",
+     "supports": "referendum fell short (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules. A challenge to the veto of the hemp drink sections was filed in the Ohio Supreme Court in 2026 (case 2026-0264); its outcome was not checked."
   }
  }
 }

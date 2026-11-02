@@ -46,6 +46,85 @@
     "2027-10-11: Columbus Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drivers may not use a hand-held phone or other mobile electronic device while driving (RSA 265:79-c). Hands-free use, such as through the car's Bluetooth, is allowed. From 1 January 2027 the fines rise, with higher amounts when the use contributes to a crash and a possible licence suspension for a third offence.",
+     "penalty_signal": "Until the end of 2026: US$100 first offence, US$250 second, US$500 for later offences within 24 months, each plus a penalty assessment (about A$142, A$355 and A$710 before the assessment, at RBA 30 Oct 2026, A$1 = USD 0.7040). From 2027: US$250 first, US$500 if it contributes to a crash.",
+     "level": "state",
+     "source": "https://gc.nh.gov/rsa/html/XXI/265/265-79-c.htm",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "RSA 265:79-c Use of mobile electronic devices while driving; prohibition",
+     "authority": "New Hampshire General Court",
+     "url": "https://gc.nh.gov/rsa/html/XXI/265/265-79-c.htm",
+     "checked": "2026-11-03",
+     "supports": "hand-held ban, current fines, 2027 fines (read via a search-index snapshot; the page refused direct fetch)"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Adult-use (recreational) cannabis is not legal in New Hampshire. Possessing three-quarters of an ounce (about 21 g) or less of marijuana is a violation, not a crime, and is not grounds for arrest on its own (RSA 318-B:2-c). Larger amounts are a crime. Fines: US$100 for a first or second offence; up to US$300 for a later offence within 3 years (about A$142 and A$426 at RBA 30 Oct 2026, A$1 = USD 0.7040).",
+     "source": "https://gc.nh.gov/rsa/html/XXX/318-B/318-B-2-c.htm",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "New Hampshire's Therapeutic Cannabis Program lets visiting patients who hold a valid medical cannabis card from another US state or from Canada buy from the state's licensed dispensaries (alternative treatment centres), showing the card with matching photo ID. Patients may possess up to 2 ounces (about 57 g) and buy no more than 2 ounces in any 10 days. Visitors may not grow cannabis or get it from a New Hampshire patient or caregiver.",
+     "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "All spirits sold in New Hampshire go through the state's own system: the New Hampshire Liquor Commission runs the NH Liquor & Wine Outlets (about 65 stores). Those outlets don't sell beer or drinks of 6% alcohol or less, which are sold by licensed private shops.",
+     "source": "https://www.liquorandwineoutlets.com/About-Us/FAQ",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "RSA 318-B:2-c Personal possession of marijuana",
+     "authority": "New Hampshire General Court",
+     "url": "https://gc.nh.gov/rsa/html/XXX/318-B/318-B-2-c.htm",
+     "checked": "2026-11-03",
+     "supports": "violation for 3/4 oz or less, fines, no arrest (read via a search-index snapshot)"
+    },
+    {
+     "title": "Therapeutic Cannabis Program",
+     "authority": "New Hampshire Department of Health and Human Services",
+     "url": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
+     "checked": "2026-11-03",
+     "supports": "visiting patients from other states and Canada, 2 oz limits (read via a search-index snapshot; the page refused direct fetch)"
+    },
+    {
+     "title": "FAQ and About the New Hampshire Liquor Commission",
+     "authority": "New Hampshire Liquor Commission",
+     "url": "https://www.liquorandwineoutlets.com/About-Us/FAQ",
+     "checked": "2026-11-03",
+     "supports": "state-run outlets, no beer or drinks of 6% or less, 65 locations (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules."
   }
  }
 }

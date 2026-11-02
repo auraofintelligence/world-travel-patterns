@@ -46,6 +46,83 @@
     "2027-10-11: Columbus Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Idaho has no medical or adult-use cannabis: the state Office of Drug Policy says using or selling marijuana for any purpose is illegal. Possessing 3 ounces (about 85 g) or less is a misdemeanour with a minimum fine of US$300 for adults (about A$426 at A$1 = US$0.7040, RBA 30 Oct 2026); more than 3 ounces is a felony (Idaho Code 37-2732). Idaho's definition covers any cannabis extract or preparation containing THC, and hemp products above 0.3% delta-9 THC can be prosecuted as marijuana. Cannabis bought legally in a neighbouring state is still illegal once in Idaho.",
+     "source": "https://legislature.idaho.gov/statutesrules/idstat/title37/t37ch27/sect37-2732/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Idaho Code 37-2732 Prohibited acts, penalties",
+     "authority": "Idaho Legislature",
+     "url": "https://legislature.idaho.gov/statutesrules/idstat/title37/t37ch27/sect37-2732/",
+     "checked": "2026-11-03",
+     "supports": "misdemeanour up to 3 oz, US$300 minimum fine, felony above 3 oz, definition (read via a search-index snapshot; the site refused direct fetches)"
+    },
+    {
+     "title": "Marijuana",
+     "authority": "Idaho Office of Drug Policy",
+     "url": "https://odp.idaho.gov/marijuana/",
+     "checked": "2026-11-03",
+     "supports": "use and sale illegal for any purpose (read via a search-index snapshot)"
+    },
+    {
+     "title": "Idaho Code 67-2921 Hemp",
+     "authority": "Idaho Legislature",
+     "url": "https://legislature.idaho.gov/statutesrules/idstat/Title67/T67CH29/SECT67-2921/",
+     "checked": "2026-11-03",
+     "supports": "0.3% delta-9 THC line for hemp (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law. Read with the national rules (in the US, cannabis stays illegal federally: no federal land, no crossing state lines)."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Idaho bans using a hand-held mobile electronic device while driving, including at brief stops at traffic lights or stop signs (Idaho Code 49-1401A, from 1 July 2020). Hands-free and voice-operated use, including hands-free navigation, is allowed; hand-held use is allowed only when the vehicle is stopped outside a travel lane, or in an emergency.",
+     "penalty_signal": "US$75 for a first offence, US$150 for a second and US$300 for later ones within three years (about A$107, A$213 and A$426 at A$1 = US$0.7040, RBA 30 Oct 2026), plus court costs (US$131.50 in total for a first offence); licence suspension of up to 90 days after three convictions in three years",
+     "level": "state",
+     "source": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch14/sect49-1401a/",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Idaho Code 49-1401A Inattentive or distracted driving: mobile electronic devices",
+     "authority": "Idaho Legislature",
+     "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch14/sect49-1401a/",
+     "checked": "2026-11-03",
+     "supports": "ban, exceptions, fines, suspension (read via a search-index snapshot; the site refused direct fetches)"
+    },
+    {
+     "title": "Idaho goes hands-free July 1",
+     "authority": "Idaho Transportation Department",
+     "url": "https://itd.idaho.gov/news/idaho-goes-hands-free-in-july/",
+     "checked": "2026-11-03",
+     "supports": "applies at traffic signals and stop signs (read via a search-index snapshot)"
+    },
+    {
+     "title": "Infraction penalty schedule FY2026",
+     "authority": "Idaho Supreme Court",
+     "url": "https://api.isc.idaho.gov/uploads/Documents/Forms/Rules_and_Procedures_Forms/1777070395498-Infraction-Penalty-Schedule-FY-2026.pdf",
+     "checked": "2026-11-03",
+     "supports": "total with court costs (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

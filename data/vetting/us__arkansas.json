@@ -25,6 +25,107 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Arkansas allows medical cannabis only (Arkansas Medical Marijuana Amendment of 2016); there is no adult-use cannabis. Visitors holding a medical card from another state can apply online to the Department of Health for a visiting patient card if their condition is also a qualifying condition in Arkansas. The card costs US$50 (about A$71 at A$1 = US$0.7040, RBA 30 Oct 2026), lasts 90 days, takes up to 14 days to process and must be printed by the patient. Medical use is banned in any vehicle and in any public place where others could see it.",
+     "source": "https://healthy.arkansas.gov/programs-services/data-statistics-registries/medical-marijuana/faqs/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "Act 629 of 2023 bans intoxicating hemp-derived THC products such as delta-8 and delta-9 THC goods. A court order blocked enforcement from 2023 until 24 June 2025, when a federal appeals court reversed it; the Attorney General said from then that selling these products breaks Arkansas law.",
+     "source": "https://media.ark.org/ag/2025-06-24-BioGen-win-FINAL.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Kratom: its alkaloids mitragynine and 7-hydroxymitragynine are on Arkansas's Schedule I controlled substances list (listed since November 2015, still on the list adopted by the State Board of Health in October 2024).",
+     "source": "https://healthy.arkansas.gov/wp-content/uploads/Controlled-Substances-List-7.3.25.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Arkansas counties, and in places townships, cities and wards inside them, can be wet (retail sale legal) or dry (retail sale not legal); many wet counties have dry pockets. In dry counties some businesses hold a private club permit that lets them serve beer, wine and spirits. Alcohol delivery and wine shipping are allowed only in wet areas. The state publishes a wet and dry areas map.",
+     "source": "https://www.dfa.arkansas.gov/office/alcohol-beverage-control/abc-faqs/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Medical marijuana FAQs",
+     "authority": "Arkansas Department of Health",
+     "url": "https://healthy.arkansas.gov/programs-services/data-statistics-registries/medical-marijuana/faqs/",
+     "checked": "2026-11-03",
+     "supports": "visiting patient card, fee, 90 days, where use is banned"
+    },
+    {
+     "title": "Attorney General Griffin successfully defends Arkansas's ban on dangerous psychoactive hemp products (24 June 2025)",
+     "authority": "Arkansas Attorney General",
+     "url": "https://media.ark.org/ag/2025-06-24-BioGen-win-FINAL.pdf",
+     "checked": "2026-11-03",
+     "supports": "Act 629 of 2023, injunction reversed"
+    },
+    {
+     "title": "List of controlled substances (Arkansas Register filing, July 2025)",
+     "authority": "Arkansas Department of Health",
+     "url": "https://healthy.arkansas.gov/wp-content/uploads/Controlled-Substances-List-7.3.25.pdf",
+     "checked": "2026-11-03",
+     "supports": "mitragynine and 7-hydroxymitragynine in Schedule I (read via a search-index snapshot)"
+    },
+    {
+     "title": "ABC FAQs",
+     "authority": "Alcoholic Beverage Control Division, Arkansas Department of Finance and Administration",
+     "url": "https://www.dfa.arkansas.gov/office/alcohol-beverage-control/abc-faqs/",
+     "checked": "2026-11-03",
+     "supports": "private club permits in dry counties, delivery only in wet areas"
+    },
+    {
+     "title": "Alcoholic beverage wet dry areas map",
+     "authority": "Arkansas GIS Office and Alcoholic Beverage Control Division",
+     "url": "https://gis.arkansas.gov/product/alcoholic-beverage-wet-dry-areas/",
+     "checked": "2026-11-03",
+     "supports": "wet, dry and damp areas below county level (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law. Read with the national rules (in the US, cannabis stays illegal federally: no federal land, no crossing state lines)."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Arkansas bans using a hand-held phone or device to text, email or go online while driving; police can stop a driver for this alone. Every driver is also banned from using a hand-held phone while passing through a school zone or a highway work zone. Drivers 18 to 20 must use a hands-free device, and drivers under 18 may not use a phone at all while driving.",
+     "level": "state",
+     "source": "https://dps.arkansas.gov/news/april-is-distracted-driving-prevention-month-drivers-urged-to-focus-on-the-road-not-phones/",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "April is Distracted Driving Prevention Month: drivers urged to focus on the road, not phones",
+     "authority": "Arkansas Department of Public Safety",
+     "url": "https://dps.arkansas.gov/news/april-is-distracted-driving-prevention-month-drivers-urged-to-focus-on-the-road-not-phones/",
+     "checked": "2026-11-03",
+     "supports": "texting ban as a primary offence, school and work zone hand-held ban, age rules"
+    }
+   ]
   }
  }
 }

@@ -47,6 +47,108 @@
     "2027-10-11: Indigenous Peoples' Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Alabama has a medical cannabis program only; there is no adult-use (recreational) cannabis. A card needs Alabama residency, a qualifying condition, a recommendation from an Alabama-certified physician and registration with the Alabama Medical Cannabis Commission. Raw plant material and anything that can be smoked or vaped are excluded; allowed forms include tablets, capsules, tinctures, gels, oils and patches. The first dispensary opened on 4 June 2026. The commission's page doesn't mention accepting out-of-state cards.",
+     "source": "https://amcc.alabama.gov/patients",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "Hemp products: since 1 January 2026, consumable hemp products (such as THC gummies and drinks) may be sold only by retailers licensed by the Alcoholic Beverage Control Board, and only to adults 21 and over. An edible or drink may hold no more than 10 mg of total THC per serving. Smokable hemp (hemp flower, buds, joints, cigarettes and similar) is banned outright, and selling or possessing it is a Class C felony (Ala. Code 28-12-61, from Act HB445 of 2025). Online sales and delivery into the state are also banned.",
+     "source": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/HB445-enr.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Kratom: products containing mitragynine or hydroxymitragynine (kratom) are Schedule I controlled substances in Alabama, illegal to possess or sell however they are labelled (Ala. Code 20-2-23). In March 2026 the Attorney General ordered retailers to remove products found to contain kratom without saying so on the label.",
+     "source": "https://www.alabamaag.gov/wp-content/uploads/2026/03/2026.3.25-Alabama-Attorney-General-Issues-Statewide-Cease-and-Desist-Order-Targeting-Illegal-Kratom-Products.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Alabama lets counties and cities vote on whether alcohol may be sold. The Alcoholic Beverage Control Board lists 23 of the 67 counties as dry, each with some wet cities inside it where sales are allowed; the other 44 counties are wet. Whether you can buy alcohol depends on the exact town.",
+     "source": "https://alabcboard.gov/licensing-compliance/wet-cities",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Patient and caregiver registration",
+     "authority": "Alabama Medical Cannabis Commission",
+     "url": "https://amcc.alabama.gov/patients",
+     "checked": "2026-11-03",
+     "supports": "residency, allowed and banned forms, first dispensary date"
+    },
+    {
+     "title": "HB445 (2025) enrolled: consumable hemp products",
+     "authority": "Alabama Legislature",
+     "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/HB445-enr.pdf",
+     "checked": "2026-11-03",
+     "supports": "age 21, licensed retailers from 1 January 2026, 10 mg per serving, smokable hemp ban, Class C felony"
+    },
+    {
+     "title": "Attorney General issues statewide cease and desist order targeting illegal kratom products (25 March 2026)",
+     "authority": "Alabama Attorney General",
+     "url": "https://www.alabamaag.gov/wp-content/uploads/2026/03/2026.3.25-Alabama-Attorney-General-Issues-Statewide-Cease-and-Desist-Order-Targeting-Illegal-Kratom-Products.pdf",
+     "checked": "2026-11-03",
+     "supports": "kratom is Schedule I under Ala. Code 20-2-23"
+    },
+    {
+     "title": "Wet cities",
+     "authority": "Alabama Alcoholic Beverage Control Board",
+     "url": "https://alabcboard.gov/licensing-compliance/wet-cities",
+     "checked": "2026-11-03",
+     "supports": "23 dry counties containing wet cities, 44 wet counties"
+    }
+   ],
+   "notes": "State law. Read with the national rules (in the US, cannabis stays illegal federally: no federal land, no crossing state lines)."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drivers in Alabama may not hold or support a phone or other wireless device, write or read texts, or watch or record video while driving (Ala. Code 32-5A-350.1, from SB301 of 2023). Voice calls are allowed hands-free, such as through a mounted phone, speaker or earpiece, with no more than a single tap or swipe to start or end a call.",
+     "penalty_signal": "US$50 and 1 point for a first offence, US$100 and 2 points for a second, US$150 and 3 points for a third within 24 months (about A$71, A$142 and A$213 at A$1 = US$0.7040, RBA 30 Oct 2026)",
+     "level": "state",
+     "source": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2023RS/SB301-enr.pdf",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "SB301 (2023) enrolled: hands-free driving",
+     "authority": "Alabama Legislature",
+     "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2023RS/SB301-enr.pdf",
+     "checked": "2026-11-03",
+     "supports": "what drivers may not do with a device; hands-free voice use allowed (read via a search-index snapshot)"
+    },
+    {
+     "title": "Alabama driver licence manual (November 2024)",
+     "authority": "Alabama Law Enforcement Agency",
+     "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+     "checked": "2026-11-03",
+     "supports": "fines and points for hands-free offences (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

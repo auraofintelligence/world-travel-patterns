@@ -49,6 +49,51 @@
      "supports": "legal age, where to buy and public possession limit by province or territory (read via a search-index snapshot)"
     }
    ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "The minimum age to buy or possess cannabis is 19. Adults may carry up to 30 g of dried cannabis (or equivalent) in a public place, and buy from stores licensed through the Newfoundland and Labrador Liquor Corporation (NLC) or NLC's online store. Buying or selling outside that system is an offence.",
+     "source": "https://www.gov.nl.ca/cannabis/frequently-asked-questions/",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "You can't use cannabis in a public place, a motor vehicle or a boat. Use is allowed in a private home or its yard, and may be allowed in a hotel room, an apartment or a rented campsite if the owner or operator permits (not in common areas). A vehicle used as a temporary or private residence may be an exception while it's parked off the road. Novice drivers, drivers under 22 and commercial drivers have zero tolerance for any detectable THC.",
+     "source": "https://www.gov.nl.ca/cannabis/frequently-asked-questions/",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "The legal drinking age is 19 (Liquor Control Act s. 72 and 76). You can't have open alcohol in a public place without a licence or permit, or be intoxicated in a public place (s. 77). In a motor vehicle, moving or not, alcohol must be unopened or packed away out of reach (s. 80).",
+     "source": "https://www.assembly.nl.ca/legislation/sr/statutes/l18.htm",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cannabis in Newfoundland and Labrador: frequently asked questions",
+     "authority": "Government of Newfoundland and Labrador",
+     "url": "https://www.gov.nl.ca/cannabis/frequently-asked-questions/",
+     "checked": "2026-11-03",
+     "supports": "age, possession, where to buy, where you can use it, driving"
+    },
+    {
+     "title": "Liquor Control Act, RSNL 1990 c. L-18",
+     "authority": "House of Assembly of Newfoundland and Labrador",
+     "url": "https://www.assembly.nl.ca/legislation/sr/statutes/l18.htm",
+     "checked": "2026-11-03",
+     "supports": "drinking age 19, open alcohol and intoxication in public, alcohol in vehicles"
+    }
+   ],
+   "notes": "Provincial or territorial law. Read with Canada's federal Cannabis Act and drug laws; never carry cannabis across the international border."
   }
  }
 }

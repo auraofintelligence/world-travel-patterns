@@ -23,6 +23,106 @@
     "2027-10-11: Columbus Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Adults 21 and over may possess and use up to 1.5 ounces (about 42 g) of cannabis. Residents may also keep up to 5 ounces in a locked container at home or carry it in a locked glovebox or car boot. Cannabis can't be smoked or vaped anywhere tobacco smoking or vaping is banned, and any use is banned in state parks and on state beaches and waters. Towns can ban use in their public areas and set fines.",
+     "source": "https://portal.ct.gov/cannabis/knowledge-base/articles/where-you-can-use-cannabis",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Hemp products with more than 1 mg of THC per serving or 5 mg per container (or over 0.3% THC for flower) count as cannabis in Connecticut and may be sold only by licensed cannabis retailers and dispensaries; selling them anywhere else is illegal. THC-infused drinks are a separate class, sold only at cannabis retailers and package stores with an endorsement.",
+     "source": "https://portal.ct.gov/cannabis/knowledge-base/articles/what-is-considered-a-high-thc-hemp-product",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Package stores (bottle shops) may sell from 8 am to 10 pm Monday to Saturday and from 10 am to 6 pm on Sunday. There are no package store sales on Thanksgiving Day, Christmas Day or New Year's Day. Towns can set shorter hours.",
+     "source": "https://portal.ct.gov/-/media/DCP/LIQUOR_CONTROL/Quick-Reference-Guides/LIR-LRW-Rev-Oct-2023.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Where can I use cannabis?",
+     "authority": "State of Connecticut cannabis portal",
+     "url": "https://portal.ct.gov/cannabis/knowledge-base/articles/where-you-can-use-cannabis",
+     "checked": "2026-11-03",
+     "supports": "no use where tobacco is banned, state parks, beaches and waters (read via a search-index snapshot)"
+    },
+    {
+     "title": "When does cannabis become legal?",
+     "authority": "State of Connecticut cannabis portal",
+     "url": "https://portal.ct.gov/cannabis/knowledge-base/articles/when-cannabis-becomes-legal",
+     "checked": "2026-11-03",
+     "supports": "1.5 oz, 5 oz locked storage and transport"
+    },
+    {
+     "title": "What is considered a high-THC hemp product",
+     "authority": "Department of Consumer Protection, State of Connecticut",
+     "url": "https://portal.ct.gov/cannabis/knowledge-base/articles/what-is-considered-a-high-thc-hemp-product",
+     "checked": "2026-11-03",
+     "supports": "1 mg per serving, 5 mg per container, sold only by cannabis licensees (read via a search-index snapshot)"
+    },
+    {
+     "title": "State-regulated hemp-derived THC products (2026-R-0019)",
+     "authority": "Office of Legislative Research, Connecticut General Assembly",
+     "url": "https://www.cga.ct.gov/2026/rpt/pdf/2026-R-0019.pdf",
+     "checked": "2026-11-03",
+     "supports": "current thresholds and the beverage class (read via a search-index snapshot)"
+    },
+    {
+     "title": "Liquor control quick reference guide (revised October 2023)",
+     "authority": "Department of Consumer Protection, State of Connecticut",
+     "url": "https://portal.ct.gov/-/media/DCP/LIQUOR_CONTROL/Quick-Reference-Guides/LIR-LRW-Rev-Oct-2023.pdf",
+     "checked": "2026-11-03",
+     "supports": "hours of sale, holiday closures, local limits (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law. Read with the national rules (in the US, cannabis stays illegal federally: no federal land, no crossing state lines)."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drivers in Connecticut may not use a hand-held mobile phone or other mobile electronic device while driving (General Statutes 14-296aa). Other distracted driving is a separate offence with the same fines. Hands-free use is allowed for adult drivers.",
+     "penalty_signal": "US$200 for a first offence, US$375 for a second and US$625 for a third or later (about A$284, A$533 and A$888 at A$1 = US$0.7040, RBA 30 Oct 2026), plus at least 1 point",
+     "level": "state",
+     "source": "https://www.jud.ct.gov/webforms/forms/infractions.pdf",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Chart A: infractions and fines",
+     "authority": "State of Connecticut Judicial Branch",
+     "url": "https://www.jud.ct.gov/webforms/forms/infractions.pdf",
+     "checked": "2026-11-03",
+     "supports": "14-296aa fines and points (read via a search-index snapshot)"
+    },
+    {
+     "title": "General Statutes chapter 248: vehicle highway use",
+     "authority": "Connecticut General Assembly",
+     "url": "https://www.cga.ct.gov/current/pub/chap_248.htm",
+     "checked": "2026-11-03",
+     "supports": "section 14-296aa (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

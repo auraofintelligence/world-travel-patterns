@@ -48,6 +48,51 @@
      "supports": "legal age, where to buy and public possession limit by province or territory (read via a search-index snapshot)"
     }
    ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "You must be 19 or older to buy, possess or grow cannabis. The only legal way to buy recreational cannabis is through PEI Cannabis stores. Adults may carry up to 30 g of dried cannabis (or equivalent) in public.",
+     "source": "https://www.princeedwardisland.ca/sites/default/files/publications/cannabis-laws_factsheet.pdf",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "It's illegal to use cannabis in public spaces. Use is allowed in a private dwelling, which includes a home, apartment, hotel room, campsite or condo and an attached balcony or deck, though owners and operators can set their own rules. You can't use cannabis in any vehicle (car, boat, off-road vehicle), moving or not. In a vehicle, keep it in a sealed container out of reach of the driver and passengers.",
+     "source": "https://www.princeedwardisland.ca/sites/default/files/publications/cannabis-laws_factsheet.pdf",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "The legal drinking age is 19. The Liquor Control Act bans drinking in a public place other than licensed premises, being intoxicated in a public place, and drinking in or around a motor vehicle (s. 39).",
+     "source": "https://www.princeedwardisland.ca/sites/default/files/legislation/l-14-liquor_control_act.pdf",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Know the laws on cannabis (fact sheet)",
+     "authority": "Government of Prince Edward Island",
+     "url": "https://www.princeedwardisland.ca/sites/default/files/publications/cannabis-laws_factsheet.pdf",
+     "checked": "2026-11-03",
+     "supports": "age, buying, possession, where you can use it, vehicles"
+    },
+    {
+     "title": "Liquor Control Act",
+     "authority": "Government of Prince Edward Island",
+     "url": "https://www.princeedwardisland.ca/sites/default/files/legislation/l-14-liquor_control_act.pdf",
+     "checked": "2026-11-03",
+     "supports": "drinking age 19 and public drinking rules (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "Provincial or territorial law. Read with Canada's federal Cannabis Act and drug laws; never carry cannabis across the international border."
   }
  }
 }

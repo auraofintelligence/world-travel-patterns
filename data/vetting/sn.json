@@ -794,6 +794,124 @@
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
    "recheck_note": "Not verified 2026-11-01: Smartraveller read: visa details referred to the embassy; onward ticket and accommodation proof needed."
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2026-10-31",
+     "what": "Youth Olympic Games Dakar 2026, 31 October to 13 November, in Dakar, Diamniadio and Saly",
+     "effect": "Major event: Dakar and Saly accommodation busier, traffic controls near venues.",
+     "url": "https://olympics.com/ioc/news/dates-for-dakar-2026-approved-by-ioc-executive-board",
+     "by": "official-events",
+     "category": "sport",
+     "end": "2026-11-13"
+    },
+    {
+     "date": "2026-11-19",
+     "what": "Dak'Art, the Biennale of Contemporary African Art, 16th edition, 19 November to 19 December 2026",
+     "effect": "Exhibitions across Dakar; galleries and hotels busier.",
+     "url": "https://biennaledakar.org/wp-content/uploads/2026/04/FR-VF-REGLEMENT-INTERIEUR-FR-2026.pdf",
+     "by": "official-events",
+     "category": "arts-culture",
+     "end": "2026-12-19"
+    },
+    {
+     "date": "2027-01-17",
+     "what": "Municipal and departmental (local) elections, announced by the Prime Minister for 17 January 2027 (date not yet confirmed: no decree had been published and a postponement was reported in October 2026)",
+     "effect": "Voting day: offices and some roads close, security is heavier and alcohol sales may be restricted; rallies and protests are possible around the vote.",
+     "url": "https://fr.allafrica.com/stories/202610210269.html",
+     "by": "signal",
+     "category": "election"
+    },
+    {
+     "date": "2027-02-08",
+     "what": "Ramadan, the Muslim month of fasting, expected about 8 February to 8 or 9 March 2027 (set by moon sighting)",
+     "effect": "Many Muslims fast from dawn to sunset. Some cafés and restaurants close by day and business hours shorten; eating, drinking or smoking in public in daylight can cause offence. Evenings are busy after the fast is broken.",
+     "url": "https://www.khaleejtimes.com/uae/ramadan-eid-al-fitr-eid-al-adha-2027-likely-dates",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2027-03-09"
+    },
+    {
+     "date": "2027-03-09",
+     "what": "Korité (Eid al-Fitr), the end of Ramadan, expected 9 March 2027 (set by moon sighting; may fall a day later)",
+     "effect": "Public holiday: offices and many shops close; buses, flights and hotels busy as people travel to family.",
+     "url": "https://www.officeholidays.com/countries/senegal/2027",
+     "by": "signal",
+     "category": "religious-pilgrimage"
+    },
+    {
+     "date": "2027-04-04",
+     "what": "Independence Day, 4 April",
+     "effect": "Public holiday: offices and banks close; official ceremonies and parades, with some road closures.",
+     "url": "https://www.officeholidays.com/countries/senegal/2027",
+     "by": "signal",
+     "category": "national-day"
+    },
+    {
+     "date": "2027-05-16",
+     "what": "Tabaski (Eid al-Adha), the Feast of the Sacrifice, expected 16 May 2027 (set by moon sighting; may fall a day later)",
+     "effect": "Public holiday: offices and many shops close; buses, flights and hotels busy as people travel to family.",
+     "url": "https://www.officeholidays.com/countries/senegal/2027",
+     "by": "signal",
+     "category": "religious-pilgrimage"
+    },
+    {
+     "date": "2027-07-22",
+     "what": "Grand Magal of Touba, the Mouride pilgrimage, 18 Safar 1449, expected 22 or 23 July 2027 (set by moon sighting)",
+     "effect": "Senegal's largest pilgrimage: millions travel to Touba, roads and buses from Dakar are packed and the public holiday closes offices.",
+     "url": "https://senego.com/services/magal-touba",
+     "by": "signal",
+     "category": "religious-pilgrimage"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Dates for Dakar 2026 approved by IOC Executive Board",
+     "authority": "International Olympic Committee",
+     "url": "https://olympics.com/ioc/news/dates-for-dakar-2026-approved-by-ioc-executive-board",
+     "checked": "2026-11-03",
+     "supports": "Games dates and venues (read via a search-index snapshot)"
+    },
+    {
+     "title": "Dak'Art 2026: règlement intérieur",
+     "authority": "Biennale de Dakar (organiser, Ministry of Culture of Senegal)",
+     "url": "https://biennaledakar.org/wp-content/uploads/2026/04/FR-VF-REGLEMENT-INTERIEUR-FR-2026.pdf",
+     "checked": "2026-11-03",
+     "supports": "biennale dates (read via a search-index snapshot)"
+    },
+    {
+     "title": "Sénégal: le pays s'achemine vers un report des élections locales prévues en janvier prochain",
+     "authority": "Signal: allAfrica (news, relaying RFI)",
+     "url": "https://fr.allafrica.com/stories/202610210269.html",
+     "checked": "2026-11-03",
+     "supports": "announced local election date and reported delay (read via a search-index snapshot)"
+    },
+    {
+     "title": "Grand Magal de Touba",
+     "authority": "Signal: Senego (news)",
+     "url": "https://senego.com/services/magal-touba",
+     "checked": "2026-11-03",
+     "supports": "projected Magal date (read via a search-index snapshot)"
+    },
+    {
+     "title": "National holidays in Senegal in 2027",
+     "authority": "Signal: Office Holidays (holiday calendar site)",
+     "url": "https://www.officeholidays.com/countries/senegal/2027",
+     "checked": "2026-11-03",
+     "supports": "2027 holiday dates (read directly)"
+    },
+    {
+     "title": "Ramadan, Eid Al Fitr, Eid Al Adha 2027: likely dates",
+     "authority": "Signal: Khaleej Times (news), reporting astronomical projections",
+     "url": "https://www.khaleejtimes.com/uae/ramadan-eid-al-fitr-eid-al-adha-2027-likely-dates",
+     "checked": "2026-11-03",
+     "supports": "expected Ramadan and Eid dates (set by moon sighting)"
+    }
+   ],
+   "checked": "2026-11-03"
   }
  }
 }

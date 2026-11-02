@@ -46,6 +46,84 @@
     "2027-03-26: Good Friday (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Texting is banned for all drivers: composing, reading or sending electronic messages while driving (NDCC 39-08-23). Since August 2017 a driver of any age who commits a traffic offence while distracted can also be cited for distracted driving. Every front and back seat occupant must wear a seat belt, whatever their age.",
+     "penalty_signal": "US$100 for texting and US$100 for distracted driving (about A$142 each at RBA 30 Oct 2026, A$1 = USD 0.7040); US$20 for a seat belt offence.",
+     "level": "state",
+     "source": "https://www.dot.nd.gov/travel-and-safety/safety/traffic-safety-laws",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "To stop aquatic nuisance species (pest mussels, plants and other organisms carried on boats), all water must be drained from boats, including bilges, livewells, baitwells and motors, and all aquatic plants removed from boats, trailers and fishing and hunting gear, before leaving a water body. Drain plugs must stay out during any transport into or within North Dakota. Live bait in water and aquatic plants may not be brought into the state.",
+     "level": "state",
+     "source": "https://gf.nd.gov/regulations/ans",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Traffic Safety Laws",
+     "authority": "North Dakota Department of Transportation",
+     "url": "https://www.dot.nd.gov/travel-and-safety/safety/traffic-safety-laws",
+     "checked": "2026-11-03",
+     "supports": "texting ban, distracted driving, seat belts, fines"
+    },
+    {
+     "title": "Aquatic Nuisance Species Regulations",
+     "authority": "North Dakota Game and Fish Department",
+     "url": "https://gf.nd.gov/regulations/ans",
+     "checked": "2026-11-03",
+     "supports": "draining, plugs out, vegetation, bait rules"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "North Dakota allows medical marijuana only. It does not recognise other states' medical cards: without a valid North Dakota card, a person holding marijuana has no protection under the state's medical marijuana law. Cardholders may buy and possess only products from North Dakota's registered dispensaries.",
+     "source": "https://www.hhs.nd.gov/sites/www/files/documents/DOH%20Legacy/MM/Patient%20FAQs.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "A nonresident aged 19 or over who holds a medical marijuana card from their home US state, Washington DC or a US territory can apply for a North Dakota nonresident card, which lasts 60 days and is issued only electronically. The home-state ID and card must stay valid for the full 60 days.",
+     "source": "https://www.hhs.nd.gov/sites/default/files/documents/DOH%20Legacy/MM/Nonresident-Patient-Application-Instructions.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Patient Application FAQs (August 2025)",
+     "authority": "North Dakota Health and Human Services, Medical Marijuana Program",
+     "url": "https://www.hhs.nd.gov/sites/www/files/documents/DOH%20Legacy/MM/Patient%20FAQs.pdf",
+     "checked": "2026-11-03",
+     "supports": "no recognition of other states' cards, North Dakota dispensaries only (read via a search-index snapshot)"
+    },
+    {
+     "title": "Nonresident Adult Patient Application instructions (March 2026)",
+     "authority": "North Dakota Health and Human Services, Medical Marijuana Program",
+     "url": "https://www.hhs.nd.gov/sites/default/files/documents/DOH%20Legacy/MM/Nonresident-Patient-Application-Instructions.pdf",
+     "checked": "2026-11-03",
+     "supports": "who can apply, age 19, 60-day electronic card (read via a search-index snapshot; the out-of-state page refused direct fetch)"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules."
   }
  }
 }

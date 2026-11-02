@@ -48,6 +48,72 @@
      "supports": "legal age, where to buy and public possession limit by province or territory (read via a search-index snapshot)"
     }
    ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "The legal age for cannabis in Alberta is 18 (most of Canada is 19). Adults may carry up to 30 g of dried cannabis (or equivalent) in public, and buy only from private licensed stores, in person or online.",
+     "source": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "No one may use cannabis in a vehicle unless the vehicle is being used as a temporary residence at the time. Cannabis carried in a vehicle must be in closed packaging, out of reach of the driver and passengers (Gaming, Liquor and Cannabis Act, s. 90.24 and 90.25).",
+     "source": "https://kings-printer.alberta.ca/1266.cfm?display=html&isbncln=9780779752539&leg_type=Acts&page=g01.cfm",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "You can't smoke or vape cannabis anywhere tobacco smoking is banned, on hospital, school or child care grounds, or within a set distance of places such as playgrounds, zoos, outdoor pools and splash pads (s. 90.28).",
+     "source": "https://kings-printer.alberta.ca/1266.cfm?display=html&isbncln=9780779752539&leg_type=Acts&page=g01.cfm",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "The legal drinking age is 18: the Act defines a minor as a person under 18, and a minor can't buy, obtain, possess or drink liquor (s. 87). Adults may drink in a residence, a temporary residence, licensed premises or another place the regulations allow; drinking in other public places is banned (s. 86(5), 89(1)). A park owner or operator can designate a picnic area where drinking is allowed during set hours, if signs say so (s. 89(2)).",
+     "source": "https://kings-printer.alberta.ca/1266.cfm?display=html&isbncln=9780779752539&leg_type=Acts&page=g01.cfm",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Alberta licenses psychedelic drug treatment services (therapy using a designated psychedelic drug) under the Mental Health Services Protection Act and its Regulation. Providers need a provincial licence unless exempt (approved clinical trials, and ketamine used outside psychedelic-assisted psychotherapy), must meet the Psychedelic Drug Treatment Services Standards, and have clinical oversight by a psychiatrist. A provincial licence sits alongside the federal rules on possession; it doesn't replace them.",
+     "source": "https://www.alberta.ca/psychedelic-drug-treatment-service-provider-licensing",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Authorized cannabis retailers in the provinces and territories",
+     "authority": "Health Canada",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
+     "checked": "2026-11-03",
+     "supports": "legal age, where to buy and the 30 g public possession limit"
+    },
+    {
+     "title": "Gaming, Liquor and Cannabis Act (current as of 18 June 2026)",
+     "authority": "Alberta King's Printer",
+     "url": "https://kings-printer.alberta.ca/1266.cfm?display=html&isbncln=9780779752539&leg_type=Acts&page=g01.cfm",
+     "checked": "2026-11-03",
+     "supports": "minor under 18, liquor in public places, cannabis in vehicles and smoking places"
+    },
+    {
+     "title": "Psychedelic drug treatment service provider licensing",
+     "authority": "Government of Alberta",
+     "url": "https://www.alberta.ca/psychedelic-drug-treatment-service-provider-licensing",
+     "checked": "2026-11-03",
+     "supports": "provincial licence for psychedelic drug treatment services"
+    }
+   ],
+   "notes": "Provincial or territorial law. Read with Canada's federal Cannabis Act and drug laws; never carry cannabis across the international border."
   }
  }
 }

@@ -21,6 +21,93 @@
     "2027-03-26: Good Friday (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Adults 21 and over may possess up to 1 ounce (about 28 g) of cannabis leaf, up to 12 g of concentrate, or products holding up to 750 mg of THC, and may share it with another adult if no money changes hands. Using cannabis anywhere the public can access, or in a vehicle, is illegal. Home growing is not allowed.",
+     "source": "https://omc.delaware.gov/faq/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "Licensed adult-use sales began on 1 August 2025, first through converted medical cannabis centres; adult-use purchases carry a 15% tax. Visitors with a medical card from another state can apply at a Delaware medical dispensary for a Delaware card that runs to the same expiry date as their home card.",
+     "source": "https://news.delaware.gov/2025/08/01/delaware-launches-legal-adult-use-cannabis-sales-today/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Package stores (bottle shops) may sell from 9 am to 1 am Monday to Saturday and from 10 am to 8 pm on Sunday; from October to December they may open at 8 am on Fridays and Saturdays. Package stores are closed on Thanksgiving, Christmas and Easter.",
+     "source": "https://oabcc.delaware.gov/faq/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Frequently asked questions",
+     "authority": "Office of the Marijuana Commissioner, State of Delaware",
+     "url": "https://omc.delaware.gov/faq/",
+     "checked": "2026-11-03",
+     "supports": "personal use quantity, public and vehicle use banned, no home grow, out-of-state medical patients"
+    },
+    {
+     "title": "Delaware launches legal adult-use cannabis sales today (1 August 2025)",
+     "authority": "State of Delaware News",
+     "url": "https://news.delaware.gov/2025/08/01/delaware-launches-legal-adult-use-cannabis-sales-today/",
+     "checked": "2026-11-03",
+     "supports": "sales start date (read via a search-index snapshot)"
+    },
+    {
+     "title": "Delaware reports strong start to recreational marijuana sales (6 August 2025)",
+     "authority": "State of Delaware News",
+     "url": "https://news.delaware.gov/2025/08/06/delaware-reports-strong-start-to-recreational-marijuana-sales/",
+     "checked": "2026-11-03",
+     "supports": "15% tax on adult-use sales (read via a search-index snapshot)"
+    },
+    {
+     "title": "FAQ",
+     "authority": "Delaware Alcoholic Beverage Control Commissioner",
+     "url": "https://oabcc.delaware.gov/faq/",
+     "checked": "2026-11-03",
+     "supports": "package store hours and holiday closures (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law. Read with the national rules (in the US, cannabis stays illegal federally: no federal land, no crossing state lines)."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Delaware bans all drivers from using hand-held phones, tablets or laptops while driving, including talking without a hands-free device and reading, writing or sending texts or emails (21 Del. C. 4176C).",
+     "penalty_signal": "US$100 for a first offence; US$200 to US$300 for later offences (about A$142, and A$284 to A$426, at A$1 = US$0.7040, RBA 30 Oct 2026)",
+     "level": "state",
+     "source": "https://ohs.delaware.gov/distracted.shtml",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Distracted driving",
+     "authority": "Office of Highway Safety, State of Delaware",
+     "url": "https://ohs.delaware.gov/distracted.shtml",
+     "checked": "2026-11-03",
+     "supports": "hand-held ban and fines"
+    }
+   ]
   }
  }
 }

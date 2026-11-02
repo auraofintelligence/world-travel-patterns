@@ -23,6 +23,109 @@
     "2027-08-16: Discovery Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "The legal age for cannabis in Yukon is 19. Adults may carry up to 30 g of dried cannabis (or equivalent) in public, and buy from private licensed stores, in person and online.",
+     "source": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Cannabis must be used in a private residence and its adjoining property (house and yard), or another place the regulations allow. Using it in public can bring a warning, seizure of the cannabis or a ticket. In a vehicle, keep it in a closed container out of reach of the driver and passengers; don't drive a vehicle, snowmobile, quad or boat after using it.",
+     "source": "https://yukon.ca/cannabis",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "In Yukon people under 19 are minors for alcohol, so the legal drinking age is 19.",
+     "source": "https://yukon.ca/en/doing-business/permits-and-licensing/know-what-minors-can-and-cannot-do-when-working-around-alcohol",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Authorized cannabis retailers in the provinces and territories",
+     "authority": "Health Canada",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
+     "checked": "2026-11-03",
+     "supports": "legal age, where to buy and the 30 g public possession limit"
+    },
+    {
+     "title": "Learn about cannabis",
+     "authority": "Government of Yukon",
+     "url": "https://yukon.ca/cannabis",
+     "checked": "2026-11-03",
+     "supports": "where cannabis can be used, enforcement, vehicles (read via a search-index snapshot; the page blocks direct reading)"
+    },
+    {
+     "title": "Know what minors can and cannot do when working around alcohol",
+     "authority": "Government of Yukon",
+     "url": "https://yukon.ca/en/doing-business/permits-and-licensing/know-what-minors-can-and-cannot-do-when-working-around-alcohol",
+     "checked": "2026-11-03",
+     "supports": "minors are under 19 (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "Provincial or territorial law. Read with Canada's federal Cannabis Act and drug laws; never carry cannabis across the international border."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "The legal age for cannabis in Yukon is 19. Adults may carry up to 30 g of dried cannabis (or equivalent) in public, and buy only from private licensed stores, in person and online.",
+     "level": "region",
+     "source": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Cannabis may be used only in a private residence and its adjoining property, or another place the regulations allow. Using it in public can bring a warning, seizure or a ticket.",
+     "level": "region",
+     "source": "https://yukon.ca/cannabis",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "People under 19 are minors for alcohol in Yukon.",
+     "level": "region",
+     "source": "https://yukon.ca/en/doing-business/permits-and-licensing/know-what-minors-can-and-cannot-do-when-working-around-alcohol",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Authorized cannabis retailers in the provinces and territories",
+     "authority": "Health Canada",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
+     "checked": "2026-11-03",
+     "supports": "legal age, where to buy and the 30 g public possession limit"
+    },
+    {
+     "title": "Learn about cannabis",
+     "authority": "Government of Yukon",
+     "url": "https://yukon.ca/cannabis",
+     "checked": "2026-11-03",
+     "supports": "where cannabis can be used (read via a search-index snapshot; the page blocks direct reading)"
+    },
+    {
+     "title": "Know what minors can and cannot do when working around alcohol",
+     "authority": "Government of Yukon",
+     "url": "https://yukon.ca/en/doing-business/permits-and-licensing/know-what-minors-can-and-cannot-do-when-working-around-alcohol",
+     "checked": "2026-11-03",
+     "supports": "minors are under 19 (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

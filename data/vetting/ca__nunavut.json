@@ -70,6 +70,72 @@
      "supports": "legal age, where to buy and public possession limit by province or territory (read via a search-index snapshot)"
     }
    ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "The legal age for cannabis in Nunavut is 19. Adults may carry up to 30 g of dried cannabis (or equivalent) in public, and buy from private licensed stores, in person or online.",
+     "source": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Cannabis may be used in a private residence or a licensed smoke lounge; you can't smoke it in most public places.",
+     "source": "https://www.nulc.ca/faq/",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Under the updated Tobacco and Smoking Act it's illegal to smoke, vape or use cannabis in a motorised vehicle (car, boat, ATV or snowmobile) when anyone under 19 is present, within 9 m of building entrances, or in Government of Nunavut staff and public housing.",
+     "source": "https://www.gov.nu.ca/en/newsroom/protect-yourself-and-others-second-hand-smoke-2025-10-20",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "The legal drinking age is 19. Each community is under one of three liquor systems: prohibited (buying, importing or drinking any alcohol there is illegal), restricted (a local Alcohol Education Committee controls orders and imports) or unrestricted. Government pages list some communities differently, so check a community's current system with the Nunavut Liquor and Cannabis Commission before bringing alcohol.",
+     "source": "https://gov.nu.ca/finance/news/liquor-restriction-systems-nunavut-0",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Authorized cannabis retailers in the provinces and territories",
+     "authority": "Health Canada",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
+     "checked": "2026-11-03",
+     "supports": "legal age, where to buy and the 30 g public possession limit"
+    },
+    {
+     "title": "Frequently asked questions",
+     "authority": "Nunavut Liquor and Cannabis Commission",
+     "url": "https://www.nulc.ca/faq/",
+     "checked": "2026-11-03",
+     "supports": "where cannabis may be used, drinking age 19 (read via a search-index snapshot)"
+    },
+    {
+     "title": "Protect yourself and others from second-hand smoke (October 2025)",
+     "authority": "Government of Nunavut",
+     "url": "https://www.gov.nu.ca/en/newsroom/protect-yourself-and-others-second-hand-smoke-2025-10-20",
+     "checked": "2026-11-03",
+     "supports": "vehicles with under-19s, 9 m buffer, public housing (read via a search-index snapshot)"
+    },
+    {
+     "title": "Liquor restriction systems in Nunavut",
+     "authority": "Government of Nunavut, Department of Finance",
+     "url": "https://gov.nu.ca/finance/news/liquor-restriction-systems-nunavut-0",
+     "checked": "2026-11-03",
+     "supports": "prohibited, restricted and unrestricted community systems (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "Provincial or territorial law. Read with Canada's federal Cannabis Act and drug laws; never carry cannabis across the international border. Nunavut's own pages block direct reading, so these were read via search-index snapshots; recheck at the source."
   }
  }
 }

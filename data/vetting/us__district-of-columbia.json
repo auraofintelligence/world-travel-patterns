@@ -1,0 +1,135 @@
+{
+ "place": "us/district-of-columbia",
+ "patterns": {
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Under Initiative 71 (in force since February 2015), adults 21 and over may possess and carry up to 2 ounces (about 57 g) of cannabis and give up to 1 ounce to another adult for free. Selling it outside the licensed medical system stays illegal, and using it in any public space or anywhere the public is invited, including restaurants, bars and cafes, is illegal. Initiative 71 doesn't apply on federal property, such as National Park Service land, which includes the National Mall.",
+     "source": "https://mayor.dc.gov/sites/default/files/dc/sites/mayormb/release_content/attachments/I71QA.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Medical cannabis: domestic and international visitors may buy from any licensed DC retailer after registering online for a temporary patient registration (digital, usable straight away; non-residents self-certify that they buy to treat a health condition). Visitors 21 and over enrolled in a medical program of a listed state or territory can instead show that registration and photo ID; Virginia patients need a practitioner's written certification.",
+     "source": "https://abca.dc.gov/page/patients-non-dc-residents",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "psilocybin",
+     "kind": "law",
+     "text": "Initiative 81 (the Entheogenic Plant and Fungus Policy Act of 2020) makes non-commercial activity by adults with entheogenic plants and fungi, such as psilocybin mushrooms, ibogaine, DMT and mescaline, among the police's lowest enforcement priorities. It doesn't make them legal, and in 2025 the Alcoholic Beverage and Cannabis Board found it no bar to enforcement against a business.",
+     "source": "https://code.dccouncil.gov/us/dc/council/code/sections/48-921.52",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "ayahuasca-and-dmt",
+     "kind": "law",
+     "text": "DMT-containing plants such as those in ayahuasca are covered by the same Initiative 81 lowest-priority policy as psilocybin: lower police priority, not legal status.",
+     "source": "https://code.dccouncil.gov/us/dc/council/code/sections/48-921.52",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Initiative 71 and DC's marijuana laws (questions and answers)",
+     "authority": "Executive Office of the Mayor, District of Columbia",
+     "url": "https://mayor.dc.gov/sites/default/files/dc/sites/mayormb/release_content/attachments/I71QA.pdf",
+     "checked": "2026-11-03",
+     "supports": "2 oz, 1 oz gifts, no sales, no public use, federal property (read via a search-index snapshot)"
+    },
+    {
+     "title": "Medical cannabis: reciprocity (patients, non-DC residents)",
+     "authority": "Alcoholic Beverage and Cannabis Administration, District of Columbia",
+     "url": "https://abca.dc.gov/page/patients-non-dc-residents",
+     "checked": "2026-11-03",
+     "supports": "visitors including international, temporary registration, reciprocity"
+    },
+    {
+     "title": "D.C. Code 48-921.52 Policy on entheogenic plants and fungi",
+     "authority": "Council of the District of Columbia",
+     "url": "https://code.dccouncil.gov/us/dc/council/code/sections/48-921.52",
+     "checked": "2026-11-03",
+     "supports": "lowest enforcement priority, substances covered (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "District law. Read with the national rules (in the US, cannabis stays illegal federally: no federal land, no crossing state lines). Medical registration fees differ between ABCA pages, so check the portal for the current amount."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drivers in DC may not hold a mobile phone or other wireless device, or use one without a hands-free accessory, while driving (D.C. Code 50-1731.04). Texting or app use that causes serious injury or death carries criminal penalties.",
+     "penalty_signal": "US$100 fine; US$150 for a repeat within 18 months (about A$142 and A$213 at A$1 = US$0.7040, RBA 30 Oct 2026); licence suspension after three violations in 18 months",
+     "level": "state",
+     "source": "https://code.dccouncil.gov/us/dc/council/code/sections/50-1731.04",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Drinking alcohol or holding an open container of it is banned on streets, alleys, parks, sidewalks and parking areas, and in a vehicle on any of them (D.C. Code 25-1001). Licensed events and some home porches with the resident's permission are exceptions.",
+     "penalty_signal": "Misdemeanour: a fine, up to 60 days in jail, or both",
+     "level": "state",
+     "source": "https://code.dccouncil.gov/us/dc/council/code/sections/25-1001",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "DC requires firearms to be registered with the Metropolitan Police, and bans possessing magazines that hold more than 10 rounds. A non-resident with a firearm not registered in DC should travel straight through without stopping, with the firearm unloaded and neither it nor ammunition reachable from the passenger area (in a locked container other than the glovebox or console if there is no boot).",
+     "level": "state",
+     "source": "https://mpdc.dc.gov/page/frequently-asked-questions-firearms-registration-and-ccl",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "D.C. Code 50-1731.04 Restricted use of mobile telephone and other electronic devices",
+     "authority": "Council of the District of Columbia",
+     "url": "https://code.dccouncil.gov/us/dc/council/code/sections/50-1731.04",
+     "checked": "2026-11-03",
+     "supports": "no holding or non-hands-free use (read via a search-index snapshot)"
+    },
+    {
+     "title": "D.C. Law 21-196 Enhanced Penalties for Distracted Driving Amendment Act of 2016",
+     "authority": "Council of the District of Columbia",
+     "url": "https://code.dccouncil.gov/us/dc/council/laws/21-196",
+     "checked": "2026-11-03",
+     "supports": "US$100 and US$150 fines, suspension, criminal penalties (read via a search-index snapshot)"
+    },
+    {
+     "title": "D.C. Code 25-1001 Drinking of alcoholic beverage in public",
+     "authority": "Council of the District of Columbia",
+     "url": "https://code.dccouncil.gov/us/dc/council/code/sections/25-1001",
+     "checked": "2026-11-03",
+     "supports": "public drinking and open container ban, penalty"
+    },
+    {
+     "title": "Frequently asked questions: firearms registration and CCL",
+     "authority": "Metropolitan Police Department, District of Columbia",
+     "url": "https://mpdc.dc.gov/page/frequently-asked-questions-firearms-registration-and-ccl",
+     "checked": "2026-11-03",
+     "supports": "travelling through, magazine limit"
+    },
+    {
+     "title": "District of Columbia firearms transfer and registration general requirements (August 2020)",
+     "authority": "Metropolitan Police Department, District of Columbia",
+     "url": "https://mpdc.dc.gov/sites/default/files/dc/sites/mpdc/publication/attachments/Firearms%20Transfer%20&%20Registration%20Guide_August%202020_0.pdf",
+     "checked": "2026-11-03",
+     "supports": "vehicle transport conditions (read via a search-index snapshot)"
+    }
+   ]
+  }
+ }
+}

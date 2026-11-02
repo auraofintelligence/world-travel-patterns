@@ -47,6 +47,73 @@
      "supports": "legal age, where to buy and public possession limit by province or territory (read via a search-index snapshot)"
     }
    ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "You must be 19 or older to use, buy, grow or possess cannabis. Adults may carry up to 30 g of dried cannabis (or equivalent) in public, and buy only from the Nova Scotia Liquor Corporation (NSLC), in its stores or online. Cannabis in any form can't be used in a vehicle, by the driver or passengers. Using combustible cannabis in a public place where it's banned can bring a fine of up to C$2,000 (about A$2,033, at the RBA rate of 30 October 2026, A$1 = CAD 0.9838).",
+     "source": "https://novascotia.ca/cannabis/laws/",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "The Smoke-free Places Act covers smoking and vaping cannabis as well as tobacco: not on or within 20 m of playgrounds in outdoor public spaces, on or within 9 m of public trails, in provincial parks or on provincial beaches (except inside a rented campsite), on licensed patios, or in a private vehicle with anyone under 19 in it. Municipalities can add their own limits.",
+     "source": "https://novascotia.ca/smoke-free-places/",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "From 25 June 2026 fines rose: buying cannabis anywhere other than the NSLC is C$600 to C$5,000 (about A$610 to A$5,082), and a person under 19 found with cannabis faces C$250 to C$500 (about A$254 to A$508).",
+     "source": "https://news.novascotia.ca/en/2026/06/25/higher-fines-new-offences-support-safe-legal-cannabis-market",
+     "checked": "2026-11-03",
+     "changing": true
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "The legal drinking age is 19; the ticket schedule lists drinking by a person under 19 as its own offence (C$295, about A$300). Being intoxicated in a public place is an offence with a C$134 ticket (about A$136, at the RBA rate of 30 October 2026, A$1 = CAD 0.9838).",
+     "source": "https://novascotia.ca/just/regulations/regs/sot-schedules/sp-20.htm",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Nova Scotia cannabis laws",
+     "authority": "Government of Nova Scotia",
+     "url": "https://novascotia.ca/cannabis/laws/",
+     "checked": "2026-11-03",
+     "supports": "age 19, 30 g in public, NSLC only, no use in vehicles"
+    },
+    {
+     "title": "Smoke-free Places Act",
+     "authority": "Government of Nova Scotia",
+     "url": "https://novascotia.ca/smoke-free-places/",
+     "checked": "2026-11-03",
+     "supports": "places where smoking and vaping are banned"
+    },
+    {
+     "title": "Higher fines, new offences support safe, legal cannabis market (25 June 2026)",
+     "authority": "Government of Nova Scotia",
+     "url": "https://news.novascotia.ca/en/2026/06/25/higher-fines-new-offences-support-safe-legal-cannabis-market",
+     "checked": "2026-11-03",
+     "supports": "fines in force from 25 June 2026"
+    },
+    {
+     "title": "Summary Offence Tickets Regulations, Schedule 20 (Liquor Control Act)",
+     "authority": "Government of Nova Scotia",
+     "url": "https://novascotia.ca/just/regulations/regs/sot-schedules/sp-20.htm",
+     "checked": "2026-11-03",
+     "supports": "under-19 drinking and public intoxication tickets"
+    }
+   ],
+   "notes": "Provincial or territorial law. Read with Canada's federal Cannabis Act and drug laws; never carry cannabis across the international border."
   }
  }
 }

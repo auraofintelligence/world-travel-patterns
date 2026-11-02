@@ -47,6 +47,125 @@
     "2027-10-11: Indigenous Peoples' Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drivers may not use a hand-held phone or other wireless device to read, type or send a text, instant message, email or web page while driving (Nebraska Revised Statutes 60-6,179.01). Hands-free and voice-operated use is allowed. It is a secondary offence: police enforce it only when a driver is also stopped or charged for something else.",
+     "level": "state",
+     "source": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,179.01",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "A motorised boat registered in another state needs a Nebraska Aquatic Invasive Species (AIS) stamp for each calendar year it is used in Nebraska, including when launched from a Nebraska ramp on a border river. The stamp goes on the right-hand rear side of the boat, above the waterline. It is sold online through Game and Parks and by permit vendors.",
+     "level": "state",
+     "source": "https://outdoornebraska.gov/permits/fishing-permits/ais-stamp/",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Nebraska Revised Statutes 60-6,179.01",
+     "authority": "Nebraska Legislature",
+     "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,179.01",
+     "checked": "2026-11-03",
+     "supports": "texting ban and secondary enforcement (read via a search-index snapshot; the Legislature site refused the connection)"
+    },
+    {
+     "title": "AIS Stamp",
+     "authority": "Nebraska Game and Parks Commission",
+     "url": "https://outdoornebraska.gov/permits/fishing-permits/ais-stamp/",
+     "checked": "2026-11-03",
+     "supports": "who needs the stamp, placement, yearly validity (read via a search-index snapshot; the page refused direct fetch)"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Adult-use (recreational) cannabis is not legal in Nebraska. Possessing 1 ounce (about 28 g) or less of marijuana is an infraction for a first offence: a citation, a US$300 fine (about A$426 at RBA 30 Oct 2026, A$1 = USD 0.7040) and possibly a drug education course. A second offence is a misdemeanour with a US$400 fine and up to 5 days in jail (Nebraska Revised Statutes 28-416).",
+     "source": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-416",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "Voters passed the Nebraska Medical Cannabis Patient Protection Act in November 2024. It lets a patient with a written recommendation from a health care practitioner possess up to 5 ounces (about 140 g) of cannabis. The Nebraska Medical Cannabis Commission's rules require patients buying from Nebraska dispensaries to hold a recommendation from a practitioner listed in the state's directory, and were open for further comment in October 2026.",
+     "source": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-24,104",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "evidence": "signal",
+     "text": "News reports say the Governor signed the Commission's regulations around 1 July 2026, after the Attorney General's review. As reported, they allow no more than 12 dispensaries statewide, cap purchases at 5 ounces in 30 days, and keep smoking, vaping and edible products banned.",
+     "source": "https://nebraskaexaminer.com/briefs/pillen-signs-off-on-nebraska-medical-cannabis-regulations/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "evidence": "signal",
+     "text": "The Nebraska Supreme Court unanimously upheld the two voter-approved medical cannabis laws in September 2026, after a challenge to the 2024 petition.",
+     "source": "https://nebraskaexaminer.com/2026/09/04/nebraska-supreme-court-upholds-validity-of-state-medical-cannabis-laws/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Nebraska Revised Statutes 28-416",
+     "authority": "Nebraska Legislature",
+     "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-416",
+     "checked": "2026-11-03",
+     "supports": "1 oz or less is an infraction, US$300 first fine, second offence (read via a search-index snapshot; the Legislature site refused the connection)"
+    },
+    {
+     "title": "Nebraska Medical Cannabis Patient Protection Act (71-24,104 and following)",
+     "authority": "Nebraska Legislature",
+     "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-24,104",
+     "checked": "2026-11-03",
+     "supports": "written recommendation, 5 oz allowable amount (read via a search-index snapshot)"
+    },
+    {
+     "title": "Nebraska Medical Cannabis Commission",
+     "authority": "Nebraska Liquor Control Commission and Medical Cannabis Commission",
+     "url": "https://lcc.nebraska.gov/medical-cannabis/overview",
+     "checked": "2026-11-03",
+     "supports": "practitioner directory for dispensary sales (read via a search-index snapshot; the page refused direct fetch)"
+    },
+    {
+     "title": "Pillen signs off on Nebraska medical cannabis regulations",
+     "authority": "Signal: Nebraska Examiner",
+     "url": "https://nebraskaexaminer.com/briefs/pillen-signs-off-on-nebraska-medical-cannabis-regulations/",
+     "checked": "2026-11-03",
+     "supports": "2026 signing and what the rules contain (read via a search-index snapshot)"
+    },
+    {
+     "title": "Nebraska Supreme Court upholds validity of state medical cannabis laws",
+     "authority": "Signal: Nebraska Examiner",
+     "url": "https://nebraskaexaminer.com/2026/09/04/nebraska-supreme-court-upholds-validity-of-state-medical-cannabis-laws/",
+     "checked": "2026-11-03",
+     "supports": "September 2026 ruling (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules. The medical program's rules were still being revised in late 2026."
   }
  }
 }

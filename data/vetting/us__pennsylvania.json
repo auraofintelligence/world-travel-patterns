@@ -21,6 +21,77 @@
     "2027-10-11: Columbus Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Under Paul Miller's Law (75 Pa.C.S. 3316.1, in force 5 June 2025), drivers may not hold a phone or other interactive mobile device in a hand or against the body, dial or answer by pressing more than one button, or reach for it so they leave a normal seated position. This applies while moving and while stopped in traffic or at lights; it doesn't apply once the vehicle has pulled safely off the road. Only written warnings were given for the first 12 months, so fines apply from June 2026. Texting while moving is separately banned (75 Pa.C.S. 3316). Calling police or emergency services to prevent injury is allowed.",
+     "penalty_signal": "US$50 fine (about A$71 at RBA 30 Oct 2026, A$1 = USD 0.7040).",
+     "level": "state",
+     "source": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=75&div=0&chapter=33&section=16&subsctn=1",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "75 Pa.C.S. 3316.1 Prohibiting use of interactive mobile device",
+     "authority": "Pennsylvania General Assembly",
+     "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=75&div=0&chapter=33&section=16&subsctn=1",
+     "checked": "2026-11-03",
+     "supports": "what counts as use, stopped in traffic, 12-month warning period, US$50 fine"
+    },
+    {
+     "title": "75 Pa.C.S. 3316 Prohibiting text-based communications",
+     "authority": "Pennsylvania General Assembly",
+     "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=75&div=0&chapter=33&section=16&subsctn=0",
+     "checked": "2026-11-03",
+     "supports": "texting ban while moving, emergency exception"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Pennsylvania's Medical Marijuana Program is open to Pennsylvanians who have one or more of 24 qualifying serious medical conditions and a certification from an approved practitioner. The Department of Health's program page says nothing about accepting medical cards from other states.",
+     "source": "https://www.pa.gov/agencies/health/programs/medical-marijuana",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Wine and spirits are sold by the state: the Pennsylvania Liquor Control Board runs about 560 Fine Wine & Good Spirits stores statewide, and licenses the state's other alcohol producers and sellers.",
+     "source": "https://www.pa.gov/agencies/lcb",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Medical Marijuana Program",
+     "authority": "Pennsylvania Department of Health",
+     "url": "https://www.pa.gov/agencies/health/programs/medical-marijuana",
+     "checked": "2026-11-03",
+     "supports": "who is eligible, 24 conditions, practitioner certification"
+    },
+    {
+     "title": "Pennsylvania Liquor Control Board",
+     "authority": "Pennsylvania Liquor Control Board",
+     "url": "https://www.pa.gov/agencies/lcb",
+     "checked": "2026-11-03",
+     "supports": "about 560 Fine Wine & Good Spirits stores"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules. Adult-use (recreational) cannabis status was not rechecked here."
   }
  }
 }

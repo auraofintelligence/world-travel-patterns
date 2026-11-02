@@ -59,6 +59,101 @@
      "supports": "public smoking and vaping ban (read via a search-index snapshot)"
     }
    ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "The legal age for cannabis in Manitoba is 19. Adults may carry up to 30 g of dried cannabis (or equivalent) in public, and buy only from retailers licensed by the Liquor, Gaming and Cannabis Authority of Manitoba, in person or online.",
+     "source": "https://gov.mb.ca/cannabis/faq.html",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Smoking or vaping cannabis is illegal in all public places, including streets and sidewalks, parks and beaches (provincial parks too), school grounds, restaurant patios and decks, the grounds of health-care facilities, and enclosed public places.",
+     "source": "https://www.gov.mb.ca/cannabis/knowthelaw/cantuseinpublic.html",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "In a vehicle, cannabis must be stowed in the trunk or another space not readily reachable by anyone inside. The province lists preset fines of C$237 (about A$241) for carrying improperly stored cannabis and C$672 (about A$683) for using cannabis in a vehicle on a highway or in an off-road vehicle, at the RBA rate of 30 October 2026, A$1 = CAD 0.9838.",
+     "source": "https://gov.mb.ca/cannabis/knowthefacts/enforcement.html",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Since 1 May 2025 adults 19 and over may grow up to four cannabis plants at home (four per household), indoors and out of reach of young people. Some older provincial pages still say home growing is banned.",
+     "source": "https://gov.mb.ca/cannabis/knowthelaw/growathome.html",
+     "checked": "2026-11-03",
+     "changing": true
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "The legal drinking age in Manitoba is 18, and anyone who looks close to that age must show valid photo ID.",
+     "source": "https://residents.gov.mb.ca/reference.html?d=details&program_id=388",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "The Liquor, Gaming and Cannabis Control Act bans drinking liquor, or having open liquor, in a public place (s. 57).",
+     "source": "https://web2.gov.mb.ca/laws/statutes/ccsm/l153.php",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cannabis in Manitoba: frequently asked questions",
+     "authority": "Province of Manitoba",
+     "url": "https://gov.mb.ca/cannabis/faq.html",
+     "checked": "2026-11-03",
+     "supports": "age 19, 30 g in public, licensed retailers, vehicle storage"
+    },
+    {
+     "title": "You can't use cannabis in public",
+     "authority": "Province of Manitoba",
+     "url": "https://www.gov.mb.ca/cannabis/knowthelaw/cantuseinpublic.html",
+     "checked": "2026-11-03",
+     "supports": "public smoking and vaping ban"
+    },
+    {
+     "title": "Growing cannabis at home",
+     "authority": "Province of Manitoba",
+     "url": "https://gov.mb.ca/cannabis/knowthelaw/growathome.html",
+     "checked": "2026-11-03",
+     "supports": "home growing allowed from 1 May 2025"
+    },
+    {
+     "title": "Cannabis enforcement",
+     "authority": "Province of Manitoba",
+     "url": "https://gov.mb.ca/cannabis/knowthefacts/enforcement.html",
+     "checked": "2026-11-03",
+     "supports": "preset fines (the page still lists a home-growing fine from before May 2025)"
+    },
+    {
+     "title": "Legal drinking age",
+     "authority": "Province of Manitoba, Residents Portal",
+     "url": "https://residents.gov.mb.ca/reference.html?d=details&program_id=388",
+     "checked": "2026-11-03",
+     "supports": "drinking age 18"
+    },
+    {
+     "title": "The Liquor, Gaming and Cannabis Control Act, C.C.S.M. c. L153",
+     "authority": "Manitoba Laws",
+     "url": "https://web2.gov.mb.ca/laws/statutes/ccsm/l153.php",
+     "checked": "2026-11-03",
+     "supports": "s. 57 no consumption or open liquor in a public place (section heading read)"
+    }
+   ],
+   "notes": "Provincial or territorial law. Read with Canada's federal Cannabis Act and drug laws; never carry cannabis across the international border."
   }
  }
 }
