@@ -976,3 +976,7 @@ Recomputed counts; handoff updated.
 ## 2026-11-01 12:00 AEST, Grok: 2027 events from organiser sites: SXSW, Sundance, Burning Man, Primavera Sound, Hay Festival, Jaipur Literature Festival (6 records)
 
 Added 6 official 2027 events to year-ahead records (us__texas, us__colorado, us__nevada, es__catalonia, gb__wales, in__rajasthan), each sourced to the organiser's site.
+
+## 2026-11-02 12:00 AEST, Grok: 2027 events: Ubud Writers and Readers Festival; pending official dates rechecked (1 records)
+
+Added Ubud Writers and Readers Festival 20 to 24 October 2027 (organiser page, read directly) to id__bali. Rechecked Web Summit Lisbon, Slush, Tomorrowland and Iceland Airwaves: still no official 2027 dates. Added Venice Film Festival, WOMAD and Coachella 2027 to the pending list (dates only from third parties).
