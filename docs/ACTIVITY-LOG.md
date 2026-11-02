@@ -1346,3 +1346,7 @@ ni meetings, conference, unpaid-speaking, trade: conditional, visa needed if not
 ## 2026-11-02 12:49 AEST, Grok: Bavaria cannabis bans in beer gardens and festival grounds (Land level): 1 record (1 records)
 
 de/bavaria local-law: Gesundheitsschutzgesetz bans on cannabis in beer gardens, festival tents and Volksfest grounds (Bavarian Health Ministry, search snapshot). Swiss cantons: nothing canton-specific found, not yet checked.
+
+## 2026-11-02 12:49 AEST, Grok: Florida non-resident carry and Colorado public cannabis use (state level) (2 records)
+
+us/florida: 790.015 non-resident carry limited to US residents (flsenate.gov, read directly). us/colorado: public use and federal land bans (cannabis.colorado.gov, search snapshot). Added to existing records.
