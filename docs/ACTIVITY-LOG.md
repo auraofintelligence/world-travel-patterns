@@ -1231,3 +1231,7 @@ local-law partly-mapped from gov.je, gov.im, gov.gg, Guernsey Legal Resources an
 ## 2026-11-02 12:38 AEST, Grok: National law levels: French overseas departments and collectivities (re gp mq gf yt pm wf, 7 levels) (7 records)
 
 local-law partly-mapped from the Conseil constitutionnel overseas page and Légifrance article 73 (search snapshots): French law applies by right in re, gp, mq, gf, yt; pm and wf follow their own statutes under article 74.
+
+## 2026-11-02 12:39 AEST, Grok: National law levels: American Samoa and Puerto Rico (2 levels) (2 records)
+
+as local-law partly-mapped (own entry laws and visitor permit, legalaffairs.as.gov); pr partly-mapped (medical-only cannabis, Law 42-2017, salud.pr.gov). Both via search snapshots. mp and vi remain not yet checked.
