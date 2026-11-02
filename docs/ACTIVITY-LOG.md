@@ -1100,3 +1100,7 @@ gw meetings, conference and trade set to conditional, citing France Diplomatie b
 ## 2026-11-02 12:21 AEST, Grok: Remote work: Åland (Migri remote-work rule) and Fiji (21-day Business Visitors Permit) (2 records)
 
 ax remote-work set to conditional citing Migri (remote work for a foreign employer allowed during a legal stay). fj remote-work set to conditional citing Fiji Immigration (holiday permit bars all work; Australians get a 21-day Business Visitors Permit on arrival).
+
+## 2026-11-02 12:21 AEST, Grok: Volunteering and research: Hong Kong (ImmD), Switzerland (VZAE), Vanuatu (visitor work authority) (3 records)
+
+hk volunteering specialist (visitors may not take paid or unpaid employment without approval); ch volunteering specialist (unpaid work counts as gainful employment); vu research conditional (12-week authority on a visitors permit).
