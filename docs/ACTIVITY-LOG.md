@@ -1239,3 +1239,7 @@ as local-law partly-mapped (own entry laws and visitor permit, legalaffairs.as.g
 ## 2026-11-02 12:39 AEST, Grok: Sub-national law level: California cannabis rules (1 level) (1 records)
 
 us/california local-law partly-mapped from the Department of Cannabis Control and HSC 11362.1 (search snapshots).
+
+## 2026-11-02 12:40 AEST, Grok: Filming: Micronesia and Niue detail updated, still confirm (2 checks) (2 records)
+
+fm and nu filming: detail updated, still confirm; no official page settles filming on a visitor basis. gw and sz filming untouched (no official source found).

@@ -443,10 +443,26 @@
     },
     "filming": {
      "status": "confirm-in-writing",
-     "route": "Entry permit before arrival (to confirm)",
-     "detail": "Non-visitors need an entry permit before arrival; work needs a state work permit first.",
-     "next": "Ask the FSM Division of Immigration in Pohnpei, and the state's labour office for any work.",
-     "checked": "2026-11-01"
+     "route": "No national filming rule found",
+     "detail": "No official FSM page on filming permits was found. Entry is under the Title 50 immigration law, and research or cultural work may need approval from the national archives and culture office (NACH). This does not settle whether filming needs a permit.",
+     "next": "Ask the Division of Immigration and Labor and NACH in writing.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "FSM Code Title 50: Immigration",
+       "authority": "FSM Legal Information System",
+       "url": "https://www.fsmlaw.org/fsm/code/title50/T50_Ch01_2014.html",
+       "checked": "2026-11-02",
+       "supports": "immigration and entry permit law; no filming rule found (read via a search-index snapshot)"
+      },
+      {
+       "title": "Conducting Research in the FSM",
+       "authority": "FSM Office of National Archives, Culture and Historic Preservation",
+       "url": "https://nach.gov.fm/research/",
+       "checked": "2026-11-02",
+       "supports": "research and cultural work approvals (read via a search-index snapshot)"
+      }
+     ]
     },
     "research": {
      "status": "specialist",
