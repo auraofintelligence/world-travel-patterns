@@ -1159,3 +1159,16 @@ lc book-launch and unpaid-speaking specialist (Labour Act s317, ministerial exem
 ## 2026-11-02 12:31 AEST, Grok: Filming: Cuba specialist, Cook Islands detail updated, still confirm (2 checks) (2 records)
 
 cu filming specialist (D-6 press visa and CPI accreditation, MINREX). ck filming detail updated, still confirm (only the Ministry of Transport drone rule is on record).
+
+## Handoff 2026-11-02 (rules stacks, talks, filming)
+
+- HEAD checks rerun on ba98a21: all passed with no changes. From now on docs commits go through `D` in /tmp/C.sh, which runs the full checks first.
+- Rules-stack design (ce770f7):
+  - Destination side: the existing local-law pattern (inherit stack) already resolves every level from the country down. build_site.py now writes site/data/law-stacks.json, the skeleton for every international place (Australia excluded as the home side), with each level's status or null for not yet checked. Totals: 3,767 places and levels, 224 filled, 3,543 not yet checked. National level: 212 of 247 filled; 35 national or territory levels are still not checked (aq as ax bl bq cc cq cx eh fo gf gg gl gp gs gu im io je mf mp mq nf pm pn pr re sj sx tf tk vc vi wf yt). Sub-national: 12 of 3,520 filled. No sub-national rules were invented.
+  - Home side: new pattern patterns/home-obligations.json (inherit stack, home_only). lib.home_chain() reads config/home-base.json, and applies() limits the pattern to that chain, so changing the one id moves the whole stack.
+  - Records: au has 11 obligations (ABF, DAFF, Smartraveller, Consular Services Charter, AFP, AGD, Defence, ATO, Services Australia, AEC). au/qld has 3 (IDP, registration, ECQ telephone voting). Redland City has 1 (rates). Minjerribah is not yet checked: ferry access and animal rules, because SeaLink is an operator, not a government source.
+  - Site: the place page has a "Home obligations while away (home-base stack)" section after "Local law (destination stack)" on every place page. It resolves against the home base, so a trip view shows home duties next to the destination layers.
+  - Tests: tests/test_rules_stacks.py (6 tests).
+- Work rules: c18307f (vc 5 checks plus dk and se remote work: detail updated, still confirm), b7c1cd8 (lc, sr, uz, mw talks and launches), 2506cba (cu filming specialist; ck detail updated, still confirm).
+- Open outside DNT and Australia: 278 confirm-in-writing.
+- Not done: kz filming (only unofficial mirrors of the MFA accreditation rules were found), plus fm gw nu sz filming. Also the remaining book launches and unpaid talks (ao bt ci cm dm gw la ma ni sz tn and others), and filling the 35 missing national law levels from official FCDO or Smartraveller local-law sections.
