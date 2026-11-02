@@ -541,6 +541,7 @@
     const levels = [["Exercise normal safety precautions", "lvl-normal"], ["Exercise a high degree of caution", "lvl-high-caution"], ["Reconsider your need to travel", "lvl-reconsider"], ["Do not travel", "lvl-do-not-travel"]];
     const regions = {};
     list.forEach(([k, d]) => (regions[d.region || "Other"] ||= []).push([k, d]));
+    setTimeout(() => wireAdvisories(list, bySlug, levels), 0);
     return hero(credits, "advisories", {
       kicker: `Fetched ${fmt(adv.checked_on)}`,
       title: "The light on the headland",
@@ -552,12 +553,43 @@
       <h2 style="margin-top:40px">Changes</h2>
       ${changes.length ? `<div class="table-wrap"><table><thead><tr><th>Date</th><th>Destination</th><th>From</th><th>To</th></tr></thead><tbody>${changes.slice().reverse().map((c) => `<tr><td>${fmt(c.date)}</td><td><a href="${esc(c.url)}">${esc(adv.destinations[c.destination]?.title || c.destination)}</a></td><td>${esc(c.from)}</td><td><span class="adv ${levelClass(c.to)}">${esc(c.to)}</span></td></tr>`).join("")}</tbody></table></div>`
         : `<p class="empty">No level changes recorded yet. Tracking began on ${fmt(adv.checked_on)}; the daily Action logs every change from here.</p>`}
-      ${Object.entries(regions).sort().map(([r, items]) => `<h2 class="month-head">${esc(r)}</h2><div class="table-wrap"><table><tbody>${items.sort((a, b) => a[1].title.localeCompare(b[1].title)).map(([k, d]) => {
-        const p = bySlug[k];
-        return `<tr><td>${p ? `<a href="place.html?id=${encodeURIComponent(p.id)}">${esc(d.title)}</a>` : esc(d.title)}</td><td><span class="adv ${levelClass(d.level)}">${esc(d.level)}</span></td><td class="meta">updated ${fmt(d.published_change)}</td><td><a href="${esc(d.url)}">advice</a></td></tr>`;
-      }).join("")}</tbody></table></div>`).join("")}
+      <h2 style="margin-top:40px">Every destination</h2>
+      <div class="toolbar" id="afilters">
+        <input type="search" id="aq" class="filter" placeholder="Search destination or region" aria-label="Search destinations" style="min-width:240px">
+        <select class="filter" id="alevel" aria-label="Level"><option value="">All levels</option>${levels.map(([l]) => `<option>${esc(l)}</option>`).join("")}</select>
+        <select class="filter" id="aregion" aria-label="Region"><option value="">All regions</option>${Object.keys(regions).sort().map((r) => `<option>${esc(r)}</option>`).join("")}</select>
+        <span class="meta" id="acount"></span></div>
+      <div class="table-wrap"><table class="sortable"><thead><tr>${[["title", "Destination"], ["region", "Region"], ["level", "Level"], ["updated", "Updated"]].map(([k, l]) => `<th><button class="sort" data-k="${k}">${l} <span aria-hidden="true"></span></button></th>`).join("")}<th>Advice</th></tr></thead><tbody id="arows"></tbody></table></div>
     </section></main>`;
   };
+
+  function wireAdvisories(list, bySlug, levels) {
+    const rank = Object.fromEntries(levels.map(([l], i) => [l, i]));
+    const rows = list.map(([k, d]) => ({ k, d, p: bySlug[k], title: d.title || k, region: d.region || "Other", level: d.level || "", updated: d.published_change || "" }));
+    const q = document.getElementById("aq"), lv = document.getElementById("alevel"), rg = document.getElementById("aregion");
+    const params = new URLSearchParams(location.search);
+    if (params.get("q")) q.value = params.get("q");
+    let key = "title", dir = 1;
+    function draw() {
+      const t = q.value.trim().toLowerCase();
+      const shown = rows.filter((r) => (!t || r.title.toLowerCase().includes(t) || r.region.toLowerCase().includes(t)) && (!lv.value || r.level === lv.value) && (!rg.value || r.region === rg.value))
+        .sort((a, b) => {
+          const c = key === "level" ? (rank[a.level] ?? 9) - (rank[b.level] ?? 9) : String(a[key]).localeCompare(String(b[key]));
+          return (c || a.title.localeCompare(b.title)) * dir;
+        });
+      document.getElementById("arows").innerHTML = shown.map((r) => `<tr><td>${r.p ? `<a href="place.html?id=${encodeURIComponent(r.p.id)}">${esc(r.title)}</a>` : esc(r.title)}</td><td class="meta">${esc(r.region)}</td><td><span class="adv ${levelClass(r.level)}">${esc(r.level)}</span></td><td class="meta">${fmt(r.updated)}</td><td><a href="${esc(r.d.url)}">advice</a></td></tr>`).join("") || '<tr><td colspan="5" class="empty">Nothing matches.</td></tr>';
+      document.getElementById("acount").textContent = `${shown.length} of ${rows.length}`;
+      document.querySelectorAll("table.sortable .sort").forEach((b) => { b.querySelector("span").textContent = b.dataset.k === key ? (dir > 0 ? "▲" : "▼") : ""; b.closest("th").setAttribute("aria-sort", b.dataset.k === key ? (dir > 0 ? "ascending" : "descending") : "none"); });
+    }
+    document.querySelector("table.sortable thead").addEventListener("click", (e) => {
+      const b = e.target.closest("button.sort");
+      if (!b) return;
+      if (key === b.dataset.k) dir = -dir; else { key = b.dataset.k; dir = key === "updated" ? -1 : 1; }
+      draw();
+    });
+    [q, lv, rg].forEach((el) => el.addEventListener("input", draw));
+    draw();
+  }
 
   render.queue = async ({ index, credits }) => {
     const [watch, sources] = await Promise.all([json("data/watch.json", { items: [] }), json("data/source-status.json", { sources: {} })]);

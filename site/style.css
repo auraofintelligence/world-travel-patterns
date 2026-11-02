@@ -262,3 +262,8 @@ footer a { color: var(--ink-2); }
 .az { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0 0 18px; }
 .az a { white-space: nowrap; }
 .mo small { display: block; font-size: 0.72rem; color: var(--muted); }
+/* Sortable tables (advisories) */
+table.sortable th button.sort { all: unset; cursor: pointer; font: inherit; font-weight: 700; color: inherit; }
+table.sortable th button.sort:hover, table.sortable th button.sort:focus-visible { text-decoration: underline; }
+table.sortable th button.sort span { font-size: 0.75em; margin-left: 4px; }
+input.filter[type="search"] { color: inherit; }
