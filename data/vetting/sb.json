@@ -299,11 +299,20 @@
      "checked": "2026-11-01"
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Business visa (up to six weeks a visit, 90 days a year; US$500, about A$710 at RBA, 30 October 2026: A$1 = US$0.7040)",
-     "detail": "Short business activity may fit the business visa; check whether speaking counts.",
-     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Commissioner of Labour approval if the activity counts as professional work",
+     "detail": "Visitor conditions bar any business, profession or employment, for reward or not, without the Commissioner of Labour's approval. Whether a talk or launch counts is not stated.",
+     "next": "Ask Immigration or the Commissioner of Labour in writing.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Visa Information",
+       "authority": "Permanent Mission of Solomon Islands to the United Nations",
+       "url": "http://www.un.int/solomonislands/solomonislands/visa-information",
+       "checked": "2026-11-02",
+       "supports": "visitors may not engage in any business, profession or employment, for reward or not, without the Commissioner of Labour's approval; for 30 days they may do so if it arises from their normal employment outside Solomon Islands; research needs ministerial approval (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "specialist",
@@ -313,11 +322,20 @@
      "checked": "2026-11-01"
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Business visa (up to six weeks a visit, 90 days a year; US$500, about A$710 at RBA, 30 October 2026: A$1 = US$0.7040) or Work permit from the Commissioner of Labour",
-     "detail": "Sales and paid appearances may count as work.",
-     "next": "Ask the Immigration Division (Ministry of Commerce, Industry, Labour and Immigration).",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Commissioner of Labour approval if the activity counts as professional work",
+     "detail": "Visitor conditions bar any business, profession or employment, for reward or not, without the Commissioner of Labour's approval. Whether a talk or launch counts is not stated.",
+     "next": "Ask Immigration or the Commissioner of Labour in writing.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Visa Information",
+       "authority": "Permanent Mission of Solomon Islands to the United Nations",
+       "url": "http://www.un.int/solomonislands/solomonislands/visa-information",
+       "checked": "2026-11-02",
+       "supports": "visitors may not engage in any business, profession or employment, for reward or not, without the Commissioner of Labour's approval; for 30 days they may do so if it arises from their normal employment outside Solomon Islands; research needs ministerial approval (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "specialist",
@@ -327,18 +345,18 @@
      "checked": "2026-11-01"
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "No remote-work category",
-     "detail": "There is no remote-work category; work needs a short-term employment visa and work permit. Remote work for a foreign employer is not addressed.",
-     "next": "Ask the Immigration Division in writing.",
-     "checked": "2026-11-01",
+     "status": "conditional",
+     "route": "Visitor permit; up to 30 days of work arising from normal employment abroad",
+     "detail": "Visitors may not do business, professional work or employment, paid or not, without the Commissioner of Labour's approval, except for up to 30 days when the work arises from their normal employment outside Solomon Islands. Longer remote work needs approval.",
+     "next": "Keep remote work within 30 days or ask the Commissioner of Labour.",
+     "checked": "2026-11-02",
      "sources": [
       {
-       "title": "Visas",
-       "authority": "Solomon Islands Immigration Division",
-       "url": "https://immigration.gov.sb/visas/",
-       "checked": "2026-11-01",
-       "supports": "visa categories; no remote-work category (read via a search-index snapshot)"
+       "title": "Visa Information",
+       "authority": "Permanent Mission of Solomon Islands to the United Nations",
+       "url": "http://www.un.int/solomonislands/solomonislands/visa-information",
+       "checked": "2026-11-02",
+       "supports": "visitors may not engage in any business, profession or employment, for reward or not, without the Commissioner of Labour's approval; for 30 days they may do so if it arises from their normal employment outside Solomon Islands; research needs ministerial approval (read via a search-index snapshot)"
       }
      ]
     },

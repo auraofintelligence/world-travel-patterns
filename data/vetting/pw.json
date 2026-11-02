@@ -48,11 +48,20 @@
      "evidence": "signal"
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the 30-day visitor visa on arrival was confirmed.",
-     "next": "Ask the Palau Bureau of Immigration or the Palau Consulate-General in New South Wales.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Tourist visa if non-commercial; written exemption if in doubt",
+     "detail": "The tourist visa bars commercial, employment and business activities; this activity is not named. A written exemption from the Director settles it.",
+     "next": "Ask the Division of Immigration in writing.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Immigration",
+       "authority": "Bureau of Customs and Border Protection, Palau",
+       "url": "https://bcbp.pw/?page_id=165",
+       "checked": "2026-11-02",
+       "supports": "the tourist visa strictly prohibits commercial, employment or business activities; holders of student, temporary or tourist visas may not work unless expressly exempted in writing by the Director; work needs a labor permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "specialist",
@@ -63,11 +72,20 @@
      "evidence": "signal"
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the 30-day visitor visa on arrival was confirmed.",
-     "next": "Ask the Palau Bureau of Immigration or the Palau Consulate-General in New South Wales.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Tourist visa if non-commercial; written exemption if in doubt",
+     "detail": "The tourist visa bars commercial, employment and business activities; this activity is not named. A written exemption from the Director settles it.",
+     "next": "Ask the Division of Immigration in writing.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Immigration",
+       "authority": "Bureau of Customs and Border Protection, Palau",
+       "url": "https://bcbp.pw/?page_id=165",
+       "checked": "2026-11-02",
+       "supports": "the tourist visa strictly prohibits commercial, employment or business activities; holders of student, temporary or tourist visas may not work unless expressly exempted in writing by the Director; work needs a labor permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",
@@ -86,11 +104,20 @@
      ]
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the 30-day visitor visa on arrival was confirmed.",
-     "next": "Ask the Palau Bureau of Immigration or the Palau Consulate-General in New South Wales.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Written exemption from the Director of Immigration, or a labor permit",
+     "detail": "Palau's tourist visa strictly prohibits commercial, employment or business activities, and tourist visa holders may not work unless the Director exempts them in writing. Remote work and volunteering are not named.",
+     "next": "Ask the Division of Immigration for a written exemption before travel.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Immigration",
+       "authority": "Bureau of Customs and Border Protection, Palau",
+       "url": "https://bcbp.pw/?page_id=165",
+       "checked": "2026-11-02",
+       "supports": "the tourist visa strictly prohibits commercial, employment or business activities; holders of student, temporary or tourist visas may not work unless expressly exempted in writing by the Director; work needs a labor permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "specialist",
@@ -147,18 +174,36 @@
      "checked": "2026-11-01"
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the 30-day visitor visa on arrival was confirmed.",
-     "next": "Ask the Palau Bureau of Immigration or the Palau Consulate-General in New South Wales.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Tourist visa if non-commercial; written exemption if in doubt",
+     "detail": "The tourist visa bars commercial, employment and business activities; this activity is not named. A written exemption from the Director settles it.",
+     "next": "Ask the Division of Immigration in writing.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Immigration",
+       "authority": "Bureau of Customs and Border Protection, Palau",
+       "url": "https://bcbp.pw/?page_id=165",
+       "checked": "2026-11-02",
+       "supports": "the tourist visa strictly prohibits commercial, employment or business activities; holders of student, temporary or tourist visas may not work unless expressly exempted in writing by the Director; work needs a labor permit (read via a search-index snapshot)"
+      }
+     ]
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the 30-day visitor visa on arrival was confirmed.",
-     "next": "Ask the Palau Bureau of Immigration or the Palau Consulate-General in New South Wales.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Written exemption from the Director of Immigration, or a labor permit",
+     "detail": "Palau's tourist visa strictly prohibits commercial, employment or business activities, and tourist visa holders may not work unless the Director exempts them in writing. Remote work and volunteering are not named.",
+     "next": "Ask the Division of Immigration for a written exemption before travel.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Immigration",
+       "authority": "Bureau of Customs and Border Protection, Palau",
+       "url": "https://bcbp.pw/?page_id=165",
+       "checked": "2026-11-02",
+       "supports": "the tourist visa strictly prohibits commercial, employment or business activities; holders of student, temporary or tourist visas may not work unless expressly exempted in writing by the Director; work needs a labor permit (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

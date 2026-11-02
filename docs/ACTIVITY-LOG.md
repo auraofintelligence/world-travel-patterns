@@ -1128,3 +1128,7 @@ Counts recomputed; handoff updated.
 ## 2026-11-02 12:23 AEST, Grok: Docs: correct handoff resolved-check count to 11 (0 records)
 
 3 gw + 3 remote work + 2 volunteering + 1 research + 2 filming = 11.
+
+## 2026-11-02 12:24 AEST, Grok: Pacific and Caribbean work rules: Solomon Islands, Tonga, Palau, St Kitts and Nevis (14 checks) (4 records)
+
+sb remote-work conditional (30-day allowance for work arising from employment abroad), unpaid-speaking and book-launch specialist; to volunteering specialist (employment visa for voluntary work) and research specialist (Government Research Permit); pw volunteering and remote-work specialist (written exemption), research, book-launch and unpaid-speaking conditional; kn volunteering, unpaid-speaking, book-launch and research specialist (Immigration Act s19). All from official sites via search snapshots.
