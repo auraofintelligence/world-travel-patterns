@@ -1155,3 +1155,7 @@ New pattern home-obligations (inherit stack, home_only) applies to the place in 
 ## 2026-11-02 12:30 AEST, Grok: Talks and launches: Saint Lucia, Suriname, Uzbekistan, Malawi (8 checks) (4 records)
 
 lc book-launch and unpaid-speaking specialist (Labour Act s317, ministerial exemption); sr both conditional (business e-visa); uz unpaid-speaking conditional (A-3 academic visa), book-launch detail updated, still confirm; mw book-launch and unpaid-speaking detail updated, still confirm.
+
+## 2026-11-02 12:31 AEST, Grok: Filming: Cuba specialist, Cook Islands detail updated, still confirm (2 checks) (2 records)
+
+cu filming specialist (D-6 press visa and CPI accreditation, MINREX). ck filming detail updated, still confirm (only the Ministry of Transport drone rule is on record).
