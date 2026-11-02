@@ -98,7 +98,8 @@ PAGES = [("", "Home", "Search any place and see what each place page covers."),
          ("patterns.html", "Patterns", "The seventeen questions every place is checked against."),
          ("how.html", "How it works", "The checks, how rules reach down from country to council, culture and permit zones."),
          ("queue.html", "Queue", "What gets checked next."),
-         ("site-map.html", "Site map", "Every page, and every country and territory by region.")]
+         ("site-map.html", "Site map", "Every page, and every country and territory by region."),
+         ("view.html", "Your view", "Choose what this site shows you, kept in this browser only.")]
 
 
 def write_discovery(rows):

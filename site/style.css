@@ -188,6 +188,9 @@ select.filter { appearance: auto; }
 /* Pattern levels on a place */
 .pattern-card { margin-bottom: 18px; }
 .pattern-card .q { color: var(--ink-2); font-style: italic; margin-bottom: 14px; }
+.pick { display: inline-flex; align-items: center; gap: 6px; margin: 4px 14px 4px 0; cursor: pointer; }
+.pick.block { display: flex; }
+.pick input { width: 18px; height: 18px; accent-color: var(--sky); }
 .up-card { margin-bottom: 22px; border-left: 4px solid var(--sky); }
 .up-card p { margin: 8px 0; line-height: 1.7; }
 .pattern-card { scroll-margin-top: 80px; }

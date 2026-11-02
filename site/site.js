@@ -10,6 +10,7 @@
     ["advisories.html", "Advisories", "advisories"],
     ["queue.html", "Queue", "queue"],
     ["how.html", "How it works", "how"],
+    ["view.html", "Your view", "view"],
     ["site-map.html", "Site map", "site-map"],
   ];
   const REPO = "https://github.com/auraofintelligence/world-travel-patterns";
@@ -94,6 +95,22 @@
   let IDX = null;
   const isRegion = (p) => p.sk === "first-level" || p.kind === "state";
 
+  /* Your view: what this browser shows. Kept in this browser only, never sent anywhere. The default is Luke's: a man who loves women. */
+  const VIEW_DEFAULT = { you: "man", love: "women", off: [] };
+  function loadView() { try { return { ...VIEW_DEFAULT, ...JSON.parse(localStorage.getItem("wtp-view") || "{}") }; } catch { return { ...VIEW_DEFAULT, off: [] }; } }
+  function saveView() { try { localStorage.setItem("wtp-view", JSON.stringify(VIEW)); } catch { /* storage blocked: the choice lasts for this page only */ } }
+  let VIEW = loadView();
+  const sameSexShown = () => !((VIEW.you === "man" && VIEW.love === "women") || (VIEW.you === "woman" && VIEW.love === "men"));
+  const SAME_SEX = /same[- ]sex|LGB|homosexual|\bgay\b|lesbian|transgender|queer|sexual orientation|gender identity/i;
+  // Hides same-sex sentences when the view says so. Shared wording such as "opposite or same-sex couples" reads "couples".
+  function viewText(t) {
+    if (typeof t !== "string" || sameSexShown() || !SAME_SEX.test(t)) return t;
+    return t.replace(/\b(?:opposite|opposite-sex|heterosexual) (?:or|and) same[- ]sex (couples|partners)/gi, "$1")
+      .replace(/\b(unmarried|married)\s+(?:and|or)\s+same[- ]sex\s+(couples|partners|relationships)/gi, "$1 $2")
+      .replace(/same[- ]sex (?:and|or) (?=unmarried|opposite)/gi, "")
+      .split(/(?<=[.!?;])\s+/).filter((x) => !SAME_SEX.test(x)).join(" ").trim();
+  }
+
   /* Shell */
   function shell(page) {
     const nav = document.createElement("nav");
@@ -106,7 +123,7 @@
     const footer = document.createElement("footer");
     footer.innerHTML = `<div class="section"><span>🤝🔷 A Luke × Claude, Codex and Grok build · Strange But True Public Source Licence</span>
       <span>A planning aid, not legal advice. A level marked "not yet checked" has unknown rules, not no rules.</span>
-      <span><a href="site-map.html">Site map</a> · <a href="how.html">How it works</a> · <a href="queue.html">Queue</a> · <a href="${REPO}">Source on GitHub</a></span></div>`;
+      <span><a href="site-map.html">Site map</a> · <a href="how.html">How it works</a> · <a href="queue.html">Queue</a> · <a href="view.html">Your view</a> · <a href="${REPO}">Source on GitHub</a></span></div>`;
     document.body.append(footer);
   }
 
@@ -360,7 +377,7 @@
       const due = index.byId[p.id]?.due?.[pat.id];
       const age = rec.checked ? days(rec.checked, now) : null;
       const colour = due ? "var(--due)" : "var(--fresh)";
-      const text = rec.summary || rec.status;
+      const text = viewText(rec.summary) || rec.status;
       let body = `<li style="--c:${colour}"><span class="lvl">${esc(p.name)}</span><span class="chip ${due ? "gold" : "teal"}">${esc(rec.status)}</span>${rec.needs_recheck ? ' <span class="chip gold" title="Carried from an earlier repo or not yet reread at an official source: confirm before relying on it">needs recheck</span>' : ""}
         <span class="meta"> checked ${fmt(rec.checked)}${age !== null ? ` (${age} days ago)` : ""}${due ? ` · ${esc(REASON_LABEL[due] || due)}` : ""}</span>`;
       if (pat.id === "activities") {
@@ -373,8 +390,8 @@
       } else if (text && text !== rec.status) {
         body += `<div class="detail">${esc(text)}</div>`;
       }
-      (rec.laws || []).forEach((l) => { body += `<div class="detail"><b>${esc(l.topic)}:</b> ${esc(l.rule)}</div>`; });
-      (rec.items || []).forEach((it) => { body += `<div class="detail"><b>${esc(AREA_LABEL[it.area || it.substance] || it.area || it.substance)}</b>${it.changing ? ' <span class="chip sky">changing</span>' : ""} <span class="chip">${esc(it.kind)}</span>${it.evidence === "signal" ? ' <span class="chip gold">signal</span>' : ""} ${esc(it.text)}</div>`; });
+      (rec.laws || []).forEach((l) => { const r = viewText(l.rule); if (r) body += `<div class="detail"><b>${esc(l.topic)}:</b> ${esc(r)}</div>`; });
+      (rec.items || []).map((it) => ({ ...it, text: viewText(it.text) })).filter((it) => it.text).forEach((it) => { body += `<div class="detail"><b>${esc(AREA_LABEL[it.area || it.substance] || it.area || it.substance)}</b>${it.changing ? ' <span class="chip sky">changing</span>' : ""} <span class="chip">${esc(it.kind)}</span>${it.evidence === "signal" ? ' <span class="chip gold">signal</span>' : ""} ${esc(it.text)}</div>`; });
       (rec.layers || []).forEach((l) => { body += `<div class="detail"><b>${esc(l.type)}:</b> ${esc(l.process)} (${esc(l.authority)})${l.lead_time_days ? `, lead time ${l.lead_time_days} days` : ""}</div>`; });
       if (pat.id === "visa-preparation") {
         [["entry_summary", "Entry"], ["fastest_entry", "Fastest entry"], ["before_departure", "Before departure"], ["useful_stay", "Stay"], ["host_unlock", "With a host"]]
@@ -390,7 +407,7 @@
       [["max_stay", "Stay"], ["passport_validity", "Passport"], ["other", "Also"], ["mission", "Office"], ["notes", "Note"], ["currency", "Currency"],
        ["rate_and_date", "Exchange rate"], ["cash_card_notes", "Cash and cards"], ["climate", "Climate"], ["own_names", "Own names"], ["sacred_or_restricted_places", "Sacred and restricted places"],
        ["dress_and_conduct", "Dress and conduct"], ["cultural_authority", "Who to ask"], ["required", "Required"], ["conditional", "Depends on route"], ["note", "Note"]]
-        .forEach(([k, label]) => { if (rec[k] && (!Array.isArray(rec[k]) || rec[k].length)) body += `<div class="detail"><b>${label}:</b> ${esc(Array.isArray(rec[k]) ? rec[k].join("; ") : rec[k])}</div>`; });
+        .forEach(([k, label]) => { const v = Array.isArray(rec[k]) ? rec[k].map(viewText).filter(Boolean).join("; ") : viewText(rec[k]); if (v) body += `<div class="detail"><b>${label}:</b> ${esc(v)}</div>`; });
       [["closures", "Closures"], ["moving_calendars", "Moving calendars"], ["festivals", "Festivals"], ["public_holidays", "Public holidays"]]
         .forEach(([k, label]) => { const v = rec[k]; if (v && (!Array.isArray(v) || v.length)) body += `<div class="detail"><b>${label}:</b> ${esc(Array.isArray(v) ? v.map((x) => (typeof x === "string" ? x : x.what)).join("; ") : v)}</div>`; });
       if (rec.months?.length) {
@@ -405,7 +422,7 @@
     // Each level's rules are shown once, on that level's own page. A deeper page shows its own records in full and links up for the rest.
     // Home obligations show only on the home base and the levels above it, never on destinations.
     const above = chain.slice(1).reverse();
-    const shown = (pat) => !(pat.home_only && !homeChain.includes(id)) && applies(pat, place);
+    const shown = (pat) => !VIEW.off.includes(pat.id) && !(pat.home_only && !homeChain.includes(id)) && applies(pat, place);
     const fromAbove = (pat) => above.filter((a) => vets[a.id]?.[pat.id]);
     const ownGaps = [];
     const patLink = (p, pat) => `<a href="place.html?id=${encodeURIComponent(p.id)}#pat-${pat.id}">${esc(pat.name)}</a>`;
@@ -420,7 +437,7 @@
         ? `<p class="meta">This replaces ${up.map((a) => `<a href="place.html?id=${encodeURIComponent(a.id)}#pat-${pat.id}">${esc(a.name)}'s</a>`).join(" and ")} for ${esc(place.name)}.</p>`
         : `<p class="meta">Adds to ${up.map((a) => `<a href="place.html?id=${encodeURIComponent(a.id)}#pat-${pat.id}">${esc(a.name)}'s</a>`).join(" and ")}, which still apply here.</p>`;
       return `<div class="card pattern-card" id="pat-${pat.id}"><h3>${esc(pat.name)}</h3>
-        <p class="q">${esc(pat.question)}</p>${upNote}<ul class="levels">${rows.map(([p, r]) => levelRow(p, r, pat)).join("")}</ul></div>`;
+        <p class="q">${esc(viewText(pat.question))}</p>${upNote}<ul class="levels">${rows.map(([p, r]) => levelRow(p, r, pat)).join("")}</ul></div>`;
     }
     const sections = LAYERS.map(([key, label, ids]) => {
       const cards = ids.map((pid) => patterns[pid]).filter(Boolean).map(patternCard).join("");
@@ -429,16 +446,18 @@
     gaps += ownGaps.length;
     // One line per level above: what it covers that still applies here. A nearest-level topic this place (or a nearer level) answers itself is left out.
     const upLines = above.map((a) => {
-      const pats = index.patterns.filter((pat) => applies(pat, a) && pat.inherit !== "none" && vets[a.id]?.[pat.id]
+      const pats = index.patterns.filter((pat) => !VIEW.off.includes(pat.id) && applies(pat, a) && pat.inherit !== "none" && vets[a.id]?.[pat.id]
         && !(pat.inherit === "nearest" && (vets[id]?.[pat.id] || chain.slice(1, chain.indexOf(a)).some((n) => vets[n.id]?.[pat.id]))));
       return pats.length ? `<p><b><a href="place.html?id=${encodeURIComponent(a.id)}">${esc(a.name)}</a>:</b> ${pats.map((pat) => patLink(a, pat)).join(" · ")}</p>` : "";
     }).join("");
     const homeLine = place === spine && id !== "au" && homeChain.length && vets.au?.["home-obligations"]
       ? `<p class="meta">Some Australian laws still apply to you overseas, such as bribing a foreign official. They're listed once, on <a href="place.html?id=au#pat-home-obligations">Australia's page</a>.</p>` : "";
-    const upCard = upLines || ownGaps.length || homeLine ? `<div class="card up-card">
+    const hidden = [...index.patterns.filter((pat) => VIEW.off.includes(pat.id)).map((pat) => pat.name), ...(sameSexShown() ? [] : ["same-sex relationship content"])];
+    const viewLine = hidden.length ? `<p class="meta">Your view hides ${esc(hidden.join(", "))}. <a href="view.html">Change it</a>.</p>` : "";
+    const upCard = upLines || ownGaps.length || homeLine || viewLine ? `<div class="card up-card">
       ${upLines ? `<h3>From the levels above</h3><p class="meta">These apply in ${esc(place.name)} too. Each is shown once, on its own level's page.</p>${upLines}` : ""}
       ${ownGaps.length ? `<p class="meta"><b>Not yet checked for ${esc(place.name)} itself:</b> ${ownGaps.map((p) => esc(p.name)).join(", ")}. Not yet checked means the rules are unknown, not that there are none.</p>` : ""}
-      ${homeLine}</div>` : "";
+      ${homeLine}${viewLine}</div>` : "";
 
     const chainIds = new Set([place, ...descendants].map((p) => p.id));
     const events = feed.events.filter((e) => (chainIds.has(e.place) || (place === spine && (e.members || []).includes(spine.id))) && (e.closes || e.ends || e.starts || "") >= now);
@@ -503,12 +522,12 @@
       const c = p.coverage;
       const pct = c && c.active_places ? Math.round((c.with_record / c.active_places) * 100) : null;
       return `<div class="card" style="border-top:4px solid ${colour[p.layer] || "var(--line)"}">
-        <h3>${esc(p.name)}</h3><p class="q" style="color:var(--ink-2)">${esc(p.question)}</p>
+        <h3>${esc(p.name)}</h3><p class="q" style="color:var(--ink-2)">${esc(viewText(p.question))}</p>
         <div class="chips"><span class="chip">${esc(p.method)}</span><span class="chip">${p.inherit === "stack" ? "stacks across levels" : p.inherit === "nearest" ? "nearest level" : "this place only"}</span><span class="chip">recheck within ${p.baseline_days} day${p.baseline_days === 1 ? "" : "s"}</span></div>
         ${c ? `<div class="mini-bar"><i style="width:${(c.fresh / Math.max(c.active_places, 1)) * 100}%;background:var(--fresh)"></i><i style="width:${((c.with_record - c.fresh) / Math.max(c.active_places, 1)) * 100}%;background:var(--due)"></i></div>
           <p class="meta" style="margin-top:6px">${c.with_record} of ${c.active_places} active places on record (${pct}%)</p>` : `<p class="meta" style="margin-top:12px">Machine pattern: refreshed automatically for every destination.</p>`}
         ${(p.activities || p.topics || p.requirement_types) ? `<details><summary class="meta">${(p.activities || p.topics || p.requirement_types).length} ${p.activities ? "activities" : p.topics ? "law topics" : "requirement types"}</summary><div class="chips" style="margin-top:8px">${(p.activities || p.topics || p.requirement_types).map((a) => `<span class="chip">${esc(a.replace(/-/g, " "))}</span>`).join("")}</div></details>` : ""}
-        <details><summary class="meta">Rules</summary><ul>${p.rules.map((r) => `<li>${esc(r)}</li>`).join("")}</ul></details>
+        <details><summary class="meta">Rules</summary><ul>${p.rules.map(viewText).filter(Boolean).map((r) => `<li>${esc(r)}</li>`).join("")}</ul></details>
       </div>`;
     }).join("")}</div></section></main>`;
   };
@@ -681,6 +700,39 @@
         .map(([p, d]) => `<tr><td><a href="${REPO}/tree/main/${p}"><code>${p}</code></a></td><td>${d}</td></tr>`).join("")}</tbody></table></div></section>
   </main>`;
 
+  render.view = async ({ index, credits }) => {
+    setTimeout(() => wireView(index), 0);
+    const radio = (name, value, label) => `<label class="pick"><input type="radio" name="${name}" value="${value}"${VIEW[name] === value ? " checked" : ""}> ${label}</label>`;
+    const groups = LAYERS.map(([, label, ids]) => [label, ids.map((pid) => index.patterns.find((p) => p.id === pid)).filter(Boolean)]).filter(([, l]) => l.length);
+    return hero(credits, "view", {
+      title: "Your view",
+      lede: "Choose what this site shows you. Your choices stay in this browser and are never sent anywhere.",
+    }) + `<main><section class="section tight"><div class="card">
+      <h2>You</h2>
+      <p><b>You are</b> ${radio("you", "man", "a man")} ${radio("you", "woman", "a woman")}</p>
+      <p><b>You love</b> ${radio("love", "women", "women")} ${radio("love", "men", "men")} ${radio("love", "anyone", "anyone")}</p>
+      <p class="meta">This decides whether same-sex relationship content shows. A man who loves women is the default, and it's hidden. Where a rule covers every couple, it stays: "opposite or same-sex couples" reads "couples".</p>
+      </div></section>
+      <section class="section tight"><div class="card"><h2>Topics on place pages</h2><p class="meta">Untick a topic to hide it on every place page.</p>
+      ${groups.map(([label, list]) => `<h3 class="month-head">${esc(label)}</h3>${list.map((p) => `<label class="pick block"><input type="checkbox" data-pat="${p.id}"${VIEW.off.includes(p.id) ? "" : " checked"}> ${esc(p.name)}</label>`).join("")}`).join("")}
+      </div></section>
+      <section class="section tight"><button class="btn" id="view-reset" type="button">Back to the default</button> <span class="meta" id="view-saved" aria-live="polite"></span></section></main>`;
+  };
+
+  function wireView(index) {
+    const saved = document.getElementById("view-saved");
+    const done = () => { saveView(); saved.textContent = "Saved."; };
+    document.querySelectorAll('input[type="radio"]').forEach((r) => r.addEventListener("change", () => { VIEW[r.name] = r.value; done(); }));
+    document.querySelectorAll("input[data-pat]").forEach((c) => c.addEventListener("change", () => {
+      VIEW.off = c.checked ? VIEW.off.filter((x) => x !== c.dataset.pat) : [...new Set([...VIEW.off, c.dataset.pat])]; done();
+    }));
+    document.getElementById("view-reset").addEventListener("click", async () => {
+      VIEW = { ...VIEW_DEFAULT, off: [] }; saveView();
+      document.getElementById("app").innerHTML = await render.view({ index, credits: {} });
+      document.getElementById("view-saved").textContent = "Back to the default.";
+    });
+  }
+
   render["site-map"] = async ({ index, credits }) => {
     const [related, placePhotos] = await Promise.all([json("site/data/related.json", { groups: [] }), json("site/data/place-photos.json", { photos: {} })]);
     const groups = {};
@@ -689,7 +741,7 @@
     const pages = [
       ["Find a place", [["places.html", "Places", "Search and browse every place, from countries to islands, councils and permit zones."], ["place.html?id=au/minjerribah", "A place page", "One place's own rules, with links up to the levels above it. Example: Minjerribah."]]],
       ["Before you go", [["advisories.html", "Advisories", "Today's Smartraveller advice levels and every change since tracking began."], ["upcoming.html", "Upcoming", "Dated events and open calls from GAJRA Earth Ahead, by month and place."]]],
-      ["About this site", [["patterns.html", "Patterns", "The seventeen questions every place is checked against."], ["how.html", "How it works", "The checks, how rules reach down from country to council, culture and permit zones."], ["queue.html", "Queue", "What gets checked next."]]],
+      ["About this site", [["patterns.html", "Patterns", "The seventeen questions every place is checked against."], ["how.html", "How it works", "The checks, how rules reach down from country to council, culture and permit zones."], ["queue.html", "Queue", "What gets checked next."], ["view.html", "Your view", "Choose what this site shows you, kept in this browser only."]]],
     ];
     return hero(credits, "site-map", {
       title: "Site map",
