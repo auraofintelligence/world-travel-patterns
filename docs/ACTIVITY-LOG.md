@@ -51,7 +51,7 @@ Dated handover notes for whoever works on this repo next (Claude, Codex, Grok). 
 ## Standing notes from Luke (1 November 2026)
 
 - **What this repo is.** A dataset only: accurate, sourced records that a separate oracle (built elsewhere) will draw on for Luke's own spontaneous overseas travel. This repo is not the oracle. Focus purely on accurate, cited data.
-- **Australia is out of scope here.** Skip all Australian domestic data work (councils, wards, electorates, Minjerribah and other Australian places); it's covered by Luke's separate p4a.xyz repo. Prioritise overseas sources and facts.
+- **Australia: light pass only (rule changed 2 November 2026).** Australia is no longer fully excluded. Do state, territory and notable-region work only (Aboriginal land permits, major events in Luke's categories, culture and respecting Country). No council or ward depth, which Luke's separate p4a.xyz repo covers; don't duplicate it. Visa and work patterns are skipped for Australia (skip_home), not filled. International work is the priority.
 
 ## 2026-11-01 15:40 AEST, Grok: batch 1, dead sources
 
@@ -98,7 +98,7 @@ Public repos under github.com/auraofintelligence that hold travel reference data
 - **[global-founder-atlas](https://github.com/auraofintelligence/global-founder-atlas)** (last commit 2026-11-01). `data/opportunities.json` has 62 dated, sourced opportunities (funding, startup visas, residencies, pilots) with `source_url`, `status`, `opens`/`closes`. Overseas ones (Canada, Chile, Estonia, France, Netherlands, Portugal, Qatar, Saudi Arabia, Singapore, Switzerland, UAE, NZ and others) could feed the `activities` (startup and founder routes) and `year-ahead` (deadlines) patterns as signals, each confirmed at its official source. Skip the Australia-only entries.
 - Not travel data: aura-horn-torus (already the source of `data/missions/in-australia.json`), lifetime-memory-map (personal history; privacy rules apply), australian-sire-story-forge (fiction).
 
-Australian domestic data is out of scope here (see standing notes); don't import it from any of these.
+Australia gets a light pass only (see standing notes); don't import council or ward data from any of these.
 
 ## 2026-11-01 16:55 AEST, Grok: visa preparation carried over (local commits, not pushed)
 
@@ -942,3 +942,7 @@ Australia light pass (state level): Sydney Writers' Festival 17 to 23 May 2027, 
 ## 2026-11-01 11:55 AEST, Grok: Australia light pass: Melbourne and Byron writers' festivals 2027 (2 records)
 
 Australia light pass (state level): Melbourne Writers Festival 6 to 9 May 2027 (VIC) and Byron Writers Festival 20 to 22 August 2027 (NSW), from the festivals' own pages (search-index snapshots). Brisbane Writers Festival 2027 dates not yet published.
+
+## 2026-11-01 11:56 AEST, Grok: Scope rule: Australia light pass only, international work first (routines and handoff) (0 records)
+
+Rule change from Luke (2 November 2026): Australia is no longer fully excluded. Added a scope block to the three routines (monthly-cycles, weekly-place-passes, window-watch) and replaced the 'Australia is out of scope' standing note in the handoff: state, territory and notable-region level only, no council or ward depth (p4a.xyz), visa and work patterns stay skipped for au, international work is the priority.

@@ -7,6 +7,12 @@ Weekly place passes for world-travel-patterns.
 Run start to finish on your own. Do not ask the user anything.
 Repo: C:\Users\sbt41\githublocal\world-travel-patterns. Read its CLAUDE.md first; it is binding.
 
+SCOPE · AUSTRALIA LIGHT PASS (rule from 2 November 2026)
+International work is the priority. Australia gets a light pass only: state, territory and notable-region
+level (Aboriginal land permits, major events in the user's categories, culture and respecting Country).
+No council or ward depth (p4a.xyz covers that); don't duplicate p4a. Visa and work patterns don't apply
+to an Australian citizen in Australia (they are skipped for au via skip_home); never invent data for them.
+
 STEP 0 · STAMP THE CLOCK
 Run exactly this, nothing else (it is allowlisted; other forms have stalled unattended runs):
 
