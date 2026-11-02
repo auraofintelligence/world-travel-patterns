@@ -946,3 +946,7 @@ Australia light pass (state level): Melbourne Writers Festival 6 to 9 May 2027 (
 ## 2026-11-01 11:56 AEST, Grok: Scope rule: Australia light pass only, international work first (routines and handoff) (0 records)
 
 Rule change from Luke (2 November 2026): Australia is no longer fully excluded. Added a scope block to the three routines (monthly-cycles, weekly-place-passes, window-watch) and replaced the 'Australia is out of scope' standing note in the handoff: state, territory and notable-region level only, no council or ward depth (p4a.xyz), visa and work patterns stay skipped for au, international work is the priority.
+
+## 2026-11-01 11:56 AEST, Grok: Entrepreneur rules: gy, kn (2 records)
+
+Entrepreneur checks from official sources (search-index snapshots): Guyana equal treatment, 5-year business-person visa US$140, work permit for working locally; St Kitts and Nevis business licence, Alien Landholding Licence, work permits.
