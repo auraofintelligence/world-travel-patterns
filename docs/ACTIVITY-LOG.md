@@ -980,3 +980,7 @@ Added 6 official 2027 events to year-ahead records (us__texas, us__colorado, us_
 ## 2026-11-02 12:00 AEST, Grok: 2027 events: Ubud Writers and Readers Festival; pending official dates rechecked (1 records)
 
 Added Ubud Writers and Readers Festival 20 to 24 October 2027 (organiser page, read directly) to id__bali. Rechecked Web Summit Lisbon, Slush, Tomorrowland and Iceland Airwaves: still no official 2027 dates. Added Venice Film Festival, WOMAD and Coachella 2027 to the pending list (dates only from third parties).
+
+## 2026-11-02 12:01 AEST, Grok: Culture: conduct rules from UK FCDO advice for fr, pl, hr, lv, me, lt, cr (ask-locally to partly-mapped) (7 records)
+
+Seven ask-locally culture records moved to partly-mapped using the FCDO laws and cultural differences sections, read directly on 2026-11-02 (Croatia shirtless and swimwear fines in Split and Dubrovnik, Poland and Latvia public drinking bans, France ID within 4 hours and face-covering ban, Montenegro photography ban). San Marino left as ask-locally: drugs only.
