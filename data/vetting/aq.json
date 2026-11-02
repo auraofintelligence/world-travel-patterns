@@ -433,6 +433,29 @@
      "supports": "public holidays in data/calendar"
     }
    ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-02",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Australian citizens, residents and expeditions need an environmental approval from the Australian Antarctic Division before activities in the Antarctic Treaty area (south of 60 degrees S), including tourism; apply at least 3 months ahead.",
+     "level": "country",
+     "source": "https://www.antarctica.gov.au/about-antarctica/environment/environmental-impact-assessment-approvals-and-permits/",
+     "checked": "2026-11-02"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Environmental approval requirements",
+     "authority": "Australian Antarctic Program",
+     "url": "https://www.antarctica.gov.au/about-antarctica/environment/environmental-impact-assessment-approvals-and-permits/",
+     "checked": "2026-11-02",
+     "supports": "environmental approval before Antarctic activities, 3 months ahead (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

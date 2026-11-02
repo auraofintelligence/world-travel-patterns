@@ -1180,3 +1180,7 @@ au/minjerribah home-obligations partly-mapped: ferry access (Redland City Counci
 ## 2026-11-02 12:33 AEST, Grok: Home-base stack: Minjerribah cultural heritage duty of care (QYAC, Queensland); resident QYAC permits still not yet checked (1 records)
 
 au/minjerribah camping-and-native-title item rewritten from QYAC Cultural Heritage page and qld.gov.au duty of care page; resident-specific QYAC permits remain not yet checked.
+
+## 2026-11-02 12:35 AEST, Grok: National law levels: 11 of 35 missing filled (bq eh mf bl pn gs gu cx cc nf aq) (11 records)
+
+local-law records, partly-mapped: bq, eh, mf, bl, pn, gs from UK FCDO laws and cultural differences sections (read directly); gu from Smartraveller local laws (read directly); cx and cc (Commonwealth plus applied WA law, Infrastructure department), nf (Applied Laws Ordinance 2016), aq (Australian Antarctic Division environmental approval) via search snapshots. The other 24 have no FCDO or Smartraveller local-law section (French departments, US territories, Crown Dependencies, Nordic territories, tk, vc, wf, yt, sx, io, sj, tf) and stay not yet checked.
