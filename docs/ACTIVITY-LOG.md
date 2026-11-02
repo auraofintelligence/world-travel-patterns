@@ -1338,3 +1338,7 @@ us/massachusetts: licence required, non-resident licence to carry (mass.gov). us
 - cbd89c5: firearms rules for us/massachusetts (non-resident licence to carry) and us/illinois (rules for non-residents transporting firearms). These add to existing records, so the sub-national filled count is unchanged.
 - Not searched this run: talks and launches for ao bt ci cm gw la ni tn, gw filming, Swiss cantons, and FL TX CO WA beyond drugs.
 - Law stacks: 293 filled, 3,474 not yet checked. National: 247 of 247. Sub-national: 46. Work rules open: 276 (ma updated, status unchanged).
+
+## 2026-11-02 12:49 AEST, Grok: Nicaragua talks and meetings to conditional; Tunisia detail updated, still confirm (2 records)
+
+ni meetings, conference, unpaid-speaking, trade: conditional, visa needed if not a tourist (Smartraveller), entry-denial risk (US State Department). tn 9 activities: Smartraveller 90-day visa-free, scope not stated, status unchanged. gw: no official source found, unchanged.
