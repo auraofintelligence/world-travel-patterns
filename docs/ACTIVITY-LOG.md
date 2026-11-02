@@ -1188,3 +1188,7 @@ local-law records, partly-mapped: bq, eh, mf, bl, pn, gs from UK FCDO laws and c
 ## 2026-11-02 12:35 AEST, Grok: Sub-national law levels: alcohol prohibition in Bihar, Gujarat, Mizoram, Nagaland, Lakshadweep and Sharjah (6 levels) (6 records)
 
 local-law records at region level from UK FCDO India and UAE safety-and-security pages (read directly): Indian dry states and Lakshadweep (arrest without bail, 5 to 10 years' prison); Sharjah alcohol ban.
+
+## 2026-11-02 12:36 AEST, Grok: Sub-national law level: Quebec cannabis rules (age 21, possession limits, public-use ban) (1 records)
+
+ca/quebec local-law partly-mapped from Gouvernement du Québec cannabis legislation page (search snapshot).
