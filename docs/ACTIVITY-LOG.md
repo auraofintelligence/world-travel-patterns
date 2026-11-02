@@ -1330,3 +1330,11 @@ ma meetings, conference, unpaid-speaking, trade: consulat.ma shows Australia vis
 ## 2026-11-02 12:47 AEST, Grok: Massachusetts and Illinois firearms (state level): 2 laws (2 records)
 
 us/massachusetts: licence required, non-resident licence to carry (mass.gov). us/illinois: non-resident transport rules (Illinois State Police). Search snapshots.
+
+## 2026-11-02 handoff (steps 1 to 4, third run)
+
+- 25a436b: the last 5 national levels. io (FCDO: access restricted), tf (taaf.fr: landing authorisation, visa after administrator agrees), fo (Visit Faroe Islands: mandatory hiking fees), vi (ATF compilation: licence needed for a firearm), mp (CNMI Customs: restricted imports). All 247 national levels are now filled. The commit title repeats "5 records" because the C helper appends the count.
+- f769032: ma meetings, conference, unpaid-speaking and trade. Detail updated, still confirm: consulat.ma lists Australia as visa-exempt but does not settle what activities are allowed.
+- cbd89c5: firearms rules for us/massachusetts (non-resident licence to carry) and us/illinois (rules for non-residents transporting firearms). These add to existing records, so the sub-national filled count is unchanged.
+- Not searched this run: talks and launches for ao bt ci cm gw la ni tn, gw filming, Swiss cantons, and FL TX CO WA beyond drugs.
+- Law stacks: 293 filled, 3,474 not yet checked. National: 247 of 247. Sub-national: 46. Work rules open: 276 (ma updated, status unchanged).
