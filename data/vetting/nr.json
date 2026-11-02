@@ -226,11 +226,20 @@
      "checked": "2026-11-01"
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask the Nauru Consulate-General in Brisbane.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor visa if not business or employment; business visa if professional",
+     "detail": "The visitor visa excludes business and employment; an unpaid talk is not named. A business visa covers professional activity.",
+     "next": "Ask Immigration which visa fits.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Immigration Division",
+       "authority": "Department of Justice and Border Control, Nauru",
+       "url": "https://justice.gov.nr/immigration-division/",
+       "checked": "2026-11-02",
+       "supports": "visitor visas of 1, 2 or 3 months (AUD 50, 150 or 250) cannot be used for business or employment; business visas cover conducting business or a profession, up to 12 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "specialist",
@@ -254,11 +263,20 @@
      "checked": "2026-11-01"
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask the Nauru Consulate-General in Brisbane.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Not covered by the visitor visa; ask about a business or employment visa",
+     "detail": "Nauru's visitor visa cannot be used for business or employment. Volunteering and remote work are not named; a business visa covers business or professional activity for up to 12 months.",
+     "next": "Email visa@naurugov.nr with the activity before applying.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Immigration Division",
+       "authority": "Department of Justice and Border Control, Nauru",
+       "url": "https://justice.gov.nr/immigration-division/",
+       "checked": "2026-11-02",
+       "supports": "visitor visas of 1, 2 or 3 months (AUD 50, 150 or 250) cannot be used for business or employment; business visas cover conducting business or a profession, up to 12 months (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "specialist",
@@ -303,11 +321,20 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Not found on an official page",
-     "detail": "Only the entry rule is on record so far.",
-     "next": "Ask the Nauru Consulate-General in Brisbane.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Not covered by the visitor visa; ask about a business or employment visa",
+     "detail": "Nauru's visitor visa cannot be used for business or employment. Volunteering and remote work are not named; a business visa covers business or professional activity for up to 12 months.",
+     "next": "Email visa@naurugov.nr with the activity before applying.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Immigration Division",
+       "authority": "Department of Justice and Border Control, Nauru",
+       "url": "https://justice.gov.nr/immigration-division/",
+       "checked": "2026-11-02",
+       "supports": "visitor visas of 1, 2 or 3 months (AUD 50, 150 or 250) cannot be used for business or employment; business visas cover conducting business or a profession, up to 12 months (read via a search-index snapshot)"
+      }
+     ]
     }
    },
    "sources": [

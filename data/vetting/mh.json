@@ -262,11 +262,20 @@
      "checked": "2026-11-01"
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Work permit and E-1 employment visa",
-     "detail": "Any work needs a work permit and an E-1 visa; the visitor visa allows neither work nor business.",
-     "next": "Ask the RMI Division of Immigration.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "V-1 visitor visa if not employment or business",
+     "detail": "The V-1 visitor visa covers tourism, research and volunteer services for up to 90 days but not employment or business activities. A talk or launch is not named.",
+     "next": "Describe the activity in the purpose letter and ask Immigration if unsure.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Visit RMI (Visa & Entry)",
+       "authority": "Division of Immigration, Republic of the Marshall Islands",
+       "url": "https://rmiimmigration.org/visit-rmi-visa-entry/",
+       "checked": "2026-11-02",
+       "supports": "V-1 visitor visa (up to 90 days, USD 100, waived for visa-on-arrival nationals) covers tourism, family visits, research and volunteer services; it does not authorise employment or business activities; work needs a Labor Division work permit and an E-1 visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "specialist",
@@ -285,11 +294,20 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Work permit and E-1 employment visa",
-     "detail": "Any work needs a work permit and an E-1 visa; the visitor visa allows neither work nor business.",
-     "next": "Ask the RMI Division of Immigration.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "V-1 visitor visa if not employment or business",
+     "detail": "The V-1 visitor visa covers tourism, research and volunteer services for up to 90 days but not employment or business activities. A talk or launch is not named.",
+     "next": "Describe the activity in the purpose letter and ask Immigration if unsure.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Visit RMI (Visa & Entry)",
+       "authority": "Division of Immigration, Republic of the Marshall Islands",
+       "url": "https://rmiimmigration.org/visit-rmi-visa-entry/",
+       "checked": "2026-11-02",
+       "supports": "V-1 visitor visa (up to 90 days, USD 100, waived for visa-on-arrival nationals) covers tourism, family visits, research and volunteer services; it does not authorise employment or business activities; work needs a Labor Division work permit and an E-1 visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "confirm-in-writing",
@@ -299,11 +317,20 @@
      "checked": "2026-11-01"
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Work permit and E-1 employment visa",
-     "detail": "Any work needs a work permit and an E-1 visa; the visitor visa allows neither work nor business.",
-     "next": "Ask the RMI Division of Immigration.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "No remote-work route named; V-1 bars employment and business",
+     "detail": "The V-1 visitor visa does not authorise employment or business activities, and remote work for a foreign employer is not addressed. Working in the RMI otherwise needs a Labor Division work permit plus an E-1 visa.",
+     "next": "Ask the Division of Immigration in writing before working remotely.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Visit RMI (Visa & Entry)",
+       "authority": "Division of Immigration, Republic of the Marshall Islands",
+       "url": "https://rmiimmigration.org/visit-rmi-visa-entry/",
+       "checked": "2026-11-02",
+       "supports": "V-1 visitor visa (up to 90 days, USD 100, waived for visa-on-arrival nationals) covers tourism, family visits, research and volunteer services; it does not authorise employment or business activities; work needs a Labor Division work permit and an E-1 visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "specialist",

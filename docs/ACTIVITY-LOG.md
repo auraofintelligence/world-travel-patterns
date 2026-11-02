@@ -1132,3 +1132,7 @@ Counts recomputed; handoff updated.
 ## 2026-11-02 12:24 AEST, Grok: Pacific and Caribbean work rules: Solomon Islands, Tonga, Palau, St Kitts and Nevis (14 checks) (4 records)
 
 sb remote-work conditional (30-day allowance for work arising from employment abroad), unpaid-speaking and book-launch specialist; to volunteering specialist (employment visa for voluntary work) and research specialist (Government Research Permit); pw volunteering and remote-work specialist (written exemption), research, book-launch and unpaid-speaking conditional; kn volunteering, unpaid-speaking, book-launch and research specialist (Immigration Act s19). All from official sites via search snapshots.
+
+## 2026-11-02 12:25 AEST, Grok: Pacific work rules: Marshall Islands, Nauru, Tuvalu (8 checks) (3 records)
+
+mh book-launch and unpaid-speaking conditional, remote-work specialist (V-1 visitor visa bars employment and business); nr volunteering and remote-work specialist, unpaid-speaking conditional (visitor visa bars business and employment); tv volunteering and remote-work specialist (Immigration Regulations 2014). Official sites via search snapshots.
