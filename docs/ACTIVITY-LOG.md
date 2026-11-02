@@ -1028,3 +1028,7 @@ Added 6 official 2027 events (cn, gb__england, au__qld, us__california, fr__auve
 ## 2026-11-02 12:08 AEST, Grok: 2027 national days from government holiday pages: Singapore, United States, South Africa (3 records)
 
 Added Singapore National Day 9 Aug (MOM), US Independence Day observed 5 Jul (OPM), South Africa Freedom Day 27 Apr (gov.za), all read directly.
+
+## 2026-11-02 12:09 AEST, Grok: 2027 national days from government sources: India Independence Day, New Zealand Waitangi Day (2 records)
+
+India 15 Aug 2027 from the DoPT 2027 holiday memorandum (read directly); New Zealand Waitangi Day 6 Feb 2027, Mondayised 8 Feb, from govt.nz (search snapshot).
