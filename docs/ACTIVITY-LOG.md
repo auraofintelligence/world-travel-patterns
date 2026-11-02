@@ -1300,3 +1300,7 @@ sj from the Governor of Svalbard (polar bear deterrents, field-travel notificati
 ## 2026-11-02 12:44 AEST, Grok: Law levels: New York and Hawaii firearms (state), Åland and St Vincent (national) (4 records)
 
 us/new-york firearms (NYPD FAQ) and us/hawaii firearm registration (HRS 134-3, read directly via search result text) added; ax local-law from Finnish Customs (tax border alcohol allowances); vc local-law from Government of Canada and US State Department advice and Act No. 10 of 2019. Search snapshots.
+
+## 2026-11-02 12:44 AEST, Grok: Sub-national law levels: alcohol age in 5 UAE emirates; Hawaii source label fix (6 records)
+
+local-law partly-mapped for Abu Dhabi, Ajman, Fujairah, Umm Al Quwain and Ras Al Khaimah from the FCDO UAE page (read directly): drinking age 21, public drinking illegal. us/hawaii HRS 134-3 source relabelled as a search snapshot (it was mislabelled read directly in 3545ff9).
