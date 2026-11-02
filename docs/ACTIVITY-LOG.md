@@ -1196,3 +1196,30 @@ ca/quebec local-law partly-mapped from Gouvernement du Québec cannabis legislat
 ## 2026-11-02 12:36 AEST, Grok: Filming: Kazakhstan specialist (MFA journalist accreditation, 1 check) (1 records)
 
 kz filming specialist from the MFA accreditation rules on the official Adilet database (search snapshot).
+
+## Handoff 2026-11-02 (home level, national and sub-national law levels)
+
+- ff4dde3 and aec6ff7: Minjerribah home level.
+  - Ferry access (Redland City Council).
+  - Resident vehicle access permit fee exemption, renewed yearly (qld.gov.au, DETSI policy, RAM Regulation s58).
+  - Cultural heritage duty of care (QYAC; qld.gov.au, with fines up to AUD 166,900).
+  - Redland dog and cat registration, renewed every 12 months.
+  - New home-obligations topic: camping-and-native-title.
+  - Resident-specific QYAC permits: not yet checked. Home stack: 4 of 4 levels have records.
+- 1e9b2fa: 11 of 35 missing national law levels filled.
+  - From FCDO, read directly: bq eh mf bl pn gs.
+  - From Smartraveller, read directly: gu.
+  - From search snapshots: cx and cc (Commonwealth plus applied WA law), nf (NSW applied laws), aq (Antarctic environmental approval).
+  - Still not yet checked: 24 (as ax cq fo gf gg gl gp im io je mp mq pm pr re sj sx tf tk vc vi wf yt). Their FCDO pages have no laws section, or there is no FCDO or Smartraveller page.
+- 1a33cba and 91045c3: sub-national levels.
+  - Alcohol prohibition in Bihar, Gujarat, Mizoram, Nagaland and Lakshadweep (FCDO India) and in Sharjah (FCDO UAE).
+  - Quebec cannabis rules (Gouvernement du Québec).
+- c34bd13: kz filming moved to specialist (MFA accreditation rules, Adilet).
+- Law stacks: 242 of 3,767 levels filled, 3,525 not yet checked. Work rules open outside DNT and Australia: 277.
+- Next:
+  - Crown Dependencies from gov.je, gov.gg and gov.im.
+  - French overseas departments from French government pages.
+  - US territories.
+  - More sub-national levels: US state cannabis and alcohol, Malaysian states (Kelantan, Terengganu), German Länder.
+  - fm gw nu sz filming.
+  - Remaining talks and launches.
