@@ -1136,3 +1136,10 @@ sb remote-work conditional (30-day allowance for work arising from employment ab
 ## 2026-11-02 12:25 AEST, Grok: Pacific work rules: Marshall Islands, Nauru, Tuvalu (8 checks) (3 records)
 
 mh book-launch and unpaid-speaking conditional, remote-work specialist (V-1 visitor visa bars employment and business); nr volunteering and remote-work specialist, unpaid-speaking conditional (visitor visa bars business and employment); tv volunteering and remote-work specialist (Immigration Regulations 2014). Official sites via search snapshots.
+
+## Handoff 2026-11-02 (Pacific and Caribbean pass)
+
+- 743d7f7: sb, to, pw, kn, 14 checks (its title is right).
+- a218127: mh, nr, tv. Its title says 8 checks, but only 7 changed (tv volunteering was already resolved, so only tv remote-work moved). Corrected here, not by rewriting history.
+- Open outside DNT and Australia: 284 confirm-in-writing. Remote work 56, volunteering 45, research 33, book launch 30, mixed mission 24, unpaid speaking 18, trade 18, conference 15, ai teaching 14, meetings 13, filming 7, paid speaking 6, artist 4, entrepreneur 1.
+- Not done this run: vc (the official pages only cover paid work permits, so nothing is settled), the DK and SE remote-work wording, the wider book-launch and unpaid-speaking sweep, and filming for ck cu fm gw kz nu sz.
