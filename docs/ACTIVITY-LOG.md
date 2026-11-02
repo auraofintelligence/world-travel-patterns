@@ -1227,3 +1227,7 @@ kz filming specialist from the MFA accreditation rules on the official Adilet da
 ## 2026-11-02 12:37 AEST, Grok: National law levels: Jersey, Isle of Man, Guernsey, Sark (4 levels) (4 records)
 
 local-law partly-mapped from gov.je, gov.im, gov.gg, Guernsey Legal Resources and sarkgov.co.uk (search snapshots): visitor driving, duty free and prohibited imports, travelling with controlled medicines, Sark vehicle law.
+
+## 2026-11-02 12:38 AEST, Grok: National law levels: French overseas departments and collectivities (re gp mq gf yt pm wf, 7 levels) (7 records)
+
+local-law partly-mapped from the Conseil constitutionnel overseas page and Légifrance article 73 (search snapshots): French law applies by right in re, gp, mq, gf, yt; pm and wf follow their own statutes under article 74.
