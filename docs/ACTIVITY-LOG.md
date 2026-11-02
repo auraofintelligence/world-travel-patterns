@@ -1047,7 +1047,7 @@ cg moved to partly-mapped from the travel.gc.ca laws and culture section, read d
 
 ## Handoff, 2026-11-02 afternoon (Grok)
 
-This run: 20 new official 2027 events. Wellbeing-spiritual: ASSC 30 Beijing 16 to 19 Jun, Mind Body Spirit London 28 to 31 May, MindBodySpirit Brisbane 26 to 28 Feb. Technology: RSAC 5 to 8 Apr, GITEX AI Asia 29 to 30 Apr, SuperAI 8 to 9 Sep. Dating-marriage-adult: Folsom Street Fair 26 Sep (Up Your Alley 25 Jul), Fantasy Fest 22 to 31 Oct. National days: Singapore 9 Aug, US 4 Jul (observed 5 Jul), South Africa Freedom Day 27 Apr, India 15 Aug, NZ Waitangi Day 6 Feb (Mondayised 8 Feb). Arts-culture and film: Annecy 13 to 19 Jun, Sydney Mardi Gras parade 6 Mar, New Orleans Mardi Gras 9 Feb, Frankfurt Book Fair 6 to 10 Oct. Culture: all but io now partly-mapped (vc, yt, sr, sm, cg from Government of Canada advice). Filming list fixed: 8 left outside DNT (as ck cu fm kg kz nu sz).
+This run: 17 new official 2027 events. Wellbeing-spiritual: ASSC 30 Beijing 16 to 19 Jun, Mind Body Spirit London 28 to 31 May, MindBodySpirit Brisbane 26 to 28 Feb. Technology: RSAC 5 to 8 Apr, GITEX AI Asia 29 to 30 Apr, SuperAI 8 to 9 Sep. Dating-marriage-adult: Folsom Street Fair 26 Sep (Up Your Alley 25 Jul), Fantasy Fest 22 to 31 Oct. National days: Singapore 9 Aug, US 4 Jul (observed 5 Jul), South Africa Freedom Day 27 Apr, India 15 Aug, NZ Waitangi Day 6 Feb (Mondayised 8 Feb). Arts-culture and film: Annecy 13 to 19 Jun, Sydney Mardi Gras parade 6 Mar, New Orleans Mardi Gras 9 Feb, Frankfurt Book Fair 6 to 10 Oct. Culture: all but io now partly-mapped (vc, yt, sr, sm, cg from Government of Canada advice). Filming list fixed: 8 left outside DNT (as ck cu fm kg kz nu sz).
 
 Still unverified on official sites: Philippines 2027 Independence Day proclamation (only lawphil and doe.gov.ph seen), Malaysia 2027 holidays (only an FMM copy), Google I/O 2027, Edinburgh Book Festival 2027 (TBC), WorldPride (none in 2027).
 
@@ -1056,3 +1056,7 @@ Confirm-in-writing unchanged at 622 of 3,705 (306 outside DNT and Australia). Ne
 ## 2026-11-02 12:12 AEST, Grok: Docs: handoff and STATUS after the 2027 events and culture run (0 records)
 
 Handoff updated; corrected an unsourced remark about io in the previous log entry.
+
+## 2026-11-02 12:12 AEST, Grok: Docs: correct handoff event count to 17 (0 records)
+
+The handoff said 20 events; the run added 17 (6 + 3 + 2 + 6).
