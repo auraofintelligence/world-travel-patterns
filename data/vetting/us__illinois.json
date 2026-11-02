@@ -59,6 +59,13 @@
      "level": "state",
      "source": "https://cannabis.illinois.gov/about/faqs.html",
      "checked": "2026-11-02"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Non-residents do not need a FOID card but must be eligible to possess firearms at home; a firearm being transported must be broken down, not immediately accessible, or unloaded and cased.",
+     "level": "region",
+     "source": "https://isp.illinois.gov/StaticFiles/docs/FSB/General%20Information/1-154%20-%20Transporting%20Your%20Firearm.pdf",
+     "checked": "2026-11-02"
     }
    ],
    "sources": [
@@ -68,6 +75,13 @@
      "url": "https://cannabis.illinois.gov/about/faqs.html",
      "checked": "2026-11-02",
      "supports": "non-resident possession limits (read via a search-index snapshot)"
+    },
+    {
+     "title": "Transporting your firearm",
+     "authority": "Illinois State Police",
+     "url": "https://isp.illinois.gov/StaticFiles/docs/FSB/General%20Information/1-154%20-%20Transporting%20Your%20Firearm.pdf",
+     "checked": "2026-11-02",
+     "supports": "non-resident transport rules (read via a search-index snapshot)"
     }
    ]
   }

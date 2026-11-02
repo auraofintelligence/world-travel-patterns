@@ -1326,3 +1326,7 @@ Last 5 national levels: BIOT (FCDO, direct), TAAF (taaf.fr access and visa), Far
 ## 2026-11-02 12:47 AEST, Grok: Morocco talks and meetings: detail updated, still confirm (1 records)
 
 ma meetings, conference, unpaid-speaking, trade: consulat.ma shows Australia visa-exempt and lists visa categories but does not settle activity scope. Status unchanged.
+
+## 2026-11-02 12:47 AEST, Grok: Massachusetts and Illinois firearms (state level): 2 laws (2 records)
+
+us/massachusetts: licence required, non-resident licence to carry (mass.gov). us/illinois: non-resident transport rules (Illinois State Police). Search snapshots.
