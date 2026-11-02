@@ -988,3 +988,7 @@ Seven ask-locally culture records moved to partly-mapped using the FCDO laws and
 ## 2026-11-02 12:02 AEST, Grok: Culture: conduct rules from UK FCDO advice for al, ao, ba, br, ci, cu, dj, dz, et, ga, gh, gn, gt (ask-locally to partly-mapped) (13 records)
 
 Thirteen ask-locally culture records moved to partly-mapped from FCDO laws and cultural differences sections, read directly on 2026-11-02. Congo (cg) left as ask-locally: only an ID rule is listed.
+
+## 2026-11-02 12:03 AEST, Grok: Culture: conduct rules from UK FCDO advice for bi, by, lr, mr, mz, ni, sc, sl, sn, st, tg, tj, tm, tv, ua, vg, xk (ask-locally to partly-mapped) (17 records)
+
+Seventeen ask-locally culture records moved to partly-mapped from FCDO laws and cultural differences sections, read directly on 2026-11-02. Suriname (sr) left as ask-locally: only drugs and money are listed. British Indian Ocean Territory (io) and St Vincent and the Grenadines (vc) have no such section.
