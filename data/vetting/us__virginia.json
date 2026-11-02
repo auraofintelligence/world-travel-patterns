@@ -47,6 +47,110 @@
     "2027-10-11: Indigenous Peoples' Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Drivers may not hold a hand-held phone or other personal communications device while driving a moving vehicle on Virginia highways (Code 46.2-818.2). It is allowed when lawfully parked or stopped, and to report an emergency.",
+     "penalty_signal": "US$125 for a first offence, US$250 for a later one, and a mandatory US$250 in a highway work zone (about A$178 and A$355 at RBA 30 Oct 2026, A$1 = USD 0.7040).",
+     "level": "state",
+     "source": "https://law.lis.virginia.gov/vacode/title46.2/chapter8/section46.2-818.2/",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Using a radar detector in a vehicle on Virginia highways is unlawful, and so is selling one in Virginia (Code 46.2-1079). A detector found in a vehicle on the highway is treated as evidence of use, even if it was not switched on, unless it had no power source and was not within reach of anyone in the vehicle. Police may take the device as evidence; no licence points apply.",
+     "level": "state",
+     "source": "https://law.lis.virginia.gov/vacode/title46.2/chapter10/section46.2-1079/",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Code of Virginia 46.2-818.2 Use of handheld personal communications devices",
+     "authority": "Virginia General Assembly, Legislative Information System",
+     "url": "https://law.lis.virginia.gov/vacode/title46.2/chapter8/section46.2-818.2/",
+     "checked": "2026-11-03",
+     "supports": "hand-held ban, exceptions, fines"
+    },
+    {
+     "title": "Code of Virginia 46.2-1079 Radar detectors",
+     "authority": "Virginia General Assembly, Legislative Information System",
+     "url": "https://law.lis.virginia.gov/vacode/title46.2/chapter10/section46.2-1079/",
+     "checked": "2026-11-03",
+     "supports": "use and sale unlawful, presence as evidence, exceptions"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Adults 21 and over may have up to 2 ounces (about 57 g) of marijuana on them or in a public place (Code 4.1-1100). Having more than 2 ounces brings a civil penalty of up to US$25; more than 4 ounces is a crime. Possession at home is not capped in the same way.",
+     "source": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1100/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "No one may consume marijuana in a public place (Code 4.1-1108). Until 1 July 2027 the first offence is a civil penalty of up to US$25 (about A$36 at RBA 30 Oct 2026, A$1 = USD 0.7040); from 1 July 2027 it rises to up to US$250 (about A$355). A third offence is a Class 4 misdemeanour.",
+     "source": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1108/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "There are no licensed adult-use cannabis shops yet. House Bill 30 (2026) set up a regulated retail market, which the Virginia Cannabis Control Authority says will open on 1 July 2027.",
+     "source": "https://cca.virginia.gov/news/virginias-new-marijuana-and-hemp-laws-what-you-need-to-know",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "Since 15 August 2026, a product with more than 2 mg of total THC per package can't be made or sold as hemp in Virginia, and the old rule allowing more THC when enough CBD was present (the 25:1 ratio) has gone. Hemp regulation was due to move from the Department of Agriculture to the Cannabis Control Authority in August 2026.",
+     "source": "https://cca.virginia.gov/news/virginias-new-marijuana-and-hemp-laws-what-you-need-to-know",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Code of Virginia 4.1-1100 Possession of retail marijuana",
+     "authority": "Virginia General Assembly, Legislative Information System",
+     "url": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1100/",
+     "checked": "2026-11-03",
+     "supports": "2 oz limit for adults 21 and over, penalties above it"
+    },
+    {
+     "title": "Code of Virginia 4.1-1108 Consuming marijuana in a public place",
+     "authority": "Virginia General Assembly, Legislative Information System",
+     "url": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1108/",
+     "checked": "2026-11-03",
+     "supports": "public consumption ban, penalties before and from 1 July 2027"
+    },
+    {
+     "title": "Virginia's new marijuana and hemp laws: what you need to know",
+     "authority": "Virginia Cannabis Control Authority",
+     "url": "https://cca.virginia.gov/news/virginias-new-marijuana-and-hemp-laws-what-you-need-to-know",
+     "checked": "2026-11-03",
+     "supports": "retail sales from 1 July 2027 under HB 30, hemp 2 mg per package from 15 August 2026"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules."
   }
  }
 }

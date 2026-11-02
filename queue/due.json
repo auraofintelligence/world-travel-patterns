@@ -3,10 +3,10 @@
   "generated_on": "2026-11-03",
   "mode": "public",
   "place_passes": 269,
-  "pattern_items": 852,
+  "pattern_items": 834,
   "by_reason": {
-   "never-checked": 804,
-   "over-budget": 48
+   "never-checked": 791,
+   "over-budget": 43
   },
   "watch_checks": 0
  },
@@ -1782,84 +1782,6 @@
    ]
   },
   {
-   "place": "dz",
-   "name": "Algeria",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "cv",
-   "name": "Cape Verde",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "cf",
-   "name": "Central African Republic",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "td",
    "name": "Chad",
    "kind": "country",
@@ -1907,46 +1829,6 @@
      "pattern": "year-ahead",
      "reason": "never-checked",
      "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "cd",
-   "name": "Democratic Republic of the Congo",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "do",
-   "name": "Dominican Republic",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
      "budget_days": 90
     },
     {
@@ -2530,12 +2412,6 @@
      "budget_days": 90
     },
     {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
@@ -2796,6 +2672,20 @@
   {
    "place": "al",
    "name": "Albania",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "dz",
+   "name": "Algeria",
    "kind": "country",
    "tags": [],
    "due": [
@@ -3262,12 +3152,6 @@
    "tags": [],
    "due": [
     {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
@@ -3476,6 +3360,32 @@
    ]
   },
   {
+   "place": "cv",
+   "name": "Cape Verde",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "bq",
    "name": "Caribbean Netherlands",
    "kind": "territory",
@@ -3545,6 +3455,26 @@
     },
     {
      "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "cf",
+   "name": "Central African Republic",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
@@ -3850,6 +3780,20 @@
    ]
   },
   {
+   "place": "cd",
+   "name": "Democratic Republic of the Congo",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "dk",
    "name": "Denmark",
    "kind": "country",
@@ -3901,6 +3845,20 @@
      "age_days": null,
      "budget_days": 90
     },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "do",
+   "name": "Dominican Republic",
+   "kind": "country",
+   "tags": [],
+   "due": [
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
@@ -4768,12 +4726,6 @@
      "budget_days": 90
     },
     {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
@@ -5160,12 +5112,6 @@
    "tags": [],
    "due": [
     {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
@@ -5211,12 +5157,6 @@
    "kind": "country",
    "tags": [],
    "due": [
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
@@ -5324,12 +5264,6 @@
    "tags": [],
    "due": [
     {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
@@ -5344,12 +5278,6 @@
    "tags": [],
    "due": [
     {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
@@ -5363,12 +5291,6 @@
    "kind": "country",
    "tags": [],
    "due": [
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
@@ -5555,12 +5477,6 @@
    "due": [
     {
      "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
@@ -6104,12 +6020,6 @@
    "tags": [],
    "due": [
     {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
@@ -6123,12 +6033,6 @@
    "kind": "country",
    "tags": [],
    "due": [
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
@@ -6323,12 +6227,6 @@
    "kind": "country",
    "tags": [],
    "due": [
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
@@ -6571,12 +6469,6 @@
    "kind": "country",
    "tags": [],
    "due": [
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",

@@ -685,19 +685,76 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2026-08-20",
-   "last_reviewed": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required. Apply through the Ivorian Embassy or the official eVisa route before arrival.",
-   "cost_aud_baseline": {
-    "value": "Official fee applies",
-    "checked": "2026-08-20",
-    "claim_id": "WORLD-COTE-DIVOIRE-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "A visa is needed. The e-Visa is applied for online with SNEDAI, the only site the Côte d'Ivoire state recognises for visa applications: pre-enrol online, pay, then complete biometric enrolment and collect the printed visa at Abidjan airport. A yellow fever certificate is required.",
+   "fastest_entry": "e-Visa: online pre-enrolment and payment, then the visa is printed on arrival at Abidjan airport after fingerprints and a photo.",
+   "before_departure": "Pre-enrol on snedai.com with the passport identity page, a return flight booking and a legalised invitation letter or accommodation certificate (all three are required), pay by Visa or Mastercard, and wait for approval from the Direction de la Surveillance du Territoire.",
+   "useful_stay": "The e-Visa is 3 months, multiple entry.",
+   "steps": [
+    {
+     "step": "Pre-enrol online on SNEDAI and upload the passport identity page, the return flight booking and the invitation letter or accommodation certificate (typed, signed, stamped and legalised).",
+     "url": "https://www.snedai.com/e-visa/"
+    },
+    {
+     "step": "Pay the visa fee online by Visa or Mastercard and keep the receipt with its payment code.",
+     "url": "https://www.snedai.com/e-visa/"
+    },
+    {
+     "step": "Wait for the approved pre-enrolment from the Direction de la Surveillance du Territoire (DST); a request isn't a right to the visa.",
+     "url": "https://www.snedai.com/e-visa/"
+    },
+    {
+     "step": "At Abidjan airport, go to the 'Visa aéroport' desk for fingerprints and a photo; the visa is printed on the spot.",
+     "url": "https://www.snedai.com/e-visa/"
+    },
+    {
+     "step": "Taking art objects out of the country needs an exit permit from the National Museum.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/cote-divoire-ivory-coast"
+    }
+   ],
+   "documents": [
+    "Passport valid at least 6 months",
+    "Printed fee receipt",
+    "Printed approved pre-enrolment",
+    "Return flight booking",
+    "Legalised invitation letter or accommodation certificate",
+    "International yellow fever vaccination certificate"
+   ],
+   "fees": [
+    {
+     "item": "e-Visa, 3 months multiple entry (bank fees included)",
+     "amount": 73,
+     "currency": "EUR",
+     "url": "https://www.snedai.com/e-visa/",
+     "evidence": "operational",
+     "checked": "2026-11-03",
+     "aud": 116.0,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = EUR 0.6293"
+    }
+   ],
+   "open_questions": [
+    "SNEDAI runs the e-Visa for the state; is the EUR 73 fee also published on a Côte d'Ivoire ministry page?"
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/cote-divoire-ivory-coast",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "E-Visa Côte d'Ivoire",
+     "authority": "SNEDAI, e-Visa operator recognised by the State of Côte d'Ivoire (Direction de la Surveillance du Territoire validates)",
+     "url": "https://www.snedai.com/e-visa/",
+     "supports": "pre-enrolment documents, EUR 73 fee, 3-month multiple-entry visa, airport enrolment",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -708,7 +765,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: no visa details in the section read."
+   "cost_aud_baseline": {
+    "value": "Official fee applies",
+    "checked": "2026-08-20",
+    "claim_id": "WORLD-COTE-DIVOIRE-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required. Apply through the Ivorian Embassy or the official eVisa route before arrival."
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (updated 7 Sep 2026) refers visa questions to a Côte d'Ivoire mission and confirms the yellow fever and art export rules; the SNEDAI e-Visa page (the state-recognised site, operated by a contractor) gives the steps, documents and EUR 73 fee. The fee item is marked operational for that reason."
   },
   "year-ahead": {
    "status": "mapped",

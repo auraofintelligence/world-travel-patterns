@@ -674,19 +674,47 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2026-08-20",
-   "last_reviewed": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "31-day visitor permit on arrival for Australian passport holders; extensions are available.",
-   "cost_aud_baseline": {
-    "value": "Free on arrival",
-    "checked": "2026-08-20",
-    "claim_id": "WORLD-COOK-ISLANDS-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Authorities issue a visa on arrival, generally a 31-day visitor visa. On application, visits of up to 8 months in total are possible. Show an onward or return ticket, enough funds and arranged accommodation.",
+   "fastest_entry": "31-day visitor visa on arrival.",
+   "before_departure": "Book an onward or return ticket and accommodation, and carry proof of funds. Anyone with a criminal conviction should contact the Ministry of Foreign Affairs and Immigration before travelling.",
+   "useful_stay": "Generally 31 days on arrival; up to 8 months in total on application.",
+   "steps": [
+    {
+     "step": "Arrive with an onward or return ticket, proof of enough funds and arranged accommodation; the visitor visa is issued on arrival.",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/cook-islands"
+    },
+    {
+     "step": "To stay beyond the first visa, apply to the Ministry of Foreign Affairs and Immigration (up to 8 months in total).",
+     "url": "https://mfai.gov.ck/form/contact"
+    },
+    {
+     "step": "With a criminal conviction, contact the Ministry before travel; not declaring can affect future travel.",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/cook-islands"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Onward or return ticket",
+    "Proof of sufficient funds",
+    "Proof of arranged accommodation"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What fees apply to an extension beyond 31 days? Smartraveller says to ask the Ministry for fees."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/cook-islands",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -697,7 +725,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller confirms a 31-day visitor visa on arrival (up to 8 months on application) with onward ticket, funds and accommodation, but refers fees to the Cook Islands Ministry of Foreign Affairs and Immigration."
+   "cost_aud_baseline": {
+    "value": "Free on arrival",
+    "checked": "2026-08-20",
+    "claim_id": "WORLD-COOK-ISLANDS-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "31-day visitor permit on arrival for Australian passport holders; extensions are available."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 22 Jul 2026): 31-day visitor visa on arrival, up to 8 months on application, ticket, funds and accommodation. The Ministry of Foreign Affairs and Immigration visitor page didn't load (404), so extension fees stay open."
   }
  }
 }

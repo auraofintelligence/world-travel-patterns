@@ -750,6 +750,75 @@
     "documents": [],
     "steps": []
    }
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2026-12-08",
+     "what": "Saint Clement of Ohrid Day, 8 December 2026",
+     "effect": "Public holiday: offices closed; services in Ohrid",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/MK",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-01-07",
+     "what": "Orthodox Christmas, 7 January 2027",
+     "effect": "Public holiday: church services; offices closed",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/MK",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-04-30",
+     "what": "Orthodox Easter: Good Friday 30 April to Easter Monday 3 May 2027, with Labour Day on 1 May",
+     "effect": "A long holiday weekend: offices closed",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/MK",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2027-05-03",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-08-02",
+     "what": "Day of the Republic (Ilinden), 2 August 2027",
+     "effect": "Public holiday: commemorations, including at Kruševo",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/MK",
+     "by": "signal",
+     "category": "national-day",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-09-08",
+     "what": "Independence Day, 8 September 2027",
+     "effect": "Public holiday: celebrations in Skopje",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/MK",
+     "by": "signal",
+     "category": "national-day",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "North Macedonia public holidays 2026",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/MK",
+     "supports": "Saint Clement Day 2026 (from the repo calendar file)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "North Macedonia public holidays 2027",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/MK",
+     "supports": "2027 holiday dates (from the repo calendar file)",
+     "checked": "2026-11-03"
+    }
+   ],
+   "checked": "2026-11-03"
   }
  }
 }

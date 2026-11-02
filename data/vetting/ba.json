@@ -832,6 +832,91 @@
     "documents": [],
     "steps": []
    }
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2026-11-25",
+     "what": "Statehood Day, 25 November 2026 (observed in the Federation of Bosnia and Herzegovina)",
+     "effect": "Holiday in the Federation: offices closed there",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/BA",
+     "by": "signal",
+     "category": "national-day",
+     "evidence": "signal"
+    },
+    {
+     "date": "2026-12-25",
+     "what": "Catholic Christmas, 25 December 2026",
+     "effect": "Holiday in Catholic communities and some areas; services and markets",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/BA",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-01-07",
+     "what": "Orthodox Christmas, 7 January 2027",
+     "effect": "Holiday mainly in Republika Srpska and for Orthodox believers",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/BA",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-03-01",
+     "what": "Independence Day, 1 March 2027 (observed in the Federation)",
+     "effect": "Holiday in the Federation: offices closed there",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/BA",
+     "by": "signal",
+     "category": "national-day",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-03-09",
+     "what": "Ramazanski Bajram (Eid al-Fitr), expected about 9 March 2027, after a Ramadan expected to start about 8 February",
+     "effect": "Holiday for Muslim communities: Sarajevo's old town busy in the evenings during Ramadan, and some businesses closed for Bajram",
+     "url": "https://www.officeholidays.com/countries/bosnia-and-herzegovina/2027",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-05-01",
+     "what": "Labour Day 1 and 2 May, with Orthodox Easter 2 May 2027",
+     "effect": "A long weekend: offices closed across the country",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/BA",
+     "by": "signal",
+     "category": "other",
+     "end": "2027-05-03",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bosnia and Herzegovina public holidays 2026",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/BA",
+     "supports": "late-2026 holidays and which entity marks them (from the repo calendar file)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Bosnia and Herzegovina public holidays 2027",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/BA",
+     "supports": "2027 holiday dates; most are entity holidays (from the repo calendar file)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Bosnia and Herzegovina public holidays 2027",
+     "authority": "Signal: Office Holidays (commercial calendar site)",
+     "url": "https://www.officeholidays.com/countries/bosnia-and-herzegovina/2027",
+     "supports": "expected Bajram date (read directly)",
+     "checked": "2026-11-03"
+    }
+   ],
+   "checked": "2026-11-03"
   }
  }
 }

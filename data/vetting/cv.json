@@ -609,19 +609,81 @@
    "notes": "Covered by the Australian mission responsible for Portugal."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa-free for business visits up to 30 days.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-CABO-VERDE-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Australia isn't on Cabo Verde's visa-exempt list, and isn't on the list of nationalities that need a visa before arrival from 1 January 2026. All travellers pre-register on the EASE platform and pay the Airport Security Fee (TSA); visa applications are also made on EASE, and a tourist visa can be bought at the border where it applies.",
+   "fastest_entry": "EASE pre-registration with TSA payment before travel; visa through EASE or at the border (the visa route for Australians isn't spelt out on the pages read).",
+   "before_departure": "Pre-register on ease.gov.cv and pay the TSA (valid one year), and confirm the visa route with a Cabo Verde embassy or consulate.",
+   "steps": [
+    {
+     "step": "Pre-register on EASE and pay the Airport Security Fee (TSA) online.",
+     "url": "https://www.ease.gov.cv/"
+    },
+    {
+     "step": "Check the visa: Australia is not on the visa-exempt list, so a visa is needed; apply through EASE, or confirm with a Cabo Verde embassy or consulate.",
+     "url": "https://www.gov.cv/en/paises-isentos-de-visto-para-cabo-verde"
+    },
+    {
+     "step": "Without proof of pre-registration, pay the TSA and, where it applies, buy the tourist visa at the border post on arrival.",
+     "url": "https://portalconsular.mnec.gov.cv/en/perguntas-frequentes"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "EASE pre-registration and TSA receipt",
+    "Visa (EASE or at the border)"
+   ],
+   "fees": [
+    {
+     "item": "Airport Security Fee (TSA), international flights",
+     "amount": 3400,
+     "currency": "CVE",
+     "url": "https://portalconsular.mnec.gov.cv/en/perguntas-frequentes",
+     "checked": "2026-11-03",
+     "aud": 49.0,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = EUR 0.6293; CVE fixed at 110.265 per EUR (Banco de Cabo Verde parity)"
+    },
+    {
+     "item": "Airport Security Fee (TSA), domestic flights between islands",
+     "amount": 150,
+     "currency": "CVE",
+     "url": "https://portalconsular.mnec.gov.cv/en/perguntas-frequentes",
+     "checked": "2026-11-03",
+     "aud": 2.16,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = EUR 0.6293; CVE fixed at 110.265 per EUR (Banco de Cabo Verde parity)"
+    }
+   ],
+   "open_questions": [
+    "Can an Australian get the tourist visa on arrival or through EASE, and what does it cost?",
+    "No Smartraveller page covers Cabo Verde."
+   ],
+   "sources": [
+    {
+     "title": "Visa-free countries for Cape Verde",
+     "authority": "Portal Único, Government of Cabo Verde",
+     "url": "https://www.gov.cv/en/paises-isentos-de-visto-para-cabo-verde",
+     "supports": "Australia not on the visa-exempt list",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "EASE: travellers pre-registration",
+     "authority": "Government of Cabo Verde",
+     "url": "https://www.ease.gov.cv/",
+     "supports": "pre-registration; nationalities needing a visa in advance from 1 January 2026 (list PDF, Australia not listed)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Frequently asked questions",
+     "authority": "Portal Consular, Ministry of Foreign Affairs of Cabo Verde",
+     "url": "https://portalconsular.mnec.gov.cv/en/perguntas-frequentes",
+     "supports": "TSA 3,400 (EUR 30.83) international and 150 domestic; validity one year; visa at the border where appropriate",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -632,7 +694,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: no Smartraveller advice. The Cabo Verde government (gov.cv) visa-exempt list doesn't include Australia, so a visa is needed; EASE pre-registration and the Airport Security Fee (CVE 3,400, gov.cv/pedir-tsa) apply. The tourist visa fee wasn't found on gov.cv."
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-CABO-VERDE-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa-free for business visits up to 30 days."
+   },
+   "recheck_note": "Rechecked 2026-11-03 on Cabo Verde government pages (no Smartraveller page exists): Australia is on neither the visa-exempt list nor the 2026 visa-in-advance list; EASE pre-registration and the CVE 3,400 TSA apply. The visa route and fee for Australians aren't stated, so the status is confirm-in-writing."
   },
   "local-law": {
    "status": "partly-mapped",

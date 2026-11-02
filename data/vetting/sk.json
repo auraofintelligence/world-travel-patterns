@@ -726,6 +726,92 @@
     "documents": [],
     "steps": []
    }
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2026-12-24",
+     "what": "Christmas Eve, Christmas Day and St Stephen's Day, 24 to 26 December 2026",
+     "effect": "Public holidays: shops close early on 24 December and stay closed on the holidays",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/SK",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2026-12-26",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-03-26",
+     "what": "Easter: Good Friday 26 March and Easter Monday 29 March 2027",
+     "effect": "Public holidays: shops closed",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/SK",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2027-03-29",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-07-05",
+     "what": "St Cyril and Methodius Day, 5 July 2027",
+     "effect": "Public holiday: pilgrimage at Nitra; offices closed",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/SK",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-07-08",
+     "what": "Pohoda festival, 8 to 10 July 2027, Trenčín airport",
+     "effect": "Large music festival: Trenčín accommodation and trains busy",
+     "url": "https://www.pohodafestival.sk/en",
+     "by": "official-events",
+     "category": "music",
+     "end": "2027-07-10"
+    },
+    {
+     "date": "2027-08-29",
+     "what": "Slovak National Uprising anniversary, 29 August 2027",
+     "effect": "Public holiday: commemorations, largest at Banská Bystrica",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/SK",
+     "by": "signal",
+     "category": "national-day",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-09-15",
+     "what": "Our Lady of the Seven Sorrows, 15 September 2027",
+     "effect": "Public holiday: national pilgrimage at Šaštín",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/SK",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Slovakia public holidays 2026",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/SK",
+     "supports": "Christmas 2026 (from the repo calendar file)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Slovakia public holidays 2027",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/SK",
+     "supports": "2027 holiday dates; it lists Constitution Day (1 September) and 17 November as observances, not days off (from the repo calendar file)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Pohoda 2027",
+     "authority": "Pohoda festival (organiser)",
+     "url": "https://www.pohodafestival.sk/en",
+     "supports": "8 to 10 July 2027 (read directly)",
+     "checked": "2026-11-03"
+    }
+   ],
+   "checked": "2026-11-03"
   }
  }
 }

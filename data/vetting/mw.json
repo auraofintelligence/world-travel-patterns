@@ -332,32 +332,71 @@
      "checked": "2026-11-01"
     },
     "meetings": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Malawi High Commission",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Malawi High Commission which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visa plus Visitors/Business Visit Permit (30 days, extendable by 60)",
+     "detail": "Australians need a visa. Malawi's tourist visa is issued for visits or business, and the Visitors/Business Visit Permit covers tourism, visiting relatives and business for 30 days, extendable by a further 60 days for a fee. Taking up employment needs a Temporary Employment Permit issued before entry.",
+     "next": "Apply for the eVisa and state the business purpose; keep paid work out of the trip.",
+     "sources": [
+      {
+       "title": "Permits",
+       "authority": "Department of Immigration and Citizenship Services, Malawi",
+       "url": "https://www.immigration.gov.mw/permits/",
+       "checked": "2026-11-03",
+       "supports": "Visitors/Business Visit Permit covers business, 30 days, extendable by 60"
+      },
+      {
+       "title": "Types of Malawi visa",
+       "authority": "Department of Immigration and Citizenship Services, Malawi",
+       "url": "https://www.immigration.gov.mw/visa/types-of-malawi-visa/",
+       "checked": "2026-11-03",
+       "supports": "tourist visa issued for visits, residence or business"
+      }
+     ],
+     "checked": "2026-11-03"
     },
     "conference": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Malawi High Commission",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Malawi High Commission which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visa plus Visitors/Business Visit Permit (business purpose)",
+     "detail": "Malawi's tourist visa is issued for visits or business, and the Visitors/Business Visit Permit covers business visits of 30 days, extendable by 60. Conferences aren't named separately, so state the conference as the business purpose. Speaking for pay needs a Temporary Employment Permit issued before entry.",
+     "next": "Apply for the eVisa with the conference invitation.",
+     "sources": [
+      {
+       "title": "Permits",
+       "authority": "Department of Immigration and Citizenship Services, Malawi",
+       "url": "https://www.immigration.gov.mw/permits/",
+       "checked": "2026-11-03",
+       "supports": "Visitors/Business Visit Permit covers business, 30 days, extendable by 60"
+      },
+      {
+       "title": "Types of Malawi visa",
+       "authority": "Department of Immigration and Citizenship Services, Malawi",
+       "url": "https://www.immigration.gov.mw/visa/types-of-malawi-visa/",
+       "checked": "2026-11-03",
+       "supports": "tourist visa issued for visits, residence or business"
+      }
+     ],
+     "checked": "2026-11-03"
     },
     "unpaid-speaking": {
      "status": "confirm-in-writing",
      "route": "Not addressed",
-     "detail": "The Department of Immigration lists visitor and business visit permits and temporary residence permits for work-related activity, but does not say which covers a talk or launch, so it does not settle the question.",
+     "detail": "Rechecked 3 November 2026: the Department of Immigration's permits page lists a Visitors/Business Visit Permit (tourism, visiting relatives and business, 30 days, extendable by 60) and its visa page says the tourist visa covers visits or business, but neither names unpaid speaking. Easy entry isn't permission to work.",
      "next": "Ask the Department of Immigration in writing.",
-     "checked": "2026-11-02",
+     "checked": "2026-11-03",
      "sources": [
       {
        "title": "Permits",
-       "authority": "Department of Immigration, Republic of Malawi",
+       "authority": "Department of Immigration and Citizenship Services, Malawi",
        "url": "https://www.immigration.gov.mw/permits/",
-       "checked": "2026-11-02",
-       "supports": "lists visitor and business visit permits, temporary residence permits and business residence permits (read via a search-index snapshot)"
+       "checked": "2026-11-03",
+       "supports": "Visitors/Business Visit Permit for tourism, visiting relatives and business, 30 days, extendable by 60 days; Temporary Employment Permit issued before entry"
+      },
+      {
+       "title": "Types of Malawi visa",
+       "authority": "Department of Immigration and Citizenship Services, Malawi",
+       "url": "https://www.immigration.gov.mw/visa/types-of-malawi-visa/",
+       "checked": "2026-11-03",
+       "supports": "tourist visa issued for visits, residence or business; 3 months, single entry"
       }
      ]
     },
@@ -380,16 +419,23 @@
     "book-launch": {
      "status": "confirm-in-writing",
      "route": "Not addressed",
-     "detail": "The Department of Immigration lists visitor and business visit permits and temporary residence permits for work-related activity, but does not say which covers a talk or launch, so it does not settle the question.",
+     "detail": "Rechecked 3 November 2026: the Department of Immigration's permits page lists a Visitors/Business Visit Permit (tourism, visiting relatives and business, 30 days, extendable by 60) and its visa page says the tourist visa covers visits or business, but neither names book launches or author events. Easy entry isn't permission to work.",
      "next": "Ask the Department of Immigration in writing.",
-     "checked": "2026-11-02",
+     "checked": "2026-11-03",
      "sources": [
       {
        "title": "Permits",
-       "authority": "Department of Immigration, Republic of Malawi",
+       "authority": "Department of Immigration and Citizenship Services, Malawi",
        "url": "https://www.immigration.gov.mw/permits/",
-       "checked": "2026-11-02",
-       "supports": "lists visitor and business visit permits, temporary residence permits and business residence permits (read via a search-index snapshot)"
+       "checked": "2026-11-03",
+       "supports": "Visitors/Business Visit Permit for tourism, visiting relatives and business, 30 days, extendable by 60 days; Temporary Employment Permit issued before entry"
+      },
+      {
+       "title": "Types of Malawi visa",
+       "authority": "Department of Immigration and Citizenship Services, Malawi",
+       "url": "https://www.immigration.gov.mw/visa/types-of-malawi-visa/",
+       "checked": "2026-11-03",
+       "supports": "tourist visa issued for visits, residence or business; 3 months, single entry"
       }
      ]
     },
@@ -412,16 +458,41 @@
     "remote-work": {
      "status": "confirm-in-writing",
      "route": "Ask the Malawi High Commission",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
+     "detail": "Rechecked 3 November 2026: the Department of Immigration's permits page lists a Visitors/Business Visit Permit (tourism, visiting relatives and business, 30 days, extendable by 60) and its visa page says the tourist visa covers visits or business, but neither names remote work for a foreign employer or a digital nomad visa. Easy entry isn't permission to work.",
      "next": "Ask the Malawi High Commission which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-03",
+     "sources": [
+      {
+       "title": "Permits",
+       "authority": "Department of Immigration and Citizenship Services, Malawi",
+       "url": "https://www.immigration.gov.mw/permits/",
+       "checked": "2026-11-03",
+       "supports": "Visitors/Business Visit Permit for tourism, visiting relatives and business, 30 days, extendable by 60 days; Temporary Employment Permit issued before entry"
+      },
+      {
+       "title": "Types of Malawi visa",
+       "authority": "Department of Immigration and Citizenship Services, Malawi",
+       "url": "https://www.immigration.gov.mw/visa/types-of-malawi-visa/",
+       "checked": "2026-11-03",
+       "supports": "tourist visa issued for visits, residence or business; 3 months, single entry"
+      }
+     ]
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Malawi High Commission",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Malawi High Commission which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visa plus Visitors/Business Visit Permit (30 days, extendable by 60)",
+     "detail": "Malawi's tourist visa is issued for visits or business, and the Visitors/Business Visit Permit covers business visits. Carrying on a business in Malawi as self-employed, partner or owner needs a Business Residence Permit (at least USD 50,000 brought in from outside Malawi).",
+     "next": "Apply for the eVisa with the business purpose; use a Malawi partner for local sales.",
+     "sources": [
+      {
+       "title": "Permits",
+       "authority": "Department of Immigration and Citizenship Services, Malawi",
+       "url": "https://www.immigration.gov.mw/permits/",
+       "checked": "2026-11-03",
+       "supports": "Visitors/Business Visit Permit covers business; Business Residence Permit for carrying on business, minimum USD 50,000"
+      }
+     ],
+     "checked": "2026-11-03"
     },
     "artist": {
      "status": "conditional",
@@ -472,18 +543,43 @@
      ]
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Malawi High Commission",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Malawi High Commission which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Student permit (covers educational research)",
+     "detail": "The Department of Immigration says the student permit is for any foreign national who intends to study in Malawi or conduct educational research. It is applied for with fees through the ePermit portal. Research ethics or other clearances are a separate step not checked here.",
+     "next": "Apply for the student permit before the research starts.",
+     "sources": [
+      {
+       "title": "Student permit",
+       "authority": "Department of Immigration and Citizenship Services, Malawi",
+       "url": "https://immigration.gov.mw/permits/student-permit/",
+       "checked": "2026-11-03",
+       "supports": "student permit is for foreign nationals who intend to study or conduct educational research"
+      }
+     ],
+     "checked": "2026-11-03"
     },
     "volunteering": {
      "status": "confirm-in-writing",
      "route": "Ask the Malawi High Commission",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
+     "detail": "Rechecked 3 November 2026: the Department of Immigration's permits page lists a Visitors/Business Visit Permit (tourism, visiting relatives and business, 30 days, extendable by 60) and its visa page says the tourist visa covers visits or business, but neither names volunteering. Easy entry isn't permission to work.",
      "next": "Ask the Malawi High Commission which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-03",
+     "sources": [
+      {
+       "title": "Permits",
+       "authority": "Department of Immigration and Citizenship Services, Malawi",
+       "url": "https://www.immigration.gov.mw/permits/",
+       "checked": "2026-11-03",
+       "supports": "Visitors/Business Visit Permit for tourism, visiting relatives and business, 30 days, extendable by 60 days; Temporary Employment Permit issued before entry"
+      },
+      {
+       "title": "Types of Malawi visa",
+       "authority": "Department of Immigration and Citizenship Services, Malawi",
+       "url": "https://www.immigration.gov.mw/visa/types-of-malawi-visa/",
+       "checked": "2026-11-03",
+       "supports": "tourist visa issued for visits, residence or business; 3 months, single entry"
+      }
+     ]
     }
    },
    "sources": [

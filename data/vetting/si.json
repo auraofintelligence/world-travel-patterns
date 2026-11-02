@@ -674,6 +674,97 @@
     "result": "found",
     "note": "National tourism or government etiquette guidance found and cited."
    }
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2026-11-15",
+     "what": "Regular municipal council and mayoral elections, Sunday 15 November 2026",
+     "effect": "Local elections in every municipality; campaign posters and stalls",
+     "url": "https://www.dvk-rs.si/volitve-in-referendumi/lokalne-volitve/lokalne-volitve/lokalne-volitve/",
+     "by": "official",
+     "category": "election"
+    },
+    {
+     "date": "2026-12-06",
+     "what": "Legislative referendum on the Act on Intervention Measures for the Development of Slovenia (ZIURS), Sunday 6 December 2026",
+     "effect": "National referendum day",
+     "url": "https://www.dvk-rs.si/novica/znano-je-stevilo-volilnih-upravicencev-za-zakonodajni-referendum-o-ziurs/",
+     "by": "official",
+     "category": "election"
+    },
+    {
+     "date": "2026-12-25",
+     "what": "Christmas Day 25 December, and Independence and Unity Day 26 December 2026",
+     "effect": "Public holidays: most shops closed",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/SI",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2026-12-26",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-02-08",
+     "what": "Prešeren Day (Slovenian Cultural Holiday), 8 February 2027",
+     "effect": "Public holiday: cultural events",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/SI",
+     "by": "signal",
+     "category": "national-day",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-03-28",
+     "what": "Easter Sunday 28 March and Easter Monday 29 March 2027",
+     "effect": "Public holidays: shops closed",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/SI",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2027-03-29",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-06-25",
+     "what": "Statehood Day, 25 June 2027",
+     "effect": "Public holiday: official celebrations in Ljubljana",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/SI",
+     "by": "signal",
+     "category": "national-day",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Lokalne volitve 2026",
+     "authority": "Državna volilna komisija (National Electoral Commission of Slovenia)",
+     "url": "https://www.dvk-rs.si/volitve-in-referendumi/lokalne-volitve/lokalne-volitve/lokalne-volitve/",
+     "supports": "local election date (read directly)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Znano je število volilnih upravičencev za zakonodajni referendum o ZIURS",
+     "authority": "Državna volilna komisija (National Electoral Commission of Slovenia)",
+     "url": "https://www.dvk-rs.si/novica/znano-je-stevilo-volilnih-upravicencev-za-zakonodajni-referendum-o-ziurs/",
+     "supports": "referendum date 6 December 2026 (read directly)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Slovenia public holidays 2026",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/SI",
+     "supports": "December 2026 holidays (from the repo calendar file)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Slovenia public holidays 2027",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/SI",
+     "supports": "2027 holiday dates (from the repo calendar file)",
+     "checked": "2026-11-03"
+    }
+   ],
+   "checked": "2026-11-03"
   }
  }
 }

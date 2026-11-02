@@ -729,6 +729,85 @@
     "documents": [],
     "steps": []
    }
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2026-12-25",
+     "what": "Christmas (Western date), 25 December 2026",
+     "effect": "Public holiday: offices closed",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/MD",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-01-07",
+     "what": "Orthodox Christmas, 7 and 8 January 2027",
+     "effect": "Public holidays: church services and family gatherings; offices closed",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/MD",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2027-01-08",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-05-02",
+     "what": "Orthodox Easter, 2 May 2027",
+     "effect": "Public holidays: overnight church services and family gatherings",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/MD",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-05-09",
+     "what": "Victory and Commemoration Day, 9 May 2027",
+     "effect": "Public holiday: wreath-laying ceremonies in Chișinău",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/MD",
+     "by": "signal",
+     "category": "national-day",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-08-27",
+     "what": "Independence Day 27 August and National Language Day 31 August 2027",
+     "effect": "Public holidays: concerts and celebrations in Chișinău",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/MD",
+     "by": "signal",
+     "category": "national-day",
+     "end": "2027-08-31",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-10-14",
+     "what": "Chișinău City Day, 14 October 2027",
+     "effect": "Holiday in Chișinău: concerts and events in the city centre",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/MD",
+     "by": "signal",
+     "category": "arts-culture",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Moldova public holidays 2026",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/MD",
+     "supports": "Christmas 2026 (from the repo calendar file)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Moldova public holidays 2027",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/MD",
+     "supports": "2027 holiday dates (from the repo calendar file)",
+     "checked": "2026-11-03"
+    }
+   ],
+   "checked": "2026-11-03"
   }
  }
 }

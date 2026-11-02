@@ -680,19 +680,76 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance.",
-   "cost_aud_baseline": {
-    "value": "~ $200",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-CONGO-DEM-REP-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel. A visa is needed before entering the DRC; there is no visa on arrival. The nearest DRC embassy is in Tokyo. A yellow fever certificate is required, and a departure tax applies when leaving by air.",
+   "fastest_entry": "No online route on the official pages read: apply to a DRC embassy (nearest in Tokyo) before travel.",
+   "before_departure": "Get the visa before travel from a DRC embassy, carry a yellow fever certificate, and plan for health screening (Ebola outbreak) and declaring satellite phones and GPS equipment.",
+   "steps": [
+    {
+     "step": "Read the Do not travel advice; flights and border points can change with little warning.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo"
+    },
+    {
+     "step": "Apply for a visa before travel at a DRC embassy (the nearest is in Tokyo): no visa on arrival.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo"
+    },
+    {
+     "step": "Carry a yellow fever vaccination certificate; airlines may check it before boarding, on arrival and departure.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo"
+    },
+    {
+     "step": "Declare satellite phones and GPS equipment on arrival.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo"
+    },
+    {
+     "step": "On leaving by air, pay the airport exit fee and boarding fee, get official receipts and keep copies.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "DRC visa issued before travel",
+    "Yellow fever vaccination certificate",
+    "Receipts for departure fees"
+   ],
+   "fees": [
+    {
+     "item": "airport exit fee on leaving by air (subject to change)",
+     "amount": 50,
+     "currency": "USD",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo",
+     "checked": "2026-11-03",
+     "aud": 71.02,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704"
+    },
+    {
+     "item": "boarding fee on leaving by air",
+     "amount": 5,
+     "currency": "USD",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo",
+     "checked": "2026-11-03",
+     "aud": 7.1,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704"
+    }
+   ],
+   "open_questions": [
+    "What does the visa cost at the DRC embassy in Tokyo, and how long does it take?",
+    "Is there an official DRC e-visa portal in service?"
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -703,7 +760,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises Do not travel. A visa is needed before arrival; there is no visa on arrival. The nearest DRC embassy is in Tokyo. No fee stated."
+   "cost_aud_baseline": {
+    "value": "~ $200",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-CONGO-DEM-REP-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (Do not travel; updated 6 Jul 2026): visa before entry, no visa on arrival, nearest embassy Tokyo, yellow fever certificate, USD 50 exit fee plus USD 5 boarding fee. No DRC government visa page was read, so the visa fee and process stay confirm-in-writing."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

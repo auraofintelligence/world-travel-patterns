@@ -669,6 +669,94 @@
     "documents": [],
     "steps": []
    }
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2026-11-30",
+     "what": "St Andrew's Day 30 November and National Day (Great Union Day) 1 December 2026",
+     "effect": "Public holidays: military parade in Bucharest on 1 December; offices closed",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/RO",
+     "by": "signal",
+     "category": "national-day",
+     "end": "2026-12-01",
+     "evidence": "signal"
+    },
+    {
+     "date": "2026-12-25",
+     "what": "Christmas, 25 and 26 December 2026",
+     "effect": "Public holidays: Christmas markets and carolling; most offices and many shops closed",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/RO",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2026-12-26",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-04-30",
+     "what": "Orthodox Easter: Good Friday 30 April, Easter Sunday 2 May and Easter Monday 3 May 2027, next to Labour Day on 1 May",
+     "effect": "A long holiday weekend: midnight church services, many shops closed, and mountain and Black Sea resorts busy",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/RO",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2027-05-03",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-06-20",
+     "what": "Orthodox Pentecost, 20 and 21 June 2027",
+     "effect": "Public holidays: offices closed; long weekend travel",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/RO",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2027-06-21",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-08-05",
+     "what": "UNTOLD festival, 5 to 8 August 2027, Cluj-Napoca",
+     "effect": "Large music festival: Cluj-Napoca accommodation scarce and dearer",
+     "url": "https://untold.com/",
+     "by": "official-events",
+     "category": "music",
+     "end": "2027-08-08"
+    },
+    {
+     "date": "2027-08-15",
+     "what": "Dormition of the Mother of God (Assumption), 15 August 2027",
+     "effect": "Public holiday: pilgrimages to monasteries; Black Sea coast at peak season",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/RO",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Romania public holidays 2026",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/RO",
+     "supports": "late-2026 holidays (from the repo calendar file)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Romania public holidays 2027",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/RO",
+     "supports": "2027 holiday dates (from the repo calendar file)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "UNTOLD 2027",
+     "authority": "UNTOLD (organiser)",
+     "url": "https://untold.com/",
+     "supports": "5 to 8 August 2027, Cluj-Napoca (read directly)",
+     "checked": "2026-11-03"
+    }
+   ],
+   "checked": "2026-11-03"
   }
  }
 }

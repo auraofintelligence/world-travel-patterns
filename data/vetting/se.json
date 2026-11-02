@@ -670,6 +670,81 @@
      "supports": "what you may and may not do (read via a search-index snapshot)"
     }
    ]
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "evidence": "official",
+   "events": [
+    {
+     "date": "2026-12-24",
+     "what": "Christmas Eve, Christmas Day and Boxing Day, 24 to 26 December 2026",
+     "effect": "Christmas Eve is the main celebration: most shops close early or all day, and trains and flights are busy before it",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/SE",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2026-12-26",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-03-26",
+     "what": "Easter: Good Friday 26 March to Easter Monday 29 March 2027",
+     "effect": "Public holidays: many shops keep shorter hours; trains and northern ski resorts busy",
+     "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1989253-om-allmanna-helgdagar_sfs-1989-253/",
+     "by": "official",
+     "category": "religious-pilgrimage",
+     "end": "2027-03-29"
+    },
+    {
+     "date": "2027-05-06",
+     "what": "Ascension Day, Thursday 6 May 2027",
+     "effect": "Public holiday: many take the Friday off, making a long weekend",
+     "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1989253-om-allmanna-helgdagar_sfs-1989-253/",
+     "by": "official",
+     "category": "religious-pilgrimage"
+    },
+    {
+     "date": "2027-06-06",
+     "what": "National Day of Sweden, 6 June 2027",
+     "effect": "Public holiday: official ceremonies, including at Skansen in Stockholm",
+     "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1989253-om-allmanna-helgdagar_sfs-1989-253/",
+     "by": "official",
+     "category": "national-day"
+    },
+    {
+     "date": "2027-06-25",
+     "what": "Midsummer Eve 25 June and Midsummer Day 26 June 2027",
+     "effect": "Cities empty as people head to the countryside and islands: many shops, restaurants and services close, and ferries and trains are full",
+     "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1989253-om-allmanna-helgdagar_sfs-1989-253/",
+     "by": "official",
+     "category": "arts-culture",
+     "end": "2027-06-26"
+    },
+    {
+     "date": "2027-11-06",
+     "what": "All Saints' Day, Saturday 6 November 2027",
+     "effect": "Public holiday: candles in cemeteries; some shops keep shorter hours",
+     "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1989253-om-allmanna-helgdagar_sfs-1989-253/",
+     "by": "official",
+     "category": "religious-pilgrimage"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Lag (1989:253) om allmänna helgdagar (Public Holidays Act)",
+     "authority": "Sveriges riksdag (Swedish Parliament)",
+     "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1989253-om-allmanna-helgdagar_sfs-1989-253/",
+     "supports": "the rules that fix each holiday's date (read directly); dates worked from the Act",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Sweden public holidays 2026",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/SE",
+     "supports": "Christmas Eve 2026, kept as a holiday though not in the Act (from the repo calendar file)",
+     "checked": "2026-11-03"
+    }
+   ],
+   "checked": "2026-11-03"
   }
  }
 }

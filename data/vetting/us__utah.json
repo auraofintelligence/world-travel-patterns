@@ -46,6 +46,161 @@
     "2027-10-11: Columbus Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "alcohol",
+     "rule": "Utah's drink-driving limit is a blood alcohol concentration (BAC) of 0.05, lower than the 0.08 used elsewhere in the US; it took effect on 30 December 2018 (House Bill 155). A driver below 0.05 can still be charged if impaired by alcohol or drugs, including prescription medicines.",
+     "penalty_signal": "First-offence fines and fees can reach US$10,000 (about A$14,205 at RBA 30 Oct 2026, A$1 = USD 0.7040), with possible jail and licence suspension.",
+     "level": "state",
+     "source": "https://highwaysafety.utah.gov/05-bac-law/",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Having an open container of alcohol, or drinking, in the passenger area of a motor vehicle is not allowed. Alcohol may not be brought into a business open to the public, such as a grocery store, to drink there.",
+     "level": "state",
+     "source": "https://abs.utah.gov/faq/",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "While a vehicle is moving, drivers may not use a phone or other device by hand to write, send or read texts, messages or email, dial a number, use the internet, take photos or video, enter data, or view videos or photos (Utah Code 41-6a-1716). Voice calls, viewing navigation, hands-free or voice use, and built-in vehicle systems are allowed.",
+     "penalty_signal": "First offence: class C misdemeanour, fine up to US$100 (about A$142 at RBA 30 Oct 2026, A$1 = USD 0.7040); class B misdemeanour for a repeat within 3 years or for causing serious injury.",
+     "level": "state",
+     "source": "https://le.utah.gov/xcode/Title41/Chapter6a/C41-6a-S1716_2022050420220504.pdf",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Anyone launching a boat or other watercraft in Utah, including kayaks and paddle boards, must take the free annual mussel-aware boater course (about quagga mussels, a pest carried on boats). Nonresidents then pay an aquatic invasive species fee for each watercraft and get a current-year decal for the boat. Every watercraft leaving Lake Powell needs an exit inspection, then professional decontamination or a set drying time (7 days in summer, 18 in spring and autumn, 30 in winter; always 30 for wakeboard boats unless decontaminated) before launching anywhere else.",
+     "penalty_signal": "Nonresident fee: US$25 per watercraft (about A$36 at RBA 30 Oct 2026, A$1 = USD 0.7040).",
+     "level": "state",
+     "source": "https://wildlife.utah.gov/news/2026/04/15/boating-in-utah-in-2026-take-the-mandatory-course-pay-the-fee-and-follow-steps-to-prevent-spread-of-aquatic-invasive-species",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "0.05 law",
+     "authority": "Utah Highway Safety Office",
+     "url": "https://highwaysafety.utah.gov/05-bac-law/",
+     "checked": "2026-11-03",
+     "supports": "0.05 limit, 30 December 2018 start"
+    },
+    {
+     "title": "Utah DUI laws",
+     "authority": "Utah Highway Safety Office",
+     "url": "https://highwaysafety.utah.gov/utah-dui-laws/",
+     "checked": "2026-11-03",
+     "supports": "impairment below 0.05, first-offence costs up to US$10,000 (read via a search-index snapshot)"
+    },
+    {
+     "title": "Frequently Asked Questions",
+     "authority": "Utah Department of Alcoholic Beverage Services",
+     "url": "https://abs.utah.gov/faq/",
+     "checked": "2026-11-03",
+     "supports": "open containers in vehicles, no bringing alcohol into public businesses to drink (read via a search-index snapshot; the site refused direct fetch)"
+    },
+    {
+     "title": "Utah Code 41-6a-1716 (in force 4 May 2022)",
+     "authority": "Utah State Legislature",
+     "url": "https://le.utah.gov/xcode/Title41/Chapter6a/C41-6a-S1716_2022050420220504.pdf",
+     "checked": "2026-11-03",
+     "supports": "what is banned, exceptions, penalties"
+    },
+    {
+     "title": "Boating in Utah in 2026? Take the mandatory course, pay the fee and follow steps to prevent spread of aquatic invasive species",
+     "authority": "Utah Division of Wildlife Resources",
+     "url": "https://wildlife.utah.gov/news/2026/04/15/boating-in-utah-in-2026-take-the-mandatory-course-pay-the-fee-and-follow-steps-to-prevent-spread-of-aquatic-invasive-species",
+     "checked": "2026-11-03",
+     "supports": "course, US$25 nonresident fee, decal, Lake Powell exit inspection and dry times"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Grocery and convenience stores may sell beer only up to 5% alcohol by volume. Liquor, wine and stronger beer to take away are sold only in state liquor stores and smaller package agencies run under the Department of Alcoholic Beverage Services; state stores generally open Monday to Saturday, from about 11 am to 7 pm or 10 pm. The drinking and buying age is 21.",
+     "source": "https://abs.utah.gov/about-dabs/residents-visitors/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "In restaurants, alcohol is served only with a food order, and a restaurant must earn at least 70% of its takings from food. Full-service restaurants may serve liquor, wine and heavy beer from 11:30 am to midnight (10:30 am on weekends and holidays), and beer until 1 am. Bars must have food available but have no set food-sales share; taverns have no food requirement.",
+     "source": "https://abs.utah.gov/faq/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Utah allows medical cannabis only. A visitor who holds a medical cannabis card from their home state for one of Utah's qualifying conditions can apply for a non-Utah resident card, which lasts 21 days; no more than two are issued per calendar year. Cardholders show the card and ID at each pharmacy visit and meet a medical cannabis pharmacist before the first purchase.",
+     "source": "https://medicalcannabis.utah.gov/patients/non-utah-resident-card/",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "psilocybin",
+     "kind": "law",
+     "changing": true,
+     "text": "Senate Bill 266 (2024, Medical Amendments) lets certain large Utah healthcare systems run pilot treatment programs using psilocybin or MDMA that is in late-stage (Phase 3) US Food and Drug Administration trials, only under the system's direct supervision and not for anyone under 18. Participating systems were to report results to a legislative committee before 1 July 2026. The law does not cover possession outside such a program.",
+     "source": "https://le.utah.gov/~2024/bills/static/SB0266.html",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "mdma",
+     "kind": "law",
+     "changing": true,
+     "text": "The same 2024 law (Senate Bill 266) covers MDMA alongside psilocybin, for supervised pilot treatment in qualifying healthcare systems only.",
+     "source": "https://le.utah.gov/~2024/bills/static/SB0266.html",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Residents and visitors",
+     "authority": "Utah Department of Alcoholic Beverage Services",
+     "url": "https://abs.utah.gov/about-dabs/residents-visitors/",
+     "checked": "2026-11-03",
+     "supports": "5% beer in grocery stores, state stores and package agencies, hours (read via a search-index snapshot; the site refused direct fetch)"
+    },
+    {
+     "title": "Frequently Asked Questions",
+     "authority": "Utah Department of Alcoholic Beverage Services",
+     "url": "https://abs.utah.gov/faq/",
+     "checked": "2026-11-03",
+     "supports": "food order, 70% food rule, service hours, bars and taverns, age 21 (read via a search-index snapshot)"
+    },
+    {
+     "title": "Apply for a non-Utah resident card",
+     "authority": "Utah Department of Health and Human Services, Center for Medical Cannabis",
+     "url": "https://medicalcannabis.utah.gov/patients/non-utah-resident-card/",
+     "checked": "2026-11-03",
+     "supports": "21-day card, two per calendar year, pharmacist consult"
+    },
+    {
+     "title": "S.B. 266 Medical Amendments (2024)",
+     "authority": "Utah State Legislature",
+     "url": "https://le.utah.gov/~2024/bills/static/SB0266.html",
+     "checked": "2026-11-03",
+     "supports": "became law 21 March 2024 without the Governor's signature; pilot rules from the substitute bill text (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules."
   }
  }
 }

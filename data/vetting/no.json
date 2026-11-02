@@ -722,6 +722,73 @@
      "supports": "150 m and two-night rule (read via a search-index snapshot)"
     }
    ]
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2026-12-24",
+     "what": "Christmas: Christmas Eve 24 December (shops close early), Christmas Day 25 and Boxing Day 26 December 2026",
+     "effect": "Most shops and many restaurants closed on 25 and 26 December; public transport on reduced timetables",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/NO",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2026-12-26",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-03-25",
+     "what": "Easter (påske): Maundy Thursday 25 March to Easter Monday 29 March 2027",
+     "effect": "Shops closed on the holidays; mountain cabins, ski resorts and trains to the mountains full",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/NO",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2027-03-29",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-05-17",
+     "what": "Constitution Day (17 May), which is also Whit Monday in 2027",
+     "effect": "Children's parades and crowds in every town, the largest in Oslo; shops closed",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/NO",
+     "by": "signal",
+     "category": "national-day",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-09-13",
+     "what": "Municipal and county council elections, election day 13 September 2027",
+     "effect": "Local elections: campaign stalls in town centres; advance voting in the weeks before",
+     "url": "https://www.valg.no/nyheter/siste-nytt/valgdagen-blir-13.-september-2027",
+     "by": "official",
+     "category": "election"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Valgdagen blir 13. september 2027",
+     "authority": "Valgdirektoratet (Norwegian Directorate of Elections)",
+     "url": "https://www.valg.no/nyheter/siste-nytt/valgdagen-blir-13.-september-2027",
+     "supports": "election day (read directly)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Norway public holidays 2026",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/NO",
+     "supports": "Christmas 2026 dates (from the repo calendar file)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Norway public holidays 2027",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/NO",
+     "supports": "2027 holiday dates (from the repo calendar file)",
+     "checked": "2026-11-03"
+    }
+   ],
+   "checked": "2026-11-03"
   }
  }
 }

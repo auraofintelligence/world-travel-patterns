@@ -807,6 +807,92 @@
     "result": "found",
     "note": "National tourism or government etiquette guidance found and cited."
    }
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2026-12-25",
+     "what": "Christmas Day and Second Christmas Day, 25 and 26 December 2026",
+     "effect": "Public holidays: many shops closed on 25 December; reduced public transport",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/NL",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2026-12-26",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-03-17",
+     "what": "Provincial council (Provinciale Staten) and water board elections, 17 March 2027",
+     "effect": "Elections held every four years; polling stations in public buildings",
+     "url": "https://www.kiesraad.nl/verkiezingen/provinciale-staten",
+     "by": "official",
+     "category": "election"
+    },
+    {
+     "date": "2027-03-28",
+     "what": "Easter Sunday 28 March and Easter Monday 29 March 2027",
+     "effect": "Public holidays: some shops closed",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/NL",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2027-03-29",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-04-27",
+     "what": "King's Day (Koningsdag), Tuesday 27 April 2027",
+     "effect": "National holiday: street markets, music and crowds in orange; central Amsterdam packed and trains busy",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/NL",
+     "by": "signal",
+     "category": "national-day",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-05-05",
+     "what": "Liberation Day (Bevrijdingsdag), 5 May 2027, the day after Remembrance Day (4 May)",
+     "effect": "Liberation festivals around the country; on the evening of 4 May public life pauses for two minutes of silence",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/NL",
+     "by": "signal",
+     "category": "national-day",
+     "evidence": "signal"
+    },
+    {
+     "date": "2027-05-06",
+     "what": "Ascension Day 6 May, Pentecost 16 May and Whit Monday 17 May 2027",
+     "effect": "Public holidays: long weekends with busy coasts, roads and trains",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/NL",
+     "by": "signal",
+     "category": "religious-pilgrimage",
+     "end": "2027-05-17",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Provinciale Staten",
+     "authority": "Kiesraad (Dutch Electoral Council)",
+     "url": "https://www.kiesraad.nl/verkiezingen/provinciale-staten",
+     "supports": "next Provincial council election 17 March 2027 (read directly)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Netherlands public holidays 2026",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2026/NL",
+     "supports": "Christmas 2026 (from the repo calendar file)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Netherlands public holidays 2027",
+     "authority": "Signal: Nager.Date open public holiday dataset",
+     "url": "https://date.nager.at/api/v3/PublicHolidays/2027/NL",
+     "supports": "2027 holiday dates (from the repo calendar file)",
+     "checked": "2026-11-03"
+    }
+   ],
+   "checked": "2026-11-03"
   }
  }
 }
