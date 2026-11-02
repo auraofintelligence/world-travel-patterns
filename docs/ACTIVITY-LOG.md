@@ -1000,3 +1000,7 @@ Thirteen ask-locally culture records in the Do-not-travel set moved to partly-ma
 ## 2026-11-02 12:04 AEST, Grok: Filming: Timor-Leste Press Council accreditation for foreign media (Media Law Article 25) (1 records)
 
 tl filming moved from confirm-in-writing to specialist, citing Article 25 of the Media Law (WTO-hosted informal translation, read directly). Cook Islands, Niue and Eswatini searched: only fixer, news or event-specific pages found, left as confirm-in-writing.
+
+## 2026-11-02 12:05 AEST, Grok: Filming: Tajikistan MFA media accreditation and category Ж visa (1 records)
+
+tj filming moved from confirm-in-writing to specialist, citing the MFA Consular Department media visa page (read directly).
