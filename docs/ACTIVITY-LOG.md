@@ -992,3 +992,7 @@ Thirteen ask-locally culture records moved to partly-mapped from FCDO laws and c
 ## 2026-11-02 12:03 AEST, Grok: Culture: conduct rules from UK FCDO advice for bi, by, lr, mr, mz, ni, sc, sl, sn, st, tg, tj, tm, tv, ua, vg, xk (ask-locally to partly-mapped) (17 records)
 
 Seventeen ask-locally culture records moved to partly-mapped from FCDO laws and cultural differences sections, read directly on 2026-11-02. Suriname (sr) left as ask-locally: only drugs and money are listed. British Indian Ocean Territory (io) and St Vincent and the Grenadines (vc) have no such section.
+
+## 2026-11-02 12:03 AEST, Grok: Culture: conduct rules from UK FCDO advice for Do-not-travel places bf, cd, ht, kp, lb, ly, ml, ne, sd, so, ss, sy, td (ask-locally to partly-mapped) (13 records)
+
+Thirteen ask-locally culture records in the Do-not-travel set moved to partly-mapped from FCDO laws and cultural differences sections, read directly on 2026-11-02. Travel status is unchanged; these remain Do not travel.
