@@ -96,10 +96,15 @@
   const isRegion = (p) => p.sk === "first-level" || p.kind === "state";
 
   /* Your view: what this browser shows. Kept in this browser only, never sent anywhere. The default is Luke's: a man who loves women. */
-  const VIEW_DEFAULT = { you: "man", love: "women", off: [] };
-  function loadView() { try { return { ...VIEW_DEFAULT, ...JSON.parse(localStorage.getItem("wtp-view") || "{}") }; } catch { return { ...VIEW_DEFAULT, off: [] }; } }
+  const VIEW_DEFAULT = { you: "man", love: "women", off: [], parts: {} };
+  function loadView() { try { return { ...VIEW_DEFAULT, parts: {}, ...JSON.parse(localStorage.getItem("wtp-view") || "{}") }; } catch { return { ...VIEW_DEFAULT, off: [], parts: {} }; } }
   function saveView() { try { localStorage.setItem("wtp-view", JSON.stringify(VIEW)); } catch { /* storage blocked: the choice lasts for this page only */ } }
   let VIEW = loadView();
+  const patOn = (pid) => !VIEW.off.includes(pid);
+  const partOn = (pid, part) => !part || !(VIEW.parts[pid] || []).includes(part);
+  // The parts of a pattern a viewer can switch off one by one, from the pattern file's own list.
+  const PART_KEYS = ["activities", "topics", "substances", "areas", "event_categories", "requirement_types"];
+  const partsOf = (pat) => pat[PART_KEYS.find((k) => Array.isArray(pat[k]))] || [];
   const sameSexShown = () => !((VIEW.you === "man" && VIEW.love === "women") || (VIEW.you === "woman" && VIEW.love === "men"));
   const SAME_SEX = /same[- ]sex|LGB|homosexual|\bgay\b|lesbian|transgender|queer|sexual orientation|gender identity/i;
   // Hides same-sex sentences when the view says so. Shared wording such as "opposite or same-sex couples" reads "couples".
@@ -117,7 +122,7 @@
     nav.className = "nav";
     nav.setAttribute("aria-label", "Site");
     nav.innerHTML = `<a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>World Travel Patterns</a>
-      <div class="nav-links">${PAGES.slice(1).filter(([, , key]) => !["queue", "site-map"].includes(key)).map(([href, label, key]) =>
+      <div class="nav-links">${PAGES.slice(1).filter(([, , key]) => !["queue", "site-map"].includes(key) && (key !== "advisories" || patOn("advisory"))).map(([href, label, key]) =>
         `<a href="${href}"${key === page || (page === "place" && key === "places") ? ' aria-current="page"' : ""}>${label}</a>`).join("")}</div>`;
     document.body.prepend(nav);
     const footer = document.createElement("footer");
@@ -181,16 +186,16 @@
     return `<a href="place.html?id=${encodeURIComponent(p.id)}"><b>${esc(p.name)}</b><span>${esc(kindOf(p))}${parent ? `, ${esc(parent.name)}` : ""}</span></a>`;
   };
   const LOOKUP = [
-    ["Getting in", "Visa or visa-free stay, health entry rules, and what each kind of trip needs: holiday, meetings, speaking, teaching, filming, research or volunteering."],
-    ["Local law", "Rules a visitor can break without knowing: drugs and medicines, alcohol, dress, photography, wildlife, driving and money limits, at every level from country to council."],
-    ["Culture and protocol", "Each place's own published guidance and names, sacred or restricted places, and who to ask where nothing is published."],
-    ["Languages", "Official and national languages, how widely English is spoken, and where it's easiest to get by in English."],
-    ["Affection and relationships", "Affection in public, couples in private, how marriages and partnerships are recognised, and what's changing, for every couple, marked as law or custom."],
-    ["Births and family support", "Births per woman over time, mothers' average age, and what governments offer families, with who qualifies and amounts in AUD."],
-    ["Alcohol, drugs and psychoactive medicines", "Alcohol, tobacco and vaping, cannabis, MDMA, psilocybin, ayahuasca and more: what's legal, medical and ceremonial access, penalties, and what's changing."],
-    ["Permit zones", "Land council permits, community consent, visitor caps, guides, fees and seasonal closures inside a place, with lead times."],
-    ["The year here", "Wet and dry seasons, cyclone and storm months, busy and quiet months, festivals, fasting months and public holidays."],
-    ["Help and money", "The nearest Australian embassy or consulate, the place's own offices in Australia, currency and cash limits."],
+    ["Getting in", "Visa or visa-free stay, health entry rules, and what each kind of trip needs: holiday, meetings, speaking, teaching, filming, research or volunteering.", ["entry", "visa-preparation", "activities", "health-entry"]],
+    ["Local law", "Rules a visitor can break without knowing: drugs and medicines, alcohol, dress, photography, wildlife, driving and money limits, at every level from country to council.", ["local-law"]],
+    ["Culture and protocol", "Each place's own published guidance and names, sacred or restricted places, and who to ask where nothing is published.", ["culture-and-protocol"]],
+    ["Languages", "Official and national languages, how widely English is spoken, and where it's easiest to get by in English.", ["languages"]],
+    ["Affection and relationships", "Affection in public, couples in private, how marriages and partnerships are recognised, and what's changing, for every couple, marked as law or custom.", ["affection-and-relationships"]],
+    ["Births and family support", "Births per woman over time, mothers' average age, and what governments offer families, with who qualifies and amounts in AUD.", ["births-and-family-support"]],
+    ["Alcohol, drugs and psychoactive medicines", "Alcohol, tobacco and vaping, cannabis, MDMA, psilocybin, ayahuasca and more: what's legal, medical and ceremonial access, penalties, and what's changing.", ["psychoactive-substances"]],
+    ["Permit zones", "Land council permits, community consent, visitor caps, guides, fees and seasonal closures inside a place, with lead times.", ["zone-requirements"]],
+    ["The year here", "Wet and dry seasons, cyclone and storm months, busy and quiet months, festivals, fasting months and public holidays.", ["seasons-and-flow", "culture-cycles", "year-ahead"]],
+    ["Help and money", "The nearest Australian embassy or consulate, the place's own offices in Australia, currency and cash limits.", ["consular", "money-and-cost"]],
   ];
   const PICKS = ["nz", "fj", "vu", "ws", "to", "id", "jp", "th", "sg", "us", "gb", "fr", "in", "np", "bt", "cn", "br", "au/minjerribah"];
 
@@ -209,17 +214,17 @@
       extra: `<div class="home-search"><input class="search" id="hq" type="search" autocomplete="off" placeholder="A country, island, city or region: Fiji, Rapa Nui, Bali…" aria-label="Search places" aria-controls="hres"><div class="home-results" id="hres" role="listbox"></div></div>`,
     }) + `<main>
       <section class="section"><h2>What each place page tells you</h2>
-        <div class="grid wide">${LOOKUP.map(([t, d]) => `<div class="card"><h3>${t}</h3><p class="meta">${d}</p></div>`).join("")}</div>
+        <div class="grid wide">${LOOKUP.filter(([, , ids]) => ids.some(patOn)).map(([t, d]) => `<div class="card"><h3>${t}</h3><p class="meta">${d}</p></div>`).join("")}</div>
         <p class="note" style="margin-top:22px">Rules stack: a visitor on Minjerribah is bound by Australian, Queensland and Redland City law together, and each level's rules are shown once, on that level's own page; a deeper page links up to the rest. A level marked "not yet checked" has unknown rules, not no rules.</p></section>
       <section class="section tight"><h2>Start with</h2><div class="grid">${picks.map((p) => `<a class="card" href="place.html?id=${encodeURIComponent(p.id)}"><h3>${esc(p.name)}</h3><div class="meta">${esc(kindOf(p))}${p.id.includes("/") ? `, ${esc(index.byId[p.id.split("/")[0]]?.name || "")}` : p.region ? `, ${esc(p.region)}` : ""}</div></a>`).join("")}</div>
         <p style="margin-top:16px"><a class="btn outline" href="places.html">Every place, by region</a></p></section>
-      <section class="section band"><div class="two">
+      ${patOn("advisory") ? `<section class="section band"><div class="two">
         <div><h2>Travel advice today</h2><p class="meta">Smartraveller's advice levels, checked daily${adv.checked_on ? `, last on ${fmt(adv.checked_on)}` : ""}.</p>
           ${Object.entries(levels).sort((a, b) => b[1] - a[1]).map(([l, n]) => `<p><span class="adv ${levelClass(l)}">${esc(l)}</span> ${num(n)} destination${n === 1 ? "" : "s"}</p>`).join("")}
           <p><a href="advisories.html">Every destination's level</a></p></div>
         <div><h2>Recent changes</h2>
           ${changes.slice(-6).reverse().map((c) => `<p><span class="adv ${levelClass(c.to)}">${esc(c.destination)}</span> ${esc(c.from)} → ${esc(c.to)} <span class="meta">(${fmt(c.date)})</span></p>`).join("") || `<p class="empty">No level changes since tracking began${adv.checked_on ? ` on ${fmt(adv.checked_on)}` : ""}.</p>`}
-        </div></div></section>
+        </div></div></section>` : ""}
     </main>`;
   };
 
@@ -354,7 +359,7 @@
     // This level's own law repositories only; the country's (and shared ones such as the EU's) are on the country page.
     const lawLevels = [[place, lawRepos.places[id] || []]].filter(([, l]) => l.length);
     if (chain.length === 1) (lawRepos.groups || []).forEach((g) => { if (g.members.includes(spine.id)) lawLevels.push([{ name: g.name }, g.repositories]); });
-    const advice = spine.smartraveller && adv.destinations[spine.smartraveller];
+    const advice = patOn("advisory") && spine.smartraveller && adv.destinations[spine.smartraveller];
     const patterns = Object.fromEntries(index.patterns.map((p) => [p.id, p]));
     const applies = (pat, p) => !(pat.home_only && !homeChain.includes(p.id)) && pat.applies_to.includes(p.kind) && !(pat.only_tagged && !(p.tags || []).length) && !(pat.skip_home && p.id === "au");
     const now = today();
@@ -382,7 +387,7 @@
         <span class="meta"> checked ${fmt(rec.checked)}${age !== null ? ` (${age} days ago)` : ""}${due ? ` · ${esc(REASON_LABEL[due] || due)}` : ""}</span>`;
       if (pat.id === "activities") {
         const acts = rec.activities || {};
-        body += `<div class="acts">${pat.activities.map((a) => {
+        body += `<div class="acts">${pat.activities.filter((a) => partOn("activities", a)).map((a) => {
           const x = acts[a];
           if (!x) { gaps++; return `<div class="act"><b>${esc(a.replace(/-/g, " "))}</b><span class="gap">not yet checked</span></div>`; }
           return `<div class="act ${esc(x.status)}" title="${esc(x.detail || "")}"><b>${esc(a.replace(/-/g, " "))}</b>${esc(x.status)} · ${esc(x.route || "")}</div>`;
@@ -390,9 +395,9 @@
       } else if (text && text !== rec.status) {
         body += `<div class="detail">${esc(text)}</div>`;
       }
-      (rec.laws || []).forEach((l) => { const r = viewText(l.rule); if (r) body += `<div class="detail"><b>${esc(l.topic)}:</b> ${esc(r)}</div>`; });
-      (rec.items || []).map((it) => ({ ...it, text: viewText(it.text) })).filter((it) => it.text).forEach((it) => { body += `<div class="detail"><b>${esc(AREA_LABEL[it.area || it.substance] || it.area || it.substance)}</b>${it.changing ? ' <span class="chip sky">changing</span>' : ""} <span class="chip">${esc(it.kind)}</span>${it.evidence === "signal" ? ' <span class="chip gold">signal</span>' : ""} ${esc(it.text)}</div>`; });
-      (rec.layers || []).forEach((l) => { body += `<div class="detail"><b>${esc(l.type)}:</b> ${esc(l.process)} (${esc(l.authority)})${l.lead_time_days ? `, lead time ${l.lead_time_days} days` : ""}</div>`; });
+      (rec.laws || []).filter((l) => partOn(pat.id, l.topic)).forEach((l) => { const r = viewText(l.rule); if (r) body += `<div class="detail"><b>${esc(l.topic)}:</b> ${esc(r)}</div>`; });
+      (rec.items || []).filter((it) => partOn(pat.id, it.area || it.substance)).map((it) => ({ ...it, text: viewText(it.text) })).filter((it) => it.text).forEach((it) => { body += `<div class="detail"><b>${esc(AREA_LABEL[it.area || it.substance] || it.area || it.substance)}</b>${it.changing ? ' <span class="chip sky">changing</span>' : ""} <span class="chip">${esc(it.kind)}</span>${it.evidence === "signal" ? ' <span class="chip gold">signal</span>' : ""} ${esc(it.text)}</div>`; });
+      (rec.layers || []).filter((l) => partOn(pat.id, l.type)).forEach((l) => { body += `<div class="detail"><b>${esc(l.type)}:</b> ${esc(l.process)} (${esc(l.authority)})${l.lead_time_days ? `, lead time ${l.lead_time_days} days` : ""}</div>`; });
       if (pat.id === "visa-preparation") {
         [["entry_summary", "Entry"], ["fastest_entry", "Fastest entry"], ["before_departure", "Before departure"], ["useful_stay", "Stay"], ["host_unlock", "With a host"]]
           .forEach(([k, label]) => { if (rec[k]) body += `<div class="detail"><b>${label}:</b> ${esc(rec[k])}</div>`; });
@@ -415,14 +420,14 @@
         body += `<div class="months">${rec.months.map((m) => `<div class="mo${m.hazard ? " hz" : ""}" title="${esc([m.temp_c != null && `${m.temp_c}°C average, ${m.rain_mm} mm rain`, m.season, m.hazard && "Hazard: " + m.hazard, m.visitor_flow && "Visitors: " + m.visitor_flow].filter(Boolean).join(". "))}">
           <b>${M[m.month - 1]}</b>${m.temp_c != null ? `<small>${Math.round(m.temp_c)}° · ${num(m.rain_mm)} mm</small>` : ""}<span>${esc((m.season || "").split(" (")[0])}</span>${m.hazard ? `<i>${esc(m.hazard.split(" (")[0])}</i>` : ""}${m.visitor_flow ? `<em>${esc((m.visitor_flow.match(/^[\d,]+/) || [m.visitor_flow.split(" ").slice(0, 3).join(" ")])[0])}${/^[\d,]+ (air )?visitors/.test(m.visitor_flow) ? " visitors" : ""}</em>` : ""}</div>`).join("")}</div>`;
       }
-      (rec.events || []).forEach((e) => { body += `<div class="detail"><b>${esc(e.date)}${e.end ? " to " + esc(e.end) : ""}:</b> ${esc(e.what)}</div>`; });
+      (rec.events || []).filter((e) => partOn(pat.id, e.category)).forEach((e) => { body += `<div class="detail"><b>${esc(e.date)}${e.end ? " to " + esc(e.end) : ""}:</b> ${esc(e.what)}</div>`; });
       if (rec.sources?.length) body += `<div class="detail meta">Sources: ${rec.sources.slice(0, 4).map((s) => `<a href="${esc(s.url)}" rel="noopener">${esc(s.authority || s.title || "source")}</a>`).join(" · ")}${rec.sources.length > 4 ? ` and ${rec.sources.length - 4} more` : ""}</div>`;
       return body + "</li>";
     }
     // Each level's rules are shown once, on that level's own page. A deeper page shows its own records in full and links up for the rest.
     // Home obligations show only on the home base and the levels above it, never on destinations.
     const above = chain.slice(1).reverse();
-    const shown = (pat) => !VIEW.off.includes(pat.id) && !(pat.home_only && !homeChain.includes(id)) && applies(pat, place);
+    const shown = (pat) => patOn(pat.id) && !(pat.home_only && !homeChain.includes(id)) && applies(pat, place);
     const fromAbove = (pat) => above.filter((a) => vets[a.id]?.[pat.id]);
     const ownGaps = [];
     const patLink = (p, pat) => `<a href="place.html?id=${encodeURIComponent(p.id)}#pat-${pat.id}">${esc(pat.name)}</a>`;
@@ -446,18 +451,16 @@
     gaps += ownGaps.length;
     // One line per level above: what it covers that still applies here. A nearest-level topic this place (or a nearer level) answers itself is left out.
     const upLines = above.map((a) => {
-      const pats = index.patterns.filter((pat) => !VIEW.off.includes(pat.id) && applies(pat, a) && pat.inherit !== "none" && vets[a.id]?.[pat.id]
+      const pats = index.patterns.filter((pat) => patOn(pat.id) && applies(pat, a) && pat.inherit !== "none" && vets[a.id]?.[pat.id]
         && !(pat.inherit === "nearest" && (vets[id]?.[pat.id] || chain.slice(1, chain.indexOf(a)).some((n) => vets[n.id]?.[pat.id]))));
       return pats.length ? `<p><b><a href="place.html?id=${encodeURIComponent(a.id)}">${esc(a.name)}</a>:</b> ${pats.map((pat) => patLink(a, pat)).join(" · ")}</p>` : "";
     }).join("");
     const homeLine = place === spine && id !== "au" && homeChain.length && vets.au?.["home-obligations"]
       ? `<p class="meta">Some Australian laws still apply to you overseas, such as bribing a foreign official. They're listed once, on <a href="place.html?id=au#pat-home-obligations">Australia's page</a>.</p>` : "";
-    const hidden = [...index.patterns.filter((pat) => VIEW.off.includes(pat.id)).map((pat) => pat.name), ...(sameSexShown() ? [] : ["same-sex relationship content"])];
-    const viewLine = hidden.length ? `<p class="meta">Your view hides ${esc(hidden.join(", "))}. <a href="view.html">Change it</a>.</p>` : "";
-    const upCard = upLines || ownGaps.length || homeLine || viewLine ? `<div class="card up-card">
+    const upCard = upLines || ownGaps.length || homeLine ? `<div class="card up-card">
       ${upLines ? `<h3>From the levels above</h3><p class="meta">These apply in ${esc(place.name)} too. Each is shown once, on its own level's page.</p>${upLines}` : ""}
       ${ownGaps.length ? `<p class="meta"><b>Not yet checked for ${esc(place.name)} itself:</b> ${ownGaps.map((p) => esc(p.name)).join(", ")}. Not yet checked means the rules are unknown, not that there are none.</p>` : ""}
-      ${homeLine}${viewLine}</div>` : "";
+      ${homeLine}</div>` : "";
 
     const chainIds = new Set([place, ...descendants].map((p) => p.id));
     const events = feed.events.filter((e) => (chainIds.has(e.place) || (place === spine && (e.members || []).includes(spine.id))) && (e.closes || e.ends || e.starts || "") >= now);
@@ -515,10 +518,10 @@
   render.patterns = async ({ index, credits }) => {
     const colour = { permission: "var(--sky)", safety: "var(--coral)", law: "var(--gold)", culture: "var(--violet)", relationships: "var(--coral)", substances: "var(--teal)", cycles: "var(--leaf)", logistics: "var(--teal)", purpose: "var(--gold)" };
     return hero(credits, "patterns", {
-      kicker: `${index.patterns.length} patterns`,
+      kicker: `${index.patterns.filter((p) => patOn(p.id)).length} patterns`,
       title: "One question, asked the same way everywhere",
       lede: "Each pattern is a single file. Add one and every place it applies to shows it as not yet checked, and the routines start vetting it.",
-    }) + `<main><section class="section"><div class="grid wide">${index.patterns.map((p) => {
+    }) + `<main><section class="section"><div class="grid wide">${index.patterns.filter((p) => patOn(p.id)).map((p) => {
       const c = p.coverage;
       const pct = c && c.active_places ? Math.round((c.with_record / c.active_places) * 100) : null;
       return `<div class="card" style="border-top:4px solid ${colour[p.layer] || "var(--line)"}">
@@ -703,7 +706,19 @@
   render.view = async ({ index, credits }) => {
     setTimeout(() => wireView(index), 0);
     const radio = (name, value, label) => `<label class="pick"><input type="radio" name="${name}" value="${value}"${VIEW[name] === value ? " checked" : ""}> ${label}</label>`;
-    const groups = LAYERS.map(([, label, ids]) => [label, ids.map((pid) => index.patterns.find((p) => p.id === pid)).filter(Boolean)]).filter(([, l]) => l.length);
+    const byId = Object.fromEntries(index.patterns.map((p) => [p.id, p]));
+    const listed = new Set();
+    const groups = [["Safety", ["advisory"]], ...LAYERS.map(([, label, ids]) => [label, ids])]
+      .map(([label, ids]) => [label, ids.map((pid) => byId[pid]).filter(Boolean)]).filter(([, l]) => l.length);
+    groups.forEach(([, l]) => l.forEach((p) => listed.add(p.id)));
+    const rest = index.patterns.filter((p) => !listed.has(p.id));
+    if (rest.length) groups.push(["More", rest]);
+    const partLabel = (x) => AREA_LABEL[x] || x.replace(/-/g, " ").replace(/^./, (c) => c.toUpperCase());
+    const patBox = (p) => {
+      const parts = partsOf(p);
+      return `<div class="view-pat"><label class="pick block"><input type="checkbox" data-pat="${p.id}"${patOn(p.id) ? " checked" : ""}> <b>${esc(p.name)}</b></label>
+        ${parts.length ? `<details class="view-parts"><summary class="meta">Choose its ${parts.length} parts</summary>${parts.map((x) => `<label class="pick"><input type="checkbox" data-pat="${p.id}" data-part="${esc(x)}"${partOn(p.id, x) ? " checked" : ""}> ${esc(partLabel(x))}</label>`).join("")}</details>` : ""}</div>`;
+    };
     return hero(credits, "view", {
       title: "Your view",
       lede: "Choose what this site shows you. Your choices stay in this browser and are never sent anywhere.",
@@ -713,8 +728,8 @@
       <p><b>You love</b> ${radio("love", "women", "women")} ${radio("love", "men", "men")} ${radio("love", "anyone", "anyone")}</p>
       <p class="meta">This decides whether same-sex relationship content shows. A man who loves women is the default, and it's hidden. Where a rule covers every couple, it stays: "opposite or same-sex couples" reads "couples".</p>
       </div></section>
-      <section class="section tight"><div class="card"><h2>Topics on place pages</h2><p class="meta">Untick a topic to hide it on every place page.</p>
-      ${groups.map(([label, list]) => `<h3 class="month-head">${esc(label)}</h3>${list.map((p) => `<label class="pick block"><input type="checkbox" data-pat="${p.id}"${VIEW.off.includes(p.id) ? "" : " checked"}> ${esc(p.name)}</label>`).join("")}`).join("")}
+      <section class="section tight"><div class="card"><h2>Patterns</h2><p class="meta">Untick a pattern to hide it everywhere on the site. Open a pattern to switch its parts on or off one by one.</p>
+      ${groups.map(([label, list]) => `<h3 class="month-head">${esc(label)}</h3>${list.map(patBox).join("")}`).join("")}
       </div></section>
       <section class="section tight"><button class="btn" id="view-reset" type="button">Back to the default</button> <span class="meta" id="view-saved" aria-live="polite"></span></section></main>`;
   };
@@ -724,10 +739,14 @@
     const done = () => { saveView(); saved.textContent = "Saved."; };
     document.querySelectorAll('input[type="radio"]').forEach((r) => r.addEventListener("change", () => { VIEW[r.name] = r.value; done(); }));
     document.querySelectorAll("input[data-pat]").forEach((c) => c.addEventListener("change", () => {
-      VIEW.off = c.checked ? VIEW.off.filter((x) => x !== c.dataset.pat) : [...new Set([...VIEW.off, c.dataset.pat])]; done();
+      const pid = c.dataset.pat, part = c.dataset.part;
+      const flip = (list, x) => (c.checked ? list.filter((y) => y !== x) : [...new Set([...list, x])]);
+      if (part) VIEW.parts = { ...VIEW.parts, [pid]: flip(VIEW.parts[pid] || [], part) };
+      else VIEW.off = flip(VIEW.off, pid);
+      done();
     }));
     document.getElementById("view-reset").addEventListener("click", async () => {
-      VIEW = { ...VIEW_DEFAULT, off: [] }; saveView();
+      VIEW = { ...VIEW_DEFAULT, off: [], parts: {} }; saveView();
       document.getElementById("app").innerHTML = await render.view({ index, credits: {} });
       document.getElementById("view-saved").textContent = "Back to the default.";
     });
