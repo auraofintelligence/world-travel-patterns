@@ -228,10 +228,19 @@
     },
     "remote-work": {
      "status": "confirm-in-writing",
-     "route": "National rules",
-     "detail": "Remote work for an employer outside the EU isn't addressed in the EU guidance read.",
-     "next": "Ask the Royal Danish Embassy, Yarralumla.",
-     "checked": "2026-11-01"
+     "route": "Not addressed; 90-day work-related activity rules apply",
+     "detail": "Denmark allows meetings, negotiations and training during visits up to 90 days, but a work permit is needed if you contribute to a company's output. The official page does not address remote work for an employer outside Denmark, so it does not settle the question.",
+     "next": "Ask SIRI in writing before working remotely.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Visa (short-term) or work permit",
+       "authority": "Danish Immigration Service and SIRI (nyidanmark.dk)",
+       "url": "https://nyidanmark.dk/en-GB/Words-and-concepts/US/Visum/Visa-(short-term)-or-work-permit'",
+       "checked": "2026-11-02",
+       "supports": "on visits of up to 90 days certain work-related activities (training, meetings, negotiations) need no permit, but contributing to a company's output does; remote work for a foreign employer is not addressed (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "conditional",

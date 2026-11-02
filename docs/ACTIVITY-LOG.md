@@ -1143,3 +1143,7 @@ mh book-launch and unpaid-speaking conditional, remote-work specialist (V-1 visi
 - a218127: mh, nr, tv. Its title says 8 checks, but only 7 changed (tv volunteering was already resolved, so only tv remote-work moved). Corrected here, not by rewriting history.
 - Open outside DNT and Australia: 284 confirm-in-writing. Remote work 56, volunteering 45, research 33, book launch 30, mixed mission 24, unpaid speaking 18, trade 18, conference 15, ai teaching 14, meetings 13, filming 7, paid speaking 6, artist 4, entrepreneur 1.
 - Not done this run: vc (the official pages only cover paid work permits, so nothing is settled), the DK and SE remote-work wording, the wider book-launch and unpaid-speaking sweep, and filming for ck cu fm gw kz nu sz.
+
+## 2026-11-02 12:26 AEST, Grok: St Vincent, Denmark and Sweden: detail updated, still confirm (7 checks) (3 records)
+
+vc volunteering, research, unpaid-speaking, book-launch, remote-work: detail updated, still confirm (official pages only cover visitor entry and paid work permits). dk and se remote-work: detail updated, still confirm (nyidanmark.dk and migrationsverket do not address remote work for a foreign employer).
