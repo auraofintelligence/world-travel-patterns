@@ -1322,3 +1322,7 @@ sx local-law (US State Department advisory: drug laws); tk local-law (Tokelau Im
 ## 2026-11-02 12:46 AEST, Grok: National law levels: io tf fo vi mp: 5 records (5 records)
 
 Last 5 national levels: BIOT (FCDO, direct), TAAF (taaf.fr access and visa), Faroe hiking fees (Visit Faroe Islands), USVI firearms licence (ATF compilation), CNMI restricted imports (Department of Finance). Snapshots except FCDO.
+
+## 2026-11-02 12:47 AEST, Grok: Morocco talks and meetings: detail updated, still confirm (1 records)
+
+ma meetings, conference, unpaid-speaking, trade: consulat.ma shows Australia visa-exempt and lists visa categories but does not settle activity scope. Status unchanged.
