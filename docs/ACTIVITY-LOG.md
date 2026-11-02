@@ -972,3 +972,7 @@ Confirm-in-writing: 624 of 3,705 activity checks (306 outside the DNT set and Au
 ## 2026-11-01 11:58 AEST, Grok: Docs: handoff and STATUS counts after the reuse batch (0 records)
 
 Recomputed counts; handoff updated.
+
+## 2026-11-01 12:00 AEST, Grok: 2027 events from organiser sites: SXSW, Sundance, Burning Man, Primavera Sound, Hay Festival, Jaipur Literature Festival (6 records)
+
+Added 6 official 2027 events to year-ahead records (us__texas, us__colorado, us__nevada, es__catalonia, gb__wales, in__rajasthan), each sourced to the organiser's site.
