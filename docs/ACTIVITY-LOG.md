@@ -1108,3 +1108,7 @@ hk volunteering specialist (visitors may not take paid or unpaid employment with
 ## 2026-11-02 12:22 AEST, Grok: Remote work: Samoa (Visitor Permit bars work; Business Visitor Permit is for short visits) (1 records)
 
 ws remote-work set to specialist citing the Immigration Division permits page, read directly.
+
+## 2026-11-02 12:23 AEST, Grok: Filming: American Samoa (NPS permit, Commerce) and Kyrgyzstan (MFA media accreditation) (2 records)
+
+as and kg filming set to specialist: as cites the National Park of American Samoa permits page (read directly) and the Department of Commerce application centre; kg cites the MFA foreign media accreditation page (search snapshot).
