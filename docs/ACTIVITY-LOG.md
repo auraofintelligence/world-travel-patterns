@@ -1080,3 +1080,15 @@ The handoff said 20 events; the run added 17 (6 + 3 + 2 + 6).
 ## 2026-11-02 12:19 AEST, Grok: Sark (cq): activity checks from States of Guernsey visitor guidance (14 checks) (1 records)
 
 cq had been wrongly grouped with the Do-not-travel set; it is not on Smartraveller's Do not travel list. 14 confirm-in-writing checks set to conditional (non-paid) or specialist (paid), citing States of Guernsey pages: UK visit permission across the CTA, no employment as a visitor, and Sark's own local rules (not read).
+
+## Handoff, 2026-11-02 evening (Grok)
+
+Do-not-travel pass done. The DNT set is the 21 Smartraveller "Do not travel" places in scripts/visa_prep_rechecks.py (af bf cd cf ht iq ir kp lb ly ml ne ps sd so ss sy td ve ye ru); each page was read directly on 2 November 2026 and still says Do not travel. All 292 of their confirm-in-writing activity checks are now not-fit, citing the Smartraveller page (Do not travel line quoted with its update date) plus the existing Smartraveller visa note. No activity work rules were invented; travel advisory status is unchanged. Venezuela adds Smartraveller's note that workers bring an employer letter and local contact details with a Spanish translation.
+
+Correction: earlier runs grouped gw (Guinea-Bissau) and cq (Sark) with DNT. They are not on the Smartraveller Do not travel list, so earlier "outside DNT" counts left out their 28 checks. Sark's 14 are now resolved from States of Guernsey pages; Guinea-Bissau's 14 remain.
+
+Confirm-in-writing: 316 of 3,705, all outside DNT and Australia: remote-work 63, volunteering 52, research 37, book-launch 34, mixed-mission 24, unpaid-speaking 23, trade 19, conference 16, ai-teaching 14, meetings 14, filming 9 (as ck cu fm gw kg kz nu sz), paid-speaking 6, artist 4, entrepreneur 1 (gw). Next: Guinea-Bissau's 14 from official French or Guinea-Bissau sources, then volunteering, research, book launches, unpaid speaking, remote work, then filming.
+
+## 2026-11-02 12:19 AEST, Grok: Docs: handoff and STATUS after the Do-not-travel pass; DNT set corrected to 21 places (0 records)
+
+STATUS activities paragraph rewritten with current counts; handoff records the DNT pass and the gw/cq correction.
