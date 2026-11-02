@@ -1247,3 +1247,25 @@ fm and nu filming: detail updated, still confirm; no official page settles filmi
 ## 2026-11-02 12:40 AEST, Grok: Talks and launches: Dominica detail updated, still confirm (2 checks) (1 records)
 
 dm book-launch and unpaid-speaking: detail updated, still confirm (Labour Division page does not address visitor talks or launches).
+
+## Handoff 2026-11-02 (territories, California, filming, talks)
+
+- National law levels:
+  - bb0a7b6: je, im, gg, cq from gov.je, gov.im, gov.gg and the Sark government.
+  - a310812: re, gp, mq, gf, yt. French law applies by right under Constitution article 73 (Conseil constitutionnel, Légifrance).
+  - a310812: pm and wf. They follow their own statutes under article 74.
+  - 6daf65a: American Samoa (own entry law and visitor permit) and Puerto Rico (medical-only cannabis).
+- Sub-national: d515180, California cannabis rules.
+- Work rules:
+  - 1f32616: fm and nu filming, detail updated, still confirm.
+  - e4076b3: dm talks and launches, detail updated, still confirm.
+  - gw and sz filming untouched: no official source found.
+- Law stacks: 256 of 3,767 levels filled, 3,511 not yet checked.
+  - National: 236 of 247 filled. Still not yet checked: ax fo gl io mp sj sx tf tk vc vi.
+  - Sub-national: 20 filled.
+  - Home stack: 4 of 4 levels.
+- Work rules open outside DNT and Australia: 277. This run moved none to a resolved status; the checks it touched were detail updates only.
+- Next:
+  - Remaining national levels: Nordic territories from the Danish, Finnish and Norwegian governments; vc, sx, mp, vi; tk from the Tokelau government.
+  - More US states and German Länder.
+  - The remaining talks and launches (ao bt ci cm gw la ma ni tn and others).
