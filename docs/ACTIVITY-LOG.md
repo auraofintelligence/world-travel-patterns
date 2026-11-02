@@ -1243,3 +1243,7 @@ us/california local-law partly-mapped from the Department of Cannabis Control an
 ## 2026-11-02 12:40 AEST, Grok: Filming: Micronesia and Niue detail updated, still confirm (2 checks) (2 records)
 
 fm and nu filming: detail updated, still confirm; no official page settles filming on a visitor basis. gw and sz filming untouched (no official source found).
+
+## 2026-11-02 12:40 AEST, Grok: Talks and launches: Dominica detail updated, still confirm (2 checks) (1 records)
+
+dm book-launch and unpaid-speaking: detail updated, still confirm (Labour Division page does not address visitor talks or launches).
