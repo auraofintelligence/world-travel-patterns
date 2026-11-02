@@ -175,7 +175,7 @@
     ["The year here", "Wet and dry seasons, cyclone and storm months, busy and quiet months, festivals, fasting months and public holidays."],
     ["Help and money", "The nearest Australian embassy or consulate, the place's own offices in Australia, currency and cash limits."],
   ];
-  const PICKS = ["nz", "fj", "vu", "ws", "to", "id", "jp", "th", "sg", "us", "gb", "fr", "au/minjerribah"];
+  const PICKS = ["nz", "fj", "vu", "ws", "to", "id", "jp", "th", "sg", "us", "gb", "fr", "in", "np", "bt", "cn", "br", "au/minjerribah"];
 
   render.home = async (ctx) => {
     const { index, credits } = ctx;
