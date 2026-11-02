@@ -1112,3 +1112,15 @@ ws remote-work set to specialist citing the Immigration Division permits page, r
 ## 2026-11-02 12:23 AEST, Grok: Filming: American Samoa (NPS permit, Commerce) and Kyrgyzstan (MFA media accreditation) (2 records)
 
 as and kg filming set to specialist: as cites the National Park of American Samoa permits page (read directly) and the Department of Commerce application centre; kg cites the MFA foreign media accreditation page (search snapshot).
+
+## Handoff, 2026-11-02 late (Grok)
+
+This run resolved 12 checks: Guinea-Bissau meetings, conference and trade (France Diplomatie business-travel advice; its other 11 stay open, no official work-permit source found); remote work in Åland (Migri), Fiji (21-day Business Visitors Permit) and Samoa (Visitor Permit bars work); volunteering in Hong Kong (ImmD: no paid or unpaid employment without approval) and Switzerland (VZAE: unpaid work can be gainful employment); research in Vanuatu (12-week authority on a visitors permit); filming in American Samoa (NPS permit) and Kyrgyzstan (MFA accreditation).
+
+Confirm-in-writing outside DNT and Australia: 305 (remote work 60, volunteering 50, research 36, book launch 34, mixed mission 24, unpaid speaking 23, trade 18, conference 15, ai teaching 14, meetings 13, filming 7, paid speaking 6, artist 4, entrepreneur 1). Filming left: ck cu fm gw kz nu sz. Sources tried and rejected: EY and law-firm summaries for remote work in Sweden, Slovakia, Luxembourg and Poland (not official); Saint Lucia's former Live It programme (closed). Dominica's WIN visa was checked but dm remote-work was already resolved.
+
+Next: Pacific and Caribbean volunteering and research from immigration sites (Solomon Islands, Palau, Marshall Islands, Nauru, Tonga, Tuvalu, St Kitts, St Vincent), Danish and Swedish remote-work wording, then filming (ck cu fm gw kz nu sz).
+
+## 2026-11-02 12:23 AEST, Grok: Docs: handoff and STATUS after the Guinea-Bissau, remote-work, volunteering and filming run (0 records)
+
+Counts recomputed; handoff updated.
