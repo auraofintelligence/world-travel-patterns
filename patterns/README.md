@@ -11,6 +11,7 @@ A pattern is one repeatable question asked of every place it applies to. Every p
 | zone-requirements | Extra permits, consents, caps, guides, fees, lead times | agent | stack | 120 days |
 | health-entry | Vaccination or health certificates required to enter | agent | nearest | 180 days |
 | local-law | Laws a visitor could break without knowing (14 topics) | agent | stack | 180 days |
+| home-obligations | The inverse stack: what still binds a resident of the home base (config/home-base.json) while abroad, by level (11 topics) | agent | stack, home chain only | 180 days |
 | culture-and-protocol | How the place asks visitors to arrive and behave, in its own words | agent | stack | 365 days |
 | languages | Official and national languages, English speaking capacity and English hotspots | agent | stack | 365 days |
 | affection-and-relationships | Affection in public, couples in private, marriage and partnership, what's changing (law or custom) | agent | stack | 365 days |

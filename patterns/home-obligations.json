@@ -1,0 +1,38 @@
+{
+ "id": "home-obligations",
+ "name": "Home obligations while abroad",
+ "layer": "law",
+ "method": "agent",
+ "inherit": "stack",
+ "home_only": true,
+ "question": "What keeps applying to a resident of the home base while they are overseas, and what needs handling before leaving and on return, at each level: Commonwealth, state, council and island?",
+ "applies_to": ["country", "state", "district", "island", "city", "region"],
+ "baseline_days": 180,
+ "sources": [
+  "Commonwealth agencies: Smartraveller and DFAT, Australian Border Force, DAFF biosecurity, ATO, Services Australia, AEC, AFP, Attorney-General's Department, Defence",
+  "the state government and its electoral commission",
+  "the council's own pages"
+ ],
+ "topics": [
+  "departure-and-return",
+  "travel-advice-and-insurance",
+  "consular-help-and-limits",
+  "laws-that-follow-you",
+  "tax-residency",
+  "health-cover",
+  "voting",
+  "driving-and-vehicles",
+  "property-and-rates",
+  "animals",
+  "island-access"
+ ],
+ "fields": ["laws[]: topic, rule, level, source, checked"],
+ "statuses": ["mapped", "partly-mapped", "none-found", "unknown"],
+ "rules": [
+  "The inverse of the local-law stack: a destination stack says what binds a visitor there, this stack says what still binds a resident of the home base while they are away.",
+  "Applies only to the home base in config/home-base.json and the levels above it. Change that file and the stack moves.",
+  "Unvetted is not permitted. A level with no record is shown as not yet checked, never as no obligations.",
+  "State each obligation from the agency's own page, in plain words, with the source."
+ ],
+ "version": 1
+}

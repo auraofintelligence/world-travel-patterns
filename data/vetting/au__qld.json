@@ -49,6 +49,57 @@
     }
    ],
    "checked": "2026-11-02"
+  },
+  "home-obligations": {
+   "status": "partly-mapped",
+   "checked": "2026-11-02",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-vehicles",
+     "rule": "Queensland does not issue international driving permits; check the destination's licensing rules, and get an IDP from the motoring club if needed, carrying your Queensland licence with it.",
+     "level": "state",
+     "source": "https://www.qld.gov.au/transport/licensing/driver-licensing/overseas/driving-interstate-or-overseas",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "driving-and-vehicles",
+     "rule": "Vehicle registration can be renewed online from overseas; renew by the due date to avoid a late fee. An expired registration makes the vehicle unregistered and driving it is an offence.",
+     "level": "state",
+     "source": "https://www.qld.gov.au/transport/registration/fees/pay/online",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "voting",
+     "rule": "For Queensland state elections, eligible voters who are overseas can vote by telephone during the early voting period.",
+     "level": "state",
+     "source": "https://www.ecq.qld.gov.au/how-to-vote/ways-to-vote",
+     "checked": "2026-11-02"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Driving interstate or overseas",
+     "authority": "Queensland Government",
+     "url": "https://www.qld.gov.au/transport/licensing/driver-licensing/overseas/driving-interstate-or-overseas",
+     "checked": "2026-11-02",
+     "supports": "IDPs not issued by Queensland; check destination rules (read via a search-index snapshot)"
+    },
+    {
+     "title": "Pay registration online",
+     "authority": "Queensland Government",
+     "url": "https://www.qld.gov.au/transport/registration/fees/pay/online",
+     "checked": "2026-11-02",
+     "supports": "renew online, late fee after the due date (read via a search-index snapshot)"
+    },
+    {
+     "title": "Ways to vote",
+     "authority": "Electoral Commission of Queensland",
+     "url": "https://www.ecq.qld.gov.au/how-to-vote/ways-to-vote",
+     "checked": "2026-11-02",
+     "supports": "telephone voting for overseas voters (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

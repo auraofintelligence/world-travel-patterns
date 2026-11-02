@@ -30,7 +30,8 @@
   };
   const LAYERS = [
     ["permission", "Permission", ["entry", "visa-preparation", "activities", "health-entry", "zone-requirements"]],
-    ["law", "Local law", ["local-law"]],
+    ["law", "Local law (destination stack)", ["local-law"]],
+    ["home", "Home obligations while away (home-base stack)", ["home-obligations"]],
     ["culture", "Culture, protocol and language", ["culture-and-protocol", "languages", "culture-cycles"]],
     ["relationships", "Affection, relationships and family", ["affection-and-relationships", "births-and-family-support"]],
     ["substances", "Alcohol, drugs and psychoactive medicines", ["psychoactive-substances"]],
@@ -312,7 +313,8 @@
     const descendants = [];
     const stack = [...children];
     while (stack.length) { const c = stack.pop(); descendants.push(c); stack.push(...index.places.filter((p) => p.parent === c.id)); }
-    const ids = [...new Set([...chain, ...descendants.filter((d) => d.zone)].map((p) => p.id))];
+    const homeChain = (index.home_base?.chain || []).filter((h) => index.byId[h]);
+    const ids = [...new Set([...chain.map((p) => p.id), ...descendants.filter((d) => d.zone).map((p) => p.id), ...homeChain])];
     const vets = Object.fromEntries(await Promise.all(ids.map(async (pid) => [pid, index.byId[pid].vetted ? (await json(vetPath(pid), { patterns: {} })).patterns : {}])));
     const [adv, feed, watch, photoFile, inAus, lawRepos] = await Promise.all([
       json("data/advisories.json", { destinations: {} }), json("data/feeds/gajra-ahead.json", { events: [] }), json("data/watch.json", { items: [] }),
@@ -337,7 +339,7 @@
     (lawRepos.groups || []).forEach((g) => { if (g.members.includes(spine.id)) lawLevels.push([{ name: g.name }, g.repositories]); });
     const advice = spine.smartraveller && adv.destinations[spine.smartraveller];
     const patterns = Object.fromEntries(index.patterns.map((p) => [p.id, p]));
-    const applies = (pat, p) => pat.applies_to.includes(p.kind) && !(pat.only_tagged && !(p.tags || []).length) && !(pat.skip_home && p.id === "au");
+    const applies = (pat, p) => !(pat.home_only && !homeChain.includes(p.id)) && pat.applies_to.includes(p.kind) && !(pat.only_tagged && !(p.tags || []).length) && !(pat.skip_home && p.id === "au");
     const now = today();
 
     function resolve(pid, pat) {
@@ -403,10 +405,11 @@
     function patternCard(pat) {
       const rows = pat.id === "zone-requirements"
         ? [...new Map([id, ...descendants.filter((d) => d.zone).map((d) => d.id)].flatMap((z) => resolve(z, pat)).map(([p, r]) => [p.id, [p, r]])).values()]
-        : resolve(id, pat);
+        : pat.home_only ? (index.home_base ? resolve(index.home_base.place, pat) : []) : resolve(id, pat);
       if (!rows.length) return "";
+      const homeNote = pat.home_only ? `<p class="meta">What still applies to a resident of ${esc(index.byId[index.home_base.place]?.name || "the home base")} while away, by level, alongside this place's own rules. A level marked "not yet checked" has unknown obligations, not none.</p>` : "";
       return `<div class="card pattern-card"><h3>${esc(pat.name)} <span class="chip">${pat.inherit === "stack" ? "stacks across levels" : pat.inherit === "nearest" ? "nearest level" : "this place only"}</span></h3>
-        <p class="q">${esc(pat.question)}</p><ul class="levels">${rows.map(([p, r]) => levelRow(p, r, pat)).join("")}</ul></div>`;
+        <p class="q">${esc(pat.question)}</p>${homeNote}<ul class="levels">${rows.map(([p, r]) => levelRow(p, r, pat)).join("")}</ul></div>`;
     }
     const sections = LAYERS.map(([key, label, ids]) => {
       const cards = ids.map((pid) => patterns[pid]).filter(Boolean).map(patternCard).join("");
@@ -650,7 +653,7 @@
     const app = document.getElementById("app");
     const [index, creditFile] = await Promise.all([json("site/data/index.json", null), json("site/heroes/credits.json", { images: [] })]);
     if (!index) { app.innerHTML = '<section class="section"><h1>Data not built</h1><p>Run <code>python scripts/build_site.py</code>, then serve the repo folder over HTTP.</p></section>'; return; }
-    const ORDER = ["advisory", "entry", "visa-preparation", "activities", "zone-requirements", "health-entry", "local-law", "culture-and-protocol", "languages", "affection-and-relationships", "births-and-family-support", "psychoactive-substances", "culture-cycles", "seasons-and-flow", "year-ahead", "consular", "money-and-cost", "works-and-purpose"];
+    const ORDER = ["advisory", "entry", "visa-preparation", "activities", "zone-requirements", "health-entry", "local-law", "home-obligations", "culture-and-protocol", "languages", "affection-and-relationships", "births-and-family-support", "psychoactive-substances", "culture-cycles", "seasons-and-flow", "year-ahead", "consular", "money-and-cost", "works-and-purpose"];
     index.patterns.sort((a, b) => (ORDER.indexOf(a.id) + 1 || 99) - (ORDER.indexOf(b.id) + 1 || 99));
     index.byId = Object.fromEntries(index.places.map((p) => [p.id, p]));
     IDX = index;

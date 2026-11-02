@@ -318,6 +318,197 @@
      "supports": "who can give a Welcome; Acknowledgement as respect (read via search summary; page not fetched)"
     }
    ]
+  },
+  "home-obligations": {
+   "status": "partly-mapped",
+   "checked": "2026-11-02",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "departure-and-return",
+     "rule": "On return, complete the Incoming Passenger Card accurately (a digital Australia Travel Declaration is being piloted on some Qantas flights). Adults can bring AUD 900 of general goods duty free; over the allowance, duty and tax apply to every item of that type. Goods claimed under the Tourist Refund Scheme must be declared.",
+     "level": "country",
+     "source": "https://www.abf.gov.au/entering-and-leaving-australia/duty-free",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "departure-and-return",
+     "rule": "Declare food, plant material and animal products, including goods you took overseas and brought back. Clean hiking, fishing and camping gear and footwear. Declared goods are not penalised under the Biosecurity Act 2015 even if refused; false or missing declarations can bring an infringement notice of up to AUD 7,280 or prosecution.",
+     "level": "country",
+     "source": "https://www.agriculture.gov.au/biosecurity-trade/policy/faqs",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "travel-advice-and-insurance",
+     "rule": "Smartraveller offers free email and SMS updates for each destination, and says that if you can't afford travel insurance, you can't afford to travel.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/consular-services/resources/travel-smart",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "consular-help-and-limits",
+     "rule": "Consular help is not a legal right and may be limited if your actions were illegal or repeatedly reckless. DFAT may replace passports (fee), give lists of doctors and lawyers, check on you if detained, contact family with consent and provide some notarial and voting services. It can't give legal advice, intervene in foreign courts, get you out of prison, pay bail, fines or medical bills, or arrange visas or work permits.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/our-role/consular-services-charter",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "laws-that-follow-you",
+     "rule": "Australian citizens and residents can be prosecuted in Australia for child sex offences committed overseas (Criminal Code Division 272); the AFP investigates.",
+     "level": "country",
+     "source": "https://afp.gov.au/crimes/crimes-against-children/travelling-child-sex-offenders",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "laws-that-follow-you",
+     "rule": "Bribing a foreign public official is an offence for Australians anywhere (Criminal Code s 70.2), with up to 10 years' imprisonment for individuals.",
+     "level": "country",
+     "source": "https://www.ag.gov.au/crime/foreign-bribery/foreign-bribery-offences-and-penalties",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "laws-that-follow-you",
+     "rule": "Supplying technology on the Defence and Strategic Goods List overseas, including by email, cloud access or screen-sharing, generally needs a Defence permit unless an exemption applies. Relevant only if your work touches controlled technology.",
+     "level": "country",
+     "source": "https://www.defence.gov.au/business-industry/exporting/compliance/obligations-requirements",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "tax-residency",
+     "rule": "You generally stay an Australian resident for tax if you go overseas temporarily and do not set up a permanent home elsewhere; moving from country to country does not create one. Residents declare worldwide income and may claim a foreign income tax offset. You can lodge from overseas through myTax (set myGov sign-in to work abroad).",
+     "level": "country",
+     "source": "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/your-tax-residency/australian-resident-for-tax-purposes",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "health-cover",
+     "rule": "Medicare does not cover you overseas. Reciprocal health care agreements with 11 countries (Belgium, Finland, Ireland, Italy, Malta, the Netherlands, New Zealand, Norway, Slovenia, Sweden, the UK) may cover urgent care, usually with a co-payment; they don't cover evacuation and don't replace travel insurance. Carry your passport and a current Medicare card.",
+     "level": "country",
+     "source": "https://www.smartraveller.gov.au/travel-essentials/travel-health/using-healthcare-agreement-medical-care",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "health-cover",
+     "rule": "Strict rules apply to taking PBS medicines overseas; carry them for personal use and check they are legal at the destination.",
+     "level": "country",
+     "source": "https://www.servicesaustralia.gov.au/health-care-planning-when-going-overseas?context=60040",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "voting",
+     "rule": "Federal voting is not compulsory while overseas, but tell the AEC (overseas notification form) or you will be asked to explain. Enrolled voters leaving for longer can register as an overseas elector up to 3 months before or within 3 years after leaving, valid 6 years; vote by post or in person at selected missions.",
+     "level": "country",
+     "source": "https://www.aec.gov.au/overseas/overseas-elector.htm",
+     "checked": "2026-11-02"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Duty free",
+     "authority": "Australian Border Force",
+     "url": "https://www.abf.gov.au/entering-and-leaving-australia/duty-free",
+     "checked": "2026-11-02",
+     "supports": "AUD 900 general goods for adults, TRS goods must be declared (read via a search-index snapshot)"
+    },
+    {
+     "title": "Incoming Passenger Card",
+     "authority": "Australian Border Force",
+     "url": "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/at-the-border/incoming-passenger-card-(ipc)",
+     "checked": "2026-11-02",
+     "supports": "IPC required, ATD pilot on Qantas (read via a search-index snapshot)"
+    },
+    {
+     "title": "Biosecurity questions and answers",
+     "authority": "Department of Agriculture, Fisheries and Forestry",
+     "url": "https://www.agriculture.gov.au/biosecurity-trade/policy/faqs",
+     "checked": "2026-11-02",
+     "supports": "declare goods, infringement notice up to AUD 7,280 (read via a search-index snapshot)"
+    },
+    {
+     "title": "Returning to Australia",
+     "authority": "Department of Agriculture, Fisheries and Forestry",
+     "url": "https://www.agriculture.gov.au/biosecurity-trade/travelling/to-australia/returning",
+     "checked": "2026-11-02",
+     "supports": "clean gear, declare goods taken overseas and brought back (read via a search-index snapshot)"
+    },
+    {
+     "title": "Travel smart",
+     "authority": "Smartraveller (DFAT)",
+     "url": "https://www.smartraveller.gov.au/consular-services/resources/travel-smart",
+     "checked": "2026-11-02",
+     "supports": "subscriptions and insurance advice (read via a search-index snapshot)"
+    },
+    {
+     "title": "Consular Services Charter",
+     "authority": "Smartraveller (DFAT)",
+     "url": "https://www.smartraveller.gov.au/our-role/consular-services-charter",
+     "checked": "2026-11-02",
+     "supports": "what consular staff can and can't do (read via a search-index snapshot)"
+    },
+    {
+     "title": "Travelling child sex offenders",
+     "authority": "Australian Federal Police",
+     "url": "https://afp.gov.au/crimes/crimes-against-children/travelling-child-sex-offenders",
+     "checked": "2026-11-02",
+     "supports": "extraterritorial child sex offences (read via a search-index snapshot)"
+    },
+    {
+     "title": "Foreign bribery offences and penalties",
+     "authority": "Attorney-General's Department",
+     "url": "https://www.ag.gov.au/crime/foreign-bribery/foreign-bribery-offences-and-penalties",
+     "checked": "2026-11-02",
+     "supports": "s 70.2, up to 10 years (read via a search-index snapshot)"
+    },
+    {
+     "title": "Obligations and requirements",
+     "authority": "Department of Defence",
+     "url": "https://www.defence.gov.au/business-industry/exporting/compliance/obligations-requirements",
+     "checked": "2026-11-02",
+     "supports": "permits for DSGL technology transfers (read via a search-index snapshot)"
+    },
+    {
+     "title": "Australian resident for tax purposes",
+     "authority": "Australian Taxation Office",
+     "url": "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/your-tax-residency/australian-resident-for-tax-purposes",
+     "checked": "2026-11-02",
+     "supports": "temporary absence keeps residency; declare worldwide income (read via a search-index snapshot)"
+    },
+    {
+     "title": "Residency, the domicile test",
+     "authority": "Australian Taxation Office",
+     "url": "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/residency-tests/residency-the-domicile-test",
+     "checked": "2026-11-02",
+     "supports": "moving between countries is not a permanent place of abode overseas (read via a search-index snapshot)"
+    },
+    {
+     "title": "Reciprocal healthcare agreements",
+     "authority": "Smartraveller (DFAT)",
+     "url": "https://www.smartraveller.gov.au/travel-essentials/travel-health/using-healthcare-agreement-medical-care",
+     "checked": "2026-11-02",
+     "supports": "11 agreement countries, not a substitute for insurance (read via a search-index snapshot)"
+    },
+    {
+     "title": "Health care planning when going overseas",
+     "authority": "Services Australia",
+     "url": "https://www.servicesaustralia.gov.au/health-care-planning-when-going-overseas?context=60040",
+     "checked": "2026-11-02",
+     "supports": "Medicare won't cover you overseas; PBS medicine rules (read via a search-index snapshot)"
+    },
+    {
+     "title": "Registration as an overseas elector",
+     "authority": "Australian Electoral Commission",
+     "url": "https://www.aec.gov.au/overseas/overseas-elector.htm",
+     "checked": "2026-11-02",
+     "supports": "overseas elector rules and voting options (read via a search-index snapshot)"
+    },
+    {
+     "title": "Overseas voting options",
+     "authority": "Australian Electoral Commission",
+     "url": "https://aec.gov.au/voting/Ways_to_vote/voting-options.htm",
+     "checked": "2026-11-02",
+     "supports": "overseas notification form (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

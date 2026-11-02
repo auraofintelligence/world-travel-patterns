@@ -11,7 +11,7 @@ import sys
 from urllib.parse import quote
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from lib import ROOT, VETTING, applies, is_active, load_patterns, load_places, read, today  # noqa: E402
+from lib import ROOT, VETTING, applies, home_chain, is_active, load_patterns, load_places, read, resolve, today  # noqa: E402
 
 
 def main():
@@ -58,11 +58,36 @@ def main():
         "watch_checks": queue.get("watch_checks", []),
         "patterns": [dict(p, coverage=coverage.get(p["id"])) for p in patterns.values()],
         "places": rows,
+        "home_base": {"place": home_chain()[-1], "chain": home_chain()} if home_chain() else None,
         "runs": runs,
         "has_change_log": (ROOT / "data/logs/advisory-changes.jsonl").exists(),
     }, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"site index: {len(rows)} places, {len(runs)} run notes")
     write_discovery(rows)
+    write_law_stacks(places, patterns)
+
+
+def write_law_stacks(places, patterns):
+    """Destination law stacks (local-law, every level from the country down) for every active place, paired
+    with the home-base stack (home-obligations). A null status means not yet checked: unknown, never "no rules"."""
+    cache, stacks, levels = {}, {}, {}
+    for pid, p in places.items():
+        if pid.split("/")[0] == "au" or not applies(patterns["local-law"], p):
+            continue
+        rows = resolve(places, patterns, pid, "local-law", cache)
+        stacks[pid] = [[lp, rec["status"] if rec else None] for lp, rec in rows]
+        levels.update({lp: rec["status"] if rec else None for lp, rec in rows})
+    home = home_chain()
+    home_rows = resolve(places, patterns, home[-1], "home-obligations", {}) if home else []
+    filled = sum(1 for v in levels.values() if v)
+    out = {"built_on": today().isoformat(),
+           "note": "International destinations (Australia is the home side). Each stack lists the levels whose law binds a visitor there, country first. null = not yet checked (unknown, not no rules).",
+           "summary": {"places": len(stacks), "levels": len(levels), "levels_filled": filled, "levels_not_yet_checked": len(levels) - filled,
+                       "home_levels": len(home_rows), "home_levels_filled": sum(1 for _, r in home_rows if r)},
+           "home": {"pattern": "home-obligations", "stack": [[lp, rec["status"] if rec else None] for lp, rec in home_rows]},
+           "destinations": stacks}
+    (ROOT / "site/data/law-stacks.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print("law stacks:", out["summary"])
 
 
 SITE = "https://auraofintelligence.github.io/world-travel-patterns/"

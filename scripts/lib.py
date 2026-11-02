@@ -113,7 +113,22 @@ def resolve(places, patterns, place_id, pattern_id, cache=None):
     return [(pid, own(pid)) for pid in levels]
 
 
+_HOME = {}
+
+
+def home_chain():
+    """The home base (config/home-base.json) and every level above it, country first."""
+    if "chain" not in _HOME:
+        home = read(ROOT / "config/home-base.json", {}).get("place")
+        places = load_places()
+        _HOME["place"] = home
+        _HOME["chain"] = list(reversed([home] + ancestors(places, home))) if home in places else []
+    return _HOME["chain"]
+
+
 def applies(pattern, place):
+    if pattern.get("home_only") and place["id"] not in home_chain():
+        return False
     if place["kind"] not in pattern["applies_to"]:
         return False
     if pattern.get("only_tagged") and not place.get("tags"):
