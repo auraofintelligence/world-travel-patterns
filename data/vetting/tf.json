@@ -530,6 +530,43 @@
     "result": "found",
     "note": "National tourism or government etiquette guidance found and cited."
    }
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-02",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Landing requires prior authorisation from the TAAF prefect; the islands are a national nature reserve and some zones are closed to all access.",
+     "level": "country",
+     "source": "https://taaf.fr/acceder-aux-territoires/demandes-dactivites-et-dacces/acces-et-mouillage-dans-les-australes/",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Foreign nationals need a visa issued only after the TAAF senior administrator agrees; ask at least two months before arrival.",
+     "level": "country",
+     "source": "https://taaf.fr/acceder-aux-territoires/demande-de-visa/",
+     "checked": "2026-11-02"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Accès et mouillage dans les Australes",
+     "authority": "Terres australes et antarctiques françaises",
+     "url": "https://taaf.fr/acceder-aux-territoires/demandes-dactivites-et-dacces/acces-et-mouillage-dans-les-australes/",
+     "checked": "2026-11-02",
+     "supports": "access authorisation, closed zones (read via a search-index snapshot)"
+    },
+    {
+     "title": "Demandes de visa pour les territoires TAAF",
+     "authority": "Terres australes et antarctiques françaises",
+     "url": "https://taaf.fr/acceder-aux-territoires/demande-de-visa/",
+     "checked": "2026-11-02",
+     "supports": "visa after administrator's agreement (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

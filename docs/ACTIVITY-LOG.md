@@ -1318,3 +1318,7 @@ sx local-law (US State Department advisory: drug laws); tk local-law (Tokelau Im
 - Talks and launches (ao bt ci cm gw la ma ni tn) and gw filming: not searched in this run. They stay confirm-in-writing.
 - Law stacks: 288 filled, 3,479 not yet checked. National: 242 of 247 (missing fo io mp tf vi). Sub-national: 46. Work rules open: 276.
 - Next: fo io mp tf vi; Swiss cantons; the talks and launches batch; more US states (Florida, Texas, Colorado, Washington, Massachusetts, Illinois).
+
+## 2026-11-02 12:46 AEST, Grok: National law levels: io tf fo vi mp: 5 records (5 records)
+
+Last 5 national levels: BIOT (FCDO, direct), TAAF (taaf.fr access and visa), Faroe hiking fees (Visit Faroe Islands), USVI firearms licence (ATF compilation), CNMI restricted imports (Department of Finance). Snapshots except FCDO.
