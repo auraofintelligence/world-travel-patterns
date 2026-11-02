@@ -1192,3 +1192,7 @@ local-law records at region level from UK FCDO India and UAE safety-and-security
 ## 2026-11-02 12:36 AEST, Grok: Sub-national law level: Quebec cannabis rules (age 21, possession limits, public-use ban) (1 records)
 
 ca/quebec local-law partly-mapped from Gouvernement du Québec cannabis legislation page (search snapshot).
+
+## 2026-11-02 12:36 AEST, Grok: Filming: Kazakhstan specialist (MFA journalist accreditation, 1 check) (1 records)
+
+kz filming specialist from the MFA accreditation rules on the official Adilet database (search snapshot).
