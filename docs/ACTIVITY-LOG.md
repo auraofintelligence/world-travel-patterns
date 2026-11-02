@@ -1304,3 +1304,7 @@ us/new-york firearms (NYPD FAQ) and us/hawaii firearm registration (HRS 134-3, r
 ## 2026-11-02 12:44 AEST, Grok: Sub-national law levels: alcohol age in 5 UAE emirates; Hawaii source label fix (6 records)
 
 local-law partly-mapped for Abu Dhabi, Ajman, Fujairah, Umm Al Quwain and Ras Al Khaimah from the FCDO UAE page (read directly): drinking age 21, public drinking illegal. us/hawaii HRS 134-3 source relabelled as a search snapshot (it was mislabelled read directly in 3545ff9).
+
+## 2026-11-02 12:45 AEST, Grok: Sint Maarten and Tokelau law levels; Eswatini filming specialist (3 records)
+
+sx local-law (US State Department advisory: drug laws); tk local-law (Tokelau Immigration Regulations 1991, NZ Legislation: visitor permit); sz filming specialist (Cinematograph Act 1920 s3, ministerial permission). Search snapshots.
