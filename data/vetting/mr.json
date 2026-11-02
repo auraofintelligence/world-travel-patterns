@@ -587,19 +587,53 @@
    "climate": "Wettest: July, August and September. Driest: January, February and March. Hottest: July (34.3°C average). Coolest: January (20.8°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa on arrival available.",
-   "cost_aud_baseline": {
-    "value": "~ $85",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-MAURITANIA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "An electronic visa must be obtained before travelling, from the Mauritanian Ministry of the Interior and Decentralization (ANRPTS portal). Visas are no longer issued on arrival. A yellow fever certificate is required.",
+   "fastest_entry": "Electronic visa online before travel, in 30-day, 90-day or 360-day packages, valid at all international entry points.",
+   "before_departure": "Apply on the ANRPTS e-visa portal and wait for authorisation before travelling; carry a yellow fever certificate.",
+   "useful_stay": "The e-visa packages are 30, 90 or 360 days.",
+   "steps": [
+    {
+     "step": "Apply for the e-visa on the ANRPTS portal: choose the duration package, then passport, traveller and trip details.",
+     "url": "https://anrpts.gov.mr/en/visa/requestvisa"
+    },
+    {
+     "step": "Wait for authorisation before travelling: there's no visa on arrival.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/mauritania"
+    },
+    {
+     "step": "Carry a yellow fever vaccination certificate.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/mauritania"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Approved e-visa",
+    "Yellow fever vaccination certificate"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What does each e-visa package cost? The portal's first step lists durations but no prices."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/mauritania",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Visa request",
+     "authority": "Agence Nationale du Registre des Populations et des Titres Sécurisés (ANRPTS), Mauritania",
+     "url": "https://anrpts.gov.mr/en/visa/requestvisa",
+     "supports": "e-visa packages of 30, 90 and 360 days, valid at all international ports of entry",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -610,7 +644,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: e-visa before travel, no visa on arrival; fee not stated."
+   "cost_aud_baseline": {
+    "value": "~ $85",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-MAURITANIA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa on arrival available."
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (updated 14 May 2026) confirms the e-visa before travel, no visa on arrival and yellow fever certificate; the ANRPTS portal shows 30, 90 and 360-day packages. Fees weren't shown."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

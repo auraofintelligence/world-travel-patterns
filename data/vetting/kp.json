@@ -647,19 +647,54 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required. Extremely difficult. Only via approved tours.",
-   "cost_aud_baseline": {
-    "value": "Variable",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-NORTH-KOREA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel. A visa is needed for all travel. There is no North Korean mission in Australia, so the visa is sought in another country, such as China or Indonesia. Business travellers generally need a North Korean sponsor and Foreign Ministry permission; journalists need special permission.",
+   "fastest_entry": "No route published by North Korean authorities on the pages read; Smartraveller points to the DPRK Embassy in Indonesia.",
+   "before_departure": "Get the visa abroad, plus a double or multiple-entry China visa if travelling through China. Expect to provide recent travel itineraries, declare all published material and communications devices on arrival, and register within 24 hours (usually through the host or hotel).",
+   "steps": [
+    {
+     "step": "Apply for a visa outside Australia, for example through the DPRK Embassy in Indonesia.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/north-korea-democratic-peoples-republic-korea"
+    },
+    {
+     "step": "If travelling through China, get a double or multiple-entry Chinese visa so you can re-enter China.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/north-korea-democratic-peoples-republic-korea"
+    },
+    {
+     "step": "Declare all books, papers and communications devices on arrival; expect inspection or confiscation.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/north-korea-democratic-peoples-republic-korea"
+    },
+    {
+     "step": "Register with the authorities within 24 hours of arrival, through the host organisation or hotel.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/north-korea-democratic-peoples-republic-korea"
+    },
+    {
+     "step": "Check Australian sanctions on what can be taken to North Korea.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/north-korea-democratic-peoples-republic-korea"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "North Korean visa",
+    "Recent travel itineraries",
+    "Chinese double or multiple-entry visa if transiting China"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What fee and process does the DPRK Embassy in Indonesia apply to Australian applicants?"
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/north-korea-democratic-peoples-republic-korea",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -670,7 +705,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises Do not travel. A visa is needed for all travel, and there is no DPRK mission in Australia, so you apply in another country such as China or Indonesia. Arriving without a visa risks detention. No fee stated."
+   "cost_aud_baseline": {
+    "value": "Variable",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-NORTH-KOREA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required. Extremely difficult. Only via approved tours."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (Do not travel; updated 31 Mar 2026): visa needed for all travel, no mission in Australia, sponsor rules for business, declarations and 24-hour registration. No DPRK government page exists to confirm fees."
   },
   "year-ahead": {
    "status": "mapped",

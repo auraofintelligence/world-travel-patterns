@@ -611,19 +611,46 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa on arrival for 90 days.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-MARSHALL-ISLANDS-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "A 30-day visitor visa is given on arrival with evidence of an outbound ticket. Work, study or stays over 30 days need an entry permit.",
+   "fastest_entry": "30-day visitor visa on arrival.",
+   "before_departure": "Book an outbound ticket: fines and deportation can apply to arrivals without one. If transiting the US (Honolulu or Guam), meet US entry or transit rules.",
+   "useful_stay": "30 days; apply and pay to extend at the Division of Immigration.",
+   "steps": [
+    {
+     "step": "Arrive with evidence of an outbound ticket to get the 30-day visitor visa.",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/marshall-islands"
+    },
+    {
+     "step": "To stay longer, apply and pay for an extension at the Division of Immigration; work, study or longer stays need an entry permit.",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/marshall-islands"
+    },
+    {
+     "step": "If travelling with a child who isn't your own, carry a notarised letter of consent from the legal guardian.",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/marshall-islands"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Outbound ticket",
+    "Notarised guardian consent if travelling with a child who isn't your own"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What does a visa extension cost at the Division of Immigration? Smartraveller gives no amount, and no RMI immigration web page was found."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/marshall-islands",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -634,7 +661,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller confirms a 30-day visitor visa on arrival with an outbound ticket; no fee stated."
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-MARSHALL-ISLANDS-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa on arrival for 90 days."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 18 Sep 2026): 30-day visitor visa on arrival with an outbound ticket, paid extensions, entry permits for work, study or longer stays. The atlas line (visa-free business visits) is replaced; extension fees stay open."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

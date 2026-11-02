@@ -811,34 +811,50 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Visa-exempt visitor entry for Australians, with stay length set at the border",
-   "before_departure": "Check current SRE/INM entry guidance, passport validity, return/onward evidence and the stated purpose.",
-   "useful_stay": "Visitor permission can be generous but is not a work permit; temporary residence is the longer base.",
-   "host_unlock": "A Mexican employer or institution can request a work-authorisation visa; a host invitation can support unpaid or academic activity.",
-   "documents": [
-    "Australian passport and onward plan",
-    "Accommodation and financial evidence",
-    "Spanish/English host letter",
-    "Role, payment and local-client statement"
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "No visa for tourism. With a chipped ordinary passport, adults can use the e-gates at major airports for tourism stays of up to 180 days; otherwise a visa on arrival is given at the border, for the length the immigration officer sets (up to 180 days, not guaranteed). Complete the online Multiple Immigration Form (FMM) and make sure the passport is stamped.",
+   "fastest_entry": "e-gates at major airports for adults with a chipped ordinary passport travelling for tourism only (up to 180 days, QR code printed).",
+   "before_departure": "Fill in the FMM online (or on arrival) and keep the QR code. If routing through the US or Canada, meet their transit rules (an eTA for Canada). Entering by road, find the immigration office near the border for the stamp.",
+   "useful_stay": "Up to 180 days for tourism, set by the officer or e-gate; business, study or work need other visas.",
    "steps": [
-    "Check current SRE/INM nationality and entry rules.",
-    "Carry a Spanish/English purpose letter.",
-    "Separate unpaid activity from local remuneration.",
-    "Have a Mexican employer request work authorisation where needed.",
-    "Check tax, customs and local-sales implications."
+    {
+     "step": "Complete the Multiple Immigration Form (FMM) online before arrival, or on arrival, and keep the QR code.",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/mexico"
+    },
+    {
+     "step": "At major airports, use the e-gates if eligible (chipped ordinary passport, 18 or over, tourism only, no minors); download the e-tourist card within 60 days.",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/mexico"
+    },
+    {
+     "step": "Otherwise, check the date stamped on arrival: it sets the stay.",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/mexico"
+    },
+    {
+     "step": "By road, get the passport stamped at the INM office near the crossing and pay the immigration fee at a nearby bank.",
+     "url": "https://www.gob.mx/inm"
+    },
+    {
+     "step": "Declare goods over the duty-free allowance and keep receipts for high-value items.",
+     "url": "https://www.anam.gob.mx/"
+    }
    ],
+   "documents": [
+    "Ordinary passport (chipped for the e-gates)",
+    "FMM with QR code",
+    "Entry stamp or e-gate printout",
+    "Mexican minor travel consent if a Mexican child travels without a parent"
+   ],
+   "fees": [],
    "open_questions": [
     "What stay length did the officer authorise?",
     "Who pays and where is the service delivered?",
     "Is the invitation unpaid, reimbursed or remunerated?",
     "Is temporary residence more accurate than repeated visitor entry?",
-    "Are Spanish translations and Mexican tax registration required?"
+    "Are Spanish translations and Mexican tax registration required?",
+    "What is the visitor immigration fee (included in commercial airfares, paid at a bank by land) in pesos today?"
    ],
    "sources": [
     {
@@ -868,6 +884,20 @@
      "url": "https://embamex.sre.gob.mx/australia/images/stories/businessvisarequirements",
      "checked": "2026-08-21",
      "supports": "business documentation and consular evidence"
+    },
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/mexico",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Instituto Nacional de Migración",
+     "authority": "Instituto Nacional de Migración, Government of Mexico",
+     "url": "https://www.gob.mx/inm",
+     "supports": "immigration authority home page (linked by Smartraveller for road entries)",
+     "checked": "2026-11-03"
     }
    ],
    "provenance": {
@@ -911,7 +941,27 @@
     "checked": "2025-08-16",
     "claim_id": "WORLD-MEXICO-COST"
    },
-   "recheck_note": "Partly verified 2026-11-01: Smartraveller confirms tourism entry without a visa (e-gates up to 180 days with a chipped passport) and the online FMM with QR code; the FMM cost wasn't stated on an official page read, so left flagged."
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "host_unlock": "A Mexican employer or institution can request a work-authorisation visa; a host invitation can support unpaid or academic activity.",
+    "fastest_entry": "Visa-exempt visitor entry for Australians, with stay length set at the border",
+    "before_departure": "Check current SRE/INM entry guidance, passport validity, return/onward evidence and the stated purpose.",
+    "useful_stay": "Visitor permission can be generous but is not a work permit; temporary residence is the longer base.",
+    "documents": [
+     "Australian passport and onward plan",
+     "Accommodation and financial evidence",
+     "Spanish/English host letter",
+     "Role, payment and local-client statement"
+    ],
+    "steps": [
+     "Check current SRE/INM nationality and entry rules.",
+     "Carry a Spanish/English purpose letter.",
+     "Separate unpaid activity from local remuneration.",
+     "Have a Mexican employer request work authorisation where needed.",
+     "Check tax, customs and local-sales implications."
+    ]
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 15 Oct 2026): e-gates up to 180 days for eligible tourists, visa on arrival otherwise, FMM with QR code, immigration fee in airfare or paid at a bank by land, no exit tax. The INM e-gates page cited in sources returned 404 today, so its date isn't changed; the fee amount stays open."
   },
   "year-ahead": {
    "status": "mapped",

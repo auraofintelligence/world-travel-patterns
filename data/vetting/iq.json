@@ -761,19 +761,58 @@
    "climate": "Wettest: January, March and December. Driest: July, August and September. Hottest: July (35.2°C average). Coolest: January (9.9°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance. Very difficult to obtain.",
-   "cost_aud_baseline": {
-    "value": "Variable",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-IRAQ-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel. An electronic visa from the Iraq e-Visa Portal is needed before travel, and airlines check for it before boarding. The Kurdistan Region has its own e-visa (or visa on arrival), valid only in the Kurdistan Region.",
+   "fastest_entry": "Iraqi e-Visa online: valid 30 days, single or multiple entry, sent by email.",
+   "before_departure": "Apply on the Iraq e-Visa Portal with a valid passport and a digital photo on a white background, pay online, and print the e-Visa. For Kurdistan only, use the Kurdistan Regional Government e-visa portal; travel beyond Kurdistan needs the Iraqi visa first.",
+   "useful_stay": "The e-Visa is valid for 30 days.",
+   "steps": [
+    {
+     "step": "Apply and pay for the e-Visa online with a valid passport and a digital photo on a white background.",
+     "url": "https://evisa.iq/en"
+    },
+    {
+     "step": "Print the e-Visa from the email and show it to the airline and at border control.",
+     "url": "https://evisa.iq/en"
+    },
+    {
+     "step": "For the Kurdistan Region only, apply on the Kurdistan e-visa portal (or get a visa on arrival there); it doesn't cover the rest of Iraq.",
+     "url": "https://visit.gov.krd/"
+    },
+    {
+     "step": "Passports with Israeli stamps or visas may be refused entry.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/iraq"
+    }
+   ],
+   "documents": [
+    "Valid passport",
+    "Digital photo on a white background",
+    "Printed e-Visa",
+    "Guardian's documents showing parental permission for a child travelling without a parent"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What is the Iraqi e-Visa fee? The portal's home page says fees are paid online but gives no amount."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Iraqi Electronic Visa",
+     "authority": "Republic of Iraq, Ministry of Interior e-Visa portal",
+     "url": "https://evisa.iq/en",
+     "supports": "30-day e-Visa, single or multiple entry, passport and photo, online payment, email delivery",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -784,7 +823,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises Do not travel. An e-visa from the Iraq e-Visa Portal is needed before travel, and airlines check it. Kurdistan Region visas (KRG e-visa or on arrival) are valid only in the Kurdistan Region. Israeli stamps may lead to refused entry. No fee stated."
+   "cost_aud_baseline": {
+    "value": "Variable",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-IRAQ-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance. Very difficult to obtain."
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (Do not travel; updated 2 Sep 2026) confirms the e-Visa before travel, airline checks and the separate Kurdistan visa; the Iraq e-Visa Portal confirms 30-day validity, single or multiple entry and the documents. The fee wasn't shown."
   },
   "year-ahead": {
    "status": "mapped",

@@ -822,19 +822,98 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance. Apply at embassy/consulate.",
-   "cost_aud_baseline": {
-    "value": "~ $100+",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-GHANA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "A visa is needed. The Ghana Immigration Service eVisa covers tourism and business: apply online, pay, and receive the single-entry eVisa by email. A yellow fever certificate is required on arrival.",
+   "fastest_entry": "Single-entry eVisa through the official Ghana Immigration Service portal; standard processing 96 hours (express 5 hours for a higher fee).",
+   "before_departure": "Check eligibility on the eVisa portal, apply with photo and supporting documents, pay, answer any request for information within 3 days, and travel within the eVisa's 90-day validity. Carry the yellow fever certificate.",
+   "useful_stay": "The eVisa is valid 90 days from issue for one entry; the immigration officer sets the stay, up to 60 days. Staying more than 90 days in a year requires a Non-citizen Ghanacard.",
+   "steps": [
+    {
+     "step": "Check eligibility and apply for the eVisa (tourist or business) on the official portal.",
+     "url": "https://evisa.immigration.gov.gh/"
+    },
+    {
+     "step": "Upload the photo and supporting documents, pay the fee for the processing speed chosen, and watch the dashboard and email for requests for information.",
+     "url": "https://evisa.immigration.gov.gh/applicant-guide.html"
+    },
+    {
+     "step": "Enter Ghana within 90 days of issue with the passport used to apply, the eVisa and the yellow fever certificate.",
+     "url": "https://evisa.immigration.gov.gh/applicant-guide.html"
+    },
+    {
+     "step": "Declare anything prohibited or dutiable at customs.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/ghana"
+    },
+    {
+     "step": "For more than 90 days in a year, register for a Non-citizen Ghanacard with the National Identification Authority.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/ghana"
+    }
+   ],
+   "documents": [
+    "Passport used for the application",
+    "eVisa (electronic, printed copy advised)",
+    "Yellow fever vaccination certificate",
+    "Travel and accommodation evidence"
+   ],
+   "fees": [
+    {
+     "item": "eVisa, standard processing (96 hours)",
+     "amount": 260,
+     "currency": "USD",
+     "url": "https://evisa.immigration.gov.gh/applicant-guide.html",
+     "checked": "2026-11-03",
+     "aud": 369.32,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704"
+    },
+    {
+     "item": "eVisa, priority processing (48 hours)",
+     "amount": 338,
+     "currency": "USD",
+     "url": "https://evisa.immigration.gov.gh/applicant-guide.html",
+     "checked": "2026-11-03",
+     "aud": 480.11,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704"
+    },
+    {
+     "item": "eVisa, express processing (5 hours)",
+     "amount": 442,
+     "currency": "USD",
+     "url": "https://evisa.immigration.gov.gh/applicant-guide.html",
+     "checked": "2026-11-03",
+     "aud": 627.84,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704"
+    }
+   ],
+   "open_questions": [],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/ghana",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Ghana eVisa: Applicant Guide",
+     "authority": "Ghana Immigration Service and Ministry of Foreign Affairs, Ghana",
+     "url": "https://evisa.immigration.gov.gh/applicant-guide.html",
+     "supports": "steps, flat USD fees by processing speed, 90-day validity, up to 60 days' stay, yellow fever",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Ghana visas",
+     "authority": "Ghana Immigration Service",
+     "url": "https://gis.gov.gh/visas/",
+     "supports": "visa categories issued abroad and in Ghana",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -845,7 +924,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: visa needed and yellow fever certificate; fee not stated."
+   "cost_aud_baseline": {
+    "value": "~ $100+",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-GHANA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance. Apply at embassy/consulate."
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (updated 30 Jul 2026) confirms visa needed, yellow fever certificate and the Ghanacard rule; the Ghana Immigration Service eVisa guide gives the process, the flat fees (US$260 standard) and the 60-day stay limit."
   },
   "year-ahead": {
    "status": "mapped",

@@ -21,6 +21,57 @@
     "2027-06-01: Azores Day (Dia dos Açores) (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "activity-permit",
+     "authority": "Regional Government of the Azores, Pico Island Nature Park (Casa da Montanha)",
+     "process": "Climbing Mountain Pico requires prior registration at the Casa da Montanha (Mountain House), or at the Madalena fire station when it is closed, where each climber signs a safety declaration and takes a tracking device that must be returned. Booking ahead on the regional online platform is possible; a booking must still be registered in person within 2 hours of the booked start. The only route is the marked PRC4 PIC trail. Children under 5 and pets are not allowed, and under-16s need a parent or an authorised adult. Access can be closed during orange or red weather or civil protection warnings. Unauthorised access, not paying, leaving the trail or overstaying at the summit are environmental offences; a rescue caused by breaking the rules is charged at EUR 1,200 (about A$1,907), and an unreturned or damaged tracker at EUR 300 (A$477). AUD at the RBA rate of 30 October 2026, A$1 = EUR 0.6293.",
+     "activities": [
+      "hiking",
+      "climbing"
+     ],
+     "url": "https://montanhapico.azores.gov.pt/store/PortariaN64-2023-EN.pdf",
+     "checked": "2026-11-03"
+    },
+    {
+     "type": "fee",
+     "authority": "Regional Government of the Azores, Pico Island Nature Park",
+     "process": "Fees for climbers who are not Azores residents: EUR 15 for the full climb on your own (about A$23.84), plus EUR 10 for the summit cone, Piquinho (A$15.89), plus EUR 10 to stay overnight in the crater (A$15.89); EUR 5 to climb only to Furna Abrigo (A$7.95). Climbing with a licensed operator and certified guide costs less in fees (EUR 5 full climb, EUR 5 summit, EUR 2 Furna Abrigo). Fees as set in Ordinance 64/2023. AUD at the RBA rate of 30 October 2026, A$1 = EUR 0.6293.",
+     "activities": [
+      "hiking",
+      "climbing"
+     ],
+     "url": "https://montanhapico.azores.gov.pt/store/PortariaN64-2023-EN.pdf",
+     "checked": "2026-11-03"
+    },
+    {
+     "type": "visitor-cap",
+     "authority": "Regional Government of the Azores, Pico Island Nature Park",
+     "process": "Up to 320 climbers a day and 160 on the trail at once; up to 30 people on the summit at once, for 20 minutes each (up to 60 with a guide). Overnight stays in the crater are capped at 32 people a night and must be booked at least 24 hours ahead. Outside Mountain House opening hours, non-residents can climb only with a licensed operator, booked through the online platform.",
+     "lead_time_days": 1,
+     "activities": [
+      "hiking",
+      "climbing"
+     ],
+     "url": "https://montanhapico.azores.gov.pt/store/PortariaN64-2023-EN.pdf",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ordinance no. 64/2023, of 27 July 2023, amending and republishing the Access Regulation to the Pico Mountain Nature Reserve (English version)",
+     "authority": "Regional Government of the Azores (Regional Secretariats for Finance, Environment and Tourism)",
+     "url": "https://montanhapico.azores.gov.pt/store/PortariaN64-2023-EN.pdf",
+     "checked": "2026-11-03",
+     "supports": "registration, tracking device, fees, caps, overnight booking, age and pet rules, offences, rescue charge"
+    }
+   ],
+   "notes": "Fees are those in the 2023 republication; the regional site gave no later change when read on 2026-11-03."
   }
  }
 }

@@ -769,19 +769,65 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa on arrival for business purposes (conditions apply).",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-LEBANON-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel. Australians can get a tourist visa on arrival: Lebanese General Security lists Australia for a free one-month visa, extendable to 3 months. Evidence of travel to Israel leads to refusal of entry.",
+   "fastest_entry": "Free one-month tourist visa at the point of entry.",
+   "before_departure": "Check that nothing shows travel to Israel, carry identity documents (names are checked against a border alert database), and give General Security your address in Lebanon.",
+   "useful_stay": "One month, extendable to 3 months.",
+   "steps": [
+    {
+     "step": "Get the free one-month tourist visa on arrival; extensions up to 3 months are possible.",
+     "url": "https://www.general-security.gov.lb/en/posts/38"
+    },
+    {
+     "step": "Tell General Security your current address in Lebanon.",
+     "url": "https://www.general-security.gov.lb/en/posts/38"
+    },
+    {
+     "step": "Remove anything that shows travel to Israel (stamps, border stamps from Israel crossings, tickets, tags, SIM cards): it leads to refusal, deportation or arrest.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon"
+    },
+    {
+     "step": "Carry supporting identity documents: names are checked against a 'stop order' database on arrival and departure.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon"
+    }
+   ],
+   "documents": [
+    "Passport with no evidence of travel to Israel",
+    "Supporting identity documents",
+    "Address in Lebanon"
+   ],
+   "fees": [
+    {
+     "item": "tourist visa on arrival, one month",
+     "amount": 0,
+     "currency": "LBP",
+     "url": "https://www.general-security.gov.lb/en/posts/38",
+     "checked": "2026-11-03"
+    }
+   ],
+   "open_questions": [
+    "Which land crossings with Syria are open? Smartraveller says they can close at short notice."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Entry of citizens from foreign countries for tourism",
+     "authority": "Lebanese General Security",
+     "url": "https://www.general-security.gov.lb/en/posts/38",
+     "supports": "Australia listed: cost-free one-month visa, extendable to 3 months; give address to General Security",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -792,7 +838,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises Do not travel. A tourist visa is available on arrival; contact a Lebanese embassy for details. No fee stated."
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-LEBANON-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa on arrival for business purposes (conditions apply)."
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (Do not travel; updated 24 Sep 2026) confirms the tourist visa on arrival, Israel-travel refusals and border alert checks; Lebanese General Security (page dated 2 Nov 2026) lists Australia for a free one-month visa extendable to 3 months."
   },
   "year-ahead": {
    "status": "mapped",

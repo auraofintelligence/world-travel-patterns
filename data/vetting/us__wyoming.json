@@ -25,6 +25,62 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Any watercraft brought into Wyoming from 1 March to 30 November must be inspected for aquatic invasive species (zebra and quagga mussels and other pests carried on boats) before it is launched; at other times, inspection is needed if it has been on mussel-infested water in the last 30 days. Everyone transporting watercraft, including rafts, canoes, kayaks, paddle boards and inflatables, must stop at any open check station on their route, even with a seal from an earlier inspection. Watercraft also need an AIS decal before launching, except inflatables under 10 feet (about 3 m) and paddle boards; a decal does not replace the inspection.",
+     "penalty_signal": "Nonresident decal: US$30 motorised, US$15 non-motorised (about A$43 and A$21 at RBA 30 Oct 2026, A$1 = USD 0.7040).",
+     "level": "state",
+     "source": "https://wgfd.wyo.gov/watercraft-inspection-information",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Watercraft inspection information",
+     "authority": "Wyoming Game and Fish Department",
+     "url": "https://wgfd.wyo.gov/watercraft-inspection-information",
+     "checked": "2026-11-03",
+     "supports": "inspection dates and rule, check stations, decal does not replace inspection"
+    },
+    {
+     "title": "What is the fee structure for the AIS decals?",
+     "authority": "Wyoming Game and Fish Department",
+     "url": "https://wgfd.wyo.gov/what-fee-structure-ais-decals",
+     "checked": "2026-11-03",
+     "supports": "nonresident fees, decal exemptions (read via a search-index snapshot)"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Since 1 July 2024 (Senate File 32, 2024), Wyoming bans adding synthetic substances to hemp and selling hemp or hemp products with more than 0.3% THC or other psychoactive substances, including psychoactive analogues and isomers of THC. Delta-8 THC is listed as a Schedule I controlled substance, alongside the THC that occurs naturally in cannabis. Breaking the hemp rules is a misdemeanour.",
+     "source": "https://www.wyoleg.gov/2024/Summaries/SF0032.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bill summary, SF0032 (2024), Hemp: limitations on psychoactive substances",
+     "authority": "Wyoming Legislature, Legislative Service Office",
+     "url": "https://www.wyoleg.gov/2024/Summaries/SF0032.pdf",
+     "checked": "2026-11-03",
+     "supports": "synthetic additive ban, 0.3% THC, delta-8 in Schedule I, misdemeanour, 1 July 2024 start"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules. The Legislature's own summary says it is not an official statement of legislative intent."
   }
  }
 }

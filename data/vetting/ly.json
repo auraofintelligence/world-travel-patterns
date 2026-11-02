@@ -787,19 +787,45 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance. Extremely difficult.",
-   "cost_aud_baseline": {
-    "value": "Variable",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-LIBYA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel. A visa is needed; contact the nearest Libyan embassy or consulate. Register the passport at a police station on arrival. A passport showing entry to Israel can't be used to enter.",
+   "fastest_entry": "Visa through a Libyan embassy or consulate (no route confirmed on the pages read).",
+   "before_departure": "Arrange the visa through a Libyan mission, plan to enter only at an official border crossing, and carry a yellow fever certificate if arriving from a risk country.",
+   "steps": [
+    {
+     "step": "Contact the nearest Libyan embassy or consulate for the visa.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/libya"
+    },
+    {
+     "step": "Enter only at an official border crossing; officials may detain anyone who can't prove they did.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/libya"
+    },
+    {
+     "step": "Register the passport at the police station closest to where you stay, on arrival.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/libya"
+    }
+   ],
+   "documents": [
+    "Passport with no entry to Israel",
+    "Libyan visa",
+    "Yellow fever certificate if arriving from a risk country"
+   ],
+   "fees": [],
+   "open_questions": [
+    "Which mission issues Libyan visas to Australians, and at what fee?"
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/libya",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -810,7 +836,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises Do not travel. A visa is needed; contact the nearest Libyan embassy or consulate. No fee stated."
+   "cost_aud_baseline": {
+    "value": "Variable",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-LIBYA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance. Extremely difficult."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (Do not travel; updated 13 Aug 2026): visa needed, passport registration with police, Israel-entry bar, official crossings only. No Libyan government visa page was read."
   },
   "year-ahead": {
    "status": "mapped",

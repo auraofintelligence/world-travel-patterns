@@ -754,19 +754,50 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "e-Visa or visa on arrival available.",
-   "cost_aud_baseline": {
-    "value": "~ $120",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-GABON-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller says to get a visa: people entering under visa-free arrangements have had immigration problems during their stay. A letter of invitation or sponsorship in French is also needed. Gabon has no mission in Australia; the nearest embassy is in Tokyo.",
+   "fastest_entry": "Visa before travel from a Gabonese mission (nearest in Tokyo); Gabon also runs an e-Visa site, but its content didn't load when read.",
+   "before_departure": "Arrange the visa, get a French-language invitation or sponsorship letter from the accommodation or sponsor (purpose, length of stay, the author's contact details), and carry a yellow fever certificate.",
+   "steps": [
+    {
+     "step": "Get a visa before travel rather than relying on visa-free entry.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/gabon"
+    },
+    {
+     "step": "Get a letter of invitation or sponsorship in French from the accommodation or sponsoring partner, stating the purpose and length of stay, and show it to immigration on arrival.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/gabon"
+    },
+    {
+     "step": "Check the Gabon e-Visa site, or contact the embassy in Tokyo, for the application.",
+     "url": "https://evisa.dgdi.ga/"
+    },
+    {
+     "step": "Carry a yellow fever vaccination certificate.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/gabon"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Gabon visa",
+    "Invitation or sponsorship letter in French",
+    "Yellow fever vaccination certificate"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What does the Gabon e-Visa cost and how long does it take? The DGDI e-Visa page is an app that didn't render for reading."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/gabon",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -777,7 +808,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: visa advised plus a French invitation letter; fee not stated."
+   "cost_aud_baseline": {
+    "value": "~ $120",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-GABON-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "e-Visa or visa on arrival available."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 9 Jan 2026): visa advised, French invitation letter, nearest embassy Tokyo, yellow fever certificate. The DGDI e-Visa site didn't render, so the fee and route stay confirm-in-writing. The atlas line (e-Visa or visa on arrival) isn't confirmed."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

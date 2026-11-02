@@ -713,19 +713,60 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Business visa required in advance. Process can be difficult.",
-   "cost_aud_baseline": {
-    "value": "~ $100",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-MYANMAR-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel. A visa is needed to enter and stay; entering without one can lead to prison. Tourist and business visas are applied for at a Myanmar embassy or on the Ministry of Immigration and Population e-Visa site (e-Visas can't be used at seaports).",
+   "fastest_entry": "e-Visa from the Ministry of Immigration and Population site (airports and approved land points, not seaports).",
+   "before_departure": "Apply only on the official e-Visa site or at an embassy (unofficial sites charge extra or are fake). Keep a valid visa for the whole stay; stays over 90 days need address registration and a Foreigners Registration Card.",
+   "steps": [
+    {
+     "step": "Apply for a tourist or business visa on the official e-Visa site, or at a Myanmar embassy; avoid lookalike sites.",
+     "url": "https://evisa.moip.gov.mm/"
+    },
+    {
+     "step": "Don't use an e-Visa to arrive by sea.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/myanmar"
+    },
+    {
+     "step": "Stay in registered hotels and guesthouses, and tell Immigration if you change address.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/myanmar"
+    },
+    {
+     "step": "Declare foreign currency over US$10,000 (all forms) on arrival and departure.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/myanmar"
+    },
+    {
+     "step": "Extend the visa at an Immigration Office before it runs out; overstays bring fines, arrest or blacklisting.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/myanmar"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Myanmar visa or e-Visa approval",
+    "Foreigners Registration Card for stays over 90 days"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What does the e-Visa cost? The official e-Visa site is an app whose fee page didn't render."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/myanmar",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Myanmar eVisa",
+     "authority": "Ministry of Immigration and Population, Myanmar",
+     "url": "https://evisa.moip.gov.mm/",
+     "supports": "official e-Visa portal (fees not rendered)",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -736,7 +777,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises against travel and confirms a visa is needed (Ministry of Immigration and Population e-Visa); fee not confirmed."
+   "cost_aud_baseline": {
+    "value": "~ $100",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-MYANMAR-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Business visa required in advance. Process can be difficult."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (Do not travel; updated 7 Apr 2026): visa needed, official e-Visa or embassy, no e-Visa at seaports, registration and currency rules. The Ministry's e-Visa portal loaded only its title, so the fee stays open."
   },
   "year-ahead": {
    "status": "mapped",

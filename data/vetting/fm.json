@@ -686,19 +686,51 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa-free for business visits up to 30 days.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-MICRONESIA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "A visitor visa is given on arrival, valid for tourism, work or study for 30 days, on showing an onward or return ticket. Stays longer than 30 days need an entry permit.",
+   "fastest_entry": "30-day visitor visa on arrival.",
+   "before_departure": "Book an onward or return ticket; if routing through the US (including Hawaii and Guam), meet US transit rules. Private vessels contact the Division of Immigration at least 72 hours before arrival.",
+   "useful_stay": "30 days on arrival; longer stays need an entry permit from the Division of Immigration in Pohnpei.",
+   "steps": [
+    {
+     "step": "Arrive with an onward or return ticket to get the 30-day visitor visa.",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/federated-states-micronesia"
+    },
+    {
+     "step": "For more than 30 days, get an entry permit from the Division of Immigration in Pohnpei.",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/federated-states-micronesia"
+    },
+    {
+     "step": "Each island has its own customs and immigration procedures; check them for inter-island travel.",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/federated-states-micronesia"
+    },
+    {
+     "step": "Carry US dollars in cash for the departure fee at domestic and international airports.",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/federated-states-micronesia"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Onward or return ticket",
+    "Certified letter of permission if travelling with a child who isn't your own",
+    "US dollars cash for departure fees"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What is the departure fee in US dollars? Smartraveller gives no amount, and the FSM tourism regulations page was suspended when read."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/federated-states-micronesia",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -709,7 +741,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller confirms a 30-day visitor visa on arrival with an onward ticket; no fee stated."
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-MICRONESIA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa-free for business visits up to 30 days."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 22 Jul 2026): 30-day visitor visa on arrival with an onward or return ticket, entry permit beyond 30 days, cash departure fee. The FSM tourism regulations site showed a suspended page."
   }
  }
 }

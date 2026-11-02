@@ -662,19 +662,52 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance.",
-   "cost_aud_baseline": {
-    "value": "~ $100",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-ERITREA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "A visa is needed to enter Eritrea, and an exit permit is needed to leave; the exit permit can take a long time and may be refused. A departure tax is paid in US dollars.",
+   "fastest_entry": "No online route on the official pages read: apply through an Eritrean embassy or consulate.",
+   "before_departure": "Get the visa from an Eritrean mission before travel, ask about the exit permit and the departure tax amount, and carry a yellow fever certificate (needed again on leaving).",
+   "steps": [
+    {
+     "step": "Apply for a visa through the nearest Eritrean embassy or consulate.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/eritrea"
+    },
+    {
+     "step": "Declare all electronic items on arrival (laptops, phones, cameras); undeclared items can be confiscated on leaving.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/eritrea"
+    },
+    {
+     "step": "Apply for an exit permit before leaving; it can take a long time and may be refused, and the Australian Government can't influence it.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/eritrea"
+    },
+    {
+     "step": "Pay the departure tax in US dollars (residents with a valid Eritrean resident permit are exempt).",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/eritrea"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Eritrean visa",
+    "Exit permit (to leave)",
+    "Yellow fever vaccination certificate",
+    "US dollars for the departure tax"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What are the visa fee and the departure tax today? Smartraveller says to ask local authorities because the tax can change.",
+    "How long does the exit permit take?"
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/eritrea",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -685,7 +718,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: visa and exit permit needed; fee not stated."
+   "cost_aud_baseline": {
+    "value": "~ $100",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-ERITREA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 5 Jun 2026): visa needed, exit permit needed and may be refused, departure tax in US dollars, declare electronics. No Eritrean government visa page was found, so fees stay open."
   },
   "year-ahead": {
    "status": "mapped",

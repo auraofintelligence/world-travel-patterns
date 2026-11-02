@@ -831,19 +831,46 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "e-Visa required in advance.",
-   "cost_aud_baseline": {
-    "value": "~ $120",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-GUINEA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller gives no visa details for Guinea and refers travellers to an Embassy of the Republic of Guinea. Entry can be refused without a return or onward ticket, and a yellow fever certificate is needed.",
+   "fastest_entry": "Not settled on the pages read: ask a Guinean embassy in writing (the atlas recorded an e-Visa in advance).",
+   "before_departure": "Confirm the visa route with a Guinean embassy, book a return or onward ticket, and carry a yellow fever certificate.",
+   "steps": [
+    {
+     "step": "Contact an Embassy of the Republic of Guinea for visa details.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/guinea"
+    },
+    {
+     "step": "Carry a return or onward ticket: you could be denied entry without one.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/guinea"
+    },
+    {
+     "step": "Carry a yellow fever vaccination certificate.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/guinea"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Visa (route to confirm)",
+    "Return or onward ticket",
+    "Yellow fever vaccination certificate"
+   ],
+   "fees": [],
+   "open_questions": [
+    "Is Guinea's e-Visa (Police de l'Air et des Frontières) in service for Australians, and what does it cost? paf.gov.gn returned a server error."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/guinea",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -854,7 +881,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: no visa details in the section read."
+   "cost_aud_baseline": {
+    "value": "~ $120",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-GUINEA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "e-Visa required in advance."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 15 Jun 2026): no visa details, onward ticket needed, yellow fever certificate. The Guinea border police site returned an error, so the visa route stays confirm-in-writing."
   },
   "year-ahead": {
    "status": "mapped",

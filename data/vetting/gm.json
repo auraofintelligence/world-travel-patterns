@@ -865,19 +865,61 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa-free for business visits up to 90 days.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-GAMBIA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller says an Australian may need a visa for The Gambia; contact the High Commission of The Gambia. A compulsory Security Airport Fee of US$20 is paid on entering and leaving by air, and a yellow fever certificate is needed.",
+   "fastest_entry": "Not settled on the pages read: ask the High Commission of The Gambia in writing whether a visa is needed.",
+   "before_departure": "Confirm the visa position with the High Commission, carry a yellow fever certificate, and plan to pay the Security Airport Fee at the Banjul airport kiosks.",
+   "steps": [
+    {
+     "step": "Ask the High Commission of The Gambia whether a visa is needed for the purpose and length of stay.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/gambia"
+    },
+    {
+     "step": "Pay the Security Airport Fee at the marked kiosks at Banjul International Airport on arrival and on departure (children under 2 and transit passengers exempt).",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/gambia"
+    },
+    {
+     "step": "Carry a yellow fever vaccination certificate.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/gambia"
+    },
+    {
+     "step": "Driving in from Senegal: a vehicle registration fee may be asked at the border.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/gambia"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Visa if the High Commission says one is needed",
+    "Yellow fever vaccination certificate",
+    "Cash or card for the airport security fee"
+   ],
+   "fees": [
+    {
+     "item": "Security Airport Fee, each way by air (or equivalent in EUR, GBP or dalasi)",
+     "amount": 20,
+     "currency": "USD",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/gambia",
+     "checked": "2026-11-03",
+     "aud": 28.41,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704"
+    }
+   ],
+   "open_questions": [
+    "Do Australians need a visa in advance, on arrival, or neither? The atlas said visa-free up to 90 days; Smartraveller says 'may need a visa'."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/gambia",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -888,7 +930,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: visa may be needed and an airport security fee applies; amounts not stated."
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-GAMBIA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa-free for business visits up to 90 days."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 7 Aug 2026): may need a visa, US$20 Security Airport Fee each way, yellow fever certificate. No Gambian government visa page was found, so the visa position is confirm-in-writing."
   },
   "culture-and-protocol": {
    "status": "community-published",

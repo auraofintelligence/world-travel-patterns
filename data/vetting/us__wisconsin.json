@@ -21,6 +21,83 @@
     "2027-10-11: Indigenous Peoples' Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Texting while driving is illegal for all drivers: no composing or sending texts or emails while driving (Wis. Stat. 346.89(3)). Voice-operated or hands-free use is allowed, touching the device only to switch a feature on or off. Phone-law offences bring a 4-point inattentive driving ticket and a fine.",
+     "level": "state",
+     "source": "https://wisconsindot.gov/Documents/safety/education/drv-behavior/cell.pdf",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Talking on a hand-held phone while driving through a road work zone is illegal (2015 Wisconsin Act 308, Wis. Stat. 346.89(4m)). Hands-free and Bluetooth devices are allowed, and a hand-held phone may be used to dial 911.",
+     "penalty_signal": "US$162.70 first offence and US$200.50 second, including court costs, as listed in 2019 (about A$231 and A$285 at RBA 30 Oct 2026, A$1 = USD 0.7040); amounts follow the Uniform Traffic Deposit Schedule and may have changed.",
+     "level": "state",
+     "source": "https://wisconsindot.gov/Pages/safety/education/workzone/mobiledeviceswz/default.aspx",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cell phones, driving and the law: know the facts",
+     "authority": "Wisconsin Department of Transportation",
+     "url": "https://wisconsindot.gov/Documents/safety/education/drv-behavior/cell.pdf",
+     "checked": "2026-11-03",
+     "supports": "texting ban for all drivers, 4-point ticket (read via a search-index snapshot)"
+    },
+    {
+     "title": "Wis. Stat. 346.89 Inattentive driving",
+     "authority": "Wisconsin Legislature",
+     "url": "https://docs.legis.wisconsin.gov/statutes/statutes/346/XIII/89?view=section",
+     "checked": "2026-11-03",
+     "supports": "texting ban, hands-free exception, work zone rule (read via a search-index snapshot; the Legislature site refused the connection)"
+    },
+    {
+     "title": "Work zone safety: mobile devices",
+     "authority": "Wisconsin Department of Transportation",
+     "url": "https://wisconsindot.gov/Pages/safety/education/workzone/mobiledeviceswz/default.aspx",
+     "checked": "2026-11-03",
+     "supports": "hand-held ban in work zones, exceptions, 2019 amounts"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "The drinking age is 21, but Wisconsin lets a licensed bar or restaurant serve alcohol to an underage person who is with their own parent, guardian or spouse of legal drinking age (Wis. Stat. 125.07). It is the licensee's choice: a venue can refuse. Courts have held that a parent merely being in the same venue is not enough to count as accompanying. Supplying alcohol to an unaccompanied underage person is an offence.",
+     "source": "https://www.revenue.wi.gov/DOR%20Publications/3119AlcoholBeverageRegulations.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Underage persons: alcohol beverage laws fact sheet 3119",
+     "authority": "Wisconsin Department of Revenue",
+     "url": "https://www.revenue.wi.gov/DOR%20Publications/3119AlcoholBeverageRegulations.pdf",
+     "checked": "2026-11-03",
+     "supports": "accompanied underage persons, licensee discretion (read via a search-index snapshot)"
+    },
+    {
+     "title": "Wis. Stat. 125.07 Underage and intoxicated persons",
+     "authority": "Wisconsin Legislature",
+     "url": "https://docs.legis.wisconsin.gov/document/statutes/125.07",
+     "checked": "2026-11-03",
+     "supports": "no supplying unaccompanied underage persons, court annotations on accompanying (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules."
   }
  }
 }

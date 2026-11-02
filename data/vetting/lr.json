@@ -776,19 +776,41 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance.",
-   "cost_aud_baseline": {
-    "value": "~ $150",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-LIBERIA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "A visa is needed to travel to Liberia; contact the nearest Embassy or Consulate of Liberia. A yellow fever certificate must be shown on arrival.",
+   "fastest_entry": "Visa through a Liberian embassy or consulate (no online route confirmed on the pages read).",
+   "before_departure": "Arrange the visa through a Liberian mission and carry a yellow fever certificate. Land borders and ports can close with little notice.",
+   "steps": [
+    {
+     "step": "Contact the nearest Embassy or Consulate of Liberia for the visa.",
+     "url": "https://www.mofa.gov.lr/general/foreign-missions"
+    },
+    {
+     "step": "Show a valid yellow fever vaccination certificate on arrival.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/liberia"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Liberian visa",
+    "Yellow fever vaccination certificate"
+   ],
+   "fees": [],
+   "open_questions": [
+    "Does the Liberia Immigration Service offer a visa on arrival or e-Visa to Australians, and at what fee? Its 'Visa On Arrival' page held placeholder text when read."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/liberia",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -799,7 +821,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: visa needed and yellow fever certificate; fee not stated."
+   "cost_aud_baseline": {
+    "value": "~ $150",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-LIBERIA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 28 Jan 2026): visa needed, yellow fever certificate on arrival. The Liberia Immigration Service site had no usable visa text, so fees and route stay confirm-in-writing."
   },
   "year-ahead": {
    "status": "mapped",

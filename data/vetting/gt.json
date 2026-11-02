@@ -924,19 +924,51 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa-free for business visits up to 90 days.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-GUATEMALA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Buy a tourist card at the airport, allowing a visit of up to 90 days. Guatemala is in the CA-4 agreement with El Salvador, Honduras and Nicaragua: the 90 days cover land travel between the four and run from the first entry into any of them.",
+   "fastest_entry": "Tourist card bought at the airport (CA-4, up to 90 days).",
+   "before_departure": "Carry a valid passport, a return or onward ticket and evidence of enough money. If routing through the US or Canada, meet their entry or transit rules (an eTA for Canada).",
+   "useful_stay": "Up to 90 days across the CA-4 countries; extend before expiry at the local immigration office. Non-tourists or longer stays need a visa.",
+   "steps": [
+    {
+     "step": "Buy the tourist card at the airport on arrival.",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/guatemala"
+    },
+    {
+     "step": "Show a valid passport, a return or onward ticket and evidence of enough money.",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/guatemala"
+    },
+    {
+     "step": "Count CA-4 days from the first entry into Guatemala, El Salvador, Honduras or Nicaragua; extend at a local immigration office before expiry.",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/guatemala"
+    },
+    {
+     "step": "Pay the airport and security tax in cash on departure, and the exit tax if the ticket doesn't include it.",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/guatemala"
+    }
+   ],
+   "documents": [
+    "Valid passport",
+    "Return or onward ticket",
+    "Evidence of enough money",
+    "Notarised Spanish consent from both parents for a child travelling without both parents"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What do the tourist card and the cash airport and security tax cost? Smartraveller gives no amount, and the Instituto Guatemalteco de Migración page it links returned 404."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/guatemala",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -947,7 +979,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: CA-4 tourist card bought at the airport (90 days); amount not stated."
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-GUATEMALA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa-free for business visits up to 90 days."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 6 Oct 2026): tourist card at the airport, 90 days under CA-4, ticket and funds, departure taxes. The IGM information page linked by Smartraveller returned 404, so amounts stay open. The atlas line (visa-free business visits) is replaced."
   },
   "year-ahead": {
    "status": "mapped",

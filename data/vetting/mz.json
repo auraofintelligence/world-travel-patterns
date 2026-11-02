@@ -678,19 +678,58 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "e-Visa or visa on arrival available.",
-   "cost_aud_baseline": {
-    "value": "~ $100",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-MOZAMBIQUE-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "A visa is needed. Mozambique's National Migration Service runs an eVisa and eTA portal (launched 11 February 2026). Australia isn't on the visa-exempt or 30-day eTA lists, so Australians apply for the eVisa: tourist or business, for 90 days or less.",
+   "fastest_entry": "Tourist or business eVisa online: apply, pay, then print the preliminary eVisa for boarding and arrival.",
+   "before_departure": "Apply on evisa.gov.mz, pay, and print the approved eVisa. Bring long-form birth certificates (and translated notarised consent) for children. Carry a yellow fever certificate if arriving from a yellow fever country.",
+   "useful_stay": "Tourist and business eVisas cover stays of 90 days or less.",
+   "steps": [
+    {
+     "step": "Apply on the official eVisa portal with the passport you'll travel on, upload the documents and pay.",
+     "url": "https://evisa.gov.mz/"
+    },
+    {
+     "step": "Download and print the preliminary eVisa from the email; show it at boarding and on arrival.",
+     "url": "https://evisa.gov.mz/"
+    },
+    {
+     "step": "Carry a yellow fever certificate if arriving from a yellow fever country: without it you can be detained and returned.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/mozambique"
+    },
+    {
+     "step": "With children under 18, carry long-form birth certificates and, if a parent is absent, a notarised consent translated into Portuguese.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/mozambique"
+    }
+   ],
+   "documents": [
+    "Passport used for the application",
+    "Printed eVisa",
+    "Yellow fever certificate if arriving from a yellow fever country",
+    "Children: long-form birth certificate, translated notarised parental consent if needed"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What does the tourist eVisa cost for Australians? The portal's front page names fees but shows no amount."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/mozambique",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Mozambique eVisa and eTA",
+     "authority": "Serviço Nacional de Migração (SENAMI), Mozambique",
+     "url": "https://evisa.gov.mz/",
+     "supports": "new platform from 11 Feb 2026, visa-exempt and eTA lists (Australia on neither), tourist and business eVisa for 90 days or less, steps",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -701,7 +740,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: tourist visa or eVisa depending on stay length; fee not stated."
+   "cost_aud_baseline": {
+    "value": "~ $100",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-MOZAMBIQUE-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "e-Visa or visa on arrival available."
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (updated 24 Sep 2026) says a tourist visa or eVisa is needed and covers yellow fever and children's documents; the SENAMI eVisa portal confirms Australia isn't visa-exempt or eTA-eligible and that the tourist eVisa covers 90 days or less. The fee wasn't shown."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

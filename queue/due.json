@@ -3,10 +3,10 @@
   "generated_on": "2026-11-03",
   "mode": "public",
   "place_passes": 269,
-  "pattern_items": 834,
+  "pattern_items": 815,
   "by_reason": {
    "never-checked": 791,
-   "over-budget": 43
+   "over-budget": 24
   },
   "watch_checks": 0
  },
@@ -99,62 +99,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    }
-   ]
-  },
-  {
-   "place": "fm",
-   "name": "Federated States of Micronesia",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "mh",
-   "name": "Marshall Islands",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
     }
    ]
   },
@@ -327,6 +271,28 @@
    ]
   },
   {
+   "place": "fm",
+   "name": "Federated States of Micronesia",
+   "kind": "country",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "fj",
    "name": "Fiji",
    "kind": "country",
@@ -424,6 +390,28 @@
      "age_days": null,
      "budget_days": 90
     },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "mh",
+   "name": "Marshall Islands",
+   "kind": "country",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
     {
      "pattern": "works-and-purpose",
      "reason": "never-checked",
@@ -1898,126 +1886,6 @@
    ]
   },
   {
-   "place": "er",
-   "name": "Eritrea",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "ga",
-   "name": "Gabon",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "gm",
-   "name": "Gambia",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "gh",
-   "name": "Ghana",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "gt",
-   "name": "Guatemala",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "gn",
-   "name": "Guinea",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "gw",
    "name": "Guinea-Bissau",
    "kind": "country",
@@ -2034,212 +1902,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    },
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "ht",
-   "name": "Haiti",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "ir",
-   "name": "Iran",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "iq",
-   "name": "Iraq",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "lb",
-   "name": "Lebanon",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "lr",
-   "name": "Liberia",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "ly",
-   "name": "Libya",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "ml",
-   "name": "Mali",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "mr",
-   "name": "Mauritania",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "mz",
-   "name": "Mozambique",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "mm",
-   "name": "Myanmar",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
     },
     {
      "pattern": "visa-preparation",
@@ -2301,32 +1963,6 @@
    "kind": "country",
    "tags": [],
    "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "kp",
-   "name": "North Korea",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
     {
      "pattern": "visa-preparation",
      "reason": "over-budget",
@@ -3896,6 +3532,20 @@
    ]
   },
   {
+   "place": "er",
+   "name": "Eritrea",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "ee",
    "name": "Estonia",
    "kind": "country",
@@ -4148,6 +3798,34 @@
    ]
   },
   {
+   "place": "ga",
+   "name": "Gabon",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "gm",
+   "name": "Gambia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "ge",
    "name": "Georgia",
    "kind": "country",
@@ -4164,6 +3842,20 @@
   {
    "place": "de",
    "name": "Germany",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "gh",
+   "name": "Ghana",
    "kind": "country",
    "tags": [],
    "due": [
@@ -4336,6 +4028,20 @@
    ]
   },
   {
+   "place": "gt",
+   "name": "Guatemala",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "gg",
    "name": "Guernsey",
    "kind": "territory",
@@ -4386,8 +4092,36 @@
    ]
   },
   {
+   "place": "gn",
+   "name": "Guinea",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "gy",
    "name": "Guyana",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "ht",
+   "name": "Haiti",
    "kind": "country",
    "tags": [],
    "due": [
@@ -4478,6 +4212,34 @@
   {
    "place": "id",
    "name": "Indonesia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "ir",
+   "name": "Iran",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "iq",
+   "name": "Iraq",
    "kind": "country",
    "tags": [],
    "due": [
@@ -4802,8 +4564,50 @@
    ]
   },
   {
+   "place": "lb",
+   "name": "Lebanon",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "ls",
    "name": "Lesotho",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "lr",
+   "name": "Liberia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "ly",
+   "name": "Libya",
    "kind": "country",
    "tags": [],
    "due": [
@@ -4976,6 +4780,20 @@
    ]
   },
   {
+   "place": "ml",
+   "name": "Mali",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "mt",
    "name": "Malta",
    "kind": "country",
@@ -5025,6 +4843,20 @@
      "age_days": null,
      "budget_days": 90
     },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "mr",
+   "name": "Mauritania",
+   "kind": "country",
+   "tags": [],
+   "due": [
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
@@ -5224,6 +5056,40 @@
    ]
   },
   {
+   "place": "mz",
+   "name": "Mozambique",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "mm",
+   "name": "Myanmar",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "na",
    "name": "Namibia",
    "kind": "country",
@@ -5263,6 +5129,26 @@
    "kind": "country",
    "tags": [],
    "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "kp",
+   "name": "North Korea",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
