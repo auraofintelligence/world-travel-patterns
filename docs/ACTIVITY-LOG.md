@@ -1281,3 +1281,18 @@ local-law partly-mapped at state level from state regulators and legislatures (s
 ## 2026-11-02 12:42 AEST, Grok: Law levels: Svalbard and Greenland (national), Oregon cannabis (state) (3 records)
 
 sj from the Governor of Svalbard (polar bear deterrents, field-travel notification, firearm permits); gl from the Government of Greenland expedition portal (National Park permits, 12 weeks ahead); us/oregon from OLCC. Search snapshots.
+
+## Handoff 2026-11-02 (Canada, US states, Svalbard, Greenland)
+
+- deaa755: cannabis rules for 11 Canadian provinces and territories (Health Canada table), plus the British Columbia and Manitoba public-use pages. Yukon is not yet checked.
+- a63cb6b: cannabis rules for 9 US states (NV NY CO WA MA IL TX FL HI). The same commit reworded the British Columbia public-use rule to match its source.
+- 357ee65: Svalbard (polar bear deterrents, field-travel notification, firearm permits), Greenland (National Park permits) and Oregon cannabis.
+- Law stacks: 279 of 3,767 levels filled, 3,488 not yet checked.
+  - National: 238 of 247 filled. Still not yet checked: ax fo io mp sx tf tk vc vi.
+  - Sub-national: 41 filled.
+- Work rules open outside DNT and Australia: 277, unchanged.
+- Not done this run:
+  - US state firearms, alcohol, jaywalking and drone rules (Nevada drones included).
+  - The other UAE emirates, Swiss cantons and German states.
+  - Talks and launches (ao bt ci cm gw la ma ni tn).
+  - gw and sz filming.
