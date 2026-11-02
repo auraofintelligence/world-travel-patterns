@@ -996,3 +996,7 @@ Seventeen ask-locally culture records moved to partly-mapped from FCDO laws and 
 ## 2026-11-02 12:03 AEST, Grok: Culture: conduct rules from UK FCDO advice for Do-not-travel places bf, cd, ht, kp, lb, ly, ml, ne, sd, so, ss, sy, td (ask-locally to partly-mapped) (13 records)
 
 Thirteen ask-locally culture records in the Do-not-travel set moved to partly-mapped from FCDO laws and cultural differences sections, read directly on 2026-11-02. Travel status is unchanged; these remain Do not travel.
+
+## 2026-11-02 12:04 AEST, Grok: Filming: Timor-Leste Press Council accreditation for foreign media (Media Law Article 25) (1 records)
+
+tl filming moved from confirm-in-writing to specialist, citing Article 25 of the Media Law (WTO-hosted informal translation, read directly). Cook Islands, Niue and Eswatini searched: only fixer, news or event-specific pages found, left as confirm-in-writing.
