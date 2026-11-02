@@ -22,6 +22,70 @@
     "2027-10-11: Indigenous Peoples' Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Adults 21 and over may possess, use and carry up to 2.5 ounces (about 71 g) of cannabis, of which no more than 10 g may be concentrate (28-B M.R.S. 1501). Use is allowed only in a private home (including its yard) or on private property not open to the public where the owner permits it. It is banned while driving or riding as a passenger in a vehicle on a public way, and smoking it is banned wherever tobacco smoking is banned. Breaking these rules is a civil offence with a fine of up to US$100 (about A$142 at A$1 = US$0.7040, RBA 30 Oct 2026).",
+     "source": "https://legislature.maine.gov/statutes/28-B/title28-Bsec1501.html",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "28-B M.R.S. 1501 Personal adult use of cannabis and cannabis products",
+     "authority": "Maine Legislature",
+     "url": "https://legislature.maine.gov/statutes/28-B/title28-Bsec1501.html",
+     "checked": "2026-11-03",
+     "supports": "2.5 oz, 10 g concentrate, where use is allowed and banned, US$100 fine"
+    }
+   ],
+   "notes": "State law. Read with the national rules (in the US, cannabis stays illegal federally: no federal land, no crossing state lines)."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Maine drivers may not use, manipulate or talk into a hand-held phone or electronic device while driving on a public way, including while stopped in traffic, at a light or at a stop sign (29-A M.R.S. 2121). Drivers 18 and over may use hands-free mode, or a single swipe, tap or push on a mounted device in view of the road. A device may be used to call emergency services, or once the vehicle is pulled off the road and can safely stay stopped.",
+     "penalty_signal": "Traffic infraction: up to US$50 for a first offence and up to US$250 for later ones (about A$71 and A$355 at A$1 = US$0.7040, RBA 30 Oct 2026)",
+     "level": "state",
+     "source": "https://legislature.maine.gov/statutes/29-A/title29-Asec2121.html",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Texting while driving is a separate offence, including when stopped in traffic or at a light or stop sign (29-A M.R.S. 2119).",
+     "penalty_signal": "At least US$250 for a first offence (about A$355); at least US$500 (about A$710) and a licence suspension of 30 days or more for a repeat within 3 years",
+     "level": "state",
+     "source": "https://legislature.maine.gov/statutes/29-A/title29-Asec2119.html",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "29-A M.R.S. 2121 Use of mobile telephones and handheld electronic devices while operating motor vehicles prohibited",
+     "authority": "Maine Legislature",
+     "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2121.html",
+     "checked": "2026-11-03",
+     "supports": "hand-held ban, hands-free and one-touch exceptions, fines"
+    },
+    {
+     "title": "29-A M.R.S. 2119 Text messaging while operating motor vehicle; prohibition",
+     "authority": "Maine Legislature",
+     "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2119.html",
+     "checked": "2026-11-03",
+     "supports": "texting ban, fines, suspension"
+    }
+   ]
   }
  }
 }
