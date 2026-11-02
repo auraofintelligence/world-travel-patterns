@@ -1172,3 +1172,7 @@ cu filming specialist (D-6 press visa and CPI accreditation, MINREX). ck filming
 - Work rules: c18307f (vc 5 checks plus dk and se remote work: detail updated, still confirm), b7c1cd8 (lc, sr, uz, mw talks and launches), 2506cba (cu filming specialist; ck detail updated, still confirm).
 - Open outside DNT and Australia: 278 confirm-in-writing.
 - Not done: kz filming (only unofficial mirrors of the MFA accreditation rules were found), plus fm gw nu sz filming. Also the remaining book launches and unpaid talks (ao bt ci cm dm gw la ma ni sz tn and others), and filling the 35 missing national law levels from official FCDO or Smartraveller local-law sections.
+
+## 2026-11-02 12:32 AEST, Grok: Home-base stack: Minjerribah island level partly mapped, Redland pet registration added (2 records)
+
+au/minjerribah home-obligations partly-mapped: ferry access (Redland City Council), resident VAP fee exemption renewed yearly (qld.gov.au, DETSI policy, RAM Regulation s58); QYAC obligations recorded as not yet checked under new topic camping-and-native-title. au/qld-council-6250: dog and cat registration renewed every 12 months, Local Law 2. Home stack now has records at 4 of 4 levels.

@@ -8,9 +8,16 @@
    "laws": [
     {
      "topic": "property-and-rates",
-     "rule": "Redland City rates are billed quarterly; they can be paid online, by BPAY, phone, direct debit, post or in person, so set up payment before a long trip. Animal rules for residents leaving pets have not been checked yet.",
+     "rule": "Redland City rates are billed quarterly; they can be paid online, by BPAY, phone, direct debit, post or in person, so set up payment before a long trip.",
      "level": "district",
      "source": "https://www.redland.qld.gov.au/Rates-fees-and-infringements/Rates",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "animals",
+     "rule": "Dogs and cats must be microchipped and registered with Council, and registration renewed every 12 months (online through myServices or Quick Pay, by phone or in person), so a renewal can fall due while you are away. A carer must keep the animal on your property and follow Local Law 2 (Animal Management), including a limit of 2 dogs and 2 cats per property without a permit.",
+     "level": "district",
+     "source": "https://www.redland.qld.gov.au/Animals-and-pets/Dogs-and-cats/About-dogs-and-cats",
      "checked": "2026-11-02"
     }
    ],
@@ -21,6 +28,20 @@
      "url": "https://www.redland.qld.gov.au/Rates-fees-and-infringements/Rates",
      "checked": "2026-11-02",
      "supports": "quarterly rates and payment methods (read via a search-index snapshot)"
+    },
+    {
+     "title": "About dogs and cats",
+     "authority": "Redland City Council",
+     "url": "https://www.redland.qld.gov.au/Animals-and-pets/Dogs-and-cats/About-dogs-and-cats",
+     "checked": "2026-11-02",
+     "supports": "annual registration, microchipping, 2 dogs and 2 cats limit, Local Law 2 (read via a search-index snapshot)"
+    },
+    {
+     "title": "Online services",
+     "authority": "Redland City Council",
+     "url": "https://www.redland.qld.gov.au/About-Council/Online-services",
+     "checked": "2026-11-02",
+     "supports": "pay pet registration by Quick Pay or myServices, pay rates online (read via a search-index snapshot)"
     }
    ]
   }
