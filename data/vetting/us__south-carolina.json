@@ -46,6 +46,77 @@
     "2027-10-11: Columbus Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "The South Carolina Hands-Free and Distracted Driving Act (Code 56-5-3890, rewritten by 2025 Act No. 40, in force 1 September 2025) bans drivers on public roads from holding or supporting a phone or other mobile device with any part of the body; reading, writing or sending texts, emails, app or web content; and watching video, games or video calls. Voice calls through an earpiece or watch, voice-to-text without holding the device, and hands-free navigation and audio are allowed, as is use while lawfully parked or stopped and to report an emergency. Only warnings were given for the first 180 days.",
+     "penalty_signal": "US$100 first offence; US$200 and 2 licence points for a later offence within 3 years (about A$142 and A$284 at RBA 30 Oct 2026, A$1 = USD 0.7040). Fines can't be suspended.",
+     "level": "state",
+     "source": "https://www.scstatehouse.gov/code/t56c005.php",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "South Carolina Code of Laws, Title 56 Chapter 5, Section 56-5-3890",
+     "authority": "South Carolina Legislature",
+     "url": "https://www.scstatehouse.gov/code/t56c005.php",
+     "checked": "2026-11-03",
+     "supports": "what is banned, exceptions, fines and points, 1 September 2025 start, 180-day warning period"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Marijuana is a Schedule I controlled substance in South Carolina. Possessing 1 ounce (28 g) or less is a misdemeanour: for a first offence, up to 30 days in jail or a fine of US$100 to US$200 (about A$142 to A$284 at RBA 30 Oct 2026, A$1 = USD 0.7040); for a second or later offence, up to 1 year or a fine of US$200 to US$1,000 (Code 44-53-370(d)(5)).",
+     "source": "https://www.scstatehouse.gov/code/t44c053.php",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Retail liquor stores may not sell spirits between 7 pm and 9 am (Code 61-6-1500), and must close on Christmas Day. They may not sell on Sundays, except in counties and cities that have approved Sunday sales by referendum and where the store holds a Sunday permit from the Department of Revenue (Code 61-6-4160). Bills to widen Sunday sales were before the 2025 to 2026 Legislature.",
+     "source": "https://dor.sc.gov/alcohol-beverage-licensing-abl/operating-abl-business",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "South Carolina Code of Laws, Title 44 Chapter 53 (Section 44-53-370)",
+     "authority": "South Carolina Legislature",
+     "url": "https://www.scstatehouse.gov/code/t44c053.php",
+     "checked": "2026-11-03",
+     "supports": "possession penalties for 1 oz or less"
+    },
+    {
+     "title": "South Carolina Code of Laws, Title 61 Chapter 6 (Section 61-6-1500)",
+     "authority": "South Carolina Legislature",
+     "url": "https://www.scstatehouse.gov/code/t61c006.php",
+     "checked": "2026-11-03",
+     "supports": "no liquor sales between 7 pm and 9 am"
+    },
+    {
+     "title": "Operating an ABL business",
+     "authority": "South Carolina Department of Revenue, Alcohol Beverage Licensing",
+     "url": "https://dor.sc.gov/alcohol-beverage-licensing-abl/operating-abl-business",
+     "checked": "2026-11-03",
+     "supports": "Sunday sales only where approved by referendum, Christmas closing (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules."
   }
  }
 }

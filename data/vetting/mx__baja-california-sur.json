@@ -25,6 +25,58 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "work-and-payment",
+     "rule": "Foreign tourists who enter Baja California Sur and stay more than 24 hours owe a state charge (an aprovechamiento) for the use of state infrastructure and services. The law sets it at MXN 350 (about A$26.45), updated each 1 January in line with the consumer price index, and the state finance department (Secretaría de Finanzas y Administración) sets how it's collected through general rules (Ley de Hacienda del Estado, art. 129 Bis).",
+     "level": "state",
+     "source": "https://www.cbcs.gob.mx/LEYES-BCS/LHaciendaBCS.doc",
+     "checked": "2026-11-03"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Los Cabos municipality (Cabo San Lucas and San José del Cabo) charges an environmental sanitation fee: 70% of the daily UMA, about MXN 82.12 (about A$6.21), per room occupied in a hotel, inn, hostel or motel; 2 UMA, about MXN 234.62 (about A$17.73), per room, house or apartment booked through a digital platform; 10% of the daily UMA, about MXN 11.73 (about A$0.89), on bar and restaurant bills over 4 UMA, about MXN 469.24 (about A$35.46), shown on the receipt (not for hotel guests eating in the same hotel's outlets); and 50% of the daily UMA, about MXN 58.66 (about A$4.43), per day of car hire and per rental of a recreational or sports boat (Ley de Hacienda para el Municipio de Los Cabos, art. 137 Bis to 137 Octies).",
+     "level": "municipality",
+     "source": "https://www.cbcs.gob.mx/LEYES-BCS/LHaciendaLosCabos.docx",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ley de Hacienda del Estado de Baja California Sur (last reform published 31 December 2025)",
+     "authority": "Congreso del Estado de Baja California Sur",
+     "url": "https://www.cbcs.gob.mx/LEYES-BCS/LHaciendaBCS.doc",
+     "checked": "2026-11-03",
+     "supports": "foreign tourist charge (art. 129 Bis)"
+    },
+    {
+     "title": "Ley de Hacienda para el Municipio de Los Cabos (last reform published 10 July 2025)",
+     "authority": "Congreso del Estado de Baja California Sur",
+     "url": "https://www.cbcs.gob.mx/LEYES-BCS/LHaciendaLosCabos.docx",
+     "checked": "2026-11-03",
+     "supports": "Los Cabos environmental sanitation fee (art. 137 Bis to 137 Octies)"
+    },
+    {
+     "title": "Unidad de Medida y Actualización (UMA) 2026, press release 1/26",
+     "authority": "INEGI",
+     "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/uma/uma2026.pdf",
+     "checked": "2026-11-03",
+     "supports": "UMA MXN 117.31 a day from 1 February 2026"
+    },
+    {
+     "title": "Tipo de cambio FIX",
+     "authority": "Banco de México",
+     "url": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
+     "checked": "2026-11-03",
+     "supports": "FIX for 30 October 2026, MXN 18.7962 per USD"
+    }
+   ],
+   "notes": "Amounts use the 2026 UMA (Unidad de Medida y Actualización, a federal reference unit: MXN 117.31 a day from 1 February 2026, INEGI) and A$1 = about MXN 13.23 (RBA 30 October 2026, A$1 = USD 0.7040; Banco de México FIX for 30 October 2026, USD 1 = MXN 18.7962). The 2026 indexed amount of the state charge and its collection rules weren't found; check with the state finance department. Other municipalities (La Paz, Loreto, Comondú, Mulegé) aren't checked here."
   }
  }
 }
