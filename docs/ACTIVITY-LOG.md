@@ -1104,3 +1104,7 @@ ax remote-work set to conditional citing Migri (remote work for a foreign employ
 ## 2026-11-02 12:21 AEST, Grok: Volunteering and research: Hong Kong (ImmD), Switzerland (VZAE), Vanuatu (visitor work authority) (3 records)
 
 hk volunteering specialist (visitors may not take paid or unpaid employment without approval); ch volunteering specialist (unpaid work counts as gainful employment); vu research conditional (12-week authority on a visitors permit).
+
+## 2026-11-02 12:22 AEST, Grok: Remote work: Samoa (Visitor Permit bars work; Business Visitor Permit is for short visits) (1 records)
+
+ws remote-work set to specialist citing the Immigration Division permits page, read directly.
