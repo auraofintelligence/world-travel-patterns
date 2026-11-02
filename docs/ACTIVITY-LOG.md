@@ -1076,3 +1076,7 @@ The handoff said 20 events; the run added 17 (6 + 3 + 2 + 6).
 ## 2026-11-02 12:18 AEST, Grok: DNT work rules: ht, ve activity checks set to not-fit citing Smartraveller (28 checks) (2 records)
 
 28 confirm-in-writing activity checks in Haiti and Venezuela set to not-fit, citing Smartraveller Do not travel (read directly 2026-11-02). Venezuela detail adds Smartraveller's note that workers should bring an employer letter and local contact details with a Spanish translation. Travel advisory status unchanged.
+
+## 2026-11-02 12:19 AEST, Grok: Sark (cq): activity checks from States of Guernsey visitor guidance (14 checks) (1 records)
+
+cq had been wrongly grouped with the Do-not-travel set; it is not on Smartraveller's Do not travel list. 14 confirm-in-writing checks set to conditional (non-paid) or specialist (paid), citing States of Guernsey pages: UK visit permission across the CTA, no employment as a visitor, and Sark's own local rules (not read).
