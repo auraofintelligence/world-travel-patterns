@@ -1235,3 +1235,7 @@ local-law partly-mapped from the Conseil constitutionnel overseas page and Légi
 ## 2026-11-02 12:39 AEST, Grok: National law levels: American Samoa and Puerto Rico (2 levels) (2 records)
 
 as local-law partly-mapped (own entry laws and visitor permit, legalaffairs.as.gov); pr partly-mapped (medical-only cannabis, Law 42-2017, salud.pr.gov). Both via search snapshots. mp and vi remain not yet checked.
+
+## 2026-11-02 12:39 AEST, Grok: Sub-national law level: California cannabis rules (1 level) (1 records)
+
+us/california local-law partly-mapped from the Department of Cannabis Control and HSC 11362.1 (search snapshots).
