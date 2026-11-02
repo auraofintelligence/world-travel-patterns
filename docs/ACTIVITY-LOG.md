@@ -1020,3 +1020,7 @@ Handoff updated with counts and next steps.
 ## 2026-11-02 12:06 AEST, Grok: Docs: handoff filming list now names all 8 places left (adds American Samoa) (0 records)
 
 Corrected the filming list in the handoff.
+
+## 2026-11-02 12:07 AEST, Grok: 2027 events: ASSC 30 Beijing, Mind Body Spirit London and Brisbane, RSAC, Annecy, Sydney Mardi Gras (6 records)
+
+Added 6 official 2027 events (cn, gb__england, au__qld, us__california, fr__auvergne-rhone-alpes, au__nsw), each from the organiser site (RSAC from the Moscone Center venue page).
