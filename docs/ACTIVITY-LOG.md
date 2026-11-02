@@ -984,3 +984,7 @@ Added Ubud Writers and Readers Festival 20 to 24 October 2027 (organiser page, r
 ## 2026-11-02 12:01 AEST, Grok: Culture: conduct rules from UK FCDO advice for fr, pl, hr, lv, me, lt, cr (ask-locally to partly-mapped) (7 records)
 
 Seven ask-locally culture records moved to partly-mapped using the FCDO laws and cultural differences sections, read directly on 2026-11-02 (Croatia shirtless and swimwear fines in Split and Dubrovnik, Poland and Latvia public drinking bans, France ID within 4 hours and face-covering ban, Montenegro photography ban). San Marino left as ask-locally: drugs only.
+
+## 2026-11-02 12:02 AEST, Grok: Culture: conduct rules from UK FCDO advice for al, ao, ba, br, ci, cu, dj, dz, et, ga, gh, gn, gt (ask-locally to partly-mapped) (13 records)
+
+Thirteen ask-locally culture records moved to partly-mapped from FCDO laws and cultural differences sections, read directly on 2026-11-02. Congo (cg) left as ask-locally: only an ID rule is listed.
