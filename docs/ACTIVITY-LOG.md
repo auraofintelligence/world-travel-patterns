@@ -1315,6 +1315,6 @@ sx local-law (US State Department advisory: drug laws); tk local-law (Tokelau Im
 - 304ff56: drinking age 21 and public drinking illegal for Abu Dhabi, Ajman, Fujairah, Umm Al Quwain and Ras Al Khaimah (FCDO, read directly). Also fixes the Hawaii HRS source label: 3545ff9 marked it read directly, but it was a search snapshot.
 - a47e231: sx (US State Department, drugs), tk (Tokelau Immigration Regulations 1991, visitor permit), sz filming set to specialist (Cinematograph Act 1920 s3).
 - Swiss cantons: no canton-specific visitor rule found on an official page in the time box (the face-covering ban is now federal). Not yet checked.
-- Talks and launches (ao bt ci cm gw la ma ni tn) and gw filming: no official page settled these. They stay confirm-in-writing.
+- Talks and launches (ao bt ci cm gw la ma ni tn) and gw filming: not searched in this run. They stay confirm-in-writing.
 - Law stacks: 288 filled, 3,479 not yet checked. National: 242 of 247 (missing fo io mp tf vi). Sub-national: 46. Work rules open: 276.
 - Next: fo io mp tf vi; Swiss cantons; the talks and launches batch; more US states (Florida, Texas, Colorado, Washington, Massachusetts, Illinois).
