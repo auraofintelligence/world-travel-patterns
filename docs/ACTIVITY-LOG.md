@@ -938,3 +938,7 @@ Quality review of 26d61c3 (kept, not reverted): schema valid and sources are lan
 ## 2026-11-01 11:55 AEST, Grok: Australia light pass: 2027 writers' and arts festivals for NSW, SA and WA (3 records)
 
 Australia light pass (state level): Sydney Writers' Festival 17 to 23 May 2027, Adelaide Writers' Week 27 February to 4 March 2027, Perth Festival 5 to 28 February 2027, from the festivals' own pages (search-index snapshots).
+
+## 2026-11-01 11:55 AEST, Grok: Australia light pass: Melbourne and Byron writers' festivals 2027 (2 records)
+
+Australia light pass (state level): Melbourne Writers Festival 6 to 9 May 2027 (VIC) and Byron Writers Festival 20 to 22 August 2027 (NSW), from the festivals' own pages (search-index snapshots). Brisbane Writers Festival 2027 dates not yet published.
