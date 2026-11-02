@@ -103,25 +103,18 @@
      ]
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "No published conference rule",
-     "detail": "Meetings are listed but conferences and speaking are not; the official guide names only meetings, contracts, consulting and trade.",
-     "next": "Ask the Immigration Department in Castries in writing.",
-     "checked": "2026-11-01",
+     "status": "specialist",
+     "route": "Work permit or ministerial exemption",
+     "detail": "Under Labour Act s317 a foreign national may not engage in any occupation without a work permit or an exemption. Exemptions are granted by Cabinet or the Minister on a written request from the host organisation. Talks and launches are not named, so treat them as needing an exemption.",
+     "next": "Have the host write to the Minister of the Department of Labour for an exemption.",
+     "checked": "2026-11-02",
      "sources": [
       {
-       "title": "Business Facilitation: Visas, Saint Lucia",
-       "authority": "FTAA (Free Trade Area of the Americas) official business facilitation guide",
-       "url": "http://www.ftaa-alca.org/busfac/visas/STLvisa_e.asp",
-       "checked": "2026-11-01",
-       "supports": "Immigration Regulations allow short-term business visitors without employment authorisation (read via a search-index snapshot)"
-      },
-      {
-       "title": "Apply for Saint Lucia Non-Immigrant Visa",
+       "title": "Work permit requirement for employment of foreign nationals, mandatory",
        "authority": "Government of Saint Lucia",
-       "url": "https://www.govt.lc/services/apply-for-saint-lucia-Non-immigrant-visa",
-       "checked": "2026-11-01",
-       "supports": "visitor visa for business where required (read via a search-index snapshot)"
+       "url": "https://www.govt.lc/news/work-permit-requirement-for-employment-of-foreign-nationals-mandatory",
+       "checked": "2026-11-02",
+       "supports": "Labour Act s317: a foreign national shall not engage in any occupation without a valid work permit or exemption (read via a search-index snapshot)"
       }
      ]
     },
@@ -142,11 +135,20 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Work permit or ministerial exemption",
+     "detail": "Under Labour Act s317 a foreign national may not engage in any occupation without a work permit or an exemption. Exemptions are granted by Cabinet or the Minister on a written request from the host organisation. Talks and launches are not named, so treat them as needing an exemption.",
+     "next": "Have the host write to the Minister of the Department of Labour for an exemption.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Work permit requirement for employment of foreign nationals, mandatory",
+       "authority": "Government of Saint Lucia",
+       "url": "https://www.govt.lc/news/work-permit-requirement-for-employment-of-foreign-nationals-mandatory",
+       "checked": "2026-11-02",
+       "supports": "Labour Act s317: a foreign national shall not engage in any occupation without a valid work permit or exemption (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",

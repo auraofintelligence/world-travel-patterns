@@ -203,25 +203,18 @@
      ]
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "No published speaker rule",
-     "detail": "Official pages separate business visits from employment but do not address unpaid speaking.",
-     "next": "Ask the host to confirm in writing.",
-     "checked": "2026-11-01",
+     "status": "conditional",
+     "route": "A-3 academic visa for lectures at institutions; ask otherwise",
+     "detail": "Uzbekistan issues an A-3 academic visa for short-term travelling lectures on application by a university, research body, ministry or the Academy of Sciences. Talks outside those hosts are not addressed.",
+     "next": "Ask the host institution to apply for the A-3 visa, or confirm with the MFA.",
+     "checked": "2026-11-02",
      "sources": [
       {
        "title": "Visa to the Republic of Uzbekistan",
-       "authority": "Ministry of Foreign Affairs, Uzbekistan",
-       "url": "https://gov.uz/en/mfa/pages/o-zbekiston-respublikasi-vizasi",
-       "checked": "2026-11-01",
-       "supports": "visa-free and business e-visa entry (read via a search-index snapshot)"
-      },
-      {
-       "title": "Obtaining confirmation for the right to employment",
-       "authority": "my.gov.uz, Government of Uzbekistan",
-       "url": "https://my.gov.uz/en/service/270",
-       "checked": "2026-11-01",
-       "supports": "employer must obtain work confirmation through the Migration Agency (read via a search-index snapshot)"
+       "authority": "Ministry of Foreign Affairs of Uzbekistan",
+       "url": "https://gov.uz/en/mfa/activity_page/o-zbekiston-respublikasi-vizasi",
+       "checked": "2026-11-02",
+       "supports": "A-3 academic visa (3 months to 2 years) for research and short-term travelling lectures on application by the Academy of Sciences, research bodies, universities or ministries; B-2 business visa up to 1 year (read via a search-index snapshot)"
       }
      ]
     },
@@ -250,10 +243,19 @@
     },
     "book-launch": {
      "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Uzbekistan",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Uzbekistan which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "route": "Not addressed",
+     "detail": "The MFA lists business (B-2) and academic (A-3) visas but does not address book launches, so it does not settle the question.",
+     "next": "Ask the Uzbek MFA in writing.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Visa to the Republic of Uzbekistan",
+       "authority": "Ministry of Foreign Affairs of Uzbekistan",
+       "url": "https://gov.uz/en/mfa/activity_page/o-zbekiston-respublikasi-vizasi",
+       "checked": "2026-11-02",
+       "supports": "A-3 academic visa (3 months to 2 years) for research and short-term travelling lectures on application by the Academy of Sciences, research bodies, universities or ministries; B-2 business visa up to 1 year (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "low",

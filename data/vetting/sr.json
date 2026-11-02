@@ -103,18 +103,25 @@
      ]
     },
     "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "No published speaker rule",
-     "detail": "The business e-visa covers attending conferences; speaking is not addressed.",
-     "next": "Ask the host to confirm in writing.",
-     "checked": "2026-11-01",
+     "status": "conditional",
+     "route": "Business e-visa",
+     "detail": "Visa-free entry with the entry fee covers tourism and family visits only. Business and work-related visits need a visa; the business e-visa covers business activity, meetings and conferences (USD 100, stays up to 90 days).",
+     "next": "Apply for the business e-visa and describe the event.",
+     "checked": "2026-11-02",
      "sources": [
       {
+       "title": "Suriname eVisa and Entry Fee",
+       "authority": "Ministry of Foreign Affairs, International Business and International Cooperation, Suriname (official VFS portal)",
+       "url": "https://suriname.vfsevisa.com/",
+       "checked": "2026-11-02",
+       "supports": "Business e-visa category covers business activity, meetings and conferences; business visa USD 100 for 3 months, stays up to 90 days (read via a search-index snapshot)"
+      },
+      {
        "title": "Reizen naar Suriname",
-       "authority": "Ministry of Foreign Affairs, International Business and Cooperation, Suriname",
+       "authority": "Government of Suriname",
        "url": "https://gov.sr/ministeries/ministerie-van-buitenlandse-zaken-internationale-handel-samenwerking/reizen-naar-suriname/",
-       "checked": "2026-11-01",
-       "supports": "business e-visa for meetings and conferences (read via a search-index snapshot)"
+       "checked": "2026-11-02",
+       "supports": "visa-free entry is for tourism and family visits only; business and work-related visits still need a visa (read via a search-index snapshot)"
       }
      ]
     },
@@ -142,11 +149,27 @@
      ]
     },
     "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic Suriname",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic Suriname which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business e-visa",
+     "detail": "Visa-free entry with the entry fee covers tourism and family visits only. Business and work-related visits need a visa; the business e-visa covers business activity, meetings and conferences (USD 100, stays up to 90 days).",
+     "next": "Apply for the business e-visa and describe the event.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Suriname eVisa and Entry Fee",
+       "authority": "Ministry of Foreign Affairs, International Business and International Cooperation, Suriname (official VFS portal)",
+       "url": "https://suriname.vfsevisa.com/",
+       "checked": "2026-11-02",
+       "supports": "Business e-visa category covers business activity, meetings and conferences; business visa USD 100 for 3 months, stays up to 90 days (read via a search-index snapshot)"
+      },
+      {
+       "title": "Reizen naar Suriname",
+       "authority": "Government of Suriname",
+       "url": "https://gov.sr/ministeries/ministerie-van-buitenlandse-zaken-internationale-handel-samenwerking/reizen-naar-suriname/",
+       "checked": "2026-11-02",
+       "supports": "visa-free entry is for tourism and family visits only; business and work-related visits still need a visa (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",

@@ -347,10 +347,19 @@
     },
     "unpaid-speaking": {
      "status": "confirm-in-writing",
-     "route": "Ask the Malawi High Commission",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Malawi High Commission which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "route": "Not addressed",
+     "detail": "The Department of Immigration lists visitor and business visit permits and temporary residence permits for work-related activity, but does not say which covers a talk or launch, so it does not settle the question.",
+     "next": "Ask the Department of Immigration in writing.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Permits",
+       "authority": "Department of Immigration, Republic of Malawi",
+       "url": "https://www.immigration.gov.mw/permits/",
+       "checked": "2026-11-02",
+       "supports": "lists visitor and business visit permits, temporary residence permits and business residence permits (read via a search-index snapshot)"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "conditional",
@@ -370,10 +379,19 @@
     },
     "book-launch": {
      "status": "confirm-in-writing",
-     "route": "Ask the Malawi High Commission",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Malawi High Commission which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "route": "Not addressed",
+     "detail": "The Department of Immigration lists visitor and business visit permits and temporary residence permits for work-related activity, but does not say which covers a talk or launch, so it does not settle the question.",
+     "next": "Ask the Department of Immigration in writing.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Permits",
+       "authority": "Department of Immigration, Republic of Malawi",
+       "url": "https://www.immigration.gov.mw/permits/",
+       "checked": "2026-11-02",
+       "supports": "lists visitor and business visit permits, temporary residence permits and business residence permits (read via a search-index snapshot)"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "conditional",
