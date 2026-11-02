@@ -512,6 +512,43 @@
     "result": "found",
     "note": "National tourism or government etiquette guidance found and cited."
    }
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-02",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Every visitor to the Northeast Greenland National Park needs prior Government of Greenland permission: a National Park permit for land visits under 24 hours, and an expedition permit as well for longer stays or travel in the park's waters. Apply at least 12 weeks ahead.",
+     "level": "country",
+     "source": "https://expeditionsgreenland.gl/en/regulated-areas-and-maps/when-an-expedition-permit-is-required",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "In the National Park, do not disturb wildlife, leave waste or collect cultural remains.",
+     "level": "country",
+     "source": "https://expeditionsgreenland.gl/en/rules-and-regulations/national-park-in-north-and-east-greenland",
+     "checked": "2026-11-02"
+    }
+   ],
+   "sources": [
+    {
+     "title": "When an expedition permit is required",
+     "authority": "Government of Greenland (ExpeditionsGreenland)",
+     "url": "https://expeditionsgreenland.gl/en/regulated-areas-and-maps/when-an-expedition-permit-is-required",
+     "checked": "2026-11-02",
+     "supports": "permits and 12-week lead time (read via a search-index snapshot)"
+    },
+    {
+     "title": "National Park in North and East Greenland",
+     "authority": "Government of Greenland (ExpeditionsGreenland)",
+     "url": "https://expeditionsgreenland.gl/en/rules-and-regulations/national-park-in-north-and-east-greenland",
+     "checked": "2026-11-02",
+     "supports": "conduct in the park (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

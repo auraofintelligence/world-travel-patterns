@@ -1277,3 +1277,7 @@ local-law partly-mapped for ab bc mb nb nl nt ns nu on pe sk from the Health Can
 ## 2026-11-02 12:42 AEST, Grok: Sub-national law levels: cannabis rules in 9 US states (NV NY CO WA MA IL TX FL HI); BC wording fix (10 records)
 
 local-law partly-mapped at state level from state regulators and legislatures (search snapshots): Nevada, New York, Colorado, Washington, Massachusetts, Illinois, Texas, Florida, Hawaii; each notes federal illegality. ca/british-columbia public-use rule reworded to match the source (playgrounds, sports fields, skate parks and pools).
+
+## 2026-11-02 12:42 AEST, Grok: Law levels: Svalbard and Greenland (national), Oregon cannabis (state) (3 records)
+
+sj from the Governor of Svalbard (polar bear deterrents, field-travel notification, firearm permits); gl from the Government of Greenland expedition portal (National Park permits, 12 weeks ahead); us/oregon from OLCC. Search snapshots.
