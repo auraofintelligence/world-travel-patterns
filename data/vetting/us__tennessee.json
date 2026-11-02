@@ -47,6 +47,92 @@
     "2027-10-11: Columbus Day (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Since 1 July 2019, Tennessee's hands-free law (T.C.A. 55-8-199) makes it illegal for a driver to hold a phone or other mobile device with any part of the body. Drivers may not touch the phone to use GPS navigation. Breaking the rule can add points to the driving record.",
+     "penalty_signal": "A Class C misdemeanour, described by the General Assembly's Fiscal Review Committee in 2020 as a fine of up to US$50, rising to US$100 for a third offence or a crash, and US$200 in a work zone with workers present or a school zone with flashers on (about A$71, A$142 and A$284 at RBA 30 Oct 2026, A$1 = USD 0.7040).",
+     "level": "state",
+     "source": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tennessee Comprehensive Driver License Manual",
+     "authority": "Tennessee Department of Safety and Homeland Security",
+     "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+     "checked": "2026-11-03",
+     "supports": "no holding a device with any part of the body, no touching to use GPS (read via a search-index snapshot; tn.gov reset the connection)"
+    },
+    {
+     "title": "Tennessee Highway Safety Office launches Operation Hands Free (April 2025)",
+     "authority": "Tennessee Department of Safety and Homeland Security",
+     "url": "https://www.tn.gov/safety/news/2025/4/1/tennessee-highway-safety-office-launches-operation-hands-free.html",
+     "checked": "2026-11-03",
+     "supports": "T.C.A. 55-8-199, points on the record (read via a search-index snapshot)"
+    },
+    {
+     "title": "Fiscal memorandum, SB 1751 / HB 2290 (2020)",
+     "authority": "Tennessee General Assembly Fiscal Review Committee",
+     "url": "https://www.capitol.tn.gov/Bills/111/Fiscal/FM1816.pdf",
+     "checked": "2026-11-03",
+     "supports": "in force 1 July 2019, fine tiers (read via a search-index snapshot)"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "Since 1 January 2026, hemp-derived cannabinoid products (THC products made from hemp, including THCA products) are regulated by the Tennessee Alcoholic Beverage Commission under Public Chapter 526 (2025). Products may hold no more than 0.3% total THC, counting THCA (the raw form that becomes THC when heated) as well as delta-9 THC; THCP and synthetic cannabinoids are banned in any amount. Sales must be in person at a licensed shop, with no delivery or shipping to consumers.",
+     "source": "https://www.tn.gov/abc/public-information-and-forms/frequently-asked-questions.html",
+     "checked": "2026-11-03",
+     "by": "hand"
+    },
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Kratom (a leaf product from a Southeast Asian tree) may be sold in Tennessee only in its natural form and only to adults 21 and over; selling it in another form, selling it to anyone under 21, or buying or possessing it under 21 is a Class A misdemeanour (T.C.A. 39-17-452). Bills to make kratom possession a crime were before the 2025 to 2026 General Assembly.",
+     "source": "https://www.tn.gov/content/dam/tn/health/2026-notcom/2026-Kratom-Brief.pdf",
+     "checked": "2026-11-03",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Frequently Asked Questions (hemp-derived cannabinoid products)",
+     "authority": "Tennessee Alcoholic Beverage Commission",
+     "url": "https://www.tn.gov/abc/public-information-and-forms/frequently-asked-questions.html",
+     "checked": "2026-11-03",
+     "supports": "Public Chapter 526, total THC formula, THCP and synthetics banned, in-person sales only (read via a search-index snapshot; tn.gov reset the connection)"
+    },
+    {
+     "title": "Hemp Industry",
+     "authority": "Tennessee Department of Agriculture",
+     "url": "https://www.tn.gov/agriculture/businesses/hemp.html",
+     "checked": "2026-11-03",
+     "supports": "oversight moved to the Alcoholic Beverage Commission on 1 January 2026 (read via a search-index snapshot)"
+    },
+    {
+     "title": "Emerging Trends: Kratom in Tennessee (February 2026)",
+     "authority": "Tennessee Department of Health",
+     "url": "https://www.tn.gov/content/dam/tn/health/2026-notcom/2026-Kratom-Brief.pdf",
+     "checked": "2026-11-03",
+     "supports": "natural kratom legal for adults 21 and over (read via a search-index snapshot)"
+    }
+   ],
+   "notes": "State law only. Read with the United States page for federal rules."
   }
  }
 }

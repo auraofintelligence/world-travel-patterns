@@ -798,19 +798,84 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa-free for business visits up to 30 days.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-BELIZE-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Australians don't need a visa for visits of less than 30 days. Submit the online immigration and customs declaration (iDeclare) before travelling.",
+   "fastest_entry": "Visa-free entry for visits of less than 30 days.",
+   "before_departure": "Complete the Belize Digital Forms entry declaration before travel; if transiting the US, meet US entry or transit rules; carry a yellow fever certificate if arriving from or through a yellow fever risk country.",
+   "useful_stay": "Under 30 days visa-free; a visitor's permit extension adds 30 days at a time (BZ$200), on condition of no paid or unpaid work.",
+   "steps": [
+    {
+     "step": "Complete the online immigration and customs declaration before travel.",
+     "url": "https://ideclare.gov.bz/Belize_Digital_Forms/"
+    },
+    {
+     "step": "Enter visa-free for a visit of less than 30 days.",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/belize"
+    },
+    {
+     "step": "To stay longer, extend the visitor's permit at an Immigration Office before it runs out (adds 30 days).",
+     "url": "https://immigration.gov.bz/permits/visitors-permit/"
+    },
+    {
+     "step": "Pay the departure tax in cash if the airline ticket doesn't include it.",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/belize"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Belize Digital Forms declaration",
+    "Yellow fever certificate if arriving from a risk country (age 1 and over)",
+    "Extra consent documents if a child travels with only one parent or guardian"
+   ],
+   "fees": [
+    {
+     "item": "visa-free visit under 30 days",
+     "amount": 0,
+     "currency": "BZD",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/belize",
+     "checked": "2026-11-03"
+    },
+    {
+     "item": "visitor's permit extension, 30 days, all nationals",
+     "amount": 200,
+     "currency": "BZD",
+     "url": "https://immigration.gov.bz/permits/visitors-permit/",
+     "checked": "2026-11-03",
+     "aud": 142.05,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704; BZD pegged at 2 per USD (Central Bank of Belize)"
+    },
+    {
+     "item": "departure tax if not in the ticket (cash)",
+     "amount": 55.5,
+     "currency": "USD",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/belize",
+     "checked": "2026-11-03",
+     "aud": 78.84,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704"
+    }
+   ],
+   "open_questions": [],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/belize",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Visitor's Permit",
+     "authority": "Immigration and Nationality Department, Government of Belize",
+     "url": "https://immigration.gov.bz/permits/visitors-permit/",
+     "supports": "30-day extension, BZ$200 fee, no work condition",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -821,7 +886,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: Smartraveller's entry text covers health screening and an online form; visa status not clear in the section read."
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-BELIZE-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa-free for business visits up to 30 days."
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (updated 15 Jun 2026) confirms visa-free visits under 30 days, the online entry form and the USD 55.50 departure tax; Belize Immigration's visitor's permit page sets the 30-day extension at BZ$200. The atlas line (business visits only) is replaced."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

@@ -861,19 +861,110 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa on arrival for business visits up to 30 days.",
-   "cost_aud_baseline": {
-    "value": "~ $30",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-BRUNEI-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "A visa is needed; Brunei's foreign ministry lists Australia for a 30-day visa on arrival. Before arrival, complete the online e-Arrival Card and the BruHealth health declaration, and hold medical insurance: without proof of insurance the visa is limited to 2 weeks.",
+   "fastest_entry": "30-day visa on arrival at any Brunei immigration post.",
+   "before_departure": "Complete the e-Arrival Card (up to 3 days before arrival) and the BruHealth Health Declaration Form, buy medical insurance (tourists at least BND 10,000 cover), and carry a valid air ticket.",
+   "useful_stay": "30 days on a visa on arrival; check the entry stamp for the length given. Overstaying can bring imprisonment and caning.",
+   "steps": [
+    {
+     "step": "Complete the e-Arrival Card online before arriving (and before departing), by air, land or sea.",
+     "url": "https://www.imm.gov.bn/"
+    },
+    {
+     "step": "Complete the Health Declaration Form on BruHealth before arrival.",
+     "url": "https://www.healthinfo.gov.bn/travel#/home"
+    },
+    {
+     "step": "Buy medical insurance for the whole stay (tourists: at least BND 10,000) and carry proof for the immigration post.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/brunei-darussalam"
+    },
+    {
+     "step": "Get the visa on arrival at the immigration post and check the entry stamp for the stay given.",
+     "url": "https://www.mfa.gov.bn/Pages/C2---CM302.aspx"
+    },
+    {
+     "step": "Crossing by land or sea: apply online through the Exit and Entry System (EES) first.",
+     "url": "https://login.bdnsw.gov.bn/ees/user/login"
+    }
+   ],
+   "documents": [
+    "Passport valid at least 6 months on entry",
+    "Valid air ticket (onward)",
+    "e-Arrival Card",
+    "BruHealth Health Declaration",
+    "Medical insurance proof (BND 10,000 minimum for tourists)",
+    "Proof of sufficient funds"
+   ],
+   "fees": [
+    {
+     "item": "visa on arrival, single entry, 30 days",
+     "amount": 20,
+     "currency": "BND",
+     "url": "https://www.mfa.gov.bn/Pages/C2---CM302.aspx",
+     "checked": "2026-11-03",
+     "aud": 22.23,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = SGD 0.8997; BND at par with SGD (Currency Interchangeability Agreement)"
+    },
+    {
+     "item": "visa on arrival, multiple entry",
+     "amount": 30,
+     "currency": "BND",
+     "url": "https://www.mfa.gov.bn/Pages/C2---CM302.aspx",
+     "checked": "2026-11-03",
+     "aud": 33.34,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = SGD 0.8997; BND at par with SGD (Currency Interchangeability Agreement)"
+    },
+    {
+     "item": "Exit and Entry System service fee (land or sea crossings)",
+     "amount": 3,
+     "currency": "BND",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/brunei-darussalam",
+     "checked": "2026-11-03",
+     "aud": 3.33,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = SGD 0.8997; BND at par with SGD (Currency Interchangeability Agreement)"
+    }
+   ],
+   "open_questions": [
+    "The MFA category page lists a BND 30 multiple-entry fee but names only a single-entry visa type; is multiple entry offered on arrival?",
+    "A search snippet of an immigration.gov.bn permit page showed a BND 50 visa for Australia; that page didn't load, so which fee applies today?"
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/brunei-darussalam",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Visa arrangements",
+     "authority": "Ministry of Foreign Affairs, Brunei Darussalam (Embassy in Brussels)",
+     "url": "https://www.mfa.gov.bn/belgium-brussels/SitePages/visaarrangement.aspx",
+     "supports": "Australia: 30 days (visa on arrival)",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Visa on Arrival (Category C2)",
+     "authority": "Ministry of Foreign Affairs, Brunei Darussalam",
+     "url": "https://www.mfa.gov.bn/Pages/C2---CM302.aspx",
+     "supports": "30 days, BND 20 single, BND 30 multiple, all immigration posts",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Travelling to Brunei Darussalam",
+     "authority": "Brunei Darussalam High Commission, Canberra",
+     "url": "https://www.mfa.gov.bn/australia-canberra/SitePages/consularservices.aspx",
+     "supports": "e-Arrival Card 3 days before arrival, 6-month passport, onward ticket, BND 10,000 insurance",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -884,7 +975,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller says a visa is needed to travel to Brunei, plus e-Arrival card, BruHealth declaration and BND 10,000 medical insurance for tourists; fee and exemptions not confirmed."
+   "cost_aud_baseline": {
+    "value": "~ $30",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-BRUNEI-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa on arrival for business visits up to 30 days."
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (updated 14 Sep 2026) confirms visa needed, e-Arrival Card, BruHealth declaration and insurance rules; Brunei MFA pages list Australia for a 30-day visa on arrival (BND 20 single entry) and the High Commission in Canberra confirms passport validity and pre-arrival forms. The earlier atlas line said visa on arrival for business visits only."
   },
   "year-ahead": {
    "status": "mapped",
