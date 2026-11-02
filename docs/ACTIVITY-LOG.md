@@ -956,3 +956,7 @@ Entrepreneur checks from official sources (search-index snapshots): Guyana equal
 ## 2026-11-01 11:56 AEST, Grok: Docs: handoff and STATUS updated after Australia light pass and entrepreneur checks (0 records)
 
 Docs only: handoff and STATUS.md item 1 refreshed; handoff records the 26d61c3 review, the Australia light pass and the remaining international counts.
+
+## 2026-11-01 11:57 AEST, Grok: Entrepreneur (as, cu) and filming (ki, to) rules (4 records)
+
+Official sources (search-index snapshots): American Samoa foreign corporation permit and business licence; Cuba Law 118 foreign investment forms, non-residents only in senior or technical posts; Kiribati research and filming permit from the Office of the President; Tonga ministerial land-use permit for filming on Crown land.
