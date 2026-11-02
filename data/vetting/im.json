@@ -580,6 +580,50 @@
     "result": "found",
     "note": "National tourism or government etiquette guidance found and cited."
    }
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-02",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Visitors may drive for up to 12 months on a current full licence; carry an International Driving Permit if the licence has no English translation. Driving unfit through drugs, including prescribed or over-the-counter medicines, carries the same penalties as drink driving.",
+     "level": "country",
+     "source": "https://www.gov.im/categories/travel-traffic-and-motoring/drivers-and-vehicles/driving-licences/new-residents/",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Controlled drugs, psychoactive substances, offensive weapons, oral tobacco, obscene material, cat and dog fur and counterfeit goods are prohibited imports; importing prohibited goods can mean an unlimited fine and up to 14 years' prison.",
+     "level": "country",
+     "source": "https://www.gov.im/categories/tax-vat-and-your-money/customs-and-excise/imports-and-exports/import-controls/",
+     "checked": "2026-11-02"
+    }
+   ],
+   "sources": [
+    {
+     "title": "New residents (driving licences)",
+     "authority": "Isle of Man Government",
+     "url": "https://www.gov.im/categories/travel-traffic-and-motoring/drivers-and-vehicles/driving-licences/new-residents/",
+     "checked": "2026-11-02",
+     "supports": "visitors drive up to 12 months (read via a search-index snapshot)"
+    },
+    {
+     "title": "Import controls",
+     "authority": "Isle of Man Government",
+     "url": "https://www.gov.im/categories/tax-vat-and-your-money/customs-and-excise/imports-and-exports/import-controls/",
+     "checked": "2026-11-02",
+     "supports": "prohibited goods, 14 years (read via a search-index snapshot)"
+    },
+    {
+     "title": "Drug driving",
+     "authority": "Isle of Man Government",
+     "url": "https://www.gov.im/about-the-government/departments/cabinet-office/public-health/health-improvement/drug-driving/",
+     "checked": "2026-11-02",
+     "supports": "drug driving penalties (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }

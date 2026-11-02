@@ -1223,3 +1223,7 @@ kz filming specialist from the MFA accreditation rules on the official Adilet da
   - More sub-national levels: US state cannabis and alcohol, Malaysian states (Kelantan, Terengganu), German Länder.
   - fm gw nu sz filming.
   - Remaining talks and launches.
+
+## 2026-11-02 12:37 AEST, Grok: National law levels: Jersey, Isle of Man, Guernsey, Sark (4 levels) (4 records)
+
+local-law partly-mapped from gov.je, gov.im, gov.gg, Guernsey Legal Resources and sarkgov.co.uk (search snapshots): visitor driving, duty free and prohibited imports, travelling with controlled medicines, Sark vehicle law.

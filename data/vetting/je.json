@@ -514,6 +514,64 @@
     "result": "found",
     "note": "National tourism or government etiquette guidance found and cited."
    }
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-02",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Visitors may drive on a valid foreign licence for the vehicle category and should carry it; a Jersey licence is needed after 12 months or on becoming resident.",
+     "level": "country",
+     "source": "https://www.gov.je/travel/motoring/driverlicensing/pages/applyingdrivinglicence.aspx",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Adults 17 and over may bring 1 litre of spirits, 4 litres of wine, 16 litres of beer or cider, 200 cigarettes or 250 g tobacco and 50 ml e-liquid duty free, plus GBP 390 of other goods by commercial transport. Undeclared excess is seized with the whole allowance.",
+     "level": "country",
+     "source": "https://www.gov.je/Travel/InformationAdvice/DutyFree/Pages/Allowances.aspx",
+     "checked": "2026-11-02"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Prescribed controlled drugs may be carried in or out under an open general licence: no more than 3 months' supply (methadone 1 month), with a prescriber's letter naming the drugs, doses and travel dates. Prescribed medicinal cannabis must not be smoked or shared, and you must be able to prove the prescription at the border.",
+     "level": "country",
+     "source": "https://www.gov.je/Government/PlanningPerformance/Pages/MinisterialDecisions.aspx?docid=028E2551-49EC-4C81-B98D-24DF2ACC114E&showreport=yes",
+     "checked": "2026-11-02"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Applying for or renewing a driving licence",
+     "authority": "Government of Jersey",
+     "url": "https://www.gov.je/travel/motoring/driverlicensing/pages/applyingdrivinglicence.aspx",
+     "checked": "2026-11-02",
+     "supports": "visitor driving (read via a search-index snapshot)"
+    },
+    {
+     "title": "Duty free allowances",
+     "authority": "Government of Jersey",
+     "url": "https://www.gov.je/Travel/InformationAdvice/DutyFree/Pages/Allowances.aspx",
+     "checked": "2026-11-02",
+     "supports": "allowances (read via a search-index snapshot)"
+    },
+    {
+     "title": "Open General Licence for import and export of controlled drugs",
+     "authority": "Government of Jersey",
+     "url": "https://www.gov.je/Government/PlanningPerformance/Pages/MinisterialDecisions.aspx?docid=028E2551-49EC-4C81-B98D-24DF2ACC114E&showreport=yes",
+     "checked": "2026-11-02",
+     "supports": "3 months' supply and prescriber's letter (read via a search-index snapshot)"
+    },
+    {
+     "title": "Unlicensed cannabis-based medicinal products",
+     "authority": "Government of Jersey",
+     "url": "https://www.gov.je/Health/PublicHealth/pages/unlicensedcannabisbasedmedicinalproducts.aspx",
+     "checked": "2026-11-02",
+     "supports": "no smoking, prove prescription at border (read via a search-index snapshot)"
+    }
+   ]
   }
  }
 }
