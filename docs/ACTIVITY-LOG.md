@@ -1176,3 +1176,7 @@ cu filming specialist (D-6 press visa and CPI accreditation, MINREX). ck filming
 ## 2026-11-02 12:32 AEST, Grok: Home-base stack: Minjerribah island level partly mapped, Redland pet registration added (2 records)
 
 au/minjerribah home-obligations partly-mapped: ferry access (Redland City Council), resident VAP fee exemption renewed yearly (qld.gov.au, DETSI policy, RAM Regulation s58); QYAC obligations recorded as not yet checked under new topic camping-and-native-title. au/qld-council-6250: dog and cat registration renewed every 12 months, Local Law 2. Home stack now has records at 4 of 4 levels.
+
+## 2026-11-02 12:33 AEST, Grok: Home-base stack: Minjerribah cultural heritage duty of care (QYAC, Queensland); resident QYAC permits still not yet checked (1 records)
+
+au/minjerribah camping-and-native-title item rewritten from QYAC Cultural Heritage page and qld.gov.au duty of care page; resident-specific QYAC permits remain not yet checked.
