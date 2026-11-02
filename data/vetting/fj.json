@@ -356,11 +356,27 @@
      "checked": "2026-11-01"
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Not published",
-     "detail": "No remote-work rule was found on the Ministry's pages.",
-     "next": "Ask the Ministry of Immigration.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Business Visitors Permit on arrival (21 days for Australians)",
+     "detail": "A holiday Visitors Permit cannot be used for any work. Australians can instead declare a business purpose on arrival and get a 21-day Business Visitors Permit covering work-related activities; beyond 21 days a work permit is needed, applied for from outside Fiji. Remote work is not named specifically.",
+     "next": "Declare the work purpose at the border; keep remote work within 21 days.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Business on Visitor Permit",
+       "authority": "Ministry of Immigration, Fiji",
+       "url": "https://www.immigration.gov.fj/business-visitors-permit/",
+       "checked": "2026-11-02",
+       "supports": "Australian nationals get a Business Visitors Permit on arrival for 21 days allowing business, study, research, consultancy or work-related activities; working beyond 21 days without a permit may mean removal (read via a search-index snapshot)"
+      },
+      {
+       "title": "Visitors Permit",
+       "authority": "Ministry of Immigration, Fiji",
+       "url": "https://www.immigration.gov.fj/visitors-permit/",
+       "checked": "2026-11-02",
+       "supports": "a holiday visitor permit cannot be used to work or hold any form of employment (read via a search-index snapshot)"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "conditional",

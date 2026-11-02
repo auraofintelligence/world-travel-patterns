@@ -1096,3 +1096,7 @@ STATUS activities paragraph rewritten with current counts; handoff records the D
 ## 2026-11-02 12:20 AEST, Grok: Guinea-Bissau: meetings, conference and trade from France's travel advice (3 checks) (1 records)
 
 gw meetings, conference and trade set to conditional, citing France Diplomatie business-travel advice (no tourist and business distinction; 1 to 12-month multiple-entry visas). The other 11 gw checks stay confirm-in-writing: no official source on work permits was found.
+
+## 2026-11-02 12:21 AEST, Grok: Remote work: Åland (Migri remote-work rule) and Fiji (21-day Business Visitors Permit) (2 records)
+
+ax remote-work set to conditional citing Migri (remote work for a foreign employer allowed during a legal stay). fj remote-work set to conditional citing Fiji Immigration (holiday permit bars all work; Australians get a 21-day Business Visitors Permit on arrival).
