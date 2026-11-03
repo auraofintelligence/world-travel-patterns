@@ -530,19 +530,76 @@
    "notes": "Covered by the Australian mission responsible for Trinidad and Tobago."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "e-Visa or e-Tourist card required.",
-   "cost_aud_baseline": {
-    "value": "~ $80",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-SURINAME-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "operational",
+   "entry_summary": "Australians pay the Suriname Entry Fee online before travel (a short stay of up to 90 days), through the portal VFS runs as the authorised partner of Suriname's Ministry of Foreign Affairs. Business, transit and other purposes use an eVisa on the same portal.",
+   "fastest_entry": "Entry Fee paid online (single or multiple entry), up to 90 days.",
+   "before_departure": "Pay the Entry Fee on suriname.vfsevisa.com by card (US dollars or euros) and keep the email confirmation with its reference number.",
+   "useful_stay": "Up to 90 days on the Entry Fee.",
+   "steps": [
+    {
+     "step": "Pay the Entry Fee online and keep the confirmation email and reference number.",
+     "url": "https://suriname.vfsevisa.com/single-entry.html"
+    },
+    {
+     "step": "For business, study, work or other purposes, apply for the matching eVisa instead.",
+     "url": "https://suriname.vfsevisa.com/"
+    },
+    {
+     "step": "Transit passengers who don't leave the airport need no visa and pay no Entry Fee.",
+     "url": "https://suriname.vfsevisa.com/single-entry.html"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Entry Fee payment confirmation"
+   ],
+   "fees": [
+    {
+     "item": "Entry Fee, short stay up to 90 days (or EUR 50)",
+     "amount": 50,
+     "currency": "USD",
+     "url": "https://suriname.vfsevisa.com/single-entry.html",
+     "evidence": "operational",
+     "checked": "2026-11-03",
+     "aud": 71.02,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.7040"
+    },
+    {
+     "item": "VFS service fee (or EUR 8)",
+     "amount": 8,
+     "currency": "USD",
+     "url": "https://suriname.vfsevisa.com/single-entry.html",
+     "evidence": "operational",
+     "checked": "2026-11-03",
+     "aud": 11.36,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.7040"
+    }
+   ],
+   "open_questions": [
+    "No Smartraveller page covers Suriname, and the rules were read on the VFS-run portal rather than a Suriname government page; confirm with the Ministry of Foreign Affairs or a Suriname mission.",
+    "What does the multiple-entry Entry Fee cost?"
+   ],
+   "sources": [
+    {
+     "title": "Suriname eVisa and Entry Fee",
+     "authority": "VFS Global, authorised partner of the Ministry of Foreign Affairs, International Business and Cooperation, Suriname",
+     "url": "https://suriname.vfsevisa.com/",
+     "supports": "Australia: Entry Fee (single and multiple), business, transit, short stay 90 days",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Suriname single-entry Entry Fee",
+     "authority": "VFS Global, authorised partner of the Ministry of Foreign Affairs, Suriname",
+     "url": "https://suriname.vfsevisa.com/single-entry.html",
+     "supports": "Entry Fee USD 50 or EUR 50, VFS fee USD 8 or EUR 8, 90 days, transit exemption",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -553,7 +610,17 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: no Smartraveller advice. Suriname's e-visa/entry-fee portal (suriname.vfsevisa.com, run by VFS for the government) blocked fetches; snapshots show a US$50 single-entry entry fee plus US$8 service fee. Needs a direct government read."
+   "cost_aud_baseline": {
+    "value": "~ $80",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-SURINAME-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "e-Visa or e-Tourist card required."
+   },
+   "recheck_note": "Rechecked 2026-11-03 on the VFS-run Suriname portal (no Smartraveller page exists): Australia is listed for the Entry Fee and eVisas, Entry Fee USD 50 plus USD 8 service fee, up to 90 days. Evidence is operational and needs_recheck stays true until a Suriname government page confirms it.",
+   "needs_recheck": true
   },
   "local-law": {
    "status": "partly-mapped",

@@ -880,19 +880,53 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa-free for business visits up to 90 days.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-EL-SALVADOR-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Buy a tourist card at the airport, allowing a visit of up to 90 days. El Salvador is in the CA-4 agreement with Guatemala, Honduras and Nicaragua: the 90 days cover land travel between the four and run from the first entry into any of them.",
+   "fastest_entry": "Tourist card bought at the airport (CA-4, up to 90 days).",
+   "before_departure": "If routing through the US or Canada, meet their entry or transit rules (an eTA for Canada). Make sure the passport is stamped on entry.",
+   "useful_stay": "Up to 90 days across the CA-4 countries; extend before expiry at the Centro de Gobierno in San Salvador. Non-tourists or longer stays need a visa.",
+   "steps": [
+    {
+     "step": "Buy the tourist card at the airport and make sure the passport is stamped.",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/el-salvador"
+    },
+    {
+     "step": "Count CA-4 days from the first entry into any member country; extend at the Centro de Gobierno in San Salvador before expiry.",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/el-salvador"
+    },
+    {
+     "step": "Pay the departure tax if the airline ticket doesn't include it; some land crossings close at 6pm.",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/el-salvador"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Tourist card",
+    "Proof of legal relationship when travelling with children"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What do the tourist card and the departure tax cost? Smartraveller gives no amount, and the Dirección General de Migración y Extranjería home page doesn't list it."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/el-salvador",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Dirección General de Migración y Extranjería",
+     "authority": "Dirección General de Migración y Extranjería, El Salvador",
+     "url": "https://www.migracion.gob.sv/",
+     "supports": "immigration authority home page (no tourist card fee shown)",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -903,7 +937,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: CA-4 tourist card bought at the airport (90 days); amount not stated."
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-EL-SALVADOR-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa-free for business visits up to 90 days."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 12 Jan 2026): tourist card at the airport, 90 days under CA-4, extension in San Salvador, departure tax. The migration authority site showed no fee. The atlas line (visa-free business visits) is replaced."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

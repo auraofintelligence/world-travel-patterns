@@ -3,10 +3,10 @@
   "generated_on": "2026-11-03",
   "mode": "public",
   "place_passes": 269,
-  "pattern_items": 815,
+  "pattern_items": 793,
   "by_reason": {
-   "never-checked": 791,
-   "over-budget": 24
+   "never-checked": 787,
+   "over-budget": 6
   },
   "watch_checks": 0
  },
@@ -99,62 +99,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    }
-   ]
-  },
-  {
-   "place": "ws",
-   "name": "Samoa",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "to",
-   "name": "Tonga",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
     }
    ]
   },
@@ -704,6 +648,28 @@
    ]
   },
   {
+   "place": "ws",
+   "name": "Samoa",
+   "kind": "country",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "sb",
    "name": "Solomon Islands",
    "kind": "country",
@@ -756,6 +722,28 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
+    }
+   ]
+  },
+  {
+   "place": "to",
+   "name": "Tonga",
+   "kind": "country",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
     }
    ]
   },
@@ -1770,26 +1758,6 @@
    ]
   },
   {
-   "place": "td",
-   "name": "Chad",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "km",
    "name": "Comoros",
    "kind": "country",
@@ -1817,26 +1785,6 @@
      "pattern": "year-ahead",
      "reason": "never-checked",
      "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "sv",
-   "name": "El Salvador",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
      "budget_days": 90
     },
     {
@@ -1918,86 +1866,6 @@
    ]
   },
   {
-   "place": "ni",
-   "name": "Nicaragua",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "ne",
-   "name": "Niger",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "ng",
-   "name": "Nigeria",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "pa",
-   "name": "Panama",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "cg",
    "name": "Republic of the Congo",
    "kind": "country",
@@ -2036,184 +1904,6 @@
    ]
   },
   {
-   "place": "ru",
-   "name": "Russia",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "sn",
-   "name": "Senegal",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "sl",
-   "name": "Sierra Leone",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "so",
-   "name": "Somalia",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "ss",
-   "name": "South Sudan",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "sd",
-   "name": "Sudan",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "sr",
-   "name": "Suriname",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "sy",
-   "name": "Syria",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "st",
    "name": "São Tomé and Príncipe",
    "kind": "country",
@@ -2241,46 +1931,6 @@
      "pattern": "year-ahead",
      "reason": "never-checked",
      "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "tm",
-   "name": "Turkmenistan",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "ye",
-   "name": "Yemen",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "visa-preparation",
-     "reason": "over-budget",
-     "age_days": 444,
      "budget_days": 90
     },
     {
@@ -2526,12 +2176,6 @@
    "tags": [],
    "due": [
     {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
      "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
@@ -2591,12 +2235,6 @@
    "kind": "country",
    "tags": [],
    "due": [
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
@@ -3110,11 +2748,19 @@
    "tags": [],
    "due": [
     {
-     "pattern": "psychoactive-substances",
+     "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    },
+    }
+   ]
+  },
+  {
+   "place": "td",
+   "name": "Chad",
+   "kind": "country",
+   "tags": [],
+   "due": [
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
@@ -3520,6 +3166,20 @@
   {
    "place": "eg",
    "name": "Egypt",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "sv",
+   "name": "El Salvador",
    "kind": "country",
    "tags": [],
    "due": [
@@ -5138,6 +4798,48 @@
    ]
   },
   {
+   "place": "ni",
+   "name": "Nicaragua",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "ne",
+   "name": "Niger",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "ng",
+   "name": "Nigeria",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "kp",
    "name": "North Korea",
    "kind": "country",
@@ -5225,6 +4927,20 @@
      "age_days": null,
      "budget_days": 90
     },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "pa",
+   "name": "Panama",
+   "kind": "country",
+   "tags": [],
+   "due": [
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
@@ -5362,11 +5078,19 @@
    "tags": [],
    "due": [
     {
-     "pattern": "psychoactive-substances",
+     "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    },
+    }
+   ]
+  },
+  {
+   "place": "ru",
+   "name": "Russia",
+   "kind": "country",
+   "tags": [],
+   "due": [
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
@@ -5820,6 +5544,20 @@
    ]
   },
   {
+   "place": "sn",
+   "name": "Senegal",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "rs",
    "name": "Serbia",
    "kind": "country",
@@ -5836,6 +5574,20 @@
   {
    "place": "sc",
    "name": "Seychelles",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "sl",
+   "name": "Sierra Leone",
    "kind": "country",
    "tags": [],
    "due": [
@@ -5916,6 +5668,20 @@
   {
    "place": "si",
    "name": "Slovenia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "so",
+   "name": "Somalia",
    "kind": "country",
    "tags": [],
    "due": [
@@ -6018,6 +5784,20 @@
    ]
   },
   {
+   "place": "ss",
+   "name": "South Sudan",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
    "place": "es",
    "name": "Spain",
    "kind": "country",
@@ -6042,6 +5822,52 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "sd",
+   "name": "Sudan",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "sr",
+   "name": "Suriname",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
@@ -6124,6 +5950,20 @@
   {
    "place": "ch",
    "name": "Switzerland",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "sy",
+   "name": "Syria",
    "kind": "country",
    "tags": [],
    "due": [
@@ -6272,6 +6112,20 @@
   {
    "place": "tn",
    "name": "Tunisia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "tm",
+   "name": "Turkmenistan",
    "kind": "country",
    "tags": [],
    "due": [
@@ -6559,6 +6413,20 @@
      "age_days": null,
      "budget_days": 90
     },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "ye",
+   "name": "Yemen",
+   "kind": "country",
+   "tags": [],
+   "due": [
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",

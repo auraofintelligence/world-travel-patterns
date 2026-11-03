@@ -726,19 +726,45 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance.",
-   "cost_aud_baseline": {
-    "value": "~ $200",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-NIGER-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel. A visa is needed in advance of travel; contact the nearest embassy or consulate of Niger. A yellow fever certificate is required. Authorities may hold passports for several days after arrival during security checks.",
+   "fastest_entry": "Visa in advance through a Niger mission (no route or fee on the pages read).",
+   "before_departure": "Arrange the visa through a Niger mission before travel and carry a yellow fever certificate; airlines may check it before boarding.",
+   "steps": [
+    {
+     "step": "Contact the nearest embassy or consulate of Niger and get the visa before travel.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/niger"
+    },
+    {
+     "step": "Carry a yellow fever vaccination certificate.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/niger"
+    },
+    {
+     "step": "Expect increased security checks on arrival by air; your passport may be held for several days.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/niger"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Niger visa issued before travel",
+    "Yellow fever vaccination certificate"
+   ],
+   "fees": [],
+   "open_questions": [
+    "Which Niger mission serves Australians, and what are the fee and documents?"
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/niger",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -749,7 +775,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises Do not travel. A visa is needed in advance of travel. No fee stated."
+   "cost_aud_baseline": {
+    "value": "~ $200",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-NIGER-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (Do not travel; updated 24 Jun 2026): visa in advance, yellow fever certificate, passports may be held after arrival. No Niger government visa page was read."
   },
   "year-ahead": {
    "status": "mapped",

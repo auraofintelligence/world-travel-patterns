@@ -94,6 +94,66 @@
      "supports": "Gesundheitsschutzgesetz cannabis smoking bans in beer gardens and on festival grounds (read via a search-index snapshot)"
     }
    ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Bavaria's Health Protection Act (Gesundheitsschutzgesetz, art. 3) bans smoking, heating or vaping cannabis wherever tobacco smoking is banned indoors, and also in the outdoor areas of restaurants and bars, including beer gardens, and across Volksfest grounds such as the Oktoberfest (rides, stalls, walkways and tents). Councils can add bans by ordinance for set crowded public places (art. 8). The fine is up to EUR 1,500 (about A$2,384), and up to EUR 5,000 (A$7,945) for a repeat (art. 10). AUD at the RBA rate of 30 October 2026, A$1 = EUR 0.6293.",
+     "source": "https://www.gesetze-bayern.de/Content/Document/BayGSG/true",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Bavaria's fines catalogue for the federal Cannabis Act (in force 1 April 2024) sets standard fines for a first deliberate offence: EUR 1,000 for using cannabis in the presence of minors (about A$1,589); EUR 500 for using it within 100 m of the entrance to schools, playgrounds, child and youth facilities or public sports grounds (A$795); EUR 300 in pedestrian zones between 7 am and 8 pm (A$477); and EUR 500 to EUR 1,000 for carrying more than 25 g, up to 30 g, away from home (A$795 to A$1,589). Fines double for a repeat of the same kind within three years and are halved for negligence. AUD at the RBA rate of 30 October 2026, A$1 = EUR 0.6293.",
+     "source": "https://www.verkuendung-bayern.de/baymbl/2024-152/",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "On 24 November 2025 the Bavarian Administrative Court ruled that the state palace and gardens administration's ban on cannabis use in Munich's English Garden, Hofgarten and Finanzgarten is invalid (case 10 N 25.826), so the federal Cannabis Act rules apply there again. Beer gardens there remain under the Health Protection Act ban on outdoor dining areas.",
+     "source": "https://verwaltungsgerichtsbarkeit.bayern.de/mam/gerichte/bayvgh/presse/pm_-_bayvgh_verbot_des_cannbiskonsums_im_gesamten_englischen_garten_ist_unwirksam.pdf",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gesundheitsschutzgesetz (GSG), current text from 1 August 2024",
+     "authority": "Bayerische Staatskanzlei, BAYERN.RECHT",
+     "url": "https://www.gesetze-bayern.de/Content/Document/BayGSG/true",
+     "checked": "2026-11-03",
+     "supports": "cannabis smoking bans in beer gardens and on Volksfest grounds, council ordinances, fines up to EUR 1,500 and EUR 5,000"
+    },
+    {
+     "title": "Bußgeldkatalog Konsumcannabis (BayMBl. 2024 Nr. 152, 25 March 2024)",
+     "authority": "Bayerisches Staatsministerium für Gesundheit, Pflege und Prävention",
+     "url": "https://www.verkuendung-bayern.de/baymbl/2024-152/",
+     "checked": "2026-11-03",
+     "supports": "standard fines under the federal Cannabis Act, doubling for repeats"
+    },
+    {
+     "title": "Cannabis",
+     "authority": "Bayerisches Staatsministerium für Gesundheit, Pflege und Prävention",
+     "url": "https://www.stmgp.bayern.de/vorsorge/sucht/cannabis/",
+     "checked": "2026-11-03",
+     "supports": "overview of federal and Bavarian rules, links to the GSG and fines catalogue"
+    },
+    {
+     "title": "Verbot des Cannabiskonsums im gesamten Englischen Garten ist unwirksam (press release, 26 November 2025)",
+     "authority": "Bayerischer Verwaltungsgerichtshof",
+     "url": "https://verwaltungsgerichtsbarkeit.bayern.de/mam/gerichte/bayvgh/presse/pm_-_bayvgh_verbot_des_cannbiskonsums_im_gesamten_englischen_garten_ist_unwirksam.pdf",
+     "checked": "2026-11-03",
+     "supports": "ruling of 24 November 2025, case 10 N 25.826"
+    }
+   ],
+   "notes": "State-level entry for Bavaria. Federal Cannabis Act limits (25 g in public, 50 g at home, three plants) belong on the Germany page."
   }
  }
 }

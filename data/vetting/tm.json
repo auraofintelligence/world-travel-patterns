@@ -673,19 +673,61 @@
    "climate": "Wettest: February, March and April. Driest: July, August and September. Hottest: July (30.6°C average). Coolest: January (2.7°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance. Invitation letter needed.",
-   "cost_aud_baseline": {
-    "value": "~ $120",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-TURKMENISTAN-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "A visa and a letter of invitation from the State Migration Service of Turkmenistan are needed, even for transit. Get the visa before arriving. There's no Turkmen mission in Australia. On arrival, present a migration card, pay a migration fee and register within 3 working days; a daily tourist fee applies.",
+   "fastest_entry": "Letter of invitation from the State Migration Service, then a visa from a Turkmen mission abroad (visa fees are also charged on arrival for some routes).",
+   "before_departure": "Get the letter of invitation (usually through a host or tour operator) and the visa, check the passport number, date of birth and validity on it, and keep the letter with you in Turkmenistan.",
+   "useful_stay": "Only the days shown on the visa; transit visas can't be changed to another class inside Turkmenistan.",
+   "steps": [
+    {
+     "step": "Obtain a letter of invitation from the State Migration Service.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan"
+    },
+    {
+     "step": "Apply for the visa at a Turkmen embassy or consulate abroad and check every detail on it.",
+     "url": "http://www.mfa.gov.tm/en/articles/63?breadcrumbs=no"
+    },
+    {
+     "step": "On arrival, present the migration card and pay the migration fee.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan"
+    },
+    {
+     "step": "Register with the State Migration Service within 3 working days of arrival (not counting the arrival day).",
+     "url": "https://migration.gov.tm/services/salgylar-boyunca-hasaba-durmak-tm-16830101021174743"
+    },
+    {
+     "step": "Pay the daily tourist fee (hotels may include it in the bill).",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan"
+    },
+    {
+     "step": "Crossing from Iran needs special authorisation (requested through the Australian Embassy in Moscow) and USD 55 to 100 in cash for visa fees on arrival.",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Letter of invitation",
+    "Turkmen visa",
+    "Migration card",
+    "Registration within 3 working days"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What are the visa, migration and daily tourist fees for a standard air arrival? Smartraveller gives USD 55 to 100 only for the Iran border route.",
+    "The State Migration Service site needs JavaScript and didn't render."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -696,7 +738,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: entry section didn't extract from Smartraveller."
+   "cost_aud_baseline": {
+    "value": "~ $120",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-TURKMENISTAN-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance. Invitation letter needed."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 17 Jun 2026): letter of invitation and visa before arrival, migration card and fee, 3-day registration, daily tourist fee, USD 55 to 100 cash on arrival for the Iran crossing. The State Migration Service site didn't render."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

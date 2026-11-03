@@ -795,19 +795,40 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa on arrival for 31 days.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-TONGA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller gives no visa details for Tonga and refers travellers to the High Commission of the Kingdom of Tonga. Most airlines require proof of a return or onward ticket.",
+   "fastest_entry": "Not settled on the pages read: confirm with the Tonga High Commission in writing.",
+   "before_departure": "Confirm entry and visa conditions with the High Commission, and book a return or onward ticket.",
+   "steps": [
+    {
+     "step": "Contact the High Commission of the Kingdom of Tonga for visa, currency and customs details.",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/tonga"
+    },
+    {
+     "step": "Carry proof of a return or onward ticket; airlines check it.",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/tonga"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Return or onward ticket"
+   ],
+   "fees": [],
+   "open_questions": [
+    "Is a visitor visa given on arrival to Australians, for how long, and at what fee? No Tongan immigration page was found."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/tonga",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -818,7 +839,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller gives no visa details for Tonga (contact the High Commission); airlines require a return or onward ticket."
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-TONGA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa on arrival for 31 days."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 11 Sep 2026): no visa details, contact the High Commission, return or onward ticket. No Tongan government immigration page was read."
   },
   "year-ahead": {
    "status": "mapped",

@@ -709,19 +709,56 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance.",
-   "cost_aud_baseline": {
-    "value": "~ $150+",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-SOUTH-SUDAN-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel. A visa must be issued in advance through the Department of e-Visa and Immigration Services; entry is refused without one. The passport needs at least 5 blank pages. A yellow fever certificate is required.",
+   "fastest_entry": "e-Visa online: apply, pay by card, download the PDF within 72 hours.",
+   "before_departure": "Apply on evisa.gov.ss, pay by credit or debit card, download the e-visa PDF, and check the passport has 5 blank pages. Juba airport closes after dark.",
+   "steps": [
+    {
+     "step": "Create an account and complete the e-visa application.",
+     "url": "https://evisa.gov.ss/"
+    },
+    {
+     "step": "Pay the fee online by credit or debit card and download the e-visa PDF (within 72 hours).",
+     "url": "https://evisa.gov.ss/"
+    },
+    {
+     "step": "Carry a yellow fever certificate and expect screening at Juba airport.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/south-sudan"
+    },
+    {
+     "step": "To extend, contact the Ministry of the Interior in person.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/south-sudan"
+    }
+   ],
+   "documents": [
+    "Passport with at least 5 blank pages",
+    "e-Visa PDF",
+    "Yellow fever vaccination certificate"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What is the e-visa fee? The portal's front page doesn't show it."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/south-sudan",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "South Sudan e-Visa",
+     "authority": "Department of e-Visa and Immigration Services, Republic of South Sudan",
+     "url": "https://evisa.gov.ss/",
+     "supports": "online application, card payment, e-visa PDF within 72 hours",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -732,7 +769,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises Do not travel. A visa must be issued in advance through the Department of e-Visa and Immigration Services; there is no entry without one. Extend through the Ministry of the Interior. No fee stated."
+   "cost_aud_baseline": {
+    "value": "~ $150+",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-SOUTH-SUDAN-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance."
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (Do not travel; updated 22 May 2026) confirms the visa in advance via the e-Visa department, 5 blank pages and yellow fever certificate; the e-Visa portal confirms the steps. Fees weren't shown."
   }
  }
 }

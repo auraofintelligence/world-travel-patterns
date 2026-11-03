@@ -390,23 +390,50 @@
     "book-launch": {
      "status": "confirm-in-writing",
      "route": "Ask the Embassy of the Republic of Côte d’Ivoire",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
+     "detail": "Rechecked 3 November 2026: the Embassy of Côte d'Ivoire in France lists business, private visit, tourism, mission and study or research visas (EUR 50, applied for online), with documents but no descriptions of permitted activities, and doesn't name book launches or author events. Easy entry isn't permission to work.",
      "next": "Ask the Embassy of the Republic of Côte d’Ivoire which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-03",
+     "sources": [
+      {
+       "title": "Visa",
+       "authority": "Ambassade de Côte d'Ivoire en France",
+       "url": "https://france.diplomatie.gouv.ci/visa.php?num=1",
+       "checked": "2026-11-03",
+       "supports": "visa types: business (invitation letter, hotel, funds), private visit, tourism, mission (invitation, mission order), study or research (enrolment at a university or public institution); fee EUR 50"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "confirm-in-writing",
      "route": "Ask the Embassy of the Republic of Côte d’Ivoire",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
+     "detail": "Rechecked 3 November 2026: the Embassy of Côte d'Ivoire in France lists business, private visit, tourism, mission and study or research visas (EUR 50, applied for online), with documents but no descriptions of permitted activities, and doesn't name teaching or training. Paid activity needs a work contract approved by AGEPE (see paid speaking). Easy entry isn't permission to work.",
      "next": "Ask the Embassy of the Republic of Côte d’Ivoire which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-03",
+     "sources": [
+      {
+       "title": "Visa",
+       "authority": "Ambassade de Côte d'Ivoire en France",
+       "url": "https://france.diplomatie.gouv.ci/visa.php?num=1",
+       "checked": "2026-11-03",
+       "supports": "visa types: business (invitation letter, hotel, funds), private visit, tourism, mission (invitation, mission order), study or research (enrolment at a university or public institution); fee EUR 50"
+      }
+     ]
     },
     "remote-work": {
      "status": "confirm-in-writing",
      "route": "Ask the Embassy of the Republic of Côte d’Ivoire",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
+     "detail": "Rechecked 3 November 2026: the Embassy of Côte d'Ivoire in France lists business, private visit, tourism, mission and study or research visas (EUR 50, applied for online), with documents but no descriptions of permitted activities, and doesn't name remote work for a foreign employer or a digital nomad visa. Easy entry isn't permission to work.",
      "next": "Ask the Embassy of the Republic of Côte d’Ivoire which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-03",
+     "sources": [
+      {
+       "title": "Visa",
+       "authority": "Ambassade de Côte d'Ivoire en France",
+       "url": "https://france.diplomatie.gouv.ci/visa.php?num=1",
+       "checked": "2026-11-03",
+       "supports": "visa types: business (invitation letter, hotel, funds), private visit, tourism, mission (invitation, mission order), study or research (enrolment at a university or public institution); fee EUR 50"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "conditional",
@@ -427,9 +454,18 @@
     "trade": {
      "status": "confirm-in-writing",
      "route": "Ask the Embassy of the Republic of Côte d’Ivoire",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
+     "detail": "Rechecked 3 November 2026: the Embassy of Côte d'Ivoire in France lists business, private visit, tourism, mission and study or research visas (EUR 50, applied for online), with documents but no descriptions of permitted activities, and doesn't name trade visits or buying and selling goods. The business visa (invitation letter, hotel booking, proof of funds) is the closest listed category. Easy entry isn't permission to work.",
      "next": "Ask the Embassy of the Republic of Côte d’Ivoire which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-03",
+     "sources": [
+      {
+       "title": "Visa",
+       "authority": "Ambassade de Côte d'Ivoire en France",
+       "url": "https://france.diplomatie.gouv.ci/visa.php?num=1",
+       "checked": "2026-11-03",
+       "supports": "visa types: business (invitation letter, hotel, funds), private visit, tourism, mission (invitation, mission order), study or research (enrolment at a university or public institution); fee EUR 50"
+      }
+     ]
     },
     "artist": {
      "status": "specialist",
@@ -480,18 +516,36 @@
      ]
     },
     "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of the Republic of Côte d’Ivoire",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of the Republic of Côte d’Ivoire which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Study or research visa (visa d'études ou de recherches)",
+     "detail": "The Embassy of Côte d'Ivoire lists one visa for study or research. It asks for a certificate of enrolment or pre-enrolment at a university or public institution, proof of housing and means for the stay, latest diplomas, and health insurance, plus the general documents (yellow fever certificate, return ticket). The fee is EUR 50 (about A$79 at the RBA rate of 30 October 2026, A$1 = EUR 0.6293).",
+     "next": "Get the host university or public institution's enrolment or affiliation letter, then apply online.",
+     "sources": [
+      {
+       "title": "Visa",
+       "authority": "Ambassade de Côte d'Ivoire en France",
+       "url": "https://france.diplomatie.gouv.ci/visa.php?num=1",
+       "checked": "2026-11-03",
+       "supports": "visa d'études ou de recherches and its documents; fee EUR 50"
+      }
+     ],
+     "checked": "2026-11-03"
     },
     "volunteering": {
      "status": "confirm-in-writing",
      "route": "Ask the Embassy of the Republic of Côte d’Ivoire",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
+     "detail": "Rechecked 3 November 2026: the Embassy of Côte d'Ivoire in France lists business, private visit, tourism, mission and study or research visas (EUR 50, applied for online), with documents but no descriptions of permitted activities, and doesn't name volunteering. Easy entry isn't permission to work.",
      "next": "Ask the Embassy of the Republic of Côte d’Ivoire which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-03",
+     "sources": [
+      {
+       "title": "Visa",
+       "authority": "Ambassade de Côte d'Ivoire en France",
+       "url": "https://france.diplomatie.gouv.ci/visa.php?num=1",
+       "checked": "2026-11-03",
+       "supports": "visa types: business (invitation letter, hotel, funds), private visit, tourism, mission (invitation, mission order), study or research (enrolment at a university or public institution); fee EUR 50"
+      }
+     ]
     }
    },
    "sources": [

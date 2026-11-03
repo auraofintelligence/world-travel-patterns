@@ -683,31 +683,56 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Thirty-day tourist or business visa on arrival",
-   "before_departure": "Submit the Palau Entry Form at most 72 hours before departure and retain its QR code. Carry a passport valid six months, onward ticket, funds, accommodation and a precise invitation for any business or conference purpose.",
-   "useful_stay": "The visitor or business visa is 30 days and can be extended twice for another 30 days each. Apply at least seven days before expiry; the published renewal fee is USD 50 each time.",
-   "host_unlock": "A Palauan organisation should contact Immigration and the Bureau of Labour and Human Resources to obtain written classification and any labour permit before speaking, teaching, consulting, performing or operating a business.",
-   "documents": [
-    "Australian passport valid at least six months",
-    "Palau Entry Form QR code",
-    "Onward ticket, accommodation and funds",
-    "Invitation with duties, locations and dates",
-    "Written Immigration and labour classification",
-    "Fee, tax, equipment and merchandise plan"
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "A visitor visa for up to 30 days is given on arrival. Submit the free online Palau Entry Form at most 72 hours before departure; it creates a QR code shown at check-in and on arrival. Bring an onward or return ticket and a passport with at least 6 months' validity.",
+   "fastest_entry": "30-day tourist visa on arrival, stamped within minutes.",
+   "before_departure": "Submit the Palau Entry Form at most 72 hours before departure (no charge; beware scam sites) and keep the QR code. Carry a passport valid at least 6 months, a return ticket and enough funds.",
+   "useful_stay": "30 days, extendable twice by 30 days each; apply at least 7 days before expiry at the Division of Immigration (USD 50 each renewal).",
    "steps": [
-    "Submit the Palau Entry Form no more than 72 hours before departure and save the QR code.",
-    "Enter on the tourist or business visa only for the visitor purposes stated to Immigration.",
-    "Before any talk, workshop, performance, consulting or local service, have the host contact Immigration and the Bureau of Labour and Human Resources.",
-    "Do not begin until the labour permit or written exemption is actually issued.",
-    "For a founder or continuing operation, complete company, FIAC, business-licence, PGST, tax and labour steps separately.",
-    "Use a Palauan publisher, importer, promoter or community organisation for local stock, receipts, venues and protocol.",
-    "Apply for any visitor extension at least seven days before expiry and keep the authorised dates with the travel file."
+    {
+     "step": "Submit the free Palau Entry Form at most 72 hours before departure and keep the QR code.",
+     "url": "http://www.palautravel.pw/"
+    },
+    {
+     "step": "On arrival, show the passport (6 months' validity), return ticket and the QR code; the visa is stamped in.",
+     "url": "https://bcbp.pw/?page_id=165"
+    },
+    {
+     "step": "To stay longer, apply at the Division of Immigration at least 7 days before the visa expires.",
+     "url": "https://bcbp.pw/?page_id=165"
+    },
+    {
+     "step": "Arriving by private vessel: get an entry permit before arriving.",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/palau"
+    }
+   ],
+   "documents": [
+    "Passport valid at least 6 months on entry",
+    "Palau Entry Form QR code",
+    "Return or onward ticket",
+    "Proof of sufficient funds"
+   ],
+   "fees": [
+    {
+     "item": "Palau Entry Form",
+     "amount": 0,
+     "currency": "USD",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/palau",
+     "checked": "2026-11-03"
+    },
+    {
+     "item": "visa renewal, each 30-day extension",
+     "amount": 50,
+     "currency": "USD",
+     "url": "https://bcbp.pw/?page_id=165",
+     "checked": "2026-11-03",
+     "aud": 71.02,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.7040"
+    }
    ],
    "open_questions": [
     "Was the entry form submitted inside, not before, the 72-hour pre-departure window?",
@@ -717,16 +742,10 @@
     "Does the local host have authority and time to obtain a labour permit before the event?",
     "Will a technical fee, local business presence, FIAC or PGST registration create Palau tax obligations?",
     "Have the relevant state, traditional leaders and community partners been included rather than treating national permission as the whole relationship?",
-    "Are books, equipment, merchandise and goods for sale assigned to a Palauan importer and customs process?"
+    "Are books, equipment, merchandise and goods for sale assigned to a Palauan importer and customs process?",
+    "Is the 30-day visa on arrival free? The pages read name no charge for it."
    ],
    "sources": [
-    {
-     "title": "Immigration: travelling to Palau",
-     "authority": "Palau Bureau of Customs and Border Protection",
-     "url": "https://bcbp.pw/?page_id=165",
-     "checked": "2026-08-21",
-     "supports": "visa on arrival, 30-day tourist and business stays, extensions, entry documents, meetings and conferences, visitor work prohibition and labour-permit requirement"
-    },
     {
      "title": "Palau Entry Form and border management",
      "authority": "Palau Bureau of Customs and Border Protection",
@@ -817,6 +836,27 @@
      "url": "https://forumsec.org/publications/release-forum-troika-leaders-meet-fiji-discuss-emerging-regional-challenges-and",
      "checked": "2026-08-21",
      "supports": "official 2026 Palau host preparations and controlled leaders' process"
+    },
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/palau",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Immigration: travelling to Palau",
+     "authority": "Bureau of Customs and Border Protection, Republic of Palau",
+     "url": "https://bcbp.pw/?page_id=165",
+     "supports": "30-day tourist visa on arrival, two 30-day extensions, USD 50 renewal, passport, ticket and funds criteria",
+     "checked": "2026-11-03"
+    },
+    {
+     "title": "Palau Entry Form",
+     "authority": "Republic of Palau",
+     "url": "http://www.palautravel.pw/",
+     "supports": "form at most 72 hours before departure, QR code",
+     "checked": "2026-11-03"
     }
    ],
    "provenance": {
@@ -860,7 +900,31 @@
     "checked": "2025-08-16",
     "claim_id": "WORLD-PALAU-COST"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller confirms a 30-day visitor visa on arrival and a free online Palau Entry Form within 72 hours; the Palau entry portal didn't load and any arrival fee wasn't confirmed."
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "host_unlock": "A Palauan organisation should contact Immigration and the Bureau of Labour and Human Resources to obtain written classification and any labour permit before speaking, teaching, consulting, performing or operating a business.",
+    "fastest_entry": "Thirty-day tourist or business visa on arrival",
+    "before_departure": "Submit the Palau Entry Form at most 72 hours before departure and retain its QR code. Carry a passport valid six months, onward ticket, funds, accommodation and a precise invitation for any business or conference purpose.",
+    "useful_stay": "The visitor or business visa is 30 days and can be extended twice for another 30 days each. Apply at least seven days before expiry; the published renewal fee is USD 50 each time.",
+    "documents": [
+     "Australian passport valid at least six months",
+     "Palau Entry Form QR code",
+     "Onward ticket, accommodation and funds",
+     "Invitation with duties, locations and dates",
+     "Written Immigration and labour classification",
+     "Fee, tax, equipment and merchandise plan"
+    ],
+    "steps": [
+     "Submit the Palau Entry Form no more than 72 hours before departure and save the QR code.",
+     "Enter on the tourist or business visa only for the visitor purposes stated to Immigration.",
+     "Before any talk, workshop, performance, consulting or local service, have the host contact Immigration and the Bureau of Labour and Human Resources.",
+     "Do not begin until the labour permit or written exemption is actually issued.",
+     "For a founder or continuing operation, complete company, FIAC, business-licence, PGST, tax and labour steps separately.",
+     "Use a Palauan publisher, importer, promoter or community organisation for local stock, receipts, venues and protocol.",
+     "Apply for any visitor extension at least seven days before expiry and keep the authorised dates with the travel file."
+    ]
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (updated 22 Jul 2026) confirms the 30-day visa on arrival and the free Palau Entry Form; the Bureau of Customs and Border Protection page confirms the two 30-day extensions at USD 50 and the criteria; the Palau Entry Form page confirms the 72-hour rule. Departure tax and environmental fee are in the airfare. No charge for the visa on arrival itself is named on the pages read."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

@@ -50,6 +50,84 @@
     "2027-09-09: Geneva Prayday (Jeûne genevois) (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "La Cannabinothèque, run by the association ChanGE with the municipality of Vernier as its main partner, sells cannabis to enrolled participants from a single outlet in Vernier. Planned from June 2023 to June 2027, with up to 1,080 participants.",
+     "source": "https://www.bag.admin.ch/de/la-cannabinotheque-kanton-genf",
+     "checked": "2026-11-03"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "changing": true,
+     "text": "Under the federal pilot-trial rules, only adults who live in this canton and can show they already use cannabis may enrol. Participants may use the products only themselves: no passing them on and no use in publicly accessible places. Visitors from outside the canton can't enrol or buy, and the national cannabis ban applies to everyone outside the trials. Each trial is limited to five years, with one extension of up to two years possible; the legal basis for the trials ends on 14 May 2031.",
+     "source": "https://www.bag.admin.ch/de/faq-haeufige-fragen-zu-pilotversuchen-mit-cannabis",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "La Cannabinothèque (approved cannabis pilot trial)",
+     "authority": "Federal Office of Public Health (BAG/FOPH), Swiss Confederation",
+     "url": "https://www.bag.admin.ch/de/la-cannabinotheque-kanton-genf",
+     "checked": "2026-11-03",
+     "supports": "sponsor, places, sales points, planned dates and size"
+    },
+    {
+     "title": "FAQ: Häufige Fragen zu Pilotversuchen mit Cannabis",
+     "authority": "Federal Office of Public Health (BAG/FOPH), Swiss Confederation",
+     "url": "https://www.bag.admin.ch/de/faq-haeufige-fragen-zu-pilotversuchen-mit-cannabis",
+     "checked": "2026-11-03",
+     "supports": "residence, age and prior-use rules, no passing on, no public use, five-year limit, 14 May 2031 end of legal basis"
+    },
+    {
+     "title": "Übersicht über die bewilligten Pilotversuche mit Cannabis",
+     "authority": "Federal Office of Public Health (BAG/FOPH), Swiss Confederation",
+     "url": "https://www.bag.admin.ch/de/uebersicht-ueber-die-bewilligten-pilotversuche-mit-cannabis",
+     "checked": "2026-11-03",
+     "supports": "list of approved trials as of 2026-11-03"
+    }
+   ],
+   "notes": "Canton-level entry: the cannabis sales trials approved here under Art. 8a of the federal Narcotics Act. Federal rules stay on the Switzerland page."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "work-and-payment",
+     "rule": "The canton of Geneva charges one tourist stay tax (taxe de séjour) across the canton: CHF 4.25 per person per night whatever the type of accommodation (about A$7.34), and CHF 2.50 at campsites (about A$4.32). It applies to adults and minors, and the hotel, holiday rental, hostel or campsite collects it from guests. AUD at the RBA rate of 30 October 2026, A$1 = CHF 0.5789.",
+     "level": "canton",
+     "source": "https://www.ge.ch/taxes-touristiques/taxe-sejour",
+     "heading": "République et canton de Genève, taxe de séjour (Loi sur le tourisme)",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Les taxes touristiques: taxe de séjour",
+     "authority": "République et canton de Genève",
+     "url": "https://www.ge.ch/taxes-touristiques/taxe-sejour",
+     "checked": "2026-11-03",
+     "supports": "CHF 4.25 per person per night, CHF 2.50 at campsites, collected by the accommodation"
+    },
+    {
+     "title": "Exchange rates",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
+     "checked": "2026-11-03",
+     "supports": "A$1 = CHF 0.5789 on 30 October 2026"
+    }
+   ]
   }
  }
 }

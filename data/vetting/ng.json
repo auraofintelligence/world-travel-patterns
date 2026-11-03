@@ -893,19 +893,62 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance. Business visa requires invitation.",
-   "cost_aud_baseline": {
-    "value": "~ $250+",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-NIGERIA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "A valid visa (or Nigerian residence permit) is needed. Apply and pay online through the Nigeria Immigration Service; the process may need the passport sent by mail or in person to a Nigerian mission. Complete the online landing card and the NCDC health declaration before travel; a yellow fever certificate is required.",
+   "fastest_entry": "Visa (regular or e-Visa) applied for and paid on the Nigeria Immigration Service website.",
+   "before_departure": "Apply on the NIS site and allow for posting the passport to a Nigerian mission if asked. Before boarding, complete the landing card and the NCDC Health Declaration Form (Ebola measures). Carry a yellow fever certificate.",
+   "steps": [
+    {
+     "step": "Check visa conditions, apply and pay online on the Nigeria Immigration Service site (regular visa or e-Visa).",
+     "url": "https://immigration.gov.ng/"
+    },
+    {
+     "step": "If asked, provide the passport by mail or in person to the Nigerian mission.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/nigeria"
+    },
+    {
+     "step": "Complete the landing and departure cards online before arriving and before leaving.",
+     "url": "https://lecard.immigration.gov.ng/"
+    },
+    {
+     "step": "Complete the NCDC Health Declaration Form before boarding (or on arrival) and expect health screening.",
+     "url": "https://healthapp.ncdc.gov.ng/"
+    },
+    {
+     "step": "Carry a yellow fever vaccination certificate; airlines may ask for it before boarding.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/nigeria"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Nigerian visa",
+    "Landing card",
+    "NCDC Health Declaration",
+    "Yellow fever vaccination certificate"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What is the visa or e-Visa fee for an Australian passport? The NIS home page shows the services but no fee."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/nigeria",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Nigeria Immigration Service",
+     "authority": "Nigeria Immigration Service",
+     "url": "https://immigration.gov.ng/",
+     "supports": "regular visa and e-Visa application services, online payment",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -916,7 +959,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: visa online through Nigeria Immigration Service, passport may need mailing; fee not stated."
+   "cost_aud_baseline": {
+    "value": "~ $250+",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-NIGERIA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance. Business visa requires invitation."
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (updated 23 Oct 2026) confirms visa needed, NIS online application, landing cards, the NCDC health declaration and yellow fever certificate; the NIS site lists the regular visa and e-Visa services. Fees weren't shown."
   }
  }
 }

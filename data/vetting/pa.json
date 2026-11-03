@@ -1001,19 +1001,79 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa-free for business visits up to 180 days.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-PANAMA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "No visa needed when arriving by air or land: an initial stay of 90 days is granted at the border (not guaranteed). Show the equivalent of USD 1,000 or a credit card and a return or onward ticket, and complete the online traveller declaration.",
+   "fastest_entry": "Visa-free entry by air or land, initial stay of 90 days.",
+   "before_departure": "Complete the online immigration and customs declaration, carry proof of USD 1,000 or a credit card and a return or onward ticket. Arrivals by boat other than cruise ships need a visa.",
+   "useful_stay": "Initial stay of 90 days, at the discretion of immigration authorities.",
+   "steps": [
+    {
+     "step": "Complete the online immigration and customs declaration (paper forms still accepted during the transition).",
+     "url": "https://declaraciondeviajero.ana.gob.pa/"
+    },
+    {
+     "step": "Show the equivalent of USD 1,000 or a credit card, and a return or onward ticket.",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/panama"
+    },
+    {
+     "step": "Make sure the passport is stamped on entry: leaving without the stamp can bring a fine of up to USD 1,000.",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/panama"
+    },
+    {
+     "step": "Pay the departure tax at Tocumen Airport if the airline ticket doesn't include it.",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/panama"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Online traveller declaration",
+    "Proof of USD 1,000 or a credit card",
+    "Return or onward ticket"
+   ],
+   "fees": [
+    {
+     "item": "visa-free entry by air or land",
+     "amount": 0,
+     "currency": "USD",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/panama",
+     "checked": "2026-11-03"
+    },
+    {
+     "item": "visa for arrival by boat other than a cruise ship, per person",
+     "amount": 100,
+     "currency": "USD",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/panama",
+     "checked": "2026-11-03",
+     "aud": 142.05,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.7040"
+    },
+    {
+     "item": "registration for boat arrivals, per person",
+     "amount": 5,
+     "currency": "USD",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/panama",
+     "checked": "2026-11-03",
+     "aud": 7.1,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.7040"
+    }
+   ],
+   "open_questions": [
+    "What is the Tocumen departure tax when it isn't in the ticket? The Servicio Nacional de Migración tourist requirements sit behind a login."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/panama",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -1024,7 +1084,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: entry section didn't extract from Smartraveller."
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-PANAMA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa-free for business visits up to 180 days."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 17 Sep 2026): visa-free 90 days by air or land, USD 1,000 or credit card, onward ticket, online declaration, boat-arrival visa USD 100 plus USD 5. The Servicio Nacional de Migración tourist page needs a login."
   },
   "year-ahead": {
    "status": "mapped",

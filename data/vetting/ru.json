@@ -695,19 +695,63 @@
    "climate": "Wettest: June, July and August. Driest: January, February and March. Hottest: July (15.7°C average). Coolest: January (-23.5°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Business visa required in advance. Complex process with invitation letter.",
-   "cost_aud_baseline": {
-    "value": "~ $200+",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-RUSSIA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel. A visa is needed (except on certain commercial cruises); there's no visa on arrival. Australia isn't on the list of countries whose citizens can get Russia's electronic visa, so the visa is applied for through a Russian embassy or consulate.",
+   "fastest_entry": "Consular visa of the correct type (tourist or visitor) through a Russian embassy or consulate.",
+   "before_departure": "Apply for the right visa type (fingerprints may be taken), check every detail on the visa before travel (it can't be amended in Russia), and check whether you're on Russia's 'stop list' of Australians denied entry.",
+   "useful_stay": "As printed on the visa; some visas, including tourist visas, can't be extended. Stays over 7 working days must be registered.",
+   "steps": [
+    {
+     "step": "Apply for the correct visa type through a Russian embassy or consulate; Australians can't use the e-visa.",
+     "url": "https://electronic-visa.kdmid.ru/country.html"
+    },
+    {
+     "step": "Check the name, passport number, date of birth, visa type, purpose and dates on the visa; return it to the mission for correction if wrong.",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/russia"
+    },
+    {
+     "step": "On arrival, give biometric data (photo and fingerprints), keep the migration card's exit portion with your passport.",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/russia"
+    },
+    {
+     "step": "Register a stay of more than 7 working days with the Ministry of Internal Affairs (hotels usually do it; the traveller is responsible) and pay the registration fee.",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/russia"
+    },
+    {
+     "step": "Leave before the visa expires; overstays bring detention, fines, deportation or bans.",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/russia"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Russian visa with correct details",
+    "Migration card",
+    "Proof of registration for stays over 7 working days",
+    "Customs declaration for cash over USD 10,000"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What do the Russian consulates in Australia charge for a tourist visa, and how long does it take?"
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/russia",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Electronic visa: eligible countries",
+     "authority": "Consular Department, Ministry of Foreign Affairs of the Russian Federation",
+     "url": "https://electronic-visa.kdmid.ru/country.html",
+     "supports": "list of countries eligible for the e-visa (Australia not listed)",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -718,7 +762,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises Do not travel. A visa is needed (except on certain commercial cruises); there is no visa on arrival. Arriving without one means a fine, detention and deportation. The visa type must match the purpose, biometrics may be needed, and details can't be corrected once in Russia. No fee stated."
+   "cost_aud_baseline": {
+    "value": "~ $200+",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-RUSSIA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Business visa required in advance. Complex process with invitation letter."
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (Do not travel; updated 30 Oct 2026) confirms visa needed, no visa on arrival, biometrics, migration card, registration and the stop list; the Russian MFA e-visa page lists eligible countries and Australia isn't among them. Consular fees weren't read."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

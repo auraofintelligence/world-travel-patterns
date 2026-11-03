@@ -708,19 +708,57 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2026-08-20",
-   "last_reviewed": "2026-08-20",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "No single Palestinian tourist visa. West Bank access normally runs through Israeli-controlled entry and ETA-IL or a route-specific permit; Gaza is a separate access system.",
-   "cost_aud_baseline": {
-    "value": "25 NIS ETA-IL; route-dependent permits",
-    "checked": "2026-08-20",
-    "claim_id": "WORLD-STATE-OF-PALESTINE-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel to Gaza and the West Bank (excluding Jerusalem) overall. Entry to Palestine is mostly through Israeli-controlled land or air ports, so Israel's entry rules apply: Australians need an ETA-IL or a visa before arriving in Israel. Israel also set requirements for foreign nationals entering and residing in the West Bank (October 2022).",
+   "fastest_entry": "ETA-IL for visits under 90 days, applied for on the Israeli Population and Immigration Authority site, then entry through Israel or the Allenby Bridge crossing.",
+   "before_departure": "Apply for the ETA-IL (valid 2 years or until the passport expires), check the West Bank entry rules on the Israeli Government site, and expect security questioning and searches. The Erez crossing has been closed since October 2023, and Rafah may be closed or highly restricted.",
+   "steps": [
+    {
+     "step": "Apply for the ETA-IL before travelling to Israel (stays under 90 days); otherwise get an Israeli visa.",
+     "url": "https://israel-entry.piba.gov.il/"
+    },
+    {
+     "step": "Check Israel's requirements for foreign nationals entering and residing in the West Bank.",
+     "url": "https://www.gov.il/en/pages/judeaentry2022"
+    },
+    {
+     "step": "Keep the Israeli entry card with your passport; it may be checked at West Bank checkpoints.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/palestine"
+    },
+    {
+     "step": "Crossing to Jordan at Allenby Bridge/King Hussein needs a Jordanian visa; check opening times first.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/palestine"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "ETA-IL approval or Israeli visa",
+    "Israeli entry card"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What does the ETA-IL cost today? The earlier atlas value was NIS 25; the ETA-IL site didn't render its text and gov.il refused the request (403).",
+    "Who may be refused entry to the West Bank? Smartraveller says there's no clear information."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/palestine",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Smartraveller travel advice: Israel, entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/israel",
+     "supports": "ETA-IL or visa needed before arriving in Israel; ETA-IL validity",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -731,7 +769,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises Do not travel. Entry is mostly through Israeli-controlled ports, so Israel's visa and security rules apply. Israel has had requirements for foreign nationals entering the West Bank since October 2022. No fee stated."
+   "cost_aud_baseline": {
+    "value": "25 NIS ETA-IL; route-dependent permits",
+    "checked": "2026-08-20",
+    "claim_id": "WORLD-STATE-OF-PALESTINE-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "No single Palestinian tourist visa. West Bank access normally runs through Israeli-controlled entry and ETA-IL or a route-specific permit; Gaza is a separate access system."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller for Palestine (updated 14 Sep 2026) and Israel: entry mostly through Israeli ports, ETA-IL or visa needed, West Bank entry rules, crossings. The ETA-IL fee wasn't readable on an official page, so the status is confirm-in-writing."
   },
   "year-ahead": {
    "status": "mapped",

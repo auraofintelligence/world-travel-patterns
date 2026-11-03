@@ -863,32 +863,44 @@
    "climate": "Wettest: March, April and November. Driest: June, July and September. Hottest: August (34.3°C average). Coolest: January (15.3°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "imported",
-   "checked": "2026-08-21",
-   "last_reviewed": "2026-08-21",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "fastest_entry": "Official tourist eVisa for tourism, scouting and personal travel",
-   "before_departure": "Use a passport valid for at least six months. If the trip includes meetings, forum participation, speaking, training, performance or delivery, have the Saudi host obtain the matching invitation and visa classification before the traveller applies.",
-   "useful_stay": "The tourist eVisa is generally valid for one year, multiple entry, with a maximum stay of three months and no extension. A temporary work visa is 90 days with a possible additional 90 days under the updated rules.",
-   "host_unlock": "A Saudi company or institution requests the commercial, event or temporary-work route, supplies the invitation and contract, and coordinates event, media, venue and professional approvals.",
-   "documents": [
-    "Australian passport valid at least six months",
-    "Correct Saudi visa and host invitation",
-    "Signed activity or temporary-work contract",
-    "Medical insurance for temporary work",
-    "Venue, event and content approvals",
-    "Fee, expenses and withholding-tax terms"
-   ],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel and to postpone planned travel, including for religious pilgrimage. A valid visa is needed: Australia is on the list of countries eligible for the tourist eVisa from the official Visit Saudi portal. Other purposes need a separate visa through agencies accredited to the Saudi Embassy.",
+   "fastest_entry": "Tourist eVisa online: one year, multiple entry, stays of up to 90 days.",
+   "before_departure": "Apply only on visa.visitsaudi.com (beware fraudulent links), match the visa to the purpose, and check for any past travel ban or unresolved legal case. Hajj visas go only through the Nusuk platform.",
+   "useful_stay": "Tourist eVisa valid 12 months, multiple entry, up to 90 days in total during that time; it can't be extended or used for any work.",
    "steps": [
-    "Use the tourist eVisa only for tourism, scouting and personal travel within its stated conditions.",
-    "Ask each Saudi organiser to classify attendance, participation, speaking, training, sales or performance before travel.",
-    "Obtain the commercial or event invitation for meetings and attendance, or the temporary-work contract and visa for delivery.",
-    "For temporary work, confirm the signed contract, medical insurance and authorised 90-day period before commencing.",
-    "Add GEA, venue, publication, education and professional approvals to the host checklist where the activity triggers them.",
-    "Have the payer determine Saudi withholding tax and document all cash and non-cash benefits.",
-    "Pre-clear equipment and stock with ZATCA and a Saudi importer, including ATA Carnet use where eligible."
+    {
+     "step": "Apply and pay for the tourist eVisa on the official portal.",
+     "url": "https://visa.visitsaudi.com/"
+    },
+    {
+     "step": "For any purpose other than tourism, get the matching visa through an agency accredited to the Saudi Embassy.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/saudi-arabia"
+    },
+    {
+     "step": "If transiting, check whether a transit visa is needed.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/saudi-arabia"
+    },
+    {
+     "step": "Check visa annotations: a business or visit visa marked 'via air' may not allow land entry.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/saudi-arabia"
+    },
+    {
+     "step": "Hajj and Umrah pilgrims register through Nusuk, the only approved platform for Hajj visas.",
+     "url": "https://hajj.nusuk.sa/"
+    }
    ],
+   "documents": [
+    "Passport",
+    "Tourist eVisa (or the visa matching the purpose)",
+    "Guardian travelling with any tourist under 18",
+    "Yellow fever certificate if arriving from a risk area",
+    "Polio vaccination proof for under-15s from polio outbreak countries"
+   ],
+   "fees": [],
    "open_questions": [
     "Is the tourist eVisa being used for an activity that Saudi Arabia treats as work or professional delivery?",
     "Has the Saudi entity issued the invitation, or is there only a conference registration receipt?",
@@ -897,7 +909,8 @@
     "Has the promoter obtained the required entertainment, venue and content licences before publicity?",
     "Are books, equipment, merchandise or exhibition goods approved for import or temporary admission?",
     "Has the Saudi payer classified and budgeted withholding tax on the non-resident payment?",
-    "Does the founder plan include MISA registration, commercial registration and sector licensing rather than residence alone?"
+    "Does the founder plan include MISA registration, commercial registration and sector licensing rather than residence alone?",
+    "What does the tourist eVisa cost today, including any insurance? The portal's home page doesn't show the amount."
    ],
    "sources": [
     {
@@ -990,6 +1003,20 @@
      "url": "https://gfeai.icaire.org/en",
      "checked": "2026-08-21",
      "supports": "delegate registration and program signal; registration is not a speaker call"
+    },
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/saudi-arabia",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Saudi eVisa portal",
+     "authority": "Saudi Tourism Authority, Kingdom of Saudi Arabia",
+     "url": "https://visa.visitsaudi.com/",
+     "supports": "eligible countries (Australia listed), one-year multiple-entry eVisa, up to 90 days, tourism-related activities only",
+     "checked": "2026-11-03"
     }
    ],
    "provenance": {
@@ -1033,7 +1060,31 @@
     "checked": "2025-08-16",
     "claim_id": "WORLD-SAUDI-ARABIA-COST"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller confirms a 1-year multiple-entry tourist e-visa (stays up to 90 days) from visa.visitsaudi.com; the fee (reported as SAR 395 with insurance by non-official sites) wasn't readable on the official portal."
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "host_unlock": "A Saudi company or institution requests the commercial, event or temporary-work route, supplies the invitation and contract, and coordinates event, media, venue and professional approvals.",
+    "fastest_entry": "Official tourist eVisa for tourism, scouting and personal travel",
+    "before_departure": "Use a passport valid for at least six months. If the trip includes meetings, forum participation, speaking, training, performance or delivery, have the Saudi host obtain the matching invitation and visa classification before the traveller applies.",
+    "useful_stay": "The tourist eVisa is generally valid for one year, multiple entry, with a maximum stay of three months and no extension. A temporary work visa is 90 days with a possible additional 90 days under the updated rules.",
+    "documents": [
+     "Australian passport valid at least six months",
+     "Correct Saudi visa and host invitation",
+     "Signed activity or temporary-work contract",
+     "Medical insurance for temporary work",
+     "Venue, event and content approvals",
+     "Fee, expenses and withholding-tax terms"
+    ],
+    "steps": [
+     "Use the tourist eVisa only for tourism, scouting and personal travel within its stated conditions.",
+     "Ask each Saudi organiser to classify attendance, participation, speaking, training, sales or performance before travel.",
+     "Obtain the commercial or event invitation for meetings and attendance, or the temporary-work contract and visa for delivery.",
+     "For temporary work, confirm the signed contract, medical insurance and authorised 90-day period before commencing.",
+     "Add GEA, venue, publication, education and professional approvals to the host checklist where the activity triggers them.",
+     "Have the payer determine Saudi withholding tax and document all cash and non-cash benefits.",
+     "Pre-clear equipment and stock with ZATCA and a Saudi importer, including ATA Carnet use where eligible."
+    ]
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (Do not travel; updated 26 Oct 2026) confirms the 12-month multiple-entry tourist eVisa with up to 90 days, no extension and no work; the official Saudi eVisa portal lists Australia as eligible. The fee wasn't shown; the atlas route notes sit in baseline_unverified."
   },
   "year-ahead": {
    "status": "mapped",

@@ -792,19 +792,50 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa on arrival available.",
-   "cost_aud_baseline": {
-    "value": "~ $120",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-SIERRA-LEONE-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "A visa is needed to enter Sierra Leone; contact a Sierra Leone embassy or consulate. All travellers complete an online health declaration within 72 hours before travel, and an airport security fee may apply. A yellow fever certificate is required.",
+   "fastest_entry": "Visa through a Sierra Leone mission; Sierra Leone Immigration also runs an eVisa site (operated by Securiport), whose content didn't load when read.",
+   "before_departure": "Arrange the visa, complete the health declaration on the Sierra Leone Health Travel Portal within 72 hours before travel (keep the QR code), and check the airport security fee and payment method.",
+   "steps": [
+    {
+     "step": "Contact the nearest Sierra Leone embassy or consulate for the visa, or check the Immigration eVisa site.",
+     "url": "https://www.evisa.sl/"
+    },
+    {
+     "step": "Complete the online health declaration within 72 hours before travel, with accurate flight details, and keep the QR code or reference.",
+     "url": "https://poep.npha.gov.sl/"
+    },
+    {
+     "step": "Pay the airport security fee before travelling if it applies (amount and methods change).",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/sierra-leone"
+    },
+    {
+     "step": "Carry a yellow fever vaccination certificate.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/sierra-leone"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Sierra Leone visa",
+    "Health declaration QR code or reference",
+    "Yellow fever vaccination certificate"
+   ],
+   "fees": [],
+   "open_questions": [
+    "Can Australians use the eVisa, and what are the visa and airport security fees?"
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/sierra-leone",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -815,7 +846,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: visa needed plus airport security fee; amounts not stated."
+   "cost_aud_baseline": {
+    "value": "~ $120",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-SIERRA-LEONE-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa on arrival available."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 14 Oct 2026): visa needed, health declaration within 72 hours, airport security fee, yellow fever certificate. The Immigration eVisa site loaded only its template, so the route and fees stay confirm-in-writing."
   },
   "year-ahead": {
    "status": "mapped",

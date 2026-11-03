@@ -258,11 +258,20 @@
      ]
     },
     "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of People's Democratic Republic of Algeria, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of People's Democratic Republic of Algeria, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Temporary work visa (stays up to 3 months) with a service contract",
+     "detail": "Algeria's foreign ministry says a temporary work visa (stay of up to 3 months) is applied for with either a service or assistance contract, in which case no prior temporary work authorisation (APTT) is needed, or an employment contract, an APTT and a repatriation commitment. An unpaid talk at a seminar or cultural event uses the cultural visa (see unpaid speaking).",
+     "next": "Ask the Algerian host for a service contract and apply at the embassy before travel.",
+     "sources": [
+      {
+       "title": "Visa d'entrée en Algérie",
+       "authority": "Ministère des Affaires étrangères, Algeria",
+       "url": "https://www.mfa.gov.dz/fr/services-for-foreigners/entry-visa-to-algeria",
+       "checked": "2026-11-03",
+       "supports": "temporary work visa up to 3 months: service or assistance contract (no prior APTT) or employment contract, APTT and repatriation commitment"
+      }
+     ],
+     "checked": "2026-11-03"
     },
     "book-launch": {
      "status": "conditional",
@@ -288,18 +297,36 @@
      ]
     },
     "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of People's Democratic Republic of Algeria, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of People's Democratic Republic of Algeria, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Temporary work visa (up to 3 months) with a service contract; cultural visa for an unpaid seminar",
+     "detail": "Paid teaching or training falls under work. Algeria's foreign ministry says the temporary work visa (stay of up to 3 months) is applied for with a service or assistance contract (no prior APTT needed) or an employment contract with an APTT and repatriation commitment. The cultural visa is for an invitation to a seminar or cultural event, with proof of funds.",
+     "next": "Agree with the host whether the sessions are paid; get a service contract if they are.",
+     "sources": [
+      {
+       "title": "Visa d'entrée en Algérie",
+       "authority": "Ministère des Affaires étrangères, Algeria",
+       "url": "https://www.mfa.gov.dz/fr/services-for-foreigners/entry-visa-to-algeria",
+       "checked": "2026-11-03",
+       "supports": "temporary work visa up to 3 months; cultural visa for seminar or cultural event invitations"
+      }
+     ],
+     "checked": "2026-11-03"
     },
     "remote-work": {
      "status": "confirm-in-writing",
      "route": "Ask the Embassy of People's Democratic Republic of Algeria, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
+     "detail": "Rechecked 3 November 2026: Algeria's Ministry of Foreign Affairs entry visa page lists tourist, business, cultural, work, temporary work (up to 3 months), study and press visas, and doesn't name remote work for a foreign employer or a digital nomad visa. Easy entry isn't permission to work.",
      "next": "Ask the Embassy of People's Democratic Republic of Algeria, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-03",
+     "sources": [
+      {
+       "title": "Visa d'entrée en Algérie",
+       "authority": "Ministère des Affaires étrangères, Algeria",
+       "url": "https://www.mfa.gov.dz/fr/services-for-foreigners/entry-visa-to-algeria",
+       "checked": "2026-11-03",
+       "supports": "visa types and documents: tourist, business (mission letter), cultural (invitation to a seminar or cultural event), work (APT), temporary work up to 3 months (service contract, or employment contract with APTT), study, press"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "specialist",
@@ -341,18 +368,36 @@
      ]
     },
     "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of People's Democratic Republic of Algeria, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of People's Democratic Republic of Algeria, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Temporary work visa (up to 3 months) for paid shows; cultural visa for an invited cultural event",
+     "detail": "Algeria's foreign ministry lists a cultural visa for an invitation to a seminar or cultural event (with proof of funds), and a temporary work visa (stay of up to 3 months) applied for with a service or assistance contract, or an employment contract with an APTT. Paid performance isn't named separately; a fee or contract points to the temporary work visa. Filming needs Ministry of Culture authorisation (see filming).",
+     "next": "Ask the organiser for the invitation and, if paid, a service contract, then apply at the embassy.",
+     "sources": [
+      {
+       "title": "Visa d'entrée en Algérie",
+       "authority": "Ministère des Affaires étrangères, Algeria",
+       "url": "https://www.mfa.gov.dz/fr/services-for-foreigners/entry-visa-to-algeria",
+       "checked": "2026-11-03",
+       "supports": "cultural visa; temporary work visa up to 3 months with a service contract"
+      }
+     ],
+     "checked": "2026-11-03"
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the Embassy of People's Democratic Republic of Algeria, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
-     "next": "Ask the Embassy of People's Democratic Republic of Algeria, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "One visa for the main purpose (business or cultural); temporary work visa for any paid part",
+     "detail": "Algeria issues visas by purpose: business (employer mission letter, partner invitation), cultural (invitation to a seminar or cultural event) and temporary work for paid services of up to 3 months (service contract, or employment contract with an APTT). The page doesn't describe combining purposes on one visa.",
+     "next": "Give the embassy one programme listing every activity and ask which visa covers it, in writing.",
+     "sources": [
+      {
+       "title": "Visa d'entrée en Algérie",
+       "authority": "Ministère des Affaires étrangères, Algeria",
+       "url": "https://www.mfa.gov.dz/fr/services-for-foreigners/entry-visa-to-algeria",
+       "checked": "2026-11-03",
+       "supports": "visa types by purpose and their documents"
+      }
+     ],
+     "checked": "2026-11-03"
     },
     "filming": {
      "status": "specialist",
@@ -403,9 +448,18 @@
     "volunteering": {
      "status": "confirm-in-writing",
      "route": "Ask the Embassy of People's Democratic Republic of Algeria, O'Malley",
-     "detail": "No official statement on this activity was read. Easy entry isn't permission to work.",
+     "detail": "Rechecked 3 November 2026: Algeria's Ministry of Foreign Affairs entry visa page lists tourist, business, cultural, work, temporary work (up to 3 months), study and press visas, and doesn't name volunteering. Easy entry isn't permission to work.",
      "next": "Ask the Embassy of People's Democratic Republic of Algeria, O'Malley which visa covers it, in writing.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-03",
+     "sources": [
+      {
+       "title": "Visa d'entrée en Algérie",
+       "authority": "Ministère des Affaires étrangères, Algeria",
+       "url": "https://www.mfa.gov.dz/fr/services-for-foreigners/entry-visa-to-algeria",
+       "checked": "2026-11-03",
+       "supports": "visa types and documents: tourist, business (mission letter), cultural (invitation to a seminar or cultural event), work (APT), temporary work up to 3 months (service contract, or employment contract with APTT), study, press"
+      }
+     ]
     }
    },
    "sources": [
@@ -763,7 +817,7 @@
      "checked": "2026-11-03",
      "aud": 113.64,
      "rate_date": "2026-10-30",
-     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704"
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.7040"
     },
     {
      "item": "visa for Australians: cultural or press",
@@ -773,7 +827,7 @@
      "checked": "2026-11-03",
      "aud": 255.68,
      "rate_date": "2026-10-30",
-     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704"
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.7040"
     },
     {
      "item": "visa for Australians: study",
@@ -783,7 +837,7 @@
      "checked": "2026-11-03",
      "aud": 454.55,
      "rate_date": "2026-10-30",
-     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704"
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.7040"
     },
     {
      "item": "visa for Australians: medical",
@@ -793,7 +847,7 @@
      "checked": "2026-11-03",
      "aud": 142.05,
      "rate_date": "2026-10-30",
-     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704"
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.7040"
     },
     {
      "item": "visa for Australians: transit",
@@ -803,7 +857,7 @@
      "checked": "2026-11-03",
      "aud": 71.02,
      "rate_date": "2026-10-30",
-     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.704"
+     "rate_note": "RBA 30 Oct 2026: A$1 = USD 0.7040"
     }
    ],
    "open_questions": [

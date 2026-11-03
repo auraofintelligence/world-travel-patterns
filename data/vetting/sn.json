@@ -770,19 +770,50 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance for business purposes.",
-   "cost_aud_baseline": {
-    "value": "~ $120",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-SENEGAL-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller doesn't state Senegal's visa rule for Australians and refers travellers to an Embassy or Consulate of Senegal. Border officials ask for evidence of return or onward travel and arranged accommodation, and a yellow fever certificate is needed.",
+   "fastest_entry": "Not settled on the pages read: confirm with a Senegal embassy or consulate in writing.",
+   "before_departure": "Confirm the visa position, book return or onward travel and accommodation, and carry a yellow fever certificate (without one, quarantine or a paid vaccination is possible).",
+   "steps": [
+    {
+     "step": "Ask an Embassy or Consulate of Senegal about the visa.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/senegal"
+    },
+    {
+     "step": "Carry evidence of return or onward travel and arranged accommodation: without them entry may be refused.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/senegal"
+    },
+    {
+     "step": "Carry a yellow fever vaccination certificate.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/senegal"
+    },
+    {
+     "step": "Declare taxable or dutiable goods when leaving.",
+     "url": "https://www.douanes.sn/ndn69/"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Return or onward ticket",
+    "Accommodation proof",
+    "Yellow fever vaccination certificate"
+   ],
+   "fees": [],
+   "open_questions": [
+    "Do Australians need a visa for Senegal, and if so, which kind and at what fee?"
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/senegal",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -793,7 +824,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller read: visa details referred to the embassy; onward ticket and accommodation proof needed."
+   "cost_aud_baseline": {
+    "value": "~ $120",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-SENEGAL-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance for business purposes."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 6 May 2026): visa details referred to the embassy, onward travel and accommodation proof, yellow fever certificate. No Senegalese government visa page was read."
   },
   "year-ahead": {
    "status": "mapped",

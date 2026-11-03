@@ -787,19 +787,54 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa on arrival for business visits up to 60 days.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-SAMOA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "A 90-day Visitor Permit is applied for on arrival using the passenger arrival card, for tourism stays of less than 90 days with a confirmed return or onward ticket, enough funds and a passport valid at least 6 months beyond the stay.",
+   "fastest_entry": "90-day Visitor Permit on arrival through the passenger arrival card.",
+   "before_departure": "Book a confirmed return or onward ticket, check the passport has 6 months' validity beyond the stay, and carry proof of funds. Business visitors check the Business Visitor Permit with Samoa Immigration.",
+   "useful_stay": "Under 90 days; anyone unable to leave before the permit expires must contact Samoa Immigration.",
+   "steps": [
+    {
+     "step": "Complete the passenger arrival card and apply for the 90-day Visitor Permit on arrival.",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/samoa"
+    },
+    {
+     "step": "Show a confirmed return or onward ticket, enough funds, and a passport valid at least 6 months beyond the stay.",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/samoa"
+    },
+    {
+     "step": "For business visits or other situations, check permits with Samoa Immigration.",
+     "url": "https://mpmc.gov.ws/divisions/immigration/"
+    }
+   ],
+   "documents": [
+    "Passport valid at least 6 months beyond the stay",
+    "Passenger arrival card",
+    "Confirmed return or onward ticket",
+    "Proof of sufficient funds"
+   ],
+   "fees": [],
+   "open_questions": [
+    "Is there a charge for the Visitor Permit? Smartraveller names none, and the Samoa Immigration page gave no fee."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/pacific/samoa",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Samoa Immigration",
+     "authority": "Ministry of the Prime Minister and Cabinet, Samoa",
+     "url": "https://mpmc.gov.ws/divisions/immigration/",
+     "supports": "immigration division page for permits and business visitor permits",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -810,7 +845,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller confirms a 90-day Visitor Permit on arrival via the arrival card (return ticket, funds, passport valid 6 months beyond the stay); no fee stated."
+   "cost_aud_baseline": {
+    "value": "Free",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-SAMOA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa on arrival for business visits up to 60 days."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 5 Aug 2026): 90-day Visitor Permit on arrival via the arrival card, ticket, funds and passport validity. The Samoa Immigration page loaded but gave no fee."
   },
   "year-ahead": {
    "status": "mapped",

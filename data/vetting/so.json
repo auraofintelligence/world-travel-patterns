@@ -743,19 +743,56 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance. Extremely difficult.",
-   "cost_aud_baseline": {
-    "value": "Variable",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-SOMALIA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "steps-found",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel. Visas are mandatory for all foreign visitors and can be applied for online with the Immigration and Citizenship Agency (ICA). The ICA confirmed a data breach of its e-visa system in November 2025. Visas might not be valid where central government authority is challenged, such as Somaliland and Puntland.",
+   "fastest_entry": "e-Visa online from the Immigration and Citizenship Agency.",
+   "before_departure": "Weigh the data breach risk before applying; for Somaliland or Puntland, ask the host person or organisation about visas. Arrive at airports at least 3 hours before departure. Carry a yellow fever certificate.",
+   "steps": [
+    {
+     "step": "Apply for the visa online with the Immigration and Citizenship Agency.",
+     "url": "https://immigration.gov.so/en/"
+    },
+    {
+     "step": "For Somaliland or Puntland, direct visa questions to the person or organisation being visited.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/somalia"
+    },
+    {
+     "step": "Carry a yellow fever vaccination certificate and expect health screening (Ebola measures).",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/somalia"
+    },
+    {
+     "step": "Cross land borders only with the correct documents; the land border with Kenya is closed.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/somalia"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Somali visa (ICA)",
+    "Yellow fever vaccination certificate"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What does the ICA e-visa cost? The ICA site's visa page wasn't read beyond the home page."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/somalia",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    },
+    {
+     "title": "Immigration and Citizenship Agency",
+     "authority": "Immigration and Citizenship Agency, Federal Government of Somalia",
+     "url": "https://immigration.gov.so/en/",
+     "supports": "visa application service for tourism, education, business, medical and family visits",
+     "checked": "2026-11-03"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -766,7 +803,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises Do not travel. Visas are mandatory, via the Immigration and Citizenship Agency e-visa (a data breach in November 2025 exposed applicants' details). Visas may not be valid in Somaliland and Puntland. No fee stated."
+   "cost_aud_baseline": {
+    "value": "Variable",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-SOMALIA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance. Extremely difficult."
+   },
+   "recheck_note": "Rechecked 2026-11-03: Smartraveller (Do not travel; updated 18 Jun 2026) confirms mandatory visas via the ICA, the November 2025 data breach and the regional validity limits; the ICA site offers the visa application. Fees weren't read."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

@@ -627,19 +627,41 @@
    "climate": "Wettest: July, August and September. Driest: January, February and November. Hottest: May (32.0°C average). Coolest: January (21.2°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance.",
-   "cost_aud_baseline": {
-    "value": "~ $250",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-CHAD-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel. A visa is needed before arrival; contact an embassy or consulate of Chad. A yellow fever certificate is required.",
+   "fastest_entry": "Visa before arrival through a Chad mission (no route or fee on the pages read).",
+   "before_departure": "Arrange the visa through a Chad mission and carry a yellow fever certificate.",
+   "steps": [
+    {
+     "step": "Contact an embassy or consulate of Chad and get the visa before arrival.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/chad"
+    },
+    {
+     "step": "Carry a yellow fever vaccination certificate.",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/chad"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Chad visa",
+    "Yellow fever vaccination certificate"
+   ],
+   "fees": [],
+   "open_questions": [
+    "Which Chad mission serves Australians, and what are the fee and documents?"
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/chad",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -650,7 +672,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises Do not travel. A visa is needed before arrival; contact an embassy or consulate of Chad. No fee stated."
+   "cost_aud_baseline": {
+    "value": "~ $250",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-CHAD-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (Do not travel; updated 10 Nov 2025, current at 3 Nov 2026): visa before arrival, yellow fever certificate. No Chad government visa page was read."
   },
   "year-ahead": {
    "status": "mapped",

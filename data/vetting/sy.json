@@ -682,19 +682,44 @@
    "climate": "Wettest: January, February and December. Driest: June, July and August. Hottest: July (29.9°C average). Coolest: January (7.0°C average). Country-wide averages for 1991 to 2020; coasts, mountains and the far north or south can differ a lot."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance. Consular services suspended.",
-   "cost_aud_baseline": {
-    "value": "N/A",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-SYRIA-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel. Without Syrian identity documents, a visa is needed; a Syrian eVisa can be applied for online. Parts of Syria are controlled by groups that may issue local travel permits. Evidence of travel to Israel leads to refusal or deportation.",
+   "fastest_entry": "Syrian eVisa online (the portal didn't load when read).",
+   "before_departure": "Apply for the eVisa or contact the nearest Syrian embassy or consulate, and remove anything showing travel to Israel. Ask about rules for GPS, radios and drones.",
+   "steps": [
+    {
+     "step": "Apply for the Syrian eVisa online, or contact the nearest Syrian embassy or consulate.",
+     "url": "https://www.evisa.sy/home-content"
+    },
+    {
+     "step": "Check that nothing shows travel to Israel (stamps, tickets, tags, SIM cards).",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/syria"
+    },
+    {
+     "step": "Expect local permits in areas controlled by other groups.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/syria"
+    }
+   ],
+   "documents": [
+    "Passport with no evidence of travel to Israel",
+    "Syrian visa or eVisa"
+   ],
+   "fees": [],
+   "open_questions": [
+    "What does the Syrian eVisa cost and how long does it take? evisa.sy didn't respond when read."
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/syria",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -705,7 +730,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises Do not travel. A visa is needed unless you hold Syrian identity documents; a Syrian eVisa is available online. Parts of Syria are controlled by groups that may issue local permits. No fee stated."
+   "cost_aud_baseline": {
+    "value": "N/A",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-SYRIA-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance. Consular services suspended."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (Do not travel; updated 2 Sep 2026): visa needed, eVisa online, Israel-travel refusals, local permits in some areas. The eVisa portal didn't respond, so the fee and process stay confirm-in-writing."
   },
   "year-ahead": {
    "status": "mapped",

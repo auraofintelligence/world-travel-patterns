@@ -856,19 +856,44 @@
    "checked": "2026-11-01"
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
-   "needs_recheck": true,
-   "entry_summary": "Visa required in advance. Very difficult to obtain.",
-   "cost_aud_baseline": {
-    "value": "Variable",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-YEMEN-COST"
-   },
-   "steps": [],
-   "documents": [],
+   "status": "confirm-in-writing",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
+   "evidence": "official",
+   "entry_summary": "Smartraveller advises Do not travel, including to Socotra. Australians need a visa before travelling, from the legitimate Yemeni Government (including for Socotra packages sold by private companies). Israeli visas or stamps, or Egyptian or Jordanian stamps from Israel crossings, can lead to refusal.",
+   "fastest_entry": "Visa through the nearest Embassy or Consulate of Yemen (no other route on the pages read).",
+   "before_departure": "Get the visa from the legitimate Yemeni Government through a Yemeni mission, check exit requirements before booking, and travel on a full (not emergency) passport whose name and photo match how you present.",
+   "steps": [
+    {
+     "step": "Contact the nearest Embassy or Consulate of Yemen for a visa before travel.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/yemen"
+    },
+    {
+     "step": "For Socotra, make sure the visa comes from the legitimate Yemeni Government, not only a private tour company.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/yemen"
+    },
+    {
+     "step": "Check exit requirements with local immigration before booking the ticket out.",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/yemen"
+    }
+   ],
+   "documents": [
+    "Full passport (emergency passports may be refused) with no Israeli visas or stamps",
+    "Yemeni visa from the legitimate government"
+   ],
+   "fees": [],
+   "open_questions": [
+    "Which Yemeni mission serves Australians, and at what fee?"
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: entry and exit",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/yemen",
+     "checked": "2026-11-03",
+     "supports": "visa status, pre-arrival forms, border documents and fees as read"
+    }
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -879,7 +904,16 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: Smartraveller advises Do not travel. A visa is needed before travel, from the legitimate Yemeni Government, including for Socotra; beware private companies selling Socotra visa packages. Check exit rules before booking. No fee stated."
+   "cost_aud_baseline": {
+    "value": "Variable",
+    "checked": "2025-08-16",
+    "claim_id": "WORLD-YEMEN-COST"
+   },
+   "baseline_unverified": {
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "entry_summary": "Visa required in advance. Very difficult to obtain."
+   },
+   "recheck_note": "Rechecked 2026-11-03 against Smartraveller (Do not travel; updated 23 Oct 2026): visa before travel from the legitimate government, Socotra package warning, passport and stamp refusals. No Yemeni government visa page was read."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

@@ -373,9 +373,18 @@
     "unpaid-speaking": {
      "status": "confirm-in-writing",
      "route": "Visitor entry (short business visit) or Work permit",
-     "detail": "Speaking at a business conference fits a business visit; other speaking may count as work.",
+     "detail": "Rechecked 3 November 2026: Cook Islands Immigration's visa and permit criteria (Cook Islands Regulations 2023) give Australians a visitor permit on arrival for stays under 3 months, on condition of being a bona fide visitor not intending to work for gain or reward or study; the page doesn't name unpaid speaking. An unpaid talk isn't work for gain or reward on the wording, but speaking isn't named. Easy entry isn't permission to work.",
      "next": "Ask the Ministry of Foreign Affairs and Immigration before travel.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-03",
+     "sources": [
+      {
+       "title": "Visa and permit criteria",
+       "authority": "Cook Islands Immigration, Ministry of Foreign Affairs and Immigration",
+       "url": "https://mfai.gov.ck/visa-and-permit-criteria",
+       "checked": "2026-11-03",
+       "supports": "New Zealand or Australian visitor permit on arrival for stays under 3 months (bona fide visitor, no work for gain or reward, no study), extendable 3 months for NZD 235; Specialist Worker (NZD 260), Government Worker including volunteers (NZD 320 a year) and Special Entrant (NZD 960) permits"
+      }
+     ]
     },
     "paid-speaking": {
      "status": "specialist",
@@ -387,9 +396,18 @@
     "book-launch": {
      "status": "confirm-in-writing",
      "route": "Work permit",
-     "detail": "Working on a visitor permit isn't allowed; a work permit needs a confirmed place of work or a business being set up.",
+     "detail": "Rechecked 3 November 2026: Cook Islands Immigration's visa and permit criteria (Cook Islands Regulations 2023) give Australians a visitor permit on arrival for stays under 3 months, on condition of being a bona fide visitor not intending to work for gain or reward or study; the page doesn't name book launches or author events. Book sales or fees could count as work for gain or reward; a contracted service for a Cook Islands business uses the Specialist Worker permit (NZD 260, about A$208 at the RBA rate of 30 October 2026, A$1 = NZD 1.2480). Easy entry isn't permission to work.",
      "next": "Ask the Ministry of Foreign Affairs and Immigration before travel.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-03",
+     "sources": [
+      {
+       "title": "Visa and permit criteria",
+       "authority": "Cook Islands Immigration, Ministry of Foreign Affairs and Immigration",
+       "url": "https://mfai.gov.ck/visa-and-permit-criteria",
+       "checked": "2026-11-03",
+       "supports": "New Zealand or Australian visitor permit on arrival for stays under 3 months (bona fide visitor, no work for gain or reward, no study), extendable 3 months for NZD 235; Specialist Worker (NZD 260), Government Worker including volunteers (NZD 320 a year) and Special Entrant (NZD 960) permits"
+      }
+     ]
     },
     "ai-teaching": {
      "status": "specialist",
@@ -399,20 +417,20 @@
      "checked": "2026-11-01"
     },
     "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Visitor permit (up to 8 months for non-New Zealanders)",
-     "detail": "Visitor permits prohibit work for gain or reward; remote work for a foreign employer is not addressed.",
-     "next": "Ask Cook Islands Immigration in writing.",
-     "checked": "2026-11-01",
+     "status": "specialist",
+     "route": "Not a visitor activity on the wording; no remote-work class listed (Special Entrant Visa and Permit for purposes that fit no other class)",
+     "detail": "Cook Islands visitor permits are for bona fide visitors not intending to undertake work for gain or reward or study while in the Cook Islands. No digital nomad or remote-work class is listed. The Special Entrant Visa and Permit is for a genuine purpose that doesn't fit any other class, at Immigration's discretion, fee NZD 960 (about A$769 at the RBA rate of 30 October 2026, A$1 = NZD 1.2480).",
+     "next": "Ask Cook Islands Immigration in writing whether remote work for an overseas employer needs a Special Entrant permit.",
      "sources": [
       {
        "title": "Visa and permit criteria",
-       "authority": "Ministry of Foreign Affairs and Immigration, Cook Islands",
+       "authority": "Cook Islands Immigration, Ministry of Foreign Affairs and Immigration",
        "url": "https://mfai.gov.ck/visa-and-permit-criteria",
-       "checked": "2026-11-01",
-       "supports": "visitor permits prohibit work for gain or reward; 8-month cap (read via a search-index snapshot)"
+       "checked": "2026-11-03",
+       "supports": "visitor condition: no work for gain or reward or study; Special Entrant Visa and Permit for purposes that fit no other class, NZD 960"
       }
-     ]
+     ],
+     "checked": "2026-11-03"
     },
     "entrepreneur": {
      "status": "specialist",
@@ -445,18 +463,27 @@
      "checked": "2026-11-01"
     },
     "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Depends on the mix",
-     "detail": "Visitor, business and work routes each cover different parts.",
-     "next": "Ask the Ministry of Foreign Affairs and Immigration before travel.",
-     "checked": "2026-11-01"
+     "status": "conditional",
+     "route": "Visitor permit for unpaid parts; worker permit for any paid part",
+     "detail": "The visitor permit (under 3 months for Australians) covers a bona fide visit with no work for gain or reward or study. Any paid service needs a worker permit, such as the Specialist Worker Visa and Permit for a contract with a Cook Islands agency or business (NZD 260, about A$208 at the RBA rate of 30 October 2026, A$1 = NZD 1.2480). Research uses its own permit (see research).",
+     "next": "Split the plan into unpaid visitor parts and paid parts, and get the permit for the paid parts before travel.",
+     "sources": [
+      {
+       "title": "Visa and permit criteria",
+       "authority": "Cook Islands Immigration, Ministry of Foreign Affairs and Immigration",
+       "url": "https://mfai.gov.ck/visa-and-permit-criteria",
+       "checked": "2026-11-03",
+       "supports": "visitor condition; Specialist Worker Visa and Permit, NZD 260"
+      }
+     ],
+     "checked": "2026-11-03"
     },
     "filming": {
      "status": "confirm-in-writing",
      "route": "Drone authorisation only on record",
-     "detail": "Drone filming needs Ministry of Transport authorisation at least three business days ahead (commercial flights under CICAR Part 102). No official page on filming permits in general was found, so this does not settle the question.",
+     "detail": "Rechecked 3 November 2026: Cook Islands Immigration's visa and permit criteria (Cook Islands Regulations 2023) give Australians a visitor permit on arrival for stays under 3 months, on condition of being a bona fide visitor not intending to work for gain or reward or study; the page doesn't name filming or a film permit. Drone filming needs Ministry of Transport authorisation (on file); no general filming permit page was found. Easy entry isn't permission to work.",
      "next": "Ask Cook Islands Tourism or the Business Trade and Investment Board in writing.",
-     "checked": "2026-11-02",
+     "checked": "2026-11-03",
      "sources": [
       {
        "title": "Drones",
@@ -464,6 +491,13 @@
        "url": "https://www.transport.gov.ck/aviation/drones/",
        "checked": "2026-11-02",
        "supports": "drone flights need Ministry of Transport authorisation at least three business days ahead; commercial operations under CICAR Part 102 (read via a search-index snapshot)"
+      },
+      {
+       "title": "Visa and permit criteria",
+       "authority": "Cook Islands Immigration, Ministry of Foreign Affairs and Immigration",
+       "url": "https://mfai.gov.ck/visa-and-permit-criteria",
+       "checked": "2026-11-03",
+       "supports": "New Zealand or Australian visitor permit on arrival for stays under 3 months (bona fide visitor, no work for gain or reward, no study), extendable 3 months for NZD 235; Specialist Worker (NZD 260), Government Worker including volunteers (NZD 320 a year) and Special Entrant (NZD 960) permits"
       }
      ]
     },
@@ -475,11 +509,20 @@
      "checked": "2026-11-01"
     },
     "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Not published",
-     "detail": "Not named among visitor purposes.",
-     "next": "Ask the Ministry of Foreign Affairs and Immigration.",
-     "checked": "2026-11-01"
+     "status": "specialist",
+     "route": "Government Worker Visa and Permit (volunteers on a government-endorsed programme); otherwise Special Entrant",
+     "detail": "The Government Worker Visa and Permit covers volunteers with an agreement with the government agency, or with the business or incorporated society supporting a government-endorsed programme, plus a letter of support from that agency. Fees are NZD 320 for 1 year (about A$256 at the RBA rate of 30 October 2026, A$1 = NZD 1.2480), NZD 640 for 2 years and NZD 960 for 3. Volunteering outside such a programme isn't named; the Special Entrant Visa and Permit covers purposes that fit no other class.",
+     "next": "Ask the host organisation for the agency's letter of support before applying online.",
+     "sources": [
+      {
+       "title": "Visa and permit criteria",
+       "authority": "Cook Islands Immigration, Ministry of Foreign Affairs and Immigration",
+       "url": "https://mfai.gov.ck/visa-and-permit-criteria",
+       "checked": "2026-11-03",
+       "supports": "Government Worker Visa and Permit covers volunteers on a government-endorsed programme; fees NZD 320, 640, 960"
+      }
+     ],
+     "checked": "2026-11-03"
     }
    },
    "sources": [
