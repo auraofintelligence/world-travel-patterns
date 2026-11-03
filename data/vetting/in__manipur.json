@@ -34,8 +34,8 @@
     {
      "type": "entry-permit",
      "authority": "Ministry of Home Affairs, Government of India (e-FRRO portal)",
-     "process": "The entire area of Manipur is a Protected Area under the Third Schedule of India's Immigration and Foreigners Order 2025. Foreigners need a Protected Area Permit to enter or stay. Apply online at indianfrro.gov.in (the e-FRRO portal) or in the Indian Visa Su-Swagatam app; the permit is issued electronically. Citizens of Afghanistan, China or Pakistan, and people of origin there (born there, a parent or grandparent born and permanently living there, or ever a citizen), need the central government's prior approval. Smartraveller advises applying at least 4 weeks ahead; entering without a permit carries significant penalties.",
-     "lead_time_days": 28,
+     "process": "The entire area of Manipur is a Protected Area (Third Schedule, Immigration and Foreigners Order 2025). Every foreigner needs a Protected Area Permit to enter or stay. The Ministry of Home Affairs withdrew the 2010 exemption for Manipur, Mizoram and Nagaland with immediate effect on 17 December 2024. Apply online at indianfrro.gov.in (e-FRRO) or the Indian Visa Su-Swagatam app; permits are electronic only. Indian missions advise getting approval 30 days ahead if applying with the visa, or applying to the FRRO at least 15 days ahead if already in India. Citizens of Afghanistan, China or Pakistan, and people of origin there, need the central government's prior approval.",
+     "lead_time_days": 30,
      "activities": [
       "all"
      ],
@@ -52,6 +52,17 @@
      ],
      "url": "https://manipurilponline.mn.gov.in/",
      "checked": "2026-11-03"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "Foreigners Registration Officer of the state or district",
+     "process": "Every foreigner visiting Manipur, Mizoram or Nagaland must register with the state or district Foreigners Registration Officer within 24 hours of arrival (MHA letter of 17 December 2024).",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://home.nagaland.gov.in/wp-content/uploads/2025/04/PAP-2024merged.pdf",
+     "checked": "2026-11-03"
     }
    ],
    "sources": [
@@ -67,7 +78,7 @@
      "authority": "Smartraveller, Australian Government",
      "url": "https://www.smartraveller.gov.au/destinations/asia/india",
      "checked": "2026-11-03",
-     "supports": "permits for protected and restricted areas, extra permits for people born in some countries, apply at least 4 weeks ahead, significant penalties (read directly)"
+     "supports": "still says (updated 29 October 2026) the MHA has temporarily excluded Manipur, Mizoram and Nagaland from the Protected Area regime; this is out of date (read directly on 3 November 2026)"
     },
     {
      "title": "Manipur Inner Line Permit system",
@@ -75,9 +86,46 @@
      "url": "https://manipurilponline.mn.gov.in/",
      "checked": "2026-11-03",
      "supports": "ILP is for Indian citizens entering from outside Manipur (read directly)"
+    },
+    {
+     "title": "Protected Area Regime in Manipur, Mizoram and Nagaland, MHA letter dated 17 December 2024",
+     "authority": "Ministry of Home Affairs, Government of India (copy on the Home Department, Government of Nagaland website)",
+     "url": "https://home.nagaland.gov.in/wp-content/uploads/2025/04/PAP-2024merged.pdf",
+     "checked": "2026-11-03",
+     "supports": "withdraws with immediate effect the 2010 relaxation (last extended by circular 579 to 31 December 2027); PAP mandatory for all foreigners; FRO registration within 24 hours; all PAP/RAP on e-FRRO only, no physical permits. The PDF returned 404 on 3 November 2026 (read via a search-index snapshot)"
+    },
+    {
+     "title": "Protected Area Permit / Restricted Area Permit",
+     "authority": "High Commission of India, Kampala",
+     "url": "https://hcikampala.gov.in/pages/MTQ2",
+     "checked": "2026-11-03",
+     "supports": "all of Arunachal Pradesh, Manipur, Mizoram, Nagaland and Sikkim need PAP/RAP; e-FRRO only; approvals 30 days ahead with the visa, or 15 days ahead to the FRRO if already in India; Bhutan citizens exempt (read via a search-index snapshot)"
     }
    ],
-   "note": "Smartraveller (updated 29 October 2026) still says the Ministry of Home Affairs has temporarily excluded Manipur, Mizoram and Nagaland from the Protected Area regime. The 2025 Order, which replaced the 1958 Protected Areas Order, lists the entire state as a Protected Area, and news reports in December 2024 said the earlier exclusion had been withdrawn. Confirm with the e-FRRO portal or an Indian mission before travel."
+   "note": "Settled 3 November 2026: a Protected Area Permit is required. The MHA letter of 17 December 2024 withdrew the exemption, and the Immigration and Foreigners Order 2025 lists the whole state. Smartraveller's line that the state is temporarily excluded is out of date (it still links the older MHA FAQ, which describes the 2010 exemption). Nagaland's Dimapur district page confirms the withdrawal (it gives March 2025 as the start for Nagaland)."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "The whole of Manipur is a Protected Area: a foreigner must hold a permit to enter or stay. The civil authority can attach conditions, including reporting to police and limits on surveying, sketching or photography.",
+     "level": "region",
+     "source": "https://www.thc.nic.in/Central%20Governmental%20Ordinances/Immigration%20and%20Foreigners%20Order,%202025..pdf",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Immigration and Foreigners Order, 2025 (S.O. 3986(E), 1 September 2025)",
+     "authority": "Ministry of Home Affairs, Government of India (Gazette of India copy hosted by the High Court of Tripura)",
+     "url": "https://www.thc.nic.in/Central%20Governmental%20Ordinances/Immigration%20and%20Foreigners%20Order,%202025..pdf",
+     "checked": "2026-11-03",
+     "supports": "paragraph 14 (permit to enter or stay, e-FRRO or Su-Swagatam application, electronic permit, civil authority conditions incl. photography); Third Schedule (Arunachal Pradesh, Manipur, Mizoram, Nagaland, Sikkim entire state); Fourth Schedule (no Assam, Meghalaya or Tripura entries) (read directly)"
+    }
+   ]
   }
  }
 }

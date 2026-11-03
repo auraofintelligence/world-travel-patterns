@@ -1360,3 +1360,31 @@ us/florida: 790.015 non-resident carry limited to US residents (flsenate.gov, re
 - Not covered: ao bt ci cm la talks and launches; Texas and Washington firearms and alcohol.
 - Law stacks: 294 filled, 3,473 not yet checked. National: 247 of 247. Sub-national: 47. Work rules open: 272.
 - Morocco embassy enquiry: the user's call. No outreach drafted.
+
+## 2026-11-03 (AEST): Northeast India, Sikkim and Bhutan pass
+
+For Claude. Written with scripts/put_record.py.
+- **PAP conflict settled.** The MHA letter of 17 December 2024 to the Manipur, Mizoram and Nagaland chief secretaries withdrew the 2010 exemption with immediate effect. A PAP is mandatory, foreigners must register with the FRO within 24 hours, and all PAP/RAP applications now go through e-FRRO only. The copy on the Nagaland Home Department site was read via a search snapshot and now returns 404.
+  - Dimapur district page (read directly) confirms the withdrawal, but gives March 2025 as the start date for Nagaland.
+  - The 2025 Order (read directly) lists all three states.
+  - Smartraveller (29 October 2026) is out of date, as is the MHA PAP/RAP FAQ it relies on (now 404).
+  - Zone records for in/manipur, in/mizoram and in/nagaland are updated, with an FRO registration layer.
+- **Arunachal Pradesh.** USD 30 royalty, applications through an approved tour operator only (state tourism page, read directly). The group-of-two rule comes from the old MHA FAQ (snapshot), so it is flagged to confirm. Signal layer removed.
+- **Sikkim.**
+  - Permit layers from Sikkim Tourism, read via snapshots because the site renders its text with script: permitted places; 30 days, extendable to 60; Tsomgo is a day PAP; North Sikkim needs a 3D2N to 5D4N PAP, a registered guide, a registered agent and a group of two or more.
+  - Nathula and Gurudongmar are not open to foreigners.
+  - The state page still lists permit counters, while the MHA says e-FRRO only. This is noted. Signal layer removed.
+- **Assam, Meghalaya, Tripura.** Zone records set to none-found: these states are not in the Third or Fourth Schedule. e-Visa entry points are from the PIB/MHA list of 10 August 2026: Guwahati, Darranga, Dawki, Agartala.
+- **West Bengal.** Added e-Visa points Bagdogra and Jaigaon, and the Sikkim permit desk at Bagdogra.
+- **Local law.**
+  - Permit rule from the 2025 Order added for Arunachal, Manipur and Sikkim (new state law levels).
+  - Mizoram: Liquor (Prohibition) Act 2019 penalties and the Rules 2025 tourist permit (snapshots of excise.mizoram.gov.in PDFs).
+- **Bhutan.**
+  - Visa-preparation rewritten from bhutan.travel (read directly): USD 40 visa; SDF USD 100 to 31 August 2027, children 6 to 12 USD 50, under 6 free; guide mandatory; Phuentsholing land entry for all, with the other land entry points for Indian guests (BTCL); 24-hour border-town waiver.
+  - The zone record now uses the guide rule and the waiver. Entry summary fixed: it no longer says a tour operator is required.
+- **Left open.**
+  - Manipur alcohol: only news reports of the 2022 partial lifting of the ban. No official page was found.
+  - SDF 2029 extension: news only.
+  - Penalty and quantity detail in Mizoram's tourist liquor permit.
+  - Whether the old "enter and exit the NE by air only" FAQ rule survives, now that land ports are e-Visa points.
+  - Assam, Meghalaya and Tripura state law: not yet checked.

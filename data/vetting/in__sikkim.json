@@ -7,22 +7,10 @@
    "evidence": "official",
    "layers": [
     {
-     "type": "protected-area-permit",
-     "authority": "Government of Sikkim, through India's e-FRRO portal",
-     "process": "Reported: since January 2026 foreign tourists apply online through e-FRRO, not at counters. Parts of North Sikkim need a Protected Area Permit.",
-     "lead_time_days": 14,
-     "activities": [
-      "all"
-     ],
-     "url": "https://www.indiatodayne.in/sikkim/story/sikkim-ends-offline-permits-for-foreign-tourists-mandates-online-clearance-1328387-2026-01-08",
-     "checked": "2026-10-31",
-     "evidence": "signal"
-    },
-    {
      "type": "entry-permit",
      "authority": "Ministry of Home Affairs, Government of India (e-FRRO portal)",
-     "process": "The entire area of Sikkim is a Protected Area under the Third Schedule of India's Immigration and Foreigners Order 2025. Foreigners need a Protected Area Permit to enter or stay. Apply online at indianfrro.gov.in (the e-FRRO portal) or in the Indian Visa Su-Swagatam app; the permit is issued electronically. Citizens of Afghanistan, China or Pakistan, and people of origin there (born there, a parent or grandparent born and permanently living there, or ever a citizen), need the central government's prior approval. Smartraveller advises applying at least 4 weeks ahead; entering without a permit carries significant penalties.",
-     "lead_time_days": 28,
+     "process": "The entire area of Sikkim is a Protected Area (Third Schedule, Immigration and Foreigners Order 2025). Every foreigner needs a permit to enter or stay; Sikkim Tourism still calls the basic entry permit a Restricted Area Permit (RAP). Since the MHA letter of 17 December 2024, all PAP/RAP applications go through e-FRRO (indianfrro.gov.in) only, with no physical permits. Indian missions advise approval 30 days ahead with the visa, or 15 days ahead via the FRRO if already in India.",
+     "lead_time_days": 30,
      "activities": [
       "all"
      ],
@@ -39,16 +27,31 @@
      ],
      "url": "https://www.thc.nic.in/Central%20Governmental%20Ordinances/Immigration%20and%20Foreigners%20Order,%202025..pdf",
      "checked": "2026-11-03"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "Department of Tourism and Civil Aviation, Government of Sikkim",
+     "process": "Sikkim Tourism's RAP page says the basic permit is free and lists permit offices (Tourism Information Centres at Reshi, Rambam and Pakyong as named on the page, and the Tourist Information Centre at Bagdogra). With it, foreigners may visit for tourism: North (Phodong, Mangan, Singhik up to Toong), South (Namchi, Ravangla), West (Gyalshing, Soreng, Pemayangtse, Khecheopalri, Tashiding, Yuksom) and East (Gangtok, Rumtek, Pakyong, Rongli, Rhenock, Aritar, Rorathang). Stay up to 30 days, extendable to 60 in total. Register within 24 hours of arrival. People born in, or nationals of, Myanmar or Nigeria need prior clearance; Pakistan, Afghanistan, China (including Hong Kong and Macau) need MHA approval first.",
+     "lead_time_days": 15,
+     "activities": [
+      "all"
+     ],
+     "url": "https://sikkimtourism.gov.in/Public/TravellerEssentials/rap",
+     "checked": "2026-11-03"
+    },
+    {
+     "type": "guide-required",
+     "authority": "Department of Tourism and Civil Aviation, Government of Sikkim",
+     "process": "Tsomgo Lake (East Sikkim) needs a Protected Area Permit for a day trip. Lachen, Lachung, Yumthang and Thangu (North Sikkim) need a PAP for a minimum of 3 days and 2 nights and a maximum of 5 days and 4 nights, supervised by a registered guide. Foreigners must apply through a Sikkim Tourism registered travel agent in groups of two or more. Nathula Pass and Gurudongmar Lake are not open to foreigners. Motorbikes must be 150 cc or more to enter PAP areas.",
+     "lead_time_days": 15,
+     "activities": [
+      "tourism"
+     ],
+     "url": "https://sikkimtourism.gov.in/pap",
+     "checked": "2026-11-03"
     }
    ],
    "sources": [
-    {
-     "title": "Sikkim ends offline permits for foreign tourists (January 2026)",
-     "authority": "Signal: secondary site",
-     "url": "https://www.indiatodayne.in/sikkim/story/sikkim-ends-offline-permits-for-foreign-tourists-mandates-online-clearance-1328387-2026-01-08",
-     "checked": "2026-10-31",
-     "supports": "online permits"
-    },
     {
      "title": "Immigration and Foreigners Order, 2025 (S.O. 3986(E), 1 September 2025)",
      "authority": "Ministry of Home Affairs, Government of India (Gazette of India copy hosted by the High Court of Tripura)",
@@ -62,9 +65,60 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/india",
      "checked": "2026-11-03",
      "supports": "permits for protected and restricted areas, extra permits for people born in some countries, apply at least 4 weeks ahead, significant penalties (read directly)"
+    },
+    {
+     "title": "Protected Area Regime in Manipur, Mizoram and Nagaland, MHA letter dated 17 December 2024",
+     "authority": "Ministry of Home Affairs, Government of India (copy on the Home Department, Government of Nagaland website)",
+     "url": "https://home.nagaland.gov.in/wp-content/uploads/2025/04/PAP-2024merged.pdf",
+     "checked": "2026-11-03",
+     "supports": "withdraws with immediate effect the 2010 relaxation (last extended by circular 579 to 31 December 2027); PAP mandatory for all foreigners; FRO registration within 24 hours; all PAP/RAP on e-FRRO only, no physical permits. The PDF returned 404 on 3 November 2026 (read via a search-index snapshot)"
+    },
+    {
+     "title": "Protected Area Permit / Restricted Area Permit",
+     "authority": "High Commission of India, Kampala",
+     "url": "https://hcikampala.gov.in/pages/MTQ2",
+     "checked": "2026-11-03",
+     "supports": "all of Arunachal Pradesh, Manipur, Mizoram, Nagaland and Sikkim need PAP/RAP; e-FRRO only; approvals 30 days ahead with the visa, or 15 days ahead to the FRRO if already in India; Bhutan citizens exempt (read via a search-index snapshot)"
+    },
+    {
+     "title": "Restricted Area Permits",
+     "authority": "Department of Tourism and Civil Aviation, Government of Sikkim",
+     "url": "https://sikkimtourism.gov.in/Public/TravellerEssentials/rap",
+     "checked": "2026-11-03",
+     "supports": "free permit, permit offices, permitted places, 30 days extendable to 60, 24-hour registration, prior-clearance nationalities, Tsomgo and North Sikkim PAP durations, registered guide, group of two or more (read via a search-index snapshot)"
+    },
+    {
+     "title": "Permits (PAP)",
+     "authority": "Department of Tourism and Civil Aviation, Government of Sikkim",
+     "url": "https://sikkimtourism.gov.in/pap",
+     "checked": "2026-11-03",
+     "supports": "foreigners allowed to Tsomgo Lake and Lachen-Lachung-Yumthang-Thangu; Nathula and Gurudongmar not allowed; registered travel agent, groups of two or more, 150 cc motorbikes (read via a search-index snapshot)"
     }
    ],
-   "note": "Confirm on the e-FRRO portal. The 2025 Order lists the whole state as a Protected Area. Khunphenling Tibetan settlement at Rabangla is also a Restricted Area, and a permit for it doesn't replace the state permit."
+   "note": "Sikkim Tourism's RAP page still describes paper forms at permit offices, but the MHA letter of 17 December 2024 and a January 2026 state notice (reported) moved all foreigner permits to e-FRRO only. Treat the office list as places to ask, and apply on e-FRRO. Sikkim's tourism pages read only via search snapshots (the site loads its text by script). Khunphenling Tibetan settlement at Rabangla is also a Restricted Area under the Fourth Schedule."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "The whole of Sikkim is a Protected Area: a foreigner must hold a permit to enter or stay. The civil authority can attach conditions, including reporting to police and limits on surveying, sketching or photography.",
+     "level": "region",
+     "source": "https://www.thc.nic.in/Central%20Governmental%20Ordinances/Immigration%20and%20Foreigners%20Order,%202025..pdf",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Immigration and Foreigners Order, 2025 (S.O. 3986(E), 1 September 2025)",
+     "authority": "Ministry of Home Affairs, Government of India (Gazette of India copy hosted by the High Court of Tripura)",
+     "url": "https://www.thc.nic.in/Central%20Governmental%20Ordinances/Immigration%20and%20Foreigners%20Order,%202025..pdf",
+     "checked": "2026-11-03",
+     "supports": "paragraph 14 (permit to enter or stay, e-FRRO or Su-Swagatam application, electronic permit, civil authority conditions incl. photography); Third Schedule (Arunachal Pradesh, Manipur, Mizoram, Nagaland, Sikkim entire state); Fourth Schedule (no Assam, Meghalaya or Tripura entries) (read directly)"
+    }
+   ]
   }
  }
 }

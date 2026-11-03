@@ -3,9 +3,9 @@
  "patterns": {
   "entry": {
    "status": "visa-required",
-   "summary": "A visa is needed, arranged through the Tourism Council of Bhutan, with the Sustainable Development Fee.",
+   "summary": "A visa is needed, approved before travel (online with the Department of Immigration, or through a tour operator or hotel), paid with the USD 40 fee and the Sustainable Development Fee. A certified guide is mandatory.",
    "other": "Some areas need extra permits, arranged through your guide. Bhutan doesn't recognise de facto or same-sex relationships for dependent visas.",
-   "checked": "2026-10-31",
+   "checked": "2026-11-03",
    "evidence": "official",
    "sources": [
     {
@@ -14,6 +14,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
      "checked": "2026-10-31",
      "supports": "entry conditions as read on 2026-10-31"
+    },
+    {
+     "title": "FAQs",
+     "authority": "Department of Tourism, Royal Government of Bhutan",
+     "url": "https://bhutan.travel/faqs",
+     "checked": "2026-11-03",
+     "supports": "USD 40 visa fee paid with the SDF, up to 5 days to process, 90-day stay; guide mandatory at all times and for land-border visitors going beyond border towns; no route permit with a certified guide; treks with an accredited operator or guide; guide needed to enter dzongs; 24-hour SDF waiver in Samtse, Phuentsholing, Gelephu and Samdrup Jongkhar from 2 June 2026 to August 2027; children under 6 exempt; airports Paro and Gelephu, flights from Bagdogra and Guwahati (read directly)"
     }
    ]
   },
@@ -145,29 +152,40 @@
    }
   },
   "zone-requirements": {
-   "status": "partly-vetted",
-   "checked": "2026-10-31",
+   "status": "requirements-found",
+   "checked": "2026-11-03",
    "evidence": "official",
    "layers": [
     {
-     "type": "area-permit",
-     "authority": "Bhutan's immigration, through your licensed guide",
-     "process": "Permits for some areas beyond Thimphu and Paro are arranged by your guide.",
+     "type": "guide-required",
+     "authority": "Department of Tourism, Royal Government of Bhutan",
+     "process": "A Department of Tourism certified guide must accompany you at all times, and to enter dzongs and monuments. Land-border visitors need a guide to go beyond the border town. With a certified guide no separate route permit is needed. All treks go with an accredited operator or guide.",
      "lead_time_days": 30,
      "activities": [
       "all"
      ],
-     "url": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
-     "checked": "2026-10-31"
+     "url": "https://bhutan.travel/faqs",
+     "checked": "2026-11-03"
+    },
+    {
+     "type": "fee",
+     "authority": "Department of Tourism, Royal Government of Bhutan",
+     "process": "Visitors who stay up to 24 hours within the designated zones of Samtse, Phuentsholing (up to Rinchending checkpost), Gelephu (Aipoli Bridge) and Samdrup Jongkhar (Pinchinna checkpost) don't pay the SDF (2 June 2026 to August 2027). Going beyond the zone triggers the SDF and the guide rule.",
+     "lead_time_days": 0,
+     "activities": [
+      "tourism"
+     ],
+     "url": "https://bhutan.travel/faqs",
+     "checked": "2026-11-03"
     }
    ],
    "sources": [
     {
-     "title": "Bhutan travel advice",
-     "authority": "Smartraveller, Australian Government",
-     "url": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
-     "checked": "2026-10-31",
-     "supports": "entry conditions as read on 2026-10-31"
+     "title": "FAQs",
+     "authority": "Department of Tourism, Royal Government of Bhutan",
+     "url": "https://bhutan.travel/faqs",
+     "checked": "2026-11-03",
+     "supports": "USD 40 visa fee paid with the SDF, up to 5 days to process, 90-day stay; guide mandatory at all times and for land-border visitors going beyond border towns; no route permit with a certified guide; treks with an accredited operator or guide; guide needed to enter dzongs; 24-hour SDF waiver in Samtse, Phuentsholing, Gelephu and Samdrup Jongkhar from 2 June 2026 to August 2027; children under 6 exempt; airports Paro and Gelephu, flights from Bagdogra and Guwahati (read directly)"
     }
    ]
   },
@@ -697,11 +715,11 @@
   },
   "visa-preparation": {
    "status": "steps-found",
-   "checked": "2026-11-01",
-   "last_reviewed": "2026-11-01",
+   "checked": "2026-11-03",
+   "last_reviewed": "2026-11-03",
    "evidence": "official",
    "needs_recheck": false,
-   "entry_summary": "Visa must be arranged through a licensed tour operator.",
+   "entry_summary": "Visa needed, approved before travel (apply online with the Department of Immigration, or through a Bhutanese tour operator or hotel), paid together with the Sustainable Development Fee.",
    "cost_aud_baseline": {
     "value": "High (daily fee applies)",
     "checked": "2025-08-16",
@@ -720,10 +738,17 @@
    "fastest_entry": "Visa needed, approved in advance (through a Bhutanese tour operator, hotel or the Department of Immigration) and issued on arrival.",
    "steps": [
     {
-     "step": "Apply online and pay the visa fee and Sustainable Development Fee (SDF) during the application.",
-     "url": "https://visit.doi.gov.bt/help/faq"
+     "step": "Book a Department of Tourism certified guide (mandatory at all times, including from a land border beyond the border town).",
+     "url": "https://bhutan.travel/faqs"
     },
-    "Some areas need permits; a guide can arrange them.",
+    {
+     "step": "Apply online for the visa and pay the USD 40 visa fee and the Sustainable Development Fee together; allow up to 5 days.",
+     "url": "https://bhutan.travel/faqs"
+    },
+    {
+     "step": "Enter by air at Paro (or Gelephu), or by land at Phuentsholing opposite Jaigaon, West Bengal. Gelephu, Samdrup Jongkhar and Samtse land entry is described for Indian guests only.",
+     "url": "https://www.btcl.bt/getting-in-to-bhutan/"
+    },
     "Get the visa stamped on arrival."
    ],
    "documents": [
@@ -735,15 +760,29 @@
      "item": "visa",
      "amount": 40,
      "currency": "USD",
-     "url": "https://visit.doi.gov.bt/help/faq",
-     "checked": "2026-11-01"
+     "url": "https://bhutan.travel/faqs",
+     "checked": "2026-11-03"
     },
     {
-     "item": "Sustainable Development Fee, per adult per night (discount to 31 August 2027)",
+     "item": "Sustainable Development Fee, per adult per night (discount from USD 200, to 31 August 2027)",
      "amount": 100,
      "currency": "USD",
-     "url": "https://visit.doi.gov.bt/help/faq",
-     "checked": "2026-11-01"
+     "url": "https://bhutan.travel/announcements",
+     "checked": "2026-11-03"
+    },
+    {
+     "item": "Sustainable Development Fee, child 6 to 12, per night",
+     "amount": 50,
+     "currency": "USD",
+     "url": "https://www.btcl.bt/getting-in-to-bhutan/",
+     "checked": "2026-11-03"
+    },
+    {
+     "item": "Sustainable Development Fee, child under 6",
+     "amount": 0,
+     "currency": "USD",
+     "url": "https://bhutan.travel/faqs",
+     "checked": "2026-11-03"
     }
    ],
    "sources": [
@@ -755,18 +794,40 @@
      "supports": "visa status, pre-arrival forms and border documents as read"
     },
     {
-     "title": "Visit Bhutan FAQ",
-     "authority": "Department of Immigration, Bhutan",
-     "url": "https://visit.doi.gov.bt/help/faq",
-     "supports": "visa fee and SDF (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
-     "checked": "2026-11-01"
+     "title": "FAQs",
+     "authority": "Department of Tourism, Royal Government of Bhutan",
+     "url": "https://bhutan.travel/faqs",
+     "checked": "2026-11-03",
+     "supports": "USD 40 visa fee paid with the SDF, up to 5 days to process, 90-day stay; guide mandatory at all times and for land-border visitors going beyond border towns; no route permit with a certified guide; treks with an accredited operator or guide; guide needed to enter dzongs; 24-hour SDF waiver in Samtse, Phuentsholing, Gelephu and Samdrup Jongkhar from 2 June 2026 to August 2027; children under 6 exempt; airports Paro and Gelephu, flights from Bagdogra and Guwahati (read directly)"
+    },
+    {
+     "title": "Announcements",
+     "authority": "Department of Tourism, Royal Government of Bhutan",
+     "url": "https://bhutan.travel/announcements",
+     "checked": "2026-11-03",
+     "supports": "SDF USD 100 per person per night for US-dollar-paying tourists (50% off USD 200) from 1 September 2023 to 31 August 2027; 50% off child rates (6 to 12); 14 September 2026 notice on guide engagement at land ports (read directly)"
+    },
+    {
+     "title": "Bhutan travel advice: entry requirements",
+     "authority": "UK Foreign, Commonwealth and Development Office",
+     "url": "https://www.gov.uk/foreign-travel-advice/bhutan/entry-requirements",
+     "checked": "2026-11-03",
+     "supports": "enter or exit by Paro airport or the Phuentsholing land entry point; SDF USD 100 per night (read directly)"
+    },
+    {
+     "title": "Getting into Bhutan",
+     "authority": "Bhutan Tourism Corporation Limited (state-owned)",
+     "url": "https://www.btcl.bt/getting-in-to-bhutan/",
+     "checked": "2026-11-03",
+     "supports": "all visitors may enter by land at Phuentsholing; Gelephu, Samdrup Jongkhar and Samtse land entry for Indian guests (read directly)"
     }
    ],
    "baseline_unverified": {
     "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
     "documents": [],
     "steps": []
-   }
+   },
+   "notes": "News sites report the USD 100 rate extended to 31 December 2029; not found on the Department of Tourism announcements page on 3 November 2026, so the official end date is still 31 August 2027. The 24-hour border-town waiver can't be combined with the discount."
   },
   "culture-cycles": {
    "status": "partly-mapped",

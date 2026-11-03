@@ -7,37 +7,40 @@
    "evidence": "official",
    "layers": [
     {
-     "type": "protected-area-permit",
-     "authority": "India's Ministry of Home Affairs and the Government of Arunachal Pradesh",
-     "process": "Reported: the whole state is a protected area for foreigners, who need a Protected Area Permit (around 30 days, with copies of visa, passport and photos). The Inner Line Permit is for Indian citizens.",
-     "lead_time_days": 21,
-     "activities": [
-      "all"
-     ],
-     "url": "https://www.immihelp.com/protected-restricted-area-permit-india/",
-     "checked": "2026-10-31",
-     "evidence": "signal"
-    },
-    {
      "type": "entry-permit",
      "authority": "Ministry of Home Affairs, Government of India (e-FRRO portal)",
-     "process": "The entire area of Arunachal Pradesh is a Protected Area under the Third Schedule of India's Immigration and Foreigners Order 2025. Foreigners need a Protected Area Permit to enter or stay. Apply online at indianfrro.gov.in (the e-FRRO portal) or in the Indian Visa Su-Swagatam app; the permit is issued electronically. Citizens of Afghanistan, China or Pakistan, and people of origin there (born there, a parent or grandparent born and permanently living there, or ever a citizen), need the central government's prior approval. Smartraveller advises applying at least 4 weeks ahead; entering without a permit carries significant penalties.",
-     "lead_time_days": 28,
+     "process": "The entire area of Arunachal Pradesh is a Protected Area (Third Schedule, Immigration and Foreigners Order 2025). Every foreigner needs a Protected Area Permit. Apply online at indianfrro.gov.in (e-FRRO) or the Indian Visa Su-Swagatam app; permits are electronic only. Indian missions advise getting approval 30 days ahead if applying with the visa, or 15 days ahead via the FRRO if already in India.",
+     "lead_time_days": 30,
      "activities": [
       "all"
      ],
      "url": "https://www.thc.nic.in/Central%20Governmental%20Ordinances/Immigration%20and%20Foreigners%20Order,%202025..pdf",
      "checked": "2026-11-03"
+    },
+    {
+     "type": "fee",
+     "authority": "Department of Tourism, Government of Arunachal Pradesh",
+     "process": "Foreign tourists pay a royalty of USD 30 per head to the Government of Arunachal Pradesh, and tourist PAP applications go through an approved local tour operator only.",
+     "lead_time_days": 30,
+     "activities": [
+      "tourism"
+     ],
+     "url": "https://arunachaltourism.com/protected-area-permit/",
+     "checked": "2026-11-03"
+    },
+    {
+     "type": "guide-required",
+     "authority": "Ministry of Home Affairs, Government of India",
+     "process": "MHA's PAP/RAP FAQ says tourist permits are valid for groups of two or more, only for the named circuit and entry and exit points, with copies deposited at each check point. This FAQ predates the 2025 Order and is no longer online, so confirm the group rule with the tour operator.",
+     "lead_time_days": 30,
+     "activities": [
+      "tourism"
+     ],
+     "url": "https://www.mha.gov.in/sites/default/files/FAQs-onPAPandRAP.pdf",
+     "checked": "2026-11-03"
     }
    ],
    "sources": [
-    {
-     "title": "Protected and restricted area permit for India",
-     "authority": "Signal: secondary site",
-     "url": "https://www.immihelp.com/protected-restricted-area-permit-india/",
-     "checked": "2026-10-31",
-     "supports": "PAP for foreigners"
-    },
     {
      "title": "Immigration and Foreigners Order, 2025 (S.O. 3986(E), 1 September 2025)",
      "authority": "Ministry of Home Affairs, Government of India (Gazette of India copy hosted by the High Court of Tripura)",
@@ -58,9 +61,53 @@
      "url": "https://eilp.arunachal.gov.in/",
      "checked": "2026-11-03",
      "supports": "tourist eILP for Indian visitors; the ePAP link for foreigners goes to the e-FRRO portal (read directly)"
+    },
+    {
+     "title": "Protected Area Permit",
+     "authority": "Department of Tourism, Government of Arunachal Pradesh",
+     "url": "https://arunachaltourism.com/protected-area-permit/",
+     "checked": "2026-11-03",
+     "supports": "USD 30 per head royalty; apply through approved local tour operator only (read directly)"
+    },
+    {
+     "title": "Protected Area Permit / Restricted Area Permit",
+     "authority": "High Commission of India, Kampala",
+     "url": "https://hcikampala.gov.in/pages/MTQ2",
+     "checked": "2026-11-03",
+     "supports": "all of Arunachal Pradesh, Manipur, Mizoram, Nagaland and Sikkim need PAP/RAP; e-FRRO only; approvals 30 days ahead with the visa, or 15 days ahead to the FRRO if already in India; Bhutan citizens exempt (read via a search-index snapshot)"
+    },
+    {
+     "title": "Frequently Asked Questions on PAP/RAP regime",
+     "authority": "Ministry of Home Affairs, Government of India",
+     "url": "https://www.mha.gov.in/sites/default/files/FAQs-onPAPandRAP.pdf",
+     "checked": "2026-11-03",
+     "supports": "group of two or more, specific circuit and entry/exit points (older edition; returned 404 on 3 November 2026) (read via a search-index snapshot)"
     }
    ],
-   "note": "Confirm on the e-FRRO portal or with the state. The state's eILP portal sends foreigners to the e-FRRO portal for the ePAP; its Inner Line Permit is for Indian visitors."
+   "note": "Tawang district's tourism page still quotes USD 50 royalty; the state tourism department page says USD 30."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-03",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "The whole of Arunachal Pradesh is a Protected Area: a foreigner must hold a permit to enter or stay. The civil authority can attach conditions, including reporting to police and limits on surveying, sketching or photography.",
+     "level": "region",
+     "source": "https://www.thc.nic.in/Central%20Governmental%20Ordinances/Immigration%20and%20Foreigners%20Order,%202025..pdf",
+     "checked": "2026-11-03"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Immigration and Foreigners Order, 2025 (S.O. 3986(E), 1 September 2025)",
+     "authority": "Ministry of Home Affairs, Government of India (Gazette of India copy hosted by the High Court of Tripura)",
+     "url": "https://www.thc.nic.in/Central%20Governmental%20Ordinances/Immigration%20and%20Foreigners%20Order,%202025..pdf",
+     "checked": "2026-11-03",
+     "supports": "paragraph 14 (permit to enter or stay, e-FRRO or Su-Swagatam application, electronic permit, civil authority conditions incl. photography); Third Schedule (Arunachal Pradesh, Manipur, Mizoram, Nagaland, Sikkim entire state); Fourth Schedule (no Assam, Meghalaya or Tripura entries) (read directly)"
+    }
+   ]
   }
  }
 }
