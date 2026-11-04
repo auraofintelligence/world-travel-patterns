@@ -1,0 +1,57 @@
+{
+ "place": "tr/istanbul-province",
+ "patterns": {
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Ministry of Culture and Tourism (Türkiye)",
+     "process": "Hagia Sophia History and Experience Museum (Ayasofya Tarih ve Deneyim Müzesi, on Sultanahmet Square, a separate building from the mosque): entry €25, about A$39.73 at the RBA rate of 30 October 2026 (A$1 = EUR 0.6293). The MüzeKart museum pass is not valid there. Open 9 am to 8 pm; the ticket office closes at 7 pm.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://muze.gov.tr/muze-detay?SectionId=YSM01&DistId=MRK",
+     "checked": "2026-11-05"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hagia Sophia History and Experience Museum",
+     "authority": "Ministry of Culture and Tourism, Türkiye (muze.gov.tr)",
+     "url": "https://muze.gov.tr/muze-detay?SectionId=YSM01&DistId=MRK",
+     "checked": "2026-11-05",
+     "supports": "fee, MüzeKart not valid, hours (read directly 2026-11-05)"
+    }
+   ],
+   "note": "The foreign visitor fee for the Hagia Sophia mosque itself (reported in 2024 news as €25) was not found on a ministry or Diyanet page, so it is not recorded."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Galata Tower Museum: children under 18 must visit with their parents.",
+     "level": "site",
+     "source": "https://muze.gov.tr/muze-detay?SectionId=GLT04&DistId=MRK",
+     "checked": "2026-11-05"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Galata Tower Museum",
+     "authority": "Ministry of Culture and Tourism, Türkiye (muze.gov.tr)",
+     "url": "https://muze.gov.tr/muze-detay?SectionId=GLT04&DistId=MRK",
+     "checked": "2026-11-05",
+     "supports": "under-18s with parents (read directly 2026-11-05)"
+    }
+   ],
+   "note": "Galata Tower only. Mosque visiting rules from the Diyanet or a mosque administration not yet found."
+  }
+ }
+}

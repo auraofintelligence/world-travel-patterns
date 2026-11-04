@@ -137,6 +137,92 @@
    "checked": "2026-11-05",
    "evidence": "Official pages; read directly unless marked search snapshot.",
    "summary": "4 sites in Aswan. Abu Simbel and Kom Ombo prices are from the November 2024 price list; a booking site shows higher Abu Simbel prices, not recorded."
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Ministry of Tourism and Antiquities",
+     "process": "Abu Simbel: foreign adult EGP 750 (about A$19.47), student EGP 375 (about A$9.74), at A$1 = about EGP 38.51 (Central Bank of Egypt average market rate for USD on 4 November 2026, EGP 54.70 mid, crossed with the RBA rate of 30 October 2026, A$1 = USD 0.7040). On 22 February and 22 October the price is higher: adult EGP 1,200 (about A$31.16), student EGP 600. Open 6 am to 5 pm. Vehicles: car or taxi EGP 25, minibus EGP 50, coaster EGP 75, bus EGP 100.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://egymonuments.gov.eg/en/archaeological-sites/abu-simbel",
+     "checked": "2026-11-05"
+    },
+    {
+     "type": "fee",
+     "authority": "Ministry of Tourism and Antiquities",
+     "process": "Philae: foreign adult EGP 550 (about A$14.28), student EGP 275; the temple panorama is a separate EGP 200 adult, EGP 100 student. Open 7 am to 4 pm.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://egymonuments.gov.eg/en/archaeological-sites/philae",
+     "checked": "2026-11-05"
+    },
+    {
+     "type": "transport-control",
+     "authority": "Smartraveller, Australian Government",
+     "process": "Smartraveller says road travel to Abu Simbel, 40 km north of the Sudanese border, can be dangerous, and that if you go you should only travel with an organised tour guarded by police escorts.",
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.smartraveller.gov.au/destinations/africa/egypt",
+     "checked": "2026-11-05"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Abu Simbel",
+     "authority": "Ministry of Tourism and Antiquities, Egypt (Discover Egypt's Monuments)",
+     "url": "https://egymonuments.gov.eg/en/archaeological-sites/abu-simbel",
+     "checked": "2026-11-05",
+     "supports": "ticket prices incl. 22 Feb and 22 Oct, hours, vehicles (read directly 2026-11-05)"
+    },
+    {
+     "title": "Philae",
+     "authority": "Ministry of Tourism and Antiquities, Egypt (Discover Egypt's Monuments)",
+     "url": "https://egymonuments.gov.eg/en/archaeological-sites/philae",
+     "checked": "2026-11-05",
+     "supports": "ticket prices and hours (read directly 2026-11-05)"
+    },
+    {
+     "title": "Egypt travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/africa/egypt",
+     "checked": "2026-11-05",
+     "supports": "Abu Simbel road travel with police-escorted organised tours (read directly 2026-11-05)"
+    }
+   ]
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "festivals": [
+    "22 February and 22 October each year: Abu Simbel has its own higher ticket price on these two days (foreign adult EGP 1,200), set by the Ministry of Tourism and Antiquities."
+   ],
+   "closures": [],
+   "moving_calendars": [],
+   "protocol_notes": [],
+   "public_holidays": [
+    "No governorate-only public holidays recorded: Egypt's public holidays are on Egypt's record."
+   ],
+   "sources": [
+    {
+     "title": "Abu Simbel",
+     "authority": "Ministry of Tourism and Antiquities, Egypt (Discover Egypt's Monuments)",
+     "url": "https://egymonuments.gov.eg/en/archaeological-sites/abu-simbel",
+     "checked": "2026-11-05",
+     "supports": "22 February and 22 October pricing (read directly 2026-11-05)"
+    }
+   ],
+   "note": "The ministry page sets the special price on those dates but does not describe the occasion, so it is not described here."
   }
  }
 }
