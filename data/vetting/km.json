@@ -585,37 +585,52 @@
   },
   "visa-preparation": {
    "status": "confirm-in-writing",
-   "checked": "2026-11-04",
-   "last_reviewed": "2026-11-04",
+   "checked": "2026-11-05",
+   "last_reviewed": "2026-11-05",
    "evidence": "official",
-   "entry_summary": "Visa on arrival at Moroni (Prince Said Ibrahim) airport, as read; fee and documents to confirm.",
+   "entry_summary": "Visa on arrival for every nationality at the main airports and ports, for up to 45 days (renewable); fee about EUR 30 to 50 as published.",
    "cost_aud_baseline": {
     "value": "~ $75",
     "checked": "2025-08-16",
     "label": "Precursor estimate from Luke's earlier notes (Australian-visa-activity-atlas); not an official figure and not an authority. No official fee page found yet."
    },
-   "steps": [],
+   "steps": [
+    {
+     "step": "Arrive at a main airport or port with a passport valid more than 6 months and a return or onward ticket; the visa is issued on arrival for stays up to 45 days, renewable.",
+     "url": "https://www.comorostourism.com/en/preparersonvoyage/visa_et_formalites_d_entree"
+    }
+   ],
    "documents": [
-    "Passport valid 6 months",
-    "Onward ticket"
+    "Passport valid more than 6 months",
+    "Return or onward ticket"
    ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "note": "precursor notes, kept only for the rough cost estimate; not an authority"
    },
-   "recheck_note": "Snapshot only; fee not stated on an official page read.",
+   "recheck_note": "Tourism office page read directly on 2026-11-05: the fee is given only as a range (about EUR 30 to 50); confirm the exact amount with the immigration service. No Smartraveller page for Comoros.",
    "fastest_entry": "Visa on arrival.",
-   "fees": [],
+   "fees": [
+    {
+     "item": "visa on arrival (published as about EUR 30 to 50; lower figure shown, about A$79 at the upper figure)",
+     "amount": 30,
+     "currency": "EUR",
+     "url": "https://www.comorostourism.com/en/preparersonvoyage/visa_et_formalites_d_entree",
+     "checked": "2026-11-05",
+     "aud": 47.67,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = EUR 0.6293"
+    }
+   ],
    "sources": [
     {
      "title": "Visa and entry formalities",
      "authority": "Office National du Tourisme des Comores",
      "url": "https://www.comorostourism.com/en/preparersonvoyage/visa_et_formalites_d_entree",
-     "checked": "2026-11-04",
-     "supports": "visa issued on arrival (read via a search-index snapshot)"
+     "checked": "2026-11-05",
+     "supports": "visa on arrival for all nationalities at main airports and ports, passport +6 months, return ticket, fee about EUR 30 to 50, up to 45 days renewable (read directly)"
     }
-   ],
-   "source_note": "Rechecked on 4 November 2026 against the remaining official sources (read directly); only sentences clearly absent from those sources were removed."
+   ]
   },
   "local-law": {
    "status": "partly-mapped",

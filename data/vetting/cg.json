@@ -502,19 +502,38 @@
    "notes": "Canada gives consular help to Australians here under the Canada-Australia consular sharing arrangement. DFAT also lists: Republic of the Congo (Canadian Embassy – Kinshasa) - see also Nigeria."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
+   "status": "confirm-in-writing",
+   "checked": "2026-11-05",
+   "last_reviewed": "2026-11-05",
+   "evidence": "official",
    "needs_recheck": true,
-   "entry_summary": "Visa required in advance.",
+   "entry_summary": "Visa required unless you're visa-exempt. The Ministry of the Interior runs an online e-Visa (tourist visa up to 90 days); an e-TA (electronic travel authorisation) is for visa-exempt nationals only.",
    "cost_aud_baseline": {
     "value": "~ $150",
     "checked": "2025-08-16",
     "claim_id": "WORLD-CONGO-REP-COST"
    },
-   "steps": [],
-   "documents": [],
+   "steps": [
+    {
+     "step": "Use the ministry's eligibility check to see whether you need an e-Visa or an e-TA.",
+     "url": "https://www.interieur.gouv.cg/e-services/evisa"
+    },
+    {
+     "step": "Apply online in eight steps: visa type and purpose, identity, passport, travel details, accommodation or host, supporting documents, payment, then review and submit. Track the application and download the visa when it's issued.",
+     "url": "https://www.interieur.gouv.cg/e-services/evisa"
+    },
+    {
+     "step": "Enter at a listed point: Maya-Maya airport (Brazzaville), Antonio Agostinho-Neto airport (Pointe-Noire), Denis Sassou-Nguesso airport (Ollombo), Ouesso airport, Pointe-Noire port or the Brazzaville river beach.",
+     "url": "https://www.interieur.gouv.cg/e-services/evisa"
+    }
+   ],
+   "documents": [
+    "Passport valid at least 6 months after the planned entry date",
+    "Recent identity photo (light background, head uncovered)",
+    "Return ticket or confirmed itinerary",
+    "Hotel booking or letter of welcome from a host",
+    "Other documents depending on the visa type"
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -525,8 +544,36 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: no Smartraveller advice and no Republic of the Congo government visa page found.",
-   "source_note": "Still flagged on 4 November 2026: no official source from the place itself (and no Smartraveller page) supports this record yet; treat it as not yet checked."
+   "recheck_note": "Read directly on 2026-11-05. The ministry page doesn't say whether Australians are visa-exempt (e-TA) or need the e-Visa; run its eligibility check. Fees for business, transit, work, study, family-visit, medical and official visas were still 'being published'; the e-TA fee scale and document list were still to come. No Smartraveller page for the Republic of the Congo.",
+   "fastest_entry": "Online e-Visa from the Ministry of the Interior, downloaded once issued.",
+   "fees": [
+    {
+     "item": "tourist e-Visa, single entry, 30 days",
+     "amount": 17000,
+     "currency": "XAF",
+     "url": "https://www.interieur.gouv.cg/e-services/evisa",
+     "checked": "2026-11-05",
+     "aud": 41.18,
+     "rate_date": "2026-10-30",
+     "rate_note": "RBA 30 Oct 2026: A$1 = EUR 0.6293; XAF fixed at 655.957 per EUR (BEAC parity)"
+    }
+   ],
+   "sources": [
+    {
+     "title": "e-Visa: electronic visa application",
+     "authority": "Ministry of the Interior and Decentralisation, Republic of the Congo",
+     "url": "https://www.interieur.gouv.cg/e-services/evisa",
+     "checked": "2026-11-05",
+     "supports": "visa types, 30-day tourist fee 17,000 XAF, eight steps, common documents, entry points (read directly)"
+    },
+    {
+     "title": "e-TA: electronic travel authorisation",
+     "authority": "Ministry of the Interior and Decentralisation, Republic of the Congo",
+     "url": "https://www.interieur.gouv.cg/e-services/e-ta",
+     "checked": "2026-11-05",
+     "supports": "e-TA for visa-exempt nationals, answer within 3 days, valid 24 months, 90 days per entry; fees not yet published (read directly)"
+    }
+   ]
   },
   "local-law": {
    "status": "partly-mapped",

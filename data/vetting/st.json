@@ -588,16 +588,33 @@
   },
   "visa-preparation": {
    "status": "confirm-in-writing",
-   "checked": "2026-11-04",
-   "last_reviewed": "2026-11-04",
+   "checked": "2026-11-05",
+   "last_reviewed": "2026-11-05",
    "evidence": "official",
    "entry_summary": "Australia isn't on the 15-day visa-exempt list (CPLP, EU, UK, US, Canada and named countries) as read; a visa is likely needed unless you hold a valid Schengen or US visa.",
-   "steps": [],
-   "documents": [
-    "Passport valid more than 3 months"
+   "steps": [
+    {
+     "step": "Apply online at e-VisaST in three steps: choose the visa type, fill in the form, review and submit. Keep the process (reference) number it gives you.",
+     "url": "https://www.smf.st/evisa/"
+    },
+    {
+     "step": "Expect an answer within 7 working days; check its status on the SMF site under Autorização de entrada, then Consulta de visto de entrada.",
+     "url": "https://www.smf.st/evisa/"
+    },
+    {
+     "step": "Pay the visa fee at the border, and be ready to show proof of means of support (EUR 100 a day as published).",
+     "url": "https://www.smf.st/evisa/"
+    }
    ],
-   "recheck_note": "Read only as a search snapshot; confirm the Schengen/US visa concession and how to apply.",
-   "fastest_entry": "Ask the nearest São Tomé and Príncipe mission.",
+   "documents": [
+    "Passport valid more than 3 months beyond the last day of stay on the visa (scanned as PDF for the application)",
+    "Return ticket",
+    "Booking details and a contact in São Tomé and Príncipe (your hotel if you have no other)",
+    "Proof of means of support at the border",
+    "For a minor: birth record and a declaration from the legal guardians"
+   ],
+   "recheck_note": "e-VisaST page read directly on 2026-11-05. The visa fee amount isn't on the SMF fees page (it lists passport fees only), and the Schengen or US visa concession wasn't confirmed. No Smartraveller page for São Tomé and Príncipe.",
+   "fastest_entry": "Online e-Visa (e-VisaST) from the Migration and Borders Service (SMF); answer within 7 working days; pay at the border.",
    "fees": [],
    "sources": [
     {
@@ -606,6 +623,13 @@
      "url": "https://www.smf.st/resource/upload/fileLegislacao/3b08292f5e5b8ffe737f471778fc5ad5.pdf",
      "checked": "2026-11-04",
      "supports": "15-day exemption list; Australia not found on it (read via a search-index snapshot)"
+    },
+    {
+     "title": "e-VisaST",
+     "authority": "Serviço de Migração e Fronteiras (SMF), São Tomé and Príncipe",
+     "url": "https://www.smf.st/evisa/",
+     "checked": "2026-11-05",
+     "supports": "three-step online application, 7 working days, documents, EUR 100 a day means of support, payment at the border (read directly)"
     }
    ],
    "source_note": "Rechecked on 4 November 2026 against the remaining official sources (read directly); only sentences clearly absent from those sources were removed."
