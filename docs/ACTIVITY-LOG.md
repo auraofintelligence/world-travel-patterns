@@ -1407,3 +1407,11 @@ For Claude.
   - Added: Biennale Architettura, 8 May to 21 November 2027 (labiennale.org, direct), to it; WOMADelaide, 5 to 8 March 2027 (direct), to au/sa.
   - Still no official dates: Web Summit, Slush, Tomorrowland, Iceland Airwaves, Coachella (now added to the pending list) and Brisbane Writers Festival.
 - **Not reached:** activities confirm-in-writing, Europe regions, and the culture cycles other than xk.
+
+## 2026-11-04 (AEST): Automation recheck plan
+
+For Claude. Automations are paused until the first full dataset is complete; this records what they should check, and when, once they resume. No workflows, routines or vetting records were changed.
+- **New:** `scripts/recheck_plan.py` (no network) builds `config/recheck-plan.json` and `docs/AUTOMATION-CHECKLIST.md` from patterns, data/watch.json, data/advisories.json, pending-official-dates.json, vetting records and config/home-base.json. Rerun it after data changes; `--check` reports staleness. Test: tests/test_recheck_plan.py.
+- **Global cadence** follows each pattern's baseline_days: advisory daily; entry, visa prep, activities, health, zones, money, consular, local law, substances, affection and year-ahead quarterly (90 days); culture cycles, protocol, seasons and languages yearly; home obligations every 180 days. ETIAS/EES monthly; source hashes weekly.
+- **Per-location tiers:** weekly for Do not travel; fortnightly for Reconsider, open watch items or legacy-baseline evidence; monthly for high caution, pending event dates, dated rules, elections or snapshot evidence.
+- **Gaps:** Brisbane Writers Festival 2027 isn't in the data. The date scan only reads "until/by/from/to <date>" wording, so New Mexico's alternative 31 December 2026 Department of Health date is in the text but not listed as a trigger. Home renewal due dates (rates, rego, VAP exemption) aren't recorded.
