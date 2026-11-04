@@ -14,6 +14,25 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Miyajima visitor tax"
+    },
+    {
+     "topic": "tax-and-fees",
+     "rule": "Hiroshima Prefecture's accommodation tax (shukuhaku-zei) started on 1 April 2026: JPY 200 a person a night (about A$1.80, RBA rate of 30 October 2026, A$1 = JPY 110.82) where the room-only charge is JPY 6,000 or more before tax (about A$54.14); stays under JPY 6,000 are not taxed. School trips are exempt with a principal's certificate given to the lodging by the day before. It covers hotels, ryokan, simple lodgings and minpaku (registered private home stays) and is paid at the lodging.",
+     "level": "state",
+     "source": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/648404.pdf",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "宿泊税に関するお知らせ"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Hiroshima City sets smoking restriction zones (kitsuen seigen kuiki) in the city centre under its anti-littering ordinance: in outdoor public places there (roads, parks, plazas, riverbanks) smoking is banned except at ashtrays the manager has set up, including with a portable ashtray and including heated tobacco. The fine is JPY 1,000 (about A$9.02, RBA rate of 30 October 2026, A$1 = JPY 110.82). The outdoor area of the Peace Memorial Park has been fully smoke-free since 1 April 2018.",
+     "level": "state",
+     "source": "https://www.city.hiroshima.lg.jp/living/gomi-kankyo/1021281/1037470/1046343.html",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "広島市ぽい捨て等の防止に関する条例",
+     "penalty_signal": "JPY 1,000 non-penal fine (karyo)"
     }
    ],
    "sources": [
@@ -23,9 +42,49 @@
      "url": "https://another1000years-miyajima.jp/en/visitortax/index.html",
      "checked": "2026-11-05",
      "supports": "rate, collection and exemptions (read directly 2026-11-05)"
+    },
+    {
+     "title": "宿泊税に関するお知らせ (旅行業関係者向け)",
+     "authority": "Hiroshima Prefecture, Tax Division",
+     "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/648404.pdf",
+     "checked": "2026-11-05",
+     "supports": "rate, JPY 6,000 threshold, start 1 April 2026, school-trip exemption (read directly 2026-11-05)"
+    },
+    {
+     "title": "広島市ぽい捨て等の防止に関する条例",
+     "authority": "Hiroshima City",
+     "url": "https://www.city.hiroshima.lg.jp/living/gomi-kankyo/1021281/1037470/1046343.html",
+     "checked": "2026-11-05",
+     "supports": "smoking restriction zones, JPY 1,000 fine, Peace Memorial Park (read directly 2026-11-05)"
     }
    ],
    "note": "Miyajima only."
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "festivals": [
+    {
+     "what": "Kangensai (Itsukushima Shrine, Miyajima): held on the 17th day of the 6th lunar month, so the date moves each year (30 July in 2026). A boat festival on the sea; related rites fall on lunar 6/10 and 6/11. The shrine's Chinkasai fire rite is on 31 December.",
+     "url": "https://www.itsukushimajinja.jp/jp/event.html",
+     "checked": "2026-11-05"
+    }
+   ],
+   "closures": [],
+   "moving_calendars": [],
+   "protocol_notes": [],
+   "public_holidays": [],
+   "sources": [
+    {
+     "title": "年中行事",
+     "authority": "Itsukushima Shrine",
+     "url": "https://www.itsukushimajinja.jp/jp/event.html",
+     "checked": "2026-11-05",
+     "supports": "lunar date rule, 2026 date (read directly 2026-11-05)"
+    }
+   ],
+   "note": "Dates from the shrine, city or tourism body's own page, read directly 2026-11-05."
   }
  }
 }
