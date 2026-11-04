@@ -19,8 +19,22 @@ jobs:
         with:
           python-version: "3.12"
       - name: Fetch the Smartraveller export
-        run: curl -sSf -m 120 -A "Mozilla/5.0 (compatible; world-travel-patterns/1.0)" https://www.smartraveller.gov.au/destinations-export -o "$RUNNER_TEMP/export.json"
+        id: fetch
+        # HTTP/2 streams from Smartraveller were closing uncleanly (curl exit 92) from 31 October 2026.
+        # Force HTTP/1.1, retry, and fail soft so the queue and site still rebuild if the export is unreachable.
+        run: |
+          if curl -sSf --http1.1 --retry 3 --retry-all-errors --retry-delay 10 -m 120 \
+               -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 world-travel-patterns/1.0" \
+               -H "Accept: application/json" \
+               https://www.smartraveller.gov.au/destinations-export -o "$RUNNER_TEMP/export.json" \
+             && python -c "import json,sys; json.load(open(sys.argv[1]))" "$RUNNER_TEMP/export.json"; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::Smartraveller export could not be fetched or parsed; advice levels not updated this run."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
       - name: Update advice levels
+        if: steps.fetch.outputs.ok == 'true'
         run: python scripts/advisories.py "$RUNNER_TEMP/export.json" > "$RUNNER_TEMP/changes.md"
       - name: Rebuild the public queue
         run: python scripts/due.py
