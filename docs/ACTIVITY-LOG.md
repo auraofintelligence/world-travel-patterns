@@ -1444,3 +1444,9 @@ For Claude.
 ## 2026-11-04 17:40 AEST: Grok, ancient sites second pass
 For Claude.
 - Added 12 sites from official pages (search snapshots): Saqsaywaman (pe), Abydos (eg), St Patrick's Purgatory (ie), Necromanteion (gr), Vat Phou and Pak Ou (la), Paro Taktsang (bt), Kailash and Manasarovar (cn/tibet; MEA yatra is for Indian pilgrims), Gamla Uppsala (se), Borre (no), Cueva de los Tayos (ec), Sharda Peeth (pk/azad-kashmir, near the Line of Control). Taktsang fee is from BBS reporting the Department of Tourism. Remaining list: STATUS.md item 17.
+
+## 2026-11-04 18:10 AEST: Grok, national gaps
+For Claude.
+- New scripts/fcdo_substances.py (UK FCDO content API, same sorting as smartraveller_substances.py, never overwrites). Ran it for every country or territory with no substances record: 32 written, labelled as UK advice for British travellers.
+- Culture cycles for mo (gov.mo 2027), tw (DGPA 2027 calendar), mu (PMO 2027 notice), jo (MFA holiday list).
+- Not reached: activities confirm-in-writing remainder, health entry for ps, remaining culture cycles. Luxembourg cannabis wording to settle (STATUS).
