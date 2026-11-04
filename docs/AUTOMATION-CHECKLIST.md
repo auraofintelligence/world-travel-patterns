@@ -20,6 +20,7 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | visa-preparation | Visa fees, e-visa portals, processing times, documents | Destination e-visa or embassy page | quarterly (90 d) | Fees and portals change with little notice; atlas baselines must be rechecked. |
 | year-ahead | Elections, major events and dated rule changes in the next 12 months | Electoral commissions; organisers; data/watch.json | quarterly (90 d) | Organisers announce next year's dates on known months; elections get called. |
 | zone-requirements | Permits for restricted areas, land councils, parks, island governments, border zones | The zone authority itself | quarterly (90 d) | Permit lead times decide when the approach phase starts. |
+| ancient-sites-and-mysteries | Access, tickets, permits, diving rules and heritage-law protection at ancient, underground and underwater sites | UNESCO World Heritage Centre; national heritage or antiquities authorities; site and park authorities | yearly (180 d) | Opening, ticket caps and closures change; lore stays labelled as claims. |
 | australian-law-abroad | Australian law and guidance that applies to Australians overseas | Commonwealth agency pages (DFAT, ABF, DAFF, ATO, Services Australia, AEC, AFP, AGD, Defence) | yearly (180 d) | Rules and thresholds change. |
 | drone-pilot-pathway | Is there an official register or search tool of certified drone operators here, what licence or certificate must a commercial operator hold, can a foreign visitor fly commercially or must they hire a local operator, and what legal routes exist to existing aerial footage? | the national aviation authority (for example CASA, CAA, FAA, Transport Canada, MLIT, EASA and national authorities); state, park or council permit offices; national tourism boards' and film commissions' own media libraries | yearly (180 d) |  |
 | births-and-family-support | Birth rates and family support | UN WPP; national statistics | yearly (365 d) | Annual data releases. |
@@ -125,7 +126,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | iq | Do not travel | weekly | high advisory, snapshot evidence |  |
 | ir | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
 | kp | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
-| lb | Do not travel | weekly | high advisory |  |
+| lb | Do not travel | weekly | high advisory, snapshot evidence |  |
 | ly | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
 | ml | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
 | mm | Do not travel | weekly | high advisory, snapshot evidence |  |

@@ -37,6 +37,7 @@
     ["relationships", "Affection, relationships and family", ["affection-and-relationships", "births-and-family-support"]],
     ["substances", "Alcohol, drugs and psychoactive medicines", ["psychoactive-substances"]],
     ["cycles", "The year here", ["seasons-and-flow", "year-ahead"]],
+    ["interest", "Ancient sites and mysteries", ["ancient-sites-and-mysteries"]],
     ["practical", "Practical", ["consular", "money-and-cost"]],
     ["purpose", "Works and purpose", ["works-and-purpose"]],
   ];
@@ -97,7 +98,7 @@
   const isRegion = (p) => p.sk === "first-level" || p.kind === "state";
 
   /* Your view: what this browser shows. Kept in this browser only, never sent anywhere. The default is Luke's: a man who loves women. */
-  const VIEW_DEFAULT = { you: "man", love: "women", drones: false, off: [], parts: {} };
+  const VIEW_DEFAULT = { you: "man", love: "women", drones: false, lore: true, off: [], parts: {} };
   function loadView() { try { return { ...VIEW_DEFAULT, parts: {}, ...JSON.parse(localStorage.getItem("wtp-view") || "{}") }; } catch { return { ...VIEW_DEFAULT, off: [], parts: {} }; } }
   function saveView() { try { localStorage.setItem("wtp-view", JSON.stringify(VIEW)); } catch { /* storage blocked: the choice lasts for this page only */ } }
   let VIEW = loadView();
@@ -405,6 +406,18 @@
       (rec.laws || []).filter((l) => partOn(pat.id, l.topic) && droneOk(l)).forEach((l) => { const r = viewText(l.rule); if (r) body += `<div class="detail"><b>${esc(l.topic)}:</b> ${esc(r)}</div>`; });
       (rec.items || []).filter((it) => partOn(pat.id, it.area || it.substance)).map((it) => ({ ...it, text: viewText(it.text) })).filter((it) => it.text).forEach((it) => { body += `<div class="detail"><b>${esc(AREA_LABEL[it.area || it.substance] || it.area || it.substance)}</b>${it.changing ? ' <span class="chip sky">changing</span>' : ""} <span class="chip">${esc(it.kind)}</span>${it.evidence === "signal" ? ' <span class="chip gold">signal</span>' : ""} ${esc(it.text)}</div>`; });
       (rec.layers || []).filter((l) => partOn(pat.id, l.type)).forEach((l) => { body += `<div class="detail"><b>${esc(l.type)}:</b> ${esc(l.process)} (${esc(l.authority)})${l.lead_time_days ? `, lead time ${l.lead_time_days} days` : ""}</div>`; });
+      if (pat.id === "ancient-sites-and-mysteries") {
+        (rec.sites || []).forEach((st) => {
+          const a = st.access || {}, u = st.underwater, pr = st.protection || {};
+          const acc = [["Opening", a.opening], ["Tickets", a.tickets], ["Permits", a.permits], ["Guide", a.guide], ["Closures", a.closures], ["Photography", a.photography]].filter(([, v]) => v).map(([k, v]) => `${k}: ${esc(viewText(v))}`).join(" · ");
+          body += `<div class="detail"><b>${esc(st.name)}</b>${st.era ? ` <span class="chip">${esc(st.era)}</span>` : ""} ${esc(viewText(st.what || ""))}`
+            + (acc ? `<br><span class="meta">${acc}</span>` : "")
+            + (pr.law ? `<br><span class="meta">Protection: ${esc(pr.law)}${pr.penalties ? `; ${esc(pr.penalties)}` : ""}</span>` : "")
+            + (u ? `<br><span class="meta">Diving: ${esc(u.diving || "not yet checked")}${u.guide_or_permit ? ` · ${esc(u.guide_or_permit)}` : ""}${u.law ? ` · law: ${esc(u.law)}` : ""}${u.unesco_2001 ? ` · UNESCO 2001 Convention: ${esc(u.unesco_2001)}` : ""}${u.penalties ? ` · ${esc(u.penalties)}` : ""}</span>` : "")
+            + (st.lore?.text && VIEW.lore !== false ? `<br><span class="chip gold">lore</span> <i>${esc(st.lore.text)}</i>${st.lore.source ? ` <a href="${esc(st.lore.source)}" rel="noopener">source</a>` : ` <span class="meta">(${esc(st.lore.label || "popular lore, not an official source")})</span>`}` : "")
+            + (st.sources || []).map((x) => ` <a href="${esc(x.url)}" rel="noopener">${esc(x.authority || "source")}</a>`).join("") + `</div>`;
+        });
+      }
       if (pat.id === "visa-preparation") {
         [["entry_summary", "Entry"], ["fastest_entry", "Fastest entry"], ["before_departure", "Before departure"], ["useful_stay", "Stay"], ["host_unlock", "With a host"]]
           .forEach(([k, label]) => { const v = viewText(rec[k]); if (v) body += `<div class="detail"><b>${label}:</b> ${esc(v)}</div>`; });
@@ -706,7 +719,7 @@
       <div class="card"><h3>Add a feed</h3><p>A script that writes the shared event shape to <code>data/feeds/</code>. Briefs and the trip watch pick it up.</p></div>
     </div><p style="margin-top:22px"><a href="${REPO}">Source, data and routines on GitHub</a></p></section>
     <section class="section"><h2>Data, for people and agents</h2><div class="table-wrap"><table><tbody>
-      ${[["patterns/", "The seventeen pattern files"], ["data/places/", "The place tree: spine plus one folder per country"], ["data/vetting/", "One record file per vetted place"], ["data/advisories.json", "Smartraveller levels, daily"], ["data/feeds/gajra-ahead.json", "GAJRA Earth Ahead events, daily"], ["data/calendar/", "Public holidays, monthly"], ["data/source-status.json", "Source watch, weekly"], ["queue/due.json", "The public queue"], ["CLAUDE.md", "Working rules for every agent and routine"]]
+      ${[["patterns/", "The pattern files"], ["data/places/", "The place tree: spine plus one folder per country"], ["data/vetting/", "One record file per vetted place"], ["data/advisories.json", "Smartraveller levels, daily"], ["data/feeds/gajra-ahead.json", "GAJRA Earth Ahead events, daily"], ["data/calendar/", "Public holidays, monthly"], ["data/source-status.json", "Source watch, weekly"], ["queue/due.json", "The public queue"], ["CLAUDE.md", "Working rules for every agent and routine"]]
         .map(([p, d]) => `<tr><td><a href="${REPO}/tree/main/${p}"><code>${p}</code></a></td><td>${d}</td></tr>`).join("")}</tbody></table></div></section>
   </main>`;
 
@@ -740,6 +753,11 @@
       <p><label class="pick"><input type="checkbox" id="view-drones"${dronesShown() ? " checked" : ""}> Show drone rules</label></p>
       <p class="meta">Drone rules are collected at every level (national, state or province, city or park) but hidden by default. Tick this to show them on place pages, including the pathway to hire a local registered drone pilot or get footage legally.</p>
       </div></section>
+      <section class="section tight"><div class="card">
+      <h2>Ancient sites and mysteries</h2>
+      <p><label class="pick"><input type="checkbox" id="view-lore"${VIEW.lore !== false ? " checked" : ""}> Show popular lore alongside the official facts</label></p>
+      <p class="meta">On by default. Lore (lost civilisations, ancient aliens, portals, Atlantis) is always labelled as claims, never facts. Untick to see only what official sources say.</p>
+      </div></section>
       <section class="section tight"><div class="card"><h2>Patterns</h2><p class="meta">Untick a pattern to hide it everywhere on the site. Open a pattern to switch its parts on or off one by one.</p>
       ${groups.map(([label, list]) => `<h3 class="month-head">${esc(label)}</h3>${list.map(patBox).join("")}`).join("")}
       </div></section>
@@ -758,6 +776,7 @@
       done();
     }));
     document.getElementById("view-drones").addEventListener("change", (e) => { VIEW.drones = e.target.checked; done(); });
+    document.getElementById("view-lore").addEventListener("change", (e) => { VIEW.lore = e.target.checked; done(); });
     document.getElementById("view-reset").addEventListener("click", async () => {
       VIEW = { ...VIEW_DEFAULT, off: [], parts: {} }; saveView();
       document.getElementById("app").innerHTML = await render.view({ index, credits: {} });
@@ -773,7 +792,7 @@
     const pages = [
       ["Find a place", [["places.html", "Places", "Search and browse every place, from countries to islands, councils and permit zones."], ["place.html?id=au/minjerribah", "A place page", "One place's own rules, with links up to the levels above it. Example: Minjerribah."]]],
       ["Before you go", [["advisories.html", "Advisories", "Today's Smartraveller advice levels and every change since tracking began."], ["upcoming.html", "Upcoming", "Dated events and open calls from GAJRA Earth Ahead, by month and place."]]],
-      ["About this site", [["patterns.html", "Patterns", "The seventeen questions every place is checked against."], ["how.html", "How it works", "The checks, how rules reach down from country to council, culture and permit zones."], ["queue.html", "Queue", "What gets checked next."], ["view.html", "Your view", "Choose what this site shows you, kept in this browser only."]]],
+      ["About this site", [["patterns.html", "Patterns", "The questions every place is checked against."], ["how.html", "How it works", "The checks, how rules reach down from country to council, culture and permit zones."], ["queue.html", "Queue", "What gets checked next."], ["view.html", "Your view", "Choose what this site shows you, kept in this browser only."]]],
     ];
     return hero(credits, "site-map", {
       title: "Site map",

@@ -1,0 +1,30 @@
+{
+ "id": "ancient-sites-and-mysteries",
+ "name": "Ancient sites and mysteries",
+ "layer": "interest",
+ "method": "agent",
+ "inherit": "stack",
+ "question": "Which sites of ancient history are here (lost civilisations, mysterious temples and megaliths, underground cities, submerged ruins and sunken cities), and how can a visitor reach them lawfully: opening, tickets, permits, guides, closures, photography, diving, and the heritage laws and penalties that protect them?",
+ "applies_to": ["country", "territory", "state", "region", "district", "island", "island-group", "zone", "city", "site"],
+ "baseline_days": 180,
+ "sources": [
+  "UNESCO World Heritage Centre (whc.unesco.org) and the UNESCO 2001 Convention states parties list",
+  "national heritage or antiquities ministries and their site pages",
+  "park and site authorities (for example Heritage Malta, English Heritage, Angkor Enterprise, Parco Archeologico dei Campi Flegrei)",
+  "official tourism boards"
+ ],
+ "kinds": ["megalith-or-temple", "lost-city", "underground-city", "underwater-site", "geoglyph", "rock-cut"],
+ "fields": [
+  "sites[]: name, place (place id), kind, era, what, access {opening, tickets, permits, guide, closures, photography}, protection {law, penalties}, underwater {diving, guide_or_permit, law, unesco_2001, penalties} (underwater sites only), lore {text, source (url or null), label}, sources[], checked",
+  "summary"
+ ],
+ "statuses": ["mapped", "partly-mapped", "none-found", "unknown"],
+ "rules": [
+  "Facts (name, era, what it is, access, protection, diving) come only from official sources: UNESCO, national heritage or antiquities authorities, park or site authorities and official tourism boards.",
+  "The lore field holds popular legends and theories (ancient aliens, lost civilisations, portals or stargates, subterranean networks, Atlantis) as claims, never facts. Start with 'Popular theories claim' or 'Local legend says'. If an official page mentions the legend, cite it in lore.source; otherwise set lore.label to 'popular lore, not an official source' and keep it brief and neutral.",
+  "Unchecked access details say 'not yet checked'. Never infer opening hours, prices or diving permission.",
+  "Underwater sites: record whether recreational diving is allowed, any licensed guide or permit, the national underwater cultural heritage law and whether the country is a party to the UNESCO 2001 Convention.",
+  "Stack layout: the country record holds national heritage law and sites; region or site records hold access rules that differ there. Note the Smartraveller advice level where it is Reconsider or Do not travel."
+ ],
+ "version": 1
+}

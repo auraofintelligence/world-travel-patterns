@@ -47,6 +47,7 @@ GLOBAL = {
     "languages": ("Official and widely spoken languages", "Constitution, census", "Very slow-changing."),
     "births-and-family-support": ("Birth rates and family support", "UN WPP; national statistics", "Annual data releases."),
     "works-and-purpose": ("Luke's own work tie-ins (venues, partners, events)", "Luke's repos; venue pages", "Tagged places only."),
+    "ancient-sites-and-mysteries": ("Access, tickets, permits, diving rules and heritage-law protection at ancient, underground and underwater sites", "UNESCO World Heritage Centre; national heritage or antiquities authorities; site and park authorities", "Opening, ticket caps and closures change; lore stays labelled as claims."),
     "australian-law-abroad": ("Australian law and guidance that applies to Australians overseas", "Commonwealth agency pages (DFAT, ABF, DAFF, ATO, Services Australia, AEC, AFP, AGD, Defence)", "Rules and thresholds change."),
 }
 EXTRA_GLOBAL = [

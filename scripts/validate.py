@@ -65,6 +65,17 @@ def main():
                         check(ev["category"] in cats, f"{where}: unknown event category {ev['category']}")
                     if ev.get("by") == "official-events":
                         check(re.fullmatch(r"\d{4}-\d{2}-\d{2}", ev.get("date", "")) and ev.get("url"), f"{where}: official event needs date and url")
+            if pattern_id == "ancient-sites-and-mysteries":
+                for st in body.get("sites", []):
+                    tag = f"{where}: site {st.get('name')}"
+                    check(st.get("name") and st.get("place") in places, f"{tag}: needs a name and a known place")
+                    check(st.get("sources") and all(x.get("url") for x in st["sources"]), f"{tag}: facts need official sources")
+                    lore = st.get("lore") or {}
+                    if lore.get("text"):
+                        check(lore.get("source") or lore.get("label") == "popular lore, not an official source", f"{tag}: unsourced lore must carry the popular-lore label")
+                        check(re.match(r"(Popular theories claim|Local legend says|Popular lore)", lore["text"]), f"{tag}: lore must be framed as claims")
+                    if st.get("kind") == "underwater-site":
+                        check(isinstance(st.get("underwater"), dict) and st["underwater"].get("diving"), f"{tag}: underwater site needs diving access")
             if body.get("provenance", {}).get("repo") is None:
                 check(chr(0x2014) not in text, f"{where}: em dash in new text")
 
