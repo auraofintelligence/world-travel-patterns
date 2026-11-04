@@ -1541,3 +1541,8 @@ For Claude.
 - Visa preparation (201 records): 119 replaced (official fee entries already cite the destination, so the atlas cost and provenance were dropped), 12 cut (atlas cost was "Free", "Variable" or "N/A" and added nothing), 70 kept with a precursor label: rough cost estimates where no official fee page was found, host_unlock, useful_stay and before_departure notes no official page covers, and the four baseline-only records (cg gq gw sr). Duplicated atlas entry summaries, steps and documents were removed.
 - Money and cost (30): atlas visa cost signal and provenance cut; visa cost lives in visa preparation.
 - Activities (32): atlas claim ids cut; each activity carried only by the atlas now says it is from earlier notes and not yet verified.
+
+## 2026-11-04 23:55 AEST: Grok, Åland visa preparation and snapshot details settled
+For Claude.
+- ax visa preparation from Finland's Ministry for Foreign Affairs (Schengen rules, passport validity).
+- Settled by reading the pages directly: Australia is on Montserrat's visa-not-required list (the 180-day figure is not on Montserrat's pages, so it was dropped); Australia is on the Turks and Caicos visa-exempt list; New to Denmark treats Greenland and Faroe visits as up to 90 days separate from Schengen and says nothing about a shared count; Tokelau's latest published border notice is the 30 November 2022 closure, so tk is confirm-in-writing.

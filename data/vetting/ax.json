@@ -443,6 +443,42 @@
      "supports": "tax border (read via a search-index snapshot)"
     }
    ]
+  },
+  "visa-preparation": {
+   "status": "steps-found",
+   "checked": "2026-11-04",
+   "last_reviewed": "2026-11-04",
+   "evidence": "official",
+   "needs_recheck": false,
+   "entry_summary": "Åland is part of Finland and the Schengen area: Australians need no visa for up to 90 days in any 180 across Schengen; the passport must be valid at least three months after leaving Schengen and issued within the last ten years.",
+   "fastest_entry": "Visa-free entry at the Schengen external border.",
+   "steps": [
+    {
+     "step": "Check Finland's visa page for Australian passport holders; entry checks happen at the first Schengen external border.",
+     "url": "https://um.fi/visa-to-visit-finland"
+    },
+    "Count Åland days together with all other Schengen days."
+   ],
+   "documents": [
+    "Passport valid 3 months beyond Schengen departure, issued within 10 years"
+   ],
+   "sources": [
+    {
+     "title": "A visa to visit Finland",
+     "authority": "Ministry for Foreign Affairs of Finland",
+     "url": "https://um.fi/visa-to-visit-finland",
+     "checked": "2026-11-04",
+     "supports": "passport validity rules (search-index snapshot)"
+    },
+    {
+     "title": "Visa requirement and travel documents accepted by Finland",
+     "authority": "Ministry for Foreign Affairs of Finland",
+     "url": "https://um.fi/visa-requirement-and-travel-documents-accepted-by-finland",
+     "checked": "2026-11-04",
+     "supports": "Australia listed (search-index snapshot)"
+    }
+   ],
+   "recheck_note": "Whether ETIAS has started by the travel date should be checked on the EU's ETIAS site before departure."
   }
  }
 }
