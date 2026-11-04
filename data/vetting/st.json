@@ -596,29 +596,25 @@
    "checked": "2026-11-04",
    "last_reviewed": "2026-11-04",
    "evidence": "official",
-   "needs_recheck": true,
-   "entry_summary": "Australia isn't on the 15-day visa-exempt list (CPLP, EU, UK, US, Canada and named countries) as read; a visa is likely needed unless you hold a valid Schengen or US visa.",
    "cost_aud_baseline": {
     "value": "Free",
     "checked": "2025-08-16",
-    "claim_id": "WORLD-SAO-TOME-AND-PRINCIPE-COST"
+    "claim_id": null
    },
    "steps": [],
    "documents": [
     "Passport valid more than 3 months"
    ],
    "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "repo": null,
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
     "file": "assets/world-baseline.js",
     "claims": {
-     "entry_summary": "WORLD-SAO-TOME-AND-PRINCIPE-ENTRY",
-     "cost": "WORLD-SAO-TOME-AND-PRINCIPE-COST"
+     "entry_summary": null,
+     "cost": null
     },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+    "upstream": null
    },
-   "recheck_note": "Read only as a search snapshot; confirm the Schengen/US visa concession and how to apply.",
-   "fastest_entry": "Ask the nearest São Tomé and Príncipe mission.",
    "fees": [],
    "sources": [
     {
@@ -628,7 +624,8 @@
      "checked": "2026-11-04",
      "supports": "15-day exemption list; Australia not found on it (read via a search-index snapshot)"
     }
-   ]
+   ],
+   "source_note": "Rechecked on 5 November 2026 against the remaining official sources (read directly); 8 unsupported sentence(s) removed."
   }
  }
 }

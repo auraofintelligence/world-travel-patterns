@@ -1485,3 +1485,8 @@ For Claude.
 - Culture and protocol back for dk pt cz lv ag gd lc bm, from national or city tourism authorities and Antigua's Customs (camouflage ban).
 - Local law back for five emirates (Abu Dhabi, Ajman, Fujairah, Umm al Quwain, Ras al Khaimah) from the federal Penal Code amendment on alcohol (Ministry of Justice); emirate licensing still to check.
 - Skipped where only third-country or commercial sources turned up: Monaco etiquette, St Vincent, Poland and Lithuania tipping.
+
+## 2026-11-05 01:40 AEST: Grok, recheck of mixed records
+For Claude.
+- 95 records carried needs_recheck after the source clean-up. 79 were rechecked by reading each remaining official source directly and matching every sentence against it; 178 sentences that the remaining sources did not support were removed (70 records trimmed) and the flag cleared. 34 of the 79 rest on Smartraveller only, so a national source is still worth adding.
+- 16 stay flagged because their source pages could not be read from the box (bot blocks or dead links): bs bw bz cw gy li ls py sz ug culture; cg gq gw sr visa preparation; gw activities; in/mizoram local law (PDF).

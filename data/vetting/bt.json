@@ -718,7 +718,6 @@
    "checked": "2026-11-03",
    "last_reviewed": "2026-11-03",
    "evidence": "official",
-   "needs_recheck": true,
    "entry_summary": "Visa needed, approved before travel (apply online with the Department of Immigration, or through a Bhutanese tour operator or hotel), paid together with the Sustainable Development Fee.",
    "cost_aud_baseline": {
     "value": "High (daily fee applies)",
@@ -726,14 +725,14 @@
     "claim_id": "WORLD-BHUTAN-COST"
    },
    "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
+    "repo": null,
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
     "file": "assets/world-baseline.js",
     "claims": {
      "entry_summary": "WORLD-BHUTAN-ENTRY",
      "cost": "WORLD-BHUTAN-COST"
     },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+    "upstream": null
    },
    "fastest_entry": "Visa needed, approved in advance (through a Bhutanese tour operator, hotel or the Department of Immigration) and issued on arrival.",
    "steps": [
@@ -746,7 +745,7 @@
      "url": "https://bhutan.travel/faqs"
     },
     {
-     "step": "Enter by air at Paro (or Gelephu), or by land at Phuentsholing opposite Jaigaon, West Bengal. Gelephu, Samdrup Jongkhar and Samtse land entry is described for Indian guests only.",
+     "step": "Gelephu, Samdrup Jongkhar and Samtse land entry is described for Indian guests only.",
      "url": "https://www.btcl.bt/getting-in-to-bhutan/"
     },
     "Get the visa stamped on arrival."
@@ -816,12 +815,12 @@
     }
    ],
    "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
+    "from": null,
     "documents": [],
     "steps": []
    },
-   "notes": "News sites report the USD 100 rate extended to 31 December 2029; not found on the Department of Tourism announcements page on 3 November 2026, so the official end date is still 31 August 2027. The 24-hour border-town waiver can't be combined with the discount.",
-   "source_note": "Another country's travel advice was removed as a source on 4 November 2026; recheck the text against the place's own official sources."
+   "notes": "The 24-hour border-town waiver can't be combined with the discount.",
+   "source_note": "Rechecked on 5 November 2026 against the remaining official sources (read directly); 5 unsupported sentence(s) removed."
   },
   "culture-cycles": {
    "status": "partly-mapped",
