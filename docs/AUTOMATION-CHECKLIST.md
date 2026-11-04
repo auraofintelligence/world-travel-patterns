@@ -46,6 +46,7 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | 2026-11-15 | law-or-rule-date | la | ancient-sites-and-mysteries: Foreigners 30,000 kip, rising to 60,000 kip from 15 November 2026; pay on site | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-29 | election | ch | Federal referendum | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-11-29 | election | es | General election, Congress and Senate (snap) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2026-12-02 | law-or-rule-date | ie/county-sligo | ancient-sites-and-mysteries: 12 March to 2 December 2026; winter hours 5 Nov | Recheck the official source about 60 days before, and again on the date. |
 | 2026-12-05 | election | gm | Presidential election | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-12-06 | election | cy | Assembly election in the north of Cyprus (snap) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-12-06 | election | gw | Presidential and National Assembly elections (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
@@ -123,7 +124,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-449 locations have specific watch items.
+490 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -236,6 +237,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | bm |  | monthly | snapshot evidence |  |
 | bn | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | bo | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| bo/la-paz-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | bq |  | monthly | snapshot evidence |  |
 | br | Exercise a high degree of caution | monthly | pending event, snapshot evidence | pending date: Rock in Rio |
 | br/pernambuco | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -277,6 +279,8 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | cn/tibet | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/zhejiang | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | co | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| co/huila-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| co/magdalena-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cq |  | monthly | snapshot evidence |  |
 | cr | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cv |  | monthly | confirm in writing, election, snapshot evidence | election 2026-11-15; 1 confirm-in-writing |
@@ -313,14 +317,18 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | es/andalusia | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | es/balearic-islands | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | es/canary-islands | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| es/cantabria | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | es/catalonia | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | local-law date 2027-03-31 |
 | es/melilla | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | fj | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2026-12-09; election 2026-12-24 |
 | fk |  | monthly | snapshot evidence |  |
 | fm | Exercise normal safety precautions | monthly | confirm in writing, election, snapshot evidence | election 2027-03-02; 5 confirm-in-writing |
 | fo |  | monthly | snapshot evidence |  |
+| fr/brittany | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| fr/nouvelle-aquitaine | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ga | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | gb | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| gb/england | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | gb/scotland | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | gb/wales | Exercise a high degree of caution | monthly | dated rule, snapshot evidence | local-law date 2027-04-01 |
 | gb__england |  | monthly | pending event | pending date: WOMAD 2027 (Neston Park) |
@@ -335,9 +343,12 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | gn | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | gp |  | monthly | snapshot evidence |  |
 | gr/attica-region | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| gr/central-greece-region | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | gr/crete-region | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| gr/peloponnese-region | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | gs |  | monthly | dated rule, snapshot evidence | entry date 2027-07-01 |
 | gt | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| gt/peten-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | gu | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | gy | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
 | hk | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
@@ -350,6 +361,9 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | id/klungkung-regency | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | id/yogyakarta | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ie | Exercise normal safety precautions | monthly | pending event, snapshot evidence | pending date: Lisdoonvarna Matchmaking Festival 2027 |
+| ie/county-kerry | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| ie/county-meath | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| ie/county-sligo | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | ancient-sites-and-mysteries date 2026-12-02 |
 | im |  | monthly | snapshot evidence |  |
 | in | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | in/arunachal-pradesh | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -422,9 +436,14 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | mv | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mw | Exercise a high degree of caution | monthly | confirm in writing, pending event, snapshot evidence | pending date: Lake of Stars 2027; pending date: Lake of Stars festival 2027; 4 confirm-in-writing |
 | mx | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/campeche | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/chiapas | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/mexico-city | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/nayarit | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/oaxaca | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/puebla | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/state-of-mexico | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/veracruz | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/yucatan | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | my | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | my/labuan | Exercise normal safety precautions | monthly | dated rule | local-law date 2027-01-01 |
@@ -447,6 +466,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | nz | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2026-11-07 |
 | pa | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pe | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| pe/la-libertad-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pe/lima-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pf | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | pg | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
@@ -505,6 +525,28 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | tn | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 9 confirm-in-writing |
 | to | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | tr | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
+| tr/aksaray-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/ankara-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/antalya-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/batman-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/burdur-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/canakkale-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/corum-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/denizli-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/eskisehir-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/gaziantep-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/izmir-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/kars-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/kayseri-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/konya-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/malatya-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/manisa-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/mersin-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/mugla-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/nevsehir-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/nigde-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/sanlurfa-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/van-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tt | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
 | tv |  | monthly | snapshot evidence |  |
 | tw | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |

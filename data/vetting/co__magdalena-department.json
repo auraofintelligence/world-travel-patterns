@@ -64,6 +64,14 @@
      "source": "https://www.parquesnacionales.gov.co/nuestros-parques/pnn-tayrona/",
      "checked": "2026-11-05",
      "by": "hand"
+    },
+    {
+     "topic": "permits-and-zones",
+     "rule": "Visits to Teyuna (Ciudad Perdida) must be with a certified guide booked through an authorised agency.",
+     "level": "region",
+     "source": "https://www.icanh.gov.co/parques-icanh/parque-arqueologico-teyuna/como-llegar",
+     "checked": "2026-11-05",
+     "by": "hand"
     }
    ],
    "sources": [
@@ -73,9 +81,65 @@
      "url": "https://www.parquesnacionales.gov.co/nuestros-parques/pnn-tayrona/",
      "checked": "2026-11-05",
      "supports": "fees, insurance, rules, closures (read directly 2026-11-05)"
+    },
+    {
+     "title": "Parque Arqueológico Teyuna: cómo llegar",
+     "authority": "ICANH",
+     "url": "https://www.icanh.gov.co/parques-icanh/parque-arqueologico-teyuna/como-llegar",
+     "checked": "2026-11-05",
+     "supports": "Teyuna guide rule (read directly 2026-11-05)"
     }
    ],
-   "note": "Tayrona only."
+   "note": "Tayrona only. Teyuna rule added 5 November 2026."
+  },
+  "ancient-sites-and-mysteries": {
+   "status": "partly-mapped",
+   "sites": [
+    {
+     "name": "Teyuna (Ciudad Perdida)",
+     "place": "co/magdalena-department",
+     "kind": "lost-city",
+     "era": "ancient (era not stated on the pages read)",
+     "what": "Site in the Sierra Nevada de Santa Marta reached by a multi-day walk through Indigenous territory.",
+     "access": {
+      "opening": "Open on enabled days 07:00 to 15:00.",
+      "tickets": "Single park entry COP 75,000; operator tour prices vary. No RBA rate for COP.",
+      "permits": "A certified guide is required by ICANH, national parks and Indigenous and campesino authorities; book with an authorised agency."
+     },
+     "sources": [
+      {
+       "authority": "ICANH",
+       "title": "Parque Arqueológico Teyuna: horarios y tarifas",
+       "url": "https://www.icanh.gov.co/parques-icanh/parque-arqueologico-teyuna/horarios-y-tarifas",
+       "read": "read directly 2026-11-05"
+      },
+      {
+       "authority": "ICANH",
+       "title": "Parque Arqueológico Teyuna: cómo llegar",
+       "url": "https://www.icanh.gov.co/parques-icanh/parque-arqueologico-teyuna/como-llegar",
+       "read": "read directly 2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05"
+    }
+   ],
+   "sources": [
+    {
+     "authority": "ICANH",
+     "title": "Parque Arqueológico Teyuna: horarios y tarifas",
+     "url": "https://www.icanh.gov.co/parques-icanh/parque-arqueologico-teyuna/horarios-y-tarifas",
+     "read": "read directly 2026-11-05"
+    },
+    {
+     "authority": "ICANH",
+     "title": "Parque Arqueológico Teyuna: cómo llegar",
+     "url": "https://www.icanh.gov.co/parques-icanh/parque-arqueologico-teyuna/como-llegar",
+     "read": "read directly 2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "evidence": "Official pages; read directly unless marked search snapshot.",
+   "summary": "Teyuna access rules from ICANH."
   }
  }
 }
