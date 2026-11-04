@@ -29,8 +29,6 @@ AREAS = [
                               r"sexual (relations|activity|acts)|same-sex (relationships|relations|acts|sexual|activity)|homosexual|consensual", re.I)),
     ("marriage-and-partnership", re.compile(r"marri|surrogacy|civil union|civil partnership|de facto|spouse|wedding|polygam|dowry", re.I)),
 ]
-# Luke has no drone plans: drone clauses never reach the site.
-DRONE = re.compile(r"(?:\b(?:fly|flying|using|operating)\s+)?(?:\w+\s+)?\bdrones?\b", re.I)
 ABOUT = re.compile(r"same-sex|lgbt|homosexual|marri|relationship|partner|affection|cohabit|sexual|sex outside|adultery|civil union", re.I)
 LAW = re.compile(r"authorities|illegal|\blegal|\blaws?\b|arrest|penalt|prison|jail|\bfines?\b|criminal|prosecut|death penalty|corporal|offence|banned|"
                  r"prohibit|recogni[sz]|decriminali[sz]|legali[sz]", re.I)
@@ -45,7 +43,7 @@ def items_from(secs, url, on):
             continue
         text = clean(body)
         for sentence in re.split(r"(?<=[.!?])\s+(?=[A-Z])|(?<=[a-z])\s+(?=(?:The|Same-sex|Public|If|Avoid|You|Homosexual|Unmarried) )", text):
-            s = DRONE.sub("", sentence).strip()
+            s = sentence.strip()
             s = re.sub(r"\s{2,}", " ", s)
             if len(s) < 25 or SKIP.search(s) or s in seen:
                 continue

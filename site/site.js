@@ -96,7 +96,7 @@
   const isRegion = (p) => p.sk === "first-level" || p.kind === "state";
 
   /* Your view: what this browser shows. Kept in this browser only, never sent anywhere. The default is Luke's: a man who loves women. */
-  const VIEW_DEFAULT = { you: "man", love: "women", off: [], parts: {} };
+  const VIEW_DEFAULT = { you: "man", love: "women", drones: false, off: [], parts: {} };
   function loadView() { try { return { ...VIEW_DEFAULT, parts: {}, ...JSON.parse(localStorage.getItem("wtp-view") || "{}") }; } catch { return { ...VIEW_DEFAULT, off: [], parts: {} }; } }
   function saveView() { try { localStorage.setItem("wtp-view", JSON.stringify(VIEW)); } catch { /* storage blocked: the choice lasts for this page only */ } }
   let VIEW = loadView();
@@ -107,8 +107,13 @@
   const partsOf = (pat) => pat[PART_KEYS.find((k) => Array.isArray(pat[k]))] || [];
   const sameSexShown = () => !((VIEW.you === "man" && VIEW.love === "women") || (VIEW.you === "woman" && VIEW.love === "men"));
   const SAME_SEX = /same[- ]sex|LGB|homosexual|\bgay\b|lesbian|transgender|queer|sexual orientation|gender identity/i;
+  // Drone rules are collected like any other data but shown only when Your view turns drone photography on (off by default).
+  const dronesShown = () => VIEW.drones === true;
+  const DRONE = /\bdrones?\b|\bUAVs?\b|unmanned aircraft|quadcopter/i;
+  const droneOk = (x) => dronesShown() || !(x && (x.drones || x.topic === "drones"));
   // Hides same-sex sentences when the view says so. Shared wording such as "opposite or same-sex couples" reads "couples".
   function viewText(t) {
+    if (typeof t === "string" && !dronesShown() && DRONE.test(t)) t = t.split(/(?<=[.!?;])\s+/).filter((x) => !DRONE.test(x)).join(" ").trim();
     if (typeof t !== "string" || sameSexShown() || !SAME_SEX.test(t)) return t;
     return t.replace(/\b(?:opposite|opposite-sex|heterosexual) (?:or|and) same[- ]sex (couples|partners)/gi, "$1")
       .replace(/\b(unmarried|married)\s+(?:and|or)\s+same[- ]sex\s+(couples|partners|relationships)/gi, "$1 $2")
@@ -389,23 +394,23 @@
         body += `<div class="acts">${pat.activities.filter((a) => partOn("activities", a)).map((a) => {
           const x = acts[a];
           if (!x) { gaps++; return `<div class="act"><b>${esc(a.replace(/-/g, " "))}</b><span class="gap">not yet checked</span></div>`; }
-          return `<div class="act ${esc(x.status)}" title="${esc(x.detail || "")}"><b>${esc(a.replace(/-/g, " "))}</b>${esc(x.status)} · ${esc(x.route || "")}</div>`;
+          return `<div class="act ${esc(x.status)}" title="${esc(viewText(x.detail || ""))}"><b>${esc(a.replace(/-/g, " "))}</b>${esc(x.status)} · ${esc(viewText(x.route || ""))}</div>`;
         }).join("")}</div>`;
       } else if (text && text !== rec.status) {
         body += `<div class="detail">${esc(text)}</div>`;
       }
-      (rec.laws || []).filter((l) => partOn(pat.id, l.topic)).forEach((l) => { const r = viewText(l.rule); if (r) body += `<div class="detail"><b>${esc(l.topic)}:</b> ${esc(r)}</div>`; });
+      (rec.laws || []).filter((l) => partOn(pat.id, l.topic) && droneOk(l)).forEach((l) => { const r = viewText(l.rule); if (r) body += `<div class="detail"><b>${esc(l.topic)}:</b> ${esc(r)}</div>`; });
       (rec.items || []).filter((it) => partOn(pat.id, it.area || it.substance)).map((it) => ({ ...it, text: viewText(it.text) })).filter((it) => it.text).forEach((it) => { body += `<div class="detail"><b>${esc(AREA_LABEL[it.area || it.substance] || it.area || it.substance)}</b>${it.changing ? ' <span class="chip sky">changing</span>' : ""} <span class="chip">${esc(it.kind)}</span>${it.evidence === "signal" ? ' <span class="chip gold">signal</span>' : ""} ${esc(it.text)}</div>`; });
       (rec.layers || []).filter((l) => partOn(pat.id, l.type)).forEach((l) => { body += `<div class="detail"><b>${esc(l.type)}:</b> ${esc(l.process)} (${esc(l.authority)})${l.lead_time_days ? `, lead time ${l.lead_time_days} days` : ""}</div>`; });
       if (pat.id === "visa-preparation") {
         [["entry_summary", "Entry"], ["fastest_entry", "Fastest entry"], ["before_departure", "Before departure"], ["useful_stay", "Stay"], ["host_unlock", "With a host"]]
-          .forEach(([k, label]) => { if (rec[k]) body += `<div class="detail"><b>${label}:</b> ${esc(rec[k])}</div>`; });
-        if (rec.steps?.length) body += `<div class="detail"><b>Steps:</b><ol>${rec.steps.map((s) => `<li>${esc(typeof s === "string" ? s : s.step)}${s.url ? ` <a href="${esc(s.url)}" rel="noopener">source</a>` : ""}</li>`).join("")}</ol></div>`;
-        if (rec.documents?.length) body += `<div class="detail"><b>Documents:</b> ${esc(rec.documents.map((d) => (typeof d === "string" ? d : d.name)).join("; "))}</div>`;
+          .forEach(([k, label]) => { const v = viewText(rec[k]); if (v) body += `<div class="detail"><b>${label}:</b> ${esc(v)}</div>`; });
+        if (rec.steps?.length) body += `<div class="detail"><b>Steps:</b><ol>${rec.steps.map((s) => `<li>${esc(viewText(typeof s === "string" ? s : s.step))}${s.url ? ` <a href="${esc(s.url)}" rel="noopener">source</a>` : ""}</li>`).join("")}</ol></div>`;
+        if (rec.documents?.length) body += `<div class="detail"><b>Documents:</b> ${esc(rec.documents.map((d) => viewText(typeof d === "string" ? d : d.name)).filter(Boolean).join("; "))}</div>`;
         (rec.fees || []).forEach((f) => { body += `<div class="detail"><b>Fee, ${esc(f.item)}:</b> ${f.amount === 0 ? "free" : `${esc(f.currency)} ${num(f.amount)}`}${f.aud ? ` (about AUD ${num(f.aud)})` : ""}, read ${fmt(f.checked)}${f.url ? ` <a href="${esc(f.url)}" rel="noopener">source</a>` : ""}</div>`; });
         if (rec.cost_aud_baseline?.value && !(rec.fees || []).length) body += `<div class="detail"><b>Visa cost signal:</b> ${esc(rec.cost_aud_baseline.value)} (AUD, baseline from ${fmt(rec.cost_aud_baseline.checked)})</div>`;
-        if (rec.open_questions?.length) body += `<div class="detail"><b>Open questions:</b> ${esc(rec.open_questions.join(" "))}</div>`;
-        if (rec.recheck_note) body += `<div class="detail"><b>Recheck note:</b> ${esc(rec.recheck_note)}</div>`;
+        if (rec.open_questions?.length) body += `<div class="detail"><b>Open questions:</b> ${esc(rec.open_questions.map(viewText).join(" "))}</div>`;
+        if (rec.recheck_note) body += `<div class="detail"><b>Recheck note:</b> ${esc(viewText(rec.recheck_note))}</div>`;
       }
       if (rec.pre_arrival) body += `<div class="detail"><b>Before arrival:</b> ${esc(rec.pre_arrival)}</div>`;
       [["max_stay", "Stay"], ["passport_validity", "Passport"], ["other", "Also"], ["mission", "Office"], ["notes", "Note"], ["currency", "Currency"],
@@ -727,6 +732,11 @@
       <p><b>You love</b> ${radio("love", "women", "women")} ${radio("love", "men", "men")} ${radio("love", "anyone", "anyone")}</p>
       <p class="meta">This decides whether same-sex relationship content shows. A man who loves women is the default, and it's hidden. Where a rule covers every couple, it stays: "opposite or same-sex couples" reads "couples".</p>
       </div></section>
+      <section class="section tight"><div class="card">
+      <h2>Drone photography</h2>
+      <p><label class="pick"><input type="checkbox" id="view-drones"${dronesShown() ? " checked" : ""}> Show drone rules</label></p>
+      <p class="meta">Drone rules are collected at every level (national, state or province, city or park) but hidden by default. Tick this to show them on place pages.</p>
+      </div></section>
       <section class="section tight"><div class="card"><h2>Patterns</h2><p class="meta">Untick a pattern to hide it everywhere on the site. Open a pattern to switch its parts on or off one by one.</p>
       ${groups.map(([label, list]) => `<h3 class="month-head">${esc(label)}</h3>${list.map(patBox).join("")}`).join("")}
       </div></section>
@@ -744,6 +754,7 @@
       else VIEW.off = flip(VIEW.off, pid);
       done();
     }));
+    document.getElementById("view-drones").addEventListener("change", (e) => { VIEW.drones = e.target.checked; done(); });
     document.getElementById("view-reset").addEventListener("click", async () => {
       VIEW = { ...VIEW_DEFAULT, off: [], parts: {} }; saveView();
       document.getElementById("app").innerHTML = await render.view({ index, credits: {} });

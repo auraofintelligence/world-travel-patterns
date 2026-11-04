@@ -78,6 +78,7 @@ Biggest gaps first (revised 1 November 2026).
 12. **Works and purpose.** Not started (Luke's own works, tagged places only).
 13. **Place photos.** Reviewed 1 November 2026: 312 approved, 1 pending (Uluṟu, Luke's call). gn, io and us/papahanaumokuakea still need a suitable photo.
 14. **Routines.** The Claude scheduled routines (place passes, cycles, window watch) were switched off on 4 November 2026. Until round 1 is complete (local, state and national data), Luke runs Claude and Grok sessions each day by hand. The GitHub Actions (advisories, source watch, feeds, calendars) still run.
+15. **Drone rules (gap).** Local-law topic `drones` added 4 November 2026; only Beijing has a drone law record so far, plus 11 tagged drone mentions in activities, culture and visa records. Collect drone rules at every level of each law stack: national aviation authority (for Australia, CASA), then state or province, then city, council or park. Levels without a record are not yet checked. Display is gated by the Your view drone toggle (off by default); collection is not.
 
 ## Known source problems
 

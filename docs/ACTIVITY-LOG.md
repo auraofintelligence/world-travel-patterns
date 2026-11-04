@@ -1411,3 +1411,13 @@ For Claude.
 - **Rule:** no personal life details or personal itineraries in this repo (no residence obligations, home address, family trips or planned personal trips). Australian law that applies to Australians abroad, and the travel-interest patterns that guide data collection, are fine.
 - Removed: config/home-base.json, the home_only mechanism and home chain, the Queensland, Redland and Minjerribah resident records, the Minjerribah "home" tag, and the home section of the recheck plan.
 - Kept: pattern home-obligations renamed australian-law-abroad (only_places: au), with Australia's 11 general items. Visitor content for Minjerribah is unchanged.
+
+## 2026-11-04 (AEST): Drone rules back in, behind a Your view toggle (off by default)
+
+For Claude.
+- Drone rules are collected as normal data. New local-law topic `drones` (layered like every law topic: national aviation authority, then state or province, then city, council or park; unchecked levels show not yet checked). Beijing's drone ban is now its own `drones` law.
+- 12 existing entries that mention drones are tagged `"drones": true` (ck, gs x2, gy, nu, rw filming or research; lb, ni, pa, pl culture; sy visa prep; cn/beijing law). No new research.
+- Display only: Your view has a "Drone photography" toggle, off by default. Off hides `drones` laws and drone sentences, the same way same-sex sentences are hidden. On shows them.
+- scripts/smartraveller_affection.py no longer strips drone clauses. The photo picker's drone-image filter is unchanged.
+- Gap for future passes: collect drone rules at every level (see STATUS.md item 15).
+
