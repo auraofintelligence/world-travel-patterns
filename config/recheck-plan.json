@@ -1,0 +1,5134 @@
+{
+ "generated": "2026-11-04",
+ "note": "Built by scripts/recheck_plan.py from repo data only. Read-only plan for future automations; never a reason to skip an official recheck.",
+ "global": [
+  {
+   "pattern": "advisory",
+   "check": "Smartraveller advice level and 'latest update' for every destination",
+   "source": "Smartraveller destinations export (smartraveller.gov.au/destinations-export)",
+   "baseline_days": 1,
+   "frequency": "daily",
+   "why": "Levels can change overnight after conflict, unrest or disaster."
+  },
+  {
+   "pattern": "activities",
+   "check": "What an Australian may do on each entry route (tourism, meetings, speaking, remote work)",
+   "source": "Destination immigration and labour authorities",
+   "baseline_days": 90,
+   "frequency": "quarterly",
+   "why": "Work rules are the most common 'confirm in writing' gap."
+  },
+  {
+   "pattern": "affection-and-relationships",
+   "check": "Public affection, relationships, LGBTQIA+ law",
+   "source": "Legislation; Smartraveller local customs",
+   "baseline_days": 90,
+   "frequency": "quarterly",
+   "why": "Law reforms happen in both directions."
+  },
+  {
+   "pattern": "consular",
+   "check": "Australian embassy or consulate and its contact details",
+   "source": "DFAT mission list; Smartraveller",
+   "baseline_days": 90,
+   "frequency": "quarterly",
+   "why": "Missions open, close or suspend services."
+  },
+  {
+   "pattern": "entry",
+   "check": "Visa-free status, max stay, arrival cards and refusals for an ordinary Australian passport",
+   "source": "Destination immigration authority or embassy in Australia; Smartraveller entry section",
+   "baseline_days": 90,
+   "frequency": "quarterly",
+   "why": "Waivers and exemptions are often time-limited (China, South Korea, Belarus) or cut at short notice (Thailand, Sep 2026)."
+  },
+  {
+   "pattern": "health-entry",
+   "check": "Vaccination certificates (yellow fever), health declarations, outbreak rules",
+   "source": "Destination health authority; Smartraveller health section; WHO",
+   "baseline_days": 90,
+   "frequency": "quarterly",
+   "why": "Outbreaks add requirements quickly."
+  },
+  {
+   "pattern": "local-law",
+   "check": "Laws that catch visitors: ID, photography, dress, LGBTQIA+, alcohol",
+   "source": "The level's own legislation; Smartraveller local laws",
+   "baseline_days": 90,
+   "frequency": "quarterly",
+   "why": "Laws stack from country to state to city."
+  },
+  {
+   "pattern": "money-and-cost",
+   "check": "Currency, cash limits, card acceptance, tourist taxes",
+   "source": "Central bank or government",
+   "baseline_days": 90,
+   "frequency": "quarterly",
+   "why": "Rates move daily but rules (cash limits, tourist taxes) change slowly."
+  },
+  {
+   "pattern": "psychoactive-substances",
+   "check": "Alcohol, cannabis, psilocybin, prescription medicines",
+   "source": "Legislation and health regulator; Smartraveller drugs section",
+   "baseline_days": 90,
+   "frequency": "quarterly",
+   "why": "Several programs have start dates (e.g. New Mexico psilocybin)."
+  },
+  {
+   "pattern": "visa-preparation",
+   "check": "Visa fees, e-visa portals, processing times, documents",
+   "source": "Destination e-visa or embassy page",
+   "baseline_days": 90,
+   "frequency": "quarterly",
+   "why": "Fees and portals change with little notice; atlas baselines must be rechecked."
+  },
+  {
+   "pattern": "year-ahead",
+   "check": "Elections, major events and dated rule changes in the next 12 months",
+   "source": "Electoral commissions; organisers; data/watch.json",
+   "baseline_days": 90,
+   "frequency": "quarterly",
+   "why": "Organisers announce next year's dates on known months; elections get called."
+  },
+  {
+   "pattern": "zone-requirements",
+   "check": "Permits for restricted areas, land councils, parks, island governments, border zones",
+   "source": "The zone authority itself",
+   "baseline_days": 90,
+   "frequency": "quarterly",
+   "why": "Permit lead times decide when the approach phase starts."
+  },
+  {
+   "pattern": "home-obligations",
+   "check": "Home-base duties while away (see section D)",
+   "source": "Commonwealth, Queensland and council pages",
+   "baseline_days": 180,
+   "frequency": "yearly",
+   "why": "Renewals fall due while travelling."
+  },
+  {
+   "pattern": "births-and-family-support",
+   "check": "Birth rates and family support",
+   "source": "UN WPP; national statistics",
+   "baseline_days": 365,
+   "frequency": "yearly",
+   "why": "Annual data releases."
+  },
+  {
+   "pattern": "culture-and-protocol",
+   "check": "Etiquette, respecting Country, community visitor guidance",
+   "source": "The community's own guidance",
+   "baseline_days": 365,
+   "frequency": "yearly",
+   "why": "Slow-changing."
+  },
+  {
+   "pattern": "culture-cycles",
+   "check": "Public holidays, Ramadan and Islamic months, lunar new year, festivals",
+   "source": "National calendars; Nager.Date as a signal",
+   "baseline_days": 365,
+   "frequency": "yearly",
+   "why": "Lunar and Islamic calendars move every year; next year's holidays are often announced late in the year."
+  },
+  {
+   "pattern": "languages",
+   "check": "Official and widely spoken languages",
+   "source": "Constitution, census",
+   "baseline_days": 365,
+   "frequency": "yearly",
+   "why": "Very slow-changing."
+  },
+  {
+   "pattern": "seasons-and-flow",
+   "check": "Weather seasons, crowds, cyclone and monsoon windows",
+   "source": "National met service; tourism statistics",
+   "baseline_days": 365,
+   "frequency": "yearly",
+   "why": "Slow-changing, but check before a trip."
+  },
+  {
+   "pattern": "works-and-purpose",
+   "check": "Luke's own work tie-ins (venues, partners, events)",
+   "source": "Luke's repos; venue pages",
+   "baseline_days": 365,
+   "frequency": "yearly",
+   "why": "Tagged places only."
+  }
+ ],
+ "global_extra": [
+  {
+   "check": "ETIAS and EES rollout (Schengen and EU)",
+   "source": "travel-europe.europa.eu/etias_en and /ees_en",
+   "frequency": "monthly",
+   "why": "Start date not settled; watch item eu-etias (check every 30 days)."
+  },
+  {
+   "check": "Official source pages still alive (hash and 404 check)",
+   "source": "data/source-status.json via scripts/source_watch.py",
+   "frequency": "weekly",
+   "why": "A changed hash flags a page to reread; a failed fetch is not evidence of a rule change."
+  },
+  {
+   "check": "Next year's public holidays file (data/calendar/holidays-<next year>.json)",
+   "source": "National calendars; Nager.Date",
+   "frequency": "yearly (October to December)",
+   "why": "Governments publish next year's holiday lists late in the year; Islamic dates are confirmed by moon sighting nearer the time."
+  }
+ ],
+ "triggers": [
+  {
+   "date": "2026-11-05",
+   "kind": "election",
+   "places": [
+    "gd"
+   ],
+   "what": "House of Representatives election (snap)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2026-11-07",
+   "kind": "election",
+   "places": [
+    "nz"
+   ],
+   "what": "General election (House of Representatives)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2026-11-13",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "us/new-jersey"
+   ],
+   "what": "psychoactive-substances: ...stribution licences could sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2026-11-14",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "us/new-jersey"
+   ],
+   "what": "psychoactive-substances: ...d sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2026 those drinks are tr",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2026-11-15",
+   "kind": "election",
+   "places": [
+    "cv"
+   ],
+   "what": "Presidential election",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2026-11-29",
+   "kind": "election",
+   "places": [
+    "ch"
+   ],
+   "what": "Federal referendum",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2026-11-29",
+   "kind": "election",
+   "places": [
+    "es"
+   ],
+   "what": "General election, Congress and Senate (snap)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2026-12-05",
+   "kind": "election",
+   "places": [
+    "gm"
+   ],
+   "what": "Presidential election",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2026-12-06",
+   "kind": "election",
+   "places": [
+    "cy"
+   ],
+   "what": "Assembly election in the north of Cyprus (snap)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2026-12-06",
+   "kind": "election",
+   "places": [
+    "gw"
+   ],
+   "what": "Presidential and National Assembly elections (date not yet confirmed)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2026-12-09",
+   "kind": "election",
+   "places": [
+    "fj"
+   ],
+   "what": "Referendum (date not yet confirmed)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2026-12-22",
+   "kind": "election",
+   "places": [
+    "ss"
+   ],
+   "what": "Presidential and legislative elections (date not yet confirmed)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2026-12-24",
+   "kind": "election",
+   "places": [
+    "fj"
+   ],
+   "what": "General election (Parliament) (date not yet confirmed)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2026-12-31",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "by"
+   ],
+   "what": "entry: 30-day visa-free entry until 31 December 2026, up to 90 days a ca",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2026-12-31",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "cn"
+   ],
+   "what": "entry: ...ordinary Australian passports, up to 30 days for business, tourism, visiting family and friends, or transit, until 31 December 2026.",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2026-12-31",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "kr"
+   ],
+   "what": "entry: Visa-free tourist stays up to 90 days, and no K-ETA needed until 31 December 2026.",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2026-12-31",
+   "kind": "election",
+   "places": [
+    "so"
+   ],
+   "what": "Presidential and House of the People elections (date not yet confirmed)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-01-01",
+   "kind": "rule-change",
+   "places": [
+    "by"
+   ],
+   "what": "Belarus's 30-day visa-free entry for Australians runs until 31 December 2026.",
+   "check": "Look for an extension before 1 January 2027.",
+   "source": "https://www.smartraveller.gov.au/destinations/europe/belarus",
+   "id": "by-visa-free-2026",
+   "cadence": "every 30 days until resolved"
+  },
+  {
+   "date": "2027-01-01",
+   "kind": "rule-change",
+   "places": [
+    "cn"
+   ],
+   "what": "China's 30-day visa waiver for ordinary Australian passports runs until 31 December 2026.",
+   "check": "Look for an extension notice from the Chinese Embassy in Australia or China's Ministry of Foreign Affairs before 1 January 2027.",
+   "source": "https://www.smartraveller.gov.au/destinations/asia/china",
+   "id": "cn-visa-waiver-2026",
+   "cadence": "every 30 days until resolved"
+  },
+  {
+   "date": "2027-01-01",
+   "kind": "rule-change",
+   "places": [
+    "kr"
+   ],
+   "what": "South Korea's K-ETA exemption for Australian passport holders runs until 31 December 2026.",
+   "check": "Check the official K-ETA site for an extension before 1 January 2027.",
+   "source": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
+   "id": "kr-keta-2026",
+   "cadence": "every 30 days until resolved"
+  },
+  {
+   "date": "2027-01-01",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "my/labuan"
+   ],
+   "what": "local-law: Budget 2027 proposes a single limit of RM10,000 (about A$3,505) of new goods for Labuan and Langkawi from 1 January 2027, after a stay of at",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-01-16",
+   "kind": "election",
+   "places": [
+    "ng"
+   ],
+   "what": "Presidential, Senate and House of Representatives elections",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-01-27",
+   "kind": "election",
+   "places": [
+    "kg"
+   ],
+   "what": "Presidential election (date not yet confirmed)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-01-28",
+   "date_exact": false,
+   "kind": "law-or-rule-date",
+   "places": [
+    "ch/canton-of-basel-stadt"
+   ],
+   "what": "psychoactive-substances: ...nabis to enrolled participants through selected pharmacies in Basel-Stadt. Planned to run from September 2022 to January 2027, with up to 374 par",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-02-28",
+   "kind": "election",
+   "places": [
+    "ch"
+   ],
+   "what": "Federal referendum (date not yet confirmed)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-02-28",
+   "date_exact": false,
+   "kind": "law-or-rule-date",
+   "places": [
+    "dz"
+   ],
+   "what": "culture-and-protocol: Carry your passport for hotels and domestic flights. During Ramadan (next from February 2027) do not eat, drink,",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-02-28",
+   "kind": "election",
+   "places": [
+    "sv"
+   ],
+   "what": "Legislative Assembly election (date not yet confirmed)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-03-02",
+   "kind": "election",
+   "places": [
+    "fm"
+   ],
+   "what": "Congress election (date not yet confirmed)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-03-07",
+   "kind": "election",
+   "places": [
+    "ee"
+   ],
+   "what": "Parliamentary election",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-03-31",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "es/catalonia"
+   ],
+   "what": "local-law: ...night, for up to 7 nights at the same place; under-17s are exempt. Outside Barcelona city, from 1 April 2026 to 31 March 2027: EUR 4.50 at five-s",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-04-10",
+   "kind": "election",
+   "places": [
+    "gm"
+   ],
+   "what": "National Assembly election (date not yet confirmed)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-04-18",
+   "kind": "election",
+   "places": [
+    "fi"
+   ],
+   "what": "Parliamentary election (date not yet confirmed)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-04-18",
+   "kind": "election",
+   "places": [
+    "fr"
+   ],
+   "what": "Presidential election (first round) (date not yet confirmed)",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-06-28",
+   "date_exact": false,
+   "kind": "law-or-rule-date",
+   "places": [
+    "ch/canton-of-geneva"
+   ],
+   "what": "psychoactive-substances: ...main partner, sells cannabis to enrolled participants from a single outlet in Vernier. Planned from June 2023 to June 2027, with up to 1,080 p",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-06-28",
+   "date_exact": false,
+   "kind": "law-or-rule-date",
+   "places": [
+    "ch/canton-of-vaud"
+   ],
+   "what": "psychoactive-substances: ...on a non-profit basis to enrolled participants through a specialised shop in Lausanne. Planned from July 2023 to June 2027, with up to 1,600 p",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-07-01",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "gs"
+   ],
+   "what": "entry: Visitor permit needed before arrival (Entry Control Ordinance 2022): GBP 250 from 1 July 2026 and GBP 275 from 1 July 2027, valid 40 days. App",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-07-01",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "us/virginia"
+   ],
+   "what": "psychoactive-substances: ...y 2027 the first offence is a civil penalty of up to US$25 (about A$36 at RBA 30 Oct 2026, A$1 = USD 0.7040); from 1 July 2027 it rises to up to U",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-07-18",
+   "kind": "election",
+   "places": [
+    "ht"
+   ],
+   "what": "Presidential, Senate and Chamber of Deputies elections",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-08-28",
+   "date_exact": false,
+   "kind": "law-or-rule-date",
+   "places": [
+    "bt"
+   ],
+   "what": "zone-requirements: ...checkpost), Gelephu (Aipoli Bridge) and Samdrup Jongkhar (Pinchinna checkpost) don't pay the SDF (2 June 2026 to August 2027). Going beyond the",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-08-31",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "bt"
+   ],
+   "what": "visa-preparation: Sustainable Development Fee, per adult per night (discount from USD 200, to 31 August 2027)",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-12-31",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "us/new-mexico"
+   ],
+   "what": "psychoactive-substances: ...or depression, PTSD, substance use disorders and end-of-life care. The Act requires the program to be running by 31 December 2027; one Department of",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2028-10-28",
+   "date_exact": false,
+   "kind": "law-or-rule-date",
+   "places": [
+    "ch/canton-of-basel-landschaft"
+   ],
+   "what": "psychoactive-substances: ...nabis to enrolled participants through specialised shops in Liestal and Allschwil. Planned from November 2023 to October 2028, with up to 3,950 p",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "ae"
+   ],
+   "what": "GITEX Global 2027",
+   "check": "organiser lists December 2027 in Dubai, no exact dates (checked 2026-11-01). Date not announced; check monthly from November 2026.",
+   "source": "https://www.gitex.com/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "rule-change",
+   "places": [
+    "at",
+    "be",
+    "bg",
+    "hr",
+    "cy",
+    "cz",
+    "dk",
+    "ee",
+    "fi",
+    "fr",
+    "de",
+    "gr",
+    "hu",
+    "is",
+    "it",
+    "lv",
+    "li",
+    "lt",
+    "lu",
+    "mt",
+    "nl",
+    "no",
+    "pl",
+    "pt",
+    "ro",
+    "sk",
+    "si",
+    "es",
+    "se",
+    "ch"
+   ],
+   "what": "EU travel authorisation (ETIAS) for visa-exempt visitors.",
+   "check": "Watch the official ETIAS page for a confirmed start date. The country list is the expected scope; confirm it from the same page.",
+   "source": "https://travel-europe.europa.eu/etias_en",
+   "id": "eu-etias",
+   "cadence": "every 30 days until resolved"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "be"
+   ],
+   "what": "Tomorrowland Belgium 2027",
+   "check": "FAQ says info at end of 2026; rechecked 2026-11-02, still no official dates. Date not announced; check monthly from November 2026.",
+   "source": "https://faq.tomorrowland.com/hc/en-us/articles/4402621418132-Where-and-when-will-Tomorrowland-Belgium-2027-take-place",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "bf"
+   ],
+   "what": "FESPACO 30th edition, 20 to 27 March 2027",
+   "check": "dates reported officially; hold until the Do-not-travel pass (bf is Do not travel). Date not announced; check monthly from November 2026.",
+   "source": "https://fespaco.bf/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "br"
+   ],
+   "what": "Rock in Rio",
+   "check": "biennial; next edition September 2028. Date not announced; check monthly from November 2026.",
+   "source": "https://rockinrio.com/rio/pt-br/informacoes/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "bt"
+   ],
+   "what": "Paro Tshechu 2027 (reported 18 to 22 March, lunar)",
+   "check": "only private operators list dates. Date not announced; check monthly from November 2026.",
+   "source": "https://bhutan.travel/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "bt"
+   ],
+   "what": "National Day 2027 (17 December)",
+   "check": "need official Bhutan government holiday list. Date not announced; check monthly from November 2026.",
+   "source": "",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "bt"
+   ],
+   "what": "Bhutan tshechu festivals 2027 (Punakha, Paro, Thimphu and others)",
+   "check": "only tentative 2027 dates published (lunar calendar, subject to change); no confirmed official dates (checked 2026-11-01). Date not announced; check monthly from November 2026.",
+   "source": "https://www.bhutan.travel/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "ca"
+   ],
+   "what": "Toronto International Film Festival 2027",
+   "check": "no dates published. Date not announced; check monthly from November 2026.",
+   "source": "https://www.tiff.net/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "fi"
+   ],
+   "what": "Slush 2027 (Helsinki)",
+   "check": "organiser lists 2026 only; rechecked 2026-11-02, still no official dates. Date not announced; check monthly from November 2026.",
+   "source": "https://slush.org/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "fr"
+   ],
+   "what": "Festival d'Avignon 2027",
+   "check": "no dates published. Date not announced; check monthly from November 2026.",
+   "source": "https://festival-avignon.com/en",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "gb__england"
+   ],
+   "what": "WOMAD 2027 (Neston Park)",
+   "check": "22 to 25 July 2027 reported; not readable on the organiser site (checked 2026-11-02). Date not announced; check monthly from November 2026.",
+   "source": "https://womad.co.uk/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "ie"
+   ],
+   "what": "Lisdoonvarna Matchmaking Festival 2027",
+   "check": "official FAQ says the festival runs through September; 2027 programme not yet published. Date not announced; check monthly from November 2026.",
+   "source": "https://matchmakerireland.com/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "in__nagaland"
+   ],
+   "what": "Hornbill Festival 2027 (usually 1 to 10 Dec)",
+   "check": "official site lists 2026 only. Date not announced; check monthly from November 2026.",
+   "source": "https://tourism.nagaland.gov.in/events/hornbill-festival/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "is"
+   ],
+   "what": "Iceland Airwaves 2027",
+   "check": "no 2027 dates published; rechecked 2026-11-02, still no official dates. Date not announced; check monthly from November 2026.",
+   "source": "https://icelandairwaves.is/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "it"
+   ],
+   "what": "Biennale Arte (next edition)",
+   "check": "2027 is an Architecture year: Biennale Architettura 8 May to 21 November 2027 (added to it year-ahead 2026-11-04); next Biennale Arte 2028. Date not announced; check monthly from November 2026.",
+   "source": "https://www.labiennale.org/en/art",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "it"
+   ],
+   "what": "84th Venice International Film Festival 2027",
+   "check": "only third-party sites list 1 to 11 September 2027 (checked 2026-11-02). Date not announced; check monthly from November 2026.",
+   "source": "https://www.labiennale.org/en/cinema",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "jo"
+   ],
+   "what": "Jerash Festival 2027",
+   "check": "only 'July 2027' seen. Date not announced; check monthly from November 2026.",
+   "source": "",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "ma"
+   ],
+   "what": "Mawazine 2027",
+   "check": "no dates found. Date not announced; check monthly from November 2026.",
+   "source": "https://www.festivalmawazine.ma/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "ma"
+   ],
+   "what": "Fes Festival of World Sacred Music 2027",
+   "check": "unconfirmed. Date not announced; check monthly from November 2026.",
+   "source": "https://www.fesfestival.com/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "mw"
+   ],
+   "what": "Lake of Stars 2027",
+   "check": "postponed from 2026; dates to be announced. Date not announced; check monthly from November 2026.",
+   "source": "https://lakeofstars.org/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "mw"
+   ],
+   "what": "Lake of Stars festival 2027",
+   "check": "postponed to 2027 per Malawi Tourism; no official dates (checked 2026-11-01). Date not announced; check monthly from November 2026.",
+   "source": "https://www.malawitourism.com/experiences/events/lake-of-stars-festival/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "ph"
+   ],
+   "what": "Independence Day 2027 (12 June)",
+   "check": "need official gov.ph proclamation page. Date not announced; check monthly from November 2026.",
+   "source": "",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "pt"
+   ],
+   "what": "Web Summit 2027 (Lisbon)",
+   "check": "return to Lisbon confirmed, no dates; rechecked 2026-11-02, still no official dates. Date not announced; check monthly from November 2026.",
+   "source": "https://websummit.com/web-summit-2027/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "us"
+   ],
+   "what": "TechCrunch Disrupt 2027",
+   "check": "no official dates. Date not announced; check monthly from November 2026.",
+   "source": "https://techcrunch.com/events/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "us"
+   ],
+   "what": "Coachella 2027",
+   "check": "2027 passes advertised, no dates on the official site (checked 2026-11-04). Date not announced; check monthly from November 2026.",
+   "source": "https://www.coachella.com/",
+   "cadence": "monthly until the organiser publishes"
+  },
+  {
+   "date": null,
+   "kind": "pending-event-date",
+   "places": [
+    "us__california"
+   ],
+   "what": "Coachella 2027",
+   "check": "9 to 11 and 16 to 18 April 2027 reported by trade press; not seen on the organiser site (checked 2026-11-02). Date not announced; check monthly from November 2026.",
+   "source": "https://www.coachella.com/",
+   "cadence": "monthly until the organiser publishes"
+  }
+ ],
+ "locations": [
+  {
+   "place": "af",
+   "name": "Afghanistan",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "bf",
+   "name": "Burkina Faso",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "high advisory",
+    "pending event",
+    "snapshot evidence"
+   ],
+   "items": [
+    "pending date: FESPACO 30th edition, 20 to 27 March 2027"
+   ]
+  },
+  {
+   "place": "by",
+   "name": "Belarus",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "dated rule",
+    "high advisory",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "by-visa-free-2026",
+    "entry date 2026-12-31"
+   ]
+  },
+  {
+   "place": "cd",
+   "name": "Democratic Republic of the Congo",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "cf",
+   "name": "Central African Republic",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ht",
+   "name": "Haiti",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "confirm in writing",
+    "election",
+    "high advisory"
+   ],
+   "items": [
+    "election 2027-07-18",
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "iq",
+   "name": "Iraq",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ir",
+   "name": "Iran",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "kp",
+   "name": "North Korea",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "lb",
+   "name": "Lebanon",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "high advisory"
+   ],
+   "items": []
+  },
+  {
+   "place": "ly",
+   "name": "Libya",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ml",
+   "name": "Mali",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "mm",
+   "name": "Myanmar",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ne",
+   "name": "Niger",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ps",
+   "name": "Palestine",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ru",
+   "name": "Russia",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "high advisory"
+   ],
+   "items": []
+  },
+  {
+   "place": "sa",
+   "name": "Saudi Arabia",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "sd",
+   "name": "Sudan",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "so",
+   "name": "Somalia",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "election",
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": [
+    "election 2026-12-31"
+   ]
+  },
+  {
+   "place": "ss",
+   "name": "South Sudan",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "election",
+    "high advisory"
+   ],
+   "items": [
+    "election 2026-12-22"
+   ]
+  },
+  {
+   "place": "sy",
+   "name": "Syria",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "td",
+   "name": "Chad",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ua",
+   "name": "Ukraine",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ve",
+   "name": "Venezuela",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ye",
+   "name": "Yemen",
+   "advisory": "Do not travel",
+   "cadence": "weekly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ad",
+   "name": "Andorra",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ag",
+   "name": "Antigua and Barbuda",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "at",
+   "name": "Austria",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias"
+   ]
+  },
+  {
+   "place": "bb",
+   "name": "Barbados",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "be",
+   "name": "Belgium",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "pending event",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "pending date: Tomorrowland Belgium 2027"
+   ]
+  },
+  {
+   "place": "bg",
+   "name": "Bulgaria",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias"
+   ]
+  },
+  {
+   "place": "bh",
+   "name": "Bahrain",
+   "advisory": "Reconsider your need to travel",
+   "cadence": "fortnightly",
+   "reasons": [
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "bi",
+   "name": "Burundi",
+   "advisory": "Reconsider your need to travel",
+   "cadence": "fortnightly",
+   "reasons": [
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "cg",
+   "name": "Republic of the Congo",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ch",
+   "name": "Switzerland",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "election",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "election 2026-11-29",
+    "election 2027-02-28"
+   ]
+  },
+  {
+   "place": "cn",
+   "name": "China",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "dated rule",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "cn-visa-waiver-2026",
+    "entry date 2026-12-31",
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "cu",
+   "name": "Cuba",
+   "advisory": "Reconsider your need to travel",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": [
+    "5 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "cv",
+   "name": "Cape Verde",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "election",
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": [
+    "election 2026-11-15",
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "cy",
+   "name": "Cyprus",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "fortnightly",
+   "reasons": [
+    "election",
+    "legacy baseline",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "election 2026-12-06"
+   ]
+  },
+  {
+   "place": "cz",
+   "name": "Czechia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias"
+   ]
+  },
+  {
+   "place": "de",
+   "name": "Germany",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias"
+   ]
+  },
+  {
+   "place": "dk",
+   "name": "Denmark",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "dm",
+   "name": "Dominica",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": [
+    "7 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ee",
+   "name": "Estonia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "election",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "election 2027-03-07"
+   ]
+  },
+  {
+   "place": "eh",
+   "name": "Western Sahara",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "er",
+   "name": "Eritrea",
+   "advisory": "Reconsider your need to travel",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory",
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "es",
+   "name": "Spain",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "election",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "election 2026-11-29"
+   ]
+  },
+  {
+   "place": "et",
+   "name": "Ethiopia",
+   "advisory": "Reconsider your need to travel",
+   "cadence": "fortnightly",
+   "reasons": [
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "fi",
+   "name": "Finland",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "election",
+    "legacy baseline",
+    "pending event",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "pending date: Slush 2027 (Helsinki)",
+    "election 2027-04-18"
+   ]
+  },
+  {
+   "place": "fr",
+   "name": "France",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "fortnightly",
+   "reasons": [
+    "election",
+    "pending event",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "pending date: Festival d'Avignon 2027",
+    "election 2027-04-18"
+   ]
+  },
+  {
+   "place": "gd",
+   "name": "Grenada",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "election",
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": [
+    "election 2026-11-05"
+   ]
+  },
+  {
+   "place": "gh",
+   "name": "Ghana",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "fortnightly",
+   "reasons": [
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "gq",
+   "name": "Equatorial Guinea",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "gr",
+   "name": "Greece",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias"
+   ]
+  },
+  {
+   "place": "gw",
+   "name": "Guinea-Bissau",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "election",
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": [
+    "election 2026-12-06",
+    "11 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "hr",
+   "name": "Croatia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias"
+   ]
+  },
+  {
+   "place": "hu",
+   "name": "Hungary",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias"
+   ]
+  },
+  {
+   "place": "il",
+   "name": "Israel",
+   "advisory": "Reconsider your need to travel",
+   "cadence": "fortnightly",
+   "reasons": [
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "is",
+   "name": "Iceland",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "pending event",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "pending date: Iceland Airwaves 2027"
+   ]
+  },
+  {
+   "place": "it",
+   "name": "Italy",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "pending event",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "pending date: Biennale Arte (next edition)",
+    "pending date: 84th Venice International Film Festival 2027"
+   ]
+  },
+  {
+   "place": "jo",
+   "name": "Jordan",
+   "advisory": "Reconsider your need to travel",
+   "cadence": "fortnightly",
+   "reasons": [
+    "high advisory",
+    "pending event",
+    "snapshot evidence"
+   ],
+   "items": [
+    "pending date: Jerash Festival 2027"
+   ]
+  },
+  {
+   "place": "ki",
+   "name": "Kiribati",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": [
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "km",
+   "name": "Comoros",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "kn",
+   "name": "Saint Kitts and Nevis",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": [
+    "5 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "kr",
+   "name": "South Korea",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "dated rule",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "kr-keta-2026",
+    "entry date 2026-12-31"
+   ]
+  },
+  {
+   "place": "kw",
+   "name": "Kuwait",
+   "advisory": "Reconsider your need to travel",
+   "cadence": "fortnightly",
+   "reasons": [
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "lc",
+   "name": "Saint Lucia",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": [
+    "4 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "li",
+   "name": "Liechtenstein",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "legacy baseline",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "lt",
+   "name": "Lithuania",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "4 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "lu",
+   "name": "Luxembourg",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "legacy baseline",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "lv",
+   "name": "Latvia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias"
+   ]
+  },
+  {
+   "place": "mc",
+   "name": "Monaco",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mr",
+   "name": "Mauritania",
+   "advisory": "Reconsider your need to travel",
+   "cadence": "fortnightly",
+   "reasons": [
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mt",
+   "name": "Malta",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ng",
+   "name": "Nigeria",
+   "advisory": "Reconsider your need to travel",
+   "cadence": "fortnightly",
+   "reasons": [
+    "election",
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": [
+    "election 2027-01-16"
+   ]
+  },
+  {
+   "place": "nl",
+   "name": "Netherlands",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias"
+   ]
+  },
+  {
+   "place": "no",
+   "name": "Norway",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "nr",
+   "name": "Nauru",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "om",
+   "name": "Oman",
+   "advisory": "Reconsider your need to travel",
+   "cadence": "fortnightly",
+   "reasons": [
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "pk",
+   "name": "Pakistan",
+   "advisory": "Reconsider your need to travel",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "high advisory",
+    "snapshot evidence"
+   ],
+   "items": [
+    "4 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "pl",
+   "name": "Poland",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "pt",
+   "name": "Portugal",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "pending event",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "pending date: Web Summit 2027 (Lisbon)"
+   ]
+  },
+  {
+   "place": "ro",
+   "name": "Romania",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "rw",
+   "name": "Rwanda",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": [
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "se",
+   "name": "Sweden",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "si",
+   "name": "Slovenia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "sk",
+   "name": "Slovakia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence",
+    "watch item"
+   ],
+   "items": [
+    "eu-etias",
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "sm",
+   "name": "San Marino",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "sr",
+   "name": "Suriname",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": [
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "st",
+   "name": "São Tomé and Príncipe",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "tg",
+   "name": "Togo",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "tv",
+   "name": "Tuvalu",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "va",
+   "name": "Vatican City",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "vc",
+   "name": "Saint Vincent and the Grenadines",
+   "advisory": "",
+   "cadence": "fortnightly",
+   "reasons": [
+    "confirm in writing",
+    "legacy baseline",
+    "snapshot evidence"
+   ],
+   "items": [
+    "8 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ae",
+   "name": "United Arab Emirates",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "pending event",
+    "snapshot evidence"
+   ],
+   "items": [
+    "pending date: GITEX Global 2027",
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ai",
+   "name": "Anguilla",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "al",
+   "name": "Albania",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "am",
+   "name": "Armenia",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "4 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ao",
+   "name": "Angola",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "5 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "aq",
+   "name": "Antarctica",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ar",
+   "name": "Argentina",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "as",
+   "name": "American Samoa",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "6 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "au",
+   "name": "Australia",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "au/minjerribah",
+   "name": "Minjerribah",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "au/nsw",
+   "name": "New South Wales",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "au/qld",
+   "name": "Queensland",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "au/qld-council-6250",
+   "name": "Redland City",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "au/sa",
+   "name": "South Australia",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "au/vic",
+   "name": "Victoria",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "au/wa",
+   "name": "Western Australia",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "aw",
+   "name": "Aruba",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ax",
+   "name": "Åland Islands",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "az",
+   "name": "Azerbaijan",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "5 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ba",
+   "name": "Bosnia and Herzegovina",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "bd",
+   "name": "Bangladesh",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "bj",
+   "name": "Benin",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "bl",
+   "name": "Saint Barthélemy",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "bm",
+   "name": "Bermuda",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "bn",
+   "name": "Brunei",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "bo",
+   "name": "Bolivia",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "bq",
+   "name": "Caribbean Netherlands",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "br",
+   "name": "Brazil",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "pending event",
+    "snapshot evidence"
+   ],
+   "items": [
+    "pending date: Rock in Rio"
+   ]
+  },
+  {
+   "place": "br/rio-de-janeiro",
+   "name": "Rio de Janeiro",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "bs",
+   "name": "Bahamas",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "bt",
+   "name": "Bhutan",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "dated rule",
+    "pending event",
+    "snapshot evidence"
+   ],
+   "items": [
+    "pending date: Paro Tshechu 2027 (reported 18 to 22 March, lunar)",
+    "pending date: National Day 2027 (17 December)",
+    "pending date: Bhutan tshechu festivals 2027 (Punakha, Paro, Thimphu and others)",
+    "zone-requirements date 2027-08-28",
+    "visa-preparation date 2027-08-31",
+    "6 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "bw",
+   "name": "Botswana",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "bz",
+   "name": "Belize",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ca",
+   "name": "Canada",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "pending event",
+    "snapshot evidence"
+   ],
+   "items": [
+    "pending date: Toronto International Film Festival 2027",
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ca/alberta",
+   "name": "Alberta",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ca/british-columbia",
+   "name": "British Columbia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ca/manitoba",
+   "name": "Manitoba",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ca/new-brunswick",
+   "name": "New Brunswick",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ca/newfoundland-and-labrador",
+   "name": "Newfoundland and Labrador",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ca/northwest-territories",
+   "name": "Northwest Territories",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ca/nova-scotia",
+   "name": "Nova Scotia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ca/nunavut",
+   "name": "Nunavut",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ca/ontario",
+   "name": "Ontario",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ca/prince-edward-island",
+   "name": "Prince Edward Island",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ca/quebec",
+   "name": "Quebec",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ca/saskatchewan",
+   "name": "Saskatchewan",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ca/yukon",
+   "name": "Yukon",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "cc",
+   "name": "Cocos (Keeling) Islands",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ch/canton-of-basel-landschaft",
+   "name": "Canton of Basel-Landschaft",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule"
+   ],
+   "items": [
+    "psychoactive-substances date 2028-10-28"
+   ]
+  },
+  {
+   "place": "ch/canton-of-basel-stadt",
+   "name": "Canton of Basel-Stadt",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule"
+   ],
+   "items": [
+    "psychoactive-substances date 2027-01-28"
+   ]
+  },
+  {
+   "place": "ch/canton-of-geneva",
+   "name": "Canton of Geneva",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule"
+   ],
+   "items": [
+    "psychoactive-substances date 2027-06-28"
+   ]
+  },
+  {
+   "place": "ch/canton-of-vaud",
+   "name": "Canton of Vaud",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule"
+   ],
+   "items": [
+    "psychoactive-substances date 2027-06-28"
+   ]
+  },
+  {
+   "place": "ci",
+   "name": "Côte d'Ivoire",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "5 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ck",
+   "name": "Cook Islands",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "cl",
+   "name": "Chile",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "cm",
+   "name": "Cameroon",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "5 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "cn/beijing",
+   "name": "Beijing",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "cn/chongqing",
+   "name": "Chongqing",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "cn/shanghai",
+   "name": "Shanghai",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "cn/xinjiang",
+   "name": "Xinjiang",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "co",
+   "name": "Colombia",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "cq",
+   "name": "Sark",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "cr",
+   "name": "Costa Rica",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "cw",
+   "name": "Curaçao",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "cx",
+   "name": "Christmas Island",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "de/bavaria",
+   "name": "Bavaria",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "dj",
+   "name": "Djibouti",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "do",
+   "name": "Dominican Republic",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "dz",
+   "name": "Algeria",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "dated rule",
+    "snapshot evidence"
+   ],
+   "items": [
+    "culture-and-protocol date 2027-02-28",
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ec",
+   "name": "Ecuador",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "eg",
+   "name": "Egypt",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "es/catalonia",
+   "name": "Catalonia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule",
+    "snapshot evidence"
+   ],
+   "items": [
+    "local-law date 2027-03-31"
+   ]
+  },
+  {
+   "place": "fj",
+   "name": "Fiji",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election",
+    "snapshot evidence"
+   ],
+   "items": [
+    "election 2026-12-09",
+    "election 2026-12-24"
+   ]
+  },
+  {
+   "place": "fk",
+   "name": "Falkland Islands",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "fm",
+   "name": "Federated States of Micronesia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "election",
+    "snapshot evidence"
+   ],
+   "items": [
+    "election 2027-03-02",
+    "5 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "fo",
+   "name": "Faroe Islands",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ga",
+   "name": "Gabon",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "gb",
+   "name": "United Kingdom",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "gb/scotland",
+   "name": "Scotland",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "gb/wales",
+   "name": "Wales",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "gb__england",
+   "name": "gb__england",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "pending event"
+   ],
+   "items": [
+    "pending date: WOMAD 2027 (Neston Park)"
+   ]
+  },
+  {
+   "place": "ge",
+   "name": "Georgia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "gf",
+   "name": "French Guiana",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "gg",
+   "name": "Guernsey",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "gi",
+   "name": "Gibraltar",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "gl",
+   "name": "Greenland",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "gm",
+   "name": "Gambia",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "election",
+    "snapshot evidence"
+   ],
+   "items": [
+    "election 2026-12-05",
+    "election 2027-04-10",
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "gn",
+   "name": "Guinea",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "gp",
+   "name": "Guadeloupe",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "gs",
+   "name": "South Georgia and the South Sandwich Islands",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule",
+    "snapshot evidence"
+   ],
+   "items": [
+    "entry date 2027-07-01"
+   ]
+  },
+  {
+   "place": "gt",
+   "name": "Guatemala",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "gu",
+   "name": "Guam",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "gy",
+   "name": "Guyana",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "4 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "hk",
+   "name": "Hong Kong",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "hn",
+   "name": "Honduras",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "id",
+   "name": "Indonesia",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "id/bali",
+   "name": "Bali",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ie",
+   "name": "Ireland",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "pending event",
+    "snapshot evidence"
+   ],
+   "items": [
+    "pending date: Lisdoonvarna Matchmaking Festival 2027"
+   ]
+  },
+  {
+   "place": "im",
+   "name": "Isle of Man",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "in",
+   "name": "India",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "in/arunachal-pradesh",
+   "name": "Arunachal Pradesh",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "in/goa",
+   "name": "Goa",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "in/maharashtra",
+   "name": "Maharashtra",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "in/manipur",
+   "name": "Manipur",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "in/mizoram",
+   "name": "Mizoram",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "in/nagaland",
+   "name": "Nagaland",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "in/rajasthan",
+   "name": "Rajasthan",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "in/sikkim",
+   "name": "Sikkim",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "in/uttarakhand",
+   "name": "Uttarakhand",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "in/west-bengal",
+   "name": "West Bengal",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "in__nagaland",
+   "name": "in__nagaland",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "pending event"
+   ],
+   "items": [
+    "pending date: Hornbill Festival 2027 (usually 1 to 10 Dec)"
+   ]
+  },
+  {
+   "place": "io",
+   "name": "British Indian Ocean Territory",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "it/lombardy",
+   "name": "Lombardy",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "it/veneto",
+   "name": "Veneto",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "je",
+   "name": "Jersey",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "jm",
+   "name": "Jamaica",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "jp",
+   "name": "Japan",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ke",
+   "name": "Kenya",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "kg",
+   "name": "Kyrgyzstan",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "election",
+    "snapshot evidence"
+   ],
+   "items": [
+    "election 2027-01-27",
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "kh",
+   "name": "Cambodia",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "kr/seoul",
+   "name": "Seoul",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ky",
+   "name": "Cayman Islands",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "kz",
+   "name": "Kazakhstan",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "la",
+   "name": "Laos",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "5 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "lk",
+   "name": "Sri Lanka",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "lr",
+   "name": "Liberia",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ls",
+   "name": "Lesotho",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ma",
+   "name": "Morocco",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "pending event",
+    "snapshot evidence"
+   ],
+   "items": [
+    "pending date: Mawazine 2027",
+    "pending date: Fes Festival of World Sacred Music 2027",
+    "4 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "md",
+   "name": "Moldova",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "me",
+   "name": "Montenegro",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mf",
+   "name": "Saint Martin",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mg",
+   "name": "Madagascar",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "mh",
+   "name": "Marshall Islands",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "mk",
+   "name": "North Macedonia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mn",
+   "name": "Mongolia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "mo",
+   "name": "Macau",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "mp",
+   "name": "Northern Mariana Islands",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "mq",
+   "name": "Martinique",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ms",
+   "name": "Montserrat",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mu",
+   "name": "Mauritius",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "mv",
+   "name": "Maldives",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mw",
+   "name": "Malawi",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "pending event",
+    "snapshot evidence"
+   ],
+   "items": [
+    "pending date: Lake of Stars 2027",
+    "pending date: Lake of Stars festival 2027",
+    "4 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "mx",
+   "name": "Mexico",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "my",
+   "name": "Malaysia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "my/labuan",
+   "name": "Labuan",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule"
+   ],
+   "items": [
+    "local-law date 2027-01-01"
+   ]
+  },
+  {
+   "place": "mz",
+   "name": "Mozambique",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "na",
+   "name": "Namibia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "nc",
+   "name": "New Caledonia",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "nf",
+   "name": "Norfolk Island",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ni",
+   "name": "Nicaragua",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "np",
+   "name": "Nepal",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "nu",
+   "name": "Niue",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "9 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "nz",
+   "name": "New Zealand",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election",
+    "snapshot evidence"
+   ],
+   "items": [
+    "election 2026-11-07"
+   ]
+  },
+  {
+   "place": "pa",
+   "name": "Panama",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "pe",
+   "name": "Peru",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "pe/lima-department",
+   "name": "Lima Department",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "pf",
+   "name": "French Polynesia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "5 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "pg",
+   "name": "Papua New Guinea",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "5 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ph",
+   "name": "Philippines",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "pending event",
+    "snapshot evidence"
+   ],
+   "items": [
+    "pending date: Independence Day 2027 (12 June)"
+   ]
+  },
+  {
+   "place": "pm",
+   "name": "Saint Pierre and Miquelon",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "pn",
+   "name": "Pitcairn Islands",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "pr",
+   "name": "Puerto Rico",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "pw",
+   "name": "Palau",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "py",
+   "name": "Paraguay",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "qa",
+   "name": "Qatar",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "re",
+   "name": "Réunion",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "rs",
+   "name": "Serbia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "rs/city-of-belgrade",
+   "name": "City of Belgrade",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "sb",
+   "name": "Solomon Islands",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "sc",
+   "name": "Seychelles",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "sg",
+   "name": "Singapore",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "sh",
+   "name": "Saint Helena, Ascension and Tristan da Cunha",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "sj",
+   "name": "Svalbard and Jan Mayen",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "sl",
+   "name": "Sierra Leone",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "sn",
+   "name": "Senegal",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "5 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "sv",
+   "name": "El Salvador",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "election",
+    "snapshot evidence"
+   ],
+   "items": [
+    "election 2027-02-28"
+   ]
+  },
+  {
+   "place": "sx",
+   "name": "Sint Maarten",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "sz",
+   "name": "Eswatini",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "4 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "tc",
+   "name": "Turks and Caicos Islands",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "tf",
+   "name": "French Southern Territories",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "th",
+   "name": "Thailand",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "tj",
+   "name": "Tajikistan",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "tk",
+   "name": "Tokelau",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "tl",
+   "name": "Timor-Leste",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "tm",
+   "name": "Turkmenistan",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "tn",
+   "name": "Tunisia",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "9 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "to",
+   "name": "Tonga",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "tr",
+   "name": "Türkiye",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "tt",
+   "name": "Trinidad and Tobago",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "4 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "tw",
+   "name": "Taiwan",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "tz",
+   "name": "Tanzania",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ug",
+   "name": "Uganda",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us",
+   "name": "United States",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "pending event",
+    "snapshot evidence"
+   ],
+   "items": [
+    "pending date: TechCrunch Disrupt 2027",
+    "pending date: Coachella 2027",
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "us/alabama",
+   "name": "Alabama",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/alaska",
+   "name": "Alaska",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/arizona",
+   "name": "Arizona",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/arkansas",
+   "name": "Arkansas",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/california",
+   "name": "California",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/colorado",
+   "name": "Colorado",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/connecticut",
+   "name": "Connecticut",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/delaware",
+   "name": "Delaware",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/district-of-columbia",
+   "name": "District of Columbia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/florida",
+   "name": "Florida",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/georgia",
+   "name": "Georgia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/hawaii",
+   "name": "Hawaiʻi",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/idaho",
+   "name": "Idaho",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/illinois",
+   "name": "Illinois",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/indiana",
+   "name": "Indiana",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/iowa",
+   "name": "Iowa",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/massachusetts",
+   "name": "Massachusetts",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/michigan",
+   "name": "Michigan",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/nebraska",
+   "name": "Nebraska",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/nevada",
+   "name": "Nevada",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/new-hampshire",
+   "name": "New Hampshire",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/new-jersey",
+   "name": "New Jersey",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule",
+    "snapshot evidence"
+   ],
+   "items": [
+    "psychoactive-substances date 2026-11-13",
+    "psychoactive-substances date 2026-11-14"
+   ]
+  },
+  {
+   "place": "us/new-mexico",
+   "name": "New Mexico",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule",
+    "snapshot evidence"
+   ],
+   "items": [
+    "psychoactive-substances date 2027-12-31"
+   ]
+  },
+  {
+   "place": "us/new-york",
+   "name": "New York",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/north-carolina",
+   "name": "North Carolina",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/north-dakota",
+   "name": "North Dakota",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/ohio",
+   "name": "Ohio",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/oklahoma",
+   "name": "Oklahoma",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/oregon",
+   "name": "Oregon",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/rhode-island",
+   "name": "Rhode Island",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/south-carolina",
+   "name": "South Carolina",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/south-dakota",
+   "name": "South Dakota",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/tennessee",
+   "name": "Tennessee",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/texas",
+   "name": "Texas",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/utah",
+   "name": "Utah",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/virginia",
+   "name": "Virginia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule"
+   ],
+   "items": [
+    "psychoactive-substances date 2027-07-01"
+   ]
+  },
+  {
+   "place": "us/washington",
+   "name": "Washington",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/west-virginia",
+   "name": "West Virginia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/wisconsin",
+   "name": "Wisconsin",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/wyoming",
+   "name": "Wyoming",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us__california",
+   "name": "us__california",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "pending event"
+   ],
+   "items": [
+    "pending date: Coachella 2027"
+   ]
+  },
+  {
+   "place": "uy",
+   "name": "Uruguay",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "uz",
+   "name": "Uzbekistan",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "vg",
+   "name": "British Virgin Islands",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "vi",
+   "name": "United States Virgin Islands",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "3 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "vn",
+   "name": "Vietnam",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "vu",
+   "name": "Vanuatu",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "4 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "wf",
+   "name": "Wallis and Futuna",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "7 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "ws",
+   "name": "Samoa",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "xk",
+   "name": "Kosovo",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "yt",
+   "name": "Mayotte",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "za",
+   "name": "South Africa",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "zm",
+   "name": "Zambia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "zw",
+   "name": "Zimbabwe",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  }
+ ],
+ "home": {
+  "place": "au/minjerribah",
+  "chain": [
+   "au/minjerribah",
+   "au/qld-council-6250",
+   "au/qld",
+   "au"
+  ],
+  "baseline_days": 180,
+  "obligations": [
+   {
+    "level": "au/minjerribah",
+    "topic": "island-access",
+    "rule": "Passenger and vehicle ferries run from Toondah Harbour, Cleveland, to Dunwich (passenger about 25 minutes, vehicle about 45). Council lists the operators; book the vehicle ferry directly with the operator. Check that a hire car may travel to the island.",
+    "source": "https://www.redland.qld.gov.au/info/20125/our_suburbs_and_islands/205/north_stradbroke",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au/minjerribah",
+    "topic": "driving-and-vehicles",
+    "rule": "Residents who reasonably need a vehicle access permit to reach their home through the Minjerribah Recreation Area can apply for a fee exemption, with evidence, each year (Recreation Areas Management Regulation 2017 s58). Traditional Owners exercising native title rights are exempt from the fee; for Minjerribah, First Nations applicants need endorsement from the prescribed body corporate first. Renew before it lapses if you will be away at renewal time.",
+    "source": "https://www.qld.gov.au/environment/parks/permits/exemption-vap-fee",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au/minjerribah",
+    "topic": "camping-and-native-title",
+    "rule": "QYAC manages cultural heritage on Quandamooka Country under the Aboriginal Cultural Heritage Act 2003: anyone carrying out a land-use activity owes a duty of care (fines up to AUD 166,900 for individuals), and anything that may be cultural heritage should be left untouched and reported to QYAC. Resident-specific QYAC permits or native title permissions to arrange before leaving: not yet checked.",
+    "source": "https://qyac.net.au/cultural-heritage/",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au/qld-council-6250",
+    "topic": "property-and-rates",
+    "rule": "Redland City rates are billed quarterly; they can be paid online, by BPAY, phone, direct debit, post or in person, so set up payment before a long trip.",
+    "source": "https://www.redland.qld.gov.au/Rates-fees-and-infringements/Rates",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au/qld-council-6250",
+    "topic": "animals",
+    "rule": "Dogs and cats must be microchipped and registered with Council, and registration renewed every 12 months (online through myServices or Quick Pay, by phone or in person), so a renewal can fall due while you are away. A carer must keep the animal on your property and follow Local Law 2 (Animal Management), including a limit of 2 dogs and 2 cats per property without a permit.",
+    "source": "https://www.redland.qld.gov.au/Animals-and-pets/Dogs-and-cats/About-dogs-and-cats",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au/qld",
+    "topic": "driving-and-vehicles",
+    "rule": "Queensland does not issue international driving permits; check the destination's licensing rules, and get an IDP from the motoring club if needed, carrying your Queensland licence with it.",
+    "source": "https://www.qld.gov.au/transport/licensing/driver-licensing/overseas/driving-interstate-or-overseas",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au/qld",
+    "topic": "driving-and-vehicles",
+    "rule": "Vehicle registration can be renewed online from overseas; renew by the due date to avoid a late fee. An expired registration makes the vehicle unregistered and driving it is an offence.",
+    "source": "https://www.qld.gov.au/transport/registration/fees/pay/online",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au/qld",
+    "topic": "voting",
+    "rule": "For Queensland state elections, eligible voters who are overseas can vote by telephone during the early voting period.",
+    "source": "https://www.ecq.qld.gov.au/how-to-vote/ways-to-vote",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au",
+    "topic": "departure-and-return",
+    "rule": "On return, complete the Incoming Passenger Card accurately (a digital Australia Travel Declaration is being piloted on some Qantas flights). Adults can bring AUD 900 of general goods duty free; over the allowance, duty and tax apply to every item of that type. Goods claimed under the Tourist Refund Scheme must be declared.",
+    "source": "https://www.abf.gov.au/entering-and-leaving-australia/duty-free",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au",
+    "topic": "departure-and-return",
+    "rule": "Declare food, plant material and animal products, including goods you took overseas and brought back. Clean hiking, fishing and camping gear and footwear. Declared goods are not penalised under the Biosecurity Act 2015 even if refused; false or missing declarations can bring an infringement notice of up to AUD 7,280 or prosecution.",
+    "source": "https://www.agriculture.gov.au/biosecurity-trade/policy/faqs",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au",
+    "topic": "travel-advice-and-insurance",
+    "rule": "Smartraveller offers free email and SMS updates for each destination, and says that if you can't afford travel insurance, you can't afford to travel.",
+    "source": "https://www.smartraveller.gov.au/consular-services/resources/travel-smart",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au",
+    "topic": "consular-help-and-limits",
+    "rule": "Consular help is not a legal right and may be limited if your actions were illegal or repeatedly reckless. DFAT may replace passports (fee), give lists of doctors and lawyers, check on you if detained, contact family with consent and provide some notarial and voting services. It can't give legal advice, intervene in foreign courts, get you out of prison, pay bail, fines or medical bills, or arrange visas or work permits.",
+    "source": "https://www.smartraveller.gov.au/our-role/consular-services-charter",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au",
+    "topic": "laws-that-follow-you",
+    "rule": "Australian citizens and residents can be prosecuted in Australia for child sex offences committed overseas (Criminal Code Division 272); the AFP investigates.",
+    "source": "https://afp.gov.au/crimes/crimes-against-children/travelling-child-sex-offenders",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au",
+    "topic": "laws-that-follow-you",
+    "rule": "Bribing a foreign public official is an offence for Australians anywhere (Criminal Code s 70.2), with up to 10 years' imprisonment for individuals.",
+    "source": "https://www.ag.gov.au/crime/foreign-bribery/foreign-bribery-offences-and-penalties",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au",
+    "topic": "laws-that-follow-you",
+    "rule": "Supplying technology on the Defence and Strategic Goods List overseas, including by email, cloud access or screen-sharing, generally needs a Defence permit unless an exemption applies. Relevant only if your work touches controlled technology.",
+    "source": "https://www.defence.gov.au/business-industry/exporting/compliance/obligations-requirements",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au",
+    "topic": "tax-residency",
+    "rule": "You generally stay an Australian resident for tax if you go overseas temporarily and do not set up a permanent home elsewhere; moving from country to country does not create one. Residents declare worldwide income and may claim a foreign income tax offset. You can lodge from overseas through myTax (set myGov sign-in to work abroad).",
+    "source": "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/your-tax-residency/australian-resident-for-tax-purposes",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au",
+    "topic": "health-cover",
+    "rule": "Medicare does not cover you overseas. Reciprocal health care agreements with 11 countries (Belgium, Finland, Ireland, Italy, Malta, the Netherlands, New Zealand, Norway, Slovenia, Sweden, the UK) may cover urgent care, usually with a co-payment; they don't cover evacuation and don't replace travel insurance. Carry your passport and a current Medicare card.",
+    "source": "https://www.smartraveller.gov.au/travel-essentials/travel-health/using-healthcare-agreement-medical-care",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au",
+    "topic": "health-cover",
+    "rule": "Strict rules apply to taking PBS medicines overseas; carry them for personal use and check they are legal at the destination.",
+    "source": "https://www.servicesaustralia.gov.au/health-care-planning-when-going-overseas?context=60040",
+    "checked": "2026-11-02"
+   },
+   {
+    "level": "au",
+    "topic": "voting",
+    "rule": "Federal voting is not compulsory while overseas, but tell the AEC (overseas notification form) or you will be asked to explain. Enrolled voters leaving for longer can register as an overseas elector up to 3 months before or within 3 years after leaving, valid 6 years; vote by post or in person at selected missions.",
+    "source": "https://www.aec.gov.au/overseas/overseas-elector.htm",
+    "checked": "2026-11-02"
+   }
+  ],
+  "topics_not_yet_recorded": []
+ }
+}

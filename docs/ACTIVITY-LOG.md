@@ -1388,3 +1388,22 @@ For Claude. Written with scripts/put_record.py.
   - Penalty and quantity detail in Mizoram's tourist liquor permit.
   - Whether the old "enter and exit the NE by air only" FAQ rule survives, now that land ports are e-Visa points.
   - Assam, Meghalaya and Tripura state law: not yet checked.
+
+## 2026-11-04 (AEST): workflow, Kosovo, China, visa gaps, 2027 events
+
+For Claude.
+- **Workflow.** .github/workflows/daily-advisories.yml now forces HTTP/1.1, retries, uses a browser user agent and fails soft. It was pushed and one manual run was triggered (run 41771866793); its result wasn't watched. The user then asked for workflows to be left alone while automations are disabled, so nothing further was touched. From the box, the export fetched fine over both HTTP/2 and HTTP/1.1.
+- **Kosovo (6cfaeed).** Culture cycles from Law No. 03/L-064 on Official Holidays (Assembly PDF) and the Ministry of Internal Affairs 2025 calendar, both search snapshots. Health entry set to none-required: Smartraveller (read directly) states no vaccination requirement.
+- **China (6cfaeed).**
+  - cn local law: accommodation registration (Exit and Entry Administration Law Art. 39 via the NIA, snapshot; online registration nationwide since 21 September 2026); payments (State Council Guobanfa [2024] No. 10 and the PBOC guide via gov.cn, snapshots); VPN licensing and blocked services (FCDO, direct).
+  - cn visa-preparation notes: the Australia waiver ends 31 December 2026 (Chinese Embassy in Australia notice, snapshot). The MFA notices list, read directly on 4 November, shows no extension. The 240-hour transit details come from NIA (snapshot); the Oceania names were cut off, so confirm Australia is listed.
+  - New local-law levels for cn/beijing, cn/shanghai and cn/chongqing (240-hour ports) and cn/xinjiang and cn/tibet (FCDO regional risks, direct). New cn/tibet zone record for the permit and organised tour.
+- **Visa preparation and health (05f6144).**
+  - gu, nc and pf from Smartraveller (direct).
+  - tv from the Tuvalu Immigration Regulations 2014 (snapshot).
+  - st and km set to confirm-in-writing (snapshots).
+  - Health entry for hk, mo and tw set to none-required (Smartraveller, direct).
+- **2027 events.**
+  - Added: Biennale Architettura, 8 May to 21 November 2027 (labiennale.org, direct), to it; WOMADelaide, 5 to 8 March 2027 (direct), to au/sa.
+  - Still no official dates: Web Summit, Slush, Tomorrowland, Iceland Airwaves, Coachella (now added to the pending list) and Brisbane Writers Festival.
+- **Not reached:** activities confirm-in-writing, Europe regions, and the culture cycles other than xk.
