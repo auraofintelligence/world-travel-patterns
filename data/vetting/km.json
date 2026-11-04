@@ -589,19 +589,22 @@
    "notes": "Covered by the Australian mission responsible for Mauritius."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
+   "status": "confirm-in-writing",
+   "checked": "2026-11-04",
+   "last_reviewed": "2026-11-04",
+   "evidence": "official",
    "needs_recheck": true,
-   "entry_summary": "Visa on arrival available.",
+   "entry_summary": "Visa on arrival at Moroni (Prince Said Ibrahim) airport, as read; fee and documents to confirm.",
    "cost_aud_baseline": {
     "value": "~ $75",
     "checked": "2025-08-16",
     "claim_id": "WORLD-COMOROS-COST"
    },
    "steps": [],
-   "documents": [],
+   "documents": [
+    "Passport valid 6 months",
+    "Onward ticket"
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -612,7 +615,18 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: no Smartraveller advice. Visa on arrival (reported EUR 30 for 45 days) only in foreign government advice; no Comoros government page found."
+   "recheck_note": "Snapshot only; fee not stated on an official page read.",
+   "fastest_entry": "Visa on arrival.",
+   "fees": [],
+   "sources": [
+    {
+     "title": "Visa and entry formalities",
+     "authority": "Office National du Tourisme des Comores",
+     "url": "https://www.comorostourism.com/en/preparersonvoyage/visa_et_formalites_d_entree",
+     "checked": "2026-11-04",
+     "supports": "visa issued on arrival (read via a search-index snapshot)"
+    }
+   ]
   },
   "local-law": {
    "status": "partly-mapped",

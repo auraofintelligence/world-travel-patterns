@@ -592,19 +592,21 @@
    "notes": "Covered by the Australian mission responsible for Portugal."
   },
   "visa-preparation": {
-   "status": "baseline-only",
-   "checked": "2025-08-16",
-   "last_reviewed": "2025-08-16",
-   "evidence": "legacy-baseline",
+   "status": "confirm-in-writing",
+   "checked": "2026-11-04",
+   "last_reviewed": "2026-11-04",
+   "evidence": "official",
    "needs_recheck": true,
-   "entry_summary": "Visa-free for business visits up to 15 days.",
+   "entry_summary": "Australia isn't on the 15-day visa-exempt list (CPLP, EU, UK, US, Canada and named countries) as read; a visa is likely needed unless you hold a valid Schengen or US visa.",
    "cost_aud_baseline": {
     "value": "Free",
     "checked": "2025-08-16",
     "claim_id": "WORLD-SAO-TOME-AND-PRINCIPE-COST"
    },
    "steps": [],
-   "documents": [],
+   "documents": [
+    "Passport valid more than 3 months"
+   ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
@@ -615,7 +617,18 @@
     },
     "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
-   "recheck_note": "Not verified 2026-11-01: no Smartraveller advice. Search snapshots of the national law (smf.st) and the tourism office say a 15-day exemption covers listed nationalities and holders of a Schengen or US visa; Australia's place on the list and the e-visa fee weren't confirmed on an official page."
+   "recheck_note": "Read only as a search snapshot; confirm the Schengen/US visa concession and how to apply.",
+   "fastest_entry": "Ask the nearest São Tomé and Príncipe mission.",
+   "fees": [],
+   "sources": [
+    {
+     "title": "São Tomé and Príncipe visa exemption legislation (National Assembly)",
+     "authority": "Government of São Tomé and Príncipe (Ministry of Finance legal database)",
+     "url": "https://www.smf.st/resource/upload/fileLegislacao/3b08292f5e5b8ffe737f471778fc5ad5.pdf",
+     "checked": "2026-11-04",
+     "supports": "15-day exemption list; Australia not found on it (read via a search-index snapshot)"
+    }
+   ]
   },
   "local-law": {
    "status": "partly-mapped",
