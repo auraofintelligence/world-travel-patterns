@@ -115,7 +115,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-341 locations have specific watch items.
+342 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -304,7 +304,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | gp |  | monthly | snapshot evidence |  |
 | gs |  | monthly | dated rule, snapshot evidence | entry date 2027-07-01 |
 | gt | Exercise a high degree of caution | monthly | snapshot evidence |  |
-| gu | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| gu | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | gy | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
 | hk | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | hn | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -350,7 +350,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | mk | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | mn | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | mo | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
-| mp |  | monthly | snapshot evidence |  |
+| mp |  | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | mq |  | monthly | snapshot evidence |  |
 | ms |  | monthly | snapshot evidence |  |
 | mu | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
@@ -363,6 +363,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | na | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | nc | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | nf |  | monthly | snapshot evidence |  |
+| ni | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | np | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | nu | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 9 confirm-in-writing |
 | nz | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2026-11-07 |
@@ -374,7 +375,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ph | Exercise a high degree of caution | monthly | pending event, snapshot evidence | pending date: Independence Day 2027 (12 June) |
 | pm |  | monthly | snapshot evidence |  |
 | pn |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
-| pr |  | monthly | snapshot evidence |  |
+| pr |  | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | pw | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | py | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | qa | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
@@ -405,7 +406,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | tw | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | tz | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ug | Exercise a high degree of caution | monthly | snapshot evidence |  |
-| us | Exercise normal safety precautions | monthly | pending event, snapshot evidence | pending date: TechCrunch Disrupt 2027; pending date: Coachella 2027 |
+| us | Exercise normal safety precautions | monthly | confirm in writing, pending event, snapshot evidence | pending date: TechCrunch Disrupt 2027; pending date: Coachella 2027; 2 confirm-in-writing |
 | us/alabama | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/alaska | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/arizona | Exercise normal safety precautions | monthly | snapshot evidence |  |
@@ -450,7 +451,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | uy | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | uz | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | vg |  | monthly | snapshot evidence |  |
-| vi |  | monthly | snapshot evidence |  |
+| vi |  | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | vn | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | vu | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
 | wf |  | monthly | confirm in writing, snapshot evidence | 7 confirm-in-writing |

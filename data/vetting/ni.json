@@ -274,8 +274,240 @@
      "supports": "tourism from the entry rule, plus activity rules stated on the page, as read on 2026-11-01"
     }
    ],
-   "needs_recheck": true,
-   "source_note": "Another country's travel advice was removed as a source on 4 November 2026; recheck the text against the place's own official sources."
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "visa on arrival",
+     "detail": "Buy a tourist card at the airport for up to 90 days.",
+     "next": "See the entry record.",
+     "checked": "2026-11-01",
+     "sources": []
+    },
+    "meetings": {
+     "status": "conditional",
+     "route": "Visa needed (not a tourist)",
+     "detail": "Smartraveller says the airport tourist card covers tourist visits only; if you're not a tourist you need a visa. Authorities may refuse entry for political reasons, review social media and search phones and computers, and the US State Department lists business representatives and academics among those turned away.",
+     "next": "Get the right visa from a Nicaraguan embassy before travel, and keep talk content and posts non-political.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Nicaragua travel advice",
+       "authority": "Australian Government (Smartraveller)",
+       "url": "https://www.smartraveller.gov.au/destinations/americas/nicaragua",
+       "checked": "2026-11-02",
+       "supports": "tourist card for visits up to 90 days; non-tourists need a visa; authorities may bar entry for political reasons and search devices (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "conference": {
+     "status": "conditional",
+     "route": "Visa needed (not a tourist)",
+     "detail": "Smartraveller says the airport tourist card covers tourist visits only; if you're not a tourist you need a visa. Authorities may refuse entry for political reasons, review social media and search phones and computers, and the US State Department lists business representatives and academics among those turned away.",
+     "next": "Get the right visa from a Nicaraguan embassy before travel, and keep talk content and posts non-political.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Nicaragua travel advice",
+       "authority": "Australian Government (Smartraveller)",
+       "url": "https://www.smartraveller.gov.au/destinations/americas/nicaragua",
+       "checked": "2026-11-02",
+       "supports": "tourist card for visits up to 90 days; non-tourists need a visa; authorities may bar entry for political reasons and search devices (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "unpaid-speaking": {
+     "status": "conditional",
+     "route": "Visa needed (not a tourist)",
+     "detail": "Smartraveller says the airport tourist card covers tourist visits only; if you're not a tourist you need a visa. Authorities may refuse entry for political reasons, review social media and search phones and computers, and the US State Department lists business representatives and academics among those turned away.",
+     "next": "Get the right visa from a Nicaraguan embassy before travel, and keep talk content and posts non-political.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Nicaragua travel advice",
+       "authority": "Australian Government (Smartraveller)",
+       "url": "https://www.smartraveller.gov.au/destinations/americas/nicaragua",
+       "checked": "2026-11-02",
+       "supports": "tourist card for visits up to 90 days; non-tourists need a visa; authorities may bar entry for political reasons and search devices (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "paid-speaking": {
+     "status": "specialist",
+     "route": "DGME work permit",
+     "detail": "Work needs a DGME labour permit (3 to 12 months) after consulting the labour ministry. The employer applies.",
+     "next": "Confirm with DGME.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "La Gaceta N. 222, 29/11/2024",
+       "authority": "Asamblea Nacional de Nicaragua (Digesto)",
+       "url": "https://digesto.asamblea.gob.ni/consultas/util/pdf.php?rdd=X0e4buKlvOU%3D&type=rdd",
+       "checked": "2026-11-01",
+       "supports": "work permits 3 to 12 months (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "book-launch": {
+     "status": "specialist",
+     "route": "DGME work permit",
+     "detail": "Work needs a DGME labour permit (3 to 12 months) after consulting the labour ministry. The employer applies.",
+     "next": "Confirm with DGME.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "La Gaceta N. 222, 29/11/2024",
+       "authority": "Asamblea Nacional de Nicaragua (Digesto)",
+       "url": "https://digesto.asamblea.gob.ni/consultas/util/pdf.php?rdd=X0e4buKlvOU%3D&type=rdd",
+       "checked": "2026-11-01",
+       "supports": "work permits 3 to 12 months (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "ai-teaching": {
+     "status": "specialist",
+     "route": "DGME work permit",
+     "detail": "Work needs a DGME labour permit (3 to 12 months) after consulting the labour ministry. The employer applies.",
+     "next": "Confirm with DGME.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "La Gaceta N. 222, 29/11/2024",
+       "authority": "Asamblea Nacional de Nicaragua (Digesto)",
+       "url": "https://digesto.asamblea.gob.ni/consultas/util/pdf.php?rdd=X0e4buKlvOU%3D&type=rdd",
+       "checked": "2026-11-01",
+       "supports": "work permits 3 to 12 months (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "remote-work": {
+     "status": "specialist",
+     "route": "DGME work permit",
+     "detail": "Work needs a DGME labour permit (3 to 12 months) after consulting the labour ministry. The employer applies.",
+     "next": "Confirm with DGME.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "La Gaceta N. 222, 29/11/2024",
+       "authority": "Asamblea Nacional de Nicaragua (Digesto)",
+       "url": "https://digesto.asamblea.gob.ni/consultas/util/pdf.php?rdd=X0e4buKlvOU%3D&type=rdd",
+       "checked": "2026-11-01",
+       "supports": "work permits 3 to 12 months (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "entrepreneur": {
+     "status": "specialist",
+     "route": "DGME work permit",
+     "detail": "Work needs a DGME labour permit (3 to 12 months) after consulting the labour ministry. The employer applies.",
+     "next": "Confirm with DGME.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "La Gaceta N. 222, 29/11/2024",
+       "authority": "Asamblea Nacional de Nicaragua (Digesto)",
+       "url": "https://digesto.asamblea.gob.ni/consultas/util/pdf.php?rdd=X0e4buKlvOU%3D&type=rdd",
+       "checked": "2026-11-01",
+       "supports": "work permits 3 to 12 months (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "trade": {
+     "status": "conditional",
+     "route": "Visa needed (not a tourist)",
+     "detail": "Smartraveller says the airport tourist card covers tourist visits only; if you're not a tourist you need a visa. Authorities may refuse entry for political reasons, review social media and search phones and computers, and the US State Department lists business representatives and academics among those turned away.",
+     "next": "Get the right visa from a Nicaraguan embassy before travel, and keep talk content and posts non-political.",
+     "checked": "2026-11-02",
+     "sources": [
+      {
+       "title": "Nicaragua travel advice",
+       "authority": "Australian Government (Smartraveller)",
+       "url": "https://www.smartraveller.gov.au/destinations/americas/nicaragua",
+       "checked": "2026-11-02",
+       "supports": "tourist card for visits up to 90 days; non-tourists need a visa; authorities may bar entry for political reasons and search devices (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "artist": {
+     "status": "specialist",
+     "route": "DGME work permit",
+     "detail": "Work needs a DGME labour permit (3 to 12 months) after consulting the labour ministry. The employer applies.",
+     "next": "Confirm with DGME.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "La Gaceta N. 222, 29/11/2024",
+       "authority": "Asamblea Nacional de Nicaragua (Digesto)",
+       "url": "https://digesto.asamblea.gob.ni/consultas/util/pdf.php?rdd=X0e4buKlvOU%3D&type=rdd",
+       "checked": "2026-11-01",
+       "supports": "work permits 3 to 12 months (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "mixed-mission": {
+     "status": "specialist",
+     "route": "DGME work permit",
+     "detail": "Work needs a DGME labour permit (3 to 12 months) after consulting the labour ministry. The employer applies.",
+     "next": "Confirm with DGME.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "La Gaceta N. 222, 29/11/2024",
+       "authority": "Asamblea Nacional de Nicaragua (Digesto)",
+       "url": "https://digesto.asamblea.gob.ni/consultas/util/pdf.php?rdd=X0e4buKlvOU%3D&type=rdd",
+       "checked": "2026-11-01",
+       "supports": "work permits 3 to 12 months (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "filming": {
+     "status": "specialist",
+     "route": "DGME work permit",
+     "detail": "Work needs a DGME labour permit (3 to 12 months) after consulting the labour ministry. The employer applies.",
+     "next": "Confirm with DGME.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "La Gaceta N. 222, 29/11/2024",
+       "authority": "Asamblea Nacional de Nicaragua (Digesto)",
+       "url": "https://digesto.asamblea.gob.ni/consultas/util/pdf.php?rdd=X0e4buKlvOU%3D&type=rdd",
+       "checked": "2026-11-01",
+       "supports": "work permits 3 to 12 months (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "research": {
+     "status": "specialist",
+     "route": "DGME work permit",
+     "detail": "Work needs a DGME labour permit (3 to 12 months) after consulting the labour ministry. The employer applies.",
+     "next": "Confirm with DGME.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "La Gaceta N. 222, 29/11/2024",
+       "authority": "Asamblea Nacional de Nicaragua (Digesto)",
+       "url": "https://digesto.asamblea.gob.ni/consultas/util/pdf.php?rdd=X0e4buKlvOU%3D&type=rdd",
+       "checked": "2026-11-01",
+       "supports": "work permits 3 to 12 months (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "volunteering": {
+     "status": "specialist",
+     "route": "DGME work permit",
+     "detail": "Work needs a DGME labour permit (3 to 12 months) after consulting the labour ministry. The employer applies.",
+     "next": "Confirm with DGME.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "La Gaceta N. 222, 29/11/2024",
+       "authority": "Asamblea Nacional de Nicaragua (Digesto)",
+       "url": "https://digesto.asamblea.gob.ni/consultas/util/pdf.php?rdd=X0e4buKlvOU%3D&type=rdd",
+       "checked": "2026-11-01",
+       "supports": "work permits 3 to 12 months (read via a search-index snapshot)"
+      }
+     ]
+    }
+   }
   },
   "affection-and-relationships": {
    "status": "partly-mapped",

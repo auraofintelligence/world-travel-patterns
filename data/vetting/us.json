@@ -46,8 +46,181 @@
      "supports": "foreign media representatives are excluded from B-1"
     }
    ],
-   "needs_recheck": true,
-   "source_note": "Another country's travel advice was removed as a source on 4 November 2026; recheck the text against the place's own official sources."
+   "activities": {
+    "tourism": {
+     "status": "low",
+     "route": "ESTA under the Visa Waiver Program",
+     "detail": "Tourism under 90 days.",
+     "next": "None.",
+     "checked": "2026-11-01",
+     "sources": []
+    },
+    "meetings": {
+     "status": "low",
+     "route": "ESTA under the Visa Waiver Program",
+     "detail": "Consulting with business associates is a permitted activity.",
+     "next": "Be ready to explain the purpose at the border.",
+     "checked": "2026-11-01",
+     "sources": []
+    },
+    "conference": {
+     "status": "low",
+     "route": "ESTA under the Visa Waiver Program",
+     "detail": "Attending professional conferences is permitted.",
+     "next": "Carry the registration.",
+     "checked": "2026-11-01",
+     "sources": []
+    },
+    "unpaid-speaking": {
+     "status": "conditional",
+     "route": "ESTA under the Visa Waiver Program",
+     "detail": "Speaking at a conference without payment is generally a business visit; officers decide at the border.",
+     "next": "Carry the invitation showing no payment beyond expenses.",
+     "checked": "2026-11-01",
+     "sources": []
+    },
+    "paid-speaking": {
+     "status": "conditional",
+     "route": "ESTA under the Visa Waiver Program (honorarium rules)",
+     "detail": "Speaking fees are allowed only from qualifying (mainly academic or nonprofit research) institutions, for no more than nine days at one institution and from no more than five institutions in six months; no salary from a US entity.",
+     "next": "Check the payer qualifies; otherwise a work visa is needed.",
+     "checked": "2026-11-01",
+     "sources": []
+    },
+    "book-launch": {
+     "status": "confirm-in-writing",
+     "route": "B-1/ESTA business visit; book promotion not named",
+     "detail": "Speaking and attending events without US pay (expenses only) is allowed. Honoraria only for usual academic activities of 9 days or less at an eligible institution, no more than 5 institutions in 6 months. Book promotion itself is not listed.",
+     "next": "Take no US appearance fee; ask the US embassy if unsure.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Fact sheet: U.S. Business Visas (B-1) and allowable uses",
+       "authority": "U.S. Department of State",
+       "url": "https://travel.state.gov/content/travel/en/us-visas/business/b-1-fact-sheet.html",
+       "checked": "2026-11-01",
+       "supports": "conferences and unpaid speaking (read via a search-index snapshot)"
+      },
+      {
+       "title": "9 FAM 402.2",
+       "authority": "U.S. Department of State, Foreign Affairs Manual",
+       "url": "https://fam.state.gov/FAM/09FAM/09FAM040202.html",
+       "checked": "2026-11-01",
+       "supports": "honorarium rule: 9 days, 5 institutions in 6 months (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "ai-teaching": {
+     "status": "conditional",
+     "route": "ESTA under the Visa Waiver Program (honorarium rules) or a work visa",
+     "detail": "Academic lectures can fit the honorarium rules; paid teaching for a company needs a work visa.",
+     "next": "Check the payer.",
+     "checked": "2026-11-01",
+     "sources": []
+    },
+    "remote-work": {
+     "status": "confirm-in-writing",
+     "route": "Not addressed for visitors (US immigration law)",
+     "detail": "Visitors (ESTA or B visa) may not take employment; the State Department pages list meetings, conferences and negotiations but do not address remote work for a foreign employer either way.",
+     "next": "Ask US Customs and Border Protection or a US consulate in writing.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Visitor Visa",
+       "authority": "U.S. Department of State",
+       "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+       "checked": "2026-11-01",
+       "supports": "visitors may not take employment (read via a search-index snapshot)"
+      },
+      {
+       "title": "Fact sheet: B-1 allowable uses",
+       "authority": "U.S. Department of State",
+       "url": "https://travel.state.gov/content/travel/en/us-visas/business/b-1-fact-sheet.html",
+       "checked": "2026-11-01",
+       "supports": "permitted business activities (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "entrepreneur": {
+     "status": "conditional",
+     "route": "ESTA under the Visa Waiver Program",
+     "detail": "Negotiating contracts and meeting partners fit; working in a US business needs a visa.",
+     "next": "See the USCIS entrepreneur pathways.",
+     "checked": "2026-11-01",
+     "sources": []
+    },
+    "trade": {
+     "status": "low",
+     "route": "ESTA under the Visa Waiver Program",
+     "detail": "Contract negotiation is a permitted activity.",
+     "next": "None.",
+     "checked": "2026-11-01",
+     "sources": []
+    },
+    "artist": {
+     "status": "specialist",
+     "route": "Performer visa (for example O or P)",
+     "detail": "Only amateurs taking part unpaid in musical or similar events fit the waiver.",
+     "next": "Apply through a US sponsor.",
+     "checked": "2026-11-01",
+     "sources": []
+    },
+    "mixed-mission": {
+     "status": "conditional",
+     "route": "B-1/ESTA business visitor",
+     "detail": "Conferences, meetings and unpaid lecturing are allowed; paid work is not, apart from the academic honorarium rule.",
+     "next": "Keep fees within the honorarium rule.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "Fact sheet: U.S. Business Visas (B-1) and allowable uses",
+       "authority": "U.S. Department of State",
+       "url": "https://travel.state.gov/content/travel/en/us-visas/business/b-1-fact-sheet.html",
+       "checked": "2026-11-01",
+       "supports": "conferences and unpaid speaking (read via a search-index snapshot)"
+      },
+      {
+       "title": "9 FAM 402.2",
+       "authority": "U.S. Department of State, Foreign Affairs Manual",
+       "url": "https://fam.state.gov/FAM/09FAM/09FAM040202.html",
+       "checked": "2026-11-01",
+       "supports": "honorarium rule: 9 days, 5 institutions in 6 months (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "filming": {
+     "status": "specialist",
+     "route": "Media (I) visa for foreign media work",
+     "detail": "Representatives of foreign film or other information media are excluded from B-1 business visits.",
+     "next": "Ask a US Embassy which visa fits the filming you plan.",
+     "checked": "2026-11-01",
+     "sources": []
+    },
+    "research": {
+     "status": "conditional",
+     "route": "B-1 or ESTA for independent research",
+     "detail": "Independent research is a permitted B-1 activity if it involves no US employment and benefits no US institution; expenses may be reimbursed, but no salary or stipend. Collaborative research for a US host needs a J-1 or work visa.",
+     "next": "Keep research independent and unpaid.",
+     "checked": "2026-11-01",
+     "sources": [
+      {
+       "title": "9 FAM 402.2",
+       "authority": "U.S. Department of State, Foreign Affairs Manual",
+       "url": "https://fam.state.gov/fam/09fam/09fam040202.html",
+       "checked": "2026-11-01",
+       "supports": "B-1 independent research (read via a search-index snapshot)"
+      }
+     ]
+    },
+    "volunteering": {
+     "status": "specialist",
+     "route": "A visa, not the waiver",
+     "detail": "Smartraveller notes that volunteering isn't allowed under the Visa Waiver Program.",
+     "next": "Ask a US Embassy.",
+     "checked": "2026-11-01",
+     "sources": []
+    }
+   }
   },
   "consular": {
    "status": "in-place",
