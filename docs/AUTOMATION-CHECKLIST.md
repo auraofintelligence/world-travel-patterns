@@ -39,6 +39,7 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 |---|---|---|---|---|
 | 2026-11-05 | election | gd | House of Representatives election (snap) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-11-07 | election | nz | General election (House of Representatives) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2026-11-08 | law-or-rule-date | us/california | ancient-sites-and-mysteries: Forest Order 14-24-08 runs to 8 November 2026; recheck for a rene | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-13 | law-or-rule-date | us/new-jersey | psychoactive-substances: ...stribution licences could sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2 | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-14 | law-or-rule-date | us/new-jersey | psychoactive-substances: ...d sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2026 those drinks are tr | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-15 | election | cv | Presidential election | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
@@ -113,7 +114,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-339 locations have specific watch items.
+341 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -197,6 +198,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | nr |  | fortnightly | confirm in writing, legacy baseline, snapshot evidence | 1 confirm-in-writing |
 | om | Reconsider your need to travel | fortnightly | high advisory, snapshot evidence |  |
 | pk | Reconsider your need to travel | fortnightly | confirm in writing, high advisory, snapshot evidence | 4 confirm-in-writing |
+| pk/gilgit-baltistan | Reconsider your need to travel | fortnightly | snapshot evidence |  |
 | pl | Exercise normal safety precautions | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 1 confirm-in-writing |
 | pt | Exercise normal safety precautions | fortnightly | pending event, snapshot evidence, watch item | eu-etias; pending date: Web Summit 2027 (Lisbon) |
 | ro | Exercise normal safety precautions | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 2 confirm-in-writing |
@@ -311,6 +313,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | in | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | in/arunachal-pradesh | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | in/goa | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| in/jammu-and-kashmir | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | in/maharashtra | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | in/manipur | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | in/mizoram | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -406,7 +409,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | us/alaska | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/arizona | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/arkansas | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| us/california | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| us/california | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | ancient-sites-and-mysteries date 2026-11-08 |
 | us/colorado | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/connecticut | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/delaware | Exercise normal safety precautions | monthly | snapshot evidence |  |

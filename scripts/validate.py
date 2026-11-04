@@ -30,6 +30,8 @@ def main():
         check("unknown" in p.get("statuses", []), f"pattern {pid}: statuses must include unknown")
 
     places = load_places()
+    for t in patterns.get("ancient-sites-and-mysteries", {}).get("themes", []):
+        check(t["lore"].startswith("Lore:") and all(x in places for x in t["places"]), f"theme {t['id']}: lore line must start 'Lore:' and link known places")
     for pid, place in places.items():
         check(place["kind"] in KINDS, f"place {pid}: unknown kind {place['kind']}")
         if "/" in pid:
@@ -70,10 +72,12 @@ def main():
                     tag = f"{where}: site {st.get('name')}"
                     check(st.get("name") and st.get("place") in places, f"{tag}: needs a name and a known place")
                     check(st.get("sources") and all(x.get("url") for x in st["sources"]), f"{tag}: facts need official sources")
+                    tids = {t["id"] for t in pattern.get("themes", [])}
+                    check(set(st.get("themes", [])) <= tids, f"{tag}: unknown theme")
                     lore = st.get("lore") or {}
                     if lore.get("text"):
                         check(lore.get("source") or lore.get("label") == "popular lore, not an official source", f"{tag}: unsourced lore must carry the popular-lore label")
-                        check(re.match(r"(Popular theories claim|Local legend says|Popular lore)", lore["text"]), f"{tag}: lore must be framed as claims")
+                        check(re.match(r"(Popular theories claim|Local legend|Popular lore)", lore["text"]), f"{tag}: lore must be framed as claims")
                     if st.get("kind") == "underwater-site":
                         check(isinstance(st.get("underwater"), dict) and st["underwater"].get("diving"), f"{tag}: underwater site needs diving access")
             if body.get("provenance", {}).get("repo") is None:

@@ -410,7 +410,7 @@
         (rec.sites || []).forEach((st) => {
           const a = st.access || {}, u = st.underwater, pr = st.protection || {};
           const acc = [["Opening", a.opening], ["Tickets", a.tickets], ["Permits", a.permits], ["Guide", a.guide], ["Closures", a.closures], ["Photography", a.photography]].filter(([, v]) => v).map(([k, v]) => `${k}: ${esc(viewText(v))}`).join(" · ");
-          body += `<div class="detail"><b>${esc(st.name)}</b>${st.era ? ` <span class="chip">${esc(st.era)}</span>` : ""} ${esc(viewText(st.what || ""))}`
+          body += `<div class="detail"><b>${esc(st.name)}</b>${st.era ? ` <span class="chip">${esc(st.era)}</span>` : ""}${(st.themes || []).map((t) => ` <span class="chip gold">${esc(t)}</span>`).join("")} ${esc(viewText(st.what || ""))}`
             + (acc ? `<br><span class="meta">${acc}</span>` : "")
             + (pr.law ? `<br><span class="meta">Protection: ${esc(pr.law)}${pr.penalties ? `; ${esc(pr.penalties)}` : ""}</span>` : "")
             + (u ? `<br><span class="meta">Diving: ${esc(u.diving || "not yet checked")}${u.guide_or_permit ? ` · ${esc(u.guide_or_permit)}` : ""}${u.law ? ` · law: ${esc(u.law)}` : ""}${u.unesco_2001 ? ` · UNESCO 2001 Convention: ${esc(u.unesco_2001)}` : ""}${u.penalties ? ` · ${esc(u.penalties)}` : ""}</span>` : "")

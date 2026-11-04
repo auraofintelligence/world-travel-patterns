@@ -1037,7 +1037,7 @@
   "ancient-sites-and-mysteries": {
    "status": "partly-mapped",
    "checked": "2026-11-04",
-   "summary": "1 site(s) in Italy: Submerged Archaeological Park of Baia. Facts from official sources; lore labelled as claims.",
+   "summary": "2 site(s): Submerged Archaeological Park of Baia; Antro della Sibilla, Cumae. Facts from official sources; lore labelled as claims.",
    "sites": [
     {
      "name": "Submerged Archaeological Park of Baia",
@@ -1083,6 +1083,45 @@
        "read": "search snapshot"
       }
      ],
+     "checked": "2026-11-04",
+     "themes": [
+      "hidden-realm-caves"
+     ]
+    },
+    {
+     "name": "Antro della Sibilla, Cumae",
+     "place": "it/campania",
+     "kind": "underground-city",
+     "era": "Samnite, late 4th to early 3rd century BC, reshaped in Roman times",
+     "themes": [
+      "hidden-realm-caves",
+      "greek"
+     ],
+     "what": "Tunnel cut in tuff along the acropolis of Cumae in the Parco archeologico di Cuma (Ministry of Culture).",
+     "access": {
+      "tickets": "EUR 5 full, EUR 2 EU citizens 18 to 25, free under 18; Circuito flegreo EUR 10 for 4 sites over 3 days; online booking required for groups over 10",
+      "permits": "Max 50 entries every 30 minutes; max 25 people in the Antro at once; max stay 120 minutes",
+      "closures": "Closed Tuesdays; refunds when closed for bradyseism"
+     },
+     "lore": {
+      "text": "Local legend, from Virgil's Aeneid, says the Sibyl's cave had a hundred mouths and led toward the underworld.",
+      "source": null,
+      "label": "popular lore, not an official source"
+     },
+     "sources": [
+      {
+       "authority": "Parco Archeologico Campi Flegrei",
+       "title": "Info",
+       "url": "https://pafleg.cultura.gov.it/it/7/info",
+       "read": "search snapshot"
+      },
+      {
+       "authority": "Parco Archeologico Campi Flegrei",
+       "title": "Tariffe",
+       "url": "https://pafleg.cultura.gov.it/it/4435/tariffe",
+       "read": "search snapshot"
+      }
+     ],
      "checked": "2026-11-04"
     }
    ],
@@ -1110,9 +1149,21 @@
      "title": "Convention on the Protection of the Underwater Cultural Heritage, status",
      "url": "https://treaties.un.org/pages/showdetails.aspx?objid=08000002802198d9",
      "read": "search snapshot"
+    },
+    {
+     "authority": "Parco Archeologico Campi Flegrei",
+     "title": "Info",
+     "url": "https://pafleg.cultura.gov.it/it/7/info",
+     "read": "search snapshot"
+    },
+    {
+     "authority": "Parco Archeologico Campi Flegrei",
+     "title": "Tariffe",
+     "url": "https://pafleg.cultura.gov.it/it/4435/tariffe",
+     "read": "search snapshot"
     }
    ],
-   "evidence": "UNESCO pages read directly; site and ministry pages from search snapshots unless marked."
+   "evidence": "UNESCO pages and Smartraveller read directly; other official pages are search snapshots unless marked."
   }
  }
 }
