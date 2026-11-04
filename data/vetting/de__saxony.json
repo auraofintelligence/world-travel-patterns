@@ -47,6 +47,48 @@
     "2027-10-31: Reformation Day (Reformationstag) (regional holiday)"
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "work-and-payment",
+     "rule": "Dresden charges an accommodation tax (Beherbergungssteuer) of 6% of the room price including VAT; breakfast, half board and minibar are excluded.",
+     "level": "city",
+     "source": "https://www.dresden.de/de/rathaus/dienstleistungen/beherbergungssteuer_d115.php",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Beherbergungssteuersatzung Dresden"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Leipzig charges an accommodation tax (Beherbergungssteuer) of 5% of the room price including VAT, per person per night; under-18s are among those exempt.",
+     "level": "city",
+     "source": "https://www.leipzig.de/service-portal/dienstleistung/beherbergungssteuer",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Satzung über die Erhebung einer Beherbergungssteuer in der Stadt Leipzig"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Beherbergungssteuer",
+     "authority": "Landeshauptstadt Dresden",
+     "url": "https://www.dresden.de/de/rathaus/dienstleistungen/beherbergungssteuer_d115.php",
+     "checked": "2026-11-05",
+     "supports": "6%, base (search-index snapshot)"
+    },
+    {
+     "title": "Beherbergungssteuer",
+     "authority": "Stadt Leipzig",
+     "url": "https://www.leipzig.de/service-portal/dienstleistung/beherbergungssteuer",
+     "checked": "2026-11-05",
+     "supports": "5%, exemptions (search-index snapshot)"
+    }
+   ],
+   "note": "Dresden and Leipzig only; other Saxon cities not yet checked."
   }
  }
 }

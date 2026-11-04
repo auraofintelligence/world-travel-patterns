@@ -1,0 +1,38 @@
+{
+ "place": "it/sicily",
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Mount Etna's summit area is divided into a Summit Zone (around the summit craters and generally above 2,500 m) and, inside it, a Permanent Hazard Zone around the active craters, where access is always under specific safety rules. When Sicily's civil protection department declares the pre-alarm phase the Permanent Hazard Zone is closed; at the alarm phase the whole Summit Zone is closed. The access rules themselves are set by mayoral ordinances of the towns around the volcano.",
+     "level": "region",
+     "source": "https://www.protezionecivilesicilia.it/it/14738-eruzione-etna---zona-sommitale-(zs)-e-zona-a-pericolosita-permanente-(zpp).asp",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Dipartimento Regionale della Protezione Civile, Regione Siciliana"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Eruzione Etna: Zona Sommitale (ZS) e Zona a Pericolosità Permanente (ZPP)",
+     "authority": "Dipartimento della Protezione Civile, Presidenza della Regione Siciliana",
+     "url": "https://www.protezionecivilesicilia.it/it/14738-eruzione-etna---zona-sommitale-(zs)-e-zona-a-pericolosita-permanente-(zpp).asp",
+     "checked": "2026-11-05",
+     "supports": "zones and closure phases (search-index snapshot)"
+    },
+    {
+     "title": "Ordinanze Sindaci",
+     "authority": "Ente Parco dell'Etna",
+     "url": "https://parcoetna.it/ordinanze-sindaci/",
+     "checked": "2026-11-05",
+     "supports": "current mayoral ordinances by town (search-index snapshot)"
+    }
+   ],
+   "note": "Guide requirements differ by town ordinance and phase; read the current ordinance for the side you climb from."
+  }
+ }
+}

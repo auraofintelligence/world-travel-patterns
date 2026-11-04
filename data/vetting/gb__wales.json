@@ -86,6 +86,55 @@
     }
    ],
    "checked": "2026-11-02"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Since 17 September 2023 the default speed limit on restricted roads in Wales (generally built-up roads with street lights) is 20 mph, not 30 mph; some roads keep 30 mph by local order and are signed.",
+     "level": "region",
+     "source": "https://www.gov.wales/introducing-default-20mph-speed-limits",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Restricted Roads (20 mph Speed Limit) (Wales) Order 2022"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Under the Visitor Accommodation (Register and Levy) Etc. (Wales) Act 2025, councils that choose to can charge a visitor levy of GBP 1.30 per person per night (about A$2.47, RBA rate of 30 October 2026), or 75p (about A$1.43) in hostels, bunkhouses and on tent pitches, from 1 April 2027 at the earliest. Cardiff is the first council confirmed to start, on 1 April 2027.",
+     "level": "region",
+     "source": "https://www.gov.wales/check-if-local-council-charges-visitor-levy-wales",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Visitor Accommodation (Register and Levy) Etc. (Wales) Act 2025"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Introducing default 20mph speed limits",
+     "authority": "Welsh Government",
+     "url": "https://www.gov.wales/introducing-default-20mph-speed-limits",
+     "checked": "2026-11-05",
+     "supports": "20 mph default (search-index snapshot)"
+    },
+    {
+     "title": "Visitor Levy for visitor accommodation providers: overview",
+     "authority": "Welsh Government",
+     "url": "https://www.gov.wales/visitor-levy-for-visitor-accommodation-providers-overview",
+     "checked": "2026-11-05",
+     "supports": "rates (search-index snapshot)"
+    },
+    {
+     "title": "Check if a local council charges Visitor Levy in Wales",
+     "authority": "Welsh Government",
+     "url": "https://www.gov.wales/check-if-local-council-charges-visitor-levy-wales",
+     "checked": "2026-11-05",
+     "supports": "earliest start, Cardiff (search-index snapshot)"
+    }
+   ],
+   "note": "From the Welsh Government."
   }
  }
 }

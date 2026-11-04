@@ -1,0 +1,48 @@
+{
+ "place": "hr/split-dalmatia-county",
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Split city's Public Order Act (Odluka o javnom redu i miru, 2023) fines EUR 300 (about A$477, RBA rate of 30 October 2026) for drinking alcohol in public within Zone A (the old town inside the 17th-century baroque walls) or within 100 m of schools and kindergartens, relieving yourself or vomiting in public, eating or drinking on steps or the ground in Zone A where it leaves mess, climbing or sitting on monuments, and entering or bathing in fountains. Sleeping in parks, squares and other public spaces is EUR 150 (about A$238). Beaches, bathing areas and licensed terraces are exempt from the drinking ban.",
+     "level": "city",
+     "source": "https://split.hr/DesktopModules/Bring2mind/DMX/API/Entries/Download?Command=Core_Download&EntryId=12912&PortalId=0&language=hr-HR",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "penalty_signal": "EUR 150 or EUR 300 (about A$238 or about A$477)",
+     "heading": "Grad Split, Službeni glasnik 38/2023"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "The Split Tourist Board reports that from 1 June to 15 September, shops, kiosks and other retail outlets across Split may not sell alcohol between 9 pm and 6 am; bars and restaurants are not covered.",
+     "level": "city",
+     "source": "https://visitsplit.com/hr/6177/split-public-order-act",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Turistička zajednica grada Splita"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Odluka o javnom redu i miru na području grada Splita",
+     "authority": "Grad Split, Službeni glasnik 38/2023",
+     "url": "https://split.hr/DesktopModules/Bring2mind/DMX/API/Entries/Download?Command=Core_Download&EntryId=12912&PortalId=0&language=hr-HR",
+     "checked": "2026-11-05",
+     "supports": "offences, Zone A, fine amounts (search-index snapshot)"
+    },
+    {
+     "title": "Split Public Order Act",
+     "authority": "Turistička zajednica grada Splita",
+     "url": "https://visitsplit.com/hr/6177/split-public-order-act",
+     "checked": "2026-11-05",
+     "supports": "plain-English summary, retail alcohol hours (search-index snapshot)"
+    }
+   ],
+   "note": "City of Split rules, recorded at county level because the place tree has no city record for Split. Other towns in the county (for example Hvar) set their own communal order rules: not yet checked from an official source."
+  }
+ }
+}

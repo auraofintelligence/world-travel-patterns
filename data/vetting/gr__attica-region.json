@@ -1,0 +1,38 @@
+{
+ "place": "gr/attica-region",
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Acropolis tickets are sold for a chosen entry time slot on the Ministry of Culture's e-ticket platform (hhticket.gr); the ticket is valid from 15 minutes before to 15 minutes after the slot. The Ministry warns that 'skip the line' offers for Acropolis entry are misleading.",
+     "level": "site",
+     "source": "https://hhticket.gr/tap_b2c_new/english/tap.exe?PM=P1P&place=000000003",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Hellenic Ministry of Culture, Hellenic Heritage e-tickets"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Online Tickets for Archaeological Sites: Acropolis",
+     "authority": "Hellenic Ministry of Culture (hhticket.gr)",
+     "url": "https://hhticket.gr/tap_b2c_new/english/tap.exe?PM=P1P&place=000000003",
+     "checked": "2026-11-05",
+     "supports": "timed slots, validity window (search-index snapshot)"
+    },
+    {
+     "title": "Notice on misleading 'Skip the line' advertisements",
+     "authority": "Hellenic Ministry of Culture",
+     "url": "https://culture.gov.gr/en/Information/SitePages/view.aspx?nID=4651",
+     "checked": "2026-11-05",
+     "supports": "no skip-the-line entry (search-index snapshot)"
+    }
+   ],
+   "note": "Acropolis access rules; Athens city rules not yet checked."
+  }
+ }
+}

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04",
+ "generated": "2026-11-05",
  "note": "Built by scripts/recheck_plan.py from repo data only. Read-only plan for future automations; never a reason to skip an official recheck.",
  "global": [
   {
@@ -469,6 +469,18 @@
    "cadence": "monthly; weekly in the final 60 days"
   },
   {
+   "date": "2027-01-01",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "pt/madeira"
+   ],
+   "what": "local-law: ...ber 2026) for up to 7 consecutive nights, for non-residents of Madeira aged over 12. A proposed rise to EUR 4 from 1 January 2027 was under public co",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
    "date": "2027-01-16",
    "kind": "election",
    "places": [
@@ -554,6 +566,18 @@
     "es/catalonia"
    ],
    "what": "local-law: ...night, for up to 7 nights at the same place; under-17s are exempt. Outside Barcelona city, from 1 April 2026 to 31 March 2027: EUR 4.50 at five-s",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-04-01",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "gb/wales"
+   ],
+   "what": "local-law: ...about A$2.47, RBA rate of 30 October 2026), or 75p (about A$1.43) in hostels, bunkhouses and on tent pitches, from 1 April 2027 at the earliest. Ca",
    "check": "Recheck the official source about 60 days before, and again on the date.",
    "source": "",
    "cadence": "monthly; weekly in the final 60 days"
@@ -2404,6 +2428,16 @@
    ]
   },
   {
+   "place": "br/pernambuco",
+   "name": "Pernambuco",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "br/rio-de-janeiro",
    "name": "Rio de Janeiro",
    "advisory": "Exercise a high degree of caution",
@@ -2739,8 +2773,38 @@
    "items": []
   },
   {
+   "place": "cn/gansu",
+   "name": "Gansu",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "cn/shaanxi",
+   "name": "Shaanxi",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "cn/shanghai",
    "name": "Shanghai",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "cn/sichuan",
+   "name": "Sichuan",
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
@@ -2834,8 +2898,68 @@
    "items": []
   },
   {
+   "place": "de/baden-wurttemberg",
+   "name": "Baden-Württemberg",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "de/bavaria",
    "name": "Bavaria",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "de/berlin",
+   "name": "Berlin",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "de/bremen",
+   "name": "Bremen",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "de/hesse",
+   "name": "Hesse",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "de/north-rhine-westphalia",
+   "name": "North Rhine-Westphalia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "de/saxony",
+   "name": "Saxony",
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
@@ -2900,6 +3024,16 @@
    "items": []
   },
   {
+   "place": "ec/galapagos-province",
+   "name": "Galápagos Province",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "eg",
    "name": "Egypt",
    "advisory": "Exercise a high degree of caution",
@@ -2913,6 +3047,16 @@
    "place": "eh",
    "name": "Western Sahara",
    "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "es/andalusia",
+   "name": "Andalusia",
+   "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
     "snapshot evidence"
@@ -3020,9 +3164,12 @@
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
+    "dated rule",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "local-law date 2027-04-01"
+   ]
   },
   {
    "place": "gb__england",
@@ -3149,6 +3296,26 @@
    "items": []
   },
   {
+   "place": "gr/attica-region",
+   "name": "Attica Region",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "gr/crete-region",
+   "name": "Crete Region",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "gs",
    "name": "South Georgia and the South Sandwich Islands",
    "advisory": "",
@@ -3214,6 +3381,36 @@
    "place": "hn",
    "name": "Honduras",
    "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "hr/lika-senj-county",
+   "name": "Lika-Senj County",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "hr/sibenik-knin-county",
+   "name": "Šibenik-Knin County",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "hr/split-dalmatia-county",
+   "name": "Split-Dalmatia County",
+   "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
     "snapshot evidence"
@@ -3429,8 +3626,68 @@
    ]
   },
   {
+   "place": "it/campania",
+   "name": "Campania",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "it/emilia-romagna",
+   "name": "Emilia-Romagna",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "it/liguria",
+   "name": "Liguria",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "it/lombardy",
    "name": "Lombardy",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "it/sicily",
+   "name": "Sicily",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "it/trentino-south-tyrol",
+   "name": "Trentino-South Tyrol",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "it/tuscany",
+   "name": "Tuscany",
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
@@ -3474,6 +3731,26 @@
   {
    "place": "jp",
    "name": "Japan",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "jp/shizuoka-prefecture",
+   "name": "Shizuoka Prefecture",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "jp/yamanashi-prefecture",
+   "name": "Yamanashi Prefecture",
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
@@ -3850,6 +4127,16 @@
    "items": []
   },
   {
+   "place": "mx/mexico-city",
+   "name": "Mexico City",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "mx/yucatan",
    "name": "Yucatán",
    "advisory": "Exercise a high degree of caution",
@@ -3880,6 +4167,26 @@
    "items": [
     "local-law date 2027-01-01"
    ]
+  },
+  {
+   "place": "my/sabah",
+   "name": "Sabah",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "my/sarawak",
+   "name": "Sarawak",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
   },
   {
    "place": "mz",
@@ -4090,6 +4397,69 @@
    "items": [
     "3 confirm-in-writing"
    ]
+  },
+  {
+   "place": "pt/azores",
+   "name": "Azores",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "pt/coimbra",
+   "name": "Coimbra",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "pt/evora",
+   "name": "Évora",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "pt/faro",
+   "name": "Faro",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "pt/madeira",
+   "name": "Madeira",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule",
+    "snapshot evidence"
+   ],
+   "items": [
+    "local-law date 2027-01-01"
+   ]
+  },
+  {
+   "place": "pt/oporto",
+   "name": "Oporto",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
   },
   {
    "place": "pw",
@@ -4368,6 +4738,16 @@
    "items": []
   },
   {
+   "place": "th/phang-nga",
+   "name": "Phang Nga",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "tj",
    "name": "Tajikistan",
    "advisory": "Exercise a high degree of caution",
@@ -4496,6 +4876,46 @@
   {
    "place": "tz",
    "name": "Tanzania",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "tz/north-pemba-region",
+   "name": "North Pemba Region",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "tz/south-pemba-region",
+   "name": "South Pemba Region",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "tz/unguja-north-region",
+   "name": "Unguja North Region",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "tz/unguja-south-region",
+   "name": "Unguja South Region",
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
