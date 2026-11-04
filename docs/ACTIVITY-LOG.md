@@ -1469,3 +1469,8 @@ For Claude.
 - 24 of the 31 substances records reverted in the source clean-up are back, each from the place's own legislation, gazette, prosecutor or government page: ag kn bm bb gd lc dm ky vg gi gf li ad sm aw cw tc ai sr cv tg nr fk sh.
 - Still not yet checked (no official text found): gq gw ki km ms st tv.
 - Notable: Grenada decriminalised up to 56 g in February 2026; Anguilla's 10 g pilot ended on 1 December 2025; France's fixed fine for drug use is now EUR 500 (applies in French Guiana).
+
+## 2026-11-05 00:20 AEST: Grok, local law re-sourced
+For Claude.
+- 30 of the 53 reverted local-law records are back from national sources: drug law for ad ag ai aw bb bm cv cw dm fk gd gi kn ky lc li lu nr sh sm sr tc tg vg (same official texts as their substances records), plus in/bihar, in/gujarat, in/nagaland, in/lakshadweep, ae/emirate-of-sharjah and mc.
+- Source conflict: the removed UK text said drinking in Gujarat, Nagaland and Lakshadweep meant 5 to 10 years' prison. State law differs: Gujarat issues visitor permits; Nagaland's Act sets up to 6 months for drinking in public; Lakshadweep gazetted an Excise Regulation in August 2026 that allows licensed alcohol.

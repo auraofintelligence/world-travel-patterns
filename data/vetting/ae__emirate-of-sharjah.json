@@ -1,4 +1,37 @@
 {
  "place": "ae/emirate-of-sharjah",
- "patterns": {}
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-04",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "alcohol",
+     "rule": "Sharjah bans buying, selling, holding and drinking alcohol, including in hotels and restaurants. UAE federal law also bans drinking in public and being drunk in public anywhere in the UAE. Each emirate's own rules are published in its official gazette.",
+     "level": "subnational",
+     "source": "https://u.ae/en/information-and-services/justice-safety-and-the-law/Law/how-are-uae-laws-issued-and-how-to-find-them/where-to-find-local-laws-of-the-uae-emirates",
+     "checked": "2026-11-04",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Where to find local laws of the UAE's emirates",
+     "authority": "UAE Government official portal (u.ae)",
+     "url": "https://u.ae/en/information-and-services/justice-safety-and-the-law/Law/how-are-uae-laws-issued-and-how-to-find-them/where-to-find-local-laws-of-the-uae-emirates",
+     "checked": "2026-11-04",
+     "supports": "local law (search-index snapshot)"
+    },
+    {
+     "title": "Sharjah Official Gazette",
+     "authority": "Sharjah Official Gazette",
+     "url": "https://og.shj.ae/Default.aspx",
+     "checked": "2026-11-04",
+     "supports": "local law (search-index snapshot)"
+    }
+   ],
+   "note": "From the place's own government sources."
+  }
+ }
 }
