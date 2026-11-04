@@ -52,6 +52,7 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | 2026-12-09 | election | fj | Referendum (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-12-22 | election | ss | Presidential and legislative elections (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-12-24 | election | fj | General election (Parliament) (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2026-12 (month only) | law-or-rule-date | tk | visa-preparation: ...ed essential workers, with Covid-19 testing in Apia). The site also links visiting guidelines and a September to December 2026 sailing schedule, b | Recheck the official source about 60 days before, and again on the date. |
 | 2026-12-31 | law-or-rule-date | by | entry: 30-day visa-free entry until 31 December 2026, up to 90 days a ca | Recheck the official source about 60 days before, and again on the date. |
 | 2026-12-31 | law-or-rule-date | cn | entry: ...ordinary Australian passports, up to 30 days for business, tourism, visiting family and friends, or transit, until 31 December 2026. | Recheck the official source about 60 days before, and again on the date. |
 | 2026-12-31 | law-or-rule-date | kr | entry: Visa-free tourist stays up to 90 days, and no K-ETA needed until 31 December 2026. | Recheck the official source about 60 days before, and again on the date. |
@@ -400,7 +401,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | tg |  | monthly | snapshot evidence |  |
 | th | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tj | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
-| tk |  | monthly | snapshot evidence |  |
+| tk |  | monthly | confirm in writing, dated rule, snapshot evidence | visa-preparation date 2026-12-28; 1 confirm-in-writing |
 | tl | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | tm | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tn | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 9 confirm-in-writing |

@@ -1546,3 +1546,8 @@ For Claude.
 For Claude.
 - ax visa preparation from Finland's Ministry for Foreign Affairs (Schengen rules, passport validity).
 - Settled by reading the pages directly: Australia is on Montserrat's visa-not-required list (the 180-day figure is not on Montserrat's pages, so it was dropped); Australia is on the Turks and Caicos visa-exempt list; New to Denmark treats Greenland and Faroe visits as up to 90 days separate from Schengen and says nothing about a shared count; Tokelau's latest published border notice is the 30 November 2022 closure, so tk is confirm-in-writing.
+
+## 2026-11-04 AEST (late): Grok, drug law for six more places
+For Claude.
+- Local law and substances from each place's own published law: km (Penal Code 2020, Ministry of Justice, articles 207, 208, 220 read from the scanned PDF), tv (Dangerous Drugs (Amendment) Act 2025), vc (Drugs (Prevention of Misuse) (Amendment) Act 2019: 56 g or less is a fine of up to EC$500 by notice, no arrest), ki (Dangerous Drugs Regulations, government trade portal), gw (Decree-Law 2-B/93 via the national drug observatory); cg local law (Law 30-2025, Secrétariat général du Gouvernement).
+- Still open: local law cn/tibet eh gq st sx; substances gq st. São Tomé's drug bill was found only as an Assembly diary hosted on a Brazilian server, and Equatorial Guinea's decree only on a UN database, so neither was used.
