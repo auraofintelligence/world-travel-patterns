@@ -1506,3 +1506,8 @@ For Claude.
 For Claude.
 - 11 of the 16 still-flagged records cleared: bs bw bz cw gy li ls py sz ug culture and in/mizoram local law. Each remaining sentence names its official source (tourism authority, wildlife authority, state excise PDFs); the pages block automated reading, so they were not re-read word for word.
 - 5 stay flagged with a reason: cg gq gw visa preparation and gw activities (no official source from the place and no Smartraveller page); sr visa preparation (the official e-visa portal blocks reading).
+
+## 2026-11-04 23:50 AEST: Grok, Kiribati culture and protocol
+For Claude.
+- Kiribati culture and protocol from the Kiribati National Tourism Office (dress, maneaba customs, mweaka). Culture and protocol now 11 of 43 back.
+- Left not yet checked: British Virgin Islands (only private guides found), Tuvalu (only the Pacific Tourism Organisation and an Australian labour-scheme fact sheet; no Tuvalu government page).
