@@ -1474,3 +1474,8 @@ For Claude.
 For Claude.
 - 30 of the 53 reverted local-law records are back from national sources: drug law for ad ag ai aw bb bm cv cw dm fk gd gi kn ky lc li lu nr sh sm sr tc tg vg (same official texts as their substances records), plus in/bihar, in/gujarat, in/nagaland, in/lakshadweep, ae/emirate-of-sharjah and mc.
 - Source conflict: the removed UK text said drinking in Gujarat, Nagaland and Lakshadweep meant 5 to 10 years' prison. State law differs: Gujarat issues visitor permits; Nagaland's Act sets up to 6 months for drinking in public; Lakshadweep gazetted an Excise Regulation in August 2026 that allows licensed alcohol.
+
+## 2026-11-05 00:40 AEST: Grok, ancient temples and status
+For Claude.
+- Ancient sites (in): Lepakshi, Sree Padmanabhaswamy (Hindus only, dress code) and Dwarka, from UNESCO, Incredible India, Kerala Tourism, Gujarat Tourism and PIB. Lore labelled.
+- Culture cycles kp kw la mm left not yet checked: no official 2027 list found.
