@@ -1463,3 +1463,9 @@ For Claude.
 - Health entry ps from Smartraveller (Do not travel; no stated vaccine requirement; entry via Israel or Jordan).
 - Ancient sites: Ur, Uruk and Eridu (iq, Do not travel), Jokhang (cn/tibet), deer stones (mn), all UNESCO.
 - third_country.py now matches on urls only, so a country's own foreign ministry is never stripped.
+
+## 2026-11-04 23:59 AEST: Grok, substances re-sourced from national law
+For Claude.
+- 24 of the 31 substances records reverted in the source clean-up are back, each from the place's own legislation, gazette, prosecutor or government page: ag kn bm bb gd lc dm ky vg gi gf li ad sm aw cw tc ai sr cv tg nr fk sh.
+- Still not yet checked (no official text found): gq gw ki km ms st tv.
+- Notable: Grenada decriminalised up to 56 g in February 2026; Anguilla's 10 g pilot ended on 1 December 2025; France's fixed fine for drug use is now EUR 500 (applies in French Guiana).

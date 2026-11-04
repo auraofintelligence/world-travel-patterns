@@ -621,6 +621,39 @@
    },
    "recheck_note": "Rechecked 2026-11-03 on the VFS-run Suriname portal (no Smartraveller page exists): Australia is listed for the Entry Fee and eVisas, Entry Fee USD 50 plus USD 8 service fee, up to 90 days. Evidence is operational and needs_recheck stays true until a Suriname government page confirms it.",
    "needs_recheck": true
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-04",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Possessing, holding or using cannabis is an offence (art 3(1)(c)). Only industrial hemp up to 1.5% THC is exempt, under licence.",
+     "source": "https://www.dna.sr/media/34ygwacb/wet_verdovende_middelen.pdf",
+     "checked": "2026-11-04",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Deliberate possession can bring up to 13 years' prison and a heavy fine.",
+     "source": "https://www.dna.sr/media/34ygwacb/wet_verdovende_middelen.pdf",
+     "checked": "2026-11-04",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wet verdovende middelen (S.B. 1998 no. 14, as amended)",
+     "authority": "Government of Suriname (dna.sr)",
+     "url": "https://www.dna.sr/media/34ygwacb/wet_verdovende_middelen.pdf",
+     "checked": "2026-11-04",
+     "supports": "cannabis and drug penalties (search-index snapshot)"
+    }
+   ],
+   "notes": "From the place's own law or authorities. Smartraveller has no page for this place. Check alcohol and vaping rules separately."
   }
  }
 }
