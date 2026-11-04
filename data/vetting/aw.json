@@ -667,6 +667,51 @@
     }
    ],
    "note": "Drug law only so far, from the place's own law; other local laws not yet checked."
+  },
+  "visa-preparation": {
+   "status": "steps-found",
+   "checked": "2026-11-04",
+   "last_reviewed": "2026-11-04",
+   "evidence": "official",
+   "needs_recheck": false,
+   "entry_summary": "No visa for Australians; every air traveller must have an approved online ED card before departure, with a US$20 sustainability fee for most visitors.",
+   "fastest_entry": "Online ED card, then entry on arrival.",
+   "steps": [
+    {
+     "step": "Complete the ED card at edcardaruba.aw within 7 days before travel and pay the sustainability fee; keep the approval for check-in.",
+     "url": "https://www.edcardaruba.aw/"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Approved ED card",
+    "Return ticket"
+   ],
+   "sources": [
+    {
+     "title": "Aruba Online ED Card",
+     "authority": "Government of Aruba",
+     "url": "https://www.edcardaruba.aw/",
+     "checked": "2026-11-04",
+     "supports": "mandatory ED card (search-index snapshot)"
+    },
+    {
+     "title": "Sustainability fee policy",
+     "authority": "Aruba Wastewater Sustainable Solutions (government company)",
+     "url": "https://awss.aw/sustainability-fee-policy/",
+     "checked": "2026-11-04",
+     "supports": "US$20 fee and exemptions (search-index snapshot)"
+    }
+   ],
+   "fees": [
+    {
+     "item": "sustainability fee (most visitors)",
+     "amount": 20,
+     "currency": "USD",
+     "url": "https://awss.aw/sustainability-fee-policy/",
+     "checked": "2026-11-04"
+    }
+   ]
   }
  }
 }

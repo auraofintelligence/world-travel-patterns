@@ -517,6 +517,47 @@
     }
    ],
    "note": "From the place's own government sources."
+  },
+  "visa-preparation": {
+   "status": "steps-found",
+   "checked": "2026-11-04",
+   "last_reviewed": "2026-11-04",
+   "evidence": "official",
+   "needs_recheck": false,
+   "entry_summary": "Every visitor needs an Entry (Visitor) Permit applied for online and paid at least 14 days before arrival: GBP 250, valid 40 days.",
+   "fastest_entry": "Online permit before arrival.",
+   "steps": [
+    {
+     "step": "Apply and pay online at least 14 days before arrival.",
+     "url": "https://gov.gs/entry-control-order-permit-application/"
+    },
+    {
+     "step": "Follow the visitor biosecurity procedures.",
+     "url": "https://gov.gs/wp-content/uploads/2026/06/01_SOP_Visitors.pdf"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "Entry (Visitor) Permit"
+   ],
+   "sources": [
+    {
+     "title": "Entry Control Order permit application",
+     "authority": "Government of South Georgia and the South Sandwich Islands",
+     "url": "https://gov.gs/entry-control-order-permit-application/",
+     "checked": "2026-11-04",
+     "supports": "permit, fee, lead time (search-index snapshot)"
+    }
+   ],
+   "fees": [
+    {
+     "item": "entry (visitor) permit",
+     "amount": 250,
+     "currency": "GBP",
+     "url": "https://gov.gs/entry-control-order-permit-application/",
+     "checked": "2026-11-04"
+    }
+   ]
   }
  }
 }

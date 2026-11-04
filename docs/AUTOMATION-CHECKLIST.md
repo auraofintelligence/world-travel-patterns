@@ -332,7 +332,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | in/uttarakhand | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | in/west-bengal | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | in__nagaland |  | monthly | pending event | pending date: Hornbill Festival 2027 (usually 1 to 10 Dec) |
-| io |  | monthly | snapshot evidence |  |
+| io |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | it/lombardy | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | it/veneto | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | je |  | monthly | snapshot evidence |  |
@@ -400,7 +400,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | sx |  | monthly | snapshot evidence |  |
 | sz | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
 | tc |  | monthly | snapshot evidence |  |
-| tf |  | monthly | snapshot evidence |  |
+| tf |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | th | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tj | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | tk |  | monthly | snapshot evidence |  |

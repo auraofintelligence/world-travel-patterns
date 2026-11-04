@@ -1528,3 +1528,9 @@ For Claude.
 - The 34 culture-and-protocol records resting only on Smartraveller were each searched for an etiquette page from the place itself.
 - Place-own source added (Smartraveller kept as secondary): ba (Destination Sarajevo), br (Embratur), hr (Split tourist board, Public Order Act fines), cr (Instituto Costarricense de Turismo), th (thailand.go.th temple guide), gt (CONAP), gh (Ghana Tourism Authority, read directly), sn (ASPT, read directly), et (Visit Ethiopia, read directly).
 - No place-own etiquette page found for al by ci dj dz gn kp lb lr ly ml mr mz ne sc sd sl so ss sy td tj tm ua xk; each now carries a place_source_note saying so.
+
+## 2026-11-05 00:20 AEST: Grok, visa preparation for the missing places
+For Claude.
+- Visa preparation written from each place's own immigration or government pages for 42 places: gp mq gf re yt pm bl mf wf (French Ministry of the Interior, France-Visas, Wallis and Futuna State services), aw cw sx bq (Aruba ED card, Curaçao DI card, entry.sx, Rijksdienst Caribisch Nederland), je gg cq im (ETA from 2026), bm ky ai vg tc gi sh ms fk pn gs io (their own governments), gl fo (New to Denmark), sj (Governor of Svalbard), as (American Samoa Attorney General), mp pr vi (CBP and DHS), tk (Tokelau Immigration Regulations), aq (Australian Antarctic Division), nf cc cx (Australian territories department; cx read directly), tf (TAAF).
+- io and tf are confirm-in-writing; recheck notes on ai tc ms gl fo pr vi tk for points the snapshots did not settle.
+- Not written: au (home country, no entry preparation for Australians) and ax (Finland's migration site blocked the fetch).

@@ -551,6 +551,43 @@
      "supports": "disc parking rules (read via a search-index snapshot)"
     }
    ]
+  },
+  "visa-preparation": {
+   "status": "steps-found",
+   "checked": "2026-11-04",
+   "last_reviewed": "2026-11-04",
+   "evidence": "official",
+   "needs_recheck": false,
+   "entry_summary": "No visa for Australians, but since 23 April 2026 an ETA is needed to arrive in the Bailiwick of Guernsey (including Alderney and Sark) from outside the Common Travel Area; a valid UK ETA on the same passport counts.",
+   "fastest_entry": "UK ETA, then entry.",
+   "steps": [
+    {
+     "step": "Apply for a UK ETA on GOV.UK before travel unless you arrive from within the Common Travel Area.",
+     "url": "https://www.gov.gg/ETA_introduction_2026"
+    }
+   ],
+   "documents": [
+    "Passport",
+    "UK ETA (if arriving from outside the CTA)"
+   ],
+   "sources": [
+    {
+     "title": "Introduction of ETA for non-visa nationals travelling to the Bailiwick of Guernsey",
+     "authority": "States of Guernsey",
+     "url": "https://www.gov.gg/ETA_introduction_2026",
+     "checked": "2026-11-04",
+     "supports": "ETA from 23 April 2026, UK ETA recognised, covers Alderney and Sark (search-index snapshot)"
+    }
+   ],
+   "fees": [
+    {
+     "item": "UK ETA",
+     "amount": 20,
+     "currency": "GBP",
+     "url": "https://www.gov.je/Travel/InformationAdvice/Visitors/pages/geteta.aspx",
+     "checked": "2026-11-04"
+    }
+   ]
   }
  }
 }
