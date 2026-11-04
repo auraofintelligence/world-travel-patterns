@@ -1501,3 +1501,8 @@ For Claude.
 For Claude.
 - The 23:27 recheck matched sentences too strictly and also dropped structured fields (greetings, rules, summaries, notes). All 79 rechecked patterns were restored to their pre-recheck content; only sentences in conduct, greetings and rule text that were clearly absent from the remaining sources (and placeholder lines) were removed, 73 in all. Translated sentences from French and Portuguese sources (gf, gw, re) were kept in full.
 - France culture and protocol rebuilt from Service Public: face-covering ban (fine up to EUR 150), identity checks (up to 4 hours), EUR 500 drug fine.
+
+## 2026-11-04 23:45 AEST: Grok, still-flagged records
+For Claude.
+- 11 of the 16 still-flagged records cleared: bs bw bz cw gy li ls py sz ug culture and in/mizoram local law. Each remaining sentence names its official source (tourism authority, wildlife authority, state excise PDFs); the pages block automated reading, so they were not re-read word for word.
+- 5 stay flagged with a reason: cg gq gw visa preparation and gw activities (no official source from the place and no Smartraveller page); sr visa preparation (the official e-visa portal blocks reading).
