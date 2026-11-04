@@ -3,24 +3,26 @@
  "patterns": {
   "culture-cycles": {
    "status": "partly-mapped",
-   "evidence": "signal",
+   "evidence": "official",
    "festivals": [],
    "closures": [],
    "moving_calendars": [],
    "protocol_notes": [],
    "sources": [
     {
-     "title": "Public holidays (Nager.Date)",
-     "authority": "Signal: machine holiday data",
-     "url": "https://date.nager.at/",
-     "checked": "2026-11-01",
-     "supports": "regional public holidays in the next twelve months"
+     "title": "State Holiday Schedule, 1 July 2026 to 30 June 2028",
+     "authority": "Department of Human Resources, State of Vermont",
+     "url": "https://humanresources.vermont.gov/benefits-wellness/holiday-schedule",
+     "checked": "2026-11-05",
+     "supports": "state holiday dates for 2026 to 2028 (read directly)"
     }
    ],
    "public_holidays": [
-    "2027-10-11: Indigenous Peoples' Day (regional holiday)"
+    "2027-03-02: Town Meeting Day (state holiday)",
+    "2026-11-27: Day after Thanksgiving (most state offices closed under employee contracts)"
    ],
-   "checked": "2026-11-02"
+   "checked": "2026-11-05",
+   "note": "Bennington Battle Day does not appear on this state-employee schedule, so it is not listed here. Federal holidays are on the United States record."
   },
   "local-law": {
    "status": "partly-mapped",

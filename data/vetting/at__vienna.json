@@ -3,24 +3,28 @@
  "patterns": {
   "culture-cycles": {
    "status": "partly-mapped",
-   "evidence": "signal",
+   "evidence": "official",
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "2026-11-15: Leopolditag (St Leopold), a Sunday in 2026: schools closed in this state",
+    "2027-11-15: Leopolditag (St Leopold): schools closed in this state"
+   ],
    "moving_calendars": [],
    "protocol_notes": [],
    "sources": [
     {
-     "title": "Public holidays (Nager.Date)",
-     "authority": "Signal: machine holiday data",
-     "url": "https://date.nager.at/",
-     "checked": "2026-11-01",
-     "supports": "regional public holidays in the next twelve months"
+     "title": "Gesetzliche Feiertage, Allerseelentag, Festtage der Landespatrone",
+     "authority": "Bundesministerium für Bildung (Austria)",
+     "url": "https://www.bmb.gv.at/Themen/schule/schulpraxis/termine/feiertage.html",
+     "checked": "2026-11-05",
+     "supports": "each state's patron-saint day, listed separately from the statutory public holidays, as a school-free day (read directly)"
     }
    ],
    "public_holidays": [
-    "2026-11-15: Saint Leopold's Day (Leopolditag) (regional holiday)"
+    "No state-only statutory public holidays: Austria's public holidays are national and are on Austria's record."
    ],
-   "checked": "2026-11-02"
+   "checked": "2026-11-05",
+   "note": "The patron-saint day is a school holiday in this state. The ministry lists it apart from the statutory public holidays, so do not assume shops or businesses close; the ministry page does not say."
   }
  }
 }

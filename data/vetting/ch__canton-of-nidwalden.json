@@ -28,30 +28,33 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "evidence": "signal",
+   "evidence": "official",
    "festivals": [],
    "closures": [],
    "moving_calendars": [],
    "protocol_notes": [],
    "sources": [
     {
-     "title": "Public holidays (Nager.Date)",
-     "authority": "Signal: machine holiday data",
-     "url": "https://date.nager.at/",
-     "checked": "2026-11-01",
-     "supports": "regional public holidays in the next twelve months"
+     "title": "Giorni festivi in Svizzera (allegato), stato al 12.12.2024",
+     "authority": "Segreteria di Stato dell'economia SECO",
+     "url": "https://www.seco.admin.ch/dam/it/sd-web/x5LtHPJdNis5/Anhang-Feiertage-Schweiz-Auszug-ArG-ArGV1-5-SECO-SB-2024-IT.pdf",
+     "checked": "2026-11-05",
+     "supports": "which cantonal holidays count as Sundays under labour law (art. 20a ArG), canton by canton, with exceptions (PDF read directly; dates for 2026-27 worked out from the named feast days)"
     }
    ],
    "public_holidays": [
-    "2026-12-08: Immaculate Conception (Mariä Empfängnis) (regional holiday)",
-    "2027-03-19: Saint Joseph's Day (Josefstag) (regional holiday)",
-    "2027-03-26: Good Friday (Karfreitag) (regional holiday)",
-    "2027-05-27: Corpus Christi (Fronleichnam) (regional holiday)",
-    "2027-08-15: Assumption of the Virgin Mary (Maria Himmelfahrt) (regional holiday)",
-    "2027-09-19: Federal Day of Thanksgiving (Eidgenössischer Dank-, Buss- und Bettag) (regional holiday)",
-    "2027-11-01: All Saints' Day (Allerheiligen) (regional holiday)"
+    "2026-12-08: Maria Empfängnis (Immaculate Conception) (cantonal holiday)",
+    "2026-12-25: Weihnachtstag (Christmas Day) (cantonal holiday)",
+    "2027-01-01: Neujahrstag (New Year's Day) (cantonal holiday)",
+    "2027-03-26: Karfreitag (Good Friday) (cantonal holiday)",
+    "2027-05-06: Auffahrt (Ascension) (cantonal holiday)",
+    "2027-05-27: Fronleichnam (Corpus Christi) (cantonal holiday)",
+    "2027-08-01: Bundesfeiertag (Swiss National Day) (cantonal holiday)",
+    "2027-08-15: Maria Himmelfahrt (Assumption) (cantonal holiday)",
+    "2027-11-01: Allerheiligen (All Saints' Day) (cantonal holiday)"
    ],
-   "checked": "2026-11-02"
+   "checked": "2026-11-05",
+   "note": "Holidays treated like Sundays under the cantonal rest-day laws (SECO table). The 1 August national day is the only federal holiday. Holidays on a Sunday are not moved."
   }
  }
 }

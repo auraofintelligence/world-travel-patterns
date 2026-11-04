@@ -69,6 +69,7 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | 2027-02-28 | election | sv | Legislative Assembly election (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-03-02 | election | fm | Congress election (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-03-07 | election | ee | Parliamentary election | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-03-27 | law-or-rule-date | it/lazio | ancient-sites-and-mysteries: Tuesday to Sunday, closed Mondays. 25 October 2026 to 27 March 2027: 9 am to 5 pm, last | Recheck the official source about 60 days before, and again on the date. |
 | 2027-03-31 | law-or-rule-date | es/catalonia | local-law: ...night, for up to 7 nights at the same place; under-17s are exempt. Outside Barcelona city, from 1 April 2026 to 31 March 2027: EUR 4.50 at five-s | Recheck the official source about 60 days before, and again on the date. |
 | 2027-04-01 | law-or-rule-date | gb/wales | local-law: ...about A$2.47, RBA rate of 30 October 2026), or 75p (about A$1.43) in hostels, bunkhouses and on tent pitches, from 1 April 2027 at the earliest. Ca | Recheck the official source about 60 days before, and again on the date. |
 | 2027-04-10 | election | gm | National Assembly election (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
@@ -118,7 +119,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-406 locations have specific watch items.
+412 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -296,6 +297,8 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | eg | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eh |  | monthly | snapshot evidence |  |
 | es/andalusia | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| es/balearic-islands | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| es/canary-islands | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | es/catalonia | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | local-law date 2027-03-31 |
 | es/melilla | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | fj | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2026-12-09; election 2026-12-24 |
@@ -330,6 +333,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | hr/split-dalmatia-county | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | id | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | id/bali | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| id/yogyakarta | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ie | Exercise normal safety precautions | monthly | pending event, snapshot evidence | pending date: Lisdoonvarna Matchmaking Festival 2027 |
 | im |  | monthly | snapshot evidence |  |
 | in | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -350,8 +354,10 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | io |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | it/campania | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | it/emilia-romagna | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| it/lazio | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | ancient-sites-and-mysteries date 2027-03-27 |
 | it/liguria | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | it/lombardy | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| it/sardinia | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | it/sicily | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | it/trentino-south-tyrol | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | it/tuscany | Exercise normal safety precautions | monthly | snapshot evidence |  |
@@ -452,6 +458,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | tg |  | monthly | snapshot evidence |  |
 | th | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | th/chiang-mai | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| th/kanchanaburi | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | th/phang-nga | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | th/satun | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | th/surat-thani | Exercise a high degree of caution | monthly | snapshot evidence |  |

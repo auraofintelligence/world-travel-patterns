@@ -3,25 +3,32 @@
  "patterns": {
   "culture-cycles": {
    "status": "partly-mapped",
-   "evidence": "signal",
+   "evidence": "official",
    "festivals": [],
    "closures": [],
    "moving_calendars": [],
    "protocol_notes": [],
    "sources": [
     {
-     "title": "Public holidays (Nager.Date)",
-     "authority": "Signal: machine holiday data",
-     "url": "https://date.nager.at/",
-     "checked": "2026-11-01",
-     "supports": "regional public holidays in the next twelve months"
+     "title": "State of Texas Holiday Schedule, Fiscal Year 2027",
+     "authority": "Texas Comptroller of Public Accounts",
+     "url": "https://comptroller.texas.gov/about/holidays.php",
+     "checked": "2026-11-05",
+     "supports": "state holidays and office status for September 2026 to August 2027 under Texas Government Code chapter 662 (read directly)"
     }
    ],
    "public_holidays": [
-    "2027-03-26: Good Friday (regional holiday)",
-    "2027-10-11: Indigenous Peoples' Day (regional holiday)"
+    "2026-11-27: Day after Thanksgiving (state holiday, offices closed)",
+    "2026-12-24: Christmas Eve Day (state holiday, offices closed)",
+    "2027-01-19: Confederate Heroes Day (state holiday, skeleton crew)",
+    "2027-03-02: Texas Independence Day (state holiday, skeleton crew)",
+    "2027-03-26: Good Friday (optional state holiday)",
+    "2027-04-21: San Jacinto Day (state holiday, skeleton crew)",
+    "2027-06-19: Emancipation Day (state holiday; a Saturday in 2027, not moved)",
+    "2027-08-27: LBJ Day (state holiday, skeleton crew)"
    ],
-   "checked": "2026-11-02"
+   "checked": "2026-11-05",
+   "note": "On skeleton-crew days state offices stay open with reduced staff. Weekend holidays are not moved to a weekday. Federal holidays are on the United States record."
   },
   "year-ahead": {
    "status": "mapped",

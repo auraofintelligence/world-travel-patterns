@@ -62,25 +62,28 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "evidence": "signal",
+   "evidence": "official",
    "festivals": [],
    "closures": [],
    "moving_calendars": [],
    "protocol_notes": [],
    "sources": [
     {
-     "title": "Public holidays (Nager.Date)",
-     "authority": "Signal: machine holiday data",
-     "url": "https://date.nager.at/",
-     "checked": "2026-11-01",
-     "supports": "regional public holidays in the next twelve months"
+     "title": "Holidays to be observed in 2026 and 2027",
+     "authority": "Department of Human Resources Development, State of Hawaiʻi",
+     "url": "https://dhrd.hawaii.gov/wp-content/uploads/2026/06/State-Holidays-2026-2027.pdf",
+     "checked": "2026-11-05",
+     "supports": "2027 state holidays under HRS section 8-1, with observed dates (read directly)"
     }
    ],
    "public_holidays": [
-    "2027-03-26: Good Friday (regional holiday)",
-    "2027-10-11: Indigenous Peoples' Day (regional holiday)"
+    "2027-03-26: Prince Jonah Kūhiō Kalanianaʻole Day (state holiday; same day as Good Friday in 2027)",
+    "2027-03-26: Good Friday (state holiday)",
+    "2027-06-11: King Kamehameha I Day (state holiday)",
+    "2027-08-20: Statehood Day (state holiday)"
    ],
-   "checked": "2026-11-02"
+   "checked": "2026-11-05",
+   "note": "Dates are those observed by state agencies; the source says federal and banking holidays may differ. Federal holidays are on the United States record."
   },
   "psychoactive-substances": {
    "status": "partly-mapped",

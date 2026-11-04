@@ -28,24 +28,27 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "evidence": "signal",
+   "evidence": "official",
    "festivals": [],
    "closures": [],
    "moving_calendars": [],
    "protocol_notes": [],
    "sources": [
     {
-     "title": "Public holidays (Nager.Date)",
-     "authority": "Signal: machine holiday data",
-     "url": "https://date.nager.at/",
-     "checked": "2026-11-01",
-     "supports": "regional public holidays in the next twelve months"
+     "title": "Legal Holidays and Statistics",
+     "authority": "Secretary of the Commonwealth of Massachusetts",
+     "url": "https://www.sec.state.ma.us/divisions/cis/legal-holidays.htm",
+     "checked": "2026-11-05",
+     "supports": "state legal holidays by rule and the two Suffolk County holidays (read directly)"
     }
    ],
    "public_holidays": [
-    "2027-10-11: Columbus Day (regional holiday)"
+    "2027-03-17: Evacuation Day (Suffolk County only; state offices there stay open)",
+    "2027-04-19: Patriots' Day (state legal holiday, third Monday in April)",
+    "2027-06-17: Bunker Hill Day (Suffolk County only; state offices there stay open)"
    ],
-   "checked": "2026-11-02"
+   "checked": "2026-11-05",
+   "note": "Dates for 2027 worked out from the rules on the page (Patriots' Day is the third Monday in April). Suffolk County includes Boston. Federal holidays are on the United States record."
   },
   "local-law": {
    "status": "partly-mapped",

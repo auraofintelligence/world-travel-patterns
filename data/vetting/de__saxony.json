@@ -28,25 +28,35 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "evidence": "signal",
+   "evidence": "official",
    "festivals": [],
    "closures": [],
    "moving_calendars": [],
    "protocol_notes": [],
    "sources": [
     {
-     "title": "Public holidays (Nager.Date)",
-     "authority": "Signal: machine holiday data",
-     "url": "https://date.nager.at/",
-     "checked": "2026-11-01",
-     "supports": "regional public holidays in the next twelve months"
+     "title": "Feiertage in Deutschland im Jahr 2027",
+     "authority": "Deutsche Bundesbank",
+     "url": "https://www.bundesbank.de/resource/blob/749314/d727f4a4d67d280c9d80b52c0f275e9c/472B63F073F071307366337C94F8C870/feiertage-in-deutschland-1-data.pdf",
+     "checked": "2026-11-05",
+     "supports": "2027 nationwide holidays and the extra holidays for each Land (PDF read directly)"
+    },
+    {
+     "title": "Rundnote 17/2025: gesetzliche Feiertage 2026",
+     "authority": "Auswärtiges Amt (Federal Foreign Office), circular to diplomatic missions",
+     "url": "https://www.bmeia.gv.at/fileadmin/user_upload/Vertretungen/Berlin/02_Dokumente/Deutsche_gesetzliche_Feiertage_2026.pdf",
+     "checked": "2026-11-05",
+     "supports": "2026 dates including Buß- und Bettag 18 November and the Augsburg-only Friedensfest on 8 August (search snapshot of the circular)"
     }
    ],
    "public_holidays": [
-    "2026-11-18: Repentance and Prayer Day (Buß- und Bettag) (regional holiday)",
-    "2027-10-31: Reformation Day (Reformationstag) (regional holiday)"
+    "2026-11-18: Buß- und Bettag (Day of Repentance and Prayer) (state holiday)",
+    "2027-05-27: Fronleichnam (Corpus Christi), only in some municipalities (state holiday)",
+    "2027-10-31: Reformationstag (Reformation Day) (state holiday)",
+    "2027-11-17: Buß- und Bettag (Day of Repentance and Prayer) (state holiday)"
    ],
-   "checked": "2026-11-02"
+   "checked": "2026-11-05",
+   "note": "State holidays only; the nine nationwide holidays (in 2027: 1 Jan, 26 and 29 Mar, 1 May, 6 and 17 May, 3 Oct, 25 and 26 Dec) are on Germany's record. Several 2027 dates fall on a weekend, and there is no substitute weekday."
   },
   "local-law": {
    "status": "partly-mapped",
