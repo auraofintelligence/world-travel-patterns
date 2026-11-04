@@ -1,0 +1,35 @@
+{
+ "rule": "Hand and agent additions. A why is a reason to vet, never a finding.",
+ "places": [
+  {
+   "id": "nc/south-province",
+   "name": "South Province",
+   "kind": "region",
+   "parent": "nc",
+   "zone_scan": true,
+   "why": "Added for state-level culture and protocol: check customary-land etiquette, permits and fees.",
+   "wikidata": "Q965632",
+   "source_kind": "first-level"
+  },
+  {
+   "id": "nc/north-province",
+   "name": "North Province",
+   "kind": "region",
+   "parent": "nc",
+   "zone_scan": true,
+   "why": "Added for state-level culture and protocol: check customary-land etiquette, permits and fees.",
+   "wikidata": "Q1612920",
+   "source_kind": "first-level"
+  },
+  {
+   "id": "nc/loyalty-islands-province",
+   "name": "Loyalty Islands Province",
+   "kind": "region",
+   "parent": "nc",
+   "zone_scan": true,
+   "why": "Added for state-level culture and protocol: check customary-land etiquette, permits and fees.",
+   "wikidata": "Q18655787",
+   "source_kind": "first-level"
+  }
+ ]
+}

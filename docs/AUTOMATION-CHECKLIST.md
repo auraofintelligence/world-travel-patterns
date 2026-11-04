@@ -86,6 +86,10 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | 2027-07-01 | law-or-rule-date | us/virginia | psychoactive-substances: ...y 2027 the first offence is a civil penalty of up to US$25 (about A$36 at RBA 30 Oct 2026, A$1 = USD 0.7040); from 1 July 2027 it rises to up to U | Recheck the official source about 60 days before, and again on the date. |
 | 2027-07-18 | election | ht | Presidential, Senate and Chamber of Deputies elections | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-08 (month only) | law-or-rule-date | bt | zone-requirements: ...checkpost), Gelephu (Aipoli Bridge) and Samdrup Jongkhar (Pinchinna checkpost) don't pay the SDF (2 June 2026 to August 2027). Going beyond the | Recheck the official source about 60 days before, and again on the date. |
+| 2027-08 (month only) | law-or-rule-date | bt/chukha-district | local-law: ...ne for 24 hours pay no Sustainable Development Fee (SDF) from 2 June 2026, a waiver to be enforced for a year until August 2027. SDF applies to any | Recheck the official source about 60 days before, and again on the date. |
+| 2027-08 (month only) | law-or-rule-date | bt/samdrup-jongkhar-district | local-law: ...ne for 24 hours pay no Sustainable Development Fee (SDF) from 2 June 2026, a waiver to be enforced for a year until August 2027. SDF applies to any | Recheck the official source about 60 days before, and again on the date. |
+| 2027-08 (month only) | law-or-rule-date | bt/samtse-district | local-law: ...ne for 24 hours pay no Sustainable Development Fee (SDF) from 2 June 2026, a waiver to be enforced for a year until August 2027. SDF applies to any | Recheck the official source about 60 days before, and again on the date. |
+| 2027-08 (month only) | law-or-rule-date | bt/sarpang-district | local-law: ...ne for 24 hours pay no Sustainable Development Fee (SDF) from 2 June 2026, a waiver to be enforced for a year until August 2027. SDF applies to any | Recheck the official source about 60 days before, and again on the date. |
 | 2027-08-31 | law-or-rule-date | bt | visa-preparation: Sustainable Development Fee, per adult per night (discount from USD 200, to 31 August 2027) | Recheck the official source about 60 days before, and again on the date. |
 | 2027-10-31 | law-or-rule-date | za/limpopo | local-law: Kruger National Park daily conservation fee, 1 November 2026 to 31 October 2027: international visi | Recheck the official source about 60 days before, and again on the date. |
 | 2027-10-31 | law-or-rule-date | za/mpumalanga | local-law: Kruger National Park daily conservation fee, 1 November 2026 to 31 October 2027: international visi | Recheck the official source about 60 days before, and again on the date. |
@@ -126,7 +130,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-521 locations have specific watch items.
+531 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -248,6 +252,16 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | br/rio-de-janeiro | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | bs | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | bt | Exercise normal safety precautions | monthly | confirm in writing, dated rule, pending event, snapshot evidence | pending date: Paro Tshechu 2027 (reported 18 to 22 March, lunar); pending date: National Day 2027 (17 December); pending date: Bhutan tshechu festivals 2027 (Punakha, Paro, Thimphu and others); zone-requirements date 2027-08-28; +2 more |
+| bt/bumthang-district | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| bt/chukha-district | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | local-law date 2027-08-28 |
+| bt/paro-district | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| bt/punakha-district | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| bt/samdrup-jongkhar-district | Exercise normal safety precautions | monthly | dated rule | local-law date 2027-08-28 |
+| bt/samtse-district | Exercise normal safety precautions | monthly | dated rule | local-law date 2027-08-28 |
+| bt/sarpang-district | Exercise normal safety precautions | monthly | dated rule | local-law date 2027-08-28 |
+| bt/thimphu-district | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| bt/trongsa-district | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| bt/wangdue-phodrang-district | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | bw | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | bz | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ca | Exercise normal safety precautions | monthly | confirm in writing, pending event, snapshot evidence | pending date: Toronto International Film Festival 2027; 2 confirm-in-writing |
