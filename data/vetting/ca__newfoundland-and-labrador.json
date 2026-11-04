@@ -29,7 +29,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-05",
    "evidence": "official",
    "laws": [
     {
@@ -38,6 +38,15 @@
      "level": "region",
      "source": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
      "checked": "2026-11-02"
+    },
+    {
+     "topic": "permits-and-fees",
+     "rule": "Gros Morne National Park daily admission: adult C$12.25 (about A$12.45 at the RBA rate of 30 October 2026), senior C$10.75, family/group C$24.50, youth free; winter season adult C$10 (reduced service 1 November to 15 May).",
+     "level": "region",
+     "source": "https://parks.canada.ca/pn-np/nl/grosmorne/visit/tarifs-fees",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Gros Morne"
     }
    ],
    "sources": [
@@ -47,8 +56,16 @@
      "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
      "checked": "2026-11-02",
      "supports": "legal age, where to buy and public possession limit by province or territory (read via a search-index snapshot)"
+    },
+    {
+     "title": "Fees",
+     "authority": "Gros Morne National Park (Parks Canada)",
+     "url": "https://parks.canada.ca/pn-np/nl/grosmorne/visit/tarifs-fees",
+     "checked": "2026-11-05",
+     "supports": "admission (read directly 2026-11-05)"
     }
-   ]
+   ],
+   "note": "Gros Morne added."
   },
   "psychoactive-substances": {
    "status": "partly-mapped",

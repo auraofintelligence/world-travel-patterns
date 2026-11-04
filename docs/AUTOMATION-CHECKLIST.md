@@ -130,7 +130,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-531 locations have specific watch items.
+532 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -620,6 +620,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | us/illinois | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/indiana | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/iowa | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| us/kauai-county | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/massachusetts | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/michigan | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/nebraska | Exercise normal safety precautions | monthly | snapshot evidence |  |

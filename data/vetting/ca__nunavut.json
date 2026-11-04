@@ -50,7 +50,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-05",
    "evidence": "official",
    "laws": [
     {
@@ -59,6 +59,15 @@
      "level": "region",
      "source": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
      "checked": "2026-11-02"
+    },
+    {
+     "topic": "permits-and-fees",
+     "rule": "Auyuittuq National Park: travel is designated hazardous; every visitor must register (in person or by phone) before entering and de-register after leaving (not Nunavut Inuit harvesting); maximum fine C$100,000. Fees: daily C$17.75 (about A$18.04 at the RBA rate of 30 October 2026) per person, nightly C$37, annual C$259; youth 17 and under free.",
+     "level": "region",
+     "source": "https://www.parcs.canada.ca/pn-np/nu/auyuittuq/securite-safety/bulletins/442616cf-d24f-4611-9421-3d3abfd49784",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Auyuittuq"
     }
    ],
    "sources": [
@@ -68,8 +77,23 @@
      "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
      "checked": "2026-11-02",
      "supports": "legal age, where to buy and public possession limit by province or territory (read via a search-index snapshot)"
+    },
+    {
+     "title": "Fees",
+     "authority": "Auyuittuq National Park (Parks Canada)",
+     "url": "https://parks.canada.ca/pn-np/nu/auyuittuq/visit/tarifs-fees",
+     "checked": "2026-11-05",
+     "supports": "northern park backcountry fees (read directly 2026-11-05)"
+    },
+    {
+     "title": "Designation of hazardous activity and mandatory visitor registration",
+     "authority": "Parks Canada",
+     "url": "https://www.parcs.canada.ca/pn-np/nu/auyuittuq/securite-safety/bulletins/442616cf-d24f-4611-9421-3d3abfd49784",
+     "checked": "2026-11-05",
+     "supports": "mandatory registration and de-registration, fine (read directly 2026-11-05)"
     }
-   ]
+   ],
+   "note": "Auyuittuq added."
   },
   "psychoactive-substances": {
    "status": "partly-mapped",

@@ -102,7 +102,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-04",
+   "checked": "2026-11-05",
    "evidence": "official",
    "laws": [
     {
@@ -112,6 +112,15 @@
      "source": "https://www.indiacode.nic.in/bitstream/123456789/11850/1/the_nagaland_liquor_total_prohibition_act_1989.pdf",
      "checked": "2026-11-04",
      "by": "hand"
+    },
+    {
+     "topic": "permits-and-fees",
+     "rule": "Nagaland ILP: domestic tourist ₹200 (about A$2.98 at the RBA rate of 30 October 2026), foreigner ₹500, each valid 30 days (gateway charges extra).",
+     "level": "region",
+     "source": "https://ilp.nagaland.gov.in/fees",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "ILP fees"
     }
    ],
    "sources": [
@@ -121,9 +130,16 @@
      "url": "https://www.indiacode.nic.in/bitstream/123456789/11850/1/the_nagaland_liquor_total_prohibition_act_1989.pdf",
      "checked": "2026-11-04",
      "supports": "local law (search-index snapshot)"
+    },
+    {
+     "title": "ILP Fees information",
+     "authority": "Government of Nagaland, ILP portal",
+     "url": "https://ilp.nagaland.gov.in/fees",
+     "checked": "2026-11-05",
+     "supports": "fees and validity (read directly 2026-11-05)"
     }
    ],
-   "note": "From the place's own government sources."
+   "note": "From the place's own government sources. State portal added."
   },
   "culture-cycles": {
    "status": "partly-mapped",
