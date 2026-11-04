@@ -1557,3 +1557,8 @@ For Claude.
 - Written from each place's own sources: me (Budva municipal order decision, swimwear ban in town, EUR 200 to 1,000, read directly), ai (Anguilla Tourist Board), cu (CubaTravel, read directly), tv (Timeless Tuvalu, read directly), yt (Mayotte Tourisme, read directly).
 - Searched without an official etiquette page: mc (the swimwear ban is reported but the municipal order number was not found on Legimonaco), ad, sm, pl, lt, vg, vc, sr, tg (Togo Tourisme covers safety only).
 - Not reached this pass: ao bi cd cf cg cn eh ga gq ht io km ru st.
+
+## 2026-11-04 23:56 AEST: Grok, more culture and protocol
+For Claude.
+- From each place's own sources: cn (Ministry of Culture and Tourism civilised travel reminder), ru (Russian foreign ministry embassy page), ao (Tourism Law 9/15, article 33), ht (Ministry of Tourism, sacred lakou), io (BIOT Administration conduct rules).
+- No official etiquette page found: bi cd cf cg eh ga gq km st (Gabon's AGATOUR and the Comoros tourism office pages carry no customs guidance).
