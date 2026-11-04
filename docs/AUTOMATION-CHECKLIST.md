@@ -40,6 +40,7 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | 2026-11-05 | election | gd | House of Representatives election (snap) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-11-07 | election | nz | General election (House of Representatives) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-11-08 | law-or-rule-date | us/california | ancient-sites-and-mysteries: Forest Order 14-24-08 runs to 8 November 2026; recheck for a rene | Recheck the official source about 60 days before, and again on the date. |
+| 2026-11-11 | law-or-rule-date | jp/okinawa-prefecture | culture-and-protocol: ...t sacred site, closes six days a year for quiet and conservation (lunar 1 to 3 May and 1 to 3 October; next 9 to 11 November 2026, then 5 to 7 June 2 | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-13 | law-or-rule-date | us/new-jersey | psychoactive-substances: ...stribution licences could sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2 | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-14 | law-or-rule-date | us/new-jersey | psychoactive-substances: ...d sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2026 those drinks are tr | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-15 | election | cv | Presidential election | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
@@ -77,6 +78,7 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | 2027-04-10 | election | gm | National Assembly election (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-04-18 | election | fi | Parliamentary election (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-04-18 | election | fr | Presidential election (first round) (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-06-07 | law-or-rule-date | jp/okinawa-prefecture | culture-and-protocol: ...ys a year for quiet and conservation (lunar 1 to 3 May and 1 to 3 October; next 9 to 11 November 2026, then 5 to 7 June 2027). From 2 November 2 | Recheck the official source about 60 days before, and again on the date. |
 | 2027-06 (month only) | law-or-rule-date | ch/canton-of-geneva | psychoactive-substances: ...main partner, sells cannabis to enrolled participants from a single outlet in Vernier. Planned from June 2023 to June 2027, with up to 1,080 p | Recheck the official source about 60 days before, and again on the date. |
 | 2027-06 (month only) | law-or-rule-date | ch/canton-of-vaud | psychoactive-substances: ...on a non-profit basis to enrolled participants through a specialised shop in Lausanne. Planned from July 2023 to June 2027, with up to 1,600 p | Recheck the official source about 60 days before, and again on the date. |
 | 2027-07-01 | law-or-rule-date | de/rhineland-palatinate | local-law: ...accommodation tax (Beherbergungsteuer) of 4% of the room price including VAT from 1 July 2026, rising to 4.5% from 1 July 2027. | Recheck the official source about 60 days before, and again on the date. |
@@ -124,7 +126,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-514 locations have specific watch items.
+521 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -196,6 +198,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | nl | Exercise normal safety precautions | fortnightly | snapshot evidence, watch item | eu-etias |
 | no | Exercise normal safety precautions | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 1 confirm-in-writing |
 | om | Reconsider your need to travel | fortnightly | high advisory, snapshot evidence |  |
+| om/al-batinah-south-governorate | Reconsider your need to travel | fortnightly | snapshot evidence |  |
 | pk | Reconsider your need to travel | fortnightly | confirm in writing, high advisory, snapshot evidence | 4 confirm-in-writing |
 | pk/azad-kashmir | Reconsider your need to travel | fortnightly | snapshot evidence |  |
 | pk/gilgit-baltistan | Reconsider your need to travel | fortnightly | snapshot evidence |  |
@@ -403,7 +406,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | jp | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/kyoto-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/nara-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| jp/okinawa-prefecture | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | ancient-sites-and-mysteries date 2027-01-05 |
+| jp/okinawa-prefecture | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | ancient-sites-and-mysteries date 2027-01-05; culture-and-protocol date 2026-11-11; culture-and-protocol date 2027-06-07 |
 | jp/shizuoka-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/yamanashi-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | ke | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -482,6 +485,8 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | nz | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2026-11-07 |
 | pa | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pe | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| pe/ancash-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| pe/ica-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pe/la-libertad-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pe/lima-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pf | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
@@ -540,6 +545,10 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | tm | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tn | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 9 confirm-in-writing |
 | to | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
+| to/eua-district | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| to/haapai-district | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| to/tongatapu | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| to/vavau | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | tr | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | tr/adana-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/aksaray-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
