@@ -1511,3 +1511,9 @@ For Claude.
 For Claude.
 - Kiribati culture and protocol from the Kiribati National Tourism Office (dress, maneaba customs, mweaka). Culture and protocol now 11 of 43 back.
 - Left not yet checked: British Virgin Islands (only private guides found), Tuvalu (only the Pacific Tourism Organisation and an Australian labour-scheme fact sheet; no Tuvalu government page).
+
+## 2026-11-04 23:40 AEST: Grok, culture and protocol, Montserrat
+For Claude.
+- Culture and protocol back for la (Lao Do's and Don'ts campaign, Luang Prabang and national tourism), dm (Invest Dominica Authority), ms (Montserrat Tourism Authority) and ni (INTUR, voluntary-tip rule). 15 of 43 now back.
+- Montserrat substances and local law from the Montserrat Tourism Authority (cannabis illegal, temporary driving licence).
+- Not yet checked, no official source with etiquette found: San Marino (tourism site has hours, not etiquette), Mayotte (only private guides), British Virgin Islands, Tuvalu.
