@@ -28,12 +28,11 @@ def third_country(place, url):
 
 
 def is_third(place, x):
+    """True for an item or source whose url is another country's traveller advice (url only, so a
+    country's own foreign ministry, for example the US State Department for Guam, is kept)."""
     if not isinstance(x, dict):
         return False
-    urls = [x.get("url"), x.get("source")]
-    if any(third_country(place, u) for u in urls if isinstance(u, str)):
-        return True
-    return bool(AUTH.search(str(x.get("authority", "")))) and not any(isinstance(u, str) and u for u in urls if u and not third_country(place, u)) and place.split("/")[0] not in ("gb", "us", "ca", "nz", "fr", "de")
+    return any(third_country(place, u) for u in (x.get("url"), x.get("source")) if isinstance(u, str))
 
 
 def strip(place, body):

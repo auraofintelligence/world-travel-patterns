@@ -1456,3 +1456,10 @@ For Claude.
 - Rule now in CLAUDE.md: the place's own official sources first, Smartraveller second, never another country's travel advice. validate.py enforces it through scripts/third_country.py (gov.uk/foreign-travel-advice, travel.state.gov advisories, travel.gc.ca, SafeTravel, diplomatie.gouv.fr, auswaertiges-amt.de, each allowed only for its own country and territories).
 - `python scripts/third_country.py --strip` removed 131 records whose only sources were third-country advice and flagged 96 mixed ones (needs_recheck, source_note). Sentences quoting FCDO were removed from culture text. scripts/fcdo_substances.py, fcdo_local_law.py and fcdo_culture.py deleted.
 - Luxembourg cannabis settled from Legilux: home growing of up to four plants and home use are legal for adults since 21 July 2023; public use or carrying up to 3 g is a EUR 145 fine (EUR 25 to 500 in court); over 3 g up to six months and EUR 2,500.
+
+## 2026-11-04 23:55 AEST: Grok, gaps after the source clean-up
+For Claude.
+- Culture cycles: lk (2027 gazette), np (MOHA 2083 notice), uz (Labour Code art 208, lex.uz), tl (Law 10/2005 and the Government's 2026 list).
+- Health entry ps from Smartraveller (Do not travel; no stated vaccine requirement; entry via Israel or Jordan).
+- Ancient sites: Ur, Uruk and Eridu (iq, Do not travel), Jokhang (cn/tibet), deer stones (mn), all UNESCO.
+- third_country.py now matches on urls only, so a country's own foreign ministry is never stripped.
