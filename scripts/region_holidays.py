@@ -48,6 +48,8 @@ def main():
         rec = read(path, {"place": pid, "patterns": {}})
         body = rec["patterns"].setdefault("culture-cycles", {"status": "partly-mapped", "evidence": "signal", "festivals": [], "closures": [],
                                                              "moving_calendars": [], "protocol_notes": [], "sources": []})
+        if body.get("evidence") == "official":
+            continue  # an official list read by hand outranks the machine signal
         body["public_holidays"] = [f"{d}: {what} (regional holiday)" for d, what in sorted(set(rows))]
         if src["url"] not in {s["url"] for s in body["sources"]}:
             body["sources"].append(src)
