@@ -1535,14 +1535,14 @@ For Claude.
 - io and tf are confirm-in-writing; recheck notes on ai tc ms gl fo pr vi tk for points the snapshots did not settle.
 - Not written: au (home country, no entry preparation for Australians) and ax (Finland's migration site blocked the fetch).
 
-## 2026-11-04 23:50 AEST: Grok, precursor repo links resolved
+## 2026-11-04 23:43 AEST: Grok, precursor repo links resolved
 For Claude.
 - Luke's ruling: Australian-visa-activity-atlas and Australian-world-travel were precursors, not authorities. Cite an official source where one verifies the fact; cut links that add nothing; keep only where genuinely useful and nothing better exists.
 - Visa preparation (201 records): 119 replaced (official fee entries already cite the destination, so the atlas cost and provenance were dropped), 12 cut (atlas cost was "Free", "Variable" or "N/A" and added nothing), 70 kept with a precursor label: rough cost estimates where no official fee page was found, host_unlock, useful_stay and before_departure notes no official page covers, and the four baseline-only records (cg gq gw sr). Duplicated atlas entry summaries, steps and documents were removed.
 - Money and cost (30): atlas visa cost signal and provenance cut; visa cost lives in visa preparation.
 - Activities (32): atlas claim ids cut; each activity carried only by the atlas now says it is from earlier notes and not yet verified.
 
-## 2026-11-04 23:55 AEST: Grok, Åland visa preparation and snapshot details settled
+## 2026-11-04 23:44 AEST: Grok, Åland visa preparation and snapshot details settled
 For Claude.
 - ax visa preparation from Finland's Ministry for Foreign Affairs (Schengen rules, passport validity).
 - Settled by reading the pages directly: Australia is on Montserrat's visa-not-required list (the 180-day figure is not on Montserrat's pages, so it was dropped); Australia is on the Turks and Caicos visa-exempt list; New to Denmark treats Greenland and Faroe visits as up to 90 days separate from Schengen and says nothing about a shared count; Tokelau's latest published border notice is the 30 November 2022 closure, so tk is confirm-in-writing.
@@ -1552,18 +1552,18 @@ For Claude.
 - Local law and substances from each place's own published law: km (Penal Code 2020, Ministry of Justice, articles 207, 208, 220 read from the scanned PDF), tv (Dangerous Drugs (Amendment) Act 2025), vc (Drugs (Prevention of Misuse) (Amendment) Act 2019: 56 g or less is a fine of up to EC$500 by notice, no arrest), ki (Dangerous Drugs Regulations, government trade portal), gw (Decree-Law 2-B/93 via the national drug observatory); cg local law (Law 30-2025, Secrétariat général du Gouvernement).
 - Still open: local law cn/tibet eh gq st sx; substances gq st. São Tomé's drug bill was found only as an Assembly diary hosted on a Brazilian server, and Equatorial Guinea's decree only on a UN database, so neither was used.
 
-## 2026-11-04 23:52 AEST: Grok, culture and protocol for unwritten places
+## 2026-11-04 23:46 AEST: Grok, culture and protocol for unwritten places
 For Claude.
 - Written from each place's own sources: me (Budva municipal order decision, swimwear ban in town, EUR 200 to 1,000, read directly), ai (Anguilla Tourist Board), cu (CubaTravel, read directly), tv (Timeless Tuvalu, read directly), yt (Mayotte Tourisme, read directly).
 - Searched without an official etiquette page: mc (the swimwear ban is reported but the municipal order number was not found on Legimonaco), ad, sm, pl, lt, vg, vc, sr, tg (Togo Tourisme covers safety only).
 - Not reached this pass: ao bi cd cf cg cn eh ga gq ht io km ru st.
 
-## 2026-11-04 23:56 AEST: Grok, more culture and protocol
+## 2026-11-04 23:50 AEST: Grok, more culture and protocol
 For Claude.
 - From each place's own sources: cn (Ministry of Culture and Tourism civilised travel reminder), ru (Russian foreign ministry embassy page), ao (Tourism Law 9/15, article 33), ht (Ministry of Tourism, sacred lakou), io (BIOT Administration conduct rules).
 - No official etiquette page found: bi cd cf cg eh ga gq km st (Gabon's AGATOUR and the Comoros tourism office pages carry no customs guidance).
 
-## 2026-11-04 23:59 AEST: Grok, Tibet local law and ancient sites with official pages
+## 2026-11-04 23:54 AEST: Grok, Tibet local law and ancient sites with official pages
 For Claude.
 - cn/tibet local law: Tibet Travel Permit and agency-only travel for foreigners, from the Shannan city government (search-index snapshot; direct fetch returned no text).
 - Ancient sites added from official pages, lore in its labelled field: Guge and Tsaparang, Piyang and Dungkar caves (Tibet culture and tourism department reopening notice, 29 September 2026; State Council 2013 list), Samye (Zhanang county government), Pemako/Medog (county government, border pass via the 12367 app; foreigner eligibility not found), Bonri and Nyingchi Bon monasteries (Bayi district government), Lion City/Shicheng (Hangzhou CPPCC, underwater relics regulations), Khamar Monastery (Dornogovi province government), Chichén Itzá (INAH) and Yucatán cenotes (state cenote regulation).
