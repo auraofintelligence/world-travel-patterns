@@ -28,9 +28,7 @@ Two modes. **Baseline** runs all year and maps each place's laws, seasons, cultu
 | Weekly source watch | Monday 05:00 | GitHub Actions | Checks every cited page is still there and whether its text changed |
 | Daily feeds | 08:45 every day | GitHub Actions | GAJRA Earth Ahead events and open doors, mapped to places |
 | Monthly calendars | 1st of the month | GitHub Actions | Public holidays for this year and next, for the 204 places the dataset covers; place photos; consular reach for every destination |
-| Place passes | Tuesday, Thursday and Saturday | Claude routine | Vets the next seven places from official sources: about 21 a week, so every place comes round about every three months |
-| Monthly cycles | Monthly | Claude routine | Seasons, moving calendars, festivals, protocols and dated events for 25 places |
-| Window watch | Daily, exits fast when no trip is near | Claude routine, this machine | Tightens vetting and refreshes the private visitor brief as a trip approaches |
+| Round 1 build | Daily, by hand | Claude and Grok sessions | Luke runs Claude and Grok each day until the local, state and national data for round 1 is complete. The Claude scheduled routines (place passes, cycles, window watch) were switched off on 4 November 2026. |
 
 All times are Brisbane time.
 

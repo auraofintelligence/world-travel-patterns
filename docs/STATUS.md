@@ -76,7 +76,7 @@ Biggest gaps first (revised 1 November 2026).
 11. **Visitor flow.** Monthly visitor numbers exist only for a few Pacific places and Minjerribah.
 12. **Works and purpose.** Not started (Luke's own works, tagged places only).
 13. **Place photos.** Reviewed 1 November 2026: 312 approved, 1 pending (Uluṟu, Luke's call). gn, io and us/papahanaumokuakea still need a suitable photo.
-14. **Routines.** Registered as local scheduled tasks on 1 November 2026: place passes (Tuesday, Thursday and Saturday, 7 places each, about every three months for every place), cycles (the 2nd and 16th) and the daily window watch. The first cycles run committed on 2 November 2026. They run only while the Claude app is open.
+14. **Routines.** The Claude scheduled routines (place passes, cycles, window watch) were switched off on 4 November 2026. Until round 1 is complete (local, state and national data), Luke runs Claude and Grok sessions each day by hand. The GitHub Actions (advisories, source watch, feeds, calendars) still run.
 
 ## Known source problems
 
