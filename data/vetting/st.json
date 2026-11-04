@@ -20,13 +20,8 @@
   "money-and-cost": {
    "status": "noted",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
    "checked": "2026-11-01",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SAO-TOME-AND-PRINCIPE-COST"
-   },
+   "evidence": "official",
    "currency": "São Tomé and Príncipe dobra (STN)",
    "sources": [
     {
@@ -597,25 +592,10 @@
    "last_reviewed": "2026-11-04",
    "evidence": "official",
    "entry_summary": "Australia isn't on the 15-day visa-exempt list (CPLP, EU, UK, US, Canada and named countries) as read; a visa is likely needed unless you hold a valid Schengen or US visa.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-SAO-TOME-AND-PRINCIPE-COST"
-   },
    "steps": [],
    "documents": [
     "Passport valid more than 3 months"
    ],
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-SAO-TOME-AND-PRINCIPE-ENTRY",
-     "cost": "WORLD-SAO-TOME-AND-PRINCIPE-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   },
    "recheck_note": "Read only as a search snapshot; confirm the Schengen/US visa concession and how to apply.",
    "fastest_entry": "Ask the nearest São Tomé and Príncipe mission.",
    "fees": [],

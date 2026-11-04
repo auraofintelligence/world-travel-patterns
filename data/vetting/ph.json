@@ -28,10 +28,7 @@
      "detail": "Australian passport holders are on the published visa-free list for tourism or business.",
      "next": "Complete eTravel in the 72-hour window and carry onward travel.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "PHL-PATH-TOURISM-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "meetings": {
      "status": "low",
@@ -39,10 +36,7 @@
      "detail": "Official guidance names meetings, contract negotiations and international conference attendance.",
      "next": "Keep the visit in the meeting and negotiation lane unless a petitioner activates work permission.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "PHL-PATH-MEETINGS-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "conference": {
      "status": "low",
@@ -50,10 +44,7 @@
      "detail": "International conference attendance fits temporary business.",
      "next": "If the organiser adds a talk, workshop or fee, ask them to switch to the speaker route.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "PHL-PATH-CONFERENCE-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "unpaid-speaking": {
      "status": "confirm",
@@ -61,10 +52,7 @@
      "detail": "The older official checklist includes lecturers, researchers and trainers with or without compensation, while the current service page states three-to-six-month gainful employment.",
      "next": "Have the Philippine organiser give BI the exact days, duties and compensation and obtain the route in writing.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "PHL-PATH-UNPAID-SPEAKING-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "paid-speaking": {
      "status": "conditional",
@@ -96,10 +84,7 @@
      "detail": "The lecturer and trainer checklist suggests a possible SWP lane, but a short reading or launch still needs BI confirmation because of the current three-month minimum wording.",
      "next": "Separate the appearance, rights meetings, royalties and physical sales, then have the host ask BI for the exact route.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "PHL-PATH-BOOK-LAUNCH-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "ai-teaching": {
      "status": "confirm",
@@ -107,10 +92,7 @@
      "detail": "The older SWP checklist covers lecturers and trainers; current Commercial SWP duration starts at three months. Longer Philippine employment uses the labour-permit and pre-arranged employment system.",
      "next": "Ask the host to classify the dates first, then choose SWP or the AEP and 9(g) sequence.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "PHL-PATH-AI-TEACHING-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "remote-work": {
      "status": "confirm",
@@ -118,10 +100,7 @@
      "detail": "Executive Order 86 authorises a one-year renewable DNV and ties nationality eligibility to reciprocal treatment, but current operational application availability for Australians was not established.",
      "next": "Ask the Philippine mission to confirm both a live application channel and Australian eligibility.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "PHL-PATH-REMOTE-WORK-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "entrepreneur": {
      "status": "specialist",
@@ -129,10 +108,7 @@
      "detail": "Investor residence starts at US$75,000 under SIRV; SVEG requires at least ten full-time Filipino workers. A separate startup-visa route was not confirmed as operational.",
      "next": "Choose capital investment or employment generation before modelling the entity and operating role.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "PHL-PATH-ENTREPRENEUR-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "trade": {
      "status": "conditional",
@@ -140,10 +116,7 @@
      "detail": "Trade meetings and contract negotiation are easy; a local branch, selling operation or management role adds commercial and work layers.",
      "next": "Keep the first trip to partners, markets and setup choices, then map the entity and operating role.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "PHL-PATH-TRADE-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "artist": {
      "status": "specialist",
@@ -159,10 +132,7 @@
      "detail": "The candidate SWP categories are useful, but current duration wording prevents assuming that a day or week professional tour fits.",
      "next": "Choose one organiser to submit all venues, dates, payments and duties to BI.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "PHL-PATH-MIXED-MISSION-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "filming": {
      "status": "specialist",
@@ -839,47 +809,6 @@
      "checked": "2026-11-01"
     }
    ],
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/data.js",
-    "country_id": "philippines",
-    "claims": {
-     "steps": {
-      "id": "PHL-ROUTE-BUILDER",
-      "checked": "2026-08-20"
-     },
-     "open_questions": {
-      "id": "PHL-ROUTE-EDGES",
-      "checked": "2026-08-20"
-     },
-     "fastest_entry": {
-      "id": "PHL-LAUNCH-FASTEST-ENTRY",
-      "checked": "2026-08-20"
-     },
-     "before_departure": {
-      "id": "PHL-LAUNCH-BEFORE-DEPARTURE",
-      "checked": "2026-08-20"
-     },
-     "useful_stay": {
-      "id": "PHL-LAUNCH-USEFUL-STAY",
-      "checked": "2026-08-20"
-     },
-     "host_unlock": {
-      "id": "PHL-LAUNCH-HOST-UNLOCK",
-      "checked": "2026-08-20"
-     },
-     "documents": {
-      "id": "PHL-LAUNCH-QUICK-PACKET",
-      "checked": "2026-08-20"
-     }
-    }
-   },
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-PHILIPPINES-COST"
-   },
    "fastest_entry": "Visa-free for 30 days or less.",
    "before_departure": "Register on eTravel and complete the electronic health declaration to get a QR code for arrival and departure.",
    "steps": [
@@ -905,24 +834,10 @@
     }
    ],
    "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
     "host_unlock": "A Philippine organiser can ask BI to classify the engagement. Commercial SWP is currently published for three-to-six-month work, while an older checklist names lecturers, trainers and consultants. Day or week appearances need written BI confirmation; artists have a separate under-six-month SWP.",
-    "fastest_entry": "30-day visa-free entry for tourism or temporary business",
     "before_departure": "Complete the official eTravel registration within 72 hours before arrival and carry onward travel.",
     "useful_stay": "30 days initially, with published visitor-extension pathways for a longer stay.",
-    "documents": [
-     "Passport valid at least six months beyond the stay",
-     "Return or onward ticket",
-     "eTravel registration",
-     "Invitation and Philippine host details"
-    ],
-    "steps": [
-     "Take the 30-day visa-free front door when the trip begins as tourism, meetings or conference attendance.",
-     "Choose one Philippine lead host for an active tour.",
-     "List every talk, workshop, reading, performance, venue and payment source.",
-     "For any sub-three-month professional engagement, have the host obtain BI's route classification in writing.",
-     "Use local publishers, distributors and event operators for retail and local commercial handling."
-    ]
+    "from": "Luke's earlier precursor notes; not verified against an official source and not an authority. Kept because no official page covers this point yet."
    }
   },
   "year-ahead": {

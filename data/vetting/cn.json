@@ -28,10 +28,7 @@
      "detail": "The policy covers tourism for Australian ordinary-passport holders and currently permits multiple entries.",
      "next": "Recheck the policy end date and passport conditions shortly before departure.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CHN-PATH-TOURISM-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "meetings": {
      "status": "low",
@@ -39,10 +36,7 @@
      "detail": "Meetings, negotiations and commercial visits fit the published business purpose.",
      "next": "Carry a host invitation and keep service delivery outside the meeting-only brief.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CHN-PATH-MEETINGS-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "conference": {
      "status": "low",
@@ -50,10 +44,7 @@
      "detail": "Conferences and exhibitions are expressly named in the current visa-free policy.",
      "next": "Keep registration, invitation, accommodation and onward travel together.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CHN-PATH-CONFERENCE-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "unpaid-speaking": {
      "status": "conditional",
@@ -68,10 +59,7 @@
      "detail": "A paid lecture, advisory session or professional service generally fits short-term work rather than business attendance.",
      "next": "Have the contracting host start the work-approval process before the Z application.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CHN-PATH-PAID-SPEAKING-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "book-launch": {
      "status": "confirm",
@@ -79,10 +67,7 @@
      "detail": "Publisher and rights meetings can fit business entry; a non-commercial appearance may fit exchange; paid delivery or personal sales change the route.",
      "next": "Use a Chinese publisher or bookseller for local sales and classify the appearance separately.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CHN-PATH-BOOK-LAUNCH-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "ai-teaching": {
      "status": "specialist",
@@ -90,10 +75,7 @@
      "detail": "Paid technical, management or advisory teaching is treated as work; longer roles use the normal work-permit and residence process.",
      "next": "Ask the university, company or event host to sponsor the exact teaching dates and duties.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CHN-PATH-AI-TEACHING-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "remote-work": {
      "status": "not-fit",
@@ -101,10 +83,7 @@
      "detail": "The current visa-free policy excludes people coming to work, and the official visa list has no remote-worker class.",
      "next": "Map a city-specific residence or work route if China becomes a longer base.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CHN-PATH-REMOTE-WORK-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "entrepreneur": {
      "status": "specialist",
@@ -112,10 +91,7 @@
      "detail": "Foreigners can invest and establish enterprises subject to sector rules; Shanghai also publishes entrepreneurship residence pathways.",
      "next": "Choose the city and entity role, then map investment approval separately from personal work status.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CHN-PATH-ENTREPRENEUR-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "trade": {
      "status": "low",
@@ -123,10 +99,7 @@
      "detail": "Trade fairs, sourcing, negotiations and setup meetings fit the business lane.",
      "next": "Separate negotiations from any local installation, operation or service delivery.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CHN-PATH-TRADE-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "artist": {
      "status": "specialist",
@@ -134,10 +107,7 @@
      "detail": "For a commercial performance of 90 days or less, the official short-work process requires both cultural-authority documents and short-term employment approval before the Z route.",
      "next": "Have the promoter classify the engagement and coordinate all cultural, employment and visa documents.",
      "checked": "2026-08-20",
-     "provenance": {
-      "repo": "Australian-visa-activity-atlas",
-      "claim_id": "CHN-PATH-ARTIST-STATUS"
-     }
+     "basis": "From Luke's earlier notes; not yet verified against an official source."
     },
     "mixed-mission": {
      "status": "conditional",
@@ -950,47 +920,6 @@
      "supports": "57 countries, 65 ports, 24 provinces, 10 days, permitted activities (read via a search-index snapshot)"
     }
    ],
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/data.js",
-    "country_id": "china",
-    "claims": {
-     "steps": {
-      "id": "CHN-ROUTE-BUILDER",
-      "checked": "2026-08-20"
-     },
-     "open_questions": {
-      "id": "CHN-ROUTE-EDGES",
-      "checked": "2026-08-20"
-     },
-     "fastest_entry": {
-      "id": "CHN-LAUNCH-FASTEST-ENTRY",
-      "checked": "2026-08-20"
-     },
-     "before_departure": {
-      "id": "CHN-LAUNCH-BEFORE-DEPARTURE",
-      "checked": "2026-08-20"
-     },
-     "useful_stay": {
-      "id": "CHN-LAUNCH-USEFUL-STAY",
-      "checked": "2026-08-20"
-     },
-     "host_unlock": {
-      "id": "CHN-LAUNCH-HOST-UNLOCK",
-      "checked": "2026-08-20"
-     },
-     "documents": {
-      "id": "CHN-LAUNCH-QUICK-PACKET",
-      "checked": "2026-08-20"
-     }
-    }
-   },
-   "cost_aud_baseline": {
-    "value": "~ $110 + fee",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-CHINA-COST"
-   },
    "fastest_entry": "Visa waiver for ordinary Australian passports, up to 30 days for business, tourism, visiting family and friends or transit, until 31 December 2026.",
    "steps": [
     "Confirm the purpose fits the waiver (business, tourism, family visits, transit) and the stay is 30 days or less.",
@@ -1010,24 +939,10 @@
     }
    ],
    "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
     "host_unlock": "A Chinese organiser can start short-term employment approval for paid speaking, teaching or performance; that route ordinarily leads to a Z visa. M or F applies only when the host and authorities classify the activity as commerce or non-commercial exchange rather than work.",
-    "fastest_entry": "30-day visa-free entry for tourism, business, exchange, conferences and exhibitions",
     "before_departure": "Confirm the visa-free policy is still in force for the travel date and carry the invitation or activity purpose.",
     "useful_stay": "Up to 30 calendar days under the current policy, through 31 December 2026.",
-    "documents": [
-     "Ordinary Australian passport",
-     "Onward travel and accommodation",
-     "Invitation or event registration",
-     "One-page activity and payment note"
-    ],
-    "steps": [
-     "Choose the city, event and principal host.",
-     "Split meetings, exchange, paid delivery, sales and performance into separate lines.",
-     "Use visa-free entry where the published purpose fits; otherwise have the host initiate M, F or work documents.",
-     "Carry the invitation, activity schedule, accommodation and onward travel.",
-     "Recheck the visa-free end date before departure."
-    ]
+    "from": "Luke's earlier precursor notes; not verified against an official source and not an authority. Kept because no official page covers this point yet."
    },
    "recheck_note": "The waiver runs until 31 December 2026; recheck in December for an extension.",
    "notes": "Australians: 30-day visa-free entry (business, tourism, family visits, exchanges, transit) runs only to 24:00 Beijing time on 31 December 2026 (Chinese Embassy notice of 5 November 2025). The MFA consular notices list, read on 4 November 2026, showed no extension into 2027; plan on needing a visa for 2027 travel until one is announced. Separately, the 240-hour visa-free transit (57 countries; the NIA page lists two Oceania countries, but the names were cut off in the snapshot read, so confirm Australia is on it) needs an onward ticket to a third country or region, entry at one of 65 designated ports, and staying within the permitted areas of 24 provinces; work, study and reporting still need a visa."

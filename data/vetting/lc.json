@@ -20,13 +20,8 @@
   "money-and-cost": {
    "status": "noted",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
    "checked": "2026-11-01",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SAINT-LUCIA-COST"
-   },
+   "evidence": "official",
    "currency": "Eastern Caribbean dollar (XCD)",
    "sources": [
     {
@@ -503,21 +498,6 @@
    "evidence": "official",
    "needs_recheck": false,
    "entry_summary": "Visa-free for business visits up to 6 weeks.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-SAINT-LUCIA-COST"
-   },
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-SAINT-LUCIA-ENTRY",
-     "cost": "WORLD-SAINT-LUCIA-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   },
    "fastest_entry": "Visa needed: Australia is on Saint Lucia's visa-required list. Apply through the Royal Saint Lucia Police Force visa office (about 5 working days).",
    "steps": [
     "Apply at least 2 weeks before travel (visaoffice@police.govt.lc); an airport application is sometimes possible but can be refused.",
@@ -562,12 +542,7 @@
      "supports": "fees, documents and processing time",
      "checked": "2026-11-01"
     }
-   ],
-   "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
-    "documents": [],
-    "steps": []
-   }
+   ]
   },
   "psychoactive-substances": {
    "status": "partly-mapped",

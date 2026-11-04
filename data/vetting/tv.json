@@ -20,13 +20,8 @@
   "money-and-cost": {
    "status": "noted",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
    "checked": "2026-11-01",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-TUVALU-COST"
-   },
+   "evidence": "official",
    "currency": "Australian dollar (AUD)",
    "sources": [
     {
@@ -588,11 +583,6 @@
    "evidence": "official",
    "needs_recheck": false,
    "entry_summary": "Visitor permit on arrival, up to 30 days; AUD 100 unless your nationality is on the fee-exemption list.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-TUVALU-COST"
-   },
    "steps": [
     {
      "step": "Arrive with a passport valid 6 months, an onward or return ticket, accommodation and enough money; the permit is issued on arrival.",
@@ -606,16 +596,6 @@
     "Proof of accommodation",
     "Proof of funds"
    ],
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-TUVALU-ENTRY",
-     "cost": "WORLD-TUVALU-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   },
    "recheck_note": "Whether Australia is on the fee-exemption schedule wasn't confirmed.",
    "fastest_entry": "Visitor permit on arrival.",
    "fees": [

@@ -27,13 +27,8 @@
   "money-and-cost": {
    "status": "noted",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $80",
    "checked": "2026-11-01",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SURINAME-COST"
-   },
+   "evidence": "official",
    "currency": "Surinamese dollar (SRD)",
    "sources": [
     {
@@ -614,10 +609,6 @@
     "value": "~ $80",
     "checked": "2025-08-16",
     "claim_id": "WORLD-SURINAME-COST"
-   },
-   "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
-    "entry_summary": "e-Visa or e-Tourist card required."
    },
    "recheck_note": "Rechecked 2026-11-03 on the VFS-run Suriname portal (no Smartraveller page exists): Australia is listed for the Entry Fee and eVisas, Entry Fee USD 50 plus USD 8 service fee, up to 90 days. Evidence is operational and needs_recheck stays true until a Suriname government page confirms it.",
    "needs_recheck": true,

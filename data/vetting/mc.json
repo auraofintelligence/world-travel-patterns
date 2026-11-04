@@ -21,13 +21,8 @@
   "money-and-cost": {
    "status": "noted",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
    "checked": "2026-11-01",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-MONACO-COST"
-   },
+   "evidence": "official",
    "currency": "euro (EUR)",
    "sources": [
     {
@@ -506,21 +501,6 @@
    "evidence": "official",
    "needs_recheck": false,
    "entry_summary": "Visa-free (entry via France - Schengen rules apply).",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-MONACO-COST"
-   },
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-MONACO-ENTRY",
-     "cost": "WORLD-MONACO-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   },
    "fastest_entry": "No visa: Monaco is reached through France (no border controls), so the Schengen 90 days in 180 rule applies in practice.",
    "steps": [
     "Monaco isn't a Schengen member but has an open border with France; time there counts in practice.",
@@ -554,12 +534,7 @@
      "supports": "Schengen membership and 90/180 rule",
      "checked": "2026-11-01"
     }
-   ],
-   "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
-    "documents": [],
-    "steps": []
-   }
+   ]
   },
   "local-law": {
    "status": "partly-mapped",

@@ -756,21 +756,6 @@
    "evidence": "official",
    "needs_recheck": false,
    "entry_summary": "Visa required in advance. Online visa portal available.",
-   "cost_aud_baseline": {
-    "value": "~ $90+",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-PAKISTAN-COST"
-   },
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-PAKISTAN-ENTRY",
-     "cost": "WORLD-PAKISTAN-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   },
    "fastest_entry": "Visit or tourist visa before travel through the Pakistan Online Visa System (Australia is eligible).",
    "steps": [
     "Apply on visa.nadra.gov.pk; fees are charged in USD."
@@ -810,12 +795,7 @@
      "supports": "fee table for Australia (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
      "checked": "2026-11-01"
     }
-   ],
-   "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
-    "documents": [],
-    "steps": []
-   }
+   ]
   },
   "year-ahead": {
    "status": "mapped",

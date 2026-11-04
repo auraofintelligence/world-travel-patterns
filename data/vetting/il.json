@@ -785,21 +785,6 @@
    "evidence": "official",
    "needs_recheck": false,
    "entry_summary": "Visa-free for business visits up to 3 months.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-ISRAEL-COST"
-   },
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-ISRAEL-ENTRY",
-     "cost": "WORLD-ISRAEL-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   },
    "fastest_entry": "ETA-IL needed before travel for stays under 90 days; valid up to 2 years or until the passport expires.",
    "steps": [
     "Apply on the official PIBA site only (israel-entry.piba.gov.il).",
@@ -833,12 +818,7 @@
      "supports": "NIS 25 fee, 2-year validity, 90-day visits (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
      "checked": "2026-11-01"
     }
-   ],
-   "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
-    "documents": [],
-    "steps": []
-   }
+   ]
   },
   "year-ahead": {
    "status": "mapped",

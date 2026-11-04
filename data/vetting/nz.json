@@ -664,47 +664,6 @@
      "checked": "2026-11-01"
     }
    ],
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/data.js",
-    "country_id": "new-zealand",
-    "claims": {
-     "steps": {
-      "id": "NZL-ROUTE-BUILDER",
-      "checked": "2026-08-21"
-     },
-     "open_questions": {
-      "id": "NZL-ROUTE-EDGES",
-      "checked": "2026-08-21"
-     },
-     "fastest_entry": {
-      "id": "NZL-LAUNCH-FASTEST-ENTRY",
-      "checked": "2026-08-21"
-     },
-     "before_departure": {
-      "id": "NZL-LAUNCH-BEFORE-DEPARTURE",
-      "checked": "2026-08-21"
-     },
-     "useful_stay": {
-      "id": "NZL-LAUNCH-USEFUL-STAY",
-      "checked": "2026-08-21"
-     },
-     "host_unlock": {
-      "id": "NZL-LAUNCH-HOST-UNLOCK",
-      "checked": "2026-08-21"
-     },
-     "documents": {
-      "id": "NZL-LAUNCH-QUICK-PACKET",
-      "checked": "2026-08-21"
-     }
-    }
-   },
-   "cost_aud_baseline": {
-    "value": "~ $25 (NZeTA)",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-NEW-ZEALAND-COST"
-   },
    "fastest_entry": "Australian citizens need no visa or NZeTA, unless they have a criminal record or have been deported from any country.",
    "before_departure": "New Zealand Traveller Declaration (NZTD), free, online or in the app, before passport control.",
    "steps": [
@@ -735,26 +694,10 @@
     }
    ],
    "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
     "host_unlock": "No immigration sponsor is required. A host adds value by documenting the invitation, role, dates, venue, fee or expenses, tax classification and any professional or event permissions.",
-    "fastest_entry": "Australian Resident Visa granted at the New Zealand border, subject to identity and character requirements",
     "before_departure": "Travel on the Australian passport. Complete the free New Zealand Traveller Declaration from 24 hours before the journey begins. If character eligibility is uncertain, resolve it with Immigration New Zealand before flying.",
     "useful_stay": "The resident visa permits an indefinite stay. It expires on departure unless travel conditions have been varied; this usually does not prevent a qualifying Australian citizen receiving a fresh resident visa on a later arrival.",
-    "documents": [
-     "Valid Australian passport",
-     "Submitted New Zealand Traveller Declaration",
-     "Invitation and schedule",
-     "Fee, expense and tax terms",
-     "Speaker, teaching, book or performance materials"
-    ],
-    "steps": [
-     "Travel using the Australian passport and complete the New Zealand Traveller Declaration from 24 hours before the journey.",
-     "Receive the Australian Resident Visa at the border, subject to character and entry checks.",
-     "Use one written invitation that states activities, locations, fees, expenses and host contacts.",
-     "Before paid public delivery, have the payer classify the engagement for non-resident entertainer or contractor withholding.",
-     "Add professional registration, business, customs and venue checks only where the actual activity triggers them.",
-     "If preserving continuous residence toward permanent residence, investigate a Variation of Travel Conditions before departing New Zealand."
-    ]
+    "from": "Luke's earlier precursor notes; not verified against an official source and not an authority. Kept because no official page covers this point yet."
    }
   },
   "culture-and-protocol": {

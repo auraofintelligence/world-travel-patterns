@@ -143,10 +143,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ua | Do not travel | weekly | high advisory, snapshot evidence |  |
 | ve | Do not travel | weekly | high advisory, snapshot evidence |  |
 | ye | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
-| ad |  | fortnightly | legacy baseline, snapshot evidence |  |
-| ag |  | fortnightly | legacy baseline, snapshot evidence |  |
 | at | Exercise normal safety precautions | fortnightly | snapshot evidence, watch item | eu-etias |
-| bb |  | fortnightly | legacy baseline, snapshot evidence |  |
 | be | Exercise normal safety precautions | fortnightly | pending event, snapshot evidence, watch item | eu-etias; pending date: Tomorrowland Belgium 2027 |
 | bg | Exercise normal safety precautions | fortnightly | snapshot evidence, watch item | eu-etias |
 | bh | Reconsider your need to travel | fortnightly | high advisory, snapshot evidence |  |
@@ -155,21 +152,16 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ch | Exercise normal safety precautions | fortnightly | election, snapshot evidence, watch item | eu-etias; election 2026-11-29; election 2027-02-28 |
 | cn | Exercise a high degree of caution | fortnightly | confirm in writing, dated rule, snapshot evidence, watch item | cn-visa-waiver-2026; entry date 2026-12-31; 1 confirm-in-writing |
 | cu | Reconsider your need to travel | fortnightly | confirm in writing, high advisory, snapshot evidence | 5 confirm-in-writing |
-| cv |  | fortnightly | confirm in writing, election, legacy baseline, snapshot evidence | election 2026-11-15; 1 confirm-in-writing |
-| cy | Exercise a high degree of caution | fortnightly | election, legacy baseline, snapshot evidence, watch item | eu-etias; election 2026-12-06 |
+| cy | Exercise a high degree of caution | fortnightly | election, snapshot evidence, watch item | eu-etias; election 2026-12-06 |
 | cz | Exercise normal safety precautions | fortnightly | snapshot evidence, watch item | eu-etias |
 | de | Exercise normal safety precautions | fortnightly | snapshot evidence, watch item | eu-etias |
 | dk | Exercise normal safety precautions | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 3 confirm-in-writing |
-| dm |  | fortnightly | confirm in writing, legacy baseline, snapshot evidence | 7 confirm-in-writing |
 | ee | Exercise normal safety precautions | fortnightly | election, snapshot evidence, watch item | eu-etias; election 2027-03-07 |
-| eh |  | fortnightly | legacy baseline, snapshot evidence |  |
-| er | Reconsider your need to travel | fortnightly | confirm in writing, high advisory, legacy baseline, snapshot evidence | 1 confirm-in-writing |
+| er | Reconsider your need to travel | fortnightly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
 | es | Exercise normal safety precautions | fortnightly | election, snapshot evidence, watch item | eu-etias; election 2026-11-29 |
 | et | Reconsider your need to travel | fortnightly | high advisory, snapshot evidence |  |
-| fi | Exercise normal safety precautions | fortnightly | election, legacy baseline, pending event, snapshot evidence, watch item | eu-etias; pending date: Slush 2027 (Helsinki); election 2027-04-18 |
+| fi | Exercise normal safety precautions | fortnightly | election, pending event, snapshot evidence, watch item | eu-etias; pending date: Slush 2027 (Helsinki); election 2027-04-18 |
 | fr | Exercise a high degree of caution | fortnightly | election, pending event, snapshot evidence, watch item | eu-etias; pending date: Festival d'Avignon 2027; election 2027-04-18 |
-| gd |  | fortnightly | election, legacy baseline, snapshot evidence | election 2026-11-05 |
-| gh | Exercise a high degree of caution | fortnightly | legacy baseline, snapshot evidence |  |
 | gq |  | fortnightly | legacy baseline, snapshot evidence |  |
 | gr | Exercise normal safety precautions | fortnightly | snapshot evidence, watch item | eu-etias |
 | gw |  | fortnightly | election, legacy baseline, snapshot evidence | election 2026-12-06 |
@@ -179,23 +171,17 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | is | Exercise normal safety precautions | fortnightly | pending event, snapshot evidence, watch item | eu-etias; pending date: Iceland Airwaves 2027 |
 | it | Exercise normal safety precautions | fortnightly | pending event, snapshot evidence, watch item | eu-etias; pending date: Biennale Arte (next edition); pending date: 84th Venice International Film Festival 2027 |
 | jo | Reconsider your need to travel | fortnightly | high advisory, pending event, snapshot evidence | pending date: Jerash Festival 2027 |
-| ki |  | fortnightly | confirm in writing, legacy baseline, snapshot evidence | 3 confirm-in-writing |
-| km |  | fortnightly | confirm in writing, legacy baseline, snapshot evidence | 1 confirm-in-writing |
-| kn |  | fortnightly | confirm in writing, legacy baseline, snapshot evidence | 5 confirm-in-writing |
 | kr | Exercise normal safety precautions | fortnightly | dated rule, snapshot evidence, watch item | kr-keta-2026; entry date 2026-12-31 |
 | kw | Reconsider your need to travel | fortnightly | high advisory, snapshot evidence |  |
-| lc |  | fortnightly | confirm in writing, legacy baseline, snapshot evidence | 4 confirm-in-writing |
-| li |  | fortnightly | confirm in writing, legacy baseline, snapshot evidence, watch item | eu-etias; 3 confirm-in-writing |
+| li |  | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 3 confirm-in-writing |
 | lt | Exercise normal safety precautions | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 4 confirm-in-writing |
-| lu |  | fortnightly | confirm in writing, legacy baseline, snapshot evidence, watch item | eu-etias; 1 confirm-in-writing |
+| lu |  | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 1 confirm-in-writing |
 | lv | Exercise normal safety precautions | fortnightly | snapshot evidence, watch item | eu-etias |
-| mc |  | fortnightly | legacy baseline, snapshot evidence |  |
 | mr | Reconsider your need to travel | fortnightly | high advisory, snapshot evidence |  |
 | mt | Exercise normal safety precautions | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 1 confirm-in-writing |
 | ng | Reconsider your need to travel | fortnightly | election, high advisory, snapshot evidence | election 2027-01-16 |
 | nl | Exercise normal safety precautions | fortnightly | snapshot evidence, watch item | eu-etias |
 | no | Exercise normal safety precautions | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 1 confirm-in-writing |
-| nr |  | fortnightly | confirm in writing, legacy baseline, snapshot evidence | 1 confirm-in-writing |
 | om | Reconsider your need to travel | fortnightly | high advisory, snapshot evidence |  |
 | pk | Reconsider your need to travel | fortnightly | confirm in writing, high advisory, snapshot evidence | 4 confirm-in-writing |
 | pk/azad-kashmir | Reconsider your need to travel | fortnightly | snapshot evidence |  |
@@ -203,17 +189,10 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | pl | Exercise normal safety precautions | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 1 confirm-in-writing |
 | pt | Exercise normal safety precautions | fortnightly | pending event, snapshot evidence, watch item | eu-etias; pending date: Web Summit 2027 (Lisbon) |
 | ro | Exercise normal safety precautions | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 2 confirm-in-writing |
-| rw | Exercise normal safety precautions | fortnightly | confirm in writing, legacy baseline, snapshot evidence | 2 confirm-in-writing |
 | se | Exercise normal safety precautions | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 3 confirm-in-writing |
 | si | Exercise normal safety precautions | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 1 confirm-in-writing |
 | sk | Exercise normal safety precautions | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 1 confirm-in-writing |
-| sm |  | fortnightly | legacy baseline, snapshot evidence |  |
-| sr |  | fortnightly | confirm in writing, legacy baseline, snapshot evidence | 3 confirm-in-writing |
-| st |  | fortnightly | confirm in writing, legacy baseline, snapshot evidence | 1 confirm-in-writing |
-| tg |  | fortnightly | legacy baseline, snapshot evidence |  |
-| tv |  | fortnightly | legacy baseline, snapshot evidence |  |
-| va |  | fortnightly | legacy baseline, snapshot evidence |  |
-| vc |  | fortnightly | confirm in writing, legacy baseline, snapshot evidence | 8 confirm-in-writing |
+| ad |  | monthly | snapshot evidence |  |
 | ae | Exercise a high degree of caution | monthly | confirm in writing, pending event, snapshot evidence | pending date: GITEX Global 2027; 1 confirm-in-writing |
 | ae/emirate-of-abu-dhabi | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ae/emirate-of-ajman | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -221,6 +200,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ae/emirate-of-sharjah | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ae/emirate-of-umm-al-quwain | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ae/ras-al-khaimah | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| ag |  | monthly | snapshot evidence |  |
 | ai |  | monthly | snapshot evidence |  |
 | al | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | am | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
@@ -238,6 +218,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ax |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | az | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | ba | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| bb |  | monthly | snapshot evidence |  |
 | bd | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | bj | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | bl |  | monthly | snapshot evidence |  |
@@ -281,14 +262,17 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | co | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cq |  | monthly | snapshot evidence |  |
 | cr | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| cv |  | monthly | confirm in writing, election, snapshot evidence | election 2026-11-15; 1 confirm-in-writing |
 | cw |  | monthly | snapshot evidence |  |
 | cx |  | monthly | snapshot evidence |  |
 | de/bavaria | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | dj | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| dm |  | monthly | confirm in writing, snapshot evidence | 7 confirm-in-writing |
 | do | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | dz | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | ec | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| eh |  | monthly | snapshot evidence |  |
 | es/catalonia | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | local-law date 2027-03-31 |
 | fj | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2026-12-09; election 2026-12-24 |
 | fk |  | monthly | snapshot evidence |  |
@@ -299,9 +283,11 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | gb/scotland | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | gb/wales | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | gb__england |  | monthly | pending event | pending date: WOMAD 2027 (Neston Park) |
+| gd |  | monthly | election, snapshot evidence | election 2026-11-05 |
 | ge | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | gf |  | monthly | snapshot evidence |  |
 | gg |  | monthly | snapshot evidence |  |
+| gh | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | gi |  | monthly | snapshot evidence |  |
 | gl |  | monthly | snapshot evidence |  |
 | gm | Exercise a high degree of caution | monthly | confirm in writing, election, snapshot evidence | election 2026-12-05; election 2027-04-10; 1 confirm-in-writing |
@@ -341,14 +327,19 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ke | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | kg | Exercise a high degree of caution | monthly | confirm in writing, election, snapshot evidence | election 2027-01-27; 2 confirm-in-writing |
 | kh | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| ki |  | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
+| km |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
+| kn |  | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | kr/seoul | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | ky |  | monthly | snapshot evidence |  |
 | kz | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | la | Exercise a high degree of caution | monthly | confirm in writing, dated rule, snapshot evidence | ancient-sites-and-mysteries date 2026-11-15; 5 confirm-in-writing |
+| lc |  | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
 | lk | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | lr | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | ls | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ma | Exercise a high degree of caution | monthly | confirm in writing, pending event, snapshot evidence | pending date: Mawazine 2027; pending date: Fes Festival of World Sacred Music 2027; 4 confirm-in-writing |
+| mc |  | monthly | snapshot evidence |  |
 | md | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | me | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | mf |  | monthly | snapshot evidence |  |
@@ -372,6 +363,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | nf |  | monthly | snapshot evidence |  |
 | ni | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | np | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| nr |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | nu | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 9 confirm-in-writing |
 | nz | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2026-11-07 |
 | pa | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -389,18 +381,23 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | re |  | monthly | snapshot evidence |  |
 | rs | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | rs/city-of-belgrade | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| rw | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | sb | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | sc | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | sg | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | sh |  | monthly | snapshot evidence |  |
 | sj |  | monthly | snapshot evidence |  |
 | sl | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
+| sm |  | monthly | snapshot evidence |  |
 | sn | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
+| sr |  | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
+| st |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | sv | Exercise a high degree of caution | monthly | election, snapshot evidence | election 2027-02-28 |
 | sx |  | monthly | snapshot evidence |  |
 | sz | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
 | tc |  | monthly | snapshot evidence |  |
 | tf |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
+| tg |  | monthly | snapshot evidence |  |
 | th | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tj | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | tk |  | monthly | snapshot evidence |  |
@@ -410,6 +407,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | to | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | tr | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | tt | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
+| tv |  | monthly | snapshot evidence |  |
 | tw | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | tz | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ug | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -457,6 +455,8 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | us__california |  | monthly | pending event | pending date: Coachella 2027 |
 | uy | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | uz | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
+| va |  | monthly | snapshot evidence |  |
+| vc |  | monthly | confirm in writing, snapshot evidence | 8 confirm-in-writing |
 | vg |  | monthly | snapshot evidence |  |
 | vi |  | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | vn | Exercise normal safety precautions | monthly | snapshot evidence |  |

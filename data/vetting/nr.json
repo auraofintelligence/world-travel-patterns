@@ -30,13 +30,8 @@
   "money-and-cost": {
    "status": "noted",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $100",
    "checked": "2026-11-01",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-NAURU-COST"
-   },
+   "evidence": "official",
    "currency": "Australian dollar (AUD)",
    "sources": [
     {
@@ -479,21 +474,6 @@
    "evidence": "official",
    "needs_recheck": false,
    "entry_summary": "Visa required in advance.",
-   "cost_aud_baseline": {
-    "value": "~ $100",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-NAURU-COST"
-   },
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-NAURU-ENTRY",
-     "cost": "WORLD-NAURU-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   },
    "fastest_entry": "Visitor visa needed before travel; applicants from Australia need a sponsorship letter from a Nauruan citizen living in Nauru.",
    "steps": [
     "Download the visitor visa application form from the Immigration Division and lodge it with the fee.",
@@ -542,12 +522,7 @@
      "supports": "sponsorship requirement",
      "checked": "2026-11-01"
     }
-   ],
-   "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
-    "documents": [],
-    "steps": []
-   }
+   ]
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

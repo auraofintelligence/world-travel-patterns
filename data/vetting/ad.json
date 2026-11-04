@@ -20,13 +20,8 @@
   "money-and-cost": {
    "status": "noted",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
    "checked": "2026-11-01",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-ANDORRA-COST"
-   },
+   "evidence": "official",
    "currency": "euro (EUR)",
    "sources": [
     {
@@ -603,21 +598,6 @@
    "evidence": "official",
    "needs_recheck": false,
    "entry_summary": "Visa-free (entry via France or Spain - Schengen rules apply).",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-ANDORRA-COST"
-   },
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-ANDORRA-ENTRY",
-     "cost": "WORLD-ANDORRA-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   },
    "fastest_entry": "No visa for tourists; Andorra is outside Schengen but only reached through France or Spain.",
    "steps": [
     "Meet Schengen entry rules for France or Spain on the way in.",
@@ -650,12 +630,7 @@
      "supports": "Schengen membership and 90/180 rule",
      "checked": "2026-11-01"
     }
-   ],
-   "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
-    "documents": [],
-    "steps": []
-   }
+   ]
   },
   "year-ahead": {
    "status": "mapped",

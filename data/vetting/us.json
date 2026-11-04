@@ -751,47 +751,6 @@
      "checked": "2026-11-01"
     }
    ],
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/data.js",
-    "country_id": "united-states",
-    "claims": {
-     "steps": {
-      "id": "USA-ROUTE-BUILDER",
-      "checked": "2026-08-21"
-     },
-     "open_questions": {
-      "id": "USA-ROUTE-EDGES",
-      "checked": "2026-08-21"
-     },
-     "fastest_entry": {
-      "id": "USA-LAUNCH-FASTEST-ENTRY",
-      "checked": "2026-08-21"
-     },
-     "before_departure": {
-      "id": "USA-LAUNCH-BEFORE-DEPARTURE",
-      "checked": "2026-08-21"
-     },
-     "useful_stay": {
-      "id": "USA-LAUNCH-USEFUL-STAY",
-      "checked": "2026-08-21"
-     },
-     "host_unlock": {
-      "id": "USA-LAUNCH-HOST-UNLOCK",
-      "checked": "2026-08-21"
-     },
-     "documents": {
-      "id": "USA-LAUNCH-QUICK-PACKET",
-      "checked": "2026-08-21"
-     }
-    }
-   },
-   "cost_aud_baseline": {
-    "value": "~ $30 (ESTA)",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-UNITED-STATES-COST"
-   },
    "fastest_entry": "ESTA under the Visa Waiver Program for tourism or business visits of under 90 days; otherwise a visa before travel.",
    "before_departure": "Apply for ESTA on the official CBP site or app; a decision can take up to 72 hours.",
    "useful_stay": "Under 90 days a visit; ESTA usually valid 2 years or until the passport expires.",
@@ -818,24 +777,10 @@
     }
    ],
    "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread on 2026-11-01",
     "host_unlock": "A qualifying academic host can document the narrow honorarium rule. Other paid speaking, teaching, performance or employment usually needs a US employer or agent to choose and, where required, petition for the correct route.",
-    "fastest_entry": "Approved ESTA under the Visa Waiver Program for tourism or permitted B-1 business activity, with a maximum stay of 90 days",
     "before_departure": "Check ESTA eligibility before making reservations and apply at least 72 hours before travel. If prior travel has ended Visa Waiver Program eligibility, allow time for a B or other visa interview.",
     "useful_stay": "Up to 90 days under the Visa Waiver Program, with no routine extension or change of status; a short trip to Canada or Mexico generally does not reset the original 90 days.",
-    "documents": [
-     "Australian e-passport and approved ESTA or correct visa",
-     "Invitation and complete event itinerary",
-     "Written fee, honorarium and expense terms",
-     "Host route letter and any petition approval or receipt"
-    ],
-    "steps": [
-     "Check ESTA and the travel-history exclusions before making reservations.",
-     "Build one dated itinerary separating attendance, speech, teaching, performance, payment, expenses, sales and remote work.",
-     "Have each US host identify its role, institutional status and legal activity lane in writing.",
-     "Start O, P, E or other petition and consular work months ahead and recheck current processing and interview times.",
-     "Carry the invitation, itinerary, payment terms, return plans and any petition or visa evidence at entry."
-    ]
+    "from": "Luke's earlier precursor notes; not verified against an official source and not an authority. Kept because no official page covers this point yet."
    },
    "recheck_note": "The official ESTA site (esta.cbp.dhs.gov) was reported by a search index to show US$40.62; USAGov and the US Embassy say US$40.27. Recheck the live ESTA payment page."
   },

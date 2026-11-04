@@ -19,13 +19,8 @@
   "money-and-cost": {
    "status": "noted",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $100",
    "checked": "2026-11-01",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-ERITREA-COST"
-   },
+   "evidence": "official",
    "currency": "nakfa (ERN)",
    "sources": [
     {
@@ -710,22 +705,12 @@
    ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-ERITREA-ENTRY",
-     "cost": "WORLD-ERITREA-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+    "note": "precursor notes, kept only for the rough cost estimate; not an authority"
    },
    "cost_aud_baseline": {
     "value": "~ $100",
     "checked": "2025-08-16",
-    "claim_id": "WORLD-ERITREA-COST"
-   },
-   "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
-    "entry_summary": "Visa required in advance."
+    "label": "Precursor estimate from Luke's earlier notes (Australian-visa-activity-atlas); not an official figure and not an authority. No official fee page found yet."
    },
    "recheck_note": "Rechecked 2026-11-03 against Smartraveller (updated 5 Jun 2026): visa needed, exit permit needed and may be refused, departure tax in US dollars, declare electronics. No Eritrean government visa page was found, so fees stay open."
   },

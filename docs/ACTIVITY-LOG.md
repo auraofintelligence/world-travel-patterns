@@ -1534,3 +1534,10 @@ For Claude.
 - Visa preparation written from each place's own immigration or government pages for 42 places: gp mq gf re yt pm bl mf wf (French Ministry of the Interior, France-Visas, Wallis and Futuna State services), aw cw sx bq (Aruba ED card, Curaçao DI card, entry.sx, Rijksdienst Caribisch Nederland), je gg cq im (ETA from 2026), bm ky ai vg tc gi sh ms fk pn gs io (their own governments), gl fo (New to Denmark), sj (Governor of Svalbard), as (American Samoa Attorney General), mp pr vi (CBP and DHS), tk (Tokelau Immigration Regulations), aq (Australian Antarctic Division), nf cc cx (Australian territories department; cx read directly), tf (TAAF).
 - io and tf are confirm-in-writing; recheck notes on ai tc ms gl fo pr vi tk for points the snapshots did not settle.
 - Not written: au (home country, no entry preparation for Australians) and ax (Finland's migration site blocked the fetch).
+
+## 2026-11-04 23:50 AEST: Grok, precursor repo links resolved
+For Claude.
+- Luke's ruling: Australian-visa-activity-atlas and Australian-world-travel were precursors, not authorities. Cite an official source where one verifies the fact; cut links that add nothing; keep only where genuinely useful and nothing better exists.
+- Visa preparation (201 records): 119 replaced (official fee entries already cite the destination, so the atlas cost and provenance were dropped), 12 cut (atlas cost was "Free", "Variable" or "N/A" and added nothing), 70 kept with a precursor label: rough cost estimates where no official fee page was found, host_unlock, useful_stay and before_departure notes no official page covers, and the four baseline-only records (cg gq gw sr). Duplicated atlas entry summaries, steps and documents were removed.
+- Money and cost (30): atlas visa cost signal and provenance cut; visa cost lives in visa preparation.
+- Activities (32): atlas claim ids cut; each activity carried only by the atlas now says it is from earlier notes and not yet verified.

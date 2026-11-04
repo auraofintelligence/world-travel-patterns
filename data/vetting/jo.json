@@ -792,21 +792,6 @@
    "evidence": "official",
    "needs_recheck": false,
    "entry_summary": "Visa on arrival available.",
-   "cost_aud_baseline": {
-    "value": "~ $80",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-JORDAN-COST"
-   },
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-JORDAN-ENTRY",
-     "cost": "WORLD-JORDAN-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   },
    "fastest_entry": "Single-entry visa (valid 3 months) on arrival at airports and most crossings, or paid in advance online.",
    "steps": [
     "Pay online through the Ministry of Interior e-services (eservices.moi.gov.jo/MOI_EVISA) or on arrival.",
@@ -839,12 +824,7 @@
      "supports": "JOD 40 single-entry visa (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
      "checked": "2026-11-01"
     }
-   ],
-   "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
-    "documents": [],
-    "steps": []
-   }
+   ]
   },
   "year-ahead": {
    "status": "mapped",

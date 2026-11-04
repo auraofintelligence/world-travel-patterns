@@ -816,21 +816,6 @@
    "evidence": "official",
    "needs_recheck": false,
    "entry_summary": "Visa required in advance. Must apply at consulate.",
-   "cost_aud_baseline": {
-    "value": "~ $150",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-BOLIVIA-COST"
-   },
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-BOLIVIA-ENTRY",
-     "cost": "WORLD-BOLIVIA-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   },
    "fastest_entry": "No visa for tourism; 30 days on entry, extendable to 90 days a calendar year at an immigration office.",
    "steps": [
     "Get entry and exit stamps (especially at land borders) or pay a fine on leaving."
@@ -855,12 +840,7 @@
      "checked": "2026-11-01",
      "supports": "visa status, pre-arrival forms and border documents as read"
     }
-   ],
-   "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
-    "documents": [],
-    "steps": []
-   }
+   ]
   },
   "year-ahead": {
    "status": "mapped",

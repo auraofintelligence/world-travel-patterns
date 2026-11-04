@@ -19,13 +19,8 @@
   "money-and-cost": {
    "status": "noted",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $100+",
    "checked": "2026-11-01",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-GHANA-COST"
-   },
+   "evidence": "official",
    "currency": "Ghana cedi (GHS)",
    "sources": [
     {
@@ -910,25 +905,6 @@
      "checked": "2026-11-03"
     }
    ],
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-GHANA-ENTRY",
-     "cost": "WORLD-GHANA-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   },
-   "cost_aud_baseline": {
-    "value": "~ $100+",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-GHANA-COST"
-   },
-   "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
-    "entry_summary": "Visa required in advance. Apply at embassy/consulate."
-   },
    "recheck_note": "Rechecked 2026-11-03: Smartraveller (updated 30 Jul 2026) confirms visa needed, yellow fever certificate and the Ghanacard rule; the Ghana Immigration Service eVisa guide gives the process, the flat fees (US$260 standard) and the 60-day stay limit."
   },
   "year-ahead": {

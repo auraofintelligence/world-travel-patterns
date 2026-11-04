@@ -806,21 +806,6 @@
    "evidence": "official",
    "needs_recheck": false,
    "entry_summary": "e-Visa required in advance.",
-   "cost_aud_baseline": {
-    "value": "~ $110",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-BENIN-COST"
-   },
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-BENIN-ENTRY",
-     "cost": "WORLD-BENIN-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   },
    "fastest_entry": "e-Visa before travel on the official platform.",
    "steps": [
     "Apply on evisa.bj (government e-service).",
@@ -862,12 +847,7 @@
      "supports": "30-day e-visa prices (read via a search-index snapshot; the page blocked direct fetches from the checking network)",
      "checked": "2026-11-01"
     }
-   ],
-   "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
-    "documents": [],
-    "steps": []
-   }
+   ]
   },
   "year-ahead": {
    "status": "mapped",

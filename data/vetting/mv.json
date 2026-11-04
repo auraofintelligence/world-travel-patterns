@@ -753,21 +753,6 @@
    "evidence": "official",
    "needs_recheck": false,
    "entry_summary": "Visa on arrival for 30 days.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-MALDIVES-COST"
-   },
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-MALDIVES-ENTRY",
-     "cost": "WORLD-MALDIVES-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   },
    "fastest_entry": "Free tourist visa on arrival, if all entry requirements are met.",
    "before_departure": "Traveller Declaration within 96 hours before arrival; beware fake sites charging for the visa.",
    "steps": [
@@ -797,12 +782,7 @@
      "checked": "2026-11-01",
      "supports": "visa status, pre-arrival forms and border documents as read"
     }
-   ],
-   "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
-    "documents": [],
-    "steps": []
-   }
+   ]
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

@@ -645,47 +645,6 @@
      "checked": "2026-11-01"
     }
    ],
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/data.js",
-    "country_id": "canada",
-    "claims": {
-     "steps": {
-      "id": "CAN-ROUTE-BUILDER",
-      "checked": "2026-08-21"
-     },
-     "open_questions": {
-      "id": "CAN-ROUTE-EDGES",
-      "checked": "2026-08-21"
-     },
-     "fastest_entry": {
-      "id": "CAN-LAUNCH-FASTEST-ENTRY",
-      "checked": "2026-08-21"
-     },
-     "before_departure": {
-      "id": "CAN-LAUNCH-BEFORE-DEPARTURE",
-      "checked": "2026-08-21"
-     },
-     "useful_stay": {
-      "id": "CAN-LAUNCH-USEFUL-STAY",
-      "checked": "2026-08-21"
-     },
-     "host_unlock": {
-      "id": "CAN-LAUNCH-HOST-UNLOCK",
-      "checked": "2026-08-21"
-     },
-     "documents": {
-      "id": "CAN-LAUNCH-QUICK-PACKET",
-      "checked": "2026-08-21"
-     }
-    }
-   },
-   "cost_aud_baseline": {
-    "value": "~ $7 CAD",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-CANADA-COST"
-   },
    "fastest_entry": "Electronic travel authorisation (eTA) before flying to Canada; not needed arriving by car, bus, train or boat.",
    "before_departure": "Apply for the eTA through Immigration, Refugees and Citizenship Canada only.",
    "steps": [
@@ -709,25 +668,10 @@
     }
    ],
    "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread on 2026-11-01",
     "host_unlock": "A Canadian host can document the guest-speaker or five-day commercial-seminar exemption, a short high-skilled work exemption, or support a CPTPP, entrepreneur or other work-permit route.",
-    "fastest_entry": "CAD $7 eTA for air travel; most approvals arrive within minutes, although supporting-document cases can take several days",
     "before_departure": "Get the eTA before booking a flight and have the Canadian host classify the activity and prepare its invitation before travel, even when no work permit is required.",
     "useful_stay": "An eTA can remain valid for up to five years or passport expiry and supports repeat short visits, normally up to six months each; the border officer decides the actual admission period.",
-    "documents": [
-     "Australian passport linked to the eTA",
-     "Invitation with exact activities and dates",
-     "Written fee and expense terms",
-     "Evidence of the work-permit exemption or permit route",
-     "Host contact available for the border officer"
-    ],
-    "steps": [
-     "Obtain the eTA before booking a flight and verify the linked passport number.",
-     "Build one schedule separating meetings, attendance, guest speech, commercial seminar, teaching, performance, remote work, sales and company operation.",
-     "Have the Canadian host write the exact IRPR exemption, short-work or permit rationale into the invitation packet.",
-     "For CPTPP or entrepreneur work, begin the contract, significant-benefit and permit work well before travel and recheck current processing times.",
-     "Carry entry documents, host contacts, payment terms and evidence that foreign business and remote work remain outside the Canadian labour market."
-    ]
+    "from": "Luke's earlier precursor notes; not verified against an official source and not an authority. Kept because no official page covers this point yet."
    }
   },
   "culture-and-protocol": {

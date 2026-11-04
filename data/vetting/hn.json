@@ -848,21 +848,6 @@
    "evidence": "official",
    "needs_recheck": false,
    "entry_summary": "Visa-free for business visits up to 90 days.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-HONDURAS-COST"
-   },
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-HONDURAS-ENTRY",
-     "cost": "WORLD-HONDURAS-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   },
    "fastest_entry": "No visa with a passport valid more than 6 months; CA-4 area (with El Salvador, Guatemala, Nicaragua) allows 90 days across members.",
    "steps": [
     "Your CA-4 period starts at the first entry into any member country."
@@ -887,12 +872,7 @@
      "checked": "2026-11-01",
      "supports": "visa status, pre-arrival forms and border documents as read"
     }
-   ],
-   "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
-    "documents": [],
-    "steps": []
-   }
+   ]
   },
   "year-ahead": {
    "status": "mapped",

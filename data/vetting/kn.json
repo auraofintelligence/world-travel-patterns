@@ -20,13 +20,8 @@
   "money-and-cost": {
    "status": "noted",
    "daily_cost_aud": null,
-   "visa_cost_signal": "Free",
    "checked": "2026-11-01",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-SAINT-KITTS-AND-NEVIS-COST"
-   },
+   "evidence": "official",
    "currency": "Eastern Caribbean dollar (XCD)",
    "sources": [
     {
@@ -493,21 +488,6 @@
    "evidence": "official",
    "needs_recheck": false,
    "entry_summary": "Visa-free for business visits up to 3 months.",
-   "cost_aud_baseline": {
-    "value": "Free",
-    "checked": "2025-08-16",
-    "claim_id": "WORLD-SAINT-KITTS-AND-NEVIS-COST"
-   },
-   "provenance": {
-    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-SAINT-KITTS-AND-NEVIS-ENTRY",
-     "cost": "WORLD-SAINT-KITTS-AND-NEVIS-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
-   },
    "fastest_entry": "No visa: Australia isn't on the visa-required list.",
    "steps": [
     "Complete the Saint Kitts and Nevis online immigration form before arrival (linked from the Ministry's Travel menu)."
@@ -534,11 +514,6 @@
      "checked": "2026-11-01"
     }
    ],
-   "baseline_unverified": {
-    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
-    "documents": [],
-    "steps": []
-   },
    "recheck_note": "Permitted stay isn't stated on the Ministry page; set at the border."
   },
   "culture-and-protocol": {

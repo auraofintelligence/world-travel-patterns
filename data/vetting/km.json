@@ -20,13 +20,8 @@
   "money-and-cost": {
    "status": "noted",
    "daily_cost_aud": null,
-   "visa_cost_signal": "~ $75",
    "checked": "2026-11-01",
-   "evidence": "legacy-baseline",
-   "provenance": {
-    "repo": "Australian-visa-activity-atlas",
-    "claim_id": "WORLD-COMOROS-COST"
-   },
+   "evidence": "official",
    "currency": "Comorian franc (KMF)",
    "sources": [
     {
@@ -597,7 +592,7 @@
    "cost_aud_baseline": {
     "value": "~ $75",
     "checked": "2025-08-16",
-    "claim_id": "WORLD-COMOROS-COST"
+    "label": "Precursor estimate from Luke's earlier notes (Australian-visa-activity-atlas); not an official figure and not an authority. No official fee page found yet."
    },
    "steps": [],
    "documents": [
@@ -606,13 +601,7 @@
    ],
    "provenance": {
     "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
-    "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
-    "file": "assets/world-baseline.js",
-    "claims": {
-     "entry_summary": "WORLD-COMOROS-ENTRY",
-     "cost": "WORLD-COMOROS-COST"
-    },
-    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
+    "note": "precursor notes, kept only for the rough cost estimate; not an authority"
    },
    "recheck_note": "Snapshot only; fee not stated on an official page read.",
    "fastest_entry": "Visa on arrival.",
