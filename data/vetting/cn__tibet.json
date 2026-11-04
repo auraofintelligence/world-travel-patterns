@@ -1,40 +1,6 @@
 {
  "place": "cn/tibet",
  "patterns": {
-  "zone-requirements": {
-   "status": "requirements-found",
-   "checked": "2026-11-04",
-   "evidence": "official",
-   "layers": [
-    {
-     "type": "entry-permit",
-     "authority": "Chinese authorities, through a specialist travel agent in China",
-     "process": "Permit needed for Tibet, organised tour only. Authorities sometimes stop issuing permits without notice or restrict Tibetan Autonomous Prefectures in neighbouring provinces. Smartraveller (28 September 2026) says reconsider travel to Gyirong County after August flooding.",
-     "lead_time_days": 30,
-     "activities": [
-      "all"
-     ],
-     "url": "https://www.gov.uk/foreign-travel-advice/china/regional-risks",
-     "checked": "2026-11-04"
-    }
-   ],
-   "sources": [
-    {
-     "title": "China travel advice: regional risks",
-     "authority": "UK Foreign, Commonwealth and Development Office",
-     "url": "https://www.gov.uk/foreign-travel-advice/china/regional-risks",
-     "checked": "2026-11-04",
-     "supports": "Tibet permit through a specialist travel agent in China and organised tour; permits can stop without notice; Xinjiang security checks and risk factors (read directly)"
-    },
-    {
-     "title": "China travel advice (updated 28 September 2026)",
-     "authority": "Smartraveller, Australian Government",
-     "url": "https://www.smartraveller.gov.au/destinations/asia/china",
-     "checked": "2026-11-04",
-     "supports": "register residence with the local PSB (hotels do it at check-in); Tibet by organised tour with permission; Xinjiang security and ID checks; drone ban in Beijing; WeChat/Alipay linked to cards (read directly)"
-    }
-   ]
-  },
   "languages": {
    "status": "partly-mapped",
    "evidence": "signal",
@@ -59,36 +25,6 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
-  },
-  "local-law": {
-   "status": "partly-mapped",
-   "checked": "2026-11-04",
-   "evidence": "official",
-   "laws": [
-    {
-     "topic": "conduct-and-public-order",
-     "rule": "You need a permit to enter Tibet and must travel on an organised tour arranged through a specialist travel agent in China; permits can be suspended without notice. Don't photograph security forces, ask before photographing in monasteries, and don't carry letters or packages for Tibetans.",
-     "level": "region",
-     "source": "https://www.gov.uk/foreign-travel-advice/china/regional-risks",
-     "checked": "2026-11-04"
-    }
-   ],
-   "sources": [
-    {
-     "title": "China travel advice: regional risks",
-     "authority": "UK Foreign, Commonwealth and Development Office",
-     "url": "https://www.gov.uk/foreign-travel-advice/china/regional-risks",
-     "checked": "2026-11-04",
-     "supports": "Tibet permit through a specialist travel agent in China and organised tour; permits can stop without notice; Xinjiang security checks and risk factors (read directly)"
-    },
-    {
-     "title": "China travel advice (updated 28 September 2026)",
-     "authority": "Smartraveller, Australian Government",
-     "url": "https://www.smartraveller.gov.au/destinations/asia/china",
-     "checked": "2026-11-04",
-     "supports": "register residence with the local PSB (hotels do it at check-in); Tibet by organised tour with permission; Xinjiang security and ID checks; drone ban in Beijing; WeChat/Alipay linked to cards (read directly)"
-    }
-   ]
   },
   "ancient-sites-and-mysteries": {
    "sites": [
@@ -144,6 +80,32 @@
    "checked": "2026-11-04",
    "summary": "1 site(s): Mt Kailash and Lake Manasarovar. Facts from official sources; lore labelled as claims.",
    "evidence": "UNESCO pages and Smartraveller read directly; other official pages are search snapshots unless marked."
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-04",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "entry-permit",
+     "authority": "Chinese authorities; Tibet Tourism Bureau",
+     "process": "Get permission from Chinese authorities and a Tibet Entry Permit from the Tibet Tourism Bureau. Applications go only through specialised travel agents in China, and you can only travel as part of an organised tour. Smartraveller says reconsider travel to Gyirong County (flooding, landslides) and exercise a high degree of caution in Tibet.",
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-11-04"
+    }
+   ],
+   "sources": [
+    {
+     "title": "China travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-11-04",
+     "supports": "Tibet permit, organised-tour rule, advice levels (read directly). A Chinese government source is not yet found."
+    }
+   ]
   }
  }
 }

@@ -1450,3 +1450,9 @@ For Claude.
 - New scripts/fcdo_substances.py (UK FCDO content API, same sorting as smartraveller_substances.py, never overwrites). Ran it for every country or territory with no substances record: 32 written, labelled as UK advice for British travellers.
 - Culture cycles for mo (gov.mo 2027), tw (DGPA 2027 calendar), mu (PMO 2027 notice), jo (MFA holiday list).
 - Not reached: activities confirm-in-writing remainder, health entry for ps, remaining culture cycles. Luxembourg cannabis wording to settle (STATUS).
+
+## 2026-11-04 23:30 AEST: Grok, source priority clean-up
+For Claude.
+- Rule now in CLAUDE.md: the place's own official sources first, Smartraveller second, never another country's travel advice. validate.py enforces it through scripts/third_country.py (gov.uk/foreign-travel-advice, travel.state.gov advisories, travel.gc.ca, SafeTravel, diplomatie.gouv.fr, auswaertiges-amt.de, each allowed only for its own country and territories).
+- `python scripts/third_country.py --strip` removed 131 records whose only sources were third-country advice and flagged 96 mixed ones (needs_recheck, source_note). Sentences quoting FCDO were removed from culture text. scripts/fcdo_substances.py, fcdo_local_law.py and fcdo_culture.py deleted.
+- Luxembourg cannabis settled from Legilux: home growing of up to four plants and home use are legal for adults since 21 July 2023; public use or carrying up to 3 g is a EUR 145 fine (EUR 25 to 500 in court); over 3 g up to six months and EUR 2,500.

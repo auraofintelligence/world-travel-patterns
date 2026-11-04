@@ -141,3 +141,8 @@ For future About maintenance, retain the lower-case repository slug, the complet
 The description names the research workflow and its subjects without claiming that every place and pattern has already been checked. Keep source-check dates and coverage claims tied to their records. Keep private travel windows and visitor briefs out of public commits.
 
 This maintenance changed only the GitHub About metadata and this handover note. It did not change travel records, routines, website content, photographs, deployment settings or licence terms.
+
+## Source priority (from 4 November 2026)
+1. The destination's own official sources: legislation portal, government ministry, police, customs, health agency, tourism authority, park or heritage body.
+2. Australian Smartraveller, as the secondary source.
+Never use another country's travel advice (UK FCDO gov.uk/foreign-travel-advice, US State Department advisories, Canada travel.gc.ca, NZ SafeTravel, France or Germany's foreign ministries) as a source for somewhere else. The user is Australian. If neither 1 nor 2 has it, leave the place "not yet checked". scripts/validate.py rejects third-country advice URLs (scripts/third_country.py).

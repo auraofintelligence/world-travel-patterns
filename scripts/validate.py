@@ -6,6 +6,7 @@ import subprocess
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
+from third_country import third_country  # noqa: E402
 from lib import ROOT, VETTING, applies, load_patterns, load_places, parse_date, read, today  # noqa: E402
 
 KINDS = {"country", "territory", "associated", "jurisdiction", "state", "district", "electorate", "region",
@@ -58,6 +59,8 @@ def main():
             text = json.dumps(body, ensure_ascii=False)
             for key in re.findall(r'"([a-z_]+)":', text):
                 check(not FORBIDDEN_KEYS.search(key), f"{where}: private field {key} is not allowed")
+            for url in re.findall(r'"(?:url|source)": "(https?://[^"]+)"', text):
+                check(not third_country(pid, url), f"{where}: another country's travel advice is not a source ({url}); use the place's own official source, then Smartraveller")
             for url in re.findall(r'"url": "([^"]+)"', text):
                 check(url.startswith("https://") or url.startswith("http://"), f"{where}: bad url {url}")
             if pattern_id == "year-ahead":

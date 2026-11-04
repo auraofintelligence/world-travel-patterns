@@ -519,54 +519,13 @@
     "steps": []
    }
   },
-  "local-law": {
-   "status": "partly-mapped",
-   "checked": "2026-11-01",
-   "evidence": "official",
-   "laws": [
-    {
-     "topic": "alcohol",
-     "rule": "The minimum legal drinking age is 16. Being drunk and disorderly in public is a criminal offence that can result in arrest for a night and a heavy fine.",
-     "level": "country",
-     "source": "https://www.gov.uk/foreign-travel-advice/luxembourg/safety-and-security",
-     "checked": "2026-11-01",
-     "heading": "Alcohol laws"
-    },
-    {
-     "topic": "drugs-and-prescription-medicines",
-     "rule": "Illegal drugs, including cannabis, carry severe penalties. You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through the airport. The airport in Luxembourg has excellent technology and security for detecting illegal items. This is also used to scan the baggage of transiting passengers.",
-     "level": "country",
-     "source": "https://www.gov.uk/foreign-travel-advice/luxembourg/safety-and-security",
-     "checked": "2026-11-01",
-     "heading": "Illegal drugs"
-    }
-   ],
-   "note": "From UK Government (FCDO) travel advice, written for British travellers; Smartraveller has no advice page for this place. Confirm with the place's own authorities.",
-   "sources": [
-    {
-     "title": "Luxembourg travel advice (updated 2026-08-11)",
-     "authority": "Foreign, Commonwealth and Development Office, UK Government",
-     "url": "https://www.gov.uk/foreign-travel-advice/luxembourg/safety-and-security",
-     "checked": "2026-11-01",
-     "supports": "laws and cultural differences as read on 2026-11-01"
-    }
-   ]
-  },
   "culture-and-protocol": {
    "status": "partly-mapped",
    "checked": "2026-11-01",
    "evidence": "official",
-   "dress_and_conduct": "FCDO's laws and cultural differences section for Luxembourg has no customs or etiquette guidance. A national etiquette page has not been searched for yet. Ask locally. Luxembourg.lu: be punctual and use formal address until invited otherwise. Its guide to dinner invitations covers home etiquette. Tipping is voluntary.",
+   "dress_and_conduct": "A national etiquette page has not been searched for yet. Ask locally. Luxembourg.lu: be punctual and use formal address until invited otherwise. Its guide to dinner invitations covers home etiquette. Tipping is voluntary.",
    "cultural_authority": "Government of Luxembourg and its tourism office; local community leaders.",
-   "note": "FCDO page checked (written for British travellers); it has no customs guidance. National tourism or government etiquette pages not yet searched.",
    "sources": [
-    {
-     "title": "Luxembourg travel advice (updated 2026-08-11)",
-     "authority": "Foreign, Commonwealth and Development Office, UK Government",
-     "url": "https://www.gov.uk/foreign-travel-advice/luxembourg/safety-and-security",
-     "checked": "2026-11-01",
-     "supports": "laws and cultural differences section as read on 2026-11-01"
-    },
     {
      "title": "7 things not to do when you're invited for dinner",
      "authority": "Luxembourg.lu (Government of Luxembourg)",
@@ -579,7 +538,9 @@
     "checked": "2026-11-01",
     "result": "found",
     "note": "National tourism or government etiquette guidance found and cited."
-   }
+   },
+   "needs_recheck": true,
+   "source_note": "Another country's travel advice was removed as a source on 4 November 2026; recheck the text against the place's own official sources."
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
@@ -641,56 +602,54 @@
    "evidence": "official",
    "items": [
     {
-     "substance": "alcohol",
+     "substance": "cannabis",
      "kind": "law",
-     "text": "Being drunk and disorderly in public is a criminal offence that can result in arrest for a night and a heavy fine.",
-     "source": "https://www.gov.uk/foreign-travel-advice/luxembourg/safety-and-security",
+     "text": "Since 21 July 2023 an adult may grow up to four cannabis plants per household, from seed, at home, out of sight of the street, and adults may use and hold that cannabis at home (Law of 19 February 1973, arts 7-2).",
+     "source": "https://legilux.public.lu/eli/etat/leg/loi/1973/02/19/n1/consolide/20230721",
      "checked": "2026-11-04",
-     "by": "fcdo_substances"
+     "by": "hand"
     },
     {
      "substance": "cannabis",
      "kind": "law",
-     "text": "Illegal drugs, including cannabis, carry severe penalties.",
-     "source": "https://www.gov.uk/foreign-travel-advice/luxembourg/safety-and-security",
+     "text": "Using cannabis anywhere else, or carrying, holding or buying up to 3 g in public, is an offence: police or customs can issue a EUR 145 fixed fine, or a court fine of EUR 25 to 500 (art 7-3). Visitors cannot lawfully buy cannabis.",
+     "source": "https://police.public.lu/en/legislation/stupefiants.html",
      "checked": "2026-11-04",
-     "by": "fcdo_substances"
+     "by": "hand"
     },
     {
-     "substance": "drugs-in-general",
+     "substance": "cannabis",
      "kind": "law",
-     "text": "You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through the airport.",
-     "source": "https://www.gov.uk/foreign-travel-advice/luxembourg/safety-and-security",
+     "text": "Over 3 g: 8 days to 6 months' prison and/or EUR 251 to 2,500 (art 7-1(2)); using at work, at school or in front of minors carries the same range.",
+     "source": "https://santesecu.public.lu/fr/espace-citoyen/departement-sante/prevention/drogues/cannabis/usage-non-medical/culture-domicile.html",
      "checked": "2026-11-04",
-     "by": "fcdo_substances"
-    },
-    {
-     "substance": "alcohol",
-     "kind": "law",
-     "text": "Drink-driving is a serious offence in Luxembourg.",
-     "source": "https://www.gov.uk/foreign-travel-advice/luxembourg/safety-and-security",
-     "checked": "2026-11-04",
-     "by": "fcdo_substances"
-    },
-    {
-     "substance": "alcohol",
-     "kind": "custom",
-     "text": "The blood alcohol limit for experienced drivers is 0.05% (in England it’s 0.08%).",
-     "source": "https://www.gov.uk/foreign-travel-advice/luxembourg/safety-and-security",
-     "checked": "2026-11-04",
-     "by": "fcdo_substances"
+     "by": "hand"
     }
    ],
-   "notes": "From UK Government (FCDO) travel advice, written for British travellers; Smartraveller has no advice page for this place. Confirm with the place's own law.",
    "sources": [
     {
-     "title": "Luxembourg travel advice (updated 2026-08-11)",
-     "authority": "Foreign, Commonwealth and Development Office, UK Government",
-     "url": "https://www.gov.uk/foreign-travel-advice/luxembourg/safety-and-security",
+     "title": "Loi du 19 février 1973 (consolidated 21 July 2023)",
+     "authority": "Legilux, Government of Luxembourg",
+     "url": "https://legilux.public.lu/eli/etat/leg/loi/1973/02/19/n1/consolide/20230721",
      "checked": "2026-11-04",
-     "supports": "drugs, alcohol, vaping and health notes (safety-and-security, health) as read on 2026-11-04"
+     "supports": "arts 7-1 to 7-3 (search-index snapshot)"
+    },
+    {
+     "title": "Drugs: legislation",
+     "authority": "Grand Ducal Police",
+     "url": "https://police.public.lu/en/legislation/stupefiants.html",
+     "checked": "2026-11-04",
+     "supports": "EUR 145 fixed fines (search-index snapshot)"
+    },
+    {
+     "title": "Culture à domicile",
+     "authority": "Ministry of Health, Luxembourg",
+     "url": "https://santesecu.public.lu/fr/espace-citoyen/departement-sante/prevention/drogues/cannabis/usage-non-medical/culture-domicile.html",
+     "checked": "2026-11-04",
+     "supports": "what is and isn't allowed, penalties (search-index snapshot)"
     }
-   ]
+   ],
+   "notes": "Smartraveller has no Luxembourg page."
   }
  }
 }

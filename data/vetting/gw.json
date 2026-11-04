@@ -1,29 +1,6 @@
 {
  "place": "gw",
  "patterns": {
-  "entry": {
-   "status": "visa-on-arrival",
-   "summary": "A visa is required. It can be issued on arrival at Bissau airport (France says the host should notify immigration in advance), or obtained in advance from an embassy, for example in Dakar or Lisbon. You need a yellow fever certificate and a passport valid for 6 months.",
-   "next_check": "Ask Guinea-Bissau's embassy or immigration authority which visa an Australian needs.",
-   "evidence": "official",
-   "sources": [
-    {
-     "title": "Guinée-Bissao: entrée / séjour",
-     "authority": "France Diplomatie",
-     "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-     "checked": "2026-11-01",
-     "supports": "visa at Bissau airport with advance notice (read via a search-index snapshot)"
-    },
-    {
-     "title": "Guinea-Bissau travel advisory",
-     "authority": "U.S. Department of State",
-     "url": "https://travel.state.gov/en/international-travel/travel-advisories/guinea-bissau.html",
-     "checked": "2026-11-01",
-     "supports": "visa on arrival, yellow fever (read via a search-index snapshot)"
-    }
-   ],
-   "checked": "2026-11-01"
-  },
   "money-and-cost": {
    "status": "noted",
    "daily_cost_aud": null,
@@ -46,259 +23,12 @@
    ]
   },
   "activities": {
-   "activities": {
-    "tourism": {
-     "status": "conditional",
-     "route": "Visa on arrival (ask the host to notify immigration ahead)",
-     "detail": "A visa is required. It can be issued on arrival at Bissau airport (France says the host should notify immigration in advance), or obtained in advance from an embassy, for example in Dakar or Lisbon. You need a yellow fever certificate and a passport valid for 6 months.",
-     "next": "See the entry record.",
-     "checked": "2026-11-01",
-     "sources": [
-      {
-       "title": "Guinée-Bissao: entrée / séjour",
-       "authority": "France Diplomatie",
-       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-       "checked": "2026-11-01",
-       "supports": "visa at Bissau airport with advance notice (read via a search-index snapshot)"
-      },
-      {
-       "title": "Guinea-Bissau travel advisory",
-       "authority": "U.S. Department of State",
-       "url": "https://travel.state.gov/en/international-travel/travel-advisories/guinea-bissau.html",
-       "checked": "2026-11-01",
-       "supports": "visa on arrival, yellow fever (read via a search-index snapshot)"
-      }
-     ]
-    },
-    "meetings": {
-     "status": "conditional",
-     "route": "Visa (no separate business category); 1, 3, 6 or 12-month multiple-entry options",
-     "detail": "France's travel advice says Guinea-Bissau makes no distinction between tourist and business visas, and business travellers can request 1, 3, 6 or 12-month multiple-entry visas. An airport visa is possible only if your host has told immigration in advance. Work permits are not covered by this source.",
-     "next": "Get the visa in advance (for example through the embassy in Dakar or Lisbon) with a host letter.",
-     "checked": "2026-11-02",
-     "sources": [
-      {
-       "title": "Guinée-Bissao: conseils aux voyageurs (Voyages d'affaires, Entrée / séjour)",
-       "authority": "Ministère de l'Europe et des Affaires étrangères, France",
-       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-       "checked": "2026-11-02",
-       "supports": "entry visa compulsory; no distinction between tourist and business visas; business travellers can request 1, 3, 6 or 12-month multiple-entry visas; airport visa only if the host has notified immigration in advance (updated 15 September 2026, read via a search-index snapshot)"
-      }
-     ]
-    },
-    "conference": {
-     "status": "conditional",
-     "route": "Visa (no separate business category); 1, 3, 6 or 12-month multiple-entry options",
-     "detail": "France's travel advice says Guinea-Bissau makes no distinction between tourist and business visas, and business travellers can request 1, 3, 6 or 12-month multiple-entry visas. An airport visa is possible only if your host has told immigration in advance. Work permits are not covered by this source.",
-     "next": "Get the visa in advance (for example through the embassy in Dakar or Lisbon) with a host letter.",
-     "checked": "2026-11-02",
-     "sources": [
-      {
-       "title": "Guinée-Bissao: conseils aux voyageurs (Voyages d'affaires, Entrée / séjour)",
-       "authority": "Ministère de l'Europe et des Affaires étrangères, France",
-       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-       "checked": "2026-11-02",
-       "supports": "entry visa compulsory; no distinction between tourist and business visas; business travellers can request 1, 3, 6 or 12-month multiple-entry visas; airport visa only if the host has notified immigration in advance (updated 15 September 2026, read via a search-index snapshot)"
-      }
-     ]
-    },
-    "unpaid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "Rechecked 3 November 2026: France's entry and stay advice covers the visa and customs only and doesn't name unpaid speaking; no Guinea-Bissau immigration or labour page was found online. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-03",
-     "sources": [
-      {
-       "title": "Guinée-Bissao: conseils aux voyageurs, entrée / séjour",
-       "authority": "Ministère de l'Europe et des Affaires étrangères, France",
-       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-       "checked": "2026-11-03",
-       "supports": "visa required, from the embassy in Paris or in limited cases at Bissau airport; customs and medicine imports; nothing on work or other activities"
-      }
-     ]
-    },
-    "paid-speaking": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "Rechecked 3 November 2026: France's entry and stay advice covers the visa and customs only and doesn't name paid speaking; no Guinea-Bissau immigration or labour page was found online. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-03",
-     "sources": [
-      {
-       "title": "Guinée-Bissao: conseils aux voyageurs, entrée / séjour",
-       "authority": "Ministère de l'Europe et des Affaires étrangères, France",
-       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-       "checked": "2026-11-03",
-       "supports": "visa required, from the embassy in Paris or in limited cases at Bissau airport; customs and medicine imports; nothing on work or other activities"
-      }
-     ]
-    },
-    "book-launch": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "Rechecked 3 November 2026: France's entry and stay advice covers the visa and customs only and doesn't name a book launch; no Guinea-Bissau immigration or labour page was found online. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-03",
-     "sources": [
-      {
-       "title": "Guinée-Bissao: conseils aux voyageurs, entrée / séjour",
-       "authority": "Ministère de l'Europe et des Affaires étrangères, France",
-       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-       "checked": "2026-11-03",
-       "supports": "visa required, from the embassy in Paris or in limited cases at Bissau airport; customs and medicine imports; nothing on work or other activities"
-      }
-     ]
-    },
-    "ai-teaching": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "Rechecked 3 November 2026: France's entry and stay advice covers the visa and customs only and doesn't name teaching or training; no Guinea-Bissau immigration or labour page was found online. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-03",
-     "sources": [
-      {
-       "title": "Guinée-Bissao: conseils aux voyageurs, entrée / séjour",
-       "authority": "Ministère de l'Europe et des Affaires étrangères, France",
-       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-       "checked": "2026-11-03",
-       "supports": "visa required, from the embassy in Paris or in limited cases at Bissau airport; customs and medicine imports; nothing on work or other activities"
-      }
-     ]
-    },
-    "remote-work": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "Rechecked 3 November 2026: France's entry and stay advice covers the visa and customs only and doesn't name remote work for a foreign employer; no Guinea-Bissau immigration or labour page was found online. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-03",
-     "sources": [
-      {
-       "title": "Guinée-Bissao: conseils aux voyageurs, entrée / séjour",
-       "authority": "Ministère de l'Europe et des Affaires étrangères, France",
-       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-       "checked": "2026-11-03",
-       "supports": "visa required, from the embassy in Paris or in limited cases at Bissau airport; customs and medicine imports; nothing on work or other activities"
-      }
-     ]
-    },
-    "entrepreneur": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "Rechecked 3 November 2026: France's entry and stay advice covers the visa and customs only and doesn't name setting up or running a business; no Guinea-Bissau immigration or labour page was found online. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-03",
-     "sources": [
-      {
-       "title": "Guinée-Bissao: conseils aux voyageurs, entrée / séjour",
-       "authority": "Ministère de l'Europe et des Affaires étrangères, France",
-       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-       "checked": "2026-11-03",
-       "supports": "visa required, from the embassy in Paris or in limited cases at Bissau airport; customs and medicine imports; nothing on work or other activities"
-      }
-     ]
-    },
-    "trade": {
-     "status": "conditional",
-     "route": "Visa (no separate business category); 1, 3, 6 or 12-month multiple-entry options",
-     "detail": "France's travel advice says Guinea-Bissau makes no distinction between tourist and business visas, and business travellers can request 1, 3, 6 or 12-month multiple-entry visas. An airport visa is possible only if your host has told immigration in advance. Work permits are not covered by this source.",
-     "next": "Get the visa in advance (for example through the embassy in Dakar or Lisbon) with a host letter.",
-     "checked": "2026-11-02",
-     "sources": [
-      {
-       "title": "Guinée-Bissao: conseils aux voyageurs (Voyages d'affaires, Entrée / séjour)",
-       "authority": "Ministère de l'Europe et des Affaires étrangères, France",
-       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-       "checked": "2026-11-02",
-       "supports": "entry visa compulsory; no distinction between tourist and business visas; business travellers can request 1, 3, 6 or 12-month multiple-entry visas; airport visa only if the host has notified immigration in advance (updated 15 September 2026, read via a search-index snapshot)"
-      }
-     ]
-    },
-    "artist": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "Rechecked 3 November 2026: France's entry and stay advice covers the visa and customs only and doesn't name performing or exhibiting as an artist; no Guinea-Bissau immigration or labour page was found online. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-03",
-     "sources": [
-      {
-       "title": "Guinée-Bissao: conseils aux voyageurs, entrée / séjour",
-       "authority": "Ministère de l'Europe et des Affaires étrangères, France",
-       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-       "checked": "2026-11-03",
-       "supports": "visa required, from the embassy in Paris or in limited cases at Bissau airport; customs and medicine imports; nothing on work or other activities"
-      }
-     ]
-    },
-    "mixed-mission": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "Rechecked 3 November 2026: France's entry and stay advice covers the visa and customs only and doesn't name a trip mixing several of these activities; no Guinea-Bissau immigration or labour page was found online. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-03",
-     "sources": [
-      {
-       "title": "Guinée-Bissao: conseils aux voyageurs, entrée / séjour",
-       "authority": "Ministère de l'Europe et des Affaires étrangères, France",
-       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-       "checked": "2026-11-03",
-       "supports": "visa required, from the embassy in Paris or in limited cases at Bissau airport; customs and medicine imports; nothing on work or other activities"
-      }
-     ]
-    },
-    "filming": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "Rechecked 3 November 2026: France's entry and stay advice covers the visa and customs only and doesn't name filming or film permits; no Guinea-Bissau immigration or labour page was found online. No filming permit page from Guinea-Bissau's government was found either. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-03",
-     "sources": [
-      {
-       "title": "Guinée-Bissao: conseils aux voyageurs, entrée / séjour",
-       "authority": "Ministère de l'Europe et des Affaires étrangères, France",
-       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-       "checked": "2026-11-03",
-       "supports": "visa required, from the embassy in Paris or in limited cases at Bissau airport; customs and medicine imports; nothing on work or other activities"
-      }
-     ]
-    },
-    "research": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "Rechecked 3 November 2026: France's entry and stay advice covers the visa and customs only and doesn't name research; no Guinea-Bissau immigration or labour page was found online. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-03",
-     "sources": [
-      {
-       "title": "Guinée-Bissao: conseils aux voyageurs, entrée / séjour",
-       "authority": "Ministère de l'Europe et des Affaires étrangères, France",
-       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-       "checked": "2026-11-03",
-       "supports": "visa required, from the embassy in Paris or in limited cases at Bissau airport; customs and medicine imports; nothing on work or other activities"
-      }
-     ]
-    },
-    "volunteering": {
-     "status": "confirm-in-writing",
-     "route": "Ask the place's immigration authority (no office in Australia is listed)",
-     "detail": "Rechecked 3 November 2026: France's entry and stay advice covers the visa and customs only and doesn't name volunteering; no Guinea-Bissau immigration or labour page was found online. Easy entry isn't permission to work.",
-     "next": "Ask the place's immigration authority (no office in Australia is listed) which visa covers it, in writing.",
-     "checked": "2026-11-03",
-     "sources": [
-      {
-       "title": "Guinée-Bissao: conseils aux voyageurs, entrée / séjour",
-       "authority": "Ministère de l'Europe et des Affaires étrangères, France",
-       "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/guinee-bissao/conseils-aux-voyageurs-entree-sejour",
-       "checked": "2026-11-03",
-       "supports": "visa required, from the embassy in Paris or in limited cases at Bissau airport; customs and medicine imports; nothing on work or other activities"
-      }
-     ]
-    }
-   },
    "sources": [],
    "evidence": "official",
    "status": "conditional",
-   "checked": "2026-11-01"
+   "checked": "2026-11-01",
+   "needs_recheck": true,
+   "source_note": "Another country's travel advice was removed as a source on 4 November 2026; recheck the text against the place's own official sources."
   },
   "health-entry": {
    "status": "required",
@@ -556,70 +286,13 @@
    },
    "recheck_note": "Not verified 2026-11-01: no Smartraveller advice. Only a pre-enrolment e-visa site (rgb-visa.com, government status unclear) and foreign-ministry reports (visa on arrival about EUR 80) were found."
   },
-  "local-law": {
-   "status": "partly-mapped",
-   "checked": "2026-11-01",
-   "evidence": "official",
-   "laws": [
-    {
-     "topic": "driving-and-licences",
-     "rule": "You must carry ID such as a passport or residence permit, particularly when driving or in a taxi. Police forces regularly ask for ID.",
-     "level": "country",
-     "source": "https://www.gov.uk/foreign-travel-advice/guinea-bissau/safety-and-security",
-     "checked": "2026-11-01",
-     "heading": "Personal ID"
-    },
-    {
-     "topic": "drugs-and-prescription-medicines",
-     "rule": "There are severe penalties for all drug offences. Local prison conditions are harsh.",
-     "level": "country",
-     "source": "https://www.gov.uk/foreign-travel-advice/guinea-bissau/safety-and-security",
-     "checked": "2026-11-01",
-     "heading": "Illegal drugs and prison sentences"
-    },
-    {
-     "topic": "relationships-and-cohabitation",
-     "rule": "Same-sex sexual relationships are not criminalised. However, Guinea-Bissau is a conservative society and same-sex couples showing affection in public may attract unwanted and negative attention. Read more advice for LGBT+ travellers .",
-     "level": "country",
-     "source": "https://www.gov.uk/foreign-travel-advice/guinea-bissau/safety-and-security",
-     "checked": "2026-11-01",
-     "heading": "LGBT+ travellers"
-    },
-    {
-     "topic": "currency-and-goods",
-     "rule": "Guinea-Bissau is a cash-based economy. Credit cards are rarely used and there are not many ATMs in the country. If you need to exchange foreign currency, use an official bureau de change.",
-     "level": "country",
-     "source": "https://www.gov.uk/foreign-travel-advice/guinea-bissau/safety-and-security",
-     "checked": "2026-11-01",
-     "heading": "Money"
-    }
-   ],
-   "note": "From UK Government (FCDO) travel advice, written for British travellers; Smartraveller has no advice page for this place. Confirm with the place's own authorities.",
-   "sources": [
-    {
-     "title": "Guinea-Bissau travel advice (updated 2025-12-10)",
-     "authority": "Foreign, Commonwealth and Development Office, UK Government",
-     "url": "https://www.gov.uk/foreign-travel-advice/guinea-bissau/safety-and-security",
-     "checked": "2026-11-01",
-     "supports": "laws and cultural differences as read on 2026-11-01"
-    }
-   ]
-  },
   "culture-and-protocol": {
    "status": "partly-mapped",
    "checked": "2026-11-01",
    "evidence": "official",
-   "dress_and_conduct": "FCDO's laws and cultural differences section for Guinea-Bissau has no customs or etiquette guidance. A national etiquette page has not been searched for yet. Ask locally. The IBAP code of conduct for the Bijagos says not to photograph sacred sites (balobas, sacred groves) unless your guide allows it, and to ask before photographing people. Give gifts through the lodge, not directly. Some sacred islands are open only to initiated elders.",
+   "dress_and_conduct": "A national etiquette page has not been searched for yet. Ask locally. The IBAP code of conduct for the Bijagos says not to photograph sacred sites (balobas, sacred groves) unless your guide allows it, and to ask before photographing people. Give gifts through the lodge, not directly. Some sacred islands are open only to initiated elders.",
    "cultural_authority": "Government of Guinea-Bissau and its tourism office; local community leaders.",
-   "note": "FCDO page checked (written for British travellers); it has no customs guidance. National tourism or government etiquette pages not yet searched.",
    "sources": [
-    {
-     "title": "Guinea-Bissau travel advice (updated 2025-12-10)",
-     "authority": "Foreign, Commonwealth and Development Office, UK Government",
-     "url": "https://www.gov.uk/foreign-travel-advice/guinea-bissau/safety-and-security",
-     "checked": "2026-11-01",
-     "supports": "laws and cultural differences section as read on 2026-11-01"
-    },
     {
      "title": "Código de conduta",
      "authority": "Instituto da Biodiversidade e das Áreas Protegidas (IBAP)",
@@ -632,48 +305,9 @@
     "checked": "2026-11-01",
     "result": "found",
     "note": "National tourism or government etiquette guidance found and cited."
-   }
-  },
-  "psychoactive-substances": {
-   "status": "partly-mapped",
-   "checked": "2026-11-04",
-   "evidence": "official",
-   "items": [
-    {
-     "substance": "drugs-in-general",
-     "kind": "law",
-     "text": "There are severe penalties for all drug offences.",
-     "source": "https://www.gov.uk/foreign-travel-advice/guinea-bissau/safety-and-security",
-     "checked": "2026-11-04",
-     "by": "fcdo_substances"
-    },
-    {
-     "substance": "alcohol",
-     "kind": "law",
-     "text": "Drink-driving is a serious offence in Guinea-Bissau.",
-     "source": "https://www.gov.uk/foreign-travel-advice/guinea-bissau/safety-and-security",
-     "checked": "2026-11-04",
-     "by": "fcdo_substances"
-    },
-    {
-     "substance": "alcohol",
-     "kind": "law",
-     "text": "If you are tested and found to have any alcohol in your system, you may get a fine and a possible prison sentence.",
-     "source": "https://www.gov.uk/foreign-travel-advice/guinea-bissau/safety-and-security",
-     "checked": "2026-11-04",
-     "by": "fcdo_substances"
-    }
-   ],
-   "notes": "From UK Government (FCDO) travel advice, written for British travellers; Smartraveller has no advice page for this place. Confirm with the place's own law.",
-   "sources": [
-    {
-     "title": "Guinea-Bissau travel advice (updated 2025-12-10)",
-     "authority": "Foreign, Commonwealth and Development Office, UK Government",
-     "url": "https://www.gov.uk/foreign-travel-advice/guinea-bissau/safety-and-security",
-     "checked": "2026-11-04",
-     "supports": "drugs, alcohol, vaping and health notes (safety-and-security, health) as read on 2026-11-04"
-    }
-   ]
+   },
+   "needs_recheck": true,
+   "source_note": "Another country's travel advice was removed as a source on 4 November 2026; recheck the text against the place's own official sources."
   }
  }
 }
