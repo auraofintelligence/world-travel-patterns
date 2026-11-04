@@ -131,7 +131,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-533 locations have specific watch items.
+552 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -228,6 +228,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ao | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | aq |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | ar | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| ar/mendoza-province | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | as |  | monthly | confirm in writing, snapshot evidence | 6 confirm-in-writing |
 | au |  | monthly | snapshot evidence |  |
 | au/nsw |  | monthly | snapshot evidence |  |
@@ -292,6 +293,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | cn/beijing | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/chongqing | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/gansu | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| cn/guangxi | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/shaanxi | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/shanghai | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/sichuan | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -349,6 +351,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | fm | Exercise normal safety precautions | monthly | confirm in writing, election, snapshot evidence | election 2027-03-02; 5 confirm-in-writing |
 | fo |  | monthly | snapshot evidence |  |
 | fr/brittany | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| fr/grand-est | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | fr/nouvelle-aquitaine | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ga | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | gb | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -420,10 +423,24 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | je |  | monthly | snapshot evidence |  |
 | jm | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | jp | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/akita-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/aomori-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/fukuoka-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/gifu-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/hokkaido | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/kochi-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/kyoto-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/miyagi-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/nagasaki-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/nara-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/okinawa-prefecture | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | ancient-sites-and-mysteries date 2027-01-05; culture-and-protocol date 2026-11-11; culture-and-protocol date 2027-06-07 |
+| jp/osaka-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/saitama-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/shizuoka-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/tokushima-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/tokyo | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/toyama-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/yamagata-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/yamanashi-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | ke | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | kg | Exercise a high degree of caution | monthly | confirm in writing, election, snapshot evidence | election 2027-01-27; 2 confirm-in-writing |
@@ -468,6 +485,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | mx/campeche | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/chiapas | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/chihuahua | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/guanajuato | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/hidalgo | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/mexico-city | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/morelos | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -636,6 +654,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | us/ohio | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/oklahoma | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/oregon | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| us/pueblo-of-zuni | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/rhode-island | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/south-carolina | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/south-dakota | Exercise normal safety precautions | monthly | snapshot evidence |  |

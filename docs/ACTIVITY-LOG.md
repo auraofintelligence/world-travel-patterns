@@ -1667,3 +1667,7 @@ For Claude.
 - Batch 12 records: 40 states and regions. Added us/havasupai-reservation (Q12074478) with local law and culture and protocol from the Tribe's tourism terms. Local law for Triglav National Park municipalities (Bohinj, Bled, Kranjska Gora, Bovec, Tolmin, Gorje, Jesenice, Kobarid), Solčava and Divača; 17 Romanian counties; 8 Bulgarian oblasts; Borsod-Abaúj-Zemplén, Hajdú-Bihar; Košice and Žilina regions.
 - Added RON (BNR, 30 Oct) and HUF (MNB, 30 Oct) to the central bank fallback; new Romanian and Hungarian fees carry approximate A$ figures.
 - Not recorded: Albania (Alps park tariff still a draft), Bohol (Chocolate Hills fee deferred, unconfirmed), Vitosha (page empty), Ceahlău (current tariff page down), Havasupai prices (help page 403).
+
+## 5 November 2026, 02:13 AEST
+- Batch 13: 42 states and regions. Culture cycles: jp (Aomori, Akita, Miyagi, Tokushima, Kyoto, Fukuoka, Hokkaido, Nagasaki, Gifu, Yamagata, Kochi, Osaka, Saitama, Toyama, Tokyo), mx/oaxaca, mx/guanajuato, ar/mendoza-province, cn/guangxi, fr/grand-est. Affection and relationships: 12 northern Nigerian states and id/aceh (Smartraveller). Substances: id/aceh; cannabis pilot trials in 8 Swiss cantons (BAG). Added us/pueblo-of-zuni (Q2884903) with culture and protocol.
+- Most festival dates are from search-index snapshots of organisers' or tourism bodies' pages; marked so in each source.
