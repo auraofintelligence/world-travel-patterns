@@ -1,7 +1,7 @@
 """Build the recheck plan: what future automations should check, and when, for each location.
 
 Reads only repo data (no network): patterns/*.json, data/watch.json, data/advisories.json,
-data/calendar/pending-official-dates.json, data/vetting/*.json, config/home-base.json.
+data/calendar/pending-official-dates.json, data/vetting/*.json.
 
     python scripts/recheck_plan.py            -> config/recheck-plan.json and docs/AUTOMATION-CHECKLIST.md
     python scripts/recheck_plan.py --check    -> exit 1 if either file is stale
@@ -14,7 +14,7 @@ import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from lib import ROOT, ancestors, load_patterns, load_places, read, today  # noqa: E402
+from lib import ROOT, load_patterns, load_places, read, today  # noqa: E402
 
 PLAN = ROOT / "config/recheck-plan.json"
 DOC = ROOT / "docs/AUTOMATION-CHECKLIST.md"
@@ -47,7 +47,7 @@ GLOBAL = {
     "languages": ("Official and widely spoken languages", "Constitution, census", "Very slow-changing."),
     "births-and-family-support": ("Birth rates and family support", "UN WPP; national statistics", "Annual data releases."),
     "works-and-purpose": ("Luke's own work tie-ins (venues, partners, events)", "Luke's repos; venue pages", "Tagged places only."),
-    "home-obligations": ("Home-base duties while away (see section D)", "Commonwealth, Queensland and council pages", "Renewals fall due while travelling."),
+    "australian-law-abroad": ("Australian law and guidance that applies to Australians overseas", "Commonwealth agency pages (DFAT, ABF, DAFF, ATO, Services Australia, AEC, AFP, AGD, Defence)", "Rules and thresholds change."),
 }
 EXTRA_GLOBAL = [
     ("ETIAS and EES rollout (Schengen and EU)", "travel-europe.europa.eu/etias_en and /ees_en", "monthly", "Start date not settled; watch item eu-etias (check every 30 days)."),
@@ -90,7 +90,6 @@ def build(on):
     adv = read(ROOT / "data/advisories.json")["destinations"]
     watch = read(ROOT / "data/watch.json")["items"]
     pending = read(ROOT / "data/calendar/pending-official-dates.json")["events"]
-    home = read(ROOT / "config/home-base.json")["place"]
     horizon = on + datetime.timedelta(days=400)
 
     glob_rows = []
@@ -197,19 +196,8 @@ def build(on):
     rows.sort(key=lambda x: (order[x["cadence"]], x["place"]))
     triggers.sort(key=lambda t: (t["date"] is None, t["date"] or "", t["places"][0]))
 
-    chain = [home] + ancestors(places, home)
-    home_rows = []
-    hp = patterns.get("home-obligations", {})
-    for pid in chain:
-        rec = read(ROOT / "data/vetting" / (pid.replace("/", "__") + ".json"), {})
-        for law in (rec.get("patterns", {}).get("home-obligations") or {}).get("laws", []):
-            home_rows.append({"level": pid, "topic": law.get("topic"), "rule": law.get("rule"),
-                              "source": law.get("source", ""), "checked": law.get("checked", "")})
-    covered = {h["topic"] for h in home_rows}
-    gaps = [t for t in hp.get("topics", []) if t not in covered]
     return {"generated": on.isoformat(), "note": "Built by scripts/recheck_plan.py from repo data only. Read-only plan for future automations; never a reason to skip an official recheck.",
-            "global": glob_rows, "global_extra": extra, "triggers": triggers, "locations": rows,
-            "home": {"place": home, "chain": chain, "baseline_days": hp.get("baseline_days"), "obligations": home_rows, "topics_not_yet_recorded": gaps}}
+            "global": glob_rows, "global_extra": extra, "triggers": triggers, "locations": rows}
 
 
 def esc(s):
@@ -238,14 +226,7 @@ def render(plan):
     for r in plan["locations"]:
         items = "; ".join(r["items"][:4]) + (f"; +{len(r['items']) - 4} more" if len(r["items"]) > 4 else "")
         L.append(f"| {r['place']} | {esc(r['advisory'])} | {r['cadence']} | {', '.join(r['reasons'])} | {esc(items)} |")
-    h = plan["home"]
-    L += ["", f"## D. Home base ({h['place']}) obligations to recheck while travelling", "",
-          f"Recheck every {h['baseline_days']} days, and before any trip over a renewal date. Levels: {' > '.join(h['chain'])}.", "",
-          "| Level | Topic | Obligation | Source |", "|---|---|---|---|"]
-    for o in h["obligations"]:
-        L.append(f"| {o['level']} | {o['topic']} | {esc(o['rule'])[:300]} | {o['source']} |")
-    L += ["", "Topics not yet recorded at any level (vet these first): " + (", ".join(h["topics_not_yet_recorded"]) or "none") + ".",
-          "Rates notices, vehicle registration and the VAP fee exemption have no due dates in the repo: date not recorded; check each renewal notice and add the date when known.", ""]
+    L += [""]
     return "\n".join(L)
 
 

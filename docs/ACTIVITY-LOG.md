@@ -1148,9 +1148,9 @@ mh book-launch and unpaid-speaking conditional, remote-work specialist (V-1 visi
 
 vc volunteering, research, unpaid-speaking, book-launch, remote-work: detail updated, still confirm (official pages only cover visitor entry and paid work permits). dk and se remote-work: detail updated, still confirm (nyidanmark.dk and migrationsverket do not address remote work for a foreign employer).
 
-## 2026-11-02 12:30 AEST, Grok: Rules stacks: home-base outbound stack (Australia, Queensland, Redland City filled; Minjerribah not yet checked) and destination law-stack skeleton for 3,767 international places (3 records)
+## 2026-11-02 12:30 AEST, Grok: Rules stacks: Australian law abroad (Australia) and destination law-stack skeleton for 3,767 international places (3 records)
 
-New pattern home-obligations (inherit stack, home_only) applies to the place in config/home-base.json (au/minjerribah) and every level above it. Records: au partly-mapped with 11 obligations (ABF duty free and IPC, DAFF biosecurity, Smartraveller subscriptions and insurance, Consular Services Charter, AFP extraterritorial child sex offences, AGD foreign bribery s 70.2, Defence DSGL technology permits, ATO tax residency, Medicare and reciprocal agreements, PBS medicines, AEC overseas electors); au/qld partly-mapped with 3 (IDPs, vehicle registration, ECQ telephone voting); au/qld-council-6250 (Redland City) partly-mapped with rates; au/minjerribah not yet checked (ferry access, animals). Place pages show it as 'Home obligations while away (home-base stack)' next to each destination's local-law stack. build_site.py now writes site/data/law-stacks.json: every international place's local-law stack country first, null = not yet checked; 3,767 places, 224 levels filled, 3,543 not yet checked; home stack 3 of 4 levels filled. New tests/test_rules_stacks.py (6 tests). All official sources read via search-index snapshots.
+New pattern for Australian law that applies to Australians overseas (renamed australian-law-abroad on 2026-11-04). Records: au partly-mapped with 11 items (ABF duty free and IPC, DAFF biosecurity, Smartraveller subscriptions and insurance, Consular Services Charter, AFP extraterritorial child sex offences, AGD foreign bribery s 70.2, Defence DSGL technology permits, ATO tax residency, Medicare and reciprocal agreements, PBS medicines, AEC overseas electors). build_site.py now writes site/data/law-stacks.json with every international place's local-law stack. (Entry reworded 2026-11-04; personal residence items removed.)
 
 ## 2026-11-02 12:30 AEST, Grok: Talks and launches: Saint Lucia, Suriname, Uzbekistan, Malawi (8 checks) (4 records)
 
@@ -1165,21 +1165,17 @@ cu filming specialist (D-6 press visa and CPI accreditation, MINREX). ck filming
 - HEAD checks rerun on ba98a21: all passed with no changes. From now on docs commits go through `D` in /tmp/C.sh, which runs the full checks first.
 - Rules-stack design (ce770f7):
   - Destination side: the existing local-law pattern (inherit stack) already resolves every level from the country down. build_site.py now writes site/data/law-stacks.json, the skeleton for every international place (Australia excluded as the home side), with each level's status or null for not yet checked. Totals: 3,767 places and levels, 224 filled, 3,543 not yet checked. National level: 212 of 247 filled; 35 national or territory levels are still not checked (aq as ax bl bq cc cq cx eh fo gf gg gl gp gs gu im io je mf mp mq nf pm pn pr re sj sx tf tk vc vi wf yt). Sub-national: 12 of 3,520 filled. No sub-national rules were invented.
-  - Home side: new pattern patterns/home-obligations.json (inherit stack, home_only). lib.home_chain() reads config/home-base.json, and applies() limits the pattern to that chain, so changing the one id moves the whole stack.
-  - Records: au has 11 obligations (ABF, DAFF, Smartraveller, Consular Services Charter, AFP, AGD, Defence, ATO, Services Australia, AEC). au/qld has 3 (IDP, registration, ECQ telephone voting). Redland City has 1 (rates). Minjerribah is not yet checked: ferry access and animal rules, because SeaLink is an operator, not a government source.
-  - Site: the place page has a "Home obligations while away (home-base stack)" section after "Local law (destination stack)" on every place page. It resolves against the home base, so a trip view shows home duties next to the destination layers.
+  - Australian side: new pattern for Australian law abroad (now patterns/australian-law-abroad.json, limited to the au record).
+  - Records: au has 11 items (ABF, DAFF, Smartraveller, Consular Services Charter, AFP, AGD, Defence, ATO, Services Australia, AEC).
+  - Site: Australia's page shows these; other country pages link to it.
   - Tests: tests/test_rules_stacks.py (6 tests).
 - Work rules: c18307f (vc 5 checks plus dk and se remote work: detail updated, still confirm), b7c1cd8 (lc, sr, uz, mw talks and launches), 2506cba (cu filming specialist; ck detail updated, still confirm).
 - Open outside DNT and Australia: 278 confirm-in-writing.
 - Not done: kz filming (only unofficial mirrors of the MFA accreditation rules were found), plus fm gw nu sz filming. Also the remaining book launches and unpaid talks (ao bt ci cm dm gw la ma ni sz tn and others), and filling the 35 missing national law levels from official FCDO or Smartraveller local-law sections.
 
-## 2026-11-02 12:32 AEST, Grok: Home-base stack: Minjerribah island level partly mapped, Redland pet registration added (2 records)
+## 2026-11-02 12:32 to 12:33 AEST, Grok: resident-framed Minjerribah and Redland items (removed 2026-11-04)
 
-au/minjerribah home-obligations partly-mapped: ferry access (Redland City Council), resident VAP fee exemption renewed yearly (qld.gov.au, DETSI policy, RAM Regulation s58); QYAC obligations recorded as not yet checked under new topic camping-and-native-title. au/qld-council-6250: dog and cat registration renewed every 12 months, Local Law 2. Home stack now has records at 4 of 4 levels.
-
-## 2026-11-02 12:33 AEST, Grok: Home-base stack: Minjerribah cultural heritage duty of care (QYAC, Queensland); resident QYAC permits still not yet checked (1 records)
-
-au/minjerribah camping-and-native-title item rewritten from QYAC Cultural Heritage page and qld.gov.au duty of care page; resident-specific QYAC permits remain not yet checked.
+Personal residence items were recorded here and removed on 2026-11-04. Visitor-facing Minjerribah content lives in data/vetting/au__minjerribah.json.
 
 ## 2026-11-02 12:35 AEST, Grok: National law levels: 11 of 35 missing filled (bq eh mf bl pn gs gu cx cc nf aq) (11 records)
 
@@ -1197,15 +1193,9 @@ ca/quebec local-law partly-mapped from Gouvernement du Québec cannabis legislat
 
 kz filming specialist from the MFA accreditation rules on the official Adilet database (search snapshot).
 
-## Handoff 2026-11-02 (home level, national and sub-national law levels)
+## Handoff 2026-11-02 (national and sub-national law levels)
 
-- ff4dde3 and aec6ff7: Minjerribah home level.
-  - Ferry access (Redland City Council).
-  - Resident vehicle access permit fee exemption, renewed yearly (qld.gov.au, DETSI policy, RAM Regulation s58).
-  - Cultural heritage duty of care (QYAC; qld.gov.au, with fines up to AUD 166,900).
-  - Redland dog and cat registration, renewed every 12 months.
-  - New home-obligations topic: camping-and-native-title.
-  - Resident-specific QYAC permits: not yet checked. Home stack: 4 of 4 levels have records.
+- ff4dde3 and aec6ff7: resident-framed Minjerribah and Redland items (removed 2026-11-04).
 - 1e9b2fa: 11 of 35 missing national law levels filled.
   - From FCDO, read directly: bq eh mf bl pn gs.
   - From Smartraveller, read directly: gu.
@@ -1263,7 +1253,6 @@ dm book-launch and unpaid-speaking: detail updated, still confirm (Labour Divisi
 - Law stacks: 256 of 3,767 levels filled, 3,511 not yet checked.
   - National: 236 of 247 filled. Still not yet checked: ax fo gl io mp sj sx tf tk vc vi.
   - Sub-national: 20 filled.
-  - Home stack: 4 of 4 levels.
 - Work rules open outside DNT and Australia: 277. This run moved none to a resolved status; the checks it touched were detail updates only.
 - Next:
   - Remaining national levels: Nordic territories from the Danish, Finnish and Norwegian governments; vc, sx, mp, vi; tk from the Tokelau government.
@@ -1411,7 +1400,14 @@ For Claude.
 ## 2026-11-04 (AEST): Automation recheck plan
 
 For Claude. Automations are paused until the first full dataset is complete; this records what they should check, and when, once they resume. No workflows, routines or vetting records were changed.
-- **New:** `scripts/recheck_plan.py` (no network) builds `config/recheck-plan.json` and `docs/AUTOMATION-CHECKLIST.md` from patterns, data/watch.json, data/advisories.json, pending-official-dates.json, vetting records and config/home-base.json. Rerun it after data changes; `--check` reports staleness. Test: tests/test_recheck_plan.py.
-- **Global cadence** follows each pattern's baseline_days: advisory daily; entry, visa prep, activities, health, zones, money, consular, local law, substances, affection and year-ahead quarterly (90 days); culture cycles, protocol, seasons and languages yearly; home obligations every 180 days. ETIAS/EES monthly; source hashes weekly.
+- **New:** `scripts/recheck_plan.py` (no network) builds `config/recheck-plan.json` and `docs/AUTOMATION-CHECKLIST.md` from patterns, data/watch.json, data/advisories.json, pending-official-dates.json and vetting records. Rerun it after data changes; `--check` reports staleness. Test: tests/test_recheck_plan.py.
+- **Global cadence** follows each pattern's baseline_days: advisory daily; entry, visa prep, activities, health, zones, money, consular, local law, substances, affection and year-ahead quarterly (90 days); culture cycles, protocol, seasons and languages yearly; Australian law abroad every 180 days. ETIAS/EES monthly; source hashes weekly.
 - **Per-location tiers:** weekly for Do not travel; fortnightly for Reconsider, open watch items or legacy-baseline evidence; monthly for high caution, pending event dates, dated rules, elections or snapshot evidence.
-- **Gaps:** Brisbane Writers Festival 2027 isn't in the data. The date scan only reads "until/by/from/to <date>" wording, so New Mexico's alternative 31 December 2026 Department of Health date is in the text but not listed as a trigger. Home renewal due dates (rates, rego, VAP exemption) aren't recorded.
+- **Gaps:** Brisbane Writers Festival 2027 isn't in the data. The date scan only reads "until/by/from/to <date>" wording, so New Mexico's alternative 31 December 2026 Department of Health date is in the text but not listed as a trigger.
+
+## 2026-11-04 (AEST): Remove personal home-base items; keep Australian law for travellers
+
+For Claude.
+- **Rule:** no personal life details or personal itineraries in this repo (no residence obligations, home address, family trips or planned personal trips). Australian law that applies to Australians abroad, and the travel-interest patterns that guide data collection, are fine.
+- Removed: config/home-base.json, the home_only mechanism and home chain, the Queensland, Redland and Minjerribah resident records, the Minjerribah "home" tag, and the home section of the recheck plan.
+- Kept: pattern home-obligations renamed australian-law-abroad (only_places: au), with Australia's 11 general items. Visitor content for Minjerribah is unchanged.

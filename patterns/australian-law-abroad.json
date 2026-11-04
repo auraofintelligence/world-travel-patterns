@@ -1,0 +1,42 @@
+{
+ "id": "australian-law-abroad",
+ "name": "Australian law that travels with you",
+ "layer": "law",
+ "method": "agent",
+ "inherit": "stack",
+ "question": "What Australian (Commonwealth) law and official guidance keeps applying to any Australian traveller while overseas, and what needs handling before leaving and on return?",
+ "applies_to": [
+  "country"
+ ],
+ "baseline_days": 180,
+ "sources": [
+  "Commonwealth agencies: Smartraveller and DFAT, Australian Border Force, DAFF biosecurity, ATO, Services Australia, AEC, AFP, Attorney-General's Department, Defence"
+ ],
+ "topics": [
+  "departure-and-return",
+  "travel-advice-and-insurance",
+  "consular-help-and-limits",
+  "laws-that-follow-you",
+  "tax-residency",
+  "health-cover",
+  "voting"
+ ],
+ "fields": [
+  "laws[]: topic, rule, level, source, checked"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "none-found",
+  "unknown"
+ ],
+ "rules": [
+  "General information for any Australian traveller, held once on Australia's own record. Not tied to any person or home address.",
+  "Unvetted is not permitted. No record is shown as not yet checked, never as no rules.",
+  "State each rule from the agency's own page, in plain words, with the source."
+ ],
+ "version": 1,
+ "only_places": [
+  "au"
+ ]
+}

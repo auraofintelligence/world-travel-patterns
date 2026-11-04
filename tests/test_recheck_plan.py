@@ -24,7 +24,7 @@ class RecheckPlan(unittest.TestCase):
         self.assertEqual(dated, sorted(dated))
         self.assertTrue(any(t.get("id") == "cn-visa-waiver-2026" for t in plan["triggers"]))
         self.assertTrue(plan["locations"])
-        self.assertEqual(plan["home"]["place"], "au/minjerribah")
+        self.assertNotIn("home", plan)
 
 
 if __name__ == "__main__":

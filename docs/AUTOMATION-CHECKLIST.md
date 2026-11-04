@@ -20,7 +20,7 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | visa-preparation | Visa fees, e-visa portals, processing times, documents | Destination e-visa or embassy page | quarterly (90 d) | Fees and portals change with little notice; atlas baselines must be rechecked. |
 | year-ahead | Elections, major events and dated rule changes in the next 12 months | Electoral commissions; organisers; data/watch.json | quarterly (90 d) | Organisers announce next year's dates on known months; elections get called. |
 | zone-requirements | Permits for restricted areas, land councils, parks, island governments, border zones | The zone authority itself | quarterly (90 d) | Permit lead times decide when the approach phase starts. |
-| home-obligations | Home-base duties while away (see section D) | Commonwealth, Queensland and council pages | yearly (180 d) | Renewals fall due while travelling. |
+| australian-law-abroad | Australian law and guidance that applies to Australians overseas | Commonwealth agency pages (DFAT, ABF, DAFF, ATO, Services Australia, AEC, AFP, AGD, Defence) | yearly (180 d) | Rules and thresholds change. |
 | births-and-family-support | Birth rates and family support | UN WPP; national statistics | yearly (365 d) | Annual data releases. |
 | culture-and-protocol | Etiquette, respecting Country, community visitor guidance | The community's own guidance | yearly (365 d) | Slow-changing. |
 | culture-cycles | Public holidays, Ramadan and Islamic months, lunar new year, festivals | National calendars; Nager.Date as a signal | yearly (365 d) | Lunar and Islamic calendars move every year; next year's holidays are often announced late in the year. |
@@ -111,7 +111,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-341 locations have specific watch items.
+339 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -218,10 +218,8 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ar | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | as |  | monthly | confirm in writing, snapshot evidence | 6 confirm-in-writing |
 | au |  | monthly | snapshot evidence |  |
-| au/minjerribah |  | monthly | snapshot evidence |  |
 | au/nsw |  | monthly | snapshot evidence |  |
 | au/qld |  | monthly | snapshot evidence |  |
-| au/qld-council-6250 |  | monthly | snapshot evidence |  |
 | au/sa |  | monthly | snapshot evidence |  |
 | au/vic |  | monthly | snapshot evidence |  |
 | au/wa |  | monthly | snapshot evidence |  |
@@ -456,32 +454,3 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | za | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | zm | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | zw | Exercise a high degree of caution | monthly | snapshot evidence |  |
-
-## D. Home base (au/minjerribah) obligations to recheck while travelling
-
-Recheck every 180 days, and before any trip over a renewal date. Levels: au/minjerribah > au/qld-council-6250 > au/qld > au.
-
-| Level | Topic | Obligation | Source |
-|---|---|---|---|
-| au/minjerribah | island-access | Passenger and vehicle ferries run from Toondah Harbour, Cleveland, to Dunwich (passenger about 25 minutes, vehicle about 45). Council lists the operators; book the vehicle ferry directly with the operator. Check that a hire car may travel to the island. | https://www.redland.qld.gov.au/info/20125/our_suburbs_and_islands/205/north_stradbroke |
-| au/minjerribah | driving-and-vehicles | Residents who reasonably need a vehicle access permit to reach their home through the Minjerribah Recreation Area can apply for a fee exemption, with evidence, each year (Recreation Areas Management Regulation 2017 s58). Traditional Owners exercising native title rights are exempt from the fee; for  | https://www.qld.gov.au/environment/parks/permits/exemption-vap-fee |
-| au/minjerribah | camping-and-native-title | QYAC manages cultural heritage on Quandamooka Country under the Aboriginal Cultural Heritage Act 2003: anyone carrying out a land-use activity owes a duty of care (fines up to AUD 166,900 for individuals), and anything that may be cultural heritage should be left untouched and reported to QYAC. Resi | https://qyac.net.au/cultural-heritage/ |
-| au/qld-council-6250 | property-and-rates | Redland City rates are billed quarterly; they can be paid online, by BPAY, phone, direct debit, post or in person, so set up payment before a long trip. | https://www.redland.qld.gov.au/Rates-fees-and-infringements/Rates |
-| au/qld-council-6250 | animals | Dogs and cats must be microchipped and registered with Council, and registration renewed every 12 months (online through myServices or Quick Pay, by phone or in person), so a renewal can fall due while you are away. A carer must keep the animal on your property and follow Local Law 2 (Animal Managem | https://www.redland.qld.gov.au/Animals-and-pets/Dogs-and-cats/About-dogs-and-cats |
-| au/qld | driving-and-vehicles | Queensland does not issue international driving permits; check the destination's licensing rules, and get an IDP from the motoring club if needed, carrying your Queensland licence with it. | https://www.qld.gov.au/transport/licensing/driver-licensing/overseas/driving-interstate-or-overseas |
-| au/qld | driving-and-vehicles | Vehicle registration can be renewed online from overseas; renew by the due date to avoid a late fee. An expired registration makes the vehicle unregistered and driving it is an offence. | https://www.qld.gov.au/transport/registration/fees/pay/online |
-| au/qld | voting | For Queensland state elections, eligible voters who are overseas can vote by telephone during the early voting period. | https://www.ecq.qld.gov.au/how-to-vote/ways-to-vote |
-| au | departure-and-return | On return, complete the Incoming Passenger Card accurately (a digital Australia Travel Declaration is being piloted on some Qantas flights). Adults can bring AUD 900 of general goods duty free; over the allowance, duty and tax apply to every item of that type. Goods claimed under the Tourist Refund  | https://www.abf.gov.au/entering-and-leaving-australia/duty-free |
-| au | departure-and-return | Declare food, plant material and animal products, including goods you took overseas and brought back. Clean hiking, fishing and camping gear and footwear. Declared goods are not penalised under the Biosecurity Act 2015 even if refused; false or missing declarations can bring an infringement notice o | https://www.agriculture.gov.au/biosecurity-trade/policy/faqs |
-| au | travel-advice-and-insurance | Smartraveller offers free email and SMS updates for each destination, and says that if you can't afford travel insurance, you can't afford to travel. | https://www.smartraveller.gov.au/consular-services/resources/travel-smart |
-| au | consular-help-and-limits | Consular help is not a legal right and may be limited if your actions were illegal or repeatedly reckless. DFAT may replace passports (fee), give lists of doctors and lawyers, check on you if detained, contact family with consent and provide some notarial and voting services. It can't give legal adv | https://www.smartraveller.gov.au/our-role/consular-services-charter |
-| au | laws-that-follow-you | Australian citizens and residents can be prosecuted in Australia for child sex offences committed overseas (Criminal Code Division 272); the AFP investigates. | https://afp.gov.au/crimes/crimes-against-children/travelling-child-sex-offenders |
-| au | laws-that-follow-you | Bribing a foreign public official is an offence for Australians anywhere (Criminal Code s 70.2), with up to 10 years' imprisonment for individuals. | https://www.ag.gov.au/crime/foreign-bribery/foreign-bribery-offences-and-penalties |
-| au | laws-that-follow-you | Supplying technology on the Defence and Strategic Goods List overseas, including by email, cloud access or screen-sharing, generally needs a Defence permit unless an exemption applies. Relevant only if your work touches controlled technology. | https://www.defence.gov.au/business-industry/exporting/compliance/obligations-requirements |
-| au | tax-residency | You generally stay an Australian resident for tax if you go overseas temporarily and do not set up a permanent home elsewhere; moving from country to country does not create one. Residents declare worldwide income and may claim a foreign income tax offset. You can lodge from overseas through myTax ( | https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/your-tax-residency/australian-resident-for-tax-purposes |
-| au | health-cover | Medicare does not cover you overseas. Reciprocal health care agreements with 11 countries (Belgium, Finland, Ireland, Italy, Malta, the Netherlands, New Zealand, Norway, Slovenia, Sweden, the UK) may cover urgent care, usually with a co-payment; they don't cover evacuation and don't replace travel i | https://www.smartraveller.gov.au/travel-essentials/travel-health/using-healthcare-agreement-medical-care |
-| au | health-cover | Strict rules apply to taking PBS medicines overseas; carry them for personal use and check they are legal at the destination. | https://www.servicesaustralia.gov.au/health-care-planning-when-going-overseas?context=60040 |
-| au | voting | Federal voting is not compulsory while overseas, but tell the AEC (overseas notification form) or you will be asked to explain. Enrolled voters leaving for longer can register as an overseas elector up to 3 months before or within 3 years after leaving, valid 6 years; vote by post or in person at se | https://www.aec.gov.au/overseas/overseas-elector.htm |
-
-Topics not yet recorded at any level (vet these first): none.
-Rates notices, vehicle registration and the VAP fee exemption have no due dates in the repo: date not recorded; check each renewal notice and add the date when known.

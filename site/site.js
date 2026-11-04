@@ -32,7 +32,7 @@
   const LAYERS = [
     ["permission", "Permission", ["entry", "visa-preparation", "activities", "health-entry", "zone-requirements"]],
     ["law", "Local law (destination stack)", ["local-law"]],
-    ["home", "Home obligations while away (home-base stack)", ["home-obligations"]],
+    ["abroad", "Australian law that travels with you", ["australian-law-abroad"]],
     ["culture", "Culture, protocol and language", ["culture-and-protocol", "languages", "culture-cycles"]],
     ["relationships", "Affection, relationships and family", ["affection-and-relationships", "births-and-family-support"]],
     ["substances", "Alcohol, drugs and psychoactive medicines", ["psychoactive-substances"]],
@@ -335,8 +335,7 @@
     const descendants = [];
     const stack = [...children];
     while (stack.length) { const c = stack.pop(); descendants.push(c); stack.push(...index.places.filter((p) => p.parent === c.id)); }
-    const homeChain = (index.home_base?.chain || []).filter((h) => index.byId[h]);
-    const ids = [...new Set([...chain.map((p) => p.id), ...descendants.filter((d) => d.zone).map((p) => p.id), ...homeChain])];
+    const ids = [...new Set([...chain.map((p) => p.id), ...descendants.filter((d) => d.zone).map((p) => p.id), ...(index.byId.au ? ["au"] : [])])];
     const vets = Object.fromEntries(await Promise.all(ids.map(async (pid) => [pid, index.byId[pid].vetted ? (await json(vetPath(pid), { patterns: {} })).patterns : {}])));
     const [adv, feed, watch, photoFile, inAus, lawRepos] = await Promise.all([
       json("data/advisories.json", { destinations: {} }), json("data/feeds/gajra-ahead.json", { events: [] }), json("data/watch.json", { items: [] }),
@@ -361,7 +360,7 @@
     if (chain.length === 1) (lawRepos.groups || []).forEach((g) => { if (g.members.includes(spine.id)) lawLevels.push([{ name: g.name }, g.repositories]); });
     const advice = patOn("advisory") && spine.smartraveller && adv.destinations[spine.smartraveller];
     const patterns = Object.fromEntries(index.patterns.map((p) => [p.id, p]));
-    const applies = (pat, p) => !(pat.home_only && !homeChain.includes(p.id)) && pat.applies_to.includes(p.kind) && !(pat.only_tagged && !(p.tags || []).length) && !(pat.skip_home && p.id === "au");
+    const applies = (pat, p) => !(pat.only_places && !pat.only_places.includes(p.id)) && pat.applies_to.includes(p.kind) && !(pat.only_tagged && !(p.tags || []).length) && !(pat.skip_home && p.id === "au");
     const now = today();
 
     function resolve(pid, pat) {
@@ -425,9 +424,9 @@
       return body + "</li>";
     }
     // Each level's rules are shown once, on that level's own page. A deeper page shows its own records in full and links up for the rest.
-    // Home obligations show only on the home base and the levels above it, never on destinations.
+    // Australian law abroad is held once, on Australia's page.
     const above = chain.slice(1).reverse();
-    const shown = (pat) => patOn(pat.id) && !(pat.home_only && !homeChain.includes(id)) && applies(pat, place);
+    const shown = (pat) => patOn(pat.id) && applies(pat, place);
     const fromAbove = (pat) => above.filter((a) => vets[a.id]?.[pat.id]);
     const ownGaps = [];
     const patLink = (p, pat) => `<a href="place.html?id=${encodeURIComponent(p.id)}#pat-${pat.id}">${esc(pat.name)}</a>`;
@@ -455,8 +454,8 @@
         && !(pat.inherit === "nearest" && (vets[id]?.[pat.id] || chain.slice(1, chain.indexOf(a)).some((n) => vets[n.id]?.[pat.id]))));
       return pats.length ? `<p><b><a href="place.html?id=${encodeURIComponent(a.id)}">${esc(a.name)}</a>:</b> ${pats.map((pat) => patLink(a, pat)).join(" · ")}</p>` : "";
     }).join("");
-    const homeLine = place === spine && id !== "au" && homeChain.length && vets.au?.["home-obligations"]
-      ? `<p class="meta">Some Australian laws still apply to you overseas, such as bribing a foreign official. They're listed once, on <a href="place.html?id=au#pat-home-obligations">Australia's page</a>.</p>` : "";
+    const homeLine = place === spine && id !== "au" && vets.au?.["australian-law-abroad"]
+      ? `<p class="meta">Some Australian laws still apply to Australians overseas, such as bribing a foreign official. They're listed once, on <a href="place.html?id=au#pat-australian-law-abroad">Australia's page</a>.</p>` : "";
     const upCard = upLines || ownGaps.length || homeLine ? `<div class="card up-card">
       ${upLines ? `<h3>From the levels above</h3><p class="meta">These apply in ${esc(place.name)} too. Each is shown once, on its own level's page.</p>${upLines}` : ""}
       ${ownGaps.length ? `<p class="meta"><b>Not yet checked for ${esc(place.name)} itself:</b> ${ownGaps.map((p) => esc(p.name)).join(", ")}. Not yet checked means the rules are unknown, not that there are none.</p>` : ""}
@@ -790,7 +789,7 @@
     const app = document.getElementById("app");
     const [index, creditFile] = await Promise.all([json("site/data/index.json", null), json("site/heroes/credits.json", { images: [] })]);
     if (!index) { app.innerHTML = '<section class="section"><h1>Data not built</h1><p>Run <code>python scripts/build_site.py</code>, then serve the repo folder over HTTP.</p></section>'; return; }
-    const ORDER = ["advisory", "entry", "visa-preparation", "activities", "zone-requirements", "health-entry", "local-law", "home-obligations", "culture-and-protocol", "languages", "affection-and-relationships", "births-and-family-support", "psychoactive-substances", "culture-cycles", "seasons-and-flow", "year-ahead", "consular", "money-and-cost", "works-and-purpose"];
+    const ORDER = ["advisory", "entry", "visa-preparation", "activities", "zone-requirements", "health-entry", "local-law", "australian-law-abroad", "culture-and-protocol", "languages", "affection-and-relationships", "births-and-family-support", "psychoactive-substances", "culture-cycles", "seasons-and-flow", "year-ahead", "consular", "money-and-cost", "works-and-purpose"];
     index.patterns.sort((a, b) => (ORDER.indexOf(a.id) + 1 || 99) - (ORDER.indexOf(b.id) + 1 || 99));
     index.byId = Object.fromEntries(index.places.map((p) => [p.id, p]));
     IDX = index;

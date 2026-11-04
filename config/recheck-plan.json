@@ -99,12 +99,12 @@
    "why": "Permit lead times decide when the approach phase starts."
   },
   {
-   "pattern": "home-obligations",
-   "check": "Home-base duties while away (see section D)",
-   "source": "Commonwealth, Queensland and council pages",
+   "pattern": "australian-law-abroad",
+   "check": "Australian law and guidance that applies to Australians overseas",
+   "source": "Commonwealth agency pages (DFAT, ABF, DAFF, ATO, Services Australia, AEC, AFP, AGD, Defence)",
    "baseline_days": 180,
    "frequency": "yearly",
-   "why": "Renewals fall due while travelling."
+   "why": "Rules and thresholds change."
   },
   {
    "pattern": "births-and-family-support",
@@ -2360,16 +2360,6 @@
    "items": []
   },
   {
-   "place": "au/minjerribah",
-   "name": "Minjerribah",
-   "advisory": "",
-   "cadence": "monthly",
-   "reasons": [
-    "snapshot evidence"
-   ],
-   "items": []
-  },
-  {
    "place": "au/nsw",
    "name": "New South Wales",
    "advisory": "",
@@ -2382,16 +2372,6 @@
   {
    "place": "au/qld",
    "name": "Queensland",
-   "advisory": "",
-   "cadence": "monthly",
-   "reasons": [
-    "snapshot evidence"
-   ],
-   "items": []
-  },
-  {
-   "place": "au/qld-council-6250",
-   "name": "Redland City",
    "advisory": "",
    "cadence": "monthly",
    "reasons": [
@@ -4984,151 +4964,5 @@
    ],
    "items": []
   }
- ],
- "home": {
-  "place": "au/minjerribah",
-  "chain": [
-   "au/minjerribah",
-   "au/qld-council-6250",
-   "au/qld",
-   "au"
-  ],
-  "baseline_days": 180,
-  "obligations": [
-   {
-    "level": "au/minjerribah",
-    "topic": "island-access",
-    "rule": "Passenger and vehicle ferries run from Toondah Harbour, Cleveland, to Dunwich (passenger about 25 minutes, vehicle about 45). Council lists the operators; book the vehicle ferry directly with the operator. Check that a hire car may travel to the island.",
-    "source": "https://www.redland.qld.gov.au/info/20125/our_suburbs_and_islands/205/north_stradbroke",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au/minjerribah",
-    "topic": "driving-and-vehicles",
-    "rule": "Residents who reasonably need a vehicle access permit to reach their home through the Minjerribah Recreation Area can apply for a fee exemption, with evidence, each year (Recreation Areas Management Regulation 2017 s58). Traditional Owners exercising native title rights are exempt from the fee; for Minjerribah, First Nations applicants need endorsement from the prescribed body corporate first. Renew before it lapses if you will be away at renewal time.",
-    "source": "https://www.qld.gov.au/environment/parks/permits/exemption-vap-fee",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au/minjerribah",
-    "topic": "camping-and-native-title",
-    "rule": "QYAC manages cultural heritage on Quandamooka Country under the Aboriginal Cultural Heritage Act 2003: anyone carrying out a land-use activity owes a duty of care (fines up to AUD 166,900 for individuals), and anything that may be cultural heritage should be left untouched and reported to QYAC. Resident-specific QYAC permits or native title permissions to arrange before leaving: not yet checked.",
-    "source": "https://qyac.net.au/cultural-heritage/",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au/qld-council-6250",
-    "topic": "property-and-rates",
-    "rule": "Redland City rates are billed quarterly; they can be paid online, by BPAY, phone, direct debit, post or in person, so set up payment before a long trip.",
-    "source": "https://www.redland.qld.gov.au/Rates-fees-and-infringements/Rates",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au/qld-council-6250",
-    "topic": "animals",
-    "rule": "Dogs and cats must be microchipped and registered with Council, and registration renewed every 12 months (online through myServices or Quick Pay, by phone or in person), so a renewal can fall due while you are away. A carer must keep the animal on your property and follow Local Law 2 (Animal Management), including a limit of 2 dogs and 2 cats per property without a permit.",
-    "source": "https://www.redland.qld.gov.au/Animals-and-pets/Dogs-and-cats/About-dogs-and-cats",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au/qld",
-    "topic": "driving-and-vehicles",
-    "rule": "Queensland does not issue international driving permits; check the destination's licensing rules, and get an IDP from the motoring club if needed, carrying your Queensland licence with it.",
-    "source": "https://www.qld.gov.au/transport/licensing/driver-licensing/overseas/driving-interstate-or-overseas",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au/qld",
-    "topic": "driving-and-vehicles",
-    "rule": "Vehicle registration can be renewed online from overseas; renew by the due date to avoid a late fee. An expired registration makes the vehicle unregistered and driving it is an offence.",
-    "source": "https://www.qld.gov.au/transport/registration/fees/pay/online",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au/qld",
-    "topic": "voting",
-    "rule": "For Queensland state elections, eligible voters who are overseas can vote by telephone during the early voting period.",
-    "source": "https://www.ecq.qld.gov.au/how-to-vote/ways-to-vote",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au",
-    "topic": "departure-and-return",
-    "rule": "On return, complete the Incoming Passenger Card accurately (a digital Australia Travel Declaration is being piloted on some Qantas flights). Adults can bring AUD 900 of general goods duty free; over the allowance, duty and tax apply to every item of that type. Goods claimed under the Tourist Refund Scheme must be declared.",
-    "source": "https://www.abf.gov.au/entering-and-leaving-australia/duty-free",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au",
-    "topic": "departure-and-return",
-    "rule": "Declare food, plant material and animal products, including goods you took overseas and brought back. Clean hiking, fishing and camping gear and footwear. Declared goods are not penalised under the Biosecurity Act 2015 even if refused; false or missing declarations can bring an infringement notice of up to AUD 7,280 or prosecution.",
-    "source": "https://www.agriculture.gov.au/biosecurity-trade/policy/faqs",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au",
-    "topic": "travel-advice-and-insurance",
-    "rule": "Smartraveller offers free email and SMS updates for each destination, and says that if you can't afford travel insurance, you can't afford to travel.",
-    "source": "https://www.smartraveller.gov.au/consular-services/resources/travel-smart",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au",
-    "topic": "consular-help-and-limits",
-    "rule": "Consular help is not a legal right and may be limited if your actions were illegal or repeatedly reckless. DFAT may replace passports (fee), give lists of doctors and lawyers, check on you if detained, contact family with consent and provide some notarial and voting services. It can't give legal advice, intervene in foreign courts, get you out of prison, pay bail, fines or medical bills, or arrange visas or work permits.",
-    "source": "https://www.smartraveller.gov.au/our-role/consular-services-charter",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au",
-    "topic": "laws-that-follow-you",
-    "rule": "Australian citizens and residents can be prosecuted in Australia for child sex offences committed overseas (Criminal Code Division 272); the AFP investigates.",
-    "source": "https://afp.gov.au/crimes/crimes-against-children/travelling-child-sex-offenders",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au",
-    "topic": "laws-that-follow-you",
-    "rule": "Bribing a foreign public official is an offence for Australians anywhere (Criminal Code s 70.2), with up to 10 years' imprisonment for individuals.",
-    "source": "https://www.ag.gov.au/crime/foreign-bribery/foreign-bribery-offences-and-penalties",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au",
-    "topic": "laws-that-follow-you",
-    "rule": "Supplying technology on the Defence and Strategic Goods List overseas, including by email, cloud access or screen-sharing, generally needs a Defence permit unless an exemption applies. Relevant only if your work touches controlled technology.",
-    "source": "https://www.defence.gov.au/business-industry/exporting/compliance/obligations-requirements",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au",
-    "topic": "tax-residency",
-    "rule": "You generally stay an Australian resident for tax if you go overseas temporarily and do not set up a permanent home elsewhere; moving from country to country does not create one. Residents declare worldwide income and may claim a foreign income tax offset. You can lodge from overseas through myTax (set myGov sign-in to work abroad).",
-    "source": "https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/your-tax-residency/australian-resident-for-tax-purposes",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au",
-    "topic": "health-cover",
-    "rule": "Medicare does not cover you overseas. Reciprocal health care agreements with 11 countries (Belgium, Finland, Ireland, Italy, Malta, the Netherlands, New Zealand, Norway, Slovenia, Sweden, the UK) may cover urgent care, usually with a co-payment; they don't cover evacuation and don't replace travel insurance. Carry your passport and a current Medicare card.",
-    "source": "https://www.smartraveller.gov.au/travel-essentials/travel-health/using-healthcare-agreement-medical-care",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au",
-    "topic": "health-cover",
-    "rule": "Strict rules apply to taking PBS medicines overseas; carry them for personal use and check they are legal at the destination.",
-    "source": "https://www.servicesaustralia.gov.au/health-care-planning-when-going-overseas?context=60040",
-    "checked": "2026-11-02"
-   },
-   {
-    "level": "au",
-    "topic": "voting",
-    "rule": "Federal voting is not compulsory while overseas, but tell the AEC (overseas notification form) or you will be asked to explain. Enrolled voters leaving for longer can register as an overseas elector up to 3 months before or within 3 years after leaving, valid 6 years; vote by post or in person at selected missions.",
-    "source": "https://www.aec.gov.au/overseas/overseas-elector.htm",
-    "checked": "2026-11-02"
-   }
-  ],
-  "topics_not_yet_recorded": []
- }
+ ]
 }

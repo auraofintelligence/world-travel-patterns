@@ -1,4 +1,4 @@
-"""Destination law stacks and the home-base (outbound) stack. Run with: python -m unittest discover tests"""
+"""Destination law stacks and the Australian-law-abroad record. Run with: python -m unittest discover tests"""
 import json
 import pathlib
 import subprocess
@@ -7,40 +7,29 @@ import unittest
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
-from lib import ancestors, applies, home_chain, load_patterns, load_places, read, vetting_path  # noqa: E402
+from lib import applies, load_patterns, load_places, read, vetting_path  # noqa: E402
 
 
-class HomeBase(unittest.TestCase):
+class AustralianLawAbroad(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.places, cls.patterns = load_places(), load_patterns()
-        cls.home = read(ROOT / "config/home-base.json")["place"]
 
-    def test_chain_runs_country_to_home(self):
-        chain = home_chain()
-        self.assertEqual(chain[-1], self.home)
-        self.assertEqual(chain, list(reversed([self.home] + ancestors(self.places, self.home))))
-
-    def test_pattern_applies_only_on_home_chain(self):
-        pat = self.patterns["home-obligations"]
-        self.assertTrue(pat["home_only"])
-        for pid in ("fj", "us", "au/nsw"):
+    def test_pattern_applies_only_to_australia(self):
+        pat = self.patterns["australian-law-abroad"]
+        for pid in ("fj", "us", "au/nsw", "au/qld"):
             if pid in self.places:
                 self.assertFalse(applies(pat, self.places[pid]), pid)
-        for pid in home_chain():
-            self.assertTrue(applies(pat, self.places[pid]), pid)
+        self.assertTrue(applies(pat, self.places["au"]))
 
-    def test_home_records_are_sourced(self):
-        pat = self.patterns["home-obligations"]
-        for pid in home_chain():
-            body = read(vetting_path(pid), {"patterns": {}})["patterns"].get("home-obligations")
-            if not body:
-                continue
-            self.assertTrue(body["sources"], pid)
-            for law in body["laws"]:
-                self.assertIn(law["topic"], pat["topics"], pid)
-                self.assertTrue(law["source"].startswith("https://"), pid)
-                self.assertNotIn("\u2014", law["rule"], pid)
+    def test_records_are_sourced(self):
+        pat = self.patterns["australian-law-abroad"]
+        body = read(vetting_path("au"), {"patterns": {}})["patterns"].get("australian-law-abroad")
+        self.assertTrue(body["sources"])
+        for law in body["laws"]:
+            self.assertIn(law["topic"], pat["topics"])
+            self.assertTrue(law["source"].startswith("https://"))
+            self.assertNotIn("\u2014", law["rule"])
 
 
 class DestinationStacks(unittest.TestCase):
@@ -61,9 +50,6 @@ class DestinationStacks(unittest.TestCase):
         s = self.data["summary"]
         self.assertEqual(len(levels), s["levels"])
         self.assertEqual(sum(1 for v in levels.values() if v is None), s["levels_not_yet_checked"])
-
-    def test_home_stack_paired(self):
-        self.assertEqual([lp for lp, _ in self.data["home"]["stack"]], home_chain())
 
 
 if __name__ == "__main__":

@@ -45,7 +45,9 @@ The GAJRA Earth register: connective, not assimilative; each place interpreted l
 
 Inheritance decides what applies, not what is printed. The website shows each record once, on the page of the level that holds it. A deeper page shows its own records in full, one line per level above listing what still applies with links up, and one line naming what isn't checked at its own level. Never copy a parent's text into a child's record, and never render a parent's record on a child's page.
 
-Home obligations (`home-obligations`, `home_only`) belong to the home base and the levels above it (`config/home-base.json`). They show on those pages only. A country page outside Australia gets one line linking to Australia's page for the laws that follow a traveller overseas.
+Australian law that travels with you (`australian-law-abroad`, `only_places: ["au"]`) is general information for any Australian traveller, held once on Australia's record. A country page outside Australia gets one line linking to Australia's page for it.
+
+No personal life details or personal itineraries in this repo (no home address, residence obligations, family trips or planned personal trips). Australian law abroad and travel-interest patterns are fine.
 
 ## Record format
 
