@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-05",
    "evidence": "official",
    "laws": [
     {
@@ -37,6 +37,15 @@
      "level": "region",
      "source": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
      "checked": "2026-11-02"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Moraine Lake Road (Banff National Park) is closed to personal vehicles year-round; access only by Parks Canada shuttle (reserve; seats released at 8 am MDT two days ahead), licensed commercial operators or as a registered Moraine Lake Lodge guest.",
+     "level": "site",
+     "source": "https://parks.canada.ca/pn-np/ab/banff/visit/parkbus/louise",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Visiting Lake Louise and Moraine Lake"
     }
    ],
    "sources": [
@@ -46,8 +55,16 @@
      "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
      "checked": "2026-11-02",
      "supports": "legal age, where to buy and public possession limit by province or territory (read via a search-index snapshot)"
+    },
+    {
+     "title": "Visiting Lake Louise and Moraine Lake",
+     "authority": "Parks Canada",
+     "url": "https://parks.canada.ca/pn-np/ab/banff/visit/parkbus/louise",
+     "checked": "2026-11-05",
+     "supports": "road closure, shuttle reservations (read directly 2026-11-05)"
     }
-   ]
+   ],
+   "note": "Moraine Lake access added 5 November 2026."
   },
   "psychoactive-substances": {
    "status": "partly-mapped",

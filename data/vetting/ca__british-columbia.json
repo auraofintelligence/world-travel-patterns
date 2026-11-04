@@ -57,7 +57,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-05",
    "evidence": "official",
    "laws": [
     {
@@ -73,6 +73,15 @@
      "level": "region",
      "source": "https://www2.gov.bc.ca/gov/content/safety/public-safety/cannabis/where-you-can-consume",
      "checked": "2026-11-02"
+    },
+    {
+     "topic": "permits-and-zones",
+     "rule": "Free day-use passes are required at Joffre Lakes, Garibaldi and Golden Ears in summer and Mount Seymour in winter; book online.",
+     "level": "site",
+     "source": "https://bcparks.ca/reservations/day-use-passes/",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Day-use passes"
     }
    ],
    "sources": [
@@ -89,8 +98,16 @@
      "url": "https://www2.gov.bc.ca/gov/content/safety/public-safety/cannabis/where-you-can-consume",
      "checked": "2026-11-02",
      "supports": "public consumption rules (read via a search-index snapshot)"
+    },
+    {
+     "title": "Day-use passes",
+     "authority": "BC Parks",
+     "url": "https://bcparks.ca/reservations/day-use-passes/",
+     "checked": "2026-11-05",
+     "supports": "which parks need passes (read directly 2026-11-05)"
     }
-   ]
+   ],
+   "note": "BC Parks day-use passes added 5 November 2026; check the page for season dates."
   }
  }
 }

@@ -25,6 +25,47 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "permits-and-zones",
+     "rule": "National park entry (general rate, which applies to foreign visitors), daily pass from 1 June 2026: Los Glaciares (including Portada El Chaltén) ARS 50,000; Perito Moreno and Monte León ARS 25,000. Children 0 to 6 free. Flexipass 3- and 7-day passes are also sold. No RBA rate for ARS.",
+     "level": "region",
+     "source": "https://www.argentina.gob.ar/parquesnacionales/tarifas",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Pase diario"
+    },
+    {
+     "topic": "permits-and-zones",
+     "rule": "Los Glaciares north zone (Los Cóndores, Cerro Torre Base Fitz Roy, Río Eléctrico): tickets online only, paid by credit or debit card; no cash.",
+     "level": "site",
+     "source": "https://www.argentina.gob.ar/parquesnacionales/patagonia-austral/parque-nacional-los-glaciares/tarifas",
+     "checked": "2026-11-05",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Derechos de acceso a Parques Nacionales",
+     "authority": "Administración de Parques Nacionales (APN)",
+     "url": "https://www.argentina.gob.ar/parquesnacionales/tarifas",
+     "checked": "2026-11-05",
+     "supports": "fees from 1 June 2026 (read directly 2026-11-05)"
+    },
+    {
+     "title": "Parque Nacional Los Glaciares, tarifas",
+     "authority": "APN",
+     "url": "https://www.argentina.gob.ar/parquesnacionales/patagonia-austral/parque-nacional-los-glaciares/tarifas",
+     "checked": "2026-11-05",
+     "supports": "north zone online-only, card only (read directly 2026-11-05)"
+    }
+   ],
+   "note": "National parks only; provincial parks and reserves not yet checked."
   }
  }
 }

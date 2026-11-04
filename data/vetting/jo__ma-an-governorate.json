@@ -1,0 +1,112 @@
+{
+ "place": "jo/ma-an-governorate",
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "tax-and-fees",
+     "rule": "Petra for foreigners: one day JD 50, two days JD 55, three days JD 60 for visitors staying at least one night in Jordan; JD 90 for a one-day visitor not staying overnight. No RBA rate for JOD.",
+     "level": "site",
+     "source": "https://mota.gov.jo/EN/Pages/Entrance_Fees",
+     "checked": "2026-11-05",
+     "by": "hand"
+    },
+    {
+     "topic": "tax-and-fees",
+     "rule": "Multi-day tickets must be used on consecutive days; a valid passport must be shown at the ticket office; children under 12 enter free by day. Petra by Night needs a separate ticket and is not covered by day tickets or the Jordan Pass; tickets are non-refundable and non-transferable.",
+     "level": "site",
+     "source": "https://www.visitpetra.jo/en/Petrafees",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Notes"
+    },
+    {
+     "topic": "tax-and-fees",
+     "rule": "The Jordan Pass (JD 70, 75 or 80 for one, two or three Petra days) includes entry to over 40 sites and waives the tourist visa fee if bought before arrival and you stay at least two nights (3 days).",
+     "level": "region",
+     "source": "https://www.jordanpass.jo/contents/Prices.aspx",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Packages"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Entrance Fees",
+     "authority": "Ministry of Tourism and Antiquities, Jordan",
+     "url": "https://mota.gov.jo/EN/Pages/Entrance_Fees",
+     "checked": "2026-11-05",
+     "supports": "site entrance fees for foreigners (read directly 2026-11-05)"
+    },
+    {
+     "title": "Petra fees",
+     "authority": "Petra Development and Tourism Region Authority (Visit Petra)",
+     "url": "https://www.visitpetra.jo/en/Petrafees",
+     "checked": "2026-11-05",
+     "supports": "ticket notes (search-index snapshot)"
+    },
+    {
+     "title": "PDTRA Online Ticketing",
+     "authority": "Petra Development and Tourism Region Authority",
+     "url": "https://petrapass.pdtra.gov.jo/Online/Index",
+     "checked": "2026-11-05",
+     "supports": "non-refundable, 8-month e-ticket validity (search-index snapshot)"
+    },
+    {
+     "title": "Jordan Pass packages",
+     "authority": "Jordan Pass (Ministry of Tourism and Antiquities)",
+     "url": "https://www.jordanpass.jo/contents/Prices.aspx",
+     "checked": "2026-11-05",
+     "supports": "pass prices and visa waiver (search-index snapshot)"
+    }
+   ],
+   "note": "Petra only; Visit Petra and PDTRA pages refused direct reads (HTTP 451), so their notes are from search-index snapshots."
+  },
+  "ancient-sites-and-mysteries": {
+   "status": "partly-mapped",
+   "sites": [
+    {
+     "name": "Petra",
+     "place": "jo/ma-an-governorate",
+     "kind": "rock-cut",
+     "era": "carved into the rock more than 2,000 years ago (Jordan Pass page)",
+     "what": "UNESCO World Heritage Site in pink-hued rock; the Petra Archaeological Museum and Petra Nabataean Museum are included in the site fee.",
+     "access": {
+      "opening": "Check with the Visitor Center; Petra by Night is a separate event.",
+      "tickets": "Foreigners JD 50 one day, 55 two days, 60 three days (staying at least one night in Jordan); JD 90 for non-overnight visitors. No RBA rate for JOD.",
+      "permits": "none found"
+     },
+     "sources": [
+      {
+       "authority": "Ministry of Tourism and Antiquities, Jordan",
+       "title": "Entrance Fees",
+       "url": "https://mota.gov.jo/EN/Pages/Entrance_Fees",
+       "read": "read directly 2026-11-05"
+      },
+      {
+       "authority": "Jordan Pass",
+       "title": "Jordan Pass packages",
+       "url": "https://www.jordanpass.jo/contents/Prices.aspx",
+       "read": "search-index snapshot"
+      }
+     ],
+     "checked": "2026-11-05"
+    }
+   ],
+   "sources": [
+    {
+     "authority": "Ministry of Tourism and Antiquities, Jordan",
+     "title": "Entrance Fees",
+     "url": "https://mota.gov.jo/EN/Pages/Entrance_Fees",
+     "read": "read directly 2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "evidence": "Official pages; read directly unless marked search snapshot.",
+   "summary": "1 site in Ma'an."
+  }
+ }
+}

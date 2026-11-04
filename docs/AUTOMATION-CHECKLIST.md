@@ -84,6 +84,9 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | 2027-07-18 | election | ht | Presidential, Senate and Chamber of Deputies elections | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-08 (month only) | law-or-rule-date | bt | zone-requirements: ...checkpost), Gelephu (Aipoli Bridge) and Samdrup Jongkhar (Pinchinna checkpost) don't pay the SDF (2 June 2026 to August 2027). Going beyond the | Recheck the official source about 60 days before, and again on the date. |
 | 2027-08-31 | law-or-rule-date | bt | visa-preparation: Sustainable Development Fee, per adult per night (discount from USD 200, to 31 August 2027) | Recheck the official source about 60 days before, and again on the date. |
+| 2027-10-31 | law-or-rule-date | za/limpopo | local-law: Kruger National Park daily conservation fee, 1 November 2026 to 31 October 2027: international visi | Recheck the official source about 60 days before, and again on the date. |
+| 2027-10-31 | law-or-rule-date | za/mpumalanga | local-law: Kruger National Park daily conservation fee, 1 November 2026 to 31 October 2027: international visi | Recheck the official source about 60 days before, and again on the date. |
+| 2027-10-31 | law-or-rule-date | za/western-cape | local-law: Table Mountain National Park daily conservation fees, 1 November 2026 to 31 October 2027, international visi | Recheck the official source about 60 days before, and again on the date. |
 | 2027-12-31 | law-or-rule-date | us/new-mexico | psychoactive-substances: ...or depression, PTSD, substance use disorders and end-of-life care. The Act requires the program to be running by 31 December 2027; one Department of | Recheck the official source about 60 days before, and again on the date. |
 | 2028-10 (month only) | law-or-rule-date | ch/canton-of-basel-landschaft | psychoactive-substances: ...nabis to enrolled participants through specialised shops in Liestal and Allschwil. Planned from November 2023 to October 2028, with up to 3,950 p | Recheck the official source about 60 days before, and again on the date. |
 | date not announced | pending-event-date | ae | GITEX Global 2027 | organiser lists December 2027 in Dubai, no exact dates (checked 2026-11-01). Date not announced; check monthly from November 2026. |
@@ -120,7 +123,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-434 locations have specific watch items.
+449 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -141,6 +144,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ps | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
 | ru | Do not travel | weekly | high advisory, snapshot evidence |  |
 | sa | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
+| sa/medina-province | Do not travel | weekly | snapshot evidence |  |
 | sd | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
 | so | Do not travel | weekly | election, high advisory, snapshot evidence | election 2026-12-31 |
 | ss | Do not travel | weekly | election, high advisory | election 2026-12-22 |
@@ -177,6 +181,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | is | Exercise normal safety precautions | fortnightly | pending event, snapshot evidence, watch item | eu-etias; pending date: Iceland Airwaves 2027 |
 | it | Exercise normal safety precautions | fortnightly | pending event, snapshot evidence, watch item | eu-etias; pending date: Biennale Arte (next edition); pending date: 84th Venice International Film Festival 2027 |
 | jo | Reconsider your need to travel | fortnightly | high advisory, pending event, snapshot evidence | pending date: Jerash Festival 2027 |
+| jo/ma-an-governorate | Reconsider your need to travel | fortnightly | snapshot evidence |  |
 | kr | Exercise normal safety precautions | fortnightly | dated rule, snapshot evidence, watch item | kr-keta-2026; entry date 2026-12-31 |
 | kw | Reconsider your need to travel | fortnightly | high advisory, snapshot evidence |  |
 | li |  | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 3 confirm-in-writing |
@@ -261,6 +266,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ci | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | ck | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | cl | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
+| cl/rapa-nui | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cm | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | cn/beijing | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/chongqing | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -296,6 +302,13 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ec | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ec/galapagos-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| eg/alexandria-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| eg/aswan-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| eg/giza-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| eg/luxor-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| eg/minya-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| eg/qena-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| eg/sohag-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eh |  | monthly | snapshot evidence |  |
 | es/andalusia | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | es/balearic-islands | Exercise normal safety precautions | monthly | snapshot evidence |  |
@@ -437,7 +450,9 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | pe/lima-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pf | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | pg | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
+| pg/east-sepik-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pg/eastern-highlands-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| pg/milne-bay-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pg/western-highlands-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ph | Exercise a high degree of caution | monthly | pending event, snapshot evidence | pending date: Independence Day 2027 (12 June) |
 | pm |  | monthly | snapshot evidence |  |
@@ -556,5 +571,8 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | xk | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | yt |  | monthly | snapshot evidence |  |
 | za | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| za/limpopo | Exercise a high degree of caution | monthly | dated rule | local-law date 2027-10-31 |
+| za/mpumalanga | Exercise a high degree of caution | monthly | dated rule | local-law date 2027-10-31 |
+| za/western-cape | Exercise a high degree of caution | monthly | dated rule | local-law date 2027-10-31 |
 | zm | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | zw | Exercise a high degree of caution | monthly | snapshot evidence |  |
