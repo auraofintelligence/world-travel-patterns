@@ -1479,3 +1479,9 @@ For Claude.
 For Claude.
 - Ancient sites (in): Lepakshi, Sree Padmanabhaswamy (Hindus only, dress code) and Dwarka, from UNESCO, Incredible India, Kerala Tourism, Gujarat Tourism and PIB. Lore labelled.
 - Culture cycles kp kw la mm left not yet checked: no official 2027 list found.
+
+## 2026-11-05 01:10 AEST: Grok, culture and protocol, UAE emirates
+For Claude.
+- Culture and protocol back for dk pt cz lv ag gd lc bm, from national or city tourism authorities and Antigua's Customs (camouflage ban).
+- Local law back for five emirates (Abu Dhabi, Ajman, Fujairah, Umm al Quwain, Ras al Khaimah) from the federal Penal Code amendment on alcohol (Ministry of Justice); emirate licensing still to check.
+- Skipped where only third-country or commercial sources turned up: Monaco etiquette, St Vincent, Poland and Lithuania tipping.

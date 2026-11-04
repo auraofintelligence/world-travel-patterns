@@ -1,4 +1,37 @@
 {
  "place": "ae/emirate-of-abu-dhabi",
- "patterns": {}
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-04",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "alcohol",
+     "rule": "UAE federal law (Federal Decree-Law 15 of 2020 amending the Penal Code) sets the drinking age at 21 and allows alcohol only in licensed venues and private homes where the emirate permits it. Drinking in public or in an unlicensed place is an offence. This emirate's own licensing rules are published in its official gazette; ask your hotel what applies.",
+     "level": "subnational",
+     "source": "https://www.moj.gov.ae/assets/2023/Federal%20Decree%20Law%20No.%20(15)%20of%202020%20Concerning%20the%20Penal%20Code.pdf.aspx",
+     "checked": "2026-11-04",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Federal Decree-Law No. 15 of 2020 amending the Penal Code",
+     "authority": "Ministry of Justice, UAE",
+     "url": "https://www.moj.gov.ae/assets/2023/Federal%20Decree%20Law%20No.%20(15)%20of%202020%20Concerning%20the%20Penal%20Code.pdf.aspx",
+     "checked": "2026-11-04",
+     "supports": "alcohol rules (search-index snapshot)"
+    },
+    {
+     "title": "Where to find local laws of the UAE's emirates",
+     "authority": "UAE Government official portal (u.ae)",
+     "url": "https://u.ae/en/information-and-services/justice-safety-and-the-law/Law/how-are-uae-laws-issued-and-how-to-find-them/where-to-find-local-laws-of-the-uae-emirates",
+     "checked": "2026-11-04",
+     "supports": "emirate gazettes (search-index snapshot)"
+    }
+   ],
+   "note": "Federal rule only; emirate-level licensing not yet checked."
+  }
+ }
 }
