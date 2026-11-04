@@ -1658,3 +1658,7 @@ For Claude.
 
 ## 5 November 2026, 01:55 AEST
 - Added a central bank fallback for A$ rates: data/sources/central-bank-rates.json plus a fallback branch in scripts/money_rates.py and tests/test_money_fallback.py. The RBA stays first; where it publishes no rate, the destination central bank's own rate (cited and dated, marked "about") is used, crossed via the RBA USD or EUR rate where the bank quotes against those. Covers PLN, CZK, RSD, MKD, BAM, XPF, PEN and KES. Not added: IRR (several official rates), EGP (CBE page unreadable), ALL (date of the Bank of Albania figure unconfirmed).
+
+## 5 November 2026, 01:59 AEST
+- Extended the central bank fallback to ARS (BCRA), BRL (BCB PTAX), COP (official TRM), CLP (dólar observado via SII, 27 Oct), ZAR (SARB), NAD (Bank of Namibia 1:1 with ZAR), JOD (CBJ peg 0.709), SAR (SAMA peg 3.75) and TOP (NRBT, 4 Nov). fallback_rate now chains one pegged currency through another.
+- Swept earlier "No RBA rate" fees: 49 rules now carry an approximate A$ figure per amount, citing the central bank rate (sources added to each record). Still without a rate: EGP, MXN, IRR, GTQ, BOB, ALL, NPR, LKR, LAK, KHR, FJD, VUV, WST (bank pages blocked, undated, or multiple official rates).

@@ -302,8 +302,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/brazil",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "PTAX closing rate (selling), AUD, 30 Oct 2026",
+     "authority": "Banco Central do Brasil",
+     "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaDia(moeda=@moeda,dataCotacao=@dataCotacao)?@moeda='AUD'&@dataCotacao='10-30-2026'&$format=json",
+     "checked": "2026-11-05",
+     "supports": "Banco Central do Brasil rate on 2026-10-30"
     }
-   ]
+   ],
+   "rate_and_date": "A$1 = about 3.8138 BRL (Banco Central do Brasil, 30 October 2026; no RBA rate for BRL)"
   },
   "health-entry": {
    "status": "conditional",

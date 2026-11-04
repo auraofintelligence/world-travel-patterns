@@ -32,7 +32,7 @@
    "laws": [
     {
      "topic": "permits-and-fees",
-     "rule": "Una National Park, Štrbački buk adult ticket: KM 8 (Jan, Feb, Dec), KM 12 (Mar, Apr, Nov), KM 16 (May, Jun, Sep, Oct), KM 20 (Jul, Aug); children 7 to 14 KM 6 to 12; under 7 free. (No RBA rate for BAM)",
+     "rule": "Una National Park, Štrbački buk adult ticket: KM 8 (Jan, Feb, Dec), KM 12 (Mar, Apr, Nov), KM 16 (May, Jun, Sep, Oct), KM 20 (Jul, Aug); children 7 to 14 KM 6 to 12; under 7 free. (No RBA rate for BAM; at the Central Bank of Bosnia and Herzegovina rate of 30 October 2026 crossed via the RBA EUR rate of 30 October 2026, A$1 = about 1.2308 BAM: KM 8 ≈ A$6.50; KM 12 ≈ A$9.75; KM 16 ≈ A$13.00; KM 20 ≈ A$16.25; KM 6 ≈ A$4.87)",
      "level": "region",
      "source": "https://npuna.com/wp-content/uploads/2020/03/Cjenovnik-2026.pdf",
      "checked": "2026-11-05",
@@ -47,6 +47,13 @@
      "url": "https://npuna.com/wp-content/uploads/2020/03/Cjenovnik-2026.pdf",
      "checked": "2026-11-05",
      "supports": "Štrbački buk ticket by season (read directly 2026-11-05)"
+    },
+    {
+     "title": "Currency board: fixed exchange rate 1 EUR = 1.95583 KM",
+     "authority": "Central Bank of Bosnia and Herzegovina",
+     "url": "https://www.cbbh.ba/",
+     "checked": "2026-11-05",
+     "supports": "BAM fallback rate, 2026-10-30 (read directly 2026-11-05)"
     }
    ],
    "note": "Read directly."

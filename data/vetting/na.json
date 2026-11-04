@@ -37,8 +37,30 @@
      "url": "https://www.wikidata.org/wiki/Property:P38",
      "checked": "2026-11-01",
      "supports": "currencies in use"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
+     "checked": "2026-11-05",
+     "supports": "A$ exchange rates on 30 October 2026"
+    },
+    {
+     "title": "Monetary Policy: one-to-one parity between the Namibia Dollar and the South African Rand",
+     "authority": "Bank of Namibia",
+     "url": "https://www.bon.com.na/Bank/Monetary-Policy.aspx",
+     "checked": "2026-11-05",
+     "supports": "Bank of Namibia rate on 2026-10-30"
+    },
+    {
+     "title": "Rand per US Dollar (EXCX135D), 30 Oct 2026",
+     "authority": "South African Reserve Bank",
+     "url": "https://custom.resbank.co.za/SarbWebApi/WebIndicators/Shared/GetTimeseriesObservations/EXCX135D/2026-10-30/2026-10-30",
+     "checked": "2026-11-05",
+     "supports": "South African Reserve Bank rate on 2026-10-30"
     }
-   ]
+   ],
+   "rate_and_date": "A$1 = about 11.7177 NAD (Bank of Namibia, 30 October 2026, at par with ZAR, crossed via the South African Reserve Bank ZAR rate; no RBA rate for NAD); A$1 = about 11.7177 ZAR (South African Reserve Bank, 30 October 2026, crossed via the RBA USD rate of 30 October 2026; no RBA rate for ZAR)"
   },
   "consular": {
    "status": "neighbour",

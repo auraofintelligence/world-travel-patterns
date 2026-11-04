@@ -33,7 +33,7 @@
    "laws": [
     {
      "topic": "permits-and-fees",
-     "rule": "Białowieża National Park: the 'Do Dębu Jagiełły' route in the Reserve protection area (former Strict Reserve) is entry with a guide only, zł 10 (concession zł 5). European Bison Show Reserve zł 25 (concession zł 15); closed 1 and 7 January, 1 November, 25 December and Easter Mondays. (No RBA rate for PLN)",
+     "rule": "Białowieża National Park: the 'Do Dębu Jagiełły' route in the Reserve protection area (former Strict Reserve) is entry with a guide only, zł 10 (concession zł 5). European Bison Show Reserve zł 25 (concession zł 15); closed 1 and 7 January, 1 November, 25 December and Easter Mondays. (No RBA rate for PLN; at the Narodowy Bank Polski rate of 30 October 2026, A$1 = about 2.7598 PLN: zł 10 ≈ A$3.62; zł 5 ≈ A$1.81; zł 25 ≈ A$9.06; zł 15 ≈ A$5.44)",
      "level": "region",
      "source": "https://bpn.gov.pl/godziny-otwarcia-i-oplaty",
      "checked": "2026-11-05",
@@ -48,6 +48,13 @@
      "url": "https://bpn.gov.pl/godziny-otwarcia-i-oplaty",
      "checked": "2026-11-05",
      "supports": "prices and guide requirement (read directly 2026-11-05)"
+    },
+    {
+     "title": "Table A of average exchange rates 212/A/NBP/2026 (AUD)",
+     "authority": "Narodowy Bank Polski",
+     "url": "https://api.nbp.pl/api/exchangerates/rates/a/aud/2026-10-30/?format=json",
+     "checked": "2026-11-05",
+     "supports": "PLN fallback rate, 2026-10-30 (read directly 2026-11-05)"
     }
    ],
    "note": "Read directly."

@@ -33,7 +33,7 @@
    "laws": [
     {
      "topic": "tax-and-fees",
-     "rule": "Kruger National Park daily conservation fee, 1 November 2026 to 31 October 2027: international visitors R692 adult (12+), R345 child (2 to 11); SADC nationals R296 and R147. No RBA rate for ZAR.",
+     "rule": "Kruger National Park daily conservation fee, 1 November 2026 to 31 October 2027: international visitors R692 adult (12+), R345 child (2 to 11); SADC nationals R296 and R147. (No RBA rate for ZAR; at the South African Reserve Bank rate of 30 October 2026 crossed via the RBA USD rate of 30 October 2026, A$1 = about 11.7177 ZAR: R692 ≈ A$59.06; R345 ≈ A$29.44; R296 ≈ A$25.26; R147 ≈ A$12.55)",
      "level": "site",
      "source": "https://www.sanparks.org/parks/kruger/rates-entry-fees",
      "checked": "2026-11-05",
@@ -47,6 +47,13 @@
      "url": "https://www.sanparks.org/parks/kruger/rates-entry-fees",
      "checked": "2026-11-05",
      "supports": "daily conservation fees (read directly 2026-11-05 (via fetch tool))"
+    },
+    {
+     "title": "Rand per US Dollar (EXCX135D), 30 Oct 2026",
+     "authority": "South African Reserve Bank",
+     "url": "https://custom.resbank.co.za/SarbWebApi/WebIndicators/Shared/GetTimeseriesObservations/EXCX135D/2026-10-30/2026-10-30",
+     "checked": "2026-11-05",
+     "supports": "ZAR fallback rate, 2026-10-30 (read directly 2026-11-05)"
     }
    ],
    "note": "Kruger only (the park spans Limpopo and Mpumalanga)."

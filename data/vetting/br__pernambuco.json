@@ -41,7 +41,7 @@
     },
     {
      "topic": "tax-and-fees",
-     "rule": "Fernando de Noronha Environmental Preservation Fee (TPA) 2026 is charged per stay and rises steeply with length: 1 day R$105.79, 5 days R$520.50, 10 days R$901.36, 30 days R$7,460.56. Visitors with a credit card issued outside Brazil can pay only at the island airport counter. No RBA rate for BRL.",
+     "rule": "Fernando de Noronha Environmental Preservation Fee (TPA) 2026 is charged per stay and rises steeply with length: 1 day R$105.79, 5 days R$520.50, 10 days R$901.36, 30 days R$7,460.56. Visitors with a credit card issued outside Brazil can pay only at the island airport counter. (No RBA rate for BRL; at the Banco Central do Brasil rate of 30 October 2026, A$1 = about 3.8138 BRL: R$105.79 ≈ A$27.74; R$520.50 ≈ A$136; R$901.36 ≈ A$236; R$7,460.56 ≈ A$1,956)",
      "level": "site",
      "source": "https://www.noronha.pe.gov.br/catalogo-de-servicos-old2/taxa-de-preservacao-ambiental-tpa/",
      "checked": "2026-11-05",
@@ -63,6 +63,13 @@
      "url": "https://www.noronha.pe.gov.br/catalogo-de-servicos-old2/taxa-de-preservacao-ambiental-tpa/",
      "checked": "2026-11-05",
      "supports": "2026 TPA table, payment rule (read directly 2026-11-05)"
+    },
+    {
+     "title": "PTAX closing rate (selling), AUD, 30 Oct 2026",
+     "authority": "Banco Central do Brasil",
+     "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaDia(moeda=@moeda,dataCotacao=@dataCotacao)?@moeda='AUD'&@dataCotacao='10-30-2026'&$format=json",
+     "checked": "2026-11-05",
+     "supports": "BRL fallback rate, 2026-10-30 (read directly 2026-11-05)"
     }
    ],
    "note": "From the Fernando de Noronha district administration. Fernando de Noronha TPA added 5 November 2026; the national marine park fee not yet checked."

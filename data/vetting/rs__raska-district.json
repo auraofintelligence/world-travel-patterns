@@ -8,7 +8,7 @@
    "laws": [
     {
      "topic": "permits-and-fees",
-     "rule": "Kopaonik National Park charges a vehicle fee at the Đorov Bridge, Brzeće and Sunčana Dolina gates: cars and motorcycles RSD 300 a day, RSD 800 a week, RSD 2,000 a year. Hybrid and electric vehicles are exempt but must send registration proof within 8 days of first entry or the invoice stands. (No RBA rate for RSD)",
+     "rule": "Kopaonik National Park charges a vehicle fee at the Đorov Bridge, Brzeće and Sunčana Dolina gates: cars and motorcycles RSD 300 a day, RSD 800 a week, RSD 2,000 a year. Hybrid and electric vehicles are exempt but must send registration proof within 8 days of first entry or the invoice stands. (No RBA rate for RSD; at the National Bank of Serbia rate of 30 October 2026, A$1 = about 73.8203 RSD: RSD 300 ≈ A$4.06; RSD 800 ≈ A$10.84; RSD 2,000 ≈ A$27.09)",
      "level": "region",
      "source": "https://npkopaonik.rs/en/fee-for-the-use-of-motor-vehicles/",
      "checked": "2026-11-05",
@@ -23,6 +23,13 @@
      "url": "https://npkopaonik.rs/en/fee-for-the-use-of-motor-vehicles/",
      "checked": "2026-11-05",
      "supports": "vehicle fee, toll gates, exemption (read directly 2026-11-05)"
+    },
+    {
+     "title": "Official middle exchange rate list of 30.10.2026",
+     "authority": "National Bank of Serbia",
+     "url": "https://webappcenter.nbs.rs/ExchangeRateWebApp/ExchangeRate/IndexPrint?ExchangeRateListID=fe942b30-3cf0-42a8-9257-6baded09c539",
+     "checked": "2026-11-05",
+     "supports": "RSD fallback rate, 2026-10-30 (read directly 2026-11-05)"
     }
    ],
    "note": "Read directly."

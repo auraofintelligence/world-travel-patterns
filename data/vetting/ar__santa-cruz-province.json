@@ -33,7 +33,7 @@
    "laws": [
     {
      "topic": "permits-and-zones",
-     "rule": "National park entry (general rate, which applies to foreign visitors), daily pass from 1 June 2026: Los Glaciares (including Portada El Chaltén) ARS 50,000; Perito Moreno and Monte León ARS 25,000. Children 0 to 6 free. Flexipass 3- and 7-day passes are also sold. No RBA rate for ARS.",
+     "rule": "National park entry (general rate, which applies to foreign visitors), daily pass from 1 June 2026: Los Glaciares (including Portada El Chaltén) ARS 50,000; Perito Moreno and Monte León ARS 25,000. Children 0 to 6 free. Flexipass 3- and 7-day passes are also sold. (No RBA rate for ARS; at the Banco Central de la República Argentina rate of 30 October 2026, A$1 = about 1,078.2486 ARS: ARS 50,000 ≈ A$46.37; ARS 25,000 ≈ A$23.19)",
      "level": "region",
      "source": "https://www.argentina.gob.ar/parquesnacionales/tarifas",
      "checked": "2026-11-05",
@@ -63,6 +63,13 @@
      "url": "https://www.argentina.gob.ar/parquesnacionales/patagonia-austral/parque-nacional-los-glaciares/tarifas",
      "checked": "2026-11-05",
      "supports": "north zone online-only, card only (read directly 2026-11-05)"
+    },
+    {
+     "title": "Cotizaciones por fecha, 30 Oct 2026 (DOLAR AUSTRALIA)",
+     "authority": "Banco Central de la República Argentina",
+     "url": "https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones?fecha=2026-10-30",
+     "checked": "2026-11-05",
+     "supports": "ARS fallback rate, 2026-10-30 (read directly 2026-11-05)"
     }
    ],
    "note": "National parks only; provincial parks and reserves not yet checked."

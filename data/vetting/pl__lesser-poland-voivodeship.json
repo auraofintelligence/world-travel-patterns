@@ -33,7 +33,7 @@
    "laws": [
     {
      "topic": "permits-and-fees",
-     "rule": "Tatra National Park: everyone entering must buy a ticket (at entry points, online or by QR code): zł 11 (concession zł 5.50), 7-day zł 55. Children under 7 and residents of the bordering gminas are free. Dolina Chochołowska is charged separately by a landowners' association, often cash only. (No RBA rate for PLN)",
+     "rule": "Tatra National Park: everyone entering must buy a ticket (at entry points, online or by QR code): zł 11 (concession zł 5.50), 7-day zł 55. Children under 7 and residents of the bordering gminas are free. Dolina Chochołowska is charged separately by a landowners' association, often cash only. (No RBA rate for PLN; at the Narodowy Bank Polski rate of 30 October 2026, A$1 = about 2.7598 PLN: zł 11 ≈ A$3.99; zł 5.50 ≈ A$1.99; zł 55 ≈ A$19.93)",
      "level": "region",
      "source": "https://tpn.gov.pl/wstep-do-parku",
      "checked": "2026-11-05",
@@ -48,6 +48,13 @@
      "url": "https://tpn.gov.pl/wstep-do-parku",
      "checked": "2026-11-05",
      "supports": "ticket types and prices, exemptions, entry hours (read directly 2026-11-05)"
+    },
+    {
+     "title": "Table A of average exchange rates 212/A/NBP/2026 (AUD)",
+     "authority": "Narodowy Bank Polski",
+     "url": "https://api.nbp.pl/api/exchangerates/rates/a/aud/2026-10-30/?format=json",
+     "checked": "2026-11-05",
+     "supports": "PLN fallback rate, 2026-10-30 (read directly 2026-11-05)"
     }
    ],
    "note": "Read directly."

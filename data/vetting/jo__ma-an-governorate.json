@@ -8,7 +8,7 @@
    "laws": [
     {
      "topic": "tax-and-fees",
-     "rule": "Petra for foreigners: one day JD 50, two days JD 55, three days JD 60 for visitors staying at least one night in Jordan; JD 90 for a one-day visitor not staying overnight. No RBA rate for JOD.",
+     "rule": "Petra for foreigners: one day JD 50, two days JD 55, three days JD 60 for visitors staying at least one night in Jordan; JD 90 for a one-day visitor not staying overnight. (No RBA rate for JOD; at the Central Bank of Jordan rate of 30 October 2026 crossed via the RBA USD rate of 30 October 2026, A$1 = about 0.4991 JOD: JD 50 ≈ A$100; JD 55 ≈ A$110; JD 60 ≈ A$120; JD 90 ≈ A$180)",
      "level": "site",
      "source": "https://mota.gov.jo/EN/Pages/Entrance_Fees",
      "checked": "2026-11-05",
@@ -61,6 +61,13 @@
      "url": "https://www.jordanpass.jo/contents/Prices.aspx",
      "checked": "2026-11-05",
      "supports": "pass prices and visa waiver (search-index snapshot)"
+    },
+    {
+     "title": "FAQ: dinar pegged to the US dollar at a middle rate of 709 fils since October 1995",
+     "authority": "Central Bank of Jordan",
+     "url": "https://cbj.gov.jo/AR/Modules/FAQ",
+     "checked": "2026-11-05",
+     "supports": "JOD fallback rate, 2026-10-30 (read directly 2026-11-05)"
     }
    ],
    "note": "Petra only; Visit Petra and PDTRA pages refused direct reads (HTTP 451), so their notes are from search-index snapshots."
@@ -76,7 +83,7 @@
      "what": "UNESCO World Heritage Site in pink-hued rock; the Petra Archaeological Museum and Petra Nabataean Museum are included in the site fee.",
      "access": {
       "opening": "Check with the Visitor Center; Petra by Night is a separate event.",
-      "tickets": "Foreigners JD 50 one day, 55 two days, 60 three days (staying at least one night in Jordan); JD 90 for non-overnight visitors. No RBA rate for JOD.",
+      "tickets": "Foreigners JD 50 one day, 55 two days, 60 three days (staying at least one night in Jordan); JD 90 for non-overnight visitors. (No RBA rate for JOD; at the Central Bank of Jordan rate of 30 October 2026 crossed via the RBA USD rate of 30 October 2026, A$1 = about 0.4991 JOD: JD 50 ≈ A$100; JD 90 ≈ A$180)",
       "permits": "none found"
      },
      "sources": [
@@ -102,6 +109,13 @@
      "title": "Entrance Fees",
      "url": "https://mota.gov.jo/EN/Pages/Entrance_Fees",
      "read": "read directly 2026-11-05"
+    },
+    {
+     "title": "FAQ: dinar pegged to the US dollar at a middle rate of 709 fils since October 1995",
+     "authority": "Central Bank of Jordan",
+     "url": "https://cbj.gov.jo/AR/Modules/FAQ",
+     "checked": "2026-11-05",
+     "supports": "JOD fallback rate, 2026-10-30 (read directly 2026-11-05)"
     }
    ],
    "checked": "2026-11-05",

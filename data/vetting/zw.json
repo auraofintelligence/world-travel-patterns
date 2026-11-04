@@ -46,9 +46,16 @@
      "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
      "checked": "2026-11-01",
      "supports": "A$ exchange rates on 30 October 2026"
+    },
+    {
+     "title": "Rand per US Dollar (EXCX135D), 30 Oct 2026",
+     "authority": "South African Reserve Bank",
+     "url": "https://custom.resbank.co.za/SarbWebApi/WebIndicators/Shared/GetTimeseriesObservations/EXCX135D/2026-10-30/2026-10-30",
+     "checked": "2026-11-05",
+     "supports": "South African Reserve Bank rate on 2026-10-30"
     }
    ],
-   "rate_and_date": "Australian dollar: no exchange needed; A$1 = 4.6877 CNY; A$1 = 0.6293 EUR; A$1 = 0.5258 GBP; A$1 = 67.05 INR; A$1 = 110.82 JPY; A$1 = 0.704 USD (Reserve Bank of Australia, 30 October 2026)"
+   "rate_and_date": "Australian dollar: no exchange needed; A$1 = 4.6877 CNY; A$1 = 0.6293 EUR; A$1 = 0.5258 GBP; A$1 = 67.05 INR; A$1 = 110.82 JPY; A$1 = 0.704 USD; A$1 = about 11.7177 ZAR (South African Reserve Bank, 30 October 2026, crossed via the RBA USD rate of 30 October 2026; no RBA rate for ZAR) (Reserve Bank of Australia, 30 October 2026)"
   },
   "consular": {
    "status": "in-place",

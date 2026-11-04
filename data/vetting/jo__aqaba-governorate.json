@@ -8,7 +8,7 @@
    "laws": [
     {
      "topic": "tax-and-fees",
-     "rule": "Entrance fees for foreigners: Wadi Rum JD 5; Aqaba Castle JD 3. No RBA rate for JOD.",
+     "rule": "Entrance fees for foreigners: Wadi Rum JD 5; Aqaba Castle JD 3. (No RBA rate for JOD; at the Central Bank of Jordan rate of 30 October 2026 crossed via the RBA USD rate of 30 October 2026, A$1 = about 0.4991 JOD: JD 5 ≈ A$10.02; JD 3 ≈ A$6.01)",
      "level": "site",
      "source": "https://mota.gov.jo/EN/Pages/Entrance_Fees",
      "checked": "2026-11-05",
@@ -22,6 +22,13 @@
      "url": "https://mota.gov.jo/EN/Pages/Entrance_Fees",
      "checked": "2026-11-05",
      "supports": "site entrance fees for foreigners (read directly 2026-11-05)"
+    },
+    {
+     "title": "FAQ: dinar pegged to the US dollar at a middle rate of 709 fils since October 1995",
+     "authority": "Central Bank of Jordan",
+     "url": "https://cbj.gov.jo/AR/Modules/FAQ",
+     "checked": "2026-11-05",
+     "supports": "JOD fallback rate, 2026-10-30 (read directly 2026-11-05)"
     }
    ],
    "note": "Ministry fee table; most of these sites are also covered by the Jordan Pass."

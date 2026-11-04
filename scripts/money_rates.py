@@ -15,7 +15,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from lib import ROOT, load_places, read, today, vetting_path, write  # noqa: E402
 
 
-def fallback_rate(code, cb, rba):
+def fallback_rate(code, cb, rba, _depth=0):
     """A$1 in `code` from a central bank rate, crossed via the RBA USD or EUR rate when needed."""
     e = cb.get("rates", {}).get(code)
     if not e:
@@ -24,6 +24,9 @@ def fallback_rate(code, cb, rba):
         return e["rate"]
     if e["base"] in rba["aud_to"]:
         return round(e["rate"] * rba["aud_to"][e["base"]], 4)
+    if e["base"] != code and e["base"] in cb.get("rates", {}) and _depth < 3:
+        b = fallback_rate(e["base"], cb, rba, _depth + 1)
+        return round(e["rate"] * b, 4) if b else None
     return None
 
 
@@ -61,7 +64,8 @@ def main():
             elif fallback_rate(code, cb, rba):
                 e = cb["rates"][code]
                 d = date.fromisoformat(e["date"])
-                via = "" if e["base"] == "AUD" else f", crossed via the RBA {e['base']} rate of {when}"
+                via = "" if e["base"] == "AUD" else (f", crossed via the RBA {e['base']} rate of {when}" if e["base"] in rba["aud_to"]
+                                                     else f", at par with {e['base']}, crossed via the {cb['rates'][e['base']]['source']['authority']} {e['base']} rate")
                 parts.append(f"A$1 = about {fallback_rate(code, cb, rba):,} {code} ({e['source']['authority']}, "
                              f"{d.day} {d.strftime('%B %Y')}{via}; no RBA rate for {code})")
                 cb_used.append(e)
@@ -71,6 +75,9 @@ def main():
             have = {s["url"] for s in body.get("sources", [])}
             if (dated or any(e["base"] != "AUD" for e in cb_used)) and rba_src["url"] not in have:
                 body.setdefault("sources", []).append(rba_src)
+            for e in list(cb_used):
+                if e["base"] in cb["rates"]:
+                    cb_used.append(cb["rates"][e["base"]])
             for e in cb_used:
                 if e["source"]["url"] not in {s["url"] for s in body.get("sources", [])}:
                     body.setdefault("sources", []).append(dict(e["source"], checked=D, supports=f"{e['source']['authority']} rate on {e['date']}"))

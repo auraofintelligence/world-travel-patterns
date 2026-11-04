@@ -8,7 +8,7 @@
    "laws": [
     {
      "topic": "permits-and-fees",
-     "rule": "Pelister National Park, open all year: daily entry MKD 100 per visitor; car or motorbike MKD 150; van up to 20 seats MKD 250; bus MKD 450. Parking only in marked zones (car MKD 150). (No RBA rate for MKD)",
+     "rule": "Pelister National Park, open all year: daily entry MKD 100 per visitor; car or motorbike MKD 150; van up to 20 seats MKD 250; bus MKD 450. Parking only in marked zones (car MKD 150). (No RBA rate for MKD; at the National Bank of the Republic of North Macedonia rate of 30 October 2026, A$1 = about 38.8192 MKD: MKD 100 ≈ A$2.58; MKD 150 ≈ A$3.86; MKD 250 ≈ A$6.44; MKD 450 ≈ A$11.59)",
      "level": "region",
      "source": "https://nppelister.mk/bileti-karti/",
      "checked": "2026-11-05",
@@ -23,6 +23,13 @@
      "url": "https://nppelister.mk/bileti-karti/",
      "checked": "2026-11-05",
      "supports": "daily entry and parking (read directly 2026-11-05)"
+    },
+    {
+     "title": "Exchange rate list 30.10.2026 (middle rate)",
+     "authority": "National Bank of the Republic of North Macedonia",
+     "url": "https://www.nbrm.mk/KLServiceNOV/GetExchangeRate?StartDate=30.10.2026&EndDate=30.10.2026&format=json",
+     "checked": "2026-11-05",
+     "supports": "MKD fallback rate, 2026-10-30 (read directly 2026-11-05)"
     }
    ],
    "note": "Read directly."

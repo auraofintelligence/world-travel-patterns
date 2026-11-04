@@ -1,14 +1,176 @@
 {
-  "note": "Fallback only. Used for a currency the Reserve Bank of Australia does not publish. Each rate is the destination central bank's own published figure; 'per' says what one unit of the base buys. Cross rates via USD or EUR use the RBA rate of the same day.",
+  "note": "Fallback only. Used for a currency the Reserve Bank of Australia does not publish. Each rate is the destination central bank's own published figure; 'per' says what one unit of the base buys. Cross rates via USD or EUR use the RBA rate of the same day. Pegged entries (BAM, XPF, NAD, JOD, SAR) cite the bank's stated fixed rate; NAD chains through the ZAR entry.",
   "date": "2026-10-30",
   "rates": {
-    "PLN": {"base": "AUD", "rate": 2.7598, "date": "2026-10-30", "source": {"title": "Table A of average exchange rates 212/A/NBP/2026 (AUD)", "authority": "Narodowy Bank Polski", "url": "https://api.nbp.pl/api/exchangerates/rates/a/aud/2026-10-30/?format=json"}},
-    "CZK": {"base": "AUD", "rate": 15.323, "date": "2026-10-30", "source": {"title": "CNB exchange rate fixing 30.10.2026 #209", "authority": "Czech National Bank", "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/daily.txt?date=30.10.2026"}},
-    "RSD": {"base": "AUD", "rate": 73.8203, "date": "2026-10-30", "source": {"title": "Official middle exchange rate list of 30.10.2026", "authority": "National Bank of Serbia", "url": "https://webappcenter.nbs.rs/ExchangeRateWebApp/ExchangeRate/IndexPrint?ExchangeRateListID=fe942b30-3cf0-42a8-9257-6baded09c539"}},
-    "MKD": {"base": "AUD", "rate": 38.8192, "date": "2026-10-30", "source": {"title": "Exchange rate list 30.10.2026 (middle rate)", "authority": "National Bank of the Republic of North Macedonia", "url": "https://www.nbrm.mk/KLServiceNOV/GetExchangeRate?StartDate=30.10.2026&EndDate=30.10.2026&format=json"}},
-    "BAM": {"base": "EUR", "rate": 1.95583, "date": "2026-10-30", "source": {"title": "Currency board: fixed exchange rate 1 EUR = 1.95583 KM", "authority": "Central Bank of Bosnia and Herzegovina", "url": "https://www.cbbh.ba/"}},
-    "XPF": {"base": "EUR", "rate": 119.3317, "date": "2026-10-30", "source": {"title": "Fixed parity of the CFP franc (1,000 XPF = 8.38 EUR)", "authority": "Institut d'émission d'outre-mer", "url": "https://www.ieom.fr/"}},
-    "PEN": {"base": "USD", "rate": 3.467, "date": "2026-10-30", "source": {"title": "Series PD04640PD, SBS selling rate, 30 Oct 2026", "authority": "Banco Central de Reserva del Perú", "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PD04640PD/json/2026-10-30/2026-10-30"}},
-    "KES": {"base": "USD", "rate": 129.96, "date": "2026-10-29", "source": {"title": "Weekly Bulletin, 30 October 2026 (rate of 29 Oct 2026)", "authority": "Central Bank of Kenya", "url": "https://www.centralbank.go.ke/uploads/weekly_bulletin/1190512301_Weekly%20CBK%20Bulletin,%20October%2030,%202026.pdf"}}
+    "PLN": {
+      "base": "AUD",
+      "rate": 2.7598,
+      "date": "2026-10-30",
+      "source": {
+        "title": "Table A of average exchange rates 212/A/NBP/2026 (AUD)",
+        "authority": "Narodowy Bank Polski",
+        "url": "https://api.nbp.pl/api/exchangerates/rates/a/aud/2026-10-30/?format=json"
+      }
+    },
+    "CZK": {
+      "base": "AUD",
+      "rate": 15.323,
+      "date": "2026-10-30",
+      "source": {
+        "title": "CNB exchange rate fixing 30.10.2026 #209",
+        "authority": "Czech National Bank",
+        "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/daily.txt?date=30.10.2026"
+      }
+    },
+    "RSD": {
+      "base": "AUD",
+      "rate": 73.8203,
+      "date": "2026-10-30",
+      "source": {
+        "title": "Official middle exchange rate list of 30.10.2026",
+        "authority": "National Bank of Serbia",
+        "url": "https://webappcenter.nbs.rs/ExchangeRateWebApp/ExchangeRate/IndexPrint?ExchangeRateListID=fe942b30-3cf0-42a8-9257-6baded09c539"
+      }
+    },
+    "MKD": {
+      "base": "AUD",
+      "rate": 38.8192,
+      "date": "2026-10-30",
+      "source": {
+        "title": "Exchange rate list 30.10.2026 (middle rate)",
+        "authority": "National Bank of the Republic of North Macedonia",
+        "url": "https://www.nbrm.mk/KLServiceNOV/GetExchangeRate?StartDate=30.10.2026&EndDate=30.10.2026&format=json"
+      }
+    },
+    "BAM": {
+      "base": "EUR",
+      "rate": 1.95583,
+      "date": "2026-10-30",
+      "source": {
+        "title": "Currency board: fixed exchange rate 1 EUR = 1.95583 KM",
+        "authority": "Central Bank of Bosnia and Herzegovina",
+        "url": "https://www.cbbh.ba/"
+      }
+    },
+    "XPF": {
+      "base": "EUR",
+      "rate": 119.3317,
+      "date": "2026-10-30",
+      "source": {
+        "title": "Fixed parity of the CFP franc (1,000 XPF = 8.38 EUR)",
+        "authority": "Institut d'émission d'outre-mer",
+        "url": "https://www.ieom.fr/"
+      }
+    },
+    "PEN": {
+      "base": "USD",
+      "rate": 3.467,
+      "date": "2026-10-30",
+      "source": {
+        "title": "Series PD04640PD, SBS selling rate, 30 Oct 2026",
+        "authority": "Banco Central de Reserva del Perú",
+        "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PD04640PD/json/2026-10-30/2026-10-30"
+      }
+    },
+    "KES": {
+      "base": "USD",
+      "rate": 129.96,
+      "date": "2026-10-29",
+      "source": {
+        "title": "Weekly Bulletin, 30 October 2026 (rate of 29 Oct 2026)",
+        "authority": "Central Bank of Kenya",
+        "url": "https://www.centralbank.go.ke/uploads/weekly_bulletin/1190512301_Weekly%20CBK%20Bulletin,%20October%2030,%202026.pdf"
+      }
+    },
+    "ARS": {
+      "base": "AUD",
+      "rate": 1078.2486,
+      "date": "2026-10-30",
+      "source": {
+        "title": "Cotizaciones por fecha, 30 Oct 2026 (DOLAR AUSTRALIA)",
+        "authority": "Banco Central de la República Argentina",
+        "url": "https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones?fecha=2026-10-30"
+      }
+    },
+    "BRL": {
+      "base": "AUD",
+      "rate": 3.8138,
+      "date": "2026-10-30",
+      "source": {
+        "title": "PTAX closing rate (selling), AUD, 30 Oct 2026",
+        "authority": "Banco Central do Brasil",
+        "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaDia(moeda=@moeda,dataCotacao=@dataCotacao)?@moeda='AUD'&@dataCotacao='10-30-2026'&$format=json"
+      }
+    },
+    "COP": {
+      "base": "USD",
+      "rate": 3166.91,
+      "date": "2026-10-30",
+      "source": {
+        "title": "Tasa Representativa del Mercado (TRM), valid 30 Oct 2026",
+        "authority": "Superintendencia Financiera de Colombia (official TRM, open data)",
+        "url": "https://www.datos.gov.co/resource/32sa-8pi3.json?vigenciadesde=2026-10-30T00:00:00.000"
+      }
+    },
+    "CLP": {
+      "base": "USD",
+      "rate": 994.29,
+      "date": "2026-10-27",
+      "source": {
+        "title": "Dólar observado 2026 (Banco Central de Chile rate, published by SII), 27 Oct 2026, latest October value shown",
+        "authority": "Servicio de Impuestos Internos de Chile",
+        "url": "https://www.sii.cl/valores_y_fechas/dolar/dolar2026.htm"
+      }
+    },
+    "ZAR": {
+      "base": "USD",
+      "rate": 16.6444,
+      "date": "2026-10-30",
+      "source": {
+        "title": "Rand per US Dollar (EXCX135D), 30 Oct 2026",
+        "authority": "South African Reserve Bank",
+        "url": "https://custom.resbank.co.za/SarbWebApi/WebIndicators/Shared/GetTimeseriesObservations/EXCX135D/2026-10-30/2026-10-30"
+      }
+    },
+    "NAD": {
+      "base": "ZAR",
+      "rate": 1,
+      "date": "2026-10-30",
+      "source": {
+        "title": "Monetary Policy: one-to-one parity between the Namibia Dollar and the South African Rand",
+        "authority": "Bank of Namibia",
+        "url": "https://www.bon.com.na/Bank/Monetary-Policy.aspx"
+      }
+    },
+    "JOD": {
+      "base": "USD",
+      "rate": 0.709,
+      "date": "2026-10-30",
+      "source": {
+        "title": "FAQ: dinar pegged to the US dollar at a middle rate of 709 fils since October 1995",
+        "authority": "Central Bank of Jordan",
+        "url": "https://cbj.gov.jo/AR/Modules/FAQ"
+      }
+    },
+    "SAR": {
+      "base": "USD",
+      "rate": 3.75,
+      "date": "2026-10-30",
+      "source": {
+        "title": "Governor's statement: riyal exchange rate maintained at SAR 3.75 per USD 1",
+        "authority": "Saudi Central Bank (SAMA)",
+        "url": "https://www.sama.gov.sa/en-us/news/pages/news12082016.aspx"
+      }
+    },
+    "TOP": {
+      "base": "AUD",
+      "rate": 1.6681,
+      "date": "2026-11-04",
+      "source": {
+        "title": "Exchange rates on home page: AUD/TOP mid rate 0.5995 (A$ per pa'anga), 4 November 2026; inverted",
+        "authority": "National Reserve Bank of Tonga",
+        "url": "https://www.reservebank.to/"
+      }
+    }
   }
 }

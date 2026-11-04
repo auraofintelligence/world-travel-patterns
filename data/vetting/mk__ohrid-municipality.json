@@ -8,7 +8,7 @@
    "laws": [
     {
      "topic": "permits-and-fees",
-     "rule": "Galičica National Park: daily fee MKD 100 for visitors over 7; vehicle categories priced separately on the ticket page. (No RBA rate for MKD)",
+     "rule": "Galičica National Park: daily fee MKD 100 for visitors over 7; vehicle categories priced separately on the ticket page. (No RBA rate for MKD; at the National Bank of the Republic of North Macedonia rate of 30 October 2026, A$1 = about 38.8192 MKD: MKD 100 ≈ A$2.58)",
      "level": "region",
      "source": "https://galicica.org.mk/en/product/ticket/",
      "checked": "2026-11-05",
@@ -23,6 +23,13 @@
      "url": "https://galicica.org.mk/en/product/ticket/",
      "checked": "2026-11-05",
      "supports": "daily visitor fee (read directly 2026-11-05)"
+    },
+    {
+     "title": "Exchange rate list 30.10.2026 (middle rate)",
+     "authority": "National Bank of the Republic of North Macedonia",
+     "url": "https://www.nbrm.mk/KLServiceNOV/GetExchangeRate?StartDate=30.10.2026&EndDate=30.10.2026&format=json",
+     "checked": "2026-11-05",
+     "supports": "MKD fallback rate, 2026-10-30 (read directly 2026-11-05)"
     }
    ],
    "note": "Read directly."

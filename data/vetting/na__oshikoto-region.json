@@ -8,7 +8,7 @@
    "laws": [
     {
      "topic": "tax-and-fees",
-     "rule": "From 1 April 2026, top-tier parks (including Etosha, Namib-Naukluft, Dorob, Skeleton Coast, Waterberg, Cape Cross): nationals of non-SADC foreign countries aged 16 and over pay N$280 a day (N$140 park entrance plus N$140 conservation fee); ages 9 to 15 N$180; 8 and under free. Vehicles with 10 seats or less N$60. No RBA rate for NAD.",
+     "rule": "From 1 April 2026, top-tier parks (including Etosha, Namib-Naukluft, Dorob, Skeleton Coast, Waterberg, Cape Cross): nationals of non-SADC foreign countries aged 16 and over pay N$280 a day (N$140 park entrance plus N$140 conservation fee); ages 9 to 15 N$180; 8 and under free. Vehicles with 10 seats or less N$60. (No RBA rate for NAD; at the Bank of Namibia rate of 30 October 2026 (at par with ZAR), crossed via the South African Reserve Bank ZAR rate and the RBA USD rate of 30 October 2026, A$1 = about 11.7177 NAD: N$280 ≈ A$23.90; N$140 ≈ A$11.95; N$180 ≈ A$15.36; N$60 ≈ A$5.12)",
      "level": "region",
      "source": "https://www.lac.org.na/laws/2026/8877.pdf",
      "checked": "2026-11-05",
@@ -30,6 +30,20 @@
      "url": "https://www.nwr.com.na/park-entrance-and-conservation-fees-2/",
      "checked": "2026-11-05",
      "supports": "points to latest fee and Etosha gate-time documents (read directly 2026-11-05)"
+    },
+    {
+     "title": "Monetary Policy: one-to-one parity between the Namibia Dollar and the South African Rand",
+     "authority": "Bank of Namibia",
+     "url": "https://www.bon.com.na/Bank/Monetary-Policy.aspx",
+     "checked": "2026-11-05",
+     "supports": "NAD fallback rate, 2026-10-30 (read directly 2026-11-05)"
+    },
+    {
+     "title": "Rand per US Dollar (EXCX135D), 30 Oct 2026",
+     "authority": "South African Reserve Bank",
+     "url": "https://custom.resbank.co.za/SarbWebApi/WebIndicators/Shared/GetTimeseriesObservations/EXCX135D/2026-10-30/2026-10-30",
+     "checked": "2026-11-05",
+     "supports": "NAD fallback rate, 2026-10-30 (read directly 2026-11-05)"
     }
    ],
    "note": "National parks in this region: Etosha. Fees are national."
