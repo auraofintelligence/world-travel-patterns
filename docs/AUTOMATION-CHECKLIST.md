@@ -115,7 +115,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-350 locations have specific watch items.
+352 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -124,7 +124,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | by | Do not travel | weekly | dated rule, high advisory, snapshot evidence, watch item | by-visa-free-2026; entry date 2026-12-31 |
 | cd | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
 | cf | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
-| ht | Do not travel | weekly | confirm in writing, election, high advisory | election 2027-07-18; 1 confirm-in-writing |
+| ht | Do not travel | weekly | confirm in writing, election, high advisory, snapshot evidence | election 2027-07-18; 1 confirm-in-writing |
 | iq | Do not travel | weekly | high advisory, snapshot evidence |  |
 | ir | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
 | kp | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
@@ -134,7 +134,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | mm | Do not travel | weekly | high advisory, snapshot evidence |  |
 | ne | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
 | ps | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
-| ru | Do not travel | weekly | high advisory |  |
+| ru | Do not travel | weekly | high advisory, snapshot evidence |  |
 | sa | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
 | sd | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
 | so | Do not travel | weekly | election, high advisory, snapshot evidence | election 2026-12-31 |
@@ -260,6 +260,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | cn/chongqing | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/shanghai | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/tibet | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| cn/zhejiang | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | co | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cq |  | monthly | snapshot evidence |  |
 | cr | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -356,6 +357,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | mv | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mw | Exercise a high degree of caution | monthly | confirm in writing, pending event, snapshot evidence | pending date: Lake of Stars 2027; pending date: Lake of Stars festival 2027; 4 confirm-in-writing |
 | mx | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/yucatan | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | my | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | my/labuan | Exercise normal safety precautions | monthly | dated rule | local-law date 2027-01-01 |
 | mz | Exercise a high degree of caution | monthly | snapshot evidence |  |
