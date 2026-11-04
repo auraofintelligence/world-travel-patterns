@@ -1,0 +1,60 @@
+{
+ "place": "co/archipelago-of-san-andres-providencia-and-santa-catalina",
+ "patterns": {
+  "zone-requirements": {
+   "status": "requirements-found",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "entry-fee",
+     "authority": "Gobernación del Archipiélago de San Andrés, Providencia y Santa Catalina",
+     "process": "Visitors to the archipelago must buy a tourist card (tarjeta de turismo) at the airport they fly from, usually at the boarding gate on the day of the flight; the Gobernación's site also links to an online purchase portal (OCCRE). Tourists staying less than 24 hours and children under 7 are exempt.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "evidence": "official",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/colombia",
+     "checked": "2026-11-05"
+    },
+    {
+     "type": "entry-fee",
+     "authority": "Gobernación del Archipiélago (Decreto 0010 of 8 January 2026, as reported)",
+     "process": "The 2026 tourist card price is reported as COP 153,000 (about A$68.62 at the Superintendencia Financiera de Colombia TRM of 30 October 2026 crossed via the RBA USD rate of 30 October 2026: A$1 = about 2,229.5046 COP), set yearly in line with the national tax value unit (UVT). Not yet confirmed on a Gobernación page.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "evidence": "signal",
+     "url": "https://www.elpais.com.co/turismo/nuevo-precio-de-la-tarjeta-de-turismo-en-san-andres-para-2026-es-obligatoria-para-entrar-0527.html",
+     "checked": "2026-11-05"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Colombia travel advice",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/colombia",
+     "checked": "2026-11-05",
+     "supports": "tourist card rule and exemptions (read directly 2026-11-05)"
+    },
+    {
+     "title": "Gobernación de San Andrés (home, Compra tu tarjeta de Turismo link)",
+     "authority": "Gobernación del Archipiélago",
+     "url": "https://www.sanandres.gov.co/",
+     "checked": "2026-11-05",
+     "supports": "online purchase portal link (read directly 2026-11-05)"
+    },
+    {
+     "title": "Nuevo precio de la tarjeta de turismo en San Andrés para 2026",
+     "authority": "Signal: El País (Cali)",
+     "url": "https://www.elpais.com.co/turismo/nuevo-precio-de-la-tarjeta-de-turismo-en-san-andres-para-2026-es-obligatoria-para-entrar-0527.html",
+     "checked": "2026-11-05",
+     "supports": "2026 price and decree number (search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-05",
+   "note": "One news site reported COP 148,500 instead; not recorded."
+  }
+ }
+}

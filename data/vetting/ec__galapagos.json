@@ -3,7 +3,7 @@
  "patterns": {
   "zone-requirements": {
    "status": "partly-vetted",
-   "checked": "2026-10-31",
+   "checked": "2026-11-05",
    "evidence": "signal",
    "layers": [
     {
@@ -27,6 +27,30 @@
      ],
      "url": "https://galapagosisland.net/galapagos-entry-requirements-2026",
      "checked": "2026-10-31"
+    },
+    {
+     "type": "entry-fee",
+     "authority": "Dirección del Parque Nacional Galápagos (under Ordenanza Provincial 001-CGREG-30-06-2025)",
+     "process": "Conservation entry fee for the Galápagos protected areas, collected by the National Park Directorate: foreign tourists over 12 pay US$200 (about A$284 at RBA, 30 October 2026: A$1 = US$0.7040), under 12 pay US$100 (about A$142). Children under 2 are exempt.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "evidence": "official",
+     "url": "https://galapagos.gob.ec/tributo-de-ingreso/",
+     "checked": "2026-11-05"
+    },
+    {
+     "type": "transit-control-card",
+     "authority": "Consejo de Gobierno del Régimen Especial de Galápagos (CGREG)",
+     "process": "The Transit Control Card (TCT) is issued by the Galápagos Governing Council; the council's site links to an online TCT issuing portal (siig-cgreg.gobiernogalapagos.gob.ec). Get it before the flight to the islands. The price was not shown on the council pages read.",
+     "lead_time_days": 1,
+     "activities": [
+      "all"
+     ],
+     "evidence": "official",
+     "url": "https://www.gobiernogalapagos.gob.ec/",
+     "checked": "2026-11-05"
     }
    ],
    "sources": [
@@ -36,9 +60,23 @@
      "url": "https://galapagosisland.net/galapagos-entry-requirements-2026",
      "checked": "2026-10-31",
      "supports": "fee and transit card"
+    },
+    {
+     "title": "Tributo de ingreso",
+     "authority": "Parque Nacional Galápagos",
+     "url": "https://galapagos.gob.ec/tributo-de-ingreso/",
+     "checked": "2026-11-05",
+     "supports": "fee table under Ordenanza 001-CGREG-30-06-2025 (read directly 2026-11-05)"
+    },
+    {
+     "title": "Consejo de Gobierno del Régimen Especial de Galápagos (home, TCT Online link)",
+     "authority": "CGREG",
+     "url": "https://www.gobiernogalapagos.gob.ec/",
+     "checked": "2026-11-05",
+     "supports": "online TCT portal link (read directly 2026-11-05)"
     }
    ],
-   "note": "Confirm the fee and payment method on the Galápagos Governing Council or National Park Directorate site."
+   "note": "Confirm the fee and payment method on the Galápagos Governing Council or National Park Directorate site. Official fee table read 5 November 2026 confirms US$200 for foreign tourists over 12; the TCT price still rests on the earlier signal."
   }
  }
 }
