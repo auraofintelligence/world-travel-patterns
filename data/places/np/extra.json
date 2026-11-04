@@ -1,0 +1,15 @@
+{
+ "rule": "Hand and agent additions. A why is a reason to vet, never a finding.",
+ "places": [
+  {
+   "id": "np/gandaki-province",
+   "name": "Gandaki Province",
+   "kind": "region",
+   "parent": "np",
+   "source_kind": "first-level",
+   "wikidata": "Q25104016",
+   "zone_scan": true,
+   "why": "Flagged for a zone scan: check for extra permits, consents, visitor caps, guides, fees and lead times. Missing from the ISO import."
+  }
+ ]
+}

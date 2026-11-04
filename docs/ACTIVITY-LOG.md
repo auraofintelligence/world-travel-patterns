@@ -1601,3 +1601,12 @@ For Claude.
 - Dropped as not official enough: Miyajima visit tax (hotel and trade-press only), Sa Pa fee (state newspaper only), Ha Long Bay ticket (agency sites only), Trang An (operator only), Chocolate Hills (press only), Preah Vihear fee (press only).
 - Source conflicts: Lumbini fee NPR 1,000 (Lumbini Development Trust) vs NPR 700 (Nepal Tourism Board); Sukhothai fees differ between two Fine Arts Department pages; Nepal Tourism Board lists Upper Mustang as USD 50 a day while Immigration lists USD 500 for 10 days.
 - Gaps: Gandaki Province (Upper Mustang, Manaslu) has no place record; Bali regencies have no place records; no RBA rate for NPR, LKR, LAK, KHR, so those fees stay in local currency or USD.
+
+## 2026-11-05 00:47 AEST: batch 5 (Gandaki, Bali regencies, Pacific protocol)
+- Place tree: np/gandaki-province (Q25104016) added by hand; eight Bali regencies plus Denpasar added to data/places/id/extra.json.
+- Local law: Gandaki (Upper Mustang USD 500 for 10 days then USD 50 a day; Manaslu seasonal weekly rates; Department of Immigration, search-index snapshot), Klungkung (Nusa Penida and Lembongan levy, Perda 4/2026, read directly), Tabanan (Tanah Lot, read directly), Bali (Circular 7/2025 from Love Bali, read directly), MIMAROPA (Underground River permit office and fee range), Tafea (Mount Yasur guide rule, Leitouapam banyan fee).
+- Culture and protocol: Tafea; Solomons Western, Malaita, Central (Tourism Solomons); Samoa Atua, A'ana, Fa'asaleleaga, Gaga'emauga (Samoa Tourism Authority).
+- Culture cycles: Mount Hagen Show and Goroka Show (TPA, 2026 dates, snapshot).
+- Reopened 39 batch-4 source entries (Hokkaido, Osaka, Fukuoka, Nara, Kamikochi, Yakushima, Shibuya, Iriomote, Hallasan, DOC pricing, Kokoda, Diamond Head, Hanauma, Angkor, Lumbini, Sefa-utaki, Hue, Luang Prabang, Horton Plains, Prambanan) and marked them read directly. Still snapshot: Hoi An, Galle, CCF, Bulguksa, Seokguram, Horyu-ji, Fine Arts Department pages, Vat Phou, Gion PDF, Nepal Immigration (all refused or failed).
+- Conflicts: Nusa Penida start 12 August (Tourism Office) vs 1 September 2026 (regency protocol page).
+- Not recorded: El Nido ETDF (municipal site behind a bot check), Coron fee, Chocolate Hills (no official page), Bohol (provincial tourism code has no visitor rules on the page), Kintamani, Besakih, Uluwatu (no official page), Fiji (fiji.travel 403), Tsum and Nar-Phu (TAAN only).
