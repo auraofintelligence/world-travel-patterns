@@ -1421,3 +1421,10 @@ For Claude.
 - scripts/smartraveller_affection.py no longer strips drone clauses. The photo picker's drone-image filter is unchanged.
 - Gap for future passes: collect drone rules at every level (see STATUS.md item 15).
 
+## 2026-11-04 (AEST): Drone pilot pathway (hire a local registered pilot, or get footage legally)
+
+For Claude.
+- New pattern `drone-pilot-pathway` (inherit stack, areas: operator-register, operator-licence, foreign-operator, permits-at-this-level, footage). Data is always collected; the site shows it only when Your view's Drone photography toggle is on. The filming activity links to it when shown.
+- Seeded from official pages (search-index snapshots, 4 November 2026): au (CASA ReOC directory, RePL plus ReOC for hire, Tourism Australia Asset Hub), au/nsw (NPWS approval and drone fee for park filming), nz (CAA Part 102 operator list, Tourism NZ libraries), gb (no public directory found; Operator ID and Operational Authorisation; Article 41 recognition; VisitBritain Asset Library), us (no directory, FAA Airmen Inquiry verifies a name; Part 107; DOT Part 375 permit for foreign operators; NPS public-domain b-roll), ca (Canadian pilot certificate plus Foreign SFOC, or fly for a Canadian RPOC holder; Destination Canada b-roll), jp (registration and Remote ID, Class 1 and 2 certificates, DIPS 2.0 in English; JNTO library portal), and the EASA baseline on the 27 EU members.
+- Gap: STATUS.md item 16.
+

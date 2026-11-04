@@ -833,6 +833,60 @@
      "supports": "expected 2027 Islamic dates; each country confirms by its own moon sighting"
     }
    ]
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "No public operator directory found. Foreign pilots need a Canadian drone pilot certificate and usually a Foreign SFOC-RPAS; flying for a Canadian RPOC holder avoids the SFOC. Destination Canada offers a b-roll library.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public Transport Canada directory of RPOC holders was found on the pages read.",
+     "source": "https://tc.canada.ca/en/aviation/drone-safety/drone-pilot-licensing/get-permission-special-drone-operations/get-permission-fly-drone-foreign-pilot-operator",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Pilots of drones of 250 g or more need a Transport Canada drone pilot certificate; special operations need an SFOC-RPAS; operators may hold an RPAS Operator Certificate (RPOC).",
+     "source": "https://tc.canada.ca/en/aviation/drone-safety/drone-pilot-licensing/get-permission-special-drone-operations/get-permission-fly-drone-foreign-pilot-operator",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Foreign pilots need a Canadian drone pilot certificate even if licensed at home, and usually a Foreign SFOC-RPAS (about 30 working days). Foreign commercial operators qualify only under a free trade agreement that allows the service. Employees or agents of a Canadian RPOC holder don't need a Foreign SFOC, so hiring or flying for a local RPOC holder is the simpler route.",
+     "source": "https://tc.canada.ca/en/aviation/drone-safety/drone-pilot-licensing/get-permission-special-drone-operations/get-permission-fly-drone-foreign-pilot-operator",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "footage",
+     "text": "Destination Canada's Canada Media Toolkit includes a b-roll footage library cleared for editorial and non-commercial coverage; the Brand Canada Library has photo and video assets after registration.",
+     "source": "https://travel.destinationcanada.com/en-ca/canada-media-toolkit",
+     "checked": "2026-11-04"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Get permission to fly a drone as a foreign pilot or operator",
+     "authority": "Transport Canada",
+     "url": "https://tc.canada.ca/en/aviation/drone-safety/drone-pilot-licensing/get-permission-special-drone-operations/get-permission-fly-drone-foreign-pilot-operator",
+     "checked": "2026-11-04",
+     "supports": "certificate, Foreign SFOC, RPOC, free trade rule (read via a search-index snapshot)"
+    },
+    {
+     "title": "Canada Media Toolkit",
+     "authority": "Destination Canada",
+     "url": "https://travel.destinationcanada.com/en-ca/canada-media-toolkit",
+     "checked": "2026-11-04",
+     "supports": "b-roll library (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-04",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

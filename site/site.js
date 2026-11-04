@@ -31,7 +31,7 @@
   };
   const LAYERS = [
     ["permission", "Permission", ["entry", "visa-preparation", "activities", "health-entry", "zone-requirements"]],
-    ["law", "Local law (destination stack)", ["local-law"]],
+    ["law", "Local law (destination stack)", ["local-law", "drone-pilot-pathway"]],
     ["abroad", "Australian law that travels with you", ["australian-law-abroad"]],
     ["culture", "Culture, protocol and language", ["culture-and-protocol", "languages", "culture-cycles"]],
     ["relationships", "Affection, relationships and family", ["affection-and-relationships", "births-and-family-support"]],
@@ -42,7 +42,8 @@
   ];
   const AREA_LABEL = { "in-public": "In public", "in-private": "In private", "marriage-and-partnership": "Marriage and partnership", changing: "Changing", births: "Births", support: "Family support", official: "Official languages", english: "English", hotspots: "English hotspots",
     alcohol: "Alcohol", "tobacco-and-vaping": "Tobacco and vaping", cannabis: "Cannabis", mdma: "MDMA", psilocybin: "Psilocybin",
-    "ayahuasca-and-dmt": "Ayahuasca and DMT", kava: "Kava", khat: "Khat", "drugs-in-general": "Drug law in general" };
+    "ayahuasca-and-dmt": "Ayahuasca and DMT", kava: "Kava", khat: "Khat", "drugs-in-general": "Drug law in general",
+    "operator-register": "Operator register", "operator-licence": "Operator licence", "foreign-operator": "Foreign visitors flying", "permits-at-this-level": "Permits at this level", footage: "Existing footage" };
   const REASON_LABEL = {
     "never-checked": "never checked", imported: "carried from the earlier atlas", "over-budget": "past its recheck age",
     watch: "rule change watched", "source-dead": "source page gone", "source-changed": "source page changed",
@@ -100,7 +101,8 @@
   function loadView() { try { return { ...VIEW_DEFAULT, parts: {}, ...JSON.parse(localStorage.getItem("wtp-view") || "{}") }; } catch { return { ...VIEW_DEFAULT, off: [], parts: {} }; } }
   function saveView() { try { localStorage.setItem("wtp-view", JSON.stringify(VIEW)); } catch { /* storage blocked: the choice lasts for this page only */ } }
   let VIEW = loadView();
-  const patOn = (pid) => !VIEW.off.includes(pid);
+  const patOn = (pid) => !VIEW.off.includes(pid) && !(DRONE_PATTERNS.includes(pid) && VIEW.drones !== true);
+  const DRONE_PATTERNS = ["drone-pilot-pathway"];
   const partOn = (pid, part) => !part || !(VIEW.parts[pid] || []).includes(part);
   // The parts of a pattern a viewer can switch off one by one, from the pattern file's own list.
   const PART_KEYS = ["activities", "topics", "substances", "areas", "event_categories", "requirement_types"];
@@ -394,7 +396,8 @@
         body += `<div class="acts">${pat.activities.filter((a) => partOn("activities", a)).map((a) => {
           const x = acts[a];
           if (!x) { gaps++; return `<div class="act"><b>${esc(a.replace(/-/g, " "))}</b><span class="gap">not yet checked</span></div>`; }
-          return `<div class="act ${esc(x.status)}" title="${esc(viewText(x.detail || ""))}"><b>${esc(a.replace(/-/g, " "))}</b>${esc(x.status)} · ${esc(viewText(x.route || ""))}</div>`;
+          const droneLink = a === "filming" && patOn("drone-pilot-pathway") && patterns["drone-pilot-pathway"] ? ` · <a href="place.html?id=${encodeURIComponent(spine.id)}#pat-drone-pilot-pathway">drone pilots and footage</a>` : "";
+          return `<div class="act ${esc(x.status)}" title="${esc(viewText(x.detail || ""))}"><b>${esc(a.replace(/-/g, " "))}</b>${esc(x.status)} · ${esc(viewText(x.route || ""))}${droneLink}</div>`;
         }).join("")}</div>`;
       } else if (text && text !== rec.status) {
         body += `<div class="detail">${esc(text)}</div>`;
@@ -735,7 +738,7 @@
       <section class="section tight"><div class="card">
       <h2>Drone photography</h2>
       <p><label class="pick"><input type="checkbox" id="view-drones"${dronesShown() ? " checked" : ""}> Show drone rules</label></p>
-      <p class="meta">Drone rules are collected at every level (national, state or province, city or park) but hidden by default. Tick this to show them on place pages.</p>
+      <p class="meta">Drone rules are collected at every level (national, state or province, city or park) but hidden by default. Tick this to show them on place pages, including the pathway to hire a local registered drone pilot or get footage legally.</p>
       </div></section>
       <section class="section tight"><div class="card"><h2>Patterns</h2><p class="meta">Untick a pattern to hide it everywhere on the site. Open a pattern to switch its parts on or off one by one.</p>
       ${groups.map(([label, list]) => `<h3 class="month-head">${esc(label)}</h3>${list.map(patBox).join("")}`).join("")}

@@ -509,6 +509,67 @@
      "supports": "overseas notification form (read via a search-index snapshot)"
     }
    ]
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "CASA publishes a searchable ReOC holder directory; commercial work needs a ReOC holder flying with licensed remote pilots. Tourism Australia's Asset Hub offers tourism images and video.",
+   "register": {
+    "exists": true,
+    "name": "CASA ReOC holder directory",
+    "url": "https://www.casa.gov.au/drones/remotely-piloted-aircraft-operators-certificate/remotely-piloted-aircraft-operators-certificate-reoc-holders"
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "CASA's directory lists Remotely Piloted Aircraft Operator's Certificate (ReOC) holders, searchable by name, certificate number, operations, state and location. A ReOC holder can trade as a drone service provider for hire or reward.",
+     "source": "https://www.casa.gov.au/drones/remotely-piloted-aircraft-operators-certificate/remotely-piloted-aircraft-operators-certificate-reoc-holders",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-licence",
+     "text": "For hire or reward, remote pilots need a remote pilot licence (RePL) and must fly for a person or business holding a ReOC. CASA advises checking both before hiring.",
+     "source": "https://www.casa.gov.au/operations-safety-and-travel/consumer-and-passenger-advice/hiring-drone-operator",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: CASA's rules for a foreign visitor flying commercially (the hire-a-ReOC-holder route is the one CASA describes for hirers).",
+     "source": "https://www.casa.gov.au/operations-safety-and-travel/consumer-and-passenger-advice/hiring-drone-operator",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "footage",
+     "text": "Tourism Australia's Asset Hub offers tourism images and video for media and trade; registration and approval may be needed.",
+     "source": "https://www.tourism.australia.com/en/resources.html",
+     "checked": "2026-11-04"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ReOC holders",
+     "authority": "Civil Aviation Safety Authority",
+     "url": "https://www.casa.gov.au/drones/remotely-piloted-aircraft-operators-certificate/remotely-piloted-aircraft-operators-certificate-reoc-holders",
+     "checked": "2026-11-04",
+     "supports": "searchable ReOC directory (read via a search-index snapshot)"
+    },
+    {
+     "title": "Hiring a drone operator",
+     "authority": "Civil Aviation Safety Authority",
+     "url": "https://www.casa.gov.au/operations-safety-and-travel/consumer-and-passenger-advice/hiring-drone-operator",
+     "checked": "2026-11-04",
+     "supports": "RePL and ReOC needed for hire (read via a search-index snapshot)"
+    },
+    {
+     "title": "Resources",
+     "authority": "Tourism Australia",
+     "url": "https://www.tourism.australia.com/en/resources.html",
+     "checked": "2026-11-04",
+     "supports": "Asset Hub images and video (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-04",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

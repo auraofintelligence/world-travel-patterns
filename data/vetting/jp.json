@@ -987,6 +987,74 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "No public operator directory found. Drones of 100 g or more must be registered with Remote ID; regulated flights need MLIT permission or a national Remote Pilot Certificate. DIPS 2.0 works in English from abroad. JNTO links official photo and video libraries.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public MLIT directory of certified pilots or operators was found on the pages read.",
+     "source": "https://www.mlit.go.jp/en/koku/uas.html",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Drones of 100 g or more must be registered and carry Remote ID. The national Unmanned Aircraft Remote Pilot Certificate comes in Class 1 (needed for Level 4 flights) and Class 2; both last three years. Otherwise regulated flights need MLIT permission or approval, applied for at least 10 working days ahead.",
+     "source": "https://www.mlit.go.jp/koku/level4/license/en/",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Foreign nationals can register and apply for flight permission through DIPS 2.0 in English, including from outside Japan.",
+     "source": "https://www.ossportal.dips.mlit.go.jp/contents/portal/question_en.html",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "footage",
+     "text": "JNTO's Japan Photo and Video Library portal links regional government and tourism media libraries; JNTO's Japan Online Media Center offers downloads after registration. Each provider's terms apply.",
+     "source": "https://faq.japan-travel.jnto.go.jp/en/japan-photo-and-video-library/",
+     "checked": "2026-11-04"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Flight Rules for Unmanned Aircraft",
+     "authority": "MLIT Civil Aviation Bureau",
+     "url": "https://www.mlit.go.jp/en/koku/uas.html",
+     "checked": "2026-11-04",
+     "supports": "registration, Remote ID, permissions (read via a search-index snapshot)"
+    },
+    {
+     "title": "UA Remote Pilot Certificate",
+     "authority": "MLIT",
+     "url": "https://www.mlit.go.jp/koku/level4/license/en/",
+     "checked": "2026-11-04",
+     "supports": "Class 1 and 2 (read via a search-index snapshot)"
+    },
+    {
+     "title": "DIPS 2.0 Q&A",
+     "authority": "MLIT",
+     "url": "https://www.ossportal.dips.mlit.go.jp/contents/portal/question_en.html",
+     "checked": "2026-11-04",
+     "supports": "English, usable from abroad (read via a search-index snapshot)"
+    },
+    {
+     "title": "Japan Photo and Video Library",
+     "authority": "JNTO",
+     "url": "https://faq.japan-travel.jnto.go.jp/en/japan-photo-and-video-library/",
+     "checked": "2026-11-04",
+     "supports": "official libraries (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-04",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

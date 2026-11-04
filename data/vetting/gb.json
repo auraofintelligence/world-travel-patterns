@@ -826,6 +826,67 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "No public directory of operators found on the CAA pages read. Operators need a CAA Operator ID, competent pilots and, for the Specific category, an Operational Authorisation. VisitBritain's Asset Library offers tourism images and video.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public CAA directory of drone operators was found on the pages read.",
+     "source": "https://www.caa.co.uk/drones/open-category/moving-on-to-more-advanced-flying/flying-drones-for-work/",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Organisations must register with the CAA for an Operator ID; pilots need Flyer ID (plus an A2 Certificate of Competency for Open A2). Specific-category work needs a CAA Operational Authorisation (PDRA01 or UK SORA), valid 12 months.",
+     "source": "https://www.caa.co.uk/drones/open-category/moving-on-to-more-advanced-flying/flying-drones-for-work/",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Third-country operators must comply with the UK rules; a foreign certificate may be recognised by the CAA only on request and if it gives the same level of safety (Regulation 2019/945 Article 41 as retained).",
+     "source": "https://regulatorylibrary.caa.co.uk/2019-945/Content/Regs/Article%2041%20-%20Third%20country%20UAS.htm",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "footage",
+     "text": "VisitBritain's Asset Library: registration, some assets need approval; use limited to tourism promotion, licence generally up to 24 months.",
+     "source": "https://www.visitbritain.org/visitbritain-dam-terms-and-conditions",
+     "checked": "2026-11-04"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Flying drones for work",
+     "authority": "UK Civil Aviation Authority",
+     "url": "https://www.caa.co.uk/drones/open-category/moving-on-to-more-advanced-flying/flying-drones-for-work/",
+     "checked": "2026-11-04",
+     "supports": "Operator ID, competency, Operational Authorisation (read via a search-index snapshot)"
+    },
+    {
+     "title": "Article 41, third-country UAS operators",
+     "authority": "UK Civil Aviation Authority",
+     "url": "https://regulatorylibrary.caa.co.uk/2019-945/Content/Regs/Article%2041%20-%20Third%20country%20UAS.htm",
+     "checked": "2026-11-04",
+     "supports": "recognition of foreign certificates (read via a search-index snapshot)"
+    },
+    {
+     "title": "VisitBritain DAM terms",
+     "authority": "VisitBritain",
+     "url": "https://www.visitbritain.org/visitbritain-dam-terms-and-conditions",
+     "checked": "2026-11-04",
+     "supports": "asset library terms (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-04",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

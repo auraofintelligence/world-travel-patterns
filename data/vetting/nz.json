@@ -781,6 +781,67 @@
      "supports": "origin of the promise (read via a search-index snapshot)"
     }
    ]
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "CAA publishes a list of Part 102 certificated operators. Flights outside Part 101 need a Part 102 certificate. Tourism New Zealand has a Visual Library and a Media library.",
+   "register": {
+    "exists": true,
+    "name": "CAA list of Part 102 certificated operators",
+    "url": "https://www.aviation.govt.nz/drones/regulations/part-102-certification-for-drones/part-102-operators/"
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "The CAA publishes a list of Part 102 unmanned aircraft operator certificate holders.",
+     "source": "https://www.aviation.govt.nz/drones/regulations/part-102-certification-for-drones/part-102-operators/",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-licence",
+     "text": "A Part 102 certificate is needed to fly outside the Part 101 rules (for example over people or property without consent, or aircraft over 25 kg). A Part 141 training qualification is not a Part 102 certificate.",
+     "source": "https://www.aviation.govt.nz/drones/regulations/part-102-certification-for-drones/",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: whether a foreign visitor may fly commercially under Part 101; Part 102 applications need an address for service in New Zealand (Part 102.9).",
+     "source": "https://www.aviation.govt.nz/rules/rule-part/part-102/full-rule-part/",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "footage",
+     "text": "Tourism New Zealand's Visual Library (registration, some assets need approval) and Media library (royalty-free editorial and broadcast visuals, including b-roll).",
+     "source": "https://visuals.newzealand.com/",
+     "checked": "2026-11-04"
+    }
+   ],
+   "sources": [
+    {
+     "title": "List of Part 102 certificated operators",
+     "authority": "Civil Aviation Authority of New Zealand",
+     "url": "https://www.aviation.govt.nz/drones/regulations/part-102-certification-for-drones/part-102-operators/",
+     "checked": "2026-11-04",
+     "supports": "operator list (read via a search-index snapshot)"
+    },
+    {
+     "title": "Intro to Part 102 certification",
+     "authority": "Civil Aviation Authority of New Zealand",
+     "url": "https://www.aviation.govt.nz/drones/regulations/part-102-certification-for-drones/",
+     "checked": "2026-11-04",
+     "supports": "when a certificate is needed (read via a search-index snapshot)"
+    },
+    {
+     "title": "Tourism NZ Visual Library",
+     "authority": "Tourism New Zealand",
+     "url": "https://visuals.newzealand.com/",
+     "checked": "2026-11-04",
+     "supports": "images and video (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-04",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

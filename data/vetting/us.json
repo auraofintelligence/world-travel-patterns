@@ -900,6 +900,67 @@
      "supports": "expected 2027 Islamic dates; each country confirms by its own moon sighting"
     }
    ]
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "No public directory of drone pilots; the FAA Airmen Inquiry can verify a named pilot's certificate. Commercial flying needs a Part 107 Remote Pilot Certificate; foreign operators also need a DOT foreign aircraft permit. National parks publish public-domain b-roll.",
+   "register": {
+    "exists": false,
+    "name": "FAA Airmen Inquiry (verifies a named certificate holder; not a directory)",
+    "url": "https://www.faa.gov/licenses_certificates/airmen_certification/interactive_airmen_inquiry"
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "There is no public directory of Part 107 pilots to browse; the FAA Airmen Inquiry lets you search a named person's airman certificate to verify it.",
+     "source": "https://www.faa.gov/licenses_certificates/airmen_certification/interactive_airmen_inquiry",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Part 107 operations need an FAA Remote Pilot Certificate with a small UAS rating, from a knowledge test taken at a US testing centre. The FAA does not recognise any foreign remote pilot certificate.",
+     "source": "https://www.faa.gov/uas/resources/foreign_operators",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "A foreign civil drone flown for compensation needs a DOT foreign aircraft permit (14 CFR Part 375, OST Form 4509, at least 15 days ahead, about 30 days in practice). Without a US certificate you may fly only under direct supervision of a US-certificated remote pilot in command, or hire one to fly for you.",
+     "source": "https://www.faa.gov/uas/resources/foreign_operators",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "footage",
+     "text": "Many National Park Service parks publish public-domain b-roll, including aerials (for example Grand Canyon's b-roll index).",
+     "source": "https://www.nps.gov/grca/learn/photosmultimedia/b-roll_hd_index.htm",
+     "checked": "2026-11-04"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Information for International UAS Operators in the United States",
+     "authority": "Federal Aviation Administration",
+     "url": "https://www.faa.gov/uas/resources/foreign_operators",
+     "checked": "2026-11-04",
+     "supports": "Part 107, Part 375 permit, supervision option (read via a search-index snapshot)"
+    },
+    {
+     "title": "Search Airmen Certificate Information",
+     "authority": "Federal Aviation Administration",
+     "url": "https://www.faa.gov/licenses_certificates/airmen_certification/interactive_airmen_inquiry",
+     "checked": "2026-11-04",
+     "supports": "certificate lookup (read via a search-index snapshot)"
+    },
+    {
+     "title": "B-Roll Video Index",
+     "authority": "U.S. National Park Service",
+     "url": "https://www.nps.gov/grca/learn/photosmultimedia/b-roll_hd_index.htm",
+     "checked": "2026-11-04",
+     "supports": "public-domain b-roll (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-04",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

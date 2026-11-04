@@ -1,0 +1,49 @@
+{
+ "id": "drone-pilot-pathway",
+ "name": "Hire a local registered drone pilot, or get footage legally",
+ "layer": "law",
+ "method": "agent",
+ "inherit": "stack",
+ "drones": true,
+ "question": "Is there an official register or search tool of certified drone operators here, what licence or certificate must a commercial operator hold, can a foreign visitor fly commercially or must they hire a local operator, and what legal routes exist to existing aerial footage?",
+ "applies_to": [
+  "country",
+  "territory",
+  "state",
+  "region",
+  "district",
+  "city",
+  "zone",
+  "site"
+ ],
+ "baseline_days": 180,
+ "sources": [
+  "the national aviation authority (for example CASA, CAA, FAA, Transport Canada, MLIT, EASA and national authorities)",
+  "state, park or council permit offices",
+  "national tourism boards' and film commissions' own media libraries"
+ ],
+ "areas": [
+  "operator-register",
+  "operator-licence",
+  "foreign-operator",
+  "permits-at-this-level",
+  "footage"
+ ],
+ "fields": [
+  "items[]: area, text, source, checked",
+  "register: {exists (true, false or null), name, url}"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "none-found",
+  "unknown"
+ ],
+ "rules": [
+  "Part of the drone rules: always collected, shown on the site only when Your view's Drone photography toggle is on.",
+  "Laws stack: national aviation rules first, then state or province permits, then city, council or park permits. A level with no record is not yet checked.",
+  "Official sources only. Never cite a commercial marketplace; mention that such platforms exist only if an official page says so.",
+  "register.exists false only when an official page says there is no public list; otherwise null."
+ ],
+ "version": 1
+}

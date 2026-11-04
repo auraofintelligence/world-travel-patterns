@@ -766,6 +766,60 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: whether the national aviation authority publishes a list of authorised operators.",
+     "source": "https://www.easa.europa.eu/en/faq/116456",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-licence",
+     "text": "EU rules (Regulations 2019/947 and 2019/945): operators register in the EASA state where they reside or are established; Specific-category operations need an operational authorisation or a standard-scenario declaration.",
+     "source": "https://www.easa.europa.eu/en/faq/116456",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "An operator registered in another EASA state may fly here; for Specific-category work it first gets the authorisation or STS declaration at home, then the destination authority must confirm the cross-border operation before flying. Rules for operators from outside EASA states: not yet checked.",
+     "source": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
+     "checked": "2026-11-04"
+    },
+    {
+     "area": "footage",
+     "text": "Not yet checked: national tourism board or film commission media libraries.",
+     "source": "https://www.easa.europa.eu/en/faq/116456",
+     "checked": "2026-11-04"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Will my registration as drone operator be recognised throughout Europe?",
+     "authority": "EASA",
+     "url": "https://www.easa.europa.eu/en/faq/116456",
+     "checked": "2026-11-04",
+     "supports": "single registration recognised (read via a search-index snapshot)"
+    },
+    {
+     "title": "Operations in the specific category in a state different from the one of registration",
+     "authority": "EASA",
+     "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
+     "checked": "2026-11-04",
+     "supports": "cross-border process (read via a search-index snapshot)"
+    }
+   ],
+   "checked": "2026-11-04",
+   "evidence": "official",
+   "drones": true
   }
  }
 }
