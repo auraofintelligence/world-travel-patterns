@@ -32,6 +32,15 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "RM 334-2026-MC, art. 15.5"
+    },
+    {
+     "topic": "permits-and-zones",
+     "rule": "Boleto Turístico del Cusco (Cusco tourist ticket), sold by COSITUC, prices for foreign visitors: integral ticket S/130, valid 10 days, for circuits I to III; partial tickets for one circuit S/70; student ticket S/70 (ages 10 to 17 with ID; 18 to 25 with a current student or ISIC card). Circuit I: Saqsaywaman, Q'enqo, Puka Pukara, Tambomachay. Circuit II: Qorikancha site museum, Regional History Museum, Museum of Contemporary Art, Pachacuteq Monument, Museum of Popular Art, Centro Qosqo de Arte Nativo, Tipón, Pikillaqta. Circuit III: Ollantaytambo, Pisaq, Chinchero, Moray. (No RBA rate for PEN; A$1 = about 2.4408 PEN (Banco Central de Reserva del Perú, 30 October 2026, crossed via the RBA USD rate of 30 October 2026): S/130 ≈ A$53.26; S/70 ≈ A$28.68)",
+     "level": "region",
+     "source": "https://cosituc.gob.pe/tarifario-2/",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Tarifario"
     }
    ],
    "sources": [
@@ -41,9 +50,16 @@
      "url": "https://busquedas.elperuano.pe/dispositivo/EX/2553933-1",
      "checked": "2026-11-05",
      "supports": "sales, ID, refunds, guide (read directly 2026-11-05)"
+    },
+    {
+     "title": "Tarifario, Boleto Turístico del Cusco",
+     "authority": "COSITUC (Comité de Servicios Integrados Turístico Culturales Cusco)",
+     "url": "https://cosituc.gob.pe/tarifario-2/",
+     "checked": "2026-11-05",
+     "supports": "ticket types, prices, circuits (read directly 2026-11-05)"
     }
    ],
-   "note": "Machu Picchu only. Foreign visitor prices not recorded: the 2026 resolution found covers only national and Andean Community rates."
+   "note": "Machu Picchu only. Foreign visitor prices not recorded: the 2026 resolution found covers only national and Andean Community rates. Boleto Turístico del Cusco added 5 November 2026; its page lists partial II and III as valid 2 days, which reads inconsistently, so validity of partial tickets is not recorded."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",
@@ -62,6 +78,30 @@
      "supports": "conduct rules (read directly 2026-11-05)"
     }
    ]
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "closures": [],
+   "moving_calendars": [],
+   "protocol_notes": [],
+   "festivals": [
+    {
+     "what": "Inti Raymi (festival of the Sun) on 24 June, staged by EMUFEC, the Cusco municipal festivals company, with performances at Qorikancha, the Plaza Mayor and Saqsaywaman. EMUFEC publishes the ticket prices for the Saqsaywaman stands each year; the 2027 programme isn't out yet.",
+     "url": "https://www.emufec.gob.pe/",
+     "checked": "2026-11-05"
+    }
+   ],
+   "sources": [
+    {
+     "title": "EMUFEC home: Programa oficial de Fiestas del Cusco 2026, Inti Raymi 2026",
+     "authority": "EMUFEC (Empresa Municipal de Festejos del Cusco)",
+     "url": "https://www.emufec.gob.pe/",
+     "checked": "2026-11-05",
+     "supports": "24 June date and three venues (read directly 2026-11-05)"
+    }
+   ],
+   "checked": "2026-11-05"
   }
  }
 }
