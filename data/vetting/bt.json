@@ -725,14 +725,14 @@
     "claim_id": "WORLD-BHUTAN-COST"
    },
    "provenance": {
-    "repo": null,
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
     "file": "assets/world-baseline.js",
     "claims": {
      "entry_summary": "WORLD-BHUTAN-ENTRY",
      "cost": "WORLD-BHUTAN-COST"
     },
-    "upstream": null
+    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
    "fastest_entry": "Visa needed, approved in advance (through a Bhutanese tour operator, hotel or the Department of Immigration) and issued on arrival.",
    "steps": [
@@ -745,7 +745,7 @@
      "url": "https://bhutan.travel/faqs"
     },
     {
-     "step": "Gelephu, Samdrup Jongkhar and Samtse land entry is described for Indian guests only.",
+     "step": "Enter by air at Paro (or Gelephu), or by land at Phuentsholing opposite Jaigaon, West Bengal. Gelephu, Samdrup Jongkhar and Samtse land entry is described for Indian guests only.",
      "url": "https://www.btcl.bt/getting-in-to-bhutan/"
     },
     "Get the visa stamped on arrival."
@@ -815,12 +815,12 @@
     }
    ],
    "baseline_unverified": {
-    "from": null,
+    "from": "Australian-visa-activity-atlas (see provenance); not reread at recheck",
     "documents": [],
     "steps": []
    },
-   "notes": "The 24-hour border-town waiver can't be combined with the discount.",
-   "source_note": "Rechecked on 4 November 2026 against the remaining official sources (read directly); 5 unsupported sentence(s) removed."
+   "notes": "News sites report the USD 100 rate extended to 31 December 2029; not found on the Department of Tourism announcements page on 3 November 2026, so the official end date is still 31 August 2027. The 24-hour border-town waiver can't be combined with the discount.",
+   "source_note": "Rechecked on 4 November 2026 against the remaining official sources (read directly); only sentences clearly absent from those sources were removed."
   },
   "culture-cycles": {
    "status": "partly-mapped",

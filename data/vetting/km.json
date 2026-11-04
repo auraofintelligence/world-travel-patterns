@@ -593,6 +593,7 @@
    "checked": "2026-11-04",
    "last_reviewed": "2026-11-04",
    "evidence": "official",
+   "entry_summary": "Visa on arrival at Moroni (Prince Said Ibrahim) airport, as read; fee and documents to confirm.",
    "cost_aud_baseline": {
     "value": "~ $75",
     "checked": "2025-08-16",
@@ -604,15 +605,16 @@
     "Onward ticket"
    ],
    "provenance": {
-    "repo": null,
+    "repo": "https://github.com/auraofintelligence/Australian-visa-activity-atlas",
     "commit": "60f4fbc1fb56b6ae8c6171d556d22b4905db4ca9",
     "file": "assets/world-baseline.js",
     "claims": {
      "entry_summary": "WORLD-COMOROS-ENTRY",
      "cost": "WORLD-COMOROS-COST"
     },
-    "upstream": null
+    "upstream": "https://github.com/auraofintelligence/Australian-world-travel"
    },
+   "recheck_note": "Snapshot only; fee not stated on an official page read.",
    "fastest_entry": "Visa on arrival.",
    "fees": [],
    "sources": [
@@ -624,7 +626,7 @@
      "supports": "visa issued on arrival (read via a search-index snapshot)"
     }
    ],
-   "source_note": "Rechecked on 4 November 2026 against the remaining official sources (read directly); 4 unsupported sentence(s) removed."
+   "source_note": "Rechecked on 4 November 2026 against the remaining official sources (read directly); only sentences clearly absent from those sources were removed."
   }
  }
 }

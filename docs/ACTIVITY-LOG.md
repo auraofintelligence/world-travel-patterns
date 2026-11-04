@@ -1496,3 +1496,8 @@ For Claude.
 - Culture and protocol back for be (Visit Brussels, Wallonia-Brussels Federation) and tt (Tourism Trinidad: camouflage clothing illegal). Total 10 of 43.
 - Left not yet checked for now: Andorra and Montenegro (official tourism sites have no etiquette text), Monaco and St Vincent (only third-country or private sources).
 - Correction: the entries from 23:18 to 23:29 above were first written with times on 5 November; they all happened on 4 November AEST, and dates in the records were corrected to 2026-11-04.
+
+## 2026-11-04 23:40 AEST: Grok, undo over-pruning from the recheck
+For Claude.
+- The 23:27 recheck matched sentences too strictly and also dropped structured fields (greetings, rules, summaries, notes). All 79 rechecked patterns were restored to their pre-recheck content; only sentences in conduct, greetings and rule text that were clearly absent from the remaining sources (and placeholder lines) were removed, 73 in all. Translated sentences from French and Portuguese sources (gf, gw, re) were kept in full.
+- France culture and protocol rebuilt from Service Public: face-covering ban (fine up to EUR 150), identity checks (up to 4 hours), EUR 500 drug fine.
