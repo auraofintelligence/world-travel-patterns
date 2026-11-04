@@ -287,7 +287,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-04",
    "evidence": "official",
    "laws": [
     {
@@ -393,6 +393,27 @@
      "source": "https://www.smartraveller.gov.au/destinations/asia/china",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Hotels register foreign guests with police. If you stay anywhere else (a friend's home, a private rental), you or your host must register with the local police within 24 hours of arrival; online registration has been available nationwide since 21 September 2026. Not registering can bring a warning and a fine of up to CNY 2,000.",
+     "level": "country",
+     "source": "https://en.nia.gov.cn/n147423/n147478/n147715/c158241/content.html",
+     "checked": "2026-11-04"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Large venues, tourist attractions, hotels, transport hubs and hospitals must accept mobile payment, bank cards and cash. Alipay and WeChat Pay let visitors link foreign Visa and Mastercard cards, with limits of USD 5,000 per transaction and USD 50,000 a year.",
+     "level": "country",
+     "source": "https://www.gov.cn/zhengce/content/202403/content_6937623.htm",
+     "checked": "2026-11-04"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Google, Facebook, YouTube and X are blocked. China's cybersecurity rules require online products and services such as VPNs to be licensed by the government, so an unlicensed VPN is not lawful there.",
+     "level": "country",
+     "source": "https://www.gov.uk/foreign-travel-advice/china/safety-and-security",
+     "checked": "2026-11-04"
     }
    ],
    "sources": [
@@ -402,6 +423,41 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/china",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Accommodation registration (Exit and Entry Administration Law, Article 39)",
+     "authority": "National Immigration Administration",
+     "url": "https://en.nia.gov.cn/n147423/n147478/n147715/c158241/content.html",
+     "checked": "2026-11-04",
+     "supports": "hotels register foreign guests; others register within 24 hours at the local police station; warning and fine up to CNY 2,000 (read via a search-index snapshot)"
+    },
+    {
+     "title": "Online accommodation registration rolled out nationwide",
+     "authority": "National Immigration Administration",
+     "url": "https://en.nia.gov.cn/n147413/c237295/content.html",
+     "checked": "2026-11-04",
+     "supports": "online registration for non-hotel stays nationwide from 21 September 2026 (read via a search-index snapshot)"
+    },
+    {
+     "title": "General Office of the State Council: Opinions on further optimising payment services (Guobanfa [2024] No. 10)",
+     "authority": "State Council of the People's Republic of China",
+     "url": "https://www.gov.cn/zhengce/content/202403/content_6937623.htm",
+     "checked": "2026-11-04",
+     "supports": "large venues, attractions, hotels, transport hubs and hospitals must accept mobile payment, bank cards and cash; foreign card acceptance and cash use to be improved (read via a search-index snapshot)"
+    },
+    {
+     "title": "Payment service guide for overseas visitors to China",
+     "authority": "State Council Information Office (english.gov.cn), citing the People's Bank of China",
+     "url": "https://english.www.gov.cn/news/202404/11/content_WS6617c858c6d0868f4e8e5f4d.html",
+     "checked": "2026-11-04",
+     "supports": "Alipay and WeChat Pay accept linked foreign Visa and Mastercard cards; per-transaction limit USD 5,000 and annual USD 50,000; no ID needed under a set amount; UnionPay cards at all POS (read via a search-index snapshot)"
+    },
+    {
+     "title": "China travel advice: safety and security",
+     "authority": "UK Foreign, Commonwealth and Development Office",
+     "url": "https://www.gov.uk/foreign-travel-advice/china/safety-and-security",
+     "checked": "2026-11-04",
+     "supports": "Google, Facebook, YouTube and X blocked; online products and services such as VPNs must be licensed by the Chinese government (MIIT); drones strictly regulated (read directly)"
     }
    ]
   },
@@ -866,7 +922,7 @@
   },
   "visa-preparation": {
    "status": "steps-found",
-   "checked": "2026-11-01",
+   "checked": "2026-11-04",
    "last_reviewed": "2026-11-01",
    "evidence": "official",
    "needs_recheck": false,
@@ -884,6 +940,27 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/china",
      "checked": "2026-11-01",
      "supports": "visa status, pre-arrival forms and border documents as read"
+    },
+    {
+     "title": "Notice on extension of visa-free policy",
+     "authority": "Embassy of the People's Republic of China in Australia",
+     "url": "https://au.china-embassy.gov.cn/eng/tzgg/202511/t20251105_11747334.htm",
+     "checked": "2026-11-04",
+     "supports": "Australia visa-free to 31 December 2026, stays up to 30 days (read via a search-index snapshot)"
+    },
+    {
+     "title": "Consular notices list",
+     "authority": "Ministry of Foreign Affairs of the People's Republic of China",
+     "url": "https://www.mfa.gov.cn/wjbzwfwpt/kzx/tzgg/",
+     "checked": "2026-11-04",
+     "supports": "latest notices to 30 October 2026; no extension of the unilateral visa-free policy beyond 31 December 2026 (read directly)"
+    },
+    {
+     "title": "240-hour visa-free transit policy",
+     "authority": "National Immigration Administration",
+     "url": "https://en.nia.gov.cn/n147418/n147463/c183412/content.html",
+     "checked": "2026-11-04",
+     "supports": "57 countries, 65 ports, 24 provinces, 10 days, permitted activities (read via a search-index snapshot)"
     }
    ],
    "provenance": {
@@ -965,7 +1042,8 @@
      "Recheck the visa-free end date before departure."
     ]
    },
-   "recheck_note": "The waiver runs until 31 December 2026; recheck in December for an extension."
+   "recheck_note": "The waiver runs until 31 December 2026; recheck in December for an extension.",
+   "notes": "Australians: 30-day visa-free entry (business, tourism, family visits, exchanges, transit) runs only to 24:00 Beijing time on 31 December 2026 (Chinese Embassy notice of 5 November 2025). The MFA consular notices list, read on 4 November 2026, showed no extension into 2027; plan on needing a visa for 2027 travel until one is announced. Separately, the 240-hour visa-free transit (57 countries; the NIA page lists two Oceania countries, but the names were cut off in the snapshot read, so confirm Australia is on it) needs an onward ticket to a third country or region, entry at one of 65 designated ports, and staying within the permitted areas of 24 provinces; work, study and reporting still need a visa."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",

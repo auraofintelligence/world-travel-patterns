@@ -2,32 +2,38 @@
  "place": "cn/tibet",
  "patterns": {
   "zone-requirements": {
-   "status": "partly-vetted",
-   "checked": "2026-10-31",
-   "evidence": "signal",
+   "status": "requirements-found",
+   "checked": "2026-11-04",
+   "evidence": "official",
    "layers": [
     {
      "type": "entry-permit",
-     "authority": "Tibet Tourism Bureau, applied for by a licensed tour operator",
-     "process": "Reported: foreigners need a Tibet Travel Permit, separate from China entry, and must travel on a guided tour; border areas (such as Everest Base Camp) need an extra frontier pass.",
-     "lead_time_days": 21,
+     "authority": "Chinese authorities, through a specialist travel agent in China",
+     "process": "Permit needed for Tibet, organised tour only. Authorities sometimes stop issuing permits without notice or restrict Tibetan Autonomous Prefectures in neighbouring provinces. Smartraveller (28 September 2026) says reconsider travel to Gyirong County after August flooding.",
+     "lead_time_days": 30,
      "activities": [
       "all"
      ],
-     "url": "https://www.chinahighlights.com/tibet/visa-document.htm",
-     "checked": "2026-10-31"
+     "url": "https://www.gov.uk/foreign-travel-advice/china/regional-risks",
+     "checked": "2026-11-04"
     }
    ],
    "sources": [
     {
-     "title": "Tibet Travel Permit guide 2026",
-     "authority": "Signal: secondary site",
-     "url": "https://www.chinahighlights.com/tibet/visa-document.htm",
-     "checked": "2026-10-31",
-     "supports": "permit and guided tour"
+     "title": "China travel advice: regional risks",
+     "authority": "UK Foreign, Commonwealth and Development Office",
+     "url": "https://www.gov.uk/foreign-travel-advice/china/regional-risks",
+     "checked": "2026-11-04",
+     "supports": "Tibet permit through a specialist travel agent in China and organised tour; permits can stop without notice; Xinjiang security checks and risk factors (read directly)"
+    },
+    {
+     "title": "China travel advice (updated 28 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-11-04",
+     "supports": "register residence with the local PSB (hotels do it at check-in); Tibet by organised tour with permission; Xinjiang security and ID checks; drone ban in Beijing; WeChat/Alipay linked to cards (read directly)"
     }
-   ],
-   "note": "China's 30-day visa waiver doesn't replace the Tibet permit. Confirm with a licensed Tibet operator."
+   ]
   },
   "languages": {
    "status": "partly-mapped",
@@ -53,6 +59,36 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-04",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "You need a permit to enter Tibet and must travel on an organised tour arranged through a specialist travel agent in China; permits can be suspended without notice. Don't photograph security forces, ask before photographing in monasteries, and don't carry letters or packages for Tibetans.",
+     "level": "region",
+     "source": "https://www.gov.uk/foreign-travel-advice/china/regional-risks",
+     "checked": "2026-11-04"
+    }
+   ],
+   "sources": [
+    {
+     "title": "China travel advice: regional risks",
+     "authority": "UK Foreign, Commonwealth and Development Office",
+     "url": "https://www.gov.uk/foreign-travel-advice/china/regional-risks",
+     "checked": "2026-11-04",
+     "supports": "Tibet permit through a specialist travel agent in China and organised tour; permits can stop without notice; Xinjiang security checks and risk factors (read directly)"
+    },
+    {
+     "title": "China travel advice (updated 28 September 2026)",
+     "authority": "Smartraveller, Australian Government",
+     "url": "https://www.smartraveller.gov.au/destinations/asia/china",
+     "checked": "2026-11-04",
+     "supports": "register residence with the local PSB (hotels do it at check-in); Tibet by organised tour with permission; Xinjiang security and ID checks; drone ban in Beijing; WeChat/Alipay linked to cards (read directly)"
+    }
+   ]
   }
  }
 }
