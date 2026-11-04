@@ -1,0 +1,30 @@
+{
+ "place": "tz/unguja-north-region",
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "insurance",
+     "rule": "Foreign visitors entering Tanzania through Zanzibar must buy Zanzibar Insurance Corporation inbound travel insurance (USD 44 per adult, USD 22 per child, valid 92 days), even with other insurance; one policy covers both Zanzibar and the mainland.",
+     "level": "region",
+     "source": "https://zic.co.tz/inbound-insurance",
+     "checked": "2026-11-05",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Public notice: mandatory inbound travel insurance (7 October 2026)",
+     "authority": "Zanzibar Insurance Corporation (government insurer)",
+     "url": "https://zic.co.tz/inbound-insurance",
+     "checked": "2026-11-05",
+     "supports": "insurance rule, 92 days, no double cover (search-index snapshot)"
+    }
+   ],
+   "note": "From the Zanzibar Insurance Corporation."
+  }
+ }
+}

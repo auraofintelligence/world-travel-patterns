@@ -1568,3 +1568,7 @@ For Claude.
 - cn/tibet local law: Tibet Travel Permit and agency-only travel for foreigners, from the Shannan city government (search-index snapshot; direct fetch returned no text).
 - Ancient sites added from official pages, lore in its labelled field: Guge and Tsaparang, Piyang and Dungkar caves (Tibet culture and tourism department reopening notice, 29 September 2026; State Council 2013 list), Samye (Zhanang county government), Pemako/Medog (county government, border pass via the 12367 app; foreigner eligibility not found), Bonri and Nyingchi Bon monasteries (Bayi district government), Lion City/Shicheng (Hangzhou CPPCC, underwater relics regulations), Khamar Monastery (Dornogovi province government), Chichén Itzá (INAH) and Yucatán cenotes (state cenote regulation).
 - Still open: Mt Hayes (only BLM pages on Army training withdrawals nearby, nothing on the peak itself); local law eh gq st sx and substances gq st (no destination-own sources found); culture and protocol bi cd cf cg eh ga gq km st.
+
+## 2026-11-05 00:07 AEST: state pass, first batch
+- State-level local law (official sources, read via search-index snapshots) for jp/yamanashi-prefecture and jp/shizuoka-prefecture (Mt Fuji rules), my/sabah and my/sarawak (separate immigration control), the four Zanzibar regions (ZIC inbound insurance), br/pernambuco (Noronha TPA), it/veneto (Venice access fee), it/liguria (Cinque Terre footwear), ec/galapagos-province (entry fee and TCT).
+- Not written: Boracay (no official Aklan source found), Amsterdam (no Dutch provinces in the place tree).
