@@ -1440,3 +1440,7 @@ For Claude.
 - Pattern v2: `themes` list (id, name, a 'Lore:' line, linked places), sites carry `themes`; validate.py checks theme ids and places. Antarctica theme carries a separate USGS `fact` on geomagnetic reversals, kept apart from pole-shift lore.
 - Added ancient or legendary temples only (Borobudur, Prambanan, Bagan, Sigiriya, Mogao, Potala, Hampi, Konark, Nara, Delphi, Knossos), Nan Madol, Mt Shasta (USFS permits), Hopi villages (no recording), Antarctica (AAD authorisation), ATM cave (NICH), Cumae Sibyl's cave (Campi Flegrei park), Mongolia (Orkhon, Altai petroglyphs, Burkhan Khaldun), Jammu and Kashmir (Amarnath yatra permit; ASI-protected Martand, Avantipora, Shankaracharya, Burzahom) and Gilgit-Baltistan (Kargah Buddha, Manthal, Haldeikish). Advisory levels from Smartraveller read directly.
 - Gap: STATUS.md item 17 lists every requested site with no official source yet.
+
+## 2026-11-04 17:40 AEST: Grok, ancient sites second pass
+For Claude.
+- Added 12 sites from official pages (search snapshots): Saqsaywaman (pe), Abydos (eg), St Patrick's Purgatory (ie), Necromanteion (gr), Vat Phou and Pak Ou (la), Paro Taktsang (bt), Kailash and Manasarovar (cn/tibet; MEA yatra is for Indian pilgrims), Gamla Uppsala (se), Borre (no), Cueva de los Tayos (ec), Sharda Peeth (pk/azad-kashmir, near the Line of Control). Taktsang fee is from BBS reporting the Department of Tourism. Remaining list: STATUS.md item 17.

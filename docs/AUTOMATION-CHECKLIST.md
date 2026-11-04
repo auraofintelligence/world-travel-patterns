@@ -43,6 +43,7 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | 2026-11-13 | law-or-rule-date | us/new-jersey | psychoactive-substances: ...stribution licences could sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2 | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-14 | law-or-rule-date | us/new-jersey | psychoactive-substances: ...d sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2026 those drinks are tr | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-15 | election | cv | Presidential election | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2026-11-15 | law-or-rule-date | la | ancient-sites-and-mysteries: Foreigners 30,000 kip, rising to 60,000 kip from 15 November 2026; pay on site | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-29 | election | ch | Federal referendum | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-11-29 | election | es | General election, Congress and Senate (snap) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-12-05 | election | gm | Presidential election | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
@@ -114,7 +115,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-341 locations have specific watch items.
+343 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -198,6 +199,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | nr |  | fortnightly | confirm in writing, legacy baseline, snapshot evidence | 1 confirm-in-writing |
 | om | Reconsider your need to travel | fortnightly | high advisory, snapshot evidence |  |
 | pk | Reconsider your need to travel | fortnightly | confirm in writing, high advisory, snapshot evidence | 4 confirm-in-writing |
+| pk/azad-kashmir | Reconsider your need to travel | fortnightly | snapshot evidence |  |
 | pk/gilgit-baltistan | Reconsider your need to travel | fortnightly | snapshot evidence |  |
 | pl | Exercise normal safety precautions | fortnightly | confirm in writing, snapshot evidence, watch item | eu-etias; 1 confirm-in-writing |
 | pt | Exercise normal safety precautions | fortnightly | pending event, snapshot evidence, watch item | eu-etias; pending date: Web Summit 2027 (Lisbon) |
@@ -270,6 +272,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | cn/beijing | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/chongqing | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/shanghai | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| cn/tibet | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/xinjiang | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | co | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cq |  | monthly | snapshot evidence |  |
@@ -335,7 +338,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | kr/seoul | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | ky |  | monthly | snapshot evidence |  |
 | kz | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
-| la | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
+| la | Exercise a high degree of caution | monthly | confirm in writing, dated rule, snapshot evidence | ancient-sites-and-mysteries date 2026-11-15; 5 confirm-in-writing |
 | lk | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | lr | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | ls | Exercise a high degree of caution | monthly | snapshot evidence |  |
