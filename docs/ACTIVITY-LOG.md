@@ -1522,3 +1522,9 @@ For Claude.
 For Claude.
 - Local law back for gs (entry permit and biosecurity, GSGSSI), io (permits paused since 31 March 2026, nature reserves, BIOT Administration), pn (visitor visas, mandatory evacuation insurance, Government of the Pitcairn Islands), bq (Opiumwet BES: cannabis fully banned), and bl and mf (French law from Service Public).
 - Still open for local law: cg cn/tibet eh gq gw ki km st sx tv vc. Sint Maarten's own legislation portal did not surface the Opium ordinance text.
+
+## 2026-11-04 23:58 AEST: Grok, place-own sources for Smartraveller-only culture records
+For Claude.
+- The 34 culture-and-protocol records resting only on Smartraveller were each searched for an etiquette page from the place itself.
+- Place-own source added (Smartraveller kept as secondary): ba (Destination Sarajevo), br (Embratur), hr (Split tourist board, Public Order Act fines), cr (Instituto Costarricense de Turismo), th (thailand.go.th temple guide), gt (CONAP), gh (Ghana Tourism Authority, read directly), sn (ASPT, read directly), et (Visit Ethiopia, read directly).
+- No place-own etiquette page found for al by ci dj dz gn kp lb lr ly ml mr mz ne sc sd sl so ss sy td tj tm ua xk; each now carries a place_source_note saying so.

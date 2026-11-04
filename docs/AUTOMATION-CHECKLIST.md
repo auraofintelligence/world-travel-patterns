@@ -64,7 +64,6 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | 2027-01-27 | election | kg | Presidential election (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-01 (month only) | law-or-rule-date | ch/canton-of-basel-stadt | psychoactive-substances: ...nabis to enrolled participants through selected pharmacies in Basel-Stadt. Planned to run from September 2022 to January 2027, with up to 374 par | Recheck the official source about 60 days before, and again on the date. |
 | 2027-02-28 | election | ch | Federal referendum (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
-| 2027-02 (month only) | law-or-rule-date | dz | culture-and-protocol: Carry your passport for hotels and domestic flights. During Ramadan (next from February 2027) do not eat, drink, | Recheck the official source about 60 days before, and again on the date. |
 | 2027-02-28 | election | sv | Legislative Assembly election (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-03-02 | election | fm | Congress election (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-03-07 | election | ee | Parliamentary election | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
@@ -115,7 +114,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-345 locations have specific watch items.
+350 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -216,7 +215,12 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | va |  | fortnightly | legacy baseline, snapshot evidence |  |
 | vc |  | fortnightly | confirm in writing, legacy baseline, snapshot evidence | 8 confirm-in-writing |
 | ae | Exercise a high degree of caution | monthly | confirm in writing, pending event, snapshot evidence | pending date: GITEX Global 2027; 1 confirm-in-writing |
+| ae/emirate-of-abu-dhabi | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| ae/emirate-of-ajman | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| ae/emirate-of-fujairah | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ae/emirate-of-sharjah | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| ae/emirate-of-umm-al-quwain | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| ae/ras-al-khaimah | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ai |  | monthly | snapshot evidence |  |
 | al | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | am | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
@@ -282,7 +286,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | de/bavaria | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | dj | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | do | Exercise a high degree of caution | monthly | snapshot evidence |  |
-| dz | Exercise a high degree of caution | monthly | confirm in writing, dated rule, snapshot evidence | culture-and-protocol date 2027-02-28; 2 confirm-in-writing |
+| dz | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | ec | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | es/catalonia | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | local-law date 2027-03-31 |
