@@ -1602,7 +1602,7 @@ For Claude.
 - Source conflicts: Lumbini fee NPR 1,000 (Lumbini Development Trust) vs NPR 700 (Nepal Tourism Board); Sukhothai fees differ between two Fine Arts Department pages; Nepal Tourism Board lists Upper Mustang as USD 50 a day while Immigration lists USD 500 for 10 days.
 - Gaps: Gandaki Province (Upper Mustang, Manaslu) has no place record; Bali regencies have no place records; no RBA rate for NPR, LKR, LAK, KHR, so those fees stay in local currency or USD.
 
-## 2026-11-05 00:47 AEST: batch 5 (Gandaki, Bali regencies, Pacific protocol)
+## 2026-11-05 00:46 AEST: batch 5 (Gandaki, Bali regencies, Pacific protocol)
 - Place tree: np/gandaki-province (Q25104016) added by hand; eight Bali regencies plus Denpasar added to data/places/id/extra.json.
 - Local law: Gandaki (Upper Mustang USD 500 for 10 days then USD 50 a day; Manaslu seasonal weekly rates; Department of Immigration, search-index snapshot), Klungkung (Nusa Penida and Lembongan levy, Perda 4/2026, read directly), Tabanan (Tanah Lot, read directly), Bali (Circular 7/2025 from Love Bali, read directly), MIMAROPA (Underground River permit office and fee range), Tafea (Mount Yasur guide rule, Leitouapam banyan fee).
 - Culture and protocol: Tafea; Solomons Western, Malaita, Central (Tourism Solomons); Samoa Atua, A'ana, Fa'asaleleaga, Gaga'emauga (Samoa Tourism Authority).
