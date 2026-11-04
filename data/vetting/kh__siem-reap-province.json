@@ -1,0 +1,88 @@
+{
+ "place": "kh/siem-reap-province",
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "work-and-payment",
+     "rule": "Angkor Archaeological Park passes are sold only by Angkor Enterprise: 1 day USD 37 (about A$52.56, RBA rate of 30 October 2026), 3 days USD 62 (use within 7 days), 7 days USD 72 (use within 30 days). Entry 5 am, closing 6.30 pm. 3-day and 7-day passes need a photo; passes bought elsewhere are not valid.",
+     "level": "site",
+     "source": "https://www.angkorenterprise.gov.kh/en/available-tickets",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Angkor Enterprise, available tickets"
+    },
+    {
+     "topic": "dress-and-public-behaviour",
+     "rule": "Angkor Enterprise links the park's visitor code of conduct from its official site; staff check dress at temple entrances. The code requires shoulders and knees covered in the temples.",
+     "level": "site",
+     "source": "https://www.angkorenterprise.gov.kh/en",
+     "checked": "2026-11-05",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Available Tickets",
+     "authority": "Angkor Enterprise",
+     "url": "https://www.angkorenterprise.gov.kh/en/available-tickets",
+     "checked": "2026-11-05",
+     "supports": "pass prices, validity, hours (search-index snapshot)"
+    },
+    {
+     "title": "Official Angkor Pass FAQ",
+     "authority": "Angkor Enterprise",
+     "url": "https://www.angkorenterprise.gov.kh/en",
+     "checked": "2026-11-05",
+     "supports": "sole seller, photo rule, code of conduct link (search-index snapshot)"
+    }
+   ],
+   "note": "Dress rule from the APSARA code as summarised in search snapshots; read the code at the ticket office."
+  },
+  "ancient-sites-and-mysteries": {
+   "status": "partly-mapped",
+   "sites": [
+    {
+     "name": "Angkor Archaeological Park",
+     "place": "kh/siem-reap-province",
+     "kind": "lost-city",
+     "era": "9th to 15th centuries, Khmer Empire",
+     "what": "Capitals of the Khmer Empire, including Angkor Wat, Angkor Thom and Ta Prohm (UNESCO World Heritage).",
+     "access": {
+      "opening": "Entry from 5 am; closing 6.30 pm. A next-day 1-day ticket bought after 4.45 pm also lets you in that evening for sunset.",
+      "tickets": "1 day USD 37 (about AUD 53, RBA rate 30 October 2026); 3 days USD 62; 7 days USD 72. Angkor Enterprise is the only seller.",
+      "permits": "none found"
+     },
+     "lore": {
+      "text": "Popular theories claim Angkor's temples were laid out to mirror the Draco constellation.",
+      "source": null,
+      "label": "popular lore, not an official source"
+     },
+     "sources": [
+      {
+       "authority": "Angkor Enterprise",
+       "title": "Available Tickets",
+       "url": "https://www.angkorenterprise.gov.kh/en/available-tickets",
+       "read": "search snapshot"
+      }
+     ],
+     "checked": "2026-11-05"
+    }
+   ],
+   "sources": [
+    {
+     "authority": "Angkor Enterprise",
+     "title": "Available Tickets",
+     "url": "https://www.angkorenterprise.gov.kh/en/available-tickets",
+     "read": "search snapshot"
+    }
+   ],
+   "checked": "2026-11-05",
+   "evidence": "Official pages; read directly unless marked search snapshot.",
+   "summary": "1 site in Siem Reap: Angkor."
+  }
+ }
+}

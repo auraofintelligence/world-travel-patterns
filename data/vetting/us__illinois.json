@@ -28,25 +28,27 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "evidence": "signal",
+   "evidence": "official",
    "festivals": [],
    "closures": [],
    "moving_calendars": [],
    "protocol_notes": [],
    "sources": [
     {
-     "title": "Public holidays (Nager.Date)",
-     "authority": "Signal: machine holiday data",
-     "url": "https://date.nager.at/",
-     "checked": "2026-11-01",
-     "supports": "regional public holidays in the next twelve months"
+     "title": "State Holiday Calendar for 2026 and 2027 (memo of 18 November 2025)",
+     "authority": "Illinois Department of Central Management Services",
+     "url": "https://cms.illinois.gov/content/dam/soi/en/web/cms/personnel/employeeresources/documents/state-holidays.pdf",
+     "checked": "2026-11-05",
+     "supports": "2026 and 2027 state holiday dates (read directly)"
     }
    ],
    "public_holidays": [
-    "2027-02-12: Lincoln's Birthday (regional holiday)",
-    "2027-10-11: Columbus Day (regional holiday)"
+    "2026-11-27: Day after Thanksgiving (state offices closed)",
+    "2027-02-12: Lincoln's Birthday (state holiday)",
+    "2027-11-26: Day after Thanksgiving (state offices closed)"
    ],
-   "checked": "2026-11-02"
+   "checked": "2026-11-05",
+   "note": "Casimir Pulaski Day is not on the state office calendar. Federal holidays are on the United States record."
   },
   "local-law": {
    "status": "partly-mapped",

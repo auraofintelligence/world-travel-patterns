@@ -25,6 +25,39 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "tax-and-fees",
+     "rule": "Since 1 April 2026 Hokkaido charges an accommodation tax per person per night: JPY 100 under JPY 20,000, JPY 200 from JPY 20,000 to 49,999, JPY 500 from JPY 50,000 (about A$0.90 to about A$4.51, RBA rate of 30 October 2026). Sapporo, Otaru, Niseko, Kutchan, Hakodate, Furano and other towns add their own tax on top (Kutchan charges a flat 3% including the prefectural share). Paid to the accommodation.",
+     "level": "region",
+     "source": "https://www.pref.hokkaido.lg.jp/kz/kkd/230824.html",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "北海道宿泊税 (Hokkaido Accommodation Tax)"
+    }
+   ],
+   "sources": [
+    {
+     "title": "北海道宿泊税",
+     "authority": "Hokkaido Government, Tourism Bureau",
+     "url": "https://www.pref.hokkaido.lg.jp/kz/kkd/230824.html",
+     "checked": "2026-11-05",
+     "supports": "start date, who pays, exemptions (search-index snapshot)"
+    },
+    {
+     "title": "宿泊税税率一覧 (rate table, 1 March 2026)",
+     "authority": "Hokkaido Government",
+     "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/0/4/4/4/1/3/_/%E7%A8%8E%E7%8E%87%E4%B8%80%E8%A6%A70301.pdf",
+     "checked": "2026-11-05",
+     "supports": "prefectural and municipal rates (search-index snapshot)"
+    }
+   ],
+   "note": "School trips are exempt."
   }
  }
 }

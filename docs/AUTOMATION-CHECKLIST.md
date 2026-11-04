@@ -62,6 +62,7 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | 2027-01-01 | rule-change | kr | South Korea's K-ETA exemption for Australian passport holders runs until 31 December 2026. | Check the official K-ETA site for an extension before 1 January 2027. |
 | 2027-01-01 | law-or-rule-date | my/labuan | local-law: Budget 2027 proposes a single limit of RM10,000 (about A$3,505) of new goods for Labuan and Langkawi from 1 January 2027, after a stay of at | Recheck the official source about 60 days before, and again on the date. |
 | 2027-01-01 | law-or-rule-date | pt/madeira | local-law: ...ber 2026) for up to 7 consecutive nights, for non-residents of Madeira aged over 12. A proposed rise to EUR 4 from 1 January 2027 was under public co | Recheck the official source about 60 days before, and again on the date. |
+| 2027-01-05 | law-or-rule-date | jp/okinawa-prefecture | ancient-sites-and-mysteries: ...ar-calendar ritual days (lunar 1 to 3 May and 1 to 3 October; 9 to 11 November in 2026). From 2 November 2026 to 5 January 2027, access beyond the | Recheck the official source about 60 days before, and again on the date. |
 | 2027-01-16 | election | ng | Presidential, Senate and House of Representatives elections | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-01-27 | election | kg | Presidential election (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-01 (month only) | law-or-rule-date | ch/canton-of-basel-stadt | psychoactive-substances: ...nabis to enrolled participants through selected pharmacies in Basel-Stadt. Planned to run from September 2022 to January 2027, with up to 374 par | Recheck the official source about 60 days before, and again on the date. |
@@ -119,7 +120,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-412 locations have specific watch items.
+446 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -365,20 +366,37 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | je |  | monthly | snapshot evidence |  |
 | jm | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | jp | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/fukuoka-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/hokkaido | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/kagoshima-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/kyoto-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/nagano-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/nara-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/okinawa-prefecture | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | ancient-sites-and-mysteries date 2027-01-05 |
+| jp/osaka-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/shizuoka-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/tokyo | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/yamanashi-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | ke | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | kg | Exercise a high degree of caution | monthly | confirm in writing, election, snapshot evidence | election 2027-01-27; 2 confirm-in-writing |
 | kh | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| kh/siem-reap-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ki |  | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | km |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | kn |  | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
+| kr/jeju-province | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| kr/north-gyeongsang | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | kr/seoul | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | ky |  | monthly | snapshot evidence |  |
 | kz | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | la | Exercise a high degree of caution | monthly | confirm in writing, dated rule, snapshot evidence | ancient-sites-and-mysteries date 2026-11-15; 5 confirm-in-writing |
+| la/champasak-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| la/luang-prabang-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | lc |  | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
 | lk | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| lk/central-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| lk/north-central-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| lk/southern-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | lr | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | ls | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ma | Exercise a high degree of caution | monthly | confirm in writing, pending event, snapshot evidence | pending date: Mawazine 2027; pending date: Fes Festival of World Sacred Music 2027; 4 confirm-in-writing |
@@ -412,14 +430,27 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | nf |  | monthly | snapshot evidence |  |
 | ni | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | np | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| np/bagmati-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| np/karnali-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| np/koshi-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| np/lumbini-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| np/sudurpashchim-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | nr |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | nu | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 9 confirm-in-writing |
 | nz | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2026-11-07 |
+| nz/hawke-s-bay-region | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| nz/manawatu-whanganui-region | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| nz/otago-region | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| nz/southland-region | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| nz/tasman-district | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| nz/west-coast-region | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | pa | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pe | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pe/lima-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pf | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | pg | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
+| pg/central-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| pg/oro-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ph | Exercise a high degree of caution | monthly | pending event, snapshot evidence | pending date: Independence Day 2027 (12 June) |
 | pm |  | monthly | snapshot evidence |  |
 | pn |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
@@ -460,7 +491,9 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | th/chiang-mai | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | th/kanchanaburi | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | th/phang-nga | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| th/phra-nakhon-si-ayutthaya | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | th/satun | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| th/sukhothai | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | th/surat-thani | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tj | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | tk |  | monthly | confirm in writing, dated rule, snapshot evidence | visa-preparation date 2026-12-28; 1 confirm-in-writing |
@@ -527,6 +560,8 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | vg |  | monthly | snapshot evidence |  |
 | vi |  | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | vn | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| vn/da-nang | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| vn/hue | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | vu | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
 | wf |  | monthly | confirm in writing, snapshot evidence | 7 confirm-in-writing |
 | ws | Exercise normal safety precautions | monthly | snapshot evidence |  |

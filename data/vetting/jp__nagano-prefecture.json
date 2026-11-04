@@ -1,0 +1,38 @@
+{
+ "place": "jp/nagano-prefecture",
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "transport-and-driving",
+     "rule": "Private cars, rental cars and motorbikes may not drive into Kamikochi through the Kama Tunnel at any time of year; only buses, taxis and bicycles may enter while the road is open, and the road closes completely in winter. From the Matsumoto side, park at Sawando and take the shuttle bus or a fixed-fare taxi.",
+     "level": "site",
+     "source": "https://www.pref.nagano.lg.jp/shizenhogo/infra/doro/joho/kamikouti.html",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "長野県 上高地交通規制"
+    }
+   ],
+   "sources": [
+    {
+     "title": "上高地交通規制について",
+     "authority": "Nagano Prefecture",
+     "url": "https://www.pref.nagano.lg.jp/shizenhogo/infra/doro/joho/kamikouti.html",
+     "checked": "2026-11-05",
+     "supports": "year-round private car ban, winter closure (search-index snapshot)"
+    },
+    {
+     "title": "マイカー・観光バス規制について",
+     "authority": "Kamikochi official website",
+     "url": "https://www.kamikochi.or.jp/access/restrictions/",
+     "checked": "2026-11-05",
+     "supports": "Sawando transfer (search-index snapshot)"
+    }
+   ],
+   "note": "Kamikochi only."
+  }
+ }
+}

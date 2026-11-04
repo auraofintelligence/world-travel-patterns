@@ -150,40 +150,45 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-05",
    "evidence": "official",
    "laws": [
     {
-     "topic": "drugs-and-prescription-medicines",
-     "rule": "Hawaii allows medical cannabis only. Visitors with a qualifying out-of-state medical card can apply for a temporary Hawaii registration valid for up to 60 days. Cannabis remains illegal under US federal law, including on federal land such as national parks.",
-     "level": "state",
-     "source": "https://health.hawaii.gov/medicalcannabisregistry/travel/",
-     "checked": "2026-11-02"
+     "topic": "permits-and-zones",
+     "rule": "Diamond Head State Monument (Oahu): out-of-state visitors must book entry in advance, USD 5 a person (about A$7.10, RBA rate of 30 October 2026) plus USD 10 a vehicle for parking; bookings open 30 days ahead.",
+     "level": "site",
+     "source": "https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Hawaii Division of State Parks"
     },
     {
-     "topic": "currency-and-goods",
-     "rule": "Anyone bringing a firearm into Hawaii must register it and present it for inspection to the county police within 5 days of arrival (HRS 134-3). Non-US citizens may bring firearms for up to 90 days only with a Hawaii hunting licence, a written invitation to shoot on private land, or written notice from a firing range.",
-     "level": "state",
-     "source": "https://www.capitol.hawaii.gov/hrscurrent/Vol03_Ch0121-0200D/HRS0134/HRS_0134-0003.htm",
-     "checked": "2026-11-02"
+     "topic": "permits-and-zones",
+     "rule": "Hanauma Bay Nature Preserve: non-residents need a reservation, USD 25 for ages 13 and up (about A$35.51, RBA rate of 30 October 2026), released two days ahead at 7 am HST.",
+     "level": "site",
+     "source": "https://www.honolulu.gov/dpr/hanauma-bay-nature-preserve/",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "City and County of Honolulu, Department of Parks and Recreation"
     }
    ],
    "sources": [
     {
-     "title": "Out-of-state patient application",
-     "authority": "Hawaii Department of Health Medical Cannabis Registry",
-     "url": "https://health.hawaii.gov/medicalcannabisregistry/travel/",
-     "checked": "2026-11-02",
-     "supports": "medical only, 60-day out-of-state registration (read via a search-index snapshot)"
+     "title": "Diamond Head State Monument",
+     "authority": "Hawaii DLNR Division of State Parks",
+     "url": "https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/",
+     "checked": "2026-11-05",
+     "supports": "reservation and fees (search-index snapshot)"
     },
     {
-     "title": "HRS 134-3 Registration, mandatory, exceptions",
-     "authority": "Hawaii State Legislature",
-     "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol03_Ch0121-0200D/HRS0134/HRS_0134-0003.htm",
-     "checked": "2026-11-02",
-     "supports": "5-day registration, rules for nonresident aliens (read via a search-index snapshot)"
+     "title": "Hanauma Bay Nature Preserve",
+     "authority": "City and County of Honolulu",
+     "url": "https://www.honolulu.gov/dpr/hanauma-bay-nature-preserve/",
+     "checked": "2026-11-05",
+     "supports": "reservation and fee (search-index snapshot)"
     }
-   ]
+   ],
+   "note": "Oahu sites only."
   }
  }
 }

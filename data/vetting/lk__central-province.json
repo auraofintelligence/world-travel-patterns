@@ -25,6 +25,86 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "tax-and-fees",
+     "rule": "Horton Plains National Park: foreign adults USD 25 for a day visit (about A$35.51, RBA rate of 30 October 2026) or USD 50 overnight, children USD 15 or USD 30, under the gazetted fee schedule; service charges, vehicle fees and VAT are extra.",
+     "level": "site",
+     "source": "https://visit-hortonplains.lk/wp-content/uploads/2025/10/HortonPlainsFees-2292-11_E.pdf",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Department of Wildlife Conservation fee gazette 2292/11"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Horton Plains fees (Gazette 2292/11)",
+     "authority": "Department of Wildlife Conservation, Sri Lanka",
+     "url": "https://visit-hortonplains.lk/wp-content/uploads/2025/10/HortonPlainsFees-2292-11_E.pdf",
+     "checked": "2026-11-05",
+     "supports": "foreign visitor fees (search-index snapshot)"
+    }
+   ],
+   "note": "Horton Plains only."
+  },
+  "ancient-sites-and-mysteries": {
+   "status": "partly-mapped",
+   "sites": [
+    {
+     "name": "Sigiriya Rock Fortress",
+     "place": "lk/central-province",
+     "kind": "lost-city",
+     "era": "5th century CE",
+     "what": "Rock citadel with frescoes and water gardens in Matale District (UNESCO World Heritage).",
+     "access": {
+      "opening": "7 am to 5 pm daily.",
+      "tickets": "Foreign full ticket USD 35 (about AUD 50, RBA rate 30 October 2026), half ticket USD 20, priced in US dollars and paid in rupees at the Fund's daily rate; SAARC citizens 50% off. Single entry; online booking through the CCF e-ticket system.",
+      "permits": "none found"
+     },
+     "lore": {
+      "text": "Popular theories claim the Lion Rock was the palace of the demon king Ravana from the Ramayana.",
+      "source": null,
+      "label": "popular lore, not an official source"
+     },
+     "sources": [
+      {
+       "authority": "Central Cultural Fund, Sri Lanka",
+       "title": "Ticket Prices (updated 14 October 2026)",
+       "url": "https://ccf.gov.lk/is/index.php",
+       "read": "search snapshot"
+      },
+      {
+       "authority": "Central Cultural Fund, Sri Lanka",
+       "title": "Tickets: Visit Sri Lanka",
+       "url": "https://ccf.gov.lk/vsl/tickets",
+       "read": "search snapshot"
+      }
+     ],
+     "checked": "2026-11-05"
+    }
+   ],
+   "sources": [
+    {
+     "authority": "Central Cultural Fund, Sri Lanka",
+     "title": "Ticket Prices (updated 14 October 2026)",
+     "url": "https://ccf.gov.lk/is/index.php",
+     "read": "search snapshot"
+    },
+    {
+     "authority": "Central Cultural Fund, Sri Lanka",
+     "title": "Tickets: Visit Sri Lanka",
+     "url": "https://ccf.gov.lk/vsl/tickets",
+     "read": "search snapshot"
+    }
+   ],
+   "checked": "2026-11-05",
+   "evidence": "Official pages; read directly unless marked search snapshot.",
+   "summary": "1 site in Central Province: Sigiriya."
   }
  }
 }
