@@ -267,7 +267,7 @@
    "currency": "euro (EUR), CFP Franc (XPF)",
    "cash_card_notes": "The currency in France is the Euro. France is a member of the European Union (EU). If you travel between France and any non-EU country, you must declare over 10,000 euros (or equivalent) cash. This covers all forms of currency, not only cash. If you don't declare or give the wrong information on entry or exit, you'll need to pay a fine. You don't need to declare cash if you're travelling to or from another EU country.",
    "daily_cost_aud": null,
-   "checked": "2026-11-01",
+   "checked": "2026-11-05",
    "evidence": "official",
    "sources": [
     {
@@ -290,9 +290,16 @@
      "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
      "checked": "2026-11-01",
      "supports": "A$ exchange rates on 30 October 2026"
+    },
+    {
+     "title": "Fixed parity of the CFP franc (1,000 XPF = 8.38 EUR)",
+     "authority": "Institut d'émission d'outre-mer",
+     "url": "https://www.ieom.fr/",
+     "checked": "2026-11-05",
+     "supports": "Institut d'émission d'outre-mer rate on 2026-10-30"
     }
    ],
-   "rate_and_date": "A$1 = 0.6293 EUR (Reserve Bank of Australia, 30 October 2026)"
+   "rate_and_date": "A$1 = 0.6293 EUR; A$1 = about 75.0954 XPF (Institut d'émission d'outre-mer, 30 October 2026, crossed via the RBA EUR rate of 30 October 2026; no RBA rate for XPF) (Reserve Bank of Australia, 30 October 2026)"
   },
   "culture-cycles": {
    "status": "partly-mapped",

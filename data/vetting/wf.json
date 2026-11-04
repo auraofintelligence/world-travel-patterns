@@ -645,7 +645,7 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "checked": "2026-11-01",
+   "checked": "2026-11-05",
    "evidence": "signal",
    "sources": [
     {
@@ -654,9 +654,24 @@
      "url": "https://www.wikidata.org/wiki/Property:P38",
      "checked": "2026-11-01",
      "supports": "currencies in use"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
+     "checked": "2026-11-05",
+     "supports": "A$ exchange rates on 30 October 2026"
+    },
+    {
+     "title": "Fixed parity of the CFP franc (1,000 XPF = 8.38 EUR)",
+     "authority": "Institut d'émission d'outre-mer",
+     "url": "https://www.ieom.fr/",
+     "checked": "2026-11-05",
+     "supports": "Institut d'émission d'outre-mer rate on 2026-10-30"
     }
    ],
-   "currency": "CFP Franc (XPF)"
+   "currency": "CFP Franc (XPF)",
+   "rate_and_date": "A$1 = about 75.0954 XPF (Institut d'émission d'outre-mer, 30 October 2026, crossed via the RBA EUR rate of 30 October 2026; no RBA rate for XPF)"
   },
   "consular": {
    "checked": "2026-11-01",

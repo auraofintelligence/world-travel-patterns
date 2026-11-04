@@ -1,0 +1,14 @@
+{
+  "note": "Fallback only. Used for a currency the Reserve Bank of Australia does not publish. Each rate is the destination central bank's own published figure; 'per' says what one unit of the base buys. Cross rates via USD or EUR use the RBA rate of the same day.",
+  "date": "2026-10-30",
+  "rates": {
+    "PLN": {"base": "AUD", "rate": 2.7598, "date": "2026-10-30", "source": {"title": "Table A of average exchange rates 212/A/NBP/2026 (AUD)", "authority": "Narodowy Bank Polski", "url": "https://api.nbp.pl/api/exchangerates/rates/a/aud/2026-10-30/?format=json"}},
+    "CZK": {"base": "AUD", "rate": 15.323, "date": "2026-10-30", "source": {"title": "CNB exchange rate fixing 30.10.2026 #209", "authority": "Czech National Bank", "url": "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/daily.txt?date=30.10.2026"}},
+    "RSD": {"base": "AUD", "rate": 73.8203, "date": "2026-10-30", "source": {"title": "Official middle exchange rate list of 30.10.2026", "authority": "National Bank of Serbia", "url": "https://webappcenter.nbs.rs/ExchangeRateWebApp/ExchangeRate/IndexPrint?ExchangeRateListID=fe942b30-3cf0-42a8-9257-6baded09c539"}},
+    "MKD": {"base": "AUD", "rate": 38.8192, "date": "2026-10-30", "source": {"title": "Exchange rate list 30.10.2026 (middle rate)", "authority": "National Bank of the Republic of North Macedonia", "url": "https://www.nbrm.mk/KLServiceNOV/GetExchangeRate?StartDate=30.10.2026&EndDate=30.10.2026&format=json"}},
+    "BAM": {"base": "EUR", "rate": 1.95583, "date": "2026-10-30", "source": {"title": "Currency board: fixed exchange rate 1 EUR = 1.95583 KM", "authority": "Central Bank of Bosnia and Herzegovina", "url": "https://www.cbbh.ba/"}},
+    "XPF": {"base": "EUR", "rate": 119.3317, "date": "2026-10-30", "source": {"title": "Fixed parity of the CFP franc (1,000 XPF = 8.38 EUR)", "authority": "Institut d'émission d'outre-mer", "url": "https://www.ieom.fr/"}},
+    "PEN": {"base": "USD", "rate": 3.467, "date": "2026-10-30", "source": {"title": "Series PD04640PD, SBS selling rate, 30 Oct 2026", "authority": "Banco Central de Reserva del Perú", "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PD04640PD/json/2026-10-30/2026-10-30"}},
+    "KES": {"base": "USD", "rate": 129.96, "date": "2026-10-29", "source": {"title": "Weekly Bulletin, 30 October 2026 (rate of 29 Oct 2026)", "authority": "Central Bank of Kenya", "url": "https://www.centralbank.go.ke/uploads/weekly_bulletin/1190512301_Weekly%20CBK%20Bulletin,%20October%2030,%202026.pdf"}}
+  }
+}
