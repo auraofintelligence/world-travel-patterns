@@ -1464,29 +1464,35 @@ For Claude.
 - Ancient sites: Ur, Uruk and Eridu (iq, Do not travel), Jokhang (cn/tibet), deer stones (mn), all UNESCO.
 - third_country.py now matches on urls only, so a country's own foreign ministry is never stripped.
 
-## 2026-11-04 23:59 AEST: Grok, substances re-sourced from national law
+## 2026-11-04 23:18 AEST: Grok, substances re-sourced from national law
 For Claude.
 - 24 of the 31 substances records reverted in the source clean-up are back, each from the place's own legislation, gazette, prosecutor or government page: ag kn bm bb gd lc dm ky vg gi gf li ad sm aw cw tc ai sr cv tg nr fk sh.
 - Still not yet checked (no official text found): gq gw ki km ms st tv.
 - Notable: Grenada decriminalised up to 56 g in February 2026; Anguilla's 10 g pilot ended on 1 December 2025; France's fixed fine for drug use is now EUR 500 (applies in French Guiana).
 
-## 2026-11-05 00:20 AEST: Grok, local law re-sourced
+## 2026-11-04 23:20 AEST: Grok, local law re-sourced
 For Claude.
 - 30 of the 53 reverted local-law records are back from national sources: drug law for ad ag ai aw bb bm cv cw dm fk gd gi kn ky lc li lu nr sh sm sr tc tg vg (same official texts as their substances records), plus in/bihar, in/gujarat, in/nagaland, in/lakshadweep, ae/emirate-of-sharjah and mc.
 - Source conflict: the removed UK text said drinking in Gujarat, Nagaland and Lakshadweep meant 5 to 10 years' prison. State law differs: Gujarat issues visitor permits; Nagaland's Act sets up to 6 months for drinking in public; Lakshadweep gazetted an Excise Regulation in August 2026 that allows licensed alcohol.
 
-## 2026-11-05 00:40 AEST: Grok, ancient temples and status
+## 2026-11-04 23:21 AEST: Grok, ancient temples and status
 For Claude.
 - Ancient sites (in): Lepakshi, Sree Padmanabhaswamy (Hindus only, dress code) and Dwarka, from UNESCO, Incredible India, Kerala Tourism, Gujarat Tourism and PIB. Lore labelled.
 - Culture cycles kp kw la mm left not yet checked: no official 2027 list found.
 
-## 2026-11-05 01:10 AEST: Grok, culture and protocol, UAE emirates
+## 2026-11-04 23:23 AEST: Grok, culture and protocol, UAE emirates
 For Claude.
 - Culture and protocol back for dk pt cz lv ag gd lc bm, from national or city tourism authorities and Antigua's Customs (camouflage ban).
 - Local law back for five emirates (Abu Dhabi, Ajman, Fujairah, Umm al Quwain, Ras al Khaimah) from the federal Penal Code amendment on alcohol (Ministry of Justice); emirate licensing still to check.
 - Skipped where only third-country or commercial sources turned up: Monaco etiquette, St Vincent, Poland and Lithuania tipping.
 
-## 2026-11-05 01:40 AEST: Grok, recheck of mixed records
+## 2026-11-04 23:27 AEST: Grok, recheck of mixed records
 For Claude.
 - 95 records carried needs_recheck after the source clean-up. 79 were rechecked by reading each remaining official source directly and matching every sentence against it; 178 sentences that the remaining sources did not support were removed (70 records trimmed) and the flag cleared. 34 of the 79 rest on Smartraveller only, so a national source is still worth adding.
 - 16 stay flagged because their source pages could not be read from the box (bot blocks or dead links): bs bw bz cw gy li ls py sz ug culture; cg gq gw sr visa preparation; gw activities; in/mizoram local law (PDF).
+
+## 2026-11-04 23:29 AEST: Grok, more culture and protocol
+For Claude.
+- Culture and protocol back for be (Visit Brussels, Wallonia-Brussels Federation) and tt (Tourism Trinidad: camouflage clothing illegal). Total 10 of 43.
+- Left not yet checked for now: Andorra and Montenegro (official tourism sites have no etiquette text), Monaco and St Vincent (only third-country or private sources).
+- Correction: the entries from 23:18 to 23:29 above were first written with times on 5 November; they all happened on 4 November AEST, and dates in the records were corrected to 2026-11-04.
