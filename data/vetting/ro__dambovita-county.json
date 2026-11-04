@@ -1,0 +1,38 @@
+{
+ "place": "ro/dambovita-county",
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "permits-and-fees",
+     "rule": "Bucegi Natural Park: visit fee 10 RON for ages 14 and over, valid 90 days; under 14 free. Pay online by card or in cash to rangers. (No RBA rate for RON; at the Banca Națională a României rate of 30 October 2026, A$1 = about 3.355 RON: 10 RON ≈ A$2.98)",
+     "level": "region",
+     "source": "https://www.bucegipark.ro/ro/ticket-information",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Bucegi Natural Park"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tichete & Prețuri",
+     "authority": "RNP Romsilva - Administrația Parcului Natural Bucegi",
+     "url": "https://www.bucegipark.ro/ro/ticket-information",
+     "checked": "2026-11-05",
+     "supports": "visit fee (read directly 2026-11-05)"
+    },
+    {
+     "title": "Reference exchange rates 2026 (XML), 30 Oct 2026, AUD",
+     "authority": "Banca Națională a României",
+     "url": "https://curs.bnr.ro/files/xml/years/nbrfxrates2026.xml",
+     "checked": "2026-11-05",
+     "supports": "RON fallback rate (2026-10-30) (read directly 2026-11-05)"
+    }
+   ],
+   "note": "Read directly."
+  }
+ }
+}

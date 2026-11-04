@@ -1,0 +1,54 @@
+{
+ "place": "hu/borsod-abauj-zemplen-county",
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "permits-and-fees",
+     "rule": "Baradla Cave (Aggtelek, UNESCO), short tour: adult 4,200 Ft, concession 3,400 Ft, preschool or escort 1,500 Ft; tours at 10:00, 13:00 and 15:00 and run for one person. (No RBA rate for HUF; at the Magyar Nemzeti Bank rate of 30 October 2026, A$1 = about 229.66 HUF: 4,200 Ft ≈ A$18.29; 3,400 Ft ≈ A$14.80)",
+     "level": "region",
+     "source": "https://anp.hu/tura/2",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Aggtelek National Park"
+    },
+    {
+     "topic": "permits-and-fees",
+     "rule": "Szent István Cave (Lillafüred), from 1 March 2026: adult 2,400 Ft, concession 1,800 Ft, family (2+2) 7,000 Ft; guided 30-minute tours on the hour. (No RBA rate for HUF; at the Magyar Nemzeti Bank rate of 30 October 2026, A$1 = about 229.66 HUF: 2,400 Ft ≈ A$10.45; 7,000 Ft ≈ A$30.48)",
+     "level": "region",
+     "source": "https://www.bnpi.hu/hu/reszletek/szent-istvan-barlang",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Bükk National Park"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Baradla-barlang, aggteleki rövidtúra",
+     "authority": "Aggteleki Nemzeti Park Igazgatóság",
+     "url": "https://anp.hu/tura/2",
+     "checked": "2026-11-05",
+     "supports": "tour times and prices (read directly 2026-11-05)"
+    },
+    {
+     "title": "Szent István-barlang",
+     "authority": "Bükki Nemzeti Park Igazgatóság",
+     "url": "https://www.bnpi.hu/hu/reszletek/szent-istvan-barlang",
+     "checked": "2026-11-05",
+     "supports": "prices from 1 March 2026, tour times (read directly 2026-11-05)"
+    },
+    {
+     "title": "Official exchange rates, AUD, 30 October 2026",
+     "authority": "Magyar Nemzeti Bank",
+     "url": "https://www.mnb.hu/arfolyam-tablazat?deviza=rbCurrencySelect&devizaSelected=AUD&datefrom=2026.10.30.&datetill=2026.10.30.&order=1",
+     "checked": "2026-11-05",
+     "supports": "HUF fallback rate (2026-10-30) (read directly 2026-11-05)"
+    }
+   ],
+   "note": "Read directly."
+  }
+ }
+}

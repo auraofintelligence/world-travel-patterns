@@ -1,0 +1,38 @@
+{
+ "place": "ro/maramures-county",
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "permits-and-fees",
+     "rule": "Rodna Mountains National Park: visit fee 5 lei per person per day (price list applicable from 1 January 2018, the latest the park publishes). (No RBA rate for RON; at the Banca Națională a României rate of 30 October 2026, A$1 = about 3.355 RON: 5 lei ≈ A$1.49)",
+     "level": "region",
+     "source": "https://www.parcrodna.ro/uploads/pagini_fisiere/64/Tarife%20APNMR.pdf",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Rodna Mountains National Park"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Lista de prețuri APNMR (Decizia nr. 55/2017)",
+     "authority": "RNP Romsilva - Administrația Parcului Național Munții Rodnei",
+     "url": "https://www.parcrodna.ro/uploads/pagini_fisiere/64/Tarife%20APNMR.pdf",
+     "checked": "2026-11-05",
+     "supports": "visit fee (read directly 2026-11-05)"
+    },
+    {
+     "title": "Reference exchange rates 2026 (XML), 30 Oct 2026, AUD",
+     "authority": "Banca Națională a României",
+     "url": "https://curs.bnr.ro/files/xml/years/nbrfxrates2026.xml",
+     "checked": "2026-11-05",
+     "supports": "RON fallback rate (2026-10-30) (read directly 2026-11-05)"
+    }
+   ],
+   "note": "Read directly."
+  }
+ }
+}

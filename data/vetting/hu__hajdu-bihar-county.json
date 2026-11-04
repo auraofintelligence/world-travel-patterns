@@ -1,0 +1,38 @@
+{
+ "place": "hu/hajdu-bihar-county",
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "permits-and-fees",
+     "rule": "Hortobágy Wildlife Park (reached only by the national park's vehicle from Hortobágy): adult 2,500 Ft, child/student/pensioner 2,000 Ft, family 7,300 Ft; safari extra 2,700 Ft. Closed Mondays, 1 November 2026 and 21 December 2026 to 4 January 2027. (No RBA rate for HUF; at the Magyar Nemzeti Bank rate of 30 October 2026, A$1 = about 229.66 HUF: 2,500 Ft ≈ A$10.89; 7,300 Ft ≈ A$31.79; 2,700 Ft ≈ A$11.76)",
+     "level": "region",
+     "source": "https://www.hnp.hu/hu/szervezeti-egyseg/turizmus/vadaspark/oldal/nyitvatartas-menetrend-jegyarak-vadaspark",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Hortobágy National Park"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Nyitvatartás, menetrend, jegyárak - Vadaspark",
+     "authority": "Hortobágyi Nemzeti Park Igazgatóság",
+     "url": "https://www.hnp.hu/hu/szervezeti-egyseg/turizmus/vadaspark/oldal/nyitvatartas-menetrend-jegyarak-vadaspark",
+     "checked": "2026-11-05",
+     "supports": "wildlife park prices and closures (read directly 2026-11-05)"
+    },
+    {
+     "title": "Official exchange rates, AUD, 30 October 2026",
+     "authority": "Magyar Nemzeti Bank",
+     "url": "https://www.mnb.hu/arfolyam-tablazat?deviza=rbCurrencySelect&devizaSelected=AUD&datefrom=2026.10.30.&datetill=2026.10.30.&order=1",
+     "checked": "2026-11-05",
+     "supports": "HUF fallback rate (2026-10-30) (read directly 2026-11-05)"
+    }
+   ],
+   "note": "Read directly."
+  }
+ }
+}

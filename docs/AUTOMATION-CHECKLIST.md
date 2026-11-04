@@ -64,6 +64,7 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | 2027-01-01 | rule-change | kr | South Korea's K-ETA exemption for Australian passport holders runs until 31 December 2026. | Check the official K-ETA site for an extension before 1 January 2027. |
 | 2027-01-01 | law-or-rule-date | my/labuan | local-law: Budget 2027 proposes a single limit of RM10,000 (about A$3,505) of new goods for Labuan and Langkawi from 1 January 2027, after a stay of at | Recheck the official source about 60 days before, and again on the date. |
 | 2027-01-01 | law-or-rule-date | pt/madeira | local-law: ...ber 2026) for up to 7 consecutive nights, for non-residents of Madeira aged over 12. A proposed rise to EUR 4 from 1 January 2027 was under public co | Recheck the official source about 60 days before, and again on the date. |
+| 2027-01-04 | law-or-rule-date | hu/hajdu-bihar-county | local-law: ...sioner 2,000 Ft, family 7,300 Ft; safari extra 2,700 Ft. Closed Mondays, 1 November 2026 and 21 December 2026 to 4 January 2027. (No RBA rate for H | Recheck the official source about 60 days before, and again on the date. |
 | 2027-01-05 | law-or-rule-date | jp/okinawa-prefecture | ancient-sites-and-mysteries: ...ar-calendar ritual days (lunar 1 to 3 May and 1 to 3 October; 9 to 11 November in 2026). From 2 November 2026 to 5 January 2027, access beyond the | Recheck the official source about 60 days before, and again on the date. |
 | 2027-01-16 | election | ng | Presidential, Senate and House of Representatives elections | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-01-27 | election | kg | Presidential election (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
@@ -130,7 +131,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-532 locations have specific watch items.
+533 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -380,6 +381,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | hr/lika-senj-county | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | hr/sibenik-knin-county | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | hr/split-dalmatia-county | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| hu/hajdu-bihar-county | Exercise normal safety precautions | monthly | dated rule | local-law date 2027-01-04 |
 | id | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | id/bali | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | id/klungkung-regency | Exercise a high degree of caution | monthly | snapshot evidence |  |

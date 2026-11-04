@@ -1662,3 +1662,8 @@ For Claude.
 ## 5 November 2026, 01:59 AEST
 - Extended the central bank fallback to ARS (BCRA), BRL (BCB PTAX), COP (official TRM), CLP (dólar observado via SII, 27 Oct), ZAR (SARB), NAD (Bank of Namibia 1:1 with ZAR), JOD (CBJ peg 0.709), SAR (SAMA peg 3.75) and TOP (NRBT, 4 Nov). fallback_rate now chains one pegged currency through another.
 - Swept earlier "No RBA rate" fees: 49 rules now carry an approximate A$ figure per amount, citing the central bank rate (sources added to each record). Still without a rate: EGP, MXN, IRR, GTQ, BOB, ALL, NPR, LKR, LAK, KHR, FJD, VUV, WST (bank pages blocked, undated, or multiple official rates).
+
+## 5 November 2026, 02:08 AEST
+- Batch 12 records: 40 states and regions. Added us/havasupai-reservation (Q12074478) with local law and culture and protocol from the Tribe's tourism terms. Local law for Triglav National Park municipalities (Bohinj, Bled, Kranjska Gora, Bovec, Tolmin, Gorje, Jesenice, Kobarid), Solčava and Divača; 17 Romanian counties; 8 Bulgarian oblasts; Borsod-Abaúj-Zemplén, Hajdú-Bihar; Košice and Žilina regions.
+- Added RON (BNR, 30 Oct) and HUF (MNB, 30 Oct) to the central bank fallback; new Romanian and Hungarian fees carry approximate A$ figures.
+- Not recorded: Albania (Alps park tariff still a draft), Bohol (Chocolate Hills fee deferred, unconfirmed), Vitosha (page empty), Ceahlău (current tariff page down), Havasupai prices (help page 403).

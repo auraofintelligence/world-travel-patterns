@@ -1,0 +1,54 @@
+{
+ "place": "ro/hunedoara-county",
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "permits-and-fees",
+     "rule": "Retezat National Park: visit ticket 10 lei per person, valid 7 days with multiple entries; under 18 exempt. Buy online, by SMS, at main entrances or the Nucșoara visitor centre; keep it for inspection. (No RBA rate for RON; at the Banca Națională a României rate of 30 October 2026, A$1 = about 3.355 RON: 10 lei ≈ A$2.98)",
+     "level": "region",
+     "source": "https://www.retezat.ro/intrebari-frecvente/57/tarif-de-vizitare-parcul-national-retezat",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Retezat National Park"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Retezat National Park: stay on marked trails; tents only in designated areas; no open fires (portable stoves only in camping areas); dogs on a lead; no bathing, boats or detergents in park waters; no motor vehicles or bikes on hiking trails.",
+     "level": "region",
+     "source": "https://retezat.ro/intrebari-frecvente/119/tourist-information",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Retezat National Park"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tarif de vizitare Parcul Național Retezat",
+     "authority": "RNP Romsilva - Administrația Parcului Național Retezat",
+     "url": "https://www.retezat.ro/intrebari-frecvente/57/tarif-de-vizitare-parcul-national-retezat",
+     "checked": "2026-11-05",
+     "supports": "fee, validity, exemptions (read directly 2026-11-05)"
+    },
+    {
+     "title": "Tourist information",
+     "authority": "RNP Romsilva - Administrația Parcului Național Retezat",
+     "url": "https://retezat.ro/intrebari-frecvente/119/tourist-information",
+     "checked": "2026-11-05",
+     "supports": "visitor rules (read directly 2026-11-05)"
+    },
+    {
+     "title": "Reference exchange rates 2026 (XML), 30 Oct 2026, AUD",
+     "authority": "Banca Națională a României",
+     "url": "https://curs.bnr.ro/files/xml/years/nbrfxrates2026.xml",
+     "checked": "2026-11-05",
+     "supports": "RON fallback rate (2026-10-30) (read directly 2026-11-05)"
+    }
+   ],
+   "note": "Read directly."
+  }
+ }
+}

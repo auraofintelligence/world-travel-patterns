@@ -1,0 +1,47 @@
+{
+ "place": "ro/mehedinti-county",
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "permits-and-fees",
+     "rule": "Domogled-Valea Cernei National Park: visit fee 2 euro plus VAT per person for 7 days (since 1 May 2023), from the Băile Herculane visitor centre or by SMS (about A$3.18 before VAT at the RBA rate of 30 October 2026).",
+     "level": "region",
+     "source": "https://domogled.ro/ro/turism/",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Domogled-Valea Cernei"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Domogled-Valea Cernei National Park: stay on marked trails; leaving them is an offence fined 3,000 to 6,000 lei for individuals (OUG 57/2007 art. 53). Camp only in signed areas; fires only in camping areas and near huts in purpose-built hearths; dogs on a lead and only on marked trails. (No RBA rate for RON; at the Banca Națională a României rate of 30 October 2026, A$1 = about 3.355 RON: 3,000 lei ≈ A$894; 6,000 lei ≈ A$1,788)",
+     "level": "region",
+     "source": "https://domogled.ro/ro/turism/",
+     "checked": "2026-11-05",
+     "by": "hand",
+     "heading": "Domogled-Valea Cernei"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Turism",
+     "authority": "RNP Romsilva - Administrația Parcului Național Domogled-Valea Cernei",
+     "url": "https://domogled.ro/ro/turism/",
+     "checked": "2026-11-05",
+     "supports": "rules, fines, visit fee (read directly 2026-11-05)"
+    },
+    {
+     "title": "Reference exchange rates 2026 (XML), 30 Oct 2026, AUD",
+     "authority": "Banca Națională a României",
+     "url": "https://curs.bnr.ro/files/xml/years/nbrfxrates2026.xml",
+     "checked": "2026-11-05",
+     "supports": "RON fallback rate (2026-10-30) (read directly 2026-11-05)"
+    }
+   ],
+   "note": "Read directly."
+  }
+ }
+}
