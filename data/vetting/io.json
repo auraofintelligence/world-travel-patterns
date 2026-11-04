@@ -545,6 +545,46 @@
      "supports": "public holidays in data/calendar"
     }
    ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-04",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "entry-permits",
+     "rule": "BIOT is not a tourist destination: entry needs prior permission, Diego Garcia is for authorised official duty only, and yachts may moor in the Outer Islands only for safe passage with a permit (GBP 250 a week, up to 28 days, apply 6 weeks ahead). Since 31 March 2026 new permit applications are paused except in exceptional circumstances. Entering without permission can bring imprisonment.",
+     "level": "country",
+     "source": "https://www.biot.gov.io/visiting/visa-requirements/",
+     "checked": "2026-11-04",
+     "by": "hand"
+    },
+    {
+     "topic": "environment",
+     "rule": "Strict Nature Reserves may not be approached within 3 nautical miles; diving, spear-fishing, removing plants or animals and commercial activity are prohibited, and fishing is allowed only by hand line for your own consumption.",
+     "level": "country",
+     "source": "https://www.biot.gov.io/visiting/mooring-permits/",
+     "checked": "2026-11-04",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mooring permits",
+     "authority": "British Indian Ocean Territory Administration",
+     "url": "https://www.biot.gov.io/visiting/mooring-permits/",
+     "checked": "2026-11-04",
+     "supports": "local law (search-index snapshot)"
+    },
+    {
+     "title": "Visa requirements",
+     "authority": "British Indian Ocean Territory Administration",
+     "url": "https://www.biot.gov.io/visiting/visa-requirements/",
+     "checked": "2026-11-04",
+     "supports": "local law (search-index snapshot)"
+    }
+   ],
+   "note": "From the place's own government sources."
   }
  }
 }

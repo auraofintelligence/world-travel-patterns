@@ -1517,3 +1517,8 @@ For Claude.
 - Culture and protocol back for la (Lao Do's and Don'ts campaign, Luang Prabang and national tourism), dm (Invest Dominica Authority), ms (Montserrat Tourism Authority) and ni (INTUR, voluntary-tip rule). 15 of 43 now back.
 - Montserrat substances and local law from the Montserrat Tourism Authority (cannabis illegal, temporary driving licence).
 - Not yet checked, no official source with etiquette found: San Marino (tourism site has hours, not etiquette), Mayotte (only private guides), British Virgin Islands, Tuvalu.
+
+## 2026-11-04 23:42 AEST: Grok, territory local law
+For Claude.
+- Local law back for gs (entry permit and biosecurity, GSGSSI), io (permits paused since 31 March 2026, nature reserves, BIOT Administration), pn (visitor visas, mandatory evacuation insurance, Government of the Pitcairn Islands), bq (Opiumwet BES: cannabis fully banned), and bl and mf (French law from Service Public).
+- Still open for local law: cg cn/tibet eh gq gw ki km st sx tv vc. Sint Maarten's own legislation portal did not surface the Opium ordinance text.

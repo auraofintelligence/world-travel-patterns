@@ -477,6 +477,46 @@
      "supports": "public holidays in data/calendar"
     }
    ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-04",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "entry-permits",
+     "rule": "Since 1 August 2025 every visitor needs an Entry (Visitor) Permit under the Entry Control Ordinance 2022, applied for online and paid at least 14 days before arrival; GBP 250, valid 40 days, not issued within 3 days of arrival.",
+     "level": "country",
+     "source": "https://gov.gs/entry-control-order-permit-application/",
+     "checked": "2026-11-04",
+     "by": "hand"
+    },
+    {
+     "topic": "biosecurity",
+     "rule": "Breaching the biosecurity protocols is an offence: clean and inspect clothing and gear before arrival and between sites, wash boots and dip them in biocide before every landing, take no fresh fruit, vegetables, meat, eggs or unpasteurised dairy ashore, keep at least 5 m from wildlife and carcasses, and don't sit, kneel or lie on the ground.",
+     "level": "country",
+     "source": "https://gov.gs/wp-content/uploads/2026/06/01_SOP_Visitors.pdf",
+     "checked": "2026-11-04",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Entry Control Order: permit application",
+     "authority": "Government of South Georgia and the South Sandwich Islands",
+     "url": "https://gov.gs/entry-control-order-permit-application/",
+     "checked": "2026-11-04",
+     "supports": "local law (search-index snapshot)"
+    },
+    {
+     "title": "Visitors standard operating procedure (June 2026)",
+     "authority": "Government of South Georgia and the South Sandwich Islands",
+     "url": "https://gov.gs/wp-content/uploads/2026/06/01_SOP_Visitors.pdf",
+     "checked": "2026-11-04",
+     "supports": "local law (search-index snapshot)"
+    }
+   ],
+   "note": "From the place's own government sources."
   }
  }
 }
