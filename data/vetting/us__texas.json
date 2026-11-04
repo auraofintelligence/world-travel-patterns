@@ -76,6 +76,44 @@
      "supports": "recreational use illegal (read via a search-index snapshot)"
     }
    ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Possessing a usable quantity of marihuana is an offence: two ounces or less is a Class B misdemeanour, more than two and up to four ounces a Class A misdemeanour (Health and Safety Code s. 481.121).",
+     "source": "https://statutes.capitol.texas.gov/?artSec=481.121&chapter=HS.481&code=HS&tab=1",
+     "checked": "2026-11-05"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "medical",
+     "text": "Only low-THC cannabis is available, on a Texas prescription from a licensed dispensing organisation, and smoking it is prohibited (Occupations Code s. 169.001).",
+     "source": "https://www.dps.texas.gov/section/compassionate-use-program/faq/law-enforcement-faqs",
+     "checked": "2026-11-05"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Health and Safety Code s. 481.121",
+     "authority": "Texas Legislature",
+     "url": "https://statutes.capitol.texas.gov/?artSec=481.121&chapter=HS.481&code=HS&tab=1",
+     "checked": "2026-11-05",
+     "supports": "possession offence tiers (search-index snapshot)"
+    },
+    {
+     "title": "Compassionate Use Program: Law Enforcement FAQs",
+     "authority": "Texas Department of Public Safety",
+     "url": "https://www.dps.texas.gov/section/compassionate-use-program/faq/law-enforcement-faqs",
+     "checked": "2026-11-05",
+     "supports": "low-THC prescription only; smoking prohibited (read directly 2026-11-05)"
+    }
+   ],
+   "notes": "State law. Read with the national rules (in the US, cannabis stays illegal federally: no federal land, no crossing state lines)."
   }
  }
 }

@@ -86,6 +86,38 @@
      "supports": "non-resident transport rules (read via a search-index snapshot)"
     }
    ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Adults 21 and over who are not Illinois residents may possess up to 30 g of cannabis flower, 5 g of concentrate and 500 mg of THC in infused products; residents 60 g, 10 g and 1,000 mg. The limits are cumulative (410 ILCS 705/10-10, as amended by P.A. 104-463 from 12 June 2026).",
+     "source": "https://www.ilga.gov/Documents/legislation/ilcs/documents/041007050K10-10.htm",
+     "checked": "2026-11-05",
+     "changing": true
+    }
+   ],
+   "sources": [
+    {
+     "title": "410 ILCS 705/10-10 Possession limit",
+     "authority": "Illinois General Assembly",
+     "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/041007050K10-10.htm",
+     "checked": "2026-11-05",
+     "supports": "non-resident and resident limits, effective 12 June 2026 (read directly 2026-11-05)"
+    },
+    {
+     "title": "FAQ: information for purchasers",
+     "authority": "Illinois Department of Financial and Professional Regulation",
+     "url": "https://idfpr.illinois.gov/content/dam/soi/en/web/idfpr/faq/auc/faq-information-for-purchasers.pdf",
+     "checked": "2026-11-05",
+     "supports": "older non-resident limits 15 g, 2.5 g, 250 mg (search-index snapshot)"
+    }
+   ],
+   "notes": "State law. Read with the national rules (in the US, cannabis stays illegal federally: no federal land, no crossing state lines). Older state pages still show the earlier non-resident limits (15 g, 2.5 g, 250 mg)."
   }
  }
 }

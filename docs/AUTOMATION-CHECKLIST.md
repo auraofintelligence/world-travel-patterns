@@ -124,7 +124,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-490 locations have specific watch items.
+514 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -136,6 +136,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ht | Do not travel | weekly | confirm in writing, election, high advisory, snapshot evidence | election 2027-07-18; 1 confirm-in-writing |
 | iq | Do not travel | weekly | high advisory, snapshot evidence |  |
 | ir | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
+| ir/fars-province | Do not travel | weekly | snapshot evidence |  |
 | kp | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
 | lb | Do not travel | weekly | high advisory, snapshot evidence |  |
 | ly | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
@@ -308,10 +309,15 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | eg | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg/alexandria-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg/aswan-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| eg/asyut-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| eg/beni-suef-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| eg/faiyum-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg/giza-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg/luxor-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg/minya-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| eg/new-valley-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg/qena-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| eg/sharqia-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg/sohag-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eh |  | monthly | snapshot evidence |  |
 | es/andalusia | Exercise normal safety precautions | monthly | snapshot evidence |  |
@@ -353,6 +359,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | gy | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
 | hk | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | hn | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| hn/copan-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | hr/lika-senj-county | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | hr/sibenik-knin-county | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | hr/split-dalmatia-county | Exercise normal safety precautions | monthly | snapshot evidence |  |
@@ -432,19 +439,28 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | mp |  | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | mq |  | monthly | snapshot evidence |  |
 | ms |  | monthly | snapshot evidence |  |
+| mt/gozo-region | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| mt/port-region | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| mt/western-region | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | mu | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | mv | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mw | Exercise a high degree of caution | monthly | confirm in writing, pending event, snapshot evidence | pending date: Lake of Stars 2027; pending date: Lake of Stars festival 2027; 4 confirm-in-writing |
 | mx | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/campeche | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/chiapas | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/chihuahua | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/hidalgo | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/mexico-city | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/morelos | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/nayarit | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/oaxaca | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/puebla | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/quintana-roo | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/state-of-mexico | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/tabasco | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/veracruz | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/yucatan | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/zacatecas | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | my | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | my/labuan | Exercise normal safety precautions | monthly | dated rule | local-law date 2027-01-01 |
 | my/sabah | Exercise normal safety precautions | monthly | snapshot evidence |  |
@@ -525,28 +541,36 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | tn | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 9 confirm-in-writing |
 | to | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | tr | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
+| tr/adana-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/aksaray-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/ankara-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/antalya-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/batman-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/burdur-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/bursa-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/canakkale-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/corum-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/denizli-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/eskisehir-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/gaziantep-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/isparta-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/izmir-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/kars-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/kayseri-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/konya-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/kutahya-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/malatya-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/manisa-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/mardin-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/mersin-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/mugla-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/nevsehir-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/nigde-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/osmaniye-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/sanlurfa-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/usak-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tr/van-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| tr/zonguldak-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | tt | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
 | tv |  | monthly | snapshot evidence |  |
 | tw | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
