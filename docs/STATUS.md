@@ -95,5 +95,5 @@ Biggest gaps first (revised 1 November 2026).
 - Fiji's 2027 public holiday list was reported to contain errors; no revised list from the Fiji Government was found on 1 November 2026 (only third-party calendars).
 
 - 2026-11-05 00:07 AEST: state-level pass started; 12 regions given local law.
-- 2026-11-05 00:17 AEST: second state batch, 37 more regions with local law and 3 Chinese provinces with ancient-site access (Mogao, Sanxingdui, Terracotta Army).
+- 2026-11-05 00:15 AEST: second state batch, 37 more regions with local law and 3 Chinese provinces with ancient-site access (Mogao, Sanxingdui, Terracotta Army).
 - 2026-11-05 00:21 AEST: third state batch, 40 more states (22 culture cycles from official holiday lists, 17 local law, 1 ancient site); Spanish regional holidays moved from signal to BOE.
