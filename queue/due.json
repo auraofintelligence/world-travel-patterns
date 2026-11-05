@@ -3,9 +3,9 @@
   "generated_on": "2026-11-06",
   "mode": "public",
   "place_passes": 288,
-  "pattern_items": 1051,
+  "pattern_items": 1048,
   "by_reason": {
-   "never-checked": 1049,
+   "never-checked": 1046,
    "over-budget": 2
   },
   "watch_checks": 0
@@ -248,34 +248,6 @@
      "age_days": null,
      "budget_days": 180
     },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "mh",
-   "name": "Marshall Islands",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
     {
      "pattern": "drone-pilot-pathway",
      "reason": "never-checked",
@@ -542,28 +514,6 @@
    ]
   },
   {
-   "place": "ws",
-   "name": "Samoa",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "sb",
    "name": "Solomon Islands",
    "kind": "country",
@@ -628,34 +578,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    }
-   ]
-  },
-  {
-   "place": "to",
-   "name": "Tonga",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
     }
    ]
   },
@@ -794,6 +716,28 @@
    ]
   },
   {
+   "place": "mh",
+   "name": "Marshall Islands",
+   "kind": "country",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    }
+   ]
+  },
+  {
    "place": "pw",
    "name": "Palau",
    "kind": "country",
@@ -829,6 +773,44 @@
      "age_days": null,
      "budget_days": 180
     },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    }
+   ]
+  },
+  {
+   "place": "to",
+   "name": "Tonga",
+   "kind": "country",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    }
+   ]
+  },
+  {
+   "place": "ws",
+   "name": "Samoa",
+   "kind": "country",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
     {
      "pattern": "works-and-purpose",
      "reason": "never-checked",
