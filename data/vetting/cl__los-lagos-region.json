@@ -25,6 +25,70 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "process": "Vicente Pérez Rosales National Park (Osorno and Llanquihue provinces; Chile's oldest national park, created 1926): CONAF directs visitors to its Pases Parques ticket site for entry tickets, opening hours and visit conditions, and says official information is available only from CONAF and Pases Parques. Prices were not read.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.conaf.cl/parques/parque-nacional-vicente-perez-rosales/",
+     "checked": "2026-11-05"
+    },
+    {
+     "type": "fee",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "process": "Chiloé National Park (communes of Ancud, Dalcahue, Castro and Chonchi): entry tickets, hours and conditions through CONAF's Pases Parques site. Prices were not read.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.conaf.cl/parques/parque-nacional-chiloe/",
+     "checked": "2026-11-05"
+    },
+    {
+     "type": "seasonal-closure",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "process": "Alerce Andino National Park (Puerto Montt and Cochamó): CONAF lists these trails as closed until further notice: Laguna Sargazo, Laguna Fría, Catedral de Alerce, Rodal de Alerce, Laguna Triángulo and Laguna Chaiquenes. Entry tickets are through Pases Parques.",
+     "lead_time_days": 0,
+     "activities": [
+      "trekking"
+     ],
+     "url": "https://www.conaf.cl/parques/parque-nacional-alerce-andino/",
+     "checked": "2026-11-05"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Parque Nacional Vicente Pérez Rosales",
+     "authority": "CONAF",
+     "url": "https://www.conaf.cl/parques/parque-nacional-vicente-perez-rosales/",
+     "checked": "2026-11-05",
+     "supports": "ticketing through Pases Parques (read directly 2026-11-05)"
+    },
+    {
+     "title": "Parque Nacional Chiloé",
+     "authority": "CONAF",
+     "url": "https://www.conaf.cl/parques/parque-nacional-chiloe/",
+     "checked": "2026-11-05",
+     "supports": "ticketing through Pases Parques (read directly 2026-11-05)"
+    },
+    {
+     "title": "Parque Nacional Alerce Andino",
+     "authority": "CONAF",
+     "url": "https://www.conaf.cl/parques/parque-nacional-alerce-andino/",
+     "checked": "2026-11-05",
+     "supports": "trail closures notice, ticketing (read directly 2026-11-05)"
+    }
+   ],
+   "note": "National parks in Los Lagos only. Fees to read on Pases Parques."
   }
  }
 }

@@ -25,6 +25,31 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Buenos Aires province (Ley 15.402, in force from 5 January 2023, amending the provincial traffic code Ley 13.927): driving any motor vehicle with any alcohol in the blood (above 0 mg per litre) is prohibited, as is driving after taking medicines or substances the authority lists as reducing fitness to drive. Police can hold a driver found intoxicated for up to 12 hours and keep the licence. Refusing or obstructing a breath test is a serious offence that triggers licence retention and disqualification.",
+     "penalty_signal": "A fine plus driving disqualification: 3 months up to 499 mg per litre; 6 months for 500 to 999; 12 months for 1,000 to 1,500; 18 months above 1,500. Arrest is also listed among the penalties.",
+     "level": "province",
+     "source": "https://normas.gba.gob.ar/ar-b/ley/2023/15402/334888",
+     "checked": "2026-11-05"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ley 15402: Código de Tránsito de la Provincia de Buenos Aires, Alcohol Cero (texto actualizado)",
+     "authority": "Gobierno de la Provincia de Buenos Aires, Normas (Subsecretaría Legal y Técnica)",
+     "url": "https://normas.gba.gob.ar/ar-b/ley/2023/15402/334888",
+     "checked": "2026-11-05",
+     "supports": "zero alcohol rule, retention, disqualification periods (updated text read directly 2026-11-05)"
+    }
+   ],
+   "note": "Fine amounts are set in the provincial traffic code's fine units; not converted here."
   }
  }
 }
