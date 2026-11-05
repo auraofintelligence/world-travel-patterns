@@ -3,9 +3,9 @@
   "generated_on": "2026-11-06",
   "mode": "public",
   "place_passes": 288,
-  "pattern_items": 1054,
+  "pattern_items": 1053,
   "by_reason": {
-   "never-checked": 1052,
+   "never-checked": 1051,
    "over-budget": 2
   },
   "watch_checks": 0
@@ -524,34 +524,6 @@
    ]
   },
   {
-   "place": "pw",
-   "name": "Palau",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "pg",
    "name": "Papua New Guinea",
    "kind": "country",
@@ -852,6 +824,28 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "pw",
+   "name": "Palau",
+   "kind": "country",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
     }
    ]
   },

@@ -250,7 +250,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -300,6 +300,22 @@
      "source": "https://www.smartraveller.gov.au/destinations/pacific/palau",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Koror State sets protected areas in the Rock Islands. The Ngerukewid Islands Wildlife Preserve (Seventy Islands) allows no entry, fishing, hunting or disturbance at any time. Ngederrak allows no fishing and no entry year round. Ulong Channel (Ngerumekaol) allows no fishing year round. Long Island Park allows no fishing, taking or touching of plants or animals. Ngkisaol cove is closed for baitfish for four days before and during the full moon.",
+     "level": "state",
+     "source": "https://www.kororstategov.com/pdf/dcle/Fact%20Sheet%20May.2016.pdf",
+     "checked": "2026-11-06",
+     "heading": "Koror State Protected Areas"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "At Jellyfish Lake nothing is to be brought in or out, including rocks, shells and live animals. Visitors are asked to rinse sand off, take only clean snorkelling gear, and put sunscreen on at least half an hour before the trail, without carrying a sunscreen bottle to the lake.",
+     "level": "state",
+     "source": "https://www.kororstategov.com/pdf/dcle/Fact%20Sheet%20May.2016.pdf",
+     "checked": "2026-11-06",
+     "heading": "Jellyfish Lake Ongeim'l Tketau Best Practices"
     }
    ],
    "sources": [
@@ -309,6 +325,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/pacific/palau",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Rock Islands Southern Lagoon Management Area Fact Sheet (revised May 2016)",
+     "authority": "Koror State Government",
+     "url": "https://www.kororstategov.com/pdf/dcle/Fact%20Sheet%20May.2016.pdf",
+     "checked": "2026-11-06",
+     "supports": "Koror State protected areas and Jellyfish Lake practices"
     }
    ]
   },
@@ -947,6 +970,66 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; heritage laws are not yet read (see national.read)."
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Government of Palau (collected on the airline ticket)",
+     "process": "The Pristine Paradise Environmental Fee is US$100 (about A$142 at A$1 = USD 0.7040, RBA 30 Oct 2026) on international tickets into Palau issued from 1 January 2018. It is added to the ticket. Exemptions were not read.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://pristineparadisepalau.com/travelers-tips/",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Koror State Government (Rangers, Department of Conservation and Law Enforcement)",
+     "process": "Every visitor aged 6 and over to the Rock Islands Southern Lagoon needs at least one permit, held on them or by their guide or boat operator. Rock Island Use Permit US$50 (about A$71) for the designated tourist activity areas. Jellyfish Lake Permit US$100 (about A$142) covers Ongeim'l Tketau (Jellyfish Lake) and the other designated areas. Koror State's 2016 fact sheet says permits are valid for 10 days; the Palau Visitors Authority page says 5 days. A Rock Island permit holder who goes to the lake is issued a voucher there, to be paid within 48 hours at US$75 (about A$107). Sold at the Koror State Rangers office or by authorised tour companies. Fishing needs a separate Fishing Permit. Prices are from the 2016 fact sheet, which says rules can change without notice: confirm with Koror State.",
+     "lead_time_days": 0,
+     "activities": [
+      "Rock Islands",
+      "Jellyfish Lake",
+      "boat tours"
+     ],
+     "url": "https://www.kororstategov.com/pdf/dcle/Fact%20Sheet%20May.2016.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "guide-required",
+     "authority": "Koror State Government",
+     "process": "Koror State's Tour Guide Act requires people working as marine tour guides in Koror State to pass its certification programme. The fact sheet's Jellyfish Lake advice is that guides accompany guests and adults accompany small children.",
+     "lead_time_days": 0,
+     "activities": [
+      "Rock Islands",
+      "Jellyfish Lake"
+     ],
+     "url": "https://www.kororstategov.com/pdf/dcle/Fact%20Sheet%20May.2016.pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Travelers Tips",
+     "authority": "Palau Visitors Authority (pristineparadisepalau.com)",
+     "url": "https://pristineparadisepalau.com/travelers-tips/",
+     "checked": "2026-11-06",
+     "supports": "US$100 Pristine Paradise Environmental Fee; permit prices"
+    },
+    {
+     "title": "Rock Islands Southern Lagoon Management Area Fact Sheet (revised May 2016)",
+     "authority": "Koror State Government",
+     "url": "https://www.kororstategov.com/pdf/dcle/Fact%20Sheet%20May.2016.pdf",
+     "checked": "2026-11-06",
+     "supports": "permit prices, 10-day validity, voucher, protected areas, tour guide act"
+    }
+   ],
+   "note": "Held at country level because the tree has no Koror State node. The Palau Pledge (visitors sign on arrival) is described by the Visitors Authority with no fee.",
+   "checked": "2026-11-06",
+   "evidence": "official"
   }
  }
 }

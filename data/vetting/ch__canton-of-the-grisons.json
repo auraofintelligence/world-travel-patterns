@@ -29,6 +29,72 @@
    ],
    "checked": "2026-11-05",
    "note": "Holidays treated like Sundays under the cantonal rest-day laws (SECO table). The 1 August national day is the only federal holiday. Holidays on a Sunday are not moved."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "seasonal-closure",
+     "authority": "Schweizerischer Nationalpark (Swiss National Park, Engadin)",
+     "process": "The Swiss National Park is closed in winter, as a wildlife rest zone, and entry is forbidden then. Trails are generally open from mid-May to mid-November, and each trail's open or closed status depends on weather and altitude (the park publishes it). Visits are allowed in daytime only, from the start of morning civil twilight to the end of evening civil twilight; the same limit applies to overnight stays in vehicles along the Ofenpass road.",
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://nationalpark.ch/en/protection-regulations/",
+     "evidence": "official",
+     "checked": "2026-11-06",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Protection regulations",
+     "authority": "Schweizerischer Nationalpark",
+     "url": "https://nationalpark.ch/en/protection-regulations/",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Trails and routes",
+     "authority": "Schweizerischer Nationalpark",
+     "url": "https://nationalpark.ch/en/visit/trails-routes/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "In the Swiss National Park, leaving the marked paths and post-marked rest areas is strictly forbidden. Dogs are not allowed, even on a lead. Campfires, swimming in lakes and streams, cycling of any kind, and flying of any kind (including drones) are not permitted. Picking or removing anything natural (animals, plants, sticks, stones) and littering are not allowed. Park wardens can issue fixed on-the-spot fines under the Graubünden fine ordinance (OBVN, 498.210); the amounts sit in an annex that could not be read here.",
+     "level": "site",
+     "source": "https://nationalpark.ch/en/protection-regulations/",
+     "heading": "Schutzbestimmungen, Schweizerischer Nationalpark; Nationalparkordnung (BR 498.200)",
+     "checked": "2026-11-06",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Protection regulations",
+     "authority": "Schweizerischer Nationalpark",
+     "url": "https://nationalpark.ch/en/protection-regulations/",
+     "supports": "park rules, daytime limit, winter closure (read directly)",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Verordnung über die Erhebung von Ordnungsbussen bei Verstössen gegen die Nationalparkordnung (OBVN, BR 498.210)",
+     "authority": "Regierung des Kantons Graubünden",
+     "url": "https://nationalpark.ch/wp-content/uploads/2023/09/Ordnungsbussen.pdf",
+     "supports": "wardens may issue fixed fines (amounts not read)",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "note": "Swiss National Park only."
   }
  }
 }
