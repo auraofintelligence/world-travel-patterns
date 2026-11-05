@@ -127,6 +127,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/asia/hong-kong",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Visitors must register their small unmanned aircraft and themselves as remote pilots on CAD's eSUA portal using their travel documents, unless the flight is Standard Category A1 (aircraft up to 250 g within the operating requirements). A visitor's registration is normally valid for six months. Check the Drone Map before each flight.",
+     "level": "country",
+     "source": "https://www.cad.gov.hk/english/sua_tipsforvisitors.html",
+     "checked": "2026-11-06",
+     "heading": "Visitor drone registration"
     }
    ],
    "sources": [
@@ -136,6 +144,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/hong-kong",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Visitor drone registration",
+     "authority": "Civil Aviation Department (CAD), Hong Kong",
+     "url": "https://www.cad.gov.hk/english/sua_tipsforvisitors.html",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -798,6 +813,61 @@
     }
    ],
    "notes": "No entry vaccination requirement is stated by Smartraveller for Hong Kong; this reads the absence of a stated requirement, not a confirmation from Hong Kong's own health authority."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "CAD requires all small unmanned aircraft and remote pilots to register on eSUA, including visitors, except Standard Category A1 flights (250 g or less). Visitor registrations are normally valid for six months. Higher-risk flights and Restricted Flying Zones need prior CAD permission.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public CAD directory of drone operators was found on the pages read. CAD publishes a Drone Map of flying zones.",
+     "source": "https://esua.cad.gov.hk/web/droneMap",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Remote pilot registration applies to Hong Kong residents and non-residents alike (minimum age 14), except Standard Category A1 flights of aircraft up to 250 g. Flights beyond the standard requirements or inside Restricted Flying Zones need prior CAD permission.",
+     "source": "https://www.cad.gov.hk/documents/Safety_Requirements_Document.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Visitors register through eSUA using their travel documents; a visitor's SUA registration is normally valid for six months. Pilots remain responsible for permissions from other authorities.",
+     "source": "https://www.cad.gov.hk/english/sua_tipsforvisitors.html",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Drone Map",
+     "authority": "Civil Aviation Department (CAD), Hong Kong",
+     "url": "https://esua.cad.gov.hk/web/droneMap",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Safety Requirements Document for Small Unmanned Aircraft Operations (Issue 2, July 2025)",
+     "authority": "Civil Aviation Department (CAD), Hong Kong",
+     "url": "https://www.cad.gov.hk/documents/Safety_Requirements_Document.pdf",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Small Unmanned Aircraft Order: tips for visitors",
+     "authority": "Civil Aviation Department (CAD), Hong Kong",
+     "url": "https://www.cad.gov.hk/english/sua_tipsforvisitors.html",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

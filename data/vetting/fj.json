@@ -78,6 +78,14 @@
      "level": "country",
      "source": "https://www.smartraveller.gov.au/destinations/pacific/fiji",
      "checked": "2026-10-31"
+    },
+    {
+     "topic": "drones",
+     "rule": "Visitors flying a drone for recreation register online (form OP 137) before the first flight. Drones fly up to 200 ft (61 m) without special approval, not within 5 km of international airports or 3 km of other airports and helipads, and not over police stations, military bases or prison compounds. Hotel or resort permission is needed to fly on its property. Declare the drone to Customs.",
+     "level": "country",
+     "source": "https://www.fiji.travel/things-to-know/destination-guide/flying-a-drone-in-fiji",
+     "checked": "2026-11-06",
+     "heading": "Visitor drone permit"
     }
    ],
    "sources": [
@@ -87,6 +95,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/pacific/fiji",
      "checked": "2026-10-31",
      "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
+    },
+    {
+     "title": "Visitor drone permit",
+     "authority": "Tourism Fiji",
+     "url": "https://www.fiji.travel/things-to-know/destination-guide/flying-a-drone-in-fiji",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -769,6 +784,54 @@
      "supports": "visa status, pre-arrival forms and border documents as read"
     }
    ]
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "CAAF requires a recreational drone declaration and permit (form OP 137) before the first flight; filming or photography for payment or sale needs written CAAF authorisation (form OP 138), usually with training certification and liability insurance. Flights are limited to 200 ft and banned near airports.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: any public CAAF directory of authorised drone operators.",
+     "source": "https://www.caaf.org.fj/drones/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Filming or photography for payment or sale needs written authorisation from CAAF on form OP 138; supporting documents usually include RPAS training certification and liability insurance. CAAF's own pages say drone licensing is not currently required for recreational operations.",
+     "source": "https://www.caaf.org.fj/drones/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Visitors use the recreational route: register online with form OP 137 before the first flight. Fiji Tourism says the permit has no fee, usually takes 3 to 5 working days and should be applied for before the trip, and advises declaring the drone to Customs and keeping the CAAF approval handy.",
+     "source": "https://www.fiji.travel/things-to-know/destination-guide/flying-a-drone-in-fiji",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Drones",
+     "authority": "Civil Aviation Authority of Fiji (CAAF)",
+     "url": "https://www.caaf.org.fj/drones/",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Flying a Drone in Fiji: Rules and Permits",
+     "authority": "Tourism Fiji",
+     "url": "https://www.fiji.travel/things-to-know/destination-guide/flying-a-drone-in-fiji",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

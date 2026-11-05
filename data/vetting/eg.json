@@ -120,6 +120,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/africa/egypt",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "To fly a drone, first contact the Ministry of Defence through its website, then apply to the Ministry of Civil Aviation customer service centre for a flight permit for the drone, per the Ministry of Civil Aviation FAQ (in Arabic). Tourist customs treatment of drones was not confirmed.",
+     "level": "country",
+     "source": "https://www.civilaviation.gov.eg/Moca/FAQ",
+     "checked": "2026-11-06",
+     "heading": "Drone approval"
     }
    ],
    "sources": [
@@ -129,6 +137,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/egypt",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone approval",
+     "authority": "Ministry of Civil Aviation, Egypt",
+     "url": "https://www.civilaviation.gov.eg/Moca/FAQ",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -1194,6 +1209,47 @@
     }
    ],
    "evidence": "UNESCO pages and Smartraveller read directly; other official pages are search snapshots unless marked."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "The Ministry of Civil Aviation's FAQ (Arabic) describes two steps to fly a personal drone: contact the Ministry of Defence through its website, then apply to the Ministry of Civil Aviation customer service centre for a flight permit. No operator register or commercial licence page was found in English.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: any public register of drone operators.",
+     "source": "https://www.civilaviation.gov.eg/Moca/FAQ",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Not yet checked: the commercial operator licence. The Ministry's FAQ (Arabic) covers personal drones: Ministry of Defence approval first, then a Ministry of Civil Aviation flight permit.",
+     "source": "https://www.civilaviation.gov.eg/Moca/FAQ",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: separate rules for foreign operators; the two-step process in the FAQ is the only route found.",
+     "source": "https://www.civilaviation.gov.eg/Moca/FAQ",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FAQ",
+     "authority": "Ministry of Civil Aviation, Egypt",
+     "url": "https://www.civilaviation.gov.eg/Moca/FAQ",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

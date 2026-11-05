@@ -460,6 +460,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/middle-east/united-arab-emirates",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Recreational drones of 5 kg or less must be registered before flying and fly only in the approved zones shown in the My Drone Hub app, in daytime and good weather. GCAA's recreational regulation (CAR-UAR, issue 04) says the pilot must be at least 18 and a UAE resident. Registration is handled through Drones.gov.ae.",
+     "level": "country",
+     "source": "https://www.gcaa.gov.ae/en/epublication/EPublications/Civil%20Aviation%20Regulations%20(CARs)/EMERGING%20TECHNOLOGIES/UNMANNED%20AIR%20SYSTEMS%20(UAS)/CAR-UAR%20-%20UNMANNED%20AIRCRAFT%20UA%20RECREATIONAL%20FLIGHTS%20-%20ISSUE%2004.pdf",
+     "checked": "2026-11-06",
+     "heading": "Recreational drone rules"
     }
    ],
    "sources": [
@@ -469,6 +477,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/united-arab-emirates",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Recreational drone rules",
+     "authority": "General Civil Aviation Authority (GCAA), UAE",
+     "url": "https://www.gcaa.gov.ae/en/epublication/EPublications/Civil%20Aviation%20Regulations%20(CARs)/EMERGING%20TECHNOLOGIES/UNMANNED%20AIR%20SYSTEMS%20(UAS)/CAR-UAR%20-%20UNMANNED%20AIRCRAFT%20UA%20RECREATIONAL%20FLIGHTS%20-%20ISSUE%2004.pdf",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -1102,6 +1117,61 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Drone services now run through Drones.gov.ae (UAE Pass login). Recreational drones of 5 kg or less must be registered and fly in approved zones; the recreational rule requires age 18 and UAE residency. Professional operators need security clearance and a GCAA operator authorisation, plus permission for flights in restricted zones.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: any public GCAA directory of authorised operators.",
+     "source": "https://www.gcaa.gov.ae/en/eservices/drones/344",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "For professional use GCAA's steps list security clearance, an operator registration letter on letterhead, subscription to GCAA E-Publications and a fee of AED 1,200 (no AUD rate on file), with about three weeks' processing. The authorisation alone does not permit flying: each flight in a restricted (red) zone needs operational permission.",
+     "source": "https://www.gcaa.gov.ae/en/pages/UASRegistration.aspx/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: how a short-term visitor is treated. CAR-UAR (recreational flights, issue 04) says the pilot must be at least 18 and a UAE resident, so a visitor may not qualify for the recreational route.",
+     "source": "https://www.gcaa.gov.ae/en/epublication/EPublications/Civil%20Aviation%20Regulations%20(CARs)/EMERGING%20TECHNOLOGIES/UNMANNED%20AIR%20SYSTEMS%20(UAS)/CAR-UAR%20-%20UNMANNED%20AIRCRAFT%20UA%20RECREATIONAL%20FLIGHTS%20-%20ISSUE%2004.pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Drones service card",
+     "authority": "General Civil Aviation Authority (GCAA), UAE",
+     "url": "https://www.gcaa.gov.ae/en/eservices/drones/344",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "UAS Registration",
+     "authority": "General Civil Aviation Authority (GCAA), UAE",
+     "url": "https://www.gcaa.gov.ae/en/pages/UASRegistration.aspx/",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "CAR-UAR Unmanned Aircraft Recreational Flights, Issue 04",
+     "authority": "General Civil Aviation Authority (GCAA), UAE",
+     "url": "https://www.gcaa.gov.ae/en/epublication/EPublications/Civil%20Aviation%20Regulations%20(CARs)/EMERGING%20TECHNOLOGIES/UNMANNED%20AIR%20SYSTEMS%20(UAS)/CAR-UAR%20-%20UNMANNED%20AIRCRAFT%20UA%20RECREATIONAL%20FLIGHTS%20-%20ISSUE%2004.pdf",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  },
  "retired_sources": [

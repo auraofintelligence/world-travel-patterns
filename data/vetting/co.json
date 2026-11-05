@@ -977,6 +977,61 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Aerocivil publishes lists of registered drone users (aircraft and pilots) under RAC 100, and Appendix 13 of RAC 91 regulates RPAS for Colombian and foreign persons planning commercial operations. Pages read are two to six years old.",
+   "register": {
+    "exists": true,
+    "name": "Aerocivil: registered UA users",
+    "url": "https://www.aerocivil.gov.co/servicios-a-la-navegacion/sistema-%20de-aeronaves-pilotadas-a-distancia-rpas-drones/Paginas/Explotadores-Registrados.aspx"
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Aerocivil publishes lists of registered UA users, separated into aircraft (RUAS) and pilots (CIPUS). The page read is several years old.",
+     "source": "https://www.aerocivil.gov.co/servicios-a-la-navegacion/sistema-%20de-aeronaves-pilotadas-a-distancia-rpas-drones/Paginas/Explotadores-Registrados.aspx",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Appendix 13 of RAC 91 and Resolution 04201 of 2018 set the rules. There are three categories: recreational, professional or commercial, and experimental. Aerocivil's FAQ says there is no RPAS pilot licence, though training is required; that page may be out of date.",
+     "source": "https://www.aerocivil.gov.co/servicios-a-la-navegacion/sistema-%20de-aeronaves-pilotadas-a-distancia-rpas-drones/Paginas/Reglamentacion.aspx",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Aerocivil's FAQ says the rules apply to natural and legal persons, national or foreign, who plan to operate UAS commercially. The registration steps for a foreigner were not read; the RAC list shows RAC 91 entering force on 30 July 2026, so confirm the current Appendix 13.",
+     "source": "https://www.aerocivil.gov.co/preguntas-frecuentes/7/normatividad/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Usuarios registrados UA",
+     "authority": "Aeronautica Civil (Aerocivil), Colombia",
+     "url": "https://www.aerocivil.gov.co/servicios-a-la-navegacion/sistema-%20de-aeronaves-pilotadas-a-distancia-rpas-drones/Paginas/Explotadores-Registrados.aspx",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Reglamentacion",
+     "authority": "Aeronautica Civil (Aerocivil), Colombia",
+     "url": "https://www.aerocivil.gov.co/servicios-a-la-navegacion/sistema-%20de-aeronaves-pilotadas-a-distancia-rpas-drones/Paginas/Reglamentacion.aspx",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Normatividad: preguntas frecuentes",
+     "authority": "Aeronautica Civil (Aerocivil), Colombia",
+     "url": "https://www.aerocivil.gov.co/preguntas-frecuentes/7/normatividad/",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

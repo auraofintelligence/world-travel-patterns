@@ -1114,6 +1114,61 @@
     }
    ],
    "evidence": "UNESCO pages and Smartraveller read directly; other official pages are search snapshots unless marked."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Indonesia's DGCA runs SIDOPI for drone and remote pilot registration under CASR Part 107. The forms read ask for an Indonesian ID card; no foreign route was found. Flying in a set area and time needs a separate approval.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public DGCA directory of drone operators or pilots was found on the pages read.",
+     "source": "https://imsis-djpu.dephub.go.id/drone/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Small unmanned aircraft (up to 25 kg) are registered with DGCA, and remote pilots complete CASR Part 107 training and a computer-based test. A separate approval is needed to fly in a specific area and time (PM 37 of 2020). DGCA pages differ on validity: registration three years, pilot certificate two years in one place and one year in another.",
+     "source": "https://imsis-djpu.dephub.go.id/SidopiGO/Web/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "The DGCA forms read list an Indonesian ID card (KTP) as a required document. No provision for a foreign visitor or foreign operator was found on the pages read.",
+     "source": "https://imsis-djpu.dephub.go.id/drone/user/assets/lampirandrone/0c7e37cd4e31e54b7f785595d3000e1303.%20DGCA%20Form%20107-01%20UAS%20Registration%20Application%20Form.pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Drone registration portal",
+     "authority": "Directorate General of Civil Aviation (DGCA), Indonesia",
+     "url": "https://imsis-djpu.dephub.go.id/drone/",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "SIDOPI GO",
+     "authority": "Directorate General of Civil Aviation (DGCA), Indonesia",
+     "url": "https://imsis-djpu.dephub.go.id/SidopiGO/Web/",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "DGCA Form 107-01 UAS Registration Application",
+     "authority": "Directorate General of Civil Aviation (DGCA), Indonesia",
+     "url": "https://imsis-djpu.dephub.go.id/drone/user/assets/lampirandrone/0c7e37cd4e31e54b7f785595d3000e1303.%20DGCA%20Form%20107-01%20UAS%20Registration%20Application%20Form.pdf",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  },
  "retired_sources": [

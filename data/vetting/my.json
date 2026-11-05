@@ -344,6 +344,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/asia/malaysia",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "A foreign drone pilot needs an approval letter from the Malaysian Communications and Multimedia Commission (MCMC) as part of CAAM's drone permit steps, as listed on a CAAM page dated about 2020. Confirm the current process with CAAM before flying.",
+     "level": "country",
+     "source": "https://www.caam.gov.my/wp-content/uploads/2021/03/CAAM-Drone_Requirement_2020.pdf",
+     "checked": "2026-11-06",
+     "heading": "Foreign drone pilot approval"
     }
    ],
    "sources": [
@@ -353,6 +361,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/malaysia",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Foreign drone pilot approval",
+     "authority": "Civil Aviation Authority of Malaysia (CAAM)",
+     "url": "https://www.caam.gov.my/wp-content/uploads/2021/03/CAAM-Drone_Requirement_2020.pdf",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -993,6 +1008,54 @@
     }
    ],
    "checked": "2026-11-03"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "CAAM's drone requirements page (dated about 2020) lists CAAM permit and flight approval, with an MCMC approval letter compulsory for a foreign drone pilot. CAAM validates foreign RPAS pilot licences rather than converting them. Current process not confirmed.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public CAAM directory of drone operators was found on the pages read.",
+     "source": "https://www.caam.gov.my/wp-content/uploads/2021/03/CAAM-Drone_Requirement_2020.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "The 2020 page lists a CAAM permit or flight approval per drone (RM250 under 20 kg, RM1,000 over 20 kg; no AUD rate on file). The personnel directive says an RPAS remote pilot licence is issued by CAAM or by another Contracting State and made valid by CAAM, effective 3 November 2022.",
+     "source": "https://www.caam.gov.my/wp-content/uploads/2021/03/CAD_1_-_PEL.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "The 2020 page says an approval letter from the Malaysian Communications and Multimedia Commission (MCMC) is compulsory for a foreign drone pilot, and lists a JUPEM (survey and mapping) approval. CAAM validates, and does not convert, a foreign licence. The page is old: confirm the current steps with CAAM.",
+     "source": "https://www.caam.gov.my/wp-content/uploads/2021/03/CAAM-Drone_Requirement_2020.pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CAAM drone requirements",
+     "authority": "Civil Aviation Authority of Malaysia (CAAM)",
+     "url": "https://www.caam.gov.my/wp-content/uploads/2021/03/CAAM-Drone_Requirement_2020.pdf",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Personnel Civil Aviation Directive (CAD 1)",
+     "authority": "Civil Aviation Authority of Malaysia (CAAM)",
+     "url": "https://www.caam.gov.my/wp-content/uploads/2021/03/CAD_1_-_PEL.pdf",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

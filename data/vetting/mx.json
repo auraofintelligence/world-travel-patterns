@@ -285,6 +285,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/mexico",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "As summarised from NOM-107-SCT3-2019, RPAS with foreign registration, and foreign operators, cannot operate in Mexico unless a bilateral agreement exists with the state of registry. Confirm the current position with AFAC before bringing a drone.",
+     "level": "country",
+     "source": "https://dof.gob.mx/normasOficiales/8006/sct11_C/sct11_C.html",
+     "checked": "2026-11-06",
+     "heading": "Foreign drones and operators"
     }
    ],
    "sources": [
@@ -294,6 +302,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/mexico",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Foreign drones and operators",
+     "authority": "Diario Oficial de la Federacion",
+     "url": "https://dof.gob.mx/normasOficiales/8006/sct11_C/sct11_C.html",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -936,6 +951,54 @@
     }
    ],
    "evidence": "UNESCO pages read directly; site and ministry pages from search snapshots unless marked."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "NOM-107-SCT3-2019 sets RPAS rules: registration with the Registro Aeronautico Mexicano and an operating authorisation for commercial use. As summarised, it says foreign-registered RPAS and foreign operators cannot operate in Mexico unless a bilateral agreement exists with the state of registry.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public AFAC directory of RPAS operators was found on the pages read.",
+     "source": "https://www.gob.mx/afac/acciones-y-programas/rpas-drones",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "RPAS are registered in the Registro Aeronautico Mexicano before operating (start with Apendice K and rpas@afac.gob.mx). The norm defines commercial use as operation for profit and requires registration and an operating authorisation for small RPAS.",
+     "source": "https://dof.gob.mx/normasOficiales/8006/sct11_C/sct11_C.html",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "As summarised from NOM-107-SCT3-2019, RPAS with foreign registration and foreign operators cannot operate in Mexico unless a bilateral agreement exists between Mexico's aeronautical authority and the civil aviation authority of the state of registry. AFAC's aerial survey instructions ask foreign applicants for a current foreign pilot licence and documents showing legal stay. Confirm with AFAC (rpas@afac.gob.mx).",
+     "source": "https://dof.gob.mx/normasOficiales/8006/sct11_C/sct11_C.html",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "RPAS Drones",
+     "authority": "Agencia Federal de Aviacion Civil (AFAC)",
+     "url": "https://www.gob.mx/afac/acciones-y-programas/rpas-drones",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "NOM-107-SCT3-2019",
+     "authority": "Diario Oficial de la Federacion",
+     "url": "https://dof.gob.mx/normasOficiales/8006/sct11_C/sct11_C.html",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  },
  "retired_sources": [

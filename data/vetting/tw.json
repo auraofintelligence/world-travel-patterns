@@ -97,6 +97,15 @@
      "source": "https://www.smartraveller.gov.au/destinations/asia/taiwan",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "A foreign visitor with a foreign drone registration, inspection certificate and remote pilot licence must have them validated by the CAA before flying in the Taipei Flight Information Region. Validation lasts up to six months. Flights stay at or below 400 ft, not between sunset and sunrise, and not over crowds.",
+     "level": "country",
+     "source": "https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=K0090083",
+     "checked": "2026-11-06",
+     "heading": "Foreign drone validation and limits",
+     "penalty_signal": "Breaches of the registration rules can bring a flying ban and a fine of NT$30,000 to NT$150,000, and in serious cases seizure of the drone (no AUD rate on file)."
     }
    ],
    "sources": [
@@ -106,6 +115,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/taiwan",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Foreign drone validation and limits",
+     "authority": "Laws and Regulations Database of the Republic of China (Taiwan)",
+     "url": "https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=K0090083",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -736,6 +752,61 @@
      "supports": "121 days off, nine long breaks (read via a search-index snapshot)"
     }
    ]
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Foreign visitors holding a foreign drone registration, inspection certificate and remote pilot licence must have them validated by the CAA before flying in the Taipei FIR; validation lasts up to six months. Foreign legal entities that need to film must apply through a Taiwanese agency or entity.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public CAA directory of drone operators was found on the pages read.",
+     "source": "https://drone.caa.gov.tw/en-US",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Drones over 250 g owned by individuals are registered and carry their registration number (fee NT$50 per drone; no AUD rate on file). Flights stay at or below 400 ft, not between sunset and sunrise, and not over crowds.",
+     "source": "https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=K0090083",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Foreign nationals with a valid drone registration, inspection certificate and remote pilot licence from their own government submit an application form, passport copy and proof, and are certified before flying; non-English documents need a Chinese translation. The validation lasts up to six months. A CAA FAQ says foreign legal entities that need to film must apply through a domestic government agency, school or legal entity.",
+     "source": "https://www.caa.gov.tw/Article.aspx?a=2428&lang=1",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Remote Control UAV Specification Management System",
+     "authority": "Civil Aviation Administration (CAA), Taiwan",
+     "url": "https://drone.caa.gov.tw/en-US",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Regulations of Drone",
+     "authority": "Laws and Regulations Database of the Republic of China (Taiwan)",
+     "url": "https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=K0090083",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Foreigners (Article 99-12)",
+     "authority": "Civil Aviation Administration (CAA), Taiwan",
+     "url": "https://www.caa.gov.tw/Article.aspx?a=2428&lang=1",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

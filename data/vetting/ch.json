@@ -227,6 +227,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/switzerland",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Only registered operators may fly a drone in Switzerland. An operator based outside the EU, Norway and Iceland must register in Switzerland unless already registered in one of those countries. Drones under 250 g with no camera or other personal-data sensor are exempt from registration.",
+     "level": "country",
+     "source": "https://www.bazl.admin.ch/en/flight-rules-drones",
+     "checked": "2026-11-06",
+     "heading": "Drone registration"
     }
    ],
    "sources": [
@@ -236,6 +244,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/switzerland",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone registration",
+     "authority": "Federal Office of Civil Aviation (FOCA)",
+     "url": "https://www.bazl.admin.ch/en/flight-rules-drones",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -699,6 +714,54 @@
     "note": "National tourism or government etiquette guidance found and cited."
    },
    "source_note": "Rechecked on 4 November 2026 against the remaining official sources (read directly); only sentences clearly absent from those sources were removed."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "FOCA registers drone operators; operators based outside the EU, Norway and Iceland register in Switzerland unless already registered in one of those. Work outside the Open category needs a FOCA operational authorisation. No public operator directory was found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public FOCA directory of drone operators was found on the pages read.",
+     "source": "https://www.bazl.admin.ch/en/flight-rules-drones",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Flights that cannot follow the Open category rules fall in the Specific category and need a FOCA operational authorisation (STS, PDRA or SORA routes). FOCA says this mainly affects professional flights. Third-country operators register on the dLIS platform and receive a 'CHE' operator number before applying.",
+     "source": "https://www.bazl.admin.ch/en/flight-rules-drones",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "An operator already authorised in another country applies to FOCA by email at least four weeks before the flight (cross-border operations) and may start only after FOCA confirms the operation is acceptable. EU, Norwegian and Icelandic A1/A3, A2 and STS certificates are valid in Switzerland.",
+     "source": "https://www.bazl.admin.ch/en/cbo-en",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Flight rules for drones",
+     "authority": "Federal Office of Civil Aviation (FOCA)",
+     "url": "https://www.bazl.admin.ch/en/flight-rules-drones",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Cross-border operations (CBO)",
+     "authority": "Federal Office of Civil Aviation (FOCA)",
+     "url": "https://www.bazl.admin.ch/en/cbo-en",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  },
  "retired_sources": [

@@ -88,6 +88,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/costa-rica",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "DGAC says a drone does not need registering for recreational use, but flying limits apply: not over private property or prisons, not near airports and not where commercial aircraft fly. Registration and a certificate of suitability apply for private or commercial operations.",
+     "level": "country",
+     "source": "https://sub.dgac.go.cr/servicio/aeronaves-no-tripuladas/",
+     "checked": "2026-11-06",
+     "heading": "Recreational drone use"
     }
    ],
    "sources": [
@@ -97,6 +105,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/costa-rica",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Recreational drone use",
+     "authority": "Direccion General de Aviacion Civil (DGAC), Costa Rica",
+     "url": "https://sub.dgac.go.cr/servicio/aeronaves-no-tripuladas/",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -881,6 +896,61 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "DGAC publishes a list of companies authorised to operate RPAS (certificate, service and models). Commercial services need an operating certificate under RAC 119; private or commercial pilots need a DGAC certificate of suitability. A foreign operator needs authorisation from its home authority and must show the rules are at least equivalent.",
+   "register": {
+    "exists": true,
+    "name": "DGAC list of companies authorised for RPAS operations",
+    "url": "https://sub.dgac.go.cr/wp-content/uploads/2026/08/Empresas-autorizadas-operaciones-RPAS-Rev.35-17-08-2026.pdf"
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "DGAC publishes a list of authorised RPAS companies with certificate or authorisation number, service and RPAS models (revision 35, 17 August 2026).",
+     "source": "https://sub.dgac.go.cr/wp-content/uploads/2026/08/Empresas-autorizadas-operaciones-RPAS-Rev.35-17-08-2026.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Paid RPAS services can be done only by persons or companies with an operating certificate (RAC 119) after a formal application (Appendix A2). To operate an RPAS for private or commercial purposes a DGAC certificate of suitability is needed: minimum age 18, secondary school title, medical certificate and a training course.",
+     "source": "https://sub.dgac.go.cr/servicio/aeronaves-no-tripuladas/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "An operator not under DGAC oversight needs authorisation from its home aviation authority and must show DGAC that those requirements are at least equivalent. A specific procedure for foreign operators was not found.",
+     "source": "https://pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?param1=NRTC&nValor1=1&nValor2=102902&nValor3=142659&strTipM=TC",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Empresas autorizadas operaciones RPAS Rev. 35",
+     "authority": "Direccion General de Aviacion Civil (DGAC), Costa Rica",
+     "url": "https://sub.dgac.go.cr/wp-content/uploads/2026/08/Empresas-autorizadas-operaciones-RPAS-Rev.35-17-08-2026.pdf",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Aeronaves no tripuladas (drones)",
+     "authority": "Direccion General de Aviacion Civil (DGAC), Costa Rica",
+     "url": "https://sub.dgac.go.cr/servicio/aeronaves-no-tripuladas/",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Reglamento RAC-RPAS",
+     "authority": "Sistema Costarricense de Informacion Juridica (PGR)",
+     "url": "https://pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?param1=NRTC&nValor1=1&nValor2=102902&nValor3=142659&strTipM=TC",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

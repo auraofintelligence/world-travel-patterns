@@ -925,6 +925,47 @@
      "supports": "holiday list (read via a search-index snapshot)"
     }
    ]
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "CARC (Civil Aviation Regulatory Commission) publishes drone guides, including licensing and operation, and procedures for bringing, operating and transiting drones with arriving passengers. An amendment to the 2025 drone regulations was reported. Contents of the guides were not read.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: any public CARC directory of licensed drone operators.",
+     "source": "http://carc.gov.jo/en/node/540",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Not yet checked: the drone licensing and operation guide. CARC's news item says drone regulations issued in 2025 under Civil Aviation Law No. 41 of 2007 were amended, and companies applied for licences to own drones.",
+     "source": "http://carc.gov.jo/en/node/540",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: the procedure for bringing, operating and transiting drones with passengers arriving in Jordan, which CARC lists on its drones page.",
+     "source": "http://carc.gov.jo/en/node/540",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Drones",
+     "authority": "Civil Aviation Regulatory Commission (CARC), Jordan",
+     "url": "http://carc.gov.jo/en/node/540",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

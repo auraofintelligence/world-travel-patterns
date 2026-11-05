@@ -426,6 +426,23 @@
      "source": "https://www.smartraveller.gov.au/destinations/asia/singapore",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "A visitor flying a drone over 250 g in Singapore registers it first through a UAPass account on the CAAS UA Portal (about 5 working days). Photographing or overflying protected areas needs separate Singapore Police Force permits.",
+     "level": "country",
+     "source": "https://www.caas.gov.sg/unmanned-aircraft/requirements-for-flying-ua/",
+     "checked": "2026-11-06",
+     "heading": "Drone registration and permits"
+    },
+    {
+     "topic": "drones",
+     "rule": "Flying a drone into or out of Singapore needs a CAAS cross-border permit, whatever the weight.",
+     "level": "country",
+     "source": "https://www.caas.gov.sg/resources/media-and-publication/newsroom/cross-border-unmanned-aircraft-flights-are-prohibited-without-a-cross-border-per/",
+     "checked": "2026-11-06",
+     "heading": "Cross-border drone flights",
+     "penalty_signal": "Fine up to S$50,000 (about A$55,574 at the RBA rate of 30 Oct 2026), up to two years' jail, or both."
     }
    ],
    "sources": [
@@ -435,6 +452,20 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/singapore",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone registration and permits",
+     "authority": "Civil Aviation Authority of Singapore (CAAS)",
+     "url": "https://www.caas.gov.sg/unmanned-aircraft/requirements-for-flying-ua/",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
+    },
+    {
+     "title": "Cross-border drone flights",
+     "authority": "Official source",
+     "url": "https://www.caas.gov.sg/resources/media-and-publication/newsroom/cross-border-unmanned-aircraft-flights-are-prohibited-without-a-cross-border-per/",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -1059,6 +1090,54 @@
     }
    ],
    "checked": "2026-11-02"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "CAAS requires registration of drones over 250 g (UAPass, about 5 working days for visitors) and Operator and Activity Permits for heavier or more complex flights. Flying across the border needs a CAAS cross-border permit. No public operator list found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public CAAS list of permit holders was found on the pages read.",
+     "source": "https://www.caas.gov.sg/unmanned-aircraft/requirements-for-flying-ua/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "An Operator Permit plus a Class 1 Activity Permit are needed for drones over 7 kg, beyond-visual-line-of-sight flights and events with more than 50 people; a Class 2 Activity Permit covers lighter drones flown above 200 ft in restricted areas near airports or military bases. The Singapore Police Force issues separate permits for protected areas.",
+     "source": "https://www.caas.gov.sg/unmanned-aircraft/requirements-for-flying-ua/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "A visitor flying a drone over 250 g registers it first, starting with a UAPass account on the UA Portal (about 5 working days); no registration is needed if the drone is not flown in Singapore. Foreign individuals can apply through eSOMS without SingPass. Cross-border flights need a CAAS cross-border permit; interest is lodged in writing at least six months ahead and the application fee is S$8,100 (about A$9,003 at the RBA rate of 30 Oct 2026, A$1 = SGD 0.8997).",
+     "source": "https://caas.gov.sg/docs/default-source/docs---srg/ac-anr101-2-3-cross-border-permits-for-unmanned-aircraft-(final).pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Requirements for flying unmanned aircraft",
+     "authority": "Civil Aviation Authority of Singapore (CAAS)",
+     "url": "https://www.caas.gov.sg/unmanned-aircraft/requirements-for-flying-ua/",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "AC 101-2-3 Cross-border permits for unmanned aircraft",
+     "authority": "Civil Aviation Authority of Singapore (CAAS)",
+     "url": "https://caas.gov.sg/docs/default-source/docs---srg/ac-anr101-2-3-cross-border-permits-for-unmanned-aircraft-(final).pdf",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

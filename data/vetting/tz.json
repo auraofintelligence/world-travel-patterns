@@ -112,6 +112,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
      "checked": "2026-10-31",
      "heading": "Other laws"
+    },
+    {
+     "topic": "drones",
+     "rule": "Flying a drone in Tanzania without TCAA approval is illegal, including for personal or hobby use. Foreign visitors get the drone registered, the pilot registered and an operations permit before arriving, applying three to four weeks ahead. Drones are barred near military sites, State House, prisons and airports, and need special permission near government buildings, national parks and crowded places.",
+     "level": "country",
+     "source": "https://www.tcaa.go.tz/faqs",
+     "checked": "2026-11-06",
+     "heading": "Drone permits"
     }
    ],
    "sources": [
@@ -121,6 +129,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/tanzania",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone permits",
+     "authority": "Tanzania Civil Aviation Authority (TCAA)",
+     "url": "https://www.tcaa.go.tz/faqs",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -784,6 +799,61 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "TCAA says foreign individuals and companies may operate drones if they get TCAA permits before arriving: register the drone, register the pilot as operator and apply for an operations permit (3 to 4 weeks ahead). Every flight needs a permit, recreational included, and third-party insurance is mandatory.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public TCAA directory of drone operators was found on the pages read.",
+     "source": "https://www.tcaa.go.tz/pages/drones",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "A permit is required for every drone operation, including recreational use, and permits are usually tied to specific locations. Third-party liability insurance is mandatory when registering a drone.",
+     "source": "https://www.tcaa.go.tz/faqs",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "TCAA's FAQ says foreigners can operate drones if they obtain TCAA permits before arriving: non-residents register the drone, register the pilot as operator and apply for an operations permit through drones@tcaa.go.tz. Lead time is stated as three weeks, one month, or three to four weeks on different pages. Non-resident operations permits are listed at USD 10 a day for lighter drones (about A$14.20 at the RBA rate of 30 Oct 2026, A$1 = USD 0.7040), rising with weight; the pages do not fully match, so confirm fees.",
+     "source": "https://www.tcaa.go.tz/pages/drone-charges-in-tanzania",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Drones",
+     "authority": "Tanzania Civil Aviation Authority (TCAA)",
+     "url": "https://www.tcaa.go.tz/pages/drones",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Frequently Asked Questions",
+     "authority": "Tanzania Civil Aviation Authority (TCAA)",
+     "url": "https://www.tcaa.go.tz/faqs",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Drone Charges in Tanzania",
+     "authority": "Tanzania Civil Aviation Authority (TCAA)",
+     "url": "https://www.tcaa.go.tz/pages/drone-charges-in-tanzania",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

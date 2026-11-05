@@ -251,6 +251,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/brazil",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Foreign unmanned aircraft may enter Brazilian airspace only after explicit authorisation from ANAC and compliance with DECEA rules. ANAC does not issue import authorisations; Receita Federal and customs decide.",
+     "level": "country",
+     "source": "https://www.gov.br/anac/en/faq-drones",
+     "checked": "2026-11-06",
+     "heading": "Foreign drones"
     }
    ],
    "sources": [
@@ -260,6 +268,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/brazil",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Foreign drones",
+     "authority": "Agencia Nacional de Aviacao Civil (ANAC)",
+     "url": "https://www.gov.br/anac/en/faq-drones",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -852,6 +867,54 @@
    ],
    "checked": "2026-11-05",
    "note": "National rule: applies to every Indigenous land in Brazil, including those in Amazonas."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Drones over 250 g are registered in ANAC's SISANT, then flights are requested from DECEA through SARPAS; ANATEL approval of the equipment is also needed. ANAC says foreign drones may enter Brazilian airspace only with ANAC's explicit authorisation. No public operator list found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public ANAC directory of drone operators was found on the pages read.",
+     "source": "https://www.gov.br/anac/pt-br/sistemas/sisant/informacoes-gerais",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "SISANT registration is free and declaratory and is mandatory above 250 g, recreational or not. DECEA's SARPAS flight requests need aircraft registered in SISANT. The operator also needs ANATEL homologation and DECEA authorisation or notification to use the airspace.",
+     "source": "https://www.gov.br/anac/pt-br/sistemas/sisant/informacoes-gerais",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "ANAC's FAQ says foreign unmanned aircraft may cross the border into Brazilian airspace only after ANAC's explicit authorisation and compliance with DECEA rules, and that ANAC does not issue import authorisations (Receita Federal and customs decide). A foreign operator's SISANT or SARPAS route was not found on the pages read.",
+     "source": "https://www.gov.br/anac/en/faq-drones",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "SISANT: general information",
+     "authority": "Agencia Nacional de Aviacao Civil (ANAC)",
+     "url": "https://www.gov.br/anac/pt-br/sistemas/sisant/informacoes-gerais",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Drones FAQ",
+     "authority": "Agencia Nacional de Aviacao Civil (ANAC)",
+     "url": "https://www.gov.br/anac/en/faq-drones",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

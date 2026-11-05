@@ -989,6 +989,54 @@
     }
    ],
    "evidence": "UNESCO pages read directly; site and ministry pages from search snapshots unless marked."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "CAAI's drone flight regulations (2024) licence recreational pilots (age 12 or older, Hebrew or English test) and set limits such as 50 m height and 500 m distance. Non-small drones are registered (four-year term). No foreign-visitor route or operator list found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: any public CAAI directory of drone operators.",
+     "source": "https://www.gov.il/BlobFolder/generalpage/aid-material/he/Theoretical%20study%20material%20(%20for%20recreational%20use).pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Recreational licence: age 12 or more, Hebrew or English, and a knowledge test. Night flight is generally barred unless the pilot holds a commercial licence. Every drone other than a 'small drone' is registered in CAAI's system (valid four years).",
+     "source": "https://www.gov.il/BlobFolder/generalpage/aid-material/he/Theoretical%20study%20material%20(%20for%20recreational%20use).pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: whether a foreign visitor may use a foreign licence or needs a temporary permit.",
+     "source": "https://www.gov.il/BlobFolder/generalpage/electronic-aip/en/Full%20AIP%202-25.pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Theoretical study material for recreational use",
+     "authority": "Civil Aviation Authority of Israel (CAAI)",
+     "url": "https://www.gov.il/BlobFolder/generalpage/aid-material/he/Theoretical%20study%20material%20(%20for%20recreational%20use).pdf",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Full AIP 2-25",
+     "authority": "Civil Aviation Authority of Israel (CAAI)",
+     "url": "https://www.gov.il/BlobFolder/generalpage/electronic-aip/en/Full%20AIP%202-25.pdf",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

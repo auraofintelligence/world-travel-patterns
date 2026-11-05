@@ -98,6 +98,15 @@
      "source": "https://www.smartraveller.gov.au/destinations/middle-east/oman",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Press reports (Oman Observer) say the Civil Aviation Authority suspended all drone operating permits until further notice. Check the current status with the CAA before bringing or flying a drone.",
+     "level": "country",
+     "source": "https://www.omanobserver.om/article/1185384/oman/community/omans-caa-bans-use-of-drones-until-further-notice",
+     "checked": "2026-11-06",
+     "heading": "Drone permits suspension",
+     "evidence": "signal"
     }
    ],
    "sources": [
@@ -107,6 +116,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/oman",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone permits suspension",
+     "authority": "Oman Observer (newspaper)",
+     "url": "https://www.omanobserver.om/article/1185384/oman/community/omans-caa-bans-use-of-drones-until-further-notice",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -940,6 +956,56 @@
     }
    ],
    "checked": "2026-11-03"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "CAR-102 requires registration of remote piloted aircraft above 250 g and sets operating limits. Press reports say the CAA suspended all drone permits (government, commercial and recreational) until further notice; the date and current status were not confirmed on a CAA page.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: any public CAA directory of drone operators.",
+     "source": "https://www.caa.gov.om/upload/files/CAR%20102%20-%20Remote%20Piloted%20Aircraft%20(Drones)%20-%20v0.20%20-%20JNC%20-%20Revised%20amendment%20251121.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "CAR-102: all remote piloted aircraft except micro aircraft under 250 g are registered with the CAA before use. Flights stay in visual line of sight, at or below 400 ft AGL by day and 30 m from uninvolved people. Controlled airspace and areas within 5.5 km of a controlled aerodrome need specific approval.",
+     "source": "https://www.caa.gov.om/upload/files/CAR%20102%20-%20Remote%20Piloted%20Aircraft%20(Drones)%20-%20v0.20%20-%20JNC%20-%20Revised%20amendment%20251121.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Oman Observer (a newspaper, so a signal) reports that the CAA suspended all drone operating permits by circular from 3 March until further notice, and earlier reported 155 tourist green zones with an AirPass route for visitors. Check the CAA before relying on either report.",
+     "source": "https://www.omanobserver.om/article/1185384/oman/community/omans-caa-bans-use-of-drones-until-further-notice",
+     "checked": "2026-11-06",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CAR-102 Remote Piloted Aircraft (Drones)",
+     "authority": "Civil Aviation Authority (CAA), Oman",
+     "url": "https://www.caa.gov.om/upload/files/CAR%20102%20-%20Remote%20Piloted%20Aircraft%20(Drones)%20-%20v0.20%20-%20JNC%20-%20Revised%20amendment%20251121.pdf",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Oman's CAA bans use of drones until further notice",
+     "authority": "Oman Observer (newspaper)",
+     "url": "https://www.omanobserver.om/article/1185384/oman/community/omans-caa-bans-use-of-drones-until-further-notice",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06",
+     "evidence": "signal"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

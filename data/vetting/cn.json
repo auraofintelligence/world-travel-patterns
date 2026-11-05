@@ -377,6 +377,14 @@
      "level": "country",
      "source": "https://www.gov.cn/zhengce/content/202403/content_6937623.htm",
      "checked": "2026-11-04"
+    },
+    {
+     "topic": "drones",
+     "rule": "Civil drones over 250 g flying in China must be registered under real-name rules, and the registration mark must stay on the aircraft during each flight. Two mandatory national standards on registration, activation and identification of operations took effect on 1 May 2026.",
+     "level": "country",
+     "source": "https://www.caac.gov.cn/English/News/202512/t20251224_229562.html",
+     "checked": "2026-11-06",
+     "heading": "Drone real-name registration"
     }
    ],
    "sources": [
@@ -414,6 +422,13 @@
      "url": "https://english.www.gov.cn/news/202404/11/content_WS6617c858c6d0868f4e8e5f4d.html",
      "checked": "2026-11-04",
      "supports": "Alipay and WeChat Pay accept linked foreign Visa and Mastercard cards; per-transaction limit USD 5,000 and annual USD 50,000; no ID needed under a set amount; UnionPay cards at all POS (read via a search-index snapshot)"
+    },
+    {
+     "title": "Drone real-name registration",
+     "authority": "Civil Aviation Administration of China (CAAC)",
+     "url": "https://www.caac.gov.cn/English/News/202512/t20251224_229562.html",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ],
    "source_note": "Rechecked on 4 November 2026 against the remaining official sources (read directly); only sentences clearly absent from those sources were removed."
@@ -1050,6 +1065,61 @@
      "supports": "visitor conduct (search-index snapshot of the ministry page)"
     }
    ]
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "CAAC requires real-name registration of civil drones over 250 g flying in China, with two new mandatory national standards taking effect on 1 May 2026. No foreign-operator rule, operator directory or commercial certificate was found on the pages read.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public CAAC directory of drone operators was found on the pages read.",
+     "source": "http://www.caac.gov.cn/English/Regulations/Normative/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Not yet checked: the operator certificate for commercial drone work. The pages read cover real-name registration: civil unmanned aircraft over 250 g operating in Chinese territory must be registered and carry the registration mark.",
+     "source": "http://www.caac.gov.cn/English/News/202305/t20230515_218918.html",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: whether foreign-owned drones or foreign pilots need separate approval. The foreign-operator rules found concern airlines (CCAR-129), not drones.",
+     "source": "https://www.caac.gov.cn/English/News/202512/t20251224_229562.html",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Regulations and Policies",
+     "authority": "Civil Aviation Administration of China (CAAC)",
+     "url": "http://www.caac.gov.cn/English/Regulations/Normative/",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Regulations on Real-name Registration of Civil Unmanned Aerial Vehicles",
+     "authority": "Civil Aviation Administration of China (CAAC)",
+     "url": "http://www.caac.gov.cn/English/News/202305/t20230515_218918.html",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "CAAC Releases Two Mandatory National Standards for UAV",
+     "authority": "Civil Aviation Administration of China (CAAC)",
+     "url": "https://www.caac.gov.cn/English/News/202512/t20251224_229562.html",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

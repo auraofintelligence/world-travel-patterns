@@ -332,6 +332,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Drones over 2 kg must be registered through the Drone One-Stop service, even for hobby use. Approval is needed to fly in many zones (airport control zones, parts of central Seoul, the DMZ, nuclear sites) and at 150 m or higher. Aerial photography needs its own permission from the Ministry of National Defence in addition to airspace approval.",
+     "level": "country",
+     "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1593140",
+     "checked": "2026-11-06",
+     "heading": "Drone registration, zones and photography"
     }
    ],
    "sources": [
@@ -341,6 +349,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/south-korea-republic-korea",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone registration, zones and photography",
+     "authority": "Korea Tourism Organization (VISITKOREA)",
+     "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1593140",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -872,6 +887,54 @@
      "supports": "tipping (read via a search-index snapshot)"
     }
    ]
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Drones over 2 kg register through the Drone One-Stop service; commercial use needs a KOTSA business registration and third-party insurance. Aerial photography needs a Ministry of National Defence permit on top of airspace approval. No foreign-operator route found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public directory of drone businesses was found on the pages read.",
+     "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1593140",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Operating commercially needs a registration certificate for the drone business issued by the Korea Transportation Safety Authority (KOTSA) and third-party insurance, according to MOLIT. Drones over 2 kg are registered through the Drone One-Stop service even for hobby use.",
+     "source": "https://www.molit.go.kr/english/USR/BORD0201/m_28286/DTL.jsp?id=eng_mltm_new&mode=view&idx=3304",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: whether a separate process applies to a foreign visitor or business. The Ministry of National Defence permit is needed for aerial photography in addition to airspace approval.",
+     "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1593140",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Drone Usage Regulations in Korea",
+     "authority": "Korea Tourism Organization (VISITKOREA)",
+     "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1593140",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "MOLIT drone notice",
+     "authority": "Ministry of Land, Infrastructure and Transport (MOLIT)",
+     "url": "https://www.molit.go.kr/english/USR/BORD0201/m_28286/DTL.jsp?id=eng_mltm_new&mode=view&idx=3304",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

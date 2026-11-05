@@ -97,6 +97,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/norway",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Flights in the Open category need no authorisation, but Norway has no-drone zones and a permission route for them. Before flying with a camera or other sensor, use of the sensor must be registered with the Norwegian National Security Authority. Drone flights by Russian operators are prohibited.",
+     "level": "country",
+     "source": "https://www.luftfartstilsynet.no/en/drones/applying-for-authorisation/",
+     "checked": "2026-11-06",
+     "heading": "Drone rules for visitors"
     }
    ],
    "sources": [
@@ -106,6 +114,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/norway",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone rules for visitors",
+     "authority": "Luftfartstilsynet (CAA Norway)",
+     "url": "https://www.luftfartstilsynet.no/en/drones/applying-for-authorisation/",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -813,6 +828,54 @@
    "checked": "2026-11-04",
    "summary": "1 site(s): Borre mounds. Facts from official sources; lore labelled as claims.",
    "evidence": "UNESCO pages and Smartraveller read directly; other official pages are search snapshots unless marked."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Luftfartstilsynet (CAA Norway) publishes a list of registered drone operators. The Open category needs no authorisation; the Specific category needs one, and third-country operators apply to Norway (form NF-1145) if it is the first EASA state they fly in. Russian drone operators are banned.",
+   "register": {
+    "exists": true,
+    "name": "CAA Norway: registered drone operators in Norway",
+    "url": "https://www.luftfartstilsynet.no/en/drones/drone-operators-in-norway/"
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "CAA Norway lists registered operators under 'Registered operators in Norway'. The page read does not say what the list shows or how it is searched.",
+     "source": "https://www.luftfartstilsynet.no/en/drones/drone-operators-in-norway/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Flights that do not fit the Open category need an operational authorisation in the Specific category (with a risk assessment). Liability insurance is needed for Specific category operations. Registration, online courses and the exam are done at flydrone.no.",
+     "source": "https://www.luftfartstilsynet.no/en/drones/applying-for-authorisation/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Operators from EASA member states first obtain authorisation at home, then send CAA Norway form NF-1154, the authorisation and proof of insurance. Operators based outside EASA states register and apply in the first EASA state where they plan to fly (for Norway, form NF-1145); processing and annual fees apply. If you can fly in the Open category, no authorisation is needed.",
+     "source": "https://www.luftfartstilsynet.no/en/drones/applying-for-authorisation/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Drone operators in Norway",
+     "authority": "Luftfartstilsynet (CAA Norway)",
+     "url": "https://www.luftfartstilsynet.no/en/drones/drone-operators-in-norway/",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Applying for authorisation",
+     "authority": "Luftfartstilsynet (CAA Norway)",
+     "url": "https://www.luftfartstilsynet.no/en/drones/applying-for-authorisation/",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

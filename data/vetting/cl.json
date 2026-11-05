@@ -704,6 +704,61 @@
     }
    ],
    "evidence": "UNESCO pages read directly; site and ministry pages from search snapshots unless marked."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "DGAC regulates drones under DAN 151 (edition 3, May 2024, with an April 2026 edition 4 seen in an opinion draft). Commercial operations need the RPAS registration card, a remote pilot credential and insurance. No foreign-visitor route confirmed.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public DGAC directory of drone operators was found on the pages read.",
+     "source": "https://www.dgac.gob.cl/operacion-de-drones/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "DAN 151 (edition 3, May 2024) requires carrying the RPAS registration card, the remote pilot credential and insurance. Operating over populated areas needs prior DGAC authorisation. The pilot credential needs age 18 and, per an older 2017 FAQ, reading, speaking and writing Spanish.",
+     "source": "https://www.dgac.gob.cl/wp-content/uploads/2024/05/DAN-151-ED3-27MAY2024.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "A DGAC FAQ (2017) says a foreign pilot who wants to work in Chile needs a suitable visa; a tourist visa does not cover work. A draft edition 4 (April 2026) applies to Chilean and foreign persons and puts registration on people resident in Chile; whether it is in force was not confirmed.",
+     "source": "https://www.dgac.gob.cl/wp-content/uploads/2017/08/FAQ-licencias.pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Operacion de drones",
+     "authority": "Direccion General de Aeronautica Civil (DGAC), Chile",
+     "url": "https://www.dgac.gob.cl/operacion-de-drones/",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "DAN 151 ED 3 (May 2024)",
+     "authority": "Direccion General de Aeronautica Civil (DGAC), Chile",
+     "url": "https://www.dgac.gob.cl/wp-content/uploads/2024/05/DAN-151-ED3-27MAY2024.pdf",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Preguntas Frecuentes (FAQ)",
+     "authority": "Direccion General de Aeronautica Civil (DGAC), Chile",
+     "url": "https://www.dgac.gob.cl/wp-content/uploads/2017/08/FAQ-licencias.pdf",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

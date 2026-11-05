@@ -105,6 +105,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/africa/morocco",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Private individuals cannot bring a drone into Morocco under temporary admission, and an undeclared drone can be confiscated. Customs describes a special temporary admission authorisation for drones, with a request giving the number of units, intended use, stay length and filming site coordinates.",
+     "level": "country",
+     "source": "https://www.douane.gov.ma/dms/loadDocument?documentId=87245",
+     "checked": "2026-11-06",
+     "heading": "Drone import"
     }
    ],
    "sources": [
@@ -114,6 +122,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/morocco",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone import",
+     "authority": "Administration des Douanes et Impots Indirects (Morocco)",
+     "url": "https://www.douane.gov.ma/dms/loadDocument?documentId=87245",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -877,6 +892,54 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "No Moroccan civil aviation drone page was found. Customs guidance says private individuals cannot bring a drone in under temporary admission, with a special temporary admission authorisation route described on a customs page. Aviation authority permit steps not confirmed.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: any official register of drone operators; no civil aviation authority drone page was found.",
+     "source": "https://www.douane.gov.ma/c/journal/view_article_content?groupId=16&articleId=52477&version=1.0&iframe=true&width=900&height=550",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Not yet checked: the aviation authority's licence or certificate for commercial drone work.",
+     "source": "https://www.douane.gov.ma/dms/loadDocument?documentId=87245",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Customs says private individuals cannot import remote-controlled, engine-powered flying machines such as drones under temporary admission, and undeclared drones can be confiscated. A separate customs page describes a special temporary admission authorisation: a request with the number of units, intended use, stay length, GPS coordinates of filming sites and a passport copy, with a decision in 30 days and no fees. The page is undated in the results.",
+     "source": "https://www.douane.gov.ma/c/journal/view_article_content?groupId=16&articleId=52477&version=1.0&iframe=true&width=900&height=550",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Autorisation d'admission temporaire d'un drone",
+     "authority": "Administration des Douanes et Impots Indirects (Morocco)",
+     "url": "https://www.douane.gov.ma/c/journal/view_article_content?groupId=16&articleId=52477&version=1.0&iframe=true&width=900&height=550",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Upon Your Arrival in Morocco",
+     "authority": "Administration des Douanes et Impots Indirects (Morocco)",
+     "url": "https://www.douane.gov.ma/dms/loadDocument?documentId=87245",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

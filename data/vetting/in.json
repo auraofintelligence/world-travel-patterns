@@ -1174,6 +1174,61 @@
     }
    ],
    "evidence": "UNESCO pages and Smartraveller read directly; other official pages are search snapshots unless marked."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "DGCA issues the Remote Pilot Certificate under the Drone Rules (Amendment 2022) and approves remote pilot training organisations; D-1 to D-5 forms moved from Digital Sky to the eGCA portal. No public operator list, and no foreign-visitor route, found on the pages read.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: the list of approved remote pilot training organisations and any public list of certified remote pilots.",
+     "source": "https://www.civilaviation.gov.in/estd-rptu",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "DGCA issues the Remote Pilot Certificate under Rules 4 and 5 of the Drone (Amendment) Rules 2022. Training is given only by DGCA-authorised remote pilot training organisations.",
+     "source": "https://www.dgca.gov.in/digigov-portal/jsp/dgca/InventoryList/headerblock/drones/RPAS.jsp",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: whether a foreign national can hold a remote pilot certificate or fly a drone brought from overseas, and the import rules for drones.",
+     "source": "https://digitalsky.dgca.gov.in/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Establishment of Remote Pilot Training Organisation",
+     "authority": "Ministry of Civil Aviation, India",
+     "url": "https://www.civilaviation.gov.in/estd-rptu",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Drone forms and Remote Pilot Certificate",
+     "authority": "Directorate General of Civil Aviation (DGCA), India",
+     "url": "https://www.dgca.gov.in/digigov-portal/jsp/dgca/InventoryList/headerblock/drones/RPAS.jsp",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Digital Sky",
+     "authority": "Directorate General of Civil Aviation (DGCA), India",
+     "url": "https://digitalsky.dgca.gov.in/",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

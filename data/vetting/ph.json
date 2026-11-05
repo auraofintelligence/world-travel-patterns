@@ -920,6 +920,61 @@
     }
    ],
    "checked": "2026-11-03"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "CAAP requires registration of commercial drones whatever their weight, and a controller certificate for commercial operators or drones of 7 kg and over. PCAR Part 2 lets CAAP validate a foreign remote pilot licence. No public operator list found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public CAAP directory of operators was found on the pages read. CAAP reported 1,432 active controller and remote pilot licence holders as of October 2025.",
+     "source": "https://www.caap.gov.ph/caap-highlights-drone-safety-and-regulatory-oversight-at-drone-warfare-summit-2025/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Commercial drones must be registered regardless of weight, and non-commercial drones of 7 kg and over too (fee PHP 1,500 plus 12% VAT; no AUD rate on file). A controller certificate is needed for commercial operators or drones of 7 kg and over: training, at least 5 hours' flight experience, an exam and a demonstration flight; valid for five years.",
+     "source": "https://www.caap.gov.ph/rpa-controller-certificate/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "PCAR Part 2 (2.13.10) lets the holder of a current remote pilot licence from another Contracting State apply for validation for use on drones registered in the Philippines. CAAP verifies the licence with the issuing state, and the training, experience and demonstration flight requirements still apply.",
+     "source": "https://www.caap.gov.ph/pcar-part-2/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CAAP highlights drone safety",
+     "authority": "Civil Aviation Authority of the Philippines (CAAP)",
+     "url": "https://www.caap.gov.ph/caap-highlights-drone-safety-and-regulatory-oversight-at-drone-warfare-summit-2025/",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "RPA Controller Certificate",
+     "authority": "Civil Aviation Authority of the Philippines (CAAP)",
+     "url": "https://www.caap.gov.ph/rpa-controller-certificate/",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "PCAR Part 2",
+     "authority": "Civil Aviation Authority of the Philippines (CAAP)",
+     "url": "https://www.caap.gov.ph/pcar-part-2/",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

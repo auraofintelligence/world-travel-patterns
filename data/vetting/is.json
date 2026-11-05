@@ -89,6 +89,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/iceland",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Drones are generally limited to 120 m above ground and to visual line of sight. Operators, including visitors from outside the EU, register on flydrone.is, and drones over 250 g need the A1/A3 test. Near volcanic eruptions the Transport Authority has set separate prohibited areas, so check its notices before flying.",
+     "level": "country",
+     "source": "https://island.is/en/drone-rules",
+     "checked": "2026-11-06",
+     "heading": "Drone rules"
     }
    ],
    "sources": [
@@ -98,6 +106,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/iceland",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone rules",
+     "authority": "Icelandic Transport Authority (Samgongustofa)",
+     "url": "https://island.is/en/drone-rules",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -652,6 +667,54 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Iceland applies the EU drone rules through the Icelandic Transport Authority: operators register on flydrone.is and drones over 250 g need the A1/A3 online test. No public operator directory found; what a visitor flying for work must do was not spelled out.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public Transport Authority directory of drone operators was found on the pages read.",
+     "source": "https://island.is/en/drone-rules",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Operators register on flydrone.is (registration lasts five years). Drones over 250 g need a pass in the A1/A3 test; the A2 exam is taken at the Transport Authority or an approved institution. The Authority says commercial drones face additional requirements, without spelling them out on the pages read.",
+     "source": "https://island.is/en/open-category",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: how a visitor operating commercially registers and what authorisation applies. The Authority's guidance says operators from outside the EU register on flydrone.is; flydrone@samgongustofa.is is the contact it gives.",
+     "source": "https://island.is/en/drone-rules",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rules on drones",
+     "authority": "Icelandic Transport Authority (Samgongustofa)",
+     "url": "https://island.is/en/drone-rules",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Drone Regulations: Open Category",
+     "authority": "Icelandic Transport Authority (Samgongustofa)",
+     "url": "https://island.is/en/open-category",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

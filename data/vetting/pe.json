@@ -1110,6 +1110,54 @@
     }
    ],
    "evidence": "UNESCO pages and Smartraveller read directly; other official pages are search snapshots unless marked."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Law 30740 and its regulation give MTC's DGAC the role of issuing operator or pilot licences for non-recreational RPAS use (recreational drones under 2 kg excluded). Registration is online. No foreign-operator provision found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public DGAC directory of RPAS operators was found on the pages read.",
+     "source": "https://www.gob.pe/institucion/mtc/noticias/602027-mtc-todo-lo-que-debes-saber-para-operar-un-drone",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Anyone operating an RPAS for other than recreational or sport use needs an operator or pilot licence from DGAC; recreational aircraft under 2 kg are excluded. The pilot must be an adult and pass a knowledge exam with at least 75%. Flights over urban areas need an authorisation with a risk analysis, registration card, liability policy and pilot accreditation (decision within 60 working days). RPAS may not operate in controlled airspace.",
+     "source": "https://cdn.www.gob.pe/uploads/document/file/7049108/6066291-reglamento.pdf?v=1728311262",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: whether a foreign pilot can be accredited in Peru. The regulation says operations that cross part of another state's airspace need that state's authorisation. DGAC contact: rpas-dgac@mtc.gob.pe.",
+     "source": "https://cdn.www.gob.pe/uploads/document/file/7049108/6066291-reglamento.pdf?v=1728311262",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Todo lo que debes saber para operar un drone",
+     "authority": "Ministerio de Transportes y Comunicaciones (MTC), Peru",
+     "url": "https://www.gob.pe/institucion/mtc/noticias/602027-mtc-todo-lo-que-debes-saber-para-operar-un-drone",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Reglamento de la Ley 30740",
+     "authority": "Ministerio de Transportes y Comunicaciones (MTC), Peru",
+     "url": "https://cdn.www.gob.pe/uploads/document/file/7049108/6066291-reglamento.pdf?v=1728311262",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

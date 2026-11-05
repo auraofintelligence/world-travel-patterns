@@ -326,6 +326,15 @@
      "source": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Foreigners flying a drone in Vietnam need a Vietnamese sponsor, and flights need a Ministry of National Defence permit applied for at least 7 days ahead. Pilots of drones of 2 kg or more, or flying beyond visual line of sight, need a licence. Read on a commercial legal database; confirm against the official text.",
+     "level": "country",
+     "source": "https://thuvienphapluat.vn/van-ban/EN/Giao-thong-Van-tai/Decree-288-2025-ND-CP-management-of-unmanned-aerial-vehicles/687952/tieng-anh.aspx",
+     "checked": "2026-11-06",
+     "heading": "Drone permits and sponsor",
+     "evidence": "signal"
     }
    ],
    "sources": [
@@ -335,6 +344,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone permits and sponsor",
+     "authority": "Government of Vietnam (text read on thuvienphapluat.vn, a commercial legal database)",
+     "url": "https://thuvienphapluat.vn/van-ban/EN/Giao-thong-Van-tai/Decree-288-2025-ND-CP-management-of-unmanned-aerial-vehicles/687952/tieng-anh.aspx",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -939,6 +955,51 @@
     }
    ],
    "checked": "2026-11-03"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Decree 288/2025/ND-CP sets drone rules: pilots of drones 2 kg or more, or flying beyond sight, need a licence; foreigners need a Vietnamese sponsor; the Ministry of National Defence issues flight permits. Read through a commercial legal database, so labelled signal until the official text is read.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public directory of operators found.",
+     "source": "https://thuvienphapluat.vn/van-ban/EN/Giao-thong-Van-tai/Decree-288-2025-ND-CP-management-of-unmanned-aerial-vehicles/687952/tieng-anh.aspx",
+     "checked": "2026-11-06",
+     "evidence": "signal"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Pilots of aircraft of 2 kg or more, or flying beyond visual line of sight or on a pre-programmed flight, need a licence from the competent authority or an international certificate recognised by the Ministry of National Defence. Pilots must be 18 or older, except for craft under 0.25 kg.",
+     "source": "https://thuvienphapluat.vn/van-ban/EN/Giao-thong-Van-tai/Decree-288-2025-ND-CP-management-of-unmanned-aerial-vehicles/687952/tieng-anh.aspx",
+     "checked": "2026-11-06",
+     "evidence": "signal"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Foreigners operating aircraft need a Vietnamese agency, organisation or individual as sponsor, and the sponsor letter is part of a flight permit application. The Ministry of National Defence issues permits; apply at least 7 days ahead, decision within 5 working days of a complete file. From 20 July 2026 a national registration system applies; foreign owners receive the code NN and must be residing or staying in Vietnam or authorised.",
+     "source": "https://thuvienphapluat.vn/van-ban/EN/Giao-thong-Van-tai/Decree-288-2025-ND-CP-management-of-unmanned-aerial-vehicles/687952/tieng-anh.aspx",
+     "checked": "2026-11-06",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Decree 288/2025/ND-CP (English text on a legal database)",
+     "authority": "Government of Vietnam (text read on thuvienphapluat.vn, a commercial legal database)",
+     "url": "https://thuvienphapluat.vn/van-ban/EN/Giao-thong-Van-tai/Decree-288-2025-ND-CP-management-of-unmanned-aerial-vehicles/687952/tieng-anh.aspx",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06",
+     "evidence": "signal"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "drones": true
   }
  }
 }

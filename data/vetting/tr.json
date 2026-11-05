@@ -290,6 +290,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Anyone bringing a drone into Turkey must apply for a technical conformity letter from SHGM, with identity details for a security check of the importer and end user.",
+     "level": "country",
+     "source": "https://web.shgm.gov.tr/en/s/2227-importation-of-unmanned-aerial-vehicle",
+     "checked": "2026-11-06",
+     "heading": "Drone import"
     }
    ],
    "sources": [
@@ -299,6 +307,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone import",
+     "authority": "Directorate General of Civil Aviation (SHGM), Turkey",
+     "url": "https://web.shgm.gov.tr/en/s/2227-importation-of-unmanned-aerial-vehicle",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -990,6 +1005,54 @@
     }
    ],
    "evidence": "UNESCO pages read directly; site and ministry pages from search snapshots unless marked."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "SHGM requires anyone importing a drone to apply for a technical conformity letter, with identity documents for a security check. Flights of drones between 4 kg and 150 kg need a flight permit. The commercial operator authorisation and foreign-pilot rules were not found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: any public SHGM directory of drone operators.",
+     "source": "https://web.shgm.gov.tr/en/s/2227-importation-of-unmanned-aerial-vehicle",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "SHGM's flight-permit page lists flights of unmanned aerial vehicles between 4 kg and 150 kg as needing a permit. The registration mark for drones starts with the letter 'I'; the registry page read is old. The commercial operator authorisation (SHT-IHA) was not read.",
+     "source": "https://web.shgm.gov.tr/en/ucus-izinleri/3893-index",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Anyone importing a drone into Turkey applies for a technical conformity letter; the application includes identity details for a security investigation of the importer and end user. Whether a foreign visitor can fly under another route was not found.",
+     "source": "https://web.shgm.gov.tr/en/s/2227-importation-of-unmanned-aerial-vehicle",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Importation of Unmanned Aerial Vehicle",
+     "authority": "Directorate General of Civil Aviation (SHGM), Turkey",
+     "url": "https://web.shgm.gov.tr/en/s/2227-importation-of-unmanned-aerial-vehicle",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Flight permits",
+     "authority": "Directorate General of Civil Aviation (SHGM), Turkey",
+     "url": "https://web.shgm.gov.tr/en/ucus-izinleri/3893-index",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

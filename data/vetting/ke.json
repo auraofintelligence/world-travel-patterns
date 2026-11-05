@@ -292,6 +292,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/africa/kenya",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "A drone must be registered with KCAA and a person must not operate one in Kenya without KCAA authorisation. A permit from KCAA is needed to import a UAS or component. Confirm current rules with KCAA, as its page refers to newer regulations.",
+     "level": "country",
+     "source": "https://www.kcaa.or.ke/safety-security-oversight/unmanned-aircraft-systems",
+     "checked": "2026-11-06",
+     "heading": "Drone registration, authorisation and import"
     }
    ],
    "sources": [
@@ -301,6 +309,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/kenya",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone registration, authorisation and import",
+     "authority": "Official source",
+     "url": "https://www.kcaa.or.ke/safety-security-oversight/unmanned-aircraft-systems",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -840,6 +855,54 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "KCAA publishes a list of Remote Operator Certificate (ROC) holders. Commercial drone work needs a ROC, and the 2020 regulations require the applicant to have its principal place of business in Kenya and a defence ministry security clearance. Drones need registration, authorisation to operate and an import permit.",
+   "register": {
+    "exists": true,
+    "name": "KCAA list of ROC holders",
+    "url": "https://www.kcaa.or.ke/sites/default/files/docs/uas/ROCs.pdf"
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "KCAA publishes a document listing ROC holders by company.",
+     "source": "https://www.kcaa.or.ke/sites/default/files/docs/uas/ROCs.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Under the Civil Aviation (Unmanned Aircraft Systems) Regulations 2020, an operator using a UAS for commercial activities, reward or hire must obtain a Remote Operator Certificate. Applications are made at least 90 days before the intended operation. KCAA's fee schedule lists the initial ROC at 80,000 and renewal at 50,000 (currency not stated in the excerpt read).",
+     "source": "https://new.kenyalaw.org/akn/ke/act/ln/2020/42/eng@2020-04-03",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "The 2020 regulations require a ROC applicant to have its principal place of business in Kenya and to hold a defence ministry security clearance. The older 2017 regulations allowed a 30-day temporary permit (renewable once) for a drone not registered in Kenya; whether it still applies was not confirmed. Operating a UAS needs KCAA authorisation, and importing one needs a KCAA permit.",
+     "source": "https://new.kenyalaw.org/akn/ke/act/ln/2020/42/eng@2020-04-03",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ROC holders list",
+     "authority": "Kenya Civil Aviation Authority (KCAA)",
+     "url": "https://www.kcaa.or.ke/sites/default/files/docs/uas/ROCs.pdf",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Civil Aviation (Unmanned Aircraft Systems) Regulations, 2020",
+     "authority": "Kenya Law (gazetted text)",
+     "url": "https://new.kenyalaw.org/akn/ke/act/ln/2020/42/eng@2020-04-03",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

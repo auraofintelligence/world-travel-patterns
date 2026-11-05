@@ -252,6 +252,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/argentina",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "A foreign remote pilot with a licence from their own country for that class of drone can fly without the Argentine certificate if the licence is apostilled and translated into Spanish. Without such a licence, a visitor is limited to Class A recreational drones.",
+     "level": "country",
+     "source": "https://www.argentina.gob.ar/anac/nuevo-marco-normativo-para-la-operacion-de-drones",
+     "checked": "2026-11-06",
+     "heading": "Foreign drone pilots"
     }
    ],
    "sources": [
@@ -261,6 +269,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/argentina",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Foreign drone pilots",
+     "authority": "Administracion Nacional de Aviacion Civil (ANAC)",
+     "url": "https://www.argentina.gob.ar/anac/nuevo-marco-normativo-para-la-operacion-de-drones",
+     "checked": "2026-11-06",
+     "supports": "drone rule for visitors"
     }
    ]
   },
@@ -728,6 +743,61 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "ANAC accepts a foreign remote pilot licence for that class of aircraft if apostilled and translated into Spanish; without one, a visitor is limited to Class A recreational drones, though ANAC can grant a temporary exceptional authorisation for isolated commercial work. ANAC has recently simplified commercial rules; the current exact text was not confirmed.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "Not yet checked: no public ANAC directory of drone operators was found on the pages read.",
+     "source": "https://www.argentina.gob.ar/anac/vant-svant/reglamento-vant-svant/referencia-normativa",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Non-recreational drones are registered with ANAC. Remote pilots hold a Certificate of Competence (VANT/SVANT). An official ANAC news item says unnecessary approvals for commercial operations were removed and the operator now designates suitable pilots; the exact current rule was not confirmed.",
+     "source": "https://www.argentina.gob.ar/anac/requisitos-para-tramitar-el-certificado-de-competencia-de-piloto-distancia-vantsvant",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "A foreign remote pilot with a licence from their own country for that type of aircraft does not need the Argentine certificate if the licence is apostilled and translated into Spanish. Otherwise they obtain the Argentine certificate or fly only Class A recreational drones. ANAC may grant a temporary, exceptional authorisation for isolated, non-habitual scientific, commercial or sports operations.",
+     "source": "https://www.argentina.gob.ar/anac/nuevo-marco-normativo-para-la-operacion-de-drones",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Referencia normativa RPA / RPAS",
+     "authority": "Administracion Nacional de Aviacion Civil (ANAC)",
+     "url": "https://www.argentina.gob.ar/anac/vant-svant/reglamento-vant-svant/referencia-normativa",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "Requirements for the Remote Pilot Certificate of Competence",
+     "authority": "Administracion Nacional de Aviacion Civil (ANAC)",
+     "url": "https://www.argentina.gob.ar/anac/requisitos-para-tramitar-el-certificado-de-competencia-de-piloto-distancia-vantsvant",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    },
+    {
+     "title": "New regulatory framework for drone operation",
+     "authority": "Administracion Nacional de Aviacion Civil (ANAC)",
+     "url": "https://www.argentina.gob.ar/anac/nuevo-marco-normativo-para-la-operacion-de-drones",
+     "checked": "2026-11-06",
+     "supports": "read via a search-engine summary of the official page, 2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }
