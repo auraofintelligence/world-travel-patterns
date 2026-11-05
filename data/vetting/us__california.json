@@ -204,6 +204,66 @@
    "checked": "2026-11-04",
    "summary": "1 site(s): Mount Shasta Wilderness. Facts from official sources; lore labelled as claims.",
    "evidence": "UNESCO pages and Smartraveller read directly; other official pages are search snapshots unless marked."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "entry-permit",
+     "authority": "US National Park Service, Yosemite National Park",
+     "process": "For 2026 Yosemite states that no reservation is needed to enter the park; the entrance fee still applies. The park chose not to run a season-wide timed-entry system and plans traffic monitoring and parking management instead. Rules can change, so the park's conditions page is the live source.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.nps.gov/yose/planyourvisit/reservations.htm",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "US National Park Service, Yosemite National Park",
+     "process": "Half Dome beyond the base of the subdome needs a permit on every day the cables are up (normally the Friday before Memorial Day to the day after the second Monday in October; subject to conditions). Up to 300 hikers a day: about 225 day hikers and 75 backpackers. Preseason lottery: apply 1 to 31 March, results in mid-April, up to six permits per application. Daily lottery: apply from midnight to 4 pm Pacific two days before. Fees: US$10 (about A$14) per application, non-refundable, and US$10 per person if issued. The page does not list 2026 calendar dates; confirm on recreation.gov. Fees in US dollars; A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "lead_time_days": 75,
+     "activities": [
+      "hiking: Half Dome"
+     ],
+     "url": "https://www.nps.gov/yose/planyourvisit/hdpermits.htm",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "USDA Forest Service, Inyo National Forest (via recreation.gov)",
+     "process": "A wilderness permit is required year-round for the Mt Whitney Trail and Whitney Zone, for day use or overnight. Lottery results post on 15 March; awarded permits must be claimed and paid by 21 April; unclaimed dates reopen on 22 April. Fees: US$6 per reservation, non-refundable, and US$15 (about A$21) per person for the Whitney Zone. Day-use permits are valid midnight to midnight and must be printed by noon the day before, or they count as a no-show. No refunds. The page gives this as the annual schedule, not 2026 dates; confirm with the Inyo permit office, 760-873-2526. Fees in US dollars; A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "lead_time_days": 150,
+     "activities": [
+      "hiking: Mt Whitney"
+     ],
+     "url": "https://www.recreation.gov/permits/233260",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Yosemite reservations",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/yose/planyourvisit/reservations.htm",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Half Dome permits",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/yose/planyourvisit/hdpermits.htm",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Mt Whitney permits",
+     "authority": "Recreation.gov (USDA Forest Service)",
+     "url": "https://www.recreation.gov/permits/233260",
+     "checked": "2026-11-06"
+    }
+   ]
   }
  }
 }

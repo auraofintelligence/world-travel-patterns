@@ -131,6 +131,66 @@
     }
    ],
    "note": "BC Parks day-use passes added 5 November 2026; check the page for season dates. Gwaii Haanas added."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "visitor-cap",
+     "authority": "BC Parks",
+     "process": "Free day-use passes, booked online two days ahead from 7 am Pacific (not by phone). Joffre Lakes (Pipi7iyekw): required 11 May to 25 Oct 2026, each person needs one, up to four trail passes per transaction per day, 12 and under exempt with a pass-holding adult, park capped at 500 visitors a day. Garibaldi vehicle passes: Diamond Head and Rubble Creek Friday to Monday and holidays 12 Jun to 12 Oct; Cheakamus Lake daily 13 Jun to 7 Sep, then Friday to Monday and holidays to 12 Oct, with AM or PM slots. One pass per vehicle (up to 12 people). Camping reservation holders need no day pass.",
+     "lead_time_days": 0,
+     "activities": [
+      "day hiking"
+     ],
+     "url": "https://bcparks.ca/reservations/day-use-passes/",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Parks Canada, Pacific Rim National Park Reserve",
+     "process": "West Coast Trail: every hiker needs a Backcountry Use Permit; overnight hiking 1 May to 30 Sep, trail closed 7 Oct to 30 Apr. Daily quota; all spaces reservable (no standby). 2026 reservations opened 8 am PT on 5 Feb 2026 at reservation.pc.gc.ca or 1-877-737-3783. Max group 10. Permits not issued under age 6. Reservation, permit, orientation and ferry fees apply (amounts not on the page; see the fee schedule). Cancel 21 or more days ahead for refunds of permit, orientation and ferry fees.",
+     "lead_time_days": 150,
+     "activities": [
+      "hiking: West Coast Trail"
+     ],
+     "url": "https://parks.canada.ca/pn-np/bc/pacificrim/activ/SCO-WCT",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "transport-control",
+     "authority": "Parks Canada, Yoho National Park",
+     "process": "Lake O'Hara: the day-use bus is allocated by random draw (applications 2 to 23 March 2026); shuttle runs 19 Jun to 4 Oct 2026, up to 6 people per reservation. Campground (30 sites, open 19 Jun to 4 Oct) booked from 10 Feb 2026; tent required, max 3 nights. Fees not listed on the page.",
+     "lead_time_days": 120,
+     "activities": [
+      "Lake O'Hara"
+     ],
+     "url": "https://parks.canada.ca/pn-np/bc/yoho/activ/randonnee-hike/ohara/visit",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Day-use passes",
+     "authority": "BC Parks",
+     "url": "https://bcparks.ca/reservations/day-use-passes/",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "West Coast Trail",
+     "authority": "Parks Canada",
+     "url": "https://parks.canada.ca/pn-np/bc/pacificrim/activ/SCO-WCT",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Lake O'Hara",
+     "authority": "Parks Canada",
+     "url": "https://parks.canada.ca/pn-np/bc/yoho/activ/randonnee-hike/ohara/visit",
+     "checked": "2026-11-06"
+    }
+   ]
   }
  }
 }

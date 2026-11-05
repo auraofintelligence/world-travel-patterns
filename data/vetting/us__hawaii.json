@@ -3,7 +3,7 @@
  "patterns": {
   "zone-requirements": {
    "status": "partly-vetted",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "official",
    "layers": [
     {
@@ -16,6 +16,17 @@
      ],
      "url": "https://dab.hawaii.gov/pi/?p=17",
      "checked": "2026-10-31"
+    },
+    {
+     "type": "transport-control",
+     "authority": "US National Park Service, Haleakala National Park",
+     "process": "Summit sunrise needs a reservation for entry between 3 am and 7 am, valid only for the date booked, on recreation.gov. Released 7 am Hawaii time, some 48 hours ahead and up to 60 days ahead; one per three-day period; no weather refunds; the park cannot book them. Bring or buy a park pass at the gate. No sunrise fee was listed on the page.",
+     "lead_time_days": 60,
+     "activities": [
+      "sunrise at the summit"
+     ],
+     "url": "https://www.nps.gov/hale/planyourvisit/sunrise.htm",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -32,6 +43,12 @@
      "url": "https://akamaiarrival.hawaii.gov/?p=73",
      "checked": "2026-10-31",
      "supports": "digital declaration form"
+    },
+    {
+     "title": "Haleakala sunrise reservations",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/hale/planyourvisit/sunrise.htm",
+     "checked": "2026-11-06"
     }
    ]
   },

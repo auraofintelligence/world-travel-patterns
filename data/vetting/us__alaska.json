@@ -140,6 +140,49 @@
      "supports": "age thresholds, harvest record card, stamp prices (read via a search-index snapshot)"
     }
    ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "activity-permit",
+     "authority": "Alaska Department of Fish and Game, McNeil River State Game Sanctuary",
+     "process": "Access to the sanctuary needs an ADF&G access permit (AS 16.20.162). Viewing permits are limited to 10 people at the falls or other viewing places between 7 June and 25 August. For 2026 commercial transport continues by floatplane. Application dates and fees are on the permit pages, which did not state them when checked.",
+     "lead_time_days": 0,
+     "activities": [
+      "bear viewing"
+     ],
+     "url": "https://www.adfg.alaska.gov/index.cfm?adfg=mcneilriver.permits",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "US National Park Service, Denali National Park",
+     "process": "Free backcountry permit required for every overnight trip. Mid-May to late September issued in person at the Backcountry Information Center, up to one day before or on the start day; other seasons at the Winter Visitor Center. 87 units, each with a nightly limit; every party member attends an orientation. Phone 907-683-9590. A road lottery was not found on the pages checked.",
+     "lead_time_days": 1,
+     "activities": [
+      "backpacking"
+     ],
+     "url": "https://www.nps.gov/dena/planyourvisit/backcountry.htm",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "McNeil River permits",
+     "authority": "Alaska Department of Fish and Game",
+     "url": "https://www.adfg.alaska.gov/index.cfm?adfg=mcneilriver.permits",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Denali backcountry",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/dena/planyourvisit/backcountry.htm",
+     "checked": "2026-11-06"
+    }
+   ]
   }
  }
 }
