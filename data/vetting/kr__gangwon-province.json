@@ -1,0 +1,50 @@
+{
+ "place": "kr/gangwon-province",
+ "patterns": {
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "seasonal-closure",
+     "authority": "Korea National Park Service (국립공원공단)",
+     "process": "KNPS posts a notice (no. 2026-68, 1 Nov 2026) closing national park trails for the autumn fire-prevention period, with a list of trails per park. The trail list and dates are in image and PDF attachments that could not be read, so check the live closure page before walking. Seoraksan, Odaesan, Taebaeksan and Chiaksan are the Gangwon parks.",
+     "lead_time_days": 0,
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://www.knps.or.kr/front/portal/open/pnewsDtl.do?menuNo=7020013&pnewsId=PNEWSM035288",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Korea National Park Service (국립공원공단)",
+     "process": "Mountain shelters (대피소) in Seoraksan and Jirisan are booked through the KNPS reservation system. Bookings are confirmed only after payment; unpaid bookings cancel automatically after the payment deadline. A sample Jirisan shelter bed listed at KRW 19,000 (about A$20, RBA 30 Oct 2026, A$1 = KRW 941.07). The page does not say when booking opens. Seoraksan's Jungcheong emergency shelter space was announced as open for winter from 1 Nov 2026.",
+     "lead_time_days": 0,
+     "activities": [
+      "overnight hiking"
+     ],
+     "url": "https://reservation.knps.or.kr/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "2026년 가을철 국립공원 탐방로 출입통제 공고",
+     "authority": "Korea National Park Service",
+     "url": "https://www.knps.or.kr/front/portal/open/pnewsDtl.do?menuNo=7020013&pnewsId=PNEWSM035288",
+     "checked": "2026-11-06",
+     "supports": "notice exists, details not readable"
+    },
+    {
+     "title": "국립공원 예약통합시스템",
+     "authority": "Korea National Park Service",
+     "url": "https://reservation.knps.or.kr/",
+     "checked": "2026-11-06",
+     "supports": "shelter booking and payment (read directly 2026-11-06)"
+    }
+   ]
+  }
+ }
+}
