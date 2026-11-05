@@ -826,9 +826,9 @@
    "drones": true
   },
   "ancient-sites-and-mysteries": {
-   "status": "mapped",
-   "checked": "2026-11-04",
-   "summary": "1 site(s) in United Kingdom: Stonehenge. Facts from official sources; lore labelled as claims.",
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "summary": "1 site(s): Stonehenge. National heritage authority, protection law and Smartraveller level recorded; opening, tickets and penalties not yet checked. Lore is labelled as claims.",
    "sites": [
     {
      "name": "Stonehenge",
@@ -879,9 +879,34 @@
      "title": "Stone Circle Access terms and conditions",
      "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/things-to-do/stone-circle-access-visits/stone-circle-access-terms-and-conditions/",
      "read": "search snapshot"
+    },
+    {
+     "authority": "Australian Smartraveller",
+     "title": "United Kingdom travel advice",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/united-kingdom",
+     "checked": "2026-11-06"
+    },
+    {
+     "authority": "National heritage authority",
+     "title": "Heritage is devolved: English Heritage and Historic England (England), Historic Environmen",
+     "url": "https://www.gov.uk/government/organisations/department-for-culture-media-sport",
+     "checked": "2026-11-06"
     }
    ],
-   "evidence": "UNESCO pages read directly; site and ministry pages from search snapshots unless marked."
+   "evidence": "UNESCO pages read directly; site and ministry pages from search snapshots unless marked. UNESCO facts read from UNESCO open data on 6 Nov 2026; authority names and law citations are not reread (see national.read).",
+   "national": {
+    "authority": "Heritage is devolved: English Heritage and Historic England (England), Historic Environment Scotland, Cadw (Wales), Department for Communities (Northern Ireland)",
+    "authority_url": "https://www.gov.uk/government/organisations/department-for-culture-media-sport",
+    "protection": "Protection differs by nation; the Stonehenge entry on the England record cites the Ancient Monuments and Archaeological Areas Act 1979. Scotland, Wales and Northern Ireland rules not yet checked at this level.",
+    "passes": "No national site pass found yet: not yet checked.",
+    "smartraveller": {
+     "level": "Exercise a high degree of caution",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/united-kingdom",
+     "read": "repo Smartraveller export of 2026-10-29"
+    },
+    "checked": "2026-11-06",
+    "read": "authority page reached 6 Nov 2026; law citation not reread"
+   }
   }
  }
 }

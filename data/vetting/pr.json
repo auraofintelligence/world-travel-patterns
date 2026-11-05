@@ -500,6 +500,55 @@
     }
    ],
    "recheck_note": "ESTA fee not restated here; read on the CBP site at application."
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "Law 42-2017 (Puerto Rico Medical Cannabis Law) allows only medicinal and scientific use. Use needs a recommendation from an authorised physician and an ID issued by the Medical Cannabis Regulatory Board (Junta Reglamentadora del Cannabis Medicinal) of the Department of Health, and is limited to homes and private places.",
+     "source": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/Sustancias/42-2017.pdf",
+     "checked": "2026-11-06",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "The law reaffirms the ban on recreational cannabis, including smoking it; recreational use is dealt with under Law 4, the Controlled Substances Act. Regulation 9038 also prohibits possessing, cultivating, transporting, donating or selling cannabis for recreational purposes.",
+     "source": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/Sustancias/42-2017.pdf",
+     "checked": "2026-11-06",
+     "by": "hand"
+    },
+    {
+     "substance": "cannabis",
+     "kind": "law",
+     "text": "A Department of Health release dated 23 April 2026 says the Board will keep applying Law 42-2017 and Regulation 9038 and will review changes step by step with federal agencies.",
+     "source": "https://www.salud.pr.gov/CMS/364",
+     "checked": "2026-11-06",
+     "by": "hand",
+     "changing": true
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ley 42-2017, Ley para Manejar el Estudio, Desarrollo e Investigación del Cannabis para la Innovación, Normas Aplicables y Límites (Medical Cannabis Law)",
+     "authority": "Government of Puerto Rico, Oficina de Gerencia y Presupuesto",
+     "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/Sustancias/42-2017.pdf",
+     "checked": "2026-11-06",
+     "supports": "medical-only cannabis, recreational ban"
+    },
+    {
+     "title": "Junta Reglamentadora del Cannabis Medicinal",
+     "authority": "Puerto Rico Department of Health",
+     "url": "https://www.salud.pr.gov/CMS/364",
+     "checked": "2026-11-06",
+     "supports": "the Board and the April 2026 statement"
+    }
+   ],
+   "notes": "Read through search extracts of the Spanish text; recheck the full law and Law 4 for penalties. Alcohol, tobacco, vaping and other substances have not been checked."
   }
  }
 }
