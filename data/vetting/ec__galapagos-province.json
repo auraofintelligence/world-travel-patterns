@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -38,6 +38,34 @@
      "source": "https://galapagos.gob.ec/tributo-de-ingreso/",
      "checked": "2026-11-05",
      "by": "hand"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "The Galápagos National Park and Marine Reserve visit rules say to keep 2 metres from wildlife (cameras included), not to touch or feed animals, not to remove anything from the ecosystem, and not to bring in outside plants or animals.",
+     "source": "https://galapagos.gob.ec/reglas-de-visita/",
+     "checked": "2026-11-06",
+     "level": "region"
+    },
+    {
+     "topic": "drones",
+     "rule": "The park's visit rules say: do not use drones. Take photos without flash; professional filming needs authorisation.",
+     "source": "https://galapagos.gob.ec/reglas-de-visita/",
+     "checked": "2026-11-06",
+     "level": "region"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Visitors walk on marked trails and visit protected areas with a specialised (naturalist) guide. Camping is only in designated sites with prior authorisation. Tourism services must be authorised ones; motorised watercraft, submarines and air tourism are not to be used.",
+     "source": "https://galapagos.gob.ec/reglas-de-visita/",
+     "checked": "2026-11-06",
+     "level": "region"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "In the park's visit areas, do not smoke, drink alcohol or light campfires.",
+     "source": "https://galapagos.gob.ec/reglas-de-visita/",
+     "checked": "2026-11-06",
+     "level": "region"
     }
    ],
    "sources": [
@@ -47,6 +75,13 @@
      "url": "https://galapagos.gob.ec/tributo-de-ingreso/",
      "checked": "2026-11-05",
      "supports": "entry fee and TCT (search-index snapshot)"
+    },
+    {
+     "title": "Reglas de visita del Parque Nacional y Reserva Marina de Galápagos (poster, 2024)",
+     "authority": "Dirección del Parque Nacional Galápagos",
+     "url": "https://galapagos.gob.ec/reglas-de-visita/",
+     "supports": "visit rules read from the park's poster image",
+     "checked": "2026-11-06"
     }
    ],
    "note": "From the Galápagos National Park."

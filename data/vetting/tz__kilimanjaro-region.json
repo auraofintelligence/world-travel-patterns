@@ -1,0 +1,60 @@
+{
+ "place": "tz/kilimanjaro-region",
+ "patterns": {
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "guide-required",
+     "authority": "Tanzania National Parks Authority (TANAPA)",
+     "process": "All Kilimanjaro climbs must be guided by a licensed operator; solo trekking is not permitted. Guide and porter services are arranged through licensed tour operators.",
+     "lead_time_days": 0,
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://tanzaniaparks.go.tz/kilimanjaro/visitor-guide",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "fee",
+     "authority": "TANAPA",
+     "process": "The park page lists international adults at US$70 and international children at US$20 (about A$99 and A$28 at RBA, 30 October 2026: A$1 = US$0.7040). TANAPA says fees depend on visitor category, route and days, and conservation, camping or hut, and rescue fees may apply; its public tariff page is still the 2023/2024 one, so confirm the current schedule with TANAPA.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://tanzaniaparks.go.tz/en/kilimanjaro",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "TANAPA",
+     "process": "Drones need prior authorisation. Off-trail travel and open fires are restricted. Park gates close at 6 pm.",
+     "lead_time_days": 0,
+     "activities": [
+      "drones",
+      "all"
+     ],
+     "url": "https://tanzaniaparks.go.tz/kilimanjaro/visitor-guide",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kilimanjaro National Park visitor guide",
+     "authority": "TANAPA",
+     "url": "https://tanzaniaparks.go.tz/kilimanjaro/visitor-guide",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Kilimanjaro National Park",
+     "authority": "TANAPA",
+     "url": "https://tanzaniaparks.go.tz/en/kilimanjaro",
+     "checked": "2026-11-06"
+    }
+   ]
+  }
+ }
+}
