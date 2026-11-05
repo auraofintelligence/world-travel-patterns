@@ -55,6 +55,15 @@
      "source": "https://www.smartraveller.gov.au/destinations/pacific/new-caledonia",
      "checked": "2026-10-31",
      "heading": "Medications"
+    },
+    {
+     "topic": "drones",
+     "rule": "EU drone rules do not apply in New Caledonia; local rules do. Leisure flying generally needs no authorisation or declaration from DAC-NC. Outside restricted zones the maximum height is 120 m. Restricted areas are on the GEOREP map, which does not show temporary bans; some lagoon islets may be closed to people and drone overflight to protect seabirds (check with Province Sud). The old duty to declare aerial image capture has been repealed.",
+     "level": "country",
+     "source": "https://www.aviation-civile.nc/pilotes-et-professionnels/drones-loisir",
+     "checked": "2026-11-06",
+     "heading": "Leisure drones (loisir)",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -64,6 +73,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/pacific/new-caledonia",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Leisure drones (loisir)",
+     "authority": "Direction de l'aviation civile de Nouvelle-Caledonie",
+     "url": "https://www.aviation-civile.nc/pilotes-et-professionnels/drones-loisir",
+     "checked": "2026-11-06",
+     "supports": "visitor drone rule"
     }
    ]
   },
@@ -726,6 +742,60 @@
      "supports": "90 days in 180 visa-free for tourists; proof required; French visa and local work permit otherwise (read directly)"
     }
    ]
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "New Caledonia's civil aviation directorate (DAC-NC) requires professional drone activity to be declared beforehand, and is moving to the EU framework. Leisure flying generally needs no authorisation. No public operator register or visitor rule was found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "No public register of professional drone operators was found on the DAC-NC pages read.",
+     "source": "https://www.aviation-civile.nc/pilotes-et-professionnels/drones",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Any professional activity by a remote-aircraft operator is subject to prior declaration (through the Alpha Tango platform for EU standard scenarios STS-01 and STS-02; for national scenarios S1 to S3, email DAC-NC first). Flights over 2 kg under S2 or S3 need a design attestation, or the alternative specific authorisations the authority publishes (NC-2024-01 to 03 and NC-AS-2026-01). Pilot training is described on its licences and examinations page.",
+     "source": "https://www.aviation-civile.nc/pilotes-et-professionnels/drones",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not stated: the page does not address foreign operators or foreign-registered drones, and refers questions to DAC-NC. Importing a drone needs the radio import authorisation (AAI) from the ANFR unless the model is exempt.",
+     "source": "https://www.aviation-civile.nc/pilotes-et-professionnels/drones",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Restricted zones are on the GEOREP map (ncdrones.georep.nc), which does not show temporary bans. Professional operators can request authorisation for restricted zones. Zones banned for capturing aerial data are set by an arrete of 26 June 2024.",
+     "source": "https://www.aviation-civile.nc/pilotes-et-professionnels/drones",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Drones professionnels",
+     "authority": "Direction de l'aviation civile de Nouvelle-Caledonie",
+     "url": "https://www.aviation-civile.nc/pilotes-et-professionnels/drones",
+     "checked": "2026-11-06",
+     "supports": "professional rules (page read through a page-summary tool)"
+    },
+    {
+     "title": "Drones loisir",
+     "authority": "Direction de l'aviation civile de Nouvelle-Caledonie",
+     "url": "https://www.aviation-civile.nc/pilotes-et-professionnels/drones-loisir",
+     "checked": "2026-11-06",
+     "supports": "leisure rules (page read through a page-summary tool)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

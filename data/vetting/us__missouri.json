@@ -15,14 +15,24 @@
      "url": "https://date.nager.at/",
      "checked": "2026-11-01",
      "supports": "regional public holidays in the next twelve months"
+    },
+    {
+     "title": "RSMo 9.010 Public holidays",
+     "authority": "Missouri Revisor of Statutes",
+     "url": "https://revisor.mo.gov/main/OneSection.aspx?section=9.010",
+     "supports": "the list of public holidays and the Sunday rule (read directly)",
+     "checked": "2026-11-06"
     }
    ],
    "public_holidays": [
     "2027-02-12: Lincoln's Birthday (regional holiday)",
     "2027-05-08: Truman Day (regional holiday)",
-    "2027-10-11: Columbus Day (regional holiday)"
+    "2027-10-11: Columbus Day (regional holiday)",
+    "2027-02-12: Lincoln's Birthday (official: legal holiday under RSMo 9.010, fixed 12 February; the machine list shows the same date)",
+    "2027-05-08: legal holiday on 8 May (official: listed in RSMo 9.010 without a name; a Saturday in 2027, the statute moves only Sunday holidays to Monday)",
+    "Official note: RSMo 9.010 says there is no state employee holiday on the fourth Monday in October, and a Sunday holiday moves to the Monday after."
    ],
-   "checked": "2026-11-02"
+   "checked": "2026-11-06"
   },
   "local-law": {
    "status": "partly-mapped",

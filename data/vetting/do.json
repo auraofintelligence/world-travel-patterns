@@ -80,6 +80,15 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/dominican-republic",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Drones of 0.25 kg or more must be registered with IDAC and flown by a licensed remote pilot; under 249 g needs no licence or insurance. A visitor flying in restricted areas, commercially or outside RAD-107 applies on form IDAC 1500-9 at least five working days ahead (about fifteen working days is typical). A foreigner whose home country does not require licence or registration for that drone attaches that country's rule and an ID. Maximum 400 ft above ground, no flying over people, and no flying in airspace other than Class G without IDAC approval. Foreigners may fly commercially for now only if hired by a Dominican company.",
+     "level": "country",
+     "source": "https://www.idac.gob.do/drone/preguntas-frecuentes/",
+     "checked": "2026-11-06",
+     "heading": "Drone operations for visitors",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -89,6 +98,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/dominican-republic",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone operations for visitors",
+     "authority": "Instituto Dominicano de Aviacion Civil",
+     "url": "https://www.idac.gob.do/drone/preguntas-frecuentes/",
+     "checked": "2026-11-06",
+     "supports": "visitor drone rule"
     }
    ]
   },
@@ -965,6 +981,67 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; heritage laws are not yet read (see national.read)."
+  },
+  "drone-pilot-pathway": {
+   "status": "mapped",
+   "summary": "IDAC (Dominican civil aviation institute) requires registration and a remote pilot licence for drones over 0.25 kg, and a permit (form 1500-9) for commercial or restricted-area flights. Foreigners may operate commercially for now only when hired by a Dominican company.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "No public register of licensed drone operators was found on the IDAC drone pages.",
+     "source": "https://www.idac.gob.do/drone/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "A remote pilot licence is needed for drones over 0.25 kg: at least 18 years old, a theory test and a practical flight test; existing pilots can validate a licence and skip the theory test. Commercial or restricted-area flights need a special permit: form IDAC 1500-9 with the operator licence, drone registration, insurance where applicable and a map with coordinates. IDAC asks for at least five working days' notice and gives about fifteen working days as the usual time.",
+     "source": "https://www.idac.gob.do/drone/preguntas-frecuentes/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "IDAC's FAQ answers 'Can I do commercial operations as a foreigner?' with: for now they are allowed only if a Dominican company hires them and requests it. A foreigner whose home country requires no licence or registration for that drone weight attaches the relevant part of that country's rules and an ID copy to the application.",
+     "source": "https://www.idac.gob.do/drone/preguntas-frecuentes/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Airspace other than Class G needs prior approval from IDAC's flight standards operations department in coordination with air traffic control; prohibited or restricted areas, including near government or military sites, need the same permission.",
+     "source": "https://www.idac.gob.do/drone/preguntas-frecuentes/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Vuela Seguro: drones in the Dominican Republic",
+     "authority": "Instituto Dominicano de Aviacion Civil",
+     "url": "https://www.idac.gob.do/drone/",
+     "checked": "2026-11-06",
+     "supports": "requirements and special cases (page read directly)"
+    },
+    {
+     "title": "Preguntas frecuentes - Vuela Seguro",
+     "authority": "Instituto Dominicano de Aviacion Civil",
+     "url": "https://www.idac.gob.do/drone/preguntas-frecuentes/",
+     "checked": "2026-11-06",
+     "supports": "foreign commercial operators and notice times (page read directly)"
+    },
+    {
+     "title": "Operaciones sUAS/Drones",
+     "authority": "Instituto Dominicano de Aviacion Civil",
+     "url": "https://www.idac.gob.do/es/operaciones-suas-drones/",
+     "checked": "2026-11-06",
+     "supports": "registration, licences, permits (page read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

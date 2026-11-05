@@ -110,6 +110,15 @@
      "source": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Only government organisations may own or operate drones in Bhutan, for government purposes. Private individuals and companies are not allowed to own or use drones. A drone cannot be imported without prior BCAA approval and one carried in by a tourist is seized at the point of entry; import permits go only to government agencies. Penalties are in section 4.12.21 of the UAS Regulation 2017.",
+     "level": "country",
+     "source": "https://bcaa.gov.bt/faq-2/",
+     "checked": "2026-11-06",
+     "heading": "Who may fly or import drones",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -119,6 +128,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/bhutan",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Who may fly or import drones",
+     "authority": "Bhutan Civil Aviation Authority",
+     "url": "https://bcaa.gov.bt/faq-2/",
+     "checked": "2026-11-06",
+     "supports": "visitor drone rule"
     }
    ]
   },
@@ -968,6 +984,47 @@
    "checked": "2026-11-04",
    "summary": "1 site(s): Paro Taktsang (Tiger's Nest). Facts from official sources; lore labelled as claims.",
    "evidence": "UNESCO pages and Smartraveller read directly; other official pages are search snapshots unless marked."
+  },
+  "drone-pilot-pathway": {
+   "status": "mapped",
+   "summary": "Under Bhutan's UAS Regulation 2017, only government organisations may own or operate drones. Private people and companies, including tourists, may not; drone import permits go only to government agencies.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "No public operator register was found; the BCAA says it does not issue drone pilot licences or certificates.",
+     "source": "https://bcaa.gov.bt/faq-2/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "A government operator registers the drone (forwarding letter, Appendix I, fee, technical specifications), then applies for an Unmanned Aircraft Operation Permit with clearances by location (Ministry of Home Affairs for heritage sites, Forests and Park Services for protected areas, Royal Bhutan Police for security-sensitive areas, Royal Bhutan Army for no-fly zones) and evidence of skill, which can be a foreign drone licence or training certificate.",
+     "source": "https://bcaa.gov.bt/faq-2/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "The BCAA FAQ says private individuals or companies are not allowed to own or use drones in Bhutan, and that no agency or individual may import a drone without prior BCAA approval; a drone brought in as a tourist would be seized at the point of entry. Import permits are issued only to government agencies.",
+     "source": "https://bcaa.gov.bt/faq-2/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Drone FAQ",
+     "authority": "Bhutan Civil Aviation Authority",
+     "url": "https://bcaa.gov.bt/faq-2/",
+     "checked": "2026-11-06",
+     "supports": "who may operate and import drones (page read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }
