@@ -773,6 +773,53 @@
      "supports": "12 public holidays in 2027"
     }
    ]
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Barbados requires permission from the Prime Minister's Office before any drone flight. The Civil Aviation Authority page asks for a device training certificate, a spectrum licence and public liability insurance; visitors are not addressed.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "No public register of drone operators was found on the BCAA page.",
+     "source": "https://www.bcaa.gov.bb/remotely-piloted-aircraft-systems/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Apply through the Prime Minister's Office before flying a drone in Barbados airspace. Operators need the training certificate for their device, a spectrum licence and public liability insurance with at least a 250,000 minimum cover (currency as stated on the page: dollars). Flights stay below 400 feet, and air traffic control at Grantley Adams airport is notified 15 minutes before and after flying.",
+     "source": "https://www.bcaa.gov.bb/remotely-piloted-aircraft-systems/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not stated: the page does not address visitors or foreign operators.",
+     "source": "https://www.bcaa.gov.bb/remotely-piloted-aircraft-systems/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "The page says flights are prohibited beyond visual range, over people, over populated areas, in prohibited or restricted areas and within 5 km of a controlled aerodrome's movement area, sensitive government areas or police stations; stay 50 m from crowds or buildings. Free-to-fly zones (with approval, a licensed and insured drone) are Sterling, Lynches, Dash Valley, College Savannah and Vaucluse.",
+     "source": "https://www.bcaa.gov.bb/remotely-piloted-aircraft-systems/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Remotely Piloted Aircraft Systems",
+     "authority": "Barbados Civil Aviation Authority",
+     "url": "https://www.bcaa.gov.bb/remotely-piloted-aircraft-systems/",
+     "checked": "2026-11-06",
+     "supports": "permission and rules (page read through a page-summary tool)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

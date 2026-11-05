@@ -768,6 +768,41 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; heritage laws are not yet read (see national.read)."
+  },
+  "drone-pilot-pathway": {
+   "status": "unknown",
+   "summary": "DINACIA (Uruguay's civil aviation authority) issues RPAS operator permits and stopped authorising drone operations for holders with expired permits from 31 March 2021. New UAS regulations were out for consultation on 8 October 2026.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-licence",
+     "text": "DINACIA's notice refers to RPAS operator permits and to Executive Decree 260/2018. From 31 March 2021 it does not authorise drone operations for people whose operator permit has expired. The permit conditions were not read.",
+     "source": "https://dinacia.gub.uy/novedades/permisos-de-operador-rpas",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "DINACIA's news list shows a call for comment on draft aeronautical regulations for UAS operations (8 October 2026) and temporary airspace restrictions for UAS operations for a papal visit (2 November 2026). Only the headlines were read.",
+     "source": "https://dinacia.gub.uy/novedades/permisos-de-operador-rpas",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Permisos de Operador RPAS",
+     "authority": "Direccion Nacional de Aviacion Civil e Infraestructura Aeronautica (Uruguay)",
+     "url": "https://dinacia.gub.uy/novedades/permisos-de-operador-rpas",
+     "checked": "2026-11-06",
+     "supports": "operator permit notice and news headlines (page read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }
