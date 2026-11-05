@@ -25,6 +25,35 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "layers": [
+    {
+     "type": "entry-permit",
+     "authority": "Parques Nacionales Naturales de Colombia (PNN)",
+     "process": "Gorgona National Natural Park (island): entry is only with tourist operators registered in the national tourism register (RNT) and authorised by PNN. Contact the park before paying to check carrying capacity and availability. Book at least 4 days ahead, and at least 15 days for type 1 and 2 boats. An induction talk and registration are required before entry. Guiding, transport and lodging are paid to the operators and are not in the entry fee.",
+     "lead_time_days": 4,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.parquesnacionales.gov.co/nuestros-parques/pnn-gorgona/",
+     "checked": "2026-11-06",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "PNN Gorgona",
+     "authority": "Parques Nacionales Naturales de Colombia (PNN)",
+     "url": "https://www.parquesnacionales.gov.co/nuestros-parques/pnn-gorgona/",
+     "checked": "2026-11-06",
+     "supports": "operator-only entry, booking lead times, induction talk (search extract 2026-11-06)"
+    }
+   ],
+   "note": "Gorgona only. The current page shows entry fees per boat; amounts not recorded because pages disagreed. The PNN website returned a bot-check page to this agent, so the park page itself was not read; the content comes from a search-engine extract of the official page and is held as signal until reread."
   }
  }
 }

@@ -3,9 +3,9 @@
   "generated_on": "2026-11-06",
   "mode": "public",
   "place_passes": 288,
-  "pattern_items": 1053,
+  "pattern_items": 1051,
   "by_reason": {
-   "never-checked": 1051,
+   "never-checked": 1049,
    "over-budget": 2
   },
   "watch_checks": 0
@@ -269,34 +269,6 @@
    ]
   },
   {
-   "place": "ki",
-   "name": "Kiribati",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "mh",
    "name": "Marshall Islands",
    "kind": "country",
@@ -508,34 +480,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "pg",
-   "name": "Papua New Guinea",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
     },
     {
      "pattern": "works-and-purpose",
@@ -828,8 +772,52 @@
    ]
   },
   {
+   "place": "ki",
+   "name": "Kiribati",
+   "kind": "country",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    }
+   ]
+  },
+  {
    "place": "pw",
    "name": "Palau",
+   "kind": "country",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    }
+   ]
+  },
+  {
+   "place": "pg",
+   "name": "Papua New Guinea",
    "kind": "country",
    "tags": [
     "oceania"

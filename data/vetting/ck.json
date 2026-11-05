@@ -46,7 +46,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -70,6 +70,22 @@
      "level": "country",
      "source": "https://www.smartraveller.gov.au/destinations/pacific/cook-islands",
      "checked": "2026-10-31"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "A ra'ui is a traditional ban, declared by a chief, on harvesting a resource or entering an area. At sea it often lasts from nine months to two years; a ra'ui mutukore is permanent. Where one is in force, the ban is on harvest or access, so ask the island council or your host which areas are under ra'ui before fishing, gathering or going into a lagoon area. Ra'ui is separate from the national Marae Moana marine park.",
+     "level": "country",
+     "source": "https://www.maraemoana.gov.ck/about-marae-moana/what-is-marae-moana/",
+     "checked": "2026-11-06",
+     "heading": "Ra'ui"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Marae Moana, set by Parliament, covers the whole ocean. Large-scale fishing and seabed mining are not allowed within 50 nautical miles of each island, and the Cook Islands is a shark sanctuary: boats cannot keep sharks. Other zones have not been set.",
+     "level": "country",
+     "source": "https://www.maraemoana.gov.ck/marine-park-news/understanding-marae-moana/",
+     "checked": "2026-11-06",
+     "heading": "Marae Moana and fishing"
     }
    ],
    "sources": [
@@ -79,8 +95,23 @@
      "url": "https://www.smartraveller.gov.au/destinations/pacific/cook-islands",
      "checked": "2026-10-31",
      "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
+    },
+    {
+     "title": "What is Marae Moana?",
+     "authority": "Marae Moana Cook Islands (Government)",
+     "url": "https://www.maraemoana.gov.ck/about-marae-moana/what-is-marae-moana/",
+     "checked": "2026-11-06",
+     "supports": "ra'ui definition"
+    },
+    {
+     "title": "Understanding Marae Moana",
+     "authority": "Marae Moana Cook Islands (Government)",
+     "url": "https://www.maraemoana.gov.ck/marine-park-news/understanding-marae-moana/",
+     "checked": "2026-11-06",
+     "supports": "50 nm exclusion zone, shark sanctuary"
     }
-   ]
+   ],
+   "note": "Cook Islands departure tax and Aitutaki visitor lagoon fishing permit were not confirmed on a current official page, so are not recorded."
   },
   "culture-and-protocol": {
    "status": "community-published",

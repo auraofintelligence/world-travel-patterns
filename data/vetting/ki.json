@@ -611,7 +611,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -621,6 +621,14 @@
      "source": "https://kiribati.tradeportal.org/media/Dangerous%20Drugs%20Regulation.pdf",
      "checked": "2026-11-04",
      "by": "hand"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "On Kiritimati it is an offence to catch, kill, fish for or possess a bonefish except under a valid tourist fishing permit, to fish with a net other than a dip net, or to sell bonefish or bonefish products. The penalty is up to six months in jail and a fine up to $1,000.",
+     "level": "island",
+     "source": "https://faolex.fao.org/docs/pdf/kir205009.pdf",
+     "checked": "2026-11-06",
+     "heading": "Regulations 4 and 5"
     }
    ],
    "sources": [
@@ -630,6 +638,13 @@
      "url": "https://kiribati.tradeportal.org/media/Dangerous%20Drugs%20Regulation.pdf",
      "checked": "2026-11-04",
      "supports": "possession only with authority or prescription (search-index snapshot)"
+    },
+    {
+     "title": "Fisheries (Protection of Bonefish on Kiritimati) Regulations 2008",
+     "authority": "Government of Kiribati, via FAO FAOLEX",
+     "url": "https://faolex.fao.org/docs/pdf/kir205009.pdf",
+     "checked": "2026-11-06",
+     "supports": "bonefish offences and penalty"
     }
    ],
    "note": "From the Government of Kiribati trade portal; the Ordinance's penalty section was not read on an official site."
@@ -679,6 +694,36 @@
    "summary": "No national-level sites mapped yet. National heritage authority not yet checked, Smartraveller level recorded where the repo holds it; heritage law, opening, tickets and penalties not yet checked. Lore is labelled as claims.",
    "sources": [],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; heritage laws are not yet read (see national.read)."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "layers": [
+    {
+     "type": "activity-permit",
+     "authority": "Kiribati Government (Secretary responsible for fisheries) under the Fisheries (Protection of Bonefish on Kiritimati) Regulations 2008",
+     "process": "Fishing in the waters of Kiritimati (Christmas Island) needs a tourist fishing permit. The 2008 schedule sets US$50 to issue (about A$71 at A$1 = USD 0.7040, RBA 30 Oct 2026) and US$25 to renew; a permit is valid for one week and may carry conditions. Current prices were not found on an official page and may differ from the 2008 schedule: confirm with the Ministry or your lodge.",
+     "lead_time_days": 0,
+     "activities": [
+      "fishing",
+      "bonefishing",
+      "Kiritimati"
+     ],
+     "url": "https://faolex.fao.org/docs/pdf/kir205009.pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fisheries (Protection of Bonefish on Kiritimati) Regulations 2008 (full text)",
+     "authority": "Government of Kiribati, via FAO FAOLEX legislation database",
+     "url": "https://faolex.fao.org/docs/pdf/kir205009.pdf",
+     "checked": "2026-11-06",
+     "supports": "permit, 2008 fees, validity, penalty"
+    }
+   ],
+   "note": "Held at country level because the tree has no Kiritimati node (only the Phoenix Islands). Diving permit and Phoenix Islands Protected Area visitor rules were not found on an official page.",
+   "checked": "2026-11-06",
+   "evidence": "official"
   }
  }
 }

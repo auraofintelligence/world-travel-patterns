@@ -25,6 +25,47 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "layers": [
+    {
+     "type": "guide-required",
+     "authority": "Parques Nacionales Naturales de Colombia (PNN)",
+     "process": "Chingaza National Natural Park: tours require a guide, hired from an agency authorised for the park. Present the printed payment slip and an accident and risk insurance policy at the authorised entry points together with the guide. Only one sector can be visited per day. There is no public transport; arrival is by private vehicle.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.parquesnacionales.gov.co/nuestros-parques/pnn-chingaza/",
+     "checked": "2026-11-06",
+     "evidence": "signal"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "Parques Nacionales Naturales de Colombia (PNN)",
+     "process": "Book at least three days ahead through the park's form (active Monday to Friday, office hours); payment needs an approved booking. Entry 7 am to 11 am, exit by 4 pm.",
+     "lead_time_days": 3,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.parquesnacionales.gov.co/nuestros-parques/pnn-chingaza/",
+     "checked": "2026-11-06",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "PNN Chingaza",
+     "authority": "Parques Nacionales Naturales de Colombia (PNN)",
+     "url": "https://www.parquesnacionales.gov.co/nuestros-parques/pnn-chingaza/",
+     "checked": "2026-11-06",
+     "supports": "guide, booking, insurance, hours (search extract 2026-11-06)"
+    }
+   ],
+   "note": "Chingaza only. Older pages gave different lead times, group sizes and trail caps; fees not recorded. The PNN website returned a bot-check page to this agent, so the park page itself was not read; the content comes from a search-engine extract of the official page and is held as signal until reread."
   }
  }
 }

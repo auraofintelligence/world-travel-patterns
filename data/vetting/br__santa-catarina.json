@@ -25,6 +25,102 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "entry-permit",
+     "authority": "Prefeitura Municipal de Florianópolis (Secretaria de Segurança e Ordem Pública; Secretaria de Transporte e Infraestrutura)",
+     "process": "Campeche Island (Ilha do Campeche, Florianópolis; listed federal heritage site, IPHAN Portaria 691/2009): every visitor needs a personal, non-transferable authorisation (virtual ticket with a QR code) issued through the island's official booking site. Create an account, choose the date and how you will travel, add companions, pay, and the voucher is released 24 hours after payment clears. Carry valid photo ID. No rescheduling or refund.",
+     "lead_time_days": 1,
+     "activities": [
+      "all"
+     ],
+     "url": "https://ilhadocampeche.pmf.sc.gov.br/",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "visitor-cap",
+     "authority": "Prefeitura Municipal de Florianópolis (Secretaria de Segurança e Ordem Pública; Secretaria de Transporte e Infraestrutura)",
+     "process": "The island is capped at 800 visitors a day (Portaria 059/2024 for the December 2024 to March 2025 summer season). Daily quotas by transport option: APAAS 410, ACOMPECHE 62, Barra da Lagoa 135, ABTC 73, own means 120. Landing and leaving are allowed only between 9 am and 5 pm. The island is closed to visits in bad weather, dangerous sea or when the monitors are absent.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://ilhadocampeche.pmf.sc.gov.br/banco/PO-59-Transporte_Ilha_do_Campeche_SMSOP_SMTI.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "transport-control",
+     "authority": "Prefeitura Municipal de Florianópolis (Secretaria de Segurança e Ordem Pública; Secretaria de Transporte e Infraestrutura)",
+     "process": "Commercial boats must hold a city traffic licence and inspection seal; boats may land only authorised ticket holders. Own boats, kayaks, paddleboards and swimming are allowed with the individual authorisation. Boat operators may not hire out kayaks, boards or floats at the island; animals (except guide dogs), plants, barbecues and sound equipment may not be landed.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://ilhadocampeche.pmf.sc.gov.br/banco/PO-59-Transporte_Ilha_do_Campeche_SMSOP_SMTI.pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ilha do Campeche: reservations and rules",
+     "authority": "Prefeitura Municipal de Florianópolis (Secretaria de Segurança e Ordem Pública; Secretaria de Transporte e Infraestrutura)",
+     "url": "https://ilhadocampeche.pmf.sc.gov.br/",
+     "checked": "2026-11-06",
+     "supports": "registration, booking steps, no refunds, conduct (read directly 2026-11-06)"
+    },
+    {
+     "title": "Portaria 059/SMSOP/GAB/2024",
+     "authority": "Prefeitura Municipal de Florianópolis (Secretaria de Segurança e Ordem Pública; Secretaria de Transporte e Infraestrutura)",
+     "url": "https://ilhadocampeche.pmf.sc.gov.br/banco/PO-59-Transporte_Ilha_do_Campeche_SMSOP_SMTI.pdf",
+     "checked": "2026-11-06",
+     "supports": "caps, quotas, hours, transport rules (read directly 2026-11-06)"
+    }
+   ],
+   "note": "Campeche Island only. The portaria was issued for the 2024/25 summer and says it can be extended; the 2026 caps and the ticket price were not confirmed (news reports a fee near R$ 15, not recorded). Check the island site for the current season."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "On Campeche Island, do not remove natural or archaeological elements, do not leave waste, do not feed or disturb animals, visit only permitted areas and follow the signs and the monitors' instructions. Animals (except guide dogs) and plants may not be landed.",
+     "level": "site",
+     "source": "https://ilhadocampeche.pmf.sc.gov.br/",
+     "checked": "2026-11-06",
+     "penalty_signal": "Boat operators risk licence suspension and fines for landing unauthorised visitors"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Sound equipment is prohibited on the beach and its adjacent waters at Campeche Island; barbecues and other polluting equipment may not be brought ashore.",
+     "level": "site",
+     "source": "https://ilhadocampeche.pmf.sc.gov.br/banco/PO-59-Transporte_Ilha_do_Campeche_SMSOP_SMTI.pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ilha do Campeche",
+     "authority": "Prefeitura Municipal de Florianópolis (Secretaria de Segurança e Ordem Pública; Secretaria de Transporte e Infraestrutura)",
+     "url": "https://ilhadocampeche.pmf.sc.gov.br/",
+     "checked": "2026-11-06",
+     "supports": "conduct rules (read directly 2026-11-06)"
+    },
+    {
+     "title": "Portaria 059/SMSOP/GAB/2024",
+     "authority": "Prefeitura Municipal de Florianópolis (Secretaria de Segurança e Ordem Pública; Secretaria de Transporte e Infraestrutura)",
+     "url": "https://ilhadocampeche.pmf.sc.gov.br/banco/PO-59-Transporte_Ilha_do_Campeche_SMSOP_SMTI.pdf",
+     "checked": "2026-11-06",
+     "supports": "sound, animals, equipment (read directly 2026-11-06)"
+    }
+   ],
+   "note": "Campeche Island only."
   }
  }
 }

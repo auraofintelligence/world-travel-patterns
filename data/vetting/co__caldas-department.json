@@ -25,6 +25,47 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "layers": [
+    {
+     "type": "guide-required",
+     "authority": "Parques Nacionales Naturales de Colombia (PNN)",
+     "process": "Los Nevados National Natural Park (spans Caldas, Risaralda, Tolima and Quindío): all entry must be through an operator agency or guide registered in the REPSE. Accident insurance is mandatory and an in-person induction talk with photo ID is required. Minimum age 15 for routes, crossings and summits; general entry age 6 to 70.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.parquesnacionales.gov.co/nuestros-parques/parque-nacional-natural-los-nevados/",
+     "checked": "2026-11-06",
+     "evidence": "signal"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "Parques Nacionales Naturales de Colombia (PNN)",
+     "process": "Central sector (Potosí, Cisne, Nevado Santa Isabel, Laguna del Otún): book three working days ahead on reservasnevados.com. Brisas sector: book at least one day ahead on weekends and holidays.",
+     "lead_time_days": 3,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.parquesnacionales.gov.co/nuestros-parques/parque-nacional-natural-los-nevados/",
+     "checked": "2026-11-06",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "PNN Los Nevados",
+     "authority": "Parques Nacionales Naturales de Colombia (PNN)",
+     "url": "https://www.parquesnacionales.gov.co/nuestros-parques/parque-nacional-natural-los-nevados/",
+     "checked": "2026-11-06",
+     "supports": "guide, insurance, age, booking (search extract 2026-11-06)"
+    }
+   ],
+   "note": "Held here once for the whole park; Risaralda, Tolima and Quindío hold nothing of their own. Fees not recorded. The PNN website returned a bot-check page to this agent, so the park page itself was not read; the content comes from a search-engine extract of the official page and is held as signal until reread."
   }
  }
 }

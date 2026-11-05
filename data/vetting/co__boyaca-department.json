@@ -25,6 +25,54 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "layers": [
+    {
+     "type": "guide-required",
+     "authority": "Parques Nacionales Naturales de Colombia (PNN)",
+     "process": "El Cocuy National Natural Park (Sierra Nevada del Cocuy): no visitor may enter without a guide or interpreter of natural and cultural heritage. The regulation annex sets five visitors per guide for ascents (an older page said four). An induction talk is also required.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.parquesnacionales.gov.co/nuestros-parques/pnn-el-cocuy/",
+     "checked": "2026-11-06",
+     "evidence": "signal"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "Parques Nacionales Naturales de Colombia (PNN)",
+     "process": "The park page asks for booking at least 90 days ahead. Guiding, transport, lodging and food are not included in the entry ticket, which covers the three authorised trails for 4 days.",
+     "lead_time_days": 90,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.parquesnacionales.gov.co/nuestros-parques/pnn-el-cocuy/",
+     "checked": "2026-11-06",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "PNN El Cocuy",
+     "authority": "Parques Nacionales Naturales de Colombia (PNN)",
+     "url": "https://www.parquesnacionales.gov.co/nuestros-parques/pnn-el-cocuy/",
+     "checked": "2026-11-06",
+     "supports": "guide rule, 90-day booking, ticket validity (search extract 2026-11-06)"
+    },
+    {
+     "title": "Anexo reglamentación actividad ecoturística PNN Cocuy",
+     "authority": "Parques Nacionales Naturales de Colombia (PNN)",
+     "url": "https://www.parquesnacionales.gov.co/wp-content/uploads/2023/06/anexo-pnn-cocuy.pdf",
+     "checked": "2026-11-06",
+     "supports": "five visitors per guide for ascents (search extract 2026-11-06)"
+    }
+   ],
+   "note": "El Cocuy only. Fees not recorded: the extract showed 2024 and undated tables that disagreed. The PNN website returned a bot-check page to this agent, so the park page itself was not read; the content comes from a search-engine extract of the official page and is held as signal until reread."
   }
  }
 }

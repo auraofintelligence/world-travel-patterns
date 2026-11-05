@@ -25,6 +25,100 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "guide-required",
+     "authority": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+     "process": "Lençóis Maranhenses National Park (Parque Nacional dos Lençóis Maranhenses): tours and visitor transport must use ICMBio-accredited vehicles, drivers and visitor guides (condutores de visitantes). Visitor transport or tours in private vehicles are not allowed. Book through an accredited operator.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-dos-lencois-maranhenses/orientacoes-ao-visitante",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "transport-control",
+     "authority": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+     "process": "Motor vehicles may not be driven on the open dune field, and unauthorised vehicles (private cars, motorcycles, buggies, quad bikes, UTVs) cannot enter.",
+     "lead_time_days": 0,
+     "activities": [
+      "driving"
+     ],
+     "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-dos-lencois-maranhenses/orientacoes-ao-visitante",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "fee",
+     "authority": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+     "process": "ICMBio charges no visitation fee for the park. Accredited local operators charge for their own services.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-dos-lencois-maranhenses/orientacoes-ao-visitante",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+     "process": "Image-capture (filming or photography) for commercial use in a federal conservation unit needs a special authorisation from ICMBio, requested through its service page.",
+     "lead_time_days": 0,
+     "activities": [
+      "filming",
+      "commercial-photography"
+     ],
+     "url": "https://www.gov.br/pt-br/servicos/solicitar-autorizacao-especial-para-captacao-de-imagem-em-unidade-de-conservacao",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Lençóis Maranhenses: orientações ao visitante",
+     "authority": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+     "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-dos-lencois-maranhenses/orientacoes-ao-visitante",
+     "checked": "2026-11-06",
+     "supports": "fee, accredited guide and vehicle rules (read directly 2026-11-06)"
+    }
+   ],
+   "note": "Park only. The park page lists no visitor cap or group size. News from January 2026 says ICMBio was studying a daily visitor limit; that is not a rule in force and is not recorded."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "alcohol",
+     "rule": "Selling, carrying or consuming alcoholic drinks and illegal drugs is prohibited inside Lençóis Maranhenses National Park.",
+     "level": "site",
+     "source": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-dos-lencois-maranhenses/orientacoes-ao-visitante",
+     "checked": "2026-11-06",
+     "penalty_signal": "Fines for visitors and service providers under Decree 6.514/2008 and Law 9.605/1998"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Only accredited vehicles, drivers and guides may take visitors into the park. Unauthorised vehicles (private cars, motorcycles, buggies, quad bikes, UTVs) cannot enter, and motor vehicles may not be driven on the open dune field. Enduro and rally events are prohibited.",
+     "level": "site",
+     "source": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-dos-lencois-maranhenses/orientacoes-ao-visitante",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Lençóis Maranhenses: orientações ao visitante",
+     "authority": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+     "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-dos-lencois-maranhenses/orientacoes-ao-visitante",
+     "checked": "2026-11-06",
+     "supports": "alcohol, vehicle and enforcement rules (read directly 2026-11-06)"
+    }
+   ],
+   "note": "Park only."
   }
  }
 }
