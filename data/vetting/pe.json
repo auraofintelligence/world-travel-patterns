@@ -265,14 +265,16 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-11-01",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "17 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [
     "Easter moves each year (next year: 2027-03-26, 2027-03-28)."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: Peru public holidays under Decreto Legislativo 713 article 6 as replaced by Ley 31788 of 14 Jun 2023 (https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31788-TXM.pdf). 2027 weekdays of the fixed dates, computed from it: Fri 1 Jan; Sat 1 May; Mon 7 Jun; Tue 29 Jun; Wed 28 Jul and Thu 29 Jul; Fri 6 Aug; Mon 30 Aug; Fri 8 Oct; Mon 1 Nov; Wed 8 Dec; Thu 9 Dec; Sat 25 Dec. Holy Thursday and Good Friday move with Easter and are not dated here. Later laws may have added days (23 Jul has been reported) and the executive sets non-working days by supreme decree; no 2027 decree was found."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -282,6 +284,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-11-01",
      "supports": "17 public holidays next year"
+    },
+    {
+     "title": "Ley 31788, articulo 6 del Decreto Legislativo 713",
+     "authority": "Congreso de la Republica del Peru",
+     "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31788-TXM.pdf",
+     "checked": "2026-11-06",
+     "supports": "list of feriados"
     }
    ]
   },

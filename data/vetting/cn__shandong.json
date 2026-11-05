@@ -25,6 +25,93 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Mount Tai Scenic Area rules (Tai'an city government, in force 1 May 2024): visitors may not enter undeveloped or closed rotation areas, or go exploring or climbing off the routes; may not smoke, light fires, set off fireworks or sky lanterns, or burn incense or paper against the rules; may not bring fire sources, controlled knives, flammables, pets, or items with sensitive maps or slogans.",
+     "level": "site",
+     "source": "https://www.taian.gov.cn/art/2024/4/30/art_349381_4306.html",
+     "checked": "2026-11-06"
+    },
+    {
+     "topic": "drones",
+     "rule": "Mount Tai Scenic Area: flying drones, powered parachutes, balloons, model aircraft and kites needs the management committee's consent and must follow its conditions. The 2025 holiday notice also lists drones among items not to be carried.",
+     "level": "site",
+     "source": "https://www.taian.gov.cn/art/2024/4/30/art_349381_4306.html",
+     "checked": "2026-11-06",
+     "drones": true
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Mount Tai Scenic Area: hunting wildlife, collecting rare wild plants, and taking away Taishan stones are banned.",
+     "level": "site",
+     "source": "https://www.taian.gov.cn/art/2024/4/30/art_349381_4306.html",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mount Tai Scenic Area Tourism Safety Management Provisions",
+     "authority": "Tai'an Municipal People's Government",
+     "url": "https://www.taian.gov.cn/art/2024/4/30/art_349381_4306.html",
+     "checked": "2026-11-06",
+     "supports": "articles 8, 18, 19; in force 2024-05-01 (read directly 2026-11-06)"
+    },
+    {
+     "title": "Mount Tai Scenic Area Qingming holiday notice",
+     "authority": "Tai'an Municipal People's Government",
+     "url": "https://www.taian.gov.cn/art/2025/4/3/art_46738_10357804.html",
+     "checked": "2026-11-06",
+     "supports": "items not to be carried, including drones (read directly 2026-11-06)"
+    }
+   ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "visitor-cap",
+     "authority": "Mount Tai Scenic Area Management Committee (Tai'an city)",
+     "process": "Mount Tai tickets are limited and booked in advance, with real-name checks at the gate. Reservation opens up to seven days ahead; a ticket is valid for three days after first entry. The official channel is the 'Taishan Scenic Area' WeChat account. Visitors carry the ID they booked with (ID card or passport). Foreign visitors, and Hong Kong, Macao and Taiwan visitors, book online and then have the ticket checked and activated at a manual window in a visitor centre; foreign visitors use the manual gate. Entry is limited to the booked time slot and gate. Sales stop when the day's threshold is reached.",
+     "lead_time_days": null,
+     "activities": [
+      "Mount Tai climb"
+     ],
+     "url": "https://whlyj.taian.gov.cn/art/2024/4/25/art_334572_10302959.html",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Real-name reservation across all channels from 1 May (Mount Tai)",
+     "authority": "Tai'an Municipal Culture and Tourism Bureau",
+     "url": "https://whlyj.taian.gov.cn/art/2024/4/25/art_334572_10302959.html",
+     "checked": "2026-11-06",
+     "supports": "real-name rule, 7-day advance booking, foreign visitor window check (read directly 2026-11-06; dated 2024-04-24/25)"
+    },
+    {
+     "title": "Mount Tai Scenic Area Qingming holiday notice",
+     "authority": "Tai'an Municipal People's Government",
+     "url": "https://www.taian.gov.cn/art/2025/4/3/art_46738_10357804.html",
+     "checked": "2026-11-06",
+     "supports": "limited reservation, foreign visitors use the manual gate (read directly 2026-11-06; dated 2025-04-03)"
+    },
+    {
+     "title": "Mount Tai Scenic Area Tourism Safety Management Provisions",
+     "authority": "Tai'an Municipal People's Government",
+     "url": "https://www.taian.gov.cn/art/2024/4/30/art_349381_4306.html",
+     "checked": "2026-11-06",
+     "supports": "management committee publishes a maximum capacity and stops sales at the threshold (read directly 2026-11-06; in force 1 May 2024)"
+    }
+   ],
+   "note": "The daily maximum figure was not read from an official page in this pass. Lead time given is the maximum advance window; 0 is a placeholder for the minimum."
   }
  }
 }

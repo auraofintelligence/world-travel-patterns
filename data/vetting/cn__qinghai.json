@@ -1,0 +1,73 @@
+{
+ "place": "cn/qinghai",
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drones",
+     "rule": "Qinghai Lake Scenic Area Protection and Utilisation Administration: drones may not be flown over wildlife and bird habitats. Named no-fly areas are Bird Island, Sand Island, Haixin Mountain, Sankuaishi, Quanwan-Gariala, Heimahe wetland, Daotanghe wetland, Er'hai, Ganzihe wetland, Xiannvwan wetland, and the Ganzihe-Hargai Przewalski's gazelle range. A January 2025 notice repeats that drones must not be used to disturb or chase wildlife.",
+     "level": "site",
+     "source": "http://www.qinghai.gov.cn/dmqh/system/2022/12/27/010423879.shtml",
+     "checked": "2026-11-06",
+     "drones": true
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Qinghai Lake: people and motor vehicles are banned from the lake ice. Entering the core zone of the Qinghai Lake National Nature Reserve is banned for any unit, group or person; Haixin Mountain and Sankuaishi are core zones, and tours built on crossing to them are banned. Photographers and visitors may not enter the Quanwan wetland area (swan wintering ground). Off-road vehicle events on the Gahai and Jinshawan sand areas are banned.",
+     "level": "site",
+     "source": "http://www.qinghai.gov.cn/zwgk/system/2025/01/14/030063056.shtml",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Qinghai Lake scenic area notice: no entry to the lake ice",
+     "authority": "Qinghai Provincial People's Government portal (Qinghai Lake Scenic Area Administration notice)",
+     "url": "http://www.qinghai.gov.cn/zwgk/system/2025/01/14/030063056.shtml",
+     "checked": "2026-11-06",
+     "supports": "ice ban, core-zone ban, wildlife and drone line (read directly 2026-11-06; published 2025-01-14)"
+    },
+    {
+     "title": "Qinghai Lake scenic area winter notice: named drone no-fly areas",
+     "authority": "Qinghai Provincial People's Government portal (Qinghai Lake Scenic Area Administration notice)",
+     "url": "http://www.qinghai.gov.cn/dmqh/system/2022/12/27/010423879.shtml",
+     "checked": "2026-11-06",
+     "supports": "named no-fly areas, Quanwan closure, off-road ban (read directly 2026-11-06; published 2022-12-27)"
+    }
+   ],
+   "note": "Tibetan-area travel rules were not found on a Qinghai official page and are not recorded; Smartraveller's Tibet and Xinjiang advice sits on China's record."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "seasonal-closure",
+     "authority": "Qinghai Lake Scenic Area Protection and Utilisation Administration",
+     "process": "Winter notices ban people and vehicles on the lake ice, and ban entry to the nature reserve core zone (Haixin Mountain, Sankuaishi) and the Quanwan wetland. These are closures, not permits; no published way to apply was found.",
+     "lead_time_days": null,
+     "activities": [
+      "lake ice",
+      "Haixin Mountain",
+      "Quanwan wetland"
+     ],
+     "url": "http://www.qinghai.gov.cn/zwgk/system/2025/01/14/030063056.shtml",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Qinghai Lake scenic area notice: no entry to the lake ice",
+     "authority": "Qinghai Provincial People's Government portal",
+     "url": "http://www.qinghai.gov.cn/zwgk/system/2025/01/14/030063056.shtml",
+     "checked": "2026-11-06",
+     "supports": "closure of ice and core zone (read directly 2026-11-06)"
+    }
+   ]
+  }
+ }
+}

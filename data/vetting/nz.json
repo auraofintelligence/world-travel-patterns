@@ -255,14 +255,16 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "23 in 2027 in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [
     "Easter moves each year (2027: Good Friday and Easter Monday 2027-03-26, 2027-03-29)"
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: New Zealand 2027: Matariki is Fri 25 Jun 2027, set in the Te Kahui o Matariki Public Holiday Act 2022 (https://www.legislation.govt.nz/act/public/2022/0014/latest/whole.html). Other days, worked out from the rules on the Employment New Zealand holiday page (https://www.employment.govt.nz/leave-and-holidays/public-holidays/public-holidays-and-anniversary-dates), not read from a 2027 notice: Fri 1 Jan New Year's Day; 2 Jan (a Saturday) with Mon 4 Jan as the possible observed day; 6 Feb Waitangi Day (a Saturday) with Mon 8 Feb as the possible observed day; 25 Apr Anzac Day (a Sunday) with Mon 26 Apr as the possible observed day; Mon 7 Jun King's Birthday (first Monday in June); Mon 25 Oct Labour Day (fourth Monday in October); 25 Dec (a Saturday) with Mon 27 Dec possible; 26 Dec (a Sunday) with Tue 28 Dec possible. Good Friday and Easter Monday are not dated by a notice in the pages read, so none are given. Each region also has its own anniversary day."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from each place's own tourism office and communities.",
    "sources": [
@@ -272,6 +274,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-10-31",
      "supports": "23 public holidays in 2027"
+    },
+    {
+     "title": "Public holidays and anniversary dates; Te Kahui o Matariki Public Holiday Act 2022",
+     "authority": "Employment New Zealand (MBIE); NZ Legislation",
+     "url": "https://www.legislation.govt.nz/act/public/2022/0014/latest/whole.html",
+     "checked": "2026-11-06",
+     "supports": "Matariki 2027 date and fixed-day rules"
     }
    ]
   },

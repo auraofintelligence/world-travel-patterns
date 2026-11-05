@@ -291,12 +291,14 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-11-01",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "11 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: Morocco national holidays (national portal Maroc.ma, https://maroc.ma/en/morocco/religious-and-national-holidays), with 2027 weekdays computed: Fri 1 Jan; Mon 11 Jan Independence Manifesto; Thu 14 Jan Amazigh New Year; Sat 1 May; Fri 30 Jul Throne Day; Sat 14 Aug Oued Ed-Dahab; Fri 20 Aug Revolution of the King and the People; Sat 21 Aug Youth Day; Sun 31 Oct Unity Day; Sat 6 Nov Green March; Thu 18 Nov Independence Day. The religious holidays (Eid Al-Fitr, Hijra New Year, Eid Al-Adha, Mawlid) are listed by Islamic date only, with no 2027 Gregorian dates, so none are given."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -306,6 +308,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-11-01",
      "supports": "11 public holidays next year"
+    },
+    {
+     "title": "Religious and national holidays",
+     "authority": "Maroc.ma, national portal of the Kingdom of Morocco",
+     "url": "https://maroc.ma/en/morocco/religious-and-national-holidays",
+     "checked": "2026-11-06",
+     "supports": "national holiday dates"
     }
    ]
   },
