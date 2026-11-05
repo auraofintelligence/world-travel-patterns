@@ -580,6 +580,79 @@
     }
    ],
    "recheck_note": "Settled 4 November 2026 (read directly): New to Denmark treats a short visit to the Faroe Islands or Greenland as up to 90 days with its own entry rules, separate from Schengen (a Schengen visa is not valid there). It does not say these days count towards the Schengen 90 in 180."
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "items": [
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Greenland is a self-governing part of the Kingdom of Denmark with its own criminal code (Kriminalloven for Grønland), separate from Denmark's. Its drug and alcohol rules are Greenland's own and have not been read here.",
+     "source": "https://naalakkersuisut.gl/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Naalakkersuisut (Government of Greenland)",
+     "authority": "Government of Greenland",
+     "url": "https://naalakkersuisut.gl/",
+     "checked": "2026-11-06",
+     "supports": "self-government and own criminal code (signal)"
+    }
+   ],
+   "notes": "Check Greenland's own rules before relying on this."
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "public_holidays": [
+    "Greenland National Day, 21 June (2027: Monday), at the summer solstice, with flags, kaffemik (open-house coffee gatherings) and national dress.",
+    "Greenland also keeps Christian holidays: Easter (2027-03-28, with Good Friday 2027-03-26 and Easter Monday 2027-03-29), Ascension (2027-05-06), Whit Monday (2027-05-17), Christmas."
+   ],
+   "moving_calendars": [
+    "Easter 28 March 2027."
+   ],
+   "festivals": [],
+   "closures": [],
+   "protocol_notes": [],
+   "note": "The Naalakkersuisut holiday list was not read; signal.",
+   "sources": [
+    {
+     "title": "Naalakkersuisut (Government of Greenland)",
+     "authority": "Government of Greenland",
+     "url": "https://naalakkersuisut.gl/",
+     "checked": "2026-11-06",
+     "supports": "public holidays (signal)"
+    }
+   ]
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2027-06-21",
+     "what": "Greenland National Day",
+     "effect": "Public holiday (Monday); most shops and offices closed, public events in towns.",
+     "url": "https://naalakkersuisut.gl/",
+     "by": "official-events",
+     "category": "national-day"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Naalakkersuisut (Government of Greenland)",
+     "authority": "Government of Greenland",
+     "url": "https://naalakkersuisut.gl/",
+     "checked": "2026-11-06",
+     "supports": "event date (signal)"
+    }
+   ]
   }
  }
 }

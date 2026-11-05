@@ -669,6 +669,72 @@
      "supports": "no short clothing, sleeveless tops or hats (snapshot)"
     }
    ]
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "public_holidays": [
+    "Vatican City keeps the Catholic liturgical calendar: Epiphany 6 January, Easter and the days around it, Ascension, Pentecost, Sts Peter and Paul 29 June, Assumption 15 August, All Saints 1 November, Immaculate Conception 8 December, Christmas."
+   ],
+   "moving_calendars": [
+    "2027: Ash Wednesday 10 February; Holy Thursday 25 March; Good Friday 26 March; Easter 28 March (Easter Monday 29 March is on the service-public.gouv.fr table); Ascension 6 May; Pentecost 16 May; Corpus Christi 27 May."
+   ],
+   "festivals": [],
+   "closures": [
+    "The Vatican Museums close on most Sundays and on some church holidays; check the Museums' own calendar before planning a visit."
+   ],
+   "protocol_notes": [],
+   "note": "Dates are from the standard Roman Catholic calendar; Vatican pages were not reread today.",
+   "sources": [
+    {
+     "title": "The Holy See",
+     "authority": "The Holy See",
+     "url": "https://www.vatican.va/",
+     "checked": "2026-11-06",
+     "supports": "liturgical calendar (signal)"
+    }
+   ]
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2027-03-25",
+     "what": "Holy Thursday, start of the Easter Triduum (Good Friday 26 March, Easter Sunday 28 March)",
+     "effect": "Very large crowds in Rome and the Vatican; limited access to St Peter's Square and Basilica around ceremonies.",
+     "url": "https://www.vatican.va/",
+     "by": "official-events",
+     "category": "religious-pilgrimage"
+    },
+    {
+     "date": "2027-05-16",
+     "what": "Pentecost Sunday",
+     "effect": "Large Mass in St Peter's Basilica; crowds.",
+     "url": "https://www.vatican.va/",
+     "by": "official-events",
+     "category": "religious-pilgrimage"
+    },
+    {
+     "date": "2027-06-29",
+     "what": "Feast of Sts Peter and Paul (Rome's patron day)",
+     "effect": "Mass in St Peter's Basilica; many Roman offices closed.",
+     "url": "https://www.vatican.va/",
+     "by": "official-events",
+     "category": "religious-pilgrimage"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Holy See",
+     "authority": "The Holy See",
+     "url": "https://www.vatican.va/",
+     "checked": "2026-11-06",
+     "supports": "liturgical dates (signal)"
+    }
+   ]
   }
  }
 }

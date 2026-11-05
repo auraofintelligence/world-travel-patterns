@@ -479,6 +479,103 @@
     }
    ],
    "recheck_note": "Whether ETIAS has started by the travel date should be checked on the EU's ETIAS site before departure."
+  },
+  "consular": {
+   "status": "neighbour",
+   "covers_from": "fi",
+   "mission": "Australian Consulate, Helsinki; Australian Embassy, Stockholm",
+   "city": "Helsinki",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Our embassies and consulates overseas (A to Z)",
+     "authority": "Department of Foreign Affairs and Trade, Australian Government",
+     "url": "https://www.dfat.gov.au/about-us/our-locations/missions/our-embassies-and-consulates-overseas",
+     "checked": "2026-11-06",
+     "supports": "which mission covers this place"
+    }
+   ],
+   "notes": "DFAT's list does not name Åland separately. It lists Finland (Australian Consulate, Helsinki, see also Sweden). Åland is part of Finland. The Helsinki consulate is headed by an honorary consul and gives limited help; the Stockholm embassy gives full consular help."
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "items": [
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Åland is part of Finland and criminal law is a Finnish matter under its autonomy, so Finland's Criminal Code applies. Using narcotics is itself an offence in Finland, punishable by a fine or up to 6 months in prison. Not yet reread on Finlex today.",
+     "source": "https://www.finlex.fi/en/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Finlex (legislation database)",
+     "authority": "Ministry of Justice, Finland",
+     "url": "https://www.finlex.fi/en/",
+     "checked": "2026-11-06",
+     "supports": "Criminal Code chapter 50 (signal: not reread today)"
+    }
+   ],
+   "notes": "Åland sets its own rules on some matters. Any local alcohol rules are not yet read."
+  },
+  "affection-and-relationships": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "items": [
+    {
+     "area": "marriage-and-partnership",
+     "kind": "law",
+     "text": "Marriage law is a Finnish state matter under Åland's autonomy, so Finland's Marriage Act applies. Not yet reread on Finlex today.",
+     "source": "https://www.finlex.fi/en/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Finlex (legislation database)",
+     "authority": "Ministry of Justice, Finland",
+     "url": "https://www.finlex.fi/en/",
+     "checked": "2026-11-06",
+     "supports": "Marriage Act (signal)"
+    }
+   ],
+   "notes": "Custom is not yet read; ask locally."
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "public_holidays": [
+    "Finland's public holidays apply (on Finland's record).",
+    "Åland Autonomy Day, 9 June (2027: Wednesday), is a flag day set by Åland's own law, with a ceremony and parade in Mariehamn. Whether workplaces close is not confirmed."
+   ],
+   "moving_calendars": [
+    "Midsummer Eve falls on the Friday from 19 to 25 June: 2027-06-25. Åland raises a midsummer pole (midsommarstång) in many villages; shops and ferries run reduced hours (signal).",
+    "Easter 28 March 2027."
+   ],
+   "festivals": [
+    {
+     "what": "Åland Autonomy Day, 9 June 2027: flag day, ceremony and parade in Mariehamn.",
+     "url": "https://www.regeringen.ax/alandsk-lagstiftning/alex/197626"
+    }
+   ],
+   "closures": [],
+   "protocol_notes": [],
+   "note": "Local closures are still to be read from Åland's own channels.",
+   "sources": [
+    {
+     "title": "Landskapslag (1976:26) om Ålands självstyrelsedag",
+     "authority": "Ålands landskapsregering",
+     "url": "https://www.regeringen.ax/alandsk-lagstiftning/alex/197626",
+     "checked": "2026-11-06",
+     "supports": "Autonomy Day (carried from the existing year-ahead record)"
+    }
+   ]
   }
  }
 }

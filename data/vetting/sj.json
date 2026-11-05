@@ -625,6 +625,121 @@
      "supports": "no Svalbard visa, passport needed, outside Schengen (search-index snapshot)"
     }
    ]
+  },
+  "consular": {
+   "status": "partner-arrangement",
+   "covers_from": "no",
+   "mission": "Australian Embassy, Copenhagen",
+   "city": "Copenhagen",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Our embassies and consulates overseas (A to Z)",
+     "authority": "Department of Foreign Affairs and Trade, Australian Government",
+     "url": "https://www.dfat.gov.au/about-us/our-locations/missions/our-embassies-and-consulates-overseas",
+     "checked": "2026-11-06",
+     "supports": "which mission covers this place"
+    }
+   ],
+   "notes": "DFAT's list does not name Svalbard separately. It lists Norway under Denmark: Australia has no mission in Norway, and the Australian Embassy in Copenhagen is the one DFAT names for Norwegian matters. See Norway's record for the partner arrangement in Oslo."
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Under section 2 of the Svalbard Act, Norwegian private and criminal law applies on Svalbard unless something else is set out. Norway's drug law therefore applies. Other Norwegian statutes apply only where stated.",
+     "source": "https://lovdata.no/dokument/NL/lov/1925-07-17-11",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Lov om Svalbard (Svalbardloven), section 2 (read 6 November 2026)",
+     "authority": "Lovdata, Government of Norway",
+     "url": "https://lovdata.no/dokument/NL/lov/1925-07-17-11",
+     "checked": "2026-11-06",
+     "supports": "Norwegian criminal law applies on Svalbard"
+    }
+   ],
+   "notes": "Svalbard's own rules on alcohol and tobacco sale and import are not yet read from the Governor's office."
+  },
+  "affection-and-relationships": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "items": [
+    {
+     "area": "marriage-and-partnership",
+     "kind": "law",
+     "text": "Under section 2 of the Svalbard Act, Norwegian private law applies on Svalbard unless something else is set out, so Norway's marriage and partnership rules apply.",
+     "source": "https://lovdata.no/dokument/NL/lov/1925-07-17-11",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Lov om Svalbard (Svalbardloven), section 2 (read 6 November 2026)",
+     "authority": "Lovdata, Government of Norway",
+     "url": "https://lovdata.no/dokument/NL/lov/1925-07-17-11",
+     "checked": "2026-11-06",
+     "supports": "Norwegian private law applies on Svalbard"
+    }
+   ],
+   "notes": "Custom is not yet read; ask locally."
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "public_holidays": [
+    "Norway's public holidays apply on Svalbard (on Norway's record), including Constitution Day, 17 May (2027: Monday), which Longyearbyen marks with a children's parade."
+   ],
+   "moving_calendars": [
+    "Svalbard's light cycle (signal, approximate): midnight sun from late April to late August; polar night from mid November to late January. The sun returns to Longyearbyen about 8 March, marked by the Sun Festival (Solfestuka).",
+    "Easter 28 March 2027."
+   ],
+   "festivals": [],
+   "closures": [],
+   "protocol_notes": [],
+   "note": "The Governor's and Visit Svalbard's pages were not read for 2027 events.",
+   "sources": [
+    {
+     "title": "Visit Svalbard",
+     "authority": "Visit Svalbard (tourism board)",
+     "url": "https://www.visitsvalbard.com/",
+     "checked": "2026-11-06",
+     "supports": "seasons and festivals (signal)"
+    }
+   ]
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2027-05-17",
+     "what": "Norwegian Constitution Day",
+     "effect": "Public holiday (Monday); shops closed, parade in Longyearbyen.",
+     "url": "https://www.visitsvalbard.com/",
+     "by": "official-events",
+     "category": "national-day"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Visit Svalbard",
+     "authority": "Visit Svalbard (tourism board)",
+     "url": "https://www.visitsvalbard.com/",
+     "checked": "2026-11-06",
+     "supports": "event date (signal)"
+    }
+   ]
   }
  }
 }

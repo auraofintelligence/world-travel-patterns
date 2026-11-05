@@ -660,6 +660,138 @@
      "supports": "90 days in 180, funds, return ticket (search-index snapshot)"
     }
    ]
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "public_holidays": [
+    "Bonaire: Dia di Rincon 30 April (2027: Friday), Bonaire Day 6 September (2027: Monday).",
+    "Sint Eustatius: Statia Day 16 November (2027: Tuesday). Saba: Saba Day, first Friday of December (2027-12-03).",
+    "Shared Kingdom days kept in Caribbean Netherlands: King's Day 27 April, Good Friday (2027-03-26), Easter Monday (2027-03-29), Ascension (2027-05-06), Labour Day 1 May, Christmas Day, Boxing Day."
+   ],
+   "moving_calendars": [
+    "Easter 28 March 2027."
+   ],
+   "festivals": [],
+   "closures": [],
+   "protocol_notes": [
+    "Bonaire, Sint Eustatius and Saba are special municipalities of the Netherlands and keep their own island days."
+   ],
+   "note": "Island days are from commonly published lists; the official page was not read, so this is a signal.",
+   "sources": [
+    {
+     "title": "Government of the Netherlands: Caribbean part of the Kingdom",
+     "authority": "Government of the Netherlands",
+     "url": "https://www.government.nl/topics/caribbean-part-of-the-kingdom",
+     "checked": "2026-11-06",
+     "supports": "public holidays (not yet read; signal)"
+    }
+   ]
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2027-04-27",
+     "what": "King's Day",
+     "effect": "Public holiday; businesses closed.",
+     "url": "https://www.government.nl/",
+     "by": "official-events",
+     "category": "national-day"
+    },
+    {
+     "date": "2027-04-30",
+     "what": "Dia di Rincon, Bonaire",
+     "effect": "Public holiday on Bonaire (Friday): long weekend, crowds in Rincon.",
+     "url": "https://www.government.nl/topics/caribbean-part-of-the-kingdom",
+     "by": "official-events",
+     "category": "national-day"
+    },
+    {
+     "date": "2027-09-06",
+     "what": "Bonaire Day",
+     "effect": "Public holiday on Bonaire (Monday): long weekend.",
+     "url": "https://www.government.nl/topics/caribbean-part-of-the-kingdom",
+     "by": "official-events",
+     "category": "national-day"
+    },
+    {
+     "date": "2027-11-16",
+     "what": "Statia Day, Sint Eustatius",
+     "effect": "Public holiday on Sint Eustatius.",
+     "url": "https://www.government.nl/topics/caribbean-part-of-the-kingdom",
+     "by": "official-events",
+     "category": "national-day"
+    },
+    {
+     "date": "2027-12-03",
+     "what": "Saba Day",
+     "effect": "Public holiday on Saba.",
+     "url": "https://www.government.nl/topics/caribbean-part-of-the-kingdom",
+     "by": "official-events",
+     "category": "national-day"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Government of the Netherlands: Caribbean part of the Kingdom",
+     "authority": "Government of the Netherlands",
+     "url": "https://www.government.nl/topics/caribbean-part-of-the-kingdom",
+     "checked": "2026-11-06",
+     "supports": "event dates (not yet read; signal)"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "items": [
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Bonaire, Sint Eustatius and Saba are special municipalities of the Netherlands, so Dutch drug law applies, in a version for the Caribbean Netherlands. The mainland's coffeeshop system does not operate there. Details and penalties have not been read.",
+     "source": "https://wetten.overheid.nl/BWBR0001941/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Opiumwet (Dutch Opium Act; page read 6 November 2026)",
+     "authority": "wetten.overheid.nl, Government of the Netherlands",
+     "url": "https://wetten.overheid.nl/BWBR0001941/",
+     "checked": "2026-11-06",
+     "supports": "the national Opium Act exists; its Caribbean version is not yet read"
+    }
+   ],
+   "notes": "Check the Caribbean Netherlands rules before relying on this."
+  },
+  "affection-and-relationships": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "items": [
+    {
+     "area": "marriage-and-partnership",
+     "kind": "law",
+     "text": "Bonaire, Sint Eustatius and Saba are special municipalities of the Netherlands, so Dutch family law applies: marriage and registered partnership are civil acts. Not yet read from the islands' own pages.",
+     "source": "https://www.government.nl/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Government of the Netherlands",
+     "authority": "Government of the Netherlands",
+     "url": "https://www.government.nl/",
+     "checked": "2026-11-06",
+     "supports": "general; not yet read for the islands"
+    }
+   ],
+   "notes": "Custom is not yet read; ask locally."
   }
  }
 }

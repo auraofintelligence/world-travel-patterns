@@ -631,6 +631,78 @@
      "supports": "Australian visa exemption for short stays (search-index snapshot)"
     }
    ]
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "public_holidays": [
+    "French Guiana: abolition of slavery commemoration, 10 June each year, a statutory public holiday set for this territory (2027: Thursday 2027-06-10).",
+    "France's national holidays apply (on France's record): 1 January, Easter Monday, 1 May, 8 May, Ascension, Whit Monday, 14 July, 15 August, 1 November, 11 November and 25 December."
+   ],
+   "moving_calendars": [
+    "Easter Monday 2027-03-29, Ascension 2027-05-06 and Whit Monday 2027-05-17 move with Easter (Easter Monday 29 March 2027 is on the service-public.fr table).",
+    "Carnival season ends on Ash Wednesday, 10 February 2027 (signal: counted back from Easter 28 March 2027); the last carnival days are the Sunday to Tuesday before it."
+   ],
+   "festivals": [
+    {
+     "what": "Carnival (end of season, the days up to Ash Wednesday 2027-02-10): parades and street events; check the tourist office for the programme.",
+     "url": "https://www.guyane-amazonie.fr/",
+     "evidence": "signal"
+    }
+   ],
+   "closures": [],
+   "protocol_notes": [],
+   "note": "Overseas-department and collectivity holidays are French national law plus the abolition day. Festivals and community closures are still to be read from the local tourism office and communities.",
+   "sources": [
+    {
+     "title": "Jours fériés et ponts dans le secteur privé (overseas tab, 2026 and 2027 tables)",
+     "authority": "Service-Public.fr, Government of France",
+     "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2405",
+     "checked": "2026-11-06",
+     "supports": "national holidays and the abolition-of-slavery day for each overseas department, Saint-Barthélemy and Saint-Martin (read directly)"
+    },
+    {
+     "title": "Tourism authority (carnival programme, not yet read for 2027)",
+     "authority": "Local tourism board",
+     "url": "https://www.guyane-amazonie.fr/",
+     "checked": "2026-11-06",
+     "supports": "carnival season (signal)"
+    }
+   ]
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "events": [
+    {
+     "date": "2027-06-10",
+     "what": "Abolition of slavery commemoration day, French Guiana",
+     "effect": "Statutory public holiday in French Guiana (a Thursday in 2027); most shops, offices and banks close.",
+     "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2405",
+     "by": "official-events",
+     "category": "national-day"
+    },
+    {
+     "date": "2027-02-10",
+     "what": "Ash Wednesday, end of the carnival season",
+     "effect": "Carnival crowds and parades peak in the days before; some road closures and busy accommodation (signal; date counted back from Easter).",
+     "url": "https://www.guyane-amazonie.fr/",
+     "by": "official-events",
+     "category": "arts-culture",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Jours fériés et ponts dans le secteur privé (overseas tab, 2026 and 2027 tables)",
+     "authority": "Service-Public.fr, Government of France",
+     "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2405",
+     "checked": "2026-11-06",
+     "supports": "national holidays and the abolition-of-slavery day for each overseas department, Saint-Barthélemy and Saint-Martin (read directly)"
+    }
+   ]
   }
  }
 }

@@ -645,6 +645,97 @@
      "supports": "mandatory ED card (search-index snapshot)"
     }
    ]
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "public_holidays": [
+    "Sint Maarten's own holidays: Emancipation Day 1 July (2027: Thursday), Sint Maarten Day 11 November (2027: Thursday).",
+    "Also kept: New Year's Day, Good Friday (2027-03-26), Easter Monday (2027-03-29), King's Day 27 April, Labour Day 1 May, Ascension (2027-05-06), Christmas Day and Boxing Day."
+   ],
+   "moving_calendars": [
+    "Easter 28 March 2027."
+   ],
+   "festivals": [],
+   "closures": [],
+   "protocol_notes": [
+    "The island is shared: Sint Maarten (Dutch) and Saint-Martin (French) keep different holidays. The French side is on Saint-Martin's record."
+   ],
+   "note": "Holiday list not yet read from the Government of Sint Maarten; signal. Carnival dates are not yet confirmed.",
+   "sources": [
+    {
+     "title": "Government of Sint Maarten",
+     "authority": "Government of Sint Maarten",
+     "url": "https://www.sintmaartengov.org/",
+     "checked": "2026-11-06",
+     "supports": "public holidays (not yet read; signal)"
+    }
+   ]
+  },
+  "year-ahead": {
+   "status": "mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "events": [
+    {
+     "date": "2027-04-27",
+     "what": "King's Day",
+     "effect": "Public holiday; most businesses closed.",
+     "url": "https://www.government.nl/",
+     "by": "official-events",
+     "category": "national-day"
+    },
+    {
+     "date": "2027-07-01",
+     "what": "Emancipation Day, Sint Maarten",
+     "effect": "Public holiday (Thursday); the French side keeps Saint-Martin's day on 27 May instead.",
+     "url": "https://www.sintmaartengov.org/",
+     "by": "official-events",
+     "category": "national-day"
+    },
+    {
+     "date": "2027-11-11",
+     "what": "Sint Maarten Day",
+     "effect": "Public holiday (Thursday); both sides of the island hold events.",
+     "url": "https://www.sintmaartengov.org/",
+     "by": "official-events",
+     "category": "national-day"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Government of Sint Maarten",
+     "authority": "Government of Sint Maarten",
+     "url": "https://www.sintmaartengov.org/",
+     "checked": "2026-11-06",
+     "supports": "event dates (not yet read; signal)"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "items": [
+    {
+     "substance": "drugs-in-general",
+     "kind": "law",
+     "text": "Sint Maarten is a constituent country of the Kingdom of the Netherlands with its own criminal code and drug law, separate from the Dutch Opium Act. Dutch coffeeshop rules do not apply by default. Penalties and cannabis rules have not been read from Sint Maarten's own legislation.",
+     "source": "https://www.sintmaartengov.org/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Government of Sint Maarten",
+     "authority": "Government of Sint Maarten",
+     "url": "https://www.sintmaartengov.org/",
+     "checked": "2026-11-06",
+     "supports": "constitutional position (general; signal)"
+    }
+   ],
+   "notes": "Check Sint Maarten's own law before relying on this."
   }
  }
 }
