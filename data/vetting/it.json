@@ -889,11 +889,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "d-flight (ENAC / ENAV)",
+    "url": "https://www.d-flight.it/new_portal/"
    },
    "items": [
     {
@@ -919,6 +919,24 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "ENAC says EU residents register with the aviation authority of their own country, and the registration is valid across the EU and Switzerland. Operators living outside the EU, including the UK, register in the first EU country they expect to visit. ENAC runs its registration through the d-flight portal.",
+     "source": "https://www.enac.gov.it/sicurezza-aerea/droni/operatori-di-droni-uas/operatori-esteri/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "For Specific-category work in Italy, an EU operator with an operational authorisation applies to ENAC at least 60 days ahead. The foreign operator also registers on d-flight to carry out the operation; that number is valid only for the confirmation and is not a national registration.",
+     "source": "https://www.enac.gov.it/sicurezza-aerea/droni/categoria-specifica-specific-category/operazioni-cross-border-allinterno-di/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "The d-flight portal shows the geographical zones, and ENAC says to check allowed and prohibited zones there. ENAC notes the zones come from the Italian AIP (aeronautical information publication), are approximated as simple shapes, and are under review. In some zones the zone authority's clearance (nulla osta) is also needed, in the Specific category and for some zones in the Open category.",
+     "source": "https://www.enac.gov.it/sicurezza-aerea/droni/zone-geografiche-space/voli-con-droni-uas-limitazioni-riserve-dello/",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -935,9 +953,27 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Operatori esteri",
+     "authority": "ENAC",
+     "url": "https://www.enac.gov.it/sicurezza-aerea/droni/operatori-di-droni-uas/operatori-esteri/",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Voli con droni (UAS): limitazioni e riserve dello spazio aereo",
+     "authority": "ENAC",
+     "url": "https://www.enac.gov.it/sicurezza-aerea/droni/zone-geografiche-space/voli-con-droni-uas-limitazioni-riserve-dello/",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Operazioni cross-border",
+     "authority": "ENAC",
+     "url": "https://www.enac.gov.it/sicurezza-aerea/droni/categoria-specifica-specific-category/operazioni-cross-border-allinterno-di/",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

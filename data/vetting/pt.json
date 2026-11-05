@@ -700,11 +700,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "ANAC UAS registry",
+    "url": "https://uas.anac.pt/"
    },
    "items": [
     {
@@ -730,6 +730,24 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "ANAC (the civil aviation authority) runs the UAS registry. An operator registered in another EU state does not register again in Portugal; the home number goes on the drone. A non-EU visitor registers only in the first EU country where they fly; if that is Portugal, before flying.",
+     "source": "https://www.anac.pt/vPT/Generico/drones/FAQ/Paginas/FAQ.aspx",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "A foreign operator planning Specific-category work in Portugal applies to ANAC for a cross-border operation authorisation (Article 13 of Regulation 2019/947).",
+     "source": "https://www.anac.pt/vPT/Generico/drones/operacoes_transfronteiricas/Paginas/Crossborder.aspx",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "ANAC's official geozone viewer is dnt.anac.pt (zones also as KML and JSON). ANAC tells foreign operators to check whether Portuguese rules ban or restrict flying in particular zones.",
+     "source": "https://dnt.anac.pt/",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -746,9 +764,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Cross-border operations",
+     "authority": "ANAC",
+     "url": "https://www.anac.pt/vPT/Generico/drones/operacoes_transfronteiricas/Paginas/Crossborder.aspx",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Portuguese UAS Geozones",
+     "authority": "ANAC",
+     "url": "https://dnt.anac.pt/",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

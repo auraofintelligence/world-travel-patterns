@@ -63,7 +63,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -81,6 +81,13 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/finland",
      "checked": "2026-10-31",
      "heading": "Medications"
+    },
+    {
+     "topic": "drones",
+     "rule": "Traficom says drone operations covering more than 500 km2, or photographing some areas, need a permit from the Finnish Defence Forces.",
+     "level": "country",
+     "source": "https://traficom.fi/en/unmanned-aviation/registration-and-theoretical-examination",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -691,11 +698,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "Traficom drone registration (droneinfo.fi)",
+    "url": "https://traficom.fi/en/unmanned-aviation/registration-and-theoretical-examination"
    },
    "items": [
     {
@@ -721,6 +728,24 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "Traficom (the transport and communications agency) registers operators through its e-service and droneinfo.fi. Registration is needed for drones of 250 g or more, or any with a camera or personal-data sensor. Fee EUR 30 for one year (A$47.67 at EUR 0.6293 per A$1, RBA 30 Oct 2026).",
+     "source": "https://traficom.fi/en/unmanned-aviation/registration-and-theoretical-examination",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Non-EU citizens can register in the e-service using the Finnish Authenticator app (from 8 January 2026); EU citizens are pointed to EASA. Operators from other EU states flying in the Specific category send Traficom a cross-border application at least four weeks ahead and start only after confirmation.",
+     "source": "https://traficom.fi/en/unmanned-aviation/registration-and-theoretical-examination",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Traficom says operations covering more than 500 km2, or involving aerial photography of some areas, need a permit from the Finnish Defence Forces.",
+     "source": "https://traficom.fi/en/unmanned-aviation/registration-and-theoretical-examination",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -737,9 +762,15 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Registration and theoretical examination",
+     "authority": "Traficom",
+     "url": "https://traficom.fi/en/unmanned-aviation/registration-and-theoretical-examination",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

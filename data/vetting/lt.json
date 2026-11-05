@@ -647,7 +647,7 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
     "name": null,
@@ -677,6 +677,18 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "Oro Navigacija's UTM rules say the Transport Competence Agency issues the remote pilot identification number needed to plan and fly. How foreign operators register in Lithuania was not found on the pages read.",
+     "source": "https://www.oronavigacija.lt/en/services/unmanned-aerial-vehicles-drones/utm-system-user-rules",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Oro Navigacija (the air navigation provider) runs the UTM system and the Lithuania Drone Map app for flight planning; an account with identity confirmation is needed. A separate application form exists for special RPAS operations in controlled airspace.",
+     "source": "https://www.oronavigacija.lt/en/services/unmanned-aerial-vehicles-drones/utm-system-user-rules",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -693,9 +705,15 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "UTM system user rules",
+     "authority": "Oro Navigacija",
+     "url": "https://www.oronavigacija.lt/en/services/unmanned-aerial-vehicles-drones/utm-system-user-rules",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

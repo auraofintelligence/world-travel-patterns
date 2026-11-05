@@ -729,11 +729,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "dronespace.at (Austro Control)",
+    "url": "https://www.dronespace.at/registrierung/voraussetzungen"
    },
    "items": [
     {
@@ -759,6 +759,18 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "Austro Control's dronespace.at platform registers operators. Registration is only possible in the member state of main residence or business seat. Operators from outside the EU, Switzerland, Iceland, Norway and Liechtenstein can register if their first operation will be in Austria.",
+     "source": "https://www.austrocontrol.at/unternehmen/medien/presse__news/detail/drohnenfliegen_im_ausland__die_wichtigsten_tipps",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "The Austro Control Dronespace app and map show the no-fly and restricted zones. Austro Control says insurance minimums and restricted zones are not harmonised across Europe, so check each country.",
+     "source": "https://www.dronespace.at/dronespace_app",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -775,9 +787,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Drohnenfliegen im Ausland",
+     "authority": "Austro Control",
+     "url": "https://www.austrocontrol.at/unternehmen/medien/presse__news/detail/drohnenfliegen_im_ausland__die_wichtigsten_tipps",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "dronespace.at",
+     "authority": "Austro Control",
+     "url": "https://www.dronespace.at/",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

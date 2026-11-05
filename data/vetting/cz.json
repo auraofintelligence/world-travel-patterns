@@ -693,11 +693,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "UCL UAS operator registration",
+    "url": "https://dron.caa.gov.cz/"
    },
    "items": [
     {
@@ -723,6 +723,18 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "The UCL (civil aviation authority) registers operators at dron.caa.gov.cz. An operator cannot be registered in more than one EU state, and the registration is valid across Europe. UCL pages say operators based in a third country are registered in its system; an older FAQ says a non-EU resident registers in the first EU country where they will fly, so confirm with the UCL.",
+     "source": "https://www.caa.gov.cz/provoz/bezpilotni-letadla/provozovatel-bezpilotniho-systemu/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Two maps cover zones: DroneView (dronview.rlp.cz, run by the air navigation provider, for pre-flight checks) and the UCL's own digital map of geographical zones.",
+     "source": "https://www.caa.gov.cz/provoz/bezpilotni-letadla/zakladni-informace-k-miniwebu-ucl-pro-bezpilotni-systemy/",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -739,9 +751,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Provozovatel bezpilotniho systemu",
+     "authority": "UCL (Czech CAA)",
+     "url": "https://www.caa.gov.cz/provoz/bezpilotni-letadla/provozovatel-bezpilotniho-systemu/",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Miniweb UCL pro bezpilotni systemy",
+     "authority": "UCL (Czech CAA)",
+     "url": "https://www.caa.gov.cz/provoz/bezpilotni-letadla/zakladni-informace-k-miniwebu-ucl-pro-bezpilotni-systemy/",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

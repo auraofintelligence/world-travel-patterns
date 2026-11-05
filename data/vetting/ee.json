@@ -776,11 +776,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "Transport Administration operator registration",
+    "url": "https://transpordiamet.ee/en/aviation-and-aviation-safety/flying-drones-estonia/operator-registration"
    },
    "items": [
     {
@@ -806,6 +806,24 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "The Transport Administration (Transpordiamet) registers operators; registration lasts one year and renews annually. A registration from another EASA state works in Estonia.",
+     "source": "https://transpordiamet.ee/en/aviation-and-aviation-safety/flying-drones-estonia/operator-registration",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "A non-Estonian operator in the Specific category sends an application, a copy of the home authorisation and the planned Estonian locations, and starts after confirmation. For non-EASA countries the agency says to contact the specific country directly.",
+     "source": "https://transpordiamet.ee/en/aviation-and-aviation-safety/flying-drones-estonia/specific-category-flights",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Since March 2023 most Open-category flights need no pre-flight coordination, but restrictions in areas shown on the drone map (EANS, the air navigation service) must be followed. The map is at aim.eans.ee/droonikaart and utm.eans.ee is used for flight plans and take-off clearance.",
+     "source": "https://transpordiamet.ee/en/drones",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -822,9 +840,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Flying drones in Estonia",
+     "authority": "Transpordiamet",
+     "url": "https://transpordiamet.ee/en/drones",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Operator registration",
+     "authority": "Transpordiamet",
+     "url": "https://transpordiamet.ee/en/aviation-and-aviation-safety/flying-drones-estonia/operator-registration",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

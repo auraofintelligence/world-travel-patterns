@@ -745,11 +745,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "DG CAA drones portal (drones.caa.bg)",
+    "url": "https://drones.caa.bg/bg/za-potrebitelya"
    },
    "items": [
     {
@@ -775,6 +775,24 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "Operators register in the EU state where they reside or have their main business, so a foreign operator registered elsewhere does not register in Bulgaria. Bulgarian residents register on drones.caa.bg (DG CAA, the civil aviation authority).",
+     "source": "https://www.caa.bg/en/category/633/16502",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "An operator holding a Specific-category authorisation from another member state must notify DG CAA no later than 7 days before the operation starts in Bulgarian airspace.",
+     "source": "https://www.caa.bg/en/category/633/16502",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Low-altitude activated zones and no-fly areas are shown, after registration, at b-flip.bulatsa.com. Flights in prohibited or restricted zones may be allowed after applying to DG CAA. BULATSA's page says airspace permits are sought at least 8 calendar days ahead (page may be dated).",
+     "source": "https://www.bulatsa.com/en/services/information-on-unmanned-aircraft/",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -791,9 +809,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Unmanned aircraft systems",
+     "authority": "DG CAA Bulgaria",
+     "url": "https://www.caa.bg/en/category/633/16502",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Information on the use of UAS",
+     "authority": "BULATSA",
+     "url": "https://www.bulatsa.com/en/services/information-on-unmanned-aircraft/",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

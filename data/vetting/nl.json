@@ -223,7 +223,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -257,6 +257,13 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/netherlands",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "The ILT's guidance names the Dronekaart as the planning tool for fixed no-fly areas for recreational flyers. It includes Natura 2000 nature areas where a province bans drone flying. Temporary limits come as NOTAMs.",
+     "level": "country",
+     "source": "https://www.ilent.nl/onderwerpen/luchtvaart/drones-en-modelvliegtuigen/regels-voor-drones/open-dronecategorie",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -798,11 +805,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "RDW operator registration (guide: ILT)",
+    "url": "https://english.ilent.nl/topics/aviation/drones-and-model-aircraft/drones-eu-residents"
    },
    "items": [
     {
@@ -828,6 +835,24 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "Drone operators register with the RDW (the vehicle authority) to get an operator number valid in other EU states. This applies to drones of 250 g or more, or any with a camera. The ILT (inspectorate) page is the guide.",
+     "source": "https://english.ilent.nl/topics/aviation/drones-and-model-aircraft/drones-eu-residents",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "The ILT says non-EU operators may fly in the Open category in the Netherlands without prior approval, but must be registered as an operator in the first EU state where they fly. If that is the Netherlands, they register with the RDW.",
+     "source": "https://english.ilent.nl/topics/aviation/drones-and-model-aircraft/drones-eu-residents",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "The ILT guidance names the Dronekaart (drone map from the Kadaster, the land registry) for planning flights. It shows the fixed no-fly areas for recreational flyers, and Natura 2000 areas where a province bans flying. Temporary limits are published as NOTAMs (notices to airmen).",
+     "source": "https://www.ilent.nl/onderwerpen/luchtvaart/drones-en-modelvliegtuigen/regels-voor-drones/open-dronecategorie",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -844,9 +869,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Flying drones in the Netherlands",
+     "authority": "ILT",
+     "url": "https://english.ilent.nl/topics/aviation/drones-and-model-aircraft/drones-eu-residents",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Dronecategorie Open",
+     "authority": "ILT",
+     "url": "https://www.ilent.nl/onderwerpen/luchtvaart/drones-en-modelvliegtuigen/regels-voor-drones/open-dronecategorie",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

@@ -64,7 +64,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -98,6 +98,13 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/hungary",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "The Hungarian AIP says drone flights are generally allowed up to 120 m, but in the Budapest control zone only outside the Budapest airport no-drone zone and up to 40 m. The mydronespace app shows prohibited and restricted airspace.",
+     "level": "country",
+     "source": "https://ais.hungarocontrol.hu/aip/2026-05-14/2026-05-14-AIRAC/html/eAIP/LH-ENR-1.1-en-HU.html",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -747,7 +754,7 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
     "name": null,
@@ -777,6 +784,18 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "Hungary's regulator is the National Transport Authority (NKH). Its drone page says drone aviation activity starts only after notifying the aviation authority, with sport and private use exempt from the notification duty. The operator registration URL and the rule for foreign operators were not confirmed.",
+     "source": "https://www.nkh.gov.hu/web/legugyi-hivatal/pilota-nelkuli-legijarmuvek-uav/uas-uzemeltetese",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "HungaroControl runs the free mydronespace app and map (mydronespace.hu) showing prohibited and restricted airspace. The AIP says drones may generally fly up to 120 m, but in the Budapest control zone only outside the LHBP no-drone zone and up to 40 m.",
+     "source": "https://mydronespace.hu/",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -793,9 +812,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Pilota nelkuli legijarmuvek (UAV/UAS) uzemeltetese",
+     "authority": "National Transport Authority (NKH)",
+     "url": "https://www.nkh.gov.hu/web/legugyi-hivatal/pilota-nelkuli-legijarmuvek-uav/uas-uzemeltetese",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "mydronespace",
+     "authority": "HungaroControl",
+     "url": "https://mydronespace.hu/",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

@@ -728,11 +728,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "Transportstyrelsen operator register (Dronarsidan)",
+    "url": "https://www.transportstyrelsen.se/sv/luftfart/luftfartyg-och-luftvardighet/dronare/registrering-av-operator/"
    },
    "items": [
     {
@@ -758,6 +758,24 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "Transportstyrelsen (the transport agency) registers operators through its e-service Dronarsidan: for people aged 18 or over who are registered as living in Sweden, and organisations based in Sweden. Application fee SEK 190 and annual fee SEK 250.",
+     "source": "https://www.transportstyrelsen.se/sv/luftfart/luftfartyg-och-luftvardighet/dronare/registrering-av-operator/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Someone living in another EU/EEA state registers there, not in Sweden. People living outside the EU/EEA can apply on paper (form TSL7180), which takes longer.",
+     "source": "https://www.transportstyrelsen.se/sv/luftfart/luftfartyg-och-luftvardighet/dronare/registrering-av-operator/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "LFV (the air navigation service) publishes the Dronarkartan drone map showing airports, airspace and restricted areas. Temporary NOTAM information must be checked separately.",
+     "source": "https://www.lfv.se/nyheter/nyheter/ny-dronarkampanj-ska-bidra-till-sakrare-dronarflygning",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -774,9 +792,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Registrering av operator",
+     "authority": "Transportstyrelsen",
+     "url": "https://www.transportstyrelsen.se/sv/luftfart/luftfartyg-och-luftvardighet/dronare/registrering-av-operator/",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Dronarkampanj",
+     "authority": "LFV",
+     "url": "https://www.lfv.se/nyheter/nyheter/ny-dronarkampanj-ska-bidra-till-sakrare-dronarflygning",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

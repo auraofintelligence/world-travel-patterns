@@ -786,11 +786,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "AACR online application (drones)",
+    "url": "https://www.caa.ro/en/pages/legislatie-drone"
    },
    "items": [
     {
@@ -816,6 +816,24 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "The AACR (Romanian civil aeronautical authority) FAQ says operator registration is done only in the operator's state of residence, and the code is recognised in all EU states. The AACR registration duty applies to operators whose seat or residence is in Romania.",
+     "source": "https://www.caa.ro/en/pages/%C3%8Entreb%C4%83ri-frecvente",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "The AACR says Open-category operations need no AACR authorisation. Foreign pilot certificates are recognised only under conditions, for example when the issuing authority requests recognition from the AACR.",
+     "source": "https://www.caa.ro/en/pages/%C3%8Entreb%C4%83ri-frecvente",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "The UAS restricted zones are published on ROMATSA's flight-plan portal (flightplan.romatsa.ro/init/drones), with each zone's contact; many run from ground to 120 m and some say to contact the tower. Some military-related zones direct requests to the defence ministry's aerofoto office, as listed on the portal. The AACR points to its zones page.",
+     "source": "https://www.caa.ro/ro/pages/zone-geografice-uas",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -832,9 +850,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Frequently asked questions",
+     "authority": "AACR",
+     "url": "https://www.caa.ro/en/pages/%C3%8Entreb%C4%83ri-frecvente",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "UAS restricted zones",
+     "authority": "ROMATSA",
+     "url": "https://flightplan.romatsa.ro/init/drones",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

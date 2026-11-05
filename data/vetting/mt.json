@@ -64,7 +64,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -74,6 +74,13 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/malta",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Transport Malta says all of Malta is treated as controlled airspace, so every drone flight needs authorisation through its iDronect portal, and flights in restricted zones (including nature reserves, embassies, hospitals and prisons) also need written no-objection from the zone owner.",
+     "level": "country",
+     "source": "https://www.transport.gov.mt/aviation/drones/tourists-visitng-malta-6832",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -645,11 +652,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "Transport Malta iDronect portal",
+    "url": "https://tmcad.idronect.com"
    },
    "items": [
     {
@@ -675,6 +682,24 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "Transport Malta's Civil Aviation Directorate registers operators through its iDronect portal. Registration is not needed for toy drones, or drones under 250 g without a camera or microphone.",
+     "source": "https://www.transport.gov.mt/Aviation/Drones/Registration-4448",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Visiting operators register on the portal with third-party insurance. Holders of an EASA operator number can take a three-month registration for EUR 10 (A$15.89 at EUR 0.6293 per A$1, RBA 30 Oct 2026); others register for EUR 25 (A$39.73). The remote pilot needs a valid certificate.",
+     "source": "https://www.transport.gov.mt/aviation/drones/tourists-visitng-malta-6832",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Transport Malta treats all of Malta as controlled airspace, so every flight needs authorisation through the portal (date, time, location, height). Restricted zones (embassies, nature reserves, hospitals, power stations, prisons, airports and heliports) also need written no-objection from the zone owner. The interactive map is on the portal.",
+     "source": "https://www.transport.gov.mt/aviation/drones/geographical-zones-5487",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -691,9 +716,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Drones: tourists visiting Malta",
+     "authority": "Transport Malta",
+     "url": "https://www.transport.gov.mt/aviation/drones/tourists-visitng-malta-6832",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Drones: geographical zones",
+     "authority": "Transport Malta",
+     "url": "https://www.transport.gov.mt/aviation/drones/geographical-zones-5487",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

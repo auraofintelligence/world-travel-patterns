@@ -727,11 +727,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "drony.gov.pl (ULC)",
+    "url": "https://drony.gov.pl"
    },
    "items": [
     {
@@ -757,6 +757,18 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "The ULC (civil aviation authority) registers operators free at drony.gov.pl. Operators from outside the EU and EFTA can register if their first operation will be in Poland. Operators from another EU or EFTA state can give their own number.",
+     "source": "https://ulc.gov.pl/drony/informacje-ogolne",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "PansaUTM (from PAZP, the air navigation provider) lets operators check flight possibilities, file a flight plan and get consent. The DroneRadar app is PAZP's drone map. PAZP's manual describes restricted R zones that include airspace over national parks and urban areas.",
+     "source": "https://www.pansa.pl/zasady-wykonywania-lotow-bsp-w-kategorii-szczegolnej/",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -773,9 +785,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Informacje ogolne (drony)",
+     "authority": "ULC",
+     "url": "https://ulc.gov.pl/drony/informacje-ogolne",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Zasady wykonywania lotow BSP",
+     "authority": "PAZP (Pansa)",
+     "url": "https://www.pansa.pl/zasady-wykonywania-lotow-bsp-w-kategorii-szczegolnej/",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

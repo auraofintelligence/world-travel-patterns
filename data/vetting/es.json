@@ -817,11 +817,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "AESA UAS operator register (sede electronica)",
+    "url": "https://sede.seguridadaerea.gob.es/sede-aesa/catalogo-de-procedimientos/registro-de-operadores-de-uas"
    },
    "items": [
     {
@@ -847,6 +847,24 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "AESA (the Spanish aviation safety agency) registers UAS operators through its online UAS application. Operators from outside the EASA states register in the first EASA state where they plan to operate; if that is Spain, the Spanish procedure applies. An operator can be registered in only one member state at a time.",
+     "source": "https://www.seguridadaerea.gob.es/en/ambitos/drones/registro-de-operador-de-drones-uas",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Operators registered in another EU state who need Specific-category operations in Spain file a cross-border request with AESA (guide Ed.02; check the current edition).",
+     "source": "https://www.seguridadaerea.gob.es/sites/default/files/UAS-OPR-P01-DT11_Ed.02_Guia_para_la_realizacion_de_operaciones_transfronterizas.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Spain's UAS geographical zones are published through ENAIRE Drones (drones.enaire.es) and the AIP, under Royal Decree 517/2024. AESA says the flight rules and zones apply equally to recreational and professional flights, and that some zones (for example military areas) are not managed by ENAIRE and need coordination or prior authorisation from the zone holder.",
+     "source": "https://www.seguridadaerea.gob.es/sites/default/files/UAS-OPR-P01-DT15_Ed.03_Zonas.geograficas.UAS.del.RDUAS.pdf",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -863,9 +881,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Drone Operator Registration/UAS",
+     "authority": "AESA",
+     "url": "https://www.seguridadaerea.gob.es/en/ambitos/drones/registro-de-operador-de-drones-uas",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Zonas geograficas UAS del RD UAS",
+     "authority": "AESA",
+     "url": "https://www.seguridadaerea.gob.es/sites/default/files/UAS-OPR-P01-DT15_Ed.03_Zonas.geograficas.UAS.del.RDUAS.pdf",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

@@ -680,11 +680,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "CAA UASIS (e.caa.gov.lv)",
+    "url": "https://droni.caa.gov.lv/en/uasis/uas-geographical-zones/flight-application-in-uas-geographical-zones/"
    },
    "items": [
     {
@@ -710,6 +710,24 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "The Civil Aviation Agency (CAA) registers operators and requires a verified account in its UASIS system for exams, cross-border applications and applications in UAS geographical zones. Latvian registration is valid for one year.",
+     "source": "https://droni.caa.gov.lv/en/uasis/uas-geographical-zones/flight-application-in-uas-geographical-zones/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "In UASIS an operator registered in another EEA country or Switzerland picks a separate option and supplies the requested information.",
+     "source": "https://droni.caa.gov.lv/en/uasis/uas-geographical-zones/flight-application-in-uas-geographical-zones/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "The CAA says drone users must check restrictions before each flight on the zone map at airspace.lv/drones, because they can change several times a day. Since 1 January 2025 applications to fly in any UAS geographical zone go through the CAA system (e.caa.gov.lv).",
+     "source": "https://www.lgs.lv/en/2020/10/drone-flight-coordination/",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -726,9 +744,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Flight application in UAS geographical zones",
+     "authority": "CAA Latvia",
+     "url": "https://droni.caa.gov.lv/en/uasis/uas-geographical-zones/flight-application-in-uas-geographical-zones/",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Coordination of unmanned aircraft flights",
+     "authority": "LGS (air navigation service)",
+     "url": "https://www.lgs.lv/en/2020/10/drone-flight-coordination/",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

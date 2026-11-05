@@ -209,7 +209,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -251,6 +251,13 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/greece",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "The HCAA says flights over ports, hospitals, archaeological sites and military or government sites need prior HCAA approval. Yellow and magenta zones on the DAGR map need an authorisation request first.",
+     "level": "country",
+     "source": "https://hcaa.gov.gr/en/where-you-are-allowed-fly-uas-greece",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -795,11 +802,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "HCAA / Drone Aware Greece (DAGR)",
+    "url": "https://dagr.hasp.gov.gr/"
    },
    "items": [
     {
@@ -825,6 +832,24 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "The HCAA (Hellenic Civil Aviation Authority) FAQ says a non-EU resident flying in the Open category registers with the authority of the first EU country they plan to fly in; the number goes on every drone. Its own rules also describe a registration route for operators flying beyond 50 m from the pilot.",
+     "source": "https://hcaa.gov.gr/en/faq/eimai-katoikos-ektos-ee-poy-episkeptetai-tin-eyropi-kai-skopeyo-na-petaxo-drone-moy-stin",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "The HCAA has a visitor authorisation form (2020-era) for people without a Greek tax number, asking for a pilot certificate and insurance certificate, with conditions such as a 400 ft height limit, daylight only and visual line of sight. Check it is still current.",
+     "source": "https://dagr.hasp.gov.gr/docs/HCAA_UAS_FLT_request_editable_v1.0.1.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "The official map is DAGR (Drone Aware Greece). It marks yellow and magenta zones that need an HCAA authorisation request first (the HCAA guidance says at least 5 working days ahead), and flights over ports, hospitals, archaeological sites and military or government sites need prior HCAA approval. The map can be viewed without logging in.",
+     "source": "https://hcaa.gov.gr/en/where-you-are-allowed-fly-uas-greece",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -841,9 +866,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Where you are allowed to fly a UAS in Greece",
+     "authority": "HCAA",
+     "url": "https://hcaa.gov.gr/en/where-you-are-allowed-fly-uas-greece",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Non-EU resident visiting Europe: do I need to register?",
+     "authority": "HCAA",
+     "url": "https://hcaa.gov.gr/en/faq/eimai-katoikos-ektos-ee-poy-episkeptetai-tin-eyropi-kai-skopeyo-na-petaxo-drone-moy-stin",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

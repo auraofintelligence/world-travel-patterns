@@ -353,7 +353,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -371,6 +371,13 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/ireland",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "The IAA says drones may not fly within 5 km of an airport, operators must follow the published UAS Geographical Zones and National Parks and Wildlife Service restrictions, and the national rule is the Drones Order 2023 (SI 24 of 2023).",
+     "level": "country",
+     "source": "https://www.iaa.ie/media/2023/12/13/drone-safely-this-christmas",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -793,11 +800,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "IAA Drone Operator Registration (MySRS)",
+    "url": "https://www.iaa.ie/general-aviation/drones/drone-register"
    },
    "items": [
     {
@@ -823,6 +830,18 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "The IAA (Irish Aviation Authority) registers operators through its MySRS portal (iaa.mysrs.ie). Registration is needed for drones over 250 g or any with a camera. The IAA says a non-EU resident registers with the authority of the first EU country where they plan to operate, which is the IAA if that is Ireland.",
+     "source": "https://www.iaa.ie/general-aviation/drones/faqs/registration",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "The IAA publishes a Geographical Zones map and a GeoJSON file for drone controllers. Its operator guidance also says to follow National Parks and Wildlife Service (NPWS) restrictions and environmental considerations. The national drone rules are the Irish Aviation Authority (Unmanned Aircraft Systems (Drones)) Order 2023 (SI 24 of 2023). The IAA has said drones may not fly within 5 km of an airport.",
+     "source": "https://www.iaa.ie/media/2023/12/13/drone-safely-this-christmas",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -839,9 +858,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Drone Operator Registration",
+     "authority": "Irish Aviation Authority",
+     "url": "https://www.iaa.ie/general-aviation/drones/drone-register",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Registration FAQ",
+     "authority": "Irish Aviation Authority",
+     "url": "https://www.iaa.ie/general-aviation/drones/faqs/registration",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

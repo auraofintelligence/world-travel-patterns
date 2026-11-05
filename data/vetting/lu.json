@@ -518,11 +518,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "MyGuichet.lu UAS operator registration",
+    "url": "https://guichet.public.lu/en/entreprises/sectoriel/aviation/systeme-aeronef-sans-pilote/enregistrement-exploitant-uas.html"
    },
    "items": [
     {
@@ -548,6 +548,24 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "The DAC (Directorate of Civil Aviation) registers operators through MyGuichet.lu, mainly those based in Luxembourg. EU/EASA residents register in their own country. Registration or renewal costs EUR 10 from 14 January 2026 (A$15.89 at EUR 0.6293 per A$1, RBA 30 Oct 2026).",
+     "source": "https://guichet.public.lu/en/entreprises/sectoriel/aviation/systeme-aeronef-sans-pilote/enregistrement-exploitant-uas.html",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "People living in a third country can email the DAC (uas@av.etat.lu) for how to register.",
+     "source": "https://guichet.public.lu/en/entreprises/sectoriel/aviation/systeme-aeronef-sans-pilote/enregistrement-exploitant-uas.html",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "The DAC says only the UAS geographical zones shown on the Geoportail map at g-o.lu/uas are legally applicable; manufacturer geozones in a controller may not match. Red zones are active and need an authorisation request or notification. The data is also published as JSON at drones.geoportail.lu/zones.",
+     "source": "https://dac.gouvernement.lu/en/drones/geozones.html",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -564,9 +582,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "UAS Geographical Zones",
+     "authority": "Directorate of Civil Aviation (Luxembourg)",
+     "url": "https://dac.gouvernement.lu/en/drones/geozones.html",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Registering as a UAS operator",
+     "authority": "Guichet.lu",
+     "url": "https://guichet.public.lu/en/entreprises/sectoriel/aviation/systeme-aeronef-sans-pilote/enregistrement-exploitant-uas.html",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },
@@ -627,7 +657,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -637,6 +667,13 @@
      "source": "https://legilux.public.lu/eli/etat/leg/loi/1973/02/19/n1/consolide/20230721",
      "checked": "2026-11-04",
      "by": "hand"
+    },
+    {
+     "topic": "drones",
+     "rule": "The DAC says only the zones on its Geoportail map (g-o.lu/uas) are legally applicable, and that geozones built into a drone's controller may not cover Luxembourg's restricted areas. Red zones are active and need an authorisation request or notification.",
+     "level": "country",
+     "source": "https://dac.gouvernement.lu/en/drones/geozones.html",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [

@@ -865,11 +865,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "LBA operator registration (via dipul)",
+    "url": "https://www.dipul.de/homepage/en/applications-administrative-services/registration-as-an-operator/"
    },
    "items": [
     {
@@ -895,6 +895,18 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "Operators with their main residence in Germany register with the Luftfahrt-Bundesamt (LBA, the federal aviation office) through its online portal, linked from dipul.de. Registration is needed for drones of 250 g or more, or any drone with a camera or other sensor that records personal data. The LBA says German operator registrations are valid in other EU states. Where a visiting non-resident registers: not stated on the pages read.",
+     "source": "https://www.dipul.de/homepage/en/applications-administrative-services/registration-as-an-operator/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "The official map of flight zones is dipul, the Digital Platform for Unmanned Aviation (maptool-dipul.dfs.de). The LBA recommends checking it before each flight.",
+     "source": "https://www.dipul.de/homepage/en/information/general/registration-and-qualification/",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -911,9 +923,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Registration as an operator",
+     "authority": "dipul (German federal drone platform)",
+     "url": "https://www.dipul.de/homepage/en/applications-administrative-services/registration-as-an-operator/",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Fragen und Antworten: Betreiberregistrierung",
+     "authority": "Luftfahrt-Bundesamt",
+     "url": "https://www.lba.de/DE/Drohnen/FAQ/05_Registrierung_Betreiber_EID/FAQ_node.html",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

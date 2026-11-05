@@ -741,11 +741,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "Slovenian CAA UAS portal",
+    "url": "https://uas.caa.si/en/login/"
    },
    "items": [
     {
@@ -771,6 +771,24 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "The Slovenian CAA registers operators at uas.caa.si and says registration is expected to be renewed about every 30 months.",
+     "source": "https://www.caa.si/en/operator-registration-and-traning-with-exam-a1a3.html",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "For a third-country operator, the competent authority is that of the first EU state where they intend to operate. Non-EU applicants use the portal's 'Login from outside the EU' option and send an email address and scanned identity documents. An operator can be registered in only one state at a time.",
+     "source": "https://www.caa.si/en/cross-border-operations.html",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Cross-border Specific-category operations are possible only with an STS declaration, operational authorisation or LUC, applied for to the Slovenian CAA. Mitigations in the authorisation must work in Slovenia. A national no-fly map was not found on the pages read.",
+     "source": "https://www.caa.si/en/cross-border-operations.html",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -787,9 +805,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Cross-border operations",
+     "authority": "Slovenian CAA",
+     "url": "https://www.caa.si/en/cross-border-operations.html",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Operator registration and training",
+     "authority": "Slovenian CAA",
+     "url": "https://www.caa.si/en/operator-registration-and-traning-with-exam-a1a3.html",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   }

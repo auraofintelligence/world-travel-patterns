@@ -216,7 +216,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -250,6 +250,13 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/france",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "The DGAC's open-category guide says drones of 800 g or more flown in France must be registered on AlphaTango and carry French electronic signalling, and that the Geoportail restrictions map shows where flying is limited. Operators from other EU states are told to take these French restrictions into account.",
+     "level": "country",
+     "source": "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide_categorie_Ouverte.pdf",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -818,11 +825,11 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
-    "name": null,
-    "url": null
+    "name": "AlphaTango (DGAC) operator registration portal",
+    "url": "https://alphatango.aviation-civile.gouv.fr"
    },
    "items": [
     {
@@ -848,6 +855,24 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "France's AlphaTango portal registers operators who live or are established in France, and operators living outside Europe whose first flight in Europe is in France. Operators from another EU state register in their own state, and an operator can be registered in only one European state at a time. The portal is run by the DGAC (civil aviation directorate). No public search of registered operators was found.",
+     "source": "https://www.ecologie.gouv.fr/politiques-publiques/alphatango",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "The DGAC's open-category guide points to a restrictions map on Geoportail that shows where to fly and up to what height (120 m maximum outside model-aircraft sites). The urban outlines on the map are indicative only.",
+     "source": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "The DGAC guide says all drones of 800 g or more must be registered on AlphaTango and carry a French electronic signalling device. It tells operators from other EU states to take account of these French restrictions.",
+     "source": "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide_categorie_Ouverte.pdf",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -864,9 +889,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "AlphaTango",
+     "authority": "Ministere de la Transition ecologique (DGAC)",
+     "url": "https://www.ecologie.gouv.fr/politiques-publiques/alphatango",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Exploitation de drones en categorie ouverte",
+     "authority": "Ministere de la Transition ecologique (DGAC)",
+     "url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },

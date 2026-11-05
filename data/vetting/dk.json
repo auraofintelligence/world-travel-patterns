@@ -63,7 +63,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -97,6 +97,13 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/denmark",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Trafikstyrelsen says flying in geographic drone zones (flight-safety-critical, security-critical and Natura 2000 nature areas) needs an application to it first. Some Natura 2000 zones apply only in certain seasons, such as breeding time.",
+     "level": "country",
+     "source": "https://www.droneregler.dk/dronezoner/vejledning-til-dronezoner",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -681,7 +688,7 @@
   },
   "drone-pilot-pathway": {
    "status": "partly-mapped",
-   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register and footage routes not yet checked.",
+   "summary": "EU baseline (EASA): register once as an operator in the state of residence or establishment, recognised across EASA states; Specific-category work in another state needs cross-border acceptance by that state's authority. National register, zone map and visitor rules checked 6 Nov 2026 (see items); footage routes not yet checked.",
    "register": {
     "exists": null,
     "name": null,
@@ -711,6 +718,18 @@
      "text": "Not yet checked: national tourism board or film commission media libraries.",
      "source": "https://www.easa.europa.eu/en/faq/116456",
      "checked": "2026-11-04"
+    },
+    {
+     "area": "operator-register",
+     "text": "Drones over 250 g, or any carrying a sensor, need a registered operator. Trafikstyrelsen guidance and droneregler.dk differ on which site takes the registration, so the registration URL is not recorded.",
+     "source": "https://www.droneregler.dk/dronezoner",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Trafikstyrelsen (the transport authority) publishes the official drone zone map on droneregler.dk, taken over from Naviair in 2023. Flying in the geographic drone zones (flight-safety-critical, security-critical and Natura 2000 areas) needs an application to Trafikstyrelsen. Natura 2000 zones are shown in green; some apply only in certain seasons such as breeding time. Military areas need permission from the Defence Command, not Trafikstyrelsen.",
+     "source": "https://www.droneregler.dk/dronezoner/vejledning-til-dronezoner",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -727,9 +746,21 @@
      "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration",
      "checked": "2026-11-04",
      "supports": "cross-border process (read via a search-index snapshot)"
+    },
+    {
+     "title": "Dronezoner",
+     "authority": "Trafikstyrelsen (droneregler.dk)",
+     "url": "https://www.droneregler.dk/dronezoner",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Vejledning til dronezoner",
+     "authority": "Trafikstyrelsen (droneregler.dk)",
+     "url": "https://www.droneregler.dk/dronezoner/vejledning-til-dronezoner",
+     "checked": "2026-11-06"
     }
    ],
-   "checked": "2026-11-04",
+   "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
   },
