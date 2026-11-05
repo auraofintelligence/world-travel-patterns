@@ -95,6 +95,15 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/serbia",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Every foreign drone needs a CAD flight authorisation whatever its weight; registration is not required. Send the approval form, a Serbian third-party liability insurance policy and an ID copy to CAD, at least 25 days ahead. Aerial filming also needs a Ministry of Defence permit, requested through a company registered in Serbia. Foreign A1/A3 and A2 certificates are not recognised.",
+     "level": "country",
+     "source": "https://cad.gov.rs/strana/36291/Frequently-Asked-Questions-FAQ-Regarding-Foreign-Drone-Operations-in-the-Republic-of-Serbia?lang=en",
+     "checked": "2026-11-06",
+     "heading": "Foreign drone operations",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -104,6 +113,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/serbia",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Foreign drone operations",
+     "authority": "Civil Aviation Directorate of the Republic of Serbia",
+     "url": "https://cad.gov.rs/strana/36291/Frequently-Asked-Questions-FAQ-Regarding-Foreign-Drone-Operations-in-the-Republic-of-Serbia?lang=en",
+     "checked": "2026-11-06",
+     "supports": "visitor drone rule"
     }
    ]
   },
@@ -913,6 +929,53 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; authority names and law citations are not reread (see national.read)."
+  },
+  "drone-pilot-pathway": {
+   "status": "mapped",
+   "summary": "Serbia's Civil Aviation Directorate has a FAQ for foreign drone operators: every foreign drone needs a CAD flight authorisation whatever its weight, aerial filming also needs a Ministry of Defence permit through a Serbian company, and foreign pilot certificates are not recognised.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "No public operator register was found on the CAD pages read.",
+     "source": "https://cad.gov.rs/strana/36291/Frequently-Asked-Questions-FAQ-Regarding-Foreign-Drone-Operations-in-the-Republic-of-Serbia?lang=en",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Serbia's Regulation on unmanned aircraft applies. Depending on location and flight parameters, an operator may have to pass a CAD exam on general UAS regulations.",
+     "source": "https://cad.gov.rs/strana/36291/Frequently-Asked-Questions-FAQ-Regarding-Foreign-Drone-Operations-in-the-Republic-of-Serbia?lang=en",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "CAD says foreign drones need a CAD flight authorisation whatever the weight (registration is not required). The visitor emails the UAS flights approval form (drone details, coordinates, times, altitude), a third-party liability insurance policy covering Serbia and an ID copy to the CAD UAS address. CAD says A1/A3 and A2 certificates from other countries are not recognised. Allow more than 20 days; CAD recommends applying at least 25 days before.",
+     "source": "https://cad.gov.rs/strana/36291/Frequently-Asked-Questions-FAQ-Regarding-Foreign-Drone-Operations-in-the-Republic-of-Serbia?lang=en",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Aerial photos or video need two procedures: the CAD flight authorisation and an Aerial Filming Permit from the Ministry of Defence, which must be requested through a legal entity registered in Serbia. A drone only carried in luggage is a customs matter (Customs Administration).",
+     "source": "https://cad.gov.rs/strana/36291/Frequently-Asked-Questions-FAQ-Regarding-Foreign-Drone-Operations-in-the-Republic-of-Serbia?lang=en",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FAQ regarding foreign drone operations in the Republic of Serbia",
+     "authority": "Civil Aviation Directorate of the Republic of Serbia",
+     "url": "https://cad.gov.rs/strana/36291/Frequently-Asked-Questions-FAQ-Regarding-Foreign-Drone-Operations-in-the-Republic-of-Serbia?lang=en",
+     "checked": "2026-11-06",
+     "supports": "foreign drone FAQ (page read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

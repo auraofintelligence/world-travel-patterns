@@ -930,6 +930,54 @@
    "checked": "2026-11-04",
    "summary": "1 site(s): Cueva de los Tayos. Facts from official sources; lore labelled as claims.",
    "evidence": "UNESCO pages and Smartraveller read directly; other official pages are search snapshots unless marked."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Ecuador's DGAC classes drone use under RDAC 101: Open for personal recreation up to 4 kg; Specific for aerial work or private aerial services up to 250 kg. Foreign-operator and register details were not found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "No public register of drone operators was found on the DGAC pages read. The drone section has a 'Registro de drones' page that was not read in full.",
+     "source": "https://www.aviacioncivil.gob.ec/aeronaves-no-tripuladas/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Under RDAC 101 the Open category covers only personal recreational flights (up to 4 kg). Professional, commercial or for-profit flights, private aerial services and aerial work fall in the Specific category (up to 250 kg). DGAC's general Permiso de Operacion covers aerial work and related activities; the page read does not say how it applies to drones.",
+     "source": "https://www.aviacioncivil.gob.ec/operaciones-con-drones-categorias/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: the pages read do not mention foreign visitors.",
+     "source": "https://www.aviacioncivil.gob.ec/operaciones-con-drones-categorias/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Operaciones con drones / categorias",
+     "authority": "Direccion General de Aviacion Civil (Ecuador)",
+     "url": "https://www.aviacioncivil.gob.ec/operaciones-con-drones-categorias/",
+     "checked": "2026-11-06",
+     "supports": "category summary (page read through a page-summary tool, not the raw text)"
+    },
+    {
+     "title": "Aeronaves no tripuladas (Drones)",
+     "authority": "Direccion General de Aviacion Civil (Ecuador)",
+     "url": "https://www.aviacioncivil.gob.ec/aeronaves-no-tripuladas/",
+     "checked": "2026-11-06",
+     "supports": "drone section index (page read through a page-summary tool)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

@@ -914,6 +914,70 @@
     }
    ],
    "checked": "2026-11-03"
+  },
+  "drone-pilot-pathway": {
+   "status": "unknown",
+   "summary": "DINAC has a drone section with a 2026 resolution on prohibited and restricted zones for remotely piloted aircraft; the operator and visitor rules were not read.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "permits-at-this-level",
+     "text": "DINAC's drone page lists Resolution 1049/2026 (21 July 2026) setting prohibited and restricted zones for remotely piloted aircraft, and a notice on drone operations procedures. Only the listing was read, not the texts.",
+     "source": "https://www.dinac.gov.py/v3/index.php/dinac/direcciones/direccion-de-aeronautica/itemlist/category/174-drone",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Drone",
+     "authority": "Direccion Nacional de Aeronautica Civil (Paraguay)",
+     "url": "https://www.dinac.gov.py/v3/index.php/dinac/direcciones/direccion-de-aeronautica/itemlist/category/174-drone",
+     "checked": "2026-11-06",
+     "supports": "listing of drone resolutions (page read directly, headings only)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
+  },
+  "ancient-sites-and-mysteries": {
+   "sites": [],
+   "national": {
+    "authority": "Secretaría Nacional de Cultura",
+    "authority_url": "https://cultura.gov.py/",
+    "protection": "National heritage law: not yet checked.",
+    "passes": "No national site pass found yet: not yet checked.",
+    "smartraveller": {
+     "level": "Exercise a high degree of caution",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/paraguay",
+     "read": "repo Smartraveller export of 2026-10-29"
+    },
+    "checked": "2026-11-06",
+    "read": "authority homepage reached on 6 November 2026 and its name read there; the heritage law, tickets and penalties are not yet read",
+    "evidence": "official"
+   },
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "summary": "No national-level sites mapped yet. National heritage authority named, Smartraveller level recorded where the repo holds it; heritage law, opening, tickets and penalties not yet checked. Lore is labelled as claims.",
+   "sources": [
+    {
+     "authority": "Australian Smartraveller",
+     "title": "Paraguay travel advice",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/paraguay",
+     "checked": "2026-11-06"
+    },
+    {
+     "authority": "National heritage authority",
+     "title": "Secretaría Nacional de Cultura",
+     "url": "https://cultura.gov.py/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; heritage laws are not yet read (see national.read)."
   }
  }
 }

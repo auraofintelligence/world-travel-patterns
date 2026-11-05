@@ -906,6 +906,35 @@
     }
    ],
    "evidence": "UNESCO pages read directly; site and ministry pages from search snapshots unless marked."
+  },
+  "drone-pilot-pathway": {
+   "status": "unknown",
+   "summary": "Bolivia's DGAC drone page links drone registration and aerial-work authorisation forms and the BR-108-2026 regulation; the regulation text and any foreign-operator rule were not read.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-licence",
+     "text": "DGAC offers an online form to register drones and a separate form to request authorisation for aerial work with drones. The conditions are in regulation BR-108-2026 (use and operation of unmanned aircraft systems), which was not read.",
+     "source": "https://www.dgac.gob.bo/drones/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "RPAs Drones",
+     "authority": "Direccion General de Aeronautica Civil (Bolivia)",
+     "url": "https://www.dgac.gob.bo/drones/",
+     "checked": "2026-11-06",
+     "supports": "links to forms and BR-108-2026 (page read, headings and links only)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

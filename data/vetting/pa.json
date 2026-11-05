@@ -1158,6 +1158,82 @@
     }
    ],
    "checked": "2026-11-03"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Panama's Civil Aeronautics Authority (AAC) registers drones and licenses pilots; commercial users should hold the operation licence and send a special-operations form request. No public operator register was found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "No public list of licensed drone pilots or operators was found on the AAC drone page or its procedure document.",
+     "source": "https://www.aeronautica.gob.pa/drones/pdf/Protocolo de operaciones 2025.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "The AAC's procedure document says to read Resolution 0004 (the RPAS Aeronautical Norm), apply in writing to the Director of Air Safety for a pilot licence (after a course and certificate) and drone registration, and that the operation licence matters most for commercial use. After licence and registration, the operator emails the AAC drone team about the purpose of the flight to receive the Special Operations Form. Approval takes at least five business days.",
+     "source": "https://www.aeronautica.gob.pa/drones/pdf/Protocolo de operaciones 2025.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: the procedure document does not mention foreign visitors; it is addressed to people applying at the AAC offices.",
+     "source": "https://www.aeronautica.gob.pa/drones/pdf/Protocolo de operaciones 2025.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Flights around the Cinta Costera, Avenida Balboa, Calle 50 and nearby need notice to the Institutional Protection Service (SPI); flights over Casco Antiguo need a note to the SPI or the Police Director, copied to the heritage directorate. Use WGS 84 coordinates and altitudes in feet above mean sea level.",
+     "source": "https://www.aeronautica.gob.pa/drones/pdf/Protocolo de operaciones 2025.pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Procedimiento para operar drones",
+     "authority": "Autoridad Aeronautica Civil de Panama",
+     "url": "https://www.aeronautica.gob.pa/drones/pdf/Protocolo de operaciones 2025.pdf",
+     "checked": "2026-11-06",
+     "supports": "operating procedure (PDF text read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
+  },
+  "ancient-sites-and-mysteries": {
+   "sites": [],
+   "national": {
+    "authority": "not yet checked",
+    "authority_url": "",
+    "protection": "National heritage law: not yet checked.",
+    "passes": "No national site pass found yet: not yet checked.",
+    "smartraveller": {
+     "level": "Exercise a high degree of caution",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/panama",
+     "read": "repo Smartraveller export of 2026-10-29"
+    },
+    "checked": "2026-11-06",
+    "read": "no official heritage authority page reached on 6 November 2026; authority and law are not yet checked",
+    "evidence": "signal"
+   },
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "summary": "No national-level sites mapped yet. National heritage authority not yet checked, Smartraveller level recorded where the repo holds it; heritage law, opening, tickets and penalties not yet checked. Lore is labelled as claims.",
+   "sources": [
+    {
+     "authority": "Australian Smartraveller",
+     "title": "Panama travel advice",
+     "url": "https://www.smartraveller.gov.au/destinations/americas/panama",
+     "checked": "2026-11-06"
+    }
+   ],
+   "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; heritage laws are not yet read (see national.read)."
   }
  }
 }

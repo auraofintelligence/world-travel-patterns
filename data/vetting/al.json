@@ -80,6 +80,15 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/albania",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "Albania applies the EU drone rules since July 2022 to all drones whatever their use or size. Fly no higher than 120 m, keep the drone in sight, and stay out of restricted areas such as near airports without permission. AAC says only Albanian residents and businesses based in Albania can register as drone operators. Minimum age 16.",
+     "level": "country",
+     "source": "https://www.aac.gov.al/avione-pa-pilote-drone/",
+     "checked": "2026-11-06",
+     "heading": "Drone rules",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -89,6 +98,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/albania",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone rules",
+     "authority": "Autoriteti i Aviacionit Civil (Albania)",
+     "url": "https://www.aac.gov.al/avione-pa-pilote-drone/",
+     "checked": "2026-11-06",
+     "supports": "visitor drone rule"
     }
    ]
   },
@@ -804,6 +820,47 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; authority names and law citations are not reread (see national.read)."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Albania applies the EU drone rules (since July 2022). The Civil Aviation Authority says only Albanian residents and businesses based in Albania can register as operators. No public operator register was found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "No public register of drone operators was found on the AAC drone page.",
+     "source": "https://www.aac.gov.al/avione-pa-pilote-drone/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Operations outside the Open category are Specific and need prior AAC authorisation with a risk assessment (SORA) or a declared standard scenario, and the operator must be registered with an operator ID. Certified-category work (passengers, dangerous goods) is described as not yet active for the public. AAC fees apply (Joint Instruction 11 of 24 December 2024).",
+     "source": "https://www.aac.gov.al/avione-pa-pilote-drone/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Quoting Article 14 of the UAS Regulation, AAC says operators register in Albania where they live (individuals) or have their main place of business (companies), and cannot be registered in more than one state at once; it reads this as meaning only Albanian residents and businesses may register as operators. The page does not set out a visitor route.",
+     "source": "https://www.aac.gov.al/avione-pa-pilote-drone/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Avionë pa Pilotë (Drone)",
+     "authority": "Autoriteti i Aviacionit Civil (Albania)",
+     "url": "https://www.aac.gov.al/avione-pa-pilote-drone/",
+     "checked": "2026-11-06",
+     "supports": "EU-based rules and operator registration (Albanian text read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

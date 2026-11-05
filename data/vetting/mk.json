@@ -96,6 +96,15 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/north-macedonia",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "A foreigner flying recreationally must register as an operator (free) and report each flight on the CAA portal. Drones over 250 g need a remote pilot certificate from the pilot's competent authority. Maximum take-off mass under 4 kg, within sight, up to 120 m, third-party insurance above 500 g, no flying within 3 km of the border zone, and not within 100 m of security and government facilities, power plants or diplomatic missions. Minimum age 16.",
+     "level": "country",
+     "source": "https://drone.gov.mk/upload/HOW%20TO%20OPERATE%20A%20DRONE%20IN%20MACEDONIA%20AS%20A%20FOREIGNER%20IN%20RECREATIONAL%20AND%20COMMERCIAL%20PURPOSES1.pdf",
+     "checked": "2026-11-06",
+     "heading": "Drones for foreigners",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -105,6 +114,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/north-macedonia",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drones for foreigners",
+     "authority": "Civil Aviation Agency of North Macedonia",
+     "url": "https://drone.gov.mk/upload/HOW%20TO%20OPERATE%20A%20DRONE%20IN%20MACEDONIA%20AS%20A%20FOREIGNER%20IN%20RECREATIONAL%20AND%20COMMERCIAL%20PURPOSES1.pdf",
+     "checked": "2026-11-06",
+     "supports": "visitor drone rule"
     }
    ]
   },
@@ -872,6 +888,60 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; authority names and law citations are not reread (see national.read)."
+  },
+  "drone-pilot-pathway": {
+   "status": "mapped",
+   "summary": "The Civil Aviation Agency's drone portal explains how a foreigner may fly recreationally or commercially: register as an operator (free), report each flight, and for commercial work get CAA authorisation first.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "The CAA portal has an operator registration and a public map of reserved airspace; no public directory of commercial operators was found on the pages read.",
+     "source": "https://drone.gov.mk/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Commercial work in the Specific category follows the EU model (Implementing Regulation 2019/947): SORA, standard scenarios and predefined risk assessments, with guidance documents on the portal.",
+     "source": "https://drone.gov.mk/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "A foreign person or company may fly commercially if registered as an operator in the Specific or Certified category in an EASA member state, or registered as a drone operator in a third country, and compliant with Regulation (EU) 2019/947. Before starting, the operator must get CAA authorisation by emailing the UAS request form (operator and pilot details, insurance policy number, who is hiring them, a description of the work and WGS coordinates with a radius).",
+     "source": "https://drone.gov.mk/upload/HOW%20TO%20OPERATE%20A%20DRONE%20IN%20MACEDONIA%20AS%20A%20FOREIGNER%20IN%20RECREATIONAL%20AND%20COMMERCIAL%20PURPOSES1.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Every flight is reported on the portal. Flights are banned in some zones at times, for example around local elections (a 2025 notice is on the portal).",
+     "source": "https://drone.gov.mk/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Drone portal",
+     "authority": "Civil Aviation Agency of North Macedonia",
+     "url": "https://drone.gov.mk/",
+     "checked": "2026-11-06",
+     "supports": "portal, foreigner guidance link (page read directly)"
+    },
+    {
+     "title": "How to operate a drone in Macedonia as a foreigner",
+     "authority": "Civil Aviation Agency of North Macedonia",
+     "url": "https://drone.gov.mk/upload/HOW%20TO%20OPERATE%20A%20DRONE%20IN%20MACEDONIA%20AS%20A%20FOREIGNER%20IN%20RECREATIONAL%20AND%20COMMERCIAL%20PURPOSES1.pdf",
+     "checked": "2026-11-06",
+     "supports": "recreational and commercial rules for foreigners (PDF read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

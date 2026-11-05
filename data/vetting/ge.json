@@ -781,6 +781,82 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "The Georgian Civil Aviation Agency's UAS department registers drones and operators, issues operator certificates, flight authorisations and remote pilot certificates, and keeps the registers. Whether the registers are public was not confirmed.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "The agency's UAS department keeps a register of UAS operators and a register of drones (Georgian page, read directly). Whether it is searchable by the public was not confirmed.",
+     "source": "https://gcaa.ge/uas-and-general-aviation-department/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "The department registers UAS operators, runs the operator certificate process, gives consent (authorisation) for UAS operation and issues remote pilot certificates by category.",
+     "source": "https://gcaa.ge/uas-and-general-aviation-department/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: rules for a foreign visitor flying commercially.",
+     "source": "https://gcaa.ge/uas-and-general-aviation-department/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "UAS and General Aviation Department",
+     "authority": "Civil Aviation Agency of Georgia",
+     "url": "https://gcaa.ge/uas-and-general-aviation-department/",
+     "checked": "2026-11-06",
+     "supports": "functions of the UAS department (Georgian text read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
+  },
+  "ancient-sites-and-mysteries": {
+   "sites": [],
+   "national": {
+    "authority": "National Agency for Cultural Heritage Preservation of Georgia (page in Georgian)",
+    "authority_url": "https://heritagesites.ge/ka",
+    "protection": "National heritage law: not yet checked.",
+    "passes": "No national site pass found yet: not yet checked.",
+    "smartraveller": {
+     "level": "Exercise normal safety precautions",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/georgia",
+     "read": "repo Smartraveller export of 2026-10-29"
+    },
+    "checked": "2026-11-06",
+    "read": "authority homepage reached on 6 November 2026 and its name read there; the heritage law, tickets and penalties are not yet read",
+    "evidence": "official"
+   },
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "summary": "No national-level sites mapped yet. National heritage authority named, Smartraveller level recorded where the repo holds it; heritage law, opening, tickets and penalties not yet checked. Lore is labelled as claims.",
+   "sources": [
+    {
+     "authority": "Australian Smartraveller",
+     "title": "Georgia travel advice",
+     "url": "https://www.smartraveller.gov.au/destinations/europe/georgia",
+     "checked": "2026-11-06"
+    },
+    {
+     "authority": "National heritage authority",
+     "title": "National Agency for Cultural Heritage Preservation of Georgia (page in Georgian)",
+     "url": "https://heritagesites.ge/ka",
+     "checked": "2026-11-06"
+    }
+   ],
+   "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; heritage laws are not yet read (see national.read)."
   }
  }
 }

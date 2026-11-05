@@ -914,6 +914,53 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; authority names and law citations are not reread (see national.read)."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Montenegro's Civil Aviation Agency runs operator registration and pilot exams at dron.caa.me and publishes a list of approved organisations; flights in the Podgorica and Tivat control zones need approval.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "The agency's drone section has an 'approved organisations' page; the page read does not show its content, so whether it lists drone service providers was not checked.",
+     "source": "https://www.caa.me/me/leta%C4%8Dke-operacije-bespilotne-letilice",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Drone operators register, and pilots sit exams, on the agency's drone portal (dron.caa.me). The agency says operators registered before 1 July 2024 had to register again.",
+     "source": "https://www.caa.me/me/leta%C4%8Dke-operacije-bespilotne-letilice",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: rules for a foreign visitor flying commercially.",
+     "source": "https://www.caa.me/me/leta%C4%8Dke-operacije-bespilotne-letilice",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Flights in the CTR (airport control zone) areas of Podgorica and Tivat need approval; the agency publishes the conditions (revision 3, 1 July 2024) and a request form.",
+     "source": "https://www.caa.me/me/leta%C4%8Dke-operacije-bespilotne-letilice",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Letacke operacije - bespilotne letilice",
+     "authority": "Agencija za civilno vazduhoplovstvo Crne Gore",
+     "url": "https://www.caa.me/me/leta%C4%8Dke-operacije-bespilotne-letilice",
+     "checked": "2026-11-06",
+     "supports": "registration, exams, control-zone conditions (Montenegrin text read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }
