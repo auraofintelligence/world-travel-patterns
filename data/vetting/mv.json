@@ -73,6 +73,15 @@
      "source": "https://www.smartraveller.gov.au/destinations/asia/maldives",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "The CAA reviews all drone operations case by case. Step 1: approval from the Maldives National Defence Force where the area needs it. Step 2: apply to the CAA with the MNDF permit attached; keep flights below 400 feet. Step 3: approval from other parties as needed, such as resorts, island or city councils and Maldives Airports Company Limited.",
+     "level": "country",
+     "source": "https://www.caa.gov.mv/operations/flying-remotely-piloted-aircraft-(drones)-in-the-maldives",
+     "checked": "2026-11-06",
+     "heading": "Flying drones in the Maldives",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -82,6 +91,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/maldives",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Flying drones in the Maldives",
+     "authority": "Maldives Civil Aviation Authority",
+     "url": "https://www.caa.gov.mv/operations/flying-remotely-piloted-aircraft-(drones)-in-the-maldives",
+     "checked": "2026-11-06",
+     "supports": "visitor drone rule"
     }
    ]
   },
@@ -898,6 +914,47 @@
     }
    ],
    "checked": "2026-11-03"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Drone flights in the Maldives are reviewed case by case: approval from the national defence force where needed, then the CAA; no public operator register was found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "No public register of drone operators was found on the CAA page read.",
+     "source": "https://www.caa.gov.mv/operations/flying-remotely-piloted-aircraft-(drones)-in-the-maldives",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "The CAA page describes approvals for flights, not an operator certificate: Maldives National Defence Force approval depending on the area, then a CAA application form with the MNDF permit attached, flights kept below 400 feet, and approval from other parties such as resorts, island or city councils.",
+     "source": "https://www.caa.gov.mv/operations/flying-remotely-piloted-aircraft-(drones)-in-the-maldives",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "The page does not separate foreign from local operators; the same steps are stated for all drone operations.",
+     "source": "https://www.caa.gov.mv/operations/flying-remotely-piloted-aircraft-(drones)-in-the-maldives",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Flying Remotely Piloted Aircraft (Drones) in the Maldives",
+     "authority": "Maldives Civil Aviation Authority",
+     "url": "https://www.caa.gov.mv/operations/flying-remotely-piloted-aircraft-(drones)-in-the-maldives",
+     "checked": "2026-11-06",
+     "supports": "three-step approval (page read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

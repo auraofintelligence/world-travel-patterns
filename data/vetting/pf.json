@@ -387,9 +387,9 @@
     "meetings": {
      "status": "confirm-in-writing",
      "route": "No published business-meeting rule",
-     "detail": "The exemption list covers conferences and events, not general business meetings.",
+     "detail": "Reread 6 Nov 2026. The page says salaried work needs a work permit, and some employees sent by an employer based outside French Polynesia for missions under three months are exempt, without listing which. It does not name this activity.",
      "next": "Ask the Direction du travail in writing.",
-     "checked": "2026-11-01",
+     "checked": "2026-11-06",
      "sources": [
       {
        "title": "Code du travail de la Polynésie française, travailleurs étrangers (arts. Lp-5321-1 à Lp-5323-5)",
@@ -397,6 +397,13 @@
        "url": "https://www.gisti.org/spip.php?article2529=",
        "checked": "2026-11-01",
        "supports": "under-3-month work authorisation exemptions (read via a search-index snapshot)"
+      },
+      {
+       "title": "Les travailleurs étrangers",
+       "authority": "Service-Public.pf (Government of French Polynesia)",
+       "url": "https://www.service-public.pf/sefi/service-emploi/les-travailleurs-etrangers/",
+       "checked": "2026-11-06",
+       "supports": "reread 6 Nov 2026"
       }
      ]
     },
@@ -456,9 +463,18 @@
     "remote-work": {
      "status": "confirm-in-writing",
      "route": "French territory rules (to confirm)",
-     "detail": "Short tourist stays are visa-free; work needs a French visa and the territory's own work authorisation.",
+     "detail": "Reread 6 Nov 2026. The page says salaried work needs a work permit, and some employees sent by an employer based outside French Polynesia for missions under three months are exempt, without listing which. It does not name this activity.",
      "next": "Ask the Consulate-General of France in Sydney or the territory's government.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-06",
+     "sources": [
+      {
+       "title": "Les travailleurs étrangers",
+       "authority": "Service-Public.pf (Government of French Polynesia)",
+       "url": "https://www.service-public.pf/sefi/service-emploi/les-travailleurs-etrangers/",
+       "checked": "2026-11-06",
+       "supports": "reread 6 Nov 2026"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "specialist",
@@ -477,11 +493,11 @@
      ]
     },
     "trade": {
-     "status": "confirm-in-writing",
-     "route": "No published business-meeting rule",
-     "detail": "The exemption list covers conferences and events, not general business meetings.",
-     "next": "Ask the Direction du travail in writing.",
-     "checked": "2026-11-01",
+     "status": "specialist",
+     "route": "Foreign trader's card (carte de commerçant étranger) via SEFI",
+     "detail": "The page says a foreigner can't carry on a commercial, industrial or craft activity without a foreign trader's card (carte de commerçant étranger), valid five years and renewable.",
+     "next": "Ask SEFI whether the planned trading needs the card.",
+     "checked": "2026-11-06",
      "sources": [
       {
        "title": "Code du travail de la Polynésie française, travailleurs étrangers (arts. Lp-5321-1 à Lp-5323-5)",
@@ -489,6 +505,13 @@
        "url": "https://www.gisti.org/spip.php?article2529=",
        "checked": "2026-11-01",
        "supports": "under-3-month work authorisation exemptions (read via a search-index snapshot)"
+      },
+      {
+       "title": "Les travailleurs étrangers",
+       "authority": "Service-Public.pf (Government of French Polynesia)",
+       "url": "https://www.service-public.pf/sefi/service-emploi/les-travailleurs-etrangers/",
+       "checked": "2026-11-06",
+       "supports": "reread 6 Nov 2026"
       }
      ]
     },
@@ -525,16 +548,34 @@
     "research": {
      "status": "confirm-in-writing",
      "route": "French territory rules (to confirm)",
-     "detail": "Short tourist stays are visa-free; work needs a French visa and the territory's own work authorisation.",
+     "detail": "Reread 6 Nov 2026. The page says salaried work needs a work permit, and some employees sent by an employer based outside French Polynesia for missions under three months are exempt, without listing which. It does not name this activity.",
      "next": "Ask the Consulate-General of France in Sydney or the territory's government.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-06",
+     "sources": [
+      {
+       "title": "Les travailleurs étrangers",
+       "authority": "Service-Public.pf (Government of French Polynesia)",
+       "url": "https://www.service-public.pf/sefi/service-emploi/les-travailleurs-etrangers/",
+       "checked": "2026-11-06",
+       "supports": "reread 6 Nov 2026"
+      }
+     ]
     },
     "volunteering": {
      "status": "confirm-in-writing",
      "route": "French territory rules (to confirm)",
-     "detail": "Short tourist stays are visa-free; work needs a French visa and the territory's own work authorisation.",
+     "detail": "Reread 6 Nov 2026. The page says salaried work needs a work permit, and some employees sent by an employer based outside French Polynesia for missions under three months are exempt, without listing which. It does not name this activity.",
      "next": "Ask the Consulate-General of France in Sydney or the territory's government.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-06",
+     "sources": [
+      {
+       "title": "Les travailleurs étrangers",
+       "authority": "Service-Public.pf (Government of French Polynesia)",
+       "url": "https://www.service-public.pf/sefi/service-emploi/les-travailleurs-etrangers/",
+       "checked": "2026-11-06",
+       "supports": "reread 6 Nov 2026"
+      }
+     ]
     }
    },
    "sources": [

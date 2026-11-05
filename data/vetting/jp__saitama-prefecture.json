@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -40,6 +40,22 @@
      "by": "hand",
      "heading": "さいたま市路上喫煙及び空き缶等のポイ捨ての防止に関する条例",
      "penalty_signal": "JPY 2,000 non-penal fine (karyo), after guidance and an order"
+    },
+    {
+     "topic": "drones",
+     "level": "city",
+     "rule": "Flying a drone in Saitama City's parks is banned in principle under Article 4, item 9 of the Saitama City Urban Park Ordinance, because it can endanger people nearby. The page says nothing on exceptions or penalty; the Urban Park Division handles questions.",
+     "source": "https://www.city.saitama.lg.jp/004/006/003/003/p066607.html",
+     "by": "agent",
+     "checked": "2026-11-06"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "level": "city",
+     "rule": "Kawagoe City bans smoking in its street-smoking prohibited zones, which cover areas around stations and busy shopping streets; the penalty is an administrative fine of up to JPY 10,000 (about A$90.23, RBA rate of 30 October 2026). Heated tobacco counts under the zone rules; e-cigarettes are not covered. Designated smoking areas include Honkawagoe Station plaza and the Kawagoe Station east and west exits. Across the city you are asked to refrain from outdoor smoking in public places.",
+     "source": "https://www.city.kawagoe.saitama.jp/kurashi/kankyo/1002758/1002763/1002767.html",
+     "by": "agent",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -56,6 +72,20 @@
      "url": "https://www.city.saitama.lg.jp/001/009/014/p060578.html",
      "checked": "2026-11-05",
      "supports": "zone maps by station (search listing 2026-11-05)"
+    },
+    {
+     "title": "Saitama City: drones in urban parks",
+     "authority": "Saitama City",
+     "url": "https://www.city.saitama.lg.jp/004/006/003/003/p066607.html",
+     "supports": "park drone ban",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Kawagoe City: street smoking",
+     "authority": "Kawagoe City",
+     "url": "https://www.city.kawagoe.saitama.jp/kurashi/kankyo/1002758/1002763/1002767.html",
+     "supports": "zones and fine ceiling",
+     "checked": "2026-11-06"
     }
    ],
    "note": ""

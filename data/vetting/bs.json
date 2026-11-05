@@ -80,6 +80,15 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/bahamas",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "All drones must be registered with the Civil Aviation Authority Bahamas, including a visitor's. For a drone over 249 g the visitor attaches the home-country registration or certificate, a passport photo page scan, arrival and departure dates and the island of use. CAA-B says it needs at least five business days; the authorisation covers arrival to departure dates. A recreational registration fee of US$30 (US$50 expedited) is listed. Customs has its own rules for drones.",
+     "level": "country",
+     "source": "https://caabahamas.com/drone-faqs/",
+     "checked": "2026-11-06",
+     "heading": "Drone registration for visitors",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -89,6 +98,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/bahamas",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone registration for visitors",
+     "authority": "Civil Aviation Authority Bahamas",
+     "url": "https://caabahamas.com/drone-faqs/",
+     "checked": "2026-11-06",
+     "supports": "visitor drone rule"
     }
    ]
   },
@@ -826,6 +842,60 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "CAA-B authorises commercial drone work case by case by written approval; no public register of operators was found on the pages read. Visitors register drones through CAA-B.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "No public list of approved commercial drone operators was found on the CAA-B drone pages read.",
+     "source": "https://caabahamas.com/drones/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Commercial drone operations need written approval from CAA-B before they start. The application asks for insurance, drone registration from the home country, a map, WGS84 coordinates, flight height and local representative details. CAA-B sets the fee after reviewing the application. No pilot-licence level is stated on the page.",
+     "source": "https://caabahamas.com/commercial-drone/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "The commercial form asks for the applicant's nationality and the state or country of registration of the drone, so foreign applicants are contemplated; CAA-B asks for a handling agency or local representative where applicable. Drone work without prior written approval is stated as prohibited.",
+     "source": "https://caabahamas.com/commercial-drone/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "Visitors register a drone with CAA-B before arrival; CAA-B says it needs at least five business days. The Bahamas Customs Department has its own rules for bringing a drone in.",
+     "source": "https://caabahamas.com/drone-faqs/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Commercial Drone",
+     "authority": "Civil Aviation Authority Bahamas",
+     "url": "https://caabahamas.com/commercial-drone/",
+     "checked": "2026-11-06",
+     "supports": "application steps and requirements (page read directly)"
+    },
+    {
+     "title": "Drone FAQs",
+     "authority": "Civil Aviation Authority Bahamas",
+     "url": "https://caabahamas.com/drone-faqs/",
+     "checked": "2026-11-06",
+     "supports": "visitor registration, five business days (page read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

@@ -80,6 +80,15 @@
      "source": "https://www.smartraveller.gov.au/destinations/asia/sri-lanka",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "A visitor bringing a drone for temporary use does not follow the permanent-import process, but must submit a request for flying approval through the CAASL online portal. Third-party insurance minimums apply by drone weight (none up to 0.25 kg). Restricted-area and archaeological-area checks are published by CAASL.",
+     "level": "country",
+     "source": "https://www.caa.lk/en/drones",
+     "checked": "2026-11-06",
+     "heading": "Visitor drones: flying approval",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -89,6 +98,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/sri-lanka",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Visitor drones: flying approval",
+     "authority": "Civil Aviation Authority of Sri Lanka",
+     "url": "https://www.caa.lk/en/drones",
+     "checked": "2026-11-06",
+     "supports": "visitor drone rule"
     }
    ]
   },
@@ -917,6 +933,47 @@
      "supports": "2027 schedule (read via a search-index snapshot)"
     }
    ]
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "CAASL runs an online drone approval system. Commercial and visitor flights need approval, with Ministry of Defence security clearance; no public operator register was found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "No public register of drone operators was found on the CAASL drones page. The page does link a list of CAASL-approved UAS importers, manufacturers, assemblers and maintenance organisations (a download).",
+     "source": "https://www.caa.lk/en/drones",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "CAASL's drones page lists an online drone approval system, manual applications, new rules and restricted-area checks, and sets minimum third-party insurance by drone weight (nil up to 0.25 kg, 100,000 rupees from 0.25 to 0.9 kg, rising by weight class). Pilot-licence levels were not read.",
+     "source": "https://www.caa.lk/en/drones",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "For drones brought in by visiting tourists for temporary use, CAASL says the import process does not apply; the visitor instead submits a request for flying approval through CAASL's online portal.",
+     "source": "https://www.caa.lk/en/drones",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Drones",
+     "authority": "Civil Aviation Authority of Sri Lanka",
+     "url": "https://www.caa.lk/en/drones",
+     "checked": "2026-11-06",
+     "supports": "approval system, insurance, tourist drones (page read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }
