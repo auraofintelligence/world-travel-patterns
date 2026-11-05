@@ -107,6 +107,37 @@
      "supports": "2027 election dates (read directly)"
     }
    ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Medical cannabis is legal in Mississippi for approved medical use only; recreational use and possession remain illegal. Outside the medical program, possessing up to 30 grams is a civil offence (a first offence carries a US$250 fine, about A$355), a second offence may bring the fine plus five to 60 days in jail, and later offences up to US$1,000 and five days to six months. More than 30 grams is a felony (30 to 250 grams: one to three years in prison and up to US$1,000). The state's toolkit sets purchase limits for non-resident (visitor) cardholders at 6 units in 7 days and 12 units in 15 days (1 unit is 3.5 grams of flower); how a visitor becomes a cardholder was not read. Cannabis also stays illegal under US federal law, including on federal land. US$ rates: A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "penalty_signal": "First offence up to 30 g: US$250 civil fine; over 30 g: felony",
+     "level": "state",
+     "source": "https://www.mmcp.ms.gov/sites/default/files/2026/MMCP%20Tool%20Kit%20-%20August%202026/MSDH_Medical_Cannabis_Patient's%20Rights.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Having cannabis in any part of a motor vehicle other than the trunk is a misdemeanour, with a fine up to US$1,000 (about A$1,420) and up to 90 days in jail. Smoking or vaping medical cannabis in public places or inside a motor vehicle is prohibited, and so is driving, boating or flying under its influence. Home growing is not permitted.",
+     "penalty_signal": "Up to US$1,000 and 90 days",
+     "level": "state",
+     "source": "https://www.mmcp.ms.gov/sites/default/files/2026/MMCP%20Tool%20Kit%20-%20August%202026/MSDH_Medical_Cannabis_Patient's%20Rights.pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mississippi Medical Cannabis Program Toolkit: Patient Rights and Applicable Laws (August 2026)",
+     "authority": "Mississippi State Department of Health, Mississippi Medical Cannabis Program",
+     "url": "https://www.mmcp.ms.gov/sites/default/files/2026/MMCP%20Tool%20Kit%20-%20August%202026/MSDH_Medical_Cannabis_Patient's%20Rights.pdf",
+     "checked": "2026-11-06"
+    }
+   ]
   }
  }
 }
