@@ -729,6 +729,43 @@
      "supports": "holidays and Ólavsøka (signal)"
     }
    ]
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Visit Faroe Islands (official tourist board), listing site fees",
+     "process": "Mandatory hiking fees by site: Kallur lighthouse and Trøllanes (Kalsoy) DKK 200 adult, DKK 100 ages 13 to 17, free under 13, no guide included; Trælanípa and Bøsdalafossur DKK 450 adult with guide and brochure, or DKK 200 without a guide; Villingardalsfjall DKK 200 per person, paid into the mailbox at the trail gate; Nólsoy DKK 100 for commercial trips only; Mykines DKK 500 (DKK 400 booked online) from 1 May to 31 August plus the ferry, people over 15, with a mandatory guide. The page says a new Faroese sustainable tourism law will affect these fees and that details may change, so check before going. DKK amounts are not converted to A$ here (no dated rate fetched).",
+     "lead_time_days": 0,
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://www.visitfaroeislands.com/en/see-do/activities/hiking/hiking-fees",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "guide-required",
+     "authority": "Visit Faroe Islands (official tourist board), listing site rules",
+     "process": "Guide required at Drangarnir sea stacks (DKK 600 per person), at Enniberg (a booked guide; no price on the page) and at Mykines (included in the fee).",
+     "lead_time_days": 0,
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://www.visitfaroeislands.com/en/see-do/activities/hiking/hiking-fees",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hiking fees in the Faroe Islands",
+     "authority": "Visit Faroe Islands",
+     "url": "https://www.visitfaroeislands.com/en/see-do/activities/hiking/hiking-fees",
+     "checked": "2026-11-06"
+    }
+   ]
   }
  }
 }

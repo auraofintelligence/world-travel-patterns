@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -14,6 +14,22 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "宿泊税の概要について"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "level": "city",
+     "rule": "Kitakyushu City bans smoking in public places in two designated zones, the Kokura central district and the Kurosaki sub-central district. A person who breaks the ban faces an administrative fine (karyō) of JPY 1,000 (about A$9.02, RBA rate of 30 October 2026). The city says heated tobacco is not yet treated as smoking under this ordinance, so it issues no fines for it.",
+     "source": "https://www.city.kitakyushu.lg.jp/shimin/26800047.html",
+     "by": "agent",
+     "checked": "2026-11-06"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "level": "city",
+     "rule": "Fukuoka City has amended its ordinance for the street no-smoking areas (Tenjin and Ohori, and around Hakata Station) so that it bans all smoking, not only walking while smoking, on roads, in parks and in plazas, and it now includes heated tobacco. The city's page says the start date will be announced once decided and gives no fine on that page, so check the city page before relying on the old walking-smoking rule. Private land is outside the ordinance.",
+     "source": "https://www.city.fukuoka.lg.jp/shimin/jigyochosei/shisei/fkcnss.html",
+     "by": "agent",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -23,6 +39,20 @@
      "url": "https://www.pref.fukuoka.lg.jp/contents/syukuhakuzei.html",
      "checked": "2026-11-05",
      "supports": "rates by city (read directly 2026-11-05)"
+    },
+    {
+     "title": "Kitakyushu City: smoking in public places ordinance",
+     "authority": "Kitakyushu City",
+     "url": "https://www.city.kitakyushu.lg.jp/shimin/26800047.html",
+     "supports": "zones and JPY 1,000 fine",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Fukuoka City: amended street smoking ordinance",
+     "authority": "Fukuoka City",
+     "url": "https://www.city.fukuoka.lg.jp/shimin/jigyochosei/shisei/fkcnss.html",
+     "supports": "scope of amendment; start date not yet set on the page",
+     "checked": "2026-11-06"
     }
    ],
    "note": ""
