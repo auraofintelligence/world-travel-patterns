@@ -114,7 +114,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -142,6 +142,23 @@
      "source": "https://www.historicenvironment.scot/visit/all/maeshowe-chambered-cairn/plan-your-visit/",
      "checked": "2026-11-05",
      "by": "hand"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Loch Lomond and the Trossachs National Park: byelaws on camping and fires apply in the Camping Management Zones from March to September. In that season camping there needs a campsite booking or a permit. Outside the zones the park says wild camping is still possible under the Scottish Outdoor Access Code. The park asks campers to take litter home, to go to the toilet at least 30 metres from open water, people or buildings, and, if they plan a fire, to bring firewood and a firepit and not cut trees or move dead wood. The page names no fine.",
+     "level": "region",
+     "source": "https://www.lochlomond-trossachs.org/things-to-do/camping/need-know-go/",
+     "checked": "2026-11-06",
+     "evidence": "official"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Cairngorms National Park: from 1 April to 30 September each year, fires and barbecues are banned across the park under a fire management byelaw. The park says breaking it could bring a fine of up to GBP 500 (about A$951, RBA 30 Oct 2026). Outside those dates the park asks visitors not to light a fire anywhere, and notes the Scottish Outdoor Access Code says never to light one in woods, on peaty ground, farmland, near buildings or at high fire risk. Wild camping is permitted if done responsibly: small numbers and two or three nights at most in one place.",
+     "level": "region",
+     "source": "https://cairngorms.co.uk/visiting/need-to-know/campfires-and-barbecues",
+     "checked": "2026-11-06",
+     "penalty_signal": "up to GBP 500 (about A$951)",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -172,6 +189,18 @@
      "url": "https://www.historicenvironment.scot/visit/all/maeshowe-chambered-cairn/plan-your-visit/",
      "checked": "2026-11-05",
      "supports": "Maeshowe guided-tour rule (read directly 2026-11-05)"
+    },
+    {
+     "title": "Campfires and barbecues",
+     "authority": "Cairngorms National Park Authority",
+     "url": "https://cairngorms.co.uk/visiting/need-to-know/campfires-and-barbecues",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Wild camping",
+     "authority": "Cairngorms National Park Authority",
+     "url": "https://cairngorms.co.uk/visiting/need-to-know/wild-camping",
+     "checked": "2026-11-06"
     }
    ],
    "note": "From the Scottish Government and the City of Edinburgh Council. Maeshowe rule added 5 November 2026."
@@ -239,6 +268,50 @@
    "checked": "2026-11-05",
    "evidence": "Official pages; read directly unless marked search snapshot.",
    "summary": "Orkney Neolithic sites with HES fees and access rules."
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "activity-permit",
+     "authority": "Loch Lomond & The Trossachs National Park Authority",
+     "process": "Camping Management Zones, made by byelaws in 2017, cover busy lochshores from 1 March to 30 September. In that season you book a campsite, or a permit for a permit area, to camp, or in some areas to stay overnight in a campervan. A permit costs GBP 4.50 per tent or vehicle per night (about A$8.56, RBA 30 Oct 2026, A$1 = GBP 0.5258), for up to three nights in one area, booked up to four weeks ahead. It covers any spot inside the permit area, with no set pitch and no facilities. Tents: arrive from 1pm, leave by 11am. Campervans: the permit runs 7pm to 10am. From 1 October to 28 February no permit is needed. The Authority is reviewing the byelaws, with a public consultation planned for July to September 2026.",
+     "lead_time_days": 0,
+     "activities": [
+      "camping",
+      "campervan"
+     ],
+     "url": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "seasonal-closure",
+     "authority": "Loch Lomond & The Trossachs National Park Authority",
+     "process": "The Authority's own campsites at Loch Chon, Loch Achray, Inchcailloch and Sallochy are closed from 1 October 2026 to 28 February 2027. Outside the Camping Management Zones, wild camping follows the Scottish Outdoor Access Code.",
+     "lead_time_days": 0,
+     "activities": [
+      "camping"
+     ],
+     "url": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Get a permit: camping",
+     "authority": "Loch Lomond & The Trossachs National Park Authority",
+     "url": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "What you need to know before you go: camping",
+     "authority": "Loch Lomond & The Trossachs National Park Authority",
+     "url": "https://www.lochlomond-trossachs.org/things-to-do/camping/need-know-go/",
+     "checked": "2026-11-06"
+    }
+   ]
   }
  }
 }
