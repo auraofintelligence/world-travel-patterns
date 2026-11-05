@@ -506,14 +506,16 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "official",
    "public_holidays": "Not in the machine holiday data: ask locally.",
    "moving_calendars": [
     "Ramadan: about 11 days earlier each year. Expect daytime fasting, shorter business hours and care with eating, drinking and smoking in public."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: UAE public holidays are set by Cabinet Resolution No. 27 of 2024 (https://uaelegislation.gov.ae/en/legislations/2595; summary at https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays). Fixed-date days for 2027, computed from it: Fri 1 Jan New Year; Thu 2 Dec and Fri 3 Dec National Day. Islamic holidays (Eid Al Fitr 1 to 3 Shawwal, Arafah Day 9 Dhu Al Hijjah, Eid Al Adha 10 to 12 Dhu Al Hijjah, Hijri New Year, Prophet's birthday) are set by moon sighting; no 2027 Gregorian dates have been announced in the pages read, so none are given. The Cabinet may move some holidays to the start or end of the week."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -523,6 +525,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/united-arab-emirates",
      "checked": "2026-10-31",
      "supports": "hazard seasons and closures as read on 2026-10-31"
+    },
+    {
+     "title": "Public holidays (Cabinet Resolution 27 of 2024)",
+     "authority": "UAE Government Portal",
+     "url": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays",
+     "checked": "2026-11-06",
+     "supports": "public holiday list and rules"
     }
    ]
   },

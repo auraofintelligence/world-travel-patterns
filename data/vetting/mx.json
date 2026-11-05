@@ -488,14 +488,16 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-11-01",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "9 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [
     "Easter moves each year (next year: 2027-03-26)."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: Mexico compulsory rest days under Ley Federal del Trabajo article 74 (as published by the labour-rights agency Profedet, https://www.gob.mx/profedet/articulos/sabes-cuales-son-los-dias-de-descanso-obligatorio-para-este-2026). 2027 dates worked out from the article: Fri 1 Jan; Mon 1 Feb (first Monday of February, for 5 Feb); Mon 15 Mar (third Monday of March, for 21 Mar); Sat 1 May; Thu 16 Sep; Mon 15 Nov (third Monday of November, for 20 Nov); Sat 25 Dec. 1 Oct is a rest day only in the year the federal executive changes hands every six years (last 2024), so not in 2027. Election days set by electoral law are also rest days."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -505,6 +507,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-11-01",
      "supports": "9 public holidays next year"
+    },
+    {
+     "title": "Dias de descanso obligatorio (LFT art 74)",
+     "authority": "Profedet, Government of Mexico",
+     "url": "https://www.gob.mx/profedet/articulos/sabes-cuales-son-los-dias-de-descanso-obligatorio-para-este-2026",
+     "checked": "2026-11-06",
+     "supports": "fixed-date and Monday rules of article 74"
     }
    ]
   },

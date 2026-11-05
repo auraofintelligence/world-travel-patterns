@@ -359,14 +359,16 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "13 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [
     "Easter moves each year (next year: 2027-03-26, 2027-03-29)."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: UK bank holidays 2027 (GOV.UK, https://www.gov.uk/bank-holidays). England and Wales: 1 Jan; 26 Mar Good Friday; 29 Mar Easter Monday; 3 May; 31 May; 30 Aug; 27 Dec (Christmas Day substitute); 28 Dec (Boxing Day substitute). Scotland: 1 Jan; 4 Jan; 26 Mar; 3 May; 31 May; 2 Aug; 30 Nov St Andrew's Day; 27 Dec; 28 Dec. Northern Ireland: 1 Jan; 17 Mar St Patrick's Day; 26 Mar; 29 Mar; 3 May; 31 May; 12 Jul; 30 Aug; 27 Dec; 28 Dec."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -376,6 +378,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-10-31",
      "supports": "13 public holidays next year"
+    },
+    {
+     "title": "UK bank holidays",
+     "authority": "GOV.UK, UK Government",
+     "url": "https://www.gov.uk/bank-holidays",
+     "checked": "2026-11-06",
+     "supports": "2027 bank holidays by nation"
     }
    ]
   },

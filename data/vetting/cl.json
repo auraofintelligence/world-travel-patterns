@@ -131,14 +131,16 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-11-01",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "17 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [
     "Easter moves each year (next year: 2027-03-26)."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: Chile non-waivable holidays for commerce workers (Direccion del Trabajo, https://www.dt.gob.cl/portal/1628/w3-article-95017.html, citing Ley 19.973 art 2 and later amendments), with 2027 weekdays: Fri 1 Jan; Sat 1 May; Sat 18 Sep; Sun 19 Sep; Sat 25 Dec. This is only the non-waivable subset, not the full list of legal holidays (Ley 2977 and later laws), which was not read here."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -148,6 +150,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-11-01",
      "supports": "17 public holidays next year"
+    },
+    {
+     "title": "Feriados irrenunciables para trabajadores del comercio",
+     "authority": "Direccion del Trabajo, Chile",
+     "url": "https://www.dt.gob.cl/portal/1628/w3-article-95017.html",
+     "checked": "2026-11-06",
+     "supports": "non-waivable holiday dates"
     }
    ]
   },

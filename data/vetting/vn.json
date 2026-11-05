@@ -531,12 +531,14 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "4 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: Vietnam 2027 Tet and National Day arrangements (Ministry of Home Affairs Notice No. 11483/TB-BNV of 9 Oct 2026, approved by the Deputy Prime Minister via Government Office document 10065/VPCP-KGVX of 2 Oct 2026; as reported on the Government policy portal, https://xaydungchinhsach.chinhphu.vn/de-xuat-2-phuong-an-nghi-tet-nguyen-dan-2027-tet-dinh-mui-11926080513033257.htm). Civil servants and public employees: Tet break Thu 4 Feb to Wed 10 Feb 2027 (7 days in a row, including 5 Tet holiday days and 2 days in lieu of weekly rest days); National Day break Thu 2 Sep to Sun 5 Sep 2027 (2 and 3 Sep are the holidays). Private employers choose from three Tet schedules within the 5-day minimum in Labour Code article 112, and take 2 and 3 Sep or 1 and 2 Sep for National Day; they must tell workers 30 days ahead. The ministry notice page itself could not be read, so check it against the portal report."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -546,6 +548,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-10-31",
      "supports": "4 public holidays next year"
+    },
+    {
+     "title": "Notice 11483/TB-BNV on 2027 Tet and National Day leave",
+     "authority": "Ministry of Home Affairs, Vietnam (via Government policy portal)",
+     "url": "https://xaydungchinhsach.chinhphu.vn/de-xuat-2-phuong-an-nghi-tet-nguyen-dan-2027-tet-dinh-mui-11926080513033257.htm",
+     "checked": "2026-11-06",
+     "supports": "2027 Tet and National Day holiday dates"
     }
    ]
   },

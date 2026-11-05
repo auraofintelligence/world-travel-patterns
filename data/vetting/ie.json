@@ -417,14 +417,16 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "11 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [
     "Easter moves each year (next year: 2027-03-26, 2027-03-29)."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: Ireland 2027 public holidays, dates computed from the Organisation of Working Time Act 1997, Second Schedule (https://www.irishstatutebook.ie/eli/1997/act/20/schedule/2/enacted/en/html) and S.I. No. 50/2022 (https://www.irishstatutebook.ie/eli/2022/si/50/made/en/print). The 2027 list has not been read from a government notice; the dates are worked out from the statute: Fri 1 Jan; Mon 1 Feb (St Brigid's Day, first Monday in February); Wed 17 Mar St Patrick's Day; Mon 3 May (first Monday in May); Mon 7 Jun (first Monday in June); Mon 2 Aug (first Monday in August); Mon 25 Oct (last Monday in October); Sat 25 Dec; Sun 26 Dec St Stephen's Day. Easter Monday is also a public holiday; its date follows Easter and is not fixed by the statute, so it is not given here. The Minister may vary the days by regulation."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -434,6 +436,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-10-31",
      "supports": "11 public holidays next year"
+    },
+    {
+     "title": "Organisation of Working Time Act 1997, Second Schedule; S.I. 50/2022",
+     "authority": "Irish Statute Book, Government of Ireland",
+     "url": "https://www.irishstatutebook.ie/eli/1997/act/20/schedule/2/enacted/en/html",
+     "checked": "2026-11-06",
+     "supports": "public holiday rules from which 2027 dates are computed"
     }
    ]
   },

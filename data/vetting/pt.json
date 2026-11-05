@@ -298,14 +298,16 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "17 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [
     "Easter moves each year (next year: 2027-03-26, 2027-03-28)."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: Portugal mandatory public holidays under Codigo do Trabalho article 234 (https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475-73982045): 1 Jan, Good Friday, Easter Sunday, 25 Apr, 1 May, Corpus Christi, 10 Jun, 15 Aug, 5 Oct, 1 Nov, 1 Dec, 8 Dec, 25 Dec. 2027 weekdays of the fixed dates, computed from the article: Fri 1 Jan; Sun 25 Apr; Sat 1 May; Thu 10 Jun; Sun 15 Aug; Tue 5 Oct; Mon 1 Nov; Wed 1 Dec; Wed 8 Dec; Sat 25 Dec. Good Friday, Easter Sunday and Corpus Christi move with Easter and their 2027 dates are not given here. Carnival Tuesday and the municipal holiday are optional under article 235."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -315,6 +317,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-10-31",
      "supports": "17 public holidays next year"
+    },
+    {
+     "title": "Codigo do Trabalho, artigo 234 (Feriados obrigatorios)",
+     "authority": "Diario da Republica, Portugal",
+     "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475-73982045",
+     "checked": "2026-11-06",
+     "supports": "mandatory public holiday list"
     }
    ]
   },

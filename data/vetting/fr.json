@@ -310,14 +310,16 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "11 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [
     "Easter moves each year (next year: 2027-03-29)."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: France 2027 legal public holidays, general case (service-public.fr, the administration's official portal, https://www.service-public.fr/particuliers/vosdroits/F2405): 1 Jan; Mon 29 Mar Easter Monday; 1 May; Thu 6 May Ascension; 8 May; Mon 17 May Whit Monday; 14 Jul; 15 Aug (a Sunday); Mon 1 Nov All Saints; 11 Nov; 25 Dec. The same page lists the same dates for Alsace-Moselle and notes a further local day for overseas departments (date varies)."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -327,6 +329,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-10-31",
      "supports": "11 public holidays next year"
+    },
+    {
+     "title": "Jours feries en 2027",
+     "authority": "service-public.fr, French administration (DILA)",
+     "url": "https://www.service-public.fr/particuliers/vosdroits/F2405",
+     "checked": "2026-11-06",
+     "supports": "2027 legal holiday dates"
     }
    ]
   },

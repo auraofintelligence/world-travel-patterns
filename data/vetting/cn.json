@@ -588,12 +588,14 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "6 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: China 2027 holiday arrangements (General Office of the State Council notice Guobanfa Mingdian [2026] No. 10, published 5 Nov 2026, https://www.gov.cn/zhengce/content/202611/content_7085101.htm): New Year 1 to 3 Jan (3 days); Spring Festival 5 Feb (Lunar New Year's Eve) to 13 Feb (9 days; 31 Jan and 14 Feb are working days); Qingming 3 to 5 Apr; Labour Day 1 to 5 May (5 May Wed; 8 May is a working day); Dragon Boat 9 Jun (1 day); Mid-Autumn 15 Sep (1 day); National Day 1 to 7 Oct (26 Sep and 9 Oct are working days)."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -603,6 +605,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-10-31",
      "supports": "6 public holidays next year"
+    },
+    {
+     "title": "Notice on 2027 holiday arrangements",
+     "authority": "General Office of the State Council, China",
+     "url": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
+     "checked": "2026-11-06",
+     "supports": "2027 holiday and make-up working day dates"
     }
    ]
   },

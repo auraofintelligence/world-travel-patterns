@@ -493,14 +493,16 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "official",
    "public_holidays": "14 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [
     "Ramadan: about 11 days earlier each year. Expect daytime fasting, shorter business hours and care with eating, drinking and smoking in public."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: Turkey national and general holidays are fixed by Law No. 2429 (https://www.mevzuat.gov.tr/mevzuatmetin/1.5.2429.pdf). Dates computed from it for 2027: Fri 1 Jan; Fri 23 Apr; Sat 1 May; Wed 19 May; Thu 15 Jul; Mon 30 Aug; Republic Day Fri 29 Oct, starting at 13:00 on Thu 28 Oct. Ramazan Bayrami lasts 3.5 days and Kurban Bayrami 4.5 days from 13:00 on the eve; their 2027 dates are set by the religious calendar and were not found in a government notice, so none are given. Presidential decisions sometimes add administrative leave around a bayram."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -517,6 +519,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-10-31",
      "supports": "14 public holidays next year"
+    },
+    {
+     "title": "Law No. 2429 on national holidays and general holidays",
+     "authority": "Mevzuat Bilgi Sistemi, Republic of Turkey",
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.2429.pdf",
+     "checked": "2026-11-06",
+     "supports": "fixed national and general holidays"
     }
    ]
   },

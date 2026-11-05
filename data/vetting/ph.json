@@ -534,14 +534,16 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "18 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [
     "Easter moves each year (next year: 2027-03-26)."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: Philippines 2027 (Proclamation No. 1427, 8 Sep 2026, https://lawphil.net/executive/proc/proc2026/proc_1427_2026.html). Regular holidays: 1 Jan; 25 Mar Maundy Thursday; 26 Mar Good Friday; 9 Apr Araw ng Kagitingan; 1 May; 12 Jun Independence Day; 30 Aug National Heroes Day; 30 Nov Bonifacio Day; 25 Dec; 30 Dec Rizal Day. Special non-working days: 21 Aug; 1 Nov; 8 Dec; 31 Dec; also 6 Feb Chinese New Year, 27 Mar Black Saturday, 2 Nov, 24 Dec. 25 Feb (EDSA anniversary) is a special working day. Eid'l Fitr and Eid'l Adha dates come in separate proclamations, not yet issued."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -551,6 +553,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-10-31",
      "supports": "18 public holidays next year"
+    },
+    {
+     "title": "Proclamation No. 1427, s. 2026",
+     "authority": "Office of the President, Philippines (via LawPhil)",
+     "url": "https://lawphil.net/executive/proc/proc2026/proc_1427_2026.html",
+     "checked": "2026-11-06",
+     "supports": "regular holidays and special days for 2027"
     }
    ]
   },

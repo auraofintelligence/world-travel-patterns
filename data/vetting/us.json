@@ -811,7 +811,7 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "17 federal holidays in 2027 in data/calendar (machine data); states add their own.",
    "moving_calendars": [
@@ -823,7 +823,9 @@
     "Diwali (Lakshmi Puja) 2027: about 29 October; regional traditions can shift it by a day."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: US federal holidays 2027 (Office of Personnel Management, https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/): 1 Jan New Year's Day; Mon 18 Jan Martin Luther King Jr. Day; Mon 15 Feb Washington's Birthday; Mon 31 May Memorial Day; Fri 18 Jun Juneteenth (observed, as 19 Jun is a Saturday); Mon 5 Jul Independence Day (observed); Mon 6 Sep Labor Day; Mon 11 Oct Columbus Day; Thu 11 Nov Veterans Day; Thu 25 Nov Thanksgiving; Fri 24 Dec Christmas Day (observed). These are federal government holidays; each state sets its own."
+   ],
    "protocol_notes": [],
    "note": "Tribal nations keep their own calendars and closures; read them place by place.",
    "sources": [
@@ -854,6 +856,13 @@
      "url": "https://www.khaleejtimes.com/uae/ramadan-eid-al-fitr-eid-al-adha-2027-likely-dates",
      "checked": "2026-11-02",
      "supports": "expected 2027 Islamic dates; each country confirms by its own moon sighting"
+    },
+    {
+     "title": "Federal holidays",
+     "authority": "Office of Personnel Management, US Government",
+     "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+     "checked": "2026-11-06",
+     "supports": "2027 federal holiday schedule"
     }
    ]
   },

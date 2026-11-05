@@ -678,14 +678,16 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "11 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [
     "Easter moves each year (next year: 2027-03-26)."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: Singapore public holidays 2027 (Ministry of Manpower, https://www.mom.gov.sg/employment-practices/public-holidays): 1 Jan New Year's Day; 6 and 7 Feb Chinese New Year (Mon 8 Feb is a holiday in lieu if the rest day is 7 Feb); 10 Mar Hari Raya Puasa; 26 Mar Good Friday; 1 May Labour Day; 17 May Hari Raya Haji; 20 May Vesak Day; 9 Aug National Day; 28 Oct Deepavali; 25 Dec Christmas Day."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -695,6 +697,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-10-31",
      "supports": "11 public holidays next year"
+    },
+    {
+     "title": "Public holidays 2027",
+     "authority": "Ministry of Manpower, Singapore",
+     "url": "https://www.mom.gov.sg/employment-practices/public-holidays",
+     "checked": "2026-11-06",
+     "supports": "2027 public holiday dates"
     }
    ]
   },

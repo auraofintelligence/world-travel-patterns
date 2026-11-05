@@ -331,14 +331,16 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-11-01",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "16 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [
     "Easter moves each year (next year: 2027-03-26)."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: Argentina 2027 national holidays, dates worked out from Ley 27.399 (https://servicios.infoleg.gob.ar/infolegInternet/anexos/280000-284999/281835/norma.htm); no 2027 decree has been read, so this is computed from the statute. Fixed: Fri 1 Jan; Wed 24 Mar; Fri 2 Apr; Sat 1 May; Tue 25 May; Sun 20 Jun; Fri 9 Jul; Wed 8 Dec; Sat 25 Dec. Movable under article 6 (Tuesday or Wednesday moves to the previous Monday, Thursday or Friday to the next Monday): 17 Jun (Thu) moves to Mon 21 Jun; 17 Aug (Tue) moves to Mon 16 Aug; 12 Oct (Tue) moves to Mon 11 Oct; 20 Nov falls on a Saturday and article 6 does not say it moves. Carnival Monday and Tuesday and Good Friday follow Easter and are not given here. The executive can add up to three tourism bridge days a year by decree; none for 2027 has been read."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -348,6 +350,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-11-01",
      "supports": "16 public holidays next year"
+    },
+    {
+     "title": "Ley 27.399 Feriados nacionales",
+     "authority": "InfoLEG, Ministerio de Justicia, Argentina",
+     "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/280000-284999/281835/norma.htm",
+     "checked": "2026-11-06",
+     "supports": "fixed and movable national holiday rules"
     }
    ]
   },

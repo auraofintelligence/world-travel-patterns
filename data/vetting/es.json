@@ -444,14 +444,16 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "32 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [
     "Easter moves each year (next year: 2027-03-26, 2027-03-29)."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: Spain 2027 national holidays (Resolution of 8 Oct 2026, Directorate-General of Labour, BOE 13 Oct 2026, BOE-A-2026-21254, https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21254): 1 Jan; 6 Jan; 26 Mar Good Friday; 1 May; 12 Oct; 1 Nov; 6 Dec; 8 Dec; 25 Dec. 15 Aug falls on a Sunday. Most regions also keep 25 Mar Maundy Thursday; some keep 29 Mar Easter Monday. Each autonomous community adds its own days and municipalities up to two local days; see the Resolution annex."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -461,6 +463,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-10-31",
      "supports": "32 public holidays next year"
+    },
+    {
+     "title": "Relacion de fiestas laborales para 2027",
+     "authority": "Direccion General de Trabajo, Spain (BOE)",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21254",
+     "checked": "2026-11-06",
+     "supports": "2027 national and regional holidays"
     }
    ]
   },

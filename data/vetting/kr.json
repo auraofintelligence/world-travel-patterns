@@ -507,12 +507,14 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "17 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: South Korea 2027 public holidays (Korea Astronomy and Space Science Institute almanac data, https://astro.kasi.re.kr/kor/life/post/calendarData?year=2027; the page is labelled data from before the formal announcement, and a notice of the 2027 almanac by the Korea AeroSpace Administration, no. 2026-0078 of 29 Jun 2026, was reported but not read directly): 1 Jan; 6 to 8 Feb Lunar New Year, with 9 Feb a substitute day; 1 Mar; 1 May Labour Day, with 3 May a substitute day; 5 May Children's Day; 13 May Buddha's Birthday; 6 Jun Memorial Day; 17 Jul Constitution Day, with 19 Jul a substitute day; 15 Aug Liberation Day, with 16 Aug a substitute day; 14 to 16 Sep Chuseok; 3 Oct National Foundation Day, with 4 Oct a substitute day; 9 Oct Hangul Day, with 11 Oct a substitute day; 25 Dec, with 27 Dec a substitute day."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -522,6 +524,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-10-31",
      "supports": "17 public holidays next year"
+    },
+    {
+     "title": "Almanac data 2027 (Wolryeok Yoyo)",
+     "authority": "Korea Astronomy and Space Science Institute",
+     "url": "https://astro.kasi.re.kr/kor/life/post/calendarData?year=2027",
+     "checked": "2026-11-06",
+     "supports": "2027 public holiday dates"
     }
    ]
   },

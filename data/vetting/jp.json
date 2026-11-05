@@ -527,12 +527,14 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "16 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: Japan national holidays 2027 (Cabinet Office, https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html): 1 Jan; 11 Jan Coming of Age Day; 11 Feb National Foundation Day; 23 Feb Emperor's Birthday; 21 Mar Vernal Equinox Day, with 22 Mar a substitute holiday; 29 Apr Showa Day; 3 May Constitution Day; 4 May Greenery Day; 5 May Children's Day; 19 Jul Marine Day; 11 Aug Mountain Day; 20 Sep Respect for the Aged Day; 23 Sep Autumnal Equinox Day; 11 Oct Sports Day; 3 Nov Culture Day; 23 Nov Labour Thanksgiving Day."
+   ],
    "protocol_notes": [],
    "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
    "sources": [
@@ -542,6 +544,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-10-31",
      "supports": "16 public holidays next year"
+    },
+    {
+     "title": "National holidays 2026 and 2027",
+     "authority": "Cabinet Office, Japan",
+     "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+     "checked": "2026-11-06",
+     "supports": "2027 national holiday list"
     }
    ]
   },

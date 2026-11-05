@@ -732,7 +732,7 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "public_holidays": "31 national and provincial holidays in 2027 in data/calendar (machine data; provincial ones marked by province).",
    "moving_calendars": [
@@ -744,7 +744,9 @@
     "Diwali (Lakshmi Puja) 2027: about 29 October; regional traditions can shift it by a day."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "official: Canada federal statutory holidays (Canada Labour Code s 166, https://laws-lois.justice.gc.ca/eng/acts/L-2/section-166.html): New Year's Day, Good Friday, Victoria Day, Canada Day, Labour Day, National Day for Truth and Reconciliation (30 Sep), Thanksgiving Day, Remembrance Day, Christmas Day and Boxing Day. 2027 dates worked out from the statute and the Interpretation Act s 35 (https://laws-lois.justice.gc.ca/eng/acts/i-21/section-35.html): Fri 1 Jan; Thu 1 Jul; Mon 6 Sep Labour Day (first Monday in September); Thu 30 Sep; Thu 11 Nov; Sat 25 Dec; Sun 26 Dec. Good Friday, Victoria Day and Thanksgiving dates are not set out in the pages read, so they are not given here. These apply to federally regulated workplaces; provinces and territories set their own."
+   ],
    "protocol_notes": [],
    "note": "First Nations, Inuit and Métis communities keep their own calendars and closures; read them place by place.",
    "sources": [
@@ -775,6 +777,13 @@
      "url": "https://www.khaleejtimes.com/uae/ramadan-eid-al-fitr-eid-al-adha-2027-likely-dates",
      "checked": "2026-11-02",
      "supports": "expected 2027 Islamic dates; each country confirms by its own moon sighting"
+    },
+    {
+     "title": "Canada Labour Code s 166; Interpretation Act s 35",
+     "authority": "Department of Justice Canada",
+     "url": "https://laws-lois.justice.gc.ca/eng/acts/L-2/section-166.html",
+     "checked": "2026-11-06",
+     "supports": "federal general holidays and fixed-date rules"
     }
    ]
   },
