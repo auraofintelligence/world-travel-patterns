@@ -47,6 +47,78 @@
      "supports": "2026 Sanyuesan holiday notice (search-index snapshot)"
     }
    ]
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "transport-control",
+     "authority": "Immigration management bodies and public security, Guangxi Zhuang Autonomous Region",
+     "process": "People and vehicles entering or leaving a border management zone in Guangxi (areas along the Vietnam border that the state has published for special management) must carry valid papers and accept checks by immigration management bodies. Overseas residents who enter through a Guangxi border port and travel on to non-border areas must carry valid papers.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/bjhysws_674671/bhflfg/ldbjglxgfl/202303/P020240816594254872620.pdf",
+     "checked": "2026-11-05"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Immigration management bodies and public security, Guangxi Zhuang Autonomous Region",
+     "process": "Approved surveying, scientific study, or film and television shooting within 2 kilometres of the national border must be reported to the local immigration management body and public security before it starts. Going onto a border river, lake or stream needs approval or filing with the relevant authority, and a report to public security before the activity.",
+     "lead_time_days": null,
+     "activities": [
+      "filming",
+      "research",
+      "boating"
+     ],
+     "url": "https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/bjhysws_674671/bhflfg/ldbjglxgfl/202303/P020240816594254872620.pdf",
+     "checked": "2026-11-05"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Guangxi Zhuang Autonomous Region Border Security Management Regulations (广西壮族自治区边防治安管理条例), 2017, amended 24 November 2023",
+     "authority": "Standing Committee of the Guangxi Zhuang Autonomous Region People's Congress (text hosted by the Ministry of Foreign Affairs of China)",
+     "url": "https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/bjhysws_674671/bhflfg/ldbjglxgfl/202303/P020240816594254872620.pdf",
+     "checked": "2026-11-05",
+     "supports": "articles 15, 17, 20, 21, 22, 30, 32 and 36 (read directly 2026-11-05)"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "filming",
+     "rule": "Film or television shooting within 2 kilometres of the national border in Guangxi, even when approved, must be reported to immigration management and public security before it starts. Not reporting, or not following their directions: an order to correct, a warning, and a possible fine up to CNY 500 (about A$107). AUD at the RBA rate of 30 October 2026 (A$1 = CNY 4.6877).",
+     "penalty_signal": "up to CNY 500",
+     "level": "state",
+     "source": "https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/bjhysws_674671/bhflfg/ldbjglxgfl/202303/P020240816594254872620.pdf",
+     "checked": "2026-11-05"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "In Guangxi border management zones it is prohibited to damage, remove or move boundary markers; to dig, farm or build in the border sight line (the cleared strip along the boundary); to open a road or track to the border line; or to cross the border to bury, cut trees, graze, farm or hunt. On border rivers, crossing the line to fish or transport, or mooring on the far side, is prohibited. Fine up to CNY 500 (about A$107) with a warning; serious cases CNY 500 to 5,000 (about A$107 to A$1,067). AUD at the RBA rate of 30 October 2026 (A$1 = CNY 4.6877).",
+     "penalty_signal": "up to CNY 5,000",
+     "level": "state",
+     "source": "https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/bjhysws_674671/bhflfg/ldbjglxgfl/202303/P020240816594254872620.pdf",
+     "checked": "2026-11-05"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Guangxi Zhuang Autonomous Region Border Security Management Regulations (广西壮族自治区边防治安管理条例), 2017, amended 24 November 2023",
+     "authority": "Standing Committee of the Guangxi Zhuang Autonomous Region People's Congress (text hosted by the Ministry of Foreign Affairs of China)",
+     "url": "https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/bjhysws_674671/bhflfg/ldbjglxgfl/202303/P020240816594254872620.pdf",
+     "checked": "2026-11-05",
+     "supports": "articles 15, 17, 20, 21, 22, 30, 32 and 36 (read directly 2026-11-05)"
+    }
+   ]
   }
  }
 }

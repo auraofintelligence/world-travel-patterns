@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-04",
+   "checked": "2026-11-05",
    "evidence": "official",
    "laws": [
     {
@@ -12,6 +12,30 @@
      "level": "region",
      "source": "https://www.smartraveller.gov.au/destinations/asia/china",
      "checked": "2026-11-04"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Entering a border management zone without valid papers (for a foreigner: passport and border management zone pass): a warning, and a fine of CNY 500 to 1,000 (about A$107 to A$213); serious cases CNY 1,000 to 5,000 (about A$213 to A$1,067). Refusing or avoiding a border checkpoint: a warning or a fine up to CNY 200 (about A$43); serious cases CNY 200 to 500. AUD at the RBA rate of 30 October 2026 (A$1 = CNY 4.6877).",
+     "penalty_signal": "CNY 500 to 5,000",
+     "level": "region",
+     "source": "https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/bjhysws_674671/bhflfg/ldbjglxgfl/202303/P020230313587555205696.pdf",
+     "checked": "2026-11-05"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "A foreigner entering the border strip (within 2 kilometres of the national border) without approval, or anyone entering a border special control zone without approval: a fine of CNY 2,000 to 5,000 (about A$427 to A$1,067); serious cases CNY 5,000 to 20,000 (about A$1,067 to A$4,266). AUD at the RBA rate of 30 October 2026 (A$1 = CNY 4.6877).",
+     "penalty_signal": "CNY 2,000 to 20,000",
+     "level": "region",
+     "source": "https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/bjhysws_674671/bhflfg/ldbjglxgfl/202303/P020230313587555205696.pdf",
+     "checked": "2026-11-05"
+    },
+    {
+     "topic": "photography",
+     "rule": "Surveying, photography or scientific study in the border strip without reporting first to the border management body and PLA border forces, or outside the area they set: a fine of CNY 5,000 to 10,000 (about A$1,067 to A$2,133); serious cases CNY 10,000 to 30,000 (about A$2,133 to A$6,400). Aerial photography follows national rules. AUD at the RBA rate of 30 October 2026 (A$1 = CNY 4.6877).",
+     "penalty_signal": "CNY 5,000 to 30,000",
+     "level": "region",
+     "source": "https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/bjhysws_674671/bhflfg/ldbjglxgfl/202303/P020230313587555205696.pdf",
+     "checked": "2026-11-05"
     }
    ],
    "sources": [
@@ -21,8 +45,58 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/china",
      "checked": "2026-11-04",
      "supports": "Xinjiang security checks and restrictions (read directly). A Chinese government source is not yet found."
+    },
+    {
+     "title": "Xinjiang Uyghur Autonomous Region Border Management Regulations (新疆维吾尔自治区边境管理条例), revised 30 November 2022",
+     "authority": "Standing Committee of the Xinjiang Uyghur Autonomous Region People's Congress (text hosted by the Ministry of Foreign Affairs of China)",
+     "url": "https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/bjhysws_674671/bhflfg/ldbjglxgfl/202303/P020230313587555205696.pdf",
+     "checked": "2026-11-05",
+     "supports": "border zone papers, border strip, photography, penalties, articles 19, 26, 33, 34, 36, 37 (read directly 2026-11-05)"
     }
    ]
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-05",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "entry-permit",
+     "authority": "Public security bureaus at county level or above (border management bodies), Xinjiang Uyghur Autonomous Region",
+     "process": "Foreigners entering a border management zone in Xinjiang must carry their passport and a border management zone pass (边境管理区通行证), and accept checks. Border management zones are published areas along the border: the border townships and farms, the 2-kilometre border strip, ports, border crossings, cross-border trade zones, border markets and border tourist sites. Foreigners apply at a public security bureau at county level or above; a complete application is processed on the spot, and the pass is free. Children under 16 travel on the holder's pass. People leaving or entering China through a border port inside the zone use their travel documents instead.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/bjhysws_674671/bhflfg/ldbjglxgfl/202303/P020230313587555205696.pdf",
+     "checked": "2026-11-05"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "Xinjiang Uyghur Autonomous Region border management bodies and PLA border forces",
+     "process": "Foreigners may not enter the border strip (the land within 2 kilometres of the national border) without approval. Surveying, photography and scientific study in the border strip must be reported in advance to the local border management body and the PLA border forces and kept within the area they set; aerial photography follows national rules. Border special control zones (temporary special-control areas inside a border management zone) may not be entered without approval.",
+     "lead_time_days": null,
+     "activities": [
+      "all",
+      "photography",
+      "filming",
+      "research",
+      "drones"
+     ],
+     "url": "https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/bjhysws_674671/bhflfg/ldbjglxgfl/202303/P020230313587555205696.pdf",
+     "checked": "2026-11-05"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Xinjiang Uyghur Autonomous Region Border Management Regulations (新疆维吾尔自治区边境管理条例), revised 30 November 2022, in force 8 December 2022",
+     "authority": "Standing Committee of the Xinjiang Uyghur Autonomous Region People's Congress (text hosted by the Ministry of Foreign Affairs of China)",
+     "url": "https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/bjhysws_674671/bhflfg/ldbjglxgfl/202303/P020230313587555205696.pdf",
+     "checked": "2026-11-05",
+     "supports": "articles 6, 19, 20, 26, 33 to 37 and 41 (read directly 2026-11-05)"
+    }
+   ],
+   "note": "Which townships are border management zones is published by the region and was not checked. Local police can confirm whether a pass is needed for a given route."
   }
  }
 }
