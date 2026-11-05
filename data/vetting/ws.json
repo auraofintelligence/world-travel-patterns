@@ -85,6 +85,15 @@
      "level": "country",
      "source": "https://www.smartraveller.gov.au/destinations/pacific/samoa",
      "checked": "2026-10-31"
+    },
+    {
+     "topic": "drones",
+     "rule": "A drone permit is needed from the Ministry (RPAS Part 101 and Part 102). Apply by email or mail with a cover letter at least seven working days before flying; processing takes at least five working days. Give operator ID (passport page or driver licence), drone make, model and serial, purpose, schedule, location and where you are staying in Samoa. Fees on the Rev 12 form: WST 200 per drone for commercial or other use, WST 100 for leisure. Insurance is needed for commercial flights or within 4 km of an aerodrome.",
+     "level": "country",
+     "source": "https://www.mwti.gov.ws/wp-content/uploads/2025/10/Samoa-Drone-permit-application-241025-Rev-12.pdf",
+     "checked": "2026-11-06",
+     "heading": "Drone permit",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -94,6 +103,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/pacific/samoa",
      "checked": "2026-10-31",
      "supports": "entry, local laws, customs, money and consular contacts as read on 2026-10-31"
+    },
+    {
+     "title": "Drone permit",
+     "authority": "Ministry of Works, Transport and Infrastructure, Samoa",
+     "url": "https://www.mwti.gov.ws/wp-content/uploads/2025/10/Samoa-Drone-permit-application-241025-Rev-12.pdf",
+     "checked": "2026-11-06",
+     "supports": "visitor drone rule"
     }
    ]
   },
@@ -895,6 +911,54 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; heritage laws are not yet read (see national.read)."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "Samoa's Ministry of Works, Transport and Infrastructure issues drone permits under RPAS Part 101 and Unmanned Aircraft Operator Part 102. Applicants, including visitors, apply by email or mail with a cover letter; no public operator register was found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "No public list of permit holders was found on the Ministry's civil aviation pages.",
+     "source": "https://www.mwti.gov.ws/civil-aviation-2/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Commercial operators give a business licence and drone insurance; flights within 4 km of an aerodrome or drones over 25 kg need an operations exposition (a formal operations document). Drone licence or qualifications are listed as 'if applicable'. Fees: WST 200 per drone for commercial or other use, WST 100 for leisure use.",
+     "source": "https://www.mwti.gov.ws/wp-content/uploads/2025/10/Samoa-Drone-permit-application-241025-Rev-12.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "The form is a single process for all applicants: operator name as on ID, passport bio page or driver licence, drone make, model and serial, purpose, dates and places, and the address or accommodation in Samoa. Submit at least seven working days ahead; allow at least five working days for processing once complete.",
+     "source": "https://www.mwti.gov.ws/wp-content/uploads/2025/10/Samoa-Drone-permit-application-241025-Rev-12.pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Drone permit application requirements (Rev 12, 24 October 2025)",
+     "authority": "Ministry of Works, Transport and Infrastructure, Samoa",
+     "url": "https://www.mwti.gov.ws/wp-content/uploads/2025/10/Samoa-Drone-permit-application-241025-Rev-12.pdf",
+     "checked": "2026-11-06",
+     "supports": "permit requirements, fees, timing (PDF read directly; the forms page lists a newer Rev 13 of 30 March 2026 not read)"
+    },
+    {
+     "title": "Civil Aviation forms",
+     "authority": "Ministry of Works, Transport and Infrastructure, Samoa",
+     "url": "https://www.mwti.gov.ws/civil-aviation-2/",
+     "checked": "2026-11-06",
+     "supports": "forms list (page read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

@@ -1019,6 +1019,48 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; heritage laws are not yet read (see national.read)."
+  },
+  "drone-pilot-pathway": {
+   "status": "unknown",
+   "summary": "Brunei's Department of Civil Aviation has an Unmanned Aircraft Section with a drone registration form (registration only, not a licence). The pages read give no operator list or visitor rule.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-licence",
+     "text": "The DCA's drone registration form says it is only a registration and not a drone licence. What licence or permit commercial work needs was not found on the pages read.",
+     "source": "https://www.dca.gov.bn/wp-content/uploads/2026/07/Form-UAS001-Unmanned-Aircraft-Registration-V01-August-2023.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "Not yet checked: the form asks for an IC or passport number, so non-residents may be able to register, but no visitor rule was read.",
+     "source": "https://www.dca.gov.bn/wp-content/uploads/2026/07/Form-UAS001-Unmanned-Aircraft-Registration-V01-August-2023.pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Form UAS001 Drone registration application",
+     "authority": "Department of Civil Aviation, Brunei Darussalam",
+     "url": "https://www.dca.gov.bn/wp-content/uploads/2026/07/Form-UAS001-Unmanned-Aircraft-Registration-V01-August-2023.pdf",
+     "checked": "2026-11-06",
+     "supports": "registration is not a licence (PDF read directly)"
+    },
+    {
+     "title": "Forms",
+     "authority": "Department of Civil Aviation, Brunei Darussalam",
+     "url": "https://www.dca.gov.bn/forms/",
+     "checked": "2026-11-06",
+     "supports": "lists two Unmanned Aircraft (drone) forms (page read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }
