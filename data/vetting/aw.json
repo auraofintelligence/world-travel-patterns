@@ -533,8 +533,8 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "checked": "2026-11-05",
-   "evidence": "signal",
+   "checked": "2026-11-06",
+   "evidence": "official",
    "sources": [
     {
      "title": "Currency (P38) with ISO 4217 code (P498)",
@@ -542,9 +542,17 @@
      "url": "https://www.wikidata.org/wiki/Property:P38",
      "checked": "2026-11-01",
      "supports": "currencies in use"
+    },
+    {
+     "title": "About us: a brief history of the bank",
+     "authority": "Centrale Bank van Aruba",
+     "url": "https://www.cbaruba.org/about-us-a-brief-history-of-the-bank",
+     "checked": "2026-11-06",
+     "supports": "florin pegged at Afl. 1.79 = US$1.00 since 1986"
     }
    ],
-   "currency": "Aruban florin (AWG)"
+   "currency": "Aruban florin (AWG)",
+   "cash_card_notes": "Peg: the Central Bank of Aruba states the Aruban florin has been fixed to the US dollar at Afl. 1.79 = US$1.00 since it was introduced in 1986, and the rate has not changed."
   },
   "consular": {
    "checked": "2026-11-01",

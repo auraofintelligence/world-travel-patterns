@@ -472,8 +472,8 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "checked": "2026-11-05",
-   "evidence": "signal",
+   "checked": "2026-11-06",
+   "evidence": "official",
    "sources": [
     {
      "title": "Currency (P38) with ISO 4217 code (P498)",
@@ -488,10 +488,18 @@
      "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
      "checked": "2026-11-01",
      "supports": "A$ exchange rates on 30 October 2026"
+    },
+    {
+     "title": "Declaring cash",
+     "authority": "States of Guernsey (Customs and Immigration)",
+     "url": "https://www.gov.gg/152734",
+     "checked": "2026-11-06",
+     "supports": "cash declaration at GBP 10,000"
     }
    ],
    "currency": "pound sterling (GBP)",
-   "rate_and_date": "A$1 = 0.5258 GBP (Reserve Bank of Australia, 30 October 2026)"
+   "rate_and_date": "A$1 = 0.5258 GBP (Reserve Bank of Australia, 30 October 2026)",
+   "cash_card_notes": "Cash declaration: Guernsey Customs & Immigration Service requires anyone entering or leaving the Bailiwick of Guernsey with cash worth GBP 10,000 or more, in any currency, to declare it at a Customs red point, online or on a paper form. GBP 10,000 is about A$19,019 at the RBA rate of 30 October 2026 (A$1 = GBP 0.5258). Cash includes notes and coins, bankers' drafts, cheques (including travellers' cheques), bullion and postage stamps. Undeclared or suspect cash can be seized. The page doesn't mention Guernsey notes separately."
   },
   "culture-and-protocol": {
    "checked": "2026-11-01",

@@ -521,6 +521,38 @@
      "supports": "ETA covers Sark (search-index snapshot)"
     }
    ]
+  },
+  "money-and-cost": {
+   "status": "noted",
+   "checked": "2026-11-06",
+   "evidence": "signal",
+   "currency": "pound sterling (GBP); Guernsey pound notes and coins also circulate",
+   "cash_card_notes": "Currency: reference sources describe the Guernsey pound as a local issue of sterling notes and coins, in currency union with the UK since 1921, and Sark as using sterling; no Sark or Guernsey government page confirming this was read, so treat it as a signal. Cash declaration: the States of Guernsey page says anyone entering or leaving the Bailiwick of Guernsey with cash worth GBP 10,000 or more, in any currency, must declare it at a Customs red point. GBP 10,000 is about A$19,019 at the RBA rate of 30 October 2026 (A$1 = GBP 0.5258). That page doesn't name Sark, so check how it applies to travel to and from Sark.",
+   "daily_cost_aud": null,
+   "rate_and_date": "A$1 = 0.5258 GBP (Reserve Bank of Australia, 30 October 2026)",
+   "sources": [
+    {
+     "title": "Declaring cash",
+     "authority": "States of Guernsey (Customs and Immigration)",
+     "url": "https://www.gov.gg/152734",
+     "checked": "2026-11-06",
+     "supports": "cash declaration at GBP 10,000 for the Bailiwick of Guernsey"
+    },
+    {
+     "title": "Guernsey pound",
+     "authority": "Signal: Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Guernsey_pound",
+     "checked": "2026-11-06",
+     "supports": "Guernsey pound as a local issue of sterling"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
+     "checked": "2026-11-06",
+     "supports": "A$ exchange rates on 30 October 2026"
+    }
+   ]
   }
  }
 }

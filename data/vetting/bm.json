@@ -588,8 +588,8 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "checked": "2026-11-05",
-   "evidence": "signal",
+   "checked": "2026-11-06",
+   "evidence": "official",
    "sources": [
     {
      "title": "Currency (P38) with ISO 4217 code (P498)",
@@ -597,9 +597,17 @@
      "url": "https://www.wikidata.org/wiki/Property:P38",
      "checked": "2026-11-01",
      "supports": "currencies in use"
+    },
+    {
+     "title": "Importing and exporting: declaring goods and cash",
+     "authority": "Government of Bermuda (Customs)",
+     "url": "https://www.gov.bm/declaring-goods-customs",
+     "checked": "2026-11-06",
+     "supports": "cash declaration threshold BDA$10,000"
     }
    ],
-   "currency": "Bermudian dollar (BMD)"
+   "currency": "Bermudian dollar (BMD)",
+   "cash_card_notes": "Cash declaration: Bermuda Customs requires a Customs Traveller Declaration for accompanied personal cash or negotiable instruments above BDA$10,000 (or the foreign-currency equivalent); no declaration is needed at BDA$10,000 or less. Cash that isn't accompanied personal money, and any cash sent by post, courier or cargo, goes on a Bermuda Customs Declaration in any amount. Cash declarations can't be lodged electronically. On US-precleared flights, more than US$10,000 also needs the US currency reporting form."
   },
   "consular": {
    "checked": "2026-11-01",

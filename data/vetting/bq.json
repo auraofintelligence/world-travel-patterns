@@ -537,8 +537,8 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "checked": "2026-11-05",
-   "evidence": "signal",
+   "checked": "2026-11-06",
+   "evidence": "official",
    "sources": [
     {
      "title": "Currency (P38) with ISO 4217 code (P498)",
@@ -553,10 +553,18 @@
      "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
      "checked": "2026-11-01",
      "supports": "A$ exchange rates on 30 October 2026"
+    },
+    {
+     "title": "Betalingsverkeer in Caribisch Nederland",
+     "authority": "De Nederlandsche Bank (DNB)",
+     "url": "https://www.dnb.nl/caribisch-nederland/betalingsverkeer/",
+     "checked": "2026-11-06",
+     "supports": "US dollar legal tender since 2011, notes, coins and ATMs"
     }
    ],
    "currency": "United States dollar (USD)",
-   "rate_and_date": "A$1 = 0.704 USD (Reserve Bank of Australia, 30 October 2026)"
+   "rate_and_date": "A$1 = 0.704 USD (Reserve Bank of Australia, 30 October 2026)",
+   "cash_card_notes": "Legal tender: the US dollar has been the legal tender of Bonaire, Sint Eustatius and Saba since 1 January 2011, replacing the Netherlands Antillean guilder. Notes of US$1, 2, 5, 10, 20, 50 and 100 are legal tender; coins above US$1 are not. De Nederlandsche Bank put new ATMs on Saba and Sint Eustatius in June 2026 that dispense US$10 and US$20 notes; the page says the machines accept local and major international cards, and your own bank may charge a fee. The ATMs don't take deposits or give coins yet."
   },
   "consular": {
    "checked": "2026-11-01",

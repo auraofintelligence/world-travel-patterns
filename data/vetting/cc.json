@@ -251,8 +251,8 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "checked": "2026-11-05",
-   "evidence": "signal",
+   "checked": "2026-11-06",
+   "evidence": "official",
    "sources": [
     {
      "title": "Currency (P38) with ISO 4217 code (P498)",
@@ -267,10 +267,18 @@
      "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
      "checked": "2026-11-01",
      "supports": "A$ exchange rates on 30 October 2026"
+    },
+    {
+     "title": "Reporting international movements of cash and non-cash currency",
+     "authority": "Reserve Bank of Australia (citing AUSTRAC rules)",
+     "url": "https://www.rba.gov.au/fin-services/resources/cash-report.html",
+     "checked": "2026-11-06",
+     "supports": "report physical currency of A$10,000 or more into or out of Australia"
     }
    ],
    "currency": "Australian dollar (AUD)",
-   "rate_and_date": "Australian dollar: no exchange needed"
+   "rate_and_date": "Australian dollar: no exchange needed",
+   "cash_card_notes": "Cash report: Australia's rules require a report for physical currency of A$10,000 or more (or the foreign equivalent) moved into or out of Australia, with no limit on the amount carried. Bearer negotiable instruments such as cheques have no dollar threshold and must be disclosed. The page doesn't say how it applies on trips between the mainland and this external territory, so confirm with Australian Border Force."
   },
   "local-law": {
    "status": "partly-mapped",

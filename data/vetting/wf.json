@@ -645,7 +645,7 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "checked": "2026-11-05",
+   "checked": "2026-11-06",
    "evidence": "signal",
    "sources": [
     {
@@ -668,10 +668,25 @@
      "url": "https://www.ieom.fr/",
      "checked": "2026-11-05",
      "supports": "Institut d'émission d'outre-mer rate on 2026-10-30"
+    },
+    {
+     "title": "Vous voyagez avec des sommes, des titres ou des valeurs d'un montant egal ou superieur a 10 000 euros",
+     "authority": "Douane francaise (French Customs)",
+     "url": "https://www.douane.gouv.fr/demarche/vous-voyagez-avec-des-sommes-des-titres-ou-des-valeurs-dun-montant-egal-ou-superieur-10",
+     "checked": "2026-11-06",
+     "supports": "cash declaration threshold, scope and penalties"
+    },
+    {
+     "title": "Rapport d'information sur l'outre-mer et l'euro (franc CFP, parite fixe)",
+     "authority": "Assemblee nationale (found by search, parity figure not reread)",
+     "url": "https://www.assemblee-nationale.fr/13/pdf/europe/rap-info/i2270.pdf",
+     "checked": "2026-11-06",
+     "supports": "fixed parity 1,000 XPF = 8.38 EUR"
     }
    ],
    "currency": "CFP Franc (XPF)",
-   "rate_and_date": "A$1 = about 75.0954 XPF (Institut d'émission d'outre-mer, 30 October 2026, crossed via the RBA EUR rate of 30 October 2026; no RBA rate for XPF)"
+   "rate_and_date": "A$1 = about 75.0954 XPF (Institut d'émission d'outre-mer, 30 October 2026, crossed via the RBA EUR rate of 30 October 2026; no RBA rate for XPF)",
+   "cash_card_notes": "Cash declaration: French Customs requires anyone carrying cash, bearer negotiable instruments, prepaid cards or gold worth 10,000 euros or more (or the equivalent) to declare it, whether or not they live in France. 10,000 euros is about A$15,891 at the RBA rate of 30 October 2026 (A$1 = EUR 0.6293). Amounts of 50,000 euros or more also need proof of where the money came from. Declare online (the DALIA service, up to 30 days ahead) or on a paper form. Failing to declare can bring a fine of up to 50% of the amount and seizure of the cash. The page names Wallis and Futuna as an overseas collectivity, where Article L722-6 applies with its own dedicated form. The local currency is the CFP franc (XPF), issued through the Institut d'emission d'outre-mer. A French National Assembly report found by search (not reread in full) gives a fixed parity of 1,000 CFP francs = 8.38 euros."
   },
   "consular": {
    "checked": "2026-11-01",

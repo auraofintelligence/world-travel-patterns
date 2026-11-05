@@ -560,8 +560,8 @@
   },
   "money-and-cost": {
    "status": "noted",
-   "checked": "2026-11-05",
-   "evidence": "signal",
+   "checked": "2026-11-06",
+   "evidence": "official",
    "sources": [
     {
      "title": "Currency (P38) with ISO 4217 code (P498)",
@@ -576,10 +576,18 @@
      "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
      "checked": "2026-11-01",
      "supports": "A$ exchange rates on 30 October 2026"
+    },
+    {
+     "title": "Cash allowances",
+     "authority": "Turks and Caicos Islands Border Force",
+     "url": "https://borderforce.gov.tc/cash-allowances",
+     "checked": "2026-11-06",
+     "supports": "declaration threshold US$10,000"
     }
    ],
    "currency": "United States dollar (USD)",
-   "rate_and_date": "A$1 = 0.704 USD (Reserve Bank of Australia, 30 October 2026)"
+   "rate_and_date": "A$1 = 0.704 USD (Reserve Bank of Australia, 30 October 2026)",
+   "cash_card_notes": "Cash declaration: the Turks and Caicos Islands Border Force requires a declaration for more than US$10,000 (or the equivalent) carried in or out, on a Report of International Transportation of Money form given to an officer. It covers notes, coins, bearer bonds, cheques, money orders and gold coins or bullion. US$10,000 is about A$14,205 at the RBA rate of 30 October 2026 (A$1 = USD 0.7040). Undeclared cash can be seized and legal action taken."
   },
   "consular": {
    "checked": "2026-11-01",
