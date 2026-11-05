@@ -95,6 +95,15 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/trinidad-and-tobago",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drones",
+     "rule": "All foreign operators must meet the Civil Aviation Authority before any recreational or commercial drone operation. Registration is mandatory for a drone of 750 g or more flying at 40 m/s or more, and involves a webinar and a form. Flights outside the UAS Regulations, and commercial flights, need TTCAA approval, with a letter of indemnity and proof of insurance. A No Fly Zones webmap is published.",
+     "level": "country",
+     "source": "https://caa.gov.tt/licensing-certification/unmanned-aircraft-systems-uas-drones/",
+     "checked": "2026-11-06",
+     "heading": "Foreign drone operators",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -104,6 +113,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/trinidad-and-tobago",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Foreign drone operators",
+     "authority": "Trinidad and Tobago Civil Aviation Authority",
+     "url": "https://caa.gov.tt/licensing-certification/unmanned-aircraft-systems-uas-drones/",
+     "checked": "2026-11-06",
+     "supports": "visitor drone rule"
     }
    ]
   },
@@ -828,6 +844,53 @@
      "supports": "customs and etiquette (search-index snapshot)"
     }
    ]
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "TTCAA registers drones and approves commercial operations; all foreign operators must meet TTCAA before any recreational or commercial flying. No public operator register was found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "No public list of approved drone operators was found on the TTCAA UAS page.",
+     "source": "https://caa.gov.tt/licensing-certification/unmanned-aircraft-systems-uas-drones/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Any flight that breaks the UAS Regulations or counts as commercial needs TTCAA approval, with a letter giving coordinates, time, duration and altitude, a letter of indemnity and proof of insurance, plus approval from other agencies where needed. Registration is mandatory for a drone of 750 g or more and 40 m/s or faster, and optional below that. Pilot-licence levels were not read.",
+     "source": "https://caa.gov.tt/licensing-certification/unmanned-aircraft-systems-uas-drones/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "TTCAA states that all foreign operators are required to meet with it before any recreational or commercial operations in Trinidad and Tobago. Registration involves a virtual webinar and a fillable form (drones@caa.gov.tt).",
+     "source": "https://caa.gov.tt/licensing-certification/unmanned-aircraft-systems-uas-drones/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "permits-at-this-level",
+     "text": "TTCAA publishes a No Fly Zones webmap to check before flying.",
+     "source": "https://caa.gov.tt/licensing-certification/unmanned-aircraft-systems-uas-drones/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Unmanned Aircraft Systems (UAS) / Drones",
+     "authority": "Trinidad and Tobago Civil Aviation Authority",
+     "url": "https://caa.gov.tt/licensing-certification/unmanned-aircraft-systems-uas-drones/",
+     "checked": "2026-11-06",
+     "supports": "registration, approval, foreign operators (page read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

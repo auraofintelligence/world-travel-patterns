@@ -740,6 +740,41 @@
     }
    ],
    "checked": "2026-11-01"
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "The JCAA requires a Special Aerial Work Permit for professional (commercial or non-commercial) drone operators; no public operator register or foreign-operator rule was found on the page read.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "No public list of permit holders was found on the JCAA unmanned aircraft page.",
+     "source": "https://www.jcaa.gov.jm/unmanned-aircraft/",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Professional operators, commercial or non-commercial (for example aerial photography, surveys, inspections), need a Special Aerial Work Permit from the JCAA, subject to meeting the criteria. Recreational operators need no permit but follow the guidelines.",
+     "source": "https://www.jcaa.gov.jm/unmanned-aircraft/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Unmanned Aircraft",
+     "authority": "Jamaica Civil Aviation Authority",
+     "url": "https://www.jcaa.gov.jm/unmanned-aircraft/",
+     "checked": "2026-11-06",
+     "supports": "Special Aerial Work Permit (page read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }

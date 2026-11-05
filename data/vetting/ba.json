@@ -112,6 +112,15 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/bosnia-and-herzegovina",
      "checked": "2026-10-31",
      "heading": "Driver's insurance"
+    },
+    {
+     "topic": "drones",
+     "rule": "Non-commercial (Open) flights: daylight and within sight only; up to 30 m above ground; at least 30 m from people, animals, structures and roads, 50 m from public gatherings, 500 m from industrial zones, embassies and government buildings; no flying over people; insurance for drones over 1 kg. Not from within 300 m of the border without Border Police consent. Drones over 25 kg need special BHDCA approval.",
+     "level": "country",
+     "source": "https://bhdca.gov.ba/index.php/en/drone",
+     "checked": "2026-11-06",
+     "heading": "Drone rules (Rulebook 51/20)",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -121,6 +130,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/bosnia-and-herzegovina",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Drone rules (Rulebook 51/20)",
+     "authority": "Bosnia and Herzegovina Directorate of Civil Aviation (BHDCA)",
+     "url": "https://bhdca.gov.ba/index.php/en/drone",
+     "checked": "2026-11-06",
+     "supports": "visitor drone rule"
     }
    ]
   },
@@ -968,6 +984,47 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; authority names and law citations are not reread (see national.read)."
+  },
+  "drone-pilot-pathway": {
+   "status": "partly-mapped",
+   "summary": "BHDCA's Rulebook (Official Gazette of BiH 51/20) splits drone use into Open, Specific (commercial) and Certified (aerial work); aerial work needs special BHDCA approval. No public operator register was found.",
+   "register": {
+    "exists": null,
+    "name": null,
+    "url": null
+   },
+   "items": [
+    {
+     "area": "operator-register",
+     "text": "No public operator register was found on the BHDCA drone page.",
+     "source": "https://bhdca.gov.ba/index.php/en/drone",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "operator-licence",
+     "text": "Commercial operations fall in the Specific category, with daylight visual line of sight, insurance for third-party damage whatever the drone's mass, a 30 m lateral distance from people and structures, and a maximum altitude of 120 m. Aerial work (Certified) needs special approval: contact BHDCA at the drone address on the page before starting.",
+     "source": "https://bhdca.gov.ba/index.php/en/drone",
+     "checked": "2026-11-06"
+    },
+    {
+     "area": "foreign-operator",
+     "text": "The page does not set a separate foreign-operator route; it says drones under foreign institutions (army, police, customs) need approval from the competent Bosnian institution first.",
+     "source": "https://bhdca.gov.ba/index.php/en/drone",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Drone",
+     "authority": "Bosnia and Herzegovina Directorate of Civil Aviation (BHDCA)",
+     "url": "https://bhdca.gov.ba/index.php/en/drone",
+     "checked": "2026-11-06",
+     "supports": "rulebook excerpts (page read directly)"
+    }
+   ],
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "drones": true
   }
  }
 }
