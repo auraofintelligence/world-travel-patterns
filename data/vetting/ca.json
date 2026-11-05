@@ -68,9 +68,18 @@
     "ai-teaching": {
      "status": "confirm-in-writing",
      "route": "Work permit, unless an exemption fits",
-     "detail": "Production or hands-on work in Canada needs a work permit.",
+     "detail": "Production or hands-on work in Canada needs a work permit. The work-without-permit page lists public speakers, short-term researchers and examiners among possible exemptions; it does not name guest lecturers or training delivered to Canadian clients.",
      "next": "Ask IRCC or an authorised representative.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-06",
+     "sources": [
+      {
+       "title": "Work in Canada without a work permit",
+       "authority": "Immigration, Refugees and Citizenship Canada",
+       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/work-without-permit.html",
+       "checked": "2026-11-06",
+       "supports": "exemption list reread; guest lecturing and mixed missions not named"
+      }
+     ]
     },
     "remote-work": {
      "status": "low",
@@ -112,9 +121,18 @@
     "mixed-mission": {
      "status": "confirm-in-writing",
      "route": "Depends on the mix",
-     "detail": "Business visitor and exemptions cover different parts.",
+     "detail": "Business visitor and exemptions cover different parts. The work-without-permit page lists business visitors, public speakers and short-term performing artists as separate exemptions, with conditions; it does not address a mix.",
      "next": "Ask IRCC.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-06",
+     "sources": [
+      {
+       "title": "Work in Canada without a work permit",
+       "authority": "Immigration, Refugees and Citizenship Canada",
+       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/work-without-permit.html",
+       "checked": "2026-11-06",
+       "supports": "exemption list reread; guest lecturing and mixed missions not named"
+      }
+     ]
     },
     "filming": {
      "status": "conditional",
@@ -170,6 +188,13 @@
      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/work-without-permit.html",
      "checked": "2026-11-01",
      "supports": "public speakers, short-term researchers, performing artists and business visitors are exempt, with conditions"
+    },
+    {
+     "title": "Work in Canada without a work permit",
+     "authority": "Immigration, Refugees and Citizenship Canada",
+     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/work-without-permit.html",
+     "checked": "2026-11-06",
+     "supports": "exemption list reread; guest lecturing and mixed missions not named"
     }
    ]
   },

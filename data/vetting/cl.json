@@ -217,9 +217,18 @@
     "remote-work": {
      "status": "confirm-in-writing",
      "route": "Not on the pages read",
-     "detail": "Not addressed.",
+     "detail": "Not addressed. The Permanencia Transitoria page says holders may not do paid activities, with a narrow SERMIG authorisation for specific occasional ones (performers, athletes, lecturers, expert advisers); it does not mention remote work.",
      "next": "Ask SERMIG.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-06",
+     "sources": [
+      {
+       "title": "Permanencia Transitoria",
+       "authority": "Servicio Nacional de Migraciones (Chile)",
+       "url": "https://serviciomigraciones.cl/permanencia-transitoria/",
+       "checked": "2026-11-06",
+       "supports": "paid activities barred for transitory stay; remote work and volunteering not named"
+      }
+     ]
     },
     "entrepreneur": {
      "status": "conditional",
@@ -275,9 +284,18 @@
     "volunteering": {
      "status": "confirm-in-writing",
      "route": "Not on the pages read",
-     "detail": "Not addressed.",
+     "detail": "Not addressed. The Permanencia Transitoria page does not mention volunteering; it bars paid activities.",
      "next": "Ask SERMIG.",
-     "checked": "2026-11-01"
+     "checked": "2026-11-06",
+     "sources": [
+      {
+       "title": "Permanencia Transitoria",
+       "authority": "Servicio Nacional de Migraciones (Chile)",
+       "url": "https://serviciomigraciones.cl/permanencia-transitoria/",
+       "checked": "2026-11-06",
+       "supports": "paid activities barred for transitory stay; remote work and volunteering not named"
+      }
+     ]
     }
    },
    "sources": [
@@ -294,6 +312,13 @@
      "url": "https://serviciomigraciones.cl/permanencia-transitoria/",
      "checked": "2026-11-01",
      "supports": "authorisation for specific, occasional paid activities; US$100 extension"
+    },
+    {
+     "title": "Permanencia Transitoria",
+     "authority": "Servicio Nacional de Migraciones (Chile)",
+     "url": "https://serviciomigraciones.cl/permanencia-transitoria/",
+     "checked": "2026-11-06",
+     "supports": "paid activities barred for transitory stay; remote work and volunteering not named"
     }
    ]
   },
