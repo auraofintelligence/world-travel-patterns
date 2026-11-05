@@ -2,10 +2,10 @@
  "summary": {
   "generated_on": "2026-11-06",
   "mode": "public",
-  "place_passes": 288,
-  "pattern_items": 1048,
+  "place_passes": 287,
+  "pattern_items": 1046,
   "by_reason": {
-   "never-checked": 1046,
+   "never-checked": 1044,
    "over-budget": 2
   },
   "watch_checks": 0
@@ -4185,20 +4185,6 @@
    ]
   },
   {
-   "place": "ke",
-   "name": "Kenya",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "xk",
    "name": "Kosovo",
    "kind": "jurisdiction",
@@ -6395,26 +6381,6 @@
    ]
   },
   {
-   "place": "ug",
-   "name": "Uganda",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "ua",
    "name": "Ukraine",
    "kind": "country",
@@ -6759,6 +6725,20 @@
   {
    "place": "mn",
    "name": "Mongolia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    }
+   ]
+  },
+  {
+   "place": "ug",
+   "name": "Uganda",
    "kind": "country",
    "tags": [],
    "due": [

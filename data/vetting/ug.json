@@ -894,6 +894,81 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; heritage laws are not yet read (see national.read)."
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Uganda Wildlife Authority",
+     "process": "Murchison Falls National Park entrance (the highest park category): foreign non-resident adult USD 45 (about A$63.92), child USD 25 (about A$35.51); valid 24 hours from entry. The park spans Buliisa, Nwoya and Kikuube districts. (A$ at the RBA rate of 30 October 2026, A$1 = USD 0.7040.) UWA's tariff PDF (July 2024 to June 2026) is the one its site links on 6 November 2026; that period has ended, so fees may have changed.",
+     "activities": [
+      "all"
+     ],
+     "url": "https://ugandawildlife.org/wp-content/uploads/2024/03/UWA-Conservation-Tariff-July-2024-June-2026.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "fee",
+     "authority": "Uganda Wildlife Authority",
+     "process": "Queen Elizabeth National Park entrance: foreign non-resident adult USD 40 (about A$56.82), child USD 20 (about A$28.41); valid 24 hours. (A$ at the RBA rate of 30 October 2026, A$1 = USD 0.7040.) UWA's tariff PDF (July 2024 to June 2026) is the one its site links on 6 November 2026; that period has ended, so fees may have changed.",
+     "activities": [
+      "all"
+     ],
+     "url": "https://ugandawildlife.org/wp-content/uploads/2024/03/UWA-Conservation-Tariff-July-2024-June-2026.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "fee",
+     "authority": "Uganda Wildlife Authority",
+     "process": "Rwenzori Mountains National Park: entrance USD 35 for adults (about A$49.72); a Rwenzori hike or one of the named trails (Bukurungu, Kazingo, Sebwe/Bugalista, Kinyampanika chimp trail) USD 50 a day (about A$71.02); a porter is UGX 40,000 a day extra. The tariff does not say whether a guide is compulsory on the mountain, so that is not recorded. (A$ at the RBA rate of 30 October 2026, A$1 = USD 0.7040.) UWA's tariff PDF (July 2024 to June 2026) is the one its site links on 6 November 2026; that period has ended, so fees may have changed.",
+     "activities": [
+      "hiking",
+      "climbing"
+     ],
+     "url": "https://ugandawildlife.org/wp-content/uploads/2024/03/UWA-Conservation-Tariff-July-2024-June-2026.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "fee",
+     "authority": "Uganda Wildlife Authority",
+     "process": "Kibale National Park chimpanzee tracking: USD 250 a person (about A$355.11), park entrance included; chimpanzee habituation experience USD 300 (about A$426.14), 4 hours with the chimps. Tariff rules: minimum age 12, 10 m minimum distance, one hour with the chimps, no smoking, eating or drinking while tracking, no flash, do not enter the forest if sick. (A$ at the RBA rate of 30 October 2026, A$1 = USD 0.7040.) UWA's tariff PDF (July 2024 to June 2026) is the one its site links on 6 November 2026; that period has ended, so fees may have changed.",
+     "activities": [
+      "chimpanzee-tracking"
+     ],
+     "url": "https://ugandawildlife.org/wp-content/uploads/2024/03/UWA-Conservation-Tariff-July-2024-June-2026.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Uganda Wildlife Authority",
+     "process": "Gorilla and chimpanzee permits for foreign non-residents can only be booked through licensed tour operators (list on the Uganda Tourism Board site). UWA's Kibale page says advance booking is mandatory, groups are limited to six, walks start at 8 am, 11 am and 2 pm, and the minimum age is 16. That differs from the tariff's age 12, so confirm the age when booking.",
+     "activities": [
+      "chimpanzee-tracking"
+     ],
+     "url": "https://ugandawildlife.org/national-parks/kibale-national-park/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Conservation Tariff 2024 to 2026",
+     "authority": "Uganda Wildlife Authority",
+     "url": "https://ugandawildlife.org/wp-content/uploads/2024/03/UWA-Conservation-Tariff-July-2024-June-2026.pdf",
+     "checked": "2026-11-06",
+     "supports": "entrance, hiking and chimpanzee fees and rules (read directly 2026-11-06)"
+    },
+    {
+     "title": "Kibale National Park",
+     "authority": "Uganda Wildlife Authority",
+     "url": "https://ugandawildlife.org/national-parks/kibale-national-park/",
+     "checked": "2026-11-06",
+     "supports": "tracking times, group size, age (read directly 2026-11-06)"
+    }
+   ],
+   "note": "Murchison Falls, Queen Elizabeth, Rwenzori Mountains and Kibale are held here because each spans several districts. Gorilla tracking is in the Kanungu and Kisoro records."
   }
  }
 }

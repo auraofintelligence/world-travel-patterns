@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -46,6 +46,14 @@
      "source": "https://www.sanparks.org/parks/table-mountain/rates-entry-fees",
      "checked": "2026-11-05",
      "by": "hand"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Cederberg Wilderness Area (CapeNature): no fires (gas cookers included), no pets, no firearms, no picking flowers or collecting seed. There are no rubbish bins or toilets: carry all refuse out and bury waste and toilet paper with a trowel.",
+     "level": "site",
+     "source": "https://www.capenature.co.za/reserves/cederberg-wilderness-area",
+     "checked": "2026-11-06",
+     "by": "hand"
     }
    ],
    "sources": [
@@ -62,9 +70,112 @@
      "url": "https://custom.resbank.co.za/SarbWebApi/WebIndicators/Shared/GetTimeseriesObservations/EXCX135D/2026-10-30/2026-10-30",
      "checked": "2026-11-05",
      "supports": "ZAR fallback rate, 2026-10-30 (read directly 2026-11-05)"
+    },
+    {
+     "title": "Cederberg Wilderness Area",
+     "authority": "CapeNature",
+     "url": "https://www.capenature.co.za/reserves/cederberg-wilderness-area",
+     "checked": "2026-11-06",
+     "supports": "wilderness rules (read directly 2026-11-06)"
     }
    ],
    "note": "Table Mountain National Park only."
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "activity-permit",
+     "authority": "CapeNature",
+     "process": "Cederberg Wilderness Area: a hiking permit is needed for the trails. Day permits are bought at the reserve office or through CapeNature Central Reservations (Wolfberg Arch permits at Sanddrif, Driehoek or Keurbosfontein; Stadsaal Cave and Truitjieskraal at several offices). Overnight hiking permits come from the CapeNature Contact Centre or the Algeria office.",
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://www.capenature.co.za/reserves/cederberg-wilderness-area",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "visitor-cap",
+     "authority": "CapeNature",
+     "process": "Cederberg Wilderness Area: a minimum of 3 adult hikers is required for any Wilderness Trail, day or overnight (4 to 12 is the ideal group size).",
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://www.capenature.co.za/reserves/cederberg-wilderness-area",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "fee",
+     "authority": "CapeNature",
+     "process": "Cederberg overnight Wilderness trails: R200 a person a night (about A$17.07), and wilderness conservation fees also apply. Bouldering permits, same price for local and international climbers: R85 a day (about A$7.25), R140 a weekend (about A$11.95), R280 a week (about A$23.90), R1 015 a month (about A$86.62), R2 400 a season (about A$204.82), R4 795 a year (about A$409.21). The tariff period on CapeNature's page is 1 September 2025 to 31 August 2026, which has ended; check the current sheet. (No RBA rate for ZAR; at the South African Reserve Bank rate of 30 October 2026 crossed via the RBA USD rate of 30 October 2026, A$1 = about 11.7177 ZAR.)",
+     "activities": [
+      "hiking",
+      "bouldering"
+     ],
+     "url": "https://www.capenature.co.za/cederberg-wilderness-area-tariffs",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "fee",
+     "authority": "CapeNature",
+     "process": "De Hoop Nature Reserve conservation fees as shown on the reserve page: day access R60 an adult (about A$5.12) and R40 a child aged 4 to 17 (about A$3.41). CapeNature's tariff page gives day-visitor fees 'from' R40 and R20 for the 1 September 2025 to 31 August 2026 period, so the figures may have moved; check at booking. (No RBA rate for ZAR; at the South African Reserve Bank rate of 30 October 2026 crossed via the RBA USD rate of 30 October 2026, A$1 = about 11.7177 ZAR.)",
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.capenature.co.za/reserves/de-hoop-nature-reserve",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "CapeNature",
+     "process": "De Hoop day hikes: a permit costs R50 an adult (about A$4.27) and R30 a child (about A$2.56), from the reserve office or CapeNature Central Reservations. Whale Trail (55 km, five overnight stops): group bookings of 6 or 12 people, from R3 230 a person plus a R560 portage fee a box. (No RBA rate for ZAR; at the South African Reserve Bank rate of 30 October 2026 crossed via the RBA USD rate of 30 October 2026, A$1 = about 11.7177 ZAR.)",
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://www.capenature.co.za/reserves/de-hoop-nature-reserve",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cederberg Wilderness Area",
+     "authority": "CapeNature",
+     "url": "https://www.capenature.co.za/reserves/cederberg-wilderness-area",
+     "checked": "2026-11-06",
+     "supports": "hiking permits and the 3-hiker minimum (read directly 2026-11-06)"
+    },
+    {
+     "title": "Cederberg Wilderness Area tariffs",
+     "authority": "CapeNature",
+     "url": "https://www.capenature.co.za/cederberg-wilderness-area-tariffs",
+     "checked": "2026-11-06",
+     "supports": "overnight trail and bouldering tariffs (read directly 2026-11-06)"
+    },
+    {
+     "title": "De Hoop Nature Reserve",
+     "authority": "CapeNature",
+     "url": "https://www.capenature.co.za/reserves/de-hoop-nature-reserve",
+     "checked": "2026-11-06",
+     "supports": "conservation fees, hiking permits, Whale Trail (read directly 2026-11-06)"
+    },
+    {
+     "title": "Tariffs",
+     "authority": "CapeNature",
+     "url": "https://www.capenature.co.za/tariffs",
+     "checked": "2026-11-06",
+     "supports": "tariff period 1 Sept 2025 to 31 Aug 2026 (read directly 2026-11-06)"
+    },
+    {
+     "title": "Rand per US Dollar (EXCX135D), 30 Oct 2026",
+     "authority": "South African Reserve Bank",
+     "url": "https://custom.resbank.co.za/SarbWebApi/WebIndicators/Shared/GetTimeseriesObservations/EXCX135D/2026-10-30/2026-10-30",
+     "checked": "2026-11-06",
+     "supports": "ZAR fallback rate (read directly 2026-11-06)"
+    }
+   ],
+   "note": "CapeNature reserves in Western Cape: Cederberg Wilderness Area and De Hoop only; other CapeNature reserves not checked. KZN (Ezemvelo) and Mpumalanga (MTPA) pages did not give readable fee or permit text and are not recorded."
   }
  }
 }
