@@ -85,6 +85,26 @@
      "url": "https://www.primaverasound.com/en/tickets",
      "by": "official-events",
      "category": "music"
+    },
+    {
+     "date": "2027-05-23",
+     "what": "Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years. This community's regional parliament follows its own calendar.",
+     "effect": "Election day; a day of reflection beforehand. Not yet formally called.",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+     "by": "elections",
+     "category": "election",
+     "evidence": "official",
+     "checked": "2026-11-06"
+    },
+    {
+     "date": "2027-04-01",
+     "what": "Catalonia tourist tax (impost sobre les estades en establiments turistics) rises on 1 April 2027 outside Barcelona, per person per night: 5-star hotels 6.00 euros (A$9.53), 4-star hotels 2.40 (A$3.81), tourist flats 2.50 (A$3.97), youth hostels 1.00 (A$1.59), other places 1.20 (A$1.91). Rates at RBA 30 Oct 2026, A$1 = EUR 0.6293. Barcelona city's own surcharge also steps up from 5 to 6 euros on the same date. Set by Llei 2/2026.",
+     "effect": "Rule change: higher nightly tax on stays from 1 April 2027; the rate in force when you book and pay applies if you pay the stay in advance.",
+     "url": "https://atc.gencat.cat/ca/tributs/ieet/quota-tributaria/",
+     "by": "official",
+     "category": "other",
+     "evidence": "official",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -101,6 +121,20 @@
      "url": "https://www.primaverasound.com/en/tickets",
      "checked": "2026-11-02",
      "supports": "event dates (read via a search-index snapshot)"
+    },
+    {
+     "title": "Ley Organica 5/1985 del Regimen Electoral General",
+     "authority": "Boletin Oficial del Estado",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+     "checked": "2026-11-06",
+     "supports": "fourth-Sunday-of-May rule for local elections (read directly); the 2027 date is calculated from it"
+    },
+    {
+     "title": "Quota tributaria, tarifes i recarrecs municipals",
+     "authority": "Agencia Tributaria de Catalunya",
+     "url": "https://atc.gencat.cat/ca/tributs/ieet/quota-tributaria/",
+     "checked": "2026-11-06",
+     "supports": "tourist tax rates from 1 April 2027 (read directly)"
     }
    ],
    "checked": "2026-11-02"
