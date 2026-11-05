@@ -50,6 +50,55 @@
     }
    ],
    "note": "From the Cinque Terre National Park."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Parco Nazionale delle Cinque Terre",
+     "process": "The park sells the Cinque Terre Trekking Card, which gives access to the Sentiero Verde Azzurro trail between Monterosso, Vernazza and Corniglia and to the Via dell'Amore, plus village buses. The park's page does not say the card is compulsory. The 1-day adult card is EUR 10, or EUR 15 on listed high-affluence days (about A$15.89 and A$23.84 at the RBA rate of 30 October 2026, A$1 = EUR 0.6293); it is valid to midnight on the day. The Treno Card (adds train travel) is priced in bands by expected crowds: EUR 22, 29.50 or 35 for an adult day from 14 March to 1 November 2026. Where the park's shop and page disagree, confirm on card.parconazionale5terre.it.",
+     "activities": [
+      "hiking",
+      "day trip"
+     ],
+     "url": "https://www.parconazionale5terre.it/pagina.php?id=149",
+     "evidence": "official",
+     "checked": "2026-11-06",
+     "by": "hand"
+    },
+    {
+     "type": "visitor-cap",
+     "authority": "Via dell'Amore ticket site (viadellamore.info), linked from the park and the Comune di Riomaggiore",
+     "process": "The Via dell'Amore (the cliff path between Riomaggiore and Manarola) is walked one way, entering at Riomaggiore, by timed ticket. Reports on the booking system give 30-minute slots with a cap of 200 people per slot and booking up to 72 hours ahead; the ticket site itself shows the one-way rule, opening hours (9 am to 9 pm, last entry 8:30 pm, from 29 March to 24 October 2026; 9 am to 6 pm from 26 October 2026) and prices from EUR 10 for a Via dell'Amore plus Trekking Card day ticket, EUR 22 with a Treno Card (about A$15.89 and A$34.96 at the RBA rate of 30 October 2026). Children 0 to 3 and visitors with disabilities enter free. The slot and cap figures come from news reports, not the ticket site.",
+     "lead_time_days": 1,
+     "activities": [
+      "hiking",
+      "Via dell'Amore"
+     ],
+     "url": "https://viadellamore.info/",
+     "evidence": "operational",
+     "checked": "2026-11-06",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cinque Terre Trekking Card",
+     "authority": "Parco Nazionale delle Cinque Terre",
+     "url": "https://www.parconazionale5terre.it/pagina.php?id=149",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Via dell'Amore: opening hours and tickets",
+     "authority": "Via dell'Amore ticket site",
+     "url": "https://viadellamore.info/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "note": "Via dell'Amore slot cap and booking window are signal (news reports); recheck on the ticket site."
   }
  }
 }

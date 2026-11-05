@@ -25,6 +25,85 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "guide-required",
+     "authority": "Simien Mountains National Park administration",
+     "process": "The park says park scouts and local guides are mandatory for all types of tourists. Visitors sign in themselves at the park office registration book, payment is by the day, fees paid are not refunded, and prices exclude turnover tax. The park gives the scout and guide rates on its Other Services Fees page, which was not readable as text, so no amounts are recorded here.",
+     "lead_time_days": 0,
+     "activities": [
+      "trekking",
+      "park entry"
+     ],
+     "url": "https://simienmountain.org/other-services-fees/",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "fee",
+     "authority": "Simien Mountains National Park administration",
+     "process": "Foreign tourist rates, in Ethiopian birr (ETB): entrance 90 for 12 and over and 10 under 12; vehicle up to 12 seats 20 and over 12 seats 40; camping tent for up to four people 40 and for more than four 60. Foreign residents pay lower rates. No AUD conversion: no dated birr rate is held in the repo.",
+     "lead_time_days": 0,
+     "activities": [
+      "park entry",
+      "camping"
+     ],
+     "url": "https://simienmountain.org/fees",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Park Fees",
+     "authority": "Simien Mountains National Park (park administration)",
+     "url": "https://simienmountain.org/fees",
+     "checked": "2026-11-06",
+     "supports": "entrance, vehicle and camping fees in birr (read directly 2026-11-06)"
+    },
+    {
+     "title": "Other Services Fees",
+     "authority": "Simien Mountains National Park (park administration)",
+     "url": "https://simienmountain.org/other-services-fees/",
+     "checked": "2026-11-06",
+     "supports": "park scouts and local guides mandatory (read directly 2026-11-06)"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "permits-and-zones",
+     "rule": "Simien Mountains National Park: park scouts and local guides are mandatory for all tourists, and visitors sign in at the park office. Foreign adult entrance is ETB 90 a day (no AUD figure; no dated birr rate held).",
+     "level": "site",
+     "source": "https://simienmountain.org/other-services-fees/",
+     "checked": "2026-11-06",
+     "evidence": "official",
+     "heading": "Simien Mountains National Park"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Park Fees",
+     "authority": "Simien Mountains National Park (park administration)",
+     "url": "https://simienmountain.org/fees",
+     "checked": "2026-11-06",
+     "supports": "entrance, vehicle and camping fees in birr (read directly 2026-11-06)"
+    },
+    {
+     "title": "Other Services Fees",
+     "authority": "Simien Mountains National Park (park administration)",
+     "url": "https://simienmountain.org/other-services-fees/",
+     "checked": "2026-11-06",
+     "supports": "park scouts and local guides mandatory (read directly 2026-11-06)"
+    }
+   ]
   }
  }
 }

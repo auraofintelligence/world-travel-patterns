@@ -28,7 +28,7 @@
   },
   "zone-requirements": {
    "status": "requirements-found",
-   "checked": "2026-11-03",
+   "checked": "2026-11-06",
    "evidence": "official",
    "layers": [
     {
@@ -54,6 +54,41 @@
      ],
      "url": "https://www.smartraveller.gov.au/destinations/asia/malaysia",
      "checked": "2026-11-03"
+    },
+    {
+     "type": "fee",
+     "authority": "Sabah Parks",
+     "process": "Sipadan Island Park, international visitors: conservation fee RM100 a person (about A$35.05) and scuba diving fee RM350 (A$122.68). The page says fees can vary by activity and visitor type. A$ at RBA 30 Oct 2026: A$1 = MYR 2.853.",
+     "lead_time_days": 0,
+     "activities": [
+      "Sipadan visit",
+      "diving"
+     ],
+     "url": "https://www.sabahparks.org.my/sipadan-island-park",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Sabah Parks",
+     "process": "Diving at Sipadan runs on booked permits. Sabah Parks decides permit issue and availability. Registered dive operators can book up to six months ahead at the Sabah Parks head office in Kota Kinabalu or the park office in Semporna, with a 50% deposit, one booking list per dive date, and full payment two weeks before. Cancelling more than two weeks before keeps 10% of the fees; cancelling later forfeits everything paid. No accommodation has been allowed on the island since it became a marine park in 2004. The page gives no daily cap.",
+     "lead_time_days": 0,
+     "activities": [
+      "diving"
+     ],
+     "url": "https://www.sabahparks.org.my/services/diving-sipadan",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "fee",
+     "authority": "Sabah Parks",
+     "process": "Tunku Abdul Rahman Park (off Kota Kinabalu), non-Malaysian entrance per person per day: RM25 for 18 and over (about A$8.76), RM20 for 17 and under or 60 and over (A$7.01). Kuraman scuba diving fee RM200 for international visitors (A$70.10), which the page marks as needing confirmation with the park. A$ at RBA 30 Oct 2026: A$1 = MYR 2.853.",
+     "lead_time_days": 0,
+     "activities": [
+      "park entry",
+      "diving"
+     ],
+     "url": "https://www.sabahparks.org.my/tunku-abdul-rahman-park",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -63,6 +98,27 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/malaysia",
      "checked": "2026-11-03",
      "supports": "passport needed between Peninsular and East Malaysia; eastern Sabah water curfew, permits off Lahad Datu and Sandakan, designated routes, night water activity ban, ESSZone districts, penalty (read directly)"
+    },
+    {
+     "title": "Sipadan Island Park",
+     "authority": "Sabah Parks",
+     "url": "https://www.sabahparks.org.my/sipadan-island-park",
+     "checked": "2026-11-06",
+     "supports": "international fees and no overnight stay (read directly 2026-11-06)"
+    },
+    {
+     "title": "Diving at Sipadan Island",
+     "authority": "Sabah Parks",
+     "url": "https://www.sabahparks.org.my/services/diving-sipadan",
+     "checked": "2026-11-06",
+     "supports": "booking and permit procedure (read directly 2026-11-06)"
+    },
+    {
+     "title": "Tunku Abdul Rahman Park",
+     "authority": "Sabah Parks",
+     "url": "https://www.sabahparks.org.my/tunku-abdul-rahman-park",
+     "checked": "2026-11-06",
+     "supports": "international entrance and diving fees (read directly 2026-11-06)"
     }
    ],
    "note": "Sabah and Sarawak keep their own immigration powers under Part VII of Malaysia's Immigration Act 1959/63 (the Act wasn't read on an official page)."
@@ -89,6 +145,15 @@
      "source": "https://www.sabahparks.org.my/services/mount-kinabalu-climbing",
      "checked": "2026-11-06",
      "by": "hand"
+    },
+    {
+     "topic": "permits-and-zones",
+     "rule": "Sipadan Island Park: diving needs a permit booked through Sabah Parks (usually by a registered dive operator), and Sabah Parks makes the final decision on availability. International conservation fee RM100 and scuba fee RM350 a person (about A$35.05 and A$122.68; RBA 30 Oct 2026, A$1 = MYR 2.853).",
+     "level": "site",
+     "source": "https://www.sabahparks.org.my/services/diving-sipadan",
+     "checked": "2026-11-06",
+     "evidence": "official",
+     "heading": "Sabah Parks"
     }
    ],
    "sources": [
@@ -105,6 +170,27 @@
      "url": "https://www.sabahparks.org.my/services/mount-kinabalu-climbing",
      "checked": "2026-11-06",
      "supports": "booking, guide rule, fees and 2027 booking status (read directly 2026-11-06)"
+    },
+    {
+     "title": "Sipadan Island Park",
+     "authority": "Sabah Parks",
+     "url": "https://www.sabahparks.org.my/sipadan-island-park",
+     "checked": "2026-11-06",
+     "supports": "international fees and no overnight stay (read directly 2026-11-06)"
+    },
+    {
+     "title": "Diving at Sipadan Island",
+     "authority": "Sabah Parks",
+     "url": "https://www.sabahparks.org.my/services/diving-sipadan",
+     "checked": "2026-11-06",
+     "supports": "booking and permit procedure (read directly 2026-11-06)"
+    },
+    {
+     "title": "Tunku Abdul Rahman Park",
+     "authority": "Sabah Parks",
+     "url": "https://www.sabahparks.org.my/tunku-abdul-rahman-park",
+     "checked": "2026-11-06",
+     "supports": "international entrance and diving fees (read directly 2026-11-06)"
     }
    ],
    "note": "From Malaysia's civil aviation authority."

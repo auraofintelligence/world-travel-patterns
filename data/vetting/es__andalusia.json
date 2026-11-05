@@ -53,7 +53,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -64,6 +64,15 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Patronato de la Alhambra y Generalife (Junta de Andalucía)"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "In Sierra Nevada National and Natural Park, swimming in the high mountain lakes (lagunas), camping on the borreguiles (wet alpine meadows), washing items in lakes and streams, and leaving the paths are not allowed, and rubbish must be carried out. Free camping is not allowed under Decree 164/2003. Bivouac and night camping need written notification (see zone requirements).",
+     "level": "site",
+     "source": "https://www.juntadeandalucia.es/medioambiente/portal/documents/20151/d6bc9071-f6d4-83a8-a9e1-8e2cd97822f7",
+     "heading": "Información al visitante, Parque Nacional y Natural de Sierra Nevada (Junta de Andalucía)",
+     "checked": "2026-11-06",
+     "by": "hand"
     }
    ],
    "sources": [
@@ -73,9 +82,16 @@
      "url": "https://www.alhambra-patronato.es/visitar/preguntas-frecuentes",
      "checked": "2026-11-05",
      "supports": "named tickets, ID check (search-index snapshot)"
+    },
+    {
+     "title": "Información al visitante: acampada y seguridad (Sierra Nevada)",
+     "authority": "Junta de Andalucía, Consejería de Medio Ambiente",
+     "url": "https://www.juntadeandalucia.es/medioambiente/portal/documents/20151/d6bc9071-f6d4-83a8-a9e1-8e2cd97822f7",
+     "supports": "camping, bivouac and lake rules (read directly; leaflet undated)",
+     "checked": "2026-11-06"
     }
    ],
-   "note": "From the Alhambra's governing board."
+   "note": "From the Alhambra's governing board. Sierra Nevada park rules only."
   },
   "year-ahead": {
    "status": "mapped",
@@ -102,6 +118,54 @@
      "supports": "fourth-Sunday-of-May rule for local elections (read directly); the 2027 date is calculated from it"
     }
    ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Caminito del Rey (UTE Caminito del Rey, official ticket site)",
+     "process": "The Caminito del Rey walkway (Málaga) is entered by ticket bought on the official site or at the north-access ticket office. General entry is EUR 10 (limit of 10 tickets per purchase), an official guided visit EUR 18, shuttle bus EUR 2.50 and parking EUR 2 (about A$15.89 and A$28.60 for entry and guided visit at the RBA rate of 30 October 2026, A$1 = EUR 0.6293). Children under 8 cannot enter; visitors over 8 must bring original ID or the Family Book to prove age. The page states no daily cap or release window.",
+     "activities": [
+      "hiking",
+      "Caminito del Rey"
+     ],
+     "url": "https://www.caminitodelrey.info/en/",
+     "evidence": "operational",
+     "checked": "2026-11-06",
+     "by": "hand"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Parque Nacional y Natural de Sierra Nevada (Junta de Andalucía)",
+     "process": "In Sierra Nevada, free camping is not allowed. Bivouac (sleeping in the open) and night camping (a light tent between one hour before sunset and one hour after sunrise) are allowed only after a written notification to the park director: name of the person in charge, ID number, address, phone, number of people (max 15), number of tents (max 3) and place; carry a copy. Not allowed in reserve zones (borreguiles, lake edges), within 50 m of high mountain lakes and streams, within 500 m of staffed mountain refuges and open roads or forest tracks, more than one night in the same place, or in wooded forest zones from 1 June to 15 October. The leaflet is undated; confirm with the park office.",
+     "lead_time_days": 1,
+     "activities": [
+      "camping",
+      "hiking"
+     ],
+     "url": "https://www.juntadeandalucia.es/medioambiente/portal/documents/20151/d6bc9071-f6d4-83a8-a9e1-8e2cd97822f7",
+     "evidence": "official",
+     "checked": "2026-11-06",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Caminito del Rey",
+     "authority": "UTE Caminito del Rey",
+     "url": "https://www.caminitodelrey.info/en/",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Información al visitante: acampada (Sierra Nevada)",
+     "authority": "Junta de Andalucía, Consejería de Medio Ambiente",
+     "url": "https://www.juntadeandalucia.es/medioambiente/portal/documents/20151/d6bc9071-f6d4-83a8-a9e1-8e2cd97822f7",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06"
   }
  }
 }

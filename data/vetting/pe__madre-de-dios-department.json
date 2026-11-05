@@ -1,0 +1,68 @@
+{
+ "place": "pe/madre-de-dios-department",
+ "patterns": {
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "SERNANP (Servicio Nacional de Areas Naturales Protegidas por el Estado)",
+     "process": "Manu National Park: the single tariff (tarifa unica) that applies to visitors who are not Peruvian residents is S/ 60 for 1 day (about A$24.58), S/ 90 for 2 to 3 days (A$36.87) and S/ 180 for 4 to 30 days (A$73.75), in tariff group I. Under-5s, people with disability and tourist guides enter free. The lower special tariff is for nationals and resident foreigners only. The head of each area can set promotional rates. A$ about: S/ 1 = A$0.41 (PEN 3.467 per USD, central-bank-rates.json 30 Oct 2026, with RBA A$1 = USD 0.7040).",
+     "lead_time_days": 0,
+     "activities": [
+      "park entry"
+     ],
+     "url": "https://cdn.www.gob.pe/uploads/document/file/4072728/RESOLUCION%20PRESIDENCIAL%20N%20026-%202023-SERNANP.pdf.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "fee",
+     "authority": "SERNANP (Servicio Nacional de Areas Naturales Protegidas por el Estado)",
+     "process": "Tambopata National Reserve: the single tariff (tarifa unica) that applies to visitors who are not Peruvian residents is S/ 50 for 1 day (about A$20.49), S/ 75 for 2 to 3 days (A$30.73) and S/ 150 for 4 to 30 days (A$61.46), in tariff group II. Under-5s, people with disability and tourist guides enter free. The lower special tariff is for nationals and resident foreigners only. The head of each area can set promotional rates. A$ about: S/ 1 = A$0.41 (PEN 3.467 per USD, central-bank-rates.json 30 Oct 2026, with RBA A$1 = USD 0.7040).",
+     "lead_time_days": 0,
+     "activities": [
+      "park entry"
+     ],
+     "url": "https://cdn.www.gob.pe/uploads/document/file/4072728/RESOLUCION%20PRESIDENCIAL%20N%20026-%202023-SERNANP.pdf.pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Resolucion Presidencial 026-2023-SERNANP, Anexos I and II (tarifa unica from 1 January 2024)",
+     "authority": "SERNANP, Ministerio del Ambiente, Peru",
+     "url": "https://cdn.www.gob.pe/uploads/document/file/4072728/RESOLUCION%20PRESIDENCIAL%20N%20026-%202023-SERNANP.pdf.pdf",
+     "checked": "2026-11-06",
+     "supports": "single tariff by group and length of stay (PDF read directly 2026-11-06; later changes not checked)"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-06",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "tax-and-fees",
+     "rule": "Manu National Park S/ 60, S/ 90, S/ 180 and Tambopata National Reserve S/ 50, S/ 75, S/ 150 (1 day, 2 to 3 days, 4 to 30 days) for visitors who are not Peruvian residents (Manu about A$24.58 to A$73.75; Tambopata A$20.48 to A$61.46). Source: SERNANP Resolucion Presidencial 026-2023 (rate in force from 1 January 2024; later changes not checked). Conversion: PEN 3.467 per USD (30 Oct 2026) and RBA A$1 = USD 0.7040.",
+     "level": "site",
+     "source": "https://cdn.www.gob.pe/uploads/document/file/4072728/RESOLUCION%20PRESIDENCIAL%20N%20026-%202023-SERNANP.pdf.pdf",
+     "checked": "2026-11-06",
+     "evidence": "official",
+     "heading": "SERNANP tarifa unica"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Resolucion Presidencial 026-2023-SERNANP, Anexos I and II (tarifa unica from 1 January 2024)",
+     "authority": "SERNANP, Ministerio del Ambiente, Peru",
+     "url": "https://cdn.www.gob.pe/uploads/document/file/4072728/RESOLUCION%20PRESIDENCIAL%20N%20026-%202023-SERNANP.pdf.pdf",
+     "checked": "2026-11-06",
+     "supports": "single tariff by group and length of stay (PDF read directly 2026-11-06; later changes not checked)"
+    }
+   ]
+  }
+ }
+}

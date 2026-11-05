@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -15,6 +15,15 @@
      "by": "hand",
      "penalty_signal": "EUR 130 (about A$207)",
      "heading": "Grad Zadar, Odluka o komunalnom redu"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "In Telašćica Nature Park, camping is banned except in marked camping places, lighting fires and smoking are banned, climbing the cliffs (strmci) in any form is banned, and visitors may only walk on marked paths. Dogs must be on a lead. Boats are limited to 10 knots inside the line from Pod Poljica to Gubac and 5 knots in the busy bays (Mir, Tripuljak, Kruševica, Kučimul, Magrovica, Pod Dugo polje, Pasjak, Jaz). Spearfishing and collecting shellfish or other sea life are banned. Park rangers can fine on the spot. No amounts are published on the page.",
+     "level": "site",
+     "source": "https://pp-telascica.hr/pravila-ponasanja-u-parku/",
+     "heading": "Pravilnik o unutarnjem redu, Park prirode Telašćica",
+     "checked": "2026-11-06",
+     "by": "hand"
     }
    ],
    "sources": [
@@ -24,9 +33,63 @@
      "url": "https://www.grad-zadar.hr/vijest/opce-vijesti-28/postavljene-oznake-o-pravilima-odijevanja-u-povijesnoj-jezgri-9770.html",
      "checked": "2026-11-05",
      "supports": "dress code, warning first, EUR 130 fine (read directly)"
+    },
+    {
+     "title": "Pravila ponašanja u parku",
+     "authority": "Park prirode Telašćica",
+     "url": "https://pp-telascica.hr/pravila-ponasanja-u-parku/",
+     "supports": "Telašćica rules, diving permit, speed limits (read directly)",
+     "checked": "2026-11-06"
     }
    ],
-   "note": "City of Zadar rule, held at county level."
+   "note": "City of Zadar rule, held at county level. Telašćica rules held at county level. Telašćica ticket prices are shown only as an image on the park's price page, so not recorded."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Javna ustanova Nacionalni park Paklenica",
+     "process": "Paklenica National Park charges an entry fee. The 2026 one-day adult ticket is EUR 5 in January, February, November and December, EUR 8 in March, April and October, and EUR 10 from May to September (about A$7.95, A$12.71 and A$15.89 at the RBA rate of 30 October 2026, A$1 = EUR 0.6293). Children 7 to 18 pay half. Three-day and five-day passes exist. A daily vehicle vignette (a pay-to-enter sticker, EUR 3 to 10 by vehicle length and period) is also needed to drive into the protected area. The Manita peć cave has its own extra ticket. Climbing on the park's marked routes is covered by the basic ticket.",
+     "activities": [
+      "hiking",
+      "climbing",
+      "entering the park"
+     ],
+     "url": "https://np-paklenica.hr/images/cjenik/Cjenik_2026/PRICELIST_2026_ENG_.pdf",
+     "checked": "2026-11-06",
+     "by": "hand"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Park prirode Telašćica",
+     "process": "In Telašćica Nature Park, scuba diving is allowed only with a permit from the park, and only at set sites (Garmenjak Veliki and Mali, Korotan, Podusobine). Commercial filming or photography needs the park's approval. Visitors enter at the park's entry points, where tickets are sold; a car can enter at the Dolac entry point. Keep the ticket for the stay.",
+     "activities": [
+      "scuba diving",
+      "commercial filming",
+      "entering the park"
+     ],
+     "url": "https://pp-telascica.hr/pravila-ponasanja-u-parku/",
+     "checked": "2026-11-06",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Price list 2026 (Paklenica National Park)",
+     "authority": "Javna ustanova Nacionalni park Paklenica",
+     "url": "https://np-paklenica.hr/images/cjenik/Cjenik_2026/PRICELIST_2026_ENG_.pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Pravila ponašanja u parku",
+     "authority": "Park prirode Telašćica",
+     "url": "https://pp-telascica.hr/pravila-ponasanja-u-parku/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06"
   }
  }
 }

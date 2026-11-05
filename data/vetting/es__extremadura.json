@@ -76,6 +76,70 @@
      "supports": "fourth-Sunday-of-May rule for local elections (read directly); the 2027 date is calculated from it"
     }
    ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "activity-permit",
+     "authority": "Junta de Extremadura (Monfragüe National Park, PRUG Decreto 79/2025)",
+     "process": "Under the park's use and management plan (Decreto 79/2025 of 15 July, published DOE 21 July 2025), commercial photography, filming and recording inside Monfragüe National Park is an extraordinary activity that needs authorisation, and drone use is not authorisable for it. Motor vehicles may use the EX-208, the Bazagona road, the Monfragüe Castle access road and the open traditional-settlement zones; the Cañada Real Trujillana section needs a declaración responsable (a signed self-declaration) and the Serrejón-Serradilla track needs authorisation.",
+     "activities": [
+      "commercial filming",
+      "drones",
+      "driving"
+     ],
+     "url": "https://doe.juntaex.es/pdfs/doe/2025/1390o/25040135.pdf",
+     "evidence": "official",
+     "checked": "2026-11-06",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Decreto 79/2025, Plan Rector de Uso y Gestión del Parque Nacional de Monfragüe",
+     "authority": "Junta de Extremadura (DOE)",
+     "url": "https://doe.juntaex.es/pdfs/doe/2025/1390o/25040135.pdf",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drones",
+     "rule": "Monfragüe National Park's management plan (Decreto 79/2025) bans overflight of the park by aircraft including drones, kites and balloons from ground to flight level 90 (9,000 ft), except rescue and similar missions.",
+     "level": "site",
+     "source": "https://doe.juntaex.es/pdfs/doe/2025/1390o/25040135.pdf",
+     "heading": "Decreto 79/2025, art. on incompatible uses (DOE 139, 21 July 2025)",
+     "checked": "2026-11-06",
+     "by": "hand"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Monfragüe National Park bans free camping in any form, including sleeping in caravans or vehicles outside authorised lodging, lighting open fires, rock climbing, fishing and hunting. Motor traffic is allowed only on the listed roads.",
+     "level": "site",
+     "source": "https://doe.juntaex.es/pdfs/doe/2025/1390o/25040135.pdf",
+     "heading": "Decreto 79/2025, Plan Rector de Uso y Gestión (DOE 139, 21 July 2025)",
+     "checked": "2026-11-06",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Decreto 79/2025, Plan Rector de Uso y Gestión del Parque Nacional de Monfragüe",
+     "authority": "Junta de Extremadura (Diario Oficial de Extremadura)",
+     "url": "https://doe.juntaex.es/pdfs/doe/2025/1390o/25040135.pdf",
+     "supports": "prohibited uses, drones, filming, vehicles (read directly)",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "note": "Monfragüe plan only; penalties not read."
   }
  }
 }

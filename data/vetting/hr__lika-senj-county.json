@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -23,6 +23,15 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Javna ustanova Nacionalni park Plitvička jezera"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "In Northern Velebit National Park, open fires are banned (fires only in marked fireplaces, which exist only at Štirovača), camping is banned outside organised campsites, walking off marked paths is banned, picking plants and fungi is banned, dogs must be on a lead, and shouting or loud music is banned. The page names no fine amounts.",
+     "level": "site",
+     "source": "https://np-sjeverni-velebit.hr/www/hr/posjeti/pravila-ponasanja",
+     "heading": "Pravila ponašanja, NP Sjeverni Velebit",
+     "checked": "2026-11-06",
+     "by": "hand"
     }
    ],
    "sources": [
@@ -39,9 +48,62 @@
      "url": "https://np-plitvicka-jezera.hr/en/faq/",
      "checked": "2026-11-05",
      "supports": "timed online tickets (search-index snapshot)"
+    },
+    {
+     "title": "Pravila ponašanja",
+     "authority": "Javna ustanova Nacionalni park Sjeverni Velebit",
+     "url": "https://np-sjeverni-velebit.hr/www/hr/posjeti/pravila-ponasanja",
+     "supports": "park rules (read directly)",
+     "checked": "2026-11-06"
     }
    ],
    "note": "Park rules for Plitvice Lakes National Park, which lies mostly in Lika-Senj County."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Javna ustanova Nacionalni park Sjeverni Velebit",
+     "process": "Northern Velebit National Park sells tickets online or at its entrances (Babić Siča and Alan, open 8 am to 4 pm). Every visitor needs a ticket and must keep it until leaving. The 1-day adult ticket is EUR 7 (about A$11.12 at the RBA rate of 30 October 2026, A$1 = EUR 0.6293), 2 days EUR 10, 3 days EUR 15; discounted tickets are EUR 5, 8 and 13; an annual ticket is EUR 50; children under 6 are free. Organised group visits must be booked at least 7 days ahead and prepaid.",
+     "lead_time_days": 7,
+     "activities": [
+      "hiking",
+      "guided groups"
+     ],
+     "url": "https://np-sjeverni-velebit.hr/www/hr/posjeti/cjenik",
+     "checked": "2026-11-06",
+     "by": "hand"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Javna ustanova Nacionalni park Sjeverni Velebit",
+     "process": "The park's price list sets fees for commercial video filming (EUR 700 a day), commercial photography (EUR 300 a day), and tour operators or guided activities such as birdwatching or weddings (EUR 5 per participant). Hiking, cycling or running competitions pay EUR 300 each. Contact the park for the approval process.",
+     "activities": [
+      "commercial filming",
+      "tour operators"
+     ],
+     "url": "https://np-sjeverni-velebit.hr/www/hr/posjeti/cjenik",
+     "checked": "2026-11-06",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cjenik",
+     "authority": "Javna ustanova Nacionalni park Sjeverni Velebit",
+     "url": "https://np-sjeverni-velebit.hr/www/hr/posjeti/cjenik",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Home page (entrance hours)",
+     "authority": "Javna ustanova Nacionalni park Sjeverni Velebit",
+     "url": "https://np-sjeverni-velebit.hr/en/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06"
   }
  }
 }
