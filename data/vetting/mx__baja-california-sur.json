@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-03",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -44,6 +44,13 @@
      "level": "municipality",
      "source": "https://www.cbcs.gob.mx/LEYES-BCS/LHaciendaLosCabos.docx",
      "checked": "2026-11-03"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "level": "site",
+     "rule": "Balandra protected area (La Paz): CONANP's visitor rules say take your rubbish, use authorised trails only, don't climb the dune or the mushroom rock, take care near the sinkhole, keep dogs on a lead on the main beach, and use the dry toilets (relieving yourself anywhere else isn't allowed).",
+     "source": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=9",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -74,9 +81,59 @@
      "url": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
      "checked": "2026-11-03",
      "supports": "FIX for 30 October 2026, MXN 18.7962 per USD"
+    },
+    {
+     "title": "Balandra",
+     "authority": "CONANP",
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=9",
+     "checked": "2026-11-06"
     }
    ],
    "notes": "Amounts use the 2026 UMA (Unidad de Medida y Actualización, a federal reference unit: MXN 117.31 a day from 1 February 2026, INEGI) and A$1 = about MXN 13.23 (RBA 30 October 2026, A$1 = USD 0.7040; Banco de México FIX for 30 October 2026, USD 1 = MXN 18.7962). The 2026 indexed amount of the state charge and its collection rules weren't found; check with the state finance department. Other municipalities (La Paz, Loreto, Comondú, Mulegé) aren't checked here."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "CONANP (Comision Nacional de Areas Naturales Protegidas), Parque Nacional Cabo Pulmo",
+     "process": "Entry fee of MXN 125 per person per day (about A$9.45; A$1 = about MXN 13.23 (RBA 30 October 2026, A$1 = USD 0.7040; Banco de Mexico FIX, USD 1 = MXN 18.7962)). Exempt: older adults, pensioners and retirees, people with disability and children under 12 (credential shown on entry). 75% off for students and teachers with a credential; 50% off for Mexican nationals and foreign residents who show an official document. Open 8:00 to 18:00 daily. Visitors use service providers that hold the required authorisation.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=18",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "fee",
+     "authority": "CONANP (Comision Nacional de Areas Naturales Protegidas), Area de Proteccion de Flora y Fauna Balandra",
+     "process": "Entry fee of MXN 125 per person per day (about A$9.45; A$1 = about MXN 13.23 (RBA 30 October 2026, A$1 = USD 0.7040; Banco de Mexico FIX, USD 1 = MXN 18.7962)). Exempt: older adults, pensioners and retirees, people with disability and children under 12 (credential shown on entry). 75% off for students and teachers with a credential; 50% off for Mexican nationals and foreign residents who show an official document. Open two shifts, 8:00 to 12:00 and 13:00 to 17:00; the digital passes are for the second shift. Capped at 450 people per shift.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=9",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cabo Pulmo",
+     "authority": "CONANP",
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=18",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Balandra",
+     "authority": "CONANP",
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=9",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "notes": "The Baja California Sur foreign-tourist charge is in the local-law record. Balandra, Espiritu Santo and other parks aren't checked. Federal park fees and rules as published on CONANP's Descubre ANP page, which says amounts follow the Ley Federal de Derechos and can change. Other parks in this state aren't checked."
   }
  }
 }

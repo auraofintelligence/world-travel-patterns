@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -39,6 +39,20 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Comisión Nacional de Áreas Naturales Protegidas"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "level": "site",
+     "rule": "Islas Marietas National Park: CONANP's visitor rules say follow guides and rangers; a life jacket is compulsory in the water; no alcohol; no rubbish; don't take or introduce animals; no single-use plastics; use environment-friendly sunscreen at least 30 minutes before entering the water; and no footwear in water or beach activities.",
+     "source": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=80",
+     "checked": "2026-11-06"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "level": "site",
+     "rule": "Islas Marias Biosphere Reserve: CONANP's visitor rules say don't take plants, animals, shells or coral; don't feed or interact with wildlife; no pets other than assistance or medical animals; no campfires; complete the island biosecurity protocol; don't litter, including cigarette butts; and follow guides and Navy personnel.",
+     "source": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=79",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -48,9 +62,65 @@
      "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=80",
      "checked": "2026-11-05",
      "supports": "hours, fee (search-index snapshot)"
+    },
+    {
+     "title": "Islas Marietas",
+     "authority": "CONANP",
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=80",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Islas Marias",
+     "authority": "CONANP",
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=79",
+     "checked": "2026-11-06"
     }
    ],
    "note": "Daily visitor caps reported by operators were not found on an official page."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "CONANP (Comision Nacional de Areas Naturales Protegidas), Parque Nacional Islas Marietas",
+     "process": "Entry fee of MXN 125 per person per day (about A$9.45; A$1 = about MXN 13.23 (RBA 30 October 2026, A$1 = USD 0.7040; Banco de Mexico FIX, USD 1 = MXN 18.7962)). Exempt: older adults, pensioners and retirees, people with disability and children under 12 (credential shown on entry). 75% off for students and teachers with a credential; 50% off for Mexican nationals and foreign residents who show an official document. Open Tuesday to Sunday 8:00 to 18:00; Playa del Amor Wednesday to Sunday 8:00 to 17:00. The page doesn't state a visitor cap or permit.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=80",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "fee",
+     "authority": "CONANP (Comision Nacional de Areas Naturales Protegidas), Reserva de la Biosfera Islas Marias",
+     "process": "Entry fee of MXN 750 per person per day (about A$56.69; A$1 = about MXN 13.23 (RBA 30 October 2026, A$1 = USD 0.7040; Banco de Mexico FIX, USD 1 = MXN 18.7962)). Exempt: older adults, pensioners and retirees, people with disability and children under 12 (credential shown on entry). 75% off for students and teachers with a credential; 50% off for Mexican nationals and foreign residents who show an official document. Open Friday to Sunday: arrival at Maria Madre island on Friday about 17:00 and departure Sunday about 11:00. Access is by Secretaria de Marina ship or aircraft from Mazatlan (Sinaloa) or San Blas (Nayarit). Visitors complete an island biosecurity protocol before entering.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=79",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Islas Marietas",
+     "authority": "CONANP",
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=80",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Islas Marias",
+     "authority": "CONANP",
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=79",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "notes": "Federal park fees and rules as published on CONANP's Descubre ANP page, which says amounts follow the Ley Federal de Derechos and can change. Other parks in this state aren't checked."
   }
  }
 }

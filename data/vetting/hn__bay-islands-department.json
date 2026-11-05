@@ -25,6 +25,57 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "level": "region",
+     "rule": "Roatan Marine Park, the group that manages the Bay Islands National Marine Park around Roatan, lists these activities as prohibited in the park: fishing with nets or harpoons, taking lobster or conch, cutting mangroves, fishing herbivorous (plant-eating) fish species, anchoring on the reef, and construction. It lists as allowed: boat transit (speed cap 20 knots), use of anchor buoys, tourism, diving and snorkelling, artisanal handline fishing, lionfish hunting, research and education. The park has three zones: a coastal zone (high-tide line to 10 m depth), a special marine zone (to 60 m) and a buffer zone (12 nautical miles beyond). Its pages don't say which rule applies in which zone and don't name the legal instrument, so check with the park office.",
+     "source": "https://www.roatanmarinepark.org/activities-prohibited-binmp",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Activities prohibited in the BINMP; Activities allowed in the BINMP; Bay Islands National Marine Park",
+     "authority": "Roatan Marine Park (co-manager of the Bay Islands National Marine Park)",
+     "url": "https://www.roatanmarinepark.org/binmp",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "notes": "Only the Roatan section of the Bay Islands National Marine Park is covered. Utila and Guanaja park rules, and Honduran national and department rules, aren't checked here."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Roatan Marine Park (co-manager of the Bay Islands National Marine Park, Roatan)",
+     "process": "Roatan Marine Park asks visitors for a voluntary user fee of US$10 (about A$14.20 at A$1 = USD 0.7040, RBA 30 October 2026) to support reef conservation. It's described as voluntary, not a legal charge. Payers get a bracelet or token, sold at the park's EcoStore in West End or through participating dive shops and resorts.",
+     "lead_time_days": 0,
+     "activities": [
+      "diving",
+      "snorkelling"
+     ],
+     "url": "https://www.roatanmarinepark.org/voluntary-fee",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Voluntary User Fee",
+     "authority": "Roatan Marine Park",
+     "url": "https://www.roatanmarinepark.org/voluntary-fee",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "notes": "Only Roatan Marine Park is covered. Any fee for Utila or Guanaja marine park areas, and any state-set fee for the Bay Islands, wasn't found."
   }
  }
 }

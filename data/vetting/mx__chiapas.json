@@ -78,6 +78,20 @@
      "rule": "Chiapas charges a state lodging tax (impuesto sobre hospedaje) on stays in hotels, motels, inns, villas, cabins and campsites, caravan parking, timeshares, and houses or apartments booked through apps and digital platforms. The rate is 2% of the amount paid, or 5% in motels. The provider collects it when the guest pays, and a platform that takes the payment pays it to the state. Meals, transport and VAT are outside the base (Código de la Hacienda Pública para el Estado de Chiapas, art. 239 to 241 A).",
      "source": "https://institutodelaconsejeriajuridica.chiapas.gob.mx/Marco_Juridico/Leyes/pdf/Codigo_de_la_haciendapublica_Chiapas.pdf",
      "checked": "2026-11-06"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "level": "site",
+     "rule": "Canon del Sumidero National Park: CONANP's visitor rules say stay on the trails, don't climb the retaining walls, no alcohol, no smoking, no campfires, don't take plants or animals, stay in the boats, keep control of solid waste and wear the conservation wristband.",
+     "source": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=24",
+     "checked": "2026-11-06"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "level": "site",
+     "rule": "Lagunas de Montebello National Park: the visible visitor rules say avoid fires in places not marked for them, don't take or damage wild plants and animals, and take your rubbish with you. The page hides the full list behind a link.",
+     "source": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=96",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -87,10 +101,66 @@
      "url": "https://institutodelaconsejeriajuridica.chiapas.gob.mx/Marco_Juridico/Leyes/pdf/Codigo_de_la_haciendapublica_Chiapas.pdf",
      "checked": "2026-11-06",
      "supports": "lodging tax (art. 239 to 241 A)"
+    },
+    {
+     "title": "Canon del Sumidero",
+     "authority": "CONANP",
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=24",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Lagunas de Montebello",
+     "authority": "CONANP",
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=96",
+     "checked": "2026-11-06"
     }
    ],
    "checked": "2026-11-06",
    "notes": "Only the state lodging tax is checked. Palenque and Lagunas de Montebello park fees, municipal rules and state alcohol hours aren't checked."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "CONANP (Comision Nacional de Areas Naturales Protegidas), Parque Nacional Canon del Sumidero",
+     "process": "Entry fee of MXN 125 per person per day (about A$9.45; A$1 = about MXN 13.23 (RBA 30 October 2026, A$1 = USD 0.7040; Banco de Mexico FIX, USD 1 = MXN 18.7962)). Exempt: older adults, pensioners and retirees, people with disability and children under 12 (credential shown on entry). 75% off for students and teachers with a credential; 50% off for Mexican nationals and foreign residents who show an official document. Open 8:00 to 17:00; by water every day, by land Wednesday to Monday. Visitors wear the conservation wristband.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=24",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "fee",
+     "authority": "CONANP (Comision Nacional de Areas Naturales Protegidas), Parque Nacional Lagunas de Montebello",
+     "process": "Entry fee of MXN 125 per person per day (about A$9.45; A$1 = about MXN 13.23 (RBA 30 October 2026, A$1 = USD 0.7040; Banco de Mexico FIX, USD 1 = MXN 18.7962)). Exempt: older adults, pensioners and retirees, people with disability and children under 12 (credential shown on entry). 75% off for students and teachers with a credential; 50% off for Mexican nationals and foreign residents who show an official document. Open 8:00 to 17:00 daily.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=96",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Canon del Sumidero",
+     "authority": "CONANP",
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=24",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "Lagunas de Montebello",
+     "authority": "CONANP",
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=96",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "notes": "Federal park fees as published on CONANP's Descubre ANP page, which says amounts follow the Ley Federal de Derechos and can change. Other parks in this state aren't checked."
   }
  }
 }

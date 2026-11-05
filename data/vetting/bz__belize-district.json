@@ -1,0 +1,96 @@
+{
+ "place": "bz/belize-district",
+ "patterns": {
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "level": "site",
+     "rule": "Hol Chan Marine Reserve (off Ambergris Caye, run by the Belize Fisheries Department with the reserve's management team) bans, reserve-wide: removing or disturbing plants, animals, rocks, corals, shells or sand without the fisheries administrator's authorisation; discharging waste, toxic material or litter; long lines, fish traps, seine nets, gill nets and spearfishing; and anchoring that may damage coral or sensitive habitat. Fishing of any kind needs a valid licence.",
+     "source": "https://fisheries.gov.bz/hcmr/",
+     "checked": "2026-11-06"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "level": "site",
+     "rule": "At Hol Chan, snorkelling and diving in the recreational zones requires registration, and scuba diving requires certification or a course led by a certified instructor. In Zone A (Hol Chan Channel) and Zone H (Mexico Rocks no-take zone) only fins and a mask are allowed, with no gloves, no fishing and no feeding fish. In Zone D (Shark Ray Alley) there's no scuba diving, no gloves and no harassing animals; guides may feed sharks from the boat. Tour boats must be registered with a visible sticker and check in with the ranger, may not exceed 45 feet or carry more than 30 people, must fly a divers-down flag, use moorings, stay no more than 1 hour in the exclusive recreational area and take no more than 8 people per guide. The page describes some zones only in part.",
+     "source": "https://fisheries.gov.bz/hcmr/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "HCMR (Hol Chan Marine Reserve)",
+     "authority": "Belize Fisheries Department",
+     "url": "https://fisheries.gov.bz/hcmr/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "notes": "Only Hol Chan is covered for Belize District. Blue Hole Natural Monument rules, Belize City and Caye Caulker rules, and district-level alcohol or beach rules aren't checked."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Hol Chan Marine Reserve, Belize Fisheries Department",
+     "process": "The Fisheries Department's reserve page states one fee: sport fishing in Zone E (Bajos) costs BZ$20 per person per day (about A$14.20 at A$1 = USD 0.7040, RBA 30 October 2026, and BZ$2 = USD 1, the fixed peg). It doesn't list a reserve entry fee for snorkellers and divers. A local newspaper reported a US$15 entry fee for all zones from 1 August 2024 (about A$21.31), with the local rate unchanged for Belizeans showing ID; that report is a signal, not an official notice, and conflicts with itself on a US$20 figure. Many tour operators include the fee in the tour price. Confirm with the reserve office on +501-226-2247.",
+     "lead_time_days": 0,
+     "activities": [
+      "snorkelling",
+      "diving",
+      "sport fishing"
+     ],
+     "url": "https://fisheries.gov.bz/hcmr/",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "fee",
+     "evidence": "signal",
+     "authority": "Hol Chan Marine Reserve (reported by San Pedro Sun)",
+     "process": "Reported US$15 entry fee for all 15 zones from 1 August 2024 (about A$21.31 at A$1 = USD 0.7040, RBA 30 October 2026); local rate for Belizeans with ID; tours booked earlier kept the old price. Not confirmed on an official page.",
+     "lead_time_days": 0,
+     "activities": [
+      "snorkelling",
+      "diving"
+     ],
+     "url": "https://www.sanpedrosun.com/environment/2024/08/01/new-park-fee-go-into-effect-at-hol-chan-marine-reserve/",
+     "checked": "2026-11-06"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Hol Chan Marine Reserve, Belize Fisheries Department",
+     "process": "Snorkelling and diving in the recreational zones needs registration with the reserve. Tour boats must be registered, show a sticker, and check in with the ranger on duty before entering.",
+     "lead_time_days": 0,
+     "activities": [
+      "snorkelling",
+      "diving",
+      "tour boats"
+     ],
+     "url": "https://fisheries.gov.bz/hcmr/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "HCMR (Hol Chan Marine Reserve)",
+     "authority": "Belize Fisheries Department",
+     "url": "https://fisheries.gov.bz/hcmr/",
+     "checked": "2026-11-06"
+    },
+    {
+     "title": "New park fee goes into effect at Hol Chan Marine Reserve",
+     "authority": "San Pedro Sun (news; signal)",
+     "url": "https://www.sanpedrosun.com/environment/2024/08/01/new-park-fee-go-into-effect-at-hol-chan-marine-reserve/",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "notes": "Blue Hole Natural Monument fees weren't found on an official page (the Belize Audubon Society page refused access)."
+  }
+ }
+}

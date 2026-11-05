@@ -87,6 +87,70 @@
      "supports": "2026 dates (search-index snapshot)"
     }
    ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "work-and-payment",
+     "level": "state",
+     "rule": "Oaxaca charges a state lodging tax on paid stays in hotels, motels, hostels, inns, guest houses, cabins, bungalows, campsites and timeshares (3% of the amount paid), and on apartments and houses used wholly or partly for lodging (5%, calculated by whoever collects the payment, including a host, intermediary or booking platform). The provider or intermediary adds it to the bill and pays it to the state finance secretariat. Meals, other services that aren't lodging, and VAT are outside the base (Ley Estatal de Hacienda, art. 52 to 56, as reformed by Decreto 884, published 10 December 2025).",
+     "source": "https://www.congresooaxaca.gob.mx/docs66.congresooaxaca.gob.mx/legislacion_estatal/Ley_Estatal_de_Hacienda_(Ref_dto_884_aprob_LXVI_Legis_8_dic_2025_PO_Extra_10_dic_2025).pdf",
+     "checked": "2026-11-06"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "level": "site",
+     "rule": "Huatulco National Park: CONANP's visitor rules say use authorised guides, look and don't touch, take photos without flash, don't bring in plants or animals, carry out your rubbish, don't buy souvenirs made from wild species, don't take coral, shells or snails, no campfires, keep noise down, stay inside marked areas, and avoid sunscreen (long sleeves preferred).",
+     "source": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=69",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ley Estatal de Hacienda de Oaxaca (latest reform: Decreto 884, Periodico Oficial Extra, 10 December 2025)",
+     "authority": "H. Congreso del Estado de Oaxaca",
+     "url": "https://www.congresooaxaca.gob.mx/docs66.congresooaxaca.gob.mx/legislacion_estatal/Ley_Estatal_de_Hacienda_(Ref_dto_884_aprob_LXVI_Legis_8_dic_2025_PO_Extra_10_dic_2025).pdf",
+     "checked": "2026-11-06",
+     "supports": "lodging tax (art. 52 to 56)"
+    },
+    {
+     "title": "Huatulco",
+     "authority": "CONANP",
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=69",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "notes": "Only the state lodging tax is checked. Oaxaca city street-drinking rules, Guelaguetza and Hierve el Agua access arrangements (run by communities) and state alcohol hours aren't checked."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "CONANP (Comision Nacional de Areas Naturales Protegidas), Parque Nacional Huatulco",
+     "process": "Entry fee of MXN 125 per person per day (about A$9.45; A$1 = about MXN 13.23 (RBA 30 October 2026, A$1 = USD 0.7040; Banco de Mexico FIX, USD 1 = MXN 18.7962)). Exempt: older adults, pensioners and retirees, people with disability and children under 12 (credential shown on entry). 75% off for students and teachers with a credential; 50% off for Mexican nationals and foreign residents who show an official document. Open 7:00 to 19:00 daily (night scuba diving and approved research are exceptions).",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=69",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Huatulco",
+     "authority": "CONANP",
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=69",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "notes": "Federal park fees as published on CONANP's Descubre ANP page, which says amounts follow the Ley Federal de Derechos and can change. Other parks in this state aren't checked."
   }
  }
 }

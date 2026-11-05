@@ -129,7 +129,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -148,6 +148,13 @@
      "penalty_signal": "minor breaches 10 to 1,000 UMA (units of measure and update); serious breaches 1,000 to 50,000 UMA, plus closure of the activity (the regulation's sanctions article). The UMA value changes each year and is not stated in the regulation.",
      "source": "https://www.poderjudicialyucatan.gob.mx/digestum/marcoLegal/05/2014/DIGESTUM05065.pdf",
      "checked": "2026-11-06"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "level": "site",
+     "rule": "Ria Celestun Biosphere Reserve: CONANP's visitor rules say follow the management programme, don't disturb wildlife, get no closer than 50 m to flamingo populations, don't litter, don't camp outside authorised sites, don't introduce exotic species, don't cut trees, don't burn, and follow the authorities' advice.",
+     "source": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=144",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -163,9 +170,42 @@
      "authority": "Gobierno del Estado de Yucatán (text hosted by the state judiciary legal digest)",
      "url": "https://www.poderjudicialyucatan.gob.mx/digestum/marcoLegal/05/2014/DIGESTUM05065.pdf",
      "checked": "2026-11-06"
+    },
+    {
+     "title": "Ria Celestun",
+     "authority": "CONANP",
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=144",
+     "checked": "2026-11-06"
     }
    ],
    "note": "From the Yucatán state government."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "CONANP (Comision Nacional de Areas Naturales Protegidas), Reserva de la Biosfera Ria Celestun",
+     "process": "Entry fee of MXN 125 per person per day (about A$9.45; A$1 = about MXN 13.23 (RBA 30 October 2026, A$1 = USD 0.7040; Banco de Mexico FIX, USD 1 = MXN 18.7962)). Exempt: older adults, pensioners and retirees, people with disability and children under 12 (credential shown on entry). 75% off for students and teachers with a credential; 50% off for Mexican nationals and foreign residents who show an official document. Open 8:00 to 17:00.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=144",
+     "checked": "2026-11-06"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ria Celestun",
+     "authority": "CONANP",
+     "url": "https://descubreanp.conanp.gob.mx/es/conanp/ANP?suri=144",
+     "checked": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "notes": "Federal park fees as published on CONANP's Descubre ANP page, which says amounts follow the Ley Federal de Derechos and can change. Other parks in this state aren't checked."
   }
  }
 }
