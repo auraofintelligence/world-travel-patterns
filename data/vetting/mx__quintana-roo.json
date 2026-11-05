@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-03",
+   "checked": "2026-11-06",
    "evidence": "official",
    "laws": [
     {
@@ -72,6 +72,13 @@
      "level": "municipality",
      "source": "https://documentos.congresoqroo.gob.mx/leyes/L96-XVIII-20240605-L1720240605227.pdf",
      "checked": "2026-11-03"
+    },
+    {
+     "topic": "work-and-payment",
+     "level": "state",
+     "rule": "Quintana Roo charges a state lodging tax (impuesto al hospedaje) on paid stays in hotels, motels, inns, camping and caravan areas, timeshare and tourist marinas, and on stays offered by hosts, including through digital platforms. The rate is 5% of the invoiced or contracted price, or 6% where the host or the booking platform collects the payment (Ley del Impuesto al Hospedaje, art. 4 and 8). The provider collects it from the guest; the state finance secretariat administers it.",
+     "source": "https://documentos.congresoqroo.gob.mx/leyes/L187-XVIII-20251216-L1820251216189-Ley-del-Impuesto-al-Hospedaje.pdf",
+     "checked": "2026-11-06"
     }
    ],
    "sources": [
@@ -116,6 +123,13 @@
      "url": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
      "checked": "2026-11-03",
      "supports": "FIX for 30 October 2026, MXN 18.7962 per USD"
+    },
+    {
+     "title": "Ley del Impuesto al Hospedaje del Estado de Quintana Roo (last reform published 16 December 2025)",
+     "authority": "Congreso del Estado de Quintana Roo",
+     "url": "https://documentos.congresoqroo.gob.mx/leyes/L187-XVIII-20251216-L1820251216189-Ley-del-Impuesto-al-Hospedaje.pdf",
+     "checked": "2026-11-06",
+     "supports": "lodging tax rates (art. 8)"
     }
    ],
    "notes": "Amounts use the 2026 UMA (Unidad de Medida y Actualización, a federal reference unit: MXN 117.31 a day from 1 February 2026, INEGI) and A$1 = about MXN 13.23 (RBA 30 October 2026, A$1 = USD 0.7040; Banco de México FIX for 30 October 2026, USD 1 = MXN 18.7962). Other Quintana Roo municipalities set their own sanitation fees; those aren't checked here. Reef and protected-area rules in this state are mostly federal (CONANP) and aren't recorded at state level."
