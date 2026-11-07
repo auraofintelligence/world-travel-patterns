@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -41,6 +41,21 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Tarifario"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Cusco's municipal table of infractions and sanctions (CUIS) fines urinating or defecating in public space, archaeological zones or places of presumed heritage value in the Historic Centre (infraction D066, in the Historic Centre and its protection ring). Fouling the street or vacant land to relieve oneself is listed again under the environment office (B004). The table is set as a share of the UIT, Peru's annual tax unit (the UIT is reset each year, so the sol amount was not checked).",
+     "penalty_signal": "5% of one UIT for D066 and 10% for B004 (light-grade infractions)",
+     "level": "city",
+     "source": "https://taqe.cusco.gob.pe/publico/transparencia-standar/CUISMPCOK.pdf",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "The same Cusco table makes the sale of alcohol for drinking on the public road a business infraction (A016), and national Law 28681 bans consuming alcohol on the public road. The table also fines throwing or leaving municipal solid waste on the public road or in recreation areas (B007), and occupying public areas, greens or roads in the Historic Centre without authority (D054, 200% of a UIT).",
+     "level": "city",
+     "source": "https://taqe.cusco.gob.pe/publico/transparencia-standar/CUISMPCOK.pdf",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -57,6 +72,13 @@
      "url": "https://cosituc.gob.pe/tarifario-2/",
      "checked": "2026-11-05",
      "supports": "ticket types, prices, circuits (read directly 2026-11-05)"
+    },
+    {
+     "title": "Cuadro unico de infracciones y sanciones (CUIS)",
+     "authority": "Municipalidad Provincial del Cusco",
+     "url": "https://taqe.cusco.gob.pe/publico/transparencia-standar/CUISMPCOK.pdf",
+     "checked": "2026-11-07",
+     "supports": "codes D066, B004, B007, A016, D054 (101-page PDF; edition date not shown, recheck)"
     }
    ],
    "note": "Machu Picchu only. Foreign visitor prices not recorded: the 2026 resolution found covers only national and Andean Community rates. Boleto Turístico del Cusco added 5 November 2026; its page lists partial II and III as valid 2 days, which reads inconsistently, so validity of partial tickets is not recorded."
