@@ -249,7 +249,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -275,6 +275,27 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/uruguay",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Anyone carrying cash, precious metals or other monetary instruments worth US$10,000 or more across the border must declare it to the Direccion Nacional de Aduanas (Law 17,835, art. 19); the traveller answers the question on the baggage declaration form. US$10,000 is about A$14,200 (RBA 30 Oct 2026: A$1 = USD 0.7040).",
+     "source": "https://www.aduanas.gub.uy/innovaportal/v/12181/14/innova.front/normativa-vigente-para-transporte-de-valores-.html",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Spirits and cigarettes bought in arrival duty-free shops are limited to a maximum of 4 litres of spirits and 4 cartons of cigarettes.",
+     "source": "https://www.aduanas.gub.uy/innovaportal/v/12000/8/innova.front/equipaje_de_turistas_extranjeros_o_uruguayos_que_retornan_de_viajes.html",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Medicines can come in as baggage in amounts suited to the traveller's needs and length of stay, over the counter or otherwise with the prescription.",
+     "source": "https://www.aduanas.gub.uy/innovaportal/v/12000/8/innova.front/equipaje_de_turistas_extranjeros_o_uruguayos_que_retornan_de_viajes.html",
+     "level": "country",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -284,6 +305,20 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/uruguay",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Normativa vigente para transporte de valores",
+     "authority": "Direccion Nacional de Aduanas, Uruguay",
+     "url": "https://www.aduanas.gub.uy/innovaportal/v/12181/14/innova.front/normativa-vigente-para-transporte-de-valores-.html",
+     "supports": "cash declaration",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Equipaje de turistas extranjeros o uruguayos que retornan de viajes",
+     "authority": "Direccion Nacional de Aduanas, Uruguay",
+     "url": "https://www.aduanas.gub.uy/innovaportal/v/12000/8/innova.front/equipaje_de_turistas_extranjeros_o_uruguayos_que_retornan_de_viajes.html",
+     "supports": "duty-free limits and medicines",
+     "checked": "2026-11-07"
     }
    ]
   },

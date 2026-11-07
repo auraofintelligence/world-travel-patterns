@@ -61,7 +61,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -111,6 +111,28 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/bolivia",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Travellers entering or leaving Bolivia declare cash on the customs Form 250 once they carry US$10,000 or more. Bolivian customs pages differ on the ceiling: one news notice says up to US$20,000 either way, and the traveller-regime page says up to US$50,000 on entry and US$20,000 on exit; larger amounts must move through regulated financial institutions. Check the current figure with Aduana Nacional before travel. US$10,000 is about A$14,200 (RBA 30 Oct 2026: A$1 = USD 0.7040).",
+     "penalty_signal": "30% of the undeclared foreign currency is retained; for an inaccurate declaration, 30% of the difference between what was found and what was declared",
+     "source": "https://www.aduana.gob.bo/regimen-viajero",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Traveller allowance: up to 3 litres of alcoholic drinks, 400 cigarettes, and 50 cigars or 500 grams of cut tobacco.",
+     "source": "https://www.aduana.gob.bo/regimen-viajero",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Medicines for personal use are allowed with an express medical prescription, in a quantity not above three units (boxes or bottles).",
+     "source": "https://www.aduana.gob.bo/regimen-viajero",
+     "level": "country",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -120,6 +142,20 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/bolivia",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Declaracion de equipaje y divisas (regimen de viajeros)",
+     "authority": "Aduana Nacional de Bolivia",
+     "url": "https://www.aduana.gob.bo/regimen-viajero",
+     "supports": "cash, allowances, medicines",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Viajeros deben declarar la salida e ingreso de divisas en el Formulario 250",
+     "authority": "Aduana Nacional de Bolivia",
+     "url": "https://www.aduana.gob.bo/node/1377765",
+     "supports": "cash ceiling of US$20,000 and 30% sanction",
+     "checked": "2026-11-07"
     }
    ]
   },

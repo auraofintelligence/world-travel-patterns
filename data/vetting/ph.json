@@ -312,7 +312,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -338,6 +338,29 @@
      "source": "https://www.smartraveller.gov.au/destinations/asia/philippines",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "The duty- and tax-free allowance, per the Bureau of Customs arrivals guidelines (citing CAO 01-2017), is two bottles of liquor with a total value of less than PHP 10,000 (about A$223 at PHP 44.84 per A$1, RBA 30 Oct 2026). Commercial quantities of alcohol need an import permit from the Food and Drug Administration.",
+     "penalty_signal": "Undeclared dutiable goods pay duties and taxes plus a 30% surcharge on landed cost (CMTA s 1404); items beyond personal-use limits can be seized and forfeited.",
+     "source": "https://customs.gov.ph/guidelines-on-arriving-travelers/",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "The duty- and tax-free allowance, per the Bureau of Customs arrivals guidelines (citing CAO 01-2017), is two reams of cigarettes (a ream is 200 sticks), or 50 cigars, or 250 g of pipe tobacco. The page does not mention e-cigarettes.",
+     "source": "https://customs.gov.ph/guidelines-on-arriving-travelers/",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Declare to the Bureau of Customs, on arrival or departure, foreign currency totalling more than USD 10,000 or its equivalent (about A$14,200 at USD 0.7040 per A$1, RBA 30 Oct 2026); you can file ahead through the eTravel system. Philippine pesos: up to PHP 50,000 per person (about A$1,115 at PHP 44.84 per A$1) in or out without approval; more needs written authorisation from the Bangko Sentral ng Pilipinas, which it grants only for narrow purposes such as numismatics or museum exhibits, and must still be declared.",
+     "penalty_signal": "Pesos over PHP 50,000 carried without authorisation are subject to confiscation.",
+     "source": "https://customs.gov.ph/boc-reiterates-existing-rules-on-currency-declaration-for-travelers/",
+     "level": "country",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -347,6 +370,18 @@
      "url": "https://www.smartraveller.gov.au/destinations/asia/philippines",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Guidelines on Arriving Travelers",
+     "authority": "Bureau of Customs, Philippines",
+     "url": "https://customs.gov.ph/guidelines-on-arriving-travelers/",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "BOC Reiterates Existing Rules on Currency Declaration for Travelers (2 March 2026)",
+     "authority": "Bureau of Customs, Philippines",
+     "url": "https://customs.gov.ph/boc-reiterates-existing-rules-on-currency-declaration-for-travelers/",
+     "checked": "2026-11-07"
     }
    ]
   },

@@ -70,7 +70,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -112,6 +112,21 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/peru",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "When entering or leaving Peru, declare cash or negotiable instruments (travellers' cheques, bearer cheques) worth more than US$10,000 or the equivalent in any currency. Carrying more than US$30,000 in or out is not permitted. US$10,000 is about A$14,200 (RBA 30 Oct 2026: A$1 = USD 0.7040).",
+     "penalty_signal": "Leaving out or falsifying the declaration: all the money is held temporarily and a penalty of 30% of the undeclared value applies, with civil or criminal action possible",
+     "source": "https://www.gob.pe/1116-ingresar-equipaje-al-pais-ingresar-y-salir-con-dinero-del-pais",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Duty-free for travellers over 18: up to 3 litres of liquor, and up to 20 packs of cigarettes, or 50 cigars, or 250 grams of cut tobacco. Medicines for the traveller's personal use are among the items that can come in as baggage.",
+     "source": "https://ww1.sunat.gob.pe/orientacionaduanera/viajeros/equipaje_bienes.html",
+     "level": "country",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -121,6 +136,20 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/peru",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Ingresar equipaje al pais / ingresar y salir con dinero",
+     "authority": "SUNAT, Peru",
+     "url": "https://www.gob.pe/1116-ingresar-equipaje-al-pais-ingresar-y-salir-con-dinero-del-pais",
+     "supports": "cash declaration",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Equipaje: bienes libres de impuestos",
+     "authority": "SUNAT, Peru",
+     "url": "https://ww1.sunat.gob.pe/orientacionaduanera/viajeros/equipaje_bienes.html",
+     "supports": "allowances",
+     "checked": "2026-11-07"
     }
    ]
   },

@@ -70,7 +70,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -104,6 +104,20 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/ecuador",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "A traveller carrying cash, bearer instruments, precious metals or stones worth US$10,000 or more (or the equivalent), or taxable goods, must lodge the customs Registration Form (FRA) on arrival and bring their passport. US$10,000 is about A$14,200 (RBA 30 Oct 2026: A$1 = USD 0.7040).",
+     "source": "https://www.aduana.gob.ec/servicio-al-ciudadano/viajeros-por-via-aerea/",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "The air traveller's duty-free allowance lists up to 3 litres of alcohol.",
+     "source": "https://www.aduana.gob.ec/servicio-al-ciudadano/viajeros-por-via-aerea/",
+     "level": "country",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -113,6 +127,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/ecuador",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Viajeros por via aerea",
+     "authority": "SENAE, Aduana del Ecuador",
+     "url": "https://www.aduana.gob.ec/servicio-al-ciudadano/viajeros-por-via-aerea/",
+     "supports": "FRA and allowance",
+     "checked": "2026-11-07"
     }
    ]
   },
