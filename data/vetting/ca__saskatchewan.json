@@ -36,7 +36,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -45,6 +45,41 @@
      "level": "region",
      "source": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
      "checked": "2026-11-02"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Cannabis Control (Saskatchewan) Act, S.S. 2018, c. C-2.111: nobody older than a minor (a minor is under 19) may consume cannabis in a public place or any place other than a private place (s. 2-14). The Act's meaning of public place includes parks, playgrounds, roads and streets, and vehicles in those places. Consuming at a school, its grounds or a child care facility is banned (s. 2-16). Nobody may possess, consume or distribute cannabis in a vehicle, except to carry it from where it was lawfully obtained to a place where it may lawfully be had or used (s. 2-10). The minister may ban possessing or consuming cannabis in a provincial park or regional park campground by order (s. 2-17); check for a current order.",
+     "source": "https://publications.saskatchewan.ca//api/v1/products/90574/formats/107491/download",
+     "level": "region",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Under the same Act, nobody older than a minor may possess more than 30 g of dried cannabis (or its equivalent under Schedule 3) in a public place, or more than 4 non-flowering plants (s. 2-8). Buying cannabis from anyone not authorised to sell it is banned (s. 2-7).",
+     "source": "https://publications.saskatchewan.ca//api/v1/products/90574/formats/107491/download",
+     "level": "region",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Alcohol and Gaming Regulation Act, 1997, S.S. 1997, c. A-18.011, s. 107: nobody may have, drink or give alcohol in a public place or anywhere other than a private place or permitted premises, unless the Act or regulations allow it. Municipal councils, regional park authorities and some other bodies may designate outdoor public places by bylaw where alcohol may be drunk (s. 107(4)), so rules differ by town and park.",
+     "source": "https://publications.saskatchewan.ca//api/v1/products/368/formats/377/download",
+     "level": "region",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "The legal drinking age in Saskatchewan is 19 (minor means under 19, per the Act definition). Selling or giving alcohol to a minor is banned, except that a parent, guardian or spouse may give it in a private place to their child, ward or spouse (s. 110).",
+     "source": "https://publications.saskatchewan.ca//api/v1/products/368/formats/377/download",
+     "level": "region",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Nobody may have, keep, drink or give alcohol in a vehicle, except to carry it from where it was lawfully obtained to a place where it may be lawfully had or drunk, or in a vehicle with a special use permit (s. 109(1) and (2)). The maximum penalty is a C$2,000 fine (about A$2,033 at A$1 = C$0.9838, RBA 30 Oct 2026), two months in jail, or both (s. 109(4)).",
+     "source": "https://publications.saskatchewan.ca//api/v1/products/368/formats/377/download",
+     "level": "region",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -54,6 +89,18 @@
      "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
      "checked": "2026-11-02",
      "supports": "legal age, where to buy and public possession limit by province or territory (read via a search-index snapshot)"
+    },
+    {
+     "title": "The Cannabis Control (Saskatchewan) Act",
+     "authority": "Queen's/King's Printer, Government of Saskatchewan",
+     "url": "https://publications.saskatchewan.ca//api/v1/products/90574/formats/107491/download",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "The Alcohol and Gaming Regulation Act, 1997",
+     "authority": "King's Printer, Government of Saskatchewan",
+     "url": "https://publications.saskatchewan.ca//api/v1/products/368/formats/377/download",
+     "checked": "2026-11-07"
     }
    ]
   },

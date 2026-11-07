@@ -1,0 +1,22 @@
+{
+ "rule": "Hand and agent additions. A why is a reason to vet, never a finding.",
+ "places": [
+  {
+   "id": "cy/northern-cyprus",
+   "name": "Northern Cyprus",
+   "kind": "zone",
+   "parent": "cy",
+   "wikidata": "Q23681",
+   "why": "Area in the north of the island outside the Republic of Cyprus government's control. Flagged for entry, crossing and photography rules."
+  },
+  {
+   "id": "cy/un-buffer-zone",
+   "name": "United Nations Buffer Zone",
+   "kind": "zone",
+   "parent": "cy",
+   "wikidata": "Q116970",
+   "zone_scan": true,
+   "why": "Flagged for a zone scan: check for extra permits, consents, visitor caps, guides, fees and lead times. Demilitarised strip across the island."
+  }
+ ]
+}
