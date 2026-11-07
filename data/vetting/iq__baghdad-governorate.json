@@ -25,6 +25,33 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "evidence": "official",
+   "checked": "2026-11-07",
+   "layers": [
+    {
+     "type": "entry-permit",
+     "authority": "Local authorities, as reported by Australian Department of Foreign Affairs and Trade (Smartraveller)",
+     "process": "Smartraveller says the International Zone in central Baghdad remains closed, with limited exceptions.",
+     "lead_time_days": null,
+     "activities": [
+      "entering the International Zone"
+     ],
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Smartraveller travel advice: Iraq",
+     "authority": "Australian Department of Foreign Affairs and Trade (Smartraveller)",
+     "url": "https://www.smartraveller.gov.au/destinations/middle-east/iraq",
+     "checked": "2026-11-07",
+     "supports": "sub-national zone requirement (secondary official source)"
+    }
+   ]
   }
  }
 }
