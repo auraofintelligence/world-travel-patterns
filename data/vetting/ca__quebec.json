@@ -49,7 +49,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -58,6 +58,20 @@
      "level": "region",
      "source": "https://www.quebec.ca/en/health/advice-and-prevention/alcohol-drugs-gambling/recognizing-drugs-and-their-effects/cannabis/regulating-cannabis-in-quebec/legislation-cannabis-brief",
      "checked": "2026-11-02"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Montreal bans drinking alcohol in its parks. The exceptions are picnic areas where a meal is served and events with a special permit. Cannabis use in parks is also banned, open fires, fireworks and pyrotechnics are prohibited, and propane barbecues are allowed only in designated picnic areas. The page names the City's by-laws on urban parks, nature parks and regional parks for fines.",
+     "level": "city",
+     "source": "https://montreal.ca/en/articles/how-to-behave-parks-6535",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Quebec City allows drinking alcohol in about 30 listed parks and outdoor sites (its parcs conviviaux) from 15 May to 31 October, but only with a meal and in moderation, Monday to Friday 4 pm to 8 pm and weekends and holidays 11 am to 8 pm. Alcohol and barbecues are not allowed on days with stage shows at some parks, tents and fires are prohibited, and large gatherings are not allowed. Outside these sites, drinking in a public place such as a park is barred by the peace and good order by-law (R.V.Q. 1091), and parks are closed between 11 pm and 5 am.",
+     "level": "city",
+     "source": "https://www.ville.quebec.qc.ca/citoyens/loisirs_sports/parcs/parcs-conviviaux.aspx",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -67,6 +81,19 @@
      "url": "https://www.quebec.ca/en/health/advice-and-prevention/alcohol-drugs-gambling/recognizing-drugs-and-their-effects/cannabis/regulating-cannabis-in-quebec/legislation-cannabis-brief",
      "checked": "2026-11-02",
      "supports": "legal age 21, possession limits, public use ban (read via a search-index snapshot)"
+    },
+    {
+     "title": "How to behave in parks",
+     "authority": "Ville de Montreal",
+     "url": "https://montreal.ca/en/articles/how-to-behave-parks-6535",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Parcs conviviaux",
+     "authority": "Ville de Quebec",
+     "url": "https://www.ville.quebec.qc.ca/citoyens/loisirs_sports/parcs/parcs-conviviaux.aspx",
+     "checked": "2026-11-07",
+     "supports": "alcohol with a meal rules; the R.V.Q. 1091 and 11 pm to 5 am closure come from a search-index snapshot of reglements.ville.quebec.qc.ca"
     }
    ]
   }
