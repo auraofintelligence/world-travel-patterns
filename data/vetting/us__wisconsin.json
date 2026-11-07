@@ -24,7 +24,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-03",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -41,6 +41,20 @@
      "level": "state",
      "source": "https://wisconsindot.gov/Pages/safety/education/workzone/mobiledeviceswz/default.aspx",
      "checked": "2026-11-03"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "In Wisconsin state parks and forests, people of legal drinking age may bring alcohol for picnic or campsite meals, with exceptions. It is prohibited at Heritage Hill State Park, Lakeshore State Park, on observation towers, and at the McMiller Sports Center in the Kettle Moraine State Forest Southern Unit when the range is open to shooters.",
+     "source": "https://dnr.wisconsin.gov/topic/parks/rules/alcohol",
+     "level": "state",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "drones",
+     "rule": "Flying drones, and other flying activities such as hang gliding, parasailing, ballooning, model airplanes and skydiving, is prohibited in Wisconsin state parks, recreation areas, natural areas, the Kettle Moraine and Point Beach state forests and the Lower Wisconsin State Riverway, except where posted for their use (Wis. Adm. Code NR 45.04(1)(c)). The Richard Bong Special Use Zone is set aside for these activities and needs permission at least a week ahead. FAA rules also apply.",
+     "source": "https://dnr.wisconsin.gov/topic/parks/rules/flying",
+     "level": "state",
+     "checked": "2026-11-08"
     }
    ],
    "sources": [
@@ -64,6 +78,12 @@
      "url": "https://wisconsindot.gov/Pages/safety/education/workzone/mobiledeviceswz/default.aspx",
      "checked": "2026-11-03",
      "supports": "hand-held ban in work zones, exceptions, 2019 amounts"
+    },
+    {
+     "title": "Alcoholic beverages; Flying-related activities",
+     "authority": "Wisconsin Department of Natural Resources",
+     "url": "https://dnr.wisconsin.gov/topic/parks/rules",
+     "checked": "2026-11-08"
     }
    ]
   },

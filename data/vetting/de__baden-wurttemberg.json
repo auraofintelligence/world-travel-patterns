@@ -52,7 +52,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-07",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -87,6 +87,33 @@
      "heading": "Nationalpark Schwarzwald, Regeln im Park",
      "checked": "2026-11-07",
      "level": "region"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "level": "region",
+     "heading": "Feiertagsgesetz (FTG) sections 8, 10, 11 and 13",
+     "rule": "Baden-Wurttemberg bans public events and dances on 'quiet' days. From midnight on Good Friday and from 5 am on Totengedenktag (the Sunday before Advent) events in rooms with bar service that go beyond serving food and drink, other public events that do not honour the day or serve art, science or education, and public sport (all day on Good Friday; until 1 pm on Totengedenktag) are banned (section 8(1)). Public sport is banned until 11 am on Easter Sunday, Whit Sunday, Corpus Christi and Christmas Day (section 8(2)). Public dance events are banned from 6 pm on Maundy Thursday to 8 pm on Holy Saturday; on All Saints (1 November) from 3 am to midnight on weekdays and from 5 am on Saturdays and Sundays; on Buss- und Bettag from 3 am to midnight; and on Volkstrauertag and Totengedenktag from 5 am to midnight. In spa and recreation towns the All Saints weekday ban and the Buss- und Bettag ban start at 2 am (section 10). The dance rules also apply to clubs and closed groups in hospitality rooms (section 11). A breach can be fined up to EUR 1,500 (about A$2,384) (section 13(2)). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Fine up to EUR 1,500.",
+     "source": "https://www.landesrecht-bw.de/perma?a=FeiertG_BW",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "level": "region",
+     "heading": "Landesnichtraucherschutzgesetz (LNRSchG) of 10 February 2026, sections 2, 3, 4 and 7 (in force from 1 June 2026)",
+     "rule": "From 1 June 2026 Baden-Wurttemberg bans smoking and the use of vapes, e-cigarettes, e-shishas, heated tobacco and similar products in all buildings and indoor rooms open to the public (section 2(1), section 3(1)). The ban also covers some outdoor places: school and childcare grounds and youth facilities, playgrounds (indoors and outdoors), tram and bus stops, covered shopping arcades, outdoor pools, amusement parks and zoos (section 2(2)). Bars and restaurants may have fully separate, marked smoking side rooms closed to under-18s, and beer, wine and festival tents are exempt (section 4(5)). A person who breaks the ban can be fined up to EUR 200 (about A$318), up to EUR 500 (about A$795) for a repeat within a year; an operator who skips the signs or does not act can be fined up to EUR 3,300 (about A$5,244), up to EUR 6,500 (about A$10,329) on a repeat (section 7(4)). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Smoker up to EUR 200 (EUR 500 on a repeat); operator up to EUR 3,300 (EUR 6,500).",
+     "source": "https://www.landesrecht-bw.de/bsbw/search/quick?query=Nichtraucherschutzgesetz",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "level": "region",
+     "heading": "Landeswaldgesetz (LWaldG) section 37, section 41 and section 83",
+     "rule": "In Baden-Wurttemberg forests, and within 100 m of one, lighting a fire outside a marked fireplace, using open light or burning off ground cover needs the forest authority's permit (section 41(1)). Smoking in the forest is banned from 1 March to 31 October (section 41(3)), and throwing away burning or smouldering things is banned (section 41(4)). Tents, and driving or parking vehicles, are not allowed in the forest without special permission (section 37(4)). Cycling and riding are allowed only on roads and suitable tracks, and not on paths under 2 m wide (section 37(3)). Fines under section 83: up to EUR 2,500 (about A$3,973), up to EUR 10,000 (about A$15,890) in especially serious cases. AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Up to EUR 2,500; up to EUR 10,000 in serious cases.",
+     "source": "https://www.landesrecht-bw.de/perma?a=WaldG_BW",
+     "checked": "2026-11-08"
     }
    ],
    "sources": [
@@ -102,6 +129,27 @@
      "authority": "Nationalparkverwaltung Schwarzwald (Baden-Württemberg)",
      "url": "https://www.nationalpark-schwarzwald.de/nationalpark/regeln-tipps/regeln-im-park",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "Gesetz uber die Sonntage und Feiertage (Feiertagsgesetz, FTG), version of 8 May 1995",
+     "authority": "Land Baden-Wurttemberg, Landesrecht BW",
+     "url": "https://www.landesrecht-bw.de/perma?a=FeiertG_BW",
+     "supports": "Quiet-day event, dance and sport bans; fine",
+     "checked": "2026-11-08"
+    },
+    {
+     "title": "Landesnichtraucherschutzgesetz (LNRSchG) of 10 February 2026",
+     "authority": "Land Baden-Wurttemberg, Landesrecht BW",
+     "url": "https://www.landesrecht-bw.de/bsbw/search/quick?query=Nichtraucherschutzgesetz",
+     "supports": "Smoking and vape ban, outdoor places, fines",
+     "checked": "2026-11-08"
+    },
+    {
+     "title": "Waldgesetz fur Baden-Wurttemberg (Landeswaldgesetz, LWaldG), version of 31 August 1995",
+     "authority": "Land Baden-Wurttemberg, Landesrecht BW",
+     "url": "https://www.landesrecht-bw.de/perma?a=WaldG_BW",
+     "supports": "Forest fire, smoking, tents, fines",
+     "checked": "2026-11-08"
     }
    ],
    "note": "Heidelberg only; other cities in the state not yet checked."

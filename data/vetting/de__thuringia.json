@@ -52,7 +52,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -63,6 +63,33 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Satzung zur Erhebung einer Kulturförderabgabe für Übernachtungen in Weimar (3rd amendment)"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "level": "region",
+     "heading": "Thuringer Feier- und Gedenktagsgesetz (ThurFGtG) section 6 and section 8",
+     "rule": "Thuringia protects 'silent days'. On Good Friday (all day), Volkstrauertag and Totensonntag (from 3 am) music and other entertainment of any kind in bars and in side rooms that serve drinks, public sport events, and other public events that do not honour the day or serve art, science or education and respect its character are banned (section 6(1)). Where Corpus Christi is a public holiday, All Saints has the same protection from 3 am (section 6(2)). On Christmas Eve the ban on sport and other public events starts at 3 pm (section 6(3)). A breach can be fined up to EUR 5,000 (about A$7,946) (section 8(3)). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Fine up to EUR 5,000.",
+     "source": "https://landesrecht.thueringen.de/bsth/search/quick?query=Feiertagsgesetz",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "level": "region",
+     "heading": "Thuringer Nichtraucherschutzgesetz (ThurNRSchutzG) section 2, section 3 and section 8",
+     "rule": "Thuringia bans smoking in public offices, courts, hospitals, childcare and youth facilities, student housing, adult education and universities, sports facilities, culture venues, bars and restaurants and other listed places (sections 2 and 3). Sections 4 and 5 allow exceptions such as separate smoking rooms. A smoker can be fined EUR 20 to 200 (about A$32 to A$318); an operator who skips signs or does not act can be fined EUR 50 to 500 (about A$79 to A$795) (section 8(2)). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Smoker EUR 20 to 200; operator EUR 50 to 500.",
+     "source": "https://landesrecht.thueringen.de/bsth/search/quick?query=Passivrauchen",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "level": "region",
+     "heading": "Thuringer Waldgesetz (ThurWaldG) sections 6, 12 and 66",
+     "rule": "In Thuringia's forests, and within 100 m of one, lighting an open fire or open light (outside fireplaces built or approved by the forest authorities), burning off ground cover and throwing away burning or smouldering things are banned (section 12(2)). Smoking in the forest, including on forest paths, is banned (section 12(3)). Camping in a tent and cycling off firm paths need the forest owner's agreement (section 6). Fines under section 66: up to EUR 2,500 (about A$3,973) for most offences, EUR 12,500 (about A$19,863) for some and EUR 25,000 (about A$39,725) for the gravest. AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Up to EUR 2,500; up to EUR 25,000 for the gravest offences.",
+     "source": "https://landesrecht.thueringen.de/bsth/search/quick?query=Thüringer Waldgesetz",
+     "checked": "2026-11-08"
     }
    ],
    "sources": [
@@ -72,6 +99,27 @@
      "url": "https://stadt.weimar.de/de/leistung/leistung/1119/wohnort/19154/zustaendigestelle/305/kulturfoerderabgabe_fuer_uebernachtungen.html",
      "checked": "2026-11-05",
      "supports": "rates, exemptions (search-index snapshot)"
+    },
+    {
+     "title": "Thuringer Feier- und Gedenktagsgesetz (ThurFGtG) of 21 December 1994",
+     "authority": "Freistaat Thuringen, Landesrecht Thuringen",
+     "url": "https://landesrecht.thueringen.de/bsth/search/quick?query=Feiertagsgesetz",
+     "supports": "Silent days and fine",
+     "checked": "2026-11-08"
+    },
+    {
+     "title": "Thuringer Nichtraucherschutzgesetz of 20 December 2007",
+     "authority": "Freistaat Thuringen, Landesrecht Thuringen",
+     "url": "https://landesrecht.thueringen.de/bsth/search/quick?query=Passivrauchen",
+     "supports": "Smoking ban and fines",
+     "checked": "2026-11-08"
+    },
+    {
+     "title": "Thuringer Waldgesetz (ThurWaldG)",
+     "authority": "Freistaat Thuringen, Landesrecht Thuringen",
+     "url": "https://landesrecht.thueringen.de/bsth/search/quick?query=Thüringer Waldgesetz",
+     "supports": "Forest fire, smoking, camping, fines",
+     "checked": "2026-11-08"
     }
    ],
    "note": "Weimar only; Erfurt not yet checked."

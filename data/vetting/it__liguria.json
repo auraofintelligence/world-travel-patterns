@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -65,6 +65,26 @@
      "checked": "2026-11-08",
      "evidence": "official",
      "by": "hand"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Genoa charges an imposta di soggiorno (tourist tax) to non-residents for each night in any hotel, extra-hotel lodging or tourist flat. Rates per person per night: hostels, agritourism, Marina Resorts and campsites EUR 2; guesthouses, B&Bs, holiday houses and rooms EUR 4; furnished tourist apartments EUR 5 (EUR 4 in Municipi IV, V and VI only); hotels EUR 2 (1 star), EUR 2.50 (2), EUR 3 (3), EUR 4 (4), EUR 5 (5 star and 5 star lux). The tax applies to the first 8 consecutive nights in the same lodging. Children to 14 and certified disabled people are exempt. The hotel range is about A$3.18 to A$7.95 (A$1 = EUR 0.6293, RBA 30 October 2026). The city's press release (a search lead, not read) says new extra-hotel and apartment rates started on 1 August 2026 under Giunta resolution DGC/2026/166; the page read already shows the EUR 4 and EUR 5 figures.",
+     "penalty_signal": "EUR 2 to EUR 5 per person per night (about A$3.18 to A$7.95)",
+     "level": "city",
+     "source": "https://www.comune.genova.it/servizi/tributi-finanze-e-contravvenzioni/imposta-di-soggiorno-ids",
+     "heading": "Comune di Genova, Imposta di Soggiorno (IDS) page; D.Lgs 23/2011 art. 4",
+     "checked": "2026-11-08",
+     "evidence": "official"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Genoa's Police Regulation (Regolamento di Polizia Urbana, council resolution 32 of 14 June 2011, last amended by resolution 50 of 19 September 2023) Art. 28, comma 1, bans camping out (bivaccare) on the steps, staircases or access stairs of monuments, places of worship and sites of cultural, historic or architectural importance, and bans eating or drinking there in an indecent way, or leaving belongings, bags or blankets there. The regulation's sanctions table lists EUR 25 to EUR 500 for Art. 28 breaches (about A$40 to A$795 (A$1 = EUR 0.6293, RBA 30 October 2026)); I did not match each lettered item to its own amount.",
+     "penalty_signal": "EUR 25 to EUR 500 (about A$40 to A$795)",
+     "level": "city",
+     "source": "https://smart.comune.genova.it/system/files/regolamenti/reg_polizia_urbana_2023_con_link.pdf",
+     "heading": "Comune di Genova, Regolamento di Polizia Urbana, Art. 28 (text updated by DCC 50/2023)",
+     "checked": "2026-11-08",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -81,6 +101,18 @@
      "url": "https://www.parconazionale5terre.it/pagina.php?id=334",
      "checked": "2026-11-08",
      "supports": "site-specific visitor rules"
+    },
+    {
+     "title": "Imposta di Soggiorno (IDS)",
+     "authority": "Comune di Genova",
+     "url": "https://www.comune.genova.it/servizi/tributi-finanze-e-contravvenzioni/imposta-di-soggiorno-ids",
+     "checked": "2026-11-08"
+    },
+    {
+     "title": "Regolamento di Polizia Urbana (DCC 50/2023 text)",
+     "authority": "Comune di Genova",
+     "url": "https://smart.comune.genova.it/system/files/regolamenti/reg_polizia_urbana_2023_con_link.pdf",
+     "checked": "2026-11-08"
     }
    ],
    "note": "From the Cinque Terre National Park."

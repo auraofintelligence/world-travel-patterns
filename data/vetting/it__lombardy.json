@@ -42,6 +42,26 @@
      "evidence": "official",
      "checked": "2026-11-08",
      "by": "hand"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Como charges an imposta di soggiorno (tourist tax) per person per night, for up to 4 consecutive nights, from 1 January 2024 (Giunta resolution 387 of 10 November 2023). Hotels EUR 5 (4 and 5 star), EUR 4 (3 star), EUR 3 (1 and 2 star); tourist-hotel residences EUR 5 (4 star), EUR 4 (3), EUR 3 (2); holiday flats, rooms and B&Bs EUR 3; hostels, alpine huts, campsites, holiday villages and agritourism EUR 2. That is about A$3.18 to A$7.95 (A$1 = EUR 0.6293, RBA 30 October 2026). This is the city's table as read; whether a newer one exists was not checked.",
+     "penalty_signal": "EUR 2 to EUR 5 per person per night (about A$3.18 to A$7.95)",
+     "level": "city",
+     "source": "https://www.comune.como.it/export/sites/comune-di-como/.galleries/Settore-14/TARIFFE-IMPOSTA-DI-SOGGIORNO.pdf",
+     "heading": "Comune di Como, Tariffe dell'imposta di soggiorno (GC 387/2023)",
+     "checked": "2026-11-08",
+     "evidence": "official"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Bergamo's imposta di soggiorno (tourist tax; regulation of 12 December 2011, council resolution 213) is worked out as 7% of the nightly cost of the stay per person, before VAT and extras, capped at EUR 5 per person per night (about A$7.95 (A$1 = EUR 0.6293, RBA 30 October 2026)), for up to 5 consecutive nights. Non-residents pay it to the host. The city page also carries older wording that gives 6% for some lodging types, so 7% is the figure on the payment page read.",
+     "penalty_signal": "up to EUR 5 per person per night (about A$7.95)",
+     "level": "city",
+     "source": "https://www.comune.bergamo.it/action:c_a794:imposta.soggiorno",
+     "heading": "Comune di Bergamo, Versare l'imposta di soggiorno (IDS)",
+     "checked": "2026-11-08",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -58,6 +78,18 @@
      "url": "https://www.regione.lombardia.it/agricoltura/raccolta-funghi-e-tartufi/raccolta-funghi--le-regole",
      "checked": "2026-11-08",
      "supports": "Regional government guidance read directly."
+    },
+    {
+     "title": "Tariffe dell'imposta di soggiorno",
+     "authority": "Comune di Como",
+     "url": "https://www.comune.como.it/export/sites/comune-di-como/.galleries/Settore-14/TARIFFE-IMPOSTA-DI-SOGGIORNO.pdf",
+     "checked": "2026-11-08"
+    },
+    {
+     "title": "Versare l'imposta di soggiorno (IDS)",
+     "authority": "Comune di Bergamo",
+     "url": "https://www.comune.bergamo.it/action:c_a794:imposta.soggiorno",
+     "checked": "2026-11-08"
     }
    ],
    "note": "City of Milan rule, held at regional level. The fine is not stated on the city's page and is not recorded here."

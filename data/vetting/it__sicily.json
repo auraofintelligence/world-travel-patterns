@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -14,6 +14,16 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Dipartimento Regionale della Protezione Civile, Regione Siciliana"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Palermo charges an imposta di soggiorno (tourist tax) to non-residents, per person per night, for up to 4 consecutive nights. Rates from 1 July 2025 (City Council resolution 34 of 30 April 2025): hotels and tourist-hotel residences EUR 3 (1 star), EUR 3.50 (2), EUR 4 (3), EUR 4.50 (4), EUR 5 (5 star and 5 star lux); extra-hotel lodging and short-term rentals EUR 4. That is about A$4.77 to A$7.95 for hotels and A$6.36 for extra-hotel lodging (A$1 = EUR 0.6293, RBA 30 October 2026). Under-12s, residents, coach drivers, tour guides and escorts of travel-agency groups, and carers of hospital patients are among those exempt. The city portal shows no 2026 change.",
+     "penalty_signal": "EUR 3 to EUR 5 per person per night (about A$4.77 to A$7.95)",
+     "level": "city",
+     "source": "https://idsportale.comune.palermo.it/en/web/ids",
+     "heading": "Comune di Palermo, Imposta di Soggiorno portal, notice on DCC 34/2025",
+     "checked": "2026-11-08",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -30,6 +40,18 @@
      "url": "https://parcoetna.it/ordinanze-sindaci/",
      "checked": "2026-11-05",
      "supports": "current mayoral ordinances by town (search-index snapshot)"
+    },
+    {
+     "title": "Portale dell'imposta di soggiorno",
+     "authority": "Comune di Palermo",
+     "url": "https://idsportale.comune.palermo.it/en/web/ids",
+     "checked": "2026-11-08"
+    },
+    {
+     "title": "Imposta di soggiorno: promemoria (exemptions, 4-night cap)",
+     "authority": "Comune di Palermo",
+     "url": "https://idsportale.comune.palermo.it/documents/11214/661272/PROMEMORIA+LOCANDINA+IMPOSTA+DI+SOGGIORNO+VIGENTE+DAL+01.09.2023.pdf/aaf047cd-bd92-48cb-a4e7-3ab22f301b9a",
+     "checked": "2026-11-08"
     }
    ],
    "note": "Guide requirements differ by town ordinance and phase; read the current ordinance for the side you climb from."
