@@ -52,7 +52,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -68,6 +68,21 @@
      "level": "region",
      "source": "https://isp.illinois.gov/StaticFiles/docs/FSB/General%20Information/1-154%20-%20Transporting%20Your%20Firearm.pdf",
      "checked": "2026-11-02"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Chicago's Municipal Code (section 8-4-030) makes it unlawful to drink alcohol on a public way, or in or about a vehicle on a public way, with exceptions such as licensed sidewalk cafes and certain Navy Pier areas. Separately, section 10-36-100 bars bringing in or drinking intoxicating liquor in a public park, playground or bathing beach.",
+     "penalty_signal": "fine of US$100 to US$500, or up to six months in jail, or both, for public-way drinking (about A$142 to A$710 at A$1 = US$0.7040, RBA 30 Oct 2026)",
+     "level": "city",
+     "source": "https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2643361",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "The Chicago Park District's beach rules say no alcohol and no smoking on the beaches, and swim only when lifeguards are on duty (11 am to 7 pm, from the Friday before Memorial Day through Labor Day). The page lists no dogs on the beach and grilling in designated areas only.",
+     "level": "city",
+     "source": "https://www.chicagoparkdistrict.com/facilities/beaches",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -84,6 +99,19 @@
      "url": "https://isp.illinois.gov/StaticFiles/docs/FSB/General%20Information/1-154%20-%20Transporting%20Your%20Firearm.pdf",
      "checked": "2026-11-02",
      "supports": "non-resident transport rules (read via a search-index snapshot)"
+    },
+    {
+     "title": "Chicago Municipal Code 8-4-030 Drinking in public ways",
+     "authority": "City of Chicago (American Legal Publishing, official code host)",
+     "url": "https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2643361",
+     "checked": "2026-11-07",
+     "supports": "public-way drinking rule and fine range (page returned 403; read via a search-index snapshot)"
+    },
+    {
+     "title": "Beaches",
+     "authority": "Chicago Park District",
+     "url": "https://www.chicagoparkdistrict.com/facilities/beaches",
+     "checked": "2026-11-07"
     }
    ]
   },
