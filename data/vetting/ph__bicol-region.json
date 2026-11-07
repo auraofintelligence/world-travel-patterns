@@ -25,6 +25,35 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-08",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "transport-control",
+     "authority": "Philippine Institute of Volcanology and Seismology",
+     "process": "Mayon Volcano, Albay: in its 7 November 2026 bulletin PHIVOLCS said entry into the six-kilometre-radius Permanent Danger Zone should not be allowed. The bulletin reported Alert Level 3 on that date. Volcanic conditions, exclusion areas and local orders can change rapidly: check the latest PHIVOLCS bulletin and local authority instructions immediately before planning any visit.",
+     "lead_time_days": null,
+     "activities": [
+      "tourism",
+      "hiking"
+     ],
+     "url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/activity-mvo?bid=14906&lang=en",
+     "checked": "2026-11-08"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mayon Volcano summary of 24-hour observation, 7 November 2026",
+     "authority": "Philippine Institute of Volcanology and Seismology",
+     "url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/activity-mvo?bid=14906&lang=en",
+     "checked": "2026-11-08",
+     "supports": "dated alert level and recommendation against entering the six-kilometre permanent danger zone; read directly"
+    }
+   ],
+   "note": "A dated scientific agency recommendation, not a current live feed. Verify latest conditions and any local closures."
   }
  }
 }

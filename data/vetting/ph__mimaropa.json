@@ -56,6 +56,13 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "PPUR, how to get there"
+    },
+    {
+     "topic": "photography",
+     "level": "region",
+     "rule": "At Tubbataha Reefs Natural Park, the Tubbataha Management Office says divemasters may not use cameras or video while diving, so they can focus on their duties. Confirm current conditions with the park and operator; this statement is specifically about divemasters.",
+     "source": "https://tubbatahareefs.org/permits-and-fees",
+     "checked": "2026-11-08"
     }
    ],
    "sources": [
@@ -72,6 +79,13 @@
      "url": "https://citytourism.puertoprincesa.ph/ppur/",
      "checked": "2026-11-05",
      "supports": "permit office and fee range (read directly 2026-11-05)"
+    },
+    {
+     "title": "Permits and Fees",
+     "authority": "Tubbataha Management Office",
+     "url": "https://tubbatahareefs.org/permits-and-fees",
+     "checked": "2026-11-08",
+     "supports": "divemaster camera rule; read directly"
     }
    ],
    "note": "Underground River only. The fee range is from the city tourism page, which is undated and may be out of date. El Nido's eco-tourism fee could not be read on the municipal site (bot check) and is not recorded; Coron's fee had no official page."
@@ -92,6 +106,64 @@
      "url": "https://elnido.gov.ph/el-nido-collects-fees-to-fund-environmental-protection/",
      "evidence": "official",
      "checked": "2026-11-06"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "Tubbataha Management Office",
+     "process": "Tubbataha Reefs Natural Park: all entrants need a Visitor Entry Permit before entering, with the applicable conservation fee paid before issue. The park lists visitor and vessel permits separately. Confirm with the Tubbataha Management Office and the trip operator who submits each permit.",
+     "lead_time_days": null,
+     "activities": [
+      "tourism",
+      "diving"
+     ],
+     "url": "https://tubbatahareefs.org/permits-and-fees",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "fee",
+     "authority": "Tubbataha Management Office",
+     "process": "Tubbataha Reefs Natural Park: the park lists a PHP5,000 conservation fee per visitor (about A$111.51 at the RBA rate of A$1 = PHP44.84 on 30 October 2026). Children aged 12 and under are exempt from the conservation fee. Check current fees and whether they are included in the operator price before paying.",
+     "lead_time_days": null,
+     "activities": [
+      "tourism",
+      "diving"
+     ],
+     "url": "https://tubbatahareefs.org/permits-and-fees",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "Tubbataha Management Office",
+     "process": "Tubbataha Reefs Natural Park: the boat owner, operator, captain or representative must secure a Vessel Entry Permit before entering. Vessel fees vary by gross tonnage and are separate from visitor conservation fees; travellers should confirm the arrangement with their operator.",
+     "lead_time_days": null,
+     "activities": [
+      "vessel-operation"
+     ],
+     "url": "https://tubbatahareefs.org/permits-and-fees",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Tubbataha Management Office",
+     "process": "Commercial tour operators at Tubbataha Reefs Natural Park must secure a Permit to Operate at least two months before their first scheduled entry. Vessel, safety, business and diver accreditation documents are among the published requirements. Ask the Tubbataha Management Office for the current application process.",
+     "lead_time_days": null,
+     "activities": [
+      "tour-operator"
+     ],
+     "url": "https://tubbatahareefs.org/permits-and-fees",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Tubbataha Management Office",
+     "process": "The Tubbataha Management Office lists requirements for foreign crew or divemasters employed by commercial boat operators, including a Special Working Permit or Alien Employment Card. Confirm eligibility and current immigration and labour conditions with the relevant authorities before accepting work.",
+     "lead_time_days": null,
+     "activities": [
+      "divemaster",
+      "work"
+     ],
+     "url": "https://tubbatahareefs.org/permits-and-fees",
+     "checked": "2026-11-08"
     }
    ],
    "sources": [
@@ -100,6 +172,20 @@
      "authority": "Municipality of El Nido",
      "url": "https://elnido.gov.ph/el-nido-collects-fees-to-fund-environmental-protection/",
      "checked": "2026-11-06"
+    },
+    {
+     "title": "Permits and Fees",
+     "authority": "Tubbataha Management Office",
+     "url": "https://tubbatahareefs.org/permits-and-fees",
+     "checked": "2026-11-08",
+     "supports": "visitor, vessel and commercial operator permits, conservation fees and divemaster camera rule; read directly"
+    },
+    {
+     "title": "Dive Operators",
+     "authority": "Tubbataha Management Office",
+     "url": "https://tubbatahareefs.org/tourism",
+     "checked": "2026-11-08",
+     "supports": "management office identifies accredited liveaboards and its own non-operator role; read directly"
     }
    ]
   }
