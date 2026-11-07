@@ -3,9 +3,9 @@
   "generated_on": "2026-11-07",
   "mode": "public",
   "place_passes": 286,
-  "pattern_items": 1073,
+  "pattern_items": 1071,
   "by_reason": {
-   "never-checked": 1071,
+   "never-checked": 1069,
    "over-budget": 2
   },
   "watch_checks": 0
@@ -4645,26 +4645,6 @@
    ]
   },
   {
-   "place": "np",
-   "name": "Nepal",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "nl",
    "name": "Netherlands",
    "kind": "country",
@@ -6549,6 +6529,20 @@
    ]
   },
   {
+   "place": "np",
+   "name": "Nepal",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    }
+   ]
+  },
+  {
    "place": "ug",
    "name": "Uganda",
    "kind": "country",
@@ -7342,12 +7336,6 @@
     },
     {
      "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90

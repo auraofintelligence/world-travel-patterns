@@ -1020,6 +1020,63 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; authority names and law citations are not reread (see national.read)."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "guide-required",
+     "authority": "Nepal Tourism Board",
+     "process": "On the specific protected-area treks listed by the Nepal Tourism Board, arrange a licensed trekking guide and agency-issued Trekkers Information Management System (TIMS) card through a government-registered trekking agency. The list includes Everest Base Camp, Gokyo, Manaslu Circuit, Tsum Valley, Annapurna Circuit, Upper Mustang, Upper Dolpo and Kanchenjunga. Check the precise route with the agency before booking: this is not a claim that every walk in Nepal requires a guide.",
+     "lead_time_days": null,
+     "activities": [
+      "all"
+     ],
+     "url": "https://ntb.gov.np/plan-your-trip/before-you-come/tims-card",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "Nepal Department of Immigration; Nepal Tourism Board",
+     "process": "A separate Department of Immigration trekking permit is needed for routes in designated restricted areas. Keep the permit with you, follow the area and route it specifies, and show it to immigration or police on request. A TIMS card does not replace the restricted-area permit. Confirm the route, documents and processing time with the department or registered trekking agency.",
+     "lead_time_days": null,
+     "activities": [
+      "all"
+     ],
+     "url": "https://ntb.gov.np/plan-your-trip/before-you-come/trekking-permit",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "fee",
+     "authority": "Nepal Tourism Board",
+     "process": "The TIMS page lists NPR 2,000 per person for non-SAARC nationals and NPR 1,000 for SAARC nationals. This repository does not currently have an NPR to AUD exchange rate, so an AUD estimate is not available. Permit and protected-area entry fees can be separate; check the current amount before payment.",
+     "lead_time_days": null,
+     "activities": [
+      "all"
+     ],
+     "url": "https://ntb.gov.np/plan-your-trip/before-you-come/tims-card",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "TIMS Card: trekking guide and card requirements",
+     "authority": "Nepal Tourism Board",
+     "url": "https://ntb.gov.np/plan-your-trip/before-you-come/tims-card",
+     "checked": "2026-11-07",
+     "supports": "named routes, agency arrangement, electronic card and published TIMS charges, read directly"
+    },
+    {
+     "title": "Trekking Permit",
+     "authority": "Nepal Tourism Board",
+     "url": "https://ntb.gov.np/plan-your-trip/before-you-come/trekking-permit",
+     "checked": "2026-11-07",
+     "supports": "restricted-area permit, route conditions and possession, read directly"
+    }
+   ],
+   "note": "Route-specific planning aid. The national record does not identify every permit zone; check each affected province and the authorities for the intended route. No processing time has been verified."
   }
  }
 }

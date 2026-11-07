@@ -8,10 +8,10 @@
    "laws": [
     {
      "topic": "permits-and-zones",
-     "rule": "Upper Mustang restricted area (Lomanthang, Lo-Ghekar Damodarkunda, Baragung Muktichetra ward 3 and Satang): special permit USD 500 per person for the first 10 days (about A$710, RBA rate of 30 October 2026), then USD 50 per person per day (about A$71.02).",
+     "rule": "Upper Mustang restricted area (Lomanthang, Lo-Ghekar Damodarkunda, Baragung Muktichetra ward 3 and Satang): Nepal Tourism Board currently lists USD 50 per person per day (about A$71 at the RBA rate of A$1 = USD 0.704 on 30 October 2026). A previously cited Immigration page listed USD 500 for the first ten days, then USD 50 a day. The two published descriptions differ on the minimum charge: confirm the total for the intended dates with the Department of Immigration or a registered trekking agency before paying.",
      "level": "region",
-     "source": "https://immigration.gov.np/page/trekking-route",
-     "checked": "2026-11-05",
+     "source": "https://ntb.gov.np/plan-your-trip/before-you-come/trekking-permit",
+     "checked": "2026-11-07",
      "by": "hand",
      "heading": "Restricted area permit fees"
     },
@@ -41,9 +41,69 @@
      "url": "https://immigration.gov.np/page/trekking-route",
      "checked": "2026-11-05",
      "supports": "Upper Mustang and Manaslu fees, group and agency conditions (search-index snapshot)"
+    },
+    {
+     "title": "Trekking Permit",
+     "authority": "Nepal Tourism Board",
+     "url": "https://ntb.gov.np/plan-your-trip/before-you-come/trekking-permit",
+     "checked": "2026-11-07",
+     "supports": "Upper Mustang daily charge and the listed municipalities, read directly; earlier Immigration snapshot differs on minimum charge"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
+     "checked": "2026-11-01",
+     "supports": "A$1 = US$0.704 on 30 October 2026, carried from the repository exchange-rate snapshot"
     }
    ],
-   "note": "Province-level record for Gandaki (Mustang, Manang, Gorkha districts). Tsum Valley and Nar-Phu (Manang) fees seen only on TAAN, an industry body, so not recorded. The Nepal Tourism Board lists Upper Mustang at USD 50 a day, which conflicts with the Department of Immigration figure used here. Immigration page read via a search-index snapshot; it refused direct fetches on 5 November 2026."
+   "note": "Province-level record for Gandaki (Mustang, Manang and Gorkha districts). Older Immigration page read as a search-index snapshot on 5 November 2026; the Nepal Tourism Board fee table was read directly on 7 November. Upper Mustang minimum charge remains unresolved. Other existing laws retain their original check dates."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "entry-permit",
+     "authority": "Nepal Department of Immigration; Nepal Tourism Board",
+     "process": "The Nepal Tourism Board lists a restricted-area trekking permit for Tsum Valley, including Chumnubri rural municipality wards 3, 6 and 7. Its published charge is USD 40 per person for a week from September to November (about A$57), or USD 30 from December to August (about A$43), plus USD 7 per additional day (about A$10). AUD estimates use A$1 = USD 0.704, Reserve Bank of Australia, 30 October 2026. Check the route, current charge and any separate protected-area entry requirements with Immigration or a registered agency.",
+     "lead_time_days": null,
+     "activities": [
+      "all"
+     ],
+     "url": "https://ntb.gov.np/plan-your-trip/before-you-come/trekking-permit",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "Nepal Department of Immigration; Nepal Tourism Board",
+     "process": "The Nepal Tourism Board lists a restricted-area trekking permit for Narpa wards 1 to 5 and Nasho wards 6 and 7 in Manang. It lists USD 100 per person per week from September to November (about A$142) or USD 75 from December to August (about A$107), then USD 15 per additional day (about A$21) in either season. AUD estimates use A$1 = USD 0.704, Reserve Bank of Australia, 30 October 2026. Confirm which part of the route is covered and whether other park permissions apply.",
+     "lead_time_days": null,
+     "activities": [
+      "all"
+     ],
+     "url": "https://ntb.gov.np/plan-your-trip/before-you-come/trekking-permit",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Trekking Permit",
+     "authority": "Nepal Tourism Board",
+     "url": "https://ntb.gov.np/plan-your-trip/before-you-come/trekking-permit",
+     "checked": "2026-11-07",
+     "supports": "Tsum Valley and Manang restricted areas and published seasonal permit fees, read directly"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/tables/#exchange-rates",
+     "checked": "2026-11-01",
+     "supports": "A$1 = US$0.704 on 30 October 2026, carried from the repository exchange-rate snapshot"
+    }
+   ],
+   "note": "Upper Mustang and Manaslu permit information is in this province's local-law record. Guide and TIMS conditions for listed treks are held at country level. A permit processing time has not been verified."
   }
  }
 }
