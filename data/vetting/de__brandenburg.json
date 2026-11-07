@@ -50,7 +50,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -61,6 +61,33 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Übernachtungsteuersatzung Potsdam (as amended 12 March 2025)"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "level": "region",
+     "heading": "Feiertagsgesetz (FTG) sections 5, 6 and 10",
+     "rule": "Brandenburg bans some events on Sundays and public holidays during the main church-service time (6 am to 11 am): open-air public meetings and parades, public entertainment events and meetings that disturb a service (section 5(1); not on 3 October on a weekday or for union events on 1 May). On Good Friday the bans run from midnight to midnight, and on Totensonntag and Volkstrauertag from 4 am to midnight (section 5(2)). Public sport events are banned on Good Friday, until 11 am on Totensonntag and from 1 pm on Christmas Eve (section 6(1)). Public dance events and events in bars that go beyond food and drink are banned from midnight on Good Friday to 4 am on Holy Saturday, from 4 am to midnight on Volkstrauertag and Totensonntag, and from 1 pm to midnight on Christmas Eve (section 6(2)). Breaches can be fined; the Act sets no amount (section 10). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Fine; amount not set in the Act.",
+     "source": "https://bravors.brandenburg.de/gesetze/ftg_2015",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "level": "region",
+     "heading": "Gesetz zum Schutz vor den Gefahren des Passivrauchens in der Offentlichkeit (BbgNiRSchG) section 2 and section 7",
+     "rule": "Brandenburg bans tobacco smoking in enclosed rooms of public offices, hospitals, culture and sports venues, universities, schools and childcare (the ban reaches the outdoor areas of children's and youth facilities too), homes, and the publicly accessible parts of hotels, bars and restaurants, discos and shopping centres (section 2). Section 4 allows exceptions such as separate, marked smoking side rooms closed to under-18s. A smoker can be fined EUR 5 to 100 (about A$8 to A$159); an operator who does not act or does not put up signs can be fined EUR 10 to 1,000 (about A$16 to A$1,589) (section 7(2)). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Smoker EUR 5 to 100; operator EUR 10 to 1,000.",
+     "source": "https://bravors.brandenburg.de/gesetze/bbgnirschg",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "level": "region",
+     "heading": "Waldgesetz des Landes Brandenburg (LWaldG) section 15, section 17, section 23 and section 37",
+     "rule": "In Brandenburg, lighting or keeping a fire, handling burning or smouldering things, and smoking are banned in the forest and within 50 m of its edge (section 23(1)); at fire-danger levels 4 and 5 the ban also covers the people who are otherwise exempt (section 23(2)). Dogs must be on a lead in the forest (section 15(8)). Only the forest owner can permit camping, and then only occasional one-day tent use (section 17(1)). Riding and horse-drawn vehicles are allowed only on forest tracks and fire breaks, and cycling only on paths (sections 15(4) and 15(5)). Fines under section 37(3): up to EUR 100,000 (about A$158,900) for the gravest offences, otherwise up to EUR 20,000 (about A$31,780). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Up to EUR 20,000; up to EUR 100,000 for the gravest offences.",
+     "source": "https://bravors.brandenburg.de/gesetze/lwaldg",
+     "checked": "2026-11-08"
     }
    ],
    "sources": [
@@ -70,6 +97,27 @@
      "url": "https://vv.potsdam.de/vv/produkte/173010100000012252.php",
      "checked": "2026-11-05",
      "supports": "7.5%, exemptions (search-index snapshot)"
+    },
+    {
+     "title": "Gesetz uber die Sonn- und Feiertage (Feiertagsgesetz, FTG)",
+     "authority": "Land Brandenburg, BRAVORS",
+     "url": "https://bravors.brandenburg.de/gesetze/ftg_2015",
+     "supports": "Quiet-day event bans",
+     "checked": "2026-11-08"
+    },
+    {
+     "title": "Gesetz zum Schutz vor den Gefahren des Passivrauchens in der Offentlichkeit (BbgNiRSchG)",
+     "authority": "Land Brandenburg, BRAVORS",
+     "url": "https://bravors.brandenburg.de/gesetze/bbgnirschg",
+     "supports": "Smoking ban and fines",
+     "checked": "2026-11-08"
+    },
+    {
+     "title": "Waldgesetz des Landes Brandenburg (LWaldG)",
+     "authority": "Land Brandenburg, BRAVORS",
+     "url": "https://bravors.brandenburg.de/gesetze/lwaldg",
+     "supports": "Forest fire, smoking, dogs, camping, fines",
+     "checked": "2026-11-08"
     }
    ],
    "note": "Potsdam only."
