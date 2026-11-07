@@ -132,12 +132,12 @@
   },
   "culture-and-protocol": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-07",
    "evidence": "official",
-   "dress_and_conduct": "Treat a Pueblo as someone's home. Call the Tribal office first: access can close for private ceremonies, and some Pueblos charge entry. Most require a permit to photograph, sketch or paint, some ban photography outright, and cameras can be confiscated. Alcohol and drugs are strictly prohibited on Pueblos. Enter homes only by invitation; tipping a feast-day host is not appropriate.",
-   "sacred_or_restricted_places": "Dances are religious ceremonies: silence is mandatory, with no questions, interviews, walking across the dance plaza or applause. Kivas, ceremonial rooms and cemeteries are for Pueblo members only. Don't climb walls or buildings. Obey OFF LIMITS signs.",
-   "cultural_authority": "New Mexico Tourism Department; each Pueblo's Tribal office.",
-   "note": "Statewide etiquette from New Mexico True; each Pueblo sets its own rules.",
+   "dress_and_conduct": "Treat a Pueblo as someone's home. Call the Tribal office first: access can close for private ceremonies, and some Pueblos charge entry. Most require a permit to photograph, sketch or paint, some ban photography outright, and cameras can be confiscated. Alcohol and drugs are strictly prohibited on Pueblos. Enter homes only by invitation; tipping a feast-day host is not appropriate. Taos Pueblo asks visitors to treat the village as they would their own home.",
+   "sacred_or_restricted_places": "Dances are religious ceremonies: silence is mandatory, with no questions, interviews, walking across the dance plaza or applause. Kivas, ceremonial rooms and cemeteries are for Pueblo members only. Don't climb walls or buildings. Obey OFF LIMITS signs. Taos Pueblo also asks visitors to obey Restricted Area signs, not to enter homes that are not marked as businesses, and not to enter the cemetery (which includes the old church ruins) or the river, the community's drinking-water source. Unexpected closures can happen for religious activities or a death in the community.",
+   "cultural_authority": "New Mexico Tourism Department; each Pueblo's Tribal office; Taos Pueblo Tourism (575-758-1028); Sky City Cultural Center (800-747-0181).",
+   "note": "Statewide etiquette from New Mexico True; each Pueblo sets its own rules. Taos Pueblo and Sky City (Acoma) items are from each community's own site, read 7 November 2026; both hold at New Mexico as no separate place exists yet.",
    "sources": [
     {
      "title": "Before You Go: Visitor Etiquette",
@@ -145,6 +145,84 @@
      "url": "https://www.newmexico.org/native-culture/native-communities/before-you-go/",
      "checked": "2026-11-05",
      "supports": "Pueblo etiquette (read directly 2026-11-05)"
+    },
+    {
+     "title": "Visiting Taos Pueblo",
+     "authority": "Taos Pueblo Tourism",
+     "url": "https://taospueblo.com/visiting-taos-pueblo/",
+     "checked": "2026-11-07",
+     "supports": "restricted areas, conduct, photography pre-approval"
+    },
+    {
+     "title": "Taos Pueblo photography",
+     "authority": "Taos Pueblo Tourism",
+     "url": "https://taospueblo.com/taos-pueblo-photography/",
+     "checked": "2026-11-07",
+     "supports": "US$6 camera fee, ask before photographing"
+    },
+    {
+     "title": "Sky City Cultural Center home",
+     "authority": "Sky City Cultural Center & Haaku Museum (Acoma Pueblo)",
+     "url": "https://skycityacoma.org/page/home",
+     "checked": "2026-11-07",
+     "supports": "tour times, no cameras on feast days or Christmas events"
+    }
+   ],
+   "photography_and_story_permissions": "Taos Pueblo (Taos Pueblo Tourism): a camera fee of US$6 a person is listed on its photography page (about A$8.52 at the RBA rate of 30 October 2026, A$1 = US$0.7040). Ask before photographing community members. Photography is not allowed in San Geronimo Chapel. Professional and commercial photographers, and artists who want to sketch or paint, must apply for pre-approval; fees vary. Sky City (Acoma Pueblo): cameras are not permitted during feast days or Christmas events; call 800-747-0181 (9 am to 5 pm) about other days, as the page lists no camera fee or permit."
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Taos Pueblo Tourism",
+     "process": "Admission listed on its visiting page: adults US$25; seniors, students aged 11 and up with ID, groups of 8 or more adults and military US$22 each; children 10 and under free (about A$35.51 and A$31.25 at the RBA rate of 30 October 2026, A$1 = US$0.7040). The photography page lists a separate US$6 camera fee a person (about A$8.52). An earlier site page showed US$16 for adults, so confirm by phone (575-758-1028). Open 9 am to 4 pm daily; check the events calendar.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://taospueblo.com/visiting-taos-pueblo/",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "seasonal-closure",
+     "authority": "Taos Pueblo Tourism",
+     "process": "The site says Taos Pueblo closes to visitors for several weeks in late winter or early spring, and the length differs between its pages (six to ten weeks), so dates are not fixed. It also closes without notice for religious activities or a death in the community, and its events calendar lists an annual closure to all visitors on 20 to 31 August 2026. Call to confirm before travelling.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://taospueblo.com/hours/",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Taos Pueblo Tourism",
+     "process": "Professional and commercial photographers, and artists who want to sketch or paint, apply for pre-approval; fees vary. Contact Taos Pueblo Tourism, 575-758-1028.",
+     "lead_time_days": 0,
+     "activities": [
+      "photography",
+      "filming",
+      "sketching"
+     ],
+     "url": "https://taospueblo.com/visiting-taos-pueblo/",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Visiting Taos Pueblo",
+     "authority": "Taos Pueblo Tourism",
+     "url": "https://taospueblo.com/visiting-taos-pueblo/",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Taos Pueblo photography",
+     "authority": "Taos Pueblo Tourism",
+     "url": "https://taospueblo.com/taos-pueblo-photography/",
+     "checked": "2026-11-07"
     }
    ]
   }

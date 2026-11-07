@@ -25,6 +25,87 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Israel Nature and Parks Authority",
+     "process": "Masada National Park: adult NIS 37, child NIS 21 (group adult NIS 31, group child NIS 18); the museum is NIS 20 extra and the cable car is charged separately. Hours are listed by season and run overnight to 08:00 the next morning (summer from 17:00, winter from 16:00, earlier on Fridays); the park entrance closes one hour before the cited time. The Authority's Snake Path page gives a two-hour cut-off for that path, and on extreme-heat days the Snake Path and Roman Ramp close early for ascent.",
+     "activities": [
+      "all"
+     ],
+     "url": "https://en.parks.org.il/reserve-park/masada-national-park/",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "Israel Nature and Parks Authority",
+     "process": "Ein Gedi Nature Reserve: entry is by advance registration, booked separately for each area (Wadi David and Wadi Arugot need a reservation). Adult NIS 31, child NIS 16, student NIS 26. A ticket for one area allows same-day entry to the others. Last entry to Wadi Arugot is 14:00, and the reserve entrance closes one hour before closing time. After floods some trails and the Ein Gedi spring were closed or changed; the Authority advises calling *3639 for trail conditions.",
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://en.parks.org.il/reserve-park/en-gedi-nature-reserve/",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Masada National Park",
+     "authority": "Israel Nature and Parks Authority",
+     "url": "https://en.parks.org.il/reserve-park/masada-national-park/",
+     "checked": "2026-11-07",
+     "supports": "fees and hours (extract)"
+    },
+    {
+     "title": "En Gedi Nature Reserve",
+     "authority": "Israel Nature and Parks Authority",
+     "url": "https://en.parks.org.il/reserve-park/en-gedi-nature-reserve/",
+     "checked": "2026-11-07",
+     "supports": "fees, booking, last entry (extract)"
+    },
+    {
+     "title": "Reservations for visits to sites",
+     "authority": "Israel Nature and Parks Authority",
+     "url": "https://en.parks.org.il/%D7%94%D7%96%D7%9E%D7%A0%D7%95%D7%AA-%D7%9C%D7%90%D7%AA%D7%A8%D7%99%D7%9D/",
+     "checked": "2026-11-07"
+    }
+   ],
+   "note": "Fees and hours were read from extracts of the Authority's pages on 2026-11-07 (direct fetch returned HTTP 403). Some pages are a year or two old and the Authority's own pages disagree in places, so confirm in its booking system. No RBA rate for ILS is held in this repo, so no A$ figure is given. Masada and Ein Gedi sit in the Southern District."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Dead Sea swimming, Ministry of Health guidance: bathe only in permitted areas, follow lifeguard instructions, do not stay in the water long or go out far, and keep the water out of your eyes and mouth (it can burn the eyes, and swallowing even a little can be dangerous). Flags: white means swimming is permitted, red means only within the marked area, black means no swimming. Night swimming is prohibited.",
+     "level": "region",
+     "source": "https://www.gov.il/en/departments/general/yam-rules",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rules of behavior on the beach",
+     "authority": "Ministry of Health, Government of Israel",
+     "url": "https://www.gov.il/en/departments/general/yam-rules",
+     "checked": "2026-11-07",
+     "supports": "flags and night swimming (extract)"
+    },
+    {
+     "title": "Guarding Your Health in Israel",
+     "authority": "Ministry of Health, Israel",
+     "url": "https://www.gov.il/BlobFolder/generalpage/health_27042020_tuota/he/shmoralbriutch_2019_2.pdf",
+     "checked": "2026-11-07",
+     "supports": "Dead Sea water warning (older guide)"
+    }
+   ],
+   "note": "The Dead Sea health guide is older than the beach-rules page; current site-by-site water-quality advisories were not checked."
   }
  }
 }

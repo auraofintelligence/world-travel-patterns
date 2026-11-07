@@ -128,7 +128,7 @@
   },
   "zone-requirements": {
    "status": "partly-vetted",
-   "checked": "2026-11-06",
+   "checked": "2026-11-07",
    "evidence": "official",
    "layers": [
     {
@@ -141,6 +141,33 @@
      ],
      "url": "https://www.nps.gov/glac/planyourvisit/vehicle-reservations.htm",
      "checked": "2026-11-06"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Blackfeet Nation (Fish and Wildlife), listed by Montana Office of Tourism",
+     "process": "General and activity-specific tribal recreation permits are required on the Blackfeet Indian Reservation. Buy online, in person at the Fish and Wildlife headquarters in Browning, or at local gas stations and campsites. The page lists no prices; contact the Nation for current fees.",
+     "lead_time_days": 0,
+     "activities": [
+      "fishing",
+      "camping",
+      "hiking",
+      "boating"
+     ],
+     "url": "https://visitmt.com/stories/tribal-recreation-permits",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Crow Tribe (Fish and Game Commission), listed by Montana Office of Tourism",
+     "process": "On the Crow Reservation, permits are bought in person at the Fish and Game Commission office; separate permits may be needed for different activities. Tribal permits are not needed for Bighorn Canyon National Recreation Area. Some areas may be open to tribal members or residents only; follow posted signs.",
+     "lead_time_days": 0,
+     "activities": [
+      "fishing",
+      "camping",
+      "hiking"
+     ],
+     "url": "https://visitmt.com/stories/tribal-recreation-permits",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -149,6 +176,12 @@
      "authority": "US National Park Service",
      "url": "https://www.nps.gov/glac/planyourvisit/vehicle-reservations.htm",
      "checked": "2026-11-06"
+    },
+    {
+     "title": "Tribal Recreation Permits",
+     "authority": "Montana Office of Tourism (Visit Montana)",
+     "url": "https://visitmt.com/stories/tribal-recreation-permits",
+     "checked": "2026-11-07"
     }
    ]
   }

@@ -1,0 +1,54 @@
+{
+ "place": "il/northern-district",
+ "patterns": {
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "entry-permit",
+     "authority": "Israel Nature and Parks Authority",
+     "process": "Hermon Stream (Banias) Nature Reserve springs area: visits are booked online and entry is allowed only on showing the reservation, at the booked time. Bookings open about two weeks ahead. The listed adult fee is NIS 31 and child NIS 16, but that page is about two years old. The entrance closes one hour before closing time.",
+     "activities": [
+      "all"
+     ],
+     "url": "https://en.parks.org.il/reserve-park/hermon-stream-banias-nature-reserve/",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hermon Stream (Banias) Nature Reserve",
+     "authority": "Israel Nature and Parks Authority",
+     "url": "https://en.parks.org.il/reserve-park/hermon-stream-banias-nature-reserve/",
+     "checked": "2026-11-07"
+    }
+   ],
+   "note": "Fees and hours were read from extracts of the Authority's pages on 2026-11-07 (direct fetch returned HTTP 403). Some pages are a year or two old and the Authority's own pages disagree in places, so confirm in its booking system. No RBA rate for ILS is held in this repo, so no A$ figure is given."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Hermon Stream (Banias) Nature Reserve: entering the water is prohibited, for flora and fauna conservation and safety reasons.",
+     "level": "site",
+     "source": "https://en.parks.org.il/reserve-park/hermon-stream-banias-nature-reserve/",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hermon Stream (Banias) Nature Reserve",
+     "authority": "Israel Nature and Parks Authority",
+     "url": "https://en.parks.org.il/reserve-park/hermon-stream-banias-nature-reserve/",
+     "checked": "2026-11-07"
+    }
+   ],
+   "note": "Banias springs area only; read from an extract of the Authority's page."
+  }
+ }
+}
