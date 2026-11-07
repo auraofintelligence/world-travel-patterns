@@ -270,7 +270,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -400,6 +400,22 @@
      "source": "https://www.smartraveller.gov.au/destinations/middle-east/saudi-arabia",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "The customs authority's prohibited list for travellers includes pills, intoxicants and drugs of all kinds, and pills, creams, herbs and lotions that are not registered with the Saudi Food and Drug Authority.",
+     "level": "country",
+     "source": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/customs-individual/Prohibited-goods.aspx",
+     "checked": "2026-11-07",
+     "heading": "Unregistered medicines"
+    },
+    {
+     "topic": "filming",
+     "rule": "The customs authority's prohibited list includes items with a hidden camera (such as watches, pens and glasses), eavesdropping devices and speed radar detectors. One red laser pen is allowed if its output is 5 milliwatts or less.",
+     "level": "country",
+     "source": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/customs-individual/Prohibited-goods.aspx",
+     "checked": "2026-11-07",
+     "heading": "Hidden cameras and detectors"
     }
    ],
    "sources": [
@@ -409,6 +425,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/saudi-arabia",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Restricted or Prohibited Goods (travellers)",
+     "authority": "Zakat, Tax and Customs Authority (ZATCA), Saudi Arabia",
+     "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/customs-individual/Prohibited-goods.aspx",
+     "checked": "2026-11-07",
+     "supports": "prohibited goods list for travellers"
     }
    ]
   },

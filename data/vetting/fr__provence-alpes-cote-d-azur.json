@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-06",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -63,6 +63,54 @@
      "heading": "Parc national des Calanques, Réservation Sugiton",
      "checked": "2026-11-06",
      "evidence": "official"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Mercantour National Park core (Alpes-Maritimes and Alpes-de-Haute-Provence): camping is prohibited. Bivouac is allowed only from 19:00 to 09:00 and more than one hour's walk inside the park boundary or from the last road access; sleeping in a camper van, caravan or roof tent is prohibited. Fires are prohibited in general; a hiking stove is allowed within the prefecture's fire-prevention orders. Dogs are banned even on a lead or carried, with limited exceptions such as dogs of residents of hamlets reachable by road.",
+     "source": "https://www.mercantour-parcnational.fr/votre-visite/la-reglementation",
+     "heading": "Parc national du Mercantour, La réglementation (camping, feu, chiens)",
+     "checked": "2026-11-07",
+     "level": "region"
+    },
+    {
+     "topic": "drones",
+     "rule": "Mercantour National Park core: leisure drones are prohibited. Motorised flight below 1,000 m above the ground is prohibited, and activities that fly low over the core with a sail or wing (base-jumping, speed-riding, wingsuit) are prohibited.",
+     "source": "https://www.mercantour-parcnational.fr/explorer-comprendre/article-explorer-comprendre/les-drones-de-loisir-en-coeur-de-parc-national",
+     "heading": "Parc national du Mercantour, Les drones de loisir en cœur de Parc national; La réglementation",
+     "checked": "2026-11-07",
+     "level": "region"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Mercantour National Park core: taking minerals, fossils, plants or animals is prohibited, with a limited list of plants allowed for picking under a separate park order. Noise that disturbs the calm, including speakers and radios, is prohibited, as are graffiti and leaving rubbish. Diving is prohibited, and so is navigation by boat, paddleboard or kayak. Canyoning is prohibited. Motor vehicles are prohibited except on a short list of named roads and tracks.",
+     "source": "https://www.mercantour-parcnational.fr/votre-visite/la-reglementation",
+     "heading": "Parc national du Mercantour, La réglementation",
+     "checked": "2026-11-07",
+     "level": "region"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Port-Cros National Park (Hyères islands, Var): in the protected natural areas of Port-Cros and Porquerolles, camping and bivouac are prohibited. Fires and smoking are not allowed outside the Port-Cros village. Dogs must be on a lead on paths and are not allowed on beaches; on Port-Cros they are allowed on a lead only in the village between the Fort du Moulin and the statue of Saint-Joseph. Guide and assistance dogs are not covered.",
+     "source": "https://portcros-parcnational.fr/votre-visite/la-reglementation",
+     "heading": "Parc national de Port-Cros, La réglementation",
+     "checked": "2026-11-07",
+     "level": "region"
+    },
+    {
+     "topic": "drones",
+     "rule": "Port-Cros National Park cores (Port-Cros island and islets, and the beaches and natural areas of Porquerolles): flying over the cores is prohibited for any aircraft, including leisure drones (article 15 of decree 2009-449), unless the park director authorises it. Professional or commercial filming and sound recording in the cores needs park authorisation.",
+     "source": "https://portcros-parcnational.fr/votre-visite/la-reglementation/reglementation-survol",
+     "heading": "Parc national de Port-Cros, Réglementation survol",
+     "checked": "2026-11-07",
+     "level": "region"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Port-Cros National Park: the marine cores are a strip of sea out to 600 metres from the coast around Port-Cros and Porquerolles. Boat movement, anchoring and diving there are controlled by prefectural orders (2023-116 for Porquerolles, 2023-117 for Port-Cros) with maps on the park's site; recreational fishing is regulated in the marine cores and the adjacent maritime area. Read the park's maps before anchoring or diving. Take nothing from the natural environment and stay on the paths.",
+     "source": "https://portcros-parcnational.fr/votre-visite/la-reglementation/navigation-plaisance",
+     "heading": "Parc national de Port-Cros, Navigation plaisance; La réglementation",
+     "checked": "2026-11-07",
+     "level": "region"
     }
    ],
    "sources": [
@@ -77,6 +125,100 @@
      "authority": "Parc national des Calanques",
      "url": "https://www.calanques-parcnational.fr/votre-visite/reservation-sugiton",
      "checked": "2026-11-06"
+    },
+    {
+     "title": "La réglementation",
+     "authority": "Parc national du Mercantour",
+     "url": "https://www.mercantour-parcnational.fr/votre-visite/la-reglementation",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Les drones de loisir en cœur de Parc national",
+     "authority": "Parc national du Mercantour",
+     "url": "https://www.mercantour-parcnational.fr/explorer-comprendre/article-explorer-comprendre/les-drones-de-loisir-en-coeur-de-parc-national",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "La réglementation",
+     "authority": "Parc national de Port-Cros",
+     "url": "https://portcros-parcnational.fr/votre-visite/la-reglementation",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Réglementation survol",
+     "authority": "Parc national de Port-Cros",
+     "url": "https://portcros-parcnational.fr/votre-visite/la-reglementation/reglementation-survol",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Navigation plaisance",
+     "authority": "Parc national de Port-Cros",
+     "url": "https://portcros-parcnational.fr/votre-visite/la-reglementation/navigation-plaisance",
+     "checked": "2026-11-07"
+    }
+   ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "activity-permit",
+     "authority": "Parc national de Port-Cros",
+     "process": "In the park cores, public events, professional or commercial filming and sound recording, motorised flight, and collecting from the natural environment can't go ahead without the park's prior authorisation. Anchoring and diving in the marine cores follow prefectural orders and maps published by the park.",
+     "activities": [
+      "drone",
+      "filming",
+      "boating",
+      "diving"
+     ],
+     "url": "https://portcros-parcnational.fr/votre-visite/la-reglementation",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Parc national du Mercantour",
+     "process": "In the park core, a group of more than 10 riding or pack animals needs the park's authorisation, and bivouac is limited to the hours and distances set by the park. Leisure drones are not allowed.",
+     "activities": [
+      "hiking",
+      "camping",
+      "drone"
+     ],
+     "url": "https://www.mercantour-parcnational.fr/votre-visite/la-reglementation",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "La réglementation",
+     "authority": "Parc national du Mercantour",
+     "url": "https://www.mercantour-parcnational.fr/votre-visite/la-reglementation",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Les drones de loisir en cœur de Parc national",
+     "authority": "Parc national du Mercantour",
+     "url": "https://www.mercantour-parcnational.fr/explorer-comprendre/article-explorer-comprendre/les-drones-de-loisir-en-coeur-de-parc-national",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "La réglementation",
+     "authority": "Parc national de Port-Cros",
+     "url": "https://portcros-parcnational.fr/votre-visite/la-reglementation",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Réglementation survol",
+     "authority": "Parc national de Port-Cros",
+     "url": "https://portcros-parcnational.fr/votre-visite/la-reglementation/reglementation-survol",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Navigation plaisance",
+     "authority": "Parc national de Port-Cros",
+     "url": "https://portcros-parcnational.fr/votre-visite/la-reglementation/navigation-plaisance",
+     "checked": "2026-11-07"
     }
    ]
   }
