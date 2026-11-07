@@ -807,6 +807,16 @@
    "evidence": "signal",
    "events": [
     {
+     "date": "2026-11-25",
+     "what": "IFFR 2027 professional accreditation early-rate deadline: 25 November 2026; check eligibility before applying",
+     "effect": "Professional accreditation is separate from public screening tickets.",
+     "url": "https://iffr.com/en/key-dates",
+     "by": "official-events",
+     "category": "film",
+     "checked": "2026-11-08",
+     "evidence": "official"
+    },
+    {
      "date": "2026-12-25",
      "what": "Christmas Day and Second Christmas Day, 25 and 26 December 2026",
      "effect": "Public holidays: many shops closed on 25 December; reduced public transport",
@@ -817,11 +827,63 @@
      "evidence": "signal"
     },
     {
+     "date": "2027-01-14",
+     "what": "IFFR 2027 general ticket sale opens 14 January at 20:00 local time; check organiser for availability",
+     "effect": "Audience tickets for the Rotterdam festival; programmes and availability can change.",
+     "url": "https://iffr.com/en/key-dates",
+     "by": "official-events",
+     "category": "film",
+     "checked": "2026-11-08",
+     "evidence": "official"
+    },
+    {
+     "date": "2027-01-28",
+     "what": "International Film Festival Rotterdam: 28 January to 7 February 2027; check the organiser for programme and audience tickets",
+     "effect": "Rotterdam film festival with public screenings and a separate professional programme.",
+     "url": "https://iffr.com/en/key-dates",
+     "by": "official-events",
+     "category": "film",
+     "checked": "2026-11-08",
+     "evidence": "official",
+     "end": "2027-02-07"
+    },
+    {
+     "date": "2027-01-30",
+     "what": "IFFR Pro Days, Rotterdam: 30 January to 3 February; professional access and accreditation conditions apply",
+     "effect": "Industry programme during the Rotterdam festival.",
+     "url": "https://iffr.com/en/key-dates",
+     "by": "official-events",
+     "category": "film",
+     "checked": "2026-11-08",
+     "evidence": "official",
+     "end": "2027-02-03"
+    },
+    {
+     "date": "2027-01-31",
+     "what": "CineMart co-production market, Rotterdam: 31 January to 3 February; access and project participation conditions apply",
+     "effect": "Film co-production market including Darkroom; check the organiser for professional eligibility.",
+     "url": "https://iffr.com/en/key-dates",
+     "by": "official-events",
+     "category": "film",
+     "checked": "2026-11-08",
+     "evidence": "official",
+     "end": "2027-02-03"
+    },
+    {
      "date": "2027-03-17",
      "what": "Provincial council (Provinciale Staten) and water board elections, 17 March 2027",
      "effect": "Elections held every four years; polling stations in public buildings",
      "url": "https://www.kiesraad.nl/verkiezingen/provinciale-staten",
      "by": "official",
+     "category": "election"
+    },
+    {
+     "date": "2027-03-17",
+     "what": "Provincial council (Provinciale Staten) and water board elections, Wednesday 17 March 2027",
+     "effect": "National-level voting day for provincial councils and water boards; the Kiesraad (Electoral Council) has published the election calendar.",
+     "url": "https://www.kiesraad.nl/documenten/2026/05/28/verkiezingskalender-provinciale-staten--en-waterschapsverkiezingen-2027",
+     "by": "official",
+     "evidence": "official",
      "category": "election"
     },
     {
@@ -869,15 +931,6 @@
      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1624",
      "by": "official",
      "evidence": "official"
-    },
-    {
-     "date": "2027-03-17",
-     "what": "Provincial council (Provinciale Staten) and water board elections, Wednesday 17 March 2027",
-     "effect": "National-level voting day for provincial councils and water boards; the Kiesraad (Electoral Council) has published the election calendar.",
-     "url": "https://www.kiesraad.nl/documenten/2026/05/28/verkiezingskalender-provinciale-staten--en-waterschapsverkiezingen-2027",
-     "by": "official",
-     "evidence": "official",
-     "category": "election"
     }
    ],
    "sources": [
@@ -915,6 +968,13 @@
      "url": "https://www.kiesraad.nl/documenten/2026/05/28/verkiezingskalender-provinciale-staten--en-waterschapsverkiezingen-2027",
      "checked": "2026-11-06",
      "supports": "election day 17 March 2027 (read via a search-index snapshot)"
+    },
+    {
+     "title": "IFFR 2027 key dates",
+     "authority": "International Film Festival Rotterdam",
+     "url": "https://iffr.com/en/key-dates",
+     "checked": "2026-11-08",
+     "supports": "Dates, location and access notes stated in the organiser page; recheck the programme and conditions"
     }
    ],
    "checked": "2026-11-06"

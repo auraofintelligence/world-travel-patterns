@@ -812,6 +812,45 @@
    "checked": "2026-11-04",
    "summary": "1 site(s): Nan Madol. Facts from official sources; lore labelled as claims.",
    "evidence": "UNESCO pages and Smartraveller read directly; other official pages are search snapshots unless marked."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-08",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "activity-permit",
+     "authority": "FSM Office of National Archives, Culture and Historic Preservation",
+     "process": "For research as defined by FSM law and policy, NACH says a complete national application should be received at least 120 days before research begins; decisions are generally communicated 90 to 120 days after receipt. Do not start without an issued permit. The national permit does not guarantee a state permit; discuss the project with the relevant state office and check immigration permission separately.",
+     "lead_time_days": 120,
+     "activities": [
+      "research"
+     ],
+     "url": "https://nach.gov.fm/research/",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "community-consent",
+     "authority": "FSM Office of National Archives, Culture and Historic Preservation",
+     "process": "For research involving FSM, NACH says to disclose AI and AI-enabled tools in the research proposal and applicable data-sharing agreement, including what research data will be processed. Its policy says oral histories, interviews, recordings and related cultural knowledge collected in any FSM state must not be entered into or processed by an AI system without express permission from the relevant state; an individual interviewee's consent alone does not authorise that processing.",
+     "lead_time_days": null,
+     "activities": [
+      "research"
+     ],
+     "url": "https://nach.gov.fm/research/",
+     "checked": "2026-11-08"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Conducting Research in the FSM",
+     "authority": "FSM Office of National Archives, Culture and Historic Preservation",
+     "url": "https://nach.gov.fm/research/",
+     "checked": "2026-11-08",
+     "supports": "national research application timing, state permits and AI/data requirements; read directly"
+    }
+   ],
+   "note": "This record covers only the stated activities or places. Check additional national, state and community requirements."
   }
  }
 }

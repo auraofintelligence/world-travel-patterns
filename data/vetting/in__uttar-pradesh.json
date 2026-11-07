@@ -133,6 +133,172 @@
      "supports": "assembly term dates (read via a search extract; the page blocked direct fetch). No election schedule is published yet."
     }
    ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-08",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Archaeological Survey of India",
+     "process": "Itimad-ud-Daulah Tomb: the Archaeological Survey of India lists this monument among its ticketed sites. Check the relevant entrance, price, ticket availability, local opening hours and any applicable exemptions with the monument authority before a visit; the listing alone does not confirm that the site is open.",
+     "lead_time_days": null,
+     "activities": [
+      "tourism"
+     ],
+     "url": "https://asi.nic.in/pages/m_category/isTicketed/monument/HQ",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "fee",
+     "authority": "Archaeological Survey of India",
+     "process": "Mariam's Tomb: the Archaeological Survey of India lists this monument among its ticketed sites. Check the relevant entrance, price, ticket availability, local opening hours and any applicable exemptions with the monument authority before a visit; the listing alone does not confirm that the site is open.",
+     "lead_time_days": null,
+     "activities": [
+      "tourism"
+     ],
+     "url": "https://asi.nic.in/pages/m_category/isTicketed/monument/HQ",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "fee",
+     "authority": "Archaeological Survey of India",
+     "process": "Taj Group of Monuments: the Archaeological Survey of India lists this monument among its ticketed sites. Check the relevant entrance, price, ticket availability, local opening hours and any applicable exemptions with the monument authority before a visit; the listing alone does not confirm that the site is open.",
+     "lead_time_days": null,
+     "activities": [
+      "tourism"
+     ],
+     "url": "https://asi.nic.in/pages/m_category/isTicketed/monument/HQ",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "fee",
+     "authority": "Archaeological Survey of India",
+     "process": "Agra Fort: the Archaeological Survey of India lists this monument among its ticketed sites. Check the relevant entrance, price, ticket availability, local opening hours and any applicable exemptions with the monument authority before a visit; the listing alone does not confirm that the site is open.",
+     "lead_time_days": null,
+     "activities": [
+      "tourism"
+     ],
+     "url": "https://asi.nic.in/pages/m_category/isTicketed/monument/HQ?p=9",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "fee",
+     "authority": "Archaeological Survey of India",
+     "process": "Fatehpur Sikri Group of Monuments: the Archaeological Survey of India lists this monument among its ticketed sites. Check the relevant entrance, price, ticket availability, local opening hours and any applicable exemptions with the monument authority before a visit; the listing alone does not confirm that the site is open.",
+     "lead_time_days": null,
+     "activities": [
+      "tourism"
+     ],
+     "url": "https://asi.nic.in/pages/m_category/isTicketed/monument/HQ?p=9",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "guide-required",
+     "authority": "Uttar Pradesh Eco Tourism Society",
+     "process": "For vehicle visits to protected areas, the state ecotourism guidance says to take an authorised guide in each vehicle and pay the applicable guide fee before entry. Check the particular reserve and current arrangements with the authority.",
+     "lead_time_days": null,
+     "activities": [
+      "safari"
+     ],
+     "url": "https://upecotourism.in/DoDont.aspx",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "Uttar Pradesh Eco Tourism Society",
+     "process": "The state ecotourism guidance says visitors traversing protected areas must show their park entry pass and/or identity proof when a forest official asks. Dudhwa National Park has an online availability and booking page; check the specific reserve and current pass process before travelling.",
+     "lead_time_days": null,
+     "activities": [
+      "safari"
+     ],
+     "url": "https://upecotourism.in/DoDont.aspx",
+     "checked": "2026-11-08"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ticketed Monuments",
+     "authority": "Archaeological Survey of India",
+     "url": "https://asi.nic.in/pages/m_category/isTicketed/monument/HQ",
+     "checked": "2026-11-08",
+     "supports": "Named sites and state labels in the ticketed-monument catalogue, read via a search-index snapshot; current charges and opening hours not checked"
+    },
+    {
+     "title": "Ticketed Monuments",
+     "authority": "Archaeological Survey of India",
+     "url": "https://asi.nic.in/pages/m_category/isTicketed/monument/HQ?p=9",
+     "checked": "2026-11-08",
+     "supports": "Named sites and state labels in the ticketed-monument catalogue, read via a search-index snapshot; current charges and opening hours not checked"
+    },
+    {
+     "title": "Do's and Don'ts",
+     "authority": "Uttar Pradesh Eco Tourism Society, Government of Uttar Pradesh",
+     "url": "https://upecotourism.in/DoDont.aspx",
+     "checked": "2026-11-08",
+     "supports": "protected-area guide, entry pass and safari visitor conditions; read directly"
+    },
+    {
+     "title": "Dudhwa National Park online availability",
+     "authority": "Uttar Pradesh Eco Tourism Society, Government of Uttar Pradesh",
+     "url": "https://upecotourism.in/DudhwaNationalParkCheckAvailability.aspx",
+     "checked": "2026-11-08",
+     "supports": "official Dudhwa booking and availability page; no booking was made"
+    }
+   ],
+   "note": "Site-specific ticket leads only. Not all protected sites have been checked. Prices, access arrangements and special admission days require confirmation with the Archaeological Survey of India."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-08",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "driving-and-licences",
+     "rule": "Uttar Pradesh ecotourism guidance says vehicles traversing protected areas must not exceed 20 km/h and should stay at least 50 metres apart.",
+     "level": "state",
+     "source": "https://upecotourism.in/DoDont.aspx",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "In protected areas, the state ecotourism guidance says visitors must keep at least 20 metres from wildlife; if an animal approaches a vehicle, stay still and allow it passage.",
+     "level": "state",
+     "source": "https://upecotourism.in/DoDont.aspx",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "The state ecotourism guidance says not to feed, tease or chase animals, bring pets, or throw plastic, bottles, tins or other objects in the park.",
+     "level": "state",
+     "source": "https://upecotourism.in/DoDont.aspx",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "On safaris, the state ecotourism guidance says not to leave a vehicle except at authorised places, exceed vehicle capacity, overtake other tourist vehicles, or stay at an animal sighting for more than five minutes.",
+     "level": "state",
+     "source": "https://upecotourism.in/DoDont.aspx",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Uttar Pradesh ecotourism guidance says not to carry arms, explosives or intoxicants into parks; do not play music or shout while on safari, and switch off mobile phones and reversing horns during core-area safaris.",
+     "level": "state",
+     "source": "https://upecotourism.in/DoDont.aspx",
+     "checked": "2026-11-08"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Do's and Don'ts",
+     "authority": "Uttar Pradesh Eco Tourism Society, Government of Uttar Pradesh",
+     "url": "https://upecotourism.in/DoDont.aspx",
+     "checked": "2026-11-08",
+     "supports": "protected-area safari conduct, distance and vehicle guidance; read directly"
+    }
+   ]
   }
  }
 }
