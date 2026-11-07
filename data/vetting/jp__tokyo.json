@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -43,6 +43,23 @@
      "penalty_signal": "fine up to JPY 300000",
      "checked": "2026-11-07",
      "by": "hand"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "level": "city",
+     "rule": "Shinjuku Ward bans smoking in the street across the whole ward: 新宿区空き缶等の散乱及び路上喫煙による被害の防止に関する条例 (Shinjuku Ordinance on Preventing Harm from Scattered Cans and Street Smoking), art. 8 para. 1. \"Street smoking\" (art. 2 item 2) means smoking, or carrying a burning or heated cigarette, on a road while walking or standing in one place, or while riding a bicycle. The ward chief designates places where it is allowed. People passing through the ward are covered (art. 2 item 4). The ordinance text sets no fine for street smoking itself; its only penalty clause (art. 14) is for littering in the ward's clean-up zones. Amended on 24 March 2025 (in force 1 July 2025) and 19 June 2026 (in force 1 October 2026); the second change was not read in detail.",
+     "source": "https://www.city.shinjuku.lg.jp/content/000459132.pdf",
+     "by": "agent",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "level": "city",
+     "rule": "Shinjuku Ward: dropping cans, bottles, cigarette ends, gum or paper in roads, parks and other public places is banned (art. 7 of the same ordinance). In the ward's designated clean-up zones (美化推進重点地区) a person who breaks art. 7 faces a court fine of up to JPY 20,000 (about A$180, RBA rate of 30 October 2026, A$1 = JPY 110.82) (art. 14). Dog walkers must carry a bag and clean up droppings (art. 4 para. 2).",
+     "source": "https://www.city.shinjuku.lg.jp/content/000459132.pdf",
+     "by": "agent",
+     "checked": "2026-11-08",
+     "penalty_signal": "up to JPY 20,000 in clean-up zones"
     }
    ],
    "sources": [
@@ -87,6 +104,13 @@
      "url": "https://www.reiki.metro.tokyo.lg.jp/reiki/reiki_honbun/g101rg00002150.html",
      "supports": "art. 15-4 curfew and penalty clause (read 2026-11-07)",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "新宿区空き缶等の散乱及び路上喫煙による被害の防止に関する条例 (consolidated text)",
+     "authority": "Shinjuku Ward",
+     "url": "https://www.city.shinjuku.lg.jp/content/000459132.pdf",
+     "checked": "2026-11-08",
+     "supports": "art. 2, 4, 7, 8, 14 (read directly 2026-11-08)"
     }
    ],
    "note": "Shibuya Ward only. Tokyo-wide accommodation tax and Chiyoda Ward street smoking added 2026-11-05."

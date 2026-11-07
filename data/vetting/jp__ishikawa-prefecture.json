@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -24,6 +24,32 @@
      "penalty_signal": "fine up to JPY 300000",
      "checked": "2026-11-07",
      "by": "hand"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "level": "city",
+     "rule": "Kanazawa City: 金沢市におけるぽい捨て等のない快適で美しいまちづくりの推進に関する条例 (Kanazawa Ordinance on a Comfortable, Beautiful City Free of Littering etc.), art. 18: in the mayor's designated priority zones (重点区域) smoking in roads and other public places is banned. Elsewhere in public places art. 14 asks people to make an effort not to smoke in a way that harms others. The mayor can guide, warn and order a stop (art. 19); breaking an order is punishable by an administrative fine (過料) of up to JPY 10,000 (about A$90, RBA rate of 30 October 2026, A$1 = JPY 110.82). The zone map was not read.",
+     "source": "https://www.city.kanazawa.ishikawa.jp/reiki/reiki_honbun/a400RG00001507.html",
+     "by": "agent",
+     "checked": "2026-11-08",
+     "penalty_signal": "up to JPY 10,000 (過料)"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "level": "city",
+     "rule": "Kanazawa City, whole city: littering is banned (art. 12 of the same ordinance) and a dog's droppings may not be left (art. 13). In priority zones the mayor can order a clean-up, and the fine of up to JPY 10,000 applies to ignoring an order.",
+     "source": "https://www.city.kanazawa.ishikawa.jp/reiki/reiki_honbun/a400RG00001507.html",
+     "by": "agent",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "level": "city",
+     "rule": "Higashi Chaya district, Kanazawa: the Kanazawa Tourism Association says eating while walking is banned in the part designated as a preservation district; eat inside the grounds of the shop where you bought the food. It also says the teahouses (ochaya) take guests by introduction only. This is from the association's visitor guide; no ordinance for it was found.",
+     "source": "https://www.kanazawa-kankoukyoukai.or.jp/higashi",
+     "by": "agent",
+     "checked": "2026-11-08",
+     "evidence": "operational"
     }
    ],
    "sources": [
@@ -40,6 +66,20 @@
      "url": "https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/dd55fa2a-a920-46cb-a939-e41a3ee8393b/61028c9c/20231227_policies_youth-kankyou_hikouhigai-research_ordinance_49.pdf",
      "supports": "curfew clause, definition of the late-night period and penalty clause (read 2026-11-07); later amendments are not checked",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "金沢市におけるぽい捨て等のない快適で美しいまちづくりの推進に関する条例",
+     "authority": "Kanazawa City",
+     "url": "https://www.city.kanazawa.ishikawa.jp/reiki/reiki_honbun/a400RG00001507.html",
+     "checked": "2026-11-08",
+     "supports": "art. 12 to 19 and fine ceiling (read 2026-11-08)"
+    },
+    {
+     "title": "これで完璧！はじめてのひがし茶屋街楽しみ方ガイド",
+     "authority": "Kanazawa Tourism Association",
+     "url": "https://www.kanazawa-kankoukyoukai.or.jp/higashi",
+     "checked": "2026-11-08",
+     "supports": "eating-while-walking rule (read 2026-11-08)"
     }
    ]
   }

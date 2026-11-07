@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -24,6 +24,24 @@
      "penalty_signal": "fine up to JPY 300000",
      "checked": "2026-11-07",
      "by": "hand"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "level": "city",
+     "rule": "Nara City: 奈良市路上喫煙防止に関する条例 (Nara Street Smoking Prevention Ordinance) asks people to make an effort not to smoke in outdoor public places, and the city has designated \"street smoking prohibited areas\" (map on the city page). In those areas, a person who smokes in the street and ignores a city officer's correction is fined (過料) JPY 1,000 on the spot (about A$9.02, RBA rate of 30 October 2026, A$1 = JPY 110.82). The city says heated tobacco and e-cigarettes are not fined under this ordinance but asks for the same manners. Article numbers and the zone map were not read, so whether the Nara Park area is inside a zone is not confirmed.",
+     "source": "https://www.city.nara.lg.jp/site/ordinance/9021.html",
+     "by": "agent",
+     "checked": "2026-11-08",
+     "penalty_signal": "JPY 1,000 (過料)"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "level": "city",
+     "rule": "Nara City: 奈良市ポイ捨て防止に関する条例 (Nara Anti-Littering Ordinance). From 1 April 2023 littering is banned in all public places in the city (roads, parks, plazas, riverbanks). In the designated \"beautification priority zones\", a person who litters and ignores a city officer's correction order may face a court fine of up to JPY 30,000 (about A$271, RBA rate of 30 October 2026, A$1 = JPY 110.82). Article numbers were not read.",
+     "source": "https://www.city.nara.lg.jp/site/ordinance/7607.html",
+     "by": "agent",
+     "checked": "2026-11-08",
+     "penalty_signal": "up to JPY 30,000 in priority zones"
     }
    ],
    "sources": [
@@ -40,6 +58,20 @@
      "url": "https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/dd55fa2a-a920-46cb-a939-e41a3ee8393b/4f494268/20231227_policies_youth-kankyou_hikouhigai-research_ordinance_82.pdf",
      "supports": "curfew clause, definition of the late-night period and penalty clause (read 2026-11-07); later amendments are not checked",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "奈良市路上喫煙防止に関する条例 (explanation page, 2024-02-28)",
+     "authority": "Nara City",
+     "url": "https://www.city.nara.lg.jp/site/ordinance/9021.html",
+     "checked": "2026-11-08",
+     "supports": "effort duty, JPY 1,000 on-the-spot fine, heated tobacco not fined (read 2026-11-08)"
+    },
+    {
+     "title": "奈良市ポイ捨て防止に関する条例 (page, 2023-05-31)",
+     "authority": "Nara City",
+     "url": "https://www.city.nara.lg.jp/site/ordinance/7607.html",
+     "checked": "2026-11-08",
+     "supports": "city-wide ban from 2023-04-01; fine in priority zones (read 2026-11-08)"
     }
    ],
    "note": "Nara Park only."

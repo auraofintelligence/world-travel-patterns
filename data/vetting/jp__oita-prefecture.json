@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-06",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -32,6 +32,23 @@
      "penalty_signal": "fine up to JPY 100000",
      "checked": "2026-11-07",
      "by": "hand"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "level": "city",
+     "rule": "Beppu City: 別府市地域環境美化条例 (Beppu Regional Environment Beautification Ordinance) tightens litter rules for cans and cigarette ends in \"scatter-prevention zones\": around Beppu Station, the international ferry port, Beppu interchange, Higashi-Beppu, Seki-no-e and Beppu Park. Across Oita Prefecture, 美しく快適な大分県づくり条例 (Oita Beautiful and Comfortable Prefecture Ordinance, 2004) bans littering and sets an administrative fine (過料) of up to JPY 50,000 (about A$451, RBA rate of 30 October 2026, A$1 = JPY 110.82). Dumping larger waste carries up to 5 years' prison or a fine of up to JPY 10 million, the city says. Article numbers were not read.",
+     "source": "https://www.city.beppu.oita.jp/seikatu/kankyou_gomi/g_hozen/poisute.html",
+     "by": "agent",
+     "checked": "2026-11-08",
+     "penalty_signal": "up to JPY 50,000 (過料)"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "level": "state",
+     "rule": "Public baths in Oita Prefecture, Beppu's onsen included: since 1 January 2022 the prefecture's 大分県公衆浴場法施行条例 (Oita Public Bath Act Enforcement Ordinance) says people aged 7 and over must not be bathed together with the opposite sex. A parent can take a child of 6 or under into the other sex's bath. Beppu City states this on its page.",
+     "source": "https://www.city.beppu.oita.jp/sangyou/onsen/konyokuseigen.html",
+     "by": "agent",
+     "checked": "2026-11-08"
     }
    ],
    "sources": [
@@ -62,6 +79,20 @@
      "url": "https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/dd55fa2a-a920-46cb-a939-e41a3ee8393b/9444d86c/20231227_policies_youth-kankyou_hikouhigai-research_ordinance_125.pdf",
      "supports": "curfew clause, definition of the late-night period and penalty clause (read 2026-11-07); later amendments are not checked",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "不法投棄（ポイ捨て）禁止",
+     "authority": "Beppu City",
+     "url": "https://www.city.beppu.oita.jp/seikatu/kankyou_gomi/g_hozen/poisute.html",
+     "checked": "2026-11-08",
+     "supports": "zones and JPY 50,000 ceiling (read 2026-11-08)"
+    },
+    {
+     "title": "大分県公衆浴場法施行条例の一部改正について（混浴制限年齢の引下げ）",
+     "authority": "Beppu City",
+     "url": "https://www.city.beppu.oita.jp/sangyou/onsen/konyokuseigen.html",
+     "checked": "2026-11-08",
+     "supports": "age 7 and over (read 2026-11-08)"
     }
    ],
    "note": "The tax is approved but not yet charged: collection begins 1 June 2027."

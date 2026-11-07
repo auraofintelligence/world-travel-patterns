@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -34,6 +34,23 @@
      "penalty_signal": "fine up to JPY 300000",
      "checked": "2026-11-07",
      "by": "hand"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "level": "city",
+     "rule": "Osaka City, Kita and Minami entertainment districts (Minami covers the Dotonbori and Shinsaibashi area; the city's zone map is linked on its page): 大阪市客引き行為等の適正化に関する条例 (Osaka Touting Ordinance) bans touting, soliciting a particular person to use a service, and waiting to do so, in designated \"prohibited zones\", in any trade, and having others do it (art. 10). The mayor can guide, warn, then order the person to stop (art. 11); breaking an order is punishable by an administrative fine (過料) of up to JPY 50,000 (about A$451, RBA rate of 30 October 2026, A$1 = JPY 110.82) (art. 16). Since 1 April 2021 a repeat offender goes straight to an order. It binds touts and shop owners, not people who are approached. Article text is from the city's 2017 consolidated copy; the city's current page was read for the zones and the fine.",
+     "source": "https://www.city.osaka.lg.jp/shimin/page/0000455432.html",
+     "by": "agent",
+     "checked": "2026-11-08",
+     "penalty_signal": "up to JPY 50,000 (過料)"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "level": "city",
+     "rule": "Osaka City asks people not to dive into the Dotonbori River from Ebisu Bridge, other bridges or the riverside walks, and not to jump up and down on bridges. The city's notice of 15 October 2026 says the water near Ebisu Bridge is about 3.5 metres deep, the water falls below 10 degrees C in winter, boats use the river, and past dives have caused deaths and injuries. The notice is a request; it names no ordinance or fine.",
+     "source": "https://www.city.osaka.lg.jp/kensetsu/page/0000449103.html",
+     "by": "agent",
+     "checked": "2026-11-08"
     }
    ],
    "sources": [
@@ -57,6 +74,27 @@
      "url": "https://www.pref.osaka.lg.jp/o090136/koseishonen/jorei/yakanturedasi.html",
      "supports": "age-split night hours and JPY 300,000 fine (read 2026-11-07)",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "大阪市客引き行為等の適正化に関する条例の概要等について",
+     "authority": "Osaka City",
+     "url": "https://www.city.osaka.lg.jp/shimin/page/0000455432.html",
+     "checked": "2026-11-08",
+     "supports": "fine of up to JPY 50,000 and zones (read 2026-11-08)"
+    },
+    {
+     "title": "大阪市客引き行為等の適正化に関する条例 (consolidated text, 2017)",
+     "authority": "Osaka City",
+     "url": "https://www.city.osaka.lg.jp/shimin/cmsfiles/contents/0000267/267087/jyourei290601.pdf",
+     "checked": "2026-11-08",
+     "supports": "art. 10, 11, 16 text (read 2026-11-08)"
+    },
+    {
+     "title": "道頓堀川への飛び込みや戎橋などの橋上での飛び跳ねはやめましょう",
+     "authority": "Osaka City Construction Bureau",
+     "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000449103.html",
+     "checked": "2026-11-08",
+     "supports": "notice dated 2026-10-15 (read 2026-11-08)"
     }
    ],
    "note": ""
