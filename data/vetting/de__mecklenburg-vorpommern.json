@@ -51,7 +51,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -62,6 +62,33 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Kurabgabesatzung der Hanse- und Universitätsstadt Rostock"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "level": "region",
+     "heading": "Feiertagsgesetz (FTG M-V) sections 5, 6 and 9",
+     "rule": "Mecklenburg-Vorpommern bans some events on Sundays and public holidays during the main church-service time (6 am to 11:30 am; from 1 pm on Christmas Eve): public entertainment events and meetings that disturb a service (section 5(1); not on 8 March, 1 May or 3 October). On Totensonntag and Volkstrauertag (4 am to midnight) and Good Friday (all day) those bans apply for the whole period (section 5(2)). Public sport events are banned all day on Good Friday, from 5 am on Totensonntag and from 1 pm on Christmas Eve (section 6(1)). Public dance events, events in bars that go beyond serving food and drink, gaming halls and betting shops are banned from midnight on Good Friday to 6 pm on Holy Saturday, from 5 am to midnight on Volkstrauertag and Totensonntag, and from 1 pm to midnight on Christmas Eve (section 6(2)). Breaches can be fined up to EUR 5,000 (about A$7,946) (section 9(2)). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Fine up to EUR 5,000.",
+     "source": "https://www.landesrecht-mv.de/bsmv/search/quick?query=FTG M-V",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "level": "region",
+     "heading": "Nichtraucherschutzgesetz (NichtRSchutzG M-V) section 1 and section 4",
+     "rule": "Mecklenburg-Vorpommern bans lighting or keeping a tobacco product burning in state and council buildings, schools (including the grounds), youth facilities, universities, hospitals, homes, sports venues, cinemas, museums, theatres, gaming halls, airport and ferry terminals, and bars and restaurants (section 1(1) and (3)). Separate smoking rooms are allowed in some venues, and small bars under 75 square metres can allow smoking if no meals are served, under-18s are kept out and the entrance is marked (section 1(2) and section 2). The Act covers tobacco products and does not name e-cigarettes. A smoker can be fined up to EUR 500 (about A$795); a venue operator who breaks the conditions can be fined up to EUR 10,000 (about A$15,890) (section 4(2)). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Smoker up to EUR 500; operator up to EUR 10,000.",
+     "source": "https://www.landesrecht-mv.de/bsmv/search/quick?query=Nichtraucher",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "level": "region",
+     "heading": "Landeswaldgesetz (LWaldG M-V) section 29 and section 51",
+     "rule": "In Mecklenburg-Vorpommern forests, camping in a tent and parking caravans, motorhomes or sales stalls are not allowed unless the forest authority and the owner agree beforehand (section 29(1)). Taking domestic or tame animals into the forest is not allowed, except dogs on a lead (section 29(2)). A breach can be fined up to EUR 7,500 (about A$11,918); offences under section 51(5) up to EUR 75,000 (about A$119,175) (section 51(7)). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Up to EUR 7,500; up to EUR 75,000 for offences under section 51(5).",
+     "source": "https://www.landesrecht-mv.de/bsmv/search/quick?query=Landeswaldgesetz",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -71,6 +98,27 @@
      "url": "https://www.rostock.de/buchen/gaestecard",
      "checked": "2026-11-05",
      "supports": "2026 rates (search-index snapshot)"
+    },
+    {
+     "title": "Gesetz uber Sonn- und Feiertage (Feiertagsgesetz Mecklenburg-Vorpommern, FTG M-V)",
+     "authority": "Land Mecklenburg-Vorpommern, Landesrecht MV",
+     "url": "https://www.landesrecht-mv.de/bsmv/search/quick?query=FTG M-V",
+     "supports": "Banned events and fine",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Nichtraucherschutzgesetz Mecklenburg-Vorpommern (NichtRSchutzG M-V) of 12 July 2007",
+     "authority": "Land Mecklenburg-Vorpommern, Landesrecht MV",
+     "url": "https://www.landesrecht-mv.de/bsmv/search/quick?query=Nichtraucher",
+     "supports": "Smoking ban and fines",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Landeswaldgesetz Mecklenburg-Vorpommern (LWaldG) of 27 July 2011",
+     "authority": "Land Mecklenburg-Vorpommern, Landesrecht MV",
+     "url": "https://www.landesrecht-mv.de/bsmv/search/quick?query=Landeswaldgesetz",
+     "supports": "Forest tents, dogs, fines",
+     "checked": "2026-11-07"
     }
    ],
    "note": "Rostock only."

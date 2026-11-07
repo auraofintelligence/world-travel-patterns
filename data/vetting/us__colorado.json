@@ -117,7 +117,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -133,6 +133,20 @@
      "level": "region",
      "source": "https://cannabis.colorado.gov/laws-about-cannabis-use",
      "checked": "2026-11-02"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Colorado Parks and Wildlife's rules for state parks (Chapter P-1) allow drinking alcohol on its lands with exceptions: not on archery or firearm ranges unless a contract or permit says so; selling or dispensing needs a concession contract or permit; and being on the land so affected by alcohol or a controlled substance that you endanger people, property or resources is prohibited. Individual parks can be stricter.",
+     "source": "https://cpw.state.co.us/sites/default/files/dam/epcnlzqihv/ch-p-1-as-approved.pdf",
+     "level": "state",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Under Colorado's state park rules (Chapter P-1), fires are allowed only in designated sites in park-furnished grills or fireplaces, or in hibachis, charcoal grills, stoves and other metal containers, and must be fully extinguished; all fires may be prohibited as posted for burn restrictions. Some places ban fires entirely, such as Roxborough State Park and Highline Canal State Trail. Possessing or discharging fireworks is prohibited (display approved by the Director excepted), and carrying glassware inside a public swimming or bathing area or designated water-ski beach is not allowed.",
+     "source": "https://cpw.state.co.us/sites/default/files/dam/epcnlzqihv/ch-p-1-as-approved.pdf",
+     "level": "state",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -149,6 +163,12 @@
      "url": "https://cannabis.colorado.gov/laws-about-cannabis-use",
      "checked": "2026-11-02",
      "supports": "public use and federal land bans (read via a search-index snapshot)"
+    },
+    {
+     "title": "Chapter P-1: Parks and Outdoor Recreation Lands",
+     "authority": "Colorado Parks and Wildlife",
+     "url": "https://cpw.state.co.us/sites/default/files/dam/epcnlzqihv/ch-p-1-as-approved.pdf",
+     "checked": "2026-11-07"
     }
    ]
   },
