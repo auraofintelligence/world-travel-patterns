@@ -363,9 +363,9 @@
     }
     const spine = chain[chain.length - 1];
     const offices = inAus.places[spine.id] || [];
-    // This level's own law repositories only; the country's (and shared ones such as the EU's) are on the country page.
-    const lawLevels = [[place, lawRepos.places[id] || []]].filter(([, l]) => l.length);
-    if (chain.length === 1) (lawRepos.groups || []).forEach((g) => { if (g.members.includes(spine.id)) lawLevels.push([{ name: g.name }, g.repositories]); });
+    // Repositories stay on their own level; links to levels above lead to their source sections.
+    const ownLawRepos = lawRepos.places[id] || [];
+    const sharedLawGroups = chain.length === 1 ? (lawRepos.groups || []).filter((g) => g.members.includes(spine.id)) : [];
     const advice = patOn("advisory") && spine.smartraveller && adv.destinations[spine.smartraveller];
     const patterns = Object.fromEntries(index.patterns.map((p) => [p.id, p]));
     const applies = (pat, p) => !(pat.only_places && !pat.only_places.includes(p.id)) && pat.applies_to.includes(p.kind) && !(pat.only_tagged && !(p.tags || []).length) && !(pat.skip_home && p.id === "au");
@@ -491,6 +491,7 @@
     const strata = `<div class="strata">${chain.map((p) => `<a class="stratum ${p.id === id ? "here" : ""}" href="place.html?id=${encodeURIComponent(p.id)}"><small>${esc(kindOf(p))}</small>${esc(p.name)}</a>`).join("")}</div>`;
     const regionCount = children.filter(isRegion).length;
     const links = [
+      `<a class="btn" href="#law-sources">Find the laws</a>`,
       children.length ? `<a class="btn" href="#inside">${regionCount ? `States and regions (${regionCount})` : `Places inside (${children.length})`}</a>` : "",
       advice ? `<a class="btn ghost" href="${esc(advice.url)}" rel="noopener">Smartraveller advice</a>` : "",
     ].join("");
@@ -504,6 +505,10 @@
       photo,
       caption,
     });
+    const repositoryLinks = (list) => list.map((r) => `<p><a href="${esc(r.url)}" rel="noopener">${esc(viewText(r.name))}</a><br><span class="meta">${esc(viewText(r.publisher))}${r.checked ? ` · checked ${esc(fmt(r.checked))}` : ""}${r.check && r.check !== "loaded" ? ` · ${esc(viewText(r.check))}` : ""}${r.note ? ` · ${esc(viewText(r.note))}` : ""}</span></p>`).join("");
+    const ancestorLawLinks = chain.slice(1).map((p) => `<a href="place.html?id=${encodeURIComponent(p.id)}#law-sources">${esc(p.name)}</a>`).join(" · ");
+    const ownLawGap = chain.length === 1 && (lawRepos.no_online_source || {})[id]
+      ? viewText(lawRepos.no_online_source[id]) : `A law register for ${place.name} itself has not yet been found.`;
     const body = `<main>
       <section class="section tight"><div class="stats">
         <div class="stat"><b>${chain.length}</b><span>levels whose rules apply here</span></div>
@@ -513,14 +518,14 @@
       </div>
       ${watched.map((w) => `<p class="note" style="margin-top:18px"><b>Rule change watched:</b> ${esc(w.what)} Status: ${esc(w.status)}. Effective: ${w.effective ? fmt(w.effective) : "not settled"}. ${esc(w.next)}</p>`).join("")}
       </section>
+      <section class="section tight" id="law-sources"><div class="layer-group"><h2>Find the laws</h2><span class="rule"></span></div>
+        <p class="meta">Find legislation and official gazettes for this place. Check the relevant laws at each level.</p>
+        <div class="grid"><div class="card"><h3>${esc(place.name)}</h3>${ownLawRepos.length ? repositoryLinks(ownLawRepos) : `<p class="meta">${esc(ownLawGap)}</p>`}</div>
+        ${sharedLawGroups.map((g) => `<div class="card"><h3>${esc(viewText(g.name))}</h3>${repositoryLinks(g.repositories || [])}</div>`).join("")}</div>
+        ${ancestorLawLinks ? `<p class="meta">Law sources for levels above: ${ancestorLawLinks}</p>` : ""}</section>
       <section class="section tight">${upCard}${sections}</section>
       ${events.length ? `<section class="section tight"><div class="layer-group"><h2>Upcoming here</h2><span class="rule"></span></div>
         <p class="meta">Dated leads from the feeds. An event is not a permission: taking part still runs through entry, activities and zone checks.</p>${events.map(eventCard(index)).join("")}</section>` : ""}
-      ${chain.length === 1 && !lawLevels.length && (lawRepos.no_online_source || {})[spine.id] ? `<section class="section tight"><div class="layer-group"><h2>Where the law is published</h2><span class="rule"></span></div>
-        <p class="meta">${esc(lawRepos.no_online_source[spine.id])} Not knowing a law is no defence.</p></section>` : ""}
-      ${lawLevels.length ? `<section class="section tight"><div class="layer-group"><h2>Where the law is published</h2><span class="rule"></span></div>
-        <p class="meta">The official places to read the laws that apply here. Not knowing a law is no defence.</p>
-        <div class="grid">${lawLevels.map(([p, list]) => `<div class="card"><h3>${esc(p.name)}</h3>${list.map((r) => `<p><a href="${esc(r.url)}" rel="noopener">${esc(r.name)}</a><br><span class="meta">${esc(r.publisher)}${r.check && r.check !== "loaded" ? ` · ${esc(r.check)}` : ""}</span></p>`).join("")}</div>`).join("")}</div></section>` : ""}
       ${offices.length && place === spine ? `<section class="section tight"><div class="layer-group"><h2>${esc(spine.name)}'s offices in Australia</h2><span class="rule"></span></div>
         <p class="meta">Where to apply for a visa or ask for a rule in writing before you go. From the DFAT Protocol directory, read ${fmt(inAus.checked)}. Honorary consuls offer limited services.</p>
         <div class="grid">${offices.map((o) => `<div class="card"><h3>${esc(o.name)}</h3><p class="meta">${esc(o.type)}${o.honorary ? " · honorary" : ""}${o.city ? ` · ${esc(o.city)}${o.state ? ` ${esc(o.state)}` : ""}` : ""}</p>

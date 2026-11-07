@@ -1,6 +1,6 @@
 {
- "what": "Where each country or territory officially publishes its laws: legislation databases and official gazettes. Not knowing a law is no defence.",
- "rule": "Official publishers first; legal information institutes (LIIs) where they are the main free source. A check records whether the site loaded from Australia on the date shown, nothing more.",
+ "what": "Where places publish laws: legislation databases, official gazettes and local by-law registers.",
+ "rule": "Official publishers first; legal information institutes where they are the main free source. Each check describes the access method and date, not completeness or legal currency.",
  "checked": "2026-11-01",
  "places": {
   "ad": [
@@ -1004,9 +1004,9 @@
    {
     "name": "India Code",
     "publisher": "Legislative Department, Ministry of Law and Justice",
-    "url": "https://www.indiacode.nic.in/",
-    "check": "loaded",
-    "checked": "2026-11-01"
+    "url": "https://indiacode.gov.in/",
+    "check": "The previous official site announced this address; availability could not be checked.",
+    "checked": "2026-11-08"
    },
    {
     "name": "e-Gazette of India",
@@ -2321,6 +2321,952 @@
     "url": "https://zimlii.org/",
     "check": "loaded",
     "checked": "2026-11-01"
+   }
+  ],
+  "in/goa": [
+   {
+    "name": "Goa Acts and Rules, searchable by department",
+    "publisher": "Government of Goa",
+    "url": "https://www.goa.gov.in/government/acts-and-rules/",
+    "check": "includes state and central laws",
+    "checked": "2026-11-08"
+   }
+  ],
+  "jp/tokyo": [
+   {
+    "name": "Tokyo Metropolitan Government legal database (Japanese)",
+    "publisher": "Tokyo Metropolitan Government",
+    "url": "https://www.reiki.metro.tokyo.lg.jp/",
+    "check": "database displays its currency date",
+    "checked": "2026-11-08"
+   }
+  ],
+  "jp/kyoto-prefecture": [
+   {
+    "name": "Kyoto Prefecture collection of ordinances and regulations (Japanese)",
+    "publisher": "Kyoto Prefectural Government",
+    "url": "https://www.pref.kyoto.jp/reiki/",
+    "check": "check the collection currency date",
+    "checked": "2026-11-08"
+   }
+  ],
+  "jp/osaka-prefecture": [
+   {
+    "name": "Osaka Prefecture online ordinances and regulations (Japanese)",
+    "publisher": "Osaka Prefectural Government",
+    "url": "https://www.pref.osaka.lg.jp/fuseiunei/reikijourei/jourei/reiki/index.html",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "jp/kanagawa-prefecture": [
+   {
+    "name": "Kanagawa Prefecture regulations database entry point (Japanese)",
+    "publisher": "Kanagawa Prefectural Government",
+    "url": "https://www.pref.kanagawa.jp/docs/y8e/cnt/f7406/",
+    "check": "follow the legal data service link",
+    "checked": "2026-11-08"
+   }
+  ],
+  "jp/fukuoka-prefecture": [
+   {
+    "name": "Fukuoka Prefecture ordinances database entry point (Japanese)",
+    "publisher": "Fukuoka Prefectural Government",
+    "url": "https://www.pref.fukuoka.lg.jp/contents/fukuoke-reiki.html",
+    "check": "follow the database link",
+    "checked": "2026-11-08"
+   },
+   {
+    "name": "Fukuoka City municipal ordinance collection (Japanese)",
+    "publisher": "Fukuoka City",
+    "url": "https://www.city.fukuoka.lg.jp/d1w_reiki/reiki.html",
+    "check": "city laws, not the entire prefecture",
+    "checked": "2026-11-08"
+   }
+  ],
+  "jp/hyogo-prefecture": [
+   {
+    "name": "Hyogo Prefecture ordinances and regulations entry point (Japanese)",
+    "publisher": "Hyogo Prefectural Government",
+    "url": "https://web.pref.hyogo.lg.jp/kk32/houki.html",
+    "check": "follow the legal database link and check its currency date",
+    "checked": "2026-11-08"
+   }
+  ],
+  "za/kwazulu-natal": [
+   {
+    "name": "KwaZulu-Natal Legislature: Acts and Bills",
+    "publisher": "KwaZulu-Natal Legislature",
+    "url": "https://kznlegislature.gov.za/acts-bills/",
+    "check": "bills and enacted laws are mixed; coverage may be incomplete",
+    "checked": "2026-11-08"
+   },
+   {
+    "name": "eThekwini Municipality: by-laws for Durban",
+    "publisher": "eThekwini Municipality",
+    "url": "https://www.durban.gov.za/page/by-laws",
+    "check": "check promulgated versus draft by-laws and current amendments",
+    "checked": "2026-11-08"
+   }
+  ],
+  "za/western-cape": [
+   {
+    "name": "Western Cape Provincial Parliament: legislation",
+    "publisher": "Western Cape Provincial Parliament",
+    "url": "https://www.wcpp.gov.za/?q=legislation",
+    "check": "check current amendments",
+    "checked": "2026-11-08"
+   },
+   {
+    "name": "City of Cape Town: municipal by-laws",
+    "publisher": "City of Cape Town",
+    "url": "https://www.capetown.gov.za/family-and-home/meet-the-city/city-council/policies-by-laws-and-publications/",
+    "check": "municipal jurisdiction only",
+    "checked": "2026-11-08"
+   }
+  ],
+  "za/eastern-cape": [
+   {
+    "name": "Eastern Cape Provincial Legislature: provincial Acts",
+    "publisher": "Eastern Cape Provincial Legislature",
+    "url": "https://www.eclegislature.gov.za/acts/provincial",
+    "check": "list may be incomplete or older",
+    "checked": "2026-11-08"
+   }
+  ],
+  "za/gauteng": [
+   {
+    "name": "Gauteng Provincial Legislature: bills and Acts",
+    "publisher": "Gauteng Provincial Legislature",
+    "url": "https://www.gpl.gov.za/category/documents/bills-and-acts/",
+    "check": "bills and enacted laws are mixed; coverage may be incomplete",
+    "checked": "2026-11-08"
+   },
+   {
+    "name": "City of Johannesburg: municipal by-laws",
+    "publisher": "City of Johannesburg",
+    "url": "https://joburg.org.za/documents_/By-Laws/Pages/By-Laws.aspx",
+    "check": "municipal jurisdiction only",
+    "checked": "2026-11-08"
+   }
+  ],
+  "ke/nairobi-city-county": [
+   {
+    "name": "Nairobi City County Assembly: Acts",
+    "publisher": "Nairobi City County Assembly",
+    "url": "https://nairobiassembly.go.ke/acts/",
+    "check": "individual PDFs may not be accessible",
+    "checked": "2026-11-08"
+   }
+  ],
+  "ke/mombasa-county": [
+   {
+    "name": "Mombasa County Assembly: published Acts",
+    "publisher": "County Assembly of Mombasa",
+    "url": "https://www.mombasaassembly.go.ke/index.php/acts",
+    "check": "verify completeness and current amendments",
+    "checked": "2026-11-08"
+   }
+  ],
+  "ke/nakuru-county": [
+   {
+    "name": "Nakuru County Assembly: Acts category",
+    "publisher": "County Assembly of Nakuru",
+    "url": "https://nakuruassembly.go.ke/download-category/acts/",
+    "check": "includes bills, so confirm whether a measure is enacted",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/arizona": [
+   {
+    "name": "Arizona Revised Statutes",
+    "publisher": "Arizona State Legislature",
+    "url": "https://www.azleg.gov/arstitle/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/colorado": [
+   {
+    "name": "Colorado Laws, including statutes and regulations",
+    "publisher": "Colorado General Assembly",
+    "url": "https://www.leg.colorado.gov/laws",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/florida": [
+   {
+    "name": "Florida Statutes",
+    "publisher": "Florida Legislature",
+    "url": "https://www.leg.state.fl.us/Statutes/index.cfm",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/iowa": [
+   {
+    "name": "Iowa Law and Rules",
+    "publisher": "Iowa Legislature",
+    "url": "https://www.legis.iowa.gov/law",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/kentucky": [
+   {
+    "name": "Kentucky Revised Statutes",
+    "publisher": "Kentucky Legislative Research Commission",
+    "url": "https://legislature.ky.gov/Law/Statutes/Pages/default.aspx",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/louisiana": [
+   {
+    "name": "Louisiana laws search (online text is informational)",
+    "publisher": "Louisiana State Legislature",
+    "url": "https://legis.state.la.us/Legis/LawSearch.aspx",
+    "check": "loaded",
+    "checked": "2026-11-08",
+    "note": "The legislature states that its online search texts are informational and not an official or authoritative publication."
+   }
+  ],
+  "us/maine": [
+   {
+    "name": "Maine Revised Statutes search",
+    "publisher": "Maine Legislature, Office of the Revisor of Statutes",
+    "url": "https://legislature.maine.gov/legis/statutes/search.htm",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/massachusetts": [
+   {
+    "name": "Massachusetts General Laws search",
+    "publisher": "Massachusetts Legislature",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/Search",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/michigan": [
+   {
+    "name": "Michigan Legislature (search compiled laws)",
+    "publisher": "Michigan Legislature",
+    "url": "https://www.legislature.mi.gov/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/minnesota": [
+   {
+    "name": "Minnesota Statutes",
+    "publisher": "Minnesota Office of the Revisor of Statutes",
+    "url": "https://www.revisor.mn.gov/statutes/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/missouri": [
+   {
+    "name": "Revised Statutes of Missouri",
+    "publisher": "Missouri Revisor of Statutes",
+    "url": "https://revisor.mo.gov/main/Home.aspx",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/montana": [
+   {
+    "name": "Montana Code Annotated",
+    "publisher": "Montana Legislature",
+    "url": "https://mca.legmt.gov/bills/mca/index.html",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/nebraska": [
+   {
+    "name": "Nebraska Revised Statutes",
+    "publisher": "Nebraska Legislature",
+    "url": "https://nebraskalegislature.gov/laws/browse-statutes.php",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/north-carolina": [
+   {
+    "name": "North Carolina General Statutes",
+    "publisher": "North Carolina General Assembly",
+    "url": "https://www.ncleg.gov/Laws/GeneralStatutes",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/north-dakota": [
+   {
+    "name": "North Dakota Century Code",
+    "publisher": "North Dakota Legislative Branch",
+    "url": "https://ndlegis.gov/general-information/north-dakota-century-code/index.html",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/ohio": [
+   {
+    "name": "Ohio Revised Code",
+    "publisher": "Ohio Legislative Service Commission",
+    "url": "https://codes.ohio.gov/ohio-revised-code",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/oregon": [
+   {
+    "name": "Oregon Revised Statutes",
+    "publisher": "Oregon Legislative Assembly",
+    "url": "https://www.oregonlegislature.gov/bills_laws/Pages/ORS.aspx",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/south-carolina": [
+   {
+    "name": "South Carolina Code of Laws",
+    "publisher": "South Carolina Legislature",
+    "url": "https://www.scstatehouse.gov/code/statmast.php",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/texas": [
+   {
+    "name": "Texas Constitution and Statutes",
+    "publisher": "Texas Legislative Council",
+    "url": "https://statutes.capitol.texas.gov/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/utah": [
+   {
+    "name": "Utah Code",
+    "publisher": "Utah State Legislature",
+    "url": "https://le.utah.gov/xcode/code.html",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/vermont": [
+   {
+    "name": "Vermont Statutes",
+    "publisher": "Vermont General Assembly",
+    "url": "https://legislature.vermont.gov/statutes",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/virginia": [
+   {
+    "name": "Code of Virginia",
+    "publisher": "Virginia Division of Legislative Automated Systems",
+    "url": "https://law.lis.virginia.gov/vacode/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "us/washington": [
+   {
+    "name": "Revised Code of Washington",
+    "publisher": "Washington State Legislature",
+    "url": "https://apps.leg.wa.gov/rcw/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "ca/alberta": [
+   {
+    "name": "Alberta King's Printer: Laws Online",
+    "publisher": "Alberta King's Printer",
+    "url": "https://kings-printer.alberta.ca/Laws_Online.cfm",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "ca/british-columbia": [
+   {
+    "name": "BC Laws",
+    "publisher": "Government of British Columbia",
+    "url": "https://www.bclaws.gov.bc.ca/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "ca/manitoba": [
+   {
+    "name": "Manitoba Laws",
+    "publisher": "Government of Manitoba",
+    "url": "https://web2.gov.mb.ca/laws/index.php",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "ca/new-brunswick": [
+   {
+    "name": "New Brunswick Acts and Regulations",
+    "publisher": "New Brunswick Office of the Attorney General",
+    "url": "https://www2.gnb.ca/content/gnb/en/departments/public-safety/attorney-general/content/acts_regulations.html",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "ca/newfoundland-and-labrador": [
+   {
+    "name": "Newfoundland and Labrador Legislation",
+    "publisher": "Newfoundland and Labrador House of Assembly",
+    "url": "https://assembly.nl.ca/legislation/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "ca/nunavut": [
+   {
+    "name": "Nunavut Legislation",
+    "publisher": "Government of Nunavut",
+    "url": "https://www.nunavutlegislation.ca/en",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "ca/prince-edward-island": [
+   {
+    "name": "Prince Edward Island Statutes and Regulations",
+    "publisher": "Government of Prince Edward Island",
+    "url": "https://www.princeedwardisland.ca/en/legislation",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "br/sao-paulo": [
+   {
+    "name": "São Paulo state legislation search",
+    "publisher": "Assembleia Legislativa do Estado de São Paulo",
+    "url": "https://www.al.sp.gov.br/legislacao/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "br/minas-gerais": [
+   {
+    "name": "Minas Gerais state legislation search",
+    "publisher": "Assembleia Legislativa de Minas Gerais",
+    "url": "https://www.almg.gov.br/atividade-parlamentar/leis/legislacao-mineira/?aba=pesquisa&ordem=2&sit=1",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "br/parana": [
+   {
+    "name": "Paraná state legislation system",
+    "publisher": "Government of Paraná",
+    "url": "https://www.legislacao.pr.gov.br/legislacao/pesquisarAto.do?action=iniciarProcesso",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "br/santa-catarina": [
+   {
+    "name": "Santa Catarina state legislation search (informational texts)",
+    "publisher": "Assembleia Legislativa do Estado de Santa Catarina",
+    "url": "https://leis.alesc.sc.gov.br/legislativo",
+    "check": "loaded",
+    "checked": "2026-11-08",
+    "note": "The legislature says these texts are informational and do not replace official gazette publications."
+   }
+  ],
+  "at/burgenland": [
+   {
+    "name": "RIS: Burgenland consolidated state law",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/Lr-Burgenland/",
+    "check": "The official directory links to this page; it returned an error when checked.",
+    "checked": "2026-11-08"
+   },
+   {
+    "name": "RIS: state gazettes, choose Burgenland",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/UI/Land/Auswahl.aspx?TabbedMenuSelection=LandesrechtTab",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "at/carinthia": [
+   {
+    "name": "RIS: Kaernten consolidated state law",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/Lr-Kaernten/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   },
+   {
+    "name": "RIS: state gazettes, choose Kaernten",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/UI/Land/Auswahl.aspx?TabbedMenuSelection=LandesrechtTab",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "at/lower-austria": [
+   {
+    "name": "RIS: Niederoesterreich consolidated state law",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/Lr-Niederoesterreich/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   },
+   {
+    "name": "RIS: state gazettes, choose Niederoesterreich",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/UI/Land/Auswahl.aspx?TabbedMenuSelection=LandesrechtTab",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "at/upper-austria": [
+   {
+    "name": "RIS: Oberoesterreich consolidated state law",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/Lr-Oberoesterreich/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   },
+   {
+    "name": "RIS: state gazettes, choose Oberoesterreich",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/UI/Land/Auswahl.aspx?TabbedMenuSelection=LandesrechtTab",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "at/salzburg": [
+   {
+    "name": "RIS: Salzburg consolidated state law",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/Lr-Salzburg/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   },
+   {
+    "name": "RIS: state gazettes, choose Salzburg",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/UI/Land/Auswahl.aspx?TabbedMenuSelection=LandesrechtTab",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "at/styria": [
+   {
+    "name": "RIS: Steiermark consolidated state law",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/Lr-Steiermark/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   },
+   {
+    "name": "RIS: state gazettes, choose Steiermark",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/UI/Land/Auswahl.aspx?TabbedMenuSelection=LandesrechtTab",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "at/tyrol": [
+   {
+    "name": "RIS: Tirol consolidated state law",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/Lr-Tirol/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   },
+   {
+    "name": "RIS: state gazettes, choose Tirol",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/UI/Land/Auswahl.aspx?TabbedMenuSelection=LandesrechtTab",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "at/vorarlberg": [
+   {
+    "name": "RIS: Vorarlberg consolidated state law",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/Lr-Vorarlberg/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   },
+   {
+    "name": "RIS: state gazettes, choose Vorarlberg",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/UI/Land/Auswahl.aspx?TabbedMenuSelection=LandesrechtTab",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "at/vienna": [
+   {
+    "name": "RIS: Wien consolidated state law",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/Lr-Wien/",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   },
+   {
+    "name": "RIS: state gazettes, choose Wien",
+    "publisher": "Austrian Federal Chancellery",
+    "url": "https://www.ris.bka.gv.at/UI/Land/Auswahl.aspx?TabbedMenuSelection=LandesrechtTab",
+    "check": "loaded",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/abruzzo": [
+   {
+    "name": "Normattiva directory to regional laws",
+    "publisher": "Government of Italy, Normattiva",
+    "url": "https://www.normattiva.it/legislazioneRegionale/abruzzo",
+    "check": "Regional destination could not be checked; follow the directory link.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/aosta-valley": [
+   {
+    "name": "Normattiva directory to regional laws",
+    "publisher": "Government of Italy, Normattiva",
+    "url": "https://www.normattiva.it/legislazioneRegionale/valleaosta",
+    "check": "Regional destination could not be checked; follow the directory link.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/piedmont": [
+   {
+    "name": "Regional legislation collection",
+    "publisher": "Regional government or legislative council",
+    "url": "https://arianna.consiglioregionale.piemonte.it/",
+    "check": "Check the official bulletin for the legally authoritative publication.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/lombardy": [
+   {
+    "name": "Regional legislation collection",
+    "publisher": "Regional government or legislative council",
+    "url": "https://www.consiglio.regione.lombardia.it/wps/portal/crl/home/leggi-e-banche-dati/leggi-regionali",
+    "check": "Check the official bulletin for the legally authoritative publication.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/veneto": [
+   {
+    "name": "Regional legislation collection",
+    "publisher": "Regional government or legislative council",
+    "url": "https://www.consiglioveneto.it/leggi-regionali",
+    "check": "Check the official bulletin for the legally authoritative publication.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/trentino-south-tyrol": [
+   {
+    "name": "Regional legislation collection",
+    "publisher": "Regional government or legislative council",
+    "url": "https://www.regione.taa.it/Documenti/Atti-normativi",
+    "check": "Check the official bulletin for the legally authoritative publication.",
+    "checked": "2026-11-08"
+   },
+   {
+    "name": "Regional and autonomous-province law sources",
+    "publisher": "Government of Italy, Normattiva",
+    "url": "https://www.normattiva.it/legislazioneRegionale/trentino",
+    "check": "Directory links separately to regional and provincial laws; provincial source availability not checked.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/friuli-venezia-giulia": [
+   {
+    "name": "Normattiva directory to regional laws",
+    "publisher": "Government of Italy, Normattiva",
+    "url": "https://www.normattiva.it/legislazioneRegionale/friuli",
+    "check": "Regional destination could not be checked; follow the directory link.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/emilia-romagna": [
+   {
+    "name": "Regional legislation collection",
+    "publisher": "Regional government or legislative council",
+    "url": "https://demetra.regione.emilia-romagna.it/",
+    "check": "Check the official bulletin for the legally authoritative publication.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/liguria": [
+   {
+    "name": "Regional legislation collection",
+    "publisher": "Regional government or legislative council",
+    "url": "https://lrv.regione.liguria.it/liguriass_prod/",
+    "check": "Check the official bulletin for the legally authoritative publication.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/molise": [
+   {
+    "name": "Normattiva directory to regional laws",
+    "publisher": "Government of Italy, Normattiva",
+    "url": "https://www.normattiva.it/legislazioneRegionale/molise",
+    "check": "Regional destination could not be checked; follow the directory link.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/tuscany": [
+   {
+    "name": "Regional legislation collection",
+    "publisher": "Regional government or legislative council",
+    "url": "https://raccoltanormativa.consiglio.regione.toscana.it/",
+    "check": "Check the official bulletin for the legally authoritative publication.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/umbria": [
+   {
+    "name": "Normattiva directory to regional laws",
+    "publisher": "Government of Italy, Normattiva",
+    "url": "https://www.normattiva.it/legislazioneRegionale/umbria",
+    "check": "Regional destination could not be checked; follow the directory link.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/lazio": [
+   {
+    "name": "Regional legislation collection",
+    "publisher": "Regional government or legislative council",
+    "url": "https://www.consiglio.regione.lazio.it/?sv=vigente&vw=leggiregionali",
+    "check": "Check the official bulletin for the legally authoritative publication.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/marche": [
+   {
+    "name": "Normattiva directory to regional laws",
+    "publisher": "Government of Italy, Normattiva",
+    "url": "https://www.normattiva.it/legislazioneRegionale/marche",
+    "check": "Regional destination could not be checked; follow the directory link.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/apulia": [
+   {
+    "name": "Regional legislation collection",
+    "publisher": "Regional government or legislative council",
+    "url": "https://bussolanormativa.consiglio.puglia.it/public/Leges/RicercaSemplice.aspx",
+    "check": "Check the official bulletin for the legally authoritative publication.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/calabria": [
+   {
+    "name": "Regional legislation collection",
+    "publisher": "Regional government or legislative council",
+    "url": "https://www.consiglioregionale.calabria.it/portale/BancheDati/Leggi/LeggiForm",
+    "check": "Check the official bulletin for the legally authoritative publication.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/basilicata": [
+   {
+    "name": "Normattiva directory to regional laws",
+    "publisher": "Government of Italy, Normattiva",
+    "url": "https://www.normattiva.it/legislazioneRegionale/basilicata",
+    "check": "Regional destination could not be checked; follow the directory link.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/campania": [
+   {
+    "name": "Regional legislation collection",
+    "publisher": "Regional government or legislative council",
+    "url": "https://www.cr.campania.it/leggi-progetti/leggi-regolamenti",
+    "check": "Check the official bulletin for the legally authoritative publication.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/sicily": [
+   {
+    "name": "Normattiva directory to regional laws",
+    "publisher": "Government of Italy, Normattiva",
+    "url": "https://www.normattiva.it/legislazioneRegionale/sicilia",
+    "check": "Regional destination could not be checked; follow the directory link.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "it/sardinia": [
+   {
+    "name": "Normattiva directory to regional laws",
+    "publisher": "Government of Italy, Normattiva",
+    "url": "https://www.normattiva.it/legislazioneRegionale/sardegna",
+    "check": "Regional destination could not be checked; follow the directory link.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/basque-country": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=231_Codigo_del_Pais_Vasco&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; direct compilation could not be checked and may be under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/galicia": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=232_Codigo_de_Galicia&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/andalusia": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=229_Codigo_de_Andalucia__&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/asturias": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=028_Codigo_del_Principado_de_Asturias&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/cantabria": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=233_Codigo_de_Cantabria&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/la-rioja": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=234_Codigo_de_La_Rioja&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/region-of-murcia": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=347_Codigo_de_la_Region_de_Murcia&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/valencian-community": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=230_Codigo_de_la_Comunidad_Valenciana&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/aragon": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=235_Codigo_de_Aragon&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/castillala-mancha": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=236_Codigo_de_Castilla-La_Mancha&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/canary-islands": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=237_Codigo_de_las_Islas_Canarias&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/navarre": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=238_Codigo_de_Navarra&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/extremadura": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=239_Codigo_de_Extremadura&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/balearic-islands": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=240_Codigo_de_las_Islas_Baleares&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/community-of-madrid": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=208_Codigo_de_la_Comunidad_de_Madrid&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/castile-and-leon": [
+   {
+    "name": "BOE regional code: selected legislation",
+    "publisher": "Official State Gazette Agency (BOE)",
+    "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=241_Codigo_de_Castilla_y_Leon&modo=2&tipo=C",
+    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
+    "checked": "2026-11-08"
+   }
+  ],
+  "es/catalonia": [
+   {
+    "name": "Portal Jurídic de Catalunya: search legislation",
+    "publisher": "Generalitat de Catalunya",
+    "url": "https://portaljuridic.gencat.cat/ca/inici",
+    "check": "Consolidated versions are informational; legally official versions appear in the gazettes.",
+    "checked": "2026-11-08"
    }
   ]
  },
