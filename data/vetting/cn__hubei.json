@@ -25,6 +25,47 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-08",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Wuhan: smoking, defined to include e-cigarette vapour and carrying a lit tobacco product, is banned indoors in public places, workplaces (including lifts) and on public transport (articles 7 and 35). Outdoor bans cover education and medical venues mainly for minors or pregnant women, sports and performance seating and play areas, and heritage sites open to the public (article 8). A person who smokes in a banned place is ordered to stop and can be fined (article 30).",
+     "penalty_signal": "Fine CNY 50 (about A$10.67) may apply; CNY 200 to 500 (about A$42.66 to A$107) if the person does not stop. (CNY at 4.6877 per A$1, RBA 30 Oct 2026.)",
+     "level": "city",
+     "source": "https://flk.npc.gov.cn/detail?id=ff8080816f21a161016f2283f98a06e1",
+     "checked": "2026-11-08",
+     "heading": "武汉市控制吸烟条例 (Wuhan Tobacco Control Regulation)"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "In scenic areas, smoking, lighting fires, burning incense, or setting off fireworks, sky lanterns or other open-flame floating objects in a fire-ban zone is banned (article 20). The regulation came into force on 15 August 2026.",
+     "penalty_signal": "Warning and a fine of CNY 100 to 500 (about A$21.33 to A$107); CNY 500 to 5,000 (about A$107 to A$1,067) in serious cases (article 35). (CNY at 4.6877 per A$1, RBA 30 Oct 2026.)",
+     "level": "province",
+     "source": "https://flk.npc.gov.cn/detail?id=ff8081819ff54a6401a040d117157dad",
+     "checked": "2026-11-08",
+     "heading": "湖北省风景名胜区条例 (Hubei Province Scenic Areas Regulation)"
+    }
+   ],
+   "sources": [
+    {
+     "title": "武汉市控制吸烟条例 (Wuhan Tobacco Control Regulation)",
+     "authority": "Standing Committee of the Wuhan Municipal People's Congress, published on the National Laws and Regulations Database (国家法律法规数据库, flk.npc.gov.cn)",
+     "url": "https://flk.npc.gov.cn/detail?id=ff8080816f21a161016f2283f98a06e1",
+     "checked": "2026-11-08",
+     "supports": "articles 7, 8, 30, 35; in force 1 Jan 2020 (read 2026-11-08)"
+    },
+    {
+     "title": "湖北省风景名胜区条例 (Hubei Province Scenic Areas Regulation)",
+     "authority": "Standing Committee of the Hubei Provincial People's Congress, published on the National Laws and Regulations Database (国家法律法规数据库, flk.npc.gov.cn)",
+     "url": "https://flk.npc.gov.cn/detail?id=ff8081819ff54a6401a040d117157dad",
+     "checked": "2026-11-08",
+     "supports": "articles 20(6), 35(2); passed 30 Jul 2026, in force 15 Aug 2026 (read 2026-11-08)"
+    }
+   ]
   }
  }
 }
