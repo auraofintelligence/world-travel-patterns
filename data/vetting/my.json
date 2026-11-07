@@ -270,7 +270,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -352,6 +352,28 @@
      "source": "https://www.caam.gov.my/wp-content/uploads/2021/03/CAAM-Drone_Requirement_2020.pdf",
      "checked": "2026-11-06",
      "heading": "Foreign drone pilot approval"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "The duty-free liquor allowance is wine, spirits, beer or malt liquor not exceeding 1 litre in total. Customs Form No. 7 asks you to declare liquor and tobacco you carry.",
+     "source": "https://www.customs.gov.my/en/individu/pengembara/travelers-guide",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Cigarettes, other tobacco products and e-cigarettes or similar personal vaporising devices are excluded from the duty-free allowance, so duty applies. The Traveller's Guide lists no duty-free quantity for them. The goods that may not be imported at all are set by the Customs (Prohibition on Import) Order 2023 (P.U.(A) 117/2023); check it before bringing vapes.",
+     "source": "https://www.customs.gov.my/en/individu/pengembara/travelers-guide",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Declare cash and bearer negotiable instruments of USD 10,000 or more (about A$14,200 at USD 0.7040 per A$1, RBA 30 Oct 2026) on Customs Form No. 7 when you enter or leave Malaysia. Importing or exporting Malaysian ringgit needs written permission from Bank Negara Malaysia.",
+     "penalty_signal": "Not declaring: a fine of up to RM 3 million (about A$1.05 million at MYR 2.853 per A$1, RBA 30 Oct 2026) or up to 5 years' jail, or both.",
+     "source": "https://www.customs.gov.my/en/individu/pengembara/travelers-guide",
+     "level": "country",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -368,6 +390,12 @@
      "url": "https://www.caam.gov.my/wp-content/uploads/2021/03/CAAM-Drone_Requirement_2020.pdf",
      "checked": "2026-11-06",
      "supports": "drone rule for visitors"
+    },
+    {
+     "title": "Traveler's Guide",
+     "authority": "Royal Malaysian Customs Department",
+     "url": "https://www.customs.gov.my/en/individu/pengembara/travelers-guide",
+     "checked": "2026-11-07"
     }
    ]
   },

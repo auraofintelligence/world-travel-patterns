@@ -295,7 +295,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -313,6 +313,24 @@
      "source": "https://www.smartraveller.gov.au/destinations/europe/united-kingdom",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Cash of GBP 10,000 or more (about A$19,000 at the RBA rate of 30 October 2026, A$1 = GBP 0.5258) carried between Great Britain and a country outside the UK must be declared to customs. Family or group totals count. Cash here means notes and coins, bearer bonds, travellers' cheques and signed cheques not made out to a person or organisation. For Northern Ireland the threshold is EUR 10,000 and prepaid cards, gold coins and bullion also count. If you don't declare, officers can seize the cash, and you may have to pay a penalty of up to GBP 5,000 to get it back. Cash can be held for 48 hours before a court order is needed.",
+     "level": "country",
+     "source": "https://www.gov.uk/bringing-cash-into-uk",
+     "checked": "2026-11-07",
+     "heading": "Cash declaration",
+     "evidence": "official"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Personal imports of meat and dairy from most non-EU countries are banned. The page gives no quantity limits.",
+     "level": "country",
+     "source": "https://www.gov.uk/bringing-goods-into-uk-personal-use/banned-and-restricted-goods",
+     "checked": "2026-11-07",
+     "heading": "Meat and dairy",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -322,6 +340,18 @@
      "url": "https://www.smartraveller.gov.au/destinations/europe/united-kingdom",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Take cash in and out of the UK",
+     "authority": "GOV.UK (HMRC / Border Force)",
+     "url": "https://www.gov.uk/bringing-cash-into-uk",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Banned and restricted goods",
+     "authority": "GOV.UK (HMRC / Border Force)",
+     "url": "https://www.gov.uk/bringing-goods-into-uk-personal-use/banned-and-restricted-goods",
+     "checked": "2026-11-07"
     }
    ]
   },

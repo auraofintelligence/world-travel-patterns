@@ -227,7 +227,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -293,6 +293,36 @@
      "source": "https://dof.gob.mx/normasOficiales/8006/sct11_C/sct11_C.html",
      "checked": "2026-11-06",
      "heading": "Foreign drones and operators"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Anyone entering or leaving Mexico with more than US$10,000 (or the equivalent in other currencies) in cash, cheques or similar must declare it. Carrying it is not a crime; not declaring it is penalised. US$10,000 is about A$14,200 (RBA 30 Oct 2026: A$1 = USD 0.7040).",
+     "penalty_signal": "Fine of 20% to 40% of the amount over US$10,000; if the undeclared amount is over US$30,000, 3 months to 6 years in prison and the excess goes to the federal treasury unless its lawful origin is shown",
+     "source": "https://www.anam.gob.mx/declaracion-de-dinero/",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Duty-free baggage allowance for passengers over 18: up to 3 litres of alcoholic drinks and 6 litres of wine. Goods beyond baggage worth up to US$500 (about A$710) in total can come in under the separate franchise, which cannot include tobacco products.",
+     "source": "https://www.anam.gob.mx/equipaje-y-franquicia/",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Duty-free tobacco for passengers over 18: up to 20 packs of cigarettes, 25 cigars or 200 grams of tobacco. Electronic cigarettes and similar vaping devices, including heated-tobacco and nicotine-free systems, are on ANAM's list of goods that cannot be brought into Mexico.",
+     "penalty_signal": "Goods that cannot be imported can be seized by Customs",
+     "source": "https://www.anam.gob.mx/mercancia-que-no-puedes-ingresar-a-mexico/",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Medicines for personal use may come in as part of baggage, along with blood-pressure and glucose meters. For psychotropic substances (medicines acting on the mind, such as some sleep, anxiety or ADHD medicines) the doctor's prescription must be shown.",
+     "source": "https://www.anam.gob.mx/equipaje-y-franquicia/",
+     "level": "country",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -309,6 +339,27 @@
      "url": "https://dof.gob.mx/normasOficiales/8006/sct11_C/sct11_C.html",
      "checked": "2026-11-06",
      "supports": "drone rule for visitors"
+    },
+    {
+     "title": "Declaracion de dinero",
+     "authority": "Agencia Nacional de Aduanas de Mexico (ANAM)",
+     "url": "https://www.anam.gob.mx/declaracion-de-dinero/",
+     "supports": "cash declaration",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Equipaje y franquicia",
+     "authority": "ANAM",
+     "url": "https://www.anam.gob.mx/equipaje-y-franquicia/",
+     "supports": "allowances and medicines",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Mercancia que no puedes ingresar a Mexico",
+     "authority": "ANAM",
+     "url": "https://www.anam.gob.mx/mercancia-que-no-puedes-ingresar-a-mexico/",
+     "supports": "vaping devices import ban",
+     "checked": "2026-11-07"
     }
    ]
   },
