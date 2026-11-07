@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-06",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -26,10 +26,10 @@
     {
      "topic": "e-cigarettes-and-tobacco",
      "level": "city",
-     "rule": "Fukuoka City has amended its ordinance for the street no-smoking areas (Tenjin and Ohori, and around Hakata Station) so that it bans all smoking, not only walking while smoking, on roads, in parks and in plazas, and it now includes heated tobacco. The city's page says the start date will be announced once decided and gives no fine on that page, so check the city page before relying on the old walking-smoking rule. Private land is outside the ordinance.",
+     "rule": "Fukuoka City has amended its ordinance for the street no-smoking areas (Tenjin and Daimyo, and around Hakata Station) so that it bans all smoking, not only walking while smoking, on roads, in parks and in plazas, and it now includes heated tobacco. The city's page says the start date will be announced once decided and gives no fine on that page, so check the city page before relying on the old walking-smoking rule. Private land is outside the ordinance.",
      "source": "https://www.city.fukuoka.lg.jp/shimin/jigyochosei/shisei/fkcnss.html",
      "by": "agent",
-     "checked": "2026-11-06"
+     "checked": "2026-11-08"
     },
     {
      "topic": "conduct-and-public-order",
@@ -40,6 +40,46 @@
      "penalty_signal": "fine up to JPY 200000",
      "checked": "2026-11-07",
      "by": "hand"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Fukuoka City says its ordinance requires bicycle riders to carry bicycle liability insurance or equivalent coverage; check that a rental or travel policy covers the rider.",
+     "level": "city",
+     "source": "https://www.city.fukuoka.lg.jp/english/genre/1002.html",
+     "checked": "2026-11-08",
+     "heading": "Observing Everyday Rules"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Fukuoka City says bicycles left on streets or outside designated bicycle parking areas may be treated as abandoned and removed; a retrieval charge applies.",
+     "level": "city",
+     "source": "https://www.city.fukuoka.lg.jp/english/genre/1002.html",
+     "checked": "2026-11-08",
+     "heading": "Observing Everyday Rules"
+    },
+    {
+     "topic": "drones",
+     "rule": "Fukuoka City park guidance says not to fly drones or radio-controlled aircraft in city parks.",
+     "level": "city",
+     "source": "https://www.city.fukuoka.lg.jp/jutaku-toshi/koenkanri/midori/02-03.html",
+     "checked": "2026-11-08",
+     "heading": "Fukuoka city park visitor rules"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Fukuoka City park guidance prohibits bonfires and aerial fireworks, and says barbecues are permitted only in designated places.",
+     "level": "city",
+     "source": "https://www.city.fukuoka.lg.jp/jutaku-toshi/koenkanri/midori/02-03.html",
+     "checked": "2026-11-08",
+     "heading": "Fukuoka city park visitor rules"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Fukuoka City park guidance says dogs must not be left off leash and owners must pick up dog droppings.",
+     "level": "city",
+     "source": "https://www.city.fukuoka.lg.jp/jutaku-toshi/koenkanri/midori/02-03.html",
+     "checked": "2026-11-08",
+     "heading": "Fukuoka city park visitor rules"
     }
    ],
    "sources": [
@@ -70,6 +110,20 @@
      "url": "https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/dd55fa2a-a920-46cb-a939-e41a3ee8393b/ad323f37/20231227_policies_youth-kankyou_hikouhigai-research_ordinance_113.pdf",
      "supports": "curfew clause, definition of the late-night period and penalty clause (read 2026-11-07); later amendments are not checked",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "Observing Everyday Rules",
+     "authority": "City of Fukuoka",
+     "url": "https://www.city.fukuoka.lg.jp/english/genre/1002.html",
+     "checked": "2026-11-08",
+     "supports": "read directly; city/park conditions apply only where named"
+    },
+    {
+     "title": "Fukuoka city park visitor rules",
+     "authority": "City of Fukuoka",
+     "url": "https://www.city.fukuoka.lg.jp/jutaku-toshi/koenkanri/midori/02-03.html",
+     "checked": "2026-11-08",
+     "supports": "read directly; city/park conditions apply only where named"
     }
    ],
    "note": ""

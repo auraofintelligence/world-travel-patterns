@@ -114,7 +114,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-03",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -124,6 +124,34 @@
      "level": "state",
      "source": "https://www.in.gov/cji/traffic-safety/distracted-driving/",
      "checked": "2026-11-03"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Indiana Department of Natural Resources forbids alcohol at Indiana Dunes State Park, all youth camps and all beaches on its properties.",
+     "level": "park",
+     "source": "https://www.in.gov/dnr/state-parks/property-rules-and-regulations/",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Indiana state park visitors must not gather limbs, brush or trees, dead or alive, for firewood.",
+     "level": "park",
+     "source": "https://www.in.gov/dnr/state-parks/property-rules-and-regulations/",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Indiana state park pets must generally be attended and caged or kept on a leash no longer than 6 feet (about 1.8 m). The department identifies exceptions including approved hunting or field-trial areas at reservoirs; temporary pet fencing is not a substitute.",
+     "level": "park",
+     "source": "https://www.in.gov/dnr/state-parks/property-rules-and-regulations/pet-rules",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Indiana state parks permit camping only in the campground, and swimming only at places and times set by the department.",
+     "level": "park",
+     "source": "https://www.in.gov/dnr/state-parks/property-rules-and-regulations/",
+     "checked": "2026-11-08"
     }
    ],
    "sources": [
@@ -147,6 +175,20 @@
      "url": "https://www.in.gov/cji/traffic-safety/files/ICJI_DistractedDriving-FAQs.pdf",
      "checked": "2026-11-03",
      "supports": "holding banned at red lights (read via a search-index snapshot)"
+    },
+    {
+     "title": "State park rule highlights",
+     "authority": "Indiana Department of Natural Resources",
+     "url": "https://www.in.gov/dnr/state-parks/property-rules-and-regulations/",
+     "checked": "2026-11-08",
+     "supports": "State visitor restrictions (read direct)"
+    },
+    {
+     "title": "Pet rules at Indiana State Parks",
+     "authority": "Indiana Department of Natural Resources",
+     "url": "https://www.in.gov/dnr/state-parks/property-rules-and-regulations/pet-rules",
+     "checked": "2026-11-08",
+     "supports": "State visitor restrictions (read direct)"
     }
    ]
   }

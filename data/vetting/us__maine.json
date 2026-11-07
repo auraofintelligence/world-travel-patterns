@@ -52,7 +52,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-07",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -85,6 +85,27 @@
      "level": "state",
      "source": "https://legislature.maine.gov/statutes/8/title8sec223-A.html",
      "checked": "2026-11-07"
+    },
+    {
+     "topic": "drones",
+     "rule": "Maine Bureau of Parks and Lands policy prohibits general drone use in state parks, historic sites and DACF boat launches without a Special Activity Permit or direct oversight and guidance of an approved law-enforcement agency.",
+     "level": "park",
+     "source": "https://www1.maine.gov/dacf/parks/park_passes_fees_rules/park_rules.shtml",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Maine state park guidance prohibits smoking tobacco or any other substance in, on or within 20 feet (about 6 m) of listed places including beaches, playgrounds, restrooms and enclosed public places in state parks or historic sites. Ask staff about designated smoking areas.",
+     "level": "park",
+     "source": "https://www1.maine.gov/dacf/parks/park_passes_fees_rules/park_rules.shtml",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Maine state park guidance prohibits pets on state park beaches from 1 April through 30 September, and at Sebago Lake State Park Campground. Where permitted, pets must be leashed, under physical control and attended.",
+     "level": "park",
+     "source": "https://www.maine.gov/dacf/parks/park_passes_fees_rules/pets.shtml",
+     "checked": "2026-11-08"
     }
    ],
    "sources": [
@@ -113,6 +134,20 @@
      "authority": "Maine Legislature",
      "url": "https://legislature.maine.gov/statutes/8/title8sec223-A.html",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "Rules for State Parks and Historic Sites",
+     "authority": "Maine Bureau of Parks and Lands",
+     "url": "https://www1.maine.gov/dacf/parks/park_passes_fees_rules/park_rules.shtml",
+     "checked": "2026-11-08",
+     "supports": "State visitor restrictions (read direct)"
+    },
+    {
+     "title": "Pets in the parks",
+     "authority": "Maine Bureau of Parks and Lands",
+     "url": "https://www.maine.gov/dacf/parks/park_passes_fees_rules/pets.shtml",
+     "checked": "2026-11-08",
+     "supports": "State visitor restrictions (read search-index snapshot; direct page returned 403)"
     }
    ]
   },

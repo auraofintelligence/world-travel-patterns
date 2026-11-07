@@ -74,7 +74,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-03",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -83,6 +83,27 @@
      "level": "state",
      "source": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_015_0111.html",
      "checked": "2026-11-03"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Kansas state park guidance requires camping in designated areas and limits stays to 14 consecutive days, with a possible 14-day extension by written permission from the park manager. A five-day absence is required before returning to camp again.",
+     "level": "park",
+     "source": "https://www.ksoutdoors.gov/programs-services/law-enforcement/regulations-statutes/state-park-regulations",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Kansas state park guidance permits alcohol on department lands and waters unless otherwise posted, subject to its regulations; kegs and party balls are prohibited, and alcohol is prohibited on swimming beaches and in marked swimming waters.",
+     "level": "park",
+     "source": "https://www.ksoutdoors.gov/programs-services/law-enforcement/regulations-statutes/state-park-regulations",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Kansas state park guidance says fires are allowed in fireplaces, fire rings and cooking grills and must be completely extinguished before leaving. Observe posted local restrictions and fire bans.",
+     "level": "park",
+     "source": "https://www.ksoutdoors.gov/programs-services/law-enforcement/regulations-statutes/state-park-regulations",
+     "checked": "2026-11-08"
     }
    ],
    "sources": [
@@ -92,6 +113,13 @@
      "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_015_0111.html",
      "checked": "2026-11-03",
      "supports": "texting ban and exceptions"
+    },
+    {
+     "title": "State park regulations",
+     "authority": "Kansas Department of Wildlife and Parks",
+     "url": "https://www.ksoutdoors.gov/programs-services/law-enforcement/regulations-statutes/state-park-regulations",
+     "checked": "2026-11-08",
+     "supports": "State visitor restrictions (read search-index snapshot; direct page returned 403)"
     }
    ]
   }
