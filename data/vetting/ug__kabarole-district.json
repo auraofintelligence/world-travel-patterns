@@ -1,0 +1,50 @@
+{
+ "place": "ug/kabarole-district",
+ "patterns": {
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-08",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "visitor-cap",
+     "authority": "Uganda Wildlife Authority (UWA)",
+     "process": "Kibale National Park, Kanyanchu: the park page says guided chimpanzee tracking groups have at most six visitors and normal viewing lasts one hour. Advance booking is required; verify current arrangements with UWA.",
+     "lead_time_days": null,
+     "activities": [
+      "wildlife viewing"
+     ],
+     "url": "https://ugandawildlife.org/national-parks/kibale-national-park/",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "visitor-cap",
+     "authority": "Uganda Wildlife Authority (UWA)",
+     "process": "Kanyanchu chimpanzee tracking: UWA sources differ. The park page says minimum age 16 and lists starts at 08:00, 11:00 and 14:00; UWA’s signed July 2024 general tracking guidelines say chimpanzee minimum age 12 and list 08:00 and 14:00. Confirm the applicable age and departure times with UWA.",
+     "lead_time_days": null,
+     "activities": [
+      "wildlife viewing"
+     ],
+     "url": "https://ugandawildlife.org/national-parks/kibale-national-park/",
+     "checked": "2026-11-08"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kibale Forest visitor information",
+     "authority": "Uganda Wildlife Authority (UWA)",
+     "url": "https://ugandawildlife.org/national-parks/kibale-national-park/",
+     "checked": "2026-11-08",
+     "supports": "site-specific visitor requirements (read directly 2026-11-08)"
+    },
+    {
+     "title": "Guidelines for the management of gorilla and chimpanzee tracking, July 2024",
+     "authority": "Uganda Wildlife Authority (UWA)",
+     "url": "https://ugandawildlife.org/wp-content/uploads/2024/07/Guidelines-for-the-management-of-gorilla-and-chimpanzee-tracking-JULY-2024.pdf",
+     "checked": "2026-11-08",
+     "supports": "national tracking minimum age and start times differ from Kibale page (read directly 2026-11-08)"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "place": "tz/geita-region",
+ "patterns": {
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-08",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "guide-required",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Rubondo Island National Park: The park guide says walks must be accompanied by authorised rangers or guides and stay on marked paths. Confirm current arrangements directly with the park.",
+     "lead_time_days": null,
+     "activities": [
+      "walking"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/rubondo/visitor-guide",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "transport-control",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Rubondo Island National Park: Land boats only at designated points; transfers are typically arranged with the park or licensed operators. Check current lake conditions and boat arrangements.",
+     "lead_time_days": null,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/rubondo/visitor-guide",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Rubondo Island National Park: Special campsites require advance reservation. Fishing, where offered, is controlled and may require permits; confirm conditions directly.",
+     "lead_time_days": null,
+     "activities": [
+      "camping",
+      "fishing"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/rubondo/visitor-guide",
+     "checked": "2026-11-08"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rubondo Island National Park visitor guide",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "url": "https://www.tanzaniaparks.go.tz/rubondo/visitor-guide",
+     "checked": "2026-11-08",
+     "supports": "site-specific guidance, read directly; other agency website pages contain placeholder text"
+    }
+   ],
+   "note": "Site-specific park guidance only. Some other TANAPA pages contain placeholder text; reconfirm operating details with the park."
+  }
+ }
+}

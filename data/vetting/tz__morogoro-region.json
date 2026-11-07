@@ -1,0 +1,73 @@
+{
+ "place": "tz/morogoro-region",
+ "patterns": {
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-08",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "guide-required",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Udzungwa Mountains National Park: Groups entering forest routes should register at the gate and hire an authorised guide where required. Stay on designated trails; swimming is only at signed pools when safe. Confirm current arrangements directly with the park.",
+     "lead_time_days": null,
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/udzungwa/visitor-guide",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Udzungwa Mountains National Park: Special campsites require advance reservation; separate charges may apply for camping and guiding. Confirm current arrangements directly with the park.",
+     "lead_time_days": null,
+     "activities": [
+      "camping"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/udzungwa/visitor-guide",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "guide-required",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Mikumi National Park: Walking must be with an authorised ranger or guide. Stay in the vehicle except at designated points or on an authorised guided walk. Confirm current arrangements directly with the park.",
+     "lead_time_days": null,
+     "activities": [
+      "walking"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/mikumi/visitor-guide",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Mikumi National Park: Special campsites require advance reservation. Confirm current arrangements directly with the park.",
+     "lead_time_days": null,
+     "activities": [
+      "camping"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/mikumi/visitor-guide",
+     "checked": "2026-11-08"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Udzungwa Mountains National Park visitor guide",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "url": "https://www.tanzaniaparks.go.tz/udzungwa/visitor-guide",
+     "checked": "2026-11-08",
+     "supports": "named park visitor instructions, directly read; the agency website also has placeholder text on some other pages"
+    },
+    {
+     "title": "Mikumi National Park visitor guide",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "url": "https://www.tanzaniaparks.go.tz/mikumi/visitor-guide",
+     "checked": "2026-11-08",
+     "supports": "named park visitor instructions, directly read; the agency website also has placeholder text on some other pages"
+    }
+   ],
+   "note": "These entries cover only the named parks, not all of the region. Some other TANAPA pages contain placeholder text; reconfirm operating details with the park."
+  }
+ }
+}

@@ -38,6 +38,33 @@
      "source": "https://www.parconazionale5terre.it/dettaglio.php?id=53537",
      "checked": "2026-11-05",
      "by": "hand"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Cinque Terre National Park: the park says free camping is not possible and there are no equipped campsites within it.",
+     "level": "region",
+     "source": "https://www.parconazionale5terre.it/pagina.php?id=334",
+     "checked": "2026-11-08",
+     "evidence": "official",
+     "by": "hand"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Cinque Terre National Park: dogs on trails must be on a lead.",
+     "level": "region",
+     "source": "https://www.parconazionale5terre.it/pagina.php?id=334",
+     "checked": "2026-11-08",
+     "evidence": "official",
+     "by": "hand"
+    },
+    {
+     "topic": "drones",
+     "rule": "Cinque Terre National Park: the park says applications for overflight authorisation, including drone flights, must be submitted at least 15 days beforehand.",
+     "level": "region",
+     "source": "https://www.parconazionale5terre.it/pagina.php?id=334",
+     "checked": "2026-11-08",
+     "evidence": "official",
+     "by": "hand"
     }
    ],
    "sources": [
@@ -47,6 +74,13 @@
      "url": "https://www.parconazionale5terre.it/dettaglio.php?id=53537",
      "checked": "2026-11-05",
      "supports": "footwear rule and fine (search-index snapshot)"
+    },
+    {
+     "title": "Cinque Terre National Park, visitor FAQ",
+     "authority": "Cinque Terre National Park",
+     "url": "https://www.parconazionale5terre.it/pagina.php?id=334",
+     "checked": "2026-11-08",
+     "supports": "site-specific visitor rules"
     }
    ],
    "note": "From the Cinque Terre National Park."
@@ -81,6 +115,18 @@
      "evidence": "operational",
      "checked": "2026-11-06",
      "by": "hand"
+    },
+    {
+     "type": "fee",
+     "authority": "Cinque Terre National Park",
+     "process": "The park FAQ says that access to the Sentiero Verde Azzurro (SVA, formerly trail no. 2) requires the Cinque Terre Card. Check current access, trail closures and card prices before setting out.",
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://www.parconazionale5terre.it/pagina.php?id=334",
+     "evidence": "official",
+     "checked": "2026-11-08",
+     "by": "hand"
     }
    ],
    "sources": [
@@ -95,6 +141,13 @@
      "authority": "Via dell'Amore ticket site",
      "url": "https://viadellamore.info/",
      "checked": "2026-11-06"
+    },
+    {
+     "title": "Cinque Terre National Park visitor FAQ",
+     "authority": "Cinque Terre National Park",
+     "url": "https://www.parconazionale5terre.it/pagina.php?id=334",
+     "checked": "2026-11-08",
+     "supports": "SVA trail access requires a Cinque Terre Card"
     }
    ],
    "checked": "2026-11-06",

@@ -1,0 +1,44 @@
+{
+ "place": "tz/mwanza-region",
+ "patterns": {
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-08",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "transport-control",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Saanane Island National Park: Private boats must follow park instructions and use designated landing points. The guide describes a short boat transfer to the island. Confirm current arrangements directly with the park.",
+     "lead_time_days": null,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/saanane/visitor-guide",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Saanane Island National Park: The park guide says fishing is permit-only and catch-and-release under ranger guidance. Ask the park about current permitted activities and conditions.",
+     "lead_time_days": null,
+     "activities": [
+      "fishing"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/saanane/visitor-guide",
+     "checked": "2026-11-08"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Saanane Island National Park visitor guide",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "url": "https://www.tanzaniaparks.go.tz/saanane/visitor-guide",
+     "checked": "2026-11-08",
+     "supports": "named park visitor instructions, directly read; the agency website also has placeholder text on some other pages"
+    }
+   ],
+   "note": "These entries cover only the named parks, not all of the region. Some other TANAPA pages contain placeholder text; reconfirm operating details with the park."
+  }
+ }
+}

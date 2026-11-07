@@ -1,0 +1,45 @@
+{
+ "place": "tz/iringa-region",
+ "patterns": {
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-08",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "guide-required",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Ruaha National Park: Walking safaris are guided activities and must be booked through authorised operators. Confirm current arrangements directly with the park.",
+     "lead_time_days": null,
+     "activities": [
+      "hiking",
+      "wildlife viewing"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/ruaha/visitor-guide",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Ruaha National Park: Night drives require specific permission; arrange with park or authorised operator. Confirm current arrangements directly with the park.",
+     "lead_time_days": null,
+     "activities": [
+      "wildlife viewing"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/ruaha/visitor-guide",
+     "checked": "2026-11-08"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ruaha National Park visitor guide",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "url": "https://www.tanzaniaparks.go.tz/ruaha/visitor-guide",
+     "checked": "2026-11-08",
+     "supports": "named park visitor instructions, directly read; the agency website also has placeholder text on some other pages"
+    }
+   ],
+   "note": "These entries cover only the named parks, not all of the region. Some other TANAPA pages contain placeholder text; reconfirm operating details with the park."
+  }
+ }
+}

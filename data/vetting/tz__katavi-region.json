@@ -1,0 +1,56 @@
+{
+ "place": "tz/katavi-region",
+ "patterns": {
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-08",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "guide-required",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Katavi National Park: Walking safaris must be guided by authorised rangers; stay on designated tracks and follow ranger instructions. Confirm current arrangements directly with the park.",
+     "lead_time_days": null,
+     "activities": [
+      "hiking",
+      "wildlife viewing"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/katavi/visitor-guide",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Katavi National Park: The park guide says special campsites require advance booking. Confirm current arrangements directly with the park.",
+     "lead_time_days": null,
+     "activities": [
+      "camping"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/katavi/visitor-guide",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "transport-control",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Katavi National Park: The park guide describes a high-clearance four-wheel drive as essential for road access, especially during rains, and identifies Sitalike and Ikuu as access areas. Check current conditions.",
+     "lead_time_days": null,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/katavi/visitor-guide",
+     "checked": "2026-11-08"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Katavi National Park visitor guide",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "url": "https://www.tanzaniaparks.go.tz/katavi/visitor-guide",
+     "checked": "2026-11-08",
+     "supports": "site-specific guidance, read directly; other agency website pages contain placeholder text"
+    }
+   ],
+   "note": "Site-specific park guidance only. Some other TANAPA pages contain placeholder text; reconfirm operating details with the park."
+  }
+ }
+}

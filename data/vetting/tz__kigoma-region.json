@@ -1,0 +1,74 @@
+{
+ "place": "tz/kigoma-region",
+ "patterns": {
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-08",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "visitor-cap",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Gombe National Park: Chimpanzee trekking slots are limited. The guide says group size and viewing time are controlled and visitors should follow ranger instructions on distances. Avoid visiting with flu-like symptoms; no eating, smoking or flash photography near chimpanzees. Confirm current arrangements directly with the park.",
+     "lead_time_days": null,
+     "activities": [
+      "wildlife viewing"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/gombe/visitor-guide",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "transport-control",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Gombe National Park: Most visitors arrive by boat from Kigoma or nearby lakeshore villages; entry formalities are handled at Kasekela headquarters. Confirm transfers and conditions before setting off.",
+     "lead_time_days": null,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/gombe/visitor-guide",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "guide-required",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Mahale Mountains National Park: Treks must be with authorised rangers or guides. Follow their viewing distances and group-size and time limits for chimpanzees. Confirm current arrangements directly with the park.",
+     "lead_time_days": null,
+     "activities": [
+      "hiking",
+      "wildlife viewing"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/mahale/visitor-guide",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "transport-control",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "process": "Mahale Mountains National Park: The park describes seasonal or charter flights followed by boat transfers as a typical access route. Camps or lodges often arrange transfers; confirm current arrangements.",
+     "lead_time_days": null,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.tanzaniaparks.go.tz/mahale/visitor-guide",
+     "checked": "2026-11-08"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gombe National Park visitor guide",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "url": "https://www.tanzaniaparks.go.tz/gombe/visitor-guide",
+     "checked": "2026-11-08",
+     "supports": "named park visitor instructions, directly read; the agency website also has placeholder text on some other pages"
+    },
+    {
+     "title": "Mahale Mountains National Park visitor guide",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "url": "https://www.tanzaniaparks.go.tz/mahale/visitor-guide",
+     "checked": "2026-11-08",
+     "supports": "named park visitor instructions, directly read; the agency website also has placeholder text on some other pages"
+    }
+   ],
+   "note": "These entries cover only the named parks, not all of the region. Some other TANAPA pages contain placeholder text; reconfirm operating details with the park."
+  }
+ }
+}

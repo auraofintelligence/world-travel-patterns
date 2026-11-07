@@ -39,6 +39,33 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Comune di Bologna, DG/PRO/2025/283 (2026 rates)"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Tuscan-Emilian Apennine National Park: camping is prohibited outside equipped areas. In park zones 2 and 3, bivouac with a tent is allowed from sunset to sunrise; check the park map for the relevant zone.",
+     "level": "region",
+     "source": "https://parcoappennino.it/pagina.php?id=91",
+     "checked": "2026-11-08",
+     "evidence": "official",
+     "by": "hand"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Foreste Casentinesi National Park: the park says dogs must be kept on a lead and comply with veterinary requirements. Check local trail conditions and any more specific restrictions before walking.",
+     "level": "region",
+     "source": "https://www.parcoforestecasentinesi.it/muoversi/stato-dei-sentieri-del-parco",
+     "checked": "2026-11-08",
+     "evidence": "official",
+     "by": "hand"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Valbonella Botanical Garden in Foreste Casentinesi National Park: the garden says dogs are not admitted, even on a lead.",
+     "level": "region",
+     "source": "https://www.parcoforestecasentinesi.it/it/multimedia/mappainterattiva/strutture-didattico-informative/giardino-botanico",
+     "checked": "2026-11-08",
+     "evidence": "official",
+     "by": "hand"
     }
    ],
    "sources": [
@@ -48,6 +75,27 @@
      "url": "https://www.comune.bologna.it/myportal/C_A944/api/content/download?id=660532c5ca8004009ad9519a",
      "checked": "2026-11-05",
      "supports": "2026 bands (search-index snapshot)"
+    },
+    {
+     "title": "Tuscan-Emilian Apennine National Park, protection rules",
+     "authority": "Tuscan-Emilian Apennine National Park",
+     "url": "https://parcoappennino.it/pagina.php?id=91",
+     "checked": "2026-11-08",
+     "supports": "site-specific visitor rules (search-index snapshot; direct fetch failed)"
+    },
+    {
+     "title": "Foreste Casentinesi National Park trail guidance",
+     "authority": "Foreste Casentinesi National Park trail guidance",
+     "url": "https://www.parcoforestecasentinesi.it/muoversi/stato-dei-sentieri-del-parco",
+     "checked": "2026-11-08",
+     "supports": "site-specific visitor rules"
+    },
+    {
+     "title": "Foreste Casentinesi National Park, Valbonella Garden",
+     "authority": "Foreste Casentinesi National Park, Valbonella Garden",
+     "url": "https://www.parcoforestecasentinesi.it/it/multimedia/mappainterattiva/strutture-didattico-informative/giardino-botanico",
+     "checked": "2026-11-08",
+     "supports": "site-specific visitor rules"
     }
    ],
    "note": "Bologna only."

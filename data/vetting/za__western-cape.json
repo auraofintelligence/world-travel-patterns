@@ -136,6 +136,28 @@
      ],
      "url": "https://www.capenature.co.za/reserves/de-hoop-nature-reserve",
      "checked": "2026-11-06"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "CapeNature",
+     "process": "Groot Winterhoek Wilderness Area: obtain hiking permits from CapeNature, carry them and show them to officials on request. Hikers must check in at reception, and the reserve says solo hiking is not allowed.",
+     "lead_time_days": null,
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://www.capenature.co.za/reserves/groot-winterhoek-wilderness-area",
+     "checked": "2026-11-08"
+    },
+    {
+     "type": "transport-control",
+     "authority": "South African National Parks (SANParks)",
+     "process": "Agulhas National Park: SANParks lists gate hours 07:00–19:00 all year, subject to change. Guests with accommodation bookings may arrange entry or exit after closing but before 22:00 in advance with reception.",
+     "lead_time_days": null,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.sanparks.org/parks/agulhas/travel/entrance-gate",
+     "checked": "2026-11-08"
     }
    ],
    "sources": [
@@ -173,9 +195,23 @@
      "url": "https://custom.resbank.co.za/SarbWebApi/WebIndicators/Shared/GetTimeseriesObservations/EXCX135D/2026-10-30/2026-10-30",
      "checked": "2026-11-06",
      "supports": "ZAR fallback rate (read directly 2026-11-06)"
+    },
+    {
+     "title": "Groot Winterhoek Wilderness Area",
+     "authority": "CapeNature",
+     "url": "https://www.capenature.co.za/reserves/groot-winterhoek-wilderness-area",
+     "checked": "2026-11-08",
+     "supports": "site-specific access arrangements (read directly 2026-11-08)"
+    },
+    {
+     "title": "Agulhas National Park entrance gate",
+     "authority": "South African National Parks (SANParks)",
+     "url": "https://www.sanparks.org/parks/agulhas/travel/entrance-gate",
+     "checked": "2026-11-08",
+     "supports": "site-specific access arrangements (read directly 2026-11-08)"
     }
    ],
-   "note": "CapeNature reserves in Western Cape: Cederberg Wilderness Area and De Hoop only; other CapeNature reserves not checked. KZN (Ezemvelo) and Mpumalanga (MTPA) pages did not give readable fee or permit text and are not recorded."
+   "note": "CapeNature reserves in Western Cape: Cederberg Wilderness Area and De Hoop only; other CapeNature reserves not checked. KZN (Ezemvelo) and Mpumalanga (MTPA) pages did not give readable fee or permit text and are not recorded. Also includes Groot Winterhoek and Agulhas site guidance checked 2026-11-08."
   },
   "year-ahead": {
    "status": "mapped",
