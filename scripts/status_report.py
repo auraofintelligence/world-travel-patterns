@@ -13,6 +13,44 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from lib import ROOT, VETTING, applies, load_patterns, load_places, read, today  # noqa: E402
 
 START, END = "<!-- generated:start -->", "<!-- generated:end -->"
+ENTRY_KEYS = ("laws", "layers", "events", "sites", "items", "closures", "festivals", "cash_card_notes", "footage",
+              "operator_register", "foreign_operator", "permits_at_this_level")
+HISTORY = ROOT / "data/logs/volume-history.json"
+
+
+def entries(rec):
+    """Count the individual rules, layers, events and sites inside one pattern record."""
+    n = 0
+    for k in ENTRY_KEYS:
+        v = rec.get(k)
+        if isinstance(v, list):
+            n += len(v)
+    if isinstance(rec.get("activities"), dict):
+        n += len(rec["activities"])
+    return n
+
+
+def volume_lines(vet, patterns):
+    by = collections.Counter()
+    recs = 0
+    for v in vet.values():
+        for pid, rec in v.items():
+            if isinstance(rec, dict):
+                recs += 1
+                by[pid] += entries(rec)
+    total = sum(by.values())
+    hist = read(HISTORY, {"days": {}})
+    day = today().isoformat()
+    hist["days"][day] = {"records": recs, "entries": total}
+    earlier = sorted(d for d in hist["days"] if d < day)
+    HISTORY.write_text(json.dumps(hist, indent=1) + "\n", encoding="utf-8")
+    line = f"**Volume:** {recs:,} pattern records holding {total:,} individual rules, layers, events, sites and checks"
+    if earlier:
+        prev = hist["days"][earlier[-1]]
+        line += (f" ({recs - prev['records']:+,} records and {total - prev['entries']:+,} entries since {earlier[-1]})")
+    names = {k: p["name"] for k, p in patterns.items()}
+    top = ", ".join(f"{names.get(k, k)} {n:,}" for k, n in by.most_common(8))
+    return [line + ".", "", f"**Largest by entries:** {top}.", ""]
 
 
 def level(pid, p):
@@ -37,6 +75,7 @@ def main():
              f"**Places:** {len(places):,} in the tree: {levels['spine']} countries and territories, {levels['region']:,} states and regions, "
              f"{levels['other']:,} others (councils, electorates, islands, nations, permit zones, sites).", "",
              f"**Places with any record:** {len(vet):,}.", "",
+             *volume_lines(vet, patterns),
              "| Pattern | Countries and territories | Evidence (countries) | States and regions | Fills by |", "| --- | --- | --- | --- | --- |"]
     for pid, pat in patterns.items():
         if pat.get("method") == "machine":
