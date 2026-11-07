@@ -74,7 +74,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -85,6 +85,33 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Stadt Frankfurt am Main, Tourismusbeitragssatzung"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "level": "region",
+     "heading": "Hessisches Feiertagsgesetz (HFeiertagsG) sections 7 to 10 and section 16",
+     "rule": "Hesse protects all public holidays: from 4 am to 12 noon public dance events, entertainment events and events that disturb a church service are banned (section 7; not on 1 May or 3 October). On Good Friday (from midnight), Volkstrauertag and Totensonntag (from 4 am) public dance events, commercial sport, open-air events without a serious character and other public events that do not honour the day are banned; non-commercial sport is also banned on those days (until 1 pm on the two Sundays) (section 8). On Christmas Day, Easter Sunday and Whit Sunday the ban on events that disturb services lasts all day (section 9). Public dance events are banned from 4 am on Maundy Thursday, on Holy Saturday and from 5 pm on Christmas Eve (section 10). Breaches are an offence that can be fined; the Act sets no amount (section 16). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Fine; amount not set in the Act.",
+     "source": "https://www.rv.hessenrecht.hessen.de/bshe/search/quick?query=HFeiertagsG",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "level": "region",
+     "heading": "Hessisches Nichtraucherschutzgesetz (HessNRSG) section 1 and section 5",
+     "rule": "Hesse bans smoking, including e-cigarettes and heated tobacco, in enclosed rooms of public offices, hospitals, sports facilities, theatres, museums and cinemas, universities, homes, youth services, airports and bars and restaurants (section 1(1)), and on marked public playgrounds (section 1(2)). Section 2 allows exceptions such as separate smoking rooms. The smoker can be fined up to EUR 200 (about A$318); an operator who skips signs or does not act can be fined up to EUR 2,500 (about A$3,973) (section 5(2)). The Act is written to run to 31 December 2028. AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Smoker up to EUR 200; operator up to EUR 2,500.",
+     "source": "https://www.rv.hessenrecht.hessen.de/bshe/search/quick?query=Nichtraucherschutzgesetz",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "level": "region",
+     "heading": "Hessisches Waldgesetz (HWaldG) section 8, section 15 and section 29",
+     "rule": "In Hesse's forests, and within 100 m of one, lighting a fire or using open light needs the forest authority's permit, and a permitted fire must be watched all the time (section 8(4) and (6)). Throwing away burning or smouldering things is banned (section 8(4)). Camping in a tent, parking caravans and smoking in the forest need the owner's consent (section 15(5)). Fires without a permit can be fined up to EUR 25,000 (about A$39,725); other offences up to EUR 1,000 (about A$1,589) (section 29). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Fire offences up to EUR 25,000; others up to EUR 1,000.",
+     "source": "https://www.rv.hessenrecht.hessen.de/bshe/search/quick?query=Waldgesetz",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -94,6 +121,27 @@
      "url": "https://frankfurt.de/service-und-rathaus/verwaltung/aemter-und-institutionen/kassen--und-steueramt/kommunale-steuern-gebuehren-und-beitraege/tourismusbeitrag",
      "checked": "2026-11-05",
      "supports": "EUR 2, business stays (search-index snapshot)"
+    },
+    {
+     "title": "Hessisches Feiertagsgesetz (HFeiertagsG)",
+     "authority": "Land Hessen, Hessenrecht",
+     "url": "https://www.rv.hessenrecht.hessen.de/bshe/search/quick?query=HFeiertagsG",
+     "supports": "Protected days, banned events, offence",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Hessisches Nichtraucherschutzgesetz (HessNRSG)",
+     "authority": "Land Hessen, Hessenrecht",
+     "url": "https://www.rv.hessenrecht.hessen.de/bshe/search/quick?query=Nichtraucherschutzgesetz",
+     "supports": "Smoking ban and fines",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Hessisches Waldgesetz (HWaldG) of 27 June 2013",
+     "authority": "Land Hessen, Hessenrecht",
+     "url": "https://www.rv.hessenrecht.hessen.de/bshe/search/quick?query=Waldgesetz",
+     "supports": "Forest fire, tent, smoking, fines",
+     "checked": "2026-11-07"
     }
    ],
    "note": "Frankfurt only."

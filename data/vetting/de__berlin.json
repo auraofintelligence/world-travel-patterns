@@ -25,7 +25,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -36,6 +36,24 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Übernachtungsteuergesetz Berlin"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "level": "region",
+     "heading": "Nichtraucherschutzgesetz (NRSG) section 2, section 3, section 7",
+     "rule": "Berlin bans tobacco smoking in enclosed rooms of public offices, hospitals and clinics, culture and leisure venues, sports facilities, education, care and group homes, bars and restaurants (including clubs and discos) and commercial airports (section 2(1) and (2), section 3). Section 4 allows some exceptions, such as marked smoking rooms. The smoker can be fined up to EUR 100 (about A$159); the operator who does not enforce the ban or put up signs can be fined up to EUR 1,000 (about A$1,589) (section 7(2)). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Smoker up to EUR 100; operator up to EUR 1,000.",
+     "source": "https://gesetze.berlin.de/bsbe/search/quick?query=Nichtraucherschutzgesetz",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "level": "region",
+     "heading": "Landeswaldgesetz (LWaldG) section 19, section 22, section 23",
+     "rule": "In Berlin's forests, and within 100 m of one, lighting a fire outside a marked fireplace, using open light or burning off ground cover needs a permit from Berliner Forsten (section 19(1)). Smoking in the forest is banned all year (section 19(4)), and you may not throw away burning or smouldering things (section 19(5)). Putting up a tent or similar bed outside the places set aside for it is an offence (section 23(1) Nr. 4). Fines: up to EUR 50,000 (about A$79,450) for the fire and smoking offences (section 22(3)); up to EUR 10,000 (about A$15,890) for the tent offence (section 23(3)). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Fire and smoking up to EUR 50,000; tent up to EUR 10,000.",
+     "source": "https://gesetze.berlin.de/bsbe/search/quick?query=Landeswaldgesetz",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -45,6 +63,20 @@
      "url": "https://www.berlin.de/sen/finanzen/steuern/informationen-fuer-steuerzahler-/faq-steuern/artikel.57911.php",
      "checked": "2026-11-05",
      "supports": "7.5%, base, business stays (search-index snapshot)"
+    },
+    {
+     "title": "Nichtraucherschutzgesetz (NRSG) of 16 November 2007",
+     "authority": "Land Berlin, Berliner Vorschriften- und Rechtsprechungsdatenbank",
+     "url": "https://gesetze.berlin.de/bsbe/search/quick?query=Nichtraucherschutzgesetz",
+     "supports": "Smoking ban scope and fines",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Landeswaldgesetz (LWaldG) of 16 September 2004",
+     "authority": "Land Berlin, Berliner Vorschriften- und Rechtsprechungsdatenbank",
+     "url": "https://gesetze.berlin.de/bsbe/search/quick?query=Landeswaldgesetz",
+     "supports": "Forest fire, smoking, tents and fines",
+     "checked": "2026-11-07"
     }
    ],
    "note": "From the Berlin Senate finance department."
