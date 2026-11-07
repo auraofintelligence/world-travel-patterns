@@ -180,8 +180,15 @@
      "level": "region",
      "evidence": "official",
      "checked": "2026-11-07",
-     "rule": "In Hong Kong's country parks, camping is allowed only in the 41 designated campsites, under the Country Parks and Special Areas Regulations (Cap. 208A). Fires may be lit or used only in designated campsites; litter goes in the bins provided. The AFCD pages give no fine amounts.",
-     "source": "https://www.afcd.gov.hk/english/country/cou_vis/cou_vis_cam/cou_vis_cam_cam/cou_vis_cam_cam_ccr.html"
+     "rule": "In Hong Kong's country parks, camping is allowed only at designated campsites. Fire may be used only at designated campsites or designated barbecue sites. These country-park rules are separate from rules at other public beaches or campgrounds. Take litter home or use suitable collection points.",
+     "source": "https://www.info.gov.hk/gia/general/202603/18/P2026031800382.htm"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "In country parks and special areas, ride bicycles only on designated mountain-bike trails and sites. Do not hunt, harm or feed wild animals, damage vegetation, or operate power-driven model aeroplanes, vehicles or boats.",
+     "source": "https://sc.afcd.gov.hk/gb/enjoyleisure.afcd.gov.hk/en-US/green-blue-etiquette",
+     "checked": "2026-11-07",
+     "level": "jurisdiction"
     }
    ],
    "sources": [
@@ -234,6 +241,20 @@
      "authority": "Agriculture, Fisheries and Conservation Department (AFCD), Hong Kong",
      "url": "https://www.afcd.gov.hk/english/country/cou_vis/cou_vis_cam/cou_vis_cam_cam/cou_vis_cam_cam_ccr.html",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "LCQ4: Management of countryside campsites",
+     "authority": "Hong Kong Government",
+     "url": "https://www.info.gov.hk/gia/general/202603/18/P2026031800382.htm",
+     "checked": "2026-11-07",
+     "supports": "country-park camping and fire locations; government reply 18 March 2026"
+    },
+    {
+     "title": "Green and Blue Etiquette",
+     "authority": "Agriculture, Fisheries and Conservation Department",
+     "url": "https://sc.afcd.gov.hk/gb/enjoyleisure.afcd.gov.hk/en-US/green-blue-etiquette",
+     "checked": "2026-11-07",
+     "supports": "country park cycling, animals, plants and model vehicle rules"
     }
    ]
   },
@@ -951,6 +972,70 @@
    "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "transport-control",
+     "authority": "Agriculture, Fisheries and Conservation Department",
+     "process": "A permit from the department or another relevant authority is required for vehicles entering country parks. Check eligibility and the specific roads and site with the authority before planning vehicle access.",
+     "lead_time_days": null,
+     "activities": [
+      "driving"
+     ],
+     "url": "https://www.afcd.gov.hk/english/country/cou_vis/cou_vis_cam/cou_vis_rec_hin.html",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Agriculture, Fisheries and Conservation Department",
+     "process": "A permit from the department or another relevant authority is required to hold a sporting competition, public speech, commercial activity or fundraising activity in country parks. Ask the park authority about the specific activity and application requirements.",
+     "lead_time_days": null,
+     "activities": [
+      "unpaid-speaking",
+      "paid-speaking",
+      "trade",
+      "mixed-mission",
+      "organised-group"
+     ],
+     "url": "https://www.afcd.gov.hk/english/country/cou_vis/cou_vis_gac/cou_wha_sch_sat.html",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hints for Campers",
+     "authority": "Agriculture, Fisheries and Conservation Department",
+     "url": "https://www.afcd.gov.hk/english/country/cou_vis/cou_vis_cam/cou_vis_rec_hin.html",
+     "checked": "2026-11-07",
+     "supports": "vehicle permits and designated camping"
+    },
+    {
+     "title": "School Guidelines",
+     "authority": "Agriculture, Fisheries and Conservation Department",
+     "url": "https://www.afcd.gov.hk/english/country/cou_vis/cou_vis_gac/cou_wha_sch_sat.html",
+     "checked": "2026-11-07",
+     "supports": "permit requirement for organised sporting, public-speaking, commercial and fundraising activities"
+    },
+    {
+     "title": "LCQ4: Management of countryside campsites",
+     "authority": "Hong Kong Government",
+     "url": "https://www.info.gov.hk/gia/general/202603/18/P2026031800382.htm",
+     "checked": "2026-11-07",
+     "supports": "camping and fire sites"
+    },
+    {
+     "title": "Green and Blue Etiquette",
+     "authority": "Agriculture, Fisheries and Conservation Department",
+     "url": "https://sc.afcd.gov.hk/gb/enjoyleisure.afcd.gov.hk/en-US/green-blue-etiquette",
+     "checked": "2026-11-07",
+     "supports": "country-park code, bicycles, wildlife and model vehicles"
+    }
+   ],
+   "note": "Rules in this record concern country parks and special areas, not every open space in Hong Kong. Check the relevant authority for the particular site."
   }
  }
 }

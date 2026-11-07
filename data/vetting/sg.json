@@ -1218,6 +1218,135 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; heritage laws are not yet read (see national.read)."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "entry-permit",
+     "authority": "National Parks Board",
+     "process": "Camping is allowed only at designated areas in certain parks. A camping permit is required for each tent, even for daytime use; each tent may accommodate up to six people. The applicant must be at least 16 and have a valid residential address in Singapore. NParks says to apply at least two weeks ahead, up to two months ahead, through Singpass online or an AXS station. The permit cannot be transferred or changed; check suitability for visitors without a Singapore residential address directly with NParks.",
+     "lead_time_days": 14,
+     "activities": [
+      "camping"
+     ],
+     "url": "https://www.nparks.gov.sg/visit/activities/camping",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "National Parks Board",
+     "process": "Commercial photography or filming in NParks parks requires a permit application at least two weeks in advance. Approval is not automatic. Entry permission and the right to work or film are separate questions.",
+     "lead_time_days": 14,
+     "activities": [
+      "filming"
+     ],
+     "url": "https://www.nparks.gov.sg/visit/activities/photography",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "National Parks Board",
+     "process": "At Central Catchment Nature Reserve, organised group activities involving more than 30 people need an NParks permit application at least one month in advance. Commercial photography and filming need an application at least two weeks in advance, subject to approval.",
+     "lead_time_days": null,
+     "activities": [
+      "organised-group"
+     ],
+     "url": "https://www.nparks.gov.sg/visit/parks/central-catchment-nature-reserve/activities",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "seasonal-closure",
+     "authority": "National Parks Board",
+     "process": "Sisters' Islands Marine Park: Big Sister's Island is open 7 am to 7 pm, but closes on the first and third Wednesday of each month unless that Wednesday is a designated public holiday. Other park areas including Small Sister's Island are closed to the public for conservation and research. St John's Island is open. Check the NParks page for current changes before travel.",
+     "lead_time_days": null,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.nparks.gov.sg/visit/parks/park-detail/sisters-islands-marine-park",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "National Parks Board",
+     "process": "For Sisters' Islands Marine Park, notify NParks at least two weeks in advance of group activities involving 20 or more people, including tours and guided walks. NParks describes this as notification; ask whether the planned activity requires separate approval. Camping, barbecues, fishing, cycling and removing plants, animals or shells are prohibited; vessels cannot enter the lagoon.",
+     "lead_time_days": 14,
+     "activities": [
+      "organised-group"
+     ],
+     "url": "https://www.nparks.gov.sg/visit/parks/park-detail/sisters-islands-marine-park",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "visitor-cap",
+     "authority": "National Parks Board",
+     "process": "NParks describes a free monthly Big Sister's Island guided walk, ordinarily on the first Sunday at 9.45 am, with 30 places. Advance registration is required; tickets are released on the first Sunday of the month at 9.45 am. A ferry ticket is separate. Verify the actual event date, ticket release and transport with NParks before making plans.",
+     "lead_time_days": null,
+     "activities": [
+      "guided-walk"
+     ],
+     "url": "https://www.nparks.gov.sg/visit/parks/sisters-islands-marine-park/activities/hiking--nature-walks-or-tours-at-big-sister%27s-island",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "seasonal-closure",
+     "authority": "National Parks Board",
+     "process": "Pulau Ubin's Chek Jawa Wetlands boardwalk, tower and visitor centre are listed as open 7 am to 7 pm daily. NParks says the Chek Jawa Wetlands Tour is suspended until further notice because of pontoon maintenance. Check the current notice and tide information before visiting.",
+     "lead_time_days": null,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.nparks.gov.sg/pulau-ubin",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Camping",
+     "authority": "National Parks Board",
+     "url": "https://www.nparks.gov.sg/visit/activities/camping",
+     "checked": "2026-11-07",
+     "supports": "designated areas, applicant eligibility, timing and permit conditions"
+    },
+    {
+     "title": "Photography",
+     "authority": "National Parks Board",
+     "url": "https://www.nparks.gov.sg/visit/activities/photography",
+     "checked": "2026-11-07",
+     "supports": "commercial photography and filming permit application"
+    },
+    {
+     "title": "Hiking and nature walks at Central Catchment Nature Reserve",
+     "authority": "National Parks Board",
+     "url": "https://www.nparks.gov.sg/visit/parks/central-catchment-nature-reserve/activities",
+     "checked": "2026-11-07",
+     "supports": "organised group and filming permit lead times"
+    },
+    {
+     "title": "Sisters' Islands Marine Park",
+     "authority": "National Parks Board",
+     "url": "https://www.nparks.gov.sg/visit/parks/park-detail/sisters-islands-marine-park",
+     "checked": "2026-11-07",
+     "supports": "access, restrictions and group notice"
+    },
+    {
+     "title": "Hiking, nature walks or tours at Big Sister's Island",
+     "authority": "National Parks Board",
+     "url": "https://www.nparks.gov.sg/visit/parks/sisters-islands-marine-park/activities/hiking--nature-walks-or-tours-at-big-sister%27s-island",
+     "checked": "2026-11-07",
+     "supports": "guided walk schedule, capacity and registration"
+    },
+    {
+     "title": "Pulau Ubin",
+     "authority": "National Parks Board",
+     "url": "https://www.nparks.gov.sg/pulau-ubin",
+     "checked": "2026-11-07",
+     "supports": "Chek Jawa opening times and tour suspension"
+    }
+   ],
+   "note": "Site-specific examples, not a complete list of Singapore protected areas or visitor rules. A park permit does not itself establish immigration or work permission."
   }
  }
 }

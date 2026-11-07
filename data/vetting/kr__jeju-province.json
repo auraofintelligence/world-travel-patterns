@@ -14,6 +14,13 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "한라산탐방 예약시스템 (Hallasan trail reservation)"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Camping and cooking in Hallasan National Park are allowed only at campsites in the Gwaneumsa district. Follow designated trails, and do not damage plants or insects or excavate soil.",
+     "source": "https://visithalla.jeju.go.kr/contents/contents.do?id=49&language=en_US",
+     "checked": "2026-11-07",
+     "level": "region"
     }
    ],
    "sources": [
@@ -23,9 +30,62 @@
      "url": "https://visithalla.jeju.go.kr/main/main.do",
      "checked": "2026-11-05",
      "supports": "summit reservations and quotas (read directly 2026-11-05)"
+    },
+    {
+     "title": "Hallasan visitor information",
+     "authority": "Jeju Special Self-Governing Province, Hallasan National Park Management Office",
+     "url": "https://visithalla.jeju.go.kr/contents/contents.do?id=49&language=en_US",
+     "checked": "2026-11-07",
+     "supports": "Gwaneumsa campground, cooking and protected habitat rules"
     }
    ],
    "note": "Lower trail sections need no booking."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "entry-permit",
+     "authority": "Jeju Special Self-Governing Province, Hallasan National Park Management Office",
+     "process": "For Hallasan's summit stretches on the Seongpanak and Gwaneumsa trails, the park requires an online trail reservation. Its April 2025 notice says reservations open at 9 am on the first business day of the preceding month, for up to four people per reservation; it also lists limits on repeat bookings. Other named routes, including Eorimok and Yeongsil, are outside that reservation system. Confirm trail conditions and the latest process with the park before travelling.",
+     "lead_time_days": null,
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://visithalla.jeju.go.kr/board/boardView.do?bbsId=notice&seq=1284",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "seasonal-closure",
+     "authority": "Jeju Special Self-Governing Province, Hallasan National Park Management Office",
+     "process": "Hallasan visits are generally day trips. Entry and descent checkpoints have season-dependent cut-off times, and access can be restricted when heavy-rain, typhoon or heavy-snow warnings are issued. The park website displays two different seasonal cut-off tables; confirm the current times for your exact trail directly with the park.",
+     "lead_time_days": null,
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://visithalla.jeju.go.kr/contents/contents.do?id=49&language=en_US",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Notice of adjustment to Hallasan trail reservations, 23 April 2025",
+     "authority": "Jeju Special Self-Governing Province, Hallasan National Park Management Office",
+     "url": "https://visithalla.jeju.go.kr/board/boardView.do?bbsId=notice&seq=1284",
+     "checked": "2026-11-07",
+     "supports": "summit reservation stretches, booking opening and limits; Korean original read"
+    },
+    {
+     "title": "Hallasan reservation and visitor information",
+     "authority": "Jeju Special Self-Governing Province, Hallasan National Park Management Office",
+     "url": "https://visithalla.jeju.go.kr/contents/contents.do?id=49&language=en_US",
+     "checked": "2026-11-07",
+     "supports": "day hikes, changing seasonal cutoff tables, weather controls and camping conditions"
+    }
+   ],
+   "note": "Only Hallasan is covered here. Other Jeju protected areas can have separate rules. Reservation notices do not establish availability or entry permission for a specific date."
   }
  }
 }
