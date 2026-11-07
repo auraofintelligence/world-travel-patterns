@@ -2,10 +2,10 @@
  "summary": {
   "generated_on": "2026-11-07",
   "mode": "public",
-  "place_passes": 282,
-  "pattern_items": 1028,
+  "place_passes": 281,
+  "pattern_items": 1026,
   "by_reason": {
-   "never-checked": 1026,
+   "never-checked": 1024,
    "over-budget": 2
   },
   "watch_checks": 0
@@ -2600,26 +2600,6 @@
      "age_days": null,
      "budget_days": 180
     },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "kh",
-   "name": "Cambodia",
-   "kind": "country",
-   "tags": [],
-   "due": [
     {
      "pattern": "drone-pilot-pathway",
      "reason": "never-checked",
@@ -5973,20 +5953,6 @@
    ]
   },
   {
-   "place": "th",
-   "name": "Thailand",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "tl",
    "name": "Timor-Leste",
    "kind": "country",
@@ -6468,6 +6434,20 @@
    "due": [
     {
      "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    }
+   ]
+  },
+  {
+   "place": "kh",
+   "name": "Cambodia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "drone-pilot-pathway",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
