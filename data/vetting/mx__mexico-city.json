@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -14,6 +14,21 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Ley de Protección a la Salud de las Personas No Fumadoras de la Ciudad de México"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "level": "state",
+     "rule": "Mexico City's civic culture law lists infractions that a civic judge handles. They include drinking alcohol in public places that aren't authorised, taking drugs in public, and selling alcohol on the street outside authorised fairs (Ley de Cultura Cívica, art. 28), and making noise that clearly disturbs other people's peace or risks health (art. 27). Sanctions are a fine of 1 to 40 times the UMA (the daily unit of account, MXN 117.31 in 2026, about A$8.87, so up to about MXN 4,692 or A$355), arrest of 6 to 36 hours, or community service (art. 31 sets bands by type of infraction). Rate: A$1 = about MXN 13.23.",
+     "penalty_signal": "Fine 1 to 40 UMA, or arrest up to 36 hours",
+     "source": "http://www.ordenjuridico.gob.mx/Documentos/Estatal/Ciudad%20de%20Mexico/wo75470.doc",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "work-and-payment",
+     "level": "state",
+     "rule": "Mexico City charges a lodging tax (Impuesto por la Prestación de Servicios de Hospedaje) on hotels, hostels, motels, timeshare and camping or caravan areas, and houses and apartments are also covered (Código Fiscal, art. 162). The rate is 3.5% of what the guest pays for hotel-type lodging (art. 164). The host collects it; platforms that take the payment must register and pay it (art. 162 Bis). Text held on OJN, last reform 30 December 2021.",
+     "source": "http://www.ordenjuridico.gob.mx/Documentos/Estatal/Ciudad%20de%20Mexico/wo70126.doc",
+     "checked": "2026-11-08"
     }
    ],
    "sources": [
@@ -23,9 +38,22 @@
      "url": "https://prontuario.cdmx.gob.mx/pdf/LEY%20DE%20PROTECCI%C3%93N%20A%20LA%20SALUD%20DE%20LAS%20PERSONAS%20NO%20FUMADORAS%20DE%20LA%20CIUDAD%20DE%20M%C3%89XICO%2024122025.pdf",
      "checked": "2026-11-05",
      "supports": "scope, vapes, civic fine (search-index snapshot)"
+    },
+    {
+     "title": "State law as compiled on the Orden Jurídico Nacional",
+     "authority": "Orden Jurídico Nacional, Secretaría de Gobernación (federal compilation of the state's law)",
+     "url": "http://www.ordenjuridico.gob.mx/Documentos/Estatal/Ciudad%20de%20Mexico/wo75470.doc",
+     "checked": "2026-11-08"
+    },
+    {
+     "title": "State law as compiled on the Orden Jurídico Nacional",
+     "authority": "Orden Jurídico Nacional, Secretaría de Gobernación (federal compilation of the state's law)",
+     "url": "http://www.ordenjuridico.gob.mx/Documentos/Estatal/Ciudad%20de%20Mexico/wo70126.doc",
+     "checked": "2026-11-08"
     }
    ],
-   "note": "Fine amount set in units of account; not converted here."
+   "note": "Fine amount set in units of account; not converted here.",
+   "notes": "Added 8 November 2026 from the federal Orden Jurídico Nacional (OJN) compilation of the state's laws. OJN versions can lag the state gazette, so entries name the last reform shown on the text where it was visible. Amounts in MXN; A$1 = about MXN 13.23 (as used elsewhere in this repo); UMA 2026 = MXN 117.31."
   },
   "ancient-sites-and-mysteries": {
    "status": "partly-mapped",

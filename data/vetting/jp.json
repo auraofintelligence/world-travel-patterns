@@ -294,7 +294,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-07",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -381,6 +381,86 @@
      "source": "https://www.customs.go.jp/english/summary/passenger.htm",
      "level": "country",
      "checked": "2026-11-07"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Swords and Firearms Control Act, Article 22: nobody may carry a blade with a blade length over 6 cm without a duty or other proper reason. The Act excepts scissors and folding knives with a blade of 8 cm or less, and other blades of kinds or shapes named in a Cabinet Order (the Order was not read here). The length is measured the way a Cabinet Office ordinance says (not read here). Article 22-4 bans carrying imitation swords (metal items that closely look like swords) without proper reason.",
+     "level": "country",
+     "source": "https://laws.e-gov.go.jp/api/2/law_data/333AC0000000006",
+     "checked": "2026-11-08",
+     "penalty_signal": "Article 31-18(2): up to 2 years in prison or a fine up to JPY 300,000 (about A$2,707 at JPY 110.82 per A$1, RBA 30 Oct 2026)."
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Minor Offences Act, Article 1: items a visitor could meet include hiding a knife or other tool that could seriously hurt someone without proper reason (item 2); being very rude or rowdy to others in a theatre, restaurant or on public transport (items 5 and 13); making loud noise from voices, instruments or radios that disturbs neighbours after an official has told you to stop (item 14); spitting or urinating in streets, parks or other public places (item 26); dumping rubbish or other waste carelessly against the public interest (item 27); blocking a person's way or following them in a way that causes worry (item 28); entering a banned place or someone's field without good reason (item 32); and posting bills on, or removing signs from, other people's property (item 33).",
+     "level": "country",
+     "source": "https://laws.e-gov.go.jp/api/2/law_data/323AC0000000039",
+     "checked": "2026-11-08",
+     "penalty_signal": "Article 1: detention or a petty fine (karyo). The amounts are set in the Penal Code, which was not read here."
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Road Traffic Act, Article 71 (item 5-5): while riding a bicycle (as with other vehicles), you may not hold a phone to talk on it, or stare at a screen showing an image, unless the vehicle is stopped. An emergency call needed to help an injured person or keep the public safe is excepted. The wording only bans phones that have to be held in the hand, so hands-free use is not covered by this item. The Act has a separate duty to ride safely (Article 70).",
+     "level": "country",
+     "source": "https://laws.e-gov.go.jp/api/2/law_data/335AC0000000105",
+     "checked": "2026-11-08",
+     "penalty_signal": "Article 118(1)(4): up to 6 months in prison or a fine up to JPY 100,000 (about A$902). If the use causes danger on the road, Article 117-4(1)(2): up to 1 year in prison or a fine up to JPY 300,000 (about A$2,707)."
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Road Traffic Act, Article 65(1): nobody may drive a vehicle after drinking; the word 'vehicle' includes bicycles. Handing a vehicle or alcohol to a person who is likely to ride drunk, and asking to be carried by a driver you know has been drinking, are also offences (Article 65(2) to (4)). The breath and blood levels that separate the grades below are in Article 117-2 and in a Cabinet Order (the lower level was not read here).",
+     "level": "country",
+     "source": "https://laws.e-gov.go.jp/api/2/law_data/335AC0000000105",
+     "checked": "2026-11-08",
+     "penalty_signal": "Drunk riding (breath 0.5 mg per litre or more, blood 1.0 mg per mL or more, or unable to ride normally), Article 117-2(1)(1): up to 5 years in prison or a fine up to JPY 1,000,000 (about A$9,024). Lower alcohol levels set by Cabinet Order, Article 117-2-2(1)(3): up to 3 years in prison or a fine up to JPY 500,000 (about A$4,512)."
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Road Traffic Act, Article 125 and Appended Table 2: the traffic 'blue ticket' system (a fixed fine paid instead of going to court) applies to drivers of vehicles including bicycles (light vehicles) in the version in force from 1 April 2026. The statute caps the fixed fine for riders at JPY 30,000 for hand-held phone use or gazing at a screen (about A$271) and lists lower caps for lesser breaches; the actual amounts are set by a Cabinet Order that was not read here. Riders under 16 are outside the system (Article 125(2)(4)). Drunk riding is not handled as a blue-ticket matter (Article 125(2)(2)).",
+     "level": "country",
+     "source": "https://laws.e-gov.go.jp/api/2/law_data/335AC0000000105",
+     "checked": "2026-11-08",
+     "penalty_signal": "Fixed-fine caps are in Appended Table 2; the Order with the actual amounts was not read."
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "Road Traffic Act, bicycle equipment and duties: you must not ride a bicycle without working brakes that meet the ordinance standard if that creates a risk (Article 63-9(1)); at night you need the ordinance reflectors, unless you have a tail light on (Article 63-9(2)); police can stop and check a bicycle's brakes and order it off the road (Article 63-10). Wearing a helmet is a duty to 'make an effort' (Article 63-11), with no penalty written into that Article. The national text does not mention umbrellas. Article 71(6) lets each prefectural public safety commission set extra rules for road users, so the prefecture's own rules apply on top; those were not read here.",
+     "level": "country",
+     "source": "https://laws.e-gov.go.jp/api/2/law_data/335AC0000000105",
+     "checked": "2026-11-08",
+     "penalty_signal": "Brakes: Article 120(1)(7): fine up to JPY 50,000 (about A$451). Breach of a prefectural commission rule: Article 120(1)(10): fine up to JPY 50,000."
+    },
+    {
+     "topic": "drones",
+     "rule": "Civil Aeronautics Act and Enforcement Regulations: an unmanned aircraft (drone) is covered once it weighs 100 g or more; lighter ones are outside the Act (Regulations, Article 5-2; Act, Article 2(22)). Covered drones must be registered before flying (Act, Article 132-2) and carry the registration marking (Article 132-5). Rules on method (Article 132-86(2)) require flying only between sunrise and sunset, keeping the drone in sight, keeping the distance from people and property set by ordinance, not flying over festivals or crowds, not carrying dangerous goods and not dropping items. Flying over Densely Inhabited Districts (the areas named from the national census) or in airspace near airports is restricted (Article 132-85; Regulations, Article 236-72). Each of these needs the MLIT's permission or approval unless the pilot and aircraft hold the Act's certificates for the higher-risk categories. Flying under the influence of alcohol or drugs is banned (Article 132-86(1)(1)). The ordinance distances and airspace heights were not read in full here.",
+     "level": "country",
+     "source": "https://laws.e-gov.go.jp/api/2/law_data/327AC0000000231",
+     "checked": "2026-11-08",
+     "penalty_signal": "Article 157-7(1)(1): flying an unregistered drone is up to 1 year in prison or a fine up to JPY 500,000 (about A$4,512). Article 157-9: breaches of the prohibited-airspace and flight-method rules are fines up to JPY 500,000. Article 157-8: flying drunk over a public place is up to 1 year in prison or a fine up to JPY 300,000 (about A$2,707)."
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Stimulants Control Act, Article 2(1)(1), Article 13 and Article 14: 'stimulants' covers amphetamine and methamphetamine and their salts, and anything containing them. Importing or exporting stimulants, and possessing them, are banned for everyone except licensed makers, designated hospitals and researchers. These Articles have no personal-medicine exception for travellers. Prescription ADHD medicines made from amphetamine salts therefore fall inside the definition; the Act does not name brands. Japan's health ministry import certificate system for personal medicines (Yakkan Shoumei) was not read here and does not appear in the Act.",
+     "level": "country",
+     "source": "https://laws.e-gov.go.jp/api/2/law_data/326AC0100000252",
+     "checked": "2026-11-08",
+     "penalty_signal": "Article 41: importing or exporting, 1 year or more in prison. Article 41-2(1): possession, up to 10 years in prison. Article 41-3(1)(1): use, up to 10 years in prison."
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Narcotics and Psychotropics Control Act, Article 2(1), Article 13, Article 28: 'narcotics' includes the substances listed in Appended Table 1 and cannabis. Only licensed narcotics importers may import narcotics, with one exception: a person entering Japan may carry narcotics in for their own illness with the Minister of Health's permission (Article 13(1) proviso). Possession is banned for anyone who is not a licensed handler or a patient who received the drug by lawful prescription (Article 28). Diacetylmorphine (heroin) and raw opium powder have stricter rules (Article 12). Psychotropic drugs (Appended Table 3) have their own penalties.",
+     "level": "country",
+     "source": "https://laws.e-gov.go.jp/api/2/law_data/328AC0000000014",
+     "checked": "2026-11-08",
+     "penalty_signal": "Importing or exporting narcotics other than heroin, Article 65(1)(1): 1 to 10 years in prison. Possession, Article 66(1): up to 7 years in prison. Heroin possession, Article 64-2: up to 10 years."
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Health Promotion Act (the passive smoking chapter, often called the Act on Prevention of Smoking), Article 29: nobody may smoke without good reason in the 'smoking-banned places' of the facilities the Act lists. These cover the whole of schools, hospitals and children's facilities (apart from a marked outdoor spot), government offices, and the indoor areas of other public-use facilities except a designated smoking room; also the inside of passenger buses and planes, and trains and ferries except a designated smoking room (Article 29(1)). 'Smoking' includes heating tobacco, so heated tobacco counts (Article 28(2)). A prefectural governor can order a person to stop or leave (Article 29(2)). Other smoking rules, such as the street-smoking rules in some cities, are set locally and are not in this Act.",
+     "level": "country",
+     "source": "https://laws.e-gov.go.jp/api/2/law_data/414AC0000000103",
+     "checked": "2026-11-08",
+     "penalty_signal": "Article 77(1): failing to obey the governor's order to stop or leave is an administrative fine (karyo) up to JPY 300,000 (about A$2,707)."
     }
    ],
    "sources": [
@@ -396,6 +476,62 @@
      "authority": "Japan Customs, Ministry of Finance",
      "url": "https://www.customs.go.jp/english/summary/passenger.htm",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "Swords and Firearms Control Act (e-Gov law API v2)",
+     "authority": "Government of Japan, e-Gov Laws",
+     "url": "https://laws.e-gov.go.jp/api/2/law_data/333AC0000000006",
+     "checked": "2026-11-08",
+     "supports": "Articles 22, 22-4, 31-18; version in force 1 Sep 2025"
+    },
+    {
+     "title": "Minor Offences Act (e-Gov law API v2)",
+     "authority": "Government of Japan, e-Gov Laws",
+     "url": "https://laws.e-gov.go.jp/api/2/law_data/323AC0000000039",
+     "checked": "2026-11-08",
+     "supports": "Article 1"
+    },
+    {
+     "title": "Road Traffic Act (e-Gov law API v2)",
+     "authority": "Government of Japan, e-Gov Laws",
+     "url": "https://laws.e-gov.go.jp/api/2/law_data/335AC0000000105",
+     "checked": "2026-11-08",
+     "supports": "Articles 63-9 to 63-11, 65, 71, 117-2, 117-2-2, 117-4, 118, 120, 125, Appended Table 2; version in force 21 Jul 2026 (the 1 Apr 2026 version brought bicycles into the blue-ticket system)"
+    },
+    {
+     "title": "Civil Aeronautics Act (e-Gov law API v2)",
+     "authority": "Government of Japan, e-Gov Laws",
+     "url": "https://laws.e-gov.go.jp/api/2/law_data/327AC0000000231",
+     "checked": "2026-11-08",
+     "supports": "Articles 2(22), 132-2, 132-5, 132-85, 132-86, 157-7 to 157-9; version in force 1 Dec 2025"
+    },
+    {
+     "title": "Civil Aeronautics Act Enforcement Regulations (e-Gov law API v2)",
+     "authority": "Government of Japan, e-Gov Laws",
+     "url": "https://laws.e-gov.go.jp/api/2/law_data/327M50000800056",
+     "checked": "2026-11-08",
+     "supports": "Articles 5-2 (100 g threshold) and 236-72 (Densely Inhabited Districts); version in force 1 Oct 2026"
+    },
+    {
+     "title": "Narcotics and Psychotropics Control Act (e-Gov law API v2)",
+     "authority": "Government of Japan, e-Gov Laws",
+     "url": "https://laws.e-gov.go.jp/api/2/law_data/328AC0000000014",
+     "checked": "2026-11-08",
+     "supports": "Articles 2, 12, 13, 28, 64-2, 65, 66; version in force 1 Oct 2026"
+    },
+    {
+     "title": "Stimulants Control Act (e-Gov law API v2)",
+     "authority": "Government of Japan, e-Gov Laws",
+     "url": "https://laws.e-gov.go.jp/api/2/law_data/326AC0100000252",
+     "checked": "2026-11-08",
+     "supports": "Articles 2, 13, 14, 41 to 41-3; version in force 1 Jun 2025"
+    },
+    {
+     "title": "Health Promotion Act, passive smoking chapter (e-Gov law API v2)",
+     "authority": "Government of Japan, e-Gov Laws",
+     "url": "https://laws.e-gov.go.jp/api/2/law_data/414AC0000000103",
+     "checked": "2026-11-08",
+     "supports": "Articles 28, 29, 77; version in force 12 Dec 2025"
     }
    ]
   },
