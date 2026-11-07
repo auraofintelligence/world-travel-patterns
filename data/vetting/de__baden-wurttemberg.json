@@ -52,7 +52,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -63,6 +63,30 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Übernachtungsteuersatzung Heidelberg (2025)"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Black Forest National Park: stay on the signed paths and check the park's map for seasonal path closures. Dogs must be on a lead. Overnight stays in the park are generally not allowed, with or without a tent; multi-day hikers can book sites through the trekking-schwarzwald.de system. No fire and no smoking; collecting wood and felling trees are prohibited. Don't enter or use the streams, rivers and lakes (no bathing, diving, wading or floats). Park only in marked areas; driving on the park's paths is not allowed. Guided tours and organised walking events inside the park need the park's approval.",
+     "source": "https://www.nationalpark-schwarzwald.de/nationalpark/regeln-tipps/regeln-im-park",
+     "heading": "Nationalpark Schwarzwald, Regeln im Park",
+     "checked": "2026-11-07",
+     "level": "region"
+    },
+    {
+     "topic": "drones",
+     "rule": "Black Forest National Park: drones and other flying or driving objects are not allowed.",
+     "source": "https://www.nationalpark-schwarzwald.de/nationalpark/regeln-tipps/regeln-im-park",
+     "heading": "Nationalpark Schwarzwald, Regeln im Park",
+     "checked": "2026-11-07",
+     "level": "region"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Black Forest National Park: don't catch, disturb or feed animals, and don't collect plants, plant parts or mushrooms. Take rubbish home.",
+     "source": "https://www.nationalpark-schwarzwald.de/nationalpark/regeln-tipps/regeln-im-park",
+     "heading": "Nationalpark Schwarzwald, Regeln im Park",
+     "checked": "2026-11-07",
+     "level": "region"
     }
    ],
    "sources": [
@@ -72,9 +96,42 @@
      "url": "https://www.heidelberg.de/HD/Rathaus/uebernachtungsteuer.html",
      "checked": "2026-11-05",
      "supports": "rate, start date, cap, exemptions (search-index snapshot)"
+    },
+    {
+     "title": "Regeln im Park",
+     "authority": "Nationalparkverwaltung Schwarzwald (Baden-Württemberg)",
+     "url": "https://www.nationalpark-schwarzwald.de/nationalpark/regeln-tipps/regeln-im-park",
+     "checked": "2026-11-07"
     }
    ],
    "note": "Heidelberg only; other cities in the state not yet checked."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "activity-permit",
+     "authority": "Nationalparkverwaltung Schwarzwald",
+     "process": "Overnight stays are generally not allowed inside the park; multi-day hikers book trekking sites through the park's trekking system. Guided tours and organised walking events need the park's approval. Filming, photo and reporting work has its own application form on the park's site.",
+     "activities": [
+      "camping",
+      "hiking",
+      "filming"
+     ],
+     "url": "https://www.nationalpark-schwarzwald.de/nationalpark/regeln-tipps/regeln-im-park",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Regeln im Park",
+     "authority": "Nationalparkverwaltung Schwarzwald (Baden-Württemberg)",
+     "url": "https://www.nationalpark-schwarzwald.de/nationalpark/regeln-tipps/regeln-im-park",
+     "checked": "2026-11-07"
+    }
+   ]
   }
  }
 }

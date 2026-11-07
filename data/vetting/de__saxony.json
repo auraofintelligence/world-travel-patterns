@@ -60,7 +60,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -80,6 +80,38 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Satzung über die Erhebung einer Beherbergungssteuer in der Stadt Leipzig"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Saxon Switzerland National Park (Elbe Sandstone Mountains): walk only on existing paths, and in the core zone only on marked paths. Dogs must always be on a lead. Camping, including in cars and camper vans, and tent use are prohibited. 'Boofen' (sleeping under a rock overhang) is allowed only from 16 June to 31 January, only in connection with rock climbing, and only in marked boofen sites. Smoking and any fire are prohibited; campfires are allowed only at marked fire places, and you bring your own wood. Entering or swimming in water bodies is prohibited for people and animals. Bikes only on signed cycle routes.",
+     "source": "https://nationalpark-saechsische-schweiz.de/verhalten",
+     "heading": "Nationalpark Sächsische Schweiz, Verhalten und Regeln",
+     "checked": "2026-11-07",
+     "level": "region"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Climbing in the Saxon Switzerland national park region is allowed only on confirmed climbing summits, following the Saxon climbing rules, and only through marked climbing approaches. Some summits are closed seasonally for species protection; the park publishes a list of current closures (the list the park offered was dated 6 July 2026). In the surrounding landscape protection area, the Saxon climbing rules also apply, tents are allowed only at designated sites, and the same ban on drones applies. Anywhere in the forest, and within 100 metres of it, open fire is prohibited, including barbecues, campfires, sky lanterns and candles.",
+     "source": "https://nationalpark-saechsische-schweiz.de/klettern",
+     "heading": "Nationalpark Sächsische Schweiz, Klettern; Verhalten und Regeln",
+     "checked": "2026-11-07",
+     "level": "region"
+    },
+    {
+     "topic": "drones",
+     "rule": "Saxon Switzerland National Park: using drones or other aircraft is prohibited across the whole national park, and taking off or landing them is also prohibited in the adjoining landscape protection area.",
+     "source": "https://nationalpark-saechsische-schweiz.de/verhalten",
+     "heading": "Nationalpark Sächsische Schweiz, Verhalten und Regeln",
+     "checked": "2026-11-07",
+     "level": "region"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Saxon Switzerland National Park: picking or damaging plants is prohibited, though mushrooms and berries may be taken gently for personal use if you stay on the paths. Taking or damaging stones, minerals and fossils is prohibited. Feeding or disturbing animals is prohibited, and so is cutting trees or branches. Loud noise such as music is prohibited.",
+     "source": "https://nationalpark-saechsische-schweiz.de/verhalten",
+     "heading": "Nationalpark Sächsische Schweiz, Verhalten und Regeln",
+     "checked": "2026-11-07",
+     "level": "region"
     }
    ],
    "sources": [
@@ -96,6 +128,18 @@
      "url": "https://www.leipzig.de/service-portal/dienstleistung/beherbergungssteuer",
      "checked": "2026-11-05",
      "supports": "5%, exemptions (search-index snapshot)"
+    },
+    {
+     "title": "Verhalten und Regeln",
+     "authority": "Nationalparkverwaltung Sächsische Schweiz (Staatsbetrieb Sachsenforst)",
+     "url": "https://nationalpark-saechsische-schweiz.de/verhalten",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Klettern",
+     "authority": "Nationalparkverwaltung Sächsische Schweiz",
+     "url": "https://nationalpark-saechsische-schweiz.de/klettern",
+     "checked": "2026-11-07"
     }
    ],
    "note": "Dresden and Leipzig only; other Saxon cities not yet checked."
@@ -130,6 +174,37 @@
     }
    ],
    "notes": "State-level entry. Federal Cannabis Act limits (25 g in public, 50 g at home, three plants) and its consumption bans (near schools, playgrounds and sports grounds, and in pedestrian zones 7 am to 8 pm) belong on the Germany page. AUD at the RBA rate of 30 October 2026, A$1 = EUR 0.6293."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "seasonal-closure",
+     "authority": "Nationalparkverwaltung Sächsische Schweiz",
+     "process": "Climbing is limited to confirmed summits and marked approaches under the Saxon climbing rules, and some summits are closed in the season for species protection. Check the park's current closure list before a climb.",
+     "activities": [
+      "climbing"
+     ],
+     "url": "https://nationalpark-saechsische-schweiz.de/klettern",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Verhalten und Regeln",
+     "authority": "Nationalparkverwaltung Sächsische Schweiz (Staatsbetrieb Sachsenforst)",
+     "url": "https://nationalpark-saechsische-schweiz.de/verhalten",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Klettern",
+     "authority": "Nationalparkverwaltung Sächsische Schweiz",
+     "url": "https://nationalpark-saechsische-schweiz.de/klettern",
+     "checked": "2026-11-07"
+    }
+   ]
   }
  }
 }
