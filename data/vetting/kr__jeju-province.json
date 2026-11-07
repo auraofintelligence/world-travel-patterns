@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -21,6 +21,36 @@
      "source": "https://visithalla.jeju.go.kr/contents/contents.do?id=49&language=en_US",
      "checked": "2026-11-07",
      "level": "region"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "level": "region",
+     "rule": "Jeju Special Self-Governing Province can designate outdoor places as smoke-free under the National Health Promotion Act. The ordinance lists the kinds of place it can cover: tourist sites and resorts, amusement areas, bus stops and taxi stands, beaches, city parks, petrol stations, and the area within 10 metres of public electric-vehicle chargers. The exact designated sites are set by notice and marked by signs, so follow the signs. The ordinance counts holding a lit cigarette as smoking. The fine is KRW 100,000 (about A$106.26, RBA rate of 30 October 2026, A$1 = KRW 941.07).",
+     "penalty_signal": "KRW 100,000 (A$106.26)",
+     "source": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B8%88%EC%97%B0%EA%B5%AC%EC%97%AD%20%EC%A7%80%EC%A0%95%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+     "evidence": "official",
+     "checked": "2026-11-07",
+     "by": "hand"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "level": "region",
+     "rule": "On Jeju's beaches the governor can ban a person from using the beach, or order them to leave, if they break the national Beach Use and Management Act's rules for beach users. The Act's list of banned acts was not read here.",
+     "penalty_signal": "No fine is set in the Jeju ordinance itself.",
+     "source": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5%EC%9D%98%20%EC%9D%B4%EC%9A%A9%20%EB%B0%8F%20%EA%B4%80%EB%A6%AC%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+     "evidence": "official",
+     "checked": "2026-11-07",
+     "by": "hand"
+    },
+    {
+     "topic": "alcohol",
+     "level": "region",
+     "rule": "At national heritage sites and facilities that Jeju Province manages, the governor can bar a drunk person or someone carrying a smelly, dangerous or offensive item. Visitors must not drink alcohol, smoke in no-smoking areas, or make loud noise that disturbs others.",
+     "penalty_signal": "No fine is set in the Jeju ordinance article read.",
+     "source": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%AC%B8%ED%99%94%EC%9C%A0%EC%82%B0%EC%9D%98%20%EB%B3%B4%EC%A1%B4%20%EB%B0%8F%20%ED%99%9C%EC%9A%A9%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+     "evidence": "official",
+     "checked": "2026-11-07",
+     "by": "hand"
     }
    ],
    "sources": [
@@ -37,6 +67,27 @@
      "url": "https://visithalla.jeju.go.kr/contents/contents.do?id=49&language=en_US",
      "checked": "2026-11-07",
      "supports": "Gwaneumsa campground, cooking and protected habitat rules"
+    },
+    {
+     "title": "제주특별자치도 금연구역 지정 및 운영에 관한 조례",
+     "authority": "Jeju Special Self-Governing Province",
+     "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B8%88%EC%97%B0%EA%B5%AC%EC%97%AD%20%EC%A7%80%EC%A0%95%20%EB%B0%8F%20%EC%9A%B4%EC%98%81%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+     "supports": "smoke-free designation list and fine",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "제주특별자치도 해수욕장의 이용 및 관리에 관한 조례",
+     "authority": "Jeju Special Self-Governing Province",
+     "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5%EC%9D%98%20%EC%9D%B4%EC%9A%A9%20%EB%B0%8F%20%EA%B4%80%EB%A6%AC%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+     "supports": "beach user rules, article 10",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "제주특별자치도 문화유산의 보존 및 활용에 관한 조례",
+     "authority": "Jeju Special Self-Governing Province",
+     "url": "https://www.law.go.kr/%EC%9E%90%EC%B9%98%EB%B2%95%EA%B7%9C/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%AC%B8%ED%99%94%EC%9C%A0%EC%82%B0%EC%9D%98%20%EB%B3%B4%EC%A1%B4%20%EB%B0%8F%20%ED%99%9C%EC%9A%A9%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%A1%B0%EB%A1%80",
+     "supports": "heritage site visitor rules, article 5-2",
+     "checked": "2026-11-07"
     }
    ],
    "note": "Lower trail sections need no booking."
