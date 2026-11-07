@@ -127,6 +127,14 @@
      "checked": "2026-11-07",
      "heading": "Schengen certificate for narcotic or psychotropic medicines (Article 75)",
      "evidence": "official"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Gauja National Park (across Sigulda, Cēsis, Smiltene and other municipalities) is governed by the Gauja National Park Law. It bans moving on rivers, lakes and other water bodies in engine-powered craft, with exceptions for officials on duty and for Lake Ungurs (where the park agency's written permit is needed), bans damaging specially protected trees, and bans dumping waste outside landfills. In the nature reserve zone it also bans clear felling and burning dry grass and reeds, and the agency may close areas seasonally. Camping and fire rules are in Cabinet regulations that were not read in this check.",
+     "penalty_signal": "not stated in the law text read",
+     "level": "country",
+     "source": "https://likumi.lv/ta/en/en/id/192075-gauja-national-park-law",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -160,6 +168,13 @@
      "authority": "European Union (EUR-Lex / Your Europe)",
      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:42000A0922(02)",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "Gauja National Park Law",
+     "authority": "Latvian Parliament via likumi.lv (official legal portal)",
+     "url": "https://likumi.lv/ta/en/en/id/192075-gauja-national-park-law",
+     "checked": "2026-11-07",
+     "supports": "park restrictions"
     }
    ]
   },
@@ -903,6 +918,34 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; authority names and law citations are not reread (see national.read)."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "activity-permit",
+     "authority": "Nature Conservation Agency (Dabas aizsardzības pārvalde)",
+     "process": "Gauja National Park: an outdoor event with more than 50 participants in the nature reserve zone needs the agency's written permit unless held in a designated place (Gauja National Park Law, section 8(6)). Engine-powered craft on Lake Ungurs need a written agency permit. Lead times were not found.",
+     "lead_time_days": 0,
+     "activities": [
+      "large outdoor events",
+      "motorised boating on Lake Ungurs"
+     ],
+     "url": "https://likumi.lv/ta/en/en/id/192075-gauja-national-park-law",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gauja National Park Law",
+     "authority": "Latvian Parliament via likumi.lv",
+     "url": "https://likumi.lv/ta/en/en/id/192075-gauja-national-park-law",
+     "checked": "2026-11-07",
+     "supports": "permits"
+    }
+   ]
   }
  }
 }
