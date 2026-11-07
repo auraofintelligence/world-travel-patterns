@@ -63,7 +63,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -106,6 +106,29 @@
      "checked": "2026-11-06",
      "heading": "Foreign drone validation and limits",
      "penalty_signal": "Breaches of the registration rules can bring a flying ban and a fine of NT$30,000 to NT$150,000, and in serious cases seizure of the drone (no AUD rate on file)."
+    },
+    {
+     "topic": "alcohol",
+     "rule": "The duty-free allowance is 1.5 litres of alcoholic drink per person, any number of bottles (up from 1 litre from 25 January 2025). The Customs Administration notice says passengers aged 18 or over; a Taipei Customs page says aged 20 or over, so the age is unsettled between the two pages.",
+     "penalty_signal": "Undeclared liquor over the allowance is confiscated and fined under the Tobacco and Alcohol Administration Act.",
+     "source": "https://web.customs.gov.tw/en/singlehtml/1867?cntId=8a071deb438f4fa0b3a72f3f45ea138b",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "The duty-free tobacco allowance (Taipei Customs, aged 20 or over) is 200 cigarettes, or 25 cigars, or 1 pound of tobacco, or 200 designated tobacco products that passed the Ministry of Health and Welfare's health risk assessment. The page does not mention e-cigarettes or unapproved heated tobacco, so ask Customs before bringing them.",
+     "source": "https://web.customs.gov.tw/etaipei/singlehtml/1367?cntId=c169690278c641edb4c70868eccbb6f6",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Each person may carry at most NT$100,000 (about A$4,360 at TWD 22.95 per A$1, RBA 30 Oct 2026) or RMB 20,000 (about A$4,270 at CNY 4.6877 per A$1) into or out of Taiwan. Any amount above those limits is not allowed even if declared. Other foreign currency, and negotiable securities, over USD 10,000 (about A$14,200 at USD 0.7040 per A$1) must be declared; once declared there is no limit.",
+     "penalty_signal": "Cash over the limits that is not declared is subject to confiscation.",
+     "source": "https://web.customs.gov.tw/ekaohsiung/singlehtml/c718884d9be040dcb652112cdbabad3a?cntId=cb9e98e0aa664b4eb58f638076ddbeef",
+     "level": "country",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -122,6 +145,24 @@
      "url": "https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=K0090083",
      "checked": "2026-11-06",
      "supports": "drone rule for visitors"
+    },
+    {
+     "title": "Duty-free allowance for arriving passengers (Taipei Customs)",
+     "authority": "Customs Administration, Ministry of Finance, Taiwan",
+     "url": "https://web.customs.gov.tw/etaipei/singlehtml/1367?cntId=c169690278c641edb4c70868eccbb6f6",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Duty-free liquor limit raised (Customs Administration)",
+     "authority": "Customs Administration, Ministry of Finance, Taiwan",
+     "url": "https://web.customs.gov.tw/en/singlehtml/1867?cntId=8a071deb438f4fa0b3a72f3f45ea138b",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Limits on currency and securities (Kaohsiung Customs)",
+     "authority": "Customs Administration, Ministry of Finance, Taiwan",
+     "url": "https://web.customs.gov.tw/ekaohsiung/singlehtml/c718884d9be040dcb652112cdbabad3a?cntId=cb9e98e0aa664b4eb58f638076ddbeef",
+     "checked": "2026-11-07"
     }
    ]
   },

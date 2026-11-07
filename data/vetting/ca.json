@@ -218,7 +218,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -252,6 +252,46 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/canada",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Declare currency or monetary instruments (cash, cheques, money orders, bank drafts) worth CAN$10,000 or more, in any mix of currencies, when you enter or leave Canada. Carrying that much is not illegal; not declaring it is. CAN$10,000 is about A$10,160 (RBA 30 Oct 2026: A$1 = CAD 0.9838).",
+     "penalty_signal": "All of it can be seized; it can be returned after a penalty of 5% to 50% of the seized amount. Not returned if suspected to be proceeds of crime",
+     "source": "https://www.cbsa-asfc.gc.ca/travel-voyage/ttd-vdd-eng.html",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Visitors must declare all alcohol they bring in. The duty-free limit is 1.5 litres of wine, or 1.14 litres of spirits, or 8.5 litres of beer or ale (or 1.14 litres of wine and spirits combined). Minimum age to bring it in is 18 in Alberta, Manitoba and Quebec and 19 elsewhere. Amounts over the limits may need a provincial or territorial permit as well as duty and tax.",
+     "penalty_signal": "Duties and taxes payable on declared amounts; undeclared goods can be seized",
+     "source": "https://www.cbsa-asfc.gc.ca/travel-voyage/bring-apporter-eng.html",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Visitors must declare tobacco and vaping products. The duty-free limits are 200 cigarettes, 50 cigars, 200 grams of manufactured tobacco, 200 tobacco sticks, and 12 or fewer vaping containers (each up to 120 mL of liquid or 120 g of solid). Minimum age to bring them in is 18 anywhere in Canada. Duties and taxes can apply to any declared amount.",
+     "penalty_signal": "Duties and taxes payable; undeclared goods can be seized",
+     "source": "https://www.cbsa-asfc.gc.ca/travel-voyage/bring-apporter-eng.html",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Declare all food, plant and animal products when you arrive, including any pets. Undeclared items can be seized.",
+     "penalty_signal": "Penalty of up to CAN$1,300 (about A$1,320) for not declaring",
+     "source": "https://www.cbsa-asfc.gc.ca/travel-voyage/bring-apporter-eng.html",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Cannabis is legal inside Canada under its law, but taking it across the border in either direction is a serious criminal offence. Any cannabis or cannabis product with you, in any quantity, must be declared to the Canada Border Services Agency; this includes products made from cannabis or hemp.",
+     "penalty_signal": "Cannabis can be confiscated, with criminal charges possible; a monetary penalty of up to CAN$2,000 for not declaring",
+     "source": "https://www.cbsa-asfc.gc.ca/travel-voyage/penalties-sanctions-eng.html",
+     "level": "country",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -261,6 +301,27 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/canada",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Travelling with CAN$10,000 or more? Declare it",
+     "authority": "Canada Border Services Agency",
+     "url": "https://www.cbsa-asfc.gc.ca/travel-voyage/ttd-vdd-eng.html",
+     "supports": "currency reporting",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "What visitors can bring into Canada",
+     "authority": "Canada Border Services Agency",
+     "url": "https://www.cbsa-asfc.gc.ca/travel-voyage/bring-apporter-eng.html",
+     "supports": "alcohol, tobacco, vaping and food declarations",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Travellers: Penalties for cannabis-related offences",
+     "authority": "Canada Border Services Agency",
+     "url": "https://www.cbsa-asfc.gc.ca/travel-voyage/penalties-sanctions-eng.html",
+     "supports": "cannabis at the border",
+     "checked": "2026-11-07"
     }
    ]
   },

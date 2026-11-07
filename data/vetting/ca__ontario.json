@@ -83,7 +83,7 @@
   },
   "zone-requirements": {
    "status": "partly-vetted",
-   "checked": "2026-11-06",
+   "checked": "2026-11-07",
    "evidence": "official",
    "layers": [
     {
@@ -96,6 +96,29 @@
      ],
      "url": "https://www.ontarioparks.ca/park/algonquin/backcountry/camping",
      "checked": "2026-11-06"
+    },
+    {
+     "type": "fee",
+     "authority": "Ontario Parks",
+     "process": "Provincial parks charge a daily vehicle permit for day use, set per park in four levels (2026-27, HST included): regular adult vehicle CAD 12.25 to CAD 21.00 (about A$12.45 to A$21.35 (A$1 = CAD 0.9838, RBA 30 Oct 2026)). Discounts for seniors, people with disabilities and veterans are for Ontario residents only. Most parks let you reserve a daily vehicle permit online up to five days ahead at no extra charge; the pages do not say which parks. Walk-in fees are per person at French River and North Beach.",
+     "lead_time_days": 0,
+     "activities": [
+      "day use"
+     ],
+     "url": "https://www.ontarioparks.ca/fees/dayuse/2026",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "visitor-cap",
+     "authority": "Parks Canada, Bruce Peninsula National Park",
+     "process": "Parking at the Grotto and Cyprus Lake area must be reserved from 1 May to 31 October (six 4-hour slots, 8 am to 9 pm). Halfway Log Dump must be reserved from 19 June to 7 September (two 6-hour slots); outside those dates it is first come first served. Little Cove (4-hour slots, 15 May to 15 September) is booked through the Municipality of Northern Bruce Peninsula. Cost is admission (adult CAD 10.00, about A$10.16) plus parking (CAD 17.50 a vehicle, about A$17.79) plus a reservation fee (CAD 3.50 online, about A$3.56; CAD 5.50 by phone, about A$5.59) (A$1 = CAD 0.9838, RBA 30 Oct 2026). The park says it does not recommend travelling without a confirmed reservation; when lots are full there is no other access, and drop-offs are not permitted. Changes are not allowed: cancel and rebook. Phone 1-877-737-3783.",
+     "lead_time_days": 0,
+     "activities": [
+      "day use",
+      "hiking"
+     ],
+     "url": "https://parks.canada.ca/pn-np/on/bruce/activ/emplacements-locations/parking",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -104,6 +127,24 @@
      "authority": "Ontario Parks",
      "url": "https://www.ontarioparks.ca/park/algonquin/backcountry/camping",
      "checked": "2026-11-06"
+    },
+    {
+     "title": "Day Use Fees 2026",
+     "authority": "Ontario Parks",
+     "url": "https://www.ontarioparks.ca/fees/dayuse/2026",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Parking reservations",
+     "authority": "Parks Canada, Bruce Peninsula National Park",
+     "url": "https://parks.canada.ca/pn-np/on/bruce/activ/emplacements-locations/parking",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Fees",
+     "authority": "Parks Canada, Bruce Peninsula National Park",
+     "url": "https://parks.canada.ca/pn-np/on/bruce/visit/tarifs-fees",
+     "checked": "2026-11-07"
     }
    ]
   }
