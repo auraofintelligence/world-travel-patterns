@@ -809,6 +809,127 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; authority names and law citations are not reread (see national.read)."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Þingvellir National Park",
+     "process": "Parking fee (a service fee) by vehicle: motorcycle ISK 400; car up to 5 seats ISK 1,000; car 6 to 9 seats ISK 1,200; bus 10 to 19 seats ISK 2,200; 20 to 32 seats ISK 3,800; 33 or more seats ISK 4,200. The park says one payment covers the day across its lots. No RBA rate for ISK is held in the repo, so no A$ figure is given.",
+     "lead_time_days": 0,
+     "activities": [
+      "parking at Þingvellir"
+     ],
+     "url": "https://www.thingvellir.is/en/service/parking-service/",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "fee",
+     "authority": "Vatnajökull National Park",
+     "process": "Regional parking fee at Skaftafell and Jökulsárlón, valid until midnight on the day paid: car up to 5 seats ISK 1,110; car 6 to 9 seats ISK 1,440; motorcycle ISK 450; buses ISK 2,770 to 9,400 by size. If another fee-based service area of the park was visited the same date, the regional fee is 50% off. Skaftafell camping is ISK 2,800 per person per night (ages 17 to 66).",
+     "lead_time_days": 0,
+     "activities": [
+      "parking at Skaftafell and Jökulsárlón",
+      "camping at Skaftafell"
+     ],
+     "url": "https://www.vatnajokulsthjodgardur.is/en/pricelist",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "visitor-cap",
+     "authority": "Environment and Energy Agency of Iceland (Umhverfis- og orkustofnun)",
+     "process": "Landmannalaugar (Fjallabak Nature Reserve): from 20 June to about 14 September (the agency's summer 2025 page; check the current season), private vehicles arriving between 9 am and 4 pm need a parking reservation and pay a service fee per vehicle, paid once at booking. The agency says 140 reservations are available daily in that period. Arriving outside those hours does not need a reservation. Its FAQ gives the end time as both 3 pm and 4 pm, and the amount of the fee is not on the page.",
+     "lead_time_days": 0,
+     "activities": [
+      "day visits by private car"
+     ],
+     "url": "https://www.ust.is/english/visiting-iceland/protected-areas/south/fjallabak-nature-reserve/landmannalaugar/faq/",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "seasonal-closure",
+     "authority": "Icelandic Road and Coastal Administration with the Reynisfjara safety group (landowners, Police, Icelandic Tourist Board, ICE-SAR, Katla Geopark)",
+     "process": "Reynisfjara black sand beach has a warning light linked to the Road and Coastal Administration's automatic wave forecast. The Tourist Board's notice says people must not enter the yellow zone when the yellow light shows, and must not go beyond the light sign when it is red, staying up on the beach comb. Sneaker waves (waves that run much further up the beach than the ones before) are the hazard. The notice dates from the sign installation; light levels may have been adjusted since.",
+     "lead_time_days": 0,
+     "activities": [
+      "visiting Reynisfjara beach"
+     ],
+     "url": "https://www.ferdamalastofa.is/en/news/increased-safety-and-better-information-with-new-signs-in-reynisfjara-black-sand-beach",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "seasonal-closure",
+     "authority": "Reykjanes regional tourism office (visitreykjanes.is), pointing to Civil Protection, police and the Road Administration",
+     "process": "Post of 22 January 2024: the town of Grindavík was closed to the public and road 427 was closed at Fagradalsfjall P1 because of the eruptions and ground movement. Closures change with each event and the post does not say who decides. Check the Icelandic Road Administration (road.is), police and Civil Protection (almannavarnir.is) for the current position; the official Civil Protection pages could not be read on this check.",
+     "lead_time_days": 0,
+     "activities": [
+      "Grindavík",
+      "Fagradalsfjall and the Reykjanes eruption area"
+     ],
+     "url": "https://visitreykjanes.is/en/blogg/access-around-reykjanes",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "fee",
+     "authority": "Seljalandsfoss and Kerið site operators (prices from a rental company guide)",
+     "process": "Parking at Seljalandsfoss is reported at ISK 1,000 (paid by machine or checkit.is). Kerið crater is reported at ISK 600 per person, paid at the entry kiosk. Prices were not read from the operators' own pages.",
+     "lead_time_days": 0,
+     "activities": [
+      "parking at Seljalandsfoss",
+      "entry to Kerið"
+     ],
+     "url": "https://www.gocampers.is/guides/money/parking-fees-iceland/",
+     "checked": "2026-11-07",
+     "evidence": "signal"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Parking Service",
+     "authority": "Þingvellir National Park",
+     "url": "https://www.thingvellir.is/en/service/parking-service/",
+     "checked": "2026-11-07",
+     "supports": "parking fees"
+    },
+    {
+     "title": "Price list",
+     "authority": "Vatnajökull National Park",
+     "url": "https://www.vatnajokulsthjodgardur.is/en/pricelist",
+     "checked": "2026-11-07",
+     "supports": "regional parking fees, camping"
+    },
+    {
+     "title": "Landmannalaugar FAQ",
+     "authority": "Environment and Energy Agency of Iceland",
+     "url": "https://www.ust.is/english/visiting-iceland/protected-areas/south/fjallabak-nature-reserve/landmannalaugar/faq/",
+     "checked": "2026-11-07",
+     "supports": "parking reservations"
+    },
+    {
+     "title": "New signs at Reynisfjara",
+     "authority": "Icelandic Tourist Board",
+     "url": "https://www.ferdamalastofa.is/en/news/increased-safety-and-better-information-with-new-signs-in-reynisfjara-black-sand-beach",
+     "checked": "2026-11-07",
+     "supports": "warning light"
+    },
+    {
+     "title": "Access around Reykjanes",
+     "authority": "Visit Reykjanes",
+     "url": "https://visitreykjanes.is/en/blogg/access-around-reykjanes",
+     "checked": "2026-11-07",
+     "supports": "eruption-area closures (Jan 2024)"
+    },
+    {
+     "title": "Parking fees in Iceland",
+     "authority": "GoCampers (rental company)",
+     "url": "https://www.gocampers.is/guides/money/parking-fees-iceland/",
+     "checked": "2026-11-07",
+     "supports": "Seljalandsfoss and Kerið prices (signal)"
+    }
+   ]
   }
  }
 }

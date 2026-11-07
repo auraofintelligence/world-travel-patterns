@@ -25,6 +25,80 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Sarek, Muddus, Padjelanta and Stora Sjöfallet national parks (Laponia area, Norrbotten) have their own Naturvårdsverket rules (NFS 2013:10, last amended by NFS 2023:15). Inside these parks it is forbidden to cut or damage living or dead trees and shrubs, to hunt or fish (Padjelanta allows fishing in named waters with a card), to drive motor boats or motor vehicles off road, to put up signs or markings, to litter, to park a car, bus, caravan or trailer outside marked places, and to cycle or ride or take a horse (public roads and two private roads excepted). Berries and edible mushrooms may be picked. Sarek bans watercraft altogether.",
+     "penalty_signal": "not stated in the regulation text read",
+     "level": "region",
+     "source": "https://lagen.nu/nfs/2013:10",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "In the same four parks it is forbidden to deliberately disturb grazing reindeer or reindeer mustering, to take or harm vertebrate animals, to collect eggs or invertebrates, or to dig up or remove plants, mosses, lichens or wood fungi. Dogs are not allowed, except on a lead from 1 January to 30 April everywhere, and on a lead all year on the Kungsleden track in Sarek and in Stora Sjöfallet (and on the Rallarstigen in Muddus).",
+     "level": "region",
+     "source": "https://lagen.nu/nfs/2013:10",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "drones",
+     "rule": "Without permission from the county administrative board (länsstyrelsen), taking off or landing any aircraft in these parks is forbidden (NFS 2023:15, section 5). The text says aircraft (luftfarkost) and does not name drones; whether a drone launch counts is not settled by the wording.",
+     "level": "region",
+     "source": "https://www.naturvardsverket.se/4afbd4/globalassets/nfs/2023/nfs-2023-15.pdf",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "NFS 2013:10 consolidated to NFS 2023:15 (unofficial consolidation)",
+     "authority": "Naturvårdsverket via lagen.nu",
+     "url": "https://lagen.nu/nfs/2013:10",
+     "checked": "2026-11-07",
+     "supports": "park prohibitions"
+    },
+    {
+     "title": "NFS 2023:15",
+     "authority": "Naturvårdsverket",
+     "url": "https://www.naturvardsverket.se/4afbd4/globalassets/nfs/2023/nfs-2023-15.pdf",
+     "checked": "2026-11-07",
+     "supports": "permit and exception sections"
+    }
+   ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "activity-permit",
+     "authority": "County Administrative Board of Norrbotten (länsstyrelsen), under Naturvårdsverket's park rules",
+     "process": "In Sarek, Muddus, Padjelanta and Stora Sjöfallet national parks, taking off or landing aircraft, dog-sled driving, scientific work, and competitions, camps, recurring organised tours or other larger organised events are forbidden without the county board's permission (NFS 2023:15, section 5). Lead time and the application process were not found. Fees and rules for Kungsleden and Abisko were not confirmed in this check.",
+     "lead_time_days": 0,
+     "activities": [
+      "organised tours and events in the Laponia parks",
+      "aircraft take-off and landing",
+      "research"
+     ],
+     "url": "https://www.naturvardsverket.se/4afbd4/globalassets/nfs/2023/nfs-2023-15.pdf",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "NFS 2023:15",
+     "authority": "Naturvårdsverket",
+     "url": "https://www.naturvardsverket.se/4afbd4/globalassets/nfs/2023/nfs-2023-15.pdf",
+     "checked": "2026-11-07",
+     "supports": "permit requirements"
+    }
+   ]
   }
  }
 }

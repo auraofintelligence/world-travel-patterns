@@ -18,6 +18,80 @@
      "supports": "visitor conduct, reindeer law reference (read directly 2026-11-05)"
     }
    ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Metsähallitus (Luontoon.fi)",
+     "process": "State-owned national parks and nature reserves, including Pallas-Yllästunturi and Urho Kekkonen, have no entrance fee. Fishing, hunting and snowmobiling in state protected areas need a paid permit bought through eraluvat.fi; organising an event needs notice to Metsähallitus. Designated campsites are free. Reservable huts are locked and need a small booking fee paid online. The park pages for Pallas-Yllästunturi and Urho Kekkonen could not be read in this check (the site loads its content by script), so park-specific restrictions are not yet recorded.",
+     "lead_time_days": 0,
+     "activities": [
+      "visiting national parks",
+      "fishing",
+      "hunting",
+      "snowmobiling",
+      "events"
+     ],
+     "url": "https://www.luontoon.fi/en/activities/hiking-and-outdoor-recreation/tips/visitor-guidelines/fees-permits-and-free-access-to-nature",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Metsähallitus (Luontoon.fi)",
+     "process": "Open wilderness huts are free for anyone to use for one night. If one is full, the most recent arrival may stay and those already inside must make room. Most wilderness huts are in Lapland and the north, usually at least a few kilometres from a road. Camping in national parks and some protected areas is only at designated sites; elsewhere in protected areas it is generally not allowed.",
+     "lead_time_days": 0,
+     "activities": [
+      "wilderness huts",
+      "camping in national parks"
+     ],
+     "url": "https://www.luontoon.fi/en/activities/hiking-and-outdoor-recreation/tips/visitor-guidelines/accommodation-during-the-hike",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fees, permits, and free access to nature",
+     "authority": "Metsähallitus (Luontoon.fi)",
+     "url": "https://www.luontoon.fi/en/activities/hiking-and-outdoor-recreation/tips/visitor-guidelines/fees-permits-and-free-access-to-nature",
+     "checked": "2026-11-07",
+     "supports": "fees and permits"
+    },
+    {
+     "title": "Accommodation during the hike",
+     "authority": "Metsähallitus (Luontoon.fi)",
+     "url": "https://www.luontoon.fi/en/activities/hiking-and-outdoor-recreation/tips/visitor-guidelines/accommodation-during-the-hike",
+     "checked": "2026-11-07",
+     "supports": "huts and camping"
+    }
+   ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Campfires in national parks are allowed only at designated spots and only if no wildfire warning is in effect. During a warning, open fires are banned everywhere except covered campfire sites and hut fireplaces with a chimney or flue; portable camp stoves may be used (not hobo stoves). In northern wilderness areas where camping is allowed anywhere, fires are still only permitted without a warning, and if a designated campfire site is within 500 metres you must use it. Cutting or damaging standing trees is forbidden everywhere. If a forest fire results, the person who lit it may face sanctions under the Criminal Code or Rescue Act, and supervisors may fine people lighting open fires during a warning. Warnings are on ilmatieteenlaitos.fi (Finnish Meteorological Institute).",
+     "penalty_signal": "fine, criminal liability and damages if a fire spreads",
+     "level": "region",
+     "source": "https://www.luontoon.fi/en/activities/hiking-and-outdoor-recreation/tips/visitor-guidelines/campfires",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Campfires",
+     "authority": "Metsähallitus (Luontoon.fi)",
+     "url": "https://www.luontoon.fi/en/activities/hiking-and-outdoor-recreation/tips/visitor-guidelines/campfires",
+     "checked": "2026-11-07",
+     "supports": "campfire rules"
+    }
+   ]
   }
  }
 }
