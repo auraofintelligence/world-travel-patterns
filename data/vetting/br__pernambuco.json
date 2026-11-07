@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -47,6 +47,26 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Tabela de permanência da TPA"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Pernambuco state Lei 15.736/2016 (as changed by Lei 17.195/2021) bans loud-bang fireworks (classes C and D under the federal decree-law 4.238/1942) at festive or entertainment events in open spaces anywhere in the state, public or private. It also bans fireworks of any kind that make noise at events on natural or artificial reefs, in rivers, streams and dams, within 2 km of mangroves and zoos, and in fully protected conservation units. Sight-only fireworks and low-noise ones are excepted. Penalties: for the class C and D ban, R$500 first time, R$800 and R$1,000 for repeats, then five times that; for the other bans, a warning, then a fine of R$10,000 to R$100,000 for event organisers. R$500 is about A$131 and R$1,000 about A$262 (A$1 = R$3.8138, Banco Central do Brasil PTAX, 30 Oct 2026).",
+     "penalty_signal": "fines from R$500; organisers R$10,000 to R$100,000",
+     "source": "https://legis.alepe.pe.gov.br/texto.aspx?id=19530&tipo=TEXTOATUALIZADO",
+     "heading": "Lei 15.736/2016",
+     "level": "state",
+     "checked": "2026-11-07",
+     "by": "hand"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Pernambuco state Lei 12.578/2004 (e-cigarettes added by Lei 17.087/2020) bans smoking cigarettes, cigars, pipes, any other smoking product and e-cigarettes in enclosed shared spaces, public or private, such as restaurants, bars, cafes, shopping centres, nightclubs, stations, hospitals, schools and public transport. Open-air and fenced open-air places are not covered. The text allows an isolated, ventilated smoking area for ordinary tobacco but not for e-cigarettes while the federal ban on selling them stands. The person in charge of the venue is fined R$1,000; a private venue can be fined R$1,000 to R$50,000 depending on its size. R$1,000 is about A$262 (A$1 = R$3.8138, Banco Central do Brasil PTAX, 30 Oct 2026).",
+     "penalty_signal": "venue fines R$1,000 to R$50,000",
+     "source": "https://legis.alepe.pe.gov.br/texto.aspx?id=4150",
+     "heading": "Lei 12.578/2004",
+     "level": "state",
+     "checked": "2026-11-07",
+     "by": "hand"
     }
    ],
    "sources": [
@@ -70,6 +90,20 @@
      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaDia(moeda=@moeda,dataCotacao=@dataCotacao)?@moeda='AUD'&@dataCotacao='10-30-2026'&$format=json",
      "checked": "2026-11-05",
      "supports": "BRL fallback rate, 2026-10-30 (read directly 2026-11-05)"
+    },
+    {
+     "title": "Lei 15.736/2016, texto atualizado",
+     "authority": "Alepe Legis, Assembleia Legislativa de Pernambuco",
+     "url": "https://legis.alepe.pe.gov.br/texto.aspx?id=19530&tipo=TEXTOATUALIZADO",
+     "supports": "fireworks (read 2026-11-07)",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Lei 12.578/2004, texto anotado",
+     "authority": "Alepe Legis, Assembleia Legislativa de Pernambuco",
+     "url": "https://legis.alepe.pe.gov.br/texto.aspx?id=4150",
+     "supports": "smoking (read 2026-11-07)",
+     "checked": "2026-11-07"
     }
    ],
    "note": "From the Fernando de Noronha district administration. Fernando de Noronha TPA added 5 November 2026; the national marine park fee not yet checked."

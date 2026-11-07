@@ -51,7 +51,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -62,6 +62,33 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Beherbergungsteuersatzung Trier"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "level": "region",
+     "heading": "Landesgesetz uber den Schutz der Sonn- und Feiertage (LFtG) sections 5 to 8 and section 12",
+     "rule": "Rhineland-Palatinate bans events and dances on protected days. Until the main church service ends (11 am, or earlier if the town sets it) on Sundays and public holidays, public meetings, parades, entertainment events and sport are banned (section 5; not on 1 May or 3 October). From 4 am on Good Friday, Totensonntag and Volkstrauertag, from 1 pm to 8 pm on All Saints (1 November) and from 1 pm on Christmas Eve, public meetings, parades and entertainment that do not suit the character of the day are banned (section 6). Public sport events are banned on Good Friday, until 1 pm on Easter Sunday, Whit Sunday, Totensonntag, Volkstrauertag and Christmas Day, and from 1 pm on Christmas Eve (section 7). Public dance events are banned from 4 am on Maundy Thursday until 4 pm on Easter Sunday, from 4 am on All Saints, Volkstrauertag and Totensonntag, and from 1 pm on Christmas Eve until 4 pm on Christmas Day (section 8). The local order authority can grant exceptions for important reasons (section 10). Breaches are an offence that can be fined; the Act sets no amount (section 12). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Fine; amount not set in the Act.",
+     "source": "https://www.landesrecht.rlp.de/bsrp/search/quick?query=Feiertag",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "level": "region",
+     "heading": "Nichtraucherschutzgesetz Rheinland-Pfalz (NRSG) sections 1 to 8 and section 11",
+     "rule": "Smoking is banned in public buildings, hospitals, youth services, schools, care homes and other listed facilities (sections 2 to 6 and 8). Bars and restaurants, including the dance floors of discos, are smoke-free (section 7(1)); an operator of a venue with a single room under 75 square metres can allow smoking if conditions are met and a sign says so (section 7(2)). The Act is about tobacco smoke and does not name e-cigarettes. A person who breaks the ban can be fined up to EUR 500 (about A$795); an operator who skips signs or enforcement can be fined up to EUR 500 or EUR 1,000 (about A$1,589) (section 11(2)). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Smoker up to EUR 500; operator up to EUR 500 or EUR 1,000.",
+     "source": "https://www.landesrecht.rlp.de/bsrp/search/quick?query=Passivrauchen",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "level": "region",
+     "heading": "Landeswaldgesetz (LWaldG) section 22, section 24 and section 37",
+     "rule": "In Rhineland-Palatinate forests, and within 100 m of one, lighting a fire or using open light needs the Forstamt's permit (section 24(2)). Smoking in the forest is banned (section 24(4)), and throwing away burning or smouldering things in or within 100 m of the forest is banned (section 24(4)). Camping in a tent and driving or parking vehicles in the forest are allowed only with the owner's consent (section 22(4) Nr. 1 and 3). Fines under section 37: up to EUR 25,000 (about A$39,725) for the most serious listed offences, otherwise up to EUR 2,500 (about A$3,973), and up to EUR 10,000 (about A$15,890) in especially serious cases. AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Up to EUR 2,500; up to EUR 25,000 for the gravest offences.",
+     "source": "https://www.landesrecht.rlp.de/bsrp/search/quick?query=Landeswaldgesetz",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -71,6 +98,27 @@
      "url": "https://www.trier.de/rathaus-politik/verwaltung/finanzen/steuern-und-abgaben/4035.Beherbergungsteuer.html",
      "checked": "2026-11-05",
      "supports": "rates and dates (search-index snapshot)"
+    },
+    {
+     "title": "Landesgesetz uber den Schutz der Sonn- und Feiertage (Feiertagsgesetz, LFtG) of 15 July 1970",
+     "authority": "Land Rheinland-Pfalz, Landesrecht RLP",
+     "url": "https://www.landesrecht.rlp.de/bsrp/search/quick?query=Feiertag",
+     "supports": "Banned events and dances, offence",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Nichtraucherschutzgesetz Rheinland-Pfalz of 5 October 2007",
+     "authority": "Land Rheinland-Pfalz, Landesrecht RLP",
+     "url": "https://www.landesrecht.rlp.de/bsrp/search/quick?query=Passivrauchen",
+     "supports": "Smoking ban and fines",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Landeswaldgesetz (LWaldG) of 30 November 2000",
+     "authority": "Land Rheinland-Pfalz, Landesrecht RLP",
+     "url": "https://www.landesrecht.rlp.de/bsrp/search/quick?query=Landeswaldgesetz",
+     "supports": "Forest fire, smoking, camping, fines",
+     "checked": "2026-11-07"
     }
    ],
    "note": "Trier only."
