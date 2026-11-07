@@ -226,7 +226,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -260,6 +260,20 @@
      "source": "https://www.argentina.gob.ar/anac/nuevo-marco-normativo-para-la-operacion-de-drones",
      "checked": "2026-11-06",
      "heading": "Foreign drone pilots"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "On arrival in Argentina, declare cash or monetary instruments (in any currency) worth US$10,000 or more; for travellers under 16 the figure is US$5,000. Goods regulated by SENASA (the national food and animal and plant health service) must also be declared. US$10,000 is about A$14,200 (RBA 30 Oct 2026: A$1 = USD 0.7040).",
+     "source": "https://www.argentina.gob.ar/justicia/derechofacil/leysimple/viajes-al-exterior-equipaje",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Goods bought abroad up to US$500 (air or sea arrival) can come in without tax; for land or river arrival there is no allowance except Puerto Iguazu (US$500). Above the limit, you pay half of the value over it (for example, on goods worth US$600 you pay US$50).",
+     "source": "https://www.argentina.gob.ar/justicia/derechofacil/leysimple/viajes-al-exterior-equipaje",
+     "level": "country",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -276,6 +290,20 @@
      "url": "https://www.argentina.gob.ar/anac/nuevo-marco-normativo-para-la-operacion-de-drones",
      "checked": "2026-11-06",
      "supports": "drone rule for visitors"
+    },
+    {
+     "title": "Ley simple: Viajes al exterior - Equipaje",
+     "authority": "Ministerio de Justicia, Argentina",
+     "url": "https://www.argentina.gob.ar/justicia/derechofacil/leysimple/viajes-al-exterior-equipaje",
+     "supports": "cash and allowance",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Regimen de equipaje",
+     "authority": "ARCA (Agencia de Recaudacion y Control Aduanero)",
+     "url": "https://www.arca.gob.ar/viajeros/ayuda/regimen-equipaje.asp",
+     "supports": "declaration required for USD 10,000 cash and SENASA goods",
+     "checked": "2026-11-07"
     }
    ]
   },

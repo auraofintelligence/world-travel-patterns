@@ -99,7 +99,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -117,6 +117,27 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/chile",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "When you enter or leave Chile with cash or bearer instruments worth more than US$10,000 (or the equivalent in other currencies, including Chilean pesos), you must declare it to Customs. US$10,000 is about A$14,200 (RBA 30 Oct 2026: A$1 = USD 0.7040).",
+     "source": "https://www.aduana.cl/aduanas-en-aeropuerto/aduana/2018-12-28/084619.html",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Traveller allowance per adult: 2.5 litres of alcoholic drinks, 400 cigarettes, 50 cigars and 500 grams of pipe tobacco. Alcohol and cigarettes can only be bought or brought in by people over 18. Amounts above the allowance must be declared and taxed.",
+     "source": "https://www.aduana.cl/todas-las-preguntas-frecuentes-viajero-y-turista/aduana/2011-06-21/152845.html",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Arriving passengers complete the joint SAG-Customs sworn declaration (it can be done online up to a day before arrival). SAG (the agriculture and livestock service) requires declaring any animal or plant material that could carry pests or diseases not present in Chile. Declaring something does not mean it is allowed in.",
+     "source": "https://www.sag.gob.cl/noticias/sag-y-aduanas-implementan-declaracion-jurada-digital-conjunta-en-7-nuevos-pasos-fronterizos",
+     "level": "country",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -126,6 +147,27 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/chile",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Aduanas en aeropuerto",
+     "authority": "Servicio Nacional de Aduanas de Chile",
+     "url": "https://www.aduana.cl/aduanas-en-aeropuerto/aduana/2018-12-28/084619.html",
+     "supports": "cash declaration",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Preguntas franquicia viajeros y turistas",
+     "authority": "Servicio Nacional de Aduanas de Chile",
+     "url": "https://www.aduana.cl/todas-las-preguntas-frecuentes-viajero-y-turista/aduana/2011-06-21/152845.html",
+     "supports": "alcohol and tobacco allowance",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Declaracion Jurada Digital conjunta",
+     "authority": "SAG Chile",
+     "url": "https://www.sag.gob.cl/noticias/sag-y-aduanas-implementan-declaracion-jurada-digital-conjunta-en-7-nuevos-pasos-fronterizos",
+     "supports": "agricultural declaration",
+     "checked": "2026-11-07"
     }
    ]
   },

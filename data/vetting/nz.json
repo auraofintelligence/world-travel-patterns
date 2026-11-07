@@ -166,7 +166,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -216,6 +216,14 @@
      "source": "https://www.smartraveller.gov.au/destinations/pacific/new-zealand",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Under the Freedom Camping Act 2011, freedom camping means camping outside a designated campground, within 200 m of a road or area reachable by motor vehicle, or within 200 m of the sea or harbour low-water line, using a vehicle, tent or other temporary structure. On public conservation land it is allowed except where prohibited or restricted: not in DOC scenic or recreation reserves without a designated campsite, not generally near Great Walks tracks, and some sites are for certified self-contained vehicles only or have night limits. Rules: obey signs, take away waste including human waste, light no fires. From 7 June 2026 a 'green warrant' card must be displayed at self-contained-only sites, and vehicles with a portable toilet can no longer be certified. No freedom camping with dogs in national parks. Council bylaws are not checked here.",
+     "level": "country",
+     "source": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/",
+     "checked": "2026-11-07",
+     "penalty_signal": "Fines may apply; amounts are published by the Ministry of Business, Innovation and Employment (not read here)."
     }
    ],
    "sources": [
@@ -225,6 +233,20 @@
      "url": "https://www.smartraveller.gov.au/destinations/pacific/new-zealand",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Freedom camping",
+     "authority": "Department of Conservation (Te Papa Atawhai)",
+     "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-stay/freedom-camping/",
+     "checked": "2026-11-07",
+     "supports": "freedom camping rules on conservation land and the June 2026 self-contained change"
+    },
+    {
+     "title": "Freedom Camping Act 2011, section 5",
+     "authority": "New Zealand Parliamentary Counsel Office",
+     "url": "https://www.legislation.govt.nz/act/public/2011/0061/latest/whole.html",
+     "checked": "2026-11-07",
+     "supports": "meaning of freedom camp (page loaded 2026-11-07)"
     }
    ]
   },
@@ -829,6 +851,34 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; heritage laws are not yet read (see national.read)."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Immigration New Zealand (Ministry of Business, Innovation and Employment)",
+     "process": "Many visitors pay an International Visitor Conservation and Tourism Levy (IVL) of NZD 100 (about A$80.13, RBA rate of 30 October 2026) when they request an NZeTA (electronic travel authority) or apply for a visa. It is paid each time and is not refunded, even if the application is declined. Travellers on an Australian or New Zealand passport do not pay it.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/fees-processing-times-and-refunds/paying-the-international-visitor-levy/",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Paying the International Visitor Levy",
+     "authority": "Immigration New Zealand",
+     "url": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/fees-processing-times-and-refunds/paying-the-international-visitor-levy/",
+     "checked": "2026-11-07",
+     "supports": "levy amount, who pays and who is exempt (read 2026-11-07)"
+    }
+   ],
+   "note": "National entry fee; Australian passport holders are listed as exempt."
   }
  }
 }

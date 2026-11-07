@@ -205,7 +205,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -231,6 +231,33 @@
      "source": "https://www.smartraveller.gov.au/destinations/africa/south-africa",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "SARS lists a duty-free allowance of 2 litres of wine and 1 litre of other alcohol per person. It does not apply to anyone under 18.",
+     "level": "country",
+     "source": "https://www.sars.gov.za/customs-and-excise/travellers/arrival-in-sa/",
+     "checked": "2026-11-07",
+     "heading": "Alcohol allowance on entry",
+     "evidence": "official"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "SARS lists a duty-free allowance of 200 cigarettes and 20 cigars, plus 250 g of cigarette or pipe tobacco, per person. It does not apply to anyone under 18. The page does not address e-cigarettes.",
+     "level": "country",
+     "source": "https://www.sars.gov.za/customs-and-excise/travellers/arrival-in-sa/",
+     "checked": "2026-11-07",
+     "heading": "Tobacco allowance on entry",
+     "evidence": "official"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "SARS says travellers are expected to declare currency in their possession on arrival, and treats excess currency as a restricted good needing prior approval; the page gives no threshold and points to its Excess Currency policy. It also lists animals, plants and their products (for example animal skins, dairy products, honey) as restricted goods that may need a permit.",
+     "level": "country",
+     "source": "https://www.sars.gov.za/customs-and-excise/travellers/arrival-in-sa/",
+     "checked": "2026-11-07",
+     "heading": "Currency and restricted goods",
+     "evidence": "official"
     }
    ],
    "sources": [
@@ -240,6 +267,12 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/south-africa",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Alcohol allowance on entry",
+     "authority": "South African Revenue Service",
+     "url": "https://www.sars.gov.za/customs-and-excise/travellers/arrival-in-sa/",
+     "checked": "2026-11-07"
     }
    ]
   },
