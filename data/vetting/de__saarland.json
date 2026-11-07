@@ -75,6 +75,63 @@
      "supports": "Landtag election date (read directly; the page says dates are without guarantee until officially announced)"
     }
    ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "level": "region",
+     "heading": "Feiertagsgesetz (SFG) sections 8 to 10 and section 14",
+     "rule": "Saarland bans events, sport, dances and gaming halls on protected days. From 4 am on Good Friday, All Saints (1 November), Totensonntag and Volkstrauertag, from 4 am to 6 pm on Buss- und Bettag, until 6 pm on All Souls (2 November) and from 2 pm on Christmas Eve, public meetings, parades and entertainment events that do not suit the character of the day are banned (section 8(1)). Gaming halls and similar businesses must close on Good Friday, All Saints, Totensonntag, Volkstrauertag, Christmas Eve and Christmas Day (section 8(2)). Public sport events are banned on Good Friday, All Saints and Totensonntag, until 11 am on All Souls and Buss- und Bettag, and from 2 pm on Christmas Eve (section 9). Public dance events are banned from 4 am on Maundy Thursday to midnight on Holy Saturday, from 4 am on All Saints, Volkstrauertag and Totensonntag, until 6 pm on All Souls, from 4 am to 6 pm on Buss- und Bettag, and from 2 pm to midnight on Christmas Eve (section 10). A breach can be fined up to EUR 1,500 (about A$2,384) (section 14(3)). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Fine up to EUR 1,500.",
+     "source": "https://recht.saarland.de/bssl/search/quick?query=Sonn- und Feiertage",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "level": "region",
+     "heading": "Nichtraucherschutzgesetz section 2, section 3 and section 6",
+     "rule": "Saarland bans smoking in enclosed rooms of public offices and courts, health and care facilities, schools and youth centres (on the grounds too, and on playgrounds), sports and culture venues, bars and restaurants (including hotels' dining rooms, discos and gaming halls with a bar), public airfields and other public meeting venues (section 2(1) to (3)). Marquees and festival tents count as enclosed rooms (section 2(2)). Section 3 allows some exceptions. The Act speaks of smoking only and does not name e-cigarettes. A smoker can be fined up to EUR 200 (about A$318); an operator who does not act or does not put up signs can be fined up to EUR 1,000 (about A$1,589), up to EUR 2,000 (about A$3,178) on a repeat (section 6(2)). AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Smoker up to EUR 200; operator up to EUR 1,000 (EUR 2,000 on a repeat).",
+     "source": "https://recht.saarland.de/bssl/search/quick?query=Nichtraucherschutzgesetz",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "level": "region",
+     "heading": "Landeswaldgesetz (LWaldG) section 25 and section 50",
+     "rule": "In Saarland forests, camping in a tent, driving or parking motor vehicles, and cycling or riding off roads and tracks need the owner's consent (section 25(3), including Nr. 5 for tents). Breaking this can be fined up to EUR 5,000 (about A$7,946), or up to EUR 15,000 (about A$23,835) for the more serious listed offences (section 50(3)). I did not find fire or smoking rules for the forest in the Landeswaldgesetz itself. AUD at A$1 = EUR 0.6293 (RBA, 30 Oct 2026).",
+     "penalty_signal": "Up to EUR 5,000; up to EUR 15,000 for the gravest listed offences.",
+     "source": "https://recht.saarland.de/bssl/search/quick?query=Waldgesetz",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gesetz Nr. 1040 uber die Sonn- und Feiertage (Feiertagsgesetz, SFG) of 18 February 1976",
+     "authority": "Saarland, Landesrecht Saarland",
+     "url": "https://recht.saarland.de/bssl/search/quick?query=Sonn- und Feiertage",
+     "supports": "Banned events, dances, gaming halls, fine",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Nichtraucherschutzgesetz (Gesetz zum Schutz vor den Gefahren des Passivrauchens) of 21 November 2007",
+     "authority": "Saarland, Landesrecht Saarland",
+     "url": "https://recht.saarland.de/bssl/search/quick?query=Nichtraucherschutzgesetz",
+     "supports": "Smoking ban and fines",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Waldgesetz fur das Saarland (Landeswaldgesetz) of 26 October 1977",
+     "authority": "Saarland, Landesrecht Saarland",
+     "url": "https://recht.saarland.de/bssl/search/quick?query=Waldgesetz",
+     "supports": "Forest camping and fines",
+     "checked": "2026-11-07"
+    }
+   ],
+   "checked": "2026-11-07"
   }
  }
 }

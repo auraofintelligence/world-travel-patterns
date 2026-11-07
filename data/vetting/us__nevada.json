@@ -58,7 +58,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -67,6 +67,20 @@
      "level": "state",
      "source": "https://ccb.nv.gov/laws-regulations/",
      "checked": "2026-11-02"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "In Nevada state parks (NAC 407), fires may be lit only in a portable stove, barbecue or fireplace, or on the ground only in an enclosure provided or approved by the park supervisor. Possessing or discharging any firecracker, fireworks or explosive in a park is not allowed. Glass containers are not allowed on any beach or waterfront area in a park.",
+     "source": "https://parks.nv.gov/uploads/documents/NACs_Updated_2024.pdf",
+     "level": "state",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "drones",
+     "rule": "Nevada State Parks' administrative code (NAC 407.125) covers aircraft: no one may land or take off in an aircraft from water or a park area that the park supervisor has not approved for aircraft landing. The code excerpt published on the parks site doesn't name drones, so ask the park before flying one.",
+     "source": "https://parks.nv.gov/uploads/documents/NACs_Updated_2024.pdf",
+     "level": "state",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -83,6 +97,12 @@
      "url": "https://www.leg.state.nv.us/division/legal/lawlibrary/Nrs/NRS-678D.html",
      "checked": "2026-11-02",
      "supports": "possession limits (read via a search-index snapshot)"
+    },
+    {
+     "title": "Park Rules and Regulations (NAC chapter 407 excerpt)",
+     "authority": "Nevada Division of State Parks",
+     "url": "https://parks.nv.gov/about/park-rules-and-regulations",
+     "checked": "2026-11-07"
     }
    ]
   },
