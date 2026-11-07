@@ -34,6 +34,45 @@
    ],
    "checked": "2026-11-05",
    "note": "Holidays treated like Sundays under the cantonal rest-day laws (SECO table). The 1 August national day is the only federal holiday. Holidays on a Sunday are not moved. This canton has local exceptions: the SECO annex lists different sets by district or by mainly Catholic or Reformed municipality, so check the municipality."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "work-and-payment",
+     "rule": "Fribourg charges two stay taxes (taxe de séjour) across the whole canton, collected through a central online platform: a cantonal tax and a regional tax (art. 21 of the tourism law). In the regulation each is CHF 1.50 per person per night (arts 32 and 33), so CHF 3.00 together (about A$5.18). The law caps each at CHF 3 a night (art. 29). The tax covers hotels, holiday homes, rented rooms, campsites, tents, caravans, hostels and huts (art. 24 of the law, art. 32 of the regulation). It is not charged for children under 16, people on military, civil protection or fire service duty, hospital and care-home residents, and residents of the commune (art. 25). The host collects it. AUD at the RBA rate of 30 October 2026, A$1 = CHF 0.5789.",
+     "level": "state",
+     "source": "https://bdlf.fr.ch/app/fr/texts_of_law/951.11",
+     "heading": "Loi sur le tourisme (RSF 951.1), arts 21, 24, 25, 29; Règlement sur le tourisme (RSF 951.11), arts 32 and 33",
+     "evidence": "official",
+     "checked": "2026-11-08"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Loi sur le tourisme, RSF 951.1",
+     "authority": "Etat de Fribourg, Banque de données législatives (BDLF)",
+     "url": "https://bdlf.fr.ch/app/fr/texts_of_law/951.1",
+     "supports": "stay tax structure, cap and exemptions (read directly)",
+     "checked": "2026-11-08"
+    },
+    {
+     "title": "Règlement sur le tourisme, RSF 951.11",
+     "authority": "Etat de Fribourg, Banque de données législatives (BDLF)",
+     "url": "https://bdlf.fr.ch/app/fr/texts_of_law/951.11",
+     "supports": "CHF 1.50 cantonal and CHF 1.50 regional per night (read directly)",
+     "checked": "2026-11-08"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
+     "checked": "2026-11-08",
+     "supports": "A$1 = CHF 0.5789 on 30 October 2026"
+    }
+   ],
+   "checked": "2026-11-08"
   }
  }
 }

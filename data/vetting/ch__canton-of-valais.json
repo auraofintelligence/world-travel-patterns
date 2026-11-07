@@ -55,6 +55,54 @@
    ],
    "checked": "2026-11-05",
    "note": "Holidays treated like Sundays under the cantonal rest-day laws (SECO table). The 1 August national day is the only federal holiday. Holidays on a Sunday are not moved."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "work-and-payment",
+     "rule": "Valais sets a framework for the tourist stay tax (taxe de séjour) and each commune's tourism society sets the amount in its own regulation, so there is no single canton-wide figure. The tax is charged per night to guests staying in the area of a recognised development society (art. 17(1)), and the host who lodges the guest collects and pays it over (art. 21(1)-(2)). It is not charged to people living in the commune, children under 6 (children 6 to 16 pay half), students during term, patients in hospitals and homes, and people on military, civil protection or fire service duty (art. 18(1)). The amount can vary by resort, type of accommodation and season (art. 19(1)). Check the commune's regulation for the rate.",
+     "level": "state",
+     "source": "https://lex.vs.ch/app/fr/texts_of_law/935.1",
+     "heading": "Loi sur le tourisme (RS 935.1), arts 17 to 21",
+     "evidence": "official",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Offering any of these activities for money in Valais needs a personal permit, and the business needs an operating permit: mountain guide, climbing instructor, snow sports teacher on or off piste, hiking guide, canyoning instructor or guide, rafting and white-water guide, bungee jumping instructor (arts 2(2) and 7 of the guide law). This binds the person selling the activity; a visitor who only joins a trip is not the one regulated. Operating without a permit is punishable by a fine of up to CHF 10,000 (about A$17,274), or up to CHF 5,000 (about A$8,637) if done through negligence (art. 17). AUD at the RBA rate of 30 October 2026, A$1 = CHF 0.5789.",
+     "level": "state",
+     "source": "https://lex.vs.ch/app/fr/texts_of_law/935.2",
+     "heading": "Loi sur les guides de montagne et les organisateurs d'autres activités à risque (RS 935.2), arts 2, 7 and 17",
+     "evidence": "official",
+     "checked": "2026-11-08"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Loi sur le tourisme, RS 935.1",
+     "authority": "Canton du Valais, Recueil de la législation (lex.vs.ch)",
+     "url": "https://lex.vs.ch/app/fr/texts_of_law/935.1",
+     "supports": "tourist stay tax framework, exemptions (read directly)",
+     "checked": "2026-11-08"
+    },
+    {
+     "title": "Loi sur les guides de montagne et les organisateurs d'autres activités à risque, RS 935.2",
+     "authority": "Canton du Valais, Recueil de la législation",
+     "url": "https://lex.vs.ch/app/fr/texts_of_law/935.2",
+     "supports": "permit duty and fines (read directly)",
+     "checked": "2026-11-08"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
+     "checked": "2026-11-08",
+     "supports": "A$1 = CHF 0.5789 on 30 October 2026"
+    }
+   ],
+   "checked": "2026-11-08"
   }
  }
 }

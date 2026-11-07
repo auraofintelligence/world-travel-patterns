@@ -30,6 +30,38 @@
    ],
    "checked": "2026-11-05",
    "note": "Holidays treated like Sundays under the cantonal rest-day laws (SECO table). The 1 August national day is the only federal holiday. Holidays on a Sunday are not moved."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "work-and-payment",
+     "rule": "Ticino charges one uniform stay tax (tassa di soggiorno) per night across the canton, set by category (executive decree on tourist taxes, art. 1, from 1 January 2025): CHF 4.50 in 4 and 5 star hotels (about A$7.77); CHF 4.20 in 1 to 3 star or unrated hotels (about A$7.26); CHF 2.00 in rooms, apartments and holiday homes (about A$3.45) and in lodgings sold through online portals that collect directly; CHF 3.10 at campsites, motorhome sites and youth hostels (about A$5.36); CHF 0.50 in huts and group lodgings (about A$0.86). The host adds it to the bill as a separate line and collects it (art. 12 of the tourism regulation). A separate promotion tax also applies to businesses. AUD at the RBA rate of 30 October 2026, A$1 = CHF 0.5789.",
+     "level": "state",
+     "source": "https://www.ticino.ch/en/hospitality/opportunita/tasse/alloggio.html",
+     "heading": "Ticino Turismo, tourist taxes on accommodation; Legge sul turismo 941.100 art. 21; Decreto esecutivo sulle tasse turistiche 7.5.1.1.2 art. 1; Regolamento 7.5.1.1.1 art. 12",
+     "evidence": "official",
+     "checked": "2026-11-08"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Touristic taxes on Accommodation Providers",
+     "authority": "Ticino Turismo (cantonal tourism authority)",
+     "url": "https://www.ticino.ch/en/hospitality/opportunita/tasse/alloggio.html",
+     "supports": "rates per night and legal basis, quoting the decree (read directly)",
+     "checked": "2026-11-08"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
+     "checked": "2026-11-08",
+     "supports": "A$1 = CHF 0.5789 on 30 October 2026"
+    }
+   ],
+   "checked": "2026-11-08"
   }
  }
 }
