@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -47,6 +47,15 @@
      "source": "https://pompeiisites.org/info-per-la-visita/orari-e-tariffe/",
      "checked": "2026-11-05",
      "by": "hand"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Naples has a mayoral order for its nightlife (movida) areas, in force from 16 October to 16 November 2026. Areas include the Quartieri Spagnoli, the Centro Storico Antico, the Chiaia 'baretti' quarter, the Vomero and Bagnoli-Fuorigrotta. Takeaway alcohol is banned every day from midnight to 6 am. Venues must close by 1 am Sunday to Thursday, 2 am Friday and 3 am Saturday. Fines are EUR 25 to EUR 500 per breach (about A$40 to A$795 at the RBA rate of 30 October 2026, A$1 = EUR 0.6293); the city has used a series of such orders for different squares, so check the city's news page for a renewal.",
+     "penalty_signal": "EUR 25 to EUR 500 (about A$40 to A$795), aimed at venues",
+     "source": "https://www.comune.napoli.it/novita/ordinanza-sindacale-movida-16ottobre/",
+     "heading": "Comune di Napoli, ordinanza sindacale movida, 16 October 2026",
+     "checked": "2026-11-07",
+     "level": "city"
     }
    ],
    "sources": [
@@ -70,6 +79,13 @@
      "url": "https://pompeiisites.org/info-per-la-visita/orari-e-tariffe/",
      "checked": "2026-11-05",
      "supports": "Pompeii named tickets and cap (read directly 2026-11-05)"
+    },
+    {
+     "title": "Movida e tutela della vivibilità: firmata l'Ordinanza Sindacale",
+     "authority": "Comune di Napoli",
+     "url": "https://www.comune.napoli.it/novita/ordinanza-sindacale-movida-16ottobre/",
+     "supports": "areas, hours, dates, fines",
+     "checked": "2026-11-07"
     }
    ],
    "note": "Recheck the 2027 calendar when Anas publishes it. Pompeii rule added 5 November 2026."

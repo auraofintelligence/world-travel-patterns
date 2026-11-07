@@ -54,7 +54,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -89,6 +89,29 @@
      "checked": "2026-11-06",
      "heading": "Drone registration for visitors",
      "evidence": "official"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Each traveller (or the responsible family member) must declare cash or negotiable instruments, precious metals or stones worth B$10,000 or more (B$ is at par with US$; US$10,000 is about A$14,200, RBA 30 Oct 2026: A$1 = USD 0.7040). The rule is aimed at money laundering and tax evasion.",
+     "penalty_signal": "Forfeiture of the cash, plus a fine of up to B$2,000",
+     "source": "https://www.bahamascustoms.gov.bs/visitor-info/departing/",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Duty-free allowance for adults: up to one quart of spirits and one quart of wine; tobacco up to one pound by weight, or 200 cigarettes, or 50 cigars. Visitors also have a B$100 exemption on other dutiable goods.",
+     "source": "https://www.bahamascustoms.gov.bs/visitor-info/arriving/",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "All food products must be declared. Fruit, vegetables and some dairy are restricted to protect plant and animal health.",
+     "penalty_signal": "Failure to declare can lead to forfeiture or fines",
+     "source": "https://www.bahamascustoms.gov.bs/accordions/general-travelers-questions/",
+     "level": "country",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -105,6 +128,27 @@
      "url": "https://caabahamas.com/drone-faqs/",
      "checked": "2026-11-06",
      "supports": "visitor drone rule"
+    },
+    {
+     "title": "Departing (travellers currency declaration)",
+     "authority": "The Bahamas Customs Department",
+     "url": "https://www.bahamascustoms.gov.bs/visitor-info/departing/",
+     "supports": "currency rule",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Arriving",
+     "authority": "The Bahamas Customs Department",
+     "url": "https://www.bahamascustoms.gov.bs/visitor-info/arriving/",
+     "supports": "allowances",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "General travellers questions",
+     "authority": "The Bahamas Customs Department",
+     "url": "https://www.bahamascustoms.gov.bs/accordions/general-travelers-questions/",
+     "supports": "food declaration",
+     "checked": "2026-11-07"
     }
    ]
   },

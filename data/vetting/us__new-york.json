@@ -59,7 +59,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -75,6 +75,36 @@
      "level": "state",
      "source": "https://www.nyc.gov/site/nypd/about/faq/firearms-faq.page",
      "checked": "2026-11-02"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "New York City (not the state) bans drinking alcohol in a public place, or holding an open container with the intent to drink it, except at a permitted block party, feast or similar event (Administrative Code 10-125). Since 2016 the penalty can be a civil penalty heard at the city's tribunal (OATH) instead of a criminal summons.",
+     "penalty_signal": "fine up to US$25 (about A$36 at A$1 = US$0.7040, RBA 30 Oct 2026)",
+     "level": "city",
+     "source": "https://intro.nyc/local-laws/2016-74",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Smoking and vaping are banned in New York City parks, beaches, marinas and boardwalks, in the Parks Department's aquatic and recreation buildings, and on pedestrian plazas set up by the city's transport department (such as those in Times Square). Sidewalks beside parks are exempt. The 2011 law was extended to e-cigarettes in 2014.",
+     "penalty_signal": "fine of US$50 per violation (about A$71 at A$1 = US$0.7040, RBA 30 Oct 2026)",
+     "level": "city",
+     "source": "https://council.nyc.gov/press/2011/02/02/924/",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "driving-and-licences",
+     "rule": "In New York City the speed limit for e-bikes, e-scooters and pedal-assist bikes is 15 mph (24 km/h), even though a Class 1 or 2 e-bike can reach 20 mph and Class 3 25 mph. E-bikes may use bike lanes, park drives and greenways, and streets with limits of 30 mph or less. E-scooters may not be ridden on sidewalks. The minimum age for e-bike riders is 16, and helmets are required for Class 3 e-bikes and for e-scooter riders aged 16 and 17.",
+     "level": "city",
+     "source": "https://www.nyc.gov/html/dot/html/bicyclists/ebikes.shtml",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "A hotel room occupancy tax applies in New York City on top of the room rate and is paid by the guest: the city percentage rate plus a flat amount per room per night (50 cents for a rent of US$10 to under US$20, US$1.00 for US$20 to under US$30, US$1.50 for US$30 to under US$40, and US$2.00 for US$40 or more; about A$2.84 at the top tier at A$1 = US$0.7040, RBA 30 Oct 2026). Each room of a suite counts. The percentage rate was not stated on the page read.",
+     "level": "city",
+     "source": "https://www.nyc.gov/site/finance/business/business-hotel-room-occupancy-tax.page",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -91,6 +121,32 @@
      "url": "https://www.nyc.gov/site/nypd/about/faq/firearms-faq.page",
      "checked": "2026-11-02",
      "supports": "licence needed to possess firearms; NYC has its own licensing (read via a search-index snapshot)"
+    },
+    {
+     "title": "Local Law 74 of 2016 (open container penalties)",
+     "authority": "New York City Council",
+     "url": "https://intro.nyc/local-laws/2016-74",
+     "checked": "2026-11-07",
+     "supports": "10-125 text and US$25 penalty (council local law PDF, hosted on intro.nyc)"
+    },
+    {
+     "title": "Smoking ban in parks and beaches",
+     "authority": "New York City Council",
+     "url": "https://council.nyc.gov/press/2011/02/02/924/",
+     "checked": "2026-11-07",
+     "supports": "where smoking is banned, US$50 fine"
+    },
+    {
+     "title": "E-bikes, e-scooters and mopeds",
+     "authority": "NYC Department of Transportation",
+     "url": "https://www.nyc.gov/html/dot/html/bicyclists/ebikes.shtml",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Hotel room occupancy tax",
+     "authority": "NYC Department of Finance",
+     "url": "https://www.nyc.gov/site/finance/business/business-hotel-room-occupancy-tax.page",
+     "checked": "2026-11-07"
     }
    ]
   },

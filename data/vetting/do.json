@@ -54,7 +54,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -89,6 +89,27 @@
      "checked": "2026-11-06",
      "heading": "Drone operations for visitors",
      "evidence": "official"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "No tax is charged for carrying money, but if you enter or leave with more than US$10,000 (or the equivalent in pesos or another currency, or bearer securities) you must declare it to customs officers on the official form and show documents proving the money's lawful source. US$10,000 is about A$14,200 (RBA 30 Oct 2026: A$1 = USD 0.7040).",
+     "source": "https://www.aduanas.gob.do/manual-del-viajero/",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Duty-free for adults: up to 5 litres of alcoholic drinks. Tobacco duty-free: 20 packs of cigarettes, or 25 cigars, or 200 grams of tobacco. Gifts are limited to US$500 in total, usable once every three months.",
+     "source": "https://www.aduanas.gob.do/manual-del-viajero/",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Medicines for personal use are allowed. For controlled or psychotropic substances you must show the medical prescription that justifies their use during your stay. Plants, farm products, food and medicines can also be regulated by the Ministry of Agriculture or the Ministry of Public Health.",
+     "source": "https://www.aduanas.gob.do/manual-del-viajero/",
+     "level": "country",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -105,6 +126,13 @@
      "url": "https://www.idac.gob.do/drone/preguntas-frecuentes/",
      "checked": "2026-11-06",
      "supports": "visitor drone rule"
+    },
+    {
+     "title": "Manual del Viajero",
+     "authority": "Direccion General de Aduanas, Republica Dominicana",
+     "url": "https://www.aduanas.gob.do/manual-del-viajero/",
+     "supports": "cash, allowances, medicines",
+     "checked": "2026-11-07"
     }
    ]
   },

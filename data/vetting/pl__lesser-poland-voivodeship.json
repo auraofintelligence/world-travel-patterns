@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -39,6 +39,14 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Tatra National Park"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "From 1 September 2026, Kraków's night ban on selling alcohol for drinking away from the place of sale (shops, supermarkets, petrol stations, liquor stores) covers all districts of the city, from 10 pm to 6 am. It is set by a city council resolution amending the one of 17 May 2023. The city says breaking it is an offence under Poland's act on sobriety and preventing alcoholism. The notice does not say whether bars and restaurants are covered; the earlier rule excluded them.",
+     "level": "city",
+     "source": "https://krakow.pl/aktualnosci/335147,29,komunikat,od_1_wrzesnia_wydluzenie_zakazu_nocnej_sprzedazy_alkoholu_w_krakowie_.html",
+     "heading": "Miasto Kraków, council resolution LVI/1196/26 (draft number on the notice) amending CX/2970/23",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -55,6 +63,13 @@
      "url": "https://api.nbp.pl/api/exchangerates/rates/a/aud/2026-10-30/?format=json",
      "checked": "2026-11-05",
      "supports": "PLN fallback rate, 2026-10-30 (read directly 2026-11-05)"
+    },
+    {
+     "title": "Od 1 września wydłużenie zakazu nocnej sprzedaży alkoholu w Krakowie",
+     "authority": "Miasto Kraków",
+     "url": "https://krakow.pl/aktualnosci/335147,29,komunikat,od_1_wrzesnia_wydluzenie_zakazu_nocnej_sprzedazy_alkoholu_w_krakowie_.html",
+     "supports": "night alcohol sales ban",
+     "checked": "2026-11-07"
     }
    ],
    "note": "Read directly."
