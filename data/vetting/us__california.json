@@ -137,6 +137,28 @@
      "source": "https://www.nps.gov/muwo/planyourvisit/pets.htm",
      "level": "state",
      "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "San Francisco's Police Code bans drinking alcohol on public streets, sidewalks and other public property open to public view (Police Code section 21). Its Park Code (section 4.10) bans alcohol in park buildings, children's play areas, pools, restrooms and a list of named parks unless the Recreation and Park Department gives permission, and section 4.11 lets park staff and police exclude intoxicated people.",
+     "penalty_signal": "infraction, fine reported as US$25 to US$100 (about A$36 to A$142 at A$1 = US$0.7040, RBA 30 Oct 2026)",
+     "level": "city",
+     "source": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_police/0-0-0-179",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "San Francisco's Health Code (section 1009.81) prohibits smoking in unenclosed City park and recreation areas, with signs posted.",
+     "level": "city",
+     "source": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_health/0-0-0-3316",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Los Angeles County beaches (which include Venice, Dockweiler and Manhattan Beach) post these rules: no alcoholic beverages, no smoking, no glass containers, no fires or barbecues, no animals of any kind, and no loitering between midnight and 6 am. The county's permit paperwork says no alcohol permits are issued for Venice, Dockweiler, Manhattan, Redondo or Torrance beaches. The page lists no penalties.",
+     "level": "county",
+     "source": "https://beaches.lacounty.gov/la-county-beach-rules/",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -153,6 +175,26 @@
      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=11362.1",
      "checked": "2026-11-02",
      "supports": "possession limits (read via a search-index snapshot)"
+    },
+    {
+     "title": "SF Police Code and Park Code alcohol provisions",
+     "authority": "City and County of San Francisco (American Legal Publishing, official code host)",
+     "url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_police/0-0-0-179",
+     "checked": "2026-11-07",
+     "supports": "section 21 and fine range (page returned 403; read via a search-index snapshot)"
+    },
+    {
+     "title": "Health Code 1009.81 smoking in parks",
+     "authority": "City and County of San Francisco (American Legal Publishing)",
+     "url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_health/0-0-0-3316",
+     "checked": "2026-11-07",
+     "supports": "smoking ban in park areas (read via a search-index snapshot)"
+    },
+    {
+     "title": "LA County beach rules",
+     "authority": "Los Angeles County Department of Beaches and Harbors",
+     "url": "https://beaches.lacounty.gov/la-county-beach-rules/",
+     "checked": "2026-11-07"
     }
    ]
   },

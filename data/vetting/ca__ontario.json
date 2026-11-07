@@ -60,7 +60,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -69,6 +69,21 @@
      "level": "region",
      "source": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
      "checked": "2026-11-02"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Toronto's Alcohol in Parks Program lets people aged 19 and over bring and drink their own alcohol in the listed City parks only, during park hours (5:30 am to midnight). Drinking is not allowed within 2 metres of playgrounds, wading pools, splash pads, outdoor pools, outdoor ice rinks and skateboard or BMX parks, and nothing may be supplied to under-19s. The City's page lists 55 parks while its own background section refers to 45 parks adopted in April 2024, so check the current list. Selling or serving alcohol in a park needs a City Special Event permit and an Alcohol and Gaming Commission of Ontario permit. Drinking in a park that is not on the list is an offence under the City's parks bylaw.",
+     "penalty_signal": "parks bylaw fines range from C$100 to C$750 (about A$102 to A$762 at A$1 = C$0.9838, RBA 30 Oct 2026)",
+     "level": "city",
+     "source": "https://www.toronto.ca/city-government/planning-development/construction-new-facilities/parks-facility-plans-strategies/alcohol-in-parks-program/",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "In Toronto parks you cannot smoke or vape (cannabis included) within 20 metres of listed areas such as playgrounds and sports fields. Lighting or stoking an open fire or bonfire in a park needs a permit, and so does parking a vehicle overnight.",
+     "level": "city",
+     "source": "https://www.toronto.ca/city-government/public-notices-bylaws/bylaw-enforcement/parks/",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -78,6 +93,18 @@
      "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/provinces-territories.html",
      "checked": "2026-11-02",
      "supports": "legal age, where to buy and public possession limit by province or territory (read via a search-index snapshot)"
+    },
+    {
+     "title": "Alcohol in Parks Program",
+     "authority": "City of Toronto",
+     "url": "https://www.toronto.ca/city-government/planning-development/construction-new-facilities/parks-facility-plans-strategies/alcohol-in-parks-program/",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Parks bylaw enforcement",
+     "authority": "City of Toronto",
+     "url": "https://www.toronto.ca/city-government/public-notices-bylaws/bylaw-enforcement/parks/",
+     "checked": "2026-11-07"
     }
    ]
   },
