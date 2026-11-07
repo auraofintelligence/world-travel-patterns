@@ -242,7 +242,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -308,6 +308,30 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
      "checked": "2026-10-31",
      "heading": "Driver's licences and International Driving permits"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Anyone bringing in or taking out more than US$10,000 in currency or monetary instruments (cash, travellers' cheques and similar), at one time, must report it to US Customs and Border Protection on FinCEN Form 105. For families or groups, the US$10,000 is counted on the total carried together, not per person. Reporting is not a tax; the report is the requirement.",
+     "penalty_signal": "Unreported money can be seized and forfeited; civil or criminal penalties, including fines or imprisonment, can follow",
+     "source": "https://www.cbp.gov/travel/international-visitors/money-monetary-instruments",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Declare all agricultural items (fresh fruit and vegetables, meat and similar) to CBP on arrival so an agriculture specialist can decide if they are allowed in. Whether a piece of fruit is admissible depends on where it came from and where you go next in the US. Meat rules change with animal-disease outbreaks overseas.",
+     "penalty_signal": "Civil penalty for not declaring agricultural items: US$300 first time, US$500 second time (CBP, as published)",
+     "source": "https://www.cbp.gov/travel/international-visitors/kbyg/prohibited-restricted",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Bring only medicine prescribed to you by a licensed doctor. CBP and the US Food and Drug Administration advise carrying it in its original container with the doctor's instructions on it, plus a prescription or doctor's letter written in English. Drugs obtained overseas are in most cases not allowed to be imported for personal use. Medicines that are also controlled substances have extra rules.",
+     "penalty_signal": "Medicines can be refused entry or seized",
+     "source": "https://www.cbp.gov/travel/international-visitors/kbyg/prohibited-restricted",
+     "level": "country",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -317,6 +341,20 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/united-states-america",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Money and Other Monetary Instruments",
+     "authority": "US Customs and Border Protection",
+     "url": "https://www.cbp.gov/travel/international-visitors/money-monetary-instruments",
+     "supports": "US$10,000 reporting rule",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Prohibited and Restricted Items",
+     "authority": "US Customs and Border Protection",
+     "url": "https://www.cbp.gov/travel/international-visitors/kbyg/prohibited-restricted",
+     "supports": "agricultural declaration penalty and medication guidance",
+     "checked": "2026-11-07"
     }
    ]
   },
@@ -1097,6 +1135,38 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; heritage laws are not yet read (see national.read)."
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "US National Park Service (Department of the Interior)",
+     "process": "Eleven national parks charge visitors who live outside the US a nonresident fee of US$100 (about A$142 at A$1 = USD 0.7040, RBA 30 Oct 2026) per person aged 16 and over, on top of the normal entrance fee. The parks are Acadia, Bryce Canyon, Everglades, Glacier, Grand Canyon, Grand Teton, Rocky Mountain, Sequoia and Kings Canyon, Yellowstone, Yosemite and Zion. The fee is per person, not per vehicle. Nonresident annual America the Beautiful pass: US$250 (about A$355) from 1 January 2026, against US$80 (about A$114) for US citizens and residents. A valid pass covers the holder's nonresident fee, plus the vehicle's passengers, or at per-person sites the holder plus three adults. Resident passes need a photo ID at use (US passport, state driver licence or ID, or permanent resident card); a buyer who does not qualify is asked to upgrade to the nonresident pass. Fee-free days from 2026 apply to US residents only. The NPS page links the change to a July 2025 Executive Order on improving national parks. The NPS page gives no separate start date for the US$100 fee; check each park's fee page before arriving.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.nps.gov/aboutus/nonresident-fees.htm",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Nonresident Fees",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/aboutus/nonresident-fees.htm",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Entrance Passes",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/planyourvisit/passes.htm",
+     "checked": "2026-11-07"
+    }
+   ]
   }
  }
 }

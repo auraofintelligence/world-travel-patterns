@@ -807,6 +807,134 @@
    "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "entry-permit",
+     "authority": "National Park Service, Ministry of the Interior (Yushan, Taroko and Shei-Pa National Park headquarters), through the Hike Smart Taiwan service",
+     "process": "Some mountain routes in Yushan, Taroko and Shei-Pa national parks are ecological protection areas that need a park entry permit, applied for online at Hike Smart Taiwan. The three parks share the system but each reviews its own applications and each park needs its own application. Applications are open 07:00 to 23:00 Taiwan time. Yushan pauses applications during its lottery hour (15:00 to 16:00). Permits and their registration are free of charge. The parks lie across several counties (Taroko's FAQ names Hualien County's Xiulin police); the county tree is not built yet, so this is held at country level.",
+     "lead_time_days": 35,
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://hike.taiwan.gov.tw/en/web_index.aspx",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "National Police Agency (mountain entry permit) with the park headquarters",
+     "process": "A separate mountain entry permit (also called a police mountain permit) covers restricted mountain areas and is managed by the National Police Agency. Some routes need both permits, some only one, some none. Taroko lists, for example, Mt Nanhu and Mt Qilai as needing both, Zhuilu Old Road as park permit only, and Hehuan Main Peak and Shakadang Trail as needing none. After a park permit is approved, the applicant can send the details on to the police system online; Taroko's FAQ says this is available 5 to 30 days (in one line 'working days') before the hike, the online police form is in Chinese only, and a permit can also be bought in person at a police station near the trailhead. Yushan says an approved group can download its park permit 5 days before entry.",
+     "lead_time_days": 30,
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://hike.taiwan.gov.tw/en/news_7_1.aspx?ID=2661",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "visitor-cap",
+     "authority": "Yushan National Park Headquarters",
+     "process": "Yushan's Paiyun Lodge (the hut on the main Yushan route) is allocated by lottery about one month before the entry date. A separate advance quota for foreigners can be applied for from 4 months to 35 days before the climb date: 24 places a day, Sunday to Thursday, not on national holidays, and at most 2 local people per team as guides or interpreters. Lodging is NT$480 a person a night (about A$20.92, RBA rate of 30 October 2026, TWD 22.95 per A$1). Under-18s need a parent's or guardian's consent form.",
+     "lead_time_days": 35,
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://hike.taiwan.gov.tw/en/news_7_1.aspx?ID=2567",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "visitor-cap",
+     "authority": "Shei-Pa National Park Headquarters",
+     "process": "Shei-Pa reserves 24 places a day for foreigners at each of Qika Hut, Saliujiu Hut and Jiujiu Hut, Sunday to Thursday outside continuous national holidays. The foreign window is 4 months to 65 days before the entry date, for foreign tourists with a foreign address (students and foreigners living in Taiwan use the standard application). A team has up to 12 members and may include locals (1 local for 1 to 5 foreigners, 2 for 6 to 10, at most 4 locals in the foreign quota per hut). Unfilled places pass to the standard application. The guideline PDF is undated.",
+     "lead_time_days": 65,
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://hike.taiwan.gov.tw/nationpark/manasystem/news/files/news/64cba1f1-8873-446b-a057-a70398635c0f.pdf",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "fee",
+     "authority": "Taroko National Park Headquarters",
+     "process": "Taroko charges NT$200 (about A$8.71 at TWD 22.95 per A$1, RBA 30 October 2026) to enter Zhuilu Old Road, cash on arrival at the trailhead. Taroko's FAQ (dated 2019) gives windows of 7 to 30 days before entry for most mountain routes, 3 to 30 days for single-day Mt Yangtou and Mt Bilu, and 1 to 30 days for Zhuilu Old Road (up to 3 pm the working day before). Some routes have daily quotas.",
+     "lead_time_days": 1,
+     "activities": [
+      "hiking"
+     ],
+     "url": "https://hike.taiwan.gov.tw/en/news_7_1.aspx?ID=2658",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hike Smart Taiwan (one-stop mountain application service)",
+     "authority": "National Park Service, Ministry of the Interior",
+     "url": "https://hike.taiwan.gov.tw/en/web_index.aspx",
+     "checked": "2026-11-07",
+     "supports": "shared system for Yushan, Taroko and Shei-Pa; hours; lottery pause"
+    },
+    {
+     "title": "FAQ: What is a Mountain Entry Permit? What is a Park Entry Permit?",
+     "authority": "Taroko National Park Headquarters",
+     "url": "https://hike.taiwan.gov.tw/en/news_7_1.aspx?ID=2661",
+     "checked": "2026-11-07",
+     "supports": "two permit types, police role"
+    },
+    {
+     "title": "FAQ: Do I need a permit for my trail itinerary?",
+     "authority": "Taroko National Park Headquarters",
+     "url": "https://hike.taiwan.gov.tw/en/news_7_1.aspx?ID=2655",
+     "checked": "2026-11-07",
+     "supports": "which routes need which permit (modified 2025/03/18)"
+    },
+    {
+     "title": "FAQ: When can I apply for a Park Entry Permit?",
+     "authority": "Taroko National Park Headquarters",
+     "url": "https://hike.taiwan.gov.tw/en/news_7_1.aspx?ID=2664",
+     "checked": "2026-11-07",
+     "supports": "application windows (modified 2019/04/01)"
+    },
+    {
+     "title": "FAQ: How much does a permit cost?",
+     "authority": "Taroko National Park Headquarters",
+     "url": "https://hike.taiwan.gov.tw/en/news_7_1.aspx?ID=2658",
+     "checked": "2026-11-07",
+     "supports": "permits free; Zhuilu NT$200"
+    },
+    {
+     "title": "FAQ: apply for a mountain entry permit after a park permit",
+     "authority": "Taroko National Park Headquarters",
+     "url": "https://hike.taiwan.gov.tw/en/news_7_1.aspx?ID=1157",
+     "checked": "2026-11-07",
+     "supports": "transfer to police permit, 5 to 30 days"
+    },
+    {
+     "title": "FAQ: How to apply for Yushan park entry",
+     "authority": "Yushan National Park Headquarters",
+     "url": "https://hike.taiwan.gov.tw/en/news_7_1.aspx?ID=1026",
+     "checked": "2026-11-07",
+     "supports": "modified 2026/05/19; permit download 5 days before"
+    },
+    {
+     "title": "A brief introduction of how to apply for Paiyun Lodge",
+     "authority": "Yushan National Park Headquarters",
+     "url": "https://hike.taiwan.gov.tw/en/news_7_1.aspx?ID=2567",
+     "checked": "2026-11-07",
+     "supports": "foreign quota, lottery, NT$480 (modified 2026/08/12)"
+    },
+    {
+     "title": "Guidelines on Foreigners' Applications for Park Permit, Shei-Pa conservation areas",
+     "authority": "Shei-Pa National Park Headquarters",
+     "url": "https://hike.taiwan.gov.tw/nationpark/manasystem/news/files/news/64cba1f1-8873-446b-a057-a70398635c0f.pdf",
+     "checked": "2026-11-07",
+     "supports": "foreign quota and window"
+    }
+   ],
+   "note": "The park headquarters' own sites were under maintenance on 2026-11-07, so the details come from the shared Hike Smart Taiwan site, which carries the parks' FAQs and notices (some dated 2019 or 2025: recheck windows before applying). Scenic spots and ordinary hiking trails in Taroko need no permit, per Taroko's FAQ."
   }
  }
 }

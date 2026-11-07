@@ -1,0 +1,54 @@
+{
+ "place": "id/southeast-sulawesi",
+ "patterns": {
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Balai Taman Nasional Wakatobi (national park office, Ministry of Forestry)",
+     "process": "Wakatobi National Park sells tickets online. Foreign visitors pay IDR 150,000 a person a day (about A$11.74, RBA rate of 30 October 2026, IDR 12,780 per A$1) and IDR 225,000 on holidays (about A$17.61). Activity tickets are extra: scuba diving IDR 25,000 a person a day (about A$1.96), snorkelling IDR 15,000 (about A$1.17) and fishing IDR 25,000 (about A$1.96). Boats pay too: a motor boat of 40 to 100 horsepower IDR 100,000 a day (about A$7.82) and a cruise yacht IDR 2,000,000 per unit a day (about A$156.49).",
+     "lead_time_days": 0,
+     "activities": [
+      "diving",
+      "snorkelling",
+      "tourism",
+      "fishing"
+     ],
+     "url": "https://tiket.wakatobinationalpark.id/",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "Balai Taman Nasional Wakatobi",
+     "process": "The park's site links a separate SIMAKSI (entry permit for specified activities) service, with ticket counters on Kaledupa, Tomia - Binongko and Wangi-Wangi. The permit rules themselves were not on the pages read.",
+     "lead_time_days": 14,
+     "activities": [
+      "all"
+     ],
+     "url": "https://wakatobinationalpark.id/simaksi/",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tiket (ticket price list)",
+     "authority": "Balai Taman Nasional Wakatobi",
+     "url": "https://tiket.wakatobinationalpark.id/",
+     "checked": "2026-11-07",
+     "supports": "entry, dive, snorkel, fishing and boat prices (read directly 2026-11-07)"
+    },
+    {
+     "title": "Wakatobi National Park",
+     "authority": "Balai Taman Nasional Wakatobi",
+     "url": "https://wakatobinationalpark.id/",
+     "checked": "2026-11-07",
+     "supports": "SIMAKSI service link and park office"
+    }
+   ],
+   "note": "The ticket page is undated; prices are as shown on 2026-11-07. Private resort operators inside the park may charge their own fees."
+  }
+ }
+}

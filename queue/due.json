@@ -2,10 +2,10 @@
  "summary": {
   "generated_on": "2026-11-07",
   "mode": "public",
-  "place_passes": 286,
-  "pattern_items": 1045,
+  "place_passes": 285,
+  "pattern_items": 1043,
   "by_reason": {
-   "never-checked": 1043,
+   "never-checked": 1041,
    "over-budget": 2
   },
   "watch_checks": 0
@@ -610,28 +610,6 @@
    ]
   },
   {
-   "place": "us",
-   "name": "United States",
-   "kind": "country",
-   "tags": [
-    "first-nations"
-   ],
-   "due": [
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "vu",
    "name": "Vanuatu",
    "kind": "country",
@@ -809,6 +787,22 @@
    "kind": "country",
    "tags": [
     "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    }
+   ]
+  },
+  {
+   "place": "us",
+   "name": "United States",
+   "kind": "country",
+   "tags": [
+    "first-nations"
    ],
    "due": [
     {
@@ -6138,20 +6132,6 @@
      "age_days": null,
      "budget_days": 90
     },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "tw",
-   "name": "Taiwan",
-   "kind": "jurisdiction",
-   "tags": [],
-   "due": [
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
