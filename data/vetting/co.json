@@ -69,7 +69,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-07",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -125,6 +125,58 @@
      "source": "https://www.dian.gov.co/Viajeros-y-Servicios-aduaneros/Paginas/Declaracion-de-viajeros-Formulario-530.aspx",
      "level": "country",
      "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Driving after drinking is sanctioned from a blood alcohol of 20 mg of ethanol per 100 ml of blood (Ley 1696 de 2013, art. 5, which rewrote art. 152 of Ley 769 de 2002). At 20 to 39 mg the first offence brings a one-year licence suspension, a fine of 90 minimum daily wages, 20 hours of community work and one working day of vehicle immobilisation. At 40 to 99 mg (first degree) the first offence brings a three-year suspension, a fine of 180 minimum daily wages, 30 hours of community work and three working days of immobilisation. Higher bands carry heavier sanctions.",
+     "level": "country",
+     "source": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=55964",
+     "checked": "2026-11-08",
+     "penalty_signal": "Licence suspension, fine, vehicle immobilisation"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "In public space and places open to the public, consuming alcoholic drinks where it is not authorised, and smoking where it is banned, are listed police-code behaviours to avoid (Ley 1801 de 2016, Codigo Nacional de Policia, art. 33 num. 2 lit. c and d). The listed measure for the drinking behaviour is a general fine type 2 and possible break-up of the gathering; for smoking in a banned place it is a warning. The Constitutional Court struck out part of the wording of lit. c (C-253 de 2019).",
+     "level": "country",
+     "source": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+     "checked": "2026-11-08",
+     "penalty_signal": "General fine type 2; warning for smoking"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "The personal dose is defined in Ley 30 de 1986, art. 2 lit. j: up to 20 g of marijuana, 5 g of hashish, 1 g of cocaine or coca-based substance, and 2 g of methaqualone. A quantity carried to distribute or sell is not a personal dose, whatever its size. The Constitutional Court removed art. 51, which had punished carrying a personal dose (C-221 de 1994). Trafficking and carrying above the dose remain offences; the penalties are in the same law and the Penal Code.",
+     "level": "country",
+     "source": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=2774",
+     "checked": "2026-11-08",
+     "penalty_signal": "Above-dose and trafficking offences carry prison"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "The police code bans consuming alcohol and carrying or consuming psychoactive substances, even the personal dose, in public space or places open to the public inside the perimeter a mayor sets around a school (Ley 1801 de 2016, art. 34 num. 3 and par. 3). Perimeters are set town by town.",
+     "level": "country",
+     "source": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Smoking tobacco is banned in the closed areas of workplaces and public places such as bars, restaurants, shopping centres, hotels, stadiums and discos, and in health, education, museum and library premises and in public and private transport (Ley 1335 de 2009, art. 19). Ley 2354 de 2024, art. 4 applies all the Ley 1335 control measures to electronic nicotine devices, heated tobacco and oral nicotine products, so the same bans reach vaping.",
+     "level": "country",
+     "source": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=36878",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "It is a listed police-code behaviour to collect, keep, transport, sell or possess wild fauna, alive or dead, or its parts, without environmental authorisation, and to collect, extract or move wild flora or its products without the authority's permission (Ley 1801 de 2016, art. 101 num. 1 and 2). That reaches shells, coral and animal parts taken as souvenirs.",
+     "level": "country",
+     "source": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Exporting a cultural-interest good without the cultural authority's authorisation, hiding it from customs control, or digging into or otherwise working on archaeological objects without permission, are listed police-code behaviours against cultural heritage (Ley 1801 de 2016, art. 115 num. 5 and 6; art. 112 num. 5 also bars exporting archaeological items without authorisation). Cases involving archaeological items go to the national anthropology institute (ICANH).",
+     "level": "country",
+     "source": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+     "checked": "2026-11-08"
     }
    ],
    "sources": [
@@ -141,6 +193,13 @@
      "url": "https://www.dian.gov.co/Viajeros-y-Servicios-aduaneros/Paginas/Declaracion-de-viajeros-Formulario-530.aspx",
      "supports": "cash and agricultural declaration",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "Gestor Normativo: Ley 1696 de 2013, Ley 30 de 1986, Ley 1335 de 2009, Ley 1801 de 2016",
+     "authority": "Departamento Administrativo de la Funcion Publica, Colombia (official text; SUIN-Juriscol pages would not load as text)",
+     "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+     "checked": "2026-11-08",
+     "supports": "drink-drive bands, personal dose, public drinking, smoking and vaping, wildlife and heritage rules"
     }
    ]
   },

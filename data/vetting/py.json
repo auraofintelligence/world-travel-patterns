@@ -54,7 +54,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -80,6 +80,37 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/paraguay",
      "checked": "2026-10-31",
      "heading": "Other laws"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Driving with 0.200 to 0.250 mg per litre of breath, or 0.400 to 0.500 g per litre of blood, is a serious traffic fault (Ley 5016 de 2014, art. 112 x). From 0.251 to 0.399 mg/L of breath or 0.501 to 0.799 g/L of blood it is a very serious fault (art. 113 g), and above that the file goes to the public prosecutor. Refusing the alcohol or drug test is also a very serious fault (art. 113 h). Limits as rewritten by Ley 6842.",
+     "level": "country",
+     "source": "https://www.bacn.gov.py/leyes-paraguayas/9862/ley-n-6842-modifica-el-articulo-112-inciso-x-y-el-articulo-113-inciso-g-de-la-ley-n-50162014-nacional-de-transito-y-seguridad-vial",
+     "checked": "2026-11-08",
+     "penalty_signal": "Traffic fault; referral to the prosecutor above the upper band"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Holding a prescribed substance, or one for exclusive personal use, is exempt from penalty; more than the prescribed or personal-use amount carries two to four years in prison and forfeiture (Ley 1340 de 1988, art. 30). For a person dependent on a drug, the daily-use amount is set case by case by a forensic doctor and a Health Ministry doctor, and for marijuana it does not exceed 10 g, and for cocaine, heroin and other opiates 2 g. Text as published on the BACN page; later amending laws (for example Ley 6902) did not show a change to art. 30 in what was read.",
+     "level": "country",
+     "source": "https://www.bacn.gov.py/leyes-paraguayas/2562/ley-n-1340--modifica-adiciona-y-actualiza-la-ley-n-35772que-reprime-el-trafico-ilicito-de-estupefacientes-y-drogas-peligrosas-y-otros-delitos-afines-y-establece-medidas-de-prevencion-y--recuperacion-de-farmacodependientes",
+     "checked": "2026-11-08",
+     "penalty_signal": "Above personal use: 2 to 4 years in prison"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Smoking, vaping and keeping tobacco products lit are banned in schools, public transport and terminals, cinemas, theatres, libraries, museums, health centres, shops and supermarkets, enclosed workplaces, petrol stations, pubs, restaurants, discos, bars and casinos, lifts and children's play areas, except in specially permitted spots (Ley 5538 de 2015, art. 9). Ley 7508 de 2025, art. 11 allows smoking or vaping only outdoors where no people are present and no non-smokers pass through, with the Health Ministry defining smoke-free spaces.",
+     "level": "country",
+     "source": "https://www.bacn.gov.py/leyes-paraguayas/4519/ley-n-5538-modifica-la-ley-n-404510-que-modifica-la-ley-n-12591-modificada-por-la-ley-n-242104-sobre-su-regimen-tributario-que-regula-las-actividades-relacionadas-al-tabaco-y-establece-medidas-sanitarias-de-proteccion-a-la-poblacion",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Only temporary exit of national cultural heritage goods is allowed, with the Secretaria Nacional de Cultura's authorisation and a guarantee they return (Ley 5621 de 2016, art. 25). Trafficking cultural goods out of the country is punished with 2 to 10 years in prison (art. 41 d).",
+     "level": "country",
+     "source": "https://www.bacn.gov.py/leyes-paraguayas/5259/ley-n-5621-de-proteccion-del-patrimonio-cultural",
+     "checked": "2026-11-08",
+     "penalty_signal": "2 to 10 years in prison for trafficking abroad"
     }
    ],
    "sources": [
@@ -89,6 +120,13 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/paraguay",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "BACN: Ley 1340/1988, 5016/2014, 5538/2015, 5621/2016, 6842, 7508/2025",
+     "authority": "Biblioteca y Archivo del Congreso Nacional, Paraguay",
+     "url": "https://www.bacn.gov.py/leyes-paraguayas/2562/ley-n-1340--modifica-adiciona-y-actualiza-la-ley-n-35772que-reprime-el-trafico-ilicito-de-estupefacientes-y-drogas-peligrosas-y-otros-delitos-afines-y-establece-medidas-de-prevencion-y--recuperacion-de-farmacodependientes",
+     "checked": "2026-11-08",
+     "supports": "drink-drive limits, personal-use drugs, smoking and vaping, heritage export"
     }
    ]
   },

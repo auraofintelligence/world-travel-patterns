@@ -249,7 +249,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-07",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -296,6 +296,43 @@
      "source": "https://www.aduanas.gub.uy/innovaportal/v/12000/8/innova.front/equipaje_de_turistas_extranjeros_o_uruguayos_que_retornan_de_viajes.html",
      "level": "country",
      "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "The legal blood alcohol limit for any driver is zero: a driver is disqualified when blood alcohol is above 0.0 g per litre (Ley 18.191, art. 45, as rewritten by Ley 19.360 de 2015, art. 1). The first offence brings licence suspension of six months to a year, and refusing the test can bring a fine of up to 100 UR and counts as a presumption of guilt (Ley 18.191, art. 46).",
+     "level": "country",
+     "source": "https://www.impo.com.uy/bases/leyes/18191-2007",
+     "checked": "2026-11-08",
+     "penalty_signal": "Licence suspension; fine up to 100 UR for refusing the test"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Cannabis is regulated by the state (Ley 19.172 de 2013). The lawful routes are home growing (up to six plants), membership clubs, and pharmacy sale of up to 40 g a month, and pharmacy sale requires the buyer to be on the cannabis registry (Decreto-Ley 14.294, art. 3, as rewritten by Ley 19.172, art. 5). Only Uruguayan citizens and permanent residents aged 18 or over can register to buy or to grow at home (Decreto 120/014, arts. 15, 34 and 74), so a visitor has no registered way to buy. Art. 31 treats up to 40 g of marijuana as an amount for personal use, which a judge assesses; the Australian Government says cannabis remains illegal for tourists.",
+     "level": "country",
+     "source": "https://www.impo.com.uy/bases/decretos-ley/14294-1974",
+     "checked": "2026-11-08",
+     "penalty_signal": "Possession above personal use or trafficking carries prison (art. 31)"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "A driver is disqualified when the THC level in the body is above the limit the regulations set; the sanctions are those of Ley 18.191, art. 46 (Ley 19.172, art. 15). Cannabis smoking is also subject to the smoke-free space rules (Ley 19.172, art. 13).",
+     "level": "country",
+     "source": "https://www.impo.com.uy/bases/leyes/19172-2013",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Smoking or keeping tobacco products lit is banned in enclosed public places, enclosed workplaces, and all health and education premises, enclosed or open (Ley 18.256 de 2008, art. 3). Unroofed interior spaces inside a built area count as enclosed. Venues must post the no-smoking sign (art. 4).",
+     "level": "country",
+     "source": "https://www.impo.com.uy/bases/leyes/18256-2008",
+     "checked": "2026-11-08"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Taking rare or unique archaeological or palaeontological pieces from the first inhabitants out of the country is banned, as are exceptionally rare or old decorative objects, historic manuscripts, printed works at least 80 years old and rare coins of national numismatics (Ley 14.040 de 1971, art. 15).",
+     "level": "country",
+     "source": "https://www.impo.com.uy/bases/leyes/14040-1971",
+     "checked": "2026-11-08"
     }
    ],
    "sources": [
@@ -319,6 +356,13 @@
      "url": "https://www.aduanas.gub.uy/innovaportal/v/12000/8/innova.front/equipaje_de_turistas_extranjeros_o_uruguayos_que_retornan_de_viajes.html",
      "supports": "duty-free limits and medicines",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "IMPO: Ley 18.191, 19.172, 18.256, 14.040, Decreto-Ley 14.294, Decreto 120/014",
+     "authority": "Centro de Informacion Oficial (IMPO), Uruguay",
+     "url": "https://www.impo.com.uy/bases/leyes/19172-2013",
+     "checked": "2026-11-08",
+     "supports": "drink-drive limit, cannabis registry, smoking and heritage export rules"
     }
    ]
   },

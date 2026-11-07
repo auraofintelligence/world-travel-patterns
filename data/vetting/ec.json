@@ -70,7 +70,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-07",
+   "checked": "2026-11-08",
    "evidence": "official",
    "laws": [
     {
@@ -118,6 +118,38 @@
      "source": "https://www.aduana.gob.ec/servicio-al-ciudadano/viajeros-por-via-aerea/",
      "level": "country",
      "checked": "2026-11-07"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Driving with 0.3 to 0.8 g of alcohol per litre of blood brings a fine of one basic salary, loss of five licence points and five days in custody; above 0.8 to 1.2 g, two basic salaries, ten points and fifteen days; above 1.2 g, three basic salaries, a 60-day suspension and thirty days; the vehicle is held for 24 hours (Codigo Organico Integral Penal, art. 385). Professional drivers face a 0.1 g limit. Text as published in the Asamblea Nacional's copy of the code; later reforms were not checked.",
+     "level": "country",
+     "source": "https://www.asambleanacional.gob.ec/sites/default/files/coip_0.pdf",
+     "checked": "2026-11-08",
+     "penalty_signal": "Fine, licence points, custody up to 30 days"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Having or possessing narcotic or psychotropic substances for personal use or consumption, in the quantities set by the regulations, is not punishable; above those quantities the offence is graded by scale, from two to six months (minimum) to ten to thirteen years (large scale) (Codigo Organico Integral Penal, art. 220). The quantity table is set outside the code and was not read. Text as published in the Asamblea Nacional's copy of the code; later reforms were not checked.",
+     "level": "country",
+     "source": "https://www.asambleanacional.gob.ec/sites/default/files/coip_0.pdf",
+     "checked": "2026-11-08",
+     "penalty_signal": "2 months to 13 years by scale"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Hunting, fishing, collecting, holding, transporting, trading or exchanging specimens, parts or products of threatened, endangered or migratory wild species, on land or in the sea, is punished with one to three years in prison, and the maximum applies inside the protected areas system (Codigo Organico Integral Penal, art. 247). Text as published in the Asamblea Nacional's copy of the code; later reforms were not checked.",
+     "level": "country",
+     "source": "https://www.asambleanacional.gob.ec/sites/default/files/coip_0.pdf",
+     "checked": "2026-11-08",
+     "penalty_signal": "1 to 3 years in prison"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Damaging or destroying, wholly or partly, items of the State's cultural heritage is punished with one to three years in prison (Codigo Organico Integral Penal, art. 237). Text as published in the Asamblea Nacional's copy of the code; later reforms were not checked.",
+     "level": "country",
+     "source": "https://www.asambleanacional.gob.ec/sites/default/files/coip_0.pdf",
+     "checked": "2026-11-08",
+     "penalty_signal": "1 to 3 years in prison"
     }
    ],
    "sources": [
@@ -134,6 +166,13 @@
      "url": "https://www.aduana.gob.ec/servicio-al-ciudadano/viajeros-por-via-aerea/",
      "supports": "FRA and allowance",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "Codigo Organico Integral Penal (arts. 220, 237, 247, 385)",
+     "authority": "Asamblea Nacional del Ecuador",
+     "url": "https://www.asambleanacional.gob.ec/sites/default/files/coip_0.pdf",
+     "checked": "2026-11-08",
+     "supports": "drink-drive bands, personal-use drugs, wildlife and heritage offences, as published on the Assembly site"
     }
    ]
   },
