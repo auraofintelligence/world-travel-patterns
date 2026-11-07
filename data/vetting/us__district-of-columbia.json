@@ -66,7 +66,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-03",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -91,6 +91,14 @@
      "level": "state",
      "source": "https://mpdc.dc.gov/page/frequently-asked-questions-firearms-registration-and-ccl",
      "checked": "2026-11-03"
+    },
+    {
+     "topic": "drugs-and-prescription-medicines",
+     "rule": "Adults 21 and over may possess, use, purchase or transport 2 ounces or less of marijuana (DC Code 48-904.01(a)(1)). It is unlawful to smoke or otherwise consume marijuana on a street, alley, park, sidewalk or parking area, in a vehicle on any of those, or in any place the public is invited, including private clubs (48-911.01(a)). Being impaired and endangering people or property is also banned. Cannabis stays illegal under US federal law, including on federal land in the District.",
+     "level": "state",
+     "source": "https://code.dccouncil.gov/us/dc/council/code/sections/48-911.01",
+     "checked": "2026-11-07",
+     "penalty_signal": "misdemeanour: fine under DC Code 22-3571.01 or up to 60 days in jail"
     }
    ],
    "sources": [
@@ -128,6 +136,12 @@
      "url": "https://mpdc.dc.gov/sites/default/files/dc/sites/mpdc/publication/attachments/Firearms%20Transfer%20&%20Registration%20Guide_August%202020_0.pdf",
      "checked": "2026-11-03",
      "supports": "vehicle transport conditions (read via a search-index snapshot)"
+    },
+    {
+     "title": "DC Code 48-904.01 and 48-911.01",
+     "authority": "Council of the District of Columbia",
+     "url": "https://code.dccouncil.gov/us/dc/council/code/sections/48-911.01",
+     "checked": "2026-11-07"
     }
    ]
   },
