@@ -663,7 +663,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-04",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -673,6 +673,34 @@
      "source": "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/1973/1973-0013/1973-0013_2026%20Revision.pdf",
      "checked": "2026-11-04",
      "by": "hand"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Marine parks cover the shoreline to the 150 ft depth contour. Outside a Wildlife Interaction Zone, no wildlife interaction such as fish feeding is allowed, and no one may feed or attract sharks anywhere in Cayman waters. Inside a Marine Reserve no marine life may be taken, alive or dead, with a narrow exception for fry and sprat netted from shore.",
+     "level": "country",
+     "source": "https://doe.ky/wp-content/uploads/2021/04/Marine-Parks-Brochure-21-April-2021.pdf",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "At Stingray City and the Sandbar (Wildlife Interaction Zones) no marine life may be taken, no footwear may be worn in water shallower than 4 ft, and only approved food such as squid or ballyhoo may be fed to stingrays. The Department's Stingray Handling Guidance Notes are enforceable under the National Conservation Act.",
+     "source": "https://doe.ky/wp-content/uploads/2021/04/Marine-Parks-Brochure-21-April-2021.pdf",
+     "checked": "2026-11-07",
+     "level": "country"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Anchoring is not allowed in Marine Reserves and Environmental Zones, except boats of 60 ft or less may anchor in sand with no grapnel and no contact with coral. It is an offence to anchor so as to damage coral anywhere in Cayman waters. From 1 December to 30 April, no fishing, anchoring or in-water activity is allowed between the 50 ft and 200 ft depth contours in Port Anchorage Areas.",
+     "source": "https://doe.ky/wp-content/uploads/2021/04/Marine-Parks-Brochure-21-April-2021.pdf",
+     "checked": "2026-11-07",
+     "level": "country"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Lobster closed season is 1 March to 30 November, with no taking, buying or possessing of lobster caught in Cayman waters in that period. Open season limit is three per person or six per boat a day, with a 6 inch tail minimum.",
+     "source": "https://doe.ky/wp-content/uploads/2021/04/Marine-Parks-Brochure-21-April-2021.pdf",
+     "checked": "2026-11-07",
+     "level": "country"
     }
    ],
    "sources": [
@@ -682,6 +710,12 @@
      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/1973/1973-0013/1973-0013_2026%20Revision.pdf",
      "checked": "2026-11-04",
      "supports": "cannabis and drug penalties (search-index snapshot)"
+    },
+    {
+     "title": "Marine Parks brochure (rev. 21 April 2021)",
+     "authority": "Cayman Islands Department of Environment",
+     "url": "https://doe.ky/wp-content/uploads/2021/04/Marine-Parks-Brochure-21-April-2021.pdf",
+     "checked": "2026-11-07"
     }
    ],
    "note": "Drug law only so far, from the place's own law; other local laws not yet checked."
@@ -743,6 +777,40 @@
     }
    ],
    "note": "Cayman Thanksgiving, on the first Sunday in December, marks the end of the hurricane season. It is a Cabinet-agreed observance, not a public holiday. Recheck for 2027."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "activity-permit",
+     "authority": "Cayman Islands Department of Environment",
+     "process": "Interacting with stingrays is allowed only in the two Wildlife Interaction Zones, Stingray City and the Sandbar in the North Sound, Grand Cayman. Commercial operators need a yearly licence from the Department to take people into them, so a visitor going by boat tour is covered by the operator's licence. Public moorings are free to use for up to 3 hours.",
+     "lead_time_days": 0,
+     "activities": [
+      "stingray encounters",
+      "snorkelling",
+      "boating"
+     ],
+     "url": "https://doe.ky/marine/stingrays/",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Stingrays",
+     "authority": "Cayman Islands Department of Environment",
+     "url": "https://doe.ky/marine/stingrays/",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Marine Parks brochure (rev. 21 April 2021)",
+     "authority": "Cayman Islands Department of Environment",
+     "url": "https://doe.ky/wp-content/uploads/2021/04/Marine-Parks-Brochure-21-April-2021.pdf",
+     "checked": "2026-11-07"
+    }
+   ]
   }
  }
 }

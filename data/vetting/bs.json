@@ -112,6 +112,20 @@
      "source": "https://www.bahamascustoms.gov.bs/accordions/general-travelers-questions/",
      "level": "country",
      "checked": "2026-11-07"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Exuma Cays Land and Sea Park is a no-take zone: no fishing, conching, shelling or lobstering, and nothing living or dead may be removed from inside the park boundaries. The Trust lists fines and confiscation of vessels for poaching.",
+     "source": "https://bnt.bs/storage/2020/01/Exuma-Cays-Land-and-Sea-Park-Rules.pdf",
+     "checked": "2026-11-07",
+     "level": "country"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "In Exuma Park anchoring is not permitted in mooring fields, on coral reefs or in certain other marked areas. All vessels, including dinghies and jet skis, run at idle speed in mooring fields; jet skis stay 300 yards off moored boats. Motorised vessels may not enter the Shroud Cay tidal creeks other than the north creek (idle speed). There is no rubbish disposal in the park: take out what you bring in.",
+     "source": "https://bnt.bs/storage/2020/01/Exuma-Cays-Land-and-Sea-Park-Rules.pdf",
+     "checked": "2026-11-07",
+     "level": "country"
     }
    ],
    "sources": [
@@ -148,6 +162,12 @@
      "authority": "The Bahamas Customs Department",
      "url": "https://www.bahamascustoms.gov.bs/accordions/general-travelers-questions/",
      "supports": "food declaration",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Exuma Cays Land and Sea Park Rules",
+     "authority": "Bahamas National Trust",
+     "url": "https://bnt.bs/storage/2020/01/Exuma-Cays-Land-and-Sea-Park-Rules.pdf",
      "checked": "2026-11-07"
     }
    ]
@@ -940,6 +960,51 @@
    "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Bahamas National Trust (manages Exuma Cays Land and Sea Park)",
+     "process": "Private vessels pay a daily mooring fee after securing a mooring ball (the park takes no reservations; pre-payment does not hold a mooring). Daily rates: up to 39 ft 11 in BSD 27.27 (about A$38.74), 40 to 49 ft 11 in BSD 36.36 (A$51.65), 50 to 59 ft 11 in BSD 45.45 (A$64.56), 60 to 69 ft 11 in BSD 72.73 (A$103.31); larger boats pay more. Anchoring is BSD 0.45 a day under 90 ft. All fees have 10% Bahamas VAT added at checkout. Pay by the ParkPay app, online or at park headquarters. BSD is pegged one to one with the US dollar; A$ at USD 0.7040 (RBA 30 Oct 2026). Charter vessels pay the same plus BSD 14 per person per day.",
+     "lead_time_days": 0,
+     "activities": [
+      "boating",
+      "mooring",
+      "anchoring"
+     ],
+     "url": "https://bnt.bs/payexumapark/",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Bahamas National Trust",
+     "process": "Camping in Exuma Park requires a permit from the Trust. Open fires and fireworks are not permitted. Pets are allowed on beaches only, on a lead no longer than 6 ft.",
+     "lead_time_days": null,
+     "activities": [
+      "camping"
+     ],
+     "url": "https://bnt.bs/storage/2020/01/Exuma-Cays-Land-and-Sea-Park-Rules.pdf",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Pay for Mooring and Anchorage Fees",
+     "authority": "Bahamas National Trust",
+     "url": "https://bnt.bs/payexumapark/",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Exuma Cays Land and Sea Park Rules",
+     "authority": "Bahamas National Trust",
+     "url": "https://bnt.bs/storage/2020/01/Exuma-Cays-Land-and-Sea-Park-Rules.pdf",
+     "checked": "2026-11-07"
+    }
+   ]
   }
  }
 }

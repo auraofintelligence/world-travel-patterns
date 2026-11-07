@@ -653,7 +653,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-04",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -663,6 +663,28 @@
      "source": "https://omaruba.com/richtlijnen/richtlijn-landsverordening-verdovende-middelen/",
      "checked": "2026-11-04",
      "by": "hand"
+    },
+    {
+     "topic": "drones",
+     "rule": "Flying a drone is prohibited inside Parke Nacional Arikok.",
+     "penalty_signal": "Park rule breaches are punishable under AB 2000 no. 59, up to AWG/USD 100,000 as printed on the park sign (figure shown as '$100.000').",
+     "source": "https://cms.acf.aw/wp-content/uploads/2024/08/ACF-RR-Parke-Nacional-Arikok-10-Icons-General.pdf",
+     "checked": "2026-11-07",
+     "level": "country"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "In Arikok National Park, disturbing, hunting, trapping or collecting animals, plants or other objects is prohibited, as are metal detectors, geological extraction and rock stacking. Dogs, cats and other domestic animals may not enter.",
+     "source": "https://cms.acf.aw/wp-content/uploads/2024/08/ACF-RR-Parke-Nacional-Arikok-10-Icons-General.pdf",
+     "checked": "2026-11-07",
+     "level": "country"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "In Arikok National Park the speed limit is 20 km/h, and vehicles must stay on park roads and use the marked parking. Restricted areas have limited access.",
+     "source": "https://cms.acf.aw/wp-content/uploads/2024/08/ACF-RR-Parke-Nacional-Arikok-10-Icons-General.pdf",
+     "checked": "2026-11-07",
+     "level": "country"
     }
    ],
    "sources": [
@@ -672,6 +694,12 @@
      "url": "https://omaruba.com/richtlijnen/richtlijn-landsverordening-verdovende-middelen/",
      "checked": "2026-11-04",
      "supports": "cannabis and drug penalties (search-index snapshot)"
+    },
+    {
+     "title": "Rules and Regulations sign, Parke Nacional Arikok",
+     "authority": "Aruba Conservation Foundation",
+     "url": "https://cms.acf.aw/wp-content/uploads/2024/08/ACF-RR-Parke-Nacional-Arikok-10-Icons-General.pdf",
+     "checked": "2026-11-07"
     }
    ],
    "note": "Drug law only so far, from the place's own law; other local laws not yet checked."
@@ -743,6 +771,38 @@
      "url": "https://www.government.aw/",
      "checked": "2026-11-06",
      "supports": "public holidays (not yet read; signal)"
+    }
+   ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Aruba Conservation Foundation (manages Parke Nacional Arikok)",
+     "process": "A valid conservation pass is required by law to enter Arikok National Park. A day pass and an annual pass are sold at the Visitor Center at San Fuego (open daily 8:00 to 15:30); the Vaderpiet booth (9:00 to 15:00) sells day passes. The amount was not shown on the foundation's own pages when checked, so confirm it with the foundation (+297 585 1234).",
+     "lead_time_days": 0,
+     "activities": [
+      "national park visit"
+     ],
+     "url": "https://arubanationalpark.org/",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Visitor information, Parke Nacional Arikok",
+     "authority": "Aruba Conservation Foundation",
+     "url": "https://arubanationalpark.org/",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Rules and Regulations sign, Parke Nacional Arikok",
+     "authority": "Aruba Conservation Foundation",
+     "url": "https://cms.acf.aw/wp-content/uploads/2024/08/ACF-RR-Parke-Nacional-Arikok-10-Icons-General.pdf",
+     "checked": "2026-11-07"
     }
    ]
   }

@@ -616,7 +616,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-04",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -626,6 +626,27 @@
      "source": "https://wetten.overheid.nl/BWBR0028519/2025-04-01",
      "checked": "2026-11-04",
      "by": "hand"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "In Bonaire National Marine Park (all the light blue water around the island, to 75 m from shore) divers may not touch, move or grasp marine life, feed animals, wear gloves or knee pads (medical exceptions by request), or place or remove any object, living or dead. Disposable chemical light sticks are prohibited, and the park asks for reef-safe sunscreen without oxybenzone or octinoxate. Two marine reserves are closed to diving.",
+     "source": "https://stinapabonaire.org/rules-and-regulations/diving/",
+     "checked": "2026-11-07",
+     "level": "country"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Fishing inside the park is limited to traditional methods. Spearfishing and hand spearing are strictly prohibited; taking conch is not allowed; lobster may be taken only 1 November to 30 April, from land on the east coast and not while diving. Two stretches of coast are no-fishing zones.",
+     "source": "https://stinapabonaire.org/rules-and-regulations/fishing/",
+     "checked": "2026-11-07",
+     "level": "country"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Boats inside the park keep to 10 km/h (5 km/h in mooring fields) and may not anchor; use the public moorings (two hours at a time) or a visitor overnight mooring registered with Customs. Towed watersports are off-limits inside the park.",
+     "source": "https://stinapabonaire.org/rules-and-regulations/boating/",
+     "checked": "2026-11-07",
+     "level": "country"
     }
    ],
    "sources": [
@@ -635,6 +656,12 @@
      "url": "https://wetten.overheid.nl/BWBR0028519/2025-04-01",
      "checked": "2026-11-04",
      "supports": "local law (search-index snapshot)"
+    },
+    {
+     "title": "Rules and regulations: diving, fishing, boating",
+     "authority": "STINAPA Bonaire",
+     "url": "https://stinapabonaire.org/rules-and-regulations/",
+     "checked": "2026-11-07"
     }
    ],
    "note": "From the place's own government sources."
@@ -800,6 +827,35 @@
     }
    ],
    "notes": "Custom is not yet read; ask locally."
+  },
+  "zone-requirements": {
+   "status": "requirements-found",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "STINAPA Bonaire (the park manager)",
+     "process": "Pay the Nature Fee online before entering the sea. It is USD 40 a person for the calendar year (1 January to 31 December), the same for divers, snorkellers and swimmers. A QR code comes by email. About A$56.82 (RBA 30 Oct 2026, A$1 = USD 0.7040). It also covers Washington Slagbaai National Park. Residents of Aruba, Bonaire, Curaçao, Sint Maarten, Sint Eustatius and Saba (with official ID) and children under 12 are exempt.",
+     "lead_time_days": 0,
+     "activities": [
+      "diving",
+      "snorkelling",
+      "swimming",
+      "kayaking"
+     ],
+     "url": "https://stinapabonaire.org/frequently-asked-questions/",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Frequently asked questions: Nature Fee",
+     "authority": "STINAPA Bonaire",
+     "url": "https://stinapabonaire.org/frequently-asked-questions/",
+     "checked": "2026-11-07"
+    }
+   ]
   }
  }
 }
