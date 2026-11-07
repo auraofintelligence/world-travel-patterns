@@ -93,6 +93,39 @@
      "supports": "licence needed to possess firearms; NYC has its own licensing (read via a search-index snapshot)"
     }
    ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "transport-control",
+     "authority": "Adirondack Mountain Reserve (operator) with NYS Department of Environmental Conservation",
+     "process": "A free reservation is required for parking, day access and overnight access to the trails through the Adirondack Mountain Reserve gate (Keene Valley, Route 73) and to Round and Noonmark mountains, 1 May to 31 October. Walk-ins without a reservation are not permitted; people dropped off or arriving by bike also need one. Book at hikeamr.org (an account is needed). Details here are from the operator's FAQ dated 8 April 2025; the DEC announced the system's return for 2026 with bookings opening 17 April 2026, but the DEC page could not be opened by automated fetch, so the 2026 booking window and daily cap should be rechecked on hikeamr.org. The 2025 FAQ gave a two-week booking window, overnight stays of up to three nights, and lot access 5 am to 7 pm. The system does not apply to other parts of the Adirondack Park. Fees in US dollars; A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "lead_time_days": 14,
+     "activities": [
+      "hiking: Adirondack Mountain Reserve trails"
+     ],
+     "url": "https://www.hikeamr.org/files/AMR%20FAQ%204-8-25.pdf",
+     "checked": "2026-11-07",
+     "evidence": "operational"
+    }
+   ],
+   "sources": [
+    {
+     "title": "AMR hiker parking reservation FAQ (8 April 2025)",
+     "authority": "Adirondack Mountain Reserve",
+     "url": "https://www.hikeamr.org/files/AMR%20FAQ%204-8-25.pdf",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "DEC: AMR parking reservation system returns 17 April 2026 (page not opened; found through search)",
+     "authority": "NYS Department of Environmental Conservation",
+     "url": "https://dec.ny.gov/news/press-releases/2026/4/dec-announces-adirondack-mountain-reserve-parking-reservation-system-returns-april-17",
+     "checked": "2026-11-07"
+    }
+   ]
   }
  }
 }

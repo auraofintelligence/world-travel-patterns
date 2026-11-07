@@ -25,6 +25,48 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Administración de Parques Nacionales (APN)",
+     "process": "Iberá National Park: entry through any portal (Cambyretá, San Nicolás, Laguna Iberá or Carambola) is free. The only requirement is to register with the park staff or complete the self-registration at the public-use area. APN's fee table lists an Iberá daily pass (general ARS 25,000, about A$23.19), but APN says charging at Iberá and several other parks starts only once the access-control infrastructure and services are in place. (No RBA rate for ARS; at the Banco Central de la República Argentina rate of 30 October 2026, A$1 = about 1,078.2486 ARS).",
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.argentina.gob.ar/interior/ambiente/parquesnacionales/ibera/actividades",
+     "checked": "2026-11-07",
+     "lead_time_days": 0
+    }
+   ],
+   "sources": [
+    {
+     "title": "Actividades, Parque Nacional Iberá",
+     "authority": "Administración de Parques Nacionales (APN)",
+     "url": "https://www.argentina.gob.ar/interior/ambiente/parquesnacionales/ibera/actividades",
+     "supports": "free entry with registration (read directly 2026-11-07)",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Derechos de acceso a Parques Nacionales",
+     "authority": "Administración de Parques Nacionales (APN)",
+     "url": "https://www.argentina.gob.ar/parquesnacionales/tarifas",
+     "supports": "fee table and deferred charging (read directly 2026-11-07)",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Cotizaciones por fecha, 30 Oct 2026 (DOLAR AUSTRALIA)",
+     "authority": "Banco Central de la República Argentina",
+     "url": "https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones?fecha=2026-10-30",
+     "supports": "ARS rate, as used in other Argentine province records",
+     "checked": "2026-11-07"
+    }
+   ],
+   "checked": "2026-11-07",
+   "note": "Iberá National Park only. The provincial park side (Carlos Pellegrini) not checked."
   }
  }
 }

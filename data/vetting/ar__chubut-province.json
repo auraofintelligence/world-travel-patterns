@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -39,6 +39,30 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Pase diario"
+    },
+    {
+     "topic": "drones",
+     "rule": "In Península Valdés a drone may be flown only with a permit issued by the provincial Ministerio de Turismo y Áreas Protegidas. Without one you can't operate it, and you can be sanctioned.",
+     "level": "province",
+     "source": "https://peninsulavaldes.org.ar/visita-peninsula/recomendaciones/",
+     "checked": "2026-11-07",
+     "by": "hand"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "In Península Valdés you must stay on the marked roads: vehicles (quads, motorbikes, 4x4) aren't allowed on beaches, and off-road driving isn't allowed. The only place to camp in the area is Puerto Pirámides. Hunting is banned and fishing is restricted.",
+     "level": "province",
+     "source": "https://peninsulavaldes.org.ar/visita-peninsula/recomendaciones/",
+     "checked": "2026-11-07",
+     "by": "hand"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "In Península Valdés, collecting fossil or archaeological remains and plants isn't allowed. Don't feed or disturb wildlife. Pets can't get out of the vehicle inside the protected area.",
+     "level": "province",
+     "source": "https://peninsulavaldes.org.ar/visita-peninsula/recomendaciones/",
+     "checked": "2026-11-07",
+     "by": "hand"
     }
    ],
    "sources": [
@@ -55,9 +79,51 @@
      "url": "https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones?fecha=2026-10-30",
      "checked": "2026-11-05",
      "supports": "ARS fallback rate, 2026-10-30 (read directly 2026-11-05)"
+    },
+    {
+     "title": "Recomendaciones",
+     "authority": "Administración Península Valdés (Chubut)",
+     "url": "https://peninsulavaldes.org.ar/visita-peninsula/recomendaciones/",
+     "supports": "rules for visitors (read directly 2026-11-07)",
+     "checked": "2026-11-07"
     }
    ],
-   "note": "National parks only; provincial parks and reserves not yet checked."
+   "note": "National parks only; provincial parks and reserves not yet checked. Península Valdés rules added."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Administración Península Valdés (Chubut)",
+     "process": "Península Valdés protected natural area, entry ticket per person per day under Resolución 40/2026 (Ministerio de Turismo y Áreas Protegidas): foreign visitors aged 12 and over ARS 50,000 (about A$46.37); children 6 to 11 ARS 25,000 (about A$23.19); under 6s and people with a disability free. A rented vehicle pays ARS 15,000 (about A$13.91) per entry; tourism-agency vehicles, taxis and remises pay ARS 3,300 to 5,300 by seats. Payment is electronic only (debit, credit or QR code). (No RBA rate for ARS; at the Banco Central de la República Argentina rate of 30 October 2026, A$1 = about 1,078.2486 ARS).",
+     "activities": [
+      "all"
+     ],
+     "url": "https://peninsulavaldes.org.ar/visita-peninsula/valor-de-ingreso/",
+     "checked": "2026-11-07",
+     "lead_time_days": 0
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tarifas de ingreso",
+     "authority": "Administración Península Valdés (Chubut)",
+     "url": "https://peninsulavaldes.org.ar/visita-peninsula/valor-de-ingreso/",
+     "supports": "entry fees under Resolución 40/2026 (read directly 2026-11-07)",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Cotizaciones por fecha, 30 Oct 2026 (DOLAR AUSTRALIA)",
+     "authority": "Banco Central de la República Argentina",
+     "url": "https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones?fecha=2026-10-30",
+     "supports": "ARS rate, as used in other Argentine province records",
+     "checked": "2026-11-07"
+    }
+   ],
+   "checked": "2026-11-07",
+   "note": "Península Valdés only."
   }
  }
 }

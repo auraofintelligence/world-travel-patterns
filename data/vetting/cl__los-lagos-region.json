@@ -28,7 +28,7 @@
   },
   "zone-requirements": {
    "status": "partly-vetted",
-   "checked": "2026-11-05",
+   "checked": "2026-11-07",
    "evidence": "official",
    "layers": [
     {
@@ -63,6 +63,30 @@
      ],
      "url": "https://www.conaf.cl/parques/parque-nacional-alerce-andino/",
      "checked": "2026-11-05"
+    },
+    {
+     "type": "fee",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "process": "Puyehue National Park (Valdivia and Osorno provinces; communes Puyehue and Puerto Octay are in Los Lagos, Río Bueno and Lago Ranco in Los Ríos): open Monday to Sunday 9:00 to 17:30, no booking system. Entry to the trails is free, except the concessioned trails El Indio, Repucura and La Princesa. Prices for those were not read.",
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.conaf.cl/parques/parque-nacional-puyehue/",
+     "checked": "2026-11-07",
+     "lead_time_days": 0
+    },
+    {
+     "type": "activity-permit",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "process": "Puyehue National Park: for long-distance treks you must ask the park administrator for authorisation by email (address on CONAF's park page). Anyone heading into the mountains must tell the rangers before leaving and receive an ascent form recording personal and group details. Boats in the park are limited to rowing boats for fishing and recreation.",
+     "activities": [
+      "trekking",
+      "mountaineering",
+      "boating"
+     ],
+     "url": "https://www.conaf.cl/parques/parque-nacional-puyehue/",
+     "checked": "2026-11-07",
+     "lead_time_days": 0
     }
    ],
    "sources": [
@@ -86,9 +110,57 @@
      "url": "https://www.conaf.cl/parques/parque-nacional-alerce-andino/",
      "checked": "2026-11-05",
      "supports": "trail closures notice, ticketing (read directly 2026-11-05)"
+    },
+    {
+     "title": "Parque Nacional Puyehue",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "url": "https://www.conaf.cl/parques/parque-nacional-puyehue/",
+     "supports": "hours, free trails, concessioned trails, authorisation for long treks, ascent form, boats (read directly 2026-11-07)",
+     "checked": "2026-11-07"
     }
    ],
    "note": "National parks in Los Lagos only. Fees to read on Pases Parques."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drones",
+     "rule": "Puyehue National Park: drones are not allowed inside the park, except for professional research or filming with CONAF's prior authorisation (CONAF's published park rules).",
+     "level": "region",
+     "source": "https://www.conaf.cl/parques/parque-nacional-puyehue/",
+     "checked": "2026-11-07",
+     "by": "hand"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Puyehue National Park: any heat source is banned (barbecues, campfires, gas stoves, cigarettes) and CONAF cites Law 20.653, article 22. Pets and exotic animals can't enter. Visitors must stay on the trails and follow the rangers' directions.",
+     "level": "region",
+     "source": "https://www.conaf.cl/parques/parque-nacional-puyehue/",
+     "checked": "2026-11-07",
+     "by": "hand"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Puyehue National Park: smoking, drinking alcohol and using drugs or other hallucinogenic products are banned in the park (CONAF's published park rules).",
+     "level": "region",
+     "source": "https://www.conaf.cl/parques/parque-nacional-puyehue/",
+     "checked": "2026-11-07",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Parque Nacional Puyehue",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "url": "https://www.conaf.cl/parques/parque-nacional-puyehue/",
+     "supports": "park prohibitions list",
+     "checked": "2026-11-07"
+    }
+   ],
+   "checked": "2026-11-07",
+   "note": "Puyehue National Park rules only."
   }
  }
 }

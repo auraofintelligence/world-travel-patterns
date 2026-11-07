@@ -1,0 +1,149 @@
+{
+ "place": "cl/araucania-region",
+ "patterns": {
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "process": "Conguillío National Park (Malleco and Cautín provinces): CONAF sends visitors to its Pases Parques site for tickets, hours and visit conditions, and says official information is only on CONAF and Pases Parques. Prices were not read. Camping and cabins inside are run by a concessionaire; camping and cabin bookings go through the concessionaire.",
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.conaf.cl/parques/parque-nacional-conguillio/",
+     "checked": "2026-11-07",
+     "lead_time_days": 0
+    },
+    {
+     "type": "fee",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "process": "Huerquehue National Park: tickets and conditions through CONAF's Pases Parques site (prices not read). The camping area has 22 tent sites with no booking; sites are given in order of arrival.",
+     "activities": [
+      "all",
+      "camping"
+     ],
+     "url": "https://www.conaf.cl/parques/parque-nacional-huerquehue/",
+     "checked": "2026-11-07",
+     "lead_time_days": 0
+    },
+    {
+     "type": "seasonal-closure",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "process": "Huerquehue National Park: the Quinchol and San Sebastián trails are closed until 15 December 2026 for visitor safety, per CONAF's notice.",
+     "activities": [
+      "trekking"
+     ],
+     "url": "https://www.conaf.cl/parques/parque-nacional-huerquehue/",
+     "checked": "2026-11-07",
+     "lead_time_days": 0
+    },
+    {
+     "type": "fee",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "process": "Villarrica National Park (communes Villarrica, Pucón and Curarrehue in Araucanía; Panguipulli in Los Ríos): tickets, hours and conditions through CONAF's Pases Parques site (prices not read). Visitors stop at the CONAF control post to get information and register their visit. CONAF notes volcanic activity is possible in the park.",
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.conaf.cl/parques/parque-nacional-villarrica/",
+     "checked": "2026-11-07",
+     "lead_time_days": 0
+    },
+    {
+     "type": "seasonal-closure",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "process": "Villarrica National Park: the trail to the Pichillancahue glacier is not open for excursions from the park's northern sector (Araucanía) until 31 December 2026, per CONAF's notice. CONAF's park page does not publish a separate rule for the volcano ascent itself.",
+     "activities": [
+      "trekking",
+      "mountaineering"
+     ],
+     "url": "https://www.conaf.cl/parques/parque-nacional-villarrica/",
+     "checked": "2026-11-07",
+     "lead_time_days": 0
+    }
+   ],
+   "sources": [
+    {
+     "title": "Parque Nacional Conguillío",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "url": "https://www.conaf.cl/parques/parque-nacional-conguillio/",
+     "supports": "Pases Parques ticketing, concession (read directly 2026-11-07)",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Parque Nacional Huerquehue",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "url": "https://www.conaf.cl/parques/parque-nacional-huerquehue/",
+     "supports": "ticketing, camping, trail closures (read directly 2026-11-07)",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Parque Nacional Villarrica",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "url": "https://www.conaf.cl/parques/parque-nacional-villarrica/",
+     "supports": "ticketing, control post, glacier trail notice (read directly 2026-11-07)",
+     "checked": "2026-11-07"
+    }
+   ],
+   "checked": "2026-11-07",
+   "note": "Conguillío, Huerquehue and Villarrica national parks only. Fees to read on Pases Parques."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "drones",
+     "rule": "Conguillío National Park: drones are not allowed inside the park, except for professional research or filming with CONAF's prior authorisation (CONAF's published park rules).",
+     "level": "region",
+     "source": "https://www.conaf.cl/parques/parque-nacional-conguillio/",
+     "checked": "2026-11-07",
+     "by": "hand"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Conguillío National Park: any heat source is banned (barbecues, campfires, gas stoves, cigarettes) and CONAF cites Law 20.653, article 22. Pets and exotic animals can't enter. Visitors must stay on the trails and follow the rangers' directions.",
+     "level": "region",
+     "source": "https://www.conaf.cl/parques/parque-nacional-conguillio/",
+     "checked": "2026-11-07",
+     "by": "hand"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Conguillío National Park: smoking, drinking alcohol and using drugs or other hallucinogenic products are banned in the park (CONAF's published park rules).",
+     "level": "region",
+     "source": "https://www.conaf.cl/parques/parque-nacional-conguillio/",
+     "checked": "2026-11-07",
+     "by": "hand"
+    },
+    {
+     "topic": "drones",
+     "rule": "Huerquehue and Villarrica national parks publish the same park rules as Conguillío (drones, fire, alcohol and drugs, pets).",
+     "level": "region",
+     "source": "https://www.conaf.cl/parques/parque-nacional-villarrica/",
+     "checked": "2026-11-07",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Parque Nacional Conguillío",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "url": "https://www.conaf.cl/parques/parque-nacional-conguillio/",
+     "supports": "park prohibitions list",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Parque Nacional Villarrica",
+     "authority": "Corporación Nacional Forestal (CONAF)",
+     "url": "https://www.conaf.cl/parques/parque-nacional-villarrica/",
+     "supports": "same prohibitions list",
+     "checked": "2026-11-07"
+    }
+   ],
+   "checked": "2026-11-07",
+   "note": "CONAF park rules for three Araucanía parks."
+  }
+ }
+}

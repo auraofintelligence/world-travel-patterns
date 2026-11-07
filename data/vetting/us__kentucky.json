@@ -112,7 +112,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-06",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -143,6 +143,14 @@
      "level": "state",
      "source": "https://parks.ky.gov/info/faqs",
      "checked": "2026-11-06"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Mammoth Cave National Park cave tours: not allowed are firearms or other weapons, flash photography, pets (service animals only), child backpack carriers (front packs are allowed), strollers, tripods and monopods, walking sticks (except canes for walking), and large or metal-framed backpacks.",
+     "penalty_signal": "",
+     "source": "https://www.nps.gov/maca/planyourvisit/cave-tours.htm",
+     "level": "state",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -169,6 +177,32 @@
      "authority": "Kentucky State Parks",
      "url": "https://parks.ky.gov/info/faqs",
      "checked": "2026-11-06"
+    }
+   ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "activity-permit",
+     "authority": "US National Park Service, Mammoth Cave National Park",
+     "process": "To go into the cave you must buy a guided tour ticket (only the Discovery Tour is self-guided). Reservations on Recreation.gov or 877-444-6777 are strongly recommended because tours can sell out weeks ahead, and walk-up tickets are not guaranteed. Arrive at least 30 minutes early to collect tickets. Tour times change by season; the park may publish the full schedule only 1 to 3 months ahead. Cancelling before the tour costs US$1 a ticket (about A$1.40). Tour prices were not on the page read. Fees in US dollars; A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "lead_time_days": 30,
+     "activities": [
+      "cave tours"
+     ],
+     "url": "https://www.nps.gov/maca/planyourvisit/cave-tours.htm",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mammoth Cave tours",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/maca/planyourvisit/cave-tours.htm",
+     "checked": "2026-11-07"
     }
    ]
   }

@@ -49,7 +49,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-03",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -65,6 +65,14 @@
      "level": "state",
      "source": "https://gfp.sd.gov/userdocs/docs/ais_programupdate.pdf",
      "checked": "2026-11-03"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Custer State Park: feeding or disturbing park wildlife is against park regulations. Stay in your vehicle or at least 100 yards (about 91 m) from bison, elk and other animals. Firearms in the park must be unloaded and cased outside a licensed hunting season.",
+     "penalty_signal": "",
+     "source": "https://gfp.sd.gov/parks/detail/custer-state-park/",
+     "level": "state",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -139,6 +147,32 @@
      "url": "https://gfp.sd.gov/parks/detail/bear-butte-state-park/",
      "checked": "2026-11-05",
      "supports": "sacred site guidance and fees (read directly 2026-11-05)"
+    }
+   ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "South Dakota Game, Fish and Parks, Custer State Park",
+     "process": "A park entrance licence is charged per vehicle: US$25 for 1 to 7 days (about A$35.50), US$20 per motorcycle (about A$28.40); an annual licence is US$60 for non-residents (about A$85). The page says vehicles driving straight through on US Highway 16A without stopping do not need one, but the sentence is cut short in the text read, so check the park. Campsites are reserved online or on 1-800-710-2267. Fees in US dollars; A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://gfp.sd.gov/parks/detail/custer-state-park/",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Custer State Park",
+     "authority": "South Dakota Game, Fish and Parks",
+     "url": "https://gfp.sd.gov/parks/detail/custer-state-park/",
+     "checked": "2026-11-07"
     }
    ]
   }

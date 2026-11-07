@@ -290,7 +290,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -366,6 +366,36 @@
      "checked": "2026-11-06",
      "by": "hand",
      "penalty_signal": "fine applies (amount not stated)"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Travellers aged 19 or over get a separate duty-free allowance for liquor of up to 2 L and USD 400 in value (about A$568 at USD 0.7040 per A$1, RBA 30 Oct 2026). Under-19s get no liquor or cigarette allowance.",
+     "penalty_signal": "Undeclared goods over the allowance found later face an extra 40% on top of the normal duty, and 60% for a repeat within two years. Declaring voluntarily earns a 30% reduction.",
+     "source": "https://www.customs.go.kr/english/cm/cntnts/cntntsView.do?mi=8069&cntntsId=2743",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Travellers aged 19 or over can bring 200 cigarettes, or 20 mL of e-cigarette liquid nicotine (under 1% nicotine), within the duty-free allowance. Under-19s get no cigarette allowance. The page does not mention heated tobacco.",
+     "source": "https://www.customs.go.kr/english/cm/cntnts/cntntsView.do?mi=8069&cntntsId=2743",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Report to Customs any foreign currency, Korean won or cheques worth more than USD 10,000 in total (about A$14,200 at USD 0.7040 per A$1, RBA 30 Oct 2026) when you enter or leave Korea. Amounts at or under that need no declaration.",
+     "penalty_signal": "Bringing in or taking out means of payment without a report is punishable by up to 1 year of imprisonment with labour or a fine of up to KRW 100 million (about A$106,000 at KRW 941.07 per A$1, RBA 30 Oct 2026); the fine can rise to three times the value if that is higher.",
+     "source": "https://www.customs.go.kr/english/cm/cntnts/cntntsView.do?mi=10800&cntntsId=5500",
+     "level": "country",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "currency-and-goods",
+     "rule": "Customs Korea sets a duty-free allowance of USD 800 in total taxable value for a traveller's goods, apart from the liquor, cigarette and perfume allowance (perfume 100 mL). Goods over it are declared and taxed.",
+     "source": "https://www.customs.go.kr/english/cm/cntnts/cntntsView.do?mi=8069&cntntsId=2743",
+     "level": "country",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -396,6 +426,18 @@
      "url": "https://www.knps.or.kr/portal/main/contents.do?menuNo=8000198",
      "checked": "2026-11-06",
      "supports": "entry and cut-off times, 21 parks listed (read directly 2026-11-06)"
+    },
+    {
+     "title": "Duty-free allowance for travellers (Korea Customs Service)",
+     "authority": "Korea Customs Service",
+     "url": "https://www.customs.go.kr/english/cm/cntnts/cntntsView.do?mi=8069&cntntsId=2743",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Declaration of Foreign Currency (Korea Customs Service)",
+     "authority": "Korea Customs Service",
+     "url": "https://www.customs.go.kr/english/cm/cntnts/cntntsView.do?mi=10800&cntntsId=5500",
+     "checked": "2026-11-07"
     }
    ]
   },

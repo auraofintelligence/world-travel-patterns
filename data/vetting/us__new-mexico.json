@@ -25,7 +25,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-03",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -41,6 +41,22 @@
      "level": "state",
      "source": "https://wildlife.dgf.nm.gov/fishing/fishing-regulations/aquatic-invasive-species/",
      "checked": "2026-11-03"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Carlsbad Caverns National Park: to stop white-nose syndrome (a disease killing bats) spreading, do not wear shoes or clothing, or bring any gear, into a cave there that were in another cave.",
+     "penalty_signal": "",
+     "source": "https://www.nps.gov/cave/planyourvisit/tour_schedule.htm",
+     "level": "state",
+     "checked": "2026-11-07"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "White Sands National Park: stopping, parking or getting out of a vehicle is prohibited in the safety corridor on Dunes Drive (mile 3 to mile 5.5) unless a law enforcement ranger directs otherwise, and the area south of the road inside the corridor is closed to foot traffic. The park page was updated 30 April 2026.",
+     "penalty_signal": "",
+     "source": "https://www.nps.gov/whsa/planyourvisit/conditions.htm",
+     "level": "state",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -171,7 +187,7 @@
    "photography_and_story_permissions": "Taos Pueblo (Taos Pueblo Tourism): a camera fee of US$6 a person is listed on its photography page (about A$8.52 at the RBA rate of 30 October 2026, A$1 = US$0.7040). Ask before photographing community members. Photography is not allowed in San Geronimo Chapel. Professional and commercial photographers, and artists who want to sketch or paint, must apply for pre-approval; fees vary. Sky City (Acoma Pueblo): cameras are not permitted during feast days or Christmas events; call 800-747-0181 (9 am to 5 pm) about other days, as the page lists no camera fee or permit."
   },
   "zone-requirements": {
-   "status": "requirements-found",
+   "status": "partly-vetted",
    "checked": "2026-11-07",
    "evidence": "official",
    "layers": [
@@ -209,6 +225,28 @@
      ],
      "url": "https://taospueblo.com/visiting-taos-pueblo/",
      "checked": "2026-11-07"
+    },
+    {
+     "type": "seasonal-closure",
+     "authority": "US National Park Service, White Sands National Park",
+     "process": "The White Sands Missile Range tests next to the park. During a test, Dunes Drive (the only road into the dunes) can close for up to three hours and all activities along it are prohibited; US Highway 70 between the park and Las Cruces can close too. Notice can come as little as 24 hours ahead. On 5 November 2026 the park page listed closures on 12 and 16 November 2026, 7:00 to 8:00 am, with Highway 70 also blocked. The visitor centre stays open. Highway 70 closure line: (575) 678-1178. Backcountry camping remains closed. Fees in US dollars; A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.nps.gov/whsa/planyourvisit/park-closures.htm",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "entry-permit",
+     "authority": "US National Park Service, Carlsbad Caverns National Park",
+     "process": "A timed-entry reservation is required to enter Carlsbad Cavern (Natural Entrance and Big Room), 1 January to 31 December, bought on Recreation.gov for US$1 (about A$1.40). An entrance pass is also needed: US$15 (about A$21) per person aged 16 and over, bought at the visitor centre. The cavern is closed on Thanksgiving, Christmas and New Year's Day. Ranger-guided tours cost extra and are reserved on Recreation.gov or on 877-444-6777; tickets are picked up at least 30 minutes before the tour and children under six are not allowed on guided cave tours. The fee page was last updated 5 May 2025. Fees in US dollars; A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "lead_time_days": 14,
+     "activities": [
+      "Carlsbad Cavern"
+     ],
+     "url": "https://www.nps.gov/cave/planyourvisit/fees.htm",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -222,6 +260,24 @@
      "title": "Taos Pueblo photography",
      "authority": "Taos Pueblo Tourism",
      "url": "https://taospueblo.com/taos-pueblo-photography/",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "White Sands military testing closures",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/whsa/planyourvisit/park-closures.htm",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Carlsbad Caverns fees and reservations",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/cave/planyourvisit/fees.htm",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Carlsbad Caverns ranger-guided tours",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/cave/planyourvisit/tour_schedule.htm",
      "checked": "2026-11-07"
     }
    ]

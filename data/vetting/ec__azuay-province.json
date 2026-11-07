@@ -25,6 +25,64 @@
    ],
    "notes": "Signals until the place's own language law and census are read.",
    "checked": "2026-11-01"
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "fee",
+     "authority": "ETAPA EP (Cuenca municipal company that manages Cajas National Park)",
+     "process": "Cajas National Park: ETAPA's price list shows day entry for visitors as exempt (no charge). Overnight stays are charged per person per night: foreigners over 16 US$4 (about A$5.68), foreigners under 16 US$2 (about A$2.84); Ecuadorians and foreign residents over 16 US$2, under 16 US$1; older people and people with a disability US$1. Rate: RBA, 30 October 2026, A$1 = US$0.7040.",
+     "activities": [
+      "all",
+      "camping"
+     ],
+     "url": "https://www.etapa.net.ec/gestion-ambiental/parque-nacional-cajas/visitar-el-pnc/tasas-y-valores/",
+     "checked": "2026-11-07",
+     "lead_time_days": 0
+    },
+    {
+     "type": "activity-permit",
+     "authority": "ETAPA EP (Cuenca municipal company that manages Cajas National Park)",
+     "process": "Cajas National Park: tour operators need a current Environmental Permit for Tourist Activity (PAAT); from 1 January 2025 only operators holding one can enter the park. The daily PAAT charge on the price list is US$100 for up to 10 tourists, US$150 for 11 to 15, US$200 for 16 to 20 and US$300 for more than 20. ETAPA's page lists authorised operators and guides for Cuenca day trips.",
+     "activities": [
+      "guided-tours"
+     ],
+     "url": "https://www.etapa.net.ec/gestion-ambiental/parque-nacional-cajas/operadores-de-turismo-autorizado/",
+     "checked": "2026-11-07",
+     "lead_time_days": 0
+    },
+    {
+     "type": "activity-permit",
+     "authority": "ETAPA EP (Cuenca municipal company that manages Cajas National Park)",
+     "process": "Cajas National Park filming: a commercial film by a foreign crew up to 30 minutes carries a filming fee of US$1,000 (about A$1,420) and a guarantee of US$5,000 (about A$7,102); over 30 minutes the fees and guarantees go up 30%. Scientific, cultural and educational filming that ETAPA has qualified: US$100 fee and US$2,000 guarantee for nationals and foreigners. Co-productions with ETAPA are exempt from the fees.",
+     "activities": [
+      "filming"
+     ],
+     "url": "https://www.etapa.net.ec/gestion-ambiental/parque-nacional-cajas/visitar-el-pnc/tasas-y-valores/",
+     "checked": "2026-11-07",
+     "lead_time_days": 0
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tasas y valores, Parque Nacional Cajas",
+     "authority": "ETAPA EP (Cuenca municipal company that manages Cajas National Park)",
+     "url": "https://www.etapa.net.ec/gestion-ambiental/parque-nacional-cajas/visitar-el-pnc/tasas-y-valores/",
+     "supports": "entry, overnight, PAAT and filming charges (read directly 2026-11-07)",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Operadores de turismo autorizado, Parque Nacional Cajas",
+     "authority": "ETAPA EP (Cuenca municipal company that manages Cajas National Park)",
+     "url": "https://www.etapa.net.ec/gestion-ambiental/parque-nacional-cajas/operadores-de-turismo-autorizado/",
+     "supports": "PAAT requirement from 1 January 2025 (read directly 2026-11-07)",
+     "checked": "2026-11-07"
+    }
+   ],
+   "checked": "2026-11-07",
+   "note": "Cajas National Park only. Cotopaxi, Chimborazo and Cuyabeno not read: the Ministry of Environment site did not load."
   }
  }
 }

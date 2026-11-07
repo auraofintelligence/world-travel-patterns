@@ -120,7 +120,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -129,6 +129,14 @@
      "level": "state",
      "source": "https://www.cannabis.ca.gov/consumers/whats-legal/",
      "checked": "2026-11-02"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "Muir Woods National Monument: pets are not allowed on any trail or in ranger programs.",
+     "penalty_signal": "",
+     "source": "https://www.nps.gov/muwo/planyourvisit/pets.htm",
+     "level": "state",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -207,7 +215,7 @@
   },
   "zone-requirements": {
    "status": "partly-vetted",
-   "checked": "2026-11-06",
+   "checked": "2026-11-07",
    "evidence": "official",
    "layers": [
     {
@@ -242,6 +250,29 @@
      ],
      "url": "https://www.recreation.gov/permits/233260",
      "checked": "2026-11-06"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "US National Park Service, Yosemite National Park",
+     "process": "A wilderness permit is required year-round for backpacking, overnight climbing or any overnight stay in the wilderness (not for day hikes, except Half Dome). Late April to October, reservations are required: 60 per cent of each trailhead's daily quota is released by lottery 24 weeks ahead, and 40 per cent 7 days ahead. Unreserved permits on the start day are few, if any. Wilderness centres open 8 am to 5 pm. In winter, permits are issued the day before or the day of. Fees were not on the page read. Food must be stored properly, and bear canisters can be rented at the Valley Welcome Center. The page was last updated 31 December 2025. Fees in US dollars; A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "lead_time_days": 170,
+     "activities": [
+      "backpacking",
+      "overnight climbing"
+     ],
+     "url": "https://www.nps.gov/yose/planyourvisit/wildpermits.htm",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "transport-control",
+     "authority": "US National Park Service, Muir Woods National Monument",
+     "process": "Parking and shuttle reservations are required for all visitors, vehicle or shuttle rider, and booked at GoMuirWoods.com (separate from the entrance fee). Entrance: US$15 per person aged 16 and over (about A$21.30); the Annual Pass (US$45) is for US citizens and residents. Fees in US dollars; A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "lead_time_days": 7,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.nps.gov/muwo/planyourvisit/fees.htm",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -262,6 +293,18 @@
      "authority": "Recreation.gov (USDA Forest Service)",
      "url": "https://www.recreation.gov/permits/233260",
      "checked": "2026-11-06"
+    },
+    {
+     "title": "Yosemite wilderness permits",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/yose/planyourvisit/wildpermits.htm",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Muir Woods fees and reservations",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/muwo/planyourvisit/fees.htm",
+     "checked": "2026-11-07"
     }
    ]
   }

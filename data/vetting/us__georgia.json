@@ -81,7 +81,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-03",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -98,6 +98,14 @@
      "level": "state",
      "source": "https://dds.georgia.gov/georgia-licenses-ids-and-permits/new-license-id-or-permit/new-georgia-residents-and-out-state-1",
      "checked": "2026-11-03"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Cumberland Island National Seashore: no fires at the wilderness campsites; campfires only at Sea Camp and Stafford Beach in the fire rings. Hammocks must be free-standing (no tying to trees or structures). Carts and wheeled coolers are not allowed north of Sea Camp. Do not approach within 50 feet (about 15 m) of the wild horses. Only service animals are allowed in campgrounds. Propane tanks larger than 1 gallon are not allowed on the ferry.",
+     "penalty_signal": "",
+     "source": "https://www.nps.gov/cuis/planyourvisit/camping.htm",
+     "level": "state",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -121,6 +129,55 @@
      "url": "https://dds.georgia.gov/section-1-general-licensing-information",
      "checked": "2026-11-03",
      "supports": "International Driving Permit for non-English licences (read via a search-index snapshot)"
+    }
+   ]
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "transport-control",
+     "authority": "US National Park Service, Cumberland Island National Seashore",
+     "process": "The island is reached only by the concession ferry from St Marys (or private boat); reservations are recommended and check-in starts 1 hour before departure at the mainland visitor centre. Entrance fee US$15 per person aged 16 and over (about A$21.30), valid 7 days, paid when checking in for the ferry; cashless. The ferry does not carry pets, kayaks or cars. Winter: no Tuesday or Wednesday ferry from 1 December to 28 February. Fees in US dollars; A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "lead_time_days": 90,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.nps.gov/cuis/planyourvisit/basicinfo.htm",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "US National Park Service, Cumberland Island National Seashore",
+     "process": "A reservation is required to camp. Book on Recreation.gov up to six months ahead and print the permit within 10 days of the trip. Five campgrounds: Sea Camp, Stafford Beach and three wilderness sites (Hickory Hill, Yankee Paradise, Brickhill Bluff). Limits: 7 consecutive nights; 6 people per site. The wilderness area and its campsites are closed during managed hunts, October to January. Campers at Sea Camp must take the 10:15 am return ferry. Fees in US dollars; A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "lead_time_days": 180,
+     "activities": [
+      "camping"
+     ],
+     "url": "https://www.nps.gov/cuis/planyourvisit/camping.htm",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cumberland Island basic information",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/cuis/planyourvisit/basicinfo.htm",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Cumberland Island camping",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/cuis/planyourvisit/camping.htm",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Cumberland Island fees and passes",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/cuis/planyourvisit/fees.htm",
+     "checked": "2026-11-07"
     }
    ]
   }

@@ -76,7 +76,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-02",
+   "checked": "2026-11-07",
    "evidence": "official",
    "laws": [
     {
@@ -92,6 +92,14 @@
      "level": "region",
      "source": "https://www.flsenate.gov/Laws/Statutes/2026/0790.015",
      "checked": "2026-11-02"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Dry Tortugas National Park: the only fires allowed in the campground are charcoal briquettes in the campsite grills; gas camping stoves are allowed by the park, but the commercial ferries do not carry compressed gas canisters. Overnight anchoring for private boats is allowed only on sand and rubble within 1 nautical mile of the Fort Jefferson harbour light and must not block a channel.",
+     "penalty_signal": "",
+     "source": "https://www.nps.gov/drto/planyourvisit/camping.htm",
+     "level": "state",
+     "checked": "2026-11-07"
     }
    ],
    "sources": [
@@ -132,6 +140,84 @@
    ],
    "checked": "2026-11-05",
    "note": "Section 683.01 also lists days such as Lincoln Day, Susan B. Anthony Day and Shrove Tuesday (in qualifying counties); most are not days businesses or state offices close, and their 2027 dates were not worked out here."
+  },
+  "zone-requirements": {
+   "status": "partly-vetted",
+   "checked": "2026-11-07",
+   "evidence": "official",
+   "layers": [
+    {
+     "type": "transport-control",
+     "authority": "US National Park Service, Dry Tortugas National Park",
+     "process": "Dry Tortugas is about 70 miles (113 km) west of Key West with no road access; visitors arrive by ferry, seaplane, private boat or permitted charter. Everyone aged 16 and over needs an entrance pass: US$15 (about A$21) per person, valid 7 days, and the ferry ticket includes it. The park does not take cash. Camper seats on the Yankee Freedom ferry sell out months ahead (operator phone on the park page: 1-800-634-0939). Fees in US dollars; A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "lead_time_days": 120,
+     "activities": [
+      "all",
+      "ferry"
+     ],
+     "url": "https://www.nps.gov/drto/planyourvisit/directions.htm",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "US National Park Service, Dry Tortugas National Park",
+     "process": "Camping is on Garden Key only. Regular six-person sites are first come, first served and cannot be reserved; anyone who arrives on the daily ferry is guaranteed a spot. The ferry carries at most 10 camping passengers a day, so camper ferry seats are the real limit. Groups of 10 to 20 must apply in advance for the large group site. Camping fee: US$15 per night per site (about A$21), US$30 for the large group site (about A$43), paid through the Recreation.gov Scan and Pay app (wifi is limited to the boathouse). A tent is required. Compressed gas canisters are not allowed on the ferry, so campers bring charcoal. Fees in US dollars; A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "lead_time_days": 120,
+     "activities": [
+      "camping: Garden Key"
+     ],
+     "url": "https://www.nps.gov/drto/planyourvisit/camping.htm",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "activity-permit",
+     "authority": "US National Park Service, Everglades National Park",
+     "process": "A wilderness permit is required for all overnight camping outside the drive-in campgrounds, except when sleeping aboard a boat. Reserve on Recreation.gov up to three months ahead; the confirmation email is the permit, so carry a printed or saved copy. Fee: US$21 administrative fee (about A$30) plus US$2 per person per night (about A$2.85), for advance and walk-up permits. A credit card is needed. Campsites must be vacated by noon, and the page sets a night limit per site in the peak season, mid-November to late April. Chickee (raised platform) and ground sites allow no campfires; tents must be free-standing at chickees. Fees in US dollars; A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "lead_time_days": 90,
+     "activities": [
+      "wilderness camping: Marjory Stoneman Douglas Wilderness"
+     ],
+     "url": "https://www.nps.gov/ever/planyourvisit/wilderness-trip-planner.htm",
+     "checked": "2026-11-07"
+    },
+    {
+     "type": "fee",
+     "authority": "US National Park Service, Everglades National Park",
+     "process": "The standard entrance pass is US$20 to US$35 (about A$28 to A$49). The park states that non-US residents aged 16 and over pay an additional US$100 per person (about A$142) unless admitted with an Annual or America the Beautiful pass. The park does not accept cash. Fees in US dollars; A$1 = USD 0.7040 (RBA, 30 Oct 2026), so US$1 is about A$1.42.",
+     "lead_time_days": 0,
+     "activities": [
+      "all"
+     ],
+     "url": "https://www.nps.gov/ever/planyourvisit/fees.htm",
+     "checked": "2026-11-07"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Dry Tortugas directions",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/drto/planyourvisit/directions.htm",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Dry Tortugas camping",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/drto/planyourvisit/camping.htm",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Everglades wilderness trip planner",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/ever/planyourvisit/wilderness-trip-planner.htm",
+     "checked": "2026-11-07"
+    },
+    {
+     "title": "Everglades fees and passes",
+     "authority": "US National Park Service",
+     "url": "https://www.nps.gov/ever/planyourvisit/fees.htm",
+     "checked": "2026-11-07"
+    }
+   ]
   }
  }
 }
