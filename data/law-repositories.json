@@ -3045,19 +3045,31 @@
   "it/abruzzo": [
    {
     "name": "Normattiva directory to regional laws",
-    "publisher": "Government of Italy, Normattiva",
+    "publisher": "Istituto Poligrafico e Zecca dello Stato",
     "url": "https://www.normattiva.it/legislazioneRegionale/abruzzo",
-    "check": "Regional destination could not be checked; follow the directory link.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official Normattiva directory to this region’s legislation, on the national official-legislation portal. The official regional directory page loaded and links to the region’s own official collection. Follow that regional collection, and check the official bulletin, for the legally authoritative publication. Individual regional texts were not read in this pass.",
+    "discovery_source": "https://www.normattiva.it/legislazioneRegionale"
    }
   ],
   "it/aosta-valley": [
    {
     "name": "Normattiva directory to regional laws",
-    "publisher": "Government of Italy, Normattiva",
+    "publisher": "Istituto Poligrafico e Zecca dello Stato",
     "url": "https://www.normattiva.it/legislazioneRegionale/valleaosta",
-    "check": "Regional destination could not be checked; follow the directory link.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official Normattiva directory to this region’s legislation, on the national official-legislation portal. The official regional directory page loaded and links to the region’s own official collection. Follow that regional collection, and check the official bulletin, for the legally authoritative publication. Individual regional texts were not read in this pass.",
+    "discovery_source": "https://www.normattiva.it/legislazioneRegionale"
    }
   ],
   "it/piedmont": [
@@ -3065,8 +3077,26 @@
     "name": "Regional legislation collection",
     "publisher": "Regional government or legislative council",
     "url": "https://arianna.consiglioregionale.piemonte.it/",
-    "check": "Check the official bulletin for the legally authoritative publication.",
-    "checked": "2026-11-08"
+    "check": "failed TLS (unexpected EOF); SSL was not skipped",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": true,
+    "source": "unverified",
+    "note": "Official Piedmont Regional Council Arianna legislation collection. The direct HTTPS check failed with a TLS unexpected EOF. The official Normattiva directory to this region loaded and is recorded beside this URL. Open the regional collection in a browser."
+   },
+   {
+    "name": "Normattiva directory to regional laws",
+    "url": "https://www.normattiva.it/legislazioneRegionale/piemonte",
+    "publisher": "Istituto Poligrafico e Zecca dello Stato",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": false,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official Normattiva directory to this region’s legislation, on the national official-legislation portal. The official regional directory page loaded and links to the region’s own official collection. Follow that regional collection, and check the official bulletin, for the legally authoritative publication. Individual regional texts were not read in this pass.",
+    "discovery_source": "https://www.normattiva.it/legislazioneRegionale"
    }
   ],
   "it/lombardy": [
@@ -3074,8 +3104,13 @@
     "name": "Regional legislation collection",
     "publisher": "Regional government or legislative council",
     "url": "https://www.consiglio.regione.lombardia.it/wps/portal/crl/home/leggi-e-banche-dati/leggi-regionali",
-    "check": "Check the official bulletin for the legally authoritative publication.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Lombardy Regional Council collection of regional laws. The official leggi regionali page loaded. Check the official bulletin for the legally authoritative publication. Individual regional texts were not read in this pass."
    }
   ],
   "it/veneto": [
@@ -3083,8 +3118,26 @@
     "name": "Regional legislation collection",
     "publisher": "Regional government or legislative council",
     "url": "https://www.consiglioveneto.it/leggi-regionali",
-    "check": "Check the official bulletin for the legally authoritative publication.",
-    "checked": "2026-11-08"
+    "check": "refuses automated checks (HTTP 403; open it in a browser)",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": true,
+    "source": "unverified",
+    "note": "Official Veneto Regional Council regional-laws page. The direct check returned HTTP 403. The official Normattiva directory to this region loaded and is recorded beside this URL. Open the regional collection in a browser."
+   },
+   {
+    "name": "Normattiva directory to regional laws",
+    "url": "https://www.normattiva.it/legislazioneRegionale/veneto",
+    "publisher": "Istituto Poligrafico e Zecca dello Stato",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": false,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official Normattiva directory to this region’s legislation, on the national official-legislation portal. The official regional directory page loaded and links to the region’s own official collection. Follow that regional collection, and check the official bulletin, for the legally authoritative publication. Individual regional texts were not read in this pass.",
+    "discovery_source": "https://www.normattiva.it/legislazioneRegionale"
    }
   ],
   "it/trentino-south-tyrol": [
@@ -3092,24 +3145,41 @@
     "name": "Regional legislation collection",
     "publisher": "Regional government or legislative council",
     "url": "https://www.regione.taa.it/Documenti/Atti-normativi",
-    "check": "Check the official bulletin for the legally authoritative publication.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Trentino-Alto Adige/Südtirol collection of normative acts. The official Atti normativi page loaded. Check the official bulletin for the legally authoritative publication. Individual regional texts were not read in this pass."
    },
    {
-    "name": "Regional and autonomous-province law sources",
-    "publisher": "Government of Italy, Normattiva",
+    "name": "Normattiva directory to regional laws",
+    "publisher": "Istituto Poligrafico e Zecca dello Stato",
     "url": "https://www.normattiva.it/legislazioneRegionale/trentino",
-    "check": "Directory links separately to regional and provincial laws; provincial source availability not checked.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official Normattiva directory to this region’s legislation, on the national official-legislation portal. The official regional directory page loaded and links to the region’s own official collection. Follow that regional collection, and check the official bulletin, for the legally authoritative publication. Individual regional texts were not read in this pass.",
+    "discovery_source": "https://www.normattiva.it/legislazioneRegionale"
    }
   ],
   "it/friuli-venezia-giulia": [
    {
     "name": "Normattiva directory to regional laws",
-    "publisher": "Government of Italy, Normattiva",
+    "publisher": "Istituto Poligrafico e Zecca dello Stato",
     "url": "https://www.normattiva.it/legislazioneRegionale/friuli",
-    "check": "Regional destination could not be checked; follow the directory link.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official Normattiva directory to this region’s legislation, on the national official-legislation portal. The official regional directory page loaded and links to the region’s own official collection. Follow that regional collection, and check the official bulletin, for the legally authoritative publication. Individual regional texts were not read in this pass.",
+    "discovery_source": "https://www.normattiva.it/legislazioneRegionale"
    }
   ],
   "it/emilia-romagna": [
@@ -3117,8 +3187,13 @@
     "name": "Regional legislation collection",
     "publisher": "Regional government or legislative council",
     "url": "https://demetra.regione.emilia-romagna.it/",
-    "check": "Check the official bulletin for the legally authoritative publication.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Emilia-Romagna Demetra collection of regional laws, regulations and related acts. The official landing loaded, including a regional-laws search. Check the official bulletin for the legally authoritative publication. Individual regional texts were not read in this pass."
    }
   ],
   "it/liguria": [
@@ -3126,17 +3201,28 @@
     "name": "Regional legislation collection",
     "publisher": "Regional government or legislative council",
     "url": "https://lrv.regione.liguria.it/liguriass_prod/",
-    "check": "Check the official bulletin for the legally authoritative publication.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Liguria regional legislation collection (Raccolta Normativa Regione Liguria). The official landing loaded. Check the official bulletin for the legally authoritative publication. Individual regional texts were not read in this pass."
    }
   ],
   "it/molise": [
    {
     "name": "Normattiva directory to regional laws",
-    "publisher": "Government of Italy, Normattiva",
+    "publisher": "Istituto Poligrafico e Zecca dello Stato",
     "url": "https://www.normattiva.it/legislazioneRegionale/molise",
-    "check": "Regional destination could not be checked; follow the directory link.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official Normattiva directory to this region’s legislation, on the national official-legislation portal. The official regional directory page loaded and links to the region’s own official collection. Follow that regional collection, and check the official bulletin, for the legally authoritative publication. Individual regional texts were not read in this pass.",
+    "discovery_source": "https://www.normattiva.it/legislazioneRegionale"
    }
   ],
   "it/tuscany": [
@@ -3144,17 +3230,41 @@
     "name": "Regional legislation collection",
     "publisher": "Regional government or legislative council",
     "url": "https://raccoltanormativa.consiglio.regione.toscana.it/",
-    "check": "Check the official bulletin for the legally authoritative publication.",
-    "checked": "2026-11-08"
+    "check": "failed TLS (unexpected EOF); SSL was not skipped",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": true,
+    "source": "unverified",
+    "note": "Official Tuscany Regional Council legislation collection. The direct HTTPS check failed with a TLS unexpected EOF. The official Normattiva directory to this region loaded and is recorded beside this URL. Open the regional collection in a browser."
+   },
+   {
+    "name": "Normattiva directory to regional laws",
+    "url": "https://www.normattiva.it/legislazioneRegionale/toscana",
+    "publisher": "Istituto Poligrafico e Zecca dello Stato",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": false,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official Normattiva directory to this region’s legislation, on the national official-legislation portal. The official regional directory page loaded and links to the region’s own official collection. Follow that regional collection, and check the official bulletin, for the legally authoritative publication. Individual regional texts were not read in this pass.",
+    "discovery_source": "https://www.normattiva.it/legislazioneRegionale"
    }
   ],
   "it/umbria": [
    {
     "name": "Normattiva directory to regional laws",
-    "publisher": "Government of Italy, Normattiva",
+    "publisher": "Istituto Poligrafico e Zecca dello Stato",
     "url": "https://www.normattiva.it/legislazioneRegionale/umbria",
-    "check": "Regional destination could not be checked; follow the directory link.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official Normattiva directory to this region’s legislation, on the national official-legislation portal. The official regional directory page loaded and links to the region’s own official collection. Follow that regional collection, and check the official bulletin, for the legally authoritative publication. Individual regional texts were not read in this pass.",
+    "discovery_source": "https://www.normattiva.it/legislazioneRegionale"
    }
   ],
   "it/lazio": [
@@ -3162,17 +3272,41 @@
     "name": "Regional legislation collection",
     "publisher": "Regional government or legislative council",
     "url": "https://www.consiglio.regione.lazio.it/?sv=vigente&vw=leggiregionali",
-    "check": "Check the official bulletin for the legally authoritative publication.",
-    "checked": "2026-11-08"
+    "check": "failed TLS (unexpected EOF); SSL was not skipped",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": true,
+    "source": "unverified",
+    "note": "Official Lazio Regional Council collection of regional laws in force. The direct HTTPS check failed with a TLS unexpected EOF. The official Normattiva directory to this region loaded and is recorded beside this URL. Open the regional collection in a browser."
+   },
+   {
+    "name": "Normattiva directory to regional laws",
+    "url": "https://www.normattiva.it/legislazioneRegionale/lazio",
+    "publisher": "Istituto Poligrafico e Zecca dello Stato",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": false,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official Normattiva directory to this region’s legislation, on the national official-legislation portal. The official regional directory page loaded and links to the region’s own official collection. Follow that regional collection, and check the official bulletin, for the legally authoritative publication. Individual regional texts were not read in this pass.",
+    "discovery_source": "https://www.normattiva.it/legislazioneRegionale"
    }
   ],
   "it/marche": [
    {
     "name": "Normattiva directory to regional laws",
-    "publisher": "Government of Italy, Normattiva",
+    "publisher": "Istituto Poligrafico e Zecca dello Stato",
     "url": "https://www.normattiva.it/legislazioneRegionale/marche",
-    "check": "Regional destination could not be checked; follow the directory link.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official Normattiva directory to this region’s legislation, on the national official-legislation portal. The official regional directory page loaded and links to the region’s own official collection. Follow that regional collection, and check the official bulletin, for the legally authoritative publication. Individual regional texts were not read in this pass.",
+    "discovery_source": "https://www.normattiva.it/legislazioneRegionale"
    }
   ],
   "it/apulia": [
@@ -3180,8 +3314,13 @@
     "name": "Regional legislation collection",
     "publisher": "Regional government or legislative council",
     "url": "https://bussolanormativa.consiglio.puglia.it/public/Leges/RicercaSemplice.aspx",
-    "check": "Check the official bulletin for the legally authoritative publication.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Apulia (Puglia) regional legislation search (Bussola Normativa). The official search page loaded. Check the official bulletin for the legally authoritative publication. Individual regional texts were not read in this pass."
    }
   ],
   "it/calabria": [
@@ -3189,17 +3328,28 @@
     "name": "Regional legislation collection",
     "publisher": "Regional government or legislative council",
     "url": "https://www.consiglioregionale.calabria.it/portale/BancheDati/Leggi/LeggiForm",
-    "check": "Check the official bulletin for the legally authoritative publication.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Calabria Regional Council legislation database. The official search form loaded. Check the official bulletin for the legally authoritative publication. Individual regional texts were not read in this pass."
    }
   ],
   "it/basilicata": [
    {
     "name": "Normattiva directory to regional laws",
-    "publisher": "Government of Italy, Normattiva",
+    "publisher": "Istituto Poligrafico e Zecca dello Stato",
     "url": "https://www.normattiva.it/legislazioneRegionale/basilicata",
-    "check": "Regional destination could not be checked; follow the directory link.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official Normattiva directory to this region’s legislation, on the national official-legislation portal. The official regional directory page loaded and links to the region’s own official collection. Follow that regional collection, and check the official bulletin, for the legally authoritative publication. Individual regional texts were not read in this pass.",
+    "discovery_source": "https://www.normattiva.it/legislazioneRegionale"
    }
   ],
   "it/campania": [
@@ -3207,26 +3357,43 @@
     "name": "Regional legislation collection",
     "publisher": "Regional government or legislative council",
     "url": "https://www.cr.campania.it/leggi-progetti/leggi-regolamenti",
-    "check": "Check the official bulletin for the legally authoritative publication.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Campania Regional Council page for regional laws and regulations. The official page loaded. Check the official bulletin for the legally authoritative publication. Individual regional texts were not read in this pass."
    }
   ],
   "it/sicily": [
    {
     "name": "Normattiva directory to regional laws",
-    "publisher": "Government of Italy, Normattiva",
+    "publisher": "Istituto Poligrafico e Zecca dello Stato",
     "url": "https://www.normattiva.it/legislazioneRegionale/sicilia",
-    "check": "Regional destination could not be checked; follow the directory link.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official Normattiva directory to this region’s legislation, on the national official-legislation portal. The official regional directory page loaded and links to the region’s own official collection. Follow that regional collection, and check the official bulletin, for the legally authoritative publication. Individual regional texts were not read in this pass.",
+    "discovery_source": "https://www.normattiva.it/legislazioneRegionale"
    }
   ],
   "it/sardinia": [
    {
     "name": "Normattiva directory to regional laws",
-    "publisher": "Government of Italy, Normattiva",
+    "publisher": "Istituto Poligrafico e Zecca dello Stato",
     "url": "https://www.normattiva.it/legislazioneRegionale/sardegna",
-    "check": "Regional destination could not be checked; follow the directory link.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official Normattiva directory to this region’s legislation, on the national official-legislation portal. The official regional directory page loaded and links to the region’s own official collection. Follow that regional collection, and check the official bulletin, for the legally authoritative publication. Individual regional texts were not read in this pass.",
+    "discovery_source": "https://www.normattiva.it/legislazioneRegionale"
    }
   ],
   "es/basque-country": [
@@ -3234,8 +3401,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=231_Codigo_del_Pais_Vasco&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; direct compilation could not be checked and may be under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/galicia": [
@@ -3243,8 +3415,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=232_Codigo_de_Galicia&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/andalusia": [
@@ -3252,8 +3429,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=229_Codigo_de_Andalucia__&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/asturias": [
@@ -3261,8 +3443,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=028_Codigo_del_Principado_de_Asturias&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/cantabria": [
@@ -3270,8 +3457,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=233_Codigo_de_Cantabria&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/la-rioja": [
@@ -3279,8 +3471,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=234_Codigo_de_La_Rioja&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/region-of-murcia": [
@@ -3288,8 +3485,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=347_Codigo_de_la_Region_de_Murcia&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/valencian-community": [
@@ -3297,8 +3499,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=230_Codigo_de_la_Comunidad_Valenciana&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/aragon": [
@@ -3306,8 +3513,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=235_Codigo_de_Aragon&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/castillala-mancha": [
@@ -3315,8 +3527,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=236_Codigo_de_Castilla-La_Mancha&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/canary-islands": [
@@ -3324,8 +3541,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=237_Codigo_de_las_Islas_Canarias&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/navarre": [
@@ -3333,8 +3555,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=238_Codigo_de_Navarra&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/extremadura": [
@@ -3342,8 +3569,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=239_Codigo_de_Extremadura&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/balearic-islands": [
@@ -3351,8 +3583,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=240_Codigo_de_las_Islas_Baleares&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/community-of-madrid": [
@@ -3360,8 +3597,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=208_Codigo_de_la_Comunidad_de_Madrid&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/castile-and-leon": [
@@ -3369,8 +3611,13 @@
     "name": "BOE regional code: selected legislation",
     "publisher": "Official State Gazette Agency (BOE)",
     "url": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=241_Codigo_de_Castilla_y_Leon&modo=2&tipo=C",
-    "check": "Selected laws, not an exhaustive register; some compilations are under revision.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official BOE Código of selected legislation for this autonomous community, on the Agencia Estatal BOE legal-library. The official compilation page loaded. It is a selected official compilation, not an exhaustive register of every current regional rule; some compilations may be under revision. Individual regional texts were not added as local-law records in this pass."
    }
   ],
   "es/catalonia": [
@@ -3378,8 +3625,13 @@
     "name": "Portal Jurídic de Catalunya: search legislation",
     "publisher": "Generalitat de Catalunya",
     "url": "https://portaljuridic.gencat.cat/ca/inici",
-    "check": "Consolidated versions are informational; legally official versions appear in the gazettes.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Catalan",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Portal Jurídic de Catalunya (Generalitat). The official landing loaded, including the Dret de Catalunya collection. Consolidated versions are informational; legally official versions appear in the gazettes. Individual texts were not read in this pass."
    }
   ],
   "jp/hokkaido": [
@@ -5445,9 +5697,13 @@
     "name": "Berlin legislation and court decision database",
     "publisher": "Berlin Senate Department for Justice",
     "url": "https://gesetze.berlin.de/bsbe/search",
-    "check": "Official Berlin state law search listed by the Bundestag; direct access timed out.",
-    "checked": "2026-11-08",
-    "note": "Check the official gazette and date of the text for current authoritative publication."
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "note": "Official title on the landing: Berliner Vorschriften- und Rechtsprechungsdatenbank. Official Land law collection on the state Landesrecht / Vorschriften database (juris application). The official search landing loaded with the Land collection title. The collection itself is a JavaScript application; open it in a browser to browse texts. Individual Land texts were not read in this pass.",
+    "kind": "statutes",
+    "language": "German",
+    "searchable": true,
+    "source": "read directly"
    }
   ],
   "de/brandenburg": [
@@ -5465,9 +5721,13 @@
     "name": "Bremen laws, regulations and municipal statutes",
     "publisher": "Free Hanseatic City of Bremen",
     "url": "https://www.transparenz.bremen.de/daten/gesetze-rechtsvorschriften-verordnungen-rundschreiben-und-satzungen-des-landes-bremen-57868",
-    "check": "The official Bremen directory was indexed but did not load during the direct check.",
-    "checked": "2026-11-08",
-    "note": "Check the official gazette and date of the text for current authoritative publication."
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "note": "Official Bremen Transparency Portal directory of Land laws, regulations, circulars and statutes. The official page loaded. Follow the documents on that directory for the legally official text. Individual texts were not read in this pass.",
+    "kind": "statutes",
+    "language": "German",
+    "searchable": true,
+    "source": "read directly"
    }
   ],
   "de/hamburg": [
@@ -5475,9 +5735,13 @@
     "name": "Hamburg state law search",
     "publisher": "Free and Hanseatic City of Hamburg",
     "url": "https://www.landesrecht-hamburg.de/bsha/search",
-    "check": "The state law directory is listed by the Bundestag; direct access timed out.",
-    "checked": "2026-11-08",
-    "note": "Check the official gazette and date of the text for current authoritative publication."
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "note": "Official title on the landing: Landesrecht Hamburg. Official Land law collection on the state Landesrecht / Vorschriften database (juris application). The official search landing loaded with the Land collection title. The collection itself is a JavaScript application; open it in a browser to browse texts. Individual Land texts were not read in this pass.",
+    "kind": "statutes",
+    "language": "German",
+    "searchable": true,
+    "source": "read directly"
    }
   ],
   "de/hesse": [
@@ -5495,9 +5759,13 @@
     "name": "Mecklenburg-Vorpommern state law search",
     "publisher": "State of Mecklenburg-Vorpommern",
     "url": "https://www.landesrecht-mv.de/bsmv/search",
-    "check": "The search page loaded but requires JavaScript to display results.",
-    "checked": "2026-11-08",
-    "note": "Check the official gazette and date of the text for current authoritative publication."
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "note": "Official title on the landing: Landesrecht Mecklenburg-Vorpommern. Official Land law collection on the state Landesrecht / Vorschriften database (juris application). The official search landing loaded with the Land collection title. The collection itself is a JavaScript application; open it in a browser to browse texts. Individual Land texts were not read in this pass.",
+    "kind": "statutes",
+    "language": "German",
+    "searchable": true,
+    "source": "read directly"
    }
   ],
   "de/north-rhine-westphalia": [
@@ -5515,9 +5783,13 @@
     "name": "Rhineland-Palatinate state law search",
     "publisher": "State of Rhineland-Palatinate",
     "url": "https://www.landesrecht.rlp.de/bsrp/search",
-    "check": "The state law directory is linked by Lower Saxony; direct access timed out.",
-    "checked": "2026-11-08",
-    "note": "Check the official gazette and date of the text for current authoritative publication."
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "note": "Official title on the landing: Landesrecht Rheinland-Pfalz. Official Land law collection on the state Landesrecht / Vorschriften database (juris application). The official search landing loaded with the Land collection title. The collection itself is a JavaScript application; open it in a browser to browse texts. Individual Land texts were not read in this pass.",
+    "kind": "statutes",
+    "language": "German",
+    "searchable": true,
+    "source": "read directly"
    }
   ],
   "de/saarland": [
@@ -5525,9 +5797,13 @@
     "name": "Saarland state law search",
     "publisher": "State of Saarland",
     "url": "https://recht.saarland.de/bssl/search",
-    "check": "The state law directory is listed by the Bundestag; direct access timed out.",
-    "checked": "2026-11-08",
-    "note": "Check the official gazette and date of the text for current authoritative publication."
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "note": "Official title on the landing: Bürgerservice Saarland. Official Land law collection on the state Landesrecht / Vorschriften database (juris application). The official search landing loaded with the Land collection title. The collection itself is a JavaScript application; open it in a browser to browse texts. Individual Land texts were not read in this pass.",
+    "kind": "statutes",
+    "language": "German",
+    "searchable": true,
+    "source": "read directly"
    }
   ],
   "de/saxony": [
@@ -5545,9 +5821,13 @@
     "name": "Saxony-Anhalt state law search",
     "publisher": "State of Saxony-Anhalt",
     "url": "https://www.landesrecht.sachsen-anhalt.de/bsst/search",
-    "check": "The state law directory is listed by the Bundestag; direct access timed out.",
-    "checked": "2026-11-08",
-    "note": "Check the official gazette and date of the text for current authoritative publication."
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "note": "Official title on the landing: Landesrecht Sachsen-Anhalt. Official Land law collection on the state Landesrecht / Vorschriften database (juris application). The official search landing loaded with the Land collection title. The collection itself is a JavaScript application; open it in a browser to browse texts. Individual Land texts were not read in this pass.",
+    "kind": "statutes",
+    "language": "German",
+    "searchable": true,
+    "source": "read directly"
    }
   ],
   "de/schleswig-holstein": [
@@ -5555,9 +5835,13 @@
     "name": "Schleswig-Holstein state law and case-law search",
     "publisher": "State of Schleswig-Holstein",
     "url": "https://www.gesetze-rechtsprechung.sh.juris.de/bssh/search",
-    "check": "The state law directory is linked by Lower Saxony; direct access timed out.",
-    "checked": "2026-11-08",
-    "note": "Check the official gazette and date of the text for current authoritative publication."
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "note": "Official title on the landing: Gesetze-Rechtsprechung Schleswig-Holstein. Official Land law collection on the state Landesrecht / Vorschriften database (juris application). The official search landing loaded with the Land collection title. The collection itself is a JavaScript application; open it in a browser to browse texts. Individual Land texts were not read in this pass.",
+    "kind": "statutes",
+    "language": "German",
+    "searchable": true,
+    "source": "read directly"
    }
   ],
   "de/thuringia": [
@@ -5565,9 +5849,13 @@
     "name": "Thuringia state law search",
     "publisher": "Free State of Thuringia",
     "url": "https://landesrecht.thueringen.de/bsth/search",
-    "check": "The state law directory is linked by Lower Saxony; direct access timed out.",
-    "checked": "2026-11-08",
-    "note": "Check the official gazette and date of the text for current authoritative publication."
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "note": "Official title on the landing: Bürgerservice Thüringen. Official Land law collection on the state Landesrecht / Vorschriften database (juris application). The official search landing loaded with the Land collection title. The collection itself is a JavaScript application; open it in a browser to browse texts. Individual Land texts were not read in this pass.",
+    "kind": "statutes",
+    "language": "German",
+    "searchable": true,
+    "source": "read directly"
    }
   ],
   "de/lower-saxony": [
@@ -5575,9 +5863,13 @@
     "name": "Lower Saxony: laws, regulations and VORIS",
     "publisher": "Lower Saxony State Chancellery",
     "url": "https://www.niedersachsen.de/politik_staat/gesetze_verordnungen_und_sonstige_vorschriften/gesetze--verordnungen-20080.html",
-    "check": "Government entry page opened; follow the link to VORIS or the official publication gazettes.",
-    "checked": "2026-11-08",
-    "note": "Check the official gazette and date of the text for current authoritative publication."
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "note": "Official Lower Saxony government page for laws, ordinances and other provisions, including links to the official publication gazettes and to VORIS. The official page loaded. Individual Land texts were not read in this pass.",
+    "kind": "statutes",
+    "language": "German",
+    "searchable": false,
+    "source": "read directly"
    }
   ],
   "be/flemish-region": [
@@ -5615,9 +5907,13 @@
     "name": "Ceuta legislation and regulations",
     "publisher": "Autonomous City of Ceuta",
     "url": "https://www.ceuta.es/ceuta/normativa-cac",
-    "check": "Official city regulations directory indexed and contents examined; later fetch timed out.",
-    "checked": "2026-11-08",
-    "note": "City ordinances and regulations organized by subject; check the city official gazette for later amendments."
+    "check": "failed TLS (unexpected EOF); SSL was not skipped",
+    "checked": "2026-11-11",
+    "note": "Official City of Ceuta regulations directory. The direct HTTPS check failed with a TLS unexpected EOF. Open it in a browser.",
+    "kind": "regulations",
+    "language": "Spanish",
+    "searchable": false,
+    "source": "unverified"
    }
   ],
   "es/melilla": [
