@@ -1832,3 +1832,15 @@ For Claude.
 - The national India Code record was updated. The same official address https://indiacode.gov.in had been marked, on 8 November 2026, as announced but not checked; the homepage and communities API now load. The Legislative Department has migrated the site from www.indiacode.nic.in.
 - www.indiacode.gov.in failed TLS (unrecognised name) and is listed in STATUS under Needs browser. SSL was not skipped.
 - Expected coverage: 260 of 3,597 states and regions with at least one verified official law source (from 225); 176 remain listed but unconfirmed. India is now 35 of 35.
+
+
+## 2026-11-11 14:49 AEST, Grok: law-source map (verify Japanese prefecture reiki collections)
+
+- Rechecked the 26 Japanese first-level reiki sources that were not yet verified, without skipping SSL. Official collections or official landings loaded for 22 of them on 11 November 2026. Kind: regulations (and statutes or gazette where a prefecture page or gazette is recorded). Language: Japanese.
+- Searchable official 法規集 or 例規集 on d1-law loaded with the collection title: Ehime, Gifu, Gunma, Hiroshima, Hokkaido, Kochi, Mie and Nagano, plus Hyogo (兵庫県法規集, linked from the prefecture's ordinances page) and Kanagawa (神奈川県法規集, linked from the prefecture's 県法規集 page).
+- Official prefecture-hosted pages that loaded: Kyoto 例規集, including a browsable 体系目次 index; Tokyo 東京都例規集データベース, landing page current as of 15 September 2026, with the collection itself a JavaScript application; Fukuoka's official 福岡県例規全集 landing (the collection is on legal-square). The existing Fukuoka City Reiki-Base link also loaded and remains labelled as city laws only (municipal).
+- Official Reiki-Base landing pages loaded, with the collection itself a JavaScript application (open it in a browser), for Fukushima, Miyagi, Nagasaki, Nara, Shizuoka and Toyama (the Toyama prefecture URL redirected to legal-square).
+- Akita, Ishikawa and Iwate: official prefecture law pages loaded. Akita: ordinances, regulations and gazette hub, plus the official 秋田県公報 page; the g-reiki collection it links to still returned 403. Ishikawa: official 石川県法規集 page, which now links to a Reiki-Base collection on legal-square.com (that landing loaded), plus the official gazette; the older g-reiki URL still returned 403. Iwate: official 県法規集・県報 page, plus the official 岩手県報 at https://www3.pref.iwate.jp/webdb/view/outside/s19Kenpo/; the 法規集 link is still on g-reiki.net and returned 403.
+- Still unverified, HTTP 403 on g-reiki.net, and left on the Needs browser list: Ibaraki, Kumamoto, Niigata and Oita. Alternative prefecture-hosted hosts for those four failed TLS, returned 404, or were not found. The National Governors Association list still points those four at g-reiki.net. SSL was not skipped.
+- No new local-law records: the pages read were collection landings, indexes or gazettes, not individual ordinance texts.
+- Expected coverage: Japan 43 of 47 verified (from 21); overall 282 of 3,597 states and regions with at least one verified official law source (from 260); 154 remain listed but unconfirmed.

@@ -2359,8 +2359,13 @@
     "name": "Tokyo Metropolitan Government legal database (Japanese)",
     "publisher": "Tokyo Metropolitan Government",
     "url": "https://www.reiki.metro.tokyo.lg.jp/",
-    "check": "database displays its currency date",
-    "checked": "2026-11-08"
+    "check": "The official database landing page loaded (contents current as of 15 September 2026). Entering the collection requires a browser.",
+    "checked": "2026-11-11",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Tokyo metropolitan ordinance collection (東京都例規集データベース). The landing page is official; the collection itself is a JavaScript application."
    }
   ],
   "jp/kyoto-prefecture": [
@@ -2368,8 +2373,13 @@
     "name": "Kyoto Prefecture collection of ordinances and regulations (Japanese)",
     "publisher": "Kyoto Prefectural Government",
     "url": "https://www.pref.kyoto.jp/reiki/",
-    "check": "check the collection currency date",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Kyoto Prefecture ordinance collection (京都府例規集), including a browsable classified index (体系目次)."
    }
   ],
   "jp/osaka-prefecture": [
@@ -2386,8 +2396,26 @@
     "name": "Kanagawa Prefecture regulations database entry point (Japanese)",
     "publisher": "Kanagawa Prefectural Government",
     "url": "https://www.pref.kanagawa.jp/docs/y8e/cnt/f7406/",
-    "check": "follow the legal data service link",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official prefecture page for the prefectural ordinance and regulation collection. It links to the searchable 神奈川県法規集."
+   },
+   {
+    "name": "Kanagawa Prefecture ordinance and regulation collection (神奈川県法規集)",
+    "publisher": "Kanagawa Prefecture government",
+    "url": "https://ops-jg.d1-law.com/opensearch/SrFeF01/init?jctcd=8A8025C23A",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official searchable 法規集, linked from the prefecture's 県法規集 page.",
+    "discovery_source": "https://www.pref.kanagawa.jp/docs/y8e/cnt/f7406/"
    }
   ],
   "jp/fukuoka-prefecture": [
@@ -2395,15 +2423,25 @@
     "name": "Fukuoka Prefecture ordinances database entry point (Japanese)",
     "publisher": "Fukuoka Prefectural Government",
     "url": "https://www.pref.fukuoka.lg.jp/contents/fukuoke-reiki.html",
-    "check": "follow the database link",
-    "checked": "2026-11-08"
+    "check": "The official prefecture landing page loaded and links to the Reiki-Base collection, which is a JavaScript application (open it in a browser).",
+    "checked": "2026-11-11",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official Fukuoka Prefecture page for the 福岡県例規全集. The collection itself is hosted on legal-square.com."
    },
    {
     "name": "Fukuoka City municipal ordinance collection (Japanese)",
     "publisher": "Fukuoka City",
     "url": "https://www.city.fukuoka.lg.jp/d1w_reiki/reiki.html",
-    "check": "city laws, not the entire prefecture",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "municipal",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Fukuoka City ordinance collection only, not the prefecture-wide register."
    }
   ],
   "jp/hyogo-prefecture": [
@@ -2411,8 +2449,26 @@
     "name": "Hyogo Prefecture ordinances and regulations entry point (Japanese)",
     "publisher": "Hyogo Prefectural Government",
     "url": "https://web.pref.hyogo.lg.jp/kk32/houki.html",
-    "check": "follow the legal database link and check its currency date",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official prefecture page for ordinances and regulations. It links to the searchable 兵庫県法規集."
+   },
+   {
+    "name": "Hyogo Prefecture ordinance and regulation collection (兵庫県法規集)",
+    "publisher": "Hyogo Prefecture government",
+    "url": "https://ops-jg.d1-law.com/opensearch/?jctcd=8A85CFF43A",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official searchable 法規集, linked from the prefecture's ordinances and regulations page.",
+    "discovery_source": "https://web.pref.hyogo.lg.jp/kk32/houki.html"
    }
   ],
   "za/kwazulu-natal": [
@@ -3296,9 +3352,14 @@
     "name": "Hokkaido: ordinances and regulations (Japanese)",
     "publisher": "Hokkaido government",
     "url": "https://ops-jg.d1-law.com/opensearch/SrMjF01/init?jctcd=8A79F3E9AA",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Hokkaido ordinance and regulation collection (北海道例規類集). Searchable."
    }
   ],
   "jp/aomori-prefecture": [
@@ -3313,12 +3374,40 @@
   ],
   "jp/iwate-prefecture": [
    {
+    "name": "Iwate Prefecture laws, gazette and related procedures",
+    "publisher": "Iwate Prefecture government",
+    "url": "https://www.pref.iwate.jp/kensei/houkikenpou/index.html",
+    "kind": "statutes",
+    "language": "Japanese",
+    "searchable": false,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official prefecture page for the 県法規集, the prefectural gazette (県報), and related procedures. The 法規集 link is hosted on g-reiki.net and returned 403 to curl."
+   },
+   {
+    "name": "Iwate Prefectural Gazette (岩手県報)",
+    "publisher": "Iwate Prefecture government",
+    "url": "https://www3.pref.iwate.jp/webdb/view/outside/s19Kenpo/",
+    "kind": "gazette",
+    "language": "Japanese",
+    "searchable": false,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "discovery_source": "https://www.pref.iwate.jp/kensei/houkikenpou/index.html"
+   },
+   {
     "name": "Iwate Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Iwate Prefecture government",
     "url": "https://www1.g-reiki.net/pref.iwate/reiki_menu.html",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "Returned HTTP 403 Forbidden to curl on 11 November 2026; try it in a browser. The official prefecture laws page still links here.",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "unverified"
    }
   ],
   "jp/miyagi-prefecture": [
@@ -3326,19 +3415,52 @@
     "name": "Miyagi Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Miyagi Prefecture government",
     "url": "https://kra700.legal-square.com/HAS-Shohin/page/SJSrbLogin.jsf",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "The official Reiki-Base landing page loaded; the collection itself is a JavaScript application (open it in a browser).",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official prefecture ordinance collection (Reiki-Base). The landing page loaded; browsing the texts needs a browser."
    }
   ],
   "jp/akita-prefecture": [
    {
+    "name": "Akita Prefecture ordinances, regulations and gazette",
+    "publisher": "Akita Prefecture government",
+    "url": "https://www.pref.akita.lg.jp/pages/genre/11704",
+    "kind": "statutes",
+    "language": "Japanese",
+    "searchable": false,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official prefecture page for ordinances, regulations and the prefectural gazette. It links to the Akita Reiki-Base collection, which is hosted on g-reiki.net and returned 403 to curl."
+   },
+   {
+    "name": "Akita Prefectural Gazette (秋田県公報)",
+    "publisher": "Akita Prefecture government",
+    "url": "https://www.pref.akita.lg.jp/pages/genre/12136",
+    "kind": "gazette",
+    "language": "Japanese",
+    "searchable": false,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official prefectural gazette page."
+   },
+   {
     "name": "Akita Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Akita Prefecture government",
     "url": "https://www1.g-reiki.net/pref_akita/reiki_menu.html",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "Returned HTTP 403 Forbidden to curl on 11 November 2026; try it in a browser. The official prefecture page still links here.",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "unverified"
    }
   ],
   "jp/yamagata-prefecture": [
@@ -3356,9 +3478,14 @@
     "name": "Fukushima Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Fukushima Prefecture government",
     "url": "https://krk400.legal-square.com/HAS-Shohin/page/SJSrbLogin.jsf",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "The official Reiki-Base landing page loaded; the collection itself is a JavaScript application (open it in a browser).",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official prefecture ordinance collection (Reiki-Base). The landing page loaded; browsing the texts needs a browser."
    }
   ],
   "jp/ibaraki-prefecture": [
@@ -3366,9 +3493,13 @@
     "name": "Ibaraki Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Ibaraki Prefecture government",
     "url": "https://www1.g-reiki.net/pref.ibaraki/reiki_menu.html",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "Returned HTTP 403 Forbidden to curl on 11 November 2026; try it in a browser. Linked from the National Governors Association prefecture reiki list.",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "unverified"
    }
   ],
   "jp/tochigi-prefecture": [
@@ -3386,9 +3517,14 @@
     "name": "Gunma Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Gunma Prefecture government",
     "url": "https://ops-jg.d1-law.com/opensearch/SrMjF01/init?jctcd=8A7FE9A39A",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Gunma Prefecture ordinance and regulation collection (群馬県法規集). Searchable."
    }
   ],
   "jp/saitama-prefecture": [
@@ -3416,9 +3552,13 @@
     "name": "Niigata Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Niigata Prefecture government",
     "url": "https://www1.g-reiki.net/pref.niigata/index.html",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "Returned HTTP 403 Forbidden to curl on 11 November 2026; try it in a browser. Linked from the National Governors Association prefecture reiki list.",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "unverified"
    }
   ],
   "jp/toyama-prefecture": [
@@ -3426,19 +3566,75 @@
     "name": "Toyama Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Toyama Prefecture government",
     "url": "https://www.pref.toyama.jp/sections/1103/reiki_int/reiki_menu.html",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "The official prefecture URL redirected to the Reiki-Base landing page, which loaded; the collection itself is a JavaScript application (open it in a browser).",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Toyama Prefecture ordinance collection (Reiki-Base), reached from the prefecture's reiki_menu address."
+   },
+   {
+    "name": "Toyama Prefecture ordinances and regulations (Reiki-Base)",
+    "publisher": "Toyama Prefecture government",
+    "url": "https://kri001.legal-square.com/HAS-Shohin/page/SJSrbLogin.jsf",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "check": "The official Reiki-Base landing page loaded; the collection itself is a JavaScript application (open it in a browser).",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "discovery_source": "https://www.pref.toyama.jp/sections/1103/reiki_int/reiki_menu.html"
    }
   ],
   "jp/ishikawa-prefecture": [
    {
+    "name": "Ishikawa Prefecture ordinance and regulation collection (石川県法規集)",
+    "publisher": "Ishikawa Prefecture government",
+    "url": "https://www.pref.ishikawa.lg.jp/soumu/houki/houkisyuu.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": false,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official prefecture page for the 石川県法規集. It links to the Reiki-Base collection."
+   },
+   {
+    "name": "Ishikawa Prefecture ordinances and regulations (Reiki-Base)",
+    "publisher": "Ishikawa Prefecture government",
+    "url": "https://kri101.legal-square.com/HAS-Shohin/page/SJSrbLogin.jsf",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "check": "The official Reiki-Base landing page loaded; the collection itself is a JavaScript application (open it in a browser).",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "discovery_source": "https://www.pref.ishikawa.lg.jp/soumu/houki/houkisyuu.html"
+   },
+   {
+    "name": "Ishikawa Prefectural Gazette (公報)",
+    "publisher": "Ishikawa Prefecture government",
+    "url": "https://www.pref.ishikawa.lg.jp/soumu/koho/index.html",
+    "kind": "gazette",
+    "language": "Japanese",
+    "searchable": false,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly"
+   },
+   {
     "name": "Ishikawa Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Ishikawa Prefecture government",
     "url": "https://www1.g-reiki.net/ishikawa/reiki_menu.html",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "Returned HTTP 403 Forbidden to curl on 11 November 2026; try it in a browser. The official prefecture 法規集 page now links to a Reiki-Base collection on legal-square.com instead.",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "unverified"
    }
   ],
   "jp/fukui-prefecture": [
@@ -3466,9 +3662,14 @@
     "name": "Nagano Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Nagano Prefecture government",
     "url": "https://ops-jg.d1-law.com/opensearch/SrMjF01/init?jctcd=8A8556305A",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Nagano Prefecture ordinance and regulation collection (長野県法規集). Searchable."
    }
   ],
   "jp/gifu-prefecture": [
@@ -3476,9 +3677,14 @@
     "name": "Gifu Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Gifu Prefecture government",
     "url": "https://ops-jg.d1-law.com/opensearch/SrFeF01/init?jctcd=8A856599AA",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Gifu Prefecture ordinance and regulation collection (岐阜県法規集). Searchable."
    }
   ],
   "jp/shizuoka-prefecture": [
@@ -3486,9 +3692,14 @@
     "name": "Shizuoka Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Shizuoka Prefecture government",
     "url": "https://kra900.legal-square.com/HAS-Shohin/page/SJSrbLogin.jsf",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "The official Reiki-Base landing page loaded; the collection itself is a JavaScript application (open it in a browser).",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official prefecture ordinance collection (Reiki-Base). The landing page loaded; browsing the texts needs a browser."
    }
   ],
   "jp/aichi-prefecture": [
@@ -3506,9 +3717,14 @@
     "name": "Mie Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Mie Prefecture government",
     "url": "https://ops-jg.d1-law.com/opensearch/SrMjF01/init?jctcd=8A85924EFA",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Mie Prefecture ordinance and regulation collection (三重県法規集). Searchable."
    }
   ],
   "jp/shiga-prefecture": [
@@ -3526,9 +3742,14 @@
     "name": "Nara Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Nara Prefecture government",
     "url": "https://krk401.legal-square.com/HAS-Shohin/page/SJSrbLogin.jsf",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "The official Reiki-Base landing page loaded; the collection itself is a JavaScript application (open it in a browser).",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official prefecture ordinance collection (Reiki-Base). The landing page loaded; browsing the texts needs a browser."
    }
   ],
   "jp/wakayama-prefecture": [
@@ -3566,9 +3787,14 @@
     "name": "Hiroshima Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Hiroshima Prefecture government",
     "url": "https://ops-jg.d1-law.com/opensearch/SrMjF01/init?jctcd=8A8B97723A",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Hiroshima Prefecture ordinance and regulation collection (広島県法規集). Searchable."
    }
   ],
   "jp/yamaguchi-prefecture": [
@@ -3606,9 +3832,14 @@
     "name": "Ehime Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Ehime Prefecture government",
     "url": "https://ops-jg.d1-law.com/opensearch/SrFeF01/init?jctcd=8A8BD5177A",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Ehime Prefecture ordinance and regulation collection (愛媛県法規集). Searchable."
    }
   ],
   "jp/kochi-prefecture": [
@@ -3616,9 +3847,14 @@
     "name": "Kōchi Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Kōchi Prefecture government",
     "url": "https://ops-jg.d1-law.com/opensearch/SrMjF01/init?jctcd=8A8BE480CA",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Kochi Prefecture ordinance and regulation collection (高知県例規集). Searchable."
    }
   ],
   "jp/saga-prefecture": [
@@ -3636,9 +3872,14 @@
     "name": "Nagasaki Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Nagasaki Prefecture government",
     "url": "https://krq301.legal-square.com/HAS-Shohin/page/SJSrbLogin.jsf",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "The official Reiki-Base landing page loaded; the collection itself is a JavaScript application (open it in a browser).",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official prefecture ordinance collection (Reiki-Base). The landing page loaded; browsing the texts needs a browser."
    }
   ],
   "jp/kumamoto-prefecture": [
@@ -3646,9 +3887,13 @@
     "name": "Kumamoto Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Kumamoto Prefecture government",
     "url": "https://www1.g-reiki.net/pref.kumamoto/reiki_menu.html",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "Returned HTTP 403 Forbidden to curl on 11 November 2026; try it in a browser. Linked from the National Governors Association prefecture reiki list.",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "unverified"
    }
   ],
   "jp/oita-prefecture": [
@@ -3656,9 +3901,13 @@
     "name": "Ōita Prefecture: ordinances and regulations (Japanese)",
     "publisher": "Ōita Prefecture government",
     "url": "https://www1.g-reiki.net/pref_oita/reiki.html",
-    "check": "This register is linked by Japan's National Governors' Association but did not load during the check; try in a browser.",
-    "checked": "2026-11-08",
-    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html"
+    "check": "Returned HTTP 403 Forbidden to curl on 11 November 2026; try it in a browser. Linked from the National Governors Association prefecture reiki list.",
+    "checked": "2026-11-11",
+    "discovery_source": "https://www.nga.gr.jp/pref_info/ruletop.html",
+    "kind": "regulations",
+    "language": "Japanese",
+    "searchable": true,
+    "source": "unverified"
    }
   ],
   "jp/miyazaki-prefecture": [
