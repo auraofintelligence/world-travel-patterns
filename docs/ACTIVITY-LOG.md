@@ -2144,3 +2144,9 @@ For Claude.
 ## 2026-11-12 04:54 AEST, Grok: remove conflict markers from the Italy holiday-calendar merge
 
 - The Italy holiday-calendar commit was rebased onto a parallel Senegal/Rwanda batch and the activity log and status table were committed with unresolved git conflict markers. Those markers have been removed. Both the Rwanda activity entry and the Italy holiday-calendar entry are kept, in that order. The status table was regenerated. Coverage is unchanged from the Italy upgrade: culture cycles 439 of 3,597 (75 official, 167 signal); local law 726; substances 153; law-source map 1,088 of 3,597; culture and protocol 100; affection 17.
+
+## 2026-11-12 04:56 AEST, Grok: official Flemish Community Day among the decretale feestdagen
+
+- Asia, the Pacific and Europe only. Official pages that did not load were skipped. SSL was not skipped. Belgian regional culture cycles from an official Flemish government list that actually loaded.
+- Flemish Region: the official Flemish government staff-holiday page lists the wettelijke en decretale feestdagen, including 11 July as Feest van de Vlaamse Gemeenschap (Flemish Community Day). National holidays are on Belgium's record and were not copied here. Extra staff days on the same page (All Souls, King's Day, Boxing Day, and the close from Christmas to New Year) are employment entitlements for Flemish government staff and were not recorded as public holidays. Official Wallonia and Brussels 2027 holiday pages failed or were blocked this pass.
+- Coverage after this batch: culture cycles 440 of 3,597 (from 439). Local law 726; substances 153; law-source map 1,088 of 3,597 (62 listed but unconfirmed). Culture and protocol 100; affection 17.
