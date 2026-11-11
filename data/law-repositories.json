@@ -1172,7 +1172,12 @@
     "publisher": "Ministry of Government Legislation",
     "url": "https://www.law.go.kr/",
     "check": "loaded",
-    "checked": "2026-11-01"
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Korean",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official National Law Information Center, including a 자치법규 (local ordinance) collection searchable by local government."
    },
    {
     "name": "Korean laws in English",
@@ -1180,6 +1185,19 @@
     "url": "https://elaw.klri.re.kr/",
     "check": "loaded",
     "checked": "2026-11-01"
+   },
+   {
+    "name": "National Law Information Center: current local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/ordinSc.do?menuId=3&subMenuId=27&tabMenuId=139",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official search for current local ordinances (현행 자치법규) on the National Law Information Center. Filter by local government to reach a city or province collection.",
+    "discovery_source": "https://www.law.go.kr/main.html"
    }
   ],
   "kw": [
@@ -1501,7 +1519,12 @@
     "publisher": "Attorney General's Chambers",
     "url": "https://lom.agc.gov.my/",
     "check": "loaded",
-    "checked": "2026-11-01"
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official federal Laws of Malaysia. This portal does not publish state enactments. State Dewan or Attorney-General sites hold state law. Federal Territories (Kuala Lumpur, Labuan, Putrajaya) have no state legislature, so this federal collection is the statute source, alongside municipal by-law lists."
    }
   ],
   "mz": [
@@ -4812,17 +4835,40 @@
     "name": "Sabah State Laws",
     "publisher": "Sabah State Attorney-General’s Chambers",
     "url": "https://sagc.sabah.gov.my/?q=en/law-type/sabah-laws",
-    "check": "Register marks some laws not yet in force; check commencement and amendments.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Sabah State Attorney-General's Chambers register of Sabah laws, with linked ordinance and enactment texts and a separate local-authority by-laws collection. The register marks some laws as not yet in force; check commencement and later amendments."
    }
   ],
   "my/sarawak": [
    {
     "name": "Sarawak LawNet: State Ordinances",
-    "publisher": "Sarawak State Attorney-General’s Chambers",
+    "publisher": "Sarawak State Attorney-General's Chambers",
     "url": "https://lawnet.sarawak.gov.my/lawnet/Law/TLnetPubHome.jsp",
-    "check": "Check the Sarawak Government Gazette and currency date for authoritative publication.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Sarawak LawNet portal for state ordinances and subsidiary legislation, with a full listing, search, and PDF texts. Check the Sarawak Government Gazette and the currency date on a text before relying on it."
+   },
+   {
+    "name": "Sarawak LawNet: full ordinance listing",
+    "publisher": "Sarawak State Attorney-General's Chambers",
+    "url": "https://lawnet.sarawak.gov.my/lawnet/Law/TLnetPublishedOrdList.jsp?LTyp=All",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official full listing of published Sarawak ordinances and subsidiary legislation, with PDF downloads.",
+    "discovery_source": "https://lawnet.sarawak.gov.my/lawnet/Law/TLnetPubHome.jsp"
    }
   ],
   "np/koshi-province": [
@@ -4928,8 +4974,13 @@
     "name": "Perak State Assembly: Enactments and Amendments",
     "publisher": "Perak State Assembly",
     "url": "https://dewan.perak.gov.my/enakmen/",
-    "check": "Browse enactments and amendments separately; check gazette dates and subsequent amendments.",
-    "checked": "2026-11-08"
+    "check": "failed TLS (unexpected EOF); SSL was not skipped",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Malay",
+    "searchable": false,
+    "source": "unverified",
+    "note": "Official Dewan Negeri Perak enactments URL from the earlier search snapshot. The direct HTTPS check failed with a TLS unexpected EOF. Open it in a browser."
    }
   ],
   "my/kelantan": [
@@ -4937,8 +4988,13 @@
     "name": "Kelantan State Assembly: Bills and Enactments",
     "publisher": "Kelantan State Assembly",
     "url": "https://dewan.kelantan.gov.my/index.php/perundangan-perbahasan/manual-pengguna-portal",
-    "check": "Selected state enactments and amendments; some documents are hosted on Google Drive.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Malay",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official Dewan Negeri Kelantan enactments page. The landing loaded. Some linked constitution and amendment documents are hosted on Google Drive rather than on the Dewan site itself; those Drive copies were not treated as official downloads."
    }
   ],
   "my/selangor": [
@@ -4946,8 +5002,13 @@
     "name": "Selangor State Assembly: Enactment Archive",
     "publisher": "Selangor State Assembly",
     "url": "https://dewan.selangor.gov.my/enakmen/",
-    "check": "Search snapshot identifies a year-by-year enactment archive; the direct check timed out.",
-    "checked": "2026-11-08"
+    "check": "failed TLS (unable to get local issuer certificate); SSL was not skipped",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Malay",
+    "searchable": false,
+    "source": "unverified",
+    "note": "Official Dewan Negeri Selangor enactment archive URL from the earlier search snapshot. The direct HTTPS check failed because the certificate chain could not be verified. Open it in a browser."
    }
   ],
   "my/johor": [
@@ -4955,8 +5016,13 @@
     "name": "Johor State Assembly: Bills and Enactments",
     "publisher": "Johor State Assembly",
     "url": "https://dewannegeri.johor.gov.my/rang-undang-undang-enakmen/",
-    "check": "Search snapshot shows selected assembly-session records and downloads through 2021; the direct check timed out. Bills are not necessarily enacted law.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Malay",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official Dewan Negeri Johor page for bills and enactments, including gazette and enactment PDF downloads. The list mixes bills (rang undang-undang) with enacted law; check that a document is an enactment before relying on it. The official state constitution (Undang-Undang Tubuh Negeri Johor 1895) is linked from the same site."
    }
   ],
   "ch/canton-of-appenzell-ausserrhoden": [
@@ -7190,6 +7256,276 @@
     "checked": "2026-11-11",
     "source": "read directly",
     "note": "Official India Code community for this state's acts. Stay in this collection: the same database also holds central acts. Check commencement and later amendments. Individual texts were not read in this pass."
+   }
+  ],
+  "kr/seoul": [
+   {
+    "name": "National Law Information Center: Seoul local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/LSW/ordinAstSc.do?menuId=391&subMenuId=397&tabMenuId=439&cptOfiCd=6110000&strongId=cptOfi6110000&eventGubun=060102",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official local-ordinance (자치법규: 조례 and 규칙) collection for Seoul (서울특별시) on the National Law Information Center. The official institution code is in the URL. The dedicated local-ordinance site elis.go.kr is linked from law.go.kr but failed TLS to curl; SSL was not skipped. Individual ordinance texts were not read in this pass.",
+    "discovery_source": "https://www.law.go.kr/main.html"
+   }
+  ],
+  "kr/busan": [
+   {
+    "name": "National Law Information Center: Busan local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/LSW/ordinAstSc.do?menuId=391&subMenuId=397&tabMenuId=439&cptOfiCd=6260000&strongId=cptOfi6260000&eventGubun=060102",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official local-ordinance (자치법규: 조례 and 규칙) collection for Busan (부산광역시) on the National Law Information Center. The official institution code is in the URL. The dedicated local-ordinance site elis.go.kr is linked from law.go.kr but failed TLS to curl; SSL was not skipped. Individual ordinance texts were not read in this pass.",
+    "discovery_source": "https://www.law.go.kr/main.html"
+   }
+  ],
+  "kr/daegu": [
+   {
+    "name": "National Law Information Center: Daegu local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/LSW/ordinAstSc.do?menuId=391&subMenuId=397&tabMenuId=439&cptOfiCd=6270000&strongId=cptOfi6270000&eventGubun=060102",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official local-ordinance (자치법규: 조례 and 규칙) collection for Daegu (대구광역시) on the National Law Information Center. The official institution code is in the URL. The dedicated local-ordinance site elis.go.kr is linked from law.go.kr but failed TLS to curl; SSL was not skipped. Individual ordinance texts were not read in this pass.",
+    "discovery_source": "https://www.law.go.kr/main.html"
+   }
+  ],
+  "kr/incheon": [
+   {
+    "name": "National Law Information Center: Incheon local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/LSW/ordinAstSc.do?menuId=391&subMenuId=397&tabMenuId=439&cptOfiCd=6280000&strongId=cptOfi6280000&eventGubun=060102",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official local-ordinance (자치법규: 조례 and 규칙) collection for Incheon (인천광역시) on the National Law Information Center. The official institution code is in the URL. The dedicated local-ordinance site elis.go.kr is linked from law.go.kr but failed TLS to curl; SSL was not skipped. Individual ordinance texts were not read in this pass.",
+    "discovery_source": "https://www.law.go.kr/main.html"
+   }
+  ],
+  "kr/daejeon": [
+   {
+    "name": "National Law Information Center: Daejeon local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/LSW/ordinAstSc.do?menuId=391&subMenuId=397&tabMenuId=439&cptOfiCd=6300000&strongId=cptOfi6300000&eventGubun=060102",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official local-ordinance (자치법규: 조례 and 규칙) collection for Daejeon (대전광역시) on the National Law Information Center. The official institution code is in the URL. The dedicated local-ordinance site elis.go.kr is linked from law.go.kr but failed TLS to curl; SSL was not skipped. Individual ordinance texts were not read in this pass.",
+    "discovery_source": "https://www.law.go.kr/main.html"
+   }
+  ],
+  "kr/sejong": [
+   {
+    "name": "National Law Information Center: Sejong local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/LSW/ordinAstSc.do?menuId=391&subMenuId=397&tabMenuId=439&cptOfiCd=5690000&strongId=cptOfi5690000&eventGubun=060102",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official local-ordinance (자치법규: 조례 and 규칙) collection for Sejong (세종특별자치시) on the National Law Information Center. The official institution code is in the URL. The dedicated local-ordinance site elis.go.kr is linked from law.go.kr but failed TLS to curl; SSL was not skipped. Individual ordinance texts were not read in this pass.",
+    "discovery_source": "https://www.law.go.kr/main.html"
+   }
+  ],
+  "kr/ulsan": [
+   {
+    "name": "National Law Information Center: Ulsan local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/LSW/ordinAstSc.do?menuId=391&subMenuId=397&tabMenuId=439&cptOfiCd=6310000&strongId=cptOfi6310000&eventGubun=060102",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official local-ordinance (자치법규: 조례 and 규칙) collection for Ulsan (울산광역시) on the National Law Information Center. The official institution code is in the URL. The dedicated local-ordinance site elis.go.kr is linked from law.go.kr but failed TLS to curl; SSL was not skipped. Individual ordinance texts were not read in this pass.",
+    "discovery_source": "https://www.law.go.kr/main.html"
+   }
+  ],
+  "kr/gyeonggi-province": [
+   {
+    "name": "National Law Information Center: Gyeonggi Province local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/LSW/ordinAstSc.do?menuId=391&subMenuId=397&tabMenuId=439&cptOfiCd=6410000&strongId=cptOfi6410000&eventGubun=060102",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official local-ordinance (자치법규: 조례 and 규칙) collection for Gyeonggi Province (경기도) on the National Law Information Center. The official institution code is in the URL. The dedicated local-ordinance site elis.go.kr is linked from law.go.kr but failed TLS to curl; SSL was not skipped. Individual ordinance texts were not read in this pass.",
+    "discovery_source": "https://www.law.go.kr/main.html"
+   }
+  ],
+  "kr/gangwon-province": [
+   {
+    "name": "National Law Information Center: Gangwon Province local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/LSW/ordinAstSc.do?menuId=391&subMenuId=397&tabMenuId=439&cptOfiCd=6530000&strongId=cptOfi6530000&eventGubun=060102",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official local-ordinance (자치법규: 조례 and 규칙) collection for Gangwon Province (강원특별자치도) on the National Law Information Center. The official institution code is in the URL. The dedicated local-ordinance site elis.go.kr is linked from law.go.kr but failed TLS to curl; SSL was not skipped. Individual ordinance texts were not read in this pass.",
+    "discovery_source": "https://www.law.go.kr/main.html"
+   }
+  ],
+  "kr/north-chungcheong": [
+   {
+    "name": "National Law Information Center: North Chungcheong local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/LSW/ordinAstSc.do?menuId=391&subMenuId=397&tabMenuId=439&cptOfiCd=6430000&strongId=cptOfi6430000&eventGubun=060102",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official local-ordinance (자치법규: 조례 and 규칙) collection for North Chungcheong (충청북도) on the National Law Information Center. The official institution code is in the URL. The dedicated local-ordinance site elis.go.kr is linked from law.go.kr but failed TLS to curl; SSL was not skipped. Individual ordinance texts were not read in this pass.",
+    "discovery_source": "https://www.law.go.kr/main.html"
+   }
+  ],
+  "kr/south-chungcheong": [
+   {
+    "name": "National Law Information Center: South Chungcheong local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/LSW/ordinAstSc.do?menuId=391&subMenuId=397&tabMenuId=439&cptOfiCd=6440000&strongId=cptOfi6440000&eventGubun=060102",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official local-ordinance (자치법규: 조례 and 규칙) collection for South Chungcheong (충청남도) on the National Law Information Center. The official institution code is in the URL. The dedicated local-ordinance site elis.go.kr is linked from law.go.kr but failed TLS to curl; SSL was not skipped. Individual ordinance texts were not read in this pass.",
+    "discovery_source": "https://www.law.go.kr/main.html"
+   }
+  ],
+  "kr/north-jeolla": [
+   {
+    "name": "National Law Information Center: North Jeolla local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/LSW/ordinAstSc.do?menuId=391&subMenuId=397&tabMenuId=439&cptOfiCd=6540000&strongId=cptOfi6540000&eventGubun=060102",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official local-ordinance (자치법규: 조례 and 규칙) collection for North Jeolla (전북특별자치도) on the National Law Information Center. The official institution code is in the URL. The dedicated local-ordinance site elis.go.kr is linked from law.go.kr but failed TLS to curl; SSL was not skipped. Individual ordinance texts were not read in this pass.",
+    "discovery_source": "https://www.law.go.kr/main.html"
+   }
+  ],
+  "kr/north-gyeongsang": [
+   {
+    "name": "National Law Information Center: North Gyeongsang local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/LSW/ordinAstSc.do?menuId=391&subMenuId=397&tabMenuId=439&cptOfiCd=6470000&strongId=cptOfi6470000&eventGubun=060102",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official local-ordinance (자치법규: 조례 and 규칙) collection for North Gyeongsang (경상북도) on the National Law Information Center. The official institution code is in the URL. The dedicated local-ordinance site elis.go.kr is linked from law.go.kr but failed TLS to curl; SSL was not skipped. Individual ordinance texts were not read in this pass.",
+    "discovery_source": "https://www.law.go.kr/main.html"
+   }
+  ],
+  "kr/south-gyeongsang": [
+   {
+    "name": "National Law Information Center: South Gyeongsang local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/LSW/ordinAstSc.do?menuId=391&subMenuId=397&tabMenuId=439&cptOfiCd=6480000&strongId=cptOfi6480000&eventGubun=060102",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official local-ordinance (자치법규: 조례 and 규칙) collection for South Gyeongsang (경상남도) on the National Law Information Center. The official institution code is in the URL. The dedicated local-ordinance site elis.go.kr is linked from law.go.kr but failed TLS to curl; SSL was not skipped. Individual ordinance texts were not read in this pass.",
+    "discovery_source": "https://www.law.go.kr/main.html"
+   }
+  ],
+  "kr/jeju-province": [
+   {
+    "name": "National Law Information Center: Jeju Province local ordinances",
+    "publisher": "Ministry of Government Legislation (국가법령정보센터)",
+    "url": "https://www.law.go.kr/LSW/ordinAstSc.do?menuId=391&subMenuId=397&tabMenuId=439&cptOfiCd=6500000&strongId=cptOfi6500000&eventGubun=060102",
+    "kind": "regulations",
+    "language": "Korean",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official local-ordinance (자치법규: 조례 and 규칙) collection for Jeju Province (제주특별자치도) on the National Law Information Center. The official institution code is in the URL. The dedicated local-ordinance site elis.go.kr is linked from law.go.kr but failed TLS to curl; SSL was not skipped. Individual ordinance texts were not read in this pass.",
+    "discovery_source": "https://www.law.go.kr/main.html"
+   }
+  ],
+  "my/kuala-lumpur": [
+   {
+    "name": "Kuala Lumpur City Hall legislation list",
+    "publisher": "Kuala Lumpur City Hall (DBKL)",
+    "url": "https://www.dbkl.gov.my/info-korporat/senarai-perundangan",
+    "kind": "regulations",
+    "language": "Malay",
+    "searchable": false,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official DBKL list of federal Acts applicable in the Federal Territory of Kuala Lumpur and of subsidiary legislation and by-laws (undang-undang kecil), with PDF downloads. Kuala Lumpur has no state legislature; federal Laws of Malaysia also apply (https://lom.agc.gov.my/). Individual by-law texts were not added as local-law records in this pass except where a PDF is later read in full.",
+    "discovery_source": "https://www.dbkl.gov.my/"
+   }
+  ],
+  "my/labuan": [
+   {
+    "name": "Labuan Corporation legislation list",
+    "publisher": "Labuan Corporation (Perbadanan Labuan)",
+    "url": "https://www.pl.gov.my/info-korporat/perundangan/senarai-undang-undang/",
+    "kind": "regulations",
+    "language": "Malay",
+    "searchable": false,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official Perbadanan Labuan list of Acts, ordinances and by-laws (undang-undang kecil) applicable in the Federal Territory of Labuan. Labuan has no state legislature; federal Laws of Malaysia also apply (https://lom.agc.gov.my/). The Labuan Corporation Act 2001 (Act 609) is published as a PDF on the same official site.",
+    "discovery_source": "https://www.pl.gov.my/"
+   }
+  ],
+  "my/putrajaya": [
+   {
+    "name": "Putrajaya Corporation: laws of Putrajaya",
+    "publisher": "Putrajaya Corporation (Perbadanan Putrajaya)",
+    "url": "https://www.ppj.gov.my/second-menu/undang-undang-putrajaya",
+    "kind": "statutes",
+    "language": "Malay",
+    "searchable": false,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official Perbadanan Putrajaya collection of Acts applicable in the Federal Territory of Putrajaya, with linked official pages for each Act. Putrajaya has no state legislature; federal Laws of Malaysia also apply (https://lom.agc.gov.my/).",
+    "discovery_source": "https://www.ppj.gov.my/"
    }
   ]
  },
