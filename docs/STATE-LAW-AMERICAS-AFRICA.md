@@ -368,3 +368,32 @@ Empty here means no verified official law source and none of the five actual pat
 | Madagascar | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 Madagascar has no first-level regions in this tree, not completed coverage. Mozambique and Côte d’Ivoire remain priority gaps; Uganda has many remaining districts. Canada still needs protocols beyond the four named institutions added here; Kenya still needs actual county rules. Brazil and the remaining Argentine provinces were not substantively checked in this continuation. Failed or empty sites were skipped, not reported as verified. Earlier queue sections above are dated snapshots, not current totals.
+
+- 2026-11-12 05:08 AEST: Grok extra Mozambique/Côte d’Ivoire/Kenya batch: national conservation-law baselines for all eleven Mozambican regions, with the primary 2017 amended republication read from the government forestry directorate, not the outdated 2014 archive alone. National conservation/management-plan rules held once; actual Gorongosa no-self-drive safari, age, fire, quiet, wildlife, pet, alcohol and seasonal/gate conditions in Sofala, labelled operational. Selected government Textes officiels directory baselines for five Ivorian tree regions, explicitly not regional codes or a usable full gazette; SGG code-only/agenda pages not counted as gazette collections. Actual primary Kiambu 2024 and Machakos 2014 county alcohol/access rules and Nandi original licence-hour distinctions, with local-law/substances records and no assumed universal bar hours. Nyeri empty/403, Makueni attachment 404 and Kisumu timeout skipped. Later amendments/current venue licences not comprehensively checked; no money amounts, personal content or new drone work.
+
+## Refreshed requested-country queue, 2026-11-12 05:09 AEST
+
+Current snapshot after the extra Africa traveller batch. Definitions and first-level classifier are unchanged from the preceding dated table; a verified source directory is not a substantive local-code review.
+
+| Country | Empty | First-level total | Verified law source | Local law | Culture cycles | Culture and protocol | Substances | Affection |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Uganda | 99 | 129 | 30 | 3 | 1 | 1 | 1 | 0 |
+| Qatar | 4 | 5 | 1 | 1 | 1 | 1 | 0 | 0 |
+| Argentina | 2 | 23 | 16 | 17 | 9 | 0 | 0 | 0 |
+| Mexico | 1 | 32 | 30 | 26 | 11 | 3 | 12 | 0 |
+| Kenya | 0 | 47 | 47 | 9 | 0 | 0 | 3 | 0 |
+| Brazil | 0 | 27 | 19 | 15 | 26 | 0 | 0 | 0 |
+| Senegal | 0 | 14 | 14 | 0 | 0 | 0 | 0 | 0 |
+| Canada | 0 | 13 | 11 | 13 | 13 | 7 | 13 | 0 |
+| Ethiopia | 0 | 12 | 12 | 1 | 0 | 0 | 0 | 0 |
+| Mozambique | 0 | 11 | 11 | 1 | 1 | 0 | 1 | 0 |
+| Zambia | 0 | 10 | 10 | 1 | 1 | 0 | 0 | 0 |
+| Zimbabwe | 0 | 10 | 10 | 4 | 5 | 0 | 0 | 0 |
+| Kuwait | 0 | 6 | 6 | 0 | 0 | 0 | 0 | 0 |
+| Lebanon | 0 | 6 | 6 | 0 | 0 | 0 | 0 | 0 |
+| Côte d'Ivoire | 0 | 5 | 5 | 0 | 0 | 0 | 0 | 0 |
+| Rwanda | 0 | 5 | 5 | 5 | 3 | 1 | 0 | 0 |
+| Bahrain | 0 | 4 | 4 | 0 | 0 | 0 | 0 | 0 |
+| Madagascar | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+Remaining empty targets among this request: Uganda’s unfilled districts, four Qatari municipalities, two Argentine provinces and one Mexican state. Brazil still lacks substantive local law in twelve states, Canada protocol in six provinces/territories, and Kenya actual county local-law records in thirty-eight counties. These are record counts, not a claim that every existing record is a full legal review. Mozambique and Côte d’Ivoire now have national subject-specific/selected-directory baselines, not completed provincial rules. Madagascar still has no first-level children in this tree. Failed sites were skipped and unchecked levels remain not yet checked.
