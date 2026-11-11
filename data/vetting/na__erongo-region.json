@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -14,6 +14,13 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Government Notice 115 of 2026"
+    },
+    {
+     "topic": "permits-and-registration",
+     "rule": "For Welwitschia Drive and Sandwich Harbour, MEFT's park-permit FAQ says permits must be obtained beforehand. It separately says through-travel on the main road through Namib-Naukluft does not require a park permit. The ministry lists its offices and says Namibia Wildlife Resorts does not issue permits. Check the current issuing office and route: ordinary through-road travel is not permission to leave that route.",
+     "source": "https://www.meft.gov.na/frequently-asked-questions/what-are-the-entry-permit-requirements-for-the-various-parks-in-namibia-/136/",
+     "checked": "2026-11-12",
+     "level": "site"
     }
    ],
    "sources": [
@@ -44,9 +51,16 @@
      "url": "https://custom.resbank.co.za/SarbWebApi/WebIndicators/Shared/GetTimeseriesObservations/EXCX135D/2026-10-30/2026-10-30",
      "checked": "2026-11-05",
      "supports": "NAD fallback rate, 2026-10-30 (read directly 2026-11-05)"
+    },
+    {
+     "title": "National park entry-permit requirements: official FAQ",
+     "authority": "Ministry of Environment, Forestry and Tourism, Namibia",
+     "url": "https://www.meft.gov.na/frequently-asked-questions/what-are-the-entry-permit-requirements-for-the-various-parks-in-namibia-/136/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Ministry FAQ read directly: permits at park gates generally, specific advance permits for Namib-Naukluft areas, Khaudum convoy requirement and only one trailer. Current charges and underlying instrument text not checked."
     }
    ],
-   "note": "National parks in this region: Namib-Naukluft, Dorob and Cape Cross. Fees are national."
+   "note": "National parks in this region: Namib-Naukluft, Dorob and Cape Cross. Fees are national. Specific Erongo visitor areas in a national FAQ. Published office details may change; current fees, exact route boundaries and every amendment not yet checked."
   },
   "zone-requirements": {
    "status": "partly-vetted",

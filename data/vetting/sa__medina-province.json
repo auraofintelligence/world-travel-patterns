@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -30,6 +30,20 @@
      "source": "https://www.smartraveller.gov.au/destinations/middle-east/saudi-arabia",
      "heading": "Entry and exit",
      "checked": "2026-11-06"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "AlUla heritage-site visitor code requires designated walking paths and roads, no entering non-designated areas such as tombs, no climbing or removing natural/heritage material, and no fires. It sets a 30 km/h driving limit and designated parking. These are heritage-operator visitor terms, not the speed limit or camping law throughout Medina Province.",
+     "source": "https://www.experiencealula.com/en/terms-and-conditions",
+     "checked": "2026-11-12",
+     "level": "site"
+    },
+    {
+     "topic": "permits-and-registration",
+     "rule": "Hegra Premium Tour conditions describe a guided, two-hour vehicle tour meeting at Hegra Visitor Centre, with a private vehicle seating up to seven and a guide potentially shared between two cars, maximum fourteen. Maintenance/excavation can close some areas. This is this ticket product's access format, not evidence that every Hegra ticket has the same vehicle/group size.",
+     "source": "https://www.experiencealula.com/en/things-to-do/experiences/hegra-premium-tour",
+     "checked": "2026-11-12",
+     "level": "site"
     }
    ],
    "sources": [
@@ -53,9 +67,23 @@
      "url": "https://www.smartraveller.gov.au/destinations/middle-east/saudi-arabia",
      "checked": "2026-11-06",
      "supports": "only Muslims may enter Makkah and Madinah"
+    },
+    {
+     "title": "AlUla heritage sites and experiences: visitor code and terms",
+     "authority": "Experience AlUla / Royal Commission for AlUla, Saudi Arabia",
+     "url": "https://www.experiencealula.com/en/terms-and-conditions",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Read directly: heritage driving/walking/conservation code, designated-area smoking exception and separate event terms. Operator conditions are not represented as Saudi criminal statutes."
+    },
+    {
+     "title": "Hegra Premium Tour: access and restrictions",
+     "authority": "Experience AlUla / Royal Commission for AlUla, Saudi Arabia",
+     "url": "https://www.experiencealula.com/en/things-to-do/experiences/hegra-premium-tour",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Read directly: guided premium-tour format, meeting point, up-to-seven private vehicle, weather/maintenance conditions, accessibility and open-daily/year-round description. No price recorded."
     }
    ],
-   "note": "Hegra only."
+   "note": "Hegra only. Official destination/heritage operator conditions only. General Saudi national law, every other AlUla ticket and municipal rules not yet checked in this pass."
   },
   "ancient-sites-and-mysteries": {
    "status": "partly-mapped",
@@ -93,6 +121,77 @@
    "checked": "2026-11-05",
    "evidence": "Official pages; read directly unless marked search snapshot.",
    "summary": "1 site in Medina Province."
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "tobacco",
+     "kind": "law",
+     "text": "AlUla heritage-site operator terms: heritage sites are non-smoking EXCEPT in designated smoking areas. Do not present the exception as an unrestricted right to smoke at every heritage site or as a province-wide rule.",
+     "source": "https://www.experiencealula.com/en/terms-and-conditions",
+     "checked": "2026-11-12"
+    }
+   ],
+   "sources": [
+    {
+     "title": "AlUla heritage sites and experiences: visitor code and terms",
+     "authority": "Experience AlUla / Royal Commission for AlUla, Saudi Arabia",
+     "url": "https://www.experiencealula.com/en/terms-and-conditions",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Read directly: heritage driving/walking/conservation code, designated-area smoking exception and separate event terms. Operator conditions are not represented as Saudi criminal statutes."
+    }
+   ],
+   "notes": "Official operator rule with its designated-area exception; underlying smoking statute, all specific site smoking locations and other provincial substance rules not yet checked.",
+   "checked": "2026-11-12"
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "public_holidays": [],
+   "moving_calendars": [],
+   "festivals": [],
+   "closures": [
+    "Hegra Premium Tour: operator describes open daily/year-round; experiences remain weather/visibility dependent and maintenance/excavation may close individual heritage areas. No specific available session is guaranteed."
+   ],
+   "protocol_notes": [],
+   "sources": [
+    {
+     "title": "Hegra Premium Tour: access and restrictions",
+     "authority": "Experience AlUla / Royal Commission for AlUla, Saudi Arabia",
+     "url": "https://www.experiencealula.com/en/things-to-do/experiences/hegra-premium-tour",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Read directly: guided premium-tour format, meeting point, up-to-seven private vehicle, weather/maintenance conditions, accessibility and open-daily/year-round description. No price recorded."
+    }
+   ],
+   "note": "Product-specific operating description, not a provincial public-holiday calendar or a live reservation guarantee.",
+   "checked": "2026-11-12"
+  },
+  "culture-and-protocol": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "AlUla heritage sites and experiences: visitor code and terms",
+     "authority": "Experience AlUla / Royal Commission for AlUla, Saudi Arabia",
+     "url": "https://www.experiencealula.com/en/terms-and-conditions",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Read directly: heritage driving/walking/conservation code, designated-area smoking exception and separate event terms. Operator conditions are not represented as Saudi criminal statutes."
+    },
+    {
+     "title": "Hegra Premium Tour: access and restrictions",
+     "authority": "Experience AlUla / Royal Commission for AlUla, Saudi Arabia",
+     "url": "https://www.experiencealula.com/en/things-to-do/experiences/hegra-premium-tour",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Read directly: guided premium-tour format, meeting point, up-to-seven private vehicle, weather/maintenance conditions, accessibility and open-daily/year-round description. No price recorded."
+    }
+   ],
+   "cultural_authority": "Royal Commission for AlUla / Experience AlUla, for its heritage visitor sites and this tour product only.",
+   "dress_and_conduct": "Stay on designated heritage paths, do not enter non-designated tombs, climb monuments, mark rock surfaces, touch/pour water on engravings or remove heritage material. The Premium Tour recommends outdoor clothes and closed-toe walking shoes/boots; the recommendation is not turned into a province-wide clothing law.",
+   "photography_and_story_permissions": "Heritage rules say take nothing but pictures, but the website has separate restrictive event-photography clauses. Personal heritage photographs and event/attendee recording are not treated as the same permission; obtain product/event-specific consent before recording people or performances. Community storytelling permissions not yet checked.",
+   "note": "Site-specific conservation and operator protocol, not all Medina communities or a claim about national religious dress law.",
+   "checked": "2026-11-12"
   }
  }
 }
