@@ -54,7 +54,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-08",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -111,6 +111,13 @@
      "source": "https://www.bacn.gov.py/leyes-paraguayas/5259/ley-n-5621-de-proteccion-del-patrimonio-cultural",
      "checked": "2026-11-08",
      "penalty_signal": "2 to 10 years in prison for trafficking abroad"
+    },
+    {
+     "topic": "permits-and-registration",
+     "rule": "In protected areas covered by MADES public-use rules, register at the control post. Groups larger than 15 need a visit notification issued by the protected-areas directorate before travel. Camp, light fires or swim only in designated places, obey ranger restrictions, and take a ranger on remote or difficult trails where signs require one. Do not disturb wildlife or collect plants or material without permission. Domestic animals require administration authorisation.",
+     "source": "https://www.mades.gov.py/2025/12/25/los-parques-nacionales-no-son-balnearios/",
+     "checked": "2026-11-12",
+     "level": "country"
     }
    ],
    "sources": [
@@ -127,8 +134,16 @@
      "url": "https://www.bacn.gov.py/leyes-paraguayas/2562/ley-n-1340--modifica-adiciona-y-actualiza-la-ley-n-35772que-reprime-el-trafico-ilicito-de-estupefacientes-y-drogas-peligrosas-y-otros-delitos-afines-y-establece-medidas-de-prevencion-y--recuperacion-de-farmacodependientes",
      "checked": "2026-11-08",
      "supports": "drink-drive limits, personal-use drugs, smoking and vaping, heritage export"
+    },
+    {
+     "title": "MADES protected-area public-use rules, Resolution 613/25 reminder",
+     "authority": "Ministerio del Ambiente y Desarrollo Sostenible, Paraguay",
+     "url": "https://www.mades.gov.py/2025/12/25/los-parques-nacionales-no-son-balnearios/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: entry registration, designated recreation areas, prior group notification, ranger accompaniment where posted, no alcohol consumption/sale or intoxicated entry, domestic-animal authorisation, noise and collection restrictions."
     }
-   ]
+   ],
+   "note": "Protected-area public-use requirements are recorded once here, not copied into every department. A named site entry below does not waive private-land access or ranger controls."
   },
   "health-entry": {
    "status": "conditional",
@@ -694,6 +709,13 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/paraguay",
      "checked": "2026-11-01",
      "by": "smartraveller_substances"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "MADES Resolution 613/25 public-use reminder prohibits consumption or sale of alcoholic drinks and entry while intoxicated in protected areas. The parks directory also prohibits bringing alcoholic drinks in. This is a protected-area restriction, not a general ban on alcohol across Paraguay.",
+     "source": "https://www.mades.gov.py/2025/12/25/los-parques-nacionales-no-son-balnearios/",
+     "checked": "2026-11-12"
     }
    ],
    "sources": [
@@ -703,10 +725,24 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/paraguay",
      "checked": "2026-11-01",
      "supports": "drugs, alcohol, vaping and local laws as read on 2026-11-01"
+    },
+    {
+     "title": "MADES protected-area public-use rules, Resolution 613/25 reminder",
+     "authority": "Ministerio del Ambiente y Desarrollo Sostenible, Paraguay",
+     "url": "https://www.mades.gov.py/2025/12/25/los-parques-nacionales-no-son-balnearios/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: entry registration, designated recreation areas, prior group notification, ranger accompaniment where posted, no alcohol consumption/sale or intoxicated entry, domestic-animal authorisation, noise and collection restrictions."
+    },
+    {
+     "title": "MADES national parks directory and use rules",
+     "authority": "MADES",
+     "url": "https://www.mades.gov.py/parques-nacionales-del-paraguay/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: no incoming alcohol, high-volume music or pets in the directory use rules."
     }
    ],
-   "notes": "Read from the Australian Government's travel advice; confirm with the country's own law.",
-   "checked": "2026-11-01"
+   "notes": "Read from the Australian Government's travel advice; confirm with the country's own law. Park administration requirements are separate from national possession and medicine rules.",
+   "checked": "2026-11-12"
   },
   "births-and-family-support": {
    "status": "partly-mapped",
