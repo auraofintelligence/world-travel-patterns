@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -39,6 +39,13 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Parque Nacional Tortuguero"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Parque Nacional Cahuita: Playa Blanca and Puerto Vargas sectors have published daily hours 08:00-16:00. Stay on trails and never stand on coral. SINAC recommends a local guide; it does not make that recommendation a mandatory guide requirement in this passage.",
+     "source": "https://www.sinac.go.cr/ES/ac/aclac/pnc/Paginas/default.aspx",
+     "checked": "2026-11-12",
+     "level": "site"
     }
    ],
    "sources": [
@@ -48,9 +55,79 @@
      "url": "https://www.sinac.go.cr/ES/ac/acto/pnt/Paginas/default.aspx",
      "checked": "2026-11-05",
      "supports": "fees, hours, beach curfew (read directly 2026-11-05)"
+    },
+    {
+     "title": "Parque Nacional Cahuita: official visitor conditions",
+     "authority": "Sistema Nacional de Áreas de Conservación, Costa Rica",
+     "url": "https://www.sinac.go.cr/ES/ac/aclac/pnc/Paginas/default.aspx",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named-site hours, online admission or camping conditions and exactly stated intoxication, alcohol or smoking restrictions."
     }
    ],
-   "note": "SINAC park rules; tickets only via serviciosenlinea.sinac.go.cr."
+   "note": "SINAC park rules; tickets only via serviciosenlinea.sinac.go.cr. New site-specific details, not a complete provincial law pass. Older separately dated records are retained."
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "public_holidays": [],
+   "moving_calendars": [],
+   "festivals": [],
+   "closures": [
+    "Parque Nacional Cahuita: Playa Blanca and Puerto Vargas sectors have published daily hours 08:00-16:00. Stay on trails and never stand on coral. SINAC recommends a local guide; it does not make that recommendation a mandatory guide requirement in this passage."
+   ],
+   "protocol_notes": [],
+   "sources": [
+    {
+     "title": "Parque Nacional Cahuita: official visitor conditions",
+     "authority": "Sistema Nacional de Áreas de Conservación, Costa Rica",
+     "url": "https://www.sinac.go.cr/ES/ac/aclac/pnc/Paginas/default.aspx",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named-site hours, online admission or camping conditions and exactly stated intoxication, alcohol or smoking restrictions."
+    }
+   ],
+   "note": "Named park/sector visitor calendar only; not provincial public holidays. Volcanic activity, weather and emergency notices may override published hours. No amounts recorded.",
+   "checked": "2026-11-12"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Parque Nacional Cahuita: Bringing alcoholic drinks into the park is prohibited.",
+     "source": "https://www.sinac.go.cr/ES/ac/aclac/pnc/Paginas/default.aspx",
+     "checked": "2026-11-12"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Parque Nacional Cahuita: official visitor conditions",
+     "authority": "Sistema Nacional de Áreas de Conservación, Costa Rica",
+     "url": "https://www.sinac.go.cr/ES/ac/aclac/pnc/Paginas/default.aspx",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named-site hours, online admission or camping conditions and exactly stated intoxication, alcohol or smoking restrictions."
+    }
+   ],
+   "notes": "Read directly: distinction retained between an intoxicated-entry restriction, alcohol-consumption prohibition and bringing-drinks prohibition. No smoking rule added where the quoted park page does not state one. Other local substance rules not yet checked.",
+   "checked": "2026-11-12"
+  },
+  "culture-and-protocol": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Cahuita shared governance and local visitor guidance",
+     "authority": "SINAC / Parque Nacional Cahuita",
+     "url": "https://www.sinac.go.cr/ES/ac/aclac/pnc/Paginas/default.aspx",
+     "checked": "2026-11-12",
+     "supports": "Read directly: shared community-government management, community rangers/lifeguards, trained local guides, recommended guide use and coral/trail care."
+    }
+   ],
+   "cultural_authority": "For Parque Nacional Cahuita: its community-government management committee and SINAC; not an authority claim over every Limón community.",
+   "dress_and_conduct": "At Cahuita use the marked trails, never stand on coral, and consider a trained local community guide. SINAC describes the guide as recommended here, not a compulsory cultural permission process.",
+   "note": "Named Cahuita park process only. Community-specific ceremonies, photography/story permissions and other provincial cultural protocols not yet checked.",
+   "checked": "2026-11-12"
   }
  }
 }

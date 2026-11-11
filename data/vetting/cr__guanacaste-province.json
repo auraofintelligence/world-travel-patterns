@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -39,18 +39,78 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Parque Nacional Rincón de la Vieja"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Parque Nacional Rincón de la Vieja: Las Pailas: Tuesday-Sunday 08:00-15:00, closed Monday. Santa María: Thursday-Monday 08:00-15:30, closed Tuesday and Wednesday. Entrance tickets online only. The page marks Santa María camping currently closed and the active-crater trail closed for volcanic activity. General camping/cooking advice is not proof those facilities have reopened.",
+     "source": "https://www.sinac.go.cr/es/ac/acg/pnrv/paginas/default.aspx",
+     "checked": "2026-11-12",
+     "level": "site"
     }
    ],
    "sources": [
     {
-     "title": "Parque Nacional Rincón de la Vieja",
-     "authority": "SINAC (Sistema Nacional de Áreas de Conservación), Costa Rica",
+     "title": "Parque Nacional Rincón de la Vieja: official visitor conditions",
+     "authority": "Sistema Nacional de Áreas de Conservación, Costa Rica",
      "url": "https://www.sinac.go.cr/es/ac/acg/pnrv/paginas/default.aspx",
-     "checked": "2026-11-05",
-     "supports": "fees, hours, closures (read directly 2026-11-05)"
+     "checked": "2026-11-12",
+     "supports": "Read directly: named-site hours, online admission or camping conditions and exactly stated intoxication, alcohol or smoking restrictions."
     }
    ],
-   "note": "SINAC park rules; tickets only via serviciosenlinea.sinac.go.cr."
+   "note": "SINAC park rules; tickets only via serviciosenlinea.sinac.go.cr. New site-specific details, not a complete provincial law pass. Older separately dated records are retained."
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "public_holidays": [],
+   "moving_calendars": [],
+   "festivals": [],
+   "closures": [
+    "Parque Nacional Rincón de la Vieja: Las Pailas: Tuesday-Sunday 08:00-15:00, closed Monday. Santa María: Thursday-Monday 08:00-15:30, closed Tuesday and Wednesday. Entrance tickets online only. The page marks Santa María camping currently closed and the active-crater trail closed for volcanic activity. General camping/cooking advice is not proof those facilities have reopened."
+   ],
+   "protocol_notes": [],
+   "sources": [
+    {
+     "title": "Parque Nacional Rincón de la Vieja: official visitor conditions",
+     "authority": "Sistema Nacional de Áreas de Conservación, Costa Rica",
+     "url": "https://www.sinac.go.cr/es/ac/acg/pnrv/paginas/default.aspx",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named-site hours, online admission or camping conditions and exactly stated intoxication, alcohol or smoking restrictions."
+    }
+   ],
+   "note": "Named park/sector visitor calendar only; not provincial public holidays. Volcanic activity, weather and emergency notices may override published hours. No amounts recorded.",
+   "checked": "2026-11-12"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Parque Nacional Rincón de la Vieja: Bringing alcoholic drinks into the park is prohibited.",
+     "source": "https://www.sinac.go.cr/es/ac/acg/pnrv/paginas/default.aspx",
+     "checked": "2026-11-12"
+    },
+    {
+     "substance": "tobacco",
+     "kind": "law",
+     "text": "Parque Nacional Rincón de la Vieja: Smoking inside the park is prohibited.",
+     "source": "https://www.sinac.go.cr/es/ac/acg/pnrv/paginas/default.aspx",
+     "checked": "2026-11-12"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Parque Nacional Rincón de la Vieja: official visitor conditions",
+     "authority": "Sistema Nacional de Áreas de Conservación, Costa Rica",
+     "url": "https://www.sinac.go.cr/es/ac/acg/pnrv/paginas/default.aspx",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named-site hours, online admission or camping conditions and exactly stated intoxication, alcohol or smoking restrictions."
+    }
+   ],
+   "notes": "Read directly: distinction retained between an intoxicated-entry restriction, alcohol-consumption prohibition and bringing-drinks prohibition. No smoking rule added where the quoted park page does not state one. Other local substance rules not yet checked.",
+   "checked": "2026-11-12"
   }
  }
 }

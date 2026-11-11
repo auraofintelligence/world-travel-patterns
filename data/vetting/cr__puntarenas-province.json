@@ -28,15 +28,15 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
      "topic": "permits-and-fees",
-     "rule": "Manuel Antonio: open Wednesday to Monday 7 am to 3 pm (closed Tuesday); tickets online only. Non-resident adults US$18.08 (about A$25.68 at the RBA rate of 30 October 2026), children 2 to 12 US$5.65 (about A$8.03 at the RBA rate of 30 October 2026). No food or drink of any kind, pets, alcohol, smoking, drugs, umbrellas, balls, tents or hammocks; don't feed wildlife.",
+     "rule": "Manuel Antonio: open Wednesday to Monday 7 am to 3 pm (closed Tuesday); tickets online only. Non-resident adults US$18.08 (about A$25.68 at the RBA rate of 30 October 2026), children 2 to 12 US$5.65 (about A$8.03 at the RBA rate of 30 October 2026). Food/drink entry is subject to the administration's conditions and exceptions; food service and consumption are confined to the concession area, with no food on beaches or trails. No pets, alcohol consumption, smoking, drugs, umbrellas, balls, tents or hammocks; do not feed wildlife. Showers must not be used with soap or shampoo.",
      "level": "site",
      "source": "https://www.sinac.go.cr/ES/ac/acopac/pnma/Paginas/default.aspx",
-     "checked": "2026-11-05",
+     "checked": "2026-11-12",
      "by": "hand",
      "heading": "Parque Nacional Manuel Antonio"
     },
@@ -64,9 +64,69 @@
      "url": "https://www.sinac.go.cr/ES/ac/acosa/pnc/Paginas/SectorLaLeona.aspx",
      "checked": "2026-11-05",
      "supports": "guide rule, fees, rules (read directly 2026-11-05)"
+    },
+    {
+     "title": "Parque Nacional Manuel Antonio: official visitor conditions",
+     "authority": "Sistema Nacional de Áreas de Conservación, Costa Rica",
+     "url": "https://www.sinac.go.cr/es/ac/acopac/pnma/paginas/default.aspx",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named-site hours, online admission or camping conditions and exactly stated intoxication, alcohol or smoking restrictions."
     }
    ],
-   "note": "SINAC park rules; tickets only via serviciosenlinea.sinac.go.cr. SINAC park rules; tickets only via serviciosenlinea.sinac.go.cr."
+   "note": "SINAC park rules; tickets only via serviciosenlinea.sinac.go.cr. SINAC park rules; tickets only via serviciosenlinea.sinac.go.cr. Manuel Antonio food restriction qualified after direct reread; concessions and administrative exceptions retained."
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "public_holidays": [],
+   "moving_calendars": [],
+   "festivals": [],
+   "closures": [
+    "Parque Nacional Manuel Antonio: Wednesday-Monday 07:00-15:00; closed Tuesday. Tickets through SINAC online only. Food sales and eating are confined to the designated concession area, with no food on beaches or trails; entry restrictions have administrative conditions/exceptions. Do not feed wildlife or use soap/shampoo in showers."
+   ],
+   "protocol_notes": [],
+   "sources": [
+    {
+     "title": "Parque Nacional Manuel Antonio: official visitor conditions",
+     "authority": "Sistema Nacional de Áreas de Conservación, Costa Rica",
+     "url": "https://www.sinac.go.cr/es/ac/acopac/pnma/paginas/default.aspx",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named-site hours, online admission or camping conditions and exactly stated intoxication, alcohol or smoking restrictions."
+    }
+   ],
+   "note": "Named park/sector visitor calendar only; not provincial public holidays. Volcanic activity, weather and emergency notices may override published hours. No amounts recorded.",
+   "checked": "2026-11-12"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Parque Nacional Manuel Antonio: Consuming alcohol in the park is prohibited.",
+     "source": "https://www.sinac.go.cr/es/ac/acopac/pnma/paginas/default.aspx",
+     "checked": "2026-11-12"
+    },
+    {
+     "substance": "tobacco",
+     "kind": "law",
+     "text": "Parque Nacional Manuel Antonio: Smoking in the park is prohibited.",
+     "source": "https://www.sinac.go.cr/es/ac/acopac/pnma/paginas/default.aspx",
+     "checked": "2026-11-12"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Parque Nacional Manuel Antonio: official visitor conditions",
+     "authority": "Sistema Nacional de Áreas de Conservación, Costa Rica",
+     "url": "https://www.sinac.go.cr/es/ac/acopac/pnma/paginas/default.aspx",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named-site hours, online admission or camping conditions and exactly stated intoxication, alcohol or smoking restrictions."
+    }
+   ],
+   "notes": "Read directly: distinction retained between an intoxicated-entry restriction, alcohol-consumption prohibition and bringing-drinks prohibition. No smoking rule added where the quoted park page does not state one. Other local substance rules not yet checked.",
+   "checked": "2026-11-12"
   }
  }
 }

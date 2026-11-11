@@ -28,7 +28,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -39,6 +39,13 @@
      "checked": "2026-11-05",
      "by": "hand",
      "heading": "Parque Nacional Tapantí Macizo de la Muerte"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Parque Nacional Volcán Irazú: Daily 08:00-16:00 including holidays. Last admission Cráteres 14:00, Prusia 13:00. All visitors must buy/reserve their entrance online beforehand. Parking payment is separate and does not replace the entrance ticket.",
+     "source": "https://www.sinac.go.cr/ES/ac/accvc/pnvi/Paginas/default.aspx",
+     "checked": "2026-11-12",
+     "level": "site"
     }
    ],
    "sources": [
@@ -48,9 +55,69 @@
      "url": "https://www.sinac.go.cr/es/ac/accvc/pntpmm/paginas/default.aspx",
      "checked": "2026-11-05",
      "supports": "fees, hours and prohibitions (read directly 2026-11-05)"
+    },
+    {
+     "title": "Parque Nacional Volcán Irazú: official visitor conditions",
+     "authority": "Sistema Nacional de Áreas de Conservación, Costa Rica",
+     "url": "https://www.sinac.go.cr/ES/ac/accvc/pnvi/Paginas/default.aspx",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named-site hours, online admission or camping conditions and exactly stated intoxication, alcohol or smoking restrictions."
     }
    ],
-   "note": "SINAC park rules; tickets only via serviciosenlinea.sinac.go.cr."
+   "note": "SINAC park rules; tickets only via serviciosenlinea.sinac.go.cr. New site-specific details, not a complete provincial law pass. Older separately dated records are retained."
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "public_holidays": [],
+   "moving_calendars": [],
+   "festivals": [],
+   "closures": [
+    "Parque Nacional Volcán Irazú: Daily 08:00-16:00 including holidays. Last admission Cráteres 14:00, Prusia 13:00. All visitors must buy/reserve their entrance online beforehand. Parking payment is separate and does not replace the entrance ticket."
+   ],
+   "protocol_notes": [],
+   "sources": [
+    {
+     "title": "Parque Nacional Volcán Irazú: official visitor conditions",
+     "authority": "Sistema Nacional de Áreas de Conservación, Costa Rica",
+     "url": "https://www.sinac.go.cr/ES/ac/accvc/pnvi/Paginas/default.aspx",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named-site hours, online admission or camping conditions and exactly stated intoxication, alcohol or smoking restrictions."
+    }
+   ],
+   "note": "Named park/sector visitor calendar only; not provincial public holidays. Volcanic activity, weather and emergency notices may override published hours. No amounts recorded.",
+   "checked": "2026-11-12"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Parque Nacional Volcán Irazú: Entry while intoxicated is prohibited; no wider alcohol possession ban is inferred.",
+     "source": "https://www.sinac.go.cr/ES/ac/accvc/pnvi/Paginas/default.aspx",
+     "checked": "2026-11-12"
+    },
+    {
+     "substance": "tobacco",
+     "kind": "law",
+     "text": "Parque Nacional Volcán Irazú: Smoking is prohibited under Law 9028.",
+     "source": "https://www.sinac.go.cr/ES/ac/accvc/pnvi/Paginas/default.aspx",
+     "checked": "2026-11-12"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Parque Nacional Volcán Irazú: official visitor conditions",
+     "authority": "Sistema Nacional de Áreas de Conservación, Costa Rica",
+     "url": "https://www.sinac.go.cr/ES/ac/accvc/pnvi/Paginas/default.aspx",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named-site hours, online admission or camping conditions and exactly stated intoxication, alcohol or smoking restrictions."
+    }
+   ],
+   "notes": "Read directly: distinction retained between an intoxicated-entry restriction, alcohol-consumption prohibition and bringing-drinks prohibition. No smoking rule added where the quoted park page does not state one. Other local substance rules not yet checked.",
+   "checked": "2026-11-12"
   }
  }
 }
