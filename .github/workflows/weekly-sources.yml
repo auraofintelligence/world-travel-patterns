@@ -27,11 +27,7 @@ jobs:
       - name: Validate
         run: python scripts/validate.py
       - name: Commit
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/source-status.json queue site/data
-          git diff --cached --quiet || (git commit -m "Weekly source watch" && git pull --rebase && git push)
+        run: bash scripts/ci_commit.sh "Weekly source watch" data/source-status.json
       - name: Open an issue when sources moved or died
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

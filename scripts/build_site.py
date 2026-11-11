@@ -11,7 +11,7 @@ import sys
 from urllib.parse import quote
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from lib import ROOT, VETTING, applies, is_active, load_patterns, load_places, read, resolve, today  # noqa: E402
+from lib import ROOT, VETTING, applies, is_active, load_patterns, load_places, load_vetting, read, resolve, today  # noqa: E402
 
 
 def main():
@@ -98,11 +98,20 @@ PAGES = [("", "Home", "Search any place and see what each place page covers."),
 
 def write_discovery(rows):
     """sitemap.xml lists the real pages: the site pages plus a page per country, territory or place with records."""
-    on = today().isoformat()
+    # lastmod is the newest checked date in the data, never the build date: a rebuild with no new
+    # records leaves sitemap.xml byte-identical, so scheduled jobs don't churn it.
     places = sorted((r for r in rows if "/" not in r["id"] or r.get("records")), key=lambda r: r["id"])
-    urls = [SITE + path for path, _, _ in PAGES] + [f"{SITE}place.html?id={quote(r['id'], safe='')}" for r in places]
+
+    def newest(pid):
+        recs = load_vetting(pid).get("patterns", {}).values()
+        dates = [str(rec.get("checked") or "")[:10] for rec in recs if isinstance(rec, dict)]
+        return max([d for d in dates if len(d) == 10] or [""])
+    stamped = [(f"{SITE}place.html?id={quote(r['id'], safe='')}", newest(r["id"])) for r in places]
+    site_date = max([d for _, d in stamped if d] or [today().isoformat()])
+    urls = [(SITE + path, site_date) for path, _, _ in PAGES] + stamped
     (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        + "".join(f"<url><loc>{u.replace('&', '&amp;')}</loc><lastmod>{on}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
+        + "".join(f"<url><loc>{u.replace('&', '&amp;')}</loc>" + (f"<lastmod>{d}</lastmod>" if d else "") + "</url>\n" for u, d in urls)
+        + "</urlset>\n", encoding="utf-8")
     lines = ["# World Travel Patterns", "",
              "A Luke × Claude, Codex and Grok travel research site for Australian passport holders: entry, local law, culture and protocol, permit zones, "
              "seasons and festivals, and consular help for each place, with every rule linked to its source and dated.", "",

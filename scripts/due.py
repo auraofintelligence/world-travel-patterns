@@ -64,10 +64,12 @@ def main():
     flagged_sources = {}
     for url, src in read(ROOT / "data/source-status.json", {"sources": {}})["sources"].items():
         for where in src.get("used_by", []):
+            # A dead source outranks a changed one; several sources can share one record.
             if src.get("dead_since"):
-                flagged_sources.setdefault(where, set()).add("source-dead")
-            elif src.get("changed_on"):
-                flagged_sources.setdefault(where, {"changed_on": src["changed_on"]})
+                flagged_sources[where] = {"source-dead"}
+            elif src.get("changed_on") and not isinstance(flagged_sources.get(where), set):
+                prev = flagged_sources.get(where, {}).get("changed_on", "")
+                flagged_sources[where] = {"changed_on": max(prev, src["changed_on"])}
 
     def vetting(pid):
         if pid not in cache:
