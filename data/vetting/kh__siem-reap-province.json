@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -11,9 +11,18 @@
      "rule": "Angkor Archaeological Park passes are sold only by Angkor Enterprise: 1 day USD 37 (about A$52.56, RBA rate of 30 October 2026), 3 days USD 62 (use within 7 days), 7 days USD 72 (use within 30 days). Entry 5 am, closing 6.30 pm. 3-day and 7-day passes need a photo; passes bought elsewhere are not valid.",
      "level": "site",
      "source": "https://www.angkorenterprise.gov.kh/en/available-tickets",
-     "checked": "2026-11-05",
+     "checked": "2026-11-12",
      "by": "hand",
      "heading": "Angkor Enterprise, available tickets"
+    },
+    {
+     "topic": "work-and-payment",
+     "rule": "Official Angkor Enterprise tickets also include a 1-day Koh Ker Temples Park pass at USD 15 (about A$21.31 at the RBA rate of 30 October 2026), a 1-day Beng Mealea pass at USD 10 (about A$14.20), and a 1-day Kbal Spean pass at USD 5 (about A$7.10). Entry 6 am, closing 6.30 pm.",
+     "level": "site",
+     "source": "https://www.angkorenterprise.gov.kh/en/available-tickets",
+     "checked": "2026-11-12",
+     "by": "hand",
+     "heading": "Angkor Enterprise, Koh Ker, Beng Mealea and Kbal Spean tickets"
     },
     {
      "topic": "dress-and-public-behaviour",
@@ -36,8 +45,8 @@
      "title": "Available Tickets",
      "authority": "Angkor Enterprise",
      "url": "https://www.angkorenterprise.gov.kh/en/available-tickets",
-     "checked": "2026-11-05",
-     "supports": "pass prices, validity, hours (read directly 2026-11-05)"
+     "checked": "2026-11-12",
+     "supports": "Angkor park pass prices, validity and hours; official 1-day Koh Ker USD 15, Beng Mealea USD 10 and Kbal Spean USD 5 tickets, entry 6 am closing 6.30 pm (read directly 2026-11-12)"
     },
     {
      "title": "Official Angkor Pass FAQ",
@@ -54,7 +63,7 @@
      "supports": "sub-national rule as stated in the Local laws, Safety or Local travel section (read directly)"
     }
    ],
-   "note": "Dress rule from the APSARA code as summarised in search snapshots; read the code at the ticket office."
+   "note": "Dress rule from the APSARA code as summarised in search snapshots; read the code at the ticket office. Official APSARA sites returned HTTP 403 or were not official this pass, so the dress and drone lines were not upgraded."
   },
   "ancient-sites-and-mysteries": {
    "status": "partly-mapped",
