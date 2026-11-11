@@ -16,6 +16,55 @@ PATTERN_KEYS = {"id", "name", "layer", "method", "question", "applies_to", "inhe
 FORBIDDEN_KEYS = re.compile(r"passport_?(no|number)|booking|card_number|phone|email|password|home_address|live_location", re.I)
 problems = []
 
+CONFLICT_START = "<" * 7
+CONFLICT_END = ">" * 7
+BINARY_SUFFIXES = {
+    ".png", ".jpg", ".jpeg", ".gif", ".webp", ".ico", ".bmp", ".tif", ".tiff",
+    ".pdf", ".zip", ".gz", ".tgz", ".bz2", ".xz", ".7z", ".woff", ".woff2",
+    ".ttf", ".otf", ".eot", ".mp3", ".mp4", ".mov", ".avi", ".wav", ".sqlite",
+    ".bin", ".exe", ".dylib", ".so",
+}
+
+
+def conflict_marker_lines(text):
+    """Return 1-based line numbers whose stripped text starts with a git conflict marker."""
+    hits = []
+    for i, line in enumerate(text.splitlines(), 1):
+        stripped = line.lstrip()
+        if stripped.startswith(CONFLICT_START) or stripped.startswith(CONFLICT_END):
+            hits.append(i)
+    return hits
+
+
+def check_tracked_conflict_markers():
+    """Fail if any tracked text, JSON or markdown file contains a git conflict marker."""
+    try:
+        raw = subprocess.check_output(
+            ["git", "ls-files", "-z"], cwd=ROOT, stderr=subprocess.DEVNULL
+        )
+    except (OSError, subprocess.CalledProcessError):
+        return
+    nul = bytes([0])
+    for rel in raw.split(nul):
+        if not rel:
+            continue
+        path = ROOT / rel.decode("utf-8", "surrogateescape")
+        if path.suffix.lower() in BINARY_SUFFIXES:
+            continue
+        try:
+            data = path.read_bytes()
+        except OSError as exc:
+            problems.append(f"{path.relative_to(ROOT)}: could not read file ({exc})")
+            continue
+        if bytes([0]) in data[:8192]:
+            continue
+        text = data.decode("utf-8", "replace")
+        rel_s = path.relative_to(ROOT).as_posix()
+        for i in conflict_marker_lines(text):
+            problems.append(f"{rel_s}:{i}: git conflict marker must not be committed")
+
+
+
 
 def check(condition, message):
     if not condition:
@@ -95,6 +144,8 @@ def main():
         check(set(tracked) <= {"private/README.md"}, f"private files are tracked by git: {tracked}")
     except (OSError, subprocess.CalledProcessError):
         pass
+
+    check_tracked_conflict_markers()
 
     if problems:
         print(f"{len(problems)} problems:")
