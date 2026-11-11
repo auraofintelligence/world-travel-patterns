@@ -55,6 +55,87 @@
    ],
    "checked": "2026-11-05",
    "note": "Holidays treated like Sundays under the cantonal rest-day laws (SECO table). The 1 August national day is the only federal holiday. Holidays on a Sunday are not moved."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-12",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "work-and-payment",
+     "rule": "Schwyz communes may levy a visitor tax (Kurtaxe) on people who stay overnight in the commune without establishing a tax domicile there, to fund tourist facilities, events and services that mainly benefit guests. The rate is set in each commune's visitor-tax regulation, which needs approval by the cantonal government; there is no cantonal tariff in the law. The tax is charged per person per night, including paid stays in hotels, inns, holiday homes, rooms, hostels, group lodgings, campsites and agritourism, and also overnight stays in a person's own, long-let or shared holiday home, club house, campsite or habitable boat. Under-18s pay at most half the adult rate. Exemptions include people staying for work or official duty, school or vocational training, hospital and care-home residents who cannot use the tourist facilities, and people in penal or migration centres. Seminar and course participants are not exempt. The host has to collect the tax and pay it over.",
+     "level": "state",
+     "source": "https://www.sz.ch/public/upload/assets/29709/314_100.pdf?fp=6",
+     "heading": "Kurtaxengesetz (KTG, SRSZ 314.100) of 14 September 2016, in force 1 January 2017",
+     "checked": "2026-11-12",
+     "by": "hand"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "In Schwyz, in hospitality businesses and in the alcohol trade, alcoholic drinks may not be supplied to anyone under 16, spirits or spirit-based drinks may not be supplied to anyone under 18, alcoholic drinks may not be supplied to a person who is obviously drunk, and alcoholic drinks may not be supplied from vending machines (Gastgewerbegesetz, art. 3).",
+     "level": "state",
+     "source": "https://www.sz.ch/public/upload/assets/3733/333_100.pdf?fp=4",
+     "heading": "Gesetz über das Gastgewerbe und den Handel mit alkoholischen Getränken (GGG, SRSZ 333.100) of 10 September 1997, art. 3",
+     "checked": "2026-11-12",
+     "by": "hand"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "On a licensed public campsite in Schwyz, complete quiet must be kept from 22:00 to 07:00, and people who breach that or the site's order, quiet and decency rules may be sent away. Users may not leave the site in swimwear. Guests have to fill in registration forms with their personal details and length of stay, which are given to the police. Where the commune has a visitor tax, the site also has to collect the Kurtaxe.",
+     "level": "state",
+     "source": "https://www.sz.ch/public/upload/assets/3811/543_110.pdf?fp=2",
+     "heading": "Gesetz über die Errichtung und den Betrieb öffentlicher Zeltplätze (SRSZ 543.110) of 10 December 1959, arts 5 and 6",
+     "checked": "2026-11-12",
+     "by": "hand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kurtaxengesetz (KTG), SRSZ 314.100, 14 September 2016",
+     "authority": "Kanton Schwyz, Systematische Gesetzsammlung",
+     "url": "https://www.sz.ch/public/upload/assets/29709/314_100.pdf?fp=6",
+     "checked": "2026-11-12",
+     "supports": "commune power to levy a Kurtaxe, no cantonal tariff, under-18 half-rate cap, exemptions, seminar-participant rule, host collection (read directly)"
+    },
+    {
+     "title": "Gastgewerbegesetz (GGG), SRSZ 333.100, 10 September 1997",
+     "authority": "Kanton Schwyz, Systematische Gesetzsammlung",
+     "url": "https://www.sz.ch/public/upload/assets/3733/333_100.pdf?fp=4",
+     "checked": "2026-11-12",
+     "supports": "alcohol not to under-16s, spirits not to under-18s, not to obviously drunk people, no alcohol vending machines (read directly)"
+    },
+    {
+     "title": "Gesetz über die Errichtung und den Betrieb öffentlicher Zeltplätze, SRSZ 543.110, 10 December 1959",
+     "authority": "Kanton Schwyz, Systematische Gesetzsammlung",
+     "url": "https://www.sz.ch/public/upload/assets/3811/543_110.pdf?fp=2",
+     "checked": "2026-11-12",
+     "supports": "campsite quiet hours 22:00 to 07:00, no leaving in swimwear, registration forms, Kurtaxe collection (read directly)"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-12",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "In Schwyz hospitality businesses and in the alcohol trade, alcoholic drinks may not be supplied to anyone under 16, spirits or spirit-based drinks may not be supplied to anyone under 18, alcoholic drinks may not be supplied to a person who is obviously drunk, and alcoholic drinks may not be supplied from vending machines.",
+     "source": "https://www.sz.ch/public/upload/assets/3733/333_100.pdf?fp=4",
+     "checked": "2026-11-12"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gastgewerbegesetz (GGG), SRSZ 333.100, art. 3",
+     "authority": "Kanton Schwyz, Systematische Gesetzsammlung",
+     "url": "https://www.sz.ch/public/upload/assets/3733/333_100.pdf?fp=4",
+     "checked": "2026-11-12",
+     "supports": "age limits, obviously-drunk ban, no alcohol vending machines (read directly)"
+    }
+   ],
+   "notes": "Cantonal hospitality and alcohol-trade rules. Federal alcohol and cannabis rules belong on the Switzerland page."
   }
  }
 }
