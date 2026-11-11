@@ -37,6 +37,8 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 
 | Date | Kind | Place | What | Check |
 |---|---|---|---|---|
+| 2026-11-12 | law-or-rule-date | cl/los-rios-region | local-law: ...es time slot, has limited capacity and is accompanied by a ranger. The page announces a second departure time from 12 November 2026, without treating t | Recheck the official source about 60 days before, and again on the date. |
+| 2026-11-13 | law-or-rule-date | cl/santiago-metropolitan-region | local-law: Parque Nacional Río Clarillo: The Arboretum trail is specifically closed from 9 to 13 November 2026 inclusive for scien | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-13 | law-or-rule-date | us/new-jersey | psychoactive-substances: ...stribution licences could sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2 | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-14 | law-or-rule-date | us/new-jersey | psychoactive-substances: ...d sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2026 those drinks are tr | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-15 | election | cv | Presidential election | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
@@ -178,7 +180,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-623 locations have specific watch items.
+625 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -340,7 +342,9 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ck | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | cl | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | cl/araucania-region | Exercise a high degree of caution | monthly | dated rule | zone-requirements date 2026-12-15; zone-requirements date 2026-12-31 |
+| cl/los-rios-region | Exercise a high degree of caution | monthly | dated rule | local-law date 2026-11-12 |
 | cl/rapa-nui | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| cl/santiago-metropolitan-region | Exercise a high degree of caution | monthly | dated rule | local-law date 2026-11-13 |
 | cm | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | cn/beijing | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/chongqing | Exercise a high degree of caution | monthly | snapshot evidence |  |

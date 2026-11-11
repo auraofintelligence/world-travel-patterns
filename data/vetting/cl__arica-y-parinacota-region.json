@@ -28,9 +28,11 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "evidence": "signal",
+   "evidence": "official",
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "Parque Nacional Lauca: the operator lists opening Tuesday to Sunday, with opening, final-entry and closing times marked not applicable; confirm access rather than inventing fixed hours."
+   ],
    "moving_calendars": [],
    "protocol_notes": [],
    "sources": [
@@ -40,12 +42,83 @@
      "url": "https://date.nager.at/",
      "checked": "2026-11-01",
      "supports": "regional public holidays in the next twelve months"
+    },
+    {
+     "title": "Law 20663: annual Arica y Parinacota holiday",
+     "authority": "Biblioteca del Congreso Nacional, Chile",
+     "url": "https://www.bcn.cl/leychile/navegar?idNorma=1050508",
+     "checked": "2026-11-12",
+     "supports": "Read directly: sole article declares 7 June each year a holiday for the whole Arica y Parinacota Region."
+    },
+    {
+     "title": "Lauca visitor days",
+     "authority": "Corporación Nacional Forestal",
+     "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-lauca/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Tuesday-Sunday published visit days; fixed hours not given."
     }
    ],
    "public_holidays": [
-    "2027-06-07: Battle of Arica (Asalto y Toma del Morro de Arica) (regional holiday)"
+    "2027-06-07: Battle of Arica (Asalto y Toma del Morro de Arica) (regional holiday)",
+    "7 June each year: statutory holiday throughout Arica y Parinacota under Law 20663, sole article."
    ],
-   "checked": "2026-11-02"
+   "checked": "2026-11-12",
+   "note": "The annual date was read directly in the statute, independently supporting the earlier machine calendar. Specific attraction closures not yet checked."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Parque Nacional Lauca: The visitor page lists Tuesday to Sunday opening, with no fixed opening, final-entry or closing time. The named unit prohibits fires and other heat sources, pets or exotic animals, leaving enabled trails and removing natural resources. Follow ranger instructions; no region-wide extension is made.",
+     "source": "https://www.conaf.cl/parque_nacionales/parque-nacional-lauca/",
+     "checked": "2026-11-12",
+     "level": "state"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Parque Nacional Lauca: official visitor conditions",
+     "authority": "Corporación Nacional Forestal, Chile",
+     "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-lauca/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named park/reserve location, prohibitions on heat sources, pets, resource removal, alcohol and smoking, plus the specific access/closure notice described."
+    }
+   ],
+   "note": "Read directly: park-specific conditions, not a full regional or municipal law check. Some public notices may remain online after conditions change; verify gate instructions before travel. Other local levels not yet checked.",
+   "checked": "2026-11-12"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Parque Nacional Lauca: CONAF's own unit page prohibits consuming alcoholic drinks. This is the named protected-area condition, not an alcohol ban throughout the region.",
+     "source": "https://www.conaf.cl/parque_nacionales/parque-nacional-lauca/",
+     "checked": "2026-11-12"
+    },
+    {
+     "substance": "tobacco",
+     "kind": "law",
+     "text": "Parque Nacional Lauca: smoking is prohibited in CONAF's published unit conditions. The same page prohibits consuming drugs or hallucinogenic products; no wider possession or prescribing rule is inferred.",
+     "source": "https://www.conaf.cl/parque_nacionales/parque-nacional-lauca/",
+     "checked": "2026-11-12"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Parque Nacional Lauca: official visitor conditions",
+     "authority": "Corporación Nacional Forestal, Chile",
+     "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-lauca/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named park/reserve location, prohibitions on heat sources, pets, resource removal, alcohol and smoking, plus the specific access/closure notice described."
+    }
+   ],
+   "notes": "Each named unit's own published conditions was read directly. National customs and criminal-law records remain separate.",
+   "checked": "2026-11-12"
   }
  }
 }

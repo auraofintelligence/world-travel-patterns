@@ -148,6 +148,13 @@
      "source": "https://www.conaf.cl/parques/parque-nacional-puyehue/",
      "checked": "2026-11-07",
      "by": "hand"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Parque Nacional Corcovado: The operator says the park has no visitor assistance or public-use infrastructure. This is not a promise of routine tourist access or an assertion that all entry is legally banned. The named unit prohibits fires and other heat sources, pets or exotic animals, leaving enabled trails and removing natural resources. Follow ranger instructions; no region-wide extension is made.",
+     "source": "https://www.conaf.cl/parque_nacionales/parque-nacional-corcovado/",
+     "checked": "2026-11-12",
+     "level": "site"
     }
    ],
    "sources": [
@@ -157,10 +164,48 @@
      "url": "https://www.conaf.cl/parques/parque-nacional-puyehue/",
      "supports": "park prohibitions list",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "Parque Nacional Corcovado: official visitor conditions",
+     "authority": "Corporación Nacional Forestal, Chile",
+     "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-corcovado/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named park/reserve location, prohibitions on heat sources, pets, resource removal, alcohol and smoking, plus the specific access/closure notice described."
     }
    ],
-   "checked": "2026-11-07",
-   "note": "Puyehue National Park rules only."
+   "checked": "2026-11-12",
+   "note": "Puyehue National Park rules only. Read directly: park-specific conditions, not a full regional or municipal law check. Some public notices may remain online after conditions change; verify gate instructions before travel. Other local levels not yet checked."
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Parque Nacional Corcovado: CONAF's own unit page prohibits consuming alcoholic drinks. This is the named protected-area condition, not an alcohol ban throughout the region.",
+     "source": "https://www.conaf.cl/parque_nacionales/parque-nacional-corcovado/",
+     "checked": "2026-11-12"
+    },
+    {
+     "substance": "tobacco",
+     "kind": "law",
+     "text": "Parque Nacional Corcovado: smoking is prohibited in CONAF's published unit conditions. The same page prohibits consuming drugs or hallucinogenic products; no wider possession or prescribing rule is inferred.",
+     "source": "https://www.conaf.cl/parque_nacionales/parque-nacional-corcovado/",
+     "checked": "2026-11-12"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Parque Nacional Corcovado: official visitor conditions",
+     "authority": "Corporación Nacional Forestal, Chile",
+     "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-corcovado/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named park/reserve location, prohibitions on heat sources, pets, resource removal, alcohol and smoking, plus the specific access/closure notice described."
+    }
+   ],
+   "notes": "Each named unit's own published conditions was read directly. National customs and criminal-law records remain separate.",
+   "checked": "2026-11-12"
   }
  }
 }

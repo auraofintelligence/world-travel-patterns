@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -39,6 +39,13 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/chile",
      "checked": "2026-11-05",
      "by": "hand"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Parque Nacional Torres del Paine: The operator notice closes Mirador Base Torres, Salto Grande, Mirador Cuernos, Mirador Cóndor, Playa Grey, Ferrier, Mirador Lago Toro and Misceláneo-Administración from 10 November 2026 for preventive weather alert conditions. No reopening date is confirmed in that notice. The named unit prohibits fires and other heat sources, pets or exotic animals, leaving enabled trails and removing natural resources. Follow ranger instructions; no region-wide extension is made.",
+     "source": "https://www.conaf.cl/parque_nacionales/parque-nacional-torres-del-paine/",
+     "checked": "2026-11-12",
+     "level": "state"
     }
    ],
    "sources": [
@@ -76,9 +83,69 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/chile",
      "checked": "2026-11-05",
      "supports": "Magallanes landmine fields (read directly 2026-11-05)"
+    },
+    {
+     "title": "Parque Nacional Torres del Paine: official visitor conditions",
+     "authority": "Corporación Nacional Forestal, Chile",
+     "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-torres-del-paine/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named park/reserve location, prohibitions on heat sources, pets, resource removal, alcohol and smoking, plus the specific access/closure notice described."
     }
    ],
-   "note": "Torres del Paine only. The landmine rule applies across the region."
+   "note": "Torres del Paine only. The landmine rule applies across the region. Read directly: park-specific conditions, not a full regional or municipal law check. Some public notices may remain online after conditions change; verify gate instructions before travel. Other local levels not yet checked."
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "Parque Nacional Torres del Paine: CONAF's own unit page prohibits consuming alcoholic drinks. This is the named protected-area condition, not an alcohol ban throughout the region.",
+     "source": "https://www.conaf.cl/parque_nacionales/parque-nacional-torres-del-paine/",
+     "checked": "2026-11-12"
+    },
+    {
+     "substance": "tobacco",
+     "kind": "law",
+     "text": "Parque Nacional Torres del Paine: smoking is prohibited in CONAF's published unit conditions. The same page prohibits consuming drugs or hallucinogenic products; no wider possession or prescribing rule is inferred.",
+     "source": "https://www.conaf.cl/parque_nacionales/parque-nacional-torres-del-paine/",
+     "checked": "2026-11-12"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Parque Nacional Torres del Paine: official visitor conditions",
+     "authority": "Corporación Nacional Forestal, Chile",
+     "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-torres-del-paine/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named park/reserve location, prohibitions on heat sources, pets, resource removal, alcohol and smoking, plus the specific access/closure notice described."
+    }
+   ],
+   "notes": "Each named unit's own published conditions was read directly. National customs and criminal-law records remain separate.",
+   "checked": "2026-11-12"
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "public_holidays": [],
+   "moving_calendars": [],
+   "festivals": [],
+   "closures": [
+    "Parque Nacional Torres del Paine: The operator notice closes Mirador Base Torres, Salto Grande, Mirador Cuernos, Mirador Cóndor, Playa Grey, Ferrier, Mirador Lago Toro and Misceláneo-Administración from 10 November 2026 for preventive weather alert conditions. No reopening date is confirmed in that notice."
+   ],
+   "protocol_notes": [],
+   "sources": [
+    {
+     "title": "Parque Nacional Torres del Paine: official visitor conditions",
+     "authority": "Corporación Nacional Forestal, Chile",
+     "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-torres-del-paine/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named park/reserve location, prohibitions on heat sources, pets, resource removal, alcohol and smoking, plus the specific access/closure notice described."
+    }
+   ],
+   "note": "Official named-site access notices only; not regional public holidays or a claim that all attractions close. Live gate status and reopening arrangements not yet checked.",
+   "checked": "2026-11-12"
   }
  }
 }
