@@ -94,3 +94,5 @@ Baseline ranked 2026-11-12 03:25 AEST. Allocation: Americas, Africa and Middle E
 ## Progress
 
 Uruguay: 16 departmental collections read directly. Montevideo HTTP 403 skipped; Cerro Largo and Tacuarembó not yet checked. Search databases are useful to the legal engine, but individual visitor provisions are not yet checked.
+
+- 2026-11-12 03:29 AEST: Grok Americas law-source batch. First verified official sources for seven Bolivian departments and 11 Ecuadorian provinces. Added Pando one-off 24 September 2026 departmental holiday from the scanned operative decree, not extrapolated to 2027; added Galápagos Province TCT FAQ requirements, limited to that guidance with the newer 2026 ordinance text not yet checked. Cañar template-only page excluded. Failed sites skipped: Peru gob.pe regional collections (HTTP 418), Beni and Santa Cruz gazettes (TLS), Manabí, Orellana, Santa Elena and Santo Domingo (403), Morona-Santiago and Azuay paths (404). Source pages are not comprehensive checked law.

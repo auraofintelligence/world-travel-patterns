@@ -1,6 +1,6 @@
 # Automation checklist
 
-What future automations should check, and when. Generated 2026-11-11 by `scripts/recheck_plan.py` from repo data (machine copy: `config/recheck-plan.json`). Rebuild instead of editing by hand.
+What future automations should check, and when. Generated 2026-11-12 by `scripts/recheck_plan.py` from repo data (machine copy: `config/recheck-plan.json`). Rebuild instead of editing by hand.
 
 Rules that always apply: a failed fetch is not evidence of a change; never use projected or third-party dates; travel windows (config/cadence.json phases: 90, 30, 7 days out, daily in place) tighten everything below.
 
@@ -37,7 +37,6 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 
 | Date | Kind | Place | What | Check |
 |---|---|---|---|---|
-| 2026-11-11 | law-or-rule-date | jp/okinawa-prefecture | culture-and-protocol: ...t sacred site, closes six days a year for quiet and conservation (lunar 1 to 3 May and 1 to 3 October; next 9 to 11 November 2026, then 5 to 7 June 2 | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-13 | law-or-rule-date | us/new-jersey | psychoactive-substances: ...stribution licences could sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2 | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-14 | law-or-rule-date | us/new-jersey | psychoactive-substances: ...d sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2026 those drinks are tr | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-15 | election | cv | Presidential election | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
@@ -179,7 +178,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-623 locations have specific watch items.
+622 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -384,7 +383,6 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | do | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | dz | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | ec | Exercise a high degree of caution | monthly | snapshot evidence |  |
-| ec/galapagos-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg/alexandria-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg/aswan-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -517,7 +515,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | jp/miyagi-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/nagasaki-prefecture | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | local-law date 2027-03-31 |
 | jp/nara-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| jp/okinawa-prefecture | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | ancient-sites-and-mysteries date 2027-01-05; culture-and-protocol date 2026-11-11; culture-and-protocol date 2027-06-07 |
+| jp/okinawa-prefecture | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | ancient-sites-and-mysteries date 2027-01-05; culture-and-protocol date 2027-06-07 |
 | jp/osaka-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/saitama-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/shiga-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
