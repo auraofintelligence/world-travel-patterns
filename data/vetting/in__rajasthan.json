@@ -145,7 +145,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-08",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -154,6 +154,20 @@
      "level": "state",
      "source": "https://indiacode.gov.in/server/api/core/items/5a001235-80df-4168-b70c-bc4cec98b77c",
      "checked": "2026-11-08"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Under the Rajasthan Excise Act, 1950, section 22, a licensed vendor, or a person employed by or acting for the vendor, may not sell or deliver any liquor or intoxicating drug to a person apparently under 18, to a person of unsound mind, or to a soldier on duty and in uniform except with the permission of the proper officer of that soldier's unit. This applies whether the drink is for that person or someone else, and whether it is for consumption on the vendor's premises or elsewhere.",
+     "level": "state",
+     "source": "https://indiacode.gov.in/handle/123456789/588095",
+     "checked": "2026-11-12"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "A person licensed to sell liquor for consumption on the premises may not, during opening hours, employ anyone under 18, or a person with leprosy or an infectious disease, in the part of the premises where the public consumes that liquor. A foreign-liquor on-premises licensee may not employ any woman there during opening hours without prior written permission from the Excise Commissioner or an empowered Excise Officer, endorsed on the licence.",
+     "level": "state",
+     "source": "https://indiacode.gov.in/handle/123456789/588095",
+     "checked": "2026-11-12"
     }
    ],
    "sources": [
@@ -162,8 +176,40 @@
      "authority": "Legislative Department, Government of India (India Code)",
      "url": "https://indiacode.gov.in",
      "checked": "2026-11-08"
+    },
+    {
+     "title": "The Rajasthan Excise Act, 1950 (Act 2 of 1950)",
+     "authority": "India Code, Legislative Department, Government of India (Rajasthan Legislature)",
+     "url": "https://indiacode.gov.in/handle/123456789/588095",
+     "checked": "2026-11-12",
+     "supports": "ss. 19, 22 and 23 on possession above the notified retail-sale limit, sale or delivery to a person apparently under 18, and employment of anyone under 18 (official India Code text extract read directly)"
     }
    ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-12",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "level": "state",
+     "text": "Under the Rajasthan Excise Act, 1950, a licensed vendor may not sell or deliver any liquor or intoxicating drug to a person apparently under 18. A person who is not a licensed manufacturer or seller may not possess an excisable article, including liquor, above the retail-sale limit the State sets, except under a permit. The Act itself does not state that quantity.",
+     "source": "https://indiacode.gov.in/handle/123456789/588095",
+     "checked": "2026-11-12"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Rajasthan Excise Act, 1950 (Act 2 of 1950)",
+     "authority": "India Code, Legislative Department, Government of India (Rajasthan Legislature)",
+     "url": "https://indiacode.gov.in/handle/123456789/588095",
+     "checked": "2026-11-12",
+     "supports": "ss. 19 and 22 on possession limits and sale or delivery to a person apparently under 18 (official India Code text extract read directly)"
+    }
+   ],
+   "notes": "State excise law. Federal cannabis and narcotics rules belong on India's page. The notified possession limit was not in the Act text and was not invented."
   }
  }
 }

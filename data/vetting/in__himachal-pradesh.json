@@ -155,6 +155,20 @@
      "level": "state",
      "source": "https://indiacode.gov.in/server/api/core/items/04442b64-822b-4cfd-8dc9-c2b3b638c661",
      "checked": "2026-11-08"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Under the Himachal Pradesh Excise Act, 2011, no person may allow consumption of liquor at any public place except under a sale licence. Consuming liquor in an unlicensed public place is an offence, with a fine of at least one thousand rupees and up to five thousand rupees. Creating a nuisance in a public place after consuming liquor is an offence, with imprisonment of up to three months and a fine of at least two thousand rupees and up to ten thousand rupees.",
+     "level": "state",
+     "source": "https://indiacode.gov.in/handle/123456789/556658",
+     "checked": "2026-11-12"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "A licence holder, or a person acting on the holder's behalf, may not sell or deliver any liquor to a person apparently under 18 (fine of thirty thousand rupees). Employing anyone under 18 in a liquor vend, bar or other place where liquor or other intoxicants are sold, stored or served is an offence, with imprisonment of up to six months or a fine of fifty thousand rupees, or both.",
+     "level": "state",
+     "source": "https://indiacode.gov.in/handle/123456789/556658",
+     "checked": "2026-11-12"
     }
    ],
    "sources": [
@@ -170,9 +184,41 @@
      "authority": "Legislative Department, Government of India (India Code)",
      "url": "https://indiacode.gov.in",
      "checked": "2026-11-08"
+    },
+    {
+     "title": "The Himachal Pradesh Excise Act, 2011",
+     "authority": "India Code, Legislative Department, Government of India (Himachal Pradesh Legislature, authoritative English text)",
+     "url": "https://indiacode.gov.in/handle/123456789/556658",
+     "checked": "2026-11-12",
+     "supports": "ss. 23, 26 and 46 on consumption in an unlicensed public place, public nuisance after drinking, and sale or delivery of liquor to a person apparently under 18 (official India Code text extract read directly)"
     }
    ],
-   "checked": "2026-11-08"
+   "checked": "2026-11-12"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-12",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "level": "state",
+     "text": "Under the Himachal Pradesh Excise Act, 2011, a licence holder may not sell or deliver any liquor to a person apparently under 18. Liquor may not be consumed in an unlicensed public place, and creating a nuisance in a public place after drinking is an offence. Possession above the State retail-sale limit needs a licence, permit or pass; the Act itself does not state that quantity.",
+     "source": "https://indiacode.gov.in/handle/123456789/556658",
+     "checked": "2026-11-12"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Himachal Pradesh Excise Act, 2011",
+     "authority": "India Code, Legislative Department, Government of India (Himachal Pradesh Legislature, authoritative English text)",
+     "url": "https://indiacode.gov.in/handle/123456789/556658",
+     "checked": "2026-11-12",
+     "supports": "ss. 18, 26 and 46 on possession limits, sale to a person apparently under 18, and consumption in an unlicensed public place (official India Code text extract read directly)"
+    }
+   ],
+   "notes": "State excise law. Federal cannabis and narcotics rules belong on India's page. The notified possession limit was not in the Act text and was not invented."
   }
  }
 }
