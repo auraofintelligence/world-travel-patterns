@@ -4,7 +4,7 @@
   "local-law": {
    "status": "partly-mapped",
    "evidence": "official",
-   "checked": "2026-11-07",
+   "checked": "2026-11-12",
    "laws": [
     {
      "topic": "driving-and-licences",
@@ -14,9 +14,30 @@
      "heading": "Smartraveller travel advice",
      "checked": "2026-11-07",
      "evidence": "official"
+    },
+    {
+     "topic": "smoking-and-vaping",
+     "rule": "LASEPA says Lagos State prohibits smoking in public places, enclosed areas and vehicles where non-smokers may be exposed to cigarette smoke. This is the state regulator summary of the Regulation of Smoking Law. Detailed exceptions, the complete law and penalties are not yet checked.",
+     "level": "state",
+     "source": "https://lasepa.gov.ng/laws-and-services/",
+     "checked": "2026-11-12"
+    },
+    {
+     "topic": "public-behaviour-and-dress",
+     "rule": "LASEPA noise guidelines require authorisation for open-air shows and outdoor amplified activities. The agency says religious and entertainment venues should be enclosed and soundproofed. These are regulator guidelines; this record does not claim a general ban on ordinary outdoor conversations or a universal event permit.",
+     "level": "state",
+     "source": "https://lasepa.gov.ng/laws-and-services/",
+     "checked": "2026-11-12"
     }
    ],
    "sources": [
+    {
+     "title": "LASEPA laws and services: smoking and noise guidance",
+     "authority": "Lagos State Environmental Protection Agency",
+     "url": "https://lasepa.gov.ng/laws-and-services/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Regulation of Smoking Law summary and Noise Pollution Control guidelines. Penalties, exemptions and the complete consolidated law not checked."
+    },
     {
      "title": "Smartraveller travel advice: Nigeria",
      "authority": "Australian Department of Foreign Affairs and Trade (Smartraveller)",
@@ -50,6 +71,30 @@
      "url": "https://filmfestlagos.com/festival",
      "checked": "2026-11-08",
      "supports": "Dates, location and attendance conditions"
+    }
+   ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-12",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "tobacco",
+     "kind": "law",
+     "text": "LASEPA says Lagos State prohibits smoking in public places, enclosed areas and vehicles where non-smokers may be exposed to cigarette smoke. This is the state regulator summary of the Regulation of Smoking Law. Detailed exceptions, the complete law and penalties are not yet checked.",
+     "source": "https://lasepa.gov.ng/laws-and-services/",
+     "checked": "2026-11-12"
+    }
+   ],
+   "notes": "State regulator summary, not a complete tobacco-law review. Alcohol, cannabis and other substances at state level are not yet checked.",
+   "sources": [
+    {
+     "title": "LASEPA laws and services: smoking and noise guidance",
+     "authority": "Lagos State Environmental Protection Agency",
+     "url": "https://lasepa.gov.ng/laws-and-services/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Regulation of Smoking Law summary and Noise Pollution Control guidelines. Penalties, exemptions and the complete consolidated law not checked."
     }
    ]
   }
