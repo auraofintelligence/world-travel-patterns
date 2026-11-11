@@ -111,6 +111,39 @@
      "supports": "election date (taken from the official release title via a search result; page blocked direct fetch)"
     }
    ]
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-11",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Basel-Landschaft's rest-day law (Ruhetagsgesetz, §§ 2, 4 and 6): public rest days are Sundays; the general holidays (New Year's Day, Easter Monday, 1 May, Ascension, Whit Monday, 1 August, the Federal Day of Prayer, and St Stephen's Day); and the high holidays (Good Friday, Easter Sunday, Whit Sunday and Christmas Day). Communes may add further holidays. On Sundays and general holidays, activities and events that disturb the public quiet by noise or otherwise are banned, as is disturbing a church service and unsolicited door-to-door selling; the noise ban does not apply on 1 May or 1 August. On high holidays, non-religious public assemblies and processions, sports events, outdoor cinema, theatre and music, circuses and other shows, commercially run exhibitions, shooting, fireworks and car washes are also banned, unless the event has a concrete link to that holiday. The Regierungsrat may allow an indoor sports event of more than regional importance (§ 6bis). An exception permit under § 5 may cost CHF 50 to CHF 1,000 (about A$86 to A$1,727).",
+     "level": "canton",
+     "source": "https://bl.clex.ch/app/de/texts_of_law/547",
+     "heading": "Gesetz über die öffentlichen Ruhetage und den Sonntagsverkauf (Ruhetagsgesetz, RTG), SGS 547, §§ 2, 4, 5, 6 and 6bis; current version in force from 1 December 2019, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gesetz über die öffentlichen Ruhetage und den Sonntagsverkauf (RTG), SGS 547",
+     "authority": "Kanton Basel-Landschaft, Gesetzessammlung",
+     "url": "https://bl.clex.ch/app/de/texts_of_law/547",
+     "supports": "rest days, high-holiday bans including fireworks, exception fees (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
+     "checked": "2026-11-11",
+     "supports": "A$1 = CHF 0.5789 on 30 October 2026"
+    }
+   ],
+   "note": "Official consolidated texts were read from each canton's LexWork law-collection API (show_as_json of the current version) on 11 November 2026. The public HTML address of the same text is cited. AUD at the RBA rate of 30 October 2026, A$1 = CHF 0.5789."
   }
  }
 }

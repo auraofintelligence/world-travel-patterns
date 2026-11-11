@@ -55,6 +55,55 @@
    ],
    "checked": "2026-11-05",
    "note": "Holidays treated like Sundays under the cantonal rest-day laws (SECO table). The 1 August national day is the only federal holiday. Holidays on a Sunday are not moved."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-11",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Uri's shop-closing and Sunday-rest Act (Gesetz über den Ladenschluss und die Sonntagsruhe, arts 5, 6, 8 and 14): on weekdays (Monday to Friday) shops must close by 18:30, though the holder may stay open until 21:00 on one weekday a week. On the day before a public rest day, shops must close by 17:00. Shops stay closed on public rest days, but every shop may open on two Sundays in December (the communal council names the days after consultation), and shops in tourist places may open on Sundays during the season under guidelines issued by the competent directorate. Sales that are generally accessible are banned outside opening hours. A deliberate or negligent breach of that sales ban is custody or a fine of up to CHF 5,000 (about A$8,637).",
+     "level": "canton",
+     "source": "https://rechtsbuch.ur.ch/app/de/texts_of_law/70.1421",
+     "heading": "Gesetz über den Ladenschluss und die Sonntagsruhe (LSG), RB 70.1421, arts 5, 6, 8 and 14; in force from 1 January 2003, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "The cantonal labour ordinance (Kantonale Arbeitsverordnung, the provision on Labour Act holidays), which the shop-closing Act points to for holidays treated as Sundays under the federal Labour Act, names New Year's Day, Good Friday, Ascension, Corpus Christi, Assumption, All Saints, Immaculate Conception and Christmas Day. This list is the Labour Act equivalent, not a complete list of public rest days under the shop-closing Act.",
+     "level": "canton",
+     "source": "https://rechtsbuch.ur.ch/app/de/texts_of_law/20.1111",
+     "heading": "Kantonale Arbeitsverordnung (KAV), RB 20.1111; in force from 1 February 2002, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gesetz über den Ladenschluss und die Sonntagsruhe (LSG), RB 70.1421",
+     "authority": "Kanton Uri, Rechtsbuch",
+     "url": "https://rechtsbuch.ur.ch/app/de/texts_of_law/70.1421",
+     "supports": "weekday and rest-day shop hours, two December Sundays, tourist-season exception, fine up to CHF 5,000 (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Kantonale Arbeitsverordnung (KAV), RB 20.1111",
+     "authority": "Kanton Uri, Rechtsbuch",
+     "url": "https://rechtsbuch.ur.ch/app/de/texts_of_law/20.1111",
+     "supports": "holidays equated to Sundays under the federal Labour Act (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
+     "checked": "2026-11-11",
+     "supports": "A$1 = CHF 0.5789 on 30 October 2026"
+    }
+   ],
+   "note": "Official consolidated texts were read from each canton's LexWork law-collection API (show_as_json of the current version) on 11 November 2026. The public HTML address of the same text is cited. AUD at the RBA rate of 30 October 2026, A$1 = CHF 0.5789."
   }
  }
 }

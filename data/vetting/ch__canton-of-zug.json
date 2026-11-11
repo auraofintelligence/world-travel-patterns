@@ -30,6 +30,62 @@
    ],
    "checked": "2026-11-05",
    "note": "Holidays treated like Sundays under the cantonal rest-day laws (SECO table). The 1 August national day is the only federal holiday. Holidays on a Sunday are not moved."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-11",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Zug's rest-day and shop-hours Act (Ruhetags- und Ladenöffnungsgesetz, §§ 1, 2, 4 and 5): public rest days are Sundays and New Year's Day, Good Friday, Ascension, Corpus Christi, 1 August, Assumption, All Saints, Immaculate Conception and Christmas Day. On public rest days, all activities that disturb the quiet appropriate to the Sunday or holiday are banned. Retail shops may open Monday to Friday from 06:00 until 19:00 at the latest, and on Saturdays until 17:00 at the latest. The communal council may allow one late-night opening a week until 21:30, except on Saturdays and on the eves of New Year's Day, Good Friday, Ascension, 1 August and Christmas Day. Shops stay closed on public rest days, though the council may allow a general opening on at most two public rest days (not New Year's Day, Good Friday, Easter, Pentecost, the Federal Day of Prayer or Christmas) from 10:00 until 17:00 at the latest.",
+     "level": "canton",
+     "source": "https://bgs.zg.ch/app/de/texts_of_law/942.31",
+     "heading": "Ruhetags- und Ladenöffnungsgesetz, BGS 942.31, §§ 1, 2, 4 and 5; current version in force from 22 August 2025, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "The cantonal contraventions Act (Übertretungsstrafgesetz, §§ 9, 13 and 18) and its fixed-penalty catalogue (annex to § 15, in force from 1 January 2025): causing unusual noise beyond what is usually tolerated at the place, or disturbing the usual night quiet by excessive noise, is a fine, as is begging that disturbs public order. The standard fixed penalties in the catalogue are CHF 100 (about A$173) for those noise offences and for begging. A cantonal fixed penalty may not exceed CHF 600 (about A$1,036).",
+     "level": "canton",
+     "source": "https://bgs.zg.ch/app/de/texts_of_law/312.1",
+     "heading": "Übertretungsstrafgesetz (ÜStG), BGS 312.1, §§ 9, 13 and 18, and annex BGS 312.1-A1 (Bussenkatalog), items 1.5, 1.6 and 1.10; catalogue in force from 1 January 2025, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ruhetags- und Ladenöffnungsgesetz, BGS 942.31",
+     "authority": "Kanton Zug, Bereinigte Gesetzessammlung",
+     "url": "https://bgs.zg.ch/app/de/texts_of_law/942.31",
+     "supports": "rest days, shop hours, two optional rest-day openings (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Übertretungsstrafgesetz (ÜStG), BGS 312.1",
+     "authority": "Kanton Zug, Bereinigte Gesetzessammlung",
+     "url": "https://bgs.zg.ch/app/de/texts_of_law/312.1",
+     "supports": "noise and begging offences, maximum fixed penalty CHF 600 (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Übertretungsstrafgesetz, Anhang: Bussenkatalog gemäss § 15 ÜStG, BGS 312.1-A1",
+     "authority": "Kanton Zug, Bereinigte Gesetzessammlung",
+     "url": "https://bgs.zg.ch/app/de/texts_of_law/312.1-A1",
+     "supports": "standard fixed penalties of CHF 100 for noise and begging (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
+     "checked": "2026-11-11",
+     "supports": "A$1 = CHF 0.5789 on 30 October 2026"
+    }
+   ],
+   "note": "Official consolidated texts were read from each canton's LexWork law-collection API (show_as_json of the current version) on 11 November 2026. The public HTML address of the same text is cited. AUD at the RBA rate of 30 October 2026, A$1 = CHF 0.5789."
   }
  }
 }

@@ -30,6 +30,55 @@
    ],
    "checked": "2026-11-05",
    "note": "Holidays treated like Sundays under the cantonal rest-day laws (SECO table). The 1 August national day is the only federal holiday. Holidays on a Sunday are not moved. This canton has local exceptions: the SECO annex lists different sets by district or by mainly Catholic or Reformed municipality, so check the municipality."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-11",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Solothurn's rest-day law (Ruhetagsgesetz, §§ 2, 3 and 7): cantonal rest days are Sundays; the holidays New Year's Day, Ascension, 1 May from 12:00, the Federal Day of Prayer, and, except in the district of Bucheggberg, Corpus Christi, Assumption and All Saints; and the high holidays Good Friday, Easter, Pentecost and Christmas. Communes may add local rest days. On cantonal and communal rest days, activities and events that disturb the public quiet are banned, and disturbing a public church service is always unlawful. On high holidays, shooting practice, sports events of any kind, public events and processions, and overflying towns with motor aircraft for sport are in particular banned. A breach of the Act or its ordinance is a fine of up to CHF 5,000 (about A$8,637).",
+     "level": "canton",
+     "source": "https://bgs.so.ch/app/de/texts_of_law/512.41",
+     "heading": "Gesetz über die öffentlichen Ruhetage (Ruhetagsgesetz, RTG), BGS 512.41, §§ 2, 3 and 7; in force from 1 September 2014, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Solothurn's ordinance on protection from passive smoking (BGS 811.14, §§ 1(3) and 2) states that the rooms open to the public in which smoking is banned also include circulation areas such as corridors, stairs and lifts, and toilets. Permanently excepted are smoking rooms (Fumoirs). Other rooms may be excepted temporarily while a closed group is using them, if the person responsible for the event wants that and the licence-holder allows it.",
+     "level": "canton",
+     "source": "https://bgs.so.ch/app/de/texts_of_law/811.14",
+     "heading": "Verordnung zum Schutz vor Passivrauchen, BGS 811.14, §§ 1(3) and 2; current version in force from 1 September 2019, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gesetz über die öffentlichen Ruhetage (RTG), BGS 512.41",
+     "authority": "Kanton Solothurn, Bereinigte Gesetzessammlung",
+     "url": "https://bgs.so.ch/app/de/texts_of_law/512.41",
+     "supports": "rest days including 1 May from noon and the Bucheggberg exception, high-holiday bans, fine up to CHF 5,000 (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Verordnung zum Schutz vor Passivrauchen, BGS 811.14",
+     "authority": "Kanton Solothurn, Bereinigte Gesetzessammlung",
+     "url": "https://bgs.so.ch/app/de/texts_of_law/811.14",
+     "supports": "smoking ban includes corridors, stairs, lifts and toilets; fumoir exception (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
+     "checked": "2026-11-11",
+     "supports": "A$1 = CHF 0.5789 on 30 October 2026"
+    }
+   ],
+   "note": "Official consolidated texts were read from each canton's LexWork law-collection API (show_as_json of the current version) on 11 November 2026. The public HTML address of the same text is cited. AUD at the RBA rate of 30 October 2026, A$1 = CHF 0.5789."
   }
  }
 }

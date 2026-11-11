@@ -54,6 +54,55 @@
    ],
    "checked": "2026-11-05",
    "note": "Holidays treated like Sundays under the cantonal rest-day laws (SECO table). The 1 August national day is the only federal holiday. Holidays on a Sunday are not moved. This canton has local exceptions: the SECO annex lists different sets by district or by mainly Catholic or Reformed municipality, so check the municipality. St Stephen's Day is not kept when Christmas falls on a Monday or Friday (SECO annex)."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-11",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Appenzell Ausserrhoden's Sunday-trading Act (Gesetz über den Sonntagsverkauf, art. 1): all shops stay closed on Sundays and on officially recognised public holidays, unless the commune grants a permit. Communes may name at most four Sundays a year when shops may open and staff may be employed without a permit; Easter Sunday, Whit Sunday, 1 August and the holidays that are treated as Sundays are excluded. A breach is a fine (art. 4; the amount is not stated).",
+     "level": "canton",
+     "source": "https://ar.clex.ch/app/de/texts_of_law/822.31",
+     "heading": "Gesetz über den Sonntagsverkauf, bGS 822.31, arts 1 and 4; current version in force from 1 January 2016, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "The cantonal criminal law (Gesetz über das kantonale Strafrecht, arts 11 and 18): a person who bothers someone by insistent begging, or who sends out children or dependants to beg, is fined. So is a person who wilfully disturbs the night quiet by noise, or who grossly disturbs the quiet on Sundays and public holidays. The Act does not state the amounts.",
+     "level": "canton",
+     "source": "https://ar.clex.ch/app/de/texts_of_law/311",
+     "heading": "Gesetz über das kantonale Strafrecht, bGS 311, arts 11 and 18; current version in force from 1 January 2011, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gesetz über den Sonntagsverkauf, bGS 822.31",
+     "authority": "Kanton Appenzell Ausserrhoden, systematische Gesetzessammlung",
+     "url": "https://ar.clex.ch/app/de/texts_of_law/822.31",
+     "supports": "Sunday and holiday shop closing, four optional Sundays, fine (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Gesetz über das kantonale Strafrecht, bGS 311",
+     "authority": "Kanton Appenzell Ausserrhoden, systematische Gesetzessammlung",
+     "url": "https://ar.clex.ch/app/de/texts_of_law/311",
+     "supports": "insistent begging and Sunday or night noise (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
+     "checked": "2026-11-11",
+     "supports": "A$1 = CHF 0.5789 on 30 October 2026"
+    }
+   ],
+   "note": "Official consolidated texts were read from each canton's LexWork law-collection API (show_as_json of the current version) on 11 November 2026. The public HTML address of the same text is cited. AUD at the RBA rate of 30 October 2026, A$1 = CHF 0.5789."
   }
  }
 }

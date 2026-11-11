@@ -55,6 +55,39 @@
    ],
    "checked": "2026-11-05",
    "note": "Holidays treated like Sundays under the cantonal rest-day laws (SECO table). The 1 August national day is the only federal holiday. Holidays on a Sunday are not moved."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-11",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Nidwalden's rest-day law (Ruhetagsgesetz, arts 2 to 6): public rest days are Sundays; the high holidays (Good Friday, Easter Sunday, Whit Sunday, the Federal Day of Prayer and Christmas Day); the other holidays (New Year's Day, St Joseph's Day on 19 March, Ascension, Corpus Christi, 1 August, Assumption on 15 August, All Saints on 1 November, Immaculate Conception on 8 December); and further holidays named by the communes. On public rest days, activities and events that seriously disturb the quiet and dignity of the Sunday or holiday are banned. On high holidays, non-religious events and organised sports practice and competitions are banned, though the communal council may allow a cultural event that fits the day. Shops stay closed on public rest days, with listed exceptions including bakeries, confectioners and grocery shops with a sales floor of at most 200 m², pharmacies for emergency duty, petrol stations, kiosks of the usual kind, and florists. The competent office may allow shops to open during the season in places with substantial visitor traffic, or on two public rest days a year other than high holidays; opening hours then are 08:00 to 18:00.",
+     "level": "canton",
+     "source": "https://gesetze.nw.ch/app/de/texts_of_law/921.1",
+     "heading": "Gesetz über die öffentlichen Ruhetage (Ruhetagsgesetz, RTG), NG 921.1, arts 2 to 6; current version in force from 1 January 2016, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gesetz über die öffentlichen Ruhetage (RTG), NG 921.1",
+     "authority": "Kanton Nidwalden, Gesetzessammlung",
+     "url": "https://gesetze.nw.ch/app/de/texts_of_law/921.1",
+     "supports": "rest days including St Joseph's Day, high-holiday event bans, shop exceptions (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
+     "checked": "2026-11-11",
+     "supports": "A$1 = CHF 0.5789 on 30 October 2026"
+    }
+   ],
+   "note": "Official consolidated texts were read from each canton's LexWork law-collection API (show_as_json of the current version) on 11 November 2026. The public HTML address of the same text is cited. AUD at the RBA rate of 30 October 2026, A$1 = CHF 0.5789."
   }
  }
 }

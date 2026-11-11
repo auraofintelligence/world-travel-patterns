@@ -56,6 +56,39 @@
    ],
    "checked": "2026-11-05",
    "note": "Holidays treated like Sundays under the cantonal rest-day laws (SECO table). The 1 August national day is the only federal holiday. Holidays on a Sunday are not moved."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-11",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Glarus's rest-day law (Ruhetagsgesetz, arts 2 to 4 and 7): public rest days are Sundays; the general holidays (New Year's Day, the Näfels ride festival (Fahrtsfest), Easter Monday, Ascension, Whit Monday, 1 August, All Saints and St Stephen's Day); and the high holidays (Good Friday, Easter Sunday, Whit Sunday, the Federal Day of Prayer, and Christmas). On public rest days, activities that can disturb the quiet and dignity of the day are banned, including disturbing a church service, commercial activity that causes excessive noise, ordinary weekday work, fire-brigade drills and inspections, and unsolicited door-to-door selling. Shops and service businesses stay closed, subject to the federal Sunday-work exceptions. On high holidays, non-religious public assemblies and processions; concert, dance, theatre, film and trade-fair events that are not in closed rooms; sports events and related celebrations that are not in closed rooms; shooting practice; commercially run exhibitions that are not in closed rooms; car washes and amusement-arcade operations; and markets, shows and circuses that are not in closed rooms are also banned. Shops may open on the Näfels ride festival, on Landsgemeinde day in Glarus, and on the local parish-fair day. Communes may name at most four Sundays a year when shops may open. The Regierungsrat may allow shops and services to open on rest days in places of substantial tourist importance.",
+     "level": "canton",
+     "source": "https://gesetze.gl.ch/app/de/texts_of_law/IX-B.21.1",
+     "heading": "Gesetz über die öffentlichen Ruhetage (Ruhetagsgesetz), GS IX B/21/1, arts 2 to 4 and 7; current version in force from 1 July 2019, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gesetz über die öffentlichen Ruhetage (Ruhetagsgesetz), GS IX B/21/1",
+     "authority": "Kanton Glarus, Gesetzessammlung",
+     "url": "https://gesetze.gl.ch/app/de/texts_of_law/IX-B.21.1",
+     "supports": "rest days, high-holiday outdoor dance and event bans, shop exceptions (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
+     "checked": "2026-11-11",
+     "supports": "A$1 = CHF 0.5789 on 30 October 2026"
+    }
+   ],
+   "note": "Official consolidated texts were read from each canton's LexWork law-collection API (show_as_json of the current version) on 11 November 2026. The public HTML address of the same text is cited. AUD at the RBA rate of 30 October 2026, A$1 = CHF 0.5789."
   }
  }
 }

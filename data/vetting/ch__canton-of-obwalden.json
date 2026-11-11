@@ -55,6 +55,55 @@
    ],
    "checked": "2026-11-05",
    "note": "Holidays treated like Sundays under the cantonal rest-day laws (SECO table). The 1 August national day is the only federal holiday. Holidays on a Sunday are not moved."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-11",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Obwalden's camping Act (Gesetz über das Campieren, arts 6 to 8 and 11): putting up tents, caravans or motorhomes for camping outside an officially approved campsite is not allowed. The commune may permit exceptions for a youth organisation's tent camp, for a large event for at most four event days if the site is suitable and serviced, or in other justified cases, provided public or private interests are not harmed. With the owner's consent, temporary unpaid camping on the grounds of a dwelling house is allowed. A single overnight stay in a tent, caravan or motorhome may be made without a permit outside an approved site if no public or private interests are harmed, and it is at the visitor's own risk. Camping without a permit, or repeatedly breaching the off-site ban, is a fine (the amount is not stated).",
+     "level": "canton",
+     "source": "https://gdb.ow.ch/app/de/texts_of_law/971.4",
+     "heading": "Gesetz über das Campieren, GDB 971.4, arts 6 to 8 and 11; in force from 1 March 2015, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "The rest-day law (Ruhetagsgesetz, arts 2 to 6 and 8): public rest days are Sundays; the holidays (New Year's Day, Ascension, Corpus Christi, 1 August, Assumption on 15 August, the feast of Brother Klaus on 25 September, All Saints on 1 November, Immaculate Conception on 8 December); and the high holidays (Good Friday, Easter Sunday, Whit Sunday, the Federal Day of Prayer, and Christmas Day). Communes may add one local holiday treated like a Sunday. On public rest days, activities or events that disturb the quiet and dignity of the day, any disturbance of a church service (in particular noisy events near churches), and work in industrial, commercial, farm and forestry businesses are in principle banned. Shops stay closed, with listed federal and farm-gate exceptions. On high holidays, non-religious public events and organised public sports practice and competitions are in principle also banned. A breach is a fine (the amount is not stated).",
+     "level": "canton",
+     "source": "https://gdb.ow.ch/app/de/texts_of_law/975.2",
+     "heading": "Gesetz über die öffentlichen Ruhetage (Ruhetagsgesetz), GDB 975.2, arts 2 to 6 and 8; current version in force from 1 August 2009, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gesetz über das Campieren, GDB 971.4",
+     "authority": "Kanton Obwalden, Gesetzessammlung",
+     "url": "https://gdb.ow.ch/app/de/texts_of_law/971.4",
+     "supports": "ban on camping off approved sites, one-night exception, fine (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Gesetz über die öffentlichen Ruhetage (Ruhetagsgesetz), GDB 975.2",
+     "authority": "Kanton Obwalden, Gesetzessammlung",
+     "url": "https://gdb.ow.ch/app/de/texts_of_law/975.2",
+     "supports": "rest days including Brother Klaus, high-holiday event bans (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
+     "checked": "2026-11-11",
+     "supports": "A$1 = CHF 0.5789 on 30 October 2026"
+    }
+   ],
+   "note": "Official consolidated texts were read from each canton's LexWork law-collection API (show_as_json of the current version) on 11 November 2026. The public HTML address of the same text is cited. AUD at the RBA rate of 30 October 2026, A$1 = CHF 0.5789."
   }
  }
 }

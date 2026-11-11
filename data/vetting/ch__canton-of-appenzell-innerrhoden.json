@@ -30,6 +30,71 @@
    ],
    "checked": "2026-11-05",
    "note": "Holidays treated like Sundays under the cantonal rest-day laws (SECO table). The 1 August national day is the only federal holiday. Holidays on a Sunday are not moved. This canton has local exceptions: the SECO annex lists different sets by district or by mainly Catholic or Reformed municipality, so check the municipality. St Stephen's Day is kept only when it would not make three rest days in a row (SECO annex)."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-11",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Appenzell Innerrhoden's rest-day law (Ruhetagsgesetz, arts 2 to 4 and 7): public rest days are Sundays; the holidays treated like Sundays (New Year's Day, Good Friday, Easter Monday, Ascension, Whit Monday, Corpus Christi, Christmas Day, and St Stephen's Day unless that would make three rest days in a row); and the remaining local holidays (Assumption, All Saints, Immaculate Conception, and, in the inner part of the canton, St Maurice's Day). High holidays are Good Friday, Easter Day, Whit Sunday, the Federal Day of Prayer, and Christmas Day. On public rest days, work, activities or events that seriously disturb the quiet and dignity of the day by noise or otherwise are banned, as is disturbing a church service, in particular by noisy events near the church. On high holidays, shooting practice and sports events of any kind, non-religious public events and processions, cinema and variety shows, public theatre and concerts, and haymaking are also banned, unless the district council allows a theatre, film or music performance that fits the day, or a cultural exhibition. Hospitality businesses may operate. A breach is a fine (the amount is not stated in this Act).",
+     "level": "canton",
+     "source": "https://ai.clex.ch/app/de/texts_of_law/822.200",
+     "heading": "Gesetz über die öffentlichen Ruhetage (Ruhetagsgesetz), GS 822.200, arts 2 to 5 and 7; current version in force from 1 January 2011, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "The canton's camping ordinance (Campingverordnung, art. 4): putting up individual caravans or tents occasionally outside an approved campsite must not last more than one month a year and needs the landowner's consent. District authorities may make further rules to protect the public interest. The siting limits in art. 6(2) (not immediately next to churches, schools, institutions, homes, or busy streets and squares; not in flood or rock-fall hazard areas, unsuitable ground, or places of particular nature- or heritage-protection value) apply to this occasional camping as well (art. 6(3)).",
+     "level": "canton",
+     "source": "https://ai.clex.ch/app/de/texts_of_law/935.610",
+     "heading": "Campingverordnung, GS 935.610, arts 4 and 6; current version in force from 1 January 2013, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    },
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "The cantonal contraventions Act (Übertretungsstrafgesetz, art. 15): a person who wilfully disturbs or annoys someone by noise or rough mischief, especially at night, or who behaves in public in an offensive way that breaches manners or decency, is fined. The Act does not state the amount.",
+     "level": "canton",
+     "source": "https://ai.clex.ch/app/de/texts_of_law/311.000",
+     "heading": "Übertretungsstrafgesetz (UeStG), GS 311.000, art. 15; current version in force from 26 April 2015, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gesetz über die öffentlichen Ruhetage (Ruhetagsgesetz), GS 822.200",
+     "authority": "Kanton Appenzell Innerrhoden, systematische Gesetzessammlung",
+     "url": "https://ai.clex.ch/app/de/texts_of_law/822.200",
+     "supports": "rest days, high-holiday bans, fine (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Campingverordnung, GS 935.610",
+     "authority": "Kanton Appenzell Innerrhoden, systematische Gesetzessammlung",
+     "url": "https://ai.clex.ch/app/de/texts_of_law/935.610",
+     "supports": "camping outside approved sites, one-month limit and landowner consent (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Übertretungsstrafgesetz (UeStG), GS 311.000",
+     "authority": "Kanton Appenzell Innerrhoden, systematische Gesetzessammlung",
+     "url": "https://ai.clex.ch/app/de/texts_of_law/311.000",
+     "supports": "noise, mischief and offensive public behaviour (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
+     "checked": "2026-11-11",
+     "supports": "A$1 = CHF 0.5789 on 30 October 2026"
+    }
+   ],
+   "note": "Official consolidated texts were read from each canton's LexWork law-collection API (show_as_json of the current version) on 11 November 2026. The public HTML address of the same text is cited. AUD at the RBA rate of 30 October 2026, A$1 = CHF 0.5789."
   }
  }
 }

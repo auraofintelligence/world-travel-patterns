@@ -30,6 +30,39 @@
    ],
    "checked": "2026-11-05",
    "note": "Holidays treated like Sundays under the cantonal rest-day laws (SECO table). The 1 August national day is the only federal holiday. Holidays on a Sunday are not moved."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "checked": "2026-11-11",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "conduct-and-public-order",
+     "rule": "Schaffhausen's rest-day and shop-closing Act (Ruhetagsgesetz, arts 1 to 3, 7 and 8): public rest days are Sundays and the holidays New Year's Day, Good Friday, Easter Monday, 1 May, Ascension, Whit Monday, 1 August, Christmas Day and St Stephen's Day. High holidays are Good Friday, Easter Sunday, Whit Sunday, the Federal Day of Prayer and Christmas Day. On public rest days, work, activities or events that seriously disturb the quiet and dignity of the day by noise or otherwise are banned. On high holidays, shooting practice and sports events of any kind, non-religious public events and processions, and variety shows are also banned. Shops may open on weekdays from 05:00 to 22:00 in summer and from 06:00 to 22:00 in winter, but must close at 18:00 on the evening before a public rest day. Shops stay closed on public rest days, except businesses for which federal law allows Sunday work.",
+     "level": "canton",
+     "source": "https://rechtsbuch.sh.ch/app/de/texts_of_law/900.200",
+     "heading": "Gesetz betreffend die öffentlichen Ruhetage und den Ladenschluss (Ruhetagsgesetz), SHR 900.200, arts 1 to 3, 7 and 8; current version in force from 1 January 2007, read 11 November 2026",
+     "evidence": "official",
+     "checked": "2026-11-11"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gesetz betreffend die öffentlichen Ruhetage und den Ladenschluss (Ruhetagsgesetz), SHR 900.200",
+     "authority": "Kanton Schaffhausen, Rechtsbuch",
+     "url": "https://rechtsbuch.sh.ch/app/de/texts_of_law/900.200",
+     "supports": "rest days, high-holiday bans, weekday and eve-of-holiday shop hours (read directly 2026-11-11)",
+     "checked": "2026-11-11"
+    },
+    {
+     "title": "Exchange rates, daily (F11.1), 30 October 2026",
+     "authority": "Reserve Bank of Australia",
+     "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html",
+     "checked": "2026-11-11",
+     "supports": "A$1 = CHF 0.5789 on 30 October 2026"
+    }
+   ],
+   "note": "Official consolidated texts were read from each canton's LexWork law-collection API (show_as_json of the current version) on 11 November 2026. The public HTML address of the same text is cited. AUD at the RBA rate of 30 October 2026, A$1 = CHF 0.5789."
   }
  }
 }
