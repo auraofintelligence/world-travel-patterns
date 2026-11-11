@@ -552,23 +552,35 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
-   "evidence": "signal",
-   "public_holidays": "14 next year in data/calendar (machine data; the brief lists those in a trip window)",
+   "checked": "2026-11-12",
+   "evidence": "official",
+   "public_holidays": [
+    "2027-01-01: Capodanno",
+    "2027-01-06: Epifania",
+    "2027-03-29: lunedì dopo Pasqua",
+    "2027-04-25: Anniversario della Liberazione",
+    "2027-05-01: Festa del Lavoro",
+    "2027-06-02: festa nazionale della Repubblica",
+    "2027-10-04: festa di San Francesco d'Assisi, patrono d'Italia",
+    "2027-11-01: festa di tutti i Santi",
+    "2027-12-08: Immacolata Concezione",
+    "2027-12-25: Natale",
+    "2027-12-26: 26 dicembre"
+   ],
    "moving_calendars": [
-    "Easter moves each year (next year: 2027-03-28, 2027-03-29)."
+    "Easter moves each year (next year: 2027-03-28, with the official Monday after Easter on 2027-03-29)."
    ],
    "festivals": [],
    "closures": [],
    "protocol_notes": [],
-   "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
+   "note": "Official national school-year 2026/2027 holiday calendar in Ministerial Ordinance 106 of 10 June 2026 (Ministry of Education and Merit), which also records 4 October as the feast of San Francesco d'Assisi under law 151 of 8 October 2025. This is a school-year list, not a complete civil-year list: 15 August is not named in the ordinance because it falls outside that school year. The santo patrono holiday is local, not a single national date, and was not copied onto the regions. Official regional 2027 holiday lists were not found on the regional sites checked this pass.",
    "sources": [
     {
-     "title": "Public holidays (Nager.Date)",
-     "authority": "Signal: machine holiday data",
-     "url": "https://date.nager.at/",
-     "checked": "2026-10-31",
-     "supports": "14 public holidays next year"
+     "title": "Ordinanza ministeriale n. 106 del 10 giugno 2026, calendario delle festività e degli esami, anno scolastico 2026/2027, art. 4",
+     "authority": "Ministero dell'istruzione e del merito",
+     "url": "https://www.mim.gov.it/documents/7673905/10323025/Ordinanza+ministeriale+n.106+del+10-06-2026+relativa+al+calendario+delle+festivit%C3%A0+e+degli+esami+-+anno+scolastico+2026+2027.pdf/bf055e9d-df56-0850-793d-5324ab2cf123",
+     "checked": "2026-11-12",
+     "supports": "national school-year 2026/2027 holiday list, including 4 October San Francesco d'Assisi under law 151 of 8 October 2025, and the local santo patrono day (read directly)"
     }
    ]
   },
