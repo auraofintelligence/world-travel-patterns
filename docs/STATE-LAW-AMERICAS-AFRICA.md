@@ -134,3 +134,84 @@ Next productive passes: use the new Uruguay IMPO department searches and Colombi
 - 2026-11-12 04:04 AEST: Grok continued ranked-queue Algeria southern/remaining batch: verified national gazette baseline now covers all fifty-eight wilayas. Added nine actual park-zone traveller records for Touat-Gourara Tidikelt, Tindouf, Ahaggar and Tassili n’Ajjer, mapped by named control posts to present wilayas. Added Djanet Sebeiba and Gourara Sbuâ cultural cycles from the Algerian national research centre, with lunar timing only and no inferred attendance or photography consent. Original statutes are dated 2012/2014 and explicitly not claimed as current consolidations. The Tunisian gazette landing page failed, so no verified JORT coverage is inferred from it.
 
 - 2026-11-12 04:06 AEST: Grok continued ranked-queue Tunisia batch: verified Ministry of Justice national-code directory baselines for all twenty-four governorates, explicitly not local codes or current-consolidation checks. Added actual named-museum closure/seasonal calendars in ten governorates from seventeen directly read AMVPPC pages. Preserved four published maintenance/closed notices (Kef, Carthage Palaeo-Christian, Lamta, Moknine) instead of presenting generic hours as proof of opening. Djerba Friday closure and Sidi Amor Abada Friday early closing are distinguished. Older catalogue/live-operation limits stated; failed JORT and archaeology-index pages skipped. No fees converted or guessed.
+
+- 2026-11-12 04:09 AEST: Grok continued ranked-queue El Salvador batch: legislature-source baselines for all fourteen departments and actual, dated November/December 2026 local festival records in each department. Not statutory regional holidays; Usulután has only its published single date and a reversed Quezaltepeque calendar range was skipped. Added ISTU national park conduct/alcohol/tobacco rules once, Balboa pet exception and food-area hours, and Cerro Verde recommended/non-compulsory advance walk bookings. Judicial-host Ilobasco and San Juan Opico ordinance PDFs returned blocked HTML and were skipped without claiming their substance. Full source labels are read directly; no fee amounts or new drone work.
+
+## Remaining empty first-level queue after continued batches
+
+Recounted 2026-11-12 04:09 AEST. Same narrow definition: no listed law source and none of the five traveller patterns. A source-only baseline does not mean local rules are complete. Original ranking above remains the historical baseline.
+
+| Country | Empty | All first-level states/regions |
+| --- | ---: | ---: |
+| Uganda | 127 | 129 |
+| Dominican Republic | 31 | 32 |
+| Iran | 30 | 31 |
+| Democratic Republic of the Congo | 25 | 25 |
+| Tanzania | 25 | 31 |
+| Venezuela | 25 | 25 |
+| Egypt | 23 | 27 |
+| Bahamas | 22 | 29 |
+| Libya | 22 | 22 |
+| Chad | 21 | 21 |
+| Guatemala | 21 | 22 |
+| Seychelles | 21 | 27 |
+| Yemen | 21 | 22 |
+| Mali | 20 | 20 |
+| Peru | 19 | 25 |
+| Angola | 18 | 18 |
+| Honduras | 17 | 18 |
+| Nicaragua | 17 | 17 |
+| Cuba | 16 | 16 |
+| Central African Republic | 15 | 15 |
+| Iraq | 15 | 19 |
+| Liberia | 15 | 15 |
+| Sudan | 15 | 15 |
+| Senegal | 14 | 14 |
+| Somalia | 14 | 14 |
+| Syria | 14 | 14 |
+| Trinidad and Tobago | 14 | 14 |
+| Burkina Faso | 13 | 13 |
+| Ecuador | 13 | 24 |
+| Mauritania | 13 | 13 |
+| Nigeria | 13 | 37 |
+| Panama | 13 | 13 |
+| Benin | 12 | 12 |
+| Ethiopia | 11 | 12 |
+| Mozambique | 11 | 11 |
+| Saudi Arabia | 11 | 13 |
+| Cameroon | 10 | 10 |
+| Chile | 10 | 16 |
+| Guyana | 10 | 10 |
+| Lesotho | 10 | 10 |
+| Morocco | 10 | 12 |
+| Namibia | 10 | 14 |
+| Oman | 10 | 11 |
+| Zambia | 10 | 10 |
+| Botswana | 9 | 9 |
+| Gabon | 9 | 9 |
+| Mauritius | 9 | 9 |
+| Zimbabwe | 9 | 10 |
+| Guinea | 8 | 8 |
+| Niger | 8 | 8 |
+| Haiti | 7 | 10 |
+| Eritrea | 6 | 6 |
+| Kuwait | 6 | 6 |
+| Lebanon | 6 | 6 |
+| Côte d'Ivoire | 5 | 5 |
+| Djibouti | 5 | 5 |
+| Gambia | 5 | 5 |
+| Qatar | 5 | 5 |
+| Sierra Leone | 5 | 5 |
+| Bahrain | 4 | 4 |
+| Belize | 4 | 6 |
+| Eswatini | 4 | 4 |
+| Jordan | 4 | 12 |
+| Kenya | 4 | 53 |
+| Rwanda | 4 | 5 |
+| Argentina | 3 | 23 |
+| Israel | 3 | 6 |
+| Uruguay | 2 | 19 |
+| Bolivia | 1 | 9 |
+| Burundi | 1 | 1 |
+| Costa Rica | 1 | 7 |
+| South Sudan | 1 | 1 |

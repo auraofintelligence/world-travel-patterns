@@ -70,7 +70,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -104,6 +104,13 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/el-salvador",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "At ISTU recreational parks, follow rangers' instructions, use waste containers, do not cut or take plants, and do not bring or use firearms or bladed weapons. Unauthorised mobile vending is prohibited. Swimming pools require swimwear made of spandex, lycra or nylon. These are ISTU park conditions, not a rule for every beach or private attraction in El Salvador.",
+     "source": "https://istu.gob.sv/preguntas-frecuentes/",
+     "checked": "2026-11-12",
+     "level": "country"
     }
    ],
    "sources": [
@@ -113,8 +120,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/el-salvador",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "ISTU official FAQs: visitor conduct and Cerro Verde walks",
+     "authority": "Instituto Salvadoreño de Turismo, El Salvador",
+     "url": "https://istu.gob.sv/preguntas-frecuentes/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: no alcohol/tobacco/intoxicated entry, no weapons or unauthorised vendors, pool swimwear requirement, Balboa pet exception and recommended but not compulsory advance walk reservations."
     }
-   ]
+   ],
+   "note": "ISTU-wide rules recorded once at country level, not duplicated across departments. Named-site exceptions are recorded at the relevant department. No fees or private booking details stored."
   },
   "health-entry": {
    "status": "conditional",
@@ -717,6 +732,20 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/el-salvador",
      "checked": "2026-11-01",
      "by": "smartraveller_substances"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "ISTU recreational parks prohibit bringing in, selling or consuming intoxicating drinks and entry while intoxicated. This is the park operator's rule, not a national ban on alcohol outside those parks.",
+     "source": "https://istu.gob.sv/preguntas-frecuentes/",
+     "checked": "2026-11-12"
+    },
+    {
+     "substance": "tobacco",
+     "kind": "law",
+     "text": "ISTU recreational parks prohibit bringing in, selling or consuming tobacco under the official conduct FAQ. This is the ISTU estate rule; it is not applied to all non-ISTU natural reserves or private attractions.",
+     "source": "https://istu.gob.sv/preguntas-frecuentes/",
+     "checked": "2026-11-12"
     }
    ],
    "sources": [
@@ -726,10 +755,17 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/el-salvador",
      "checked": "2026-11-01",
      "supports": "drugs, alcohol, vaping and local laws as read on 2026-11-01"
+    },
+    {
+     "title": "ISTU official FAQs: visitor conduct and Cerro Verde walks",
+     "authority": "Instituto Salvadoreño de Turismo, El Salvador",
+     "url": "https://istu.gob.sv/preguntas-frecuentes/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: no alcohol/tobacco/intoxicated entry, no weapons or unauthorised vendors, pool swimwear requirement, Balboa pet exception and recommended but not compulsory advance walk reservations."
     }
    ],
-   "notes": "Read from the Australian Government's travel advice; confirm with the country's own law.",
-   "checked": "2026-11-01"
+   "notes": "Read from the Australian Government's travel advice; confirm with the country's own law. Primary destination authority source, read directly. Park rules are separate from criminal drug and prescription-medicine law.",
+   "checked": "2026-11-12"
   },
   "births-and-family-support": {
    "status": "partly-mapped",
