@@ -1855,3 +1855,15 @@ For Claude.
 - No official Philippine regional statute collection was recorded. The Official Gazette remains 403, DILG and the LGU ordinances portal failed TLS, mmda.gov.ph returned 403, and the 16 first-level places in the tree are regions, which do not have their own legislatures. lawphil.net loaded but is not an official government publisher and was not used. SSL was not skipped.
 - No new local-law records: the pages recorded were collections and lists. Official DBKL by-law PDFs that loaded (food-handler and vandalism undang-undang kecil) are scanned images without a text layer, so they were not written up.
 - Expected coverage: Korea 15 of 15 verified; Malaysia 7 of 16 verified (2 listed, 7 missing); overall 304 of 3,597 states and regions with at least one verified official law source (from 282); 150 remain listed but unconfirmed. Local law remains 625.
+
+
+## 2026-11-11 15:02 AEST, Grok: law-source map (remaining Swiss cantons and LexFind)
+
+- Rechecked the four Swiss first-level cantons that were listed but not yet verified, without skipping SSL. Official collections or official application landings loaded for three of them on 11 November 2026.
+- Neuchâtel: official systematic legislation collection SIL Neuchâtel at https://rsn.ne.ch/, landing loaded. Kind: statutes. Language: French. Searchable.
+- St Gallen: official systematic law collection at https://www.gesetzessammlung.sg.ch/app/de/systematic. The official LexWork application landing loaded. The collection itself is a JavaScript application (open it in a browser). Kind: statutes. Language: German. Searchable.
+- Vaud: official Base législative vaudoise at https://prestations.vd.ch/pub/blv-publication/accueil. The official application landing loaded with that title. The collection itself is a JavaScript application (open it in a browser). Kind: statutes. Language: French. Searchable.
+- Ticino: official Raccolta delle leggi at https://m3.ti.ch/CAN/RLeggi/public/index.php/raccolta-leggi, plus www.ti.ch and www4.ti.ch, all failed TLS (unexpected EOF). The existing official URL is kept and stays unverified. Listed in STATUS under Needs browser.
+- LexFind at https://www.lexfind.ch/fe/ was added to the national Switzerland record as an official federated search of cantonal legislation. The public site is a JavaScript application; the official landing loaded. It is a search across cantonal collections, not a substitute for a canton’s own official systematic collection. Stable per-canton LexFind deep links were not confirmed in this pass (a guessed /de/NE path returned 404).
+- No new local-law records: these were collection landings, not individual cantonal texts.
+- Expected coverage: Switzerland 25 of 26 verified (from 22); overall 307 of 3,597 states and regions with at least one verified official law source (from 304); 147 remain listed but unconfirmed. Local law remains 625.

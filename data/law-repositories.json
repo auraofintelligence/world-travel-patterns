@@ -458,6 +458,18 @@
     "url": "https://www.fedlex.admin.ch/",
     "check": "loaded",
     "checked": "2026-11-01"
+   },
+   {
+    "name": "LexFind: federated cantonal legislation search",
+    "publisher": "Conference of Cantonal Chancellors (via LexFind)",
+    "url": "https://www.lexfind.ch/fe/",
+    "kind": "statutes",
+    "language": "German",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official federated search of Swiss cantonal legislation (LexFind). The public site is a JavaScript application (open it in a browser). The official landing loaded. It is a search across cantonal collections, not a substitute for a canton’s own official systematic collection. Individual cantonal texts were not read from this hub in this pass."
    }
   ],
   "ci": [
@@ -4031,8 +4043,13 @@
     "name": "St. Gallen systematic law collection",
     "publisher": "Canton of St. Gallen",
     "url": "https://www.gesetzessammlung.sg.ch/app/de/systematic",
-    "check": "The site uses JavaScript; the search interface could not be checked directly.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "German",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official St Gallen systematic law collection on LexWork. The official application landing loaded (title LexWork). The collection itself is a JavaScript application; open it in a browser to browse texts. Individual cantonal texts were not read in this pass."
    }
   ],
   "ch/canton-of-vaud": [
@@ -4040,8 +4057,13 @@
     "name": "Vaud legislative database BLV",
     "publisher": "Canton of Vaud",
     "url": "https://prestations.vd.ch/pub/blv-publication/accueil",
-    "check": "The site uses JavaScript; the search interface could not be checked directly.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "French",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Base législative vaudoise (BLV). The official application landing loaded with that title. The collection itself is a JavaScript application; open it in a browser to browse texts. Individual cantonal texts were not read in this pass."
    }
   ],
   "ch/canton-of-zurich": [
@@ -5080,9 +5102,13 @@
     "name": "Neuchâtel systematic legislation collection (French)",
     "publisher": "Republic and Canton of Neuchâtel",
     "url": "https://rsn.ne.ch/",
-    "check": "The canton identifies this as its official collection; direct access could not be checked.",
-    "checked": "2026-11-08",
-    "note": "The cantonal legal service states this collection provides current laws and regulations."
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "note": "Official systematic legislation collection of the Canton of Neuchâtel (SIL Neuchâtel) at rsn.ne.ch. The official landing loaded. Individual cantonal texts were not read in this pass.",
+    "kind": "statutes",
+    "language": "French",
+    "searchable": true,
+    "source": "read directly"
    }
   ],
   "ch/canton-of-nidwalden": [
@@ -5150,9 +5176,13 @@
     "name": "Ticino collection of laws (Italian)",
     "publisher": "Republic and Canton of Ticino",
     "url": "https://m3.ti.ch/CAN/RLeggi/public/index.php/raccolta-leggi",
-    "check": "The cantonal collection appeared in a search snapshot; direct access timed out.",
-    "checked": "2026-11-08",
-    "note": "The official bulletin governs in case of discrepancy. Historical and additional materials may require a subscription."
+    "check": "failed TLS (unexpected EOF); SSL was not skipped",
+    "checked": "2026-11-11",
+    "note": "Official Ticino collection of laws (Raccolta delle leggi). The direct HTTPS check failed with a TLS unexpected EOF, as did www.ti.ch and www4.ti.ch. Open it in a browser. The official bulletin governs in case of discrepancy.",
+    "kind": "statutes",
+    "language": "Italian",
+    "searchable": true,
+    "source": "unverified"
    }
   ],
   "ch/canton-of-uri": [
