@@ -69,6 +69,68 @@
     }
    ],
    "note": "These entries cover only the named parks, not all of the region. Some other TANAPA pages contain placeholder text; reconfirm operating details with the park."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Gombe National Park: Chimp trekking: no eating or smoking near chimpanzees and no flash photography; follow ranger-specified distance, group-size and viewing-time limits. Avoid trekking with flu-like symptoms. No numerical distance, group limit, age limit or mask rule is invented where the page leaves it to current ranger directions.",
+     "source": "https://www.tanzaniaparks.go.tz/gombe/visitor-guide",
+     "checked": "2026-11-12",
+     "level": "site"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Mahale Mountains National Park: Always trek with authorised rangers/guides, respect required chimp viewing distances, group sizes and time limits, and do not feed animals or leave rubbish. Swimming is only in designated areas following guide directions. Advance booking is required for public/special campsites in this visitor guide.",
+     "source": "https://www.tanzaniaparks.go.tz/mahale/visitor-guide",
+     "checked": "2026-11-12",
+     "level": "site"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gombe National Park: official visitor guide",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "url": "https://www.tanzaniaparks.go.tz/gombe/visitor-guide",
+     "checked": "2026-11-12",
+     "supports": "Read directly: specific named-park access/guiding/booking and conservation requirements as stated, not all mainland parks or all regional laws."
+    },
+    {
+     "title": "Mahale Mountains National Park: official visitor guide",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "url": "https://www.tanzaniaparks.go.tz/mahale/visitor-guide",
+     "checked": "2026-11-12",
+     "supports": "Read directly: specific named-park access/guiding/booking and conservation requirements as stated, not all mainland parks or all regional laws."
+    }
+   ],
+   "note": "Named park only. Current fees, temporary closures and wider regional/district law not yet checked. The guide is direct park-operator guidance, not a claim of reading every underlying statutory instrument. Named park only. Current fees, temporary closures and wider regional/district law not yet checked. The guide is direct park-operator guidance, not a claim of reading every underlying statutory instrument.",
+   "checked": "2026-11-12"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "tobacco",
+     "kind": "law",
+     "text": "Gombe chimp trekking: smoking near chimpanzees is prohibited by TANAPA's visitor guide. No ban throughout Kigoma or all of Gombe is inferred from this near-chimpanzee instruction.",
+     "source": "https://www.tanzaniaparks.go.tz/gombe/visitor-guide",
+     "checked": "2026-11-12"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gombe National Park: official visitor guide",
+     "authority": "Tanzania National Parks (TANAPA)",
+     "url": "https://www.tanzaniaparks.go.tz/gombe/visitor-guide",
+     "checked": "2026-11-12",
+     "supports": "Read directly: specific named-park access/guiding/booking and conservation requirements as stated, not all mainland parks or all regional laws."
+    }
+   ],
+   "notes": "Named activity/site restriction only; exact other smoking zones not yet checked.",
+   "checked": "2026-11-12"
   }
  }
 }

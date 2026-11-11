@@ -297,3 +297,5 @@ Recounted 2026-11-12 04:24 AEST. The requested thin-country preference covered P
 | Bolivia | 1 | 9 |
 | Burundi | 1 | 1 |
 | South Sudan | 1 | 1 |
+
+- 2026-11-12 04:29 AEST: Grok continued thinnest requested-country queue: Tanzania official law baselines for all thirty-one regions, separating twenty-six mainland TanzLII regions from five Zanzibar House-of-Representatives enacted-Act collections. Added specific park access, guiding, campsite, fishing and wildlife conditions in ten mainland regions, plus Gombe near-chimp smoking rules. Did not turn a blank Serengeti visitor page into a checked rule, copy mainland rules to Zanzibar, or infer fees/fixed hours from vague wording. As requested, AGN-based Guatemalan rules are now explicitly secondary; the primary CONAP announcement is cited only as an announcement, with original full regulation/gazette still unverified after follow-up searches. No fees, personal content or new drone work.
