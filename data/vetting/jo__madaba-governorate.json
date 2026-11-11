@@ -3,7 +3,7 @@
  "patterns": {
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -13,6 +13,13 @@
      "source": "https://mota.gov.jo/EN/Pages/Entrance_Fees",
      "checked": "2026-11-05",
      "by": "hand"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Mujib Biosphere Reserve, which spans Madaba and Karak: the official tourism page requires a trained guide for the Canyon and Malaqi waterfall trails and the winter Ibex Trail. It does not state the same guide requirement for the Siq Trail. Contact the service provider for current weather-dependent availability; do not turn the described summer season into guaranteed access.",
+     "source": "https://international.visitjordan.com/wheretogo/wadi-mujib/",
+     "checked": "2026-11-12",
+     "level": "site"
     }
    ],
    "sources": [
@@ -29,9 +36,38 @@
      "url": "https://cbj.gov.jo/AR/Modules/FAQ",
      "checked": "2026-11-05",
      "supports": "JOD fallback rate, 2026-10-30 (read directly 2026-11-05)"
+    },
+    {
+     "title": "Wadi Mujib: named trail conditions",
+     "authority": "Jordan Tourism Board",
+     "url": "https://international.visitjordan.com/wheretogo/wadi-mujib/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: reserve extends through Karak and Madaba mountains; guided Canyon, Malaqi and Ibex trails, summer wet-trail and winter Ibex availability subject to weather."
     }
    ],
-   "note": "Ministry fee table; most of these sites are also covered by the Jordan Pass."
+   "note": "Ministry fee table; most of these sites are also covered by the Jordan Pass. Named reserve trail conditions only. No age limit, exact opening date or no-booking exemption inferred from search snippets."
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "public_holidays": [],
+   "moving_calendars": [],
+   "festivals": [],
+   "closures": [
+    "Madaba Archaeological Museum, Archaeological Park and Church of the Apostles: Winter column (labelled November through April): 08:00-16:00; summer: 08:00-18:30; separate April-May column: 08:00-17:30; Ramadan: 09:00-17:00. The April columns overlap, so confirm the applicable seasonal timetable with the site."
+   ],
+   "protocol_notes": [],
+   "sources": [
+    {
+     "title": "Jordan Pass: official site opening-hour table",
+     "authority": "Ministry of Tourism and Antiquities, Jordan",
+     "url": "https://www.jordanpass.jo/contents/Opening_Hours.aspx",
+     "checked": "2026-11-12",
+     "supports": "Read directly: winter/summer/April-May/Ramadan site hours and Saraya Friday/official-holiday exceptions."
+    }
+   ],
+   "note": "Read directly: named-site seasonal/weekly calendars, not governorate-wide public holidays or confirmation that sites are open despite weather or emergency notices. Table does not define summer dates and has overlapping April headings.",
+   "checked": "2026-11-12"
   }
  }
 }
