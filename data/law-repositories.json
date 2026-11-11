@@ -4882,8 +4882,12 @@
     "name": "Tierra del Fuego provincial legislature digital archive",
     "publisher": "Provincial Legislature of Tierra del Fuego",
     "url": "https://www.legistdf.gob.ar/",
-    "check": "Official archive described in a search snapshot; direct fetch timed out. The archive also contains bills and other legislative documents.",
-    "checked": "2026-11-08"
+    "check": "timed out; SSL was not skipped",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "source": "unverified",
+    "note": "Official Legislature of Tierra del Fuego archive. The direct HTTPS check timed out. Open it in a browser."
    }
   ],
   "mx/coahuila": [
@@ -6453,12 +6457,16 @@
   ],
   "ar/chubut-province": [
    {
-    "name": "Provincial legal digest: laws by subject",
-    "publisher": "Legislature of Chubut",
+    "name": "Chubut official legal digest",
+    "publisher": "Legislature of the Province of Chubut",
     "url": "https://digesto.legislaturadelchubut.gob.ar/public/rama/5",
-    "check": "Indexed law index requires JavaScript; the automated check displayed an error.",
-    "checked": "2026-11-08",
-    "note": "Subject index opens at constitutional laws; use the navigation to select another branch."
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "note": "Official Digesto of the Province of Chubut. The official application landing loaded (title digestopublico; the page describes itself as the provincial digest). The collection itself is a JavaScript application; open it in a browser to browse texts. Individual provincial laws were not read in this pass.",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly"
    }
   ],
   "ar/corrientes-province": [
@@ -6550,11 +6558,16 @@
   ],
   "ar/san-luis-province": [
    {
-    "name": "Provincial legislative digest",
-    "publisher": "Chamber of Deputies of San Luis",
+    "name": "San Luis official legal digest",
+    "publisher": "Chamber of Deputies of the Province of San Luis",
     "url": "https://diputados.sanluis.gov.ar/digesto/",
-    "check": "Official digest page indexed; direct access timed out during a repeat check.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Digesto of the Province of San Luis. The official digest landing loaded with that title. The collection itself is a JavaScript application; open it in a browser to browse texts. Individual provincial laws were not read in this pass."
    }
   ],
   "ke/baringo-county": [
@@ -8079,6 +8092,65 @@
     "source": "read directly",
     "note": "Official open-data publication of the administrative acts of the Île-de-France Region (actes administratifs), linked from the regional council site. The official page loaded. French regions do not maintain a Land-style civil code; this collection is the Region’s official acts (including délibérations), not a substitute for national law on Légifrance. Légifrance remains the national statute hub but refused automated checks (HTTP 403). Individual acts were not read in this pass.",
     "discovery_source": "https://www.iledefrance.fr/"
+   }
+  ],
+  "us/hopi-reservation": [
+   {
+    "name": "Hopi Code of Laws and Rules of Civil Procedure",
+    "publisher": "The Hopi Tribe",
+    "url": "https://www.hopi-nsn.gov/judicial-branch/hopi-code-of-laws-and-rules-of-civil-procedures/",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": false,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official Hopi Tribe page for the Hopi Code of Laws and the Hopi Rules of Civil Procedure, with official PDF downloads, including an updated Hopi Code PDF that loaded and has a searchable text layer. The title page of that PDF presents the Code as enacted 28 August 2012, with later amendments through 2020. The Code text was read in this pass as far as Title III, Chapter 15 (controlled substances and alcohol-related offences), but a local-law or substances record was not written up in this batch.",
+    "discovery_source": "https://www.hopi-nsn.gov/"
+   }
+  ],
+  "br/rio-de-janeiro": [
+   {
+    "name": "Imprensa Oficial do Estado do Rio de Janeiro",
+    "publisher": "Imprensa Oficial do Estado do Rio de Janeiro",
+    "url": "https://www.ioerj.com.br/portal/",
+    "kind": "gazette",
+    "language": "Portuguese",
+    "searchable": false,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official state official-press site (Imprensa Oficial) for Rio de Janeiro, which publishes the official gazette. The official landing loaded. The state assembly legislation portals (alerj.rj.gov.br, alerjlegis.rj.leg.br, sapl.al.rj.leg.br and doweb.rj.gov.br) failed TLS in this pass and were not recorded as verified sources. Individual statute texts were not read."
+   }
+  ],
+  "ar/formosa-province": [
+   {
+    "name": "Formosa Official Gazette",
+    "publisher": "Government of the Province of Formosa",
+    "url": "https://www.formosa.gob.ar/boletinoficial",
+    "kind": "gazette",
+    "language": "Spanish",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official Boletín Oficial of the Province of Formosa, on the provincial government portal. The official gazette landing loaded. Individual provincial laws were not read in this pass.",
+    "discovery_source": "https://www.formosa.gob.ar/"
+   }
+  ],
+  "ar/santa-cruz-province": [
+   {
+    "name": "Santa Cruz Official Gazette",
+    "publisher": "Dirección General Boletín Oficial, Province of Santa Cruz",
+    "url": "https://boletinoficial.santacruz.gob.ar/",
+    "kind": "gazette",
+    "language": "Spanish",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official Boletín Oficial e Imprenta of the Province of Santa Cruz, including official pages for laws, decrees and PDF editions. The official landing loaded. The site also links to a Digesto Jurídico at digestosantacruz.gob.ar, which failed TLS in this pass and was not recorded as verified. Individual provincial laws were not read.",
+    "discovery_source": "https://www.santacruz.gob.ar/"
    }
   ]
  },
