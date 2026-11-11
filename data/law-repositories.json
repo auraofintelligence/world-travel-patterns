@@ -134,8 +134,13 @@
     "name": "NSW Legislation",
     "publisher": "Parliamentary Counsel's Office",
     "url": "https://legislation.nsw.gov.au/",
-    "check": "refuses automated checks (open it in a browser)",
-    "checked": "2026-11-01"
+    "check": "refuses automated checks (HTTP 403; open it in a browser)",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "unverified",
+    "note": "Official New South Wales legislation collection. The direct check again returned HTTP 403. Open it in a browser."
    }
   ],
   "au/nt": [
@@ -2526,8 +2531,13 @@
     "name": "KwaZulu-Natal Legislature: Acts and Bills",
     "publisher": "KwaZulu-Natal Legislature",
     "url": "https://kznlegislature.gov.za/acts-bills/",
-    "check": "bills and enacted laws are mixed; coverage may be incomplete",
-    "checked": "2026-11-08"
+    "check": "timed out; SSL was not skipped",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "unverified",
+    "note": "Official KwaZulu-Natal Legislature Acts and Bills collection. The direct check timed out. Bills and enacted laws may be mixed. Open it in a browser."
    },
    {
     "name": "eThekwini Municipality: by-laws for Durban",
@@ -2542,8 +2552,13 @@
     "name": "Western Cape Provincial Parliament: legislation",
     "publisher": "Western Cape Provincial Parliament",
     "url": "https://www.wcpp.gov.za/?q=legislation",
-    "check": "check current amendments",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Western Cape Provincial Parliament legislation collection, including official PDFs of provincial Acts and Bills (for example the Western Cape Public Library Services Act 1 of 2025). The official page loaded on 11 November 2026. Check current amendments. Individual Acts were not added as local-law records in this pass."
    },
    {
     "name": "City of Cape Town: municipal by-laws",
@@ -2558,8 +2573,13 @@
     "name": "Eastern Cape Provincial Legislature: provincial Acts",
     "publisher": "Eastern Cape Provincial Legislature",
     "url": "https://www.eclegislature.gov.za/acts/provincial",
-    "check": "list may be incomplete or older",
-    "checked": "2026-11-08"
+    "check": "loaded, but the page is a JavaScript loading shell without a visible Acts list",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "unverified",
+    "note": "Official Eastern Cape Provincial Legislature provincial Acts address. The official URL loaded on 11 November 2026, but the response was a short loading shell without a visible collection of Acts. Open it in a browser. Coverage may be incomplete or older."
    }
   ],
   "za/gauteng": [
@@ -2567,8 +2587,13 @@
     "name": "Gauteng Provincial Legislature: bills and Acts",
     "publisher": "Gauteng Provincial Legislature",
     "url": "https://www.gpl.gov.za/category/documents/bills-and-acts/",
-    "check": "bills and enacted laws are mixed; coverage may be incomplete",
-    "checked": "2026-11-08"
+    "check": "refuses automated checks (HTTP 403; open it in a browser)",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "unverified",
+    "note": "Official Gauteng Provincial Legislature bills and Acts collection. The direct check returned HTTP 403. Bills and enacted laws may be mixed; coverage may be incomplete. Open it in a browser."
    },
    {
     "name": "City of Johannesburg: municipal by-laws",
@@ -5220,8 +5245,13 @@
     "name": "Punjab Laws Online (Punjab state legislation)",
     "publisher": "Punjab Provincial Assembly",
     "url": "https://punjablaws.gov.pk/",
-    "check": "Provincial police and assembly identify this register; its homepage timed out when checked.",
-    "checked": "2026-11-08"
+    "check": "failed TLS (connection closed); SSL was not skipped",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "unverified",
+    "note": "Official Punjab Laws Online register of provincial legislation. The direct HTTPS check failed when the connection closed. Open it in a browser."
    }
   ],
   "pk/sindh": [
@@ -5238,15 +5268,25 @@
     "name": "Khyber Pakhtunkhwa Provincial Assembly: Acts",
     "publisher": "Provincial Assembly of Khyber Pakhtunkhwa",
     "url": "https://www.pakp.gov.pk/act/",
-    "check": "Assembly list of Acts; check commencement and subsequent amendments.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Khyber Pakhtunkhwa Provincial Assembly Acts list, including 2026 Acts and gazetted copies. The official page loaded on 11 November 2026. Check commencement and subsequent amendments. Individual Acts were not added as local-law records in this pass."
    },
    {
     "name": "KP Code: provincial laws and rules",
     "publisher": "Khyber Pakhtunkhwa Government",
     "url": "https://www.kpcode.kp.gov.pk/",
-    "check": "Official Sindh law department links to the database; the direct check timed out.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Khyber Pakhtunkhwa Code of provincial laws and rules, with English and Urdu collections searchable alphabetically, by department, chronologically and by category. The official landing and the English laws list loaded on 11 November 2026, including 2025 and 2026 Acts. Individual statutes were not added as local-law records in this pass."
    }
   ],
   "pk/balochistan": [
@@ -5263,8 +5303,13 @@
     "name": "Azad Jammu and Kashmir Law Department: Acts",
     "publisher": "Azad Jammu and Kashmir Law, Justice, Parliamentary Affairs and Human Rights Department",
     "url": "https://law.gok.pk/acts/",
-    "check": "Acts index; check subsequent amendments and status.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Azad Jammu and Kashmir Law Department Acts collection, including official PDF texts (for example 2024 and 2025 Acts). The official page loaded on 11 November 2026. Check subsequent amendments and status. Individual Acts were not added as local-law records in this pass."
    }
   ],
   "pk/gilgit-baltistan": [
@@ -5272,8 +5317,13 @@
     "name": "Gilgit-Baltistan Government: selected Acts",
     "publisher": "Government of Gilgit-Baltistan",
     "url": "https://www.gilgitbaltistan.gov.pk/pages/acts",
-    "check": "Selected Acts list; verify completeness and later amendments.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Gilgit-Baltistan Government Acts page, with official PDF texts (including the GB Finance Act 2024 and earlier adaptation and sectoral Acts). The official page loaded on 11 November 2026. The list is a selected official set; check later amendments for completeness. Individual Acts were not added as local-law records in this pass."
    }
   ],
   "my/sabah": [
@@ -5322,8 +5372,13 @@
     "name": "Koshi Province Acts collections (Nepali)",
     "publisher": "Government of Koshi Province",
     "url": "https://koshi.gov.np/detail/law_collection",
-    "check": "Collections are dated; check the provincial gazette for later laws.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Nepali",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Koshi Province Acts collection (ain sangraha) on the provincial government portal, including volumes 1 to 4 as official PDFs. The official page loaded on 11 November 2026. Collections are dated; check the provincial gazette for later laws. Individual Acts were not added as local-law records in this pass."
    }
   ],
   "np/gandaki-province": [
@@ -5331,8 +5386,13 @@
     "name": "Gandaki Province Acts and Rules collections (Nepali)",
     "publisher": "Office of the Chief Minister and Council of Ministers, Gandaki Province",
     "url": "https://ocmcm.gandaki.gov.np/",
-    "check": "Indexed official page lists 2026 collections; direct fetch timed out.",
-    "checked": "2026-11-08"
+    "check": "failed TLS (connection closed); SSL was not skipped",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Nepali",
+    "searchable": true,
+    "source": "unverified",
+    "note": "Official Gandaki Province Chief Minister site, which has been indexed as listing provincial Acts and rules collections. The direct HTTPS check failed when the connection closed. Open it in a browser."
    }
   ],
   "np/sudurpashchim-province": [
@@ -5340,8 +5400,13 @@
     "name": "Sudurpashchim Province Acts (Nepali)",
     "publisher": "Office of the Chief Minister and Council of Ministers, Sudurpashchim Province",
     "url": "https://ocmcm.sudurpashchim.gov.np/pages/state-ann-33/",
-    "check": "Official list of Acts; verify amendments and commencement.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Nepali",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Sudurpashchim Province Acts list on the Office of the Chief Minister and Council of Ministers site, with official Act texts. The official page loaded on 11 November 2026. Verify amendments and commencement. Individual Acts were not added as local-law records in this pass."
    }
   ],
   "np/lumbini-province": [
@@ -5349,8 +5414,13 @@
     "name": "Lumbini Province Acts compilation, 2022 (Nepali PDF)",
     "publisher": "Lumbini Ministry of Internal Affairs, Law and Communications",
     "url": "https://moial.lumbini.gov.np/media/publications/Aantarik_Mamila_Yain_Sangraha_2079_final.pdf",
-    "check": "Historical compilation identified in the official indexed source; PDF exceeded the direct fetch size limit. Check later laws.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Nepali",
+    "searchable": false,
+    "source": "read directly",
+    "note": "Official Lumbini Province Acts compilation (Aantarik Mamila Yain Sangraha 2079), a 756-page official PDF from the Ministry of Internal Affairs and Law. The official file loaded on 11 November 2026. It is a 2022 (2079 BS) historical compilation; later Acts appear in the ministry publications collection. Individual provisions were not added as local-law records in this pass."
    }
   ],
   "np/karnali-province": [
@@ -5358,8 +5428,13 @@
     "name": "Karnali Province Acts collection, 2022, volume 2 (Nepali)",
     "publisher": "Karnali Ministry of Internal Affairs and Law",
     "url": "https://moial.karnali.gov.np/np/page-view/243",
-    "check": "Historical compilation; check other volumes and later laws.",
-    "checked": "2026-11-08"
+    "check": "failed TLS (SSL certificate has expired); SSL was not skipped",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Nepali",
+    "searchable": true,
+    "source": "unverified",
+    "note": "Official Karnali Province Acts collection, 2022, volume 2. The direct HTTPS check failed because the site certificate has expired. Open it in a browser and check other volumes and later laws."
    }
   ],
   "in/sikkim": [
@@ -5367,8 +5442,13 @@
     "name": "Sikkim Government Gazette: state legislation and notices",
     "publisher": "Government of Sikkim",
     "url": "https://www.sikkim.gov.in/mygovernment/gazettes",
-    "check": "Gazettes include Acts and ordinances as well as other notices.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "gazette",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Sikkim Government Gazette notification list, including 2026 gazette PDFs (Acts, ordinances and other notices). The official page loaded on 11 November 2026. The India Code collection of Sikkim Acts is recorded beside it."
    },
    {
     "name": "India Code: Sikkim state acts",
@@ -5388,8 +5468,13 @@
     "name": "Bagmati Province: Provincial Acts through 2080 BS",
     "publisher": "Office of the Chief Minister and Council of Ministers, Bagmati Province",
     "url": "https://ocmcm.bagamati.gov.np/content/37/acts-of-2080-years/",
-    "check": "Historical collection through 2080 BS; check later provincial publications and amendments.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Nepali",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Bagmati Province collection of provincial Acts through 2080 BS, on the Office of the Chief Minister and Council of Ministers site. The official page loaded on 11 November 2026. The collection is historical through 2080 BS; check later provincial publications and amendments. Individual Acts were not added as local-law records in this pass."
    }
   ],
   "np/madhesh-province": [
@@ -5397,22 +5482,37 @@
     "name": "Madhesh Province: Acts",
     "publisher": "Ministry of Home, Communications and Law, Madhesh Province",
     "url": "https://mohcl.madhesh.gov.np/category/laws/",
-    "check": "Selected provincial Acts; check later amendments and the provincial gazette.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "Nepali",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Madhesh Province Acts collection (Ministry of Home, Communications and Law). The official page loaded on 11 November 2026 and listed provincial Acts, including 2083 BS items. Check later amendments and the provincial gazette. Individual Acts were not added as local-law records in this pass."
    },
    {
     "name": "Madhesh Province: Gazette publications",
     "publisher": "Ministry of Home, Communications and Law, Madhesh Province",
     "url": "https://mohcl.madhesh.gov.np/category/gazette/",
-    "check": "Selected gazette publications and notices; browse all pages.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "gazette",
+    "language": "Nepali",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Madhesh Province gazette publications (rajpatra) from the Ministry of Home, Communications and Law. The official page loaded on 11 November 2026."
    },
    {
     "name": "Madhesh Province: Rules",
     "publisher": "Ministry of Home, Communications and Law, Madhesh Province",
     "url": "https://mohcl.madhesh.gov.np/category/rules/",
-    "check": "Selected provincial rules; verify individual documents and amendments.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "regulations",
+    "language": "Nepali",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Madhesh Province rules collection (niyamawali) from the Ministry of Home, Communications and Law. The official page loaded on 11 November 2026."
    }
   ],
   "my/perak": [
@@ -6447,9 +6547,13 @@
     "name": "Banten provincial legal documentation and information network (JDIH)",
     "publisher": "Banten Provincial Legislature",
     "url": "https://jdih-dprd.bantenprov.go.id/",
-    "check": "refuses automated checks (open it in a browser)",
-    "checked": "2026-11-08",
-    "note": "Browse provincial legislation; this collection may also include other document types or drafts. Check each document's status and amendments."
+    "check": "refuses automated checks (HTTP 403; open it in a browser)",
+    "checked": "2026-11-11",
+    "note": "Official Banten provincial legal documentation and information network (JDIH). The direct check returned HTTP 403. Open it in a browser.",
+    "kind": "statutes",
+    "language": "Indonesian",
+    "searchable": true,
+    "source": "unverified"
    }
   ],
   "id/bangka-belitung-islands": [
@@ -6497,9 +6601,13 @@
     "name": "East Java provincial legal documentation and information network (JDIH)",
     "publisher": "East Java Provincial Government",
     "url": "https://jdih.jatimprov.go.id/",
-    "check": "refuses automated checks (open it in a browser)",
-    "checked": "2026-11-08",
-    "note": "Browse provincial legislation; this collection may also include other document types or drafts. Check each document's status and amendments."
+    "check": "refuses automated checks (HTTP 403; open it in a browser)",
+    "checked": "2026-11-11",
+    "note": "Official East Java provincial legal documentation and information network (JDIH). The direct check returned HTTP 403. Open it in a browser.",
+    "kind": "statutes",
+    "language": "Indonesian",
+    "searchable": true,
+    "source": "unverified"
    }
   ],
   "id/east-nusa-tenggara": [
@@ -6717,9 +6825,13 @@
     "name": "Yogyakarta provincial legal documentation and information network (JDIH)",
     "publisher": "Yogyakarta Provincial Government",
     "url": "https://jdih.jogjaprov.go.id/",
-    "check": "page opened but returned no readable content in automated check",
-    "checked": "2026-11-08",
-    "note": "Browse provincial legislation; this collection may also include other document types or drafts. Check each document's status and amendments."
+    "check": "page opened but returned no readable content (877 bytes)",
+    "checked": "2026-11-11",
+    "note": "Official Yogyakarta provincial legal documentation and information network (JDIH). The official URL responded, but the automated check received no readable collection. Open it in a browser.",
+    "kind": "statutes",
+    "language": "Indonesian",
+    "searchable": true,
+    "source": "unverified"
    }
   ],
   "id/central-papua": [
@@ -8003,6 +8115,32 @@
     "checked": "2026-11-11",
     "source": "read directly",
     "note": "Official India Code community for this state's acts. Stay in this collection: the same database also holds central acts. Check commencement and later amendments. Individual texts were not read in this pass."
+   },
+   {
+    "name": "Nagaland Act and Rules collection",
+    "publisher": "Government of Nagaland",
+    "url": "https://nagaland.gov.in/act-rules",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official Nagaland State Portal Act and Rules collection, with official PDF texts of state Acts and rules. The official page loaded on 11 November 2026. The India Code collection of Nagaland Acts is recorded beside it. Individual Acts were not added as local-law records in this pass.",
+    "discovery_source": "https://nagaland.gov.in/"
+   },
+   {
+    "name": "Nagaland eGazette",
+    "publisher": "Department of Printing and Stationery, Nagaland",
+    "url": "https://govtpress.nagaland.gov.in/egazette/",
+    "kind": "gazette",
+    "language": "English",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official Nagaland eGazette, organised by year. The official hub loaded on 11 November 2026, and the 2026 year page (https://govtpress.nagaland.gov.in/egazette-2026/) listed official gazette PDFs, including issues through October 2026. The India Code collection is recorded beside it.",
+    "discovery_source": "https://nagaland.gov.in/"
    }
   ],
   "in/puducherry": [
