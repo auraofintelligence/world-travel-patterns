@@ -223,3 +223,77 @@ Recounted 2026-11-12 04:09 AEST. Same narrow definition: no listed law source an
 - 2026-11-12 04:18 AEST: Grok traveller-heavy Middle East batch: official Jordan gazette baselines for all twelve governorates and official Oman environmental-law catalogue baselines for all eleven governorates. Added actual Jordan site calendars in eight governorates, retaining overlapping April columns and Saraya Friday/holiday hours; Mujib guided/seasonal trail conditions; Omani fort/mosque calendars in four governorates with an explicit unresolved Nizwa Friday typo; turtle conservation guidance in South Sharqiyah; and Dimaniyat electronic permits/camping limits held once at country level without inventing its unverified administrative attribution. Failed LOB shell, Oman justice root, Petra Tips, Dana URL and Dimaniyat geography page were skipped. Corrected Chile named-park metadata to site scope without changing its claims. No amounts or new drone work.
 
 - 2026-11-12 04:20 AEST: Grok traveller-heavy queue batch, Morocco and Costa Rica: official SGG gazette baselines for all twelve Moroccan tree regions (administrative source reference, no sovereignty claim) and SINALEVI plus named SINAC park rules for all seven Costa Rican provinces. Added seven Moroccan museum weekly calendars across six regions, preserving Monday/Tuesday differences; seven Costa Rican park/sector calendars and precise alcohol/intoxication/smoking records; Irazú cutoff/online tickets, Barva camping days and earlier specific cutoff, Rincón closed camping/crater notices, Cahuita shared community management, and Los Quetzales access. Qualified an older over-broad Manuel Antonio no-food statement to retain concession and administrative exceptions. No fees, personal details or new drone work.
+
+- 2026-11-12 04:24 AEST: Grok additional traveller-heavy queue batch, Guatemala: official legal-publication-search baselines for all twenty-two departments, with the post-December-2018 archive limit and untested search-results caveat. Added directly read site calendars across twelve departments; outside-hours permissions at Quetzal/San Pedro, lagoon-product restrictions, Acatenango camping/sound/alcohol conditions, Sipacate turtle-safe boats, Volcán de Agua municipal coordination and Tikal PDF/nationality/tour-guide requirements. Chicabal/Chiabal/Momostenango community/sacred-site baselines preserve consent unknowns and do not invent ceremonial rules or dates. Held the July 2026 designated-volcano-zone conduct/substance rules once at country level from an official government explanatory report; original full attachment not read. Acceso Libre is not called free, 24-hour or unrestricted; cooking, stray directions and time ambiguities preserved. No fees, personal details or new drone work.
+
+## Traveller-heavy continuation and remaining queue
+
+Recounted 2026-11-12 04:24 AEST. The requested thin-country preference covered Peru, Chile, Jordan, Oman, Morocco, Costa Rica and Guatemala. Every first-level state/region in these seven now has a verified official source baseline; this is not completion of local laws. Named-site records remain limited to their source scope, not entire provinces. Oman's baseline is an environmental-law catalogue, not a comprehensive law code.
+
+| Country | Empty by original narrow definition | All first-level states/regions |
+| --- | ---: | ---: |
+| Uganda | 127 | 129 |
+| Dominican Republic | 31 | 32 |
+| Iran | 30 | 31 |
+| Democratic Republic of the Congo | 25 | 25 |
+| Tanzania | 25 | 31 |
+| Venezuela | 25 | 25 |
+| Egypt | 23 | 27 |
+| Bahamas | 22 | 29 |
+| Libya | 22 | 22 |
+| Chad | 21 | 21 |
+| Seychelles | 21 | 27 |
+| Yemen | 21 | 22 |
+| Mali | 20 | 20 |
+| Angola | 18 | 18 |
+| Honduras | 17 | 18 |
+| Nicaragua | 17 | 17 |
+| Cuba | 16 | 16 |
+| Central African Republic | 15 | 15 |
+| Iraq | 15 | 19 |
+| Liberia | 15 | 15 |
+| Sudan | 15 | 15 |
+| Senegal | 14 | 14 |
+| Somalia | 14 | 14 |
+| Syria | 14 | 14 |
+| Trinidad and Tobago | 14 | 14 |
+| Burkina Faso | 13 | 13 |
+| Ecuador | 13 | 24 |
+| Mauritania | 13 | 13 |
+| Nigeria | 13 | 37 |
+| Panama | 13 | 13 |
+| Benin | 12 | 12 |
+| Ethiopia | 11 | 12 |
+| Mozambique | 11 | 11 |
+| Saudi Arabia | 11 | 13 |
+| Cameroon | 10 | 10 |
+| Guyana | 10 | 10 |
+| Lesotho | 10 | 10 |
+| Namibia | 10 | 14 |
+| Zambia | 10 | 10 |
+| Botswana | 9 | 9 |
+| Gabon | 9 | 9 |
+| Mauritius | 9 | 9 |
+| Zimbabwe | 9 | 10 |
+| Guinea | 8 | 8 |
+| Niger | 8 | 8 |
+| Haiti | 7 | 10 |
+| Eritrea | 6 | 6 |
+| Kuwait | 6 | 6 |
+| Lebanon | 6 | 6 |
+| Côte d'Ivoire | 5 | 5 |
+| Djibouti | 5 | 5 |
+| Gambia | 5 | 5 |
+| Qatar | 5 | 5 |
+| Sierra Leone | 5 | 5 |
+| Bahrain | 4 | 4 |
+| Belize | 4 | 6 |
+| Eswatini | 4 | 4 |
+| Kenya | 4 | 53 |
+| Rwanda | 4 | 5 |
+| Argentina | 3 | 23 |
+| Israel | 3 | 6 |
+| Uruguay | 2 | 19 |
+| Bolivia | 1 | 9 |
+| Burundi | 1 | 1 |
+| South Sudan | 1 | 1 |

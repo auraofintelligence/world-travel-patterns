@@ -52,7 +52,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -62,6 +62,13 @@
      "source": "https://boletos.culturaguate.gob.gt/horarios-de-acceso-y-tipos-de-ingreso-al-parque-nacional-tikal/",
      "checked": "2026-11-05",
      "by": "hand"
+    },
+    {
+     "topic": "permits-and-registration",
+     "rule": "Tikal: the official FAQ requires the Forma 63A2 ticket PDF, printed or legible on a device, and valid identification. A payment receipt or bank screenshot is not the admission ticket. Choose the foreign-visitor category if applicable. Unused tickets can be presented within 30 days after purchase; once validated they are consumed and apply only to that visit day. Sunrise/sunset tours require BOTH general admission and the specific tour ticket, plus an INGUAT-authorised guide arranged separately; the platform does not provide the guide.",
+     "source": "https://boletos.culturaguate.gob.gt/preguntas-frecuentes-2/",
+     "checked": "2026-11-12",
+     "level": "site"
     }
    ],
    "sources": [
@@ -71,9 +78,16 @@
      "url": "https://boletos.culturaguate.gob.gt/horarios-de-acceso-y-tipos-de-ingreso-al-parque-nacional-tikal/",
      "checked": "2026-11-05",
      "supports": "Tikal guide rule and conduct (read directly 2026-11-05)"
+    },
+    {
+     "title": "Tikal official ticketing FAQ",
+     "authority": "Ministerio de Cultura y Deportes, Guatemala",
+     "url": "https://boletos.culturaguate.gob.gt/preguntas-frecuentes-2/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: official PDF Forma 63A2 plus valid ID, nationality-specific admission, 30-day unused-ticket validity and separate sunrise/sunset ticket and INGUAT-authorised guide conditions."
     }
    ],
-   "note": "Tikal access rules added 5 November 2026."
+   "note": "Tikal access rules added 5 November 2026. Current ticketing FAQ read directly; no purchase, identity information, contact details or fee amounts stored. Older separately dated park rules retained."
   }
  }
 }

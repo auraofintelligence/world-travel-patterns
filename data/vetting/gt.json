@@ -55,7 +55,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -81,6 +81,13 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/guatemala",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Within the legally designated definitive-protection zones of Guatemala's volcanoes, the July 2026 government report of CONAP's regulation describes prohibitions on sound equipment, fireworks, recreational/sport motor vehicles and social events such as concerts or weddings. Emergency/security/fire-control vehicles and CONAP-authorised activities have stated exceptions to the vehicle restriction. Do not extend these rules to every settlement or all land surrounding a volcano; verify the designated zone and current access instructions.",
+     "source": "https://agn.gt/normativo-prohibe-asentamientos-contaminacion-caceria-y-alcohol-en-zonas-de-veda-de-volcanes/",
+     "checked": "2026-11-12",
+     "level": "site"
     }
    ],
    "sources": [
@@ -90,8 +97,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/guatemala",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "Official government report: definitive volcano-zone regulations",
+     "authority": "Agencia Guatemalteca de Noticias, Guatemala",
+     "url": "https://agn.gt/normativo-prohibe-asentamientos-contaminacion-caceria-y-alcohol-en-zonas-de-veda-de-volcanes/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: 18 July 2026 official report of CONAP regulation article 11: sound equipment/fireworks, recreational motor vehicles, alcoholic drinks/cigarettes/drugs, social events and natural-resource removal limits. Original full regulation attachment not read."
     }
-   ]
+   ],
+   "note": "Read directly: official government explanatory report, not a direct reading of the full consolidated instrument. CONAP's announcement loaded, but its attachments could not be inspected after the main-host request was blocked; not chased. National zone rule held once rather than copied into departments."
   },
   "culture-and-protocol": {
    "status": "partly-mapped",
@@ -795,6 +810,20 @@
      "source": "https://www.smartraveller.gov.au/destinations/americas/guatemala",
      "checked": "2026-11-01",
      "by": "smartraveller_substances"
+    },
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "The official July 2026 CONAP regulation report prohibits consuming alcoholic drinks within legally designated definitive-protection volcano zones. This is not a country-wide alcohol ban.",
+     "source": "https://agn.gt/normativo-prohibe-asentamientos-contaminacion-caceria-y-alcohol-en-zonas-de-veda-de-volcanes/",
+     "checked": "2026-11-12"
+    },
+    {
+     "substance": "tobacco",
+     "kind": "law",
+     "text": "The same report prohibits cigarette consumption within those designated volcano-protection zones. It also prohibits narcotic consumption there; this record does not determine prescription-medicine exceptions or every type of nicotine product.",
+     "source": "https://agn.gt/normativo-prohibe-asentamientos-contaminacion-caceria-y-alcohol-en-zonas-de-veda-de-volcanes/",
+     "checked": "2026-11-12"
     }
    ],
    "sources": [
@@ -804,10 +833,17 @@
      "url": "https://www.smartraveller.gov.au/destinations/americas/guatemala",
      "checked": "2026-11-01",
      "supports": "drugs, alcohol, vaping and local laws as read on 2026-11-01"
+    },
+    {
+     "title": "Official government report: definitive volcano-zone regulations",
+     "authority": "Agencia Guatemalteca de Noticias, Guatemala",
+     "url": "https://agn.gt/normativo-prohibe-asentamientos-contaminacion-caceria-y-alcohol-en-zonas-de-veda-de-volcanes/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: 18 July 2026 official report of CONAP regulation article 11: sound equipment/fireworks, recreational motor vehicles, alcoholic drinks/cigarettes/drugs, social events and natural-resource removal limits. Original full regulation attachment not read."
     }
    ],
-   "notes": "Read from the Australian Government's travel advice; confirm with the country's own law.",
-   "checked": "2026-11-01"
+   "notes": "Read from the Australian Government's travel advice; confirm with the country's own law. Official explanatory report read directly; precise zone boundaries and original full text not yet checked.",
+   "checked": "2026-11-12"
   },
   "births-and-family-support": {
    "status": "partly-mapped",
