@@ -101,6 +101,37 @@
      "supports": "festival dates (search-index snapshot)"
     }
    ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-11",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "text": "The Ordinance on the Sound Development of Young People (青少年の健全な育成に関する条例, Kyoto Prefecture Ordinance No. 2 of 9 January 1981) defines a young person, for chapter 3 onwards, as someone under 18 (art. 12). Article 22 forbids anyone, knowing that a listed act is being done by or to a young person, from providing a place for it or arranging that place. The listed acts include drinking alcohol or smoking (art. 22(7), as amended by Ordinance No. 27 of 2020), as well as specified drug and solvent use. A breach of article 22 is punishable by a fine of up to JPY 300,000 (about A$2,707), but for drinking or smoking the fine applies only to a person who provides or arranges a place habitually (art. 31(4)(4)).",
+     "source": "https://www.pref.kyoto.jp/reiki/reiki_honbun/a300RG00000341.html",
+     "checked": "2026-11-11"
+    },
+    {
+     "substance": "tobacco",
+     "kind": "law",
+     "text": "The same article 22(7) place-provision and arranging ban, and the same habitual-conduct fine of up to JPY 300,000 (about A$2,707) in article 31(4)(4), also covers smoking by or involving a person under 18.",
+     "source": "https://www.pref.kyoto.jp/reiki/reiki_honbun/a300RG00000341.html",
+     "checked": "2026-11-11"
+    }
+   ],
+   "notes": "This prefecture ordinance regulates providing or arranging a place for someone under 18 to drink or smoke. It is not Japan's national under-20 drinking and smoking laws, which are not restated here as prefecture law. Yen converted at the RBA rate of 30 October 2026 (A$1 = JPY 110.82).",
+   "sources": [
+    {
+     "title": "青少年の健全な育成に関する条例 (Ordinance on the Sound Development of Young People)",
+     "authority": "Kyoto Prefecture (official reiki text, reiki_honbun a300RG00000341)",
+     "url": "https://www.pref.kyoto.jp/reiki/reiki_honbun/a300RG00000341.html",
+     "checked": "2026-11-11",
+     "supports": "Official prefecture reiki HTML read directly on 11 November 2026: art. 12 definition (under 18, from chapter 3 onwards); art. 22(7) drinking or smoking; art. 31(4)(4) habitual-conduct fine. Destination prefecture's own official text. This is not a general adult drinking or smoking age."
+    }
+   ]
   }
  }
 }
