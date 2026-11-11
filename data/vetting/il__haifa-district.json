@@ -51,6 +51,52 @@
     }
    ],
    "note": "Fees and hours were read from extracts of the Authority's pages on 2026-11-07 (direct fetch returned HTTP 403). Some pages are a year or two old and the Authority's own pages disagree in places, so confirm in its booking system. No RBA rate for ILS is held in this repo, so no A$ figure is given."
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "public_holidays": [],
+   "moving_calendars": [],
+   "festivals": [],
+   "closures": [
+    "Caesarea National Park: summer Sunday-Thursday/Saturday 08:00-17:00, Friday/holiday-eve row 08:00-16:00; winter Sunday-Thursday/Saturday 08:00-16:00, Friday/holiday-eve row 08:00-15:00. A separate holiday-eve/Yom Kippur-eve listing closes at 13:00. Entry closes one hour before the applicable closing time. Hours are site-local, not AEST."
+   ],
+   "protocol_notes": [],
+   "sources": [
+    {
+     "title": "Caesarea National Park: official visitor conditions and seasonal hours",
+     "authority": "Israel Nature and Parks Authority",
+     "url": "https://en.parks.org.il/reserve-park/caesarea-national-park/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Named official park page read directly: seasonal hours, last entry, specific visitor conditions. Site rules only; neither a whole-district law code nor live security/access clearance."
+    }
+   ],
+   "note": "Specific park seasonal clock hours, not district public holidays or a live opening assurance. Source separately lists a generic holiday-eve 13:00 close as well as different Friday/holiday-eve rows; retain this overlap rather than pretending all holiday eves have one universal closing time. Confirm the particular date and current emergency/access notices.",
+   "checked": "2026-11-12"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Caesarea: dogs are allowed leashed AND muzzled, except in the Visitors' Center. On holidays and Saturdays the authority recommends arriving early and says entry depends on available space. The page also says the Caesarea Experience display near the Roman Theater has not yet opened; this undated notice is not a promise about every other area or future opening.",
+     "source": "https://en.parks.org.il/reserve-park/caesarea-national-park/",
+     "checked": "2026-11-12",
+     "level": "site"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Caesarea National Park: official visitor conditions and seasonal hours",
+     "authority": "Israel Nature and Parks Authority",
+     "url": "https://en.parks.org.il/reserve-park/caesarea-national-park/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Named official park page read directly: seasonal hours, last entry, specific visitor conditions. Site rules only; neither a whole-district law code nor live security/access clearance."
+    }
+   ],
+   "note": "Published park conditions only. No national criminal penalty, border/checkpoint permission, stable emergency opening or universal advance-booking mandate inferred.",
+   "checked": "2026-11-12"
   }
  }
 }

@@ -305,3 +305,27 @@ Recounted 2026-11-12 04:24 AEST. The requested thin-country preference covered P
 - 2026-11-12 04:33 AEST: Grok Ecuador batch: official Registro Oficial national and GAD-special-edition publication baselines for all twenty-four provinces. Deep Galápagos visitor detail from primary MAE-PNG/DIR-2026-0044-RM, Gazette 368 (14 September), AND Gazette 386 (8 October) corrected reservation Annex I: guide exemptions, differentiated wildlife distances, forty-eight-hour camping notice, named tortoise-centre/Las Grietas/Volcán Chico/Minas de Azufre reservations, resident-card exception, protected-area alcohol/smoking/vaping, quiet conduct, aquatic sunscreen conditions and operating windows. Older poster-derived wildlife/access/alcohol entries updated, old charges/TCT/aerial-equipment records not rechecked. No national rules cloned into provinces, charges added or current slot availability claimed.
 
 - 2026-11-12 04:37 AEST: Grok Namibia and Saudi Arabia batch: Law Reform and Development Commission-backed NamibLII baseline for fourteen regions and directly loaded Umm Al-Qura official Gazette hub for thirteen Saudi provinces. Actual park access/booking rules in seven Namibian regions: Khaudum convoy versus park recommendations, Waterberg plateau-trail bookings, Mangetti day-only visits, Daan Viljoen overnight-trail booking, Nkasa Rupara recovery-equipped 4x4/self-sufficiency, Mudumu rainy-season convoy recommendation, Tsau //Khaeb restricted access and specific Erongo advance permits. Added AlUla heritage conduct/30 km/h/designated-area smoking exception and Hegra product-specific access/calendar/protocol. No fees added. Botswana government/eLaws/LII and tourism pages, Saudi BOE/NCAR/National Museum, and Namibia PDF downloads failed: skipped without chasing, not counted as verified readings.
+
+- 2026-11-12 04:40 AEST: Grok extra West Bank/Israel batch: directly loaded Palestinian official Gazette database baselines for eleven West Bank governorates plus the existing West Bank aggregate, explicitly retaining overlapping jurisdiction/effective-control unknowns. Added government-tourism museum calendars in Jericho, Bethlehem and Ramallah/al-Bireh; published hours are not live opening, checkpoint permission or travel clearance. Added primary parks-authority conditions/calendars and narrow site-source baselines for Tel Aviv, Haifa and Central districts: Apollonia/Sidna Ali modest dress, Caesarea leash/muzzle/visitor-centre exclusion, Yarkon lake-bathing ban and dog/campsite distinction. Preserved holiday-eve timetable overlap and did not transfer nearby Hof Hasharon fire rules to Apollonia. Knesset empty shell, Reshumot timeout and Palmachim 404 skipped. No fees, personal history or new drone records.
+
+## Requested-country queue after primary-text continuation
+
+Recounted 2026-11-12 04:40 AEST. Historical tables above retain their original snapshots. Empty means no directly loaded law-source map AND no record in the five requested traveller patterns; this narrow coverage metric is not legal completeness. No-source below uses the strict read-directly/loaded check. Existing geographic aggregates and Kenya legacy provinces remain in the repository denominator, not new administrative claims. Botswana sites failed and were skipped; Gaza is outside this West Bank source pass. Prioritise remaining actual regional traveller rules, not only maps.
+
+| Country | Empty | No directly loaded source | No requested traveller record | Tree states/regions |
+| --- | ---: | ---: | ---: | ---: |
+| Botswana | 9 | 9 | 9 | 9 |
+| Mexico | 6 | 17 | 9 | 32 |
+| Palestine | 6 | 6 | 15 | 18 |
+| Kenya | 4 | 6 | 44 | 53 |
+| Argentina | 3 | 19 | 4 | 23 |
+| Brazil | 0 | 26 | 0 | 27 |
+| Canada | 0 | 10 | 0 | 13 |
+| Israel | 0 | 3 | 0 | 6 |
+| Ecuador | 0 | 0 | 23 | 24 |
+| Egypt | 0 | 0 | 18 | 27 |
+| Tanzania | 0 | 0 | 15 | 31 |
+| Saudi Arabia | 0 | 0 | 11 | 13 |
+| Namibia | 0 | 0 | 4 | 14 |
+
+Next productive checks: Botswana only when a new official source loads without chasing failures; Argentina missing provincial legal hubs; Mexico traveller-thin Chihuahua, Coahuila, Morelos, Nuevo León, Querétaro, Sinaloa, Sonora, Tamaulipas and Tlaxcala; Brazil local visitor rules. Canada already has broader regional baseline coverage. Saudi Gazette baseline does not complete provincial/municipal law. Zanzibar uses its own enacted-law collection, not mainland law. Guatemalan AGN explanations remain secondary until original full regulation/gazette can be read.
