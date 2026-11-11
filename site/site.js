@@ -363,8 +363,7 @@
     }
     const spine = chain[chain.length - 1];
     const offices = inAus.places[spine.id] || [];
-    // Repositories stay on their own level; links to levels above lead to their source sections.
-    const ownLawRepos = lawRepos.places[id] || [];
+    // Each level's law sources stay on that level's card in Find the laws, with the levels above shown on the same page.
     const sharedLawGroups = chain.length === 1 ? (lawRepos.groups || []).filter((g) => g.members.includes(spine.id)) : [];
     const advice = patOn("advisory") && spine.smartraveller && adv.destinations[spine.smartraveller];
     const patterns = Object.fromEntries(index.patterns.map((p) => [p.id, p]));
@@ -505,10 +504,27 @@
       photo,
       caption,
     });
-    const repositoryLinks = (list) => list.map((r) => `<p><a href="${esc(r.url)}" rel="noopener">${esc(viewText(r.name))}</a><br><span class="meta">${esc(viewText(r.publisher))}${r.checked ? ` · checked ${esc(fmt(r.checked))}` : ""}${r.check && r.check !== "loaded" ? ` · ${esc(viewText(r.check))}` : ""}${r.note ? ` · ${esc(viewText(r.note))}` : ""}</span></p>`).join("");
-    const ancestorLawLinks = chain.slice(1).map((p) => `<a href="place.html?id=${encodeURIComponent(p.id)}#law-sources">${esc(p.name)}</a>`).join(" · ");
-    const ownLawGap = chain.length === 1 && (lawRepos.no_online_source || {})[id]
-      ? viewText(lawRepos.no_online_source[id]) : `A law register for ${place.name} itself has not yet been found.`;
+    const KIND_LABEL = { statutes: "Statutes and codes", gazette: "Official gazette", regulations: "Regulations and ordinances", municipal: "Municipal and city codes", court: "Court decisions" };
+    const repositoryLinks = (list) => list.map((r) => {
+      const bits = [viewText(r.publisher)];
+      if (r.kind && KIND_LABEL[r.kind]) bits.push(KIND_LABEL[r.kind]);
+      if (r.language) bits.push(Array.isArray(r.language) ? r.language.join(", ") : viewText(r.language));
+      if (r.searchable === true) bits.push("searchable");
+      if (r.searchable === false) bits.push("no search");
+      if (r.checked) bits.push(`checked ${fmt(r.checked)}`);
+      if (r.source) bits.push(r.source);
+      if (r.check && r.check !== "loaded") bits.push(viewText(r.check));
+      if (r.note) bits.push(viewText(r.note));
+      return `<p><a href="${esc(r.url)}" rel="noopener">${esc(viewText(r.name))}</a><br><span class="meta">${bits.map(esc).join(" · ")}</span></p>`;
+    }).join("");
+    const lawGap = (pid, name) => (lawRepos.no_online_source || {})[pid]
+      ? viewText(lawRepos.no_online_source[pid])
+      : `A law register for ${name} itself has not yet been found.`;
+    const lawLevelCards = chain.map((p) => {
+      const list = lawRepos.places[p.id] || [];
+      const body = list.length ? repositoryLinks(list) : `<p class="meta">${esc(lawGap(p.id, p.name))}</p>`;
+      return `<div class="card"><h3>${esc(p.name)}</h3>${body}</div>`;
+    }).join("");
     const body = `<main>
       <section class="section tight"><div class="stats">
         <div class="stat"><b>${chain.length}</b><span>levels whose rules apply here</span></div>
@@ -519,10 +535,9 @@
       ${watched.map((w) => `<p class="note" style="margin-top:18px"><b>Rule change watched:</b> ${esc(w.what)} Status: ${esc(w.status)}. Effective: ${w.effective ? fmt(w.effective) : "not settled"}. ${esc(w.next)}</p>`).join("")}
       </section>
       <section class="section tight" id="law-sources"><div class="layer-group"><h2>Find the laws</h2><span class="rule"></span></div>
-        <p class="meta">Find legislation and official gazettes for this place. Check the relevant laws at each level.</p>
-        <div class="grid"><div class="card"><h3>${esc(place.name)}</h3>${ownLawRepos.length ? repositoryLinks(ownLawRepos) : `<p class="meta">${esc(ownLawGap)}</p>`}</div>
-        ${sharedLawGroups.map((g) => `<div class="card"><h3>${esc(viewText(g.name))}</h3>${repositoryLinks(g.repositories || [])}</div>`).join("")}</div>
-        ${ancestorLawLinks ? `<p class="meta">Law sources for levels above: ${ancestorLawLinks}</p>` : ""}</section>
+        <p class="meta">Official legislation, gazettes and ordinance registers for this place, and for each level whose law still applies here. These are places the legal engine can look later; they are not a reading of the law itself.</p>
+        <div class="grid">${lawLevelCards}
+        ${sharedLawGroups.map((g) => `<div class="card"><h3>${esc(viewText(g.name))}</h3>${repositoryLinks(g.repositories || [])}</div>`).join("")}</div></section>
       <section class="section tight">${upCard}${sections}</section>
       ${events.length ? `<section class="section tight"><div class="layer-group"><h2>Upcoming here</h2><span class="rule"></span></div>
         <p class="meta">Dated leads from the feeds. An event is not a permission: taking part still runs through entry, activities and zone checks.</p>${events.map(eventCard(index)).join("")}</section>` : ""}

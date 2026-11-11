@@ -11,6 +11,7 @@ import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from lib import ROOT, VETTING, applies, load_patterns, load_places, read, today  # noqa: E402
+from law_repositories import coverage as law_source_coverage  # noqa: E402
 
 START, END = "<!-- generated:start -->", "<!-- generated:end -->"
 ENTRY_KEYS = ("laws", "layers", "events", "sites", "items", "closures", "festivals", "cash_card_notes", "footage",
@@ -108,8 +109,15 @@ def main():
         region = f"{rh:,} of {rt:,} ({pct(rh, rt)})" if rt else f"uses the country's ({pat['inherit']})"
         lines.append(f"| {pat['name']} | {sh} of {st} ({pct(sh, st)}) | {evtxt} | {region} | {pat['method']} |")
     total = sum(acts.values())
+    repos = read(ROOT / "data/law-repositories.json", {"places": {}})
+    law = law_source_coverage(repos, places)
     lines += ["", f"**Activities:** {total:,} activity checks across {sum(1 for v in vet.values() if v.get('activities'))} places: "
               + ", ".join(f"{n:,} {s}" for s, n in acts.most_common()) + f". Still to confirm in writing: {pct(acts['confirm-in-writing'] + acts['confirm'], total)}.",
+              "", f"**Law-source map:** {law['verified']:,} of {law['first_level']:,} states and regions have at least one verified official law source "
+              f"(the official page loaded when checked, or was later marked read directly). "
+              f"A further {law['listed_unverified']:,} have a listed source that has not yet been confirmed. "
+              f"Of {law['spine']} countries and territories, {law['spine_with_url']} have a law-source URL and "
+              f"{law['no_online_source']} are marked as having no official online source found.",
               "", f"**Place photos:** {len(photos)} places show a photo; {sum(1 for p in photos.values() if p.get('review') == 'pending')} await Luke's review.",
               "", END]
     path = ROOT / "docs/STATUS.md"

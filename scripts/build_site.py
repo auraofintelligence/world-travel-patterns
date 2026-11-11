@@ -76,10 +76,18 @@ def write_law_stacks(places, patterns):
         stacks[pid] = [[lp, rec["status"] if rec else None] for lp, rec in rows]
         levels.update({lp: rec["status"] if rec else None for lp, rec in rows})
     filled = sum(1 for v in levels.values() if v)
+    repos = read(ROOT / "data/law-repositories.json", {"places": {}})["places"]
+    keep = ("name", "publisher", "url", "kind", "language", "searchable", "check", "checked", "source", "note")
+    repositories = {}
+    for pid in levels:
+        srcs = repos.get(pid) or []
+        if srcs:
+            repositories[pid] = [{k: s[k] for k in keep if k in s} for s in srcs]
     out = {"built_on": today().isoformat(),
-           "note": "International destinations (Australian law abroad is on Australia's own record). Each stack lists the levels whose law binds a visitor there, country first. null = not yet checked (unknown, not no rules).",
-           "summary": {"places": len(stacks), "levels": len(levels), "levels_filled": filled, "levels_not_yet_checked": len(levels) - filled},
-           "destinations": stacks}
+           "note": "International destinations (Australian law abroad is on Australia's own record). Each stack lists the levels whose law binds a visitor there, country first. null = not yet checked (unknown, not no rules). repositories maps each level to official law sources the legal engine can open later.",
+           "summary": {"places": len(stacks), "levels": len(levels), "levels_filled": filled, "levels_not_yet_checked": len(levels) - filled, "levels_with_sources": len(repositories)},
+           "destinations": stacks,
+           "repositories": repositories}
     (ROOT / "site/data/law-stacks.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print("law stacks:", out["summary"])
 

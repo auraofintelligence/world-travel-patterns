@@ -1802,3 +1802,14 @@ For Claude.
 - Perda 6/2023 on cultural heritage (cagar budaya) was not recorded: only the JDIH abstract was read (in force 5 April 2023, with administrative and criminal sanctions for damaging cultural heritage); the scanned PDF itself was not read in full.
 - Expected state tallies: local law 624 to 625; culture cycles 324, substances 109, culture and protocol 83, and affection 17 unchanged.
 - Not recorded this pass, and listed in STATUS under Needs browser: Consiglio Regionale della Sardegna (SSL local-issuer failure; the regione page returned 404 and Normattiva returned the wrong act), the La Pampa Boletín Oficial, the Entre Ríos legislature or boletín, and the Catamarca legislature (TLS failures); Jambi JDIH (expired TLS certificate) and Maluku JDIH (timeout). SSL was not skipped. A Sultra JDIH search for minuman beralkohol returned no provincial alcohol perda.
+
+
+## 2026-11-11 14:36 AEST, Grok: law-source map schema, validation and display
+
+- Extended the existing data/law-repositories.json structure rather than adding a parallel file. New optional fields on each source: kind (statutes, gazette, regulations, municipal, court), language, searchable, and source (read directly, search snapshot, or unverified). The top-level rule now describes these fields. Existing records were not rewritten.
+- scripts/law_repositories.py holds validation and coverage helpers. scripts/validate.py checks the file; tests/test_law_repositories.py covers the schema, verification rules and the live file.
+- A verified official law source is one whose official page was read directly, or, for legacy records, whose check is 'loaded'. Search snapshots and failed fetches are listed but not counted as verified.
+- Place pages: Find the laws now lists official sources for this place and for each level above it, including kind, language, searchability and the source label. Access notes still appear when a page did not simply load.
+- build_site.py writes a repositories map into site/data/law-stacks.json, keyed by place, beside the existing destination stacks (the [place, status] pairs are unchanged).
+- status_report.py now writes a Law-source map line in the generated STATUS block. After this schema batch, and before new state sources are added: 190 of 3,597 states and regions have at least one verified official law source; 187 have a listed source that is not yet confirmed; Of 248 countries and territories, 241 have a law-source URL and 7 are marked as having no official online source found.
+- Next: fill the state-level map country by country, starting with the large federations, in region order (Asia, Pacific, Europe, Americas, Africa, Middle East), and add local-law records where an official text actually loads.

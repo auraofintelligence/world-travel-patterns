@@ -51,6 +51,17 @@ class DestinationStacks(unittest.TestCase):
         self.assertEqual(len(levels), s["levels"])
         self.assertEqual(sum(1 for v in levels.values() if v is None), s["levels_not_yet_checked"])
 
+    def test_repositories_sit_beside_the_stack(self):
+        repos = self.data.get("repositories") or {}
+        levels = {lp for stack in self.data["destinations"].values() for lp, st in stack}
+        self.assertEqual(self.data["summary"].get("levels_with_sources"), len(repos))
+        for pid, srcs in repos.items():
+            self.assertIn(pid, levels)
+            self.assertTrue(srcs)
+            for src in srcs:
+                self.assertTrue(src["url"].startswith("http"))
+                self.assertTrue(src["name"])
+
 
 if __name__ == "__main__":
     unittest.main()

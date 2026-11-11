@@ -8,6 +8,7 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from third_country import third_country  # noqa: E402
 from lib import ROOT, VETTING, applies, load_patterns, load_places, parse_date, read, today  # noqa: E402
+from law_repositories import problems_in as law_repo_problems  # noqa: E402
 
 KINDS = {"country", "territory", "associated", "jurisdiction", "state", "district", "electorate", "region",
          "island", "island-group", "nation", "zone", "city", "site"}
@@ -85,6 +86,9 @@ def main():
                         check(isinstance(st.get("underwater"), dict) and st["underwater"].get("diving"), f"{tag}: underwater site needs diving access")
             if body.get("provenance", {}).get("repo") is None:
                 check(chr(0x2014) not in text, f"{where}: em dash in new text")
+
+    repos = read(ROOT / "data/law-repositories.json", {})
+    problems.extend(law_repo_problems(repos, places, today=on))
 
     try:
         tracked = subprocess.check_output(["git", "ls-files", "private"], cwd=ROOT, encoding="utf-8", stderr=subprocess.DEVNULL).split()
