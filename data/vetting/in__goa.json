@@ -43,7 +43,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-08",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -117,6 +117,13 @@
      "source": "https://indiacode.gov.in/server/api/core/items/607fd7e2-9cb3-4ff2-9463-81e114e96621",
      "checked": "2026-11-08",
      "penalty_signal": "Possessing a contraband excisable article knowing it was unlawfully imported or untaxed (section 33): a fine of up to INR 10,000 (about A$149) or up to 1 year in jail, or both."
+    },
+    {
+     "topic": "alcohol",
+     "rule": "Under the Goa Excise Duty Act, 1964, section 19 (as amended in 1976), a licensed vendor or manufacturer, or a person employed by one and acting on their behalf, may not sell or deliver any excisable article or foreign liquor to a person apparently under 21, or to a person of unsound mind. A licence holder may not permit drunkenness, disorderly conduct, riot or gambling in any place where liquor is sold or manufactured.",
+     "level": "state",
+     "source": "https://indiacode.gov.in/handle/123456789/551139",
+     "checked": "2026-11-12"
     }
    ],
    "note": "The 21 November 2025 tourism order supersedes an earlier January 2025 order; current changes after the order should be checked.",
@@ -140,6 +147,13 @@
      "authority": "Legislative Department, Government of India (India Code)",
      "url": "https://indiacode.gov.in",
      "checked": "2026-11-08"
+    },
+    {
+     "title": "The Goa Excise Duty Act and Rules, 1964",
+     "authority": "India Code, Legislative Department, Government of India (Goa legislature compilation)",
+     "url": "https://indiacode.gov.in/handle/123456789/551139",
+     "checked": "2026-11-12",
+     "supports": "s. 19, as amended in 1976, on sale or delivery to a person apparently under 21, and s. 31 on permitting drunkenness where liquor is sold or manufactured (official India Code text extract read directly)"
     }
    ]
   },
@@ -226,6 +240,38 @@
      "supports": "assembly term dates (read via a search extract; the page blocked direct fetch). No election schedule is published yet."
     }
    ]
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "checked": "2026-11-12",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "alcohol",
+     "kind": "law",
+     "level": "state",
+     "text": "Under the Goa Excise Duty Act, 1964, section 19 (as amended in 1976), a licensed vendor or manufacturer may not sell or deliver any excisable article or foreign liquor to a person apparently under 21, or to a person of unsound mind. Existing official records also prohibit drinking alcohol on Goa's beaches and, at tourist places covered by the Tourist Places Protection and Maintenance Act, in a space where liquor is not permitted.",
+     "source": "https://indiacode.gov.in/handle/123456789/551139",
+     "checked": "2026-11-12"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Goa Excise Duty Act and Rules, 1964",
+     "authority": "India Code, Legislative Department, Government of India (Goa legislature compilation)",
+     "url": "https://indiacode.gov.in/handle/123456789/551139",
+     "checked": "2026-11-12",
+     "supports": "s. 19, as amended in 1976, on sale or delivery to a person apparently under 21 (official India Code text extract read directly)"
+    },
+    {
+     "title": "Goa Tourism Do's and Don'ts",
+     "authority": "Department of Tourism, Government of Goa",
+     "url": "https://goatourism.gov.in/wp-content/uploads/2018/12/Goa-Tourism-DOs-and-DONTs.pdf",
+     "checked": "2026-11-01",
+     "supports": "ban on drinking alcohol on all beaches, already recorded in local law (existing official source)"
+    }
+   ],
+   "notes": "State excise law, read with the existing official beach and tourist-place alcohol bans on the local-law record. Federal cannabis and narcotics rules belong on India's page."
   }
  }
 }
