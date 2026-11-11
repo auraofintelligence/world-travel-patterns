@@ -178,7 +178,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-622 locations have specific watch items.
+623 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -383,6 +383,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | do | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | dz | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | ec | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| ec/galapagos-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg/alexandria-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg/aswan-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |

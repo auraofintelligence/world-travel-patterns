@@ -32,6 +32,42 @@
    "evidence": "official",
    "laws": [
     {
+     "topic": "permits-and-fees",
+     "rule": "Foreign tourists over 12 pay a USD 200 Galápagos protected-areas entry fee on arrival at Baltra or San Cristóbal (USD 100 under 12) and need a USD 20 Transit Control Card bought before flying.",
+     "level": "region",
+     "source": "https://galapagos.gob.ec/tributo-de-ingreso/",
+     "checked": "2026-11-05",
+     "by": "hand"
+    },
+    {
+     "topic": "wildlife-biosecurity-and-souvenirs",
+     "rule": "The Galápagos National Park and Marine Reserve visit rules say to keep 2 metres from wildlife (cameras included), not to touch or feed animals, not to remove anything from the ecosystem, and not to bring in outside plants or animals.",
+     "source": "https://galapagos.gob.ec/reglas-de-visita/",
+     "checked": "2026-11-06",
+     "level": "region"
+    },
+    {
+     "topic": "drones",
+     "rule": "The park's visit rules say: do not use drones. Take photos without flash; professional filming needs authorisation.",
+     "source": "https://galapagos.gob.ec/reglas-de-visita/",
+     "checked": "2026-11-06",
+     "level": "region"
+    },
+    {
+     "topic": "camping-fires-and-access",
+     "rule": "Visitors walk on marked trails and visit protected areas with a specialised (naturalist) guide. Camping is only in designated sites with prior authorisation. Tourism services must be authorised ones; motorised watercraft, submarines and air tourism are not to be used.",
+     "source": "https://galapagos.gob.ec/reglas-de-visita/",
+     "checked": "2026-11-06",
+     "level": "region"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "In the park's visit areas, do not smoke, drink alcohol or light campfires.",
+     "source": "https://galapagos.gob.ec/reglas-de-visita/",
+     "checked": "2026-11-06",
+     "level": "region"
+    },
+    {
      "topic": "permits-and-registration",
      "rule": "The Galápagos Council official TCT FAQ says tourists need a Tarjeta de Control de Tránsito, presented on entry to and exit from the province, current identification or passport, and a personal return air ticket between the mainland and Galápagos. It describes a maximum tourist stay of 60 non-extendable days in the year and says tourist status does not permit income-earning activity. Confirm current documentary requirements with the Council before travel.",
      "source": "https://www.gobiernogalapagos.gob.ec/preguntas-y-respuestas-frecuentes-control-migratorio-tct/",
@@ -41,6 +77,20 @@
    ],
    "sources": [
     {
+     "title": "Tributo de ingreso",
+     "authority": "Parque Nacional Galápagos",
+     "url": "https://galapagos.gob.ec/tributo-de-ingreso/",
+     "checked": "2026-11-05",
+     "supports": "entry fee and TCT (search-index snapshot)"
+    },
+    {
+     "title": "Reglas de visita del Parque Nacional y Reserva Marina de Galápagos (poster, 2024)",
+     "authority": "Dirección del Parque Nacional Galápagos",
+     "url": "https://galapagos.gob.ec/reglas-de-visita/",
+     "supports": "visit rules read from the park's poster image",
+     "checked": "2026-11-06"
+    },
+    {
      "title": "Preguntas y respuestas frecuentes: Control Migratorio (TCT)",
      "authority": "Consejo de Gobierno de Régimen Especial de Galápagos",
      "url": "https://www.gobiernogalapagos.gob.ec/preguntas-y-respuestas-frecuentes-control-migratorio-tct/",
@@ -48,7 +98,7 @@
      "supports": "Read directly: questions 1 to 6, provincial transit-card requirements, stay limit and tourist-activity limits."
     }
    ],
-   "note": "Provincial special regime only, not Ecuador national entry law. Council FAQ, not a review of every current ordinance. The newer 2026 migration-flow ordinance text and other provincial/local rules are not yet checked. Fees not checked in this record."
+   "note": "Existing Galápagos National Park fees and visitor rules are preserved with their original checked dates; they were not rechecked in this batch. The newly added Council FAQ describes the provincial special regime, not Ecuador national entry law. The newer 2026 migration-flow ordinance text and other provincial/local rules are not yet checked. No fee was rechecked in this batch."
   }
  }
 }

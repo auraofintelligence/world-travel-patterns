@@ -102,3 +102,21 @@ Uruguay: 16 departmental collections read directly. Montevideo HTTP 403 skipped;
 - 2026-11-12 03:36 AEST: Grok Africa law-source batch. Read official law sources for 15 Nigerian and South African states/provinces, adding 13 first verified baselines. Nigerian sources: Akwa Ibom, Cross River, Ekiti, Enugu, Kogi, Kwara, Lagos, Ondo, Osun, Plateau and Taraba; South African sources: Free State, Gauteng, Limpopo and Mpumalanga. Narrow finance, land, historical and paid-catalogue limits are explicit. Enugu full texts need purchase; nothing bought. Anambra empty catalogue, Ogun bills-only archive and Eastern Cape loading-only catalogue were excluded. Added first Lagos substances (state smoking-law summary), deepened its local law with LASEPA smoking and noise guidance, and first Osun local law and culture cycles for the October 2026 Thursday sanitation directive. No movement ban or arrest power inferred. Other failed official hosts were skipped.
 
 - 2026-11-12 03:39 AEST: Grok final partial Middle East batch. 7 first verified source baselines: Erbil, Duhok, Sulaymaniyah and Halabja via the shared Kurdistan Parliament directory; Dubai, Abu Dhabi and Sharjah via emirate official legal portals. Shared regional scope and browser-only or catalogue limits are explicit, not a claim of separate governorate codes or reviewed ordinances. The KRG official administrative-divisions page confirmed the four governorates. Dubai Executive Council Resolution 3/2026 was read directly and added for visitor transport conduct, fare-card rules, tobacco and carrying alcohol on public transport. Added first Dubai substances record, not a general alcohol-law review. Fujairah page listed federal laws only and was not copied as an emirate code. Ajman and Ras Al Khaimah failures skipped.
+
+## Handoff totals
+
+2026-11-12 03:40 AEST
+
+| Pattern (allocated regions only) | Before | After |
+| --- | ---: | ---: |
+| Verified official law-source baseline | 161 | 247 |
+| Local law | 217 | 218 |
+| Culture cycles | 108 | 110 |
+| Culture and protocol | 15 | 15 |
+| Substances | 71 | 73 |
+
+Country law-source coverage: Uruguay 0 to 16 of 19; Bolivia 0 to 7 of 9; Ecuador 0 to 11 of 24; Colombia 0 to 32 of 33 (Bogotá remains a district-level gap); Nigeria 1 to 11 of 37; South Africa 2 to 5 of 9; UAE 0 to 3 of 7; Iraq 0 to 4 of 19 (shared Kurdistan Region legislature only).
+
+Most gain is discovery: official source directories, not reviewed visitor-law records. Existing Galápagos park rules were preserved with their old dates alongside the new FAQ. No third-country advice, workflows, personal information, purchases or new drone research.
+
+Next productive passes: use the new Uruguay IMPO department searches and Colombia SIO category filters for individual visitor ordinances; mine the loaded Bolivian gazettes and Ecuador provincial ordinance lists; read Nigerian enacted-law PDFs rather than bill lists. South African finance/gambling/land directories are subject-limited; broad provincial codes remain incomplete. Skip inaccessible sources rather than retrying blocked hosts. The original ranked empty-country queue above remains a baseline, not current completion status.
