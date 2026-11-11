@@ -1,0 +1,96 @@
+# State-law expansion handoff
+
+Baseline ranked 2026-11-12 03:25 AEST. Allocation: Americas, Africa and Middle East. Empty means no listed law source and none of local law, culture cycles, culture and protocol, substances or affection. A source collection is not a checked law, and no national text is duplicated as a state rule. Within similarly empty countries, use accessible official collections and visitor relevance. This ranking is a work queue, not a judgement about a destination.
+
+| Country | Empty states | All states | Verified sources before |
+| --- | ---: | ---: | ---: |
+| Algeria | 58 | 58 | 0 |
+| Dominican Republic | 32 | 32 | 0 |
+| Bahamas | 29 | 29 | 0 |
+| Seychelles | 27 | 27 | 0 |
+| Democratic Republic of the Congo | 25 | 25 | 0 |
+| Venezuela | 25 | 25 | 0 |
+| Tunisia | 24 | 24 | 0 |
+| Libya | 22 | 22 | 0 |
+| Chad | 21 | 21 | 0 |
+| Mali | 20 | 20 | 0 |
+| Iraq | 19 | 19 | 0 |
+| Angola | 18 | 18 | 0 |
+| Palestine | 18 | 18 | 0 |
+| Nicaragua | 17 | 17 | 0 |
+| Paraguay | 17 | 17 | 0 |
+| Cuba | 16 | 16 | 0 |
+| Ghana | 16 | 16 | 0 |
+| Central African Republic | 15 | 15 | 0 |
+| Liberia | 15 | 15 | 0 |
+| Sudan | 15 | 15 | 0 |
+| El Salvador | 14 | 14 | 0 |
+| Senegal | 14 | 14 | 0 |
+| Somalia | 14 | 14 | 0 |
+| Syria | 14 | 14 | 0 |
+| Trinidad and Tobago | 14 | 14 | 0 |
+| Burkina Faso | 13 | 13 | 0 |
+| Mauritania | 13 | 13 | 0 |
+| Panama | 13 | 13 | 0 |
+| Benin | 12 | 12 | 0 |
+| Mozambique | 11 | 11 | 0 |
+| Cameroon | 10 | 10 | 0 |
+| Guyana | 10 | 10 | 0 |
+| Lesotho | 10 | 10 | 0 |
+| Zambia | 10 | 10 | 0 |
+| Botswana | 9 | 9 | 0 |
+| Gabon | 9 | 9 | 0 |
+| Mauritius | 9 | 9 | 0 |
+| Guinea | 8 | 8 | 0 |
+| Niger | 8 | 8 | 0 |
+| Eritrea | 6 | 6 | 0 |
+| Kuwait | 6 | 6 | 0 |
+| Lebanon | 6 | 6 | 0 |
+| Côte d'Ivoire | 5 | 5 | 0 |
+| Djibouti | 5 | 5 | 0 |
+| Gambia | 5 | 5 | 0 |
+| Qatar | 5 | 5 | 0 |
+| Sierra Leone | 5 | 5 | 0 |
+| Bahrain | 4 | 4 | 0 |
+| Eswatini | 4 | 4 | 0 |
+| Malawi | 3 | 3 | 0 |
+| Burundi | 1 | 1 | 0 |
+| South Sudan | 1 | 1 | 0 |
+| Uganda | 127 | 129 | 0 |
+| Iran | 30 | 31 | 0 |
+| Ecuador | 23 | 24 | 0 |
+| Guatemala | 21 | 22 | 0 |
+| Yemen | 21 | 22 | 0 |
+| Uruguay | 18 | 19 | 0 |
+| Honduras | 17 | 18 | 0 |
+| Ethiopia | 11 | 12 | 0 |
+| Oman | 10 | 11 | 0 |
+| Zimbabwe | 9 | 10 | 0 |
+| Bolivia | 8 | 9 | 0 |
+| Egypt | 23 | 27 | 0 |
+| Colombia | 28 | 33 | 0 |
+| Saudi Arabia | 11 | 13 | 0 |
+| Morocco | 10 | 12 | 0 |
+| Tanzania | 25 | 31 | 0 |
+| Rwanda | 4 | 5 | 0 |
+| Peru | 19 | 25 | 0 |
+| Namibia | 10 | 14 | 0 |
+| Haiti | 7 | 10 | 0 |
+| Belize | 4 | 6 | 0 |
+| Chile | 10 | 16 | 0 |
+| Nigeria | 23 | 37 | 1 |
+| Israel | 3 | 6 | 0 |
+| Jordan | 4 | 12 | 0 |
+| Costa Rica | 1 | 7 | 0 |
+| Argentina | 3 | 23 | 13 |
+| Brazil | 0 | 27 | 19 |
+| Canada | 0 | 13 | 11 |
+| Kenya | 0 | 47 | 47 |
+| Mexico | 0 | 32 | 25 |
+| South Africa | 0 | 9 | 2 |
+| United Arab Emirates | 0 | 7 | 0 |
+| United States | 0 | 54 | 43 |
+
+## Progress
+
+Uruguay: 16 departmental collections read directly. Montevideo HTTP 403 skipped; Cerro Largo and Tacuarembó not yet checked. Search databases are useful to the legal engine, but individual visitor provisions are not yet checked.
