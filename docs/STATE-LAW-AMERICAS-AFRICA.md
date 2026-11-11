@@ -339,3 +339,32 @@ Next productive checks: Botswana only when a new official source loads without c
 - 2026-11-12 04:54 AEST: Grok Zambia/Zimbabwe and source-map completion batch: National Assembly Acts baselines for all ten Zambia provinces; Zimbabwe Parliament directory plus explicitly secondary ZimLII legal collections for all ten Zimbabwe provinces; city Victoria Falls bylaw directory also loaded. Added Livingstone Museum holiday exceptions, specific Victoria Falls Border KAZA scope, Zimbabwe museum/research permissions and Great Zimbabwe no-feeding recommendation. Preserved conflicting NMMZ 08:00-16:30 versus 09:00-17:00/holiday calendars rather than asserting one live timetable. City vending notice distinguished from underlying unread bylaw; model/draft/proposed documents not called enacted. Also completed prior Senegal/Rwanda source-map entries using the repo first-level classifier: their places use kind region, so the earlier kind-state filter had missed these nineteen maps. No amounts or new drone work; other local levels not yet checked.
 
 - 2026-11-12 04:58 AEST: Grok Ethiopia/Gulf/Lebanon batch: official Parliament published-law catalogue baselines for twelve Ethiopian tree regions, Bahrain legislative portal for four governorates, Kuwait Justice laws catalogue for six governorates and Lebanese public-university legal repository for six governorates. Al Rayyan received directly read Mathaf ticket/dress/artwork/photography/filming conditions, cultural protocol and precise weekly hours, including Monday closure, longer Thursday and Friday afternoon opening. Qatar Al Meezan empty shell and failed Kuwait/Gulf museum pages skipped without claiming their indexed rules read; only Mathaf site-source baseline added in Qatar, not five unverified municipal legal hubs. Failed Bahrain visitor pages and Ethiopia Unity Park not used for calendars. Other local laws/levels not yet checked; no amounts, private content or new drone work.
+
+- 2026-11-12 05:03 AEST: Grok extra Americas/Canada traveller batch: directly loaded INAH named-site conduct, tobacco and calendars in six thin Mexican states; no-flash cultural-institution protocols in Coahuila, Nuevo León and Tlaxcala. Preserved El Obispado literal Tuesday-and-Sunday wording against its Tuesday-Friday guided-tour notice; no invented settled weekly schedule. Official federal legislature directory baselines for five visibly named states, plus Catamarca/Chaco/Neuquén provincial legal catalogues, with directory/search-only limits. First cultural-protocol records in Manitoba, Ontario, Nova Scotia and Newfoundland/Labrador from their own museum/gallery rules, labelled operational, not province-wide customs. Distinguished casual photos from staged shoots, child-photo consent and holiday photoshoot blackout from venue closure. Failed Canadian/Argentine pages and El Cerrito/Teopanzolco skipped, no fees or new drone work. Other local levels not yet checked.
+
+## Latest requested-country queue, 2026-11-12 05:04 AEST
+
+Empty here means no verified official law source and none of the five actual patterns below. Listed but unverified sources do not count as verified. Exact first-level classifier used; Kenya has forty-seven counties, not obsolete provinces. Museum-specific conditions do not fill wider community protocols. National law hubs do not establish local-code completeness.
+
+| Country | Empty | First-level total | Verified law source | Local law | Culture cycles | Culture and protocol | Substances | Affection |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Uganda | 99 | 129 | 30 | 3 | 1 | 1 | 1 | 0 |
+| Mozambique | 11 | 11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Côte d'Ivoire | 5 | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Qatar | 4 | 5 | 1 | 1 | 1 | 1 | 0 | 0 |
+| Argentina | 2 | 23 | 16 | 17 | 9 | 0 | 0 | 0 |
+| Mexico | 1 | 32 | 30 | 26 | 11 | 3 | 12 | 0 |
+| Kenya | 0 | 47 | 47 | 7 | 0 | 0 | 0 | 0 |
+| Brazil | 0 | 27 | 19 | 15 | 26 | 0 | 0 | 0 |
+| Senegal | 0 | 14 | 14 | 0 | 0 | 0 | 0 | 0 |
+| Canada | 0 | 13 | 11 | 13 | 13 | 7 | 13 | 0 |
+| Ethiopia | 0 | 12 | 12 | 1 | 0 | 0 | 0 | 0 |
+| Zambia | 0 | 10 | 10 | 1 | 1 | 0 | 0 | 0 |
+| Zimbabwe | 0 | 10 | 10 | 4 | 5 | 0 | 0 | 0 |
+| Kuwait | 0 | 6 | 6 | 0 | 0 | 0 | 0 | 0 |
+| Lebanon | 0 | 6 | 6 | 0 | 0 | 0 | 0 | 0 |
+| Rwanda | 0 | 5 | 5 | 5 | 3 | 1 | 0 | 0 |
+| Bahrain | 0 | 4 | 4 | 0 | 0 | 0 | 0 | 0 |
+| Madagascar | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+Madagascar has no first-level regions in this tree, not completed coverage. Mozambique and Côte d’Ivoire remain priority gaps; Uganda has many remaining districts. Canada still needs protocols beyond the four named institutions added here; Kenya still needs actual county rules. Brazil and the remaining Argentine provinces were not substantively checked in this continuation. Failed or empty sites were skipped, not reported as verified. Earlier queue sections above are dated snapshots, not current totals.

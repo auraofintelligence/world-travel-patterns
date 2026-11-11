@@ -60,7 +60,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-07",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -126,6 +126,22 @@
      "source": "https://www.ontario.ca/laws/regulation/070347",
      "level": "region",
      "checked": "2026-11-07"
+    },
+    {
+     "topic": "public-conduct",
+     "rule": "Art Gallery of Ontario: Remain behind stanchions and at a safe, non-touching distance from art. Keep cameras at least 18 inches (about 46 cm) from artworks and never above them. Avoid disrupting access or other visitors.",
+     "source": "https://ago.ca/about/plans-reports-and-policies/ago-photography-and-filming-guidelines",
+     "checked": "2026-11-12",
+     "level": "site",
+     "evidence": "operational"
+    },
+    {
+     "topic": "filming",
+     "rule": "Art Gallery of Ontario: Personal non-commercial handheld photos without flash, except posted no-photo restrictions. No tripods, monopods, gimbals or selfie sticks. Photographing children requires consent of the accompanying adult. Staged shoots are not permitted during visitor hours, including amateur shoots; ask AGO Events about outside-hours arrangements. Live streaming is allowed only in permanent-collection galleries under the same conditions. Unrelated films/student projects are not accommodated.",
+     "source": "https://ago.ca/about/plans-reports-and-policies/ago-photography-and-filming-guidelines",
+     "checked": "2026-11-12",
+     "level": "site",
+     "evidence": "operational"
     }
    ],
    "sources": [
@@ -177,8 +193,16 @@
      "authority": "Government of Ontario (e-Laws)",
      "url": "https://www.ontario.ca/laws/regulation/070347",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "Art Gallery of Ontario: visitor conduct and photography",
+     "authority": "Art Gallery of Ontario",
+     "url": "https://ago.ca/about/plans-reports-and-policies/ago-photography-and-filming-guidelines",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Own published named-venue visitor/photography conditions, not a statement of province-wide customs or a substitute for Indigenous community consent. Guide dated 2025 for Nova Scotia; no live opening claim."
     }
-   ]
+   ],
+   "note": "Own named cultural institution policy, labelled operational. Provincial laws already recorded retain their original evidence dates. Wider community cultural authority, ceremonies and storytelling permissions are not yet checked."
   },
   "zone-requirements": {
    "status": "partly-vetted",
@@ -297,6 +321,24 @@
      "supports": "2027 submission dates, eligibility and fee conditions"
     }
    ]
+  },
+  "culture-and-protocol": {
+   "status": "partly-mapped",
+   "evidence": "operational",
+   "cultural_authority": "Art Gallery of Ontario for its own premises; broader community and Indigenous cultural permissions not yet checked.",
+   "dress_and_conduct": "Remain behind stanchions and at a safe, non-touching distance from art. Keep cameras at least 18 inches (about 46 cm) from artworks and never above them. Avoid disrupting access or other visitors.",
+   "photography_and_story_permissions": "Personal non-commercial handheld photos without flash, except posted no-photo restrictions. No tripods, monopods, gimbals or selfie sticks. Photographing children requires consent of the accompanying adult. Staged shoots are not permitted during visitor hours, including amateur shoots; ask AGO Events about outside-hours arrangements. Live streaming is allowed only in permanent-collection galleries under the same conditions. Unrelated films/student projects are not accommodated.",
+   "note": "Own named cultural institution policy, labelled operational. Provincial laws already recorded retain their original evidence dates. Wider community cultural authority, ceremonies and storytelling permissions are not yet checked.",
+   "sources": [
+    {
+     "title": "Art Gallery of Ontario: visitor conduct and photography",
+     "authority": "Art Gallery of Ontario",
+     "url": "https://ago.ca/about/plans-reports-and-policies/ago-photography-and-filming-guidelines",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Own published named-venue visitor/photography conditions, not a statement of province-wide customs or a substitute for Indigenous community consent. Guide dated 2025 for Nova Scotia; no live opening claim."
+    }
+   ],
+   "checked": "2026-11-12"
   }
  }
 }

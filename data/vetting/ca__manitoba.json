@@ -35,7 +35,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-07",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -89,6 +89,30 @@
      "source": "https://web2.gov.mb.ca/laws/statutes/ccsm/l153.php",
      "level": "region",
      "checked": "2026-11-07"
+    },
+    {
+     "topic": "public-conduct",
+     "rule": "Manitoba Museum: Do not touch, climb or lean on displays unless explicitly permitted. Children under 12 need an adult. No gallery food/drinks or pets; trained service-animal exception. No abusive, harassing or discriminatory conduct. Follow staff, barriers and safety signs.",
+     "source": "https://manitobamuseum.ca/visitor-code-of-conduct/",
+     "checked": "2026-11-12",
+     "level": "site",
+     "evidence": "operational"
+    },
+    {
+     "topic": "filming",
+     "rule": "Manitoba Museum: Personal non-flash photos only, with respect for other visitors and staff. No selfie sticks or tripods. This venue policy grants no community storytelling or ceremony-recording permission.",
+     "source": "https://manitobamuseum.ca/visitor-code-of-conduct/",
+     "checked": "2026-11-12",
+     "level": "site",
+     "evidence": "operational"
+    },
+    {
+     "topic": "e-cigarettes-and-tobacco",
+     "rule": "Smoking and vaping are prohibited in all galleries. Museum entry may be refused or visitors removed for breaches.",
+     "source": "https://manitobamuseum.ca/visitor-code-of-conduct/",
+     "checked": "2026-11-12",
+     "level": "site",
+     "evidence": "operational"
     }
    ],
    "sources": [
@@ -118,9 +142,16 @@
      "authority": "Government of Manitoba (Manitoba Laws)",
      "url": "https://web2.gov.mb.ca/laws/statutes/ccsm/l153.php",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "Manitoba Museum: visitor conduct and photography",
+     "authority": "Manitoba Museum",
+     "url": "https://manitobamuseum.ca/visitor-code-of-conduct/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Own published named-venue visitor/photography conditions, not a statement of province-wide customs or a substitute for Indigenous community consent. Guide dated 2025 for Nova Scotia; no live opening claim."
     }
    ],
-   "note": "Churchill added."
+   "note": "Churchill added. Own named cultural institution policy, labelled operational. Provincial laws already recorded retain their original evidence dates. Wider community cultural authority, ceremonies and storytelling permissions are not yet checked."
   },
   "psychoactive-substances": {
    "status": "partly-mapped",
@@ -242,6 +273,24 @@
      "supports": "set election date (read directly)"
     }
    ]
+  },
+  "culture-and-protocol": {
+   "status": "partly-mapped",
+   "evidence": "operational",
+   "cultural_authority": "Manitoba Museum for its own premises; broader community and Indigenous cultural permissions not yet checked.",
+   "dress_and_conduct": "Do not touch, climb or lean on displays unless explicitly permitted. Children under 12 need an adult. No gallery food/drinks or pets; trained service-animal exception. No abusive, harassing or discriminatory conduct. Follow staff, barriers and safety signs.",
+   "photography_and_story_permissions": "Personal non-flash photos only, with respect for other visitors and staff. No selfie sticks or tripods. This venue policy grants no community storytelling or ceremony-recording permission.",
+   "note": "Own named cultural institution policy, labelled operational. Provincial laws already recorded retain their original evidence dates. Wider community cultural authority, ceremonies and storytelling permissions are not yet checked.",
+   "sources": [
+    {
+     "title": "Manitoba Museum: visitor conduct and photography",
+     "authority": "Manitoba Museum",
+     "url": "https://manitobamuseum.ca/visitor-code-of-conduct/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Own published named-venue visitor/photography conditions, not a statement of province-wide customs or a substitute for Indigenous community consent. Guide dated 2025 for Nova Scotia; no live opening claim."
+    }
+   ],
+   "checked": "2026-11-12"
   }
  }
 }

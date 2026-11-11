@@ -5,7 +5,9 @@
    "status": "partly-mapped",
    "evidence": "signal",
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "The Rooms: photoshoot bookings are not offered 10 December-10 January; this is not a general museum closure. Booking-session maximum 30 minutes, advance check-in 10 minutes."
+   ],
    "moving_calendars": [],
    "protocol_notes": [],
    "sources": [
@@ -29,6 +31,13 @@
      "url": "https://www.assembly.nl.ca/legislation/sr/statutes/l02.htm",
      "supports": "statutory public holidays for most employers: New Year's Day, Good Friday, Remembrance Day, Memorial Day, Labour Day, Christmas Day (read directly)",
      "checked": "2026-11-06"
+    },
+    {
+     "title": "The Rooms, St John's: visitor conduct and photography",
+     "authority": "The Rooms, St John's",
+     "url": "https://therooms.ca/visitor-information/photography",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Own published named-venue visitor/photography conditions, not a statement of province-wide customs or a substitute for Indigenous community consent. Guide dated 2025 for Nova Scotia; no live opening claim."
     }
    ],
    "public_holidays": [
@@ -46,12 +55,12 @@
     "2027-09-30: National Day for Truth and Reconciliation (official: provincial government paid holiday)",
     "2027-12-27 and 2027-12-28: Christmas Day and Boxing Day observed Monday and Tuesday (official: provincial government schedule)"
    ],
-   "checked": "2026-11-06",
-   "note": "The Treasury Board list applies to provincial government departments and shows the observed days; private employers are bound only by the Labour Standards Act list."
+   "checked": "2026-11-12",
+   "note": "The Treasury Board list applies to provincial government departments and shows the observed days; private employers are bound only by the Labour Standards Act list. Own named cultural institution policy, labelled operational. Provincial laws already recorded retain their original evidence dates. Wider community cultural authority, ceremonies and storytelling permissions are not yet checked."
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-07",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -90,6 +99,30 @@
      "source": "https://www.assembly.nl.ca/legislation/sr/statutes/l18.htm",
      "level": "region",
      "checked": "2026-11-07"
+    },
+    {
+     "topic": "public-conduct",
+     "rule": "The Rooms, St John's: For booked photoshoots: no flowers, sessions on stairs, props/bags on floors or stairs, rearranging furniture or standing on it. Do not ask other visitors to move; keep noise and disruption low. These are The Rooms' conditions, not province-wide photography rules.",
+     "source": "https://therooms.ca/visitor-information/photography",
+     "checked": "2026-11-12",
+     "level": "site",
+     "evidence": "operational"
+    },
+    {
+     "topic": "filming",
+     "rule": "The Rooms, St John's: Ordinary gallery/exhibition non-flash photography is welcome unless an exhibition says otherwise. Separate amateur or professional photoshoot sessions must be booked in advance through the venue; maximum 30 minutes, check in 10 minutes early for an authorisation pass, handheld cameras only. Do not confuse this booked-session process with the ordinary permitted visitor photograph. Wider community/story permissions not yet checked.",
+     "source": "https://therooms.ca/visitor-information/photography",
+     "checked": "2026-11-12",
+     "level": "site",
+     "evidence": "operational"
+    },
+    {
+     "topic": "alcohol",
+     "rule": "The Rooms photography guidelines say alcohol is permitted only inside and served by The Rooms Café. This is the museum's own visitor/photography policy, not a provincial alcohol-law review.",
+     "source": "https://therooms.ca/visitor-information/photography",
+     "checked": "2026-11-12",
+     "level": "site",
+     "evidence": "operational"
     }
    ],
    "sources": [
@@ -124,9 +157,16 @@
      "authority": "House of Assembly, Newfoundland and Labrador",
      "url": "https://www.assembly.nl.ca/legislation/sr/statutes/s16-2.htm",
      "checked": "2026-11-07"
+    },
+    {
+     "title": "The Rooms, St John's: visitor conduct and photography",
+     "authority": "The Rooms, St John's",
+     "url": "https://therooms.ca/visitor-information/photography",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Own published named-venue visitor/photography conditions, not a statement of province-wide customs or a substitute for Indigenous community consent. Guide dated 2025 for Nova Scotia; no live opening claim."
     }
    ],
-   "note": "Gros Morne added."
+   "note": "Gros Morne added. Own named cultural institution policy, labelled operational. Provincial laws already recorded retain their original evidence dates. Wider community cultural authority, ceremonies and storytelling permissions are not yet checked."
   },
   "psychoactive-substances": {
    "status": "partly-mapped",
@@ -172,6 +212,24 @@
     }
    ],
    "notes": "Provincial or territorial law. Read with Canada's federal Cannabis Act and drug laws; never carry cannabis across the international border."
+  },
+  "culture-and-protocol": {
+   "status": "partly-mapped",
+   "evidence": "operational",
+   "cultural_authority": "The Rooms, St John's for its own premises; broader community and Indigenous cultural permissions not yet checked.",
+   "dress_and_conduct": "For booked photoshoots: no flowers, sessions on stairs, props/bags on floors or stairs, rearranging furniture or standing on it. Do not ask other visitors to move; keep noise and disruption low. These are The Rooms' conditions, not province-wide photography rules.",
+   "photography_and_story_permissions": "Ordinary gallery/exhibition non-flash photography is welcome unless an exhibition says otherwise. Separate amateur or professional photoshoot sessions must be booked in advance through the venue; maximum 30 minutes, check in 10 minutes early for an authorisation pass, handheld cameras only. Do not confuse this booked-session process with the ordinary permitted visitor photograph. Wider community/story permissions not yet checked.",
+   "note": "Own named cultural institution policy, labelled operational. Provincial laws already recorded retain their original evidence dates. Wider community cultural authority, ceremonies and storytelling permissions are not yet checked.",
+   "sources": [
+    {
+     "title": "The Rooms, St John's: visitor conduct and photography",
+     "authority": "The Rooms, St John's",
+     "url": "https://therooms.ca/visitor-information/photography",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Own published named-venue visitor/photography conditions, not a statement of province-wide customs or a substitute for Indigenous community consent. Guide dated 2025 for Nova Scotia; no live opening claim."
+    }
+   ],
+   "checked": "2026-11-12"
   }
  }
 }
