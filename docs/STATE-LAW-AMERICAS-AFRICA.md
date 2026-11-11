@@ -310,18 +310,18 @@ Recounted 2026-11-12 04:24 AEST. The requested thin-country preference covered P
 
 ## Requested-country queue after primary-text continuation
 
-Recounted 2026-11-12 04:40 AEST. Historical tables above retain their original snapshots. Empty means no directly loaded law-source map AND no record in the five requested traveller patterns; this narrow coverage metric is not legal completeness. No-source below uses the strict read-directly/loaded check. Existing geographic aggregates and Kenya legacy provinces remain in the repository denominator, not new administrative claims. Botswana sites failed and were skipped; Gaza is outside this West Bank source pass. Prioritise remaining actual regional traveller rules, not only maps.
+Recounted 2026-11-12 04:41 AEST. Historical tables above retain their original snapshots. Empty means no verified official law-source map AND no record in the five requested traveller patterns, including affection-and-relationships. Verification uses scripts/law_repositories.py:is_verified, consistently with the generated global STATUS: legacy loaded entries without a newer source label count as verified; search snapshots and failed reads do not. This is narrow coverage, not legal completeness. Existing geographic aggregates and Kenya legacy provinces remain in the repository denominator, not new administrative claims. Botswana sites failed and were skipped; Gaza is outside this West Bank source pass. Prioritise remaining actual regional traveller rules, not only maps.
 
-| Country | Empty | No directly loaded source | No requested traveller record | Tree states/regions |
+| Country | Empty | No verified law source | No requested traveller record | Tree states/regions |
 | --- | ---: | ---: | ---: | ---: |
 | Botswana | 9 | 9 | 9 | 9 |
-| Mexico | 6 | 17 | 9 | 32 |
 | Palestine | 6 | 6 | 15 | 18 |
-| Kenya | 4 | 6 | 44 | 53 |
-| Argentina | 3 | 19 | 4 | 23 |
-| Brazil | 0 | 26 | 0 | 27 |
-| Canada | 0 | 10 | 0 | 13 |
+| Mexico | 4 | 7 | 9 | 32 |
+| Argentina | 3 | 10 | 4 | 23 |
+| Brazil | 0 | 8 | 0 | 27 |
 | Israel | 0 | 3 | 0 | 6 |
+| Canada | 0 | 2 | 0 | 13 |
+| Kenya | 0 | 0 | 40 | 47 |
 | Ecuador | 0 | 0 | 23 | 24 |
 | Egypt | 0 | 0 | 18 | 27 |
 | Tanzania | 0 | 0 | 15 | 31 |
@@ -329,3 +329,5 @@ Recounted 2026-11-12 04:40 AEST. Historical tables above retain their original s
 | Namibia | 0 | 0 | 4 | 14 |
 
 Next productive checks: Botswana only when a new official source loads without chasing failures; Argentina missing provincial legal hubs; Mexico traveller-thin Chihuahua, Coahuila, Morelos, Nuevo León, Querétaro, Sinaloa, Sonora, Tamaulipas and Tlaxcala; Brazil local visitor rules. Canada already has broader regional baseline coverage. Saudi Gazette baseline does not complete provincial/municipal law. Zanzibar uses its own enacted-law collection, not mainland law. Guatemalan AGN explanations remain secondary until original full regulation/gazette can be read.
+
+- 2026-11-12 04:41 AEST: Grok queue audit: aligned remaining-country rankings with the repository verified-source helper, including legacy loaded entries, and corrected the full affection-and-relationships pattern identifier. This avoids calling already verified Mexican/Brazilian/Canadian maps absent merely because their older entries lack the newer source field. No traveller claims or coverage counts changed in this documentation-only correction.
