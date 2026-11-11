@@ -121,7 +121,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -137,6 +137,13 @@
      "level": "state",
      "source": "https://www.eeaa.gov.eg/Service/72/sub/183/index",
      "checked": "2026-11-05"
+    },
+    {
+     "topic": "filming",
+     "rule": "Sharm al-Sheikh Museum: Commercial photography/video needs the competent authority's permission. No flash; camera-holder use has its own ticket condition. Do not touch exhibits/showcases. Food and drinks are excluded from galleries except small water bottles. Bags/luggage larger than 40 by 40 cm are excluded from galleries and directed to the cloakroom. Follow posted instructions; this is the museum's visitor policy, not a governorate-wide photography or luggage rule.",
+     "source": "https://egymonuments.gov.eg/museums/sharm-al-sheikh-museum/",
+     "checked": "2026-11-12",
+     "level": "site"
     }
    ],
    "sources": [
@@ -153,9 +160,80 @@
      "url": "https://www.eeaa.gov.eg/Service/72/sub/183/index",
      "checked": "2026-11-05",
      "supports": "permit system phase one covers South Sinai and Red Sea protectorates; filming permit documents and conditions (read directly 2026-11-05)"
+    },
+    {
+     "title": "Sharm al-Sheikh Museum: official visitor policies and calendars",
+     "authority": "Ministry of Tourism and Antiquities, Egypt",
+     "url": "https://egymonuments.gov.eg/museums/sharm-al-sheikh-museum/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named museum/governorate, specific photography and smoking policies, bag/food/exhibit conduct and only those hours that rendered directly."
     }
    ],
-   "note": "Protectorate rules only. EEAA's marine activity, mountain climbing and filming condition PDFs have an unreadable text layer, so their detail is not recorded."
+   "note": "Protectorate rules only. EEAA's marine activity, mountain climbing and filming condition PDFs have an unreadable text layer, so their detail is not recorded. Direct museum operator conditions, not a claim to have read every underlying antiquities-law provision. No fee amounts or criminal penalties inferred."
+  },
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "public_holidays": [],
+   "moving_calendars": [],
+   "festivals": [],
+   "closures": [
+    "Sharm al-Sheikh Museum: Daily 10:00-13:00, ticket window closes 12:00; evenings 17:00-23:00, ticket window closes 22:00. Ramadan: 10:00-12:00, last ticket 11:00, and 20:00-23:00, last ticket 22:00."
+   ],
+   "protocol_notes": [],
+   "sources": [
+    {
+     "title": "Sharm al-Sheikh Museum: official visitor policies and calendars",
+     "authority": "Ministry of Tourism and Antiquities, Egypt",
+     "url": "https://egymonuments.gov.eg/museums/sharm-al-sheikh-museum/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named museum/governorate, specific photography and smoking policies, bag/food/exhibit conduct and only those hours that rendered directly."
+    }
+   ],
+   "note": "Named museum calendar, not governorate public holidays or automatic entry. Ramadan hours are quoted without deriving Gregorian dates or assuming a named year. Live temporary closures and normal hours missing from the rendered page remain not yet checked.",
+   "checked": "2026-11-12"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "tobacco",
+     "kind": "law",
+     "text": "Sharm al-Sheikh Museum: the official visitor page prohibits smoking throughout this museum. This is not restated as a ban throughout the governorate.",
+     "source": "https://egymonuments.gov.eg/museums/sharm-al-sheikh-museum/",
+     "checked": "2026-11-12"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sharm al-Sheikh Museum: official visitor policies and calendars",
+     "authority": "Ministry of Tourism and Antiquities, Egypt",
+     "url": "https://egymonuments.gov.eg/museums/sharm-al-sheikh-museum/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named museum/governorate, specific photography and smoking policies, bag/food/exhibit conduct and only those hours that rendered directly."
+    }
+   ],
+   "notes": "Named museum restriction only; other local smoking, alcohol and prescription-medicine rules not yet checked.",
+   "checked": "2026-11-12"
+  },
+  "culture-and-protocol": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Sharm al-Sheikh Museum: official visitor policies and calendars",
+     "authority": "Ministry of Tourism and Antiquities, Egypt",
+     "url": "https://egymonuments.gov.eg/museums/sharm-al-sheikh-museum/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named museum/governorate, specific photography and smoking policies, bag/food/exhibit conduct and only those hours that rendered directly."
+    }
+   ],
+   "cultural_authority": "Sharm al-Sheikh Museum / Ministry of Tourism and Antiquities, for this museum only.",
+   "dress_and_conduct": "Within Sharm al-Sheikh Museum, follow staff/signs, do not touch exhibits, and keep calls/other noise quiet. Appropriate attire is requested where stated; no specific head-covering or clothing-length rule is invented.",
+   "photography_and_story_permissions": "Commercial photography/video needs the competent authority's permission. No flash; camera-holder use has its own ticket condition. The page asks visitors to refrain from photographing other visitors or staff because of personal rights; this is not rewritten as a universal criminal prohibition.",
+   "note": "Named cultural-institution visitor protocol only, not all local communities or museums in the governorate. Community ceremonial and storytelling permissions not yet checked.",
+   "checked": "2026-11-12"
   }
  }
 }

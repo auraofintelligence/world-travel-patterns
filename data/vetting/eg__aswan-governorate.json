@@ -202,12 +202,14 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-11-05",
+   "checked": "2026-11-12",
    "evidence": "official",
    "festivals": [
     "22 February and 22 October each year: Abu Simbel has its own higher ticket price on these two days (foreign adult EGP 1,200), set by the Ministry of Tourism and Antiquities."
    ],
-   "closures": [],
+   "closures": [
+    "Nubia Museum: Daily 09:00-17:00, ticket window closes 16:00. Thursday-Friday evenings 18:00-21:00, ticket window closes 20:00. Ramadan: 09:00-15:00, ticket window closes 14:00; no separate Ramadan evening entitlement is inferred."
+   ],
    "moving_calendars": [],
    "protocol_notes": [],
    "public_holidays": [
@@ -220,9 +222,82 @@
      "url": "https://egymonuments.gov.eg/en/archaeological-sites/abu-simbel",
      "checked": "2026-11-05",
      "supports": "22 February and 22 October pricing (read directly 2026-11-05)"
+    },
+    {
+     "title": "Nubia Museum: official visitor policies and calendars",
+     "authority": "Ministry of Tourism and Antiquities, Egypt",
+     "url": "https://egymonuments.gov.eg/en/museums/nubia-museum",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named museum/governorate, specific photography and smoking policies, bag/food/exhibit conduct and only those hours that rendered directly."
     }
    ],
-   "note": "The ministry page sets the special price on those dates but does not describe the occasion, so it is not described here."
+   "note": "The ministry page sets the special price on those dates but does not describe the occasion, so it is not described here. Named museum calendar, not governorate public holidays or automatic entry. Ramadan hours are quoted without deriving Gregorian dates or assuming a named year. Live temporary closures and normal hours missing from the rendered page remain not yet checked."
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "filming",
+     "rule": "Nubia Museum: The page says private photography follows its ticket conditions; commercial photography/video needs the competent authority's permission. No flash, and camera-holder use has its own ticket condition. Do not touch exhibits/showcases. Food and drinks are excluded from galleries except small water bottles. Bags/luggage larger than 40 by 40 cm are excluded from galleries and directed to the cloakroom. Follow posted instructions; this is the museum's visitor policy, not a governorate-wide photography or luggage rule.",
+     "source": "https://egymonuments.gov.eg/en/museums/nubia-museum",
+     "checked": "2026-11-12",
+     "level": "site"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Nubia Museum: official visitor policies and calendars",
+     "authority": "Ministry of Tourism and Antiquities, Egypt",
+     "url": "https://egymonuments.gov.eg/en/museums/nubia-museum",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named museum/governorate, specific photography and smoking policies, bag/food/exhibit conduct and only those hours that rendered directly."
+    }
+   ],
+   "note": "Direct museum operator conditions, not a claim to have read every underlying antiquities-law provision. No fee amounts or criminal penalties inferred.",
+   "checked": "2026-11-12"
+  },
+  "psychoactive-substances": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "items": [
+    {
+     "substance": "tobacco",
+     "kind": "law",
+     "text": "Nubia Museum: the official visitor page prohibits smoking throughout this museum. This is not restated as a ban throughout the governorate.",
+     "source": "https://egymonuments.gov.eg/en/museums/nubia-museum",
+     "checked": "2026-11-12"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Nubia Museum: official visitor policies and calendars",
+     "authority": "Ministry of Tourism and Antiquities, Egypt",
+     "url": "https://egymonuments.gov.eg/en/museums/nubia-museum",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named museum/governorate, specific photography and smoking policies, bag/food/exhibit conduct and only those hours that rendered directly."
+    }
+   ],
+   "notes": "Named museum restriction only; other local smoking, alcohol and prescription-medicine rules not yet checked.",
+   "checked": "2026-11-12"
+  },
+  "culture-and-protocol": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "sources": [
+    {
+     "title": "Nubia Museum: official visitor policies and calendars",
+     "authority": "Ministry of Tourism and Antiquities, Egypt",
+     "url": "https://egymonuments.gov.eg/en/museums/nubia-museum",
+     "checked": "2026-11-12",
+     "supports": "Read directly: named museum/governorate, specific photography and smoking policies, bag/food/exhibit conduct and only those hours that rendered directly."
+    }
+   ],
+   "cultural_authority": "Nubia Museum / Ministry of Tourism and Antiquities, for this museum only.",
+   "dress_and_conduct": "Within Nubia Museum, follow staff/signs, do not touch exhibits, and keep calls/other noise quiet. Appropriate attire is requested where stated; no specific head-covering or clothing-length rule is invented.",
+   "photography_and_story_permissions": "The page says private photography follows its ticket conditions; commercial photography/video needs the competent authority's permission. No flash, and camera-holder use has its own ticket condition. The page asks visitors to refrain from photographing other visitors or staff because of personal rights; this is not rewritten as a universal criminal prohibition.",
+   "note": "Named cultural-institution visitor protocol only, not all local communities or museums in the governorate. Community ceremonial and storytelling permissions not yet checked.",
+   "checked": "2026-11-12"
   }
  }
 }
