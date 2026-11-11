@@ -16,6 +16,23 @@ START, END = "<!-- generated:start -->", "<!-- generated:end -->"
 ENTRY_KEYS = ("laws", "layers", "events", "sites", "items", "closures", "festivals", "cash_card_notes", "footage",
               "operator_register", "foreign_operator", "permits_at_this_level")
 HISTORY = ROOT / "data/logs/volume-history.json"
+EVIDENCE_KINDS = ("official", "signal", "operational", "legacy-baseline", "community")
+
+
+def evidence_kind(value):
+    """Map a record's evidence field to a short token for the coverage table.
+
+    Some records, especially ancient sites, store a source note in `evidence`
+    instead of official/signal. Those notes still count as official when they
+    describe official pages or UNESCO data.
+    """
+    text = (value or "?").strip().lower()
+    for token in EVIDENCE_KINDS:
+        if text == token or text.startswith(token + " ") or text.startswith(token + ",") or text.startswith(token + ";") or text.startswith(token + "."):
+            return token
+    if text.startswith("unesco"):
+        return "official"
+    return "other"
 
 
 def entries(rec):
@@ -85,7 +102,7 @@ def main():
         for lv in ("spine", "region"):
             ids = [k for k, p in places.items() if level(k, p) == lv and applies(pat, p) and k != "au"]
             have = [k for k in ids if pid in vet.get(k, {})]
-            cells.append((len(have), len(ids), collections.Counter(vet[k][pid].get("evidence", "?") for k in have)))
+            cells.append((len(have), len(ids), collections.Counter(evidence_kind(vet[k][pid].get("evidence")) for k in have)))
         (sh, st, ev), (rh, rt, _) = cells
         evtxt = ", ".join(f"{n} {e}" for e, n in ev.most_common()) or "none"
         region = f"{rh:,} of {rt:,} ({pct(rh, rt)})" if rt else f"uses the country's ({pat['inherit']})"

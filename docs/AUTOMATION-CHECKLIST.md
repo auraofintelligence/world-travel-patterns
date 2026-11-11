@@ -1,6 +1,6 @@
 # Automation checklist
 
-What future automations should check, and when. Generated 2026-11-05 by `scripts/recheck_plan.py` from repo data (machine copy: `config/recheck-plan.json`). Rebuild instead of editing by hand.
+What future automations should check, and when. Generated 2026-11-11 by `scripts/recheck_plan.py` from repo data (machine copy: `config/recheck-plan.json`). Rebuild instead of editing by hand.
 
 Rules that always apply: a failed fetch is not evidence of a change; never use projected or third-party dates; travel windows (config/cadence.json phases: 90, 30, 7 days out, daily in place) tighten everything below.
 
@@ -37,26 +37,30 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 
 | Date | Kind | Place | What | Check |
 |---|---|---|---|---|
-| 2026-11-05 | election | gd | House of Representatives election (snap) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
-| 2026-11-07 | election | nz | General election (House of Representatives) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
-| 2026-11-08 | law-or-rule-date | us/california | ancient-sites-and-mysteries: Forest Order 14-24-08 runs to 8 November 2026; recheck for a rene | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-11 | law-or-rule-date | jp/okinawa-prefecture | culture-and-protocol: ...t sacred site, closes six days a year for quiet and conservation (lunar 1 to 3 May and 1 to 3 October; next 9 to 11 November 2026, then 5 to 7 June 2 | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-13 | law-or-rule-date | us/new-jersey | psychoactive-substances: ...stribution licences could sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2 | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-14 | law-or-rule-date | us/new-jersey | psychoactive-substances: ...d sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2026 those drinks are tr | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-15 | election | cv | Presidential election | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-11-15 | law-or-rule-date | la | ancient-sites-and-mysteries: Foreigners 30,000 kip, rising to 60,000 kip from 15 November 2026; pay on site | Recheck the official source about 60 days before, and again on the date. |
+| 2026-11-16 | law-or-rule-date | it/campania | local-law: Naples has a mayoral order for its nightlife (movida) areas, in force from 16 October to 16 November 2026. Areas include the | Recheck the official source about 60 days before, and again on the date. |
+| 2026-11 (month only) | law-or-rule-date | id/yogyakarta | local-law: Reports of a full pedestrian (no fuel-powered vehicles) plan for Malioboro from November 2026 came only from news | Recheck the official source about 60 days before, and again on the date. |
+| 2026-11 (month only) | law-or-rule-date | us/virginia | zone-requirements: ...not guarantee parking. The park says the main trailhead lot was closed from 4 May 2026 for work due to finish by November 2026; overflow lots are | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-29 | election | ch | Federal referendum | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-11-29 | election | es | General election, Congress and Senate (snap) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2026-12-01 | law-or-rule-date | at/styria | local-law: Styria's overnight levy (Nächtigungsabgabe) is set by state ordinance LGBl. 75/2026 for stays from 1 December 2026: EUR 1.70 per perso | Recheck the official source about 60 days before, and again on the date. |
 | 2026-12-02 | law-or-rule-date | ie/county-sligo | ancient-sites-and-mysteries: 12 March to 2 December 2026; winter hours 5 Nov | Recheck the official source about 60 days before, and again on the date. |
 | 2026-12-05 | election | gm | Presidential election | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-12-06 | election | cy | Assembly election in the north of Cyprus (snap) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-12-06 | election | gw | Presidential and National Assembly elections (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-12-09 | election | fj | Referendum (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2026-12-15 | law-or-rule-date | cl/araucania-region | zone-requirements: Huerquehue National Park: the Quinchol and San Sebastián trails are closed until 15 December 2026 for visitor safety, | Recheck the official source about 60 days before, and again on the date. |
 | 2026-12-22 | election | ss | Presidential and legislative elections (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-12-24 | election | fj | General election (Parliament) (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2026-12 (month only) | law-or-rule-date | tk | visa-preparation: ...ed essential workers, with Covid-19 testing in Apia). The site also links visiting guidelines and a September to December 2026 sailing schedule, b | Recheck the official source about 60 days before, and again on the date. |
 | 2026-12-31 | law-or-rule-date | by | entry: 30-day visa-free entry until 31 December 2026, up to 90 days a ca | Recheck the official source about 60 days before, and again on the date. |
+| 2026-12-31 | law-or-rule-date | cl/araucania-region | zone-requirements: ...he trail to the Pichillancahue glacier is not open for excursions from the park's northern sector (Araucanía) until 31 December 2026, per CONAF's notice | Recheck the official source about 60 days before, and again on the date. |
 | 2026-12-31 | law-or-rule-date | cn | entry: ...ordinary Australian passports, up to 30 days for business, tourism, visiting family and friends, or transit, until 31 December 2026. | Recheck the official source about 60 days before, and again on the date. |
+| 2026-12-31 | law-or-rule-date | fr/auvergne-rhone-alpes | local-law: ...tents; La Balme, 50 tents) and outside the red zones. Arrêté DDT-2026-0474 of the Haute-Savoie prefect, valid to 31 December 2026. | Recheck the official source about 60 days before, and again on the date. |
 | 2026-12-31 | law-or-rule-date | kr | entry: Visa-free tourist stays up to 90 days, and no K-ETA needed until 31 December 2026. | Recheck the official source about 60 days before, and again on the date. |
 | 2026-12-31 | election | so | Presidential and House of the People elections (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-01-01 | rule-change | by | Belarus's 30-day visa-free entry for Australians runs until 31 December 2026. | Look for an extension before 1 January 2027. |
@@ -70,15 +74,49 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | 2027-01-27 | election | kg | Presidential election (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-01 (month only) | law-or-rule-date | ch/canton-of-basel-stadt | psychoactive-substances: ...nabis to enrolled participants through selected pharmacies in Basel-Stadt. Planned to run from September 2022 to January 2027, with up to 374 par | Recheck the official source about 60 days before, and again on the date. |
 | 2027-02-28 | election | ch | Federal referendum (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-02-28 | law-or-rule-date | gb/scotland | zone-requirements: ...Authority's own campsites at Loch Chon, Loch Achray, Inchcailloch and Sallochy are closed from 1 October 2026 to 28 February 2027. Outside the Campin | Recheck the official source about 60 days before, and again on the date. |
 | 2027-02-28 | election | sv | Legislative Assembly election (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-03-02 | election | fm | Congress election (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-03-07 | election | ee | Parliamentary election | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-03-13 | election | in/manipur | Manipur Legislative Assembly (60 seats): the Election Commission lists the current term as 14 March 2022 to 13 March 2027. A general election is due before the term ends; the schedule has not been announced. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-03-14 | election | in/goa | Goa Legislative Assembly (40 seats): the Election Commission lists the current term as 15 March 2022 to 14 March 2027. A general election is due before the term ends; the schedule has not been announced. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-03-16 | election | in/punjab | Punjab Legislative Assembly (117 seats): the Election Commission lists the current term as 17 March 2022 to 16 March 2027. A general election is due before the term ends; the schedule has not been announced. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-03-27 | law-or-rule-date | it/lazio | ancient-sites-and-mysteries: Tuesday to Sunday, closed Mondays. 25 October 2026 to 27 March 2027: 9 am to 5 pm, last | Recheck the official source about 60 days before, and again on the date. |
+| 2027-03-28 | election | in/uttarakhand | Uttarakhand Legislative Assembly (70 seats): the Election Commission lists the current term as 29 March 2022 to 28 March 2027. A general election is due before the term ends; the schedule has not been announced. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-03-31 | law-or-rule-date | es/catalonia | local-law: ...night, for up to 7 nights at the same place; under-17s are exempt. Outside Barcelona city, from 1 April 2026 to 31 March 2027: EUR 4.50 at five-s | Recheck the official source about 60 days before, and again on the date. |
+| 2027-03-31 | law-or-rule-date | jp/nagasaki-prefecture | local-law: Nagasaki City accommodation tax, with no lower threshold: until 31 March 2027, JPY 100 a person a | Recheck the official source about 60 days before, and again on the date. |
 | 2027-04-01 | law-or-rule-date | gb/wales | local-law: ...about A$2.47, RBA rate of 30 October 2026), or 75p (about A$1.43) in hostels, bunkhouses and on tent pitches, from 1 April 2027 at the earliest. Ca | Recheck the official source about 60 days before, and again on the date. |
+| 2027-04-04 | election | ch/canton-of-zurich | Canton of Zurich: Kantonsrat (parliament) and Regierungsrat (government) elections, Sunday 4 April 2027, for 2027 to 2031. Candidate list deadlines 18 and 25 January 2027. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-04-10 | election | gm | National Assembly election (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-04-11 | election | ch/canton-of-basel-landschaft | Canton of Basel-Landschaft: Landrat (parliament) renewal election, Sunday 11 April 2027, per the Landeskanzlei media release on seat allocation to the districts. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-04-18 | election | de/saarland | Landtag election (state parliament), Saarland, Sunday 18 April 2027. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-04-18 | election | de/schleswig-holstein | Landtag election (state parliament), Schleswig-Holstein, Sunday 18 April 2027. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-04-18 | election | fi | Parliamentary election (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-04-18 | election | fr | Presidential election (first round) (date not yet confirmed) | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-04-25 | election | de/north-rhine-westphalia | Landtag election (state parliament), North Rhine-Westphalia, Sunday 25 April 2027, set by the state cabinet. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-04-30 | law-or-rule-date | nz/otago-region | zone-requirements: ...rack through Mount Aspiring and Fiordland national parks: DOC lists the Great Walks season as 1 November 2026 to 30 April 2027 and requires huts a | Recheck the official source about 60 days before, and again on the date. |
+| 2027-04-30 | law-or-rule-date | nz/southland-region | zone-requirements: Milford Track (Fiordland National Park): in the Great Walks season (1 November 2026 to 30 April 2027, last departure 28 | Recheck the official source about 60 days before, and again on the date. |
+| 2027-05-22 | election | in/uttar-pradesh | Uttar Pradesh Legislative Assembly (403 seats): the Election Commission lists the current term as 23 May 2022 to 22 May 2027. A general election is due before the term ends; the schedule has not been announced. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/andalusia | Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years. This community's regional parliament follows its own calendar. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/aragon | Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years. This community's regional parliament follows its own calendar. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/asturias | Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/balearic-islands | Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/basque-country | Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years. This community's regional parliament follows its own calendar. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/canary-islands | Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/cantabria | Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/castile-and-leon | Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years. This community's regional parliament follows its own calendar. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/castillala-mancha | Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/catalonia | Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years. This community's regional parliament follows its own calendar. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/ceuta | Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years (Ceuta and Melilla also elect their city assemblies that day). This community's regional parliament follows its own ca | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/community-of-madrid | Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/extremadura | Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years. This community's regional parliament follows its own calendar. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/galicia | Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years. This community's regional parliament follows its own calendar. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/la-rioja | Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/melilla | Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years (Ceuta and Melilla also elect their city assemblies that day). This community's regional parliament follows its own ca | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/navarre | Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/region-of-murcia | Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-23 | election | es/valencian-community | Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-05-30 | election | de/bremen | Bremische Buergerschaft (state parliament) election, Sunday 30 May 2027. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-06-07 | law-or-rule-date | jp/okinawa-prefecture | culture-and-protocol: ...ys a year for quiet and conservation (lunar 1 to 3 May and 1 to 3 October; next 9 to 11 November 2026, then 5 to 7 June 2027). From 2 November 2 | Recheck the official source about 60 days before, and again on the date. |
 | 2027-06 (month only) | law-or-rule-date | ch/canton-of-geneva | psychoactive-substances: ...main partner, sells cannabis to enrolled participants from a single outlet in Vernier. Planned from June 2023 to June 2027, with up to 1,080 p | Recheck the official source about 60 days before, and again on the date. |
 | 2027-06 (month only) | law-or-rule-date | ch/canton-of-vaud | psychoactive-substances: ...on a non-profit basis to enrolled participants through a specialised shop in Lausanne. Planned from July 2023 to June 2027, with up to 1,600 p | Recheck the official source about 60 days before, and again on the date. |
@@ -86,15 +124,25 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | 2027-07-01 | law-or-rule-date | gs | entry: Visitor permit needed before arrival (Entry Control Ordinance 2022): GBP 250 from 1 July 2026 and GBP 275 from 1 July 2027, valid 40 days. App | Recheck the official source about 60 days before, and again on the date. |
 | 2027-07-01 | law-or-rule-date | us/virginia | psychoactive-substances: ...y 2027 the first offence is a civil penalty of up to US$25 (about A$36 at RBA 30 Oct 2026, A$1 = USD 0.7040); from 1 July 2027 it rises to up to U | Recheck the official source about 60 days before, and again on the date. |
 | 2027-07-18 | election | ht | Presidential, Senate and Chamber of Deputies elections | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-08-03 | election | us/mississippi | Mississippi 2027 statewide primary election, 3 August 2027 (primary runoff 31 August). Offices: governor, lieutenant governor, secretary of state, auditor, attorney general, treasurer, commissioners of insurance and of agriculture and commerce, state senators  | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-08 (month only) | law-or-rule-date | bt | zone-requirements: ...checkpost), Gelephu (Aipoli Bridge) and Samdrup Jongkhar (Pinchinna checkpost) don't pay the SDF (2 June 2026 to August 2027). Going beyond the | Recheck the official source about 60 days before, and again on the date. |
 | 2027-08 (month only) | law-or-rule-date | bt/chukha-district | local-law: ...ne for 24 hours pay no Sustainable Development Fee (SDF) from 2 June 2026, a waiver to be enforced for a year until August 2027. SDF applies to any | Recheck the official source about 60 days before, and again on the date. |
 | 2027-08 (month only) | law-or-rule-date | bt/samdrup-jongkhar-district | local-law: ...ne for 24 hours pay no Sustainable Development Fee (SDF) from 2 June 2026, a waiver to be enforced for a year until August 2027. SDF applies to any | Recheck the official source about 60 days before, and again on the date. |
 | 2027-08 (month only) | law-or-rule-date | bt/samtse-district | local-law: ...ne for 24 hours pay no Sustainable Development Fee (SDF) from 2 June 2026, a waiver to be enforced for a year until August 2027. SDF applies to any | Recheck the official source about 60 days before, and again on the date. |
 | 2027-08 (month only) | law-or-rule-date | bt/sarpang-district | local-law: ...ne for 24 hours pay no Sustainable Development Fee (SDF) from 2 June 2026, a waiver to be enforced for a year until August 2027. SDF applies to any | Recheck the official source about 60 days before, and again on the date. |
 | 2027-08-31 | law-or-rule-date | bt | visa-preparation: Sustainable Development Fee, per adult per night (discount from USD 200, to 31 August 2027) | Recheck the official source about 60 days before, and again on the date. |
+| 2027-09-26 | election | de/lower-saxony | Niedersachsen Landtag election (state parliament), Sunday 26 September 2027. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-10-01 | law-or-rule-date | gd | zone-requirements: ...om 15 May 2025, USD 7.00 from 1 October 2026 (about A$9.94, RBA 30 Oct 2026, A$1 = USD 0.7040), and USD 10.00 from 1 October 2027. Pay through the Pu | Recheck the official source about 60 days before, and again on the date. |
+| 2027-10-05 | election | ca/manitoba | Manitoba's next set-date general election, 5 October 2027; the law allows an earlier election to be called. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-10-05 | election | ca/northwest-territories | Next Northwest Territories territorial general election, Tuesday 5 October 2027 (first Tuesday in October, four years after the last). | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-10-09 | election | us/louisiana | Louisiana gubernatorial primary (with the BESE general election), Saturday 9 October 2027. Early voting 25 September to 2 October. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-10-31 | law-or-rule-date | za/limpopo | local-law: Kruger National Park daily conservation fee, 1 November 2026 to 31 October 2027: international visi | Recheck the official source about 60 days before, and again on the date. |
 | 2027-10-31 | law-or-rule-date | za/mpumalanga | local-law: Kruger National Park daily conservation fee, 1 November 2026 to 31 October 2027: international visi | Recheck the official source about 60 days before, and again on the date. |
 | 2027-10-31 | law-or-rule-date | za/western-cape | local-law: Table Mountain National Park daily conservation fees, 1 November 2026 to 31 October 2027, international visi | Recheck the official source about 60 days before, and again on the date. |
+| 2027-11-02 | election | us/kentucky | Kentucky general election, Tuesday 2 November 2027: governor and lieutenant governor, plus the other statewide offices on the 2027 cycle. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-11-02 | election | us/mississippi | Mississippi general election, 2 November 2027 (general runoff 30 November): governor and the other statewide offices, state senators and representatives. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-11-02 | election | us/virginia | Virginia general election, Tuesday 2 November 2027: all 40 Senate of Virginia seats and all 100 House of Delegates seats. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
+| 2027-11-20 | election | us/louisiana | Louisiana gubernatorial general election, Saturday 20 November 2027. Early voting 5 to 13 November. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-12-31 | law-or-rule-date | us/new-mexico | psychoactive-substances: ...or depression, PTSD, substance use disorders and end-of-life care. The Act requires the program to be running by 31 December 2027; one Department of | Recheck the official source about 60 days before, and again on the date. |
 | 2028-10 (month only) | law-or-rule-date | ch/canton-of-basel-landschaft | psychoactive-substances: ...nabis to enrolled participants through specialised shops in Liestal and Allschwil. Planned from November 2023 to October 2028, with up to 3,950 p | Recheck the official source about 60 days before, and again on the date. |
 | date not announced | pending-event-date | ae | GITEX Global 2027 | organiser lists December 2027 in Dubai, no exact dates (checked 2026-11-01). Date not announced; check monthly from November 2026. |
@@ -131,7 +179,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-552 locations have specific watch items.
+623 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -167,7 +215,6 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | bg | Exercise normal safety precautions | fortnightly | snapshot evidence, watch item | eu-etias |
 | bh | Reconsider your need to travel | fortnightly | high advisory, snapshot evidence |  |
 | bi | Reconsider your need to travel | fortnightly | high advisory, snapshot evidence |  |
-| cg |  | fortnightly | legacy baseline, snapshot evidence |  |
 | ch | Exercise normal safety precautions | fortnightly | election, snapshot evidence, watch item | eu-etias; election 2026-11-29; election 2027-02-28 |
 | cn | Exercise a high degree of caution | fortnightly | confirm in writing, dated rule, snapshot evidence, watch item | cn-visa-waiver-2026; entry date 2026-12-31; 1 confirm-in-writing |
 | cu | Reconsider your need to travel | fortnightly | confirm in writing, high advisory, snapshot evidence | 5 confirm-in-writing |
@@ -228,8 +275,11 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ao | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | aq |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | ar | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| ar/corrientes-province | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | ar/mendoza-province | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| ar/san-luis-province | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | as |  | monthly | confirm in writing, snapshot evidence | 6 confirm-in-writing |
+| at/styria | Exercise normal safety precautions | monthly | dated rule | local-law date 2026-12-01 |
 | au |  | monthly | snapshot evidence |  |
 | au/nsw |  | monthly | snapshot evidence |  |
 | au/qld |  | monthly | snapshot evidence |  |
@@ -269,10 +319,10 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ca | Exercise normal safety precautions | monthly | confirm in writing, pending event, snapshot evidence | pending date: Toronto International Film Festival 2027; 2 confirm-in-writing |
 | ca/alberta | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | ca/british-columbia | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| ca/manitoba | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| ca/manitoba | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2027-10-05 |
 | ca/new-brunswick | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | ca/newfoundland-and-labrador | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| ca/northwest-territories | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| ca/northwest-territories | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2027-10-05 |
 | ca/nova-scotia | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | ca/nunavut | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | ca/ontario | Exercise normal safety precautions | monthly | snapshot evidence |  |
@@ -281,25 +331,33 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ca/saskatchewan | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | ca/yukon | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | cc |  | monthly | snapshot evidence |  |
-| ch/canton-of-basel-landschaft | Exercise normal safety precautions | monthly | dated rule | psychoactive-substances date 2028-10-28 |
+| cg |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
+| ch/canton-of-basel-landschaft | Exercise normal safety precautions | monthly | dated rule, election | psychoactive-substances date 2028-10-28; election 2027-04-11 |
 | ch/canton-of-basel-stadt | Exercise normal safety precautions | monthly | dated rule | psychoactive-substances date 2027-01-28 |
 | ch/canton-of-geneva | Exercise normal safety precautions | monthly | dated rule | psychoactive-substances date 2027-06-28 |
 | ch/canton-of-vaud | Exercise normal safety precautions | monthly | dated rule | psychoactive-substances date 2027-06-28 |
+| ch/canton-of-zurich | Exercise normal safety precautions | monthly | election | election 2027-04-04 |
 | ci | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | ck | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | cl | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
+| cl/araucania-region | Exercise a high degree of caution | monthly | dated rule | zone-requirements date 2026-12-15; zone-requirements date 2026-12-31 |
 | cl/rapa-nui | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cm | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | cn/beijing | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/chongqing | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/gansu | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/guangxi | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| cn/ningxia | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/shaanxi | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/shanghai | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/sichuan | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/tibet | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| cn/xinjiang | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/zhejiang | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | co | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| co/archipelago-of-san-andres-providencia-and-santa-catalina | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| co/atlantico-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| co/bogota | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | co/huila-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | co/magdalena-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cq |  | monthly | snapshot evidence |  |
@@ -311,14 +369,15 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | de/bavaria | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | de/berlin | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | de/brandenburg | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| de/bremen | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| de/bremen | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2027-05-30 |
 | de/hesse | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| de/lower-saxony | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| de/lower-saxony | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2027-09-26 |
 | de/mecklenburg-vorpommern | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| de/north-rhine-westphalia | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| de/north-rhine-westphalia | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2027-04-25 |
 | de/rhineland-palatinate | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | local-law date 2027-07-01 |
+| de/saarland | Exercise normal safety precautions | monthly | election | election 2027-04-18 |
 | de/saxony | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| de/schleswig-holstein | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| de/schleswig-holstein | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2027-04-18 |
 | de/thuringia | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | dj | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | dm |  | monthly | confirm in writing, snapshot evidence | 7 confirm-in-writing |
@@ -340,26 +399,40 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | eg/sharqia-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eg/sohag-governorate | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | eh |  | monthly | snapshot evidence |  |
-| es/andalusia | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| es/balearic-islands | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| es/canary-islands | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| es/cantabria | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| es/catalonia | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | local-law date 2027-03-31 |
-| es/melilla | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| es/andalusia | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2027-05-23 |
+| es/aragon | Exercise normal safety precautions | monthly | election | election 2027-05-23 |
+| es/asturias | Exercise normal safety precautions | monthly | election | election 2027-05-23 |
+| es/balearic-islands | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2027-05-23 |
+| es/basque-country | Exercise normal safety precautions | monthly | election | election 2027-05-23 |
+| es/canary-islands | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2027-05-23 |
+| es/cantabria | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2027-05-23 |
+| es/castile-and-leon | Exercise normal safety precautions | monthly | election | election 2027-05-23 |
+| es/castillala-mancha | Exercise normal safety precautions | monthly | election | election 2027-05-23 |
+| es/catalonia | Exercise normal safety precautions | monthly | dated rule, election, snapshot evidence | election 2027-05-23; local-law date 2027-03-31 |
+| es/ceuta | Exercise normal safety precautions | monthly | election | election 2027-05-23 |
+| es/community-of-madrid | Exercise normal safety precautions | monthly | election | election 2027-05-23 |
+| es/extremadura | Exercise normal safety precautions | monthly | election | election 2027-05-23 |
+| es/galicia | Exercise normal safety precautions | monthly | election | election 2027-05-23 |
+| es/la-rioja | Exercise normal safety precautions | monthly | election | election 2027-05-23 |
+| es/melilla | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2027-05-23 |
+| es/navarre | Exercise normal safety precautions | monthly | election | election 2027-05-23 |
+| es/region-of-murcia | Exercise normal safety precautions | monthly | election | election 2027-05-23 |
+| es/valencian-community | Exercise normal safety precautions | monthly | election | election 2027-05-23 |
 | fj | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2026-12-09; election 2026-12-24 |
 | fk |  | monthly | snapshot evidence |  |
 | fm | Exercise normal safety precautions | monthly | confirm in writing, election, snapshot evidence | election 2027-03-02; 5 confirm-in-writing |
 | fo |  | monthly | snapshot evidence |  |
+| fr/auvergne-rhone-alpes | Exercise a high degree of caution | monthly | dated rule | local-law date 2026-12-31 |
 | fr/brittany | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | fr/grand-est | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | fr/nouvelle-aquitaine | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ga | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | gb | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | gb/england | Exercise a high degree of caution | monthly | snapshot evidence |  |
-| gb/scotland | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| gb/scotland | Exercise a high degree of caution | monthly | dated rule, snapshot evidence | zone-requirements date 2027-02-28 |
 | gb/wales | Exercise a high degree of caution | monthly | dated rule, snapshot evidence | local-law date 2027-04-01 |
 | gb__england |  | monthly | pending event | pending date: WOMAD 2027 (Neston Park) |
-| gd |  | monthly | election, snapshot evidence | election 2026-11-05 |
+| gd |  | monthly | dated rule, snapshot evidence | zone-requirements date 2027-10-01 |
 | ge | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | gf |  | monthly | snapshot evidence |  |
 | gg |  | monthly | snapshot evidence |  |
@@ -388,7 +461,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | id | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | id/bali | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | id/klungkung-regency | Exercise a high degree of caution | monthly | snapshot evidence |  |
-| id/yogyakarta | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| id/yogyakarta | Exercise a high degree of caution | monthly | dated rule, snapshot evidence | local-law date 2026-11-28 |
 | ie | Exercise normal safety precautions | monthly | pending event, snapshot evidence | pending date: Lisdoonvarna Matchmaking Festival 2027 |
 | ie/county-kerry | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | ie/county-meath | Exercise normal safety precautions | monthly | snapshot evidence |  |
@@ -397,24 +470,33 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | in | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | in/arunachal-pradesh | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | in/bihar | Exercise a high degree of caution | monthly | snapshot evidence |  |
-| in/goa | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| in/delhi | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| in/goa | Exercise a high degree of caution | monthly | election, snapshot evidence | election 2027-03-14 |
 | in/gujarat | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | in/jammu-and-kashmir | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| in/karnataka | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| in/madhya-pradesh | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | in/maharashtra | Exercise a high degree of caution | monthly | snapshot evidence |  |
-| in/manipur | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| in/manipur | Exercise a high degree of caution | monthly | election, snapshot evidence | election 2027-03-13 |
 | in/mizoram | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | in/nagaland | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| in/punjab | Exercise a high degree of caution | monthly | election | election 2027-03-16 |
 | in/rajasthan | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | in/sikkim | Exercise a high degree of caution | monthly | snapshot evidence |  |
-| in/uttarakhand | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| in/tamil-nadu | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| in/telangana | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| in/uttar-pradesh | Exercise a high degree of caution | monthly | election, snapshot evidence | election 2027-05-22 |
+| in/uttarakhand | Exercise a high degree of caution | monthly | election, snapshot evidence | election 2027-03-28 |
 | in/west-bengal | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | in__nagaland |  | monthly | pending event | pending date: Hornbill Festival 2027 (usually 1 to 10 Dec) |
 | io |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
-| it/campania | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| it/abruzzo | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| it/campania | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | local-law date 2026-11-16 |
 | it/emilia-romagna | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | it/lazio | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | ancient-sites-and-mysteries date 2027-03-27 |
 | it/liguria | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | it/lombardy | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| it/molise | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | it/sardinia | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | it/sicily | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | it/trentino-south-tyrol | Exercise normal safety precautions | monthly | snapshot evidence |  |
@@ -427,15 +509,18 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | jp/aomori-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/fukuoka-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/gifu-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/hiroshima-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/hokkaido | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/iwate-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/kochi-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/kyoto-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/miyagi-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| jp/nagasaki-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/nagasaki-prefecture | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | local-law date 2027-03-31 |
 | jp/nara-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/okinawa-prefecture | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | ancient-sites-and-mysteries date 2027-01-05; culture-and-protocol date 2026-11-11; culture-and-protocol date 2027-06-07 |
 | jp/osaka-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/saitama-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| jp/shiga-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/shizuoka-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/tokushima-prefecture | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | jp/tokyo | Exercise normal safety precautions | monthly | snapshot evidence |  |
@@ -445,16 +530,23 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ke | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | kg | Exercise a high degree of caution | monthly | confirm in writing, election, snapshot evidence | election 2027-01-27; 2 confirm-in-writing |
 | kh | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| kh/banteay-meanchey-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| kh/kampong-thom-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| kh/preah-vihear-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | kh/siem-reap-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | ki |  | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | km |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
-| kn |  | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
+| kn |  | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
 | kr/north-gyeongsang | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| kr/north-jeolla | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | kr/seoul | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| kr/south-chungcheong | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | ky |  | monthly | snapshot evidence |  |
 | kz | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
+| kz/jambyl-region | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | la | Exercise a high degree of caution | monthly | confirm in writing, dated rule, snapshot evidence | ancient-sites-and-mysteries date 2026-11-15; 5 confirm-in-writing |
 | la/champasak-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| la/xiangkhouang-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | lc |  | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
 | lk | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | lk/central-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -468,7 +560,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | me | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | mf |  | monthly | snapshot evidence |  |
 | mg | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
-| mh | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
+| mh | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | mk | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | mn | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | mo | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
@@ -482,19 +574,34 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | mv | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mw | Exercise a high degree of caution | monthly | confirm in writing, pending event, snapshot evidence | pending date: Lake of Stars 2027; pending date: Lake of Stars festival 2027; 4 confirm-in-writing |
 | mx | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/baja-california | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/baja-california-sur | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/campeche | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/chiapas | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/chihuahua | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/coahuila | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/colima | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/durango | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/guanajuato | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/guerrero | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/hidalgo | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/jalisco | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/mexico-city | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/michoacan | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/morelos | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/nayarit | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/nuevo-leon | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/oaxaca | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/puebla | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/queretaro | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/quintana-roo | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/san-luis-potosi | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/sinaloa | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/sonora | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/state-of-mexico | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/tabasco | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/tamaulipas | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| mx/tlaxcala | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/veracruz | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/yucatan | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | mx/zacatecas | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -516,14 +623,18 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | np/sudurpashchim-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | nr |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | nu | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 9 confirm-in-writing |
-| nz | Exercise normal safety precautions | monthly | election, snapshot evidence | election 2026-11-07 |
+| nz | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| nz/otago-region | Exercise normal safety precautions | monthly | dated rule | zone-requirements date 2027-04-30 |
+| nz/southland-region | Exercise normal safety precautions | monthly | dated rule | zone-requirements date 2027-04-30 |
 | pa | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| pa/chiriqui-province | Exercise a high degree of caution | monthly | confirm in writing | 1 confirm-in-writing |
+| pa/veraguas-province | Exercise a high degree of caution | monthly | confirm in writing | 1 confirm-in-writing |
 | pe | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pe/ancash-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pe/ica-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pe/la-libertad-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pe/lima-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
-| pf | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
+| pf | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
 | pg | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | pg/east-sepik-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | pg/eastern-highlands-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -570,6 +681,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | th/kanchanaburi | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | th/phang-nga | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | th/phra-nakhon-si-ayutthaya | Exercise a high degree of caution | monthly | snapshot evidence |  |
+| th/phuket | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | th/satun | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | th/sukhothai | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | th/surat-thani | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -628,7 +740,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | us/alaska | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/arizona | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/arkansas | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| us/california | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | ancient-sites-and-mysteries date 2026-11-08 |
+| us/california | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/colorado | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/connecticut | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/delaware | Exercise normal safety precautions | monthly | snapshot evidence |  |
@@ -640,9 +752,14 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | us/illinois | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/indiana | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/iowa | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| us/kansas | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/kauai-county | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| us/kentucky | Exercise normal safety precautions | monthly | election | election 2027-11-02 |
+| us/louisiana | Exercise normal safety precautions | monthly | election | election 2027-10-09; election 2027-11-20 |
+| us/maine | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/massachusetts | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/michigan | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| us/mississippi | Exercise normal safety precautions | monthly | election | election 2027-08-03; election 2027-11-02 |
 | us/nebraska | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/nevada | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/new-hampshire | Exercise normal safety precautions | monthly | snapshot evidence |  |
@@ -661,13 +778,14 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | us/tennessee | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/texas | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/utah | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| us/virginia | Exercise normal safety precautions | monthly | dated rule | psychoactive-substances date 2027-07-01 |
+| us/virginia | Exercise normal safety precautions | monthly | dated rule, election | psychoactive-substances date 2027-07-01; election 2027-11-02; zone-requirements date 2026-11-28 |
 | us/washington | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/west-virginia | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/wisconsin | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/wyoming | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us__california |  | monthly | pending event | pending date: Coachella 2027 |
 | uy | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
+| uy/montevideo-department | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | uz | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | va |  | monthly | snapshot evidence |  |
 | vc |  | monthly | confirm in writing, snapshot evidence | 8 confirm-in-writing |
@@ -675,6 +793,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | vi |  | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | vn | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | vn/da-nang | Exercise normal safety precautions | monthly | snapshot evidence |  |
+| vn/hanoi | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | vn/hue | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | vu | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
 | wf |  | monthly | confirm in writing, snapshot evidence | 7 confirm-in-writing |

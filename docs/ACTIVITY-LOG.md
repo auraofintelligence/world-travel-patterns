@@ -1671,3 +1671,10 @@ For Claude.
 ## 5 November 2026, 02:13 AEST
 - Batch 13: 42 states and regions. Culture cycles: jp (Aomori, Akita, Miyagi, Tokushima, Kyoto, Fukuoka, Hokkaido, Nagasaki, Gifu, Yamagata, Kochi, Osaka, Saitama, Toyama, Tokyo), mx/oaxaca, mx/guanajuato, ar/mendoza-province, cn/guangxi, fr/grand-est. Affection and relationships: 12 northern Nigerian states and id/aceh (Smartraveller). Substances: id/aceh; cannabis pilot trials in 8 Swiss cantons (BAG). Added us/pueblo-of-zuni (Q2884903) with culture and protocol.
 - Most festival dates are from search-index snapshots of organisers' or tourism bodies' pages; marked so in each source.
+
+## 2026-11-11 13:04 AEST, Grok: tidy-up (stray page, status evidence, leftover holidays)
+
+- Deleted `home.html`, a 108 KB saved copy of Mexico's Orden Jurídico Nacional site that was committed with the 8 November German Länder batch. It was not part of this project.
+- `scripts/status_report.py` now maps long `evidence` notes to short tokens (official, signal, operational, legacy-baseline, community) so the Ancient sites Evidence column shows counts, not concatenated source notes. Added `tests/test_status_report.py`.
+- Refreshed the hand-written Not done numbers in `docs/STATUS.md` so they match the generated table (law stacks, confirm-in-writing, state-level coverage, year ahead, culture and protocol, visa preparation, local law, substances, permit zones, drone coverage, ancient sites).
+- Merged leftover batch-14 research without replacing later work: Xinjiang Corban holiday and Ningxia Eid al-Fitr and Corban holidays (both 2026 notices; 2027 not yet published), and Hiroshima's 6 August Peace Memorial Ceremony beside the existing Kangensai record. The ceremony source is a search-index snapshot of the city page.

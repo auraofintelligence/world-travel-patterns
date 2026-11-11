@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05",
+ "generated": "2026-11-11",
  "note": "Built by scripts/recheck_plan.py from repo data only. Read-only plan for future automations; never a reason to skip an official recheck.",
  "global": [
   {
@@ -193,40 +193,6 @@
  ],
  "triggers": [
   {
-   "date": "2026-11-05",
-   "kind": "election",
-   "places": [
-    "gd"
-   ],
-   "what": "House of Representatives election (snap)",
-   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
-   "source": "https://www.electionguide.org/elections/type/upcoming/",
-   "cadence": "monthly; weekly in the final 30 days"
-  },
-  {
-   "date": "2026-11-07",
-   "kind": "election",
-   "places": [
-    "nz"
-   ],
-   "what": "General election (House of Representatives)",
-   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
-   "source": "https://www.electionguide.org/elections/type/upcoming/",
-   "cadence": "monthly; weekly in the final 30 days"
-  },
-  {
-   "date": "2026-11-08",
-   "date_exact": true,
-   "kind": "law-or-rule-date",
-   "places": [
-    "us/california"
-   ],
-   "what": "ancient-sites-and-mysteries: Forest Order 14-24-08 runs to 8 November 2026; recheck for a rene",
-   "check": "Recheck the official source about 60 days before, and again on the date.",
-   "source": "",
-   "cadence": "monthly; weekly in the final 60 days"
-  },
-  {
    "date": "2026-11-11",
    "date_exact": true,
    "kind": "law-or-rule-date",
@@ -286,6 +252,42 @@
    "cadence": "monthly; weekly in the final 60 days"
   },
   {
+   "date": "2026-11-16",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "it/campania"
+   ],
+   "what": "local-law: Naples has a mayoral order for its nightlife (movida) areas, in force from 16 October to 16 November 2026. Areas include the",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2026-11-28",
+   "date_exact": false,
+   "kind": "law-or-rule-date",
+   "places": [
+    "id/yogyakarta"
+   ],
+   "what": "local-law: Reports of a full pedestrian (no fuel-powered vehicles) plan for Malioboro from November 2026 came only from news",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2026-11-28",
+   "date_exact": false,
+   "kind": "law-or-rule-date",
+   "places": [
+    "us/virginia"
+   ],
+   "what": "zone-requirements: ...not guarantee parking. The park says the main trailhead lot was closed from 4 May 2026 for work due to finish by November 2026; overflow lots are",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
    "date": "2026-11-29",
    "kind": "election",
    "places": [
@@ -306,6 +308,18 @@
    "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
    "source": "https://www.electionguide.org/elections/type/upcoming/",
    "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2026-12-01",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "at/styria"
+   ],
+   "what": "local-law: Styria's overnight levy (Nächtigungsabgabe) is set by state ordinance LGBl. 75/2026 for stays from 1 December 2026: EUR 1.70 per perso",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
   },
   {
    "date": "2026-12-02",
@@ -364,6 +378,18 @@
    "cadence": "monthly; weekly in the final 30 days"
   },
   {
+   "date": "2026-12-15",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "cl/araucania-region"
+   ],
+   "what": "zone-requirements: Huerquehue National Park: the Quinchol and San Sebastián trails are closed until 15 December 2026 for visitor safety,",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
    "date": "2026-12-22",
    "kind": "election",
    "places": [
@@ -414,9 +440,33 @@
    "date_exact": true,
    "kind": "law-or-rule-date",
    "places": [
+    "cl/araucania-region"
+   ],
+   "what": "zone-requirements: ...he trail to the Pichillancahue glacier is not open for excursions from the park's northern sector (Araucanía) until 31 December 2026, per CONAF's notice",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2026-12-31",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
     "cn"
    ],
    "what": "entry: ...ordinary Australian passports, up to 30 days for business, tourism, visiting family and friends, or transit, until 31 December 2026.",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2026-12-31",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "fr/auvergne-rhone-alpes"
+   ],
+   "what": "local-law: ...tents; La Balme, 50 tents) and outside the red zones. Arrêté DDT-2026-0474 of the Haute-Savoie prefect, valid to 31 December 2026.",
    "check": "Recheck the official source about 60 days before, and again on the date.",
    "source": "",
    "cadence": "monthly; weekly in the final 60 days"
@@ -575,6 +625,18 @@
   },
   {
    "date": "2027-02-28",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "gb/scotland"
+   ],
+   "what": "zone-requirements: ...Authority's own campsites at Loch Chon, Loch Achray, Inchcailloch and Sallochy are closed from 1 October 2026 to 28 February 2027. Outside the Campin",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-02-28",
    "kind": "election",
    "places": [
     "sv"
@@ -607,6 +669,39 @@
    "cadence": "monthly; weekly in the final 30 days"
   },
   {
+   "date": "2027-03-13",
+   "kind": "election",
+   "places": [
+    "in/manipur"
+   ],
+   "what": "Manipur Legislative Assembly (60 seats): the Election Commission lists the current term as 14 March 2022 to 13 March 2027. A general election is due before the term ends; the schedule has not been announced.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://eci.gov.in/elections/term-of-houses-app/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-03-14",
+   "kind": "election",
+   "places": [
+    "in/goa"
+   ],
+   "what": "Goa Legislative Assembly (40 seats): the Election Commission lists the current term as 15 March 2022 to 14 March 2027. A general election is due before the term ends; the schedule has not been announced.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://eci.gov.in/elections/term-of-houses-app/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-03-16",
+   "kind": "election",
+   "places": [
+    "in/punjab"
+   ],
+   "what": "Punjab Legislative Assembly (117 seats): the Election Commission lists the current term as 17 March 2022 to 16 March 2027. A general election is due before the term ends; the schedule has not been announced.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://eci.gov.in/elections/term-of-houses-app/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
    "date": "2027-03-27",
    "date_exact": true,
    "kind": "law-or-rule-date",
@@ -619,6 +714,17 @@
    "cadence": "monthly; weekly in the final 60 days"
   },
   {
+   "date": "2027-03-28",
+   "kind": "election",
+   "places": [
+    "in/uttarakhand"
+   ],
+   "what": "Uttarakhand Legislative Assembly (70 seats): the Election Commission lists the current term as 29 March 2022 to 28 March 2027. A general election is due before the term ends; the schedule has not been announced.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://eci.gov.in/elections/term-of-houses-app/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
    "date": "2027-03-31",
    "date_exact": true,
    "kind": "law-or-rule-date",
@@ -626,6 +732,18 @@
     "es/catalonia"
    ],
    "what": "local-law: ...night, for up to 7 nights at the same place; under-17s are exempt. Outside Barcelona city, from 1 April 2026 to 31 March 2027: EUR 4.50 at five-s",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-03-31",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "jp/nagasaki-prefecture"
+   ],
+   "what": "local-law: Nagasaki City accommodation tax, with no lower threshold: until 31 March 2027, JPY 100 a person a",
    "check": "Recheck the official source about 60 days before, and again on the date.",
    "source": "",
    "cadence": "monthly; weekly in the final 60 days"
@@ -643,6 +761,17 @@
    "cadence": "monthly; weekly in the final 60 days"
   },
   {
+   "date": "2027-04-04",
+   "kind": "election",
+   "places": [
+    "ch/canton-of-zurich"
+   ],
+   "what": "Canton of Zurich: Kantonsrat (parliament) and Regierungsrat (government) elections, Sunday 4 April 2027, for 2027 to 2031. Candidate list deadlines 18 and 25 January 2027.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2026/07/kantonsrats-und-regierungsratswahlen-2027-fristen-fuer-wahlvorschlaege.html",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
    "date": "2027-04-10",
    "kind": "election",
    "places": [
@@ -651,6 +780,39 @@
    "what": "National Assembly election (date not yet confirmed)",
    "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
    "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-04-11",
+   "kind": "election",
+   "places": [
+    "ch/canton-of-basel-landschaft"
+   ],
+   "what": "Canton of Basel-Landschaft: Landrat (parliament) renewal election, Sunday 11 April 2027, per the Landeskanzlei media release on seat allocation to the districts.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.baselland.ch/politik-und-behorden/besondere-behoerden/landeskanzlei/medienmitteilungen/gesamterneuerungswahlen-des-landrats-vom-11-april-2027-mandatszuteilung-an-die-wahlkreise",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-04-18",
+   "kind": "election",
+   "places": [
+    "de/saarland"
+   ],
+   "what": "Landtag election (state parliament), Saarland, Sunday 18 April 2027.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://bundeswahlleiterin.de/service/wahltermine.html",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-04-18",
+   "kind": "election",
+   "places": [
+    "de/schleswig-holstein"
+   ],
+   "what": "Landtag election (state parliament), Schleswig-Holstein, Sunday 18 April 2027.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.schleswig-holstein.de/DE/landesregierung/themen/demokratie-gesellschaft/wahlen/Termine",
    "cadence": "monthly; weekly in the final 30 days"
   },
   {
@@ -673,6 +835,272 @@
    "what": "Presidential election (first round) (date not yet confirmed)",
    "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
    "source": "https://www.electionguide.org/elections/type/upcoming/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-04-25",
+   "kind": "election",
+   "places": [
+    "de/north-rhine-westphalia"
+   ],
+   "what": "Landtag election (state parliament), North Rhine-Westphalia, Sunday 25 April 2027, set by the state cabinet.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.land.nrw/pressemitteilung/kabinett-setzt-landtagswahl-2027-auf-den-25-april-fest",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-04-30",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "nz/otago-region"
+   ],
+   "what": "zone-requirements: ...rack through Mount Aspiring and Fiordland national parks: DOC lists the Great Walks season as 1 November 2026 to 30 April 2027 and requires huts a",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-04-30",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "nz/southland-region"
+   ],
+   "what": "zone-requirements: Milford Track (Fiordland National Park): in the Great Walks season (1 November 2026 to 30 April 2027, last departure 28",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-05-22",
+   "kind": "election",
+   "places": [
+    "in/uttar-pradesh"
+   ],
+   "what": "Uttar Pradesh Legislative Assembly (403 seats): the Election Commission lists the current term as 23 May 2022 to 22 May 2027. A general election is due before the term ends; the schedule has not been announced.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://eci.gov.in/elections/term-of-houses-app/",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/andalusia"
+   ],
+   "what": "Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years. This community's regional parliament follows its own calendar.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/aragon"
+   ],
+   "what": "Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years. This community's regional parliament follows its own calendar.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/asturias"
+   ],
+   "what": "Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an earlier election.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/balearic-islands"
+   ],
+   "what": "Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an earlier election.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/basque-country"
+   ],
+   "what": "Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years. This community's regional parliament follows its own calendar.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/canary-islands"
+   ],
+   "what": "Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an earlier election.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/cantabria"
+   ],
+   "what": "Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an earlier election.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/castile-and-leon"
+   ],
+   "what": "Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years. This community's regional parliament follows its own calendar.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/castillala-mancha"
+   ],
+   "what": "Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an earlier election.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/catalonia"
+   ],
+   "what": "Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years. This community's regional parliament follows its own calendar.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/ceuta"
+   ],
+   "what": "Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years (Ceuta and Melilla also elect their city assemblies that day). This community's regional parliament follows its own calendar.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/community-of-madrid"
+   ],
+   "what": "Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an earlier election.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/extremadura"
+   ],
+   "what": "Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years. This community's regional parliament follows its own calendar.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/galicia"
+   ],
+   "what": "Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years. This community's regional parliament follows its own calendar.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/la-rioja"
+   ],
+   "what": "Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an earlier election.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/melilla"
+   ],
+   "what": "Spanish municipal elections (all town and city councils), Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years (Ceuta and Melilla also elect their city assemblies that day). This community's regional parliament follows its own calendar.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/navarre"
+   ],
+   "what": "Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an earlier election.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/region-of-murcia"
+   ],
+   "what": "Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an earlier election.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-23",
+   "kind": "election",
+   "places": [
+    "es/valencian-community"
+   ],
+   "what": "Spanish municipal elections (all town and city councils) and elections to this community's regional parliament, Sunday 23 May 2027: the law sets them for the fourth Sunday of May every four years, unless a regional president with the power to dissolve calls an earlier election.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-05-30",
+   "kind": "election",
+   "places": [
+    "de/bremen"
+   ],
+   "what": "Bremische Buergerschaft (state parliament) election, Sunday 30 May 2027.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://bundeswahlleiterin.de/service/wahltermine.html",
    "cadence": "monthly; weekly in the final 30 days"
   },
   {
@@ -759,6 +1187,17 @@
    "cadence": "monthly; weekly in the final 30 days"
   },
   {
+   "date": "2027-08-03",
+   "kind": "election",
+   "places": [
+    "us/mississippi"
+   ],
+   "what": "Mississippi 2027 statewide primary election, 3 August 2027 (primary runoff 31 August). Offices: governor, lieutenant governor, secretary of state, auditor, attorney general, treasurer, commissioners of insurance and of agriculture and commerce, state senators and representatives.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.sos.ms.gov/sites/default/files/publications/Election%20Calendar_2026.pdf",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
    "date": "2027-08-28",
    "date_exact": false,
    "kind": "law-or-rule-date",
@@ -831,6 +1270,62 @@
    "cadence": "monthly; weekly in the final 60 days"
   },
   {
+   "date": "2027-09-26",
+   "kind": "election",
+   "places": [
+    "de/lower-saxony"
+   ],
+   "what": "Niedersachsen Landtag election (state parliament), Sunday 26 September 2027.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://bundeswahlleiterin.de/service/wahltermine.html",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-10-01",
+   "date_exact": true,
+   "kind": "law-or-rule-date",
+   "places": [
+    "gd"
+   ],
+   "what": "zone-requirements: ...om 15 May 2025, USD 7.00 from 1 October 2026 (about A$9.94, RBA 30 Oct 2026, A$1 = USD 0.7040), and USD 10.00 from 1 October 2027. Pay through the Pu",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-10-05",
+   "kind": "election",
+   "places": [
+    "ca/manitoba"
+   ],
+   "what": "Manitoba's next set-date general election, 5 October 2027; the law allows an earlier election to be called.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionsmanitoba.ca/en/Voting",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-10-05",
+   "kind": "election",
+   "places": [
+    "ca/northwest-territories"
+   ],
+   "what": "Next Northwest Territories territorial general election, Tuesday 5 October 2027 (first Tuesday in October, four years after the last).",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.electionsnwt.ca/en/about-elections-nwt",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-10-09",
+   "kind": "election",
+   "places": [
+    "us/louisiana"
+   ],
+   "what": "Louisiana gubernatorial primary (with the BESE general election), Saturday 9 October 2027. Early voting 25 September to 2 October.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.sos.la.gov/media/byfpyc5f/elections-calendar-2027.pdf",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
    "date": "2027-10-31",
    "date_exact": true,
    "kind": "law-or-rule-date",
@@ -865,6 +1360,50 @@
    "check": "Recheck the official source about 60 days before, and again on the date.",
    "source": "",
    "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2027-11-02",
+   "kind": "election",
+   "places": [
+    "us/kentucky"
+   ],
+   "what": "Kentucky general election, Tuesday 2 November 2027: governor and lieutenant governor, plus the other statewide offices on the 2027 cycle.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://elect.ky.gov/Resources/Documents/2027%20Election%20Calendar.pdf",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-11-02",
+   "kind": "election",
+   "places": [
+    "us/mississippi"
+   ],
+   "what": "Mississippi general election, 2 November 2027 (general runoff 30 November): governor and the other statewide offices, state senators and representatives.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.sos.ms.gov/sites/default/files/publications/Election%20Calendar_2026.pdf",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-11-02",
+   "kind": "election",
+   "places": [
+    "us/virginia"
+   ],
+   "what": "Virginia general election, Tuesday 2 November 2027: all 40 Senate of Virginia seats and all 100 House of Delegates seats.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar_2026_2030.pdf",
+   "cadence": "monthly; weekly in the final 30 days"
+  },
+  {
+   "date": "2027-11-20",
+   "kind": "election",
+   "places": [
+    "us/louisiana"
+   ],
+   "what": "Louisiana gubernatorial general election, Saturday 20 November 2027. Early voting 5 to 13 November.",
+   "check": "Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission.",
+   "source": "https://www.sos.la.gov/media/byfpyc5f/elections-calendar-2027.pdf",
+   "cadence": "monthly; weekly in the final 30 days"
   },
   {
    "date": "2027-12-31",
@@ -1625,17 +2164,6 @@
    "cadence": "fortnightly",
    "reasons": [
     "high advisory",
-    "snapshot evidence"
-   ],
-   "items": []
-  },
-  {
-   "place": "cg",
-   "name": "Republic of the Congo",
-   "advisory": "",
-   "cadence": "fortnightly",
-   "reasons": [
-    "legacy baseline",
     "snapshot evidence"
    ],
    "items": []
@@ -2424,8 +2952,28 @@
    "items": []
   },
   {
+   "place": "ar/corrientes-province",
+   "name": "Corrientes Province",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "ar/mendoza-province",
    "name": "Mendoza Province",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "ar/san-luis-province",
+   "name": "San Luis Province",
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
@@ -2444,6 +2992,18 @@
    ],
    "items": [
     "6 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "at/styria",
+   "name": "Styria",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule"
+   ],
+   "items": [
+    "local-law date 2026-12-01"
    ]
   },
   {
@@ -2875,9 +3435,12 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
+    "election",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "election 2027-10-05"
+   ]
   },
   {
    "place": "ca/new-brunswick",
@@ -2905,9 +3468,12 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
+    "election",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "election 2027-10-05"
+   ]
   },
   {
    "place": "ca/nova-scotia",
@@ -2990,15 +3556,30 @@
    "items": []
   },
   {
+   "place": "cg",
+   "name": "Republic of the Congo",
+   "advisory": "",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing",
+    "snapshot evidence"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
    "place": "ch/canton-of-basel-landschaft",
    "name": "Canton of Basel-Landschaft",
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
-    "dated rule"
+    "dated rule",
+    "election"
    ],
    "items": [
-    "psychoactive-substances date 2028-10-28"
+    "psychoactive-substances date 2028-10-28",
+    "election 2027-04-11"
    ]
   },
   {
@@ -3038,6 +3619,18 @@
    ]
   },
   {
+   "place": "ch/canton-of-zurich",
+   "name": "Canton of Zurich",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-04-04"
+   ]
+  },
+  {
    "place": "ci",
    "name": "Côte d'Ivoire",
    "advisory": "Exercise a high degree of caution",
@@ -3074,6 +3667,19 @@
    ],
    "items": [
     "2 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "cl/araucania-region",
+   "name": "Araucanía Region",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule"
+   ],
+   "items": [
+    "zone-requirements date 2026-12-15",
+    "zone-requirements date 2026-12-31"
    ]
   },
   {
@@ -3140,6 +3746,16 @@
    "items": []
   },
   {
+   "place": "cn/ningxia",
+   "name": "Ningxia",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "cn/shaanxi",
    "name": "Shaanxi",
    "advisory": "Exercise a high degree of caution",
@@ -3180,6 +3796,16 @@
    "items": []
   },
   {
+   "place": "cn/xinjiang",
+   "name": "Xinjiang",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "cn/zhejiang",
    "name": "Zhejiang",
    "advisory": "Exercise a high degree of caution",
@@ -3192,6 +3818,36 @@
   {
    "place": "co",
    "name": "Colombia",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "co/archipelago-of-san-andres-providencia-and-santa-catalina",
+   "name": "Archipelago of San Andrés, Providencia and Santa Catalina",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "co/atlantico-department",
+   "name": "Atlántico Department",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "co/bogota",
+   "name": "Bogotá",
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
@@ -3320,9 +3976,12 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
+    "election",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "election 2027-05-30"
+   ]
   },
   {
    "place": "de/hesse",
@@ -3340,9 +3999,12 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
+    "election",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "election 2027-09-26"
+   ]
   },
   {
    "place": "de/mecklenburg-vorpommern",
@@ -3360,9 +4022,12 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
+    "election",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "election 2027-04-25"
+   ]
   },
   {
    "place": "de/rhineland-palatinate",
@@ -3375,6 +4040,18 @@
    ],
    "items": [
     "local-law date 2027-07-01"
+   ]
+  },
+  {
+   "place": "de/saarland",
+   "name": "Saarland",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-04-18"
    ]
   },
   {
@@ -3393,9 +4070,12 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
+    "election",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "election 2027-04-18"
+   ]
   },
   {
    "place": "de/thuringia",
@@ -3619,9 +4299,36 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
+    "election",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "election 2027-05-23"
+   ]
+  },
+  {
+   "place": "es/aragon",
+   "name": "Aragon",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-05-23"
+   ]
+  },
+  {
+   "place": "es/asturias",
+   "name": "Asturias",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-05-23"
+   ]
   },
   {
    "place": "es/balearic-islands",
@@ -3629,9 +4336,24 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
+    "election",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "election 2027-05-23"
+   ]
+  },
+  {
+   "place": "es/basque-country",
+   "name": "Basque Country",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-05-23"
+   ]
   },
   {
    "place": "es/canary-islands",
@@ -3639,9 +4361,12 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
+    "election",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "election 2027-05-23"
+   ]
   },
   {
    "place": "es/cantabria",
@@ -3649,9 +4374,36 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
+    "election",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "election 2027-05-23"
+   ]
+  },
+  {
+   "place": "es/castile-and-leon",
+   "name": "Castile and León",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-05-23"
+   ]
+  },
+  {
+   "place": "es/castillala-mancha",
+   "name": "Castilla–La Mancha",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-05-23"
+   ]
   },
   {
    "place": "es/catalonia",
@@ -3660,10 +4412,72 @@
    "cadence": "monthly",
    "reasons": [
     "dated rule",
+    "election",
     "snapshot evidence"
    ],
    "items": [
+    "election 2027-05-23",
     "local-law date 2027-03-31"
+   ]
+  },
+  {
+   "place": "es/ceuta",
+   "name": "Ceuta",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-05-23"
+   ]
+  },
+  {
+   "place": "es/community-of-madrid",
+   "name": "Community of Madrid",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-05-23"
+   ]
+  },
+  {
+   "place": "es/extremadura",
+   "name": "Extremadura",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-05-23"
+   ]
+  },
+  {
+   "place": "es/galicia",
+   "name": "Galicia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-05-23"
+   ]
+  },
+  {
+   "place": "es/la-rioja",
+   "name": "La Rioja",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-05-23"
    ]
   },
   {
@@ -3672,9 +4486,48 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
+    "election",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "election 2027-05-23"
+   ]
+  },
+  {
+   "place": "es/navarre",
+   "name": "Navarre",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-05-23"
+   ]
+  },
+  {
+   "place": "es/region-of-murcia",
+   "name": "Region of Murcia",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-05-23"
+   ]
+  },
+  {
+   "place": "es/valencian-community",
+   "name": "Valencian Community",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-05-23"
+   ]
   },
   {
    "place": "fj",
@@ -3724,6 +4577,18 @@
     "snapshot evidence"
    ],
    "items": []
+  },
+  {
+   "place": "fr/auvergne-rhone-alpes",
+   "name": "Auvergne-Rhône-Alpes",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule"
+   ],
+   "items": [
+    "local-law date 2026-12-31"
+   ]
   },
   {
    "place": "fr/brittany",
@@ -3794,9 +4659,12 @@
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
+    "dated rule",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "zone-requirements date 2027-02-28"
+   ]
   },
   {
    "place": "gb/wales",
@@ -3829,11 +4697,11 @@
    "advisory": "",
    "cadence": "monthly",
    "reasons": [
-    "election",
+    "dated rule",
     "snapshot evidence"
    ],
    "items": [
-    "election 2026-11-05"
+    "zone-requirements date 2027-10-01"
    ]
   },
   {
@@ -4145,9 +5013,12 @@
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
+    "dated rule",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "local-law date 2026-11-28"
+   ]
   },
   {
    "place": "ie",
@@ -4236,14 +5107,27 @@
    "items": []
   },
   {
-   "place": "in/goa",
-   "name": "Goa",
+   "place": "in/delhi",
+   "name": "Delhi",
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
     "snapshot evidence"
    ],
    "items": []
+  },
+  {
+   "place": "in/goa",
+   "name": "Goa",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "election",
+    "snapshot evidence"
+   ],
+   "items": [
+    "election 2027-03-14"
+   ]
   },
   {
    "place": "in/gujarat",
@@ -4258,6 +5142,26 @@
   {
    "place": "in/jammu-and-kashmir",
    "name": "Jammu and Kashmir",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "in/karnataka",
+   "name": "Karnataka",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "in/madhya-pradesh",
+   "name": "Madhya Pradesh",
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
@@ -4281,9 +5185,12 @@
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
+    "election",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "election 2027-03-13"
+   ]
   },
   {
    "place": "in/mizoram",
@@ -4306,6 +5213,18 @@
    "items": []
   },
   {
+   "place": "in/punjab",
+   "name": "Punjab",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-03-16"
+   ]
+  },
+  {
    "place": "in/rajasthan",
    "name": "Rajasthan",
    "advisory": "Exercise a high degree of caution",
@@ -4326,14 +5245,50 @@
    "items": []
   },
   {
-   "place": "in/uttarakhand",
-   "name": "Uttarakhand",
+   "place": "in/tamil-nadu",
+   "name": "Tamil Nadu",
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
     "snapshot evidence"
    ],
    "items": []
+  },
+  {
+   "place": "in/telangana",
+   "name": "Telangana",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "in/uttar-pradesh",
+   "name": "Uttar Pradesh",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "election",
+    "snapshot evidence"
+   ],
+   "items": [
+    "election 2027-05-22"
+   ]
+  },
+  {
+   "place": "in/uttarakhand",
+   "name": "Uttarakhand",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "election",
+    "snapshot evidence"
+   ],
+   "items": [
+    "election 2027-03-28"
+   ]
   },
   {
    "place": "in/west-bengal",
@@ -4371,14 +5326,27 @@
    ]
   },
   {
-   "place": "it/campania",
-   "name": "Campania",
+   "place": "it/abruzzo",
+   "name": "Abruzzo",
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
     "snapshot evidence"
    ],
    "items": []
+  },
+  {
+   "place": "it/campania",
+   "name": "Campania",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule",
+    "snapshot evidence"
+   ],
+   "items": [
+    "local-law date 2026-11-16"
+   ]
   },
   {
    "place": "it/emilia-romagna",
@@ -4416,6 +5384,16 @@
   {
    "place": "it/lombardy",
    "name": "Lombardy",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "it/molise",
+   "name": "Molise",
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
@@ -4547,8 +5525,28 @@
    "items": []
   },
   {
+   "place": "jp/hiroshima-prefecture",
+   "name": "Hiroshima Prefecture",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "jp/hokkaido",
    "name": "Hokkaido",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "jp/iwate-prefecture",
+   "name": "Iwate Prefecture",
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
@@ -4592,9 +5590,12 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
+    "dated rule",
     "snapshot evidence"
    ],
-   "items": []
+   "items": [
+    "local-law date 2027-03-31"
+   ]
   },
   {
    "place": "jp/nara-prefecture",
@@ -4634,6 +5635,16 @@
   {
    "place": "jp/saitama-prefecture",
    "name": "Saitama Prefecture",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "jp/shiga-prefecture",
+   "name": "Shiga Prefecture",
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
@@ -4737,6 +5748,36 @@
    "items": []
   },
   {
+   "place": "kh/banteay-meanchey-province",
+   "name": "Banteay Meanchey Province",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "kh/kampong-thom-province",
+   "name": "Kampong Thom Province",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "kh/preah-vihear-province",
+   "name": "Preah Vihear Province",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "kh/siem-reap-province",
    "name": "Siem Reap Province",
    "advisory": "Exercise a high degree of caution",
@@ -4782,7 +5823,7 @@
     "snapshot evidence"
    ],
    "items": [
-    "5 confirm-in-writing"
+    "4 confirm-in-writing"
    ]
   },
   {
@@ -4796,8 +5837,28 @@
    "items": []
   },
   {
+   "place": "kr/north-jeolla",
+   "name": "North Jeolla",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "kr/seoul",
    "name": "Seoul",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "kr/south-chungcheong",
+   "name": "South Chungcheong",
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
@@ -4829,6 +5890,16 @@
    ]
   },
   {
+   "place": "kz/jambyl-region",
+   "name": "Jambyl Region",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "la",
    "name": "Laos",
    "advisory": "Exercise a high degree of caution",
@@ -4846,6 +5917,16 @@
   {
    "place": "la/champasak-province",
    "name": "Champasak Province",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "la/xiangkhouang-province",
+   "name": "Xiangkhouang Province",
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
@@ -5008,7 +6089,7 @@
     "snapshot evidence"
    ],
    "items": [
-    "2 confirm-in-writing"
+    "3 confirm-in-writing"
    ]
   },
   {
@@ -5160,6 +6241,26 @@
    "items": []
   },
   {
+   "place": "mx/baja-california",
+   "name": "Baja California",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mx/baja-california-sur",
+   "name": "Baja California Sur",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "mx/campeche",
    "name": "Campeche",
    "advisory": "Exercise a high degree of caution",
@@ -5190,8 +6291,48 @@
    "items": []
   },
   {
+   "place": "mx/coahuila",
+   "name": "Coahuila",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mx/colima",
+   "name": "Colima",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mx/durango",
+   "name": "Durango",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "mx/guanajuato",
    "name": "Guanajuato",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mx/guerrero",
+   "name": "Guerrero",
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
@@ -5210,8 +6351,28 @@
    "items": []
   },
   {
+   "place": "mx/jalisco",
+   "name": "Jalisco",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "mx/mexico-city",
    "name": "Mexico City",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mx/michoacan",
+   "name": "Michoacán",
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
@@ -5240,6 +6401,16 @@
    "items": []
   },
   {
+   "place": "mx/nuevo-leon",
+   "name": "Nuevo León",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "mx/oaxaca",
    "name": "Oaxaca",
    "advisory": "Exercise a high degree of caution",
@@ -5260,8 +6431,48 @@
    "items": []
   },
   {
+   "place": "mx/queretaro",
+   "name": "Querétaro",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "mx/quintana-roo",
    "name": "Quintana Roo",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mx/san-luis-potosi",
+   "name": "San Luis Potosí",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mx/sinaloa",
+   "name": "Sinaloa",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mx/sonora",
+   "name": "Sonora",
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
@@ -5282,6 +6493,26 @@
   {
    "place": "mx/tabasco",
    "name": "Tabasco",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mx/tamaulipas",
+   "name": "Tamaulipas",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "mx/tlaxcala",
+   "name": "Tlaxcala",
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
@@ -5519,11 +6750,32 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
-    "election",
     "snapshot evidence"
    ],
+   "items": []
+  },
+  {
+   "place": "nz/otago-region",
+   "name": "Otago Region",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule"
+   ],
    "items": [
-    "election 2026-11-07"
+    "zone-requirements date 2027-04-30"
+   ]
+  },
+  {
+   "place": "nz/southland-region",
+   "name": "Southland Region",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "dated rule"
+   ],
+   "items": [
+    "zone-requirements date 2027-04-30"
    ]
   },
   {
@@ -5535,6 +6787,30 @@
     "snapshot evidence"
    ],
    "items": []
+  },
+  {
+   "place": "pa/chiriqui-province",
+   "name": "Chiriquí Province",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
+  },
+  {
+   "place": "pa/veraguas-province",
+   "name": "Veraguas Province",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "confirm in writing"
+   ],
+   "items": [
+    "1 confirm-in-writing"
+   ]
   },
   {
    "place": "pe",
@@ -5596,7 +6872,7 @@
     "snapshot evidence"
    ],
    "items": [
-    "5 confirm-in-writing"
+    "4 confirm-in-writing"
    ]
   },
   {
@@ -6103,6 +7379,16 @@
   {
    "place": "th/phra-nakhon-si-ayutthaya",
    "name": "Phra Nakhon Si Ayutthaya",
+   "advisory": "Exercise a high degree of caution",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "th/phuket",
+   "name": "Phuket",
    "advisory": "Exercise a high degree of caution",
    "cadence": "monthly",
    "reasons": [
@@ -6728,12 +8014,9 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
-    "dated rule",
     "snapshot evidence"
    ],
-   "items": [
-    "ancient-sites-and-mysteries date 2026-11-08"
-   ]
+   "items": []
   },
   {
    "place": "us/colorado",
@@ -6846,8 +8129,53 @@
    "items": []
   },
   {
+   "place": "us/kansas",
+   "name": "Kansas",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
    "place": "us/kauai-county",
    "name": "Kauaʻi County",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "us/kentucky",
+   "name": "Kentucky",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-11-02"
+   ]
+  },
+  {
+   "place": "us/louisiana",
+   "name": "Louisiana",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-10-09",
+    "election 2027-11-20"
+   ]
+  },
+  {
+   "place": "us/maine",
+   "name": "Maine",
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
@@ -6874,6 +8202,19 @@
     "snapshot evidence"
    ],
    "items": []
+  },
+  {
+   "place": "us/mississippi",
+   "name": "Mississippi",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "election"
+   ],
+   "items": [
+    "election 2027-08-03",
+    "election 2027-11-02"
+   ]
   },
   {
    "place": "us/nebraska",
@@ -7068,10 +8409,13 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
-    "dated rule"
+    "dated rule",
+    "election"
    ],
    "items": [
-    "psychoactive-substances date 2027-07-01"
+    "psychoactive-substances date 2027-07-01",
+    "election 2027-11-02",
+    "zone-requirements date 2026-11-28"
    ]
   },
   {
@@ -7138,6 +8482,16 @@
    "items": [
     "2 confirm-in-writing"
    ]
+  },
+  {
+   "place": "uy/montevideo-department",
+   "name": "Montevideo Department",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
   },
   {
    "place": "uz",
@@ -7211,6 +8565,16 @@
   {
    "place": "vn/da-nang",
    "name": "Da Nang",
+   "advisory": "Exercise normal safety precautions",
+   "cadence": "monthly",
+   "reasons": [
+    "snapshot evidence"
+   ],
+   "items": []
+  },
+  {
+   "place": "vn/hanoi",
+   "name": "Hanoi",
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
