@@ -215,3 +215,5 @@ Recounted 2026-11-12 04:09 AEST. Same narrow definition: no listed law source an
 | Burundi | 1 | 1 |
 | Costa Rica | 1 | 7 |
 | South Sudan | 1 | 1 |
+
+- 2026-11-12 04:12 AEST: Grok traveller-heavy queue batch, Peru: verified El Peruano gazette baselines for all twenty-five first-level departments/Callao, plus a directly loaded Tumbes regional legal directory. Added actual official regional/local non-working-day calendars for twelve departments, keeping 2026-only dates, Ilo/Mariscal Nieto/Tacna local scope and compensable/private-employer caveats. Bulk direct regional-directory requests returned 418 and were skipped; no failed page was labelled read directly. National baseline is not a completed local-law check. All other local levels remain not yet checked.
