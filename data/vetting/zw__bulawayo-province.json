@@ -1,0 +1,65 @@
+{
+ "place": "zw/bulawayo-province",
+ "patterns": {
+  "culture-cycles": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "public_holidays": [],
+   "moving_calendars": [],
+   "festivals": [],
+   "closures": [
+    "Natural History Museum of Zimbabwe: NMMZ visit page gives Monday-Sunday 08:00-16:30; its regional-museums directory instead gives 09:00-17:00 daily except Good Friday and Christmas. Both were read directly; no choice between them or date of reopening/temporary closure is invented."
+   ],
+   "protocol_notes": [],
+   "sources": [
+    {
+     "title": "Natural History Museum of Zimbabwe: named regional museum authority",
+     "authority": "National Museums and Monuments of Zimbabwe",
+     "url": "https://www.nmmz.co.zw/western-region-bulawayo/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Named museum/location and its visitor services read directly. Does not independently resolve conflicting system-wide timetable pages."
+    },
+    {
+     "title": "NMMZ visitor information",
+     "authority": "National Museums and Monuments of Zimbabwe",
+     "url": "https://www.nmmz.co.zw/visit/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Read directly: visitor page lists Monday-Sunday 08:00-16:30. This conflicts with the regional-museums directory hours/holiday exclusions, so not treated as a settled live timetable."
+    },
+    {
+     "title": "NMMZ regional museums: opening and admission conditions",
+     "authority": "National Museums and Monuments of Zimbabwe",
+     "url": "https://www.nmmz.co.zw/regional-museums/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Read directly: regional directory lists 09:00-17:00 daily EXCEPT Good Friday/Christmas, adult accompaniment for under-fives and guided-tour availability. Its clock hours conflict with the visitor page."
+    }
+   ],
+   "note": "Named museum calendar baseline with unresolved official-source conflict. Exact live timetable and holiday access must be confirmed. These are museum conditions, not provincial public holidays; hours are site-local, not AEST.",
+   "checked": "2026-11-12"
+  },
+  "local-law": {
+   "status": "partly-mapped",
+   "evidence": "official",
+   "laws": [
+    {
+     "topic": "permits-and-registration",
+     "rule": "Natural History Museum, Bulawayo: outside research workers may obtain permission from the Regional Director or Senior Librarian for the specialist library. The page says it is not a public library and encourages groups to arrange educational visits well in advance. This is not a requirement for every ordinary museum visitor to obtain research approval.",
+     "source": "https://www.nmmz.co.zw/western-region-bulawayo/",
+     "checked": "2026-11-12",
+     "level": "site"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Natural History Museum of Zimbabwe: named regional museum authority",
+     "authority": "National Museums and Monuments of Zimbabwe",
+     "url": "https://www.nmmz.co.zw/western-region-bulawayo/",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Named museum/location and its visitor services read directly. Does not independently resolve conflicting system-wide timetable pages."
+    }
+   ],
+   "note": "Named institution permissions only.",
+   "checked": "2026-11-12"
+  }
+ }
+}
