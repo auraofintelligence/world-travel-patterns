@@ -789,7 +789,12 @@
     "publisher": "The National Archives",
     "url": "https://www.legislation.gov.uk/",
     "check": "loaded",
-    "checked": "2026-11-01"
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official UK statute book, including UK Acts and the legislation of the Scottish Parliament, Senedd Cymru and the Northern Ireland Assembly."
    }
   ],
   "gd": [
@@ -4641,8 +4646,13 @@
     "name": "Ontario e-Laws: provincial statutes and regulations",
     "publisher": "Government of Ontario",
     "url": "https://www.ontario.ca/laws",
-    "check": "Official current-law portal identified by the Ontario Government; direct automated access returned 403.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Ontario e-Laws portal for current provincial statutes and regulations. The official landing loaded on 11 November 2026. The public site is a JavaScript application (open it in a browser to browse texts). Individual statutes were not read in this pass."
    }
   ],
   "ca/quebec": [
@@ -4657,17 +4667,27 @@
   "ca/nova-scotia": [
    {
     "name": "Nova Scotia consolidated public statutes",
-    "publisher": "Nova Scotia House of Assembly",
+    "publisher": "Nova Scotia Legislature",
     "url": "https://nslegislature.ca/legislative-business/bills-statutes/consolidated-public-statutes",
-    "check": "Direct access was not confirmed; a Nova Scotia Government guide identifies this official address.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Nova Scotia Legislature collection of consolidated public statutes, with HTML and PDF texts. The official statute list loaded on 11 November 2026. A separate official regulations collection is recorded beside it. Individual statutes were not added as local-law records in this pass."
    },
    {
     "name": "Nova Scotia consolidated regulations by Act",
-    "publisher": "Nova Scotia Office of the Registrar of Regulations",
+    "publisher": "Department of Justice, Nova Scotia",
     "url": "https://novascotia.ca/just/regulations/regsbyact.htm",
-    "check": "Consolidations are unofficial; see the official orders for the authoritative text.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "kind": "regulations",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly",
+    "note": "Official Nova Scotia Department of Justice list of consolidated regulations, arranged by Act. The official page loaded on 11 November 2026. Consolidations are unofficial; see the official orders for the authoritative text."
    }
   ],
   "ca/saskatchewan": [
@@ -4675,8 +4695,12 @@
     "name": "Saskatchewan Freelaw: provincial legislation and Gazette",
     "publisher": "Saskatchewan Office of the King’s Printer",
     "url": "https://publications.saskatchewan.ca/#/freelaw",
-    "check": "Identified by the Saskatchewan Government; direct access returned an error. Consolidations are for convenience.",
-    "checked": "2026-11-08"
+    "check": "failed TLS (unable to get local issuer certificate); SSL was not skipped",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "source": "unverified",
+    "note": "Official Saskatchewan Freelaw / publications site identified by the Saskatchewan Government. The direct HTTPS check failed because the certificate chain could not be verified. Open it in a browser. Consolidations are for convenience."
    }
   ],
   "ca/yukon": [
@@ -4684,8 +4708,12 @@
     "name": "Yukon Government legislation index",
     "publisher": "Government of Yukon",
     "url": "https://laws.yukon.ca/cms/legislation-index.html",
-    "check": "The government says online texts are informational; official versions are published by the King’s Printer.",
-    "checked": "2026-11-08"
+    "check": "refuses automated checks (HTTP 403; open it in a browser)",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "source": "unverified",
+    "note": "Official Yukon legislation index. The direct check returned HTTP 403. The government says online texts are informational; official versions are published by the King's Printer. Open it in a browser."
    }
   ],
   "ca/northwest-territories": [
@@ -4693,8 +4721,26 @@
     "name": "Northwest Territories consolidated Acts and regulations",
     "publisher": "Northwest Territories Department of Justice",
     "url": "https://www.justice.gov.nt.ca/en/legislation/",
-    "check": "Indexed government listing identifies territorial laws; the direct check returned a redirect error. Consolidations are not official statements of the law.",
-    "checked": "2026-11-08"
+    "check": "redirected to the official GNWT legislation page, which loaded",
+    "checked": "2026-11-11",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly",
+    "note": "This official address now redirects to https://gnwt.ca/laws-crime-and-justice/legislation-and-legislative-publications?justice=en, which loaded and is recorded beside it."
+   },
+   {
+    "name": "Northwest Territories legislation and legislative publications",
+    "url": "https://gnwt.ca/laws-crime-and-justice/legislation-and-legislative-publications?justice=en",
+    "publisher": "Government of the Northwest Territories",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official Government of the Northwest Territories legislation page, including a search of Acts and regulations, a complete list of Acts, and a link to annual statutes. The official page loaded on 11 November 2026. The earlier justice.gov.nt.ca/en/legislation address redirected here. Consolidations are not official statements of the law. Individual Acts were not read in this pass.",
+    "discovery_source": "https://www.justice.gov.nt.ca/en/legislation/"
    }
   ],
   "br/bahia": [
@@ -5940,9 +5986,26 @@
     "name": "Scotland legislation directory",
     "publisher": "The National Archives",
     "url": "https://www.legislation.gov.uk/explore/legislatures/scotland",
-    "check": "Official legislation directory indexed; direct fetch returned an unsupported XHTML content type.",
-    "checked": "2026-11-08",
-    "note": "Includes Scottish Acts and instruments, plus categories of UK legislation potentially applicable to Scotland; check each item’s status and extent."
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "note": "Official legislation.gov.uk directory for Scottish legislation. The official page loaded. The searchable collection of Acts of the Scottish Parliament is recorded beside it.",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly"
+   },
+   {
+    "name": "Acts of the Scottish Parliament",
+    "url": "https://www.legislation.gov.uk/asp",
+    "publisher": "The National Archives (legislation.gov.uk)",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official legislation.gov.uk collection of Acts of the Scottish Parliament, read directly on 11 November 2026. The landing lists current Acts (including 2026 Acts) with official texts. UK Acts on the same site also apply in Scotland unless a provision says otherwise. Individual Acts were not added as local-law records in this pass.",
+    "discovery_source": "https://www.legislation.gov.uk/"
    }
   ],
   "gb/wales": [
@@ -5950,9 +6013,26 @@
     "name": "Wales legislation directory",
     "publisher": "The National Archives",
     "url": "https://www.legislation.gov.uk/explore/legislatures/wales",
-    "check": "Official legislation directory indexed; direct fetch returned an unsupported XHTML content type.",
-    "checked": "2026-11-08",
-    "note": "Includes Welsh legislation and categories of UK legislation potentially applicable to Wales; check each item’s status and extent."
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "note": "Official legislation.gov.uk directory for Welsh legislation. The official page loaded. The searchable collection of Acts of Senedd Cymru is recorded beside it.",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly"
+   },
+   {
+    "name": "Acts of Senedd Cymru",
+    "url": "https://www.legislation.gov.uk/asc",
+    "publisher": "The National Archives (legislation.gov.uk)",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official legislation.gov.uk collection of Acts of Senedd Cymru, read directly on 11 November 2026. The landing lists current Acts (including 2026 Acts) with official texts. Older Measures and Acts of the National Assembly for Wales and UK Acts also appear on the same official site. Individual Acts were not added as local-law records in this pass.",
+    "discovery_source": "https://www.legislation.gov.uk/"
    }
   ],
   "gb/northern-ireland": [
@@ -5960,9 +6040,26 @@
     "name": "Northern Ireland legislation directory",
     "publisher": "The National Archives",
     "url": "https://www.legislation.gov.uk/explore/legislatures/ni",
-    "check": "Official legislation directory indexed; direct fetch may depend on browser XHTML support.",
-    "checked": "2026-11-08",
-    "note": "Includes Northern Ireland Acts and statutory rules, plus categories of UK legislation potentially applicable there; check each item’s status and extent."
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "note": "Official legislation.gov.uk directory for Northern Ireland legislation. The official page loaded. The searchable collection of Acts of the Northern Ireland Assembly is recorded beside it.",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly"
+   },
+   {
+    "name": "Acts of the Northern Ireland Assembly",
+    "url": "https://www.legislation.gov.uk/nia",
+    "publisher": "The National Archives (legislation.gov.uk)",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official legislation.gov.uk collection of Acts of the Northern Ireland Assembly, read directly on 11 November 2026. The landing lists current Acts (including 2026 Acts) with official texts. UK Acts and Northern Ireland Orders in Council also appear on the same official site. Individual Acts were not added as local-law records in this pass.",
+    "discovery_source": "https://www.legislation.gov.uk/"
    }
   ],
   "pt/azores": [
@@ -8151,6 +8248,21 @@
     "source": "read directly",
     "note": "Official Boletín Oficial e Imprenta of the Province of Santa Cruz, including official pages for laws, decrees and PDF editions. The official landing loaded. The site also links to a Digesto Jurídico at digestosantacruz.gob.ar, which failed TLS in this pass and was not recorded as verified. Individual provincial laws were not read.",
     "discovery_source": "https://www.santacruz.gob.ar/"
+   }
+  ],
+  "gb/england": [
+   {
+    "name": "UK Public General Acts",
+    "publisher": "The National Archives (legislation.gov.uk)",
+    "url": "https://www.legislation.gov.uk/ukpga",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-11",
+    "source": "read directly",
+    "note": "Official legislation.gov.uk collection of UK Public General Acts, read directly on 11 November 2026. England has no separate devolved legislature; these UK Acts are the principal primary legislation that applies in England (some also apply in the other nations). The landing lists current Acts with official texts. Individual Acts were not added as local-law records in this pass.",
+    "discovery_source": "https://www.legislation.gov.uk/"
    }
   ]
  },
