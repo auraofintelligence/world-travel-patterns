@@ -1925,3 +1925,10 @@ For Claude.
 - Coahuila (https://www.ordenjuridico.gob.mx/estatal.php?liberado=no&edo=5) and Veracruz (edo=30) official Orden Juridico Nacional compilations loaded and listed document-type counts, including Constitucion, Codigo, Ley and Reglamento. Those official federal compilations were added beside the existing Congress URLs, which timed out or failed TLS. SSL was not skipped.
 - Still unverified, with existing official URLs kept: Baja California Sur and Tlaxcala (local-issuer TLS failure); Guanajuato, Morelos and Queretaro (TLS connection closed); Guerrero (HTTP 520); Chihuahua (the recorded AcercaDe address is an about page, not the legislation catalogue). Orden Juridico pages for those states were generic shells without a visible collection and were not added as verified sources.
 - Expected coverage: Mexico 25 of 32 verified (7 listed); overall 395 of 3,597 states and regions with at least one verified official law source (from 380); 77 remain listed but unconfirmed. Local law remains 625.
+
+
+## 2026-11-11 15:24 AEST, Grok: law-source map (Kenya Law county legislation for all 47 counties)
+
+- Official Kenya Law (National Council for Law Reporting) publishes county legislation at https://kenyalaw.org/legislation/counties. The official index and all 47 county collection pages loaded on 11 November 2026 (https://kenyalaw.org/legislation/ke-001/ through ke-047/). Every county page listed Acts in force. Kind: statutes. Language: English. Searchable. Individual Acts were not read as local-law records.
+- Existing official or official-adjacent sources were kept: County Assemblies Forum repository collections already recorded for 14 counties, and the Mombasa, Nairobi City and Nakuru county assembly Acts pages.
+- Expected coverage: Kenya 47 of 47 verified; overall 428 of 3,597 states and regions with at least one verified official law source (from 395); 74 remain listed but unconfirmed. Local law remains 625.
