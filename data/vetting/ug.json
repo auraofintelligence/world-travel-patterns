@@ -68,7 +68,7 @@
   },
   "local-law": {
    "status": "partly-mapped",
-   "checked": "2026-10-31",
+   "checked": "2026-11-12",
    "evidence": "official",
    "laws": [
     {
@@ -118,6 +118,13 @@
      "source": "https://www.smartraveller.gov.au/destinations/africa/uganda",
      "checked": "2026-10-31",
      "heading": "Driving permit"
+    },
+    {
+     "topic": "permits-and-registration",
+     "rule": "UWA notice of 26 February 2026 suspends the seven-day unpaid permit reservation window effective 1 March 2026: operators secure permits only with full payment at booking. Its low-season gorilla/chimpanzee permits cannot be rescheduled. This is UWA permit administration, not a general rule for private accommodation or all tour bookings.",
+     "source": "https://ugandawildlife.org/wp-content/uploads/2026/03/Tariff-changes-2026-2027.pdf",
+     "checked": "2026-11-12",
+     "level": "state"
     }
    ],
    "sources": [
@@ -127,8 +134,16 @@
      "url": "https://www.smartraveller.gov.au/destinations/africa/uganda",
      "checked": "2026-10-31",
      "supports": "local laws, customs and money as read on 2026-10-31"
+    },
+    {
+     "title": "UWA permit changes, Executive Director notice TDO 93/04, 26 February 2026",
+     "authority": "Uganda Wildlife Authority: primary signed administrative notice",
+     "url": "https://ugandawildlife.org/wp-content/uploads/2026/03/Tariff-changes-2026-2027.pdf",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Primary scanned PDF downloaded and read directly as page images: low-season non-rescheduling and full-payment booking replacing seven-day unpaid holds effective 1 March 2026. Fee amounts intentionally omitted; 2027 price changes not represented as current."
     }
-   ]
+   ],
+   "note": "Primary administrative amendment, not a secondary government news-agency report. No amounts or prospective January 2027 prices added. The current UWA download page labels an older tariff July 2024-December 2026 while its PDF cover says June 2026; current full tariff consolidation remains uncertain."
   },
   "seasons-and-flow": {
    "status": "partly-mapped",
@@ -253,16 +268,18 @@
   },
   "culture-cycles": {
    "status": "partly-mapped",
-   "checked": "2026-11-01",
+   "checked": "2026-11-12",
    "evidence": "signal",
    "public_holidays": "12 next year in data/calendar (machine data; the brief lists those in a trip window)",
    "moving_calendars": [
     "Easter moves each year (next year: 2027-03-26, 2027-03-29)."
    ],
    "festivals": [],
-   "closures": [],
+   "closures": [
+    "UWA low-season gorilla/chimpanzee permits: April, May and November under the 26 February 2026 notice; these permits cannot be rescheduled."
+   ],
    "protocol_notes": [],
-   "note": "Festivals and community closures are still to be read from the place's own tourism office and communities.",
+   "note": "Festivals and community closures are still to be read from the place's own tourism office and communities. New UWA permit season is not a public-holiday calendar or guarantee of availability. No amounts added.",
    "sources": [
     {
      "title": "Public holidays (Nager.Date)",
@@ -270,6 +287,13 @@
      "url": "https://date.nager.at/",
      "checked": "2026-11-01",
      "supports": "12 public holidays next year"
+    },
+    {
+     "title": "UWA permit changes, Executive Director notice TDO 93/04, 26 February 2026",
+     "authority": "Uganda Wildlife Authority: primary signed administrative notice",
+     "url": "https://ugandawildlife.org/wp-content/uploads/2026/03/Tariff-changes-2026-2027.pdf",
+     "checked": "2026-11-12",
+     "supports": "Read directly: Primary scanned PDF downloaded and read directly as page images: low-season non-rescheduling and full-payment booking replacing seven-day unpaid holds effective 1 March 2026. Fee amounts omitted; 2027 price changes not represented as current."
     }
    ]
   },
