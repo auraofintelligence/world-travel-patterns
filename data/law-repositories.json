@@ -2869,13 +2869,13 @@
     "name": "KwaZulu-Natal Legislature: Acts and Bills",
     "publisher": "KwaZulu-Natal Legislature",
     "url": "https://kznlegislature.gov.za/acts-bills/",
-    "check": "timed out; SSL was not skipped",
-    "checked": "2026-11-11",
+    "check": "loaded",
+    "checked": "2026-11-18",
     "kind": "statutes",
     "language": "English",
     "searchable": true,
-    "source": "unverified",
-    "note": "Official KwaZulu-Natal Legislature Acts and Bills collection. The direct check timed out. Bills and enacted laws may be mixed. Open it in a browser."
+    "source": "read directly",
+    "note": "Official KwaZulu-Natal Legislature Acts and Bills collection. The official page loaded on 18 November 2026 with the title \"Acts & Bills - KZN Legislature\". Bills and enacted laws may be mixed. Free to access, in English. Individual texts were not read in this pass."
    },
    {
     "name": "eThekwini Municipality: by-laws for Durban",
@@ -4776,12 +4776,16 @@
   ],
   "us/alaska": [
    {
-    "name": "Alaska State Legislature: statutes and session laws",
+    "name": "Alaska Statutes",
     "publisher": "Alaska State Legislature",
-    "url": "https://www.akleg.gov/basis/Home/Law",
-    "check": "The official search page returned an access error when checked.",
-    "checked": "2026-11-08",
-    "note": "Choose statutes from the state legislature’s law menu."
+    "url": "https://www.akleg.gov/basis/statutes.asp",
+    "check": "loaded",
+    "checked": "2026-11-18",
+    "note": "Official Alaska Statutes on the Alaska State Legislature site. The official page loaded on 18 November 2026 with the title \"Alaska Statutes 2025\". Free to access, in English. Individual texts were not read in this pass.",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "source": "read directly"
    }
   ],
   "us/arkansas": [
@@ -4967,9 +4971,10 @@
     "name": "Oklahoma Statutes, by title",
     "publisher": "Oklahoma Legislature",
     "url": "https://www.oklegislature.gov/osstatuestitle.html",
-    "check": "The legislature lists this version as updated 18 November 2025; check newer session laws and amendments.",
-    "checked": "2026-11-08",
-    "note": "Search Oklahoma Statutes by title or keyword."
+    "check": "loaded",
+    "checked": "2026-11-18",
+    "note": "Official Oklahoma Statutes, arranged by title, on the Oklahoma Legislature site. The official page loaded on 18 November 2026 with the title \"OKLAHOMA STATUTES\". Free to access, in English. Individual texts were not read in this pass.",
+    "source": "read directly"
    }
   ],
   "us/pennsylvania": [
@@ -5167,8 +5172,13 @@
     "name": "Bahia state legislation portal entry",
     "publisher": "Government of Bahia, Casa Civil",
     "url": "https://www.ba.gov.br/casacivil/43/legislacao",
-    "check": "Government entry page opened; follow the link to LegislaBahia.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-18",
+    "source": "read directly",
+    "kind": "statutes",
+    "language": "Portuguese",
+    "searchable": true,
+    "note": "Official Bahia state legislation page on the Casa Civil portal. The official page loaded on 18 November 2026 with the title \"Legislação | CASA CIVIL\". Free to access, in Portuguese. Individual texts were not read in this pass."
    }
   ],
   "br/rio-grande-do-sul": [
@@ -5176,8 +5186,13 @@
     "name": "Rio Grande do Sul state legislation portal entry",
     "publisher": "Government of Rio Grande do Sul",
     "url": "https://www3.estado.rs.gov.br/legislacao",
-    "check": "The official listing was found in search, but the direct page timed out.",
-    "checked": "2026-11-08"
+    "check": "loaded",
+    "checked": "2026-11-18",
+    "source": "read directly",
+    "kind": "statutes",
+    "language": "Portuguese",
+    "searchable": true,
+    "note": "Official Rio Grande do Sul state legislation portal. The official page loaded on 18 November 2026 with the title \"Legislação - Portal do Estado do Rio Grande do Sul\". Free to access, in Portuguese. Individual texts were not read in this pass."
    }
   ],
   "br/federal-district": [
@@ -5187,6 +5202,18 @@
     "url": "https://www2.tc.df.gov.br/consultas-e-servicos/legislacao/legislacao-do-df-sinj/",
     "check": "The official entry page was found in search, but direct access timed out; follow the link to SINJ-DF.",
     "checked": "2026-11-08"
+   },
+   {
+    "name": "SINJ-DF: Sistema Integrado de Normas Jurídicas do DF",
+    "publisher": "Governo do Distrito Federal",
+    "url": "https://www.sinj.df.gov.br/sinj/",
+    "kind": "statutes",
+    "language": "Portuguese",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-18",
+    "source": "read directly",
+    "note": "Official integrated legal-norms system of the Federal District (SINJ-DF). The official page loaded on 18 November 2026 with the title \".:: SINJ-DF - Sistema Integrado de Normas Jurídicas do DF ::.\". Free to access, in Portuguese. Individual texts were not read in this pass."
    }
   ],
   "br/ceara": [
@@ -5422,6 +5449,18 @@
     "language": "Spanish",
     "source": "unverified",
     "note": "Official Legislature of Tierra del Fuego archive. The direct HTTPS check timed out. Open it in a browser."
+   },
+   {
+    "name": "Boletín Oficial de Tierra del Fuego",
+    "publisher": "Gobierno de Tierra del Fuego",
+    "url": "https://www.tierradelfuego.gob.ar/boletin-oficial/",
+    "kind": "gazette",
+    "language": "Spanish",
+    "searchable": true,
+    "check": "loaded",
+    "checked": "2026-11-18",
+    "source": "read directly",
+    "note": "Official Tierra del Fuego official gazette (Boletín Oficial) page on the provincial government site. The official page loaded on 18 November 2026 with the title \"Boletín Oficial - Gobierno de Tierra del Fuego\". Free to access, in Spanish. Individual texts were not read in this pass."
    }
   ],
   "mx/coahuila": [
@@ -25780,6 +25819,373 @@
     "checked": "2026-11-18",
     "source": "unverified",
     "note": "Official Žilina Self-Governing Region collection of generally binding regulations (vseobecne zavazne nariadenia, VZN) on the official self-governing region host. The official address is a government or official regional domain; this automated check could not confirm the page. SSL was not skipped. Open it in a browser. These are regional self-government regulations, not a substitute for national law on slov-lex.sk."
+   }
+  ],
+  "ar/tucuman-province": [
+   {
+    "name": "Boletín Oficial de la Provincia de Tucumán",
+    "publisher": "Gobierno de la Provincia de Tucumán",
+    "url": "https://boletin.tucuman.gob.ar/",
+    "kind": "gazette",
+    "language": "Spanish",
+    "searchable": true,
+    "check": "loaded",
+    "source": "read directly",
+    "note": "Official gazette (Boletín Oficial) of Tucumán Province. The official page loaded on 18 November 2026 with that title. Free to access, in Spanish. Individual texts were not read in this pass.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "ar/entre-rios-province": [
+   {
+    "name": "Boletín Oficial consultation: Entre Ríos Province",
+    "publisher": "Gobierno de Entre Ríos",
+    "url": "https://portal.entrerios.gov.ar/consultas/boletin",
+    "kind": "gazette",
+    "language": "Spanish",
+    "searchable": true,
+    "check": "loaded; page title was the government portal name, not a gazette heading",
+    "source": "unverified",
+    "note": "Official Entre Ríos government portal path for official gazette (Boletín Oficial) consultation. The official URL loaded on 18 November 2026, but the page title was only \"Gobierno de Entre Ríos\", so this pass could not confirm a visible gazette collection heading. Open it in a browser. Free official gazette consultation, in Spanish.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "ar/la-pampa-province": [
+   {
+    "name": "Boletín Oficial de la Provincia de La Pampa",
+    "publisher": "Gobierno de la Provincia de La Pampa",
+    "url": "https://boletinoficial.lapampa.gob.ar/",
+    "kind": "gazette",
+    "language": "Spanish",
+    "searchable": true,
+    "check": "failed TLS (unexpected EOF); SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://boletinoficial.lapampa.gob.ar/",
+    "note": "Official La Pampa Province official gazette (Boletín Oficial) on the official boletinoficial.lapampa.gob.ar host. The official host is an Argentine government domain; this automated check could not confirm the page. SSL was not skipped. Open it in a browser. Free official gazette, in Spanish.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "ar/santiago-del-estero-province": [
+   {
+    "name": "Boletín Oficial de la Provincia de Santiago del Estero",
+    "publisher": "Gobierno de la Provincia de Santiago del Estero",
+    "url": "https://www.boletinsde.gov.ar/",
+    "kind": "gazette",
+    "language": "Spanish",
+    "searchable": true,
+    "check": "failed TLS (unexpected EOF); SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://www.boletinsde.gov.ar/",
+    "note": "Official Santiago del Estero Province official gazette (Boletín Oficial) on the official boletinsde.gov.ar host. The official host is an Argentine government domain; this automated check could not confirm the page. SSL was not skipped. Open it in a browser. The http version of the same host returned HTTP 500 during this check. Free official gazette, in Spanish.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "bo/beni-department": [
+   {
+    "name": "Gaceta del Beni",
+    "publisher": "Gobierno Autónomo Departamental del Beni",
+    "url": "https://gaceta.beni.gob.bo/",
+    "kind": "gazette",
+    "language": "Spanish",
+    "searchable": true,
+    "check": "loaded",
+    "source": "read directly",
+    "note": "Official departmental gazette (Gaceta del Beni). The official page loaded on 18 November 2026 with the title \"Bienvenido a la Gaceta del Beni\". Free to access, in Spanish. Individual texts were not read in this pass.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "co/bogota": [
+   {
+    "name": "SISJUR: Bogotá legal information system",
+    "publisher": "Alcaldía Mayor de Bogotá",
+    "url": "https://www.alcaldiabogota.gov.co/sisjur/index.jsp",
+    "kind": "statutes",
+    "language": "Spanish",
+    "searchable": true,
+    "check": "failed TLS (unexpected EOF); SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://www.alcaldiabogota.gov.co/sisjur/index.jsp",
+    "note": "Official Bogotá legal information system (Sistema de Información Normativo y Jurisprudencial, SISJUR) on the official Alcaldía Mayor site. This is the Capital District's own legal corpus, not the departmental confederation directory used for other Colombian departments. The official host is a Colombian government domain; this automated check could not confirm the page. SSL was not skipped. Open it in a browser. Free official legal search, in Spanish.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "ve/zulia": [
+   {
+    "name": "Gaceta Oficial del Estado Zulia",
+    "publisher": "Gobernación del Estado Zulia",
+    "url": "https://www.gobernaciondelzulia.gob.ve/gaceta-oficial-del-estado-zulia/",
+    "kind": "gazette",
+    "language": "Spanish",
+    "searchable": true,
+    "check": "loaded",
+    "source": "read directly",
+    "note": "Official gazette of Zulia State (Gaceta Oficial del Estado Zulia), including public consultation and decrees. The official page loaded on 18 November 2026 with that title. Free to access, in Spanish. Individual texts were not read in this pass.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "uy/montevideo-department": [
+   {
+    "name": "Normativa departamental de Montevideo",
+    "publisher": "Intendencia de Montevideo",
+    "url": "https://normativa.montevideo.gub.uy/",
+    "kind": "regulations",
+    "language": "Spanish",
+    "searchable": true,
+    "check": "connection closed; SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://normativa.montevideo.gub.uy/",
+    "note": "Official Montevideo departmental regulations host (normativa.montevideo.gub.uy), where the Intendencia publishes departmental rules. The official host is a Uruguayan government domain; this automated check could not confirm the page. SSL was not skipped. Open it in a browser. Free official regulations, in Spanish. IMPO tipoServicio identifiers were not guessed for this department.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "tr/igdr-province": [
+   {
+    "name": "Iğdır Valiliği general orders (Genel Emirler)",
+    "publisher": "Iğdır Governorship (Iğdır Valiliği)",
+    "url": "https://www.igdir.gov.tr/genel-emirler",
+    "kind": "regulations",
+    "language": "Turkish",
+    "searchable": false,
+    "check": "loaded",
+    "source": "read directly",
+    "discovery_source": "https://www.igdir.gov.tr/",
+    "note": "Official Iğdır Valiliği page titled \"GENEL EMİRLER\". The official page loaded on 18 November 2026 with that title. This is the provincial governorship's general orders list, not a municipal by-law catalogue. Free to access, in Turkish. Individual texts were not read in this pass.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "tr/krsehir-province": [
+   {
+    "name": "Kırşehir Valiliği general orders (Genel Emirler)",
+    "publisher": "Kırşehir Governorship (Kırşehir Valiliği)",
+    "url": "https://www.kirsehir.gov.tr/genel-emirler",
+    "kind": "regulations",
+    "language": "Turkish",
+    "searchable": false,
+    "check": "loaded",
+    "source": "read directly",
+    "discovery_source": "https://www.kirsehir.gov.tr/",
+    "note": "Official Kırşehir Valiliği page titled \"Genel Emirler\". The official page loaded on 18 November 2026 with that title. This is the provincial governorship's general orders list, not a municipal by-law catalogue. Free to access, in Turkish. Individual texts were not read in this pass.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "tr/malatya-province": [
+   {
+    "name": "Malatya Valiliği governorate circulars (Valilik Genelgeleri)",
+    "publisher": "Malatya Governorship (Malatya Valiliği)",
+    "url": "https://www.malatya.gov.tr/valilik-genelgeleri",
+    "kind": "regulations",
+    "language": "Turkish",
+    "searchable": false,
+    "check": "loaded",
+    "source": "read directly",
+    "discovery_source": "https://www.malatya.gov.tr/",
+    "note": "Official Malatya Valiliği page titled \"Valilik Genelgeleri\". The official page loaded on 18 November 2026 with that title. This is the provincial governorship's circulars list, not a municipal by-law catalogue. Free to access, in Turkish. Individual texts were not read in this pass.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "my/kedah": [
+   {
+    "name": "Kedah State Assembly: Enactments",
+    "publisher": "Kedah State Legislative Assembly",
+    "url": "https://dewan.kedah.gov.my/enakmen/",
+    "kind": "statutes",
+    "language": "Malay",
+    "searchable": true,
+    "check": "failed TLS (unexpected EOF); SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://dewan.kedah.gov.my/",
+    "note": "Official Kedah State Legislative Assembly (Dewan Undangan Negeri) enactments path on the official dewan.kedah.gov.my host, following the same official DUN enactments pattern used for other Malaysian states. The official host is a Malaysian government domain; this automated check could not confirm the page. SSL was not skipped. Open it in a browser. Free official enactments, in Malay.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "my/malacca": [
+   {
+    "name": "Malacca State Assembly: Enactments",
+    "publisher": "Malacca State Legislative Assembly",
+    "url": "https://dun.melaka.gov.my/enakmen/",
+    "kind": "statutes",
+    "language": "Malay",
+    "searchable": true,
+    "check": "failed TLS (unexpected EOF); SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://dun.melaka.gov.my/",
+    "note": "Official Malacca State Legislative Assembly (Dewan Undangan Negeri) enactments path on the official dun.melaka.gov.my host, following the same official DUN enactments pattern used for other Malaysian states. The official host is a Malaysian government domain; this automated check could not confirm the page. SSL was not skipped. Open it in a browser. Free official enactments, in Malay.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "my/negeri-sembilan": [
+   {
+    "name": "Negeri Sembilan State Assembly: Enactments",
+    "publisher": "Negeri Sembilan State Legislative Assembly",
+    "url": "https://dun.ns.gov.my/enakmen/",
+    "kind": "statutes",
+    "language": "Malay",
+    "searchable": true,
+    "check": "failed TLS (unexpected EOF); SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://dun.ns.gov.my/",
+    "note": "Official Negeri Sembilan State Legislative Assembly (Dewan Undangan Negeri) enactments path on the official dun.ns.gov.my host, following the same official DUN enactments pattern used for other Malaysian states. The official host is a Malaysian government domain; this automated check could not confirm the page. SSL was not skipped. Open it in a browser. Free official enactments, in Malay.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "my/pahang": [
+   {
+    "name": "Pahang State Assembly: Enactments",
+    "publisher": "Pahang State Legislative Assembly",
+    "url": "https://dewan.pahang.gov.my/enakmen/",
+    "kind": "statutes",
+    "language": "Malay",
+    "searchable": true,
+    "check": "failed TLS (unexpected EOF); SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://dewan.pahang.gov.my/",
+    "note": "Official Pahang State Legislative Assembly (Dewan Undangan Negeri) enactments path on the official dewan.pahang.gov.my host, following the same official DUN enactments pattern used for other Malaysian states. The official host is a Malaysian government domain; this automated check could not confirm the page. SSL was not skipped. Open it in a browser. Free official enactments, in Malay.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "my/perlis": [
+   {
+    "name": "Perlis State Assembly: Enactments",
+    "publisher": "Perlis State Legislative Assembly",
+    "url": "https://www.perlis.gov.my/index.php/kerajaan-negeri/info-kerajaan/dewan-undangan-negeri/enakmen",
+    "kind": "statutes",
+    "language": "Malay",
+    "searchable": true,
+    "check": "failed TLS (unexpected EOF); SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://www.perlis.gov.my/",
+    "note": "Official Perlis State Legislative Assembly enactments path on the official perlis.gov.my state government host. The official host is a Malaysian government domain; this automated check could not confirm the page. SSL was not skipped. Open it in a browser. Free official enactments, in Malay.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "my/terengganu": [
+   {
+    "name": "Terengganu State Assembly: Enactments",
+    "publisher": "Terengganu State Legislative Assembly",
+    "url": "https://dun.terengganu.gov.my/enakmen/",
+    "kind": "statutes",
+    "language": "Malay",
+    "searchable": true,
+    "check": "HTTP 403; SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://dun.terengganu.gov.my/",
+    "note": "Official Terengganu State Legislative Assembly (Dewan Undangan Negeri) enactments path on the official dun.terengganu.gov.my host, following the same official DUN enactments pattern used for other Malaysian states. The official host returned HTTP 403 to this automated check. SSL was not skipped. Open it in a browser. Free official enactments, in Malay.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "id/south-papua": [
+   {
+    "name": "JDIH South Papua: provincial legal documentation",
+    "publisher": "Government of South Papua Province",
+    "url": "https://jdih.papuaselatan.go.id/",
+    "kind": "statutes",
+    "language": "Indonesian",
+    "searchable": true,
+    "check": "failed TLS (certificate hostname mismatch); SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://jdihn.go.id/",
+    "note": "Official-style JDIH (Jaringan Dokumentasi dan Informasi Hukum) host for South Papua on jdih.papuaselatan.go.id, the usual official provincial legal-documentation pattern. The host responded but its TLS certificate did not match the name; SSL was not skipped. Open it in a browser. Free official legal documentation, in Indonesian. This is not the Southwest Papua (Papua Barat Daya) site.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "ae/ras-al-khaimah": [
+   {
+    "name": "Ras Al Khaimah laws collection",
+    "publisher": "Government of Ras Al Khaimah",
+    "url": "https://laws.rak.ae/",
+    "kind": "statutes",
+    "language": [
+     "Arabic",
+     "English"
+    ],
+    "searchable": true,
+    "check": "failed TLS (unexpected EOF); SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://laws.rak.ae/",
+    "note": "Official Ras Al Khaimah laws host (laws.rak.ae). The official host is an emirate government domain; this automated check could not confirm the page. SSL was not skipped. Open it in a browser. Official emirate legislation, in Arabic and English.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "ae/emirate-of-ajman": [
+   {
+    "name": "Ajman Legal Affairs Department",
+    "publisher": "Ajman Legal Affairs Department",
+    "url": "https://www.ajmanlegal.gov.ae/",
+    "kind": "statutes",
+    "language": [
+     "Arabic",
+     "English"
+    ],
+    "searchable": true,
+    "check": "loaded; Legal Affairs Department homepage, legislation path not confirmed",
+    "source": "unverified",
+    "note": "Official Ajman Legal Affairs Department (دائرة الشؤون القانونية) site. The official homepage loaded on 18 November 2026 with that Arabic title. Dedicated legislation-collection paths were not confirmed this pass (subpaths were rejected). Open it in a browser. Official emirate legal department, in Arabic and English.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "ng/bayelsa-state": [
+   {
+    "name": "Bayelsa State laws",
+    "publisher": "Bayelsa State Government",
+    "url": "https://bayelsastate.gov.ng/laws",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "check": "HTTP 202 with no page title; SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://bayelsastate.gov.ng/",
+    "note": "Official Bayelsa State Government laws path on the official bayelsastate.gov.ng host. The official URL responded on 18 November 2026 with HTTP 202 and no page title, so the laws collection heading was not confirmed. Open it in a browser. Free official state laws, in English.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "ng/kano-state": [
+   {
+    "name": "Kano State House of Assembly",
+    "publisher": "Kano State House of Assembly",
+    "url": "https://kanoassembly.gov.ng/",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "check": "HTTP 403; SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://kanoassembly.gov.ng/",
+    "note": "Official Kano State House of Assembly host (kanoassembly.gov.ng). The official host exists and returned HTTP 403 to this automated check, so the laws collection was not confirmed. SSL was not skipped. Open it in a browser. Official state assembly site, in English.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "lk/central-province": [
+   {
+    "name": "Central Provincial Council statutes",
+    "publisher": "Central Provincial Council",
+    "url": "https://www.cp.gov.lk/web/statutes/",
+    "kind": "statutes",
+    "language": [
+     "Sinhala",
+     "Tamil",
+     "English"
+    ],
+    "searchable": true,
+    "check": "loaded",
+    "source": "read directly",
+    "note": "Official Central Provincial Council statutes page. The official page loaded on 18 November 2026 with the title \"Statutes\". Free to access. Individual texts were not read in this pass. Provincial council statutes are typically published in Sinhala, Tamil and English.",
+    "checked": "2026-11-18"
+   }
+  ],
+  "lk/northern-province": [
+   {
+    "name": "Northern Provincial Council statutes",
+    "publisher": "Northern Provincial Council",
+    "url": "https://np.gov.lk/statutes/",
+    "kind": "statutes",
+    "language": [
+     "Sinhala",
+     "Tamil",
+     "English"
+    ],
+    "searchable": true,
+    "check": "loaded",
+    "source": "read directly",
+    "note": "Official Northern Provincial Council statutes page. The official page loaded on 18 November 2026 with the title \"Statutes - Northern Provincial Council, Sri Lanka\". Free to access. Individual texts were not read in this pass. Provincial council statutes are typically published in Sinhala, Tamil and English.",
+    "checked": "2026-11-18"
    }
   ]
  },
