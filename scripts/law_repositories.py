@@ -7,6 +7,7 @@ import re
 
 SOURCE_KINDS = ("statutes", "gazette", "regulations", "municipal", "court")
 SOURCE_ORIGINS = ("read directly", "search snapshot", "unverified")
+FOLLOWS_NATIONAL_CHECK = "no regional law-making body"
 DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
 HTTP = re.compile(r"^https?://")
 
@@ -27,13 +28,20 @@ def first_level_ids(places):
     return [pid for pid, place in places.items() if is_first_level(place)]
 
 
+def is_follows_national(source):
+    """True when the place has no regional legislature and follows national law."""
+    return isinstance(source, dict) and source.get("check") == FOLLOWS_NATIONAL_CHECK
+
+
 def is_verified(source):
     """A source counts as verified when the official page was read directly.
 
     Legacy records have no source label; a check value of 'loaded' is treated as
-    verified until that record is revisited. Search snapshots and failed fetches
-    are not verified.
+    verified until that record is revisited. Search snapshots, failed fetches,
+    and 'no regional law-making body' markers are not verified.
     """
+    if is_follows_national(source):
+        return False
     if not isinstance(source, dict) or not source.get("url"):
         return False
     origin = source.get("source")
@@ -53,8 +61,17 @@ def coverage(repos, places):
     """
     records = repos.get("places", repos) if isinstance(repos, dict) else {}
     first = first_level_ids(places)
-    have = [pid for pid in first if records.get(pid)]
-    verified = [pid for pid in have if any(is_verified(src) for src in records[pid])]
+
+    def sources(pid):
+        return records.get(pid) or []
+
+    def follows_only(pid):
+        srcs = sources(pid)
+        return bool(srcs) and all(is_follows_national(src) for src in srcs)
+
+    have = [pid for pid in first if sources(pid) and not follows_only(pid)]
+    follows = [pid for pid in first if follows_only(pid)]
+    verified = [pid for pid in have if any(is_verified(src) for src in sources(pid))]
     listed = [pid for pid in have if pid not in verified]
     spine = [pid for pid in places if "/" not in pid]
     none = repos.get("no_online_source") or {}
@@ -64,6 +81,7 @@ def coverage(repos, places):
         "with_any_source": len(have),
         "verified": len(verified),
         "listed_unverified": len(listed),
+        "follows_national": len(follows),
         "spine": len(spine),
         "spine_with_url": len(spine_with_url),
         "spine_with_record": len(set(spine_with_url) | set(none)),
@@ -120,6 +138,15 @@ def problems_in(repos, places, today=None):
                 check(HTTP.match(src["discovery_source"]), f"{tag}: discovery_source must be a URL")
             text = " ".join(str(src.get(k) or "") for k in ("name", "publisher", "check", "note"))
             check("\u2014" not in text, f"{tag}: em dash in text")
+            if is_follows_national(src):
+                check(is_first_level(places.get(pid) or {}), f"{tag}: no regional law-making body is only for first-level regions")
+                check(isinstance(src.get("note"), str) and src["note"].strip(), f"{tag}: no regional law-making body needs a note")
+                parent = pid.split("/", 1)[0] if "/" in pid else ""
+                national_urls = {s.get("url") for s in (records.get(parent) or []) if isinstance(s, dict) and s.get("url")}
+                check(bool(national_urls), f"{tag}: country {parent} has no national law source to point to")
+                check(not url or url in national_urls, f"{tag}: url must be the country's national law source")
+        if any(is_follows_national(s) for s in sources if isinstance(s, dict)) and not all(is_follows_national(s) for s in sources if isinstance(s, dict)):
+            check(False, f"{where}: do not mix a no regional law-making body marker with other sources")
     for group in repos.get("groups") or []:
         tag = f"law-repositories group {group.get('id')}"
         check(group.get("id") and group.get("name"), f"{tag}: needs id and name")

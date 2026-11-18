@@ -116,6 +116,7 @@ def main():
               "", f"**Law-source map:** {law['verified']:,} of {law['first_level']:,} states and regions have at least one verified official law source "
               f"(the official page loaded when checked, or was later marked read directly). "
               f"A further {law['listed_unverified']:,} have a listed source that has not yet been confirmed. "
+              f"{law['follows_national']:,} have no regional law-making body and follow national law. "
               f"Of {law['spine']} countries and territories, {law['spine_with_url']} have a law-source URL and "
               f"{law['no_online_source']} are marked as having no official online source found.",
               "", f"**Place photos:** {len(photos)} places show a photo; {sum(1 for p in photos.values() if p.get('review') == 'pending')} await Luke's review.",
