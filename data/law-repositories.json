@@ -6480,6 +6480,18 @@
     "check": "Search-index snapshot identifies this provincial gazette archive; direct access was blocked.",
     "checked": "2026-11-08",
     "note": "Gazette archive may have coverage gaps; check more recent official publications."
+   },
+   {
+    "name": "Northern Cape Provincial Legislature",
+    "publisher": "Northern Cape Provincial Legislature",
+    "url": "https://www.ncpleg.gov.za/",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "check": "loaded; legislature homepage, Acts collection heading not confirmed",
+    "source": "unverified",
+    "note": "Official Northern Cape Provincial Legislature site. The official homepage loaded on 19 November 2026 with the title \"Northern Cape Provincial Legislature (NCPL)\". A dedicated Acts collection heading was not confirmed this pass (the /acts path returned no title). Open it in a browser. Official provincial legislature, in English.",
+    "checked": "2026-11-19"
    }
   ],
   "za/mpumalanga": [
@@ -28882,6 +28894,69 @@
     "check": "no regional law-making body",
     "checked": "2026-11-19",
     "note": "Qatari municipalities are local administrative units and have no legislature. National law applies. Municipal authorities may issue limited local rules."
+   }
+  ],
+  "lk/uva-province": [
+   {
+    "name": "Uva Provincial Council statutes",
+    "publisher": "Uva Provincial Council",
+    "url": "https://www.up.gov.lk/publications/statutes/",
+    "kind": "statutes",
+    "language": [
+     "Sinhala",
+     "Tamil",
+     "English"
+    ],
+    "searchable": true,
+    "check": "loaded",
+    "source": "read directly",
+    "note": "Official Uva Provincial Council statutes page. The official page loaded on 19 November 2026 with the title \"Statutes - Uva Provincial Council - Official Web Portal\". Free to access. Individual texts were not read in this pass. Provincial council statutes are typically published in Sinhala, Tamil and English.",
+    "checked": "2026-11-19"
+   }
+  ],
+  "ng/oyo-state": [
+   {
+    "name": "Oyo State Government laws",
+    "publisher": "Oyo State Government",
+    "url": "https://oyostate.gov.ng/laws",
+    "kind": "statutes",
+    "language": "English",
+    "searchable": true,
+    "check": "HTTP 403; official Laws title seen; SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://oyostate.gov.ng/",
+    "note": "Official Oyo State Government laws page on the official oyostate.gov.ng host. The official URL responded on 19 November 2026 with HTTP 403, but the page title was \"Oyo State Government | Laws\", so this is the state's laws collection. Open it in a browser. Free official state laws, in English.",
+    "checked": "2026-11-19"
+   }
+  ],
+  "id/riau": [
+   {
+    "name": "JDIH Riau: provincial legal documentation",
+    "publisher": "Government of Riau Province",
+    "url": "https://jdih.riau.go.id/",
+    "kind": "statutes",
+    "language": "Indonesian",
+    "searchable": true,
+    "check": "failed TLS (unexpected EOF); HTTP on the same host returned 500; SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://jdihn.go.id/",
+    "note": "Official-style JDIH (Jaringan Dokumentasi dan Informasi Hukum) host for Riau on jdih.riau.go.id, the usual official provincial legal-documentation pattern. The official host exists: HTTPS failed a TLS check (SSL was not skipped) and HTTP returned 500, so the collection heading was not confirmed. Open it in a browser. Free official legal documentation, in Indonesian.",
+    "checked": "2026-11-19"
+   }
+  ],
+  "id/highland-papua": [
+   {
+    "name": "JDIH Highland Papua: provincial legal documentation",
+    "publisher": "Government of Highland Papua",
+    "url": "https://jdih.papuapegunungan.go.id/",
+    "kind": "statutes",
+    "language": "Indonesian",
+    "searchable": true,
+    "check": "failed TLS (unexpected EOF); HTTP on the same host returned 500; SSL was not skipped",
+    "source": "unverified",
+    "discovery_source": "https://jdihn.go.id/",
+    "note": "Official-style JDIH host for Highland Papua on jdih.papuapegunungan.go.id. The host exists: HTTPS failed a TLS check (SSL was not skipped) and HTTP returned 500, so the collection heading was not confirmed. The main provincial site has previously appeared unfinished, so open it in a browser and check that a legal collection is actually published. Free official legal documentation when available, in Indonesian.",
+    "checked": "2026-11-19"
    }
   ]
  },
