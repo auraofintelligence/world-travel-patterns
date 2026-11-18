@@ -1,6 +1,6 @@
 # Automation checklist
 
-What future automations should check, and when. Generated 2026-11-12 by `scripts/recheck_plan.py` from repo data (machine copy: `config/recheck-plan.json`). Rebuild instead of editing by hand.
+What future automations should check, and when. Generated 2026-11-18 by `scripts/recheck_plan.py` from repo data (machine copy: `config/recheck-plan.json`). Rebuild instead of editing by hand.
 
 Rules that always apply: a failed fetch is not evidence of a change; never use projected or third-party dates; travel windows (config/cadence.json phases: 90, 30, 7 days out, daily in place) tighten everything below.
 
@@ -37,13 +37,6 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 
 | Date | Kind | Place | What | Check |
 |---|---|---|---|---|
-| 2026-11-12 | law-or-rule-date | cl/los-rios-region | local-law: ...es time slot, has limited capacity and is accompanied by a ranger. The page announces a second departure time from 12 November 2026, without treating t | Recheck the official source about 60 days before, and again on the date. |
-| 2026-11-13 | law-or-rule-date | cl/santiago-metropolitan-region | local-law: Parque Nacional Río Clarillo: The Arboretum trail is specifically closed from 9 to 13 November 2026 inclusive for scien | Recheck the official source about 60 days before, and again on the date. |
-| 2026-11-13 | law-or-rule-date | us/new-jersey | psychoactive-substances: ...stribution licences could sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2 | Recheck the official source about 60 days before, and again on the date. |
-| 2026-11-14 | law-or-rule-date | us/new-jersey | psychoactive-substances: ...d sell low-dose hemp drinks (no more than 5 mg THC a serving, 10 mg a container) only until 13 November 2026; from 14 November 2026 those drinks are tr | Recheck the official source about 60 days before, and again on the date. |
-| 2026-11-15 | election | cv | Presidential election | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
-| 2026-11-15 | law-or-rule-date | la | ancient-sites-and-mysteries: Foreigners 30,000 kip, rising to 60,000 kip from 15 November 2026; pay on site | Recheck the official source about 60 days before, and again on the date. |
-| 2026-11-16 | law-or-rule-date | it/campania | local-law: Naples has a mayoral order for its nightlife (movida) areas, in force from 16 October to 16 November 2026. Areas include the | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11 (month only) | law-or-rule-date | id/yogyakarta | local-law: Reports of a full pedestrian (no fuel-powered vehicles) plan for Malioboro from November 2026 came only from news | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11 (month only) | law-or-rule-date | us/virginia | zone-requirements: ...not guarantee parking. The park says the main trailhead lot was closed from 4 May 2026 for work due to finish by November 2026; overflow lots are | Recheck the official source about 60 days before, and again on the date. |
 | 2026-11-29 | election | ch | Federal referendum | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
@@ -180,7 +173,7 @@ Not in the repo yet: Brisbane Writers Festival 2027 (no record found in data/; a
 
 Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, an open watch item or legacy-baseline evidence; monthly = high degree of caution, pending event dates, dated rules, elections or snapshot-only evidence; quarterly = only confirm-in-writing gaps.
 
-626 locations have specific watch items.
+624 locations have specific watch items.
 
 | Place | Advisory | Recheck | Why | Watch items |
 |---|---|---|---|---|
@@ -342,9 +335,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ck | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | cl | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |
 | cl/araucania-region | Exercise a high degree of caution | monthly | dated rule | zone-requirements date 2026-12-15; zone-requirements date 2026-12-31 |
-| cl/los-rios-region | Exercise a high degree of caution | monthly | dated rule | local-law date 2026-11-12 |
 | cl/rapa-nui | Exercise a high degree of caution | monthly | snapshot evidence |  |
-| cl/santiago-metropolitan-region | Exercise a high degree of caution | monthly | dated rule | local-law date 2026-11-13 |
 | cm | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | cn/beijing | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cn/chongqing | Exercise a high degree of caution | monthly | snapshot evidence |  |
@@ -365,7 +356,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | co/magdalena-department | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | cq |  | monthly | snapshot evidence |  |
 | cr | Exercise a high degree of caution | monthly | snapshot evidence |  |
-| cv |  | monthly | confirm in writing, election, snapshot evidence | election 2026-11-15; 1 confirm-in-writing |
+| cv |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | cw |  | monthly | snapshot evidence |  |
 | cx |  | monthly | snapshot evidence |  |
 | de/baden-wurttemberg | Exercise normal safety precautions | monthly | snapshot evidence |  |
@@ -495,7 +486,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | in__nagaland |  | monthly | pending event | pending date: Hornbill Festival 2027 (usually 1 to 10 Dec) |
 | io |  | monthly | confirm in writing, snapshot evidence | 1 confirm-in-writing |
 | it/abruzzo | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| it/campania | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | local-law date 2026-11-16 |
+| it/campania | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | it/emilia-romagna | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | it/lazio | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | ancient-sites-and-mysteries date 2027-03-27 |
 | it/liguria | Exercise normal safety precautions | monthly | snapshot evidence |  |
@@ -548,7 +539,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ky |  | monthly | snapshot evidence |  |
 | kz | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | kz/jambyl-region | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| la | Exercise a high degree of caution | monthly | confirm in writing, dated rule, snapshot evidence | ancient-sites-and-mysteries date 2026-11-15; 5 confirm-in-writing |
+| la | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | la/champasak-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | la/xiangkhouang-province | Exercise a high degree of caution | monthly | snapshot evidence |  |
 | lc |  | monthly | confirm in writing, snapshot evidence | 4 confirm-in-writing |
@@ -767,7 +758,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | us/nebraska | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/nevada | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/new-hampshire | Exercise normal safety precautions | monthly | snapshot evidence |  |
-| us/new-jersey | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | psychoactive-substances date 2026-11-13; psychoactive-substances date 2026-11-14 |
+| us/new-jersey | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/new-mexico | Exercise normal safety precautions | monthly | dated rule, snapshot evidence | psychoactive-substances date 2027-12-31 |
 | us/new-york | Exercise normal safety precautions | monthly | snapshot evidence |  |
 | us/north-carolina | Exercise normal safety precautions | monthly | snapshot evidence |  |
