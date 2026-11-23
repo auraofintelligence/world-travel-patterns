@@ -1,14 +1,14 @@
 {
  "summary": {
-  "generated_on": "2026-11-22",
+  "generated_on": "2026-11-23",
   "mode": "public",
   "place_passes": 296,
-  "pattern_items": 1655,
+  "pattern_items": 1870,
   "by_reason": {
    "never-checked": 1053,
-   "source-changed": 520,
-   "source-dead": 73,
-   "over-budget": 9
+   "source-changed": 740,
+   "source-dead": 71,
+   "over-budget": 6
   },
   "watch_checks": 0
  },
@@ -37,6 +37,18 @@
      "budget_days": 180
     },
     {
+     "pattern": "australian-law-abroad",
+     "reason": "source-changed",
+     "age_days": 21,
+     "budget_days": 180
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "source-changed",
+     "age_days": 23,
+     "budget_days": 365
+    },
+    {
      "pattern": "local-law",
      "reason": "never-checked",
      "age_days": null,
@@ -57,7 +69,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 90
     },
     {
@@ -79,7 +91,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -91,7 +103,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -103,19 +115,31 @@
     {
      "pattern": "entry",
      "reason": "source-dead",
-     "age_days": 22,
+     "age_days": 23,
+     "budget_days": 90
+    },
+    {
+     "pattern": "local-law",
+     "reason": "source-changed",
+     "age_days": 21,
      "budget_days": 90
     },
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 19,
      "budget_days": 90
     },
     {
@@ -127,7 +151,59 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "fj",
+   "name": "Fiji",
+   "kind": "country",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-dead",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "entry",
+     "reason": "source-changed",
+     "age_days": 23,
+     "budget_days": 90
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -155,13 +231,13 @@
     {
      "pattern": "entry",
      "reason": "source-changed",
-     "age_days": 22,
+     "age_days": 23,
      "budget_days": 90
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -173,8 +249,72 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "ca",
+   "name": "Canada",
+   "kind": "country",
+   "tags": [
+    "first-nations"
+   ],
+   "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "births-and-family-support",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 365
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "source-changed",
+     "age_days": 19,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
     },
     {
      "pattern": "zone-requirements",
@@ -195,7 +335,13 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
      "budget_days": 90
     },
     {
@@ -221,50 +367,16 @@
    ],
    "due": [
     {
-     "pattern": "activities",
-     "reason": "source-dead",
-     "age_days": 21,
-     "budget_days": 90
-    },
-    {
      "pattern": "drone-pilot-pathway",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
     },
     {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
+     "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 18,
      "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "fj",
-   "name": "Fiji",
-   "kind": "country",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "source-dead",
-     "age_days": 21,
-     "budget_days": 90
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
     },
     {
      "pattern": "works-and-purpose",
@@ -275,13 +387,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
+     "age_days": 22,
      "budget_days": 90
     }
    ]
@@ -297,7 +403,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -309,13 +415,13 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 22,
+     "age_days": 23,
      "budget_days": 365
     },
     {
@@ -327,7 +433,7 @@
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 90
     },
     {
@@ -373,8 +479,66 @@
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
+    },
+    {
+     "pattern": "works-and-purpose",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "nc",
+   "name": "New Caledonia",
+   "kind": "territory",
+   "tags": [
+    "oceania"
+   ],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
     },
     {
      "pattern": "works-and-purpose",
@@ -408,13 +572,31 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "births-and-family-support",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "source-changed",
+     "age_days": 15,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
      "budget_days": 90
     },
     {
      "pattern": "psychoactive-substances",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -426,13 +608,13 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
      "reason": "source-changed",
-     "age_days": 15,
+     "age_days": 16,
      "budget_days": 90
     }
    ]
@@ -448,14 +630,20 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "works-and-purpose",
@@ -494,7 +682,7 @@
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -512,7 +700,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -534,13 +722,13 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 22,
+     "age_days": 23,
      "budget_days": 365
     },
     {
@@ -548,6 +736,12 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "works-and-purpose",
@@ -558,7 +752,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-dead",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 90
     }
    ]
@@ -574,13 +768,13 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-dead",
-     "age_days": 22,
+     "age_days": 23,
      "budget_days": 365
     },
     {
@@ -592,7 +786,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-dead",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 90
     }
    ]
@@ -608,7 +802,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -620,7 +814,7 @@
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 90
     },
     {
@@ -632,7 +826,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 90
     }
    ]
@@ -648,7 +842,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -666,13 +860,13 @@
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "psychoactive-substances",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -698,10 +892,22 @@
    ],
    "due": [
     {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 19,
+     "budget_days": 365
+    },
+    {
      "pattern": "drone-pilot-pathway",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "works-and-purpose",
@@ -712,7 +918,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 90
     }
    ]
@@ -732,6 +938,12 @@
      "budget_days": 180
     },
     {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
      "pattern": "works-and-purpose",
      "reason": "never-checked",
      "age_days": null,
@@ -740,13 +952,13 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     }
    ]
@@ -768,7 +980,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -778,50 +990,10 @@
      "budget_days": 180
     },
     {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "source-changed",
-     "age_days": 20,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "nc",
-   "name": "New Caledonia",
-   "kind": "territory",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 90
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
     },
     {
      "pattern": "works-and-purpose",
@@ -832,7 +1004,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 90
     },
     {
@@ -878,7 +1050,13 @@
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -916,9 +1094,15 @@
      "budget_days": 180
     },
     {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
      "pattern": "visa-preparation",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -930,7 +1114,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 90
     }
    ]
@@ -962,6 +1146,12 @@
      "budget_days": 90
     },
     {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -976,7 +1166,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 90
     }
    ]
@@ -996,6 +1186,12 @@
      "budget_days": 180
     },
     {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
      "pattern": "works-and-purpose",
      "reason": "never-checked",
      "age_days": null,
@@ -1004,7 +1200,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 90
     },
     {
@@ -1026,19 +1222,25 @@
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 15,
+     "age_days": 16,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
      "budget_days": 90
     },
     {
@@ -1050,7 +1252,13 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "source-changed",
+     "age_days": 16,
      "budget_days": 90
     }
    ]
@@ -1066,7 +1274,7 @@
     {
      "pattern": "culture-cycles",
      "reason": "source-dead",
-     "age_days": 22,
+     "age_days": 23,
      "budget_days": 365
     },
     {
@@ -1084,7 +1292,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 90
     },
     {
@@ -1096,36 +1304,54 @@
    ]
   },
   {
-   "place": "ca",
-   "name": "Canada",
-   "kind": "country",
+   "place": "pn",
+   "name": "Pitcairn Islands",
+   "kind": "territory",
    "tags": [
-    "first-nations"
+    "oceania"
    ],
    "due": [
     {
+     "pattern": "affection-and-relationships",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
      "pattern": "ancient-sites-and-mysteries",
-     "reason": "source-changed",
-     "age_days": 16,
+     "reason": "never-checked",
+     "age_days": null,
      "budget_days": 180
     },
     {
-     "pattern": "culture-cycles",
-     "reason": "source-changed",
-     "age_days": 16,
+     "pattern": "births-and-family-support",
+     "reason": "never-checked",
+     "age_days": null,
      "budget_days": 365
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
     },
     {
      "pattern": "works-and-purpose",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
     }
    ]
   },
@@ -1212,7 +1438,7 @@
     {
      "pattern": "zone-requirements",
      "reason": "source-changed",
-     "age_days": 22,
+     "age_days": 23,
      "budget_days": 90
     }
    ]
@@ -1264,7 +1490,7 @@
     {
      "pattern": "zone-requirements",
      "reason": "source-dead",
-     "age_days": 22,
+     "age_days": 23,
      "budget_days": 90
     }
    ]
@@ -1287,7 +1513,7 @@
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 180
     },
     {
@@ -1305,13 +1531,19 @@
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 15,
+     "age_days": 16,
      "budget_days": 90
     },
     {
      "pattern": "money-and-cost",
      "reason": "never-checked",
      "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "source-changed",
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -1343,7 +1575,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -1373,7 +1605,7 @@
     {
      "pattern": "visa-preparation",
      "reason": "over-budget",
-     "age_days": 463,
+     "age_days": 464,
      "budget_days": 90
     },
     {
@@ -1417,13 +1649,13 @@
     {
      "pattern": "visa-preparation",
      "reason": "over-budget",
-     "age_days": 463,
+     "age_days": 464,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -1443,14 +1675,20 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 94,
+     "age_days": 95,
      "budget_days": 90
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
@@ -1469,14 +1707,26 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 94,
+     "age_days": 95,
      "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 19,
+     "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
@@ -1495,20 +1745,32 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 94,
+     "age_days": 95,
      "budget_days": 90
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
@@ -1527,32 +1789,44 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 94,
+     "age_days": 95,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 365
     },
     {
      "pattern": "entry",
      "reason": "source-changed",
-     "age_days": 22,
+     "age_days": 23,
      "budget_days": 90
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
     }
    ]
   },
@@ -1565,26 +1839,38 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 94,
+     "age_days": 95,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
@@ -1603,31 +1889,37 @@
     {
      "pattern": "activities",
      "reason": "over-budget",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "source-changed",
+     "age_days": 16,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -1646,21 +1938,39 @@
    "due": [
     {
      "pattern": "activities",
-     "reason": "over-budget",
-     "age_days": 93,
+     "reason": "source-changed",
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "source-changed",
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
@@ -1679,25 +1989,31 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -1717,25 +2033,25 @@
     {
      "pattern": "activities",
      "reason": "over-budget",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 15,
+     "age_days": 16,
      "budget_days": 90
     }
    ]
@@ -1749,49 +2065,49 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "births-and-family-support",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 365
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -1811,19 +2127,31 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -1842,27 +2170,39 @@
    "due": [
     {
      "pattern": "activities",
-     "reason": "over-budget",
-     "age_days": 93,
+     "reason": "source-changed",
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 180
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
     },
     {
      "pattern": "drone-pilot-pathway",
      "reason": "source-dead",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
@@ -1881,31 +2221,37 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -1925,19 +2271,31 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "entry",
      "reason": "source-changed",
-     "age_days": 22,
+     "age_days": 23,
+     "budget_days": 90
+    },
+    {
+     "pattern": "local-law",
+     "reason": "source-changed",
+     "age_days": 16,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
      "budget_days": 90
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -1957,14 +2315,20 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
@@ -1982,21 +2346,33 @@
    "due": [
     {
      "pattern": "activities",
-     "reason": "over-budget",
-     "age_days": 93,
+     "reason": "source-changed",
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 180
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     }
    ]
   },
@@ -2009,25 +2385,37 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     }
    ]
@@ -2040,38 +2428,44 @@
    "due": [
     {
      "pattern": "activities",
-     "reason": "source-dead",
-     "age_days": 93,
+     "reason": "source-changed",
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 14,
+     "age_days": 15,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
      "budget_days": 90
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -2091,31 +2485,31 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 180
     },
     {
      "pattern": "drone-pilot-pathway",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-dead",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -2135,25 +2529,31 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -2173,19 +2573,25 @@
     {
      "pattern": "activities",
      "reason": "over-budget",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -2205,13 +2611,13 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
@@ -2223,13 +2629,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -2248,14 +2654,14 @@
    "due": [
     {
      "pattern": "activities",
-     "reason": "source-dead",
-     "age_days": 93,
+     "reason": "source-changed",
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -2267,19 +2673,19 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "money-and-cost",
      "reason": "source-dead",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 90
     },
     {
      "pattern": "visa-preparation",
-     "reason": "source-dead",
-     "age_days": 19,
+     "reason": "source-changed",
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -2299,7 +2705,19 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "source-changed",
+     "age_days": 16,
      "budget_days": 90
     }
    ]
@@ -2313,19 +2731,31 @@
     {
      "pattern": "activities",
      "reason": "over-budget",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 90
     },
     {
@@ -2345,31 +2775,37 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "drone-pilot-pathway",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 15,
+     "age_days": 16,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
      "budget_days": 90
     },
     {
@@ -2389,31 +2825,43 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "source-changed",
+     "age_days": 17,
      "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -2433,31 +2881,37 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -2477,19 +2931,19 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -2509,49 +2963,49 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "drone-pilot-pathway",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "entry",
      "reason": "source-changed",
-     "age_days": 22,
+     "age_days": 23,
      "budget_days": 90
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 15,
+     "age_days": 16,
      "budget_days": 90
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-dead",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -2571,19 +3025,31 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
     },
     {
      "pattern": "entry",
      "reason": "source-changed",
-     "age_days": 22,
+     "age_days": 23,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -2603,19 +3069,19 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 93,
+     "age_days": 94,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -2635,25 +3101,25 @@
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "drone-pilot-pathway",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 22,
+     "age_days": 23,
      "budget_days": 90
     },
     {
@@ -2673,7 +3139,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -2697,7 +3163,13 @@
     {
      "pattern": "entry",
      "reason": "source-changed",
-     "age_days": 22,
+     "age_days": 23,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -2723,7 +3195,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -2733,9 +3205,15 @@
      "budget_days": 180
     },
     {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
@@ -2747,31 +3225,31 @@
     {
      "pattern": "entry",
      "reason": "source-changed",
-     "age_days": 22,
+     "age_days": 23,
      "budget_days": 90
     },
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 90
     },
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "psychoactive-substances",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 90
     },
     {
@@ -2797,7 +3275,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -2821,13 +3299,131 @@
     {
      "pattern": "entry",
      "reason": "source-changed",
-     "age_days": 22,
+     "age_days": 23,
+     "budget_days": 90
+    },
+    {
+     "pattern": "local-law",
+     "reason": "source-changed",
+     "age_days": 21,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "never-checked",
      "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "li",
+   "name": "Liechtenstein",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "entry",
+     "reason": "source-changed",
+     "age_days": 23,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "lu",
+   "name": "Luxembourg",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-dead",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 365
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "entry",
+     "reason": "source-changed",
+     "age_days": 23,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -2847,7 +3443,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -2875,6 +3471,12 @@
      "budget_days": 90
     },
     {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
      "pattern": "drone-pilot-pathway",
      "reason": "never-checked",
      "age_days": null,
@@ -2883,7 +3485,13 @@
     {
      "pattern": "entry",
      "reason": "source-changed",
-     "age_days": 22,
+     "age_days": 23,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -2921,7 +3529,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -2933,25 +3541,81 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 365
     },
     {
      "pattern": "drone-pilot-pathway",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 22,
+     "age_days": 23,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "ax",
+   "name": "Åland Islands",
+   "kind": "territory",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "affection-and-relationships",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "births-and-family-support",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "entry",
+     "reason": "source-changed",
+     "age_days": 23,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "source-changed",
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -2971,7 +3635,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -2983,13 +3647,13 @@
     {
      "pattern": "entry",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -3009,13 +3673,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3035,7 +3699,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3053,7 +3717,7 @@
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
@@ -3061,6 +3725,18 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
@@ -3079,7 +3755,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3091,13 +3767,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3117,7 +3793,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3135,13 +3811,13 @@
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-dead",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 90
     },
     {
@@ -3173,13 +3849,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3199,7 +3875,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3211,7 +3887,7 @@
     {
      "pattern": "visa-preparation",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3231,7 +3907,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3243,13 +3919,13 @@
     {
      "pattern": "entry",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3269,7 +3945,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3277,6 +3953,12 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 365
     },
     {
      "pattern": "drone-pilot-pathway",
@@ -3287,7 +3969,19 @@
     {
      "pattern": "entry",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "local-law",
+     "reason": "source-changed",
+     "age_days": 19,
+     "budget_days": 90
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "source-changed",
+     "age_days": 19,
      "budget_days": 90
     },
     {
@@ -3313,26 +4007,38 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 180
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-dead",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
     }
    ]
   },
@@ -3345,25 +4051,25 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 90
     },
     {
@@ -3383,7 +4089,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3407,7 +4113,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-dead",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 365
     },
     {
@@ -3419,12 +4125,18 @@
     {
      "pattern": "entry",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "local-law",
      "reason": "source-dead",
+     "age_days": 19,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
      "age_days": 18,
      "budget_days": 90
     },
@@ -3457,7 +4169,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3481,13 +4193,19 @@
     {
      "pattern": "entry",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
      "budget_days": 90
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-dead",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 90
     },
     {
@@ -3513,13 +4231,19 @@
     {
      "pattern": "drone-pilot-pathway",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3537,27 +4261,39 @@
    "tags": [],
    "due": [
     {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "drone-pilot-pathway",
      "reason": "source-dead",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3569,22 +4305,16 @@
    ]
   },
   {
-   "place": "bi",
-   "name": "Burundi",
+   "place": "bf",
+   "name": "Burkina Faso",
    "kind": "country",
    "tags": [],
    "due": [
     {
      "pattern": "activities",
-     "reason": "source-dead",
-     "age_days": 21,
+     "reason": "source-changed",
+     "age_days": 22,
      "budget_days": 90
-    },
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
     },
     {
      "pattern": "drone-pilot-pathway",
@@ -3593,9 +4323,15 @@
      "budget_days": 180
     },
     {
+     "pattern": "entry",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -3615,13 +4351,13 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
@@ -3633,13 +4369,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -3657,6 +4393,12 @@
    "tags": [],
    "due": [
     {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "never-checked",
      "age_days": null,
@@ -3669,15 +4411,89 @@
      "budget_days": 180
     },
     {
+     "pattern": "entry",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
+    },
+    {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "bq",
+   "name": "Caribbean Netherlands",
+   "kind": "territory",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "affection-and-relationships",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "source-dead",
+     "age_days": 17,
+     "budget_days": 365
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "source-changed",
+     "age_days": 16,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-dead",
+     "age_days": 17,
      "budget_days": 90
     }
    ]
@@ -3691,25 +4507,119 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 15,
+     "age_days": 16,
      "budget_days": 90
     },
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "km",
+   "name": "Comoros",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-dead",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "entry",
+     "reason": "source-dead",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-dead",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "hr",
+   "name": "Croatia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 19,
+     "budget_days": 365
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
      "budget_days": 90
     }
    ]
@@ -3723,7 +4633,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3735,13 +4645,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -3767,19 +4677,107 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "cz",
+   "name": "Czechia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "ci",
+   "name": "Côte d'Ivoire",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "entry",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -3805,13 +4803,25 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3829,21 +4839,33 @@
    "tags": [],
    "due": [
     {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3863,7 +4885,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3875,7 +4897,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -3893,7 +4915,7 @@
     {
      "pattern": "entry",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3931,7 +4953,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3951,7 +4973,7 @@
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
@@ -3963,13 +4985,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -3995,7 +5017,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 365
     },
     {
@@ -4007,13 +5029,83 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
      "reason": "source-changed",
-     "age_days": 15,
+     "age_days": 16,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "gt",
+   "name": "Guatemala",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "gn",
+   "name": "Guinea",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "entry",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
      "budget_days": 90
     }
    ]
@@ -4027,7 +5119,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4045,7 +5137,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4065,7 +5157,7 @@
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
@@ -4077,14 +5169,64 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "hu",
+   "name": "Hungary",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "births-and-family-support",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "source-dead",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "source-dead",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
     },
     {
      "pattern": "zone-requirements",
@@ -4103,14 +5245,20 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "source-changed",
+     "age_days": 16,
+     "budget_days": 90
     }
    ]
   },
@@ -4123,19 +5271,31 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4155,8 +5315,14 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
     },
     {
      "pattern": "drone-pilot-pathway",
@@ -4167,7 +5333,7 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -4193,13 +5359,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4219,7 +5385,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4231,13 +5397,45 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "lv",
+   "name": "Latvia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
      "budget_days": 90
     }
    ]
@@ -4251,7 +5449,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4267,9 +5465,15 @@
      "budget_days": 180
     },
     {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
+    },
+    {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -4287,65 +5491,33 @@
    "tags": [],
    "due": [
     {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "lu",
-   "name": "Luxembourg",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "activities",
-     "reason": "source-dead",
-     "age_days": 21,
-     "budget_days": 90
-    },
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 365
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4365,7 +5537,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4383,7 +5555,19 @@
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 15,
+     "age_days": 16,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -4403,13 +5587,133 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "mt",
+   "name": "Malta",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
      "age_days": 19,
+     "budget_days": 180
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "md",
+   "name": "Moldova",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "mc",
+   "name": "Monaco",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4429,7 +5733,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4441,13 +5745,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -4465,9 +5769,15 @@
    "tags": [],
    "due": [
     {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -4477,9 +5787,15 @@
      "budget_days": 180
     },
     {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4499,13 +5815,19 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 365
     },
     {
@@ -4517,13 +5839,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     }
    ]
@@ -4537,19 +5859,25 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -4569,31 +5897,37 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "drone-pilot-pathway",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 10,
+     "age_days": 11,
+     "budget_days": 90
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "source-changed",
+     "age_days": 11,
      "budget_days": 90
     },
     {
@@ -4613,20 +5947,70 @@
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "psychoactive-substances",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "pl",
+   "name": "Poland",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-dead",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
     },
     {
      "pattern": "zone-requirements",
@@ -4645,37 +6029,43 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
     },
     {
      "pattern": "drone-pilot-pathway",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -4695,7 +6085,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4719,13 +6109,19 @@
     {
      "pattern": "entry",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
      "budget_days": 90
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 90
     },
     {
@@ -4751,7 +6147,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4763,7 +6159,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -4775,13 +6171,13 @@
     {
      "pattern": "entry",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4793,7 +6189,7 @@
     {
      "pattern": "zone-requirements",
      "reason": "source-changed",
-     "age_days": 15,
+     "age_days": 16,
      "budget_days": 90
     }
    ]
@@ -4807,7 +6203,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4824,6 +6220,50 @@
     },
     {
      "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "sm",
+   "name": "San Marino",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
@@ -4839,7 +6279,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4851,19 +6291,19 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-dead",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -4883,20 +6323,96 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "sc",
+   "name": "Seychelles",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "sk",
+   "name": "Slovakia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
@@ -4915,7 +6431,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4933,25 +6449,25 @@
     {
      "pattern": "entry",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4977,7 +6493,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -4997,31 +6513,81 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-dead",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "se",
+   "name": "Sweden",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "source-changed",
+     "age_days": 16,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -5041,31 +6607,87 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 365
     },
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 15,
+     "age_days": 16,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
      "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
      "reason": "source-changed",
-     "age_days": 15,
+     "age_days": 16,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "tg",
+   "name": "Togo",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "activities",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "entry",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
      "budget_days": 90
     }
    ]
@@ -5079,7 +6701,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -5091,13 +6713,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "visa-preparation",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5117,7 +6739,7 @@
     {
      "pattern": "activities",
      "reason": "source-dead",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -5137,6 +6759,12 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
@@ -5173,13 +6801,13 @@
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     }
    ]
@@ -5193,13 +6821,13 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 365
     },
     {
@@ -5211,7 +6839,7 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -5231,7 +6859,7 @@
     {
      "pattern": "activities",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -5253,9 +6881,21 @@
      "budget_days": 180
     },
     {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -5273,6 +6913,12 @@
    "tags": [],
    "due": [
     {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
      "pattern": "drone-pilot-pathway",
      "reason": "never-checked",
      "age_days": null,
@@ -5281,13 +6927,19 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 90
     },
     {
@@ -5313,13 +6965,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5339,7 +6991,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -5351,13 +7003,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5369,11 +7021,17 @@
    ]
   },
   {
-   "place": "bf",
-   "name": "Burkina Faso",
+   "place": "bi",
+   "name": "Burundi",
    "kind": "country",
    "tags": [],
    "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
     {
      "pattern": "drone-pilot-pathway",
      "reason": "never-checked",
@@ -5383,7 +7041,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5409,13 +7067,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     }
    ]
@@ -5435,7 +7093,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5461,45 +7119,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "ci",
-   "name": "Côte d'Ivoire",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5525,13 +7145,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5563,7 +7183,45 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "do",
+   "name": "Dominican Republic",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5583,13 +7241,19 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5607,15 +7271,21 @@
    "tags": [],
    "due": [
     {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5641,7 +7311,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5661,7 +7331,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 365
     },
     {
@@ -5673,13 +7343,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5705,7 +7375,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5717,27 +7387,39 @@
    ]
   },
   {
-   "place": "gn",
-   "name": "Guinea",
-   "kind": "country",
+   "place": "hk",
+   "name": "Hong Kong",
+   "kind": "territory",
    "tags": [],
    "due": [
     {
-     "pattern": "drone-pilot-pathway",
+     "pattern": "ancient-sites-and-mysteries",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 180
     },
     {
-     "pattern": "year-ahead",
+     "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
      "budget_days": 90
     },
     {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 20,
      "budget_days": 90
     }
    ]
@@ -5757,13 +7439,57 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "lb",
+   "name": "Lebanon",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 19,
+     "budget_days": 180
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5789,13 +7515,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5815,7 +7541,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -5827,13 +7553,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5859,13 +7585,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5891,13 +7617,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5929,7 +7655,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5961,7 +7687,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -5981,7 +7707,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-dead",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 365
     },
     {
@@ -5993,13 +7719,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -6025,7 +7751,71 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "ng",
+   "name": "Nigeria",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "visa-preparation",
+     "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "ps",
+   "name": "Palestine",
+   "kind": "jurisdiction",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -6045,7 +7835,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -6057,13 +7847,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -6095,7 +7885,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -6107,8 +7897,8 @@
    ]
   },
   {
-   "place": "sk",
-   "name": "Slovakia",
+   "place": "si",
+   "name": "Slovenia",
    "kind": "country",
    "tags": [],
    "due": [
@@ -6119,15 +7909,15 @@
      "budget_days": 180
     },
     {
-     "pattern": "languages",
+     "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
+     "age_days": 18,
+     "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -6153,13 +7943,45 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "sy",
+   "name": "Syria",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -6185,13 +8007,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -6211,7 +8033,7 @@
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 365
     },
     {
@@ -6221,9 +8043,15 @@
      "budget_days": 180
     },
     {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -6249,13 +8077,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -6281,13 +8109,51 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "ua",
+   "name": "Ukraine",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 20,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
      "budget_days": 90
     }
    ]
@@ -6299,6 +8165,12 @@
    "tags": [],
    "due": [
     {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
      "pattern": "drone-pilot-pathway",
      "reason": "never-checked",
      "age_days": null,
@@ -6307,13 +8179,13 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     },
     {
@@ -6339,7 +8211,7 @@
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
@@ -6351,13 +8223,13 @@
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 15,
+     "age_days": 16,
      "budget_days": 90
     },
     {
      "pattern": "psychoactive-substances",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 90
     }
    ]
@@ -6375,15 +8247,9 @@
      "budget_days": 180
     },
     {
-     "pattern": "culture-and-protocol",
-     "reason": "source-dead",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
@@ -6393,15 +8259,83 @@
      "budget_days": 180
     },
     {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
      "pattern": "psychoactive-substances",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "ms",
+   "name": "Montserrat",
+   "kind": "territory",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 19,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "source-changed",
+     "age_days": 19,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "source-changed",
+     "age_days": 19,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
      "budget_days": 90
     },
     {
@@ -6419,6 +8353,12 @@
    "tags": [],
    "due": [
     {
+     "pattern": "affection-and-relationships",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "never-checked",
      "age_days": null,
@@ -6427,7 +8367,7 @@
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
@@ -6439,13 +8379,19 @@
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "psychoactive-substances",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -6457,7 +8403,7 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -6475,6 +8421,12 @@
    "tags": [],
    "due": [
     {
+     "pattern": "affection-and-relationships",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "never-checked",
      "age_days": null,
@@ -6483,7 +8435,7 @@
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
@@ -6495,19 +8447,235 @@
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "psychoactive-substances",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "co",
+   "name": "Colombia",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "fi",
+   "name": "Finland",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "xk",
+   "name": "Kosovo",
+   "kind": "jurisdiction",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "ls",
+   "name": "Lesotho",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "me",
+   "name": "Montenegro",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "gs",
+   "name": "South Georgia and the South Sandwich Islands",
+   "kind": "territory",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "affection-and-relationships",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "births-and-family-support",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
      "budget_days": 90
     },
     {
@@ -6561,6 +8729,12 @@
      "budget_days": 365
     },
     {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
      "pattern": "psychoactive-substances",
      "reason": "never-checked",
      "age_days": null,
@@ -6575,14 +8749,14 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     }
    ]
   },
   {
-   "place": "bq",
-   "name": "Caribbean Netherlands",
+   "place": "cx",
+   "name": "Christmas Island",
    "kind": "territory",
    "tags": [],
    "due": [
@@ -6593,9 +8767,21 @@
      "budget_days": 180
     },
     {
-     "pattern": "culture-cycles",
-     "reason": "source-dead",
-     "age_days": 16,
+     "pattern": "births-and-family-support",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
      "budget_days": 365
     },
     {
@@ -6605,21 +8791,89 @@
      "budget_days": 180
     },
     {
-     "pattern": "local-law",
-     "reason": "source-changed",
-     "age_days": 15,
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
      "budget_days": 90
     },
     {
-     "pattern": "psychoactive-substances",
+     "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
-     "reason": "source-dead",
-     "age_days": 16,
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "cc",
+   "name": "Cocos (Keeling) Islands",
+   "kind": "territory",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "births-and-family-support",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "consular",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
      "budget_days": 90
     }
    ]
@@ -6631,6 +8885,12 @@
    "tags": [],
    "due": [
     {
+     "pattern": "affection-and-relationships",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "never-checked",
      "age_days": null,
@@ -6639,7 +8899,7 @@
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
@@ -6651,33 +8911,133 @@
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     }
    ]
   },
   {
-   "place": "fi",
-   "name": "Finland",
+   "place": "dk",
+   "name": "Denmark",
    "kind": "country",
    "tags": [],
    "due": [
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "source-changed",
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "fo",
+   "name": "Faroe Islands",
+   "kind": "territory",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "tf",
+   "name": "French Southern Territories",
+   "kind": "territory",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "affection-and-relationships",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "births-and-family-support",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "health-entry",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
      "budget_days": 90
     },
     {
@@ -6703,7 +9063,7 @@
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
@@ -6715,13 +9075,13 @@
     {
      "pattern": "psychoactive-substances",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -6747,13 +9107,13 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
@@ -6769,15 +9129,21 @@
      "budget_days": 365
     },
     {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
      "pattern": "psychoactive-substances",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -6803,13 +9169,13 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
@@ -6825,15 +9191,21 @@
      "budget_days": 365
     },
     {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
      "pattern": "psychoactive-substances",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -6859,57 +9231,13 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 365
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 365
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "ms",
-   "name": "Montserrat",
-   "kind": "territory",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
+     "age_days": 17,
      "budget_days": 365
     },
     {
@@ -6921,45 +9249,19 @@
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "source-changed",
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "ng",
-   "name": "Nigeria",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -6991,13 +9293,13 @@
     {
      "pattern": "money-and-cost",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "psychoactive-substances",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -7029,13 +9331,13 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
@@ -7045,15 +9347,21 @@
      "budget_days": 180
     },
     {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
      "pattern": "psychoactive-substances",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "year-ahead",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -7079,13 +9387,13 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
@@ -7095,9 +9403,15 @@
      "budget_days": 180
     },
     {
+     "pattern": "money-and-cost",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
      "pattern": "psychoactive-substances",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -7115,15 +9429,53 @@
    ]
   },
   {
-   "place": "ax",
-   "name": "Åland Islands",
+   "place": "sx",
+   "name": "Sint Maarten",
+   "kind": "territory",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "sj",
+   "name": "Svalbard and Jan Mayen",
    "kind": "territory",
    "tags": [],
    "due": [
     {
      "pattern": "affection-and-relationships",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
@@ -7147,13 +9499,71 @@
     {
      "pattern": "psychoactive-substances",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 90
     },
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "bs",
+   "name": "Bahamas",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "local-law",
+     "reason": "source-changed",
+     "age_days": 16,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "source-changed",
+     "age_days": 16,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "no",
+   "name": "Norway",
+   "kind": "country",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "source-changed",
+     "age_days": 17,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "source-changed",
+     "age_days": 16,
      "budget_days": 90
     }
    ]
@@ -7167,19 +9577,19 @@
     {
      "pattern": "drone-pilot-pathway",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 10,
+     "age_days": 11,
      "budget_days": 90
     },
     {
@@ -7199,13 +9609,13 @@
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 365
     },
     {
@@ -7217,7 +9627,7 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -7243,7 +9653,7 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -7275,7 +9685,7 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -7301,7 +9711,7 @@
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
@@ -7319,160 +9729,6 @@
    ]
   },
   {
-   "place": "co",
-   "name": "Colombia",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "hr",
-   "name": "Croatia",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "source-changed",
-     "age_days": 18,
-     "budget_days": 365
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "cz",
-   "name": "Czechia",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "dk",
-   "name": "Denmark",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "do",
-   "name": "Dominican Republic",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "ge",
    "name": "Georgia",
    "kind": "country",
@@ -7481,39 +9737,13 @@
     {
      "pattern": "drone-pilot-pathway",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "gt",
-   "name": "Guatemala",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -7539,45 +9769,7 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "hu",
-   "name": "Hungary",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "births-and-family-support",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "source-dead",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -7597,7 +9789,7 @@
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 365
     },
     {
@@ -7609,7 +9801,7 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -7629,19 +9821,13 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "source-dead",
-     "age_days": 16,
-     "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -7661,7 +9847,7 @@
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
@@ -7681,7 +9867,7 @@
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 365
     },
     {
@@ -7693,85 +9879,7 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "lb",
-   "name": "Lebanon",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "source-changed",
-     "age_days": 18,
-     "budget_days": 180
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "mt",
-   "name": "Malta",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "source-changed",
-     "age_days": 18,
-     "budget_days": 180
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "md",
-   "name": "Moldova",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -7789,15 +9897,21 @@
    "tags": [],
    "due": [
     {
+     "pattern": "culture-and-protocol",
+     "reason": "source-changed",
+     "age_days": 22,
+     "budget_days": 365
+    },
+    {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 365
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -7823,7 +9937,7 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -7843,13 +9957,13 @@
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -7875,59 +9989,7 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "ps",
-   "name": "Palestine",
-   "kind": "jurisdiction",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "pl",
-   "name": "Poland",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -7959,7 +10021,7 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -7985,7 +10047,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 18,
+     "age_days": 19,
      "budget_days": 365
     },
     {
@@ -7996,58 +10058,6 @@
     },
     {
      "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "se",
-   "name": "Sweden",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "sy",
-   "name": "Syria",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
@@ -8063,77 +10073,13 @@
     {
      "pattern": "drone-pilot-pathway",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "tg",
-   "name": "Togo",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "ua",
-   "name": "Ukraine",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -8159,7 +10105,7 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -8185,7 +10131,7 @@
     {
      "pattern": "culture-cycles",
      "reason": "source-changed",
-     "age_days": 20,
+     "age_days": 21,
      "budget_days": 365
     },
     {
@@ -8235,7 +10181,7 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -8255,33 +10201,13 @@
     {
      "pattern": "drone-pilot-pathway",
      "reason": "source-changed",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    }
-   ]
-  },
-  {
-   "place": "lv",
-   "name": "Latvia",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     }
    ]
@@ -8295,13 +10221,13 @@
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-dead",
-     "age_days": 16,
+     "age_days": 17,
      "budget_days": 180
     },
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     },
     {
@@ -8313,53 +10239,7 @@
     {
      "pattern": "languages",
      "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    }
-   ]
-  },
-  {
-   "place": "no",
-   "name": "Norway",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "source-changed",
-     "age_days": 16,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
-     "budget_days": 365
-    }
-   ]
-  },
-  {
-   "place": "hk",
-   "name": "Hong Kong",
-   "kind": "territory",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "source-changed",
-     "age_days": 21,
+     "age_days": 22,
      "budget_days": 365
     }
    ]
@@ -8409,7 +10289,7 @@
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 90
     },
     {
@@ -8433,7 +10313,7 @@
     {
      "pattern": "zone-requirements",
      "reason": "source-changed",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     }
    ]
@@ -8501,7 +10381,7 @@
     {
      "pattern": "zone-requirements",
      "reason": "source-dead",
-     "age_days": 19,
+     "age_days": 20,
      "budget_days": 90
     }
    ]
@@ -8581,14 +10461,14 @@
     {
      "pattern": "zone-requirements",
      "reason": "source-dead",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 90
     }
    ]
   },
   {
-   "place": "mt/port-region",
-   "name": "Port Region",
+   "place": "np/gandaki-province",
+   "name": "Gandaki Province",
    "kind": "region",
    "tags": [],
    "due": [
@@ -8600,8 +10480,8 @@
     },
     {
      "pattern": "ancient-sites-and-mysteries",
-     "reason": "source-changed",
-     "age_days": 17,
+     "reason": "never-checked",
+     "age_days": null,
      "budget_days": 180
     },
     {
@@ -8637,7 +10517,93 @@
     {
      "pattern": "local-law",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
+     "budget_days": 90
+    },
+    {
+     "pattern": "money-and-cost",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "psychoactive-substances",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "seasons-and-flow",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "year-ahead",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "zone-requirements",
+     "reason": "source-changed",
+     "age_days": 16,
+     "budget_days": 90
+    }
+   ]
+  },
+  {
+   "place": "mt/port-region",
+   "name": "Port Region",
+   "kind": "region",
+   "tags": [],
+   "due": [
+    {
+     "pattern": "affection-and-relationships",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 90
+    },
+    {
+     "pattern": "ancient-sites-and-mysteries",
+     "reason": "source-changed",
+     "age_days": 18,
+     "budget_days": 180
+    },
+    {
+     "pattern": "births-and-family-support",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-and-protocol",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "culture-cycles",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "drone-pilot-pathway",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 180
+    },
+    {
+     "pattern": "languages",
+     "reason": "never-checked",
+     "age_days": null,
+     "budget_days": 365
+    },
+    {
+     "pattern": "local-law",
+     "reason": "source-changed",
+     "age_days": 18,
      "budget_days": 90
     },
     {
@@ -8687,7 +10653,7 @@
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 180
     },
     {
@@ -8711,7 +10677,7 @@
     {
      "pattern": "local-law",
      "reason": "source-dead",
-     "age_days": 10,
+     "age_days": 11,
      "budget_days": 90
     },
     {
@@ -8767,7 +10733,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 365
     },
     {
@@ -8835,7 +10801,7 @@
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 180
     },
     {
@@ -8933,7 +10899,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 365
     },
     {
@@ -9013,7 +10979,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 365
     },
     {
@@ -9099,7 +11065,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 365
     },
     {
@@ -9179,7 +11145,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 365
     },
     {
@@ -9265,7 +11231,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 365
     },
     {
@@ -9351,7 +11317,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 365
     },
     {
@@ -9419,7 +11385,7 @@
     {
      "pattern": "ancient-sites-and-mysteries",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 180
     },
     {
@@ -9517,7 +11483,7 @@
     {
      "pattern": "culture-and-protocol",
      "reason": "source-changed",
-     "age_days": 17,
+     "age_days": 18,
      "budget_days": 365
     },
     {
@@ -9567,52 +11533,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "pn",
-   "name": "Pitcairn Islands",
-   "kind": "territory",
-   "tags": [
-    "oceania"
-   ],
-   "due": [
-    {
-     "pattern": "affection-and-relationships",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "births-and-family-support",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "works-and-purpose",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
     }
    ]
   },
@@ -10529,150 +12449,6 @@
    ]
   },
   {
-   "place": "cx",
-   "name": "Christmas Island",
-   "kind": "territory",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "births-and-family-support",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "cc",
-   "name": "Cocos (Keeling) Islands",
-   "kind": "territory",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "births-and-family-support",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "consular",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "km",
-   "name": "Comoros",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "dm",
    "name": "Dominica",
    "kind": "country",
@@ -10719,68 +12495,6 @@
    ]
   },
   {
-   "place": "tf",
-   "name": "French Southern Territories",
-   "kind": "territory",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "affection-and-relationships",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "births-and-family-support",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "gi",
    "name": "Gibraltar",
    "kind": "territory",
@@ -10798,118 +12512,6 @@
      "age_days": null,
      "budget_days": 180
     },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "xk",
-   "name": "Kosovo",
-   "kind": "jurisdiction",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "ls",
-   "name": "Lesotho",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "li",
-   "name": "Liechtenstein",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "mc",
-   "name": "Monaco",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "me",
-   "name": "Montenegro",
-   "kind": "country",
-   "tags": [],
-   "due": [
     {
      "pattern": "zone-requirements",
      "reason": "never-checked",
@@ -10983,178 +12585,6 @@
    ]
   },
   {
-   "place": "sm",
-   "name": "San Marino",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "sc",
-   "name": "Seychelles",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "sx",
-   "name": "Sint Maarten",
-   "kind": "territory",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "local-law",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "si",
-   "name": "Slovenia",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "gs",
-   "name": "South Georgia and the South Sandwich Islands",
-   "kind": "territory",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "affection-and-relationships",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "births-and-family-support",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "health-entry",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
    "place": "sr",
    "name": "Suriname",
    "kind": "country",
@@ -11177,38 +12607,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    },
-    {
-     "pattern": "zone-requirements",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "sj",
-   "name": "Svalbard and Jan Mayen",
-   "kind": "territory",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "births-and-family-support",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
     },
     {
      "pattern": "zone-requirements",
@@ -11259,40 +12657,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 90
-    }
-   ]
-  },
-  {
-   "place": "bs",
-   "name": "Bahamas",
-   "kind": "country",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    }
-   ]
-  },
-  {
-   "place": "fo",
-   "name": "Faroe Islands",
-   "kind": "territory",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
     }
    ]
   },
@@ -11769,80 +13133,6 @@
      "reason": "never-checked",
      "age_days": null,
      "budget_days": 365
-    }
-   ]
-  },
-  {
-   "place": "np/gandaki-province",
-   "name": "Gandaki Province",
-   "kind": "region",
-   "tags": [],
-   "due": [
-    {
-     "pattern": "affection-and-relationships",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "ancient-sites-and-mysteries",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "births-and-family-support",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-and-protocol",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "culture-cycles",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "drone-pilot-pathway",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 180
-    },
-    {
-     "pattern": "languages",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "money-and-cost",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "psychoactive-substances",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
-    },
-    {
-     "pattern": "seasons-and-flow",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 365
-    },
-    {
-     "pattern": "year-ahead",
-     "reason": "never-checked",
-     "age_days": null,
-     "budget_days": 90
     }
    ]
   },
