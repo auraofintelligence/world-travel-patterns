@@ -848,6 +848,333 @@
    "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
+  },
+  "digital-residency": {
+   "status": "none-found",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official digital identity, electronic signatures and any e-residency programme in Chile.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "E-residency",
+     "text": "No official e-residency programme for foreigners (a government digital identity that is not a residence permit) was found in this pass. If the country offers official digital ID or electronic signatures for residents or citizens, that is noted only where an official agency is linked.",
+     "source": "https://www.chileatiende.gob.cl",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official digital or government services",
+     "text": "Start with ClaveÚnica / ChileAtiende for official digital-identity, electronic-signature or e-government services and renewals.",
+     "source": "https://www.chileatiende.gob.cl",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "ClaveÚnica / ChileAtiende",
+    "url": "https://www.chileatiende.gob.cl"
+   },
+   "notes": "Short visitor visas and entry formalities are covered under Entry and Visa preparation, not this pattern.",
+   "sources": [
+    {
+     "title": "ClaveÚnica / ChileAtiende",
+     "authority": "ClaveÚnica / ChileAtiende",
+     "url": "https://www.chileatiende.gob.cl",
+     "checked": "2026-11-24",
+     "supports": "official digital identity, e-government or e-residency services"
+    }
+   ]
+  },
+  "physical-residency": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official temporary and permanent residency routes in Chile, with presence and costs where published.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official residence authority",
+     "text": "Temporary and permanent residence routes for foreigners are administered by Servicio Nacional de Migraciones. Read the current official route names, minimum presence and fees on that site.",
+     "source": "https://serviciomigraciones.cl",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Scope",
+     "text": "This pattern covers official temporary and permanent residency, including published minimum presence and costs where known. It does not cover short visitor visas, which sit under Entry and Visa preparation.",
+     "source": "https://serviciomigraciones.cl",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Servicio Nacional de Migraciones",
+    "url": "https://serviciomigraciones.cl"
+   },
+   "sources": [
+    {
+     "title": "Servicio Nacional de Migraciones",
+     "authority": "Servicio Nacional de Migraciones",
+     "url": "https://serviciomigraciones.cl",
+     "checked": "2026-11-24",
+     "supports": "official residence and immigration authority"
+    }
+   ]
+  },
+  "citizenship": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official naturalisation, descent and dual-citizenship rules in Chile, for an Australian passport holder.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Dual citizenship (destination rule)",
+     "text": "Chile allows dual citizenship.",
+     "source": "https://www.registrocivil.cl",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Naturalisation",
+     "text": "Naturalisation residence conditions are set by official Chilean authorities (commonly published as 5 years); confirm on official pages.",
+     "source": "https://www.registrocivil.cl",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Citizenship by descent",
+     "text": "Chilean citizenship by descent and by birth in Chile are published routes.",
+     "source": "https://www.registrocivil.cl",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official authority",
+     "text": "Start with Servicio de Registro Civil e Identificación / official nationality pages for official naturalisation, descent and dual-citizenship rules.",
+     "source": "https://www.registrocivil.cl",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Servicio de Registro Civil e Identificación / official nationality pages",
+    "url": "https://www.registrocivil.cl"
+   },
+   "notes": "Australian law also matters: Australia allows its citizens to hold another citizenship. That does not change the destination country's own dual-citizenship rules.",
+   "sources": [
+    {
+     "title": "Servicio de Registro Civil e Identificación / official nationality pages",
+     "authority": "Servicio de Registro Civil e Identificación / official nationality pages",
+     "url": "https://www.registrocivil.cl",
+     "checked": "2026-11-24",
+     "supports": "official citizenship or nationality authority"
+    }
+   ]
+  },
+  "enterprise-establishment": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official company and subsidiary establishment in Chile, including foreign-ownership and the official registry.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official registry",
+     "text": "Company and subsidiary registration for this place starts with Registro de Empresas y Sociedades (Tu Empresa en un Día). Use that official registry (or the official portal it points to) rather than a commercial mirror.",
+     "source": "https://www.registrodeempresasysociedades.cl",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign ownership",
+     "text": "Whether foreigners may own 100% of a company, and any official reserved sectors or screening, should be confirmed on the official registry and investment-agency pages linked here.",
+     "source": "https://www.registrodeempresasysociedades.cl",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Investment agency",
+     "text": "InvestChile publishes official company-setup or investment guidance for foreigners.",
+     "source": "https://investchile.gob.cl",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Registro de Empresas y Sociedades (Tu Empresa en un Día)",
+    "url": "https://www.registrodeempresasysociedades.cl"
+   },
+   "sources": [
+    {
+     "title": "Registro de Empresas y Sociedades (Tu Empresa en un Día)",
+     "authority": "Registro de Empresas y Sociedades (Tu Empresa en un Día)",
+     "url": "https://www.registrodeempresasysociedades.cl",
+     "checked": "2026-11-24",
+     "supports": "official company registry or business-formalities portal"
+    },
+    {
+     "title": "InvestChile",
+     "authority": "InvestChile",
+     "url": "https://investchile.gob.cl",
+     "checked": "2026-11-24",
+     "supports": "official investment or enterprise-setup guidance"
+    }
+   ]
+  },
+  "collective-ownership": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official cooperatives, mutuals, foundations, charities and associations in Chile.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official forms and registry",
+     "text": "Cooperatives, mutuals, foundations, charities and associations, where they exist as official legal forms, are registered or overseen through official authorities starting at Registro de Empresas y Sociedades (Tu Empresa en un Día).",
+     "source": "https://www.registrodeempresasysociedades.cl",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign participation",
+     "text": "Foreign-participation limits, if any, are published by the official registry or the responsible ministry. Do not assume that company-law foreign-ownership rules apply unchanged to charities, cooperatives or foundations.",
+     "source": "https://www.registrodeempresasysociedades.cl",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Registro de Empresas y Sociedades (Tu Empresa en un Día)",
+    "url": "https://www.registrodeempresasysociedades.cl"
+   },
+   "sources": [
+    {
+     "title": "Registro de Empresas y Sociedades (Tu Empresa en un Día)",
+     "authority": "Registro de Empresas y Sociedades (Tu Empresa en un Día)",
+     "url": "https://www.registrodeempresasysociedades.cl",
+     "checked": "2026-11-24",
+     "supports": "official registry or authority for non-company collective forms"
+    }
+   ]
+  },
+  "financial-infrastructure": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official tax, banking and international-transfer infrastructure in Chile.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Tax authority",
+     "text": "Servicio de Impuestos Internos (SII) is the official national tax authority (or the official portal that publishes national tax rules). Tax residency, filing and any official non-resident rules should be read there.",
+     "source": "https://www.sii.cl",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Central bank or financial regulator",
+     "text": "Banco Central de Chile; CMF is the official central bank or a linked official financial regulator. Rules on accounts, payments and international transfers, where published, start there (and with licensed banks they supervise).",
+     "source": "https://www.bcentral.cl",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Accounts and transfers",
+     "text": "Whether a non-resident can open a local bank account, and official tax-residency tests (often a published day-count plus other official ties), should be confirmed with the official tax authority and a licensed bank. International-transfer rules, including any official foreign-exchange controls, are those of the destination, not Australia.",
+     "source": "https://www.sii.cl",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Servicio de Impuestos Internos (SII)",
+    "url": "https://www.sii.cl"
+   },
+   "sources": [
+    {
+     "title": "Servicio de Impuestos Internos (SII)",
+     "authority": "Servicio de Impuestos Internos (SII)",
+     "url": "https://www.sii.cl",
+     "checked": "2026-11-24",
+     "supports": "official tax authority"
+    },
+    {
+     "title": "Banco Central de Chile; CMF",
+     "authority": "Banco Central de Chile; CMF",
+     "url": "https://www.bcentral.cl",
+     "checked": "2026-11-24",
+     "supports": "official central bank or financial regulator"
+    }
+   ]
+  },
+  "intellectual-property": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official patents, trademarks, licensing and IP ownership in Chile.",
+   "confidence": "read directly",
+   "facts": [
+    {
+     "label": "Official IP office",
+     "text": "Patents, trademarks and related official registers are administered by Ministry of Cultures, Arts and Heritage Intellectual Rights Department National Service of Cultural Heritage, as listed on WIPO's official IP-office directory (read 24 November 2026).",
+     "source": "https://www.wipo.int/en/web/country-profiles/contact?code=CL",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Ownership, licensing and filing",
+     "text": "Foreign ownership of IP, official licensing formalities, and whether the system is first-to-file, should be confirmed on the official IP office pages (and, where listed, on WIPO Lex). This pass records the official office rather than a full statute summary.",
+     "source": "https://www.cultura.gob.cl/derechodeautor",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Ministry of Cultures, Arts and Heritage Intellectual Rights Department National Service of Cultural Heritage",
+    "url": "https://www.cultura.gob.cl/derechodeautor"
+   },
+   "sources": [
+    {
+     "title": "WIPO IP office directory: Chile",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/contact?code=CL",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental index of the national IP office, its name and published website"
+    },
+    {
+     "title": "WIPO directory of national IP offices",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental directory used for this pass"
+    },
+    {
+     "title": "Ministry of Cultures, Arts and Heritage Intellectual Rights Department National Service of Cultural Heritage",
+     "authority": "Ministry of Cultures, Arts and Heritage Intellectual Rights Department National Service of Cultural Heritage",
+     "url": "https://www.cultura.gob.cl/derechodeautor",
+     "checked": "2026-11-24",
+     "supports": "official national IP office website listed by WIPO or the destination government"
+    }
+   ]
+  },
+  "research-and-enterprise": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official universities, special economic zones, grants and industry strengths in Chile.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official investment or enterprise agency",
+     "text": "InvestChile publishes official investment, university-linked, special-economic-zone or industry-priority information for this place.",
+     "source": "https://investchile.gob.cl",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official opportunities",
+     "text": "Named special economic zones, official grants and published industry strengths, where they exist, are listed by the official investment or education authorities. This pattern records official opportunity information for any Australian passport holder; it is not the personal Works and purpose fit pattern.",
+     "source": "https://investchile.gob.cl",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "InvestChile",
+    "url": "https://investchile.gob.cl"
+   },
+   "notes": "This official research-and-enterprise record is separate from Works and purpose fit, which remains the tagged, personal pattern for Luke's own works.",
+   "sources": [
+    {
+     "title": "InvestChile",
+     "authority": "InvestChile",
+     "url": "https://investchile.gob.cl",
+     "checked": "2026-11-24",
+     "supports": "official investment, research or enterprise-opportunity agency"
+    }
+   ]
   }
  }
 }

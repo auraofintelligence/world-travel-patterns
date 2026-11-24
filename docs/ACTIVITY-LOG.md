@@ -2232,3 +2232,5 @@ For Claude.
 - 2026-11-24 15:54 AEST: Grok filled the eight new residency, citizenship and enterprise patterns across the Pacific, including Australia. Territories without their own WIPO IP-office listing point to the official administering-power IP office (Australia, New Zealand, France or the United Kingdom) or, for Antarctica, the Antarctic Treaty Secretariat.
 
 - 2026-11-24 15:54 AEST: Grok filled the eight new residency, citizenship and enterprise patterns across Europe, including Crown dependencies and other European territories. Switzerland's financial record notes that cantonal tax can differ, so a canton uses the country record unless official cantonal rules clearly differ.
+
+- 2026-11-24 15:55 AEST: Grok filled the eight new residency, citizenship and enterprise patterns across the Americas, including Caribbean and other territories. The United States record notes that company formation and some taxes sit at state level, so a state uses the country record unless official state rules clearly differ.

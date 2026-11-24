@@ -1083,6 +1083,320 @@
    "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
+  },
+  "digital-residency": {
+   "status": "none-found",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official digital identity, electronic signatures and any e-residency programme in Mexico.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "E-residency",
+     "text": "No official e-residency programme for foreigners (a government digital identity that is not a residence permit) was found in this pass. If the country offers official digital ID or electronic signatures for residents or citizens, that is noted only where an official agency is linked.",
+     "source": "https://www.gob.mx",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official digital or government services",
+     "text": "Start with Llave MX / gob.mx for official digital-identity, electronic-signature or e-government services and renewals.",
+     "source": "https://www.gob.mx",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Llave MX / gob.mx",
+    "url": "https://www.gob.mx"
+   },
+   "notes": "Short visitor visas and entry formalities are covered under Entry and Visa preparation, not this pattern.",
+   "sources": [
+    {
+     "title": "Llave MX / gob.mx",
+     "authority": "Llave MX / gob.mx",
+     "url": "https://www.gob.mx",
+     "checked": "2026-11-24",
+     "supports": "official digital identity, e-government or e-residency services"
+    }
+   ]
+  },
+  "physical-residency": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official temporary and permanent residency routes in Mexico, with presence and costs where published.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official residence authority",
+     "text": "Temporary and permanent residence routes for foreigners are administered by Instituto Nacional de Migración (INM). Read the current official route names, minimum presence and fees on that site.",
+     "source": "https://www.inm.gob.mx",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Scope",
+     "text": "This pattern covers official temporary and permanent residency, including published minimum presence and costs where known. It does not cover short visitor visas, which sit under Entry and Visa preparation.",
+     "source": "https://www.inm.gob.mx",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Instituto Nacional de Migración (INM)",
+    "url": "https://www.inm.gob.mx"
+   },
+   "sources": [
+    {
+     "title": "Instituto Nacional de Migración (INM)",
+     "authority": "Instituto Nacional de Migración (INM)",
+     "url": "https://www.inm.gob.mx",
+     "checked": "2026-11-24",
+     "supports": "official residence and immigration authority"
+    }
+   ]
+  },
+  "citizenship": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official naturalisation, descent and dual-citizenship rules in Mexico, for an Australian passport holder.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Dual citizenship (destination rule)",
+     "text": "Mexico allows dual citizenship.",
+     "source": "https://www.gob.mx/sre",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Naturalisation",
+     "text": "Naturalisation residence conditions are set by official Mexican authorities (commonly published as 5 years, with shorter official periods in some circumstances).",
+     "source": "https://www.gob.mx/sre",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Citizenship by descent",
+     "text": "Mexican citizenship by descent and by birth in Mexico are published routes.",
+     "source": "https://www.gob.mx/sre",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official authority",
+     "text": "Start with SRE / official Mexican nationality and naturalisation pages for official naturalisation, descent and dual-citizenship rules.",
+     "source": "https://www.gob.mx/sre",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "SRE / official Mexican nationality and naturalisation pages",
+    "url": "https://www.gob.mx/sre"
+   },
+   "notes": "Australian law also matters: Australia allows its citizens to hold another citizenship. That does not change the destination country's own dual-citizenship rules.",
+   "sources": [
+    {
+     "title": "SRE / official Mexican nationality and naturalisation pages",
+     "authority": "SRE / official Mexican nationality and naturalisation pages",
+     "url": "https://www.gob.mx/sre",
+     "checked": "2026-11-24",
+     "supports": "official citizenship or nationality authority"
+    }
+   ]
+  },
+  "enterprise-establishment": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official company and subsidiary establishment in Mexico, including foreign-ownership and the official registry.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Company forms and registry",
+     "text": "A sociedad anónima or sociedad de responsabilidad limitada is the usual form; official company formalities start with the Secretaría de Economía.",
+     "source": "https://www.gob.mx/se",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign ownership",
+     "text": "Foreigners may own 100% in many sectors under the official foreign-investment law, with reserved or capped activities still published on official lists.",
+     "source": "https://www.gob.mx/se",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Registro Público de Comercio / Secretaria de Economia (your company formalities start on gob.mx)",
+    "url": "https://www.gob.mx/se"
+   },
+   "sources": [
+    {
+     "title": "Registro Público de Comercio / Secretaria de Economia (your company formalities start on gob.mx)",
+     "authority": "Registro Público de Comercio / Secretaria de Economia (your company formalities start on gob.mx)",
+     "url": "https://www.gob.mx/se",
+     "checked": "2026-11-24",
+     "supports": "official company registry or business-formalities portal"
+    }
+   ]
+  },
+  "collective-ownership": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official cooperatives, mutuals, foundations, charities and associations in Mexico.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official forms and registry",
+     "text": "Cooperatives, mutuals, foundations, charities and associations, where they exist as official legal forms, are registered or overseen through official authorities starting at Registro Público de Comercio / Secretaria de Economia (your company formalities start on gob.mx).",
+     "source": "https://www.gob.mx/se",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign participation",
+     "text": "Foreign-participation limits, if any, are published by the official registry or the responsible ministry. Do not assume that company-law foreign-ownership rules apply unchanged to charities, cooperatives or foundations.",
+     "source": "https://www.gob.mx/se",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Registro Público de Comercio / Secretaria de Economia (your company formalities start on gob.mx)",
+    "url": "https://www.gob.mx/se"
+   },
+   "sources": [
+    {
+     "title": "Registro Público de Comercio / Secretaria de Economia (your company formalities start on gob.mx)",
+     "authority": "Registro Público de Comercio / Secretaria de Economia (your company formalities start on gob.mx)",
+     "url": "https://www.gob.mx/se",
+     "checked": "2026-11-24",
+     "supports": "official registry or authority for non-company collective forms"
+    }
+   ]
+  },
+  "financial-infrastructure": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official tax, banking and international-transfer infrastructure in Mexico.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Tax authority",
+     "text": "Servicio de Administración Tributaria (SAT) is the official national tax authority (or the official portal that publishes national tax rules). Tax residency, filing and any official non-resident rules should be read there.",
+     "source": "https://www.sat.gob.mx",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Central bank or financial regulator",
+     "text": "Banco de México; CNBV is the official central bank or a linked official financial regulator. Rules on accounts, payments and international transfers, where published, start there (and with licensed banks they supervise).",
+     "source": "https://www.banxico.org.mx",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Accounts and transfers",
+     "text": "Whether a non-resident can open a local bank account, and official tax-residency tests (often a published day-count plus other official ties), should be confirmed with the official tax authority and a licensed bank. International-transfer rules, including any official foreign-exchange controls, are those of the destination, not Australia.",
+     "source": "https://www.sat.gob.mx",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Servicio de Administración Tributaria (SAT)",
+    "url": "https://www.sat.gob.mx"
+   },
+   "sources": [
+    {
+     "title": "Servicio de Administración Tributaria (SAT)",
+     "authority": "Servicio de Administración Tributaria (SAT)",
+     "url": "https://www.sat.gob.mx",
+     "checked": "2026-11-24",
+     "supports": "official tax authority"
+    },
+    {
+     "title": "Banco de México; CNBV",
+     "authority": "Banco de México; CNBV",
+     "url": "https://www.banxico.org.mx",
+     "checked": "2026-11-24",
+     "supports": "official central bank or financial regulator"
+    }
+   ]
+  },
+  "intellectual-property": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official patents, trademarks, licensing and IP ownership in Mexico.",
+   "confidence": "read directly",
+   "facts": [
+    {
+     "label": "Official IP office",
+     "text": "Patents, trademarks and related official registers are administered by National Institute of Copyright, as listed on WIPO's official IP-office directory (read 24 November 2026).",
+     "source": "https://www.wipo.int/en/web/country-profiles/contact?code=MX",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Ownership, licensing and filing",
+     "text": "Foreign ownership of IP, official licensing formalities, and whether the system is first-to-file, should be confirmed on the official IP office pages (and, where listed, on WIPO Lex). This pass records the official office rather than a full statute summary.",
+     "source": "https://www.indautor.gob.mx",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "National Institute of Copyright",
+    "url": "https://www.indautor.gob.mx"
+   },
+   "sources": [
+    {
+     "title": "WIPO IP office directory: Mexico",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/contact?code=MX",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental index of the national IP office, its name and published website"
+    },
+    {
+     "title": "WIPO directory of national IP offices",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental directory used for this pass"
+    },
+    {
+     "title": "National Institute of Copyright",
+     "authority": "National Institute of Copyright",
+     "url": "https://www.indautor.gob.mx",
+     "checked": "2026-11-24",
+     "supports": "official national IP office website listed by WIPO or the destination government"
+    }
+   ]
+  },
+  "research-and-enterprise": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official universities, special economic zones, grants and industry strengths in Mexico.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official investment or enterprise agency",
+     "text": "Secretaría de Economía (investment) publishes official investment, university-linked, special-economic-zone or industry-priority information for this place.",
+     "source": "https://www.gob.mx/se",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official opportunities",
+     "text": "Named special economic zones, official grants and published industry strengths, where they exist, are listed by the official investment or education authorities. This pattern records official opportunity information for any Australian passport holder; it is not the personal Works and purpose fit pattern.",
+     "source": "https://www.gob.mx/se",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Secretaría de Economía (investment)",
+    "url": "https://www.gob.mx/se"
+   },
+   "notes": "This official research-and-enterprise record is separate from Works and purpose fit, which remains the tagged, personal pattern for Luke's own works.",
+   "sources": [
+    {
+     "title": "Secretaría de Economía (investment)",
+     "authority": "Secretaría de Economía (investment)",
+     "url": "https://www.gob.mx/se",
+     "checked": "2026-11-24",
+     "supports": "official investment, research or enterprise-opportunity agency"
+    }
+   ]
   }
  },
  "retired_sources": [

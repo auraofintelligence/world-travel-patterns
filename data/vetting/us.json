@@ -1167,6 +1167,335 @@
      "checked": "2026-11-07"
     }
    ]
+  },
+  "digital-residency": {
+   "status": "none-found",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official digital identity, electronic signatures and any e-residency programme in United States.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "E-residency or digital identity",
+     "text": "No national e-residency programme for foreigners was found. Login.gov is an official US government sign-in service. Identity documents are mainly issued by states.",
+     "source": "https://www.login.gov",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official digital or government services",
+     "text": "Start with Login.gov / USA.gov for official digital-identity, electronic-signature or e-government services and renewals.",
+     "source": "https://www.login.gov",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Login.gov / USA.gov",
+    "url": "https://www.login.gov"
+   },
+   "notes": "Short visitor visas and entry formalities are covered under Entry and Visa preparation, not this pattern.",
+   "sources": [
+    {
+     "title": "Login.gov / USA.gov",
+     "authority": "Login.gov / USA.gov",
+     "url": "https://www.login.gov",
+     "checked": "2026-11-24",
+     "supports": "official digital identity, e-government or e-residency services"
+    }
+   ]
+  },
+  "physical-residency": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official temporary and permanent residency routes in United States, with presence and costs where published.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official residence authority",
+     "text": "Temporary and permanent residence routes for foreigners are administered by U.S. Citizenship and Immigration Services (USCIS). Read the current official route names, minimum presence and fees on that site.",
+     "source": "https://www.uscis.gov",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Scope",
+     "text": "This pattern covers official temporary and permanent residency, including published minimum presence and costs where known. It does not cover short visitor visas, which sit under Entry and Visa preparation.",
+     "source": "https://www.uscis.gov",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "U.S. Citizenship and Immigration Services (USCIS)",
+    "url": "https://www.uscis.gov"
+   },
+   "sources": [
+    {
+     "title": "U.S. Citizenship and Immigration Services (USCIS)",
+     "authority": "U.S. Citizenship and Immigration Services (USCIS)",
+     "url": "https://www.uscis.gov",
+     "checked": "2026-11-24",
+     "supports": "official residence and immigration authority"
+    }
+   ]
+  },
+  "citizenship": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official naturalisation, descent and dual-citizenship rules in United States, for an Australian passport holder.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Dual citizenship (destination rule)",
+     "text": "The United States allows dual citizenship in practice; US law does not require a naturalised or birthright citizen to give up another citizenship in ordinary cases.",
+     "source": "https://www.uscis.gov",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Naturalisation",
+     "text": "Naturalisation generally requires 5 years as a permanent resident (3 years if married to a US citizen), with official presence, good-character and civics conditions set by USCIS.",
+     "source": "https://www.uscis.gov",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Citizenship by descent",
+     "text": "Citizenship by birth in the US is the usual jus soli rule, with official exceptions. Citizenship by descent is also available in published circumstances.",
+     "source": "https://www.uscis.gov",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official authority",
+     "text": "Start with U.S. Citizenship and Immigration Services (citizenship and naturalization) for official naturalisation, descent and dual-citizenship rules.",
+     "source": "https://www.uscis.gov",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "U.S. Citizenship and Immigration Services (citizenship and naturalization)",
+    "url": "https://www.uscis.gov"
+   },
+   "notes": "Australian law also matters: Australia allows its citizens to hold another citizenship. That does not change the destination country's own dual-citizenship rules.",
+   "sources": [
+    {
+     "title": "U.S. Citizenship and Immigration Services (citizenship and naturalization)",
+     "authority": "U.S. Citizenship and Immigration Services (citizenship and naturalization)",
+     "url": "https://www.uscis.gov",
+     "checked": "2026-11-24",
+     "supports": "official citizenship or nationality authority"
+    }
+   ]
+  },
+  "enterprise-establishment": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official company and subsidiary establishment in United States, including foreign-ownership and the official registry.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Company forms and registry",
+     "text": "Company formation is mainly at state level (for example a state LLC or corporation). There is no single national companies registry. The IRS issues a federal Employer Identification Number.",
+     "source": "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign ownership",
+     "text": "Foreigners may generally own 100% of a US LLC or corporation, subject to official federal screening (including CFIUS) and sector licences. Formation rules and annual filings differ by state.",
+     "source": "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Investment agency",
+     "text": "SelectUSA, U.S. Department of Commerce publishes official company-setup or investment guidance for foreigners.",
+     "source": "https://www.trade.gov/selectusa-home",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "State corporate or LLC registries (there is no single national companies house); federal tax ID is issued by the IRS",
+    "url": "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online"
+   },
+   "notes": "Write a state record only where official formation rules clearly differ (for example a specific state's LLC statute or filing office). Otherwise a state uses this country record.",
+   "sources": [
+    {
+     "title": "State corporate or LLC registries (there is no single national companies house); federal tax ID is issued by the IRS",
+     "authority": "State corporate or LLC registries (there is no single national companies house); federal tax ID is issued by the IRS",
+     "url": "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online",
+     "checked": "2026-11-24",
+     "supports": "official company registry or business-formalities portal"
+    },
+    {
+     "title": "SelectUSA, U.S. Department of Commerce",
+     "authority": "SelectUSA, U.S. Department of Commerce",
+     "url": "https://www.trade.gov/selectusa-home",
+     "checked": "2026-11-24",
+     "supports": "official investment or enterprise-setup guidance"
+    }
+   ]
+  },
+  "collective-ownership": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official cooperatives, mutuals, foundations, charities and associations in United States.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official forms and registry",
+     "text": "Cooperatives, mutuals, foundations, charities and associations, where they exist as official legal forms, are registered or overseen through official authorities starting at state law for cooperatives and nonprofit corporations; tax-exempt recognition is federal (IRS).",
+     "source": "https://www.irs.gov/charities-non-profits",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign participation",
+     "text": "Foreign-participation limits, if any, are published by the official registry or the responsible ministry. Do not assume that company-law foreign-ownership rules apply unchanged to charities, cooperatives or foundations.",
+     "source": "https://www.irs.gov/charities-non-profits",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "state law for cooperatives and nonprofit corporations; tax-exempt recognition is federal (IRS)",
+    "url": "https://www.irs.gov/charities-non-profits"
+   },
+   "sources": [
+    {
+     "title": "state law for cooperatives and nonprofit corporations; tax-exempt recognition is federal (IRS)",
+     "authority": "state law for cooperatives and nonprofit corporations; tax-exempt recognition is federal (IRS)",
+     "url": "https://www.irs.gov/charities-non-profits",
+     "checked": "2026-11-24",
+     "supports": "official registry or authority for non-company collective forms"
+    }
+   ]
+  },
+  "financial-infrastructure": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official tax, banking and international-transfer infrastructure in United States.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Tax authority",
+     "text": "Internal Revenue Service (state tax agencies also levy tax) is the official national tax authority (or the official portal that publishes national tax rules). Tax residency, filing and any official non-resident rules should be read there.",
+     "source": "https://www.irs.gov",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Central bank or financial regulator",
+     "text": "Federal Reserve; Office of the Comptroller of the Currency; FDIC; SEC; FinCEN is the official central bank or a linked official financial regulator. Rules on accounts, payments and international transfers, where published, start there (and with licensed banks they supervise).",
+     "source": "https://www.federalreserve.gov",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Accounts and transfers",
+     "text": "Whether a non-resident can open a local bank account, and official tax-residency tests (often a published day-count plus other official ties), should be confirmed with the official tax authority and a licensed bank. International-transfer rules, including any official foreign-exchange controls, are those of the destination, not Australia.",
+     "source": "https://www.irs.gov",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Internal Revenue Service (state tax agencies also levy tax)",
+    "url": "https://www.irs.gov"
+   },
+   "notes": "US federal tax is administered by the IRS; states also levy tax. Write a state record only where official state tax or banking rules clearly differ.",
+   "sources": [
+    {
+     "title": "Internal Revenue Service (state tax agencies also levy tax)",
+     "authority": "Internal Revenue Service (state tax agencies also levy tax)",
+     "url": "https://www.irs.gov",
+     "checked": "2026-11-24",
+     "supports": "official tax authority"
+    },
+    {
+     "title": "Federal Reserve; Office of the Comptroller of the Currency; FDIC; SEC; FinCEN",
+     "authority": "Federal Reserve; Office of the Comptroller of the Currency; FDIC; SEC; FinCEN",
+     "url": "https://www.federalreserve.gov",
+     "checked": "2026-11-24",
+     "supports": "official central bank or financial regulator"
+    }
+   ]
+  },
+  "intellectual-property": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official patents, trademarks, licensing and IP ownership in United States.",
+   "confidence": "read directly",
+   "facts": [
+    {
+     "label": "Official IP office",
+     "text": "Patents, trademarks and related official registers are administered by United States Copyright Office, as listed on WIPO's official IP-office directory (read 24 November 2026).",
+     "source": "https://www.wipo.int/en/web/country-profiles/contact?code=US",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Ownership, licensing and filing",
+     "text": "Foreign ownership of IP, official licensing formalities, and whether the system is first-to-file, should be confirmed on the official IP office pages (and, where listed, on WIPO Lex). This pass records the official office rather than a full statute summary.",
+     "source": "https://www.uspto.gov",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "United States Patent and Trademark Office (USPTO)",
+    "url": "https://www.uspto.gov"
+   },
+   "sources": [
+    {
+     "title": "WIPO IP office directory: United States of America",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/contact?code=US",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental index of the national IP office, its name and published website"
+    },
+    {
+     "title": "WIPO directory of national IP offices",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental directory used for this pass"
+    },
+    {
+     "title": "United States Patent and Trademark Office (USPTO)",
+     "authority": "United States Patent and Trademark Office (USPTO)",
+     "url": "https://www.uspto.gov",
+     "checked": "2026-11-24",
+     "supports": "official national IP office website listed by WIPO or the destination government"
+    }
+   ]
+  },
+  "research-and-enterprise": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official universities, special economic zones, grants and industry strengths in United States.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official investment or enterprise agency",
+     "text": "SelectUSA, U.S. Department of Commerce publishes official investment, university-linked, special-economic-zone or industry-priority information for this place.",
+     "source": "https://www.trade.gov/selectusa-home",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official opportunities",
+     "text": "SelectUSA publishes official federal investment guidance. Many incentives, universities and research parks are organised at state or local level, so a state record is needed where those official programmes differ.",
+     "source": "https://www.trade.gov/selectusa-home",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "SelectUSA, U.S. Department of Commerce",
+    "url": "https://www.trade.gov/selectusa-home"
+   },
+   "notes": "This official research-and-enterprise record is separate from Works and purpose fit, which remains the tagged, personal pattern for Luke's own works.",
+   "sources": [
+    {
+     "title": "SelectUSA, U.S. Department of Commerce",
+     "authority": "SelectUSA, U.S. Department of Commerce",
+     "url": "https://www.trade.gov/selectusa-home",
+     "checked": "2026-11-24",
+     "supports": "official investment, research or enterprise-opportunity agency"
+    }
+   ]
   }
  }
 }
