@@ -190,26 +190,26 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | bf | Do not travel | weekly | high advisory, pending event, snapshot evidence | pending date: FESPACO 30th edition, 20 to 27 March 2027 |
 | by | Do not travel | weekly | dated rule, high advisory, snapshot evidence, watch item | by-visa-free-2026; entry date 2026-12-31 |
 | cd | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
-| cf | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
+| cf | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
 | ht | Do not travel | weekly | confirm in writing, election, high advisory, snapshot evidence | election 2027-07-18; 1 confirm-in-writing |
 | iq | Do not travel | weekly | high advisory, snapshot evidence |  |
 | ir | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
 | ir/fars-province | Do not travel | weekly | snapshot evidence |  |
 | kp | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
 | lb | Do not travel | weekly | high advisory, snapshot evidence |  |
-| ly | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
-| ml | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
+| ly | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
+| ml | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
 | mm | Do not travel | weekly | high advisory, snapshot evidence |  |
-| ne | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
+| ne | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
 | ps | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
 | ru | Do not travel | weekly | high advisory, snapshot evidence |  |
 | sa | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
 | sa/medina-province | Do not travel | weekly | snapshot evidence |  |
-| sd | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
+| sd | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
 | so | Do not travel | weekly | election, high advisory, snapshot evidence | election 2026-12-31 |
-| ss | Do not travel | weekly | election, high advisory | election 2026-12-22 |
-| sy | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
-| td | Do not travel | weekly | confirm in writing, high advisory | 1 confirm-in-writing |
+| ss | Do not travel | weekly | election, high advisory, snapshot evidence | election 2026-12-22 |
+| sy | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
+| td | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
 | ua | Do not travel | weekly | high advisory, snapshot evidence |  |
 | ve | Do not travel | weekly | high advisory, snapshot evidence |  |
 | ye | Do not travel | weekly | confirm in writing, high advisory, snapshot evidence | 1 confirm-in-writing |
