@@ -1178,6 +1178,333 @@
    "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
+  },
+  "digital-residency": {
+   "status": "none-found",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official digital identity, electronic signatures and any e-residency programme in Indonesia.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "E-residency",
+     "text": "No official e-residency programme for foreigners (a government digital identity that is not a residence permit) was found in this pass. If the country offers official digital ID or electronic signatures for residents or citizens, that is noted only where an official agency is linked.",
+     "source": "https://www.go.id",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official digital or government services",
+     "text": "Start with Identitas Kependudukan Digital / Gov.id for official digital-identity, electronic-signature or e-government services and renewals.",
+     "source": "https://www.go.id",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Identitas Kependudukan Digital / Gov.id",
+    "url": "https://www.go.id"
+   },
+   "notes": "Short visitor visas and entry formalities are covered under Entry and Visa preparation, not this pattern.",
+   "sources": [
+    {
+     "title": "Identitas Kependudukan Digital / Gov.id",
+     "authority": "Identitas Kependudukan Digital / Gov.id",
+     "url": "https://www.go.id",
+     "checked": "2026-11-24",
+     "supports": "official digital identity, e-government or e-residency services"
+    }
+   ]
+  },
+  "physical-residency": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official temporary and permanent residency routes in Indonesia, with presence and costs where published.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official residence authority",
+     "text": "Temporary and permanent residence routes for foreigners are administered by Directorate General of Immigration (Imigrasi). Read the current official route names, minimum presence and fees on that site.",
+     "source": "https://www.imigrasi.go.id",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Scope",
+     "text": "This pattern covers official temporary and permanent residency, including published minimum presence and costs where known. It does not cover short visitor visas, which sit under Entry and Visa preparation.",
+     "source": "https://www.imigrasi.go.id",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Directorate General of Immigration (Imigrasi)",
+    "url": "https://www.imigrasi.go.id"
+   },
+   "sources": [
+    {
+     "title": "Directorate General of Immigration (Imigrasi)",
+     "authority": "Directorate General of Immigration (Imigrasi)",
+     "url": "https://www.imigrasi.go.id",
+     "checked": "2026-11-24",
+     "supports": "official residence and immigration authority"
+    }
+   ]
+  },
+  "citizenship": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official naturalisation, descent and dual-citizenship rules in Indonesia, for an Australian passport holder.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Dual citizenship (destination rule)",
+     "text": "Indonesia does not generally allow adult dual citizenship; limited official exceptions exist for some children.",
+     "source": "https://www.imigrasi.go.id",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Naturalisation",
+     "text": "Naturalisation conditions are set by official immigration and nationality authorities.",
+     "source": "https://www.imigrasi.go.id",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Citizenship by descent",
+     "text": "Citizenship by descent is available in published circumstances.",
+     "source": "https://www.imigrasi.go.id",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official authority",
+     "text": "Start with Directorate General of Immigration (Imigrasi) for official naturalisation, descent and dual-citizenship rules.",
+     "source": "https://www.imigrasi.go.id",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Directorate General of Immigration (Imigrasi)",
+    "url": "https://www.imigrasi.go.id"
+   },
+   "notes": "Australian law also matters: Australia allows its citizens to hold another citizenship. That does not change the destination country's own dual-citizenship rules.",
+   "sources": [
+    {
+     "title": "Directorate General of Immigration (Imigrasi)",
+     "authority": "Directorate General of Immigration (Imigrasi)",
+     "url": "https://www.imigrasi.go.id",
+     "checked": "2026-11-24",
+     "supports": "official citizenship or nationality authority"
+    }
+   ]
+  },
+  "enterprise-establishment": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official company and subsidiary establishment in Indonesia, including foreign-ownership and the official registry.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Company forms and registry",
+     "text": "A limited-liability company (PT), including a PT PMA for many foreign-owned companies, is the usual form; OSS is the official business-licensing portal.",
+     "source": "https://oss.go.id",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign ownership",
+     "text": "The official investment list (positive list) sets where foreigners may own 100%, a capped share, or may not enter. 100% foreign ownership is allowed in many, but not all, sectors.",
+     "source": "https://oss.go.id",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Investment agency",
+     "text": "Ministry of Investment / BKPM publishes official company-setup or investment guidance for foreigners.",
+     "source": "https://www.bkpm.go.id",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Online Single Submission (OSS) / Ministry of Law (AHU)",
+    "url": "https://oss.go.id"
+   },
+   "sources": [
+    {
+     "title": "Online Single Submission (OSS) / Ministry of Law (AHU)",
+     "authority": "Online Single Submission (OSS) / Ministry of Law (AHU)",
+     "url": "https://oss.go.id",
+     "checked": "2026-11-24",
+     "supports": "official company registry or business-formalities portal"
+    },
+    {
+     "title": "Ministry of Investment / BKPM",
+     "authority": "Ministry of Investment / BKPM",
+     "url": "https://www.bkpm.go.id",
+     "checked": "2026-11-24",
+     "supports": "official investment or enterprise-setup guidance"
+    }
+   ]
+  },
+  "collective-ownership": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official cooperatives, mutuals, foundations, charities and associations in Indonesia.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official forms and registry",
+     "text": "Cooperatives, mutuals, foundations, charities and associations, where they exist as official legal forms, are registered or overseen through official authorities starting at Online Single Submission (OSS) / Ministry of Law (AHU).",
+     "source": "https://oss.go.id",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign participation",
+     "text": "Foreign-participation limits, if any, are published by the official registry or the responsible ministry. Do not assume that company-law foreign-ownership rules apply unchanged to charities, cooperatives or foundations.",
+     "source": "https://oss.go.id",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Online Single Submission (OSS) / Ministry of Law (AHU)",
+    "url": "https://oss.go.id"
+   },
+   "sources": [
+    {
+     "title": "Online Single Submission (OSS) / Ministry of Law (AHU)",
+     "authority": "Online Single Submission (OSS) / Ministry of Law (AHU)",
+     "url": "https://oss.go.id",
+     "checked": "2026-11-24",
+     "supports": "official registry or authority for non-company collective forms"
+    }
+   ]
+  },
+  "financial-infrastructure": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official tax, banking and international-transfer infrastructure in Indonesia.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Tax authority",
+     "text": "Directorate General of Taxes (DJP) is the official national tax authority (or the official portal that publishes national tax rules). Tax residency, filing and any official non-resident rules should be read there.",
+     "source": "https://www.pajak.go.id",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Central bank or financial regulator",
+     "text": "Bank Indonesia is the official central bank or a linked official financial regulator. Rules on accounts, payments and international transfers, where published, start there (and with licensed banks they supervise).",
+     "source": "https://www.bi.go.id",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Accounts and transfers",
+     "text": "Whether a non-resident can open a local bank account, and official tax-residency tests (often a published day-count plus other official ties), should be confirmed with the official tax authority and a licensed bank. International-transfer rules, including any official foreign-exchange controls, are those of the destination, not Australia.",
+     "source": "https://www.pajak.go.id",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Directorate General of Taxes (DJP)",
+    "url": "https://www.pajak.go.id"
+   },
+   "sources": [
+    {
+     "title": "Directorate General of Taxes (DJP)",
+     "authority": "Directorate General of Taxes (DJP)",
+     "url": "https://www.pajak.go.id",
+     "checked": "2026-11-24",
+     "supports": "official tax authority"
+    },
+    {
+     "title": "Bank Indonesia",
+     "authority": "Bank Indonesia",
+     "url": "https://www.bi.go.id",
+     "checked": "2026-11-24",
+     "supports": "official central bank or financial regulator"
+    }
+   ]
+  },
+  "intellectual-property": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official patents, trademarks, licensing and IP ownership in Indonesia.",
+   "confidence": "read directly",
+   "facts": [
+    {
+     "label": "Official IP office",
+     "text": "Patents, trademarks and related official registers are administered by Directorate General of Intellectual Property Ministry of Law, as listed on WIPO's official IP-office directory (read 24 November 2026).",
+     "source": "https://www.wipo.int/en/web/country-profiles/contact?code=ID",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Ownership, licensing and filing",
+     "text": "Foreign ownership of IP, official licensing formalities, and whether the system is first-to-file, should be confirmed on the official IP office pages (and, where listed, on WIPO Lex). This pass records the official office rather than a full statute summary.",
+     "source": "http://www.dgip.go.id",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Directorate General of Intellectual Property Ministry of Law",
+    "url": "http://www.dgip.go.id"
+   },
+   "sources": [
+    {
+     "title": "WIPO IP office directory: Indonesia",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/contact?code=ID",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental index of the national IP office, its name and published website"
+    },
+    {
+     "title": "WIPO directory of national IP offices",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental directory used for this pass"
+    },
+    {
+     "title": "Directorate General of Intellectual Property Ministry of Law",
+     "authority": "Directorate General of Intellectual Property Ministry of Law",
+     "url": "http://www.dgip.go.id",
+     "checked": "2026-11-24",
+     "supports": "official national IP office website listed by WIPO or the destination government"
+    }
+   ]
+  },
+  "research-and-enterprise": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official universities, special economic zones, grants and industry strengths in Indonesia.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official investment or enterprise agency",
+     "text": "Ministry of Investment / BKPM publishes official investment, university-linked, special-economic-zone or industry-priority information for this place.",
+     "source": "https://www.bkpm.go.id",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official opportunities",
+     "text": "The Ministry of Investment / BKPM publishes official investment guidance and information on special economic zones and official priority sectors.",
+     "source": "https://www.bkpm.go.id",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Ministry of Investment / BKPM",
+    "url": "https://www.bkpm.go.id"
+   },
+   "notes": "This official research-and-enterprise record is separate from Works and purpose fit, which remains the tagged, personal pattern for Luke's own works.",
+   "sources": [
+    {
+     "title": "Ministry of Investment / BKPM",
+     "authority": "Ministry of Investment / BKPM",
+     "url": "https://www.bkpm.go.id",
+     "checked": "2026-11-24",
+     "supports": "official investment, research or enterprise-opportunity agency"
+    }
+   ]
   }
  },
  "retired_sources": [

@@ -1283,6 +1283,333 @@
    "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
+  },
+  "digital-residency": {
+   "status": "none-found",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official digital identity, electronic signatures and any e-residency programme in India.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "E-residency or digital identity",
+     "text": "No e-residency programme for foreigners was found. Aadhaar and DigiLocker are official digital-identity and document services, mainly for residents.",
+     "source": "https://www.digilocker.gov.in",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official digital or government services",
+     "text": "Start with DigiLocker / Ministry of Electronics and IT for official digital-identity, electronic-signature or e-government services and renewals.",
+     "source": "https://www.digilocker.gov.in",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "DigiLocker / Ministry of Electronics and IT",
+    "url": "https://www.digilocker.gov.in"
+   },
+   "notes": "Short visitor visas and entry formalities are covered under Entry and Visa preparation, not this pattern.",
+   "sources": [
+    {
+     "title": "DigiLocker / Ministry of Electronics and IT",
+     "authority": "DigiLocker / Ministry of Electronics and IT",
+     "url": "https://www.digilocker.gov.in",
+     "checked": "2026-11-24",
+     "supports": "official digital identity, e-government or e-residency services"
+    }
+   ]
+  },
+  "physical-residency": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official temporary and permanent residency routes in India, with presence and costs where published.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official residence authority",
+     "text": "Temporary and permanent residence routes for foreigners are administered by Bureau of Immigration, Ministry of Home Affairs. Read the current official route names, minimum presence and fees on that site.",
+     "source": "https://www.boi.gov.in",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Scope",
+     "text": "This pattern covers official temporary and permanent residency, including published minimum presence and costs where known. It does not cover short visitor visas, which sit under Entry and Visa preparation.",
+     "source": "https://www.boi.gov.in",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Bureau of Immigration, Ministry of Home Affairs",
+    "url": "https://www.boi.gov.in"
+   },
+   "sources": [
+    {
+     "title": "Bureau of Immigration, Ministry of Home Affairs",
+     "authority": "Bureau of Immigration, Ministry of Home Affairs",
+     "url": "https://www.boi.gov.in",
+     "checked": "2026-11-24",
+     "supports": "official residence and immigration authority"
+    }
+   ]
+  },
+  "citizenship": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official naturalisation, descent and dual-citizenship rules in India, for an Australian passport holder.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Dual citizenship (destination rule)",
+     "text": "India does not allow dual citizenship. Overseas Citizenship of India (OCI) is a official registration status, not citizenship.",
+     "source": "https://www.mha.gov.in",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Naturalisation",
+     "text": "Naturalisation and registration conditions are set by the Ministry of Home Affairs and are not automatic.",
+     "source": "https://www.mha.gov.in",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Citizenship by descent",
+     "text": "Citizenship by descent and registration routes are published by the Ministry of Home Affairs. OCI is the usual official status for many people of Indian origin who already hold another citizenship.",
+     "source": "https://www.mha.gov.in",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official authority",
+     "text": "Start with Ministry of Home Affairs (citizenship and OCI) for official naturalisation, descent and dual-citizenship rules.",
+     "source": "https://www.mha.gov.in",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Ministry of Home Affairs (citizenship and OCI)",
+    "url": "https://www.mha.gov.in"
+   },
+   "notes": "Australian law also matters: Australia allows its citizens to hold another citizenship. That does not change the destination country's own dual-citizenship rules.",
+   "sources": [
+    {
+     "title": "Ministry of Home Affairs (citizenship and OCI)",
+     "authority": "Ministry of Home Affairs (citizenship and OCI)",
+     "url": "https://www.mha.gov.in",
+     "checked": "2026-11-24",
+     "supports": "official citizenship or nationality authority"
+    }
+   ]
+  },
+  "enterprise-establishment": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official company and subsidiary establishment in India, including foreign-ownership and the official registry.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Company forms and registry",
+     "text": "A private limited company is the usual form; the Ministry of Corporate Affairs is the official registry.",
+     "source": "https://www.mca.gov.in",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign ownership",
+     "text": "FDI is allowed under automatic or government-approval routes, depending on the sector. 100% foreign ownership is allowed in many, but not all, sectors under the official FDI policy.",
+     "source": "https://www.mca.gov.in",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Investment agency",
+     "text": "Invest India publishes official company-setup or investment guidance for foreigners.",
+     "source": "https://www.investindia.gov.in",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Ministry of Corporate Affairs",
+    "url": "https://www.mca.gov.in"
+   },
+   "sources": [
+    {
+     "title": "Ministry of Corporate Affairs",
+     "authority": "Ministry of Corporate Affairs",
+     "url": "https://www.mca.gov.in",
+     "checked": "2026-11-24",
+     "supports": "official company registry or business-formalities portal"
+    },
+    {
+     "title": "Invest India",
+     "authority": "Invest India",
+     "url": "https://www.investindia.gov.in",
+     "checked": "2026-11-24",
+     "supports": "official investment or enterprise-setup guidance"
+    }
+   ]
+  },
+  "collective-ownership": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official cooperatives, mutuals, foundations, charities and associations in India.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official forms and registry",
+     "text": "Cooperatives, mutuals, foundations, charities and associations, where they exist as official legal forms, are registered or overseen through official authorities starting at Ministry of Cooperation.",
+     "source": "https://www.cooperation.gov.in",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign participation",
+     "text": "Foreign-participation limits, if any, are published by the official registry or the responsible ministry. Do not assume that company-law foreign-ownership rules apply unchanged to charities, cooperatives or foundations.",
+     "source": "https://www.cooperation.gov.in",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Ministry of Cooperation",
+    "url": "https://www.cooperation.gov.in"
+   },
+   "sources": [
+    {
+     "title": "Ministry of Cooperation",
+     "authority": "Ministry of Cooperation",
+     "url": "https://www.cooperation.gov.in",
+     "checked": "2026-11-24",
+     "supports": "official registry or authority for non-company collective forms"
+    }
+   ]
+  },
+  "financial-infrastructure": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official tax, banking and international-transfer infrastructure in India.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Tax authority",
+     "text": "Income Tax Department is the official national tax authority (or the official portal that publishes national tax rules). Tax residency, filing and any official non-resident rules should be read there.",
+     "source": "https://www.incometax.gov.in",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Central bank or financial regulator",
+     "text": "Reserve Bank of India is the official central bank or a linked official financial regulator. Rules on accounts, payments and international transfers, where published, start there (and with licensed banks they supervise).",
+     "source": "https://www.rbi.org.in",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Accounts and transfers",
+     "text": "Whether a non-resident can open a local bank account, and official tax-residency tests (often a published day-count plus other official ties), should be confirmed with the official tax authority and a licensed bank. International-transfer rules, including any official foreign-exchange controls, are those of the destination, not Australia.",
+     "source": "https://www.incometax.gov.in",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Income Tax Department",
+    "url": "https://www.incometax.gov.in"
+   },
+   "sources": [
+    {
+     "title": "Income Tax Department",
+     "authority": "Income Tax Department",
+     "url": "https://www.incometax.gov.in",
+     "checked": "2026-11-24",
+     "supports": "official tax authority"
+    },
+    {
+     "title": "Reserve Bank of India",
+     "authority": "Reserve Bank of India",
+     "url": "https://www.rbi.org.in",
+     "checked": "2026-11-24",
+     "supports": "official central bank or financial regulator"
+    }
+   ]
+  },
+  "intellectual-property": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official patents, trademarks, licensing and IP ownership in India.",
+   "confidence": "read directly",
+   "facts": [
+    {
+     "label": "Official IP office",
+     "text": "Patents, trademarks and related official registers are administered by Copyright Office Department for Promotion of Industry and Internal Trade, as listed on WIPO's official IP-office directory (read 24 November 2026).",
+     "source": "https://www.wipo.int/en/web/country-profiles/contact?code=IN",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Ownership, licensing and filing",
+     "text": "Foreign ownership of IP, official licensing formalities, and whether the system is first-to-file, should be confirmed on the official IP office pages (and, where listed, on WIPO Lex). This pass records the official office rather than a full statute summary.",
+     "source": "https://ipindia.gov.in",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Copyright Office Department for Promotion of Industry and Internal Trade",
+    "url": "https://ipindia.gov.in"
+   },
+   "sources": [
+    {
+     "title": "WIPO IP office directory: India",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/contact?code=IN",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental index of the national IP office, its name and published website"
+    },
+    {
+     "title": "WIPO directory of national IP offices",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental directory used for this pass"
+    },
+    {
+     "title": "Copyright Office Department for Promotion of Industry and Internal Trade",
+     "authority": "Copyright Office Department for Promotion of Industry and Internal Trade",
+     "url": "https://ipindia.gov.in",
+     "checked": "2026-11-24",
+     "supports": "official national IP office website listed by WIPO or the destination government"
+    }
+   ]
+  },
+  "research-and-enterprise": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official universities, special economic zones, grants and industry strengths in India.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official investment or enterprise agency",
+     "text": "Invest India publishes official investment, university-linked, special-economic-zone or industry-priority information for this place.",
+     "source": "https://www.investindia.gov.in",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official opportunities",
+     "text": "Invest India publishes official sector pages and information on special economic zones, production-linked incentive schemes, and official research or startup programmes. Industry strengths are published by official authorities by sector.",
+     "source": "https://www.investindia.gov.in",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Invest India",
+    "url": "https://www.investindia.gov.in"
+   },
+   "notes": "This official research-and-enterprise record is separate from Works and purpose fit, which remains the tagged, personal pattern for Luke's own works.",
+   "sources": [
+    {
+     "title": "Invest India",
+     "authority": "Invest India",
+     "url": "https://www.investindia.gov.in",
+     "checked": "2026-11-24",
+     "supports": "official investment, research or enterprise-opportunity agency"
+    }
+   ]
   }
  }
 }

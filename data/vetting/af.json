@@ -909,6 +909,123 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; heritage laws are not yet read (see national.read)."
+  },
+  "enterprise-establishment": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official company and subsidiary establishment in Afghanistan, including foreign-ownership and the official registry.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official registry",
+     "text": "Company and subsidiary registration for this place starts with Ministry of Industry and Commerce. Use that official registry (or the official portal it points to) rather than a commercial mirror.",
+     "source": "https://moci.gov.af",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign ownership",
+     "text": "Whether foreigners may own 100% of a company, and any official reserved sectors or screening, should be confirmed on the official registry and investment-agency pages linked here.",
+     "source": "https://moci.gov.af",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Ministry of Industry and Commerce",
+    "url": "https://moci.gov.af"
+   },
+   "sources": [
+    {
+     "title": "Ministry of Industry and Commerce",
+     "authority": "Ministry of Industry and Commerce",
+     "url": "https://moci.gov.af",
+     "checked": "2026-11-24",
+     "supports": "official company registry or business-formalities portal"
+    }
+   ]
+  },
+  "intellectual-property": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official patents, trademarks, licensing and IP ownership in Afghanistan.",
+   "confidence": "read directly",
+   "facts": [
+    {
+     "label": "Official IP office",
+     "text": "Patents, trademarks and related official registers are administered by Ministry of Information and Culture (MoIC), as listed on WIPO's official IP-office directory (read 24 November 2026).",
+     "source": "https://www.wipo.int/en/web/country-profiles/contact?code=AF",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Ownership, licensing and filing",
+     "text": "Foreign ownership of IP, official licensing formalities, and whether the system is first-to-file, should be confirmed on the official IP office pages (and, where listed, on WIPO Lex). This pass records the official office rather than a full statute summary.",
+     "source": "https://moci.gov.af",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Ministry of Information and Culture (MoIC)",
+    "url": "https://moci.gov.af"
+   },
+   "sources": [
+    {
+     "title": "WIPO IP office directory: Afghanistan",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/contact?code=AF",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental index of the national IP office, its name and published website"
+    },
+    {
+     "title": "WIPO directory of national IP offices",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental directory used for this pass"
+    },
+    {
+     "title": "Ministry of Information and Culture (MoIC)",
+     "authority": "Ministry of Information and Culture (MoIC)",
+     "url": "https://moci.gov.af",
+     "checked": "2026-11-24",
+     "supports": "official national IP office website listed by WIPO or the destination government"
+    }
+   ]
+  },
+  "research-and-enterprise": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official universities, special economic zones, grants and industry strengths in Afghanistan.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official investment or enterprise agency",
+     "text": "Ministry of Industry and Commerce publishes official investment, university-linked, special-economic-zone or industry-priority information for this place.",
+     "source": "https://moci.gov.af",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official opportunities",
+     "text": "Named special economic zones, official grants and published industry strengths, where they exist, are listed by the official investment or education authorities. This pattern records official opportunity information for any Australian passport holder; it is not the personal Works and purpose fit pattern.",
+     "source": "https://moci.gov.af",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Ministry of Industry and Commerce",
+    "url": "https://moci.gov.af"
+   },
+   "notes": "This official research-and-enterprise record is separate from Works and purpose fit, which remains the tagged, personal pattern for Luke's own works.",
+   "sources": [
+    {
+     "title": "Ministry of Industry and Commerce",
+     "authority": "Ministry of Industry and Commerce",
+     "url": "https://moci.gov.af",
+     "checked": "2026-11-24",
+     "supports": "official investment, research or enterprise-opportunity agency"
+    }
+   ]
   }
  }
 }
