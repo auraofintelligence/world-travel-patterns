@@ -1008,6 +1008,333 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; authority names and law citations are not reread (see national.read)."
+  },
+  "digital-residency": {
+   "status": "none-found",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official digital identity, electronic signatures and any e-residency programme in Denmark.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "E-residency or digital identity",
+     "text": "No e-residency programme for foreigners was found. MitID is Denmark's official digital ID for eligible users. EU eIDAS rules also apply.",
+     "source": "https://www.borger.dk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official digital or government services",
+     "text": "Start with MitID / virk.dk / borger.dk for official digital-identity, electronic-signature or e-government services and renewals.",
+     "source": "https://www.borger.dk",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "MitID / virk.dk / borger.dk",
+    "url": "https://www.borger.dk"
+   },
+   "notes": "Short visitor visas and entry formalities are covered under Entry and Visa preparation, not this pattern.",
+   "sources": [
+    {
+     "title": "MitID / virk.dk / borger.dk",
+     "authority": "MitID / virk.dk / borger.dk",
+     "url": "https://www.borger.dk",
+     "checked": "2026-11-24",
+     "supports": "official digital identity, e-government or e-residency services"
+    }
+   ]
+  },
+  "physical-residency": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official temporary and permanent residency routes in Denmark, with presence and costs where published.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official residence authority",
+     "text": "Temporary and permanent residence routes for foreigners are administered by New to Denmark (Danish Agency for International Recruitment and Integration / immigration service). Read the current official route names, minimum presence and fees on that site.",
+     "source": "https://www.nyidanmark.dk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Scope",
+     "text": "This pattern covers official temporary and permanent residency, including published minimum presence and costs where known. It does not cover short visitor visas, which sit under Entry and Visa preparation.",
+     "source": "https://www.nyidanmark.dk",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "New to Denmark (Danish Agency for International Recruitment and Integration / immigration service)",
+    "url": "https://www.nyidanmark.dk"
+   },
+   "sources": [
+    {
+     "title": "New to Denmark (Danish Agency for International Recruitment and Integration / immigration service)",
+     "authority": "New to Denmark (Danish Agency for International Recruitment and Integration / immigration service)",
+     "url": "https://www.nyidanmark.dk",
+     "checked": "2026-11-24",
+     "supports": "official residence and immigration authority"
+    }
+   ]
+  },
+  "citizenship": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official naturalisation, descent and dual-citizenship rules in Denmark, for an Australian passport holder.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Dual citizenship (destination rule)",
+     "text": "Denmark allows dual citizenship.",
+     "source": "https://www.uim.dk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Naturalisation",
+     "text": "Naturalisation generally requires a long official residence period (commonly published as 9 years, with exceptions); confirm the current figure on official pages.",
+     "source": "https://www.uim.dk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Citizenship by descent",
+     "text": "Danish citizenship by descent is available in published circumstances.",
+     "source": "https://www.uim.dk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official authority",
+     "text": "Start with Ministry of Immigration and Integration (citizenship) for official naturalisation, descent and dual-citizenship rules.",
+     "source": "https://www.uim.dk",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Ministry of Immigration and Integration (citizenship)",
+    "url": "https://www.uim.dk"
+   },
+   "notes": "Australian law also matters: Australia allows its citizens to hold another citizenship. That does not change the destination country's own dual-citizenship rules.",
+   "sources": [
+    {
+     "title": "Ministry of Immigration and Integration (citizenship)",
+     "authority": "Ministry of Immigration and Integration (citizenship)",
+     "url": "https://www.uim.dk",
+     "checked": "2026-11-24",
+     "supports": "official citizenship or nationality authority"
+    }
+   ]
+  },
+  "enterprise-establishment": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official company and subsidiary establishment in Denmark, including foreign-ownership and the official registry.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official registry",
+     "text": "Company and subsidiary registration for this place starts with Danish Business Authority (CVR). Use that official registry (or the official portal it points to) rather than a commercial mirror.",
+     "source": "https://datacvr.virk.dk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign ownership",
+     "text": "Whether foreigners may own 100% of a company, and any official reserved sectors or screening, should be confirmed on the official registry and investment-agency pages linked here.",
+     "source": "https://datacvr.virk.dk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Investment agency",
+     "text": "Invest in Denmark publishes official company-setup or investment guidance for foreigners.",
+     "source": "https://investindk.com",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Danish Business Authority (CVR)",
+    "url": "https://datacvr.virk.dk"
+   },
+   "sources": [
+    {
+     "title": "Danish Business Authority (CVR)",
+     "authority": "Danish Business Authority (CVR)",
+     "url": "https://datacvr.virk.dk",
+     "checked": "2026-11-24",
+     "supports": "official company registry or business-formalities portal"
+    },
+    {
+     "title": "Invest in Denmark",
+     "authority": "Invest in Denmark",
+     "url": "https://investindk.com",
+     "checked": "2026-11-24",
+     "supports": "official investment or enterprise-setup guidance"
+    }
+   ]
+  },
+  "collective-ownership": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official cooperatives, mutuals, foundations, charities and associations in Denmark.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official forms and registry",
+     "text": "Cooperatives, mutuals, foundations, charities and associations, where they exist as official legal forms, are registered or overseen through official authorities starting at Danish Business Authority (CVR).",
+     "source": "https://datacvr.virk.dk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign participation",
+     "text": "Foreign-participation limits, if any, are published by the official registry or the responsible ministry. Do not assume that company-law foreign-ownership rules apply unchanged to charities, cooperatives or foundations.",
+     "source": "https://datacvr.virk.dk",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Danish Business Authority (CVR)",
+    "url": "https://datacvr.virk.dk"
+   },
+   "sources": [
+    {
+     "title": "Danish Business Authority (CVR)",
+     "authority": "Danish Business Authority (CVR)",
+     "url": "https://datacvr.virk.dk",
+     "checked": "2026-11-24",
+     "supports": "official registry or authority for non-company collective forms"
+    }
+   ]
+  },
+  "financial-infrastructure": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official tax, banking and international-transfer infrastructure in Denmark.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Tax authority",
+     "text": "Danish Tax Agency (Skattestyrelsen) is the official national tax authority (or the official portal that publishes national tax rules). Tax residency, filing and any official non-resident rules should be read there.",
+     "source": "https://skat.dk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Central bank or financial regulator",
+     "text": "Danmarks Nationalbank; Finanstilsynet is the official central bank or a linked official financial regulator. Rules on accounts, payments and international transfers, where published, start there (and with licensed banks they supervise).",
+     "source": "https://www.nationalbanken.dk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Accounts and transfers",
+     "text": "Whether a non-resident can open a local bank account, and official tax-residency tests (often a published day-count plus other official ties), should be confirmed with the official tax authority and a licensed bank. International-transfer rules, including any official foreign-exchange controls, are those of the destination, not Australia.",
+     "source": "https://skat.dk",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Danish Tax Agency (Skattestyrelsen)",
+    "url": "https://skat.dk"
+   },
+   "sources": [
+    {
+     "title": "Danish Tax Agency (Skattestyrelsen)",
+     "authority": "Danish Tax Agency (Skattestyrelsen)",
+     "url": "https://skat.dk",
+     "checked": "2026-11-24",
+     "supports": "official tax authority"
+    },
+    {
+     "title": "Danmarks Nationalbank; Finanstilsynet",
+     "authority": "Danmarks Nationalbank; Finanstilsynet",
+     "url": "https://www.nationalbanken.dk",
+     "checked": "2026-11-24",
+     "supports": "official central bank or financial regulator"
+    }
+   ]
+  },
+  "intellectual-property": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official patents, trademarks, licensing and IP ownership in Denmark.",
+   "confidence": "read directly",
+   "facts": [
+    {
+     "label": "Official IP office",
+     "text": "Patents, trademarks and related official registers are administered by Copyright Department Ministry of Culture, as listed on WIPO's official IP-office directory (read 24 November 2026).",
+     "source": "https://www.wipo.int/en/web/country-profiles/contact?code=DK",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Ownership, licensing and filing",
+     "text": "Foreign ownership of IP, official licensing formalities, and whether the system is first-to-file, should be confirmed on the official IP office pages (and, where listed, on WIPO Lex). This pass records the official office rather than a full statute summary.",
+     "source": "https://kum.dk/english",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Copyright Department Ministry of Culture",
+    "url": "https://kum.dk/english"
+   },
+   "sources": [
+    {
+     "title": "WIPO IP office directory: Denmark",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/contact?code=DK",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental index of the national IP office, its name and published website"
+    },
+    {
+     "title": "WIPO directory of national IP offices",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental directory used for this pass"
+    },
+    {
+     "title": "Copyright Department Ministry of Culture",
+     "authority": "Copyright Department Ministry of Culture",
+     "url": "https://kum.dk/english",
+     "checked": "2026-11-24",
+     "supports": "official national IP office website listed by WIPO or the destination government"
+    }
+   ]
+  },
+  "research-and-enterprise": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official universities, special economic zones, grants and industry strengths in Denmark.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official investment or enterprise agency",
+     "text": "Invest in Denmark publishes official investment, university-linked, special-economic-zone or industry-priority information for this place.",
+     "source": "https://investindk.com",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official opportunities",
+     "text": "Named special economic zones, official grants and published industry strengths, where they exist, are listed by the official investment or education authorities. This pattern records official opportunity information for any Australian passport holder; it is not the personal Works and purpose fit pattern.",
+     "source": "https://investindk.com",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Invest in Denmark",
+    "url": "https://investindk.com"
+   },
+   "notes": "This official research-and-enterprise record is separate from Works and purpose fit, which remains the tagged, personal pattern for Luke's own works.",
+   "sources": [
+    {
+     "title": "Invest in Denmark",
+     "authority": "Invest in Denmark",
+     "url": "https://investindk.com",
+     "checked": "2026-11-24",
+     "supports": "official investment, research or enterprise-opportunity agency"
+    }
+   ]
   }
  }
 }

@@ -954,6 +954,320 @@
    "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
+  },
+  "digital-residency": {
+   "status": "none-found",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official digital identity, electronic signatures and any e-residency programme in Slovakia.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "E-residency",
+     "text": "No official e-residency programme for foreigners (a government digital identity that is not a residence permit) was found in this pass. If the country offers official digital ID or electronic signatures for residents or citizens, that is noted only where an official agency is linked.",
+     "source": "https://www.slovensko.sk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official digital or government services",
+     "text": "Start with slovensko.sk for official digital-identity, electronic-signature or e-government services and renewals.",
+     "source": "https://www.slovensko.sk",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "slovensko.sk",
+    "url": "https://www.slovensko.sk"
+   },
+   "notes": "Short visitor visas and entry formalities are covered under Entry and Visa preparation, not this pattern.",
+   "sources": [
+    {
+     "title": "slovensko.sk",
+     "authority": "slovensko.sk",
+     "url": "https://www.slovensko.sk",
+     "checked": "2026-11-24",
+     "supports": "official digital identity, e-government or e-residency services"
+    }
+   ]
+  },
+  "physical-residency": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official temporary and permanent residency routes in Slovakia, with presence and costs where published.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official residence authority",
+     "text": "Temporary and permanent residence routes for foreigners are administered by Bureau of Border and Foreign Police / Ministry of the Interior of the Slovak Republic. Read the current official route names, minimum presence and fees on that site.",
+     "source": "https://www.minv.sk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Scope",
+     "text": "This pattern covers official temporary and permanent residency, including published minimum presence and costs where known. It does not cover short visitor visas, which sit under Entry and Visa preparation.",
+     "source": "https://www.minv.sk",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Bureau of Border and Foreign Police / Ministry of the Interior of the Slovak Republic",
+    "url": "https://www.minv.sk"
+   },
+   "sources": [
+    {
+     "title": "Bureau of Border and Foreign Police / Ministry of the Interior of the Slovak Republic",
+     "authority": "Bureau of Border and Foreign Police / Ministry of the Interior of the Slovak Republic",
+     "url": "https://www.minv.sk",
+     "checked": "2026-11-24",
+     "supports": "official residence and immigration authority"
+    }
+   ]
+  },
+  "citizenship": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official naturalisation, descent and dual-citizenship rules in Slovakia, for an Australian passport holder.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Dual citizenship (destination rule)",
+     "text": "Slovakia restricts dual citizenship in some official circumstances (including some cases of voluntary acquisition of another nationality). Read the official Ministry of Interior pages rather than assuming a general yes or no.",
+     "source": "https://www.minv.sk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Naturalisation",
+     "text": "Naturalisation conditions are set by official Slovak authorities.",
+     "source": "https://www.minv.sk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Citizenship by descent",
+     "text": "Slovak citizenship by descent is available in published circumstances.",
+     "source": "https://www.minv.sk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official authority",
+     "text": "Start with Ministry of the Interior (citizenship) for official naturalisation, descent and dual-citizenship rules.",
+     "source": "https://www.minv.sk",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Ministry of the Interior (citizenship)",
+    "url": "https://www.minv.sk"
+   },
+   "notes": "Australian law also matters: Australia allows its citizens to hold another citizenship. That does not change the destination country's own dual-citizenship rules.",
+   "sources": [
+    {
+     "title": "Ministry of the Interior (citizenship)",
+     "authority": "Ministry of the Interior (citizenship)",
+     "url": "https://www.minv.sk",
+     "checked": "2026-11-24",
+     "supports": "official citizenship or nationality authority"
+    }
+   ]
+  },
+  "enterprise-establishment": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official company and subsidiary establishment in Slovakia, including foreign-ownership and the official registry.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official registry",
+     "text": "Company and subsidiary registration for this place starts with Slovak Business Register (ORSR) / Ministry of Justice. Use that official registry (or the official portal it points to) rather than a commercial mirror.",
+     "source": "https://www.orsr.sk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign ownership",
+     "text": "Whether foreigners may own 100% of a company, and any official reserved sectors or screening, should be confirmed on the official registry and investment-agency pages linked here.",
+     "source": "https://www.orsr.sk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Investment agency",
+     "text": "SARIO publishes official company-setup or investment guidance for foreigners.",
+     "source": "https://sario.sk",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Slovak Business Register (ORSR) / Ministry of Justice",
+    "url": "https://www.orsr.sk"
+   },
+   "sources": [
+    {
+     "title": "Slovak Business Register (ORSR) / Ministry of Justice",
+     "authority": "Slovak Business Register (ORSR) / Ministry of Justice",
+     "url": "https://www.orsr.sk",
+     "checked": "2026-11-24",
+     "supports": "official company registry or business-formalities portal"
+    },
+    {
+     "title": "SARIO",
+     "authority": "SARIO",
+     "url": "https://sario.sk",
+     "checked": "2026-11-24",
+     "supports": "official investment or enterprise-setup guidance"
+    }
+   ]
+  },
+  "collective-ownership": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official cooperatives, mutuals, foundations, charities and associations in Slovakia.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official forms and registry",
+     "text": "Cooperatives, mutuals, foundations, charities and associations, where they exist as official legal forms, are registered or overseen through official authorities starting at Slovak Business Register (ORSR) / Ministry of Justice.",
+     "source": "https://www.orsr.sk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign participation",
+     "text": "Foreign-participation limits, if any, are published by the official registry or the responsible ministry. Do not assume that company-law foreign-ownership rules apply unchanged to charities, cooperatives or foundations.",
+     "source": "https://www.orsr.sk",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Slovak Business Register (ORSR) / Ministry of Justice",
+    "url": "https://www.orsr.sk"
+   },
+   "sources": [
+    {
+     "title": "Slovak Business Register (ORSR) / Ministry of Justice",
+     "authority": "Slovak Business Register (ORSR) / Ministry of Justice",
+     "url": "https://www.orsr.sk",
+     "checked": "2026-11-24",
+     "supports": "official registry or authority for non-company collective forms"
+    }
+   ]
+  },
+  "financial-infrastructure": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official tax, banking and international-transfer infrastructure in Slovakia.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Tax authority",
+     "text": "Financial Administration of the Slovak Republic is the official national tax authority (or the official portal that publishes national tax rules). Tax residency, filing and any official non-resident rules should be read there.",
+     "source": "https://www.financnasprava.sk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Accounts and transfers",
+     "text": "Whether a non-resident can open a local bank account, and official tax-residency tests (often a published day-count plus other official ties), should be confirmed with the official tax authority and a licensed bank. International-transfer rules, including any official foreign-exchange controls, are those of the destination, not Australia.",
+     "source": "https://www.financnasprava.sk",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Financial Administration of the Slovak Republic",
+    "url": "https://www.financnasprava.sk"
+   },
+   "sources": [
+    {
+     "title": "Financial Administration of the Slovak Republic",
+     "authority": "Financial Administration of the Slovak Republic",
+     "url": "https://www.financnasprava.sk",
+     "checked": "2026-11-24",
+     "supports": "official tax authority"
+    }
+   ]
+  },
+  "intellectual-property": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official patents, trademarks, licensing and IP ownership in Slovakia.",
+   "confidence": "read directly",
+   "facts": [
+    {
+     "label": "Official IP office",
+     "text": "Patents, trademarks and related official registers are administered by Copyright Unit Ministry of Culture, as listed on WIPO's official IP-office directory (read 24 November 2026).",
+     "source": "https://www.wipo.int/en/web/country-profiles/contact?code=SK",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Ownership, licensing and filing",
+     "text": "Foreign ownership of IP, official licensing formalities, and whether the system is first-to-file, should be confirmed on the official IP office pages (and, where listed, on WIPO Lex). This pass records the official office rather than a full statute summary.",
+     "source": "https://www.indprop.gov.sk",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Copyright Unit Ministry of Culture",
+    "url": "https://www.indprop.gov.sk"
+   },
+   "sources": [
+    {
+     "title": "WIPO IP office directory: Slovakia",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/contact?code=SK",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental index of the national IP office, its name and published website"
+    },
+    {
+     "title": "WIPO directory of national IP offices",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental directory used for this pass"
+    },
+    {
+     "title": "Copyright Unit Ministry of Culture",
+     "authority": "Copyright Unit Ministry of Culture",
+     "url": "https://www.indprop.gov.sk",
+     "checked": "2026-11-24",
+     "supports": "official national IP office website listed by WIPO or the destination government"
+    }
+   ]
+  },
+  "research-and-enterprise": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official universities, special economic zones, grants and industry strengths in Slovakia.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official investment or enterprise agency",
+     "text": "SARIO publishes official investment, university-linked, special-economic-zone or industry-priority information for this place.",
+     "source": "https://sario.sk",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official opportunities",
+     "text": "Named special economic zones, official grants and published industry strengths, where they exist, are listed by the official investment or education authorities. This pattern records official opportunity information for any Australian passport holder; it is not the personal Works and purpose fit pattern.",
+     "source": "https://sario.sk",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "SARIO",
+    "url": "https://sario.sk"
+   },
+   "notes": "This official research-and-enterprise record is separate from Works and purpose fit, which remains the tagged, personal pattern for Luke's own works.",
+   "sources": [
+    {
+     "title": "SARIO",
+     "authority": "SARIO",
+     "url": "https://sario.sk",
+     "checked": "2026-11-24",
+     "supports": "official investment, research or enterprise-opportunity agency"
+    }
+   ]
   }
  }
 }

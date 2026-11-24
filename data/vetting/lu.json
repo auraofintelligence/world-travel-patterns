@@ -833,6 +833,314 @@
      "supports": "cash payment limit (Article 80) and application date 10 July 2027 (read via a search-index snapshot)"
     }
    ]
+  },
+  "digital-residency": {
+   "status": "none-found",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official digital identity, electronic signatures and any e-residency programme in Luxembourg.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "E-residency",
+     "text": "No official e-residency programme for foreigners (a government digital identity that is not a residence permit) was found in this pass. If the country offers official digital ID or electronic signatures for residents or citizens, that is noted only where an official agency is linked.",
+     "source": "https://guichet.public.lu",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official digital or government services",
+     "text": "Start with Guichet.lu / LuxTrust eID for official digital-identity, electronic-signature or e-government services and renewals.",
+     "source": "https://guichet.public.lu",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Guichet.lu / LuxTrust eID",
+    "url": "https://guichet.public.lu"
+   },
+   "notes": "Short visitor visas and entry formalities are covered under Entry and Visa preparation, not this pattern.",
+   "sources": [
+    {
+     "title": "Guichet.lu / LuxTrust eID",
+     "authority": "Guichet.lu / LuxTrust eID",
+     "url": "https://guichet.public.lu",
+     "checked": "2026-11-24",
+     "supports": "official digital identity, e-government or e-residency services"
+    }
+   ]
+  },
+  "physical-residency": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official temporary and permanent residency routes in Luxembourg, with presence and costs where published.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official residence authority",
+     "text": "Temporary and permanent residence routes for foreigners are administered by Directorate of Immigration, Ministry for Home Affairs. Read the current official route names, minimum presence and fees on that site.",
+     "source": "https://guichet.public.lu",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Scope",
+     "text": "This pattern covers official temporary and permanent residency, including published minimum presence and costs where known. It does not cover short visitor visas, which sit under Entry and Visa preparation.",
+     "source": "https://guichet.public.lu",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Directorate of Immigration, Ministry for Home Affairs",
+    "url": "https://guichet.public.lu"
+   },
+   "sources": [
+    {
+     "title": "Directorate of Immigration, Ministry for Home Affairs",
+     "authority": "Directorate of Immigration, Ministry for Home Affairs",
+     "url": "https://guichet.public.lu",
+     "checked": "2026-11-24",
+     "supports": "official residence and immigration authority"
+    }
+   ]
+  },
+  "citizenship": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official naturalisation, descent and dual-citizenship rules in Luxembourg, for an Australian passport holder.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Dual citizenship (destination rule)",
+     "text": "Whether the destination allows dual citizenship should be confirmed on the official nationality pages. Do not assume that a residence permit leads to citizenship, or that Australia's rule applies there.",
+     "source": "https://guichet.public.lu",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Citizenship by descent",
+     "text": "Many countries have a descent route with official documentary conditions. Confirm eligibility on the official nationality pages before planning around it.",
+     "source": "https://guichet.public.lu",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official authority",
+     "text": "Start with Ministry of Justice (nationality) via Guichet.lu for official naturalisation, descent and dual-citizenship rules.",
+     "source": "https://guichet.public.lu",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Ministry of Justice (nationality) via Guichet.lu",
+    "url": "https://guichet.public.lu"
+   },
+   "notes": "Australian law also matters: Australia allows its citizens to hold another citizenship. That does not change the destination country's own dual-citizenship rules.",
+   "sources": [
+    {
+     "title": "Ministry of Justice (nationality) via Guichet.lu",
+     "authority": "Ministry of Justice (nationality) via Guichet.lu",
+     "url": "https://guichet.public.lu",
+     "checked": "2026-11-24",
+     "supports": "official citizenship or nationality authority"
+    }
+   ]
+  },
+  "enterprise-establishment": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official company and subsidiary establishment in Luxembourg, including foreign-ownership and the official registry.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official registry",
+     "text": "Company and subsidiary registration for this place starts with Luxembourg Business Registers (RCS). Use that official registry (or the official portal it points to) rather than a commercial mirror.",
+     "source": "https://www.lbr.lu",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign ownership",
+     "text": "Whether foreigners may own 100% of a company, and any official reserved sectors or screening, should be confirmed on the official registry and investment-agency pages linked here.",
+     "source": "https://www.lbr.lu",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Investment agency",
+     "text": "Luxembourg Trade and Invest publishes official company-setup or investment guidance for foreigners.",
+     "source": "https://www.tradeandinvest.lu",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Luxembourg Business Registers (RCS)",
+    "url": "https://www.lbr.lu"
+   },
+   "sources": [
+    {
+     "title": "Luxembourg Business Registers (RCS)",
+     "authority": "Luxembourg Business Registers (RCS)",
+     "url": "https://www.lbr.lu",
+     "checked": "2026-11-24",
+     "supports": "official company registry or business-formalities portal"
+    },
+    {
+     "title": "Luxembourg Trade and Invest",
+     "authority": "Luxembourg Trade and Invest",
+     "url": "https://www.tradeandinvest.lu",
+     "checked": "2026-11-24",
+     "supports": "official investment or enterprise-setup guidance"
+    }
+   ]
+  },
+  "collective-ownership": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official cooperatives, mutuals, foundations, charities and associations in Luxembourg.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official forms and registry",
+     "text": "Cooperatives, mutuals, foundations, charities and associations, where they exist as official legal forms, are registered or overseen through official authorities starting at Luxembourg Business Registers (RCS).",
+     "source": "https://www.lbr.lu",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign participation",
+     "text": "Foreign-participation limits, if any, are published by the official registry or the responsible ministry. Do not assume that company-law foreign-ownership rules apply unchanged to charities, cooperatives or foundations.",
+     "source": "https://www.lbr.lu",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Luxembourg Business Registers (RCS)",
+    "url": "https://www.lbr.lu"
+   },
+   "sources": [
+    {
+     "title": "Luxembourg Business Registers (RCS)",
+     "authority": "Luxembourg Business Registers (RCS)",
+     "url": "https://www.lbr.lu",
+     "checked": "2026-11-24",
+     "supports": "official registry or authority for non-company collective forms"
+    }
+   ]
+  },
+  "financial-infrastructure": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official tax, banking and international-transfer infrastructure in Luxembourg.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Tax authority",
+     "text": "Administration des contributions directes is the official national tax authority (or the official portal that publishes national tax rules). Tax residency, filing and any official non-resident rules should be read there.",
+     "source": "https://impotsdirects.public.lu",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Accounts and transfers",
+     "text": "Whether a non-resident can open a local bank account, and official tax-residency tests (often a published day-count plus other official ties), should be confirmed with the official tax authority and a licensed bank. International-transfer rules, including any official foreign-exchange controls, are those of the destination, not Australia.",
+     "source": "https://impotsdirects.public.lu",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Administration des contributions directes",
+    "url": "https://impotsdirects.public.lu"
+   },
+   "sources": [
+    {
+     "title": "Administration des contributions directes",
+     "authority": "Administration des contributions directes",
+     "url": "https://impotsdirects.public.lu",
+     "checked": "2026-11-24",
+     "supports": "official tax authority"
+    }
+   ]
+  },
+  "intellectual-property": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official patents, trademarks, licensing and IP ownership in Luxembourg.",
+   "confidence": "read directly",
+   "facts": [
+    {
+     "label": "Official IP office",
+     "text": "Patents, trademarks and related official registers are administered by Intellectual Property Office Ministry of the Economy, as listed on WIPO's official IP-office directory (read 24 November 2026).",
+     "source": "https://www.wipo.int/en/web/country-profiles/contact?code=LU",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Ownership, licensing and filing",
+     "text": "Foreign ownership of IP, official licensing formalities, and whether the system is first-to-file, should be confirmed on the official IP office pages (and, where listed, on WIPO Lex). This pass records the official office rather than a full statute summary.",
+     "source": "https://www.boip.int/en",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Intellectual Property Office Ministry of the Economy",
+    "url": "https://www.boip.int/en"
+   },
+   "sources": [
+    {
+     "title": "WIPO IP office directory: Luxembourg",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/contact?code=LU",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental index of the national IP office, its name and published website"
+    },
+    {
+     "title": "WIPO directory of national IP offices",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental directory used for this pass"
+    },
+    {
+     "title": "Intellectual Property Office Ministry of the Economy",
+     "authority": "Intellectual Property Office Ministry of the Economy",
+     "url": "https://www.boip.int/en",
+     "checked": "2026-11-24",
+     "supports": "official national IP office website listed by WIPO or the destination government"
+    }
+   ]
+  },
+  "research-and-enterprise": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official universities, special economic zones, grants and industry strengths in Luxembourg.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official investment or enterprise agency",
+     "text": "Luxembourg Trade and Invest publishes official investment, university-linked, special-economic-zone or industry-priority information for this place.",
+     "source": "https://www.tradeandinvest.lu",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official opportunities",
+     "text": "Named special economic zones, official grants and published industry strengths, where they exist, are listed by the official investment or education authorities. This pattern records official opportunity information for any Australian passport holder; it is not the personal Works and purpose fit pattern.",
+     "source": "https://www.tradeandinvest.lu",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Luxembourg Trade and Invest",
+    "url": "https://www.tradeandinvest.lu"
+   },
+   "notes": "This official research-and-enterprise record is separate from Works and purpose fit, which remains the tagged, personal pattern for Luke's own works.",
+   "sources": [
+    {
+     "title": "Luxembourg Trade and Invest",
+     "authority": "Luxembourg Trade and Invest",
+     "url": "https://www.tradeandinvest.lu",
+     "checked": "2026-11-24",
+     "supports": "official investment, research or enterprise-opportunity agency"
+    }
+   ]
   }
  }
 }

@@ -1141,6 +1141,333 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; authority names and law citations are not reread (see national.read)."
+  },
+  "digital-residency": {
+   "status": "none-found",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official digital identity, electronic signatures and any e-residency programme in Germany.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "E-residency or digital identity",
+     "text": "No e-residency programme for foreigners was found. The official German eID (including BundID and the national identity card's online function) is for eligible residents and citizens. EU eIDAS rules also apply to electronic identification and signatures.",
+     "source": "https://www.bund.de",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official digital or government services",
+     "text": "Start with BundID / federal and state eID for official digital-identity, electronic-signature or e-government services and renewals.",
+     "source": "https://www.bund.de",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "BundID / federal and state eID",
+    "url": "https://www.bund.de"
+   },
+   "notes": "Short visitor visas and entry formalities are covered under Entry and Visa preparation, not this pattern.",
+   "sources": [
+    {
+     "title": "BundID / federal and state eID",
+     "authority": "BundID / federal and state eID",
+     "url": "https://www.bund.de",
+     "checked": "2026-11-24",
+     "supports": "official digital identity, e-government or e-residency services"
+    }
+   ]
+  },
+  "physical-residency": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official temporary and permanent residency routes in Germany, with presence and costs where published.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official residence authority",
+     "text": "Temporary and permanent residence routes for foreigners are administered by Federal Office for Migration and Refugees (BAMF) and local foreigners authorities. Read the current official route names, minimum presence and fees on that site.",
+     "source": "https://www.bamf.de",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Scope",
+     "text": "This pattern covers official temporary and permanent residency, including published minimum presence and costs where known. It does not cover short visitor visas, which sit under Entry and Visa preparation.",
+     "source": "https://www.bamf.de",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Federal Office for Migration and Refugees (BAMF) and local foreigners authorities",
+    "url": "https://www.bamf.de"
+   },
+   "sources": [
+    {
+     "title": "Federal Office for Migration and Refugees (BAMF) and local foreigners authorities",
+     "authority": "Federal Office for Migration and Refugees (BAMF) and local foreigners authorities",
+     "url": "https://www.bamf.de",
+     "checked": "2026-11-24",
+     "supports": "official residence and immigration authority"
+    }
+   ]
+  },
+  "citizenship": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official naturalisation, descent and dual-citizenship rules in Germany, for an Australian passport holder.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Dual citizenship (destination rule)",
+     "text": "Germany now generally allows dual citizenship under the modernised nationality law (including for people who naturalise). Official conditions and any remaining limits should be read on the official pages.",
+     "source": "https://www.bmi.bund.de",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Naturalisation",
+     "text": "Naturalisation residence is generally 5 years under the current official rules, with a possible shorter period in published circumstances.",
+     "source": "https://www.bmi.bund.de",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Citizenship by descent",
+     "text": "German citizenship by descent is available in published circumstances.",
+     "source": "https://www.bmi.bund.de",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official authority",
+     "text": "Start with Federal Ministry of the Interior (nationality) and local authorities for official naturalisation, descent and dual-citizenship rules.",
+     "source": "https://www.bmi.bund.de",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Federal Ministry of the Interior (nationality) and local authorities",
+    "url": "https://www.bmi.bund.de"
+   },
+   "notes": "Australian law also matters: Australia allows its citizens to hold another citizenship. That does not change the destination country's own dual-citizenship rules.",
+   "sources": [
+    {
+     "title": "Federal Ministry of the Interior (nationality) and local authorities",
+     "authority": "Federal Ministry of the Interior (nationality) and local authorities",
+     "url": "https://www.bmi.bund.de",
+     "checked": "2026-11-24",
+     "supports": "official citizenship or nationality authority"
+    }
+   ]
+  },
+  "enterprise-establishment": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official company and subsidiary establishment in Germany, including foreign-ownership and the official registry.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Company forms and registry",
+     "text": "A GmbH is the usual limited-liability form; the Handelsregister is the official register. A UG (haftungsbeschränkt) is a related official form.",
+     "source": "https://www.handelsregister.de",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign ownership",
+     "text": "Foreigners may generally own 100% of a German company, subject to official inbound-investment screening and sector licences.",
+     "source": "https://www.handelsregister.de",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Investment agency",
+     "text": "Germany Trade and Invest (GTAI) publishes official company-setup or investment guidance for foreigners.",
+     "source": "https://www.gtai.de",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Handelsregister (official German commercial register)",
+    "url": "https://www.handelsregister.de"
+   },
+   "sources": [
+    {
+     "title": "Handelsregister (official German commercial register)",
+     "authority": "Handelsregister (official German commercial register)",
+     "url": "https://www.handelsregister.de",
+     "checked": "2026-11-24",
+     "supports": "official company registry or business-formalities portal"
+    },
+    {
+     "title": "Germany Trade and Invest (GTAI)",
+     "authority": "Germany Trade and Invest (GTAI)",
+     "url": "https://www.gtai.de",
+     "checked": "2026-11-24",
+     "supports": "official investment or enterprise-setup guidance"
+    }
+   ]
+  },
+  "collective-ownership": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official cooperatives, mutuals, foundations, charities and associations in Germany.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official forms and registry",
+     "text": "Cooperatives, mutuals, foundations, charities and associations, where they exist as official legal forms, are registered or overseen through official authorities starting at registers for associations (Vereine) sit with local courts; foundations and charities follow federal and state law.",
+     "source": "https://www.handelsregister.de",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign participation",
+     "text": "Foreign-participation limits, if any, are published by the official registry or the responsible ministry. Do not assume that company-law foreign-ownership rules apply unchanged to charities, cooperatives or foundations.",
+     "source": "https://www.handelsregister.de",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "registers for associations (Vereine) sit with local courts; foundations and charities follow federal and state law",
+    "url": "https://www.handelsregister.de"
+   },
+   "sources": [
+    {
+     "title": "registers for associations (Vereine) sit with local courts; foundations and charities follow federal and state law",
+     "authority": "registers for associations (Vereine) sit with local courts; foundations and charities follow federal and state law",
+     "url": "https://www.handelsregister.de",
+     "checked": "2026-11-24",
+     "supports": "official registry or authority for non-company collective forms"
+    }
+   ]
+  },
+  "financial-infrastructure": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official tax, banking and international-transfer infrastructure in Germany.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Tax authority",
+     "text": "Federal Central Tax Office / state tax administrations is the official national tax authority (or the official portal that publishes national tax rules). Tax residency, filing and any official non-resident rules should be read there.",
+     "source": "https://www.bzst.de",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Central bank or financial regulator",
+     "text": "Deutsche Bundesbank; BaFin is the official central bank or a linked official financial regulator. Rules on accounts, payments and international transfers, where published, start there (and with licensed banks they supervise).",
+     "source": "https://www.bundesbank.de",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Accounts and transfers",
+     "text": "Whether a non-resident can open a local bank account, and official tax-residency tests (often a published day-count plus other official ties), should be confirmed with the official tax authority and a licensed bank. International-transfer rules, including any official foreign-exchange controls, are those of the destination, not Australia.",
+     "source": "https://www.bzst.de",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Federal Central Tax Office / state tax administrations",
+    "url": "https://www.bzst.de"
+   },
+   "sources": [
+    {
+     "title": "Federal Central Tax Office / state tax administrations",
+     "authority": "Federal Central Tax Office / state tax administrations",
+     "url": "https://www.bzst.de",
+     "checked": "2026-11-24",
+     "supports": "official tax authority"
+    },
+    {
+     "title": "Deutsche Bundesbank; BaFin",
+     "authority": "Deutsche Bundesbank; BaFin",
+     "url": "https://www.bundesbank.de",
+     "checked": "2026-11-24",
+     "supports": "official central bank or financial regulator"
+    }
+   ]
+  },
+  "intellectual-property": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official patents, trademarks, licensing and IP ownership in Germany.",
+   "confidence": "read directly",
+   "facts": [
+    {
+     "label": "Official IP office",
+     "text": "Patents, trademarks and related official registers are administered by German Patent and Trade Mark Office (DPMA), as listed on WIPO's official IP-office directory (read 24 November 2026).",
+     "source": "https://www.wipo.int/en/web/country-profiles/contact?code=DE",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Ownership, licensing and filing",
+     "text": "Foreign ownership of IP, official licensing formalities, and whether the system is first-to-file, should be confirmed on the official IP office pages (and, where listed, on WIPO Lex). This pass records the official office rather than a full statute summary.",
+     "source": "https://www.dpma.de/english/index.html",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "German Patent and Trade Mark Office (DPMA)",
+    "url": "https://www.dpma.de/english/index.html"
+   },
+   "sources": [
+    {
+     "title": "WIPO IP office directory: Germany",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/contact?code=DE",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental index of the national IP office, its name and published website"
+    },
+    {
+     "title": "WIPO directory of national IP offices",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental directory used for this pass"
+    },
+    {
+     "title": "German Patent and Trade Mark Office (DPMA)",
+     "authority": "German Patent and Trade Mark Office (DPMA)",
+     "url": "https://www.dpma.de/english/index.html",
+     "checked": "2026-11-24",
+     "supports": "official national IP office website listed by WIPO or the destination government"
+    }
+   ]
+  },
+  "research-and-enterprise": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official universities, special economic zones, grants and industry strengths in Germany.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official investment or enterprise agency",
+     "text": "Germany Trade and Invest (GTAI) publishes official investment, university-linked, special-economic-zone or industry-priority information for this place.",
+     "source": "https://www.gtai.de",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official opportunities",
+     "text": "GTAI publishes official investment and sector pages. Official research funding and some incentives also sit with federal ministries and the Länder, so a state record is needed where those official programmes differ.",
+     "source": "https://www.gtai.de",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Germany Trade and Invest (GTAI)",
+    "url": "https://www.gtai.de"
+   },
+   "notes": "This official research-and-enterprise record is separate from Works and purpose fit, which remains the tagged, personal pattern for Luke's own works.",
+   "sources": [
+    {
+     "title": "Germany Trade and Invest (GTAI)",
+     "authority": "Germany Trade and Invest (GTAI)",
+     "url": "https://www.gtai.de",
+     "checked": "2026-11-24",
+     "supports": "official investment, research or enterprise-opportunity agency"
+    }
+   ]
   }
  }
 }

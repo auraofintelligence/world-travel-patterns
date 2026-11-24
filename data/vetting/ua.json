@@ -762,6 +762,333 @@
     }
    ],
    "checked": "2026-11-03"
+  },
+  "digital-residency": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official digital identity, electronic signatures and any e-residency programme in Ukraine.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "E-residency or digital identity",
+     "text": "Diia is Ukraine's official digital-state platform. Diia.City is a published legal regime for IT and technology businesses. These are not a foreigner e-residency or residence permit by themselves.",
+     "source": "https://diia.gov.ua",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official digital or government services",
+     "text": "Start with Diia for official digital-identity, electronic-signature or e-government services and renewals.",
+     "source": "https://diia.gov.ua",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Diia",
+    "url": "https://diia.gov.ua"
+   },
+   "notes": "Short visitor visas and entry formalities are covered under Entry and Visa preparation, not this pattern.",
+   "sources": [
+    {
+     "title": "Diia",
+     "authority": "Diia",
+     "url": "https://diia.gov.ua",
+     "checked": "2026-11-24",
+     "supports": "official digital identity, e-government or e-residency services"
+    }
+   ]
+  },
+  "physical-residency": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official temporary and permanent residency routes in Ukraine, with presence and costs where published.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official residence authority",
+     "text": "Temporary and permanent residence routes for foreigners are administered by State Migration Service of Ukraine. Read the current official route names, minimum presence and fees on that site.",
+     "source": "https://dmsu.gov.ua",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Scope",
+     "text": "This pattern covers official temporary and permanent residency, including published minimum presence and costs where known. It does not cover short visitor visas, which sit under Entry and Visa preparation.",
+     "source": "https://dmsu.gov.ua",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "State Migration Service of Ukraine",
+    "url": "https://dmsu.gov.ua"
+   },
+   "sources": [
+    {
+     "title": "State Migration Service of Ukraine",
+     "authority": "State Migration Service of Ukraine",
+     "url": "https://dmsu.gov.ua",
+     "checked": "2026-11-24",
+     "supports": "official residence and immigration authority"
+    }
+   ]
+  },
+  "citizenship": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official naturalisation, descent and dual-citizenship rules in Ukraine, for an Australian passport holder.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Dual citizenship (destination rule)",
+     "text": "Ukraine's official nationality rules have been in official transition on dual citizenship; do not assume a simple yes or no. Read the State Migration Service pages for the current law.",
+     "source": "https://dmsu.gov.ua",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Naturalisation",
+     "text": "Naturalisation conditions are set by official Ukrainian authorities.",
+     "source": "https://dmsu.gov.ua",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Citizenship by descent",
+     "text": "Ukrainian citizenship by descent is available in published circumstances.",
+     "source": "https://dmsu.gov.ua",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official authority",
+     "text": "Start with State Migration Service of Ukraine for official naturalisation, descent and dual-citizenship rules.",
+     "source": "https://dmsu.gov.ua",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "State Migration Service of Ukraine",
+    "url": "https://dmsu.gov.ua"
+   },
+   "notes": "Australian law also matters: Australia allows its citizens to hold another citizenship. That does not change the destination country's own dual-citizenship rules.",
+   "sources": [
+    {
+     "title": "State Migration Service of Ukraine",
+     "authority": "State Migration Service of Ukraine",
+     "url": "https://dmsu.gov.ua",
+     "checked": "2026-11-24",
+     "supports": "official citizenship or nationality authority"
+    }
+   ]
+  },
+  "enterprise-establishment": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official company and subsidiary establishment in Ukraine, including foreign-ownership and the official registry.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official registry",
+     "text": "Company and subsidiary registration for this place starts with Unified State Register, Ministry of Justice / Diia. Use that official registry (or the official portal it points to) rather than a commercial mirror.",
+     "source": "https://usr.minjust.gov.ua",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign ownership",
+     "text": "Whether foreigners may own 100% of a company, and any official reserved sectors or screening, should be confirmed on the official registry and investment-agency pages linked here.",
+     "source": "https://usr.minjust.gov.ua",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Investment agency",
+     "text": "UkraineInvest publishes official company-setup or investment guidance for foreigners.",
+     "source": "https://ukraineinvest.gov.ua",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Unified State Register, Ministry of Justice / Diia",
+    "url": "https://usr.minjust.gov.ua"
+   },
+   "sources": [
+    {
+     "title": "Unified State Register, Ministry of Justice / Diia",
+     "authority": "Unified State Register, Ministry of Justice / Diia",
+     "url": "https://usr.minjust.gov.ua",
+     "checked": "2026-11-24",
+     "supports": "official company registry or business-formalities portal"
+    },
+    {
+     "title": "UkraineInvest",
+     "authority": "UkraineInvest",
+     "url": "https://ukraineinvest.gov.ua",
+     "checked": "2026-11-24",
+     "supports": "official investment or enterprise-setup guidance"
+    }
+   ]
+  },
+  "collective-ownership": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official cooperatives, mutuals, foundations, charities and associations in Ukraine.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official forms and registry",
+     "text": "Cooperatives, mutuals, foundations, charities and associations, where they exist as official legal forms, are registered or overseen through official authorities starting at Unified State Register, Ministry of Justice / Diia.",
+     "source": "https://usr.minjust.gov.ua",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign participation",
+     "text": "Foreign-participation limits, if any, are published by the official registry or the responsible ministry. Do not assume that company-law foreign-ownership rules apply unchanged to charities, cooperatives or foundations.",
+     "source": "https://usr.minjust.gov.ua",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Unified State Register, Ministry of Justice / Diia",
+    "url": "https://usr.minjust.gov.ua"
+   },
+   "sources": [
+    {
+     "title": "Unified State Register, Ministry of Justice / Diia",
+     "authority": "Unified State Register, Ministry of Justice / Diia",
+     "url": "https://usr.minjust.gov.ua",
+     "checked": "2026-11-24",
+     "supports": "official registry or authority for non-company collective forms"
+    }
+   ]
+  },
+  "financial-infrastructure": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official tax, banking and international-transfer infrastructure in Ukraine.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Tax authority",
+     "text": "State Tax Service of Ukraine is the official national tax authority (or the official portal that publishes national tax rules). Tax residency, filing and any official non-resident rules should be read there.",
+     "source": "https://tax.gov.ua",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Central bank or financial regulator",
+     "text": "National Bank of Ukraine is the official central bank or a linked official financial regulator. Rules on accounts, payments and international transfers, where published, start there (and with licensed banks they supervise).",
+     "source": "https://bank.gov.ua",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Accounts and transfers",
+     "text": "Whether a non-resident can open a local bank account, and official tax-residency tests (often a published day-count plus other official ties), should be confirmed with the official tax authority and a licensed bank. International-transfer rules, including any official foreign-exchange controls, are those of the destination, not Australia.",
+     "source": "https://tax.gov.ua",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "State Tax Service of Ukraine",
+    "url": "https://tax.gov.ua"
+   },
+   "sources": [
+    {
+     "title": "State Tax Service of Ukraine",
+     "authority": "State Tax Service of Ukraine",
+     "url": "https://tax.gov.ua",
+     "checked": "2026-11-24",
+     "supports": "official tax authority"
+    },
+    {
+     "title": "National Bank of Ukraine",
+     "authority": "National Bank of Ukraine",
+     "url": "https://bank.gov.ua",
+     "checked": "2026-11-24",
+     "supports": "official central bank or financial regulator"
+    }
+   ]
+  },
+  "intellectual-property": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official patents, trademarks, licensing and IP ownership in Ukraine.",
+   "confidence": "read directly",
+   "facts": [
+    {
+     "label": "Official IP office",
+     "text": "Patents, trademarks and related official registers are administered by National Intellectual Property Authority State Organization Ukrainian National Office for Intellectual Property and I..., as listed on WIPO's official IP-office directory (read 24 November 2026).",
+     "source": "https://www.wipo.int/en/web/country-profiles/contact?code=UA",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Ownership, licensing and filing",
+     "text": "Foreign ownership of IP, official licensing formalities, and whether the system is first-to-file, should be confirmed on the official IP office pages (and, where listed, on WIPO Lex). This pass records the official office rather than a full statute summary.",
+     "source": "https://nipo.gov.ua/en",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "National Intellectual Property Authority State Organization Ukrainian National Office for Intellectual Property and I...",
+    "url": "https://nipo.gov.ua/en"
+   },
+   "sources": [
+    {
+     "title": "WIPO IP office directory: Ukraine",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/contact?code=UA",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental index of the national IP office, its name and published website"
+    },
+    {
+     "title": "WIPO directory of national IP offices",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental directory used for this pass"
+    },
+    {
+     "title": "National Intellectual Property Authority State Organization Ukrainian National Office for Intellectual Property and I...",
+     "authority": "National Intellectual Property Authority State Organization Ukrainian National Office for Intellectual Property and I...",
+     "url": "https://nipo.gov.ua/en",
+     "checked": "2026-11-24",
+     "supports": "official national IP office website listed by WIPO or the destination government"
+    }
+   ]
+  },
+  "research-and-enterprise": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official universities, special economic zones, grants and industry strengths in Ukraine.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official investment or enterprise agency",
+     "text": "UkraineInvest / Diia.City publishes official investment, university-linked, special-economic-zone or industry-priority information for this place.",
+     "source": "https://city.diia.gov.ua",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official opportunities",
+     "text": "Named special economic zones, official grants and published industry strengths, where they exist, are listed by the official investment or education authorities. This pattern records official opportunity information for any Australian passport holder; it is not the personal Works and purpose fit pattern.",
+     "source": "https://city.diia.gov.ua",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "UkraineInvest / Diia.City",
+    "url": "https://city.diia.gov.ua"
+   },
+   "notes": "This official research-and-enterprise record is separate from Works and purpose fit, which remains the tagged, personal pattern for Luke's own works.",
+   "sources": [
+    {
+     "title": "UkraineInvest / Diia.City",
+     "authority": "UkraineInvest / Diia.City",
+     "url": "https://city.diia.gov.ua",
+     "checked": "2026-11-24",
+     "supports": "official investment, research or enterprise-opportunity agency"
+    }
+   ]
   }
  }
 }

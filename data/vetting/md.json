@@ -832,6 +832,314 @@
    "checked": "2026-11-06",
    "evidence": "official",
    "drones": true
+  },
+  "digital-residency": {
+   "status": "none-found",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official digital identity, electronic signatures and any e-residency programme in Moldova.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "E-residency",
+     "text": "No official e-residency programme for foreigners (a government digital identity that is not a residence permit) was found in this pass. If the country offers official digital ID or electronic signatures for residents or citizens, that is noted only where an official agency is linked.",
+     "source": "https://mcabinet.gov.md",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official digital or government services",
+     "text": "Start with MCabinet / e-Government Agency for official digital-identity, electronic-signature or e-government services and renewals.",
+     "source": "https://mcabinet.gov.md",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "MCabinet / e-Government Agency",
+    "url": "https://mcabinet.gov.md"
+   },
+   "notes": "Short visitor visas and entry formalities are covered under Entry and Visa preparation, not this pattern.",
+   "sources": [
+    {
+     "title": "MCabinet / e-Government Agency",
+     "authority": "MCabinet / e-Government Agency",
+     "url": "https://mcabinet.gov.md",
+     "checked": "2026-11-24",
+     "supports": "official digital identity, e-government or e-residency services"
+    }
+   ]
+  },
+  "physical-residency": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official temporary and permanent residency routes in Moldova, with presence and costs where published.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official residence authority",
+     "text": "Temporary and permanent residence routes for foreigners are administered by General Inspectorate for Migration, Republic of Moldova. Read the current official route names, minimum presence and fees on that site.",
+     "source": "https://igm.gov.md",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Scope",
+     "text": "This pattern covers official temporary and permanent residency, including published minimum presence and costs where known. It does not cover short visitor visas, which sit under Entry and Visa preparation.",
+     "source": "https://igm.gov.md",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "General Inspectorate for Migration, Republic of Moldova",
+    "url": "https://igm.gov.md"
+   },
+   "sources": [
+    {
+     "title": "General Inspectorate for Migration, Republic of Moldova",
+     "authority": "General Inspectorate for Migration, Republic of Moldova",
+     "url": "https://igm.gov.md",
+     "checked": "2026-11-24",
+     "supports": "official residence and immigration authority"
+    }
+   ]
+  },
+  "citizenship": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official naturalisation, descent and dual-citizenship rules in Moldova, for an Australian passport holder.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Dual citizenship (destination rule)",
+     "text": "Whether the destination allows dual citizenship should be confirmed on the official nationality pages. Do not assume that a residence permit leads to citizenship, or that Australia's rule applies there.",
+     "source": "https://www.asp.gov.md",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Citizenship by descent",
+     "text": "Many countries have a descent route with official documentary conditions. Confirm eligibility on the official nationality pages before planning around it.",
+     "source": "https://www.asp.gov.md",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official authority",
+     "text": "Start with Public Services Agency (citizenship) for official naturalisation, descent and dual-citizenship rules.",
+     "source": "https://www.asp.gov.md",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Public Services Agency (citizenship)",
+    "url": "https://www.asp.gov.md"
+   },
+   "notes": "Australian law also matters: Australia allows its citizens to hold another citizenship. That does not change the destination country's own dual-citizenship rules.",
+   "sources": [
+    {
+     "title": "Public Services Agency (citizenship)",
+     "authority": "Public Services Agency (citizenship)",
+     "url": "https://www.asp.gov.md",
+     "checked": "2026-11-24",
+     "supports": "official citizenship or nationality authority"
+    }
+   ]
+  },
+  "enterprise-establishment": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official company and subsidiary establishment in Moldova, including foreign-ownership and the official registry.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official registry",
+     "text": "Company and subsidiary registration for this place starts with Public Services Agency (state registration of legal entities). Use that official registry (or the official portal it points to) rather than a commercial mirror.",
+     "source": "https://www.asp.gov.md",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign ownership",
+     "text": "Whether foreigners may own 100% of a company, and any official reserved sectors or screening, should be confirmed on the official registry and investment-agency pages linked here.",
+     "source": "https://www.asp.gov.md",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Investment agency",
+     "text": "Invest Moldova publishes official company-setup or investment guidance for foreigners.",
+     "source": "https://invest.gov.md",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Public Services Agency (state registration of legal entities)",
+    "url": "https://www.asp.gov.md"
+   },
+   "sources": [
+    {
+     "title": "Public Services Agency (state registration of legal entities)",
+     "authority": "Public Services Agency (state registration of legal entities)",
+     "url": "https://www.asp.gov.md",
+     "checked": "2026-11-24",
+     "supports": "official company registry or business-formalities portal"
+    },
+    {
+     "title": "Invest Moldova",
+     "authority": "Invest Moldova",
+     "url": "https://invest.gov.md",
+     "checked": "2026-11-24",
+     "supports": "official investment or enterprise-setup guidance"
+    }
+   ]
+  },
+  "collective-ownership": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official cooperatives, mutuals, foundations, charities and associations in Moldova.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official forms and registry",
+     "text": "Cooperatives, mutuals, foundations, charities and associations, where they exist as official legal forms, are registered or overseen through official authorities starting at Public Services Agency (state registration of legal entities).",
+     "source": "https://www.asp.gov.md",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign participation",
+     "text": "Foreign-participation limits, if any, are published by the official registry or the responsible ministry. Do not assume that company-law foreign-ownership rules apply unchanged to charities, cooperatives or foundations.",
+     "source": "https://www.asp.gov.md",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Public Services Agency (state registration of legal entities)",
+    "url": "https://www.asp.gov.md"
+   },
+   "sources": [
+    {
+     "title": "Public Services Agency (state registration of legal entities)",
+     "authority": "Public Services Agency (state registration of legal entities)",
+     "url": "https://www.asp.gov.md",
+     "checked": "2026-11-24",
+     "supports": "official registry or authority for non-company collective forms"
+    }
+   ]
+  },
+  "financial-infrastructure": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official tax, banking and international-transfer infrastructure in Moldova.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Tax authority",
+     "text": "State Tax Service is the official national tax authority (or the official portal that publishes national tax rules). Tax residency, filing and any official non-resident rules should be read there.",
+     "source": "https://sfs.md",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Accounts and transfers",
+     "text": "Whether a non-resident can open a local bank account, and official tax-residency tests (often a published day-count plus other official ties), should be confirmed with the official tax authority and a licensed bank. International-transfer rules, including any official foreign-exchange controls, are those of the destination, not Australia.",
+     "source": "https://sfs.md",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "State Tax Service",
+    "url": "https://sfs.md"
+   },
+   "sources": [
+    {
+     "title": "State Tax Service",
+     "authority": "State Tax Service",
+     "url": "https://sfs.md",
+     "checked": "2026-11-24",
+     "supports": "official tax authority"
+    }
+   ]
+  },
+  "intellectual-property": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official patents, trademarks, licensing and IP ownership in Moldova.",
+   "confidence": "read directly",
+   "facts": [
+    {
+     "label": "Official IP office",
+     "text": "Patents, trademarks and related official registers are administered by State Agency on Intellectual Property, as listed on WIPO's official IP-office directory (read 24 November 2026).",
+     "source": "https://www.wipo.int/en/web/country-profiles/contact?code=MD",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Ownership, licensing and filing",
+     "text": "Foreign ownership of IP, official licensing formalities, and whether the system is first-to-file, should be confirmed on the official IP office pages (and, where listed, on WIPO Lex). This pass records the official office rather than a full statute summary.",
+     "source": "https://www.agepi.gov.md",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "State Agency on Intellectual Property",
+    "url": "https://www.agepi.gov.md"
+   },
+   "sources": [
+    {
+     "title": "WIPO IP office directory: Republic of Moldova",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/contact?code=MD",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental index of the national IP office, its name and published website"
+    },
+    {
+     "title": "WIPO directory of national IP offices",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental directory used for this pass"
+    },
+    {
+     "title": "State Agency on Intellectual Property",
+     "authority": "State Agency on Intellectual Property",
+     "url": "https://www.agepi.gov.md",
+     "checked": "2026-11-24",
+     "supports": "official national IP office website listed by WIPO or the destination government"
+    }
+   ]
+  },
+  "research-and-enterprise": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official universities, special economic zones, grants and industry strengths in Moldova.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official investment or enterprise agency",
+     "text": "Invest Moldova publishes official investment, university-linked, special-economic-zone or industry-priority information for this place.",
+     "source": "https://invest.gov.md",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official opportunities",
+     "text": "Named special economic zones, official grants and published industry strengths, where they exist, are listed by the official investment or education authorities. This pattern records official opportunity information for any Australian passport holder; it is not the personal Works and purpose fit pattern.",
+     "source": "https://invest.gov.md",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Invest Moldova",
+    "url": "https://invest.gov.md"
+   },
+   "notes": "This official research-and-enterprise record is separate from Works and purpose fit, which remains the tagged, personal pattern for Luke's own works.",
+   "sources": [
+    {
+     "title": "Invest Moldova",
+     "authority": "Invest Moldova",
+     "url": "https://invest.gov.md",
+     "checked": "2026-11-24",
+     "supports": "official investment, research or enterprise-opportunity agency"
+    }
+   ]
   }
  }
 }

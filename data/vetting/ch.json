@@ -858,6 +858,334 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; authority names and law citations are not reread (see national.read)."
+  },
+  "digital-residency": {
+   "status": "none-found",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official digital identity, electronic signatures and any e-residency programme in Switzerland.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "E-residency or digital identity",
+     "text": "No e-residency programme for foreigners was found. Official Swiss e-ID and ch.ch services are the national starting point for government digital identity.",
+     "source": "https://www.ch.ch",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official digital or government services",
+     "text": "Start with Swiss e-ID / ch.ch for official digital-identity, electronic-signature or e-government services and renewals.",
+     "source": "https://www.ch.ch",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Swiss e-ID / ch.ch",
+    "url": "https://www.ch.ch"
+   },
+   "notes": "Short visitor visas and entry formalities are covered under Entry and Visa preparation, not this pattern.",
+   "sources": [
+    {
+     "title": "Swiss e-ID / ch.ch",
+     "authority": "Swiss e-ID / ch.ch",
+     "url": "https://www.ch.ch",
+     "checked": "2026-11-24",
+     "supports": "official digital identity, e-government or e-residency services"
+    }
+   ]
+  },
+  "physical-residency": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official temporary and permanent residency routes in Switzerland, with presence and costs where published.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official residence authority",
+     "text": "Temporary and permanent residence routes for foreigners are administered by State Secretariat for Migration (SEM). Read the current official route names, minimum presence and fees on that site.",
+     "source": "https://www.sem.admin.ch",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Scope",
+     "text": "This pattern covers official temporary and permanent residency, including published minimum presence and costs where known. It does not cover short visitor visas, which sit under Entry and Visa preparation.",
+     "source": "https://www.sem.admin.ch",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "State Secretariat for Migration (SEM)",
+    "url": "https://www.sem.admin.ch"
+   },
+   "sources": [
+    {
+     "title": "State Secretariat for Migration (SEM)",
+     "authority": "State Secretariat for Migration (SEM)",
+     "url": "https://www.sem.admin.ch",
+     "checked": "2026-11-24",
+     "supports": "official residence and immigration authority"
+    }
+   ]
+  },
+  "citizenship": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official naturalisation, descent and dual-citizenship rules in Switzerland, for an Australian passport holder.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Dual citizenship (destination rule)",
+     "text": "Switzerland allows dual citizenship.",
+     "source": "https://www.sem.admin.ch",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Naturalisation",
+     "text": "Ordinary naturalisation generally requires 10 years of residence, with official time spent on a settlement permit and cantonal or communal conditions. Fast-track official routes exist for some spouses and people of Swiss descent.",
+     "source": "https://www.sem.admin.ch",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Citizenship by descent",
+     "text": "Swiss citizenship by descent is available in published circumstances. Cantons and communes also decide parts of ordinary naturalisation.",
+     "source": "https://www.sem.admin.ch",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official authority",
+     "text": "Start with State Secretariat for Migration (SEM) / cantonal citizenship authorities for official naturalisation, descent and dual-citizenship rules.",
+     "source": "https://www.sem.admin.ch",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "State Secretariat for Migration (SEM) / cantonal citizenship authorities",
+    "url": "https://www.sem.admin.ch"
+   },
+   "notes": "Australian law also matters: Australia allows its citizens to hold another citizenship. That does not change the destination country's own dual-citizenship rules.",
+   "sources": [
+    {
+     "title": "State Secretariat for Migration (SEM) / cantonal citizenship authorities",
+     "authority": "State Secretariat for Migration (SEM) / cantonal citizenship authorities",
+     "url": "https://www.sem.admin.ch",
+     "checked": "2026-11-24",
+     "supports": "official citizenship or nationality authority"
+    }
+   ]
+  },
+  "enterprise-establishment": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official company and subsidiary establishment in Switzerland, including foreign-ownership and the official registry.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Company forms and registry",
+     "text": "A GmbH or AG is the usual form; cantonal commercial registers, searchable via Zefix, are official.",
+     "source": "https://www.zefix.ch",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign ownership",
+     "text": "Foreigners may generally own 100% of a Swiss company, subject to official restrictions in some sectors (including official rules on some residential-property acquisitions).",
+     "source": "https://www.zefix.ch",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Investment agency",
+     "text": "Switzerland Global Enterprise / official location promotion publishes official company-setup or investment guidance for foreigners.",
+     "source": "https://www.s-ge.com",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Central Business Names Index (Zefix) / cantonal commercial registers",
+    "url": "https://www.zefix.ch"
+   },
+   "sources": [
+    {
+     "title": "Central Business Names Index (Zefix) / cantonal commercial registers",
+     "authority": "Central Business Names Index (Zefix) / cantonal commercial registers",
+     "url": "https://www.zefix.ch",
+     "checked": "2026-11-24",
+     "supports": "official company registry or business-formalities portal"
+    },
+    {
+     "title": "Switzerland Global Enterprise / official location promotion",
+     "authority": "Switzerland Global Enterprise / official location promotion",
+     "url": "https://www.s-ge.com",
+     "checked": "2026-11-24",
+     "supports": "official investment or enterprise-setup guidance"
+    }
+   ]
+  },
+  "collective-ownership": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official cooperatives, mutuals, foundations, charities and associations in Switzerland.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official forms and registry",
+     "text": "Cooperatives, mutuals, foundations, charities and associations, where they exist as official legal forms, are registered or overseen through official authorities starting at Central Business Names Index (Zefix) / cantonal commercial registers.",
+     "source": "https://www.zefix.ch",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign participation",
+     "text": "Foreign-participation limits, if any, are published by the official registry or the responsible ministry. Do not assume that company-law foreign-ownership rules apply unchanged to charities, cooperatives or foundations.",
+     "source": "https://www.zefix.ch",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Central Business Names Index (Zefix) / cantonal commercial registers",
+    "url": "https://www.zefix.ch"
+   },
+   "sources": [
+    {
+     "title": "Central Business Names Index (Zefix) / cantonal commercial registers",
+     "authority": "Central Business Names Index (Zefix) / cantonal commercial registers",
+     "url": "https://www.zefix.ch",
+     "checked": "2026-11-24",
+     "supports": "official registry or authority for non-company collective forms"
+    }
+   ]
+  },
+  "financial-infrastructure": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official tax, banking and international-transfer infrastructure in Switzerland.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Tax authority",
+     "text": "Swiss Federal Tax Administration (cantonal tax administrations also levy tax) is the official national tax authority (or the official portal that publishes national tax rules). Tax residency, filing and any official non-resident rules should be read there.",
+     "source": "https://www.estv.admin.ch",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Central bank or financial regulator",
+     "text": "Swiss National Bank; FINMA is the official central bank or a linked official financial regulator. Rules on accounts, payments and international transfers, where published, start there (and with licensed banks they supervise).",
+     "source": "https://www.snb.ch",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Accounts and transfers",
+     "text": "Whether a non-resident can open a local bank account, and official tax-residency tests (often a published day-count plus other official ties), should be confirmed with the official tax authority and a licensed bank. International-transfer rules, including any official foreign-exchange controls, are those of the destination, not Australia.",
+     "source": "https://www.estv.admin.ch",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Swiss Federal Tax Administration (cantonal tax administrations also levy tax)",
+    "url": "https://www.estv.admin.ch"
+   },
+   "notes": "Swiss income and some other taxes are levied at federal, cantonal and communal level. Write a cantonal record only where official cantonal tax rules clearly differ. Otherwise a canton uses this country record.",
+   "sources": [
+    {
+     "title": "Swiss Federal Tax Administration (cantonal tax administrations also levy tax)",
+     "authority": "Swiss Federal Tax Administration (cantonal tax administrations also levy tax)",
+     "url": "https://www.estv.admin.ch",
+     "checked": "2026-11-24",
+     "supports": "official tax authority"
+    },
+    {
+     "title": "Swiss National Bank; FINMA",
+     "authority": "Swiss National Bank; FINMA",
+     "url": "https://www.snb.ch",
+     "checked": "2026-11-24",
+     "supports": "official central bank or financial regulator"
+    }
+   ]
+  },
+  "intellectual-property": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official patents, trademarks, licensing and IP ownership in Switzerland.",
+   "confidence": "read directly",
+   "facts": [
+    {
+     "label": "Official IP office",
+     "text": "Patents, trademarks and related official registers are administered by Swiss Federal Institute of Intellectual Property, as listed on WIPO's official IP-office directory (read 24 November 2026).",
+     "source": "https://www.wipo.int/en/web/country-profiles/contact?code=CH",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Ownership, licensing and filing",
+     "text": "Foreign ownership of IP, official licensing formalities, and whether the system is first-to-file, should be confirmed on the official IP office pages (and, where listed, on WIPO Lex). This pass records the official office rather than a full statute summary.",
+     "source": "https://www.ige.ch/en",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Swiss Federal Institute of Intellectual Property",
+    "url": "https://www.ige.ch/en"
+   },
+   "sources": [
+    {
+     "title": "WIPO IP office directory: Switzerland",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/contact?code=CH",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental index of the national IP office, its name and published website"
+    },
+    {
+     "title": "WIPO directory of national IP offices",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental directory used for this pass"
+    },
+    {
+     "title": "Swiss Federal Institute of Intellectual Property",
+     "authority": "Swiss Federal Institute of Intellectual Property",
+     "url": "https://www.ige.ch/en",
+     "checked": "2026-11-24",
+     "supports": "official national IP office website listed by WIPO or the destination government"
+    }
+   ]
+  },
+  "research-and-enterprise": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official universities, special economic zones, grants and industry strengths in Switzerland.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official investment or enterprise agency",
+     "text": "Switzerland Global Enterprise / official location promotion publishes official investment, university-linked, special-economic-zone or industry-priority information for this place.",
+     "source": "https://www.s-ge.com",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official opportunities",
+     "text": "Official location promotion (including Switzerland Global Enterprise) publishes sector pages. Corporate tax and some incentives differ by canton, so a cantonal record is needed where official tax or incentive rules clearly differ.",
+     "source": "https://www.s-ge.com",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Switzerland Global Enterprise / official location promotion",
+    "url": "https://www.s-ge.com"
+   },
+   "notes": "This official research-and-enterprise record is separate from Works and purpose fit, which remains the tagged, personal pattern for Luke's own works.",
+   "sources": [
+    {
+     "title": "Switzerland Global Enterprise / official location promotion",
+     "authority": "Switzerland Global Enterprise / official location promotion",
+     "url": "https://www.s-ge.com",
+     "checked": "2026-11-24",
+     "supports": "official investment, research or enterprise-opportunity agency"
+    }
+   ]
   }
  },
  "retired_sources": [

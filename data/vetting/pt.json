@@ -957,6 +957,333 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; authority names and law citations are not reread (see national.read)."
+  },
+  "digital-residency": {
+   "status": "none-found",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official digital identity, electronic signatures and any e-residency programme in Portugal.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "E-residency or digital identity",
+     "text": "No e-residency programme for foreigners was found. Autenticação.gov and the official Portuguese digital certificates are the national e-ID services. EU eIDAS rules also apply.",
+     "source": "https://www.autenticacao.gov.pt",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official digital or government services",
+     "text": "Start with Autenticação.gov / eID for official digital-identity, electronic-signature or e-government services and renewals.",
+     "source": "https://www.autenticacao.gov.pt",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Autenticação.gov / eID",
+    "url": "https://www.autenticacao.gov.pt"
+   },
+   "notes": "Short visitor visas and entry formalities are covered under Entry and Visa preparation, not this pattern.",
+   "sources": [
+    {
+     "title": "Autenticação.gov / eID",
+     "authority": "Autenticação.gov / eID",
+     "url": "https://www.autenticacao.gov.pt",
+     "checked": "2026-11-24",
+     "supports": "official digital identity, e-government or e-residency services"
+    }
+   ]
+  },
+  "physical-residency": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official temporary and permanent residency routes in Portugal, with presence and costs where published.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official residence authority",
+     "text": "Temporary and permanent residence routes for foreigners are administered by AIMA, the Agency for Integration, Migration and Asylum. Read the current official route names, minimum presence and fees on that site.",
+     "source": "https://aima.gov.pt",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Scope",
+     "text": "This pattern covers official temporary and permanent residency, including published minimum presence and costs where known. It does not cover short visitor visas, which sit under Entry and Visa preparation.",
+     "source": "https://aima.gov.pt",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "AIMA, the Agency for Integration, Migration and Asylum",
+    "url": "https://aima.gov.pt"
+   },
+   "sources": [
+    {
+     "title": "AIMA, the Agency for Integration, Migration and Asylum",
+     "authority": "AIMA, the Agency for Integration, Migration and Asylum",
+     "url": "https://aima.gov.pt",
+     "checked": "2026-11-24",
+     "supports": "official residence and immigration authority"
+    }
+   ]
+  },
+  "citizenship": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official naturalisation, descent and dual-citizenship rules in Portugal, for an Australian passport holder.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Dual citizenship (destination rule)",
+     "text": "Portugal allows dual citizenship.",
+     "source": "https://irn.justica.gov.pt",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Naturalisation",
+     "text": "Naturalisation residence is set by official Portuguese nationality law (recent official reforms have shortened some residence periods; confirm the current figure on official pages).",
+     "source": "https://irn.justica.gov.pt",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Citizenship by descent",
+     "text": "Portuguese nationality by descent is available in published circumstances.",
+     "source": "https://irn.justica.gov.pt",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official authority",
+     "text": "Start with Institute of Registries and Notary (IRN) / AIMA for some residence routes for official naturalisation, descent and dual-citizenship rules.",
+     "source": "https://irn.justica.gov.pt",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Institute of Registries and Notary (IRN) / AIMA for some residence routes",
+    "url": "https://irn.justica.gov.pt"
+   },
+   "notes": "Australian law also matters: Australia allows its citizens to hold another citizenship. That does not change the destination country's own dual-citizenship rules.",
+   "sources": [
+    {
+     "title": "Institute of Registries and Notary (IRN) / AIMA for some residence routes",
+     "authority": "Institute of Registries and Notary (IRN) / AIMA for some residence routes",
+     "url": "https://irn.justica.gov.pt",
+     "checked": "2026-11-24",
+     "supports": "official citizenship or nationality authority"
+    }
+   ]
+  },
+  "enterprise-establishment": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official company and subsidiary establishment in Portugal, including foreign-ownership and the official registry.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official registry",
+     "text": "Company and subsidiary registration for this place starts with IRN / Empresa na Hora and the official commercial registry. Use that official registry (or the official portal it points to) rather than a commercial mirror.",
+     "source": "https://irn.justica.gov.pt",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign ownership",
+     "text": "Whether foreigners may own 100% of a company, and any official reserved sectors or screening, should be confirmed on the official registry and investment-agency pages linked here.",
+     "source": "https://irn.justica.gov.pt",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Investment agency",
+     "text": "AICEP Portugal Global publishes official company-setup or investment guidance for foreigners.",
+     "source": "https://www.portugalglobal.pt",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "IRN / Empresa na Hora and the official commercial registry",
+    "url": "https://irn.justica.gov.pt"
+   },
+   "sources": [
+    {
+     "title": "IRN / Empresa na Hora and the official commercial registry",
+     "authority": "IRN / Empresa na Hora and the official commercial registry",
+     "url": "https://irn.justica.gov.pt",
+     "checked": "2026-11-24",
+     "supports": "official company registry or business-formalities portal"
+    },
+    {
+     "title": "AICEP Portugal Global",
+     "authority": "AICEP Portugal Global",
+     "url": "https://www.portugalglobal.pt",
+     "checked": "2026-11-24",
+     "supports": "official investment or enterprise-setup guidance"
+    }
+   ]
+  },
+  "collective-ownership": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official cooperatives, mutuals, foundations, charities and associations in Portugal.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official forms and registry",
+     "text": "Cooperatives, mutuals, foundations, charities and associations, where they exist as official legal forms, are registered or overseen through official authorities starting at IRN / Empresa na Hora and the official commercial registry.",
+     "source": "https://irn.justica.gov.pt",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign participation",
+     "text": "Foreign-participation limits, if any, are published by the official registry or the responsible ministry. Do not assume that company-law foreign-ownership rules apply unchanged to charities, cooperatives or foundations.",
+     "source": "https://irn.justica.gov.pt",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "IRN / Empresa na Hora and the official commercial registry",
+    "url": "https://irn.justica.gov.pt"
+   },
+   "sources": [
+    {
+     "title": "IRN / Empresa na Hora and the official commercial registry",
+     "authority": "IRN / Empresa na Hora and the official commercial registry",
+     "url": "https://irn.justica.gov.pt",
+     "checked": "2026-11-24",
+     "supports": "official registry or authority for non-company collective forms"
+    }
+   ]
+  },
+  "financial-infrastructure": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official tax, banking and international-transfer infrastructure in Portugal.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Tax authority",
+     "text": "Autoridade Tributária e Aduaneira (Portal das Finanças) is the official national tax authority (or the official portal that publishes national tax rules). Tax residency, filing and any official non-resident rules should be read there.",
+     "source": "https://www.portaldasfinancas.gov.pt",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Central bank or financial regulator",
+     "text": "Banco de Portugal is the official central bank or a linked official financial regulator. Rules on accounts, payments and international transfers, where published, start there (and with licensed banks they supervise).",
+     "source": "https://www.bportugal.pt",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Accounts and transfers",
+     "text": "Whether a non-resident can open a local bank account, and official tax-residency tests (often a published day-count plus other official ties), should be confirmed with the official tax authority and a licensed bank. International-transfer rules, including any official foreign-exchange controls, are those of the destination, not Australia.",
+     "source": "https://www.portaldasfinancas.gov.pt",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Autoridade Tributária e Aduaneira (Portal das Finanças)",
+    "url": "https://www.portaldasfinancas.gov.pt"
+   },
+   "sources": [
+    {
+     "title": "Autoridade Tributária e Aduaneira (Portal das Finanças)",
+     "authority": "Autoridade Tributária e Aduaneira (Portal das Finanças)",
+     "url": "https://www.portaldasfinancas.gov.pt",
+     "checked": "2026-11-24",
+     "supports": "official tax authority"
+    },
+    {
+     "title": "Banco de Portugal",
+     "authority": "Banco de Portugal",
+     "url": "https://www.bportugal.pt",
+     "checked": "2026-11-24",
+     "supports": "official central bank or financial regulator"
+    }
+   ]
+  },
+  "intellectual-property": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official patents, trademarks, licensing and IP ownership in Portugal.",
+   "confidence": "read directly",
+   "facts": [
+    {
+     "label": "Official IP office",
+     "text": "Patents, trademarks and related official registers are administered by Bureau for Cultural Strategy, Planning and Assessment, as listed on WIPO's official IP-office directory (read 24 November 2026).",
+     "source": "https://www.wipo.int/en/web/country-profiles/contact?code=PT",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Ownership, licensing and filing",
+     "text": "Foreign ownership of IP, official licensing formalities, and whether the system is first-to-file, should be confirmed on the official IP office pages (and, where listed, on WIPO Lex). This pass records the official office rather than a full statute summary.",
+     "source": "https://inpi.justica.gov.pt",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Bureau for Cultural Strategy, Planning and Assessment",
+    "url": "https://inpi.justica.gov.pt"
+   },
+   "sources": [
+    {
+     "title": "WIPO IP office directory: Portugal",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/contact?code=PT",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental index of the national IP office, its name and published website"
+    },
+    {
+     "title": "WIPO directory of national IP offices",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental directory used for this pass"
+    },
+    {
+     "title": "Bureau for Cultural Strategy, Planning and Assessment",
+     "authority": "Bureau for Cultural Strategy, Planning and Assessment",
+     "url": "https://inpi.justica.gov.pt",
+     "checked": "2026-11-24",
+     "supports": "official national IP office website listed by WIPO or the destination government"
+    }
+   ]
+  },
+  "research-and-enterprise": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official universities, special economic zones, grants and industry strengths in Portugal.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official investment or enterprise agency",
+     "text": "AICEP Portugal Global publishes official investment, university-linked, special-economic-zone or industry-priority information for this place.",
+     "source": "https://www.portugalglobal.pt",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official opportunities",
+     "text": "Named special economic zones, official grants and published industry strengths, where they exist, are listed by the official investment or education authorities. This pattern records official opportunity information for any Australian passport holder; it is not the personal Works and purpose fit pattern.",
+     "source": "https://www.portugalglobal.pt",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "AICEP Portugal Global",
+    "url": "https://www.portugalglobal.pt"
+   },
+   "notes": "This official research-and-enterprise record is separate from Works and purpose fit, which remains the tagged, personal pattern for Luke's own works.",
+   "sources": [
+    {
+     "title": "AICEP Portugal Global",
+     "authority": "AICEP Portugal Global",
+     "url": "https://www.portugalglobal.pt",
+     "checked": "2026-11-24",
+     "supports": "official investment, research or enterprise-opportunity agency"
+    }
+   ]
   }
  }
 }
