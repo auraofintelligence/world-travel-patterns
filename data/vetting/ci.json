@@ -912,6 +912,314 @@
     }
    ],
    "evidence": "UNESCO facts read from UNESCO open data on 6 Nov 2026; heritage laws are not yet read (see national.read)."
+  },
+  "digital-residency": {
+   "status": "none-found",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official digital identity, electronic signatures and any e-residency programme in Côte d'Ivoire.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "E-residency",
+     "text": "No official e-residency programme for foreigners (a government digital identity that is not a residence permit) was found in this pass. If the country offers official digital ID or electronic signatures for residents or citizens, that is noted only where an official agency is linked.",
+     "source": "https://www.gouv.ci",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official digital or government services",
+     "text": "Start with gouv.ci for official digital-identity, electronic-signature or e-government services and renewals.",
+     "source": "https://www.gouv.ci",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "gouv.ci",
+    "url": "https://www.gouv.ci"
+   },
+   "notes": "Short visitor visas and entry formalities are covered under Entry and Visa preparation, not this pattern.",
+   "sources": [
+    {
+     "title": "gouv.ci",
+     "authority": "gouv.ci",
+     "url": "https://www.gouv.ci",
+     "checked": "2026-11-24",
+     "supports": "official digital identity, e-government or e-residency services"
+    }
+   ]
+  },
+  "physical-residency": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official temporary and permanent residency routes in Côte d'Ivoire, with presence and costs where published.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official residence authority",
+     "text": "Temporary and permanent residence routes for foreigners are administered by Direction Générale des Etrangers et de la Migration / official Côte d'Ivoire pages. Read the current official route names, minimum presence and fees on that site.",
+     "source": "https://www.gouv.ci",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Scope",
+     "text": "This pattern covers official temporary and permanent residency, including published minimum presence and costs where known. It does not cover short visitor visas, which sit under Entry and Visa preparation.",
+     "source": "https://www.gouv.ci",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Direction Générale des Etrangers et de la Migration / official Côte d'Ivoire pages",
+    "url": "https://www.gouv.ci"
+   },
+   "sources": [
+    {
+     "title": "Direction Générale des Etrangers et de la Migration / official Côte d'Ivoire pages",
+     "authority": "Direction Générale des Etrangers et de la Migration / official Côte d'Ivoire pages",
+     "url": "https://www.gouv.ci",
+     "checked": "2026-11-24",
+     "supports": "official residence and immigration authority"
+    }
+   ]
+  },
+  "citizenship": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official naturalisation, descent and dual-citizenship rules in Côte d'Ivoire, for an Australian passport holder.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Dual citizenship (destination rule)",
+     "text": "Whether the destination allows dual citizenship should be confirmed on the official nationality pages. Do not assume that a residence permit leads to citizenship, or that Australia's rule applies there.",
+     "source": "https://www.gouv.ci",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Citizenship by descent",
+     "text": "Many countries have a descent route with official documentary conditions. Confirm eligibility on the official nationality pages before planning around it.",
+     "source": "https://www.gouv.ci",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official authority",
+     "text": "Start with Direction Générale des Etrangers et de la Migration / official Côte d'Ivoire pages for official naturalisation, descent and dual-citizenship rules.",
+     "source": "https://www.gouv.ci",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Direction Générale des Etrangers et de la Migration / official Côte d'Ivoire pages",
+    "url": "https://www.gouv.ci"
+   },
+   "notes": "Australian law also matters: Australia allows its citizens to hold another citizenship. That does not change the destination country's own dual-citizenship rules.",
+   "sources": [
+    {
+     "title": "Direction Générale des Etrangers et de la Migration / official Côte d'Ivoire pages",
+     "authority": "Direction Générale des Etrangers et de la Migration / official Côte d'Ivoire pages",
+     "url": "https://www.gouv.ci",
+     "checked": "2026-11-24",
+     "supports": "official citizenship or nationality authority"
+    }
+   ]
+  },
+  "enterprise-establishment": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official company and subsidiary establishment in Côte d'Ivoire, including foreign-ownership and the official registry.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official registry",
+     "text": "Company and subsidiary registration for this place starts with CEPICI / official company formalities. Use that official registry (or the official portal it points to) rather than a commercial mirror.",
+     "source": "https://www.cepici.gouv.ci",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign ownership",
+     "text": "Whether foreigners may own 100% of a company, and any official reserved sectors or screening, should be confirmed on the official registry and investment-agency pages linked here.",
+     "source": "https://www.cepici.gouv.ci",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "CEPICI / official company formalities",
+    "url": "https://www.cepici.gouv.ci"
+   },
+   "sources": [
+    {
+     "title": "CEPICI / official company formalities",
+     "authority": "CEPICI / official company formalities",
+     "url": "https://www.cepici.gouv.ci",
+     "checked": "2026-11-24",
+     "supports": "official company registry or business-formalities portal"
+    }
+   ]
+  },
+  "collective-ownership": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official cooperatives, mutuals, foundations, charities and associations in Côte d'Ivoire.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official forms and registry",
+     "text": "Cooperatives, mutuals, foundations, charities and associations, where they exist as official legal forms, are registered or overseen through official authorities starting at CEPICI / official company formalities.",
+     "source": "https://www.cepici.gouv.ci",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Foreign participation",
+     "text": "Foreign-participation limits, if any, are published by the official registry or the responsible ministry. Do not assume that company-law foreign-ownership rules apply unchanged to charities, cooperatives or foundations.",
+     "source": "https://www.cepici.gouv.ci",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "CEPICI / official company formalities",
+    "url": "https://www.cepici.gouv.ci"
+   },
+   "sources": [
+    {
+     "title": "CEPICI / official company formalities",
+     "authority": "CEPICI / official company formalities",
+     "url": "https://www.cepici.gouv.ci",
+     "checked": "2026-11-24",
+     "supports": "official registry or authority for non-company collective forms"
+    }
+   ]
+  },
+  "financial-infrastructure": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official tax, banking and international-transfer infrastructure in Côte d'Ivoire.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Tax authority",
+     "text": "Direction Générale des Impôts is the official national tax authority (or the official portal that publishes national tax rules). Tax residency, filing and any official non-resident rules should be read there.",
+     "source": "https://www.dgi.gouv.ci",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Central bank or financial regulator",
+     "text": "Banque Centrale des Etats de l'Afrique de l'Ouest (BCEAO) is the regional central bank is the official central bank or a linked official financial regulator. Rules on accounts, payments and international transfers, where published, start there (and with licensed banks they supervise).",
+     "source": "https://www.bceao.int",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Accounts and transfers",
+     "text": "Whether a non-resident can open a local bank account, and official tax-residency tests (often a published day-count plus other official ties), should be confirmed with the official tax authority and a licensed bank. International-transfer rules, including any official foreign-exchange controls, are those of the destination, not Australia.",
+     "source": "https://www.dgi.gouv.ci",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Direction Générale des Impôts",
+    "url": "https://www.dgi.gouv.ci"
+   },
+   "sources": [
+    {
+     "title": "Direction Générale des Impôts",
+     "authority": "Direction Générale des Impôts",
+     "url": "https://www.dgi.gouv.ci",
+     "checked": "2026-11-24",
+     "supports": "official tax authority"
+    },
+    {
+     "title": "Banque Centrale des Etats de l'Afrique de l'Ouest (BCEAO) is the regional central bank",
+     "authority": "Banque Centrale des Etats de l'Afrique de l'Ouest (BCEAO) is the regional central bank",
+     "url": "https://www.bceao.int",
+     "checked": "2026-11-24",
+     "supports": "official central bank or financial regulator"
+    }
+   ]
+  },
+  "intellectual-property": {
+   "status": "mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official patents, trademarks, licensing and IP ownership in Côte d'Ivoire.",
+   "confidence": "read directly",
+   "facts": [
+    {
+     "label": "Official IP office",
+     "text": "Patents, trademarks and related official registers are administered by Ivorian Copyright Office Ministry of French Language and Culture, as listed on WIPO's official IP-office directory (read 24 November 2026).",
+     "source": "https://www.wipo.int/en/web/country-profiles/contact?code=CI",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Ownership, licensing and filing",
+     "text": "Foreign ownership of IP, official licensing formalities, and whether the system is first-to-file, should be confirmed on the official IP office pages (and, where listed, on WIPO Lex). This pass records the official office rather than a full statute summary.",
+     "source": "https://www.buridaci.com/web",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "Ivorian Copyright Office Ministry of French Language and Culture",
+    "url": "https://www.buridaci.com/web"
+   },
+   "sources": [
+    {
+     "title": "WIPO IP office directory: Côte d'Ivoire",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/contact?code=CI",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental index of the national IP office, its name and published website"
+    },
+    {
+     "title": "WIPO directory of national IP offices",
+     "authority": "World Intellectual Property Organization (WIPO)",
+     "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+     "checked": "2026-11-24",
+     "supports": "official intergovernmental directory used for this pass"
+    },
+    {
+     "title": "Ivorian Copyright Office Ministry of French Language and Culture",
+     "authority": "Ivorian Copyright Office Ministry of French Language and Culture",
+     "url": "https://www.buridaci.com/web",
+     "checked": "2026-11-24",
+     "supports": "official national IP office website listed by WIPO or the destination government"
+    }
+   ]
+  },
+  "research-and-enterprise": {
+   "status": "partly-mapped",
+   "checked": "2026-11-24",
+   "evidence": "official",
+   "summary": "Official universities, special economic zones, grants and industry strengths in Côte d'Ivoire.",
+   "confidence": "search snapshot",
+   "facts": [
+    {
+     "label": "Official investment or enterprise agency",
+     "text": "CEPICI publishes official investment, university-linked, special-economic-zone or industry-priority information for this place.",
+     "source": "https://www.cepici.gouv.ci",
+     "checked": "2026-11-24"
+    },
+    {
+     "label": "Official opportunities",
+     "text": "Named special economic zones, official grants and published industry strengths, where they exist, are listed by the official investment or education authorities. This pattern records official opportunity information for any Australian passport holder; it is not the personal Works and purpose fit pattern.",
+     "source": "https://www.cepici.gouv.ci",
+     "checked": "2026-11-24"
+    }
+   ],
+   "agency": {
+    "name": "CEPICI",
+    "url": "https://www.cepici.gouv.ci"
+   },
+   "notes": "This official research-and-enterprise record is separate from Works and purpose fit, which remains the tagged, personal pattern for Luke's own works.",
+   "sources": [
+    {
+     "title": "CEPICI",
+     "authority": "CEPICI",
+     "url": "https://www.cepici.gouv.ci",
+     "checked": "2026-11-24",
+     "supports": "official investment, research or enterprise-opportunity agency"
+    }
+   ]
   }
  }
 }
