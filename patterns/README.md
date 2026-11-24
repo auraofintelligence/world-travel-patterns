@@ -23,8 +23,18 @@ A pattern is one repeatable question asked of every place it applies to. Every p
 | consular | Nearest Australian mission or partner | agent | nearest | 365 days |
 | money-and-cost | Currency, cash and card, daily cost in AUD | agent | nearest | 180 days |
 | works-and-purpose | Where this place meets Luke's works (tagged places only) | agent | none | 365 days |
+| digital-residency | E-residency, digital IDs, electronic signatures and renewals | agent | nearest | 180 days |
+| physical-residency | Temporary and permanent residency, presence and costs | agent | nearest | 180 days |
+| citizenship | Naturalisation, descent, dual citizenship and restrictions | agent | nearest | 180 days |
+| enterprise-establishment | Companies, subsidiaries, foreign ownership and the official registry | agent | nearest | 180 days |
+| collective-ownership | Cooperatives, mutuals, foundations, charities and associations | agent | nearest | 180 days |
+| financial-infrastructure | Banking, taxation, investment and international transfers | agent | nearest | 180 days |
+| intellectual-property | Patents, trademarks, licensing and official IP offices | agent | nearest | 180 days |
+| research-and-enterprise | Universities, special economic zones, grants and official industry strengths | agent | nearest | 180 days |
 
 Inheritance decides what applies at a place, not what its page prints. Each record is written once, at the level that owns the rule, and shown once, on that level's page; deeper pages link up to it. Write a state or region record only for what differs at that level, and never copy the country's text down.
+
+The eight residency, citizenship and enterprise patterns use nearest-level inheritance: a state or region uses the country's record unless that level clearly differs (for example a US state LLC or Swiss cantonal tax). They are official, country-first information for any Australian passport holder. They stay separate from Works and purpose fit, which is only for places tagged to Luke's own works.
 
 ## Adding a pattern
 

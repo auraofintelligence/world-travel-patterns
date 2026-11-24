@@ -14,7 +14,7 @@ from lib import ROOT, VETTING, applies, load_patterns, load_places, read, today 
 from law_repositories import coverage as law_source_coverage  # noqa: E402
 
 START, END = "<!-- generated:start -->", "<!-- generated:end -->"
-ENTRY_KEYS = ("laws", "layers", "events", "sites", "items", "closures", "festivals", "cash_card_notes", "footage",
+ENTRY_KEYS = ("laws", "layers", "events", "sites", "items", "facts", "costs", "closures", "festivals", "cash_card_notes", "footage",
               "operator_register", "foreign_operator", "permits_at_this_level")
 HISTORY = ROOT / "data/logs/volume-history.json"
 EVIDENCE_KINDS = ("official", "signal", "operational", "legacy-baseline", "community")
@@ -106,7 +106,10 @@ def main():
             cells.append((len(have), len(ids), collections.Counter(evidence_kind(vet[k][pid].get("evidence")) for k in have)))
         (sh, st, ev), (rh, rt, _) = cells
         evtxt = ", ".join(f"{n} {e}" for e, n in ev.most_common()) or "none"
-        region = f"{rh:,} of {rt:,} ({pct(rh, rt)})" if rt else f"uses the country's ({pat['inherit']})"
+        if pat.get("inherit") == "nearest":
+            region = "uses the country's (nearest)" if rh == 0 else f"{rh:,} differ; otherwise uses the country's (nearest)"
+        else:
+            region = f"{rh:,} of {rt:,} ({pct(rh, rt)})" if rt else f"uses the country's ({pat['inherit']})"
         lines.append(f"| {pat['name']} | {sh} of {st} ({pct(sh, st)}) | {evtxt} | {region} | {pat['method']} |")
     total = sum(acts.values())
     repos = read(ROOT / "data/law-repositories.json", {"places": {}})

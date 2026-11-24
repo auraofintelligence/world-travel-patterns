@@ -1,0 +1,46 @@
+{
+ "id": "physical-residency",
+ "name": "Physical residency",
+ "layer": "stay-and-enterprise",
+ "method": "agent",
+ "question": "What official temporary and permanent residency routes exist for an Australian, including minimum presence and costs?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 180,
+ "sources": [
+  "the national immigration or interior authority",
+  "Smartraveller, only after the destination's own page"
+ ],
+ "fields": [
+  "summary",
+  "agency{name,url}",
+  "facts[]: label, text, source, checked",
+  "costs[]: item, amount, currency, aud, source, checked",
+  "confidence (read directly | search snapshot | unverified)",
+  "notes",
+  "sources[]"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "none-found",
+  "unknown"
+ ],
+ "rules": [
+  "Name official temporary and permanent residency routes, any minimum-presence rule, and published costs in local currency plus AUD.",
+  "This is about staying and settling, not a short visitor visa (that stays on entry and visa-preparation).",
+  "Country first. Write a state or region record only when residence is granted or taxed at that level."
+ ],
+ "version": 1
+}

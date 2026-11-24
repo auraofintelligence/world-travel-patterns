@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19",
+ "generated": "2026-11-24",
  "note": "Built by scripts/recheck_plan.py from repo data only. Read-only plan for future automations; never a reason to skip an official recheck.",
  "global": [
   {
@@ -115,12 +115,76 @@
    "why": "Rules and thresholds change."
   },
   {
+   "pattern": "citizenship",
+   "check": "Naturalisation, descent, dual citizenship and restrictions",
+   "source": "National citizenship authority or nationality act",
+   "baseline_days": 180,
+   "frequency": "yearly",
+   "why": "Residence years and dual-nationality rules are amended from time to time."
+  },
+  {
+   "pattern": "collective-ownership",
+   "check": "Cooperatives, mutuals, foundations, charities and associations",
+   "source": "The official registry or ministry that oversees those forms",
+   "baseline_days": 180,
+   "frequency": "yearly",
+   "why": "Registration rules are slow-changing but portals move."
+  },
+  {
+   "pattern": "digital-residency",
+   "check": "E-residency, digital IDs, electronic signatures and renewals",
+   "source": "National e-government or e-residency authority",
+   "baseline_days": 180,
+   "frequency": "yearly",
+   "why": "Programmes and renewal rules change."
+  },
+  {
    "pattern": "drone-pilot-pathway",
    "check": "Is there an official register or search tool of certified drone operators here, what licence or certificate must a commercial operator hold, can a foreign visitor fly commercially or must they hire a local operator, and what legal routes exist to existing aerial footage?",
    "source": "the national aviation authority (for example CASA, CAA, FAA, Transport Canada, MLIT, EASA and national authorities); state, park or council permit offices; national tourism boards' and film commissions' own media libraries",
    "baseline_days": 180,
    "frequency": "yearly",
    "why": ""
+  },
+  {
+   "pattern": "enterprise-establishment",
+   "check": "Companies, subsidiaries, foreign ownership and the official registry",
+   "source": "Official company registry; investment authority",
+   "baseline_days": 180,
+   "frequency": "yearly",
+   "why": "Ownership caps and registry portals change."
+  },
+  {
+   "pattern": "financial-infrastructure",
+   "check": "Banking, tax, investment and international transfers",
+   "source": "National tax authority, central bank or financial regulator",
+   "baseline_days": 180,
+   "frequency": "yearly",
+   "why": "Tax rates, account rules and transfer controls change."
+  },
+  {
+   "pattern": "intellectual-property",
+   "check": "Patents, trademarks, licensing and official IP offices",
+   "source": "National IP office; WIPO Lex as an official intergovernmental index",
+   "baseline_days": 180,
+   "frequency": "yearly",
+   "why": "Fees, treaties and office portals change."
+  },
+  {
+   "pattern": "physical-residency",
+   "check": "Temporary and permanent residency routes, presence rules and costs",
+   "source": "Destination immigration or interior authority; Smartraveller second",
+   "baseline_days": 180,
+   "frequency": "yearly",
+   "why": "Residence classes and fees are revised often."
+  },
+  {
+   "pattern": "research-and-enterprise",
+   "check": "Universities, special economic zones, grants and official industry strengths",
+   "source": "Official investment agency, education ministry or zone authority",
+   "baseline_days": 180,
+   "frequency": "yearly",
+   "why": "Grant windows and zone rules are time-limited."
   },
   {
    "pattern": "births-and-family-support",
@@ -1354,6 +1418,18 @@
     "ch/canton-of-basel-landschaft"
    ],
    "what": "psychoactive-substances: ...nabis to enrolled participants through specialised shops in Liestal and Allschwil. Planned from November 2023 to October 2028, with up to 3,950 p",
+   "check": "Recheck the official source about 60 days before, and again on the date.",
+   "source": "",
+   "cadence": "monthly; weekly in the final 60 days"
+  },
+  {
+   "date": "2028-12-28",
+   "date_exact": false,
+   "kind": "law-or-rule-date",
+   "places": [
+    "ch/canton-of-zurich"
+   ],
+   "what": "psychoactive-substances: ...shops and pharmacies in Schlieren, Horgen, Zurich, Winterthur, Wetzikon and Dübendorf. Planned from May 2024 to December 2028, with up to 7,500 p",
    "check": "Recheck the official source about 60 days before, and again on the date.",
    "source": "",
    "cadence": "monthly; weekly in the final 60 days"
@@ -3553,9 +3629,11 @@
    "advisory": "Exercise normal safety precautions",
    "cadence": "monthly",
    "reasons": [
+    "dated rule",
     "election"
    ],
    "items": [
+    "psychoactive-substances date 2028-12-28",
     "election 2027-04-04"
    ]
   },

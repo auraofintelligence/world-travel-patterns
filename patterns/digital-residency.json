@@ -1,0 +1,46 @@
+{
+ "id": "digital-residency",
+ "name": "Digital residency",
+ "layer": "stay-and-enterprise",
+ "method": "agent",
+ "question": "Can an Australian obtain e-residency or a digital ID here, sign documents electronically, and how are those credentials renewed?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 180,
+ "sources": [
+  "the national e-government, digital ID or e-residency authority",
+  "official electronic signature or trust-service pages"
+ ],
+ "fields": [
+  "summary",
+  "agency{name,url}",
+  "facts[]: label, text, source, checked",
+  "costs[]: item, amount, currency, aud, source, checked",
+  "confidence (read directly | search snapshot | unverified)",
+  "notes",
+  "sources[]"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "none-found",
+  "unknown"
+ ],
+ "rules": [
+  "Record official digital residency, national digital ID and electronic signature routes, including whether they are open to foreigners and how credentials are renewed.",
+  "If there is no e-residency programme, say so and still note any official digital ID or e-signature service a visitor or remote founder might use.",
+  "Country first. Write a state or region record only when the digital ID or signature rule clearly differs."
+ ],
+ "version": 1
+}

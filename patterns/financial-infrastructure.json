@@ -1,0 +1,46 @@
+{
+ "id": "financial-infrastructure",
+ "name": "Financial infrastructure",
+ "layer": "stay-and-enterprise",
+ "method": "agent",
+ "question": "What official rules cover banking, tax, investment and international transfers for an Australian living, investing or banking here?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 180,
+ "sources": [
+  "the national tax authority, central bank or financial regulator",
+  "the official investment-agency tax or banking guidance"
+ ],
+ "fields": [
+  "summary",
+  "agency{name,url}",
+  "facts[]: label, text, source, checked",
+  "costs[]: item, amount, currency, aud, source, checked",
+  "confidence (read directly | search snapshot | unverified)",
+  "notes",
+  "sources[]"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "none-found",
+  "unknown"
+ ],
+ "rules": [
+  "Record official tax authority and central-bank or regulator links, and any published rule on non-resident bank accounts, tax residency or international transfers.",
+  "Amounts in local currency plus AUD, with the rate date. A tax rate is a published figure, not advice.",
+  "Country first. Write a state or region record only when tax or banking rules clearly differ, such as Swiss cantonal tax."
+ ],
+ "version": 1
+}

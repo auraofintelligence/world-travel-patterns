@@ -1,0 +1,45 @@
+{
+ "id": "intellectual-property",
+ "name": "Intellectual property",
+ "layer": "stay-and-enterprise",
+ "method": "agent",
+ "question": "Where are patents, trademarks and licences registered here, and who owns or can hold them?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 180,
+ "sources": [
+  "the national intellectual property office",
+  "WIPO Lex or the official IP-office directory, as an official intergovernmental index"
+ ],
+ "fields": [
+  "summary",
+  "agency{name,url}",
+  "facts[]: label, text, source, checked",
+  "costs[]: item, amount, currency, aud, source, checked",
+  "confidence (read directly | search snapshot | unverified)",
+  "notes",
+  "sources[]"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "none-found",
+  "unknown"
+ ],
+ "rules": [
+  "Link the official IP office (and WIPO Lex where useful) and note any published rule on foreign ownership, licensing or first-to-file practice that a founder needs.",
+  "Country first. IP rights are almost always national."
+ ],
+ "version": 1
+}

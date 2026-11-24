@@ -1,0 +1,46 @@
+{
+ "id": "research-and-enterprise",
+ "name": "Research and enterprise opportunities",
+ "layer": "stay-and-enterprise",
+ "method": "agent",
+ "question": "What official universities, special economic zones, grants and stated industry strengths are open to an Australian researcher or founder?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 180,
+ "sources": [
+  "the official investment agency, higher-education ministry or grants portal",
+  "an official special economic zone authority"
+ ],
+ "fields": [
+  "summary",
+  "agency{name,url}",
+  "facts[]: label, text, source, checked",
+  "costs[]: item, amount, currency, aud, source, checked",
+  "confidence (read directly | search snapshot | unverified)",
+  "notes",
+  "sources[]"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "none-found",
+  "unknown"
+ ],
+ "rules": [
+  "Record official investment-agency or education-ministry links, named special economic zones, and published grant or industry-priority programmes. Do not pitch or rank countries.",
+  "This is official opportunity information for any Australian. It is not the tagged, personal Works and purpose fit pattern.",
+  "Country first. Write a lower-level record only when a zone or grant is clearly regional."
+ ],
+ "version": 1
+}

@@ -1,0 +1,46 @@
+{
+ "id": "citizenship",
+ "name": "Citizenship",
+ "layer": "stay-and-enterprise",
+ "method": "agent",
+ "question": "How can an Australian become a citizen here by naturalisation or descent, is dual citizenship allowed, and what restrictions apply?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 180,
+ "sources": [
+  "the national citizenship or immigration authority",
+  "the constitution or nationality act as published officially"
+ ],
+ "fields": [
+  "summary",
+  "agency{name,url}",
+  "facts[]: label, text, source, checked",
+  "costs[]: item, amount, currency, aud, source, checked",
+  "confidence (read directly | search snapshot | unverified)",
+  "notes",
+  "sources[]"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "none-found",
+  "unknown"
+ ],
+ "rules": [
+  "Record whether dual citizenship is allowed, official naturalisation residence years, and descent or registration routes, with the official link.",
+  "Australia allows dual citizenship; say so when it affects the traveller, and still record this country's own rule.",
+  "Country first. Citizenship is almost always national; do not copy the country record onto states."
+ ],
+ "version": 1
+}

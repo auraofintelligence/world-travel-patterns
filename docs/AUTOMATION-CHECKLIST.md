@@ -1,6 +1,6 @@
 # Automation checklist
 
-What future automations should check, and when. Generated 2026-11-19 by `scripts/recheck_plan.py` from repo data (machine copy: `config/recheck-plan.json`). Rebuild instead of editing by hand.
+What future automations should check, and when. Generated 2026-11-24 by `scripts/recheck_plan.py` from repo data (machine copy: `config/recheck-plan.json`). Rebuild instead of editing by hand.
 
 Rules that always apply: a failed fetch is not evidence of a change; never use projected or third-party dates; travel windows (config/cadence.json phases: 90, 30, 7 days out, daily in place) tighten everything below.
 
@@ -22,7 +22,15 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | zone-requirements | Permits for restricted areas, land councils, parks, island governments, border zones | The zone authority itself | quarterly (90 d) | Permit lead times decide when the approach phase starts. |
 | ancient-sites-and-mysteries | Access, tickets, permits, diving rules and heritage-law protection at ancient, underground and underwater sites | UNESCO World Heritage Centre; national heritage or antiquities authorities; site and park authorities | yearly (180 d) | Opening, ticket caps and closures change; lore stays labelled as claims. |
 | australian-law-abroad | Australian law and guidance that applies to Australians overseas | Commonwealth agency pages (DFAT, ABF, DAFF, ATO, Services Australia, AEC, AFP, AGD, Defence) | yearly (180 d) | Rules and thresholds change. |
+| citizenship | Naturalisation, descent, dual citizenship and restrictions | National citizenship authority or nationality act | yearly (180 d) | Residence years and dual-nationality rules are amended from time to time. |
+| collective-ownership | Cooperatives, mutuals, foundations, charities and associations | The official registry or ministry that oversees those forms | yearly (180 d) | Registration rules are slow-changing but portals move. |
+| digital-residency | E-residency, digital IDs, electronic signatures and renewals | National e-government or e-residency authority | yearly (180 d) | Programmes and renewal rules change. |
 | drone-pilot-pathway | Is there an official register or search tool of certified drone operators here, what licence or certificate must a commercial operator hold, can a foreign visitor fly commercially or must they hire a local operator, and what legal routes exist to existing aerial footage? | the national aviation authority (for example CASA, CAA, FAA, Transport Canada, MLIT, EASA and national authorities); state, park or council permit offices; national tourism boards' and film commissions' own media libraries | yearly (180 d) |  |
+| enterprise-establishment | Companies, subsidiaries, foreign ownership and the official registry | Official company registry; investment authority | yearly (180 d) | Ownership caps and registry portals change. |
+| financial-infrastructure | Banking, tax, investment and international transfers | National tax authority, central bank or financial regulator | yearly (180 d) | Tax rates, account rules and transfer controls change. |
+| intellectual-property | Patents, trademarks, licensing and official IP offices | National IP office; WIPO Lex as an official intergovernmental index | yearly (180 d) | Fees, treaties and office portals change. |
+| physical-residency | Temporary and permanent residency routes, presence rules and costs | Destination immigration or interior authority; Smartraveller second | yearly (180 d) | Residence classes and fees are revised often. |
+| research-and-enterprise | Universities, special economic zones, grants and official industry strengths | Official investment agency, education ministry or zone authority | yearly (180 d) | Grant windows and zone rules are time-limited. |
 | births-and-family-support | Birth rates and family support | UN WPP; national statistics | yearly (365 d) | Annual data releases. |
 | culture-and-protocol | Etiquette, respecting Country, community visitor guidance | The community's own guidance | yearly (365 d) | Slow-changing. |
 | culture-cycles | Public holidays, Ramadan and Islamic months, lunar new year, festivals | National calendars; Nager.Date as a signal | yearly (365 d) | Lunar and Islamic calendars move every year; next year's holidays are often announced late in the year. |
@@ -139,6 +147,7 @@ Rules that always apply: a failed fetch is not evidence of a change; never use p
 | 2027-11-20 | election | us/louisiana | Louisiana gubernatorial general election, Saturday 20 November 2027. Early voting 5 to 13 November. | Recheck advisory and local law 30 days before and in the week of the vote; confirm the date with the electoral commission. |
 | 2027-12-31 | law-or-rule-date | us/new-mexico | psychoactive-substances: ...or depression, PTSD, substance use disorders and end-of-life care. The Act requires the program to be running by 31 December 2027; one Department of | Recheck the official source about 60 days before, and again on the date. |
 | 2028-10 (month only) | law-or-rule-date | ch/canton-of-basel-landschaft | psychoactive-substances: ...nabis to enrolled participants through specialised shops in Liestal and Allschwil. Planned from November 2023 to October 2028, with up to 3,950 p | Recheck the official source about 60 days before, and again on the date. |
+| 2028-12 (month only) | law-or-rule-date | ch/canton-of-zurich | psychoactive-substances: ...shops and pharmacies in Schlieren, Horgen, Zurich, Winterthur, Wetzikon and Dübendorf. Planned from May 2024 to December 2028, with up to 7,500 p | Recheck the official source about 60 days before, and again on the date. |
 | date not announced | pending-event-date | ae | GITEX Global 2027 | organiser lists December 2027 in Dubai, no exact dates (checked 2026-11-01). Date not announced; check monthly from November 2026. |
 | date not announced | rule-change | at, be, bg, hr, cy, cz +24 | EU travel authorisation (ETIAS) for visa-exempt visitors. | Watch the official ETIAS page for a confirmed start date. The country list is the expected scope; confirm it from the same page. |
 | date not announced | pending-event-date | be | Tomorrowland Belgium 2027 | FAQ says info at end of 2026; rechecked 2026-11-02, still no official dates. Date not announced; check monthly from November 2026. |
@@ -330,7 +339,7 @@ Cadence: weekly = Do not travel; fortnightly = Reconsider your need to travel, a
 | ch/canton-of-basel-stadt | Exercise normal safety precautions | monthly | dated rule | psychoactive-substances date 2027-01-28 |
 | ch/canton-of-geneva | Exercise normal safety precautions | monthly | dated rule | psychoactive-substances date 2027-06-28 |
 | ch/canton-of-vaud | Exercise normal safety precautions | monthly | dated rule | psychoactive-substances date 2027-06-28 |
-| ch/canton-of-zurich | Exercise normal safety precautions | monthly | election | election 2027-04-04 |
+| ch/canton-of-zurich | Exercise normal safety precautions | monthly | dated rule, election | psychoactive-substances date 2028-12-28; election 2027-04-04 |
 | ci | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 5 confirm-in-writing |
 | ck | Exercise normal safety precautions | monthly | confirm in writing, snapshot evidence | 3 confirm-in-writing |
 | cl | Exercise a high degree of caution | monthly | confirm in writing, snapshot evidence | 2 confirm-in-writing |

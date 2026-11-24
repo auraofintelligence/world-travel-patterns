@@ -39,6 +39,7 @@
     ["cycles", "The year here", ["seasons-and-flow", "year-ahead"]],
     ["interest", "Ancient sites and mysteries", ["ancient-sites-and-mysteries"]],
     ["practical", "Practical", ["consular", "money-and-cost"]],
+    ["stay-and-enterprise", "Residency, citizenship and enterprise", ["digital-residency", "physical-residency", "citizenship", "enterprise-establishment", "collective-ownership", "financial-infrastructure", "intellectual-property", "research-and-enterprise"]],
     ["purpose", "Works and purpose", ["works-and-purpose"]],
   ];
   const AREA_LABEL = { "in-public": "In public", "in-private": "In private", "marriage-and-partnership": "Marriage and partnership", changing: "Changing", births: "Births", support: "Family support", official: "Official languages", english: "English", hotspots: "English hotspots",
@@ -204,6 +205,7 @@
     ["Permit zones", "Land council permits, community consent, visitor caps, guides, fees and seasonal closures inside a place, with lead times.", ["zone-requirements"]],
     ["The year here", "Wet and dry seasons, cyclone and storm months, busy and quiet months, festivals, fasting months and public holidays.", ["seasons-and-flow", "culture-cycles", "year-ahead"]],
     ["Help and money", "The nearest Australian embassy or consulate, the place's own offices in Australia, currency and cash limits.", ["consular", "money-and-cost"]],
+    ["Residency, citizenship and enterprise", "Digital and physical residency, citizenship, companies, cooperatives, banking and tax, intellectual property, and official research or investment openings.", ["digital-residency", "physical-residency", "citizenship", "enterprise-establishment", "collective-ownership", "financial-infrastructure", "intellectual-property", "research-and-enterprise"]],
   ];
   const PICKS = ["nz", "fj", "vu", "ws", "to", "id", "jp", "th", "sg", "us", "gb", "fr", "in", "np", "bt", "cn", "br", "au/minjerribah"];
 
@@ -440,6 +442,17 @@
           <b>${M[m.month - 1]}</b>${m.temp_c != null ? `<small>${Math.round(m.temp_c)}° · ${num(m.rain_mm)} mm</small>` : ""}<span>${esc((m.season || "").split(" (")[0])}</span>${m.hazard ? `<i>${esc(m.hazard.split(" (")[0])}</i>` : ""}${m.visitor_flow ? `<em>${esc((m.visitor_flow.match(/^[\d,]+/) || [m.visitor_flow.split(" ").slice(0, 3).join(" ")])[0])}${/^[\d,]+ (air )?visitors/.test(m.visitor_flow) ? " visitors" : ""}</em>` : ""}</div>`).join("")}</div>`;
       }
       (rec.events || []).filter((e) => partOn(pat.id, e.category)).forEach((e) => { body += `<div class="detail"><b>${esc(e.date)}${e.end ? " to " + esc(e.end) : ""}:</b> ${esc(e.what)}</div>`; });
+      if (rec.agency?.url) body += `<div class="detail"><b>Official agency:</b> <a href="${esc(rec.agency.url)}" rel="noopener">${esc(rec.agency.name || "official site")}</a></div>`;
+      (rec.facts || []).forEach((f) => {
+        const txt = viewText(f.text);
+        if (txt) body += `<div class="detail"><b>${esc(f.label || "Fact")}:</b> ${esc(txt)}${f.source ? ` <a href="${esc(f.source)}" rel="noopener">source</a>` : ""}</div>`;
+      });
+      (rec.costs || []).forEach((c) => {
+        const amount = c.amount === 0 ? "free" : [c.currency, c.amount != null ? num(c.amount) : ""].filter(Boolean).join(" ");
+        const aud = c.aud != null ? ` (about AUD ${num(c.aud)})` : "";
+        body += `<div class="detail"><b>Cost, ${esc(c.item || "fee")}:</b> ${esc(amount)}${aud}${c.source ? ` <a href="${esc(c.source)}" rel="noopener">source</a>` : ""}</div>`;
+      });
+      if (rec.confidence) body += `<div class="detail meta">Confidence: <span class="chip">${esc(rec.confidence)}</span></div>`;
       if (rec.sources?.length) body += `<div class="detail meta">Sources: ${rec.sources.slice(0, 4).map((s) => `<a href="${esc(s.url)}" rel="noopener">${esc(s.authority || s.title || "source")}</a>`).join(" · ")}${rec.sources.length > 4 ? ` and ${rec.sources.length - 4} more` : ""}</div>`;
       return body + "</li>";
     }
@@ -842,7 +855,7 @@
     const app = document.getElementById("app");
     const [index, creditFile] = await Promise.all([json("site/data/index.json", null), json("site/heroes/credits.json", { images: [] })]);
     if (!index) { app.innerHTML = '<section class="section"><h1>Data not built</h1><p>Run <code>python scripts/build_site.py</code>, then serve the repo folder over HTTP.</p></section>'; return; }
-    const ORDER = ["advisory", "entry", "visa-preparation", "activities", "zone-requirements", "health-entry", "local-law", "australian-law-abroad", "culture-and-protocol", "languages", "affection-and-relationships", "births-and-family-support", "psychoactive-substances", "culture-cycles", "seasons-and-flow", "year-ahead", "consular", "money-and-cost", "works-and-purpose"];
+    const ORDER = ["advisory", "entry", "visa-preparation", "activities", "zone-requirements", "health-entry", "local-law", "australian-law-abroad", "culture-and-protocol", "languages", "affection-and-relationships", "births-and-family-support", "psychoactive-substances", "culture-cycles", "seasons-and-flow", "year-ahead", "consular", "money-and-cost", "digital-residency", "physical-residency", "citizenship", "enterprise-establishment", "collective-ownership", "financial-infrastructure", "intellectual-property", "research-and-enterprise", "works-and-purpose"];
     index.patterns.sort((a, b) => (ORDER.indexOf(a.id) + 1 || 99) - (ORDER.indexOf(b.id) + 1 || 99));
     index.byId = Object.fromEntries(index.places.map((p) => [p.id, p]));
     IDX = index;

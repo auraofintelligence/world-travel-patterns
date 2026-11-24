@@ -1,0 +1,44 @@
+{
+ "id": "collective-ownership",
+ "name": "Collective ownership",
+ "layer": "stay-and-enterprise",
+ "method": "agent",
+ "question": "What official forms exist for cooperatives, mutuals, foundations, charities and associations, and can a foreigner take part?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 180,
+ "sources": [
+  "the official registry or ministry that oversees cooperatives, foundations, charities or associations"
+ ],
+ "fields": [
+  "summary",
+  "agency{name,url}",
+  "facts[]: label, text, source, checked",
+  "costs[]: item, amount, currency, aud, source, checked",
+  "confidence (read directly | search snapshot | unverified)",
+  "notes",
+  "sources[]"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "none-found",
+  "unknown"
+ ],
+ "rules": [
+  "List the official legal forms and the registry or ministry that oversees them, plus any foreign-participation limit that is published.",
+  "Country first. Write a lower-level record only when registration is clearly regional."
+ ],
+ "version": 1
+}

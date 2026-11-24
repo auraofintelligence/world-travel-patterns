@@ -1,0 +1,45 @@
+{
+ "id": "enterprise-establishment",
+ "name": "Enterprise establishment",
+ "layer": "stay-and-enterprise",
+ "method": "agent",
+ "question": "Can an Australian form a company or subsidiary here, including foreign-ownership limits and the official registry?",
+ "applies_to": [
+  "country",
+  "territory",
+  "associated",
+  "jurisdiction",
+  "state",
+  "district",
+  "region",
+  "island",
+  "island-group",
+  "nation"
+ ],
+ "inherit": "nearest",
+ "baseline_days": 180,
+ "sources": [
+  "the official company or business registry",
+  "the national investment or trade authority"
+ ],
+ "fields": [
+  "summary",
+  "agency{name,url}",
+  "facts[]: label, text, source, checked",
+  "costs[]: item, amount, currency, aud, source, checked",
+  "confidence (read directly | search snapshot | unverified)",
+  "notes",
+  "sources[]"
+ ],
+ "statuses": [
+  "mapped",
+  "partly-mapped",
+  "none-found",
+  "unknown"
+ ],
+ "rules": [
+  "Say whether foreigners can own 100 percent, name the usual company forms, and link the official registry.",
+  "Country first. Write a state or region record only when registration or ownership rules clearly differ, such as a US state LLC."
+ ],
+ "version": 1
+}
