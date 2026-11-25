@@ -194,7 +194,7 @@ Two modes: **Baseline** maps places year-round; **Window** tightens rechecks for
 | [Validation](.github/workflows/validate.yml) | Push and pull request | Validate data, exercise a dated queue and run Python unit tests |
 | Round 1 research | Manual agent sessions | Luke directs Claude, Codex and Grok through official-source research passes |
 
-These are configured trigger times, not promises of execution or successful fetches. In particular, the advisory data file at the time of this review reports a last successful check of 29 October 2026 despite later daily workflow commits. The site should be read with its displayed last-check date; verify current advice directly with [Smartraveller](https://www.smartraveller.gov.au/).
+**Baseline-first research phase:** Luke has deliberately paused updates until the initial research baseline is complete. The schedules above describe the configured workflow definitions, not a commitment that all refreshes are currently active. During this phase, the advisory snapshot and other dated records may remain unchanged. The advisory file at the time of this review reports 29 October 2026 as its last successful check. Verify current travel advice directly with [Smartraveller](https://www.smartraveller.gov.au/) before relying on it. Resume routine updates after the baseline is complete, when authorised by Luke.
 
 The original Claude scheduled place passes, monthly cycles and window watch were switched off on 4 November 2026. Their routine definitions remain in [routines/](routines/) for manual or future authorised use. The [automation checklist](docs/AUTOMATION-CHECKLIST.md) and [machine-readable recheck plan](config/recheck-plan.json) describe suggested future checks, not additional active schedules.
 
